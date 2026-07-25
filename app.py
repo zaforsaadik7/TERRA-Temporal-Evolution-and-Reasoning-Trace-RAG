@@ -2,7 +2,8 @@ import os
 import time
 import json
 import uvicorn
-from datetime import datetime
+import threading
+from datetime import datetime, timezone
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
@@ -10,8 +11,10 @@ from pydantic import BaseModel
 # Import our GraphRAG inference components
 try:
     from ask_terra import terra_inference_engine, traffic_cop_router, collection, eeg
-except ImportError:
-    print("[ERROR] Could not import ask_terra.py elements. Ensure ask_terra.py is in the directory.")
+except Exception as e:
+    print(f"[ERROR] Could not import ask_terra.py elements: {e}")
+    import traceback
+    traceback.print_exc()
     exit(1)
 
 # Initialize FastAPI app
@@ -21,17 +24,28 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# In-Memory Cache Layers (Implements Caching suggestion)
+# In-Memory Cache Layers with Capacity Bounding and Thread Safety
+MAX_CACHE_SIZE = 1000
 query_cache = {}
 explain_cache = {}
+cache_lock = threading.Lock()
 
-# Telemetry Log File (Implements Observability & Tracing suggestion)
-TELEMETRY_LOG_FILE = "terra_telemetry_traces.json"
+def set_bounded_cache(cache_dict: dict, key: str, value: dict, max_size: int = MAX_CACHE_SIZE):
+    """Stores key in cache dict, evicting oldest item if max capacity is reached (Thread-Safe)."""
+    with cache_lock:
+        if len(cache_dict) >= max_size and key not in cache_dict:
+            # Evict oldest inserted key (FIFO/LRU behavior for standard dicts in Python 3.7+)
+            first_key = next(iter(cache_dict))
+            cache_dict.pop(first_key, None)
+        cache_dict[key] = value
+
+# Telemetry Log File (Appends in O(1) time)
+TELEMETRY_LOG_FILE = "terra_telemetry_traces.jsonl"
 
 def log_telemetry(query: str, route: str, latency_ms: float, status: str, details: dict):
-    """Logs detailed waterfall tracing checkpoints for local pipeline observability."""
+    """Logs detailed waterfall tracing checkpoints using fast append-only JSONL format."""
     trace_record = {
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
         "query": query,
         "traffic_cop_route": route,
         "latency_ms": round(latency_ms, 2),
@@ -39,21 +53,10 @@ def log_telemetry(query: str, route: str, latency_ms: float, status: str, detail
         "telemetry_checkpoints": details
     }
     
-    # Read existing logs
-    logs = []
-    if os.path.exists(TELEMETRY_LOG_FILE):
-        try:
-            with open(TELEMETRY_LOG_FILE, "r") as f:
-                logs = json.load(f)
-        except Exception:
-            logs = []
-            
-    logs.append(trace_record)
-    
-    # Save back to file
+    # Fast O(1) append to telemetry log
     try:
-        with open(TELEMETRY_LOG_FILE, "w") as f:
-            json.dump(logs, f, indent=4)
+        with open(TELEMETRY_LOG_FILE, "a", encoding="utf-8") as f:
+            f.write(json.dumps(trace_record) + "\n")
     except Exception as e:
         print(f"[TELEMETRY ERROR] Could not save telemetry trace: {e}")
 
@@ -570,14 +573,29 @@ HTML_CONTENT = """
                 const cacheBadge = document.getElementById('cache-badge');
                 cacheBadge.style.display = qResult.cached ? 'inline-block' : 'none';
 
-                // Populate Answer with hyperlinked html conversion
-                let answerHtml = qResult.answer;
-                // Simple regex to parse markdown links
-                const mdLinkRegex = /\\[([^\\]]+)\\]\\((\\/case\\/\\w+)\\)/g;
-                answerHtml = answerHtml.replace(mdLinkRegex, '<a href="$2">$1</a>');
+                function escapeHtml(str) {
+                    if (!str) return '';
+                    return String(str)
+                        .replace(/&/g, '&amp;')
+                        .replace(/</g, '&lt;')
+                        .replace(/>/g, '&gt;')
+                        .replace(/"/g, '&quot;')
+                        .replace(/'/g, '&#039;');
+                }
+
+                // Populate Answer with hyperlinked html conversion safely
+                let rawAnswer = escapeHtml(qResult.answer);
+                // Convert escaped markdown case links back to secure <a> elements
+                const mdLinkRegex = /\[([^\]]+)\]\(([^\)]+)\)/g;
+                let answerHtml = rawAnswer.replace(mdLinkRegex, function(match, label, url) {
+                    if (url.startsWith('/case/')) {
+                        return `<a href="${url}">${label}</a>`;
+                    }
+                    return match;
+                });
                 document.getElementById('answer').innerHTML = answerHtml;
 
-                // Populate Graph Paths
+                // Populate Graph Paths safely
                 const pathsDiv = document.getElementById('paths');
                 pathsDiv.innerHTML = '';
 
@@ -588,7 +606,13 @@ HTML_CONTENT = """
                         const card = document.createElement('div');
                         card.className = 'edge-card';
                         
-                        card.innerHTML = `<a href="javascript:void(0)" onclick="showCaseDetails('${p.source_id}')"><strong>${p.source_title}</strong></a> <span class="relation">${p.relation}</span> <a href="javascript:void(0)" onclick="showCaseDetails('${p.target_id}')"><strong>${p.target_title}</strong></a>`;
+                        const srcId = escapeHtml(p.source_id);
+                        const srcTitle = escapeHtml(p.source_title);
+                        const rel = escapeHtml(p.relation);
+                        const tgtId = escapeHtml(p.target_id);
+                        const tgtTitle = escapeHtml(p.target_title);
+
+                        card.innerHTML = `<a href="javascript:void(0)" onclick="showCaseDetails('${srcId}')"><strong>${srcTitle}</strong></a> <span class="relation">${rel}</span> <a href="javascript:void(0)" onclick="showCaseDetails('${tgtId}')"><strong>${tgtTitle}</strong></a>`;
                         pathsDiv.appendChild(card);
                     });
                 }
@@ -618,6 +642,8 @@ def execute_query(request: QueryRequest):
     query_text = request.query.strip()
     if not query_text:
         raise HTTPException(status_code=400, detail="Query cannot be empty.")
+    if len(query_text) > 2000:
+        raise HTTPException(status_code=400, detail="Query exceeds maximum allowed length of 2000 characters.")
     
     start_time = time.time()
     
@@ -642,12 +668,13 @@ def execute_query(request: QueryRequest):
         
         latency = (time.time() - start_time) * 1000
         
-        # Save to In-Memory Cache
-        query_cache[query_text] = {
+        # Save to In-Memory Bounded Cache
+        set_bounded_cache(query_cache, query_text, {
             "route": route,
             "answer": answer,
             "context": context
-        }
+        })
+
         
         # Determine status details for Telemetry Log (Implements Observability & Tracing)
         status = "REJECTED" if "apologize" in answer.lower() or "validated legal context" in answer.lower() else "PASSED"
@@ -681,6 +708,8 @@ def explain_query(request: QueryRequest):
     query_text = request.query.strip()
     if not query_text:
         raise HTTPException(status_code=400, detail="Query cannot be empty.")
+    if len(query_text) > 2000:
+        raise HTTPException(status_code=400, detail="Query exceeds maximum allowed length of 2000 characters.")
         
     # Check Caching Layer
     if query_text in explain_cache:
@@ -758,11 +787,12 @@ def explain_query(request: QueryRequest):
                 if predecessor not in visited and depth + 1 <= 2:
                     queue.append((predecessor, depth + 1))
                     
-        # Save to Cache
-        explain_cache[query_text] = {
+        # Save to Bounded Cache
+        set_bounded_cache(explain_cache, query_text, {
             "seed_cases": seed_cases,
             "traversed_paths": traversed_paths
-        }
+        })
+
         
         return ExplainResponse(
             query=query_text,

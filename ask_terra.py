@@ -11,18 +11,31 @@ from dotenv import load_dotenv
 # Load local environment configurations
 load_dotenv()
 
-# 1. Configure Gemini Client
-api_key = os.environ.get("GEMINI_API_KEY")
-if not api_key:
-    raise KeyError("GEMINI_API_KEY environment variable is not set. Please configure it in a local .env file.")
-client = genai.Client(api_key=api_key)
+# 1. Configure Gemini Client (Optional if running purely with local LLM / Ollama)
+api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+client = None
+if api_key:
+    client = genai.Client(api_key=api_key)
 
-# Configure OpenAI Client
+# Configure OpenAI / OpenRouter / Local Ollama Client
 import openai
-openai_api_key = os.environ.get("OPENAI_API_KEY")
-if not openai_api_key:
-    raise KeyError("OPENAI_API_KEY environment variable is not set. Please configure it in a local .env file.")
-openai_client = openai.OpenAI(api_key=openai_api_key)
+openai_api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+use_local_ollama = os.environ.get("USE_LOCAL_OLLAMA", "").strip().lower() in ("true", "1", "yes") or openai_api_key.lower() == "ollama"
+
+if use_local_ollama:
+    OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "hf.co/unsloth/gemma-4-12b-it-GGUF:Q4_K_M")
+    print(f"[LOCAL OLLAMA] Using local model '{OLLAMA_MODEL}' at http://localhost:11434/v1 (No API key needed!)")
+    openai_client = openai.OpenAI(api_key="ollama", base_url="http://localhost:11434/v1")
+else:
+    OLLAMA_MODEL = None
+    if not openai_api_key and not client:
+        raise KeyError("Neither OPENAI_API_KEY nor GEMINI_API_KEY is set in environment. Please configure at least one in a local .env file.")
+    if openai_api_key.startswith("sk-or-"):
+        openai_client = openai.OpenAI(api_key=openai_api_key, base_url="https://openrouter.ai/api/v1")
+    elif openai_api_key:
+        openai_client = openai.OpenAI(api_key=openai_api_key)
+    else:
+        openai_client = None
 
 def clean_json_text(text: str) -> str:
     text = text.strip()
@@ -154,7 +167,10 @@ def generate_content_with_retry_openai(openai_client, model, contents, config=No
                 is_json = True
 
     import openai
-    candidate_models = [openai_model, "gpt-4o", "gpt-4o-mini"]
+    if OLLAMA_MODEL:
+        candidate_models = [OLLAMA_MODEL]
+    else:
+        candidate_models = [openai_model, "gpt-4o", "gpt-4o-mini"]
     seen = set()
     models_to_try = [m for m in candidate_models if not (m in seen or seen.add(m))]
 
@@ -166,7 +182,8 @@ def generate_content_with_retry_openai(openai_client, model, contents, config=No
                 if is_json:
                     if "json" not in call_contents.lower():
                         call_contents += "\n\nIMPORTANT: Output strictly a valid JSON object."
-                    extra_args["response_format"] = {"type": "json_object"}
+                    if not OLLAMA_MODEL:
+                        extra_args["response_format"] = {"type": "json_object"}
                     
                 messages = [{"role": "user", "content": call_contents}]
                 response = openai_client.chat.completions.create(
@@ -177,6 +194,16 @@ def generate_content_with_retry_openai(openai_client, model, contents, config=No
                 )
                 text_content = response.choices[0].message.content
                 return CleanResponseOpenAI(text_content, is_json=is_json, model_used=m)
+            except openai.AuthenticationError as e:
+                print(f"[OPENAI AUTH ERROR] Invalid OpenAI API Key: {e}")
+                raise RuntimeError("Invalid OPENAI_API_KEY in .env file. Please configure a valid OpenAI API key in .env.") from e
+            except openai.BadRequestError as e:
+                print(f"[OPENAI BAD REQUEST ERROR] Request rejected by model: {e}")
+                if ("context" in str(e).lower() or "exceed" in str(e).lower() or "tokens" in str(e).lower()) and len(call_contents) > 4000:
+                    print("[CONTEXT CAP] Truncating oversized prompt to 4000 chars...")
+                    call_contents = call_contents[:4000] + "\n... [Context truncated]"
+                    continue
+                raise e
             except (openai.RateLimitError, openai.APIStatusError) as e:
                 err_str = str(e)
                 wait_time = 15 * (attempt + 1)
@@ -197,9 +224,9 @@ def generate_content_with_retry_openai(openai_client, model, contents, config=No
 # 2. Reconstruct the Event Evolution Graph (EEG)
 print("Loading Event Evolution Graph...")
 try:
-    with open("terra_eeg_index.json", "r") as f:
+    with open("terra_eeg_index.json", "r", encoding="utf-8") as f:
         graph_data = json.load(f)
-    eeg = nx.node_link_graph(graph_data)
+    eeg = nx.node_link_graph(graph_data, edges="edges" if "edges" in graph_data else "links")
 except Exception as e:
     print(f"[FATAL ERROR] Could not load graph: {e}")
     exit(1)
@@ -207,7 +234,7 @@ except Exception as e:
 # 3. Connect to the Thinking Traces Vector Database
 print("Connecting to ChromaDB...")
 chroma_client = chromadb.PersistentClient(path="./terra_vector_db")
-collection = chroma_client.get_collection(name="thinking_traces")
+collection = chroma_client.get_or_create_collection(name="thinking_traces")
 
 
 # --- MODULE 3: THE TRAFFIC COP (Structured Intent Router) ---
@@ -216,22 +243,27 @@ class RoutingDecision(BaseModel):
     reason: str
 
 def is_query_in_domain(query_text: str) -> bool:
-    """Dynamically checks if a query is in-domain using case titles and vector distances (TIER 1.5)."""
-    # 1. Direct active case name substring matches
-    active_case_titles = [eeg.nodes[n].get("title", "") for n in eeg.nodes if eeg.nodes[n].get("title")]
+    """Dynamically checks if a query is in-domain using curated case titles and vector distances."""
+    # 1. Direct active curated case name substring matches (filtering out synthetic cases)
+    active_case_titles = [
+        eeg.nodes[n].get("title", "")
+        for n in eeg.nodes
+        if eeg.nodes[n].get("title") and not eeg.nodes[n].get("is_synthetic", False)
+    ]
     query_lower = query_text.lower()
     for title in active_case_titles:
-        if title and title.lower() in query_lower:
+        if title and len(title) > 4 and title.lower() in query_lower:
             return True
             
     # 2. ChromaDB vector space proximity check (threshold-based semantic safety check)
     try:
-        results = collection.query(query_texts=[query_text], n_results=1)
-        if results and results.get('distances') and results['distances'][0]:
-            distance = results['distances'][0][0]
-            # Clean L2 distance threshold for domain boundary: distance < 1.3
-            if distance < 1.3:
-                return True
+        if collection.count() > 0:
+            results = collection.query(query_texts=[query_text], n_results=1)
+            if results and results.get('distances') and results['distances'][0]:
+                distance = results['distances'][0][0]
+                # Clean L2 distance threshold for domain boundary: distance < 1.3
+                if distance < 1.3:
+                    return True
     except Exception as e:
         print(f"[DOMAIN CHECK ERROR] {e}")
     return False
@@ -240,7 +272,11 @@ def traffic_cop_router(user_query: str) -> str:
     in_domain = is_query_in_domain(user_query)
     
     # Compile dynamic active titles to contextualize the routing prompt
-    active_case_titles = [eeg.nodes[n].get("title", "") for n in eeg.nodes if eeg.nodes[n].get("title")]
+    active_case_titles = [
+        eeg.nodes[n].get("title", "")
+        for n in eeg.nodes
+        if eeg.nodes[n].get("title") and not eeg.nodes[n].get("is_synthetic", False)
+    ]
     titles_list = ", ".join(active_case_titles[:10])
     
     prompt = f"""You are a routing classifier for a legal AI system. Classify the query below as either 'EASY' or 'HARD'.
@@ -274,7 +310,10 @@ def traffic_cop_router(user_query: str) -> str:
             config={'response_mime_type': 'application/json', 'response_schema': RoutingDecision}
         )
         result = json.loads(response.text)
-        complexity = result.get('complexity') or result.get('classification') or result.get('route') or "HARD"
+        complexity_raw = result.get('complexity') or result.get('classification') or result.get('route') or "HARD"
+        complexity = str(complexity_raw).strip().upper()
+        if complexity not in ("EASY", "HARD"):
+            complexity = "HARD"
         reason = result.get('reason') or result.get('reasoning') or ""
         print(f"[TRAFFIC COP] Classification: {complexity} | Reason: {reason}")
         return complexity
@@ -315,22 +354,22 @@ def smart_grader(user_query: str, retrieved_context: str) -> bool:
 
 # --- INFERENCE ENGINE SUPPORT FUNCTIONS ---
 
-def extract_graph_context(retrieved_metadatas, max_depth=2) -> str:
+def extract_graph_context(retrieved_metadatas, max_depth=2, max_nodes=15) -> str:
     """
-    Upgraded Graph Trajectory Extractor (Fixes Issue 2 & 3).
-    Performs multi-hop traversal (depth up to max_depth) and uses safe dict lookups.
+    Upgraded Graph Trajectory Extractor.
+    Performs multi-hop traversal with max_depth and max_nodes cap to prevent context explosion.
     """
     structural_context = ""
     visited_nodes = set()
     
-    # We will traverse starting from the cases retrieved in the vector search
+    # We will traverse starting from the cases retrieved in the vector search / fallback
     queue = []
     for meta in retrieved_metadatas:
         case_id = meta.get('case_id')
         if case_id and eeg.has_node(case_id):
             queue.append((case_id, 0)) # Store (node, current_depth)
             
-    while queue:
+    while queue and len(visited_nodes) < max_nodes:
         current_id, depth = queue.pop(0)
         
         if current_id in visited_nodes or depth > max_depth:
@@ -417,12 +456,27 @@ def terra_inference_engine(user_query, return_timing=False):
         print(f"[TERRA] Retrieval Attempt {attempt + 1}: Querying ChromaDB with n_results={n_results}")
 
         _t0 = time.time()
-        vector_results = collection.query(query_texts=[user_query], n_results=n_results)
-        retrieved_traces = vector_results['documents'][0]
-        retrieved_metadatas = vector_results['metadatas'][0]
-        structural_context = extract_graph_context(retrieved_metadatas, max_depth=2)
+        retrieved_traces = []
+        retrieved_metadatas = []
+        if collection.count() > 0:
+            vector_results = collection.query(query_texts=[user_query], n_results=n_results)
+            retrieved_traces = vector_results.get('documents', [[]])[0]
+            retrieved_metadatas = vector_results.get('metadatas', [[]])[0]
+        else:
+            # Fallback to direct EEG graph seeding using title matching
+            query_lower = user_query.lower()
+            for n, data in eeg.nodes(data=True):
+                title = data.get("title", "")
+                if title and any(w in title.lower() for w in query_lower.split() if len(w) > 3):
+                    retrieved_metadatas.append({"case_id": n})
+                    if len(retrieved_metadatas) >= n_results:
+                        break
+
+        structural_context = extract_graph_context(retrieved_metadatas, max_depth=2, max_nodes=15)
         traces_context = "\n".join([f"- {t}" for t in retrieved_traces])
-        full_compiled_context = f"{structural_context}\n{traces_context}"
+        full_compiled_context = f"{structural_context}\n{traces_context}".strip()
+        if len(full_compiled_context) > 8000:
+            full_compiled_context = full_compiled_context[:8000] + "\n... [Context truncated for optimal LLM context size]"
         _timing.setdefault('retrieval_ms', round((time.time() - _t0) * 1000, 2))
 
         # Evaluate context quality with the Smart Grader

@@ -9,11 +9,11 @@ def run_graph_audit():
         return
 
     print(f"Loading Graph Index from '{index_file}'...")
-    with open(index_file, "r") as f:
+    with open(index_file, "r", encoding="utf-8") as f:
         graph_data = json.load(f)
 
     # Load into NetworkX
-    eeg = nx.node_link_graph(graph_data)
+    eeg = nx.node_link_graph(graph_data, edges="edges" if "edges" in graph_data else "links")
 
     num_nodes = eeg.number_of_nodes()
     num_edges = eeg.number_of_edges()

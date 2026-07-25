@@ -14,8 +14,9 @@ print(f"\n--- FOUND {len(results['ids'])} TRACES ---\n")
 # 3. Loop through and print them beautifully
 for i in range(len(results['ids'])):
     case_id = results['ids'][i]
-    title = results['metadatas'][i]['title']
-    trace = results['documents'][i]
+    meta = results['metadatas'][i] if results.get('metadatas') and i < len(results['metadatas']) else {}
+    title = (meta or {}).get('title', f'Case #{case_id}')
+    trace = results['documents'][i] if results.get('documents') and i < len(results['documents']) else ''
     
     print(f"[{case_id}] {title}")
     print("-" * 40)

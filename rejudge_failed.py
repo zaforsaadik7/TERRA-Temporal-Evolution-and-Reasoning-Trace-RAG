@@ -123,10 +123,9 @@ def main():
         query = r["query"]
         answer = r["answer_preview"]
         
-        # We don't have full context stored, so judge without context for non-direct pipelines
-        # This is acceptable because we're using a skeptical critic who evaluates legal accuracy
+        # Retrieve compiled context stored in the record (if available)
         is_direct = (pipeline == "1_Direct_LLM")
-        context = ""  # Context not stored in raw results; judge evaluates answer quality directly
+        context = r.get("context_full") or r.get("context") or ""
         
         print(f"  [{qid}] {pipeline}...")
         result = rejudge_answer(query, context, answer, is_direct_llm=is_direct)

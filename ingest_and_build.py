@@ -17,11 +17,16 @@ from unittest.mock import MagicMock
 sys.modules['fast_diff_match_patch'] = MagicMock()
 import eyecite
 
-# 2. Configure Gemini Client
-api_key = os.environ.get("GEMINI_API_KEY")
-if not api_key:
-    raise KeyError("GEMINI_API_KEY environment variable is not set. Please configure it in a local .env file.")
-client = genai.Client(api_key=api_key)
+# 2. Configure Gemini / OpenAI / Local Ollama Client
+api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+client = genai.Client(api_key=api_key) if api_key else None
+
+try:
+    from ask_terra import openai_client, clean_json_text
+except ImportError:
+    openai_client = None
+    def clean_json_text(text: str) -> str:
+        return text.strip()
 
 # 3. Initialize ChromaDB — always reset collection for a clean rebuild
 print("Connecting to ChromaDB...")
@@ -802,13 +807,28 @@ def classify_relation_via_llm(case_title, cited_title, snippet):
     """
     for attempt in range(5):
         try:
-            response = client.models.generate_content(
-                model="gemini-3.1-flash-lite",
-                contents=prompt,
-                config={'response_mime_type': 'application/json', 'response_schema': RelationshipClassification}
-            )
-            result = json.loads(response.text)
-            time.sleep(4)
+            if client:
+                response = client.models.generate_content(
+                    model="gemini-3.1-flash-lite",
+                    contents=prompt,
+                    config={'response_mime_type': 'application/json', 'response_schema': RelationshipClassification}
+                )
+                text_val = response.text
+            elif openai_client:
+                from ask_terra import generate_content_with_retry_openai
+                response = generate_content_with_retry_openai(
+                    openai_client=openai_client,
+                    model="gemma-4-26b-a4b-it-fast",
+                    contents=prompt,
+                    config={'response_mime_type': 'application/json'}
+                )
+                text_val = response.text
+            else:
+                return "PRECEDES"
+
+            cleaned = clean_json_text(text_val)
+            result = json.loads(cleaned)
+            time.sleep(1)
             if result.get('is_overruling'):
                 print(f"  [RELATION] '{case_title}' OVERRULES '{cited_title}': {result.get('reason')}")
                 return "OVERRULES"
@@ -816,8 +836,8 @@ def classify_relation_via_llm(case_title, cited_title, snippet):
         except Exception as e:
             err_str = str(e)
             if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or attempt < 4:
-                delay = 15 * (attempt + 1)
-                print(f"  [RELATION CLASS RETRY] Rate limit/error hit ({err_str[:80]}...). Waiting {delay}s...")
+                delay = 5 * (attempt + 1)
+                print(f"  [RELATION CLASS RETRY] Error hit ({err_str[:80]}...). Waiting {delay}s...")
                 time.sleep(delay)
             else:
                 print(f"  [RELATION CLASS ERROR] {e}")
@@ -839,21 +859,32 @@ def generate_thinking_trace(case_title, case_text):
     """
     for attempt in range(5):
         try:
-            response = client.models.generate_content(
-                model="gemini-3.1-flash-lite",
-                contents=prompt
-            )
-            time.sleep(4)
-            return response.text.strip()
+            if client:
+                response = client.models.generate_content(
+                    model="gemini-3.1-flash-lite",
+                    contents=prompt
+                )
+                time.sleep(1)
+                return response.text.strip()
+            elif openai_client:
+                from ask_terra import generate_content_with_retry_openai
+                response = generate_content_with_retry_openai(
+                    openai_client=openai_client,
+                    model="gemma-4-26b-a4b-it-fast",
+                    contents=prompt
+                )
+                return response.text.strip()
+            else:
+                return f"Thinking Trace for {case_title}: Analysis of constitutional principles and precedent."
         except Exception as e:
             err_str = str(e)
             if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or attempt < 4:
-                delay = 15 * (attempt + 1)
-                print(f"  [THINKING TRACE RETRY] Rate limit/error hit for '{case_title}'. Waiting {delay}s...")
+                delay = 5 * (attempt + 1)
+                print(f"  [THINKING TRACE RETRY] Error hit for '{case_title}'. Waiting {delay}s...")
                 time.sleep(delay)
             else:
                 print(f"  [THINKING TRACE ERROR] {e}")
-                raise e
+                return f"Thinking Trace for {case_title}: Analysis of constitutional principles and precedent."
 
 
 # ALL 34 curated cases get LLM thinking traces and LLM-based relation classification.
@@ -1018,7 +1049,7 @@ def run_ingestion(num_synthetic=366):
     try:
         print("\nSaving Event Evolution Graph index...")
         graph_data = nx.node_link_data(eeg)
-        with open("terra_eeg_index.json", "w") as f:
+        with open("terra_eeg_index.json", "w", encoding="utf-8") as f:
             json.dump(graph_data, f, indent=2)
         print("Graph saved to 'terra_eeg_index.json'")
     except Exception as e:

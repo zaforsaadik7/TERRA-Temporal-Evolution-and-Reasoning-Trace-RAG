@@ -54,11 +54,13 @@ except ImportError:
     print("[ERROR] Could not import ask_terra.py elements. Ensure it is in the directory.")
     exit(1)
 
-# Configure Gemini Judge Client (separate client instance, separate API key)
-judge_api_key = os.environ.get("GOOGLE_JUDGE_API_KEY")
-if not judge_api_key:
-    raise KeyError("GOOGLE_JUDGE_API_KEY environment variable is not set. Please configure it in a local .env file.")
-judge_client = genai.Client(api_key=judge_api_key)
+# Configure Gemini Judge Client (with fallback to GEMINI_API_KEY or OpenAI/local LLM client)
+judge_api_key = (
+    os.environ.get("GOOGLE_JUDGE_API_KEY") or
+    os.environ.get("GEMINI_API_KEY_EVAL") or
+    os.environ.get("GEMINI_API_KEY", "").strip()
+)
+judge_client = genai.Client(api_key=judge_api_key) if judge_api_key else None
 
 
 # ===========================================================================
@@ -449,13 +451,26 @@ def judge_answer(query: str, context: str, answer: str, is_direct_llm=False) -> 
         )
 
     try:
-        response = generate_content_with_retry(
-            client=judge_client, model="gemini-2.5-flash", contents=prompt,
-            config={'response_mime_type': 'application/json', 'response_schema': EvaluationMetrics}
-        )
-        result = json.loads(response.text)
-        result["_judge_model_used"] = response.model_used
-        return result
+        if judge_client:
+            response = generate_content_with_retry(
+                client=judge_client, model="gemini-2.5-flash", contents=prompt,
+                config={'response_mime_type': 'application/json', 'response_schema': EvaluationMetrics}
+            )
+            result = json.loads(response.text)
+            result["_judge_model_used"] = response.model_used
+            return result
+        elif openai_client:
+            response = generate_content_with_retry_openai(
+                openai_client=openai_client, model="gemma-4-26b-a4b-it", contents=prompt,
+                config={'response_mime_type': 'application/json'}
+            )
+            from ask_terra import clean_json_text
+            cleaned = clean_json_text(response.text)
+            result = json.loads(cleaned)
+            result["_judge_model_used"] = response.model_used
+            return result
+        else:
+            raise RuntimeError("No LLM client configured for judge evaluation.")
     except Exception as e:
         print(f"  [JUDGE ERROR] {e}")
         # Return None instead of 0.0 to avoid poisoning averages.

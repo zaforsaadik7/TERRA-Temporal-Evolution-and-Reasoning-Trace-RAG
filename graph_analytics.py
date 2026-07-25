@@ -26,9 +26,9 @@ def run_graph_analytics(index_file="terra_eeg_index.json", output_file="terra_gr
         return
 
     print(f"\nLoading graph from '{index_file}'...")
-    with open(index_file, "r") as f:
+    with open(index_file, "r", encoding="utf-8") as f:
         graph_data = json.load(f)
-    eeg = nx.node_link_graph(graph_data)
+    eeg = nx.node_link_graph(graph_data, edges="edges" if "edges" in graph_data else "links")
 
     n_nodes = eeg.number_of_nodes()
     n_edges = eeg.number_of_edges()
@@ -195,7 +195,7 @@ def run_graph_analytics(index_file="terra_eeg_index.json", output_file="terra_gr
         "edge_relation_distribution": relation_counts
     }
 
-    with open(output_file, "w") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(metrics, f, indent=2)
 
     print(f"\n{'='*60}")
