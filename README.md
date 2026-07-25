@@ -152,7 +152,7 @@ For structured evaluation, refer to [`sample_terra_queries.md`](file:///d:/App%2
 
 ## 👨‍💻 Author & Attribution
 
-Developed & Maintained by **Md. Emam Zafor Saadik** ([@zaforsaadik7](https://github.com/zaforsaadik7))
+Developed & Maintained by **Md. Emam Zafor Saadik And Muhammad Raihan Molla** ([@zaforsaadik7](https://github.com/zaforsaadik7)), ([@raihan12121](https://github.com/raihan12121)) 
 
 ---
 
