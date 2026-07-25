@@ -470,6 +470,11 @@ HTML_CONTENT = """
                 
                 <div id="answer" class="answer-box"></div>
                 
+                <div class="graph-section" style="margin-bottom: 1.5rem;">
+                    <div class="graph-title">Local Model Reasoning & Retrieved Context</div>
+                    <div id="context-box" style="background-color: var(--bg-color); border: 1px solid rgba(102, 252, 241, 0.1); border-radius: 8px; padding: 1rem; font-size: 0.85rem; color: #a0aec0; max-height: 250px; overflow-y: auto; white-space: pre-wrap; font-family: monospace;"></div>
+                </div>
+
                 <div class="graph-section" id="graph-section">
                     <div class="graph-title">Traversed EEG Precedent Trajectory</div>
                     <div id="paths" class="graph-paths"></div>
@@ -594,6 +599,12 @@ HTML_CONTENT = """
                     return match;
                 });
                 document.getElementById('answer').innerHTML = answerHtml;
+
+                // Populate Local Model Reasoning & Context Box safely
+                const contextBox = document.getElementById('context-box');
+                if (contextBox) {
+                    contextBox.textContent = qResult.context || 'No explicit RAG context (Fast Path execution).';
+                }
 
                 // Populate Graph Paths safely
                 const pathsDiv = document.getElementById('paths');
