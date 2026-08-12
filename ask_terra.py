@@ -17,24 +17,16 @@ if not api_key:
     raise KeyError("GEMINI_API_KEY environment variable is not set. Please configure it in a local .env file.")
 client = genai.Client(api_key=api_key)
 
-# Configure AWS Bedrock Mantle Client (v28 — replaces DeepSeek-direct)
-# Base URL: https://bedrock-mantle.us-east-1.api.aws/v1
-# Authentication: AWS_BEARER_TOKEN_BEDROCK bearer token
+# Configure OpenAI-compatible client (AWS Bedrock Mantle backend)
 import openai
-bedrock_token = os.environ.get("AWS_BEARER_TOKEN_BEDROCK")
+bedrock_token = os.environ.get("AWS_BEARER_TOKEN_BEDROCK", "")
 if not bedrock_token:
-    raise KeyError(
-        "AWS_BEARER_TOKEN_BEDROCK environment variable is not set. "
-        "Add it to your .env file as: AWS_BEARER_TOKEN_BEDROCK=<your token>"
-    )
+    print("[WARNING] AWS_BEARER_TOKEN_BEDROCK not set in .env — Bedrock inference path disabled. "
+          "Only the Gemini client path will be active.")
 openai_client = openai.OpenAI(
-    api_key=bedrock_token,
+    api_key=bedrock_token or "disabled",
     base_url="https://bedrock-mantle.us-east-1.api.aws/v1"
 )
-
-# [ROLLBACK BACKUP] DeepSeek Direct Client (commented out for fast revert if needed):
-# deepseek_api_key = os.environ.get("DEEPSEEK_API_KEY")
-# openai_client = openai.OpenAI(api_key=deepseek_api_key, base_url="https://api.deepseek.com")
 
 def clean_json_text(text: str) -> str:
     text = text.strip()
@@ -149,14 +141,11 @@ class CleanResponseOpenAI:
         return t
 
 def generate_content_with_retry_openai(openai_client, model, contents, config=None, max_retries=5):
-    # v25.2 cap (comment corrected v25.3): 100,000 chars ≈ ~25,000 tokens,
-    # well within DeepSeek V4 Pro/Flash's official 1M-token context window.
-    # Kept as a safeguard against runaway graph traversals producing multi-MB contexts.
-    # (Prior comment incorrectly stated 128K tokens — official docs confirm 1M tokens for V4 series.)
+    # Safeguard: cap context at 100,000 chars to prevent runaway graph traversals.
     if len(contents) > 100000:
-        contents = contents[:100000] + "\n...[Context truncated to 100000 chars — safety cap, well within DeepSeek 1M-token limit]..."
+        contents = contents[:100000] + "\n...[Context truncated to 100,000 chars — safety cap]..."
 
-    # Model mapping: internal Gemini/Gemma alias -> actual Bedrock model ID (v28)
+    # Model alias mapping: internal Gemini/Gemma aliases -> actual Bedrock model IDs
     model_mapping = {
         # Fast tier: routing, EASY-path, baselines, Smart Grader first attempt
         "gemma-4-26b-a4b-it-fast": "mistral.ministral-3-8b-instruct",
@@ -181,8 +170,7 @@ def generate_content_with_retry_openai(openai_client, model, contents, config=No
                 is_json = True
 
     import openai
-    # Fallback chain strictly on Bedrock (never cross into Gemini client):
-    # primary -> deepseek.v3.2 -> qwen3-235b -> ministral-3-8b
+    # Fallback chain: primary model -> deepseek.v3.2 -> qwen3-235b -> ministral-3-8b
     candidate_models = [openai_model, "deepseek.v3.2", "qwen.qwen3-235b-a22b-2507", "mistral.ministral-3-8b-instruct"]
     seen = set()
     models_to_try = [m for m in candidate_models if not (m in seen or seen.add(m))]
