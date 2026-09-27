@@ -1,135 +1,54 @@
 # ==============================================================================
-# TERRA: Temporal-Evolution and Reasoning-Trace RAG
+# TERRA: Code-Only Repository
 # .gitignore
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# Python & Bytecode
+# Removed Content: Paper, Datasets, Documents, JSON & Results
 # ------------------------------------------------------------------------------
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# ------------------------------------------------------------------------------
-# Virtual Environments
-# ------------------------------------------------------------------------------
-venv/
-.venv/
-env/
-ENV/
-env.bak/
-venv.bak/
-
-# ------------------------------------------------------------------------------
-# Secrets & Environment Configurations
-# ------------------------------------------------------------------------------
-.env
-.env.*
-!.env.example
-*.key
-*.pem
-*.token
-*.secret
-
-# ------------------------------------------------------------------------------
-# Vector Databases, Graph States & Binary Indexes
-# ------------------------------------------------------------------------------
-chroma_db/
-terra_vector_db/
-*vector_db*/
-frozen/
-*.sqlite3
-*.sqlite3-*
-*.bin
-*.pickle
-*.pkl
-terra_eeg_index.json
-terra_eeg_index_*.json
-
-# ------------------------------------------------------------------------------
-# Raw Datasets & Massive Scraped Corpora
-# ------------------------------------------------------------------------------
+Paper/
+data/
 dataset_10k_cap/
 dataset_20k_cap/
 legacy_dataset_backup*/
-data/backup/
-data/cache/
-# Raw evaluation output dumps inside data/ (>10MB - 190MB)
-data/issue26_hyperparameter_sensitivity.json
-data/temporal_leakage_dual_judged*.json
-data/temporal_leakage_eval_raw*.json
-data/temporal_leakage_pilot_raw*.json
-data/terra_canonical_v2_eval.json
-
-# ------------------------------------------------------------------------------
-# Benchmark Evaluation Outputs, Raw Generations & Telemetry Results
-# ------------------------------------------------------------------------------
-terra_eval_raw*.json
-terra_generations*.json
-terra_baselines_eval_raw*.json
-terra_pilot_smoke_test*.json
-terra_expanded*.json
-terra_true_ablation*.json
-terra_stress_results.json
-terra_telemetry_traces.json
-terra_graph_metrics.json
-*_eval_results.json
-baselines/audit_payloads*.jsonl
-baselines/cache/
-
-# Evaluation Reports & Conversation Transcripts
-terra_evaluation_report*.md
-terra_dual_judge_5pipeline_report.md
-terra_true_ablation_pilot_report.md
-terra_full_conversation_transcript*.md
-TERRA_Evaluation_Hardening_Full_Chat_Transcript.md
-
-# ------------------------------------------------------------------------------
-# Scratch, Archives, Bundles & Working Workspaces
-# ------------------------------------------------------------------------------
-scratch/
-scratch_*
-round42_audit_tmp/
+docs/
+Review/
 CANONICAL_ARCHIVE/
 canonical_v2_reproducibility_bundle/
 issue18_bundle/
 COMPRESSION_WORKSPACE/
-Review/
+round42_audit_tmp/
 New folder/
 .codex/
-*CHECKLIST*.md
-*COMPRESSION_PLAN*.md
-*Review*.md
-*Publication_Review*.md
+logs/
+scratch/
+scratch_*
+configs/
 
-# Compressed Archives
+# Ignore all markdown, json, dataset, doc and diagram files
+*.md
+*.json
+*.jsonl
+*.tsv
+*.csv
+*.tex
+*.bib
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mmd
+
+# Ignore all archives
 *.zip
 *.tar.gz
 *.tgz
 *.rar
 *.7z
 
-# ------------------------------------------------------------------------------
-# Backups & Temporary Files
-# ------------------------------------------------------------------------------
+# Ignore backups & logs
 *backup*
 *_backup.*
 *_backup_*.*
@@ -139,66 +58,59 @@ New folder/
 *.orig
 *~
 *.tmp
-
-# ------------------------------------------------------------------------------
-# Logs & Transcripts
-# ------------------------------------------------------------------------------
-logs/
 *.log
 *.log.*
-*.txt
-!requirements.txt
-!prompts/*.txt
-*.jsonl
 
 # ------------------------------------------------------------------------------
-# LaTeX Compilation Artifacts & PDFs
+# Python & Environment
 # ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+*.secret
+
+# Vector DBs & binary cache
+chroma_db/
+terra_vector_db/
+*vector_db*/
+frozen/
+*.sqlite3
+*.sqlite3-*
+*.bin
+*.pickle
+*.pkl
+baselines/cache/
+
+# LaTeX build artifacts
 *.aux
 *.bbl
 *.blg
-*.brf
 *.fls
 *.fdb_latexmk
-*.idx
-*.ilg
-*.ind
-*.lof
-*.lot
-*.nav
 *.out
-*.snm
 *.synctex.gz
-*.synctex(busy)
 *.toc
-*.vrb
-# LaTeX intermediate directories & outputs
-Paper/audit/
-Paper/other docs/
-Paper/overleaf_bundle/
-Paper/*.bak*
-Paper/*.broken*
-Paper/*.pre_*
-Paper/prev_*
-Paper/*Review_Notes*
-Paper/scripts/*.*.*
-Paper/*.aux
-Paper/*.bbl
-Paper/*.blg
-Paper/*.log
-Paper/*.out
-Paper/*.pdf
 
-# Generated PDFs
-*.pdf
-
-# ------------------------------------------------------------------------------
-# IDE, Editor & OS Artifacts
-# ------------------------------------------------------------------------------
+# IDE & OS
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 .DS_Store
 Thumbs.db
 desktop.ini
