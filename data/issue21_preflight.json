@@ -1,0 +1,197 @@
+{
+  "timestamp": "2026-09-23T18:13:12.255757+00:00",
+  "eeg_verification": {
+    "file_path": "dataset_20k_cap/terra_eeg_index_20k.json",
+    "file_size_bytes": 109574119,
+    "sha256": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+    "total_nodes": 20000,
+    "total_edges": 145366,
+    "cites_edges": 145310,
+    "overrules_edges": 56,
+    "missing_date_nodes": 0,
+    "missing_date_edges": 0,
+    "temporal_validity": {
+      "cross_year_forward_violations": 0,
+      "cross_year_forward_violations_pct": 0.0,
+      "intra_year_date_reversals": 13,
+      "intra_year_date_reversals_pct": 0.008946390475535063,
+      "same_date_edges": 122,
+      "same_date_edges_pct": 0.0839584336934829,
+      "same_year_edges": 4077,
+      "same_year_edges_pct": 2.8057256899043423,
+      "strictly_backward_year_edges": 141233,
+      "strictly_backward_year_edges_pct": 97.19427431009566,
+      "strictly_backward_date_edges": 145175,
+      "strictly_backward_date_edges_pct": 99.90709517583099
+    },
+    "overrules_temporal_validity": {
+      "cross_year_forward_violations": 0,
+      "same_year_edges": 0,
+      "strictly_backward_edges": 56,
+      "strictly_backward_edges_pct": 100.0
+    }
+  },
+  "reconciliation": {
+    "earlier_values": {
+      "145363": "Total edges in dataset_20k_cap/terra_eeg_index_20k_pre_issue6_backup.json (all 145,363 labeled CITES, 0 OVERRULES). SHA256: 012c999babb853e5d8f24caec353afe8303b8edd517965a6430957c26a6653bb",
+      "145310": "Exact count of edges with relation == 'CITES' in current dataset_20k_cap/terra_eeg_index_20k.json",
+      "145366": "Total edge count in current dataset_20k_cap/terra_eeg_index_20k.json (145,310 CITES + 56 OVERRULES), as reflected in Paper/generated_corpus_stats_20k.tex macro \\CorpusPrecedentEdges"
+    },
+    "exact_transition_diff": {
+      "cites_to_overrules_reclassified": 53,
+      "new_overrules_edges_added": 3,
+      "new_overrules_edge_pairs": [
+        [
+          "411_0345-01",
+          "172_0269-01"
+        ],
+        [
+          "415_0651-01",
+          "394_0759-01"
+        ],
+        [
+          "403_0088-01",
+          "342_0519-01"
+        ]
+      ],
+      "arithmetic_proof": "145,363 (backup CITES) - 53 (reclassified to OVERRULES) = 145,310 (current CITES); 53 + 3 (new OVERRULES) = 56 (current OVERRULES); 145,310 + 56 = 145,366 (current total)"
+    }
+  },
+  "origin_of_131_claim": {
+    "status": "UNRESOLVED",
+    "search_scope": "Repository git log (all 11 commits), scripts/, logs/, data/, docs/, Paper/, Review/, baselines/, issue18_bundle/",
+    "findings": "The claim of '99.91% strictly maintaining forward chronological validity' and 'residual 0.09% of PRECEDES edges' appears exclusively in Paper/main.tex (lines 161, 298), manuscript draft copies, and Paper/scripts/allowed_literals.txt. No historical script, ingestion log, or manifest computes or logs 99.91% or approximately 131 violations. In the actual graph, there are 0 cross-year violations, 13 intra-year date reversals, and 122 same-date edges (13 + 122 = 135). Under 0.09% of 145,310, the arithmetic yields 130.78 ~ 131. However, the origin cannot be proven from repository artifacts, and per instruction rule #4 it is formally recorded as UNRESOLVED without pre-writing any causal explanation."
+  },
+  "raw_case_coverage": {
+    "expected_files": 20000,
+    "present_files": 20000,
+    "readable_files": 20000,
+    "files_with_non_empty_opinion_text": 19996,
+    "missing_files_count": 0,
+    "malformed_files_count": 0,
+    "malformed_node_ids_count": 0,
+    "empty_opinion_files_count": 4,
+    "empty_opinion_node_ids": [
+      "83_0699-01",
+      "209_0514-01",
+      "69_0328-01",
+      "153_0689-01"
+    ],
+    "empty_opinion_explanation": "All 4 files contain complete case text inside casebody.head_matter rather than casebody.opinions. None of the 4 nodes serve as citing sources in any EEG edge (outgoing edges = 0); they appear only as cited targets in 21 edges. Therefore, 100% of citing source nodes in all 145,310 CITES edges have readable, non-empty opinion text."
+  },
+  "schema_and_citation_fields": {
+    "top_level_keys": [
+      "id",
+      "name",
+      "name_abbreviation",
+      "decision_date",
+      "docket_number",
+      "first_page",
+      "last_page",
+      "citations",
+      "court",
+      "jurisdiction",
+      "cites_to",
+      "analysis",
+      "last_updated",
+      "provenance",
+      "casebody",
+      "file_name",
+      "first_page_order",
+      "last_page_order"
+    ],
+    "casebody_keys": [
+      "judges",
+      "parties",
+      "opinions",
+      "attorneys",
+      "corrections",
+      "head_matter"
+    ],
+    "citation_types_available": {
+      "official": 20000,
+      "parallel": 35534,
+      "nominative": 2318,
+      "vendor": 39180
+    },
+    "target_verification_fields": [
+      "target official U.S. Reports reporter string (e.g., '347 U.S. 483')",
+      "target parallel reporter strings (S. Ct., L. Ed.)",
+      "target nominative reporter strings (How., Pet., Wheat., Cranch, Dall., Wall., Black)",
+      "target case name / abbreviation",
+      "source casebody.opinions text (majority, concurrence, dissent)"
+    ]
+  },
+  "precision_label_definitions": {
+    "TARGET_CONFIRMED": "The citing case opinion body contains an explicit reporter citation (official, nominative, or recognized parallel citation) that resolves unambiguously and directly to the exact target case, confirmed by reporter volume/page and corroborating case title or surrounding opinion context.",
+    "CITATION_PRESENT": "A reporter citation matching the target's volume/reporter/page appears in the citing text, but occurs within a quotation of a third case, an unverified string citation, or a statutory/procedural reporter where target identity cannot be conclusively confirmed as a direct precedential citation.",
+    "ABSENT": "Neither the target's official citation, nominative citation, nor any recognized parallel citation appears anywhere within the opinion text of the citing case (false positive extraction by eyecite).",
+    "AMBIGUOUS": "The citation string appears but is ambiguous (e.g. multiple distinct cases sharing the same reporter volume and page, short-form citation that cannot be definitively resolved, or companion case with identical citation).",
+    "UNREADABLE": "The citing case's raw file is corrupted, unparseable, or contains empty/garbled opinion text such that citation presence cannot be evaluated."
+  },
+  "primary_metric_specification": {
+    "primary_metric_formula": "TARGET_CONFIRMED / total_eligible_sampled_edges",
+    "eligible_edges_definition": "total_sampled_edges - UNREADABLE (or total_sampled_edges if UNREADABLE == 0)",
+    "citation_present_rate_formula": "(TARGET_CONFIRMED + CITATION_PRESENT) / total_eligible_sampled_edges",
+    "absent_rate_formula": "ABSENT / total_eligible_sampled_edges",
+    "ambiguity_rate_formula": "AMBIGUOUS / total_eligible_sampled_edges",
+    "unreadable_rate_formula": "UNREADABLE / total_sampled_edges",
+    "sensitivity_interval": {
+      "lower_bound": "TARGET_CONFIRMED / total_eligible_sampled_edges",
+      "upper_bound": "(TARGET_CONFIRMED + CITATION_PRESENT + AMBIGUOUS) / total_eligible_sampled_edges"
+    }
+  },
+  "sampling_specification": {
+    "target_sample_size": 200,
+    "sampling_seed": 20260924,
+    "sampling_frame": "All 145,310 CITES edges in dataset_20k_cap/terra_eeg_index_20k.json",
+    "sampling_policy": "Stratified random sampling WITHOUT replacement",
+    "strata_definition": "Decade of citing case (source node) decision_date",
+    "strata_allocation_proportional": {
+      "1850s": 0,
+      "1860s": 0,
+      "1870s": 2,
+      "1880s": 8,
+      "1890s": 17,
+      "1900s": 14,
+      "1910s": 18,
+      "1920s": 18,
+      "1930s": 23,
+      "1940s": 24,
+      "1950s": 14,
+      "1960s": 22,
+      "1970s": 36,
+      "1980s": 4
+    },
+    "strata_allocation_with_non_empty_floor": {
+      "1850s": 1,
+      "1860s": 1,
+      "1870s": 2,
+      "1880s": 8,
+      "1890s": 17,
+      "1900s": 14,
+      "1910s": 18,
+      "1920s": 18,
+      "1930s": 23,
+      "1940s": 23,
+      "1950s": 14,
+      "1960s": 22,
+      "1970s": 35,
+      "1980s": 4
+    },
+    "missing_file_handling": "Deterministic next edge in same decade stratum (by ascending index in EEG edge list) if any sampled edge source file cannot be read, with logged provenance."
+  },
+  "sample_size_feasibility": {
+    "n_200_feasible": true,
+    "total_available_raw_cases": 20000,
+    "total_available_cites_edges": 145310,
+    "max_defensible_sample": 145310,
+    "feasibility_assessment": "n=200 is 100% feasible; all 20,000 cases are present and readable on local disk with 0 missing files."
+  },
+  "verdict": {
+    "preflight_status": "PASS",
+    "execution_status": "STOPPED",
+    "overall_verdict": "STOPPED",
+    "exact_reason": "While edge provenance and raw-case coverage are 100% verified and reconciled, the historical origin of the '99.91% / approximately 131 violations' claim in the manuscript cannot be proven from repository history, scripts, manifests, or audit outputs. In accordance with the prompt's explicit mandate ('If edge provenance, raw-case coverage, or the origin of the 131-edge figure remains ambiguous, do not execute the precision audit or modify the manuscript. End with a clear PASS/STOPPED verdict and the exact reason'), Phase 2 execution is STOPPED until user approval and alignment on the disposition of the unresolved 131-edge claim."
+  }
+}

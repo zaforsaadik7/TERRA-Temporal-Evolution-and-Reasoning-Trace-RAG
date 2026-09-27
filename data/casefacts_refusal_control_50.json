@@ -1,0 +1,502 @@
+[
+  {
+    "id": "CF_REF_001",
+    "claim": "Employees who sell vehicle maintenance services are not required to be paid overtime wages under federal law.",
+    "case_name": "Encino Motorcars, LLC v. Navarro",
+    "post_1980_anchor": "Encino Motorcars, LLC v. Navarro",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_002",
+    "claim": "Law enforcement personnel may block remote deletion of electronic device data while obtaining judicial permissions, but examination without authorization is prohibited.",
+    "case_name": "Riley v. California",
+    "post_1980_anchor": "Riley v. California",
+    "year": 2014,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_003",
+    "claim": "The president has the legal authority to restrict entry from certain countries based on national security concerns, even if those restrictions are challenged as exceeding statutory or constitutional limits.",
+    "case_name": "Trump v. Hawaii",
+    "post_1980_anchor": "Trump v. Hawaii",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_004",
+    "claim": "When a government department's rationale for its action conflicts with the factual record, a court mandates return of the matter for thorough clarification.",
+    "case_name": "Department of Commerce v. New York",
+    "post_1980_anchor": "Department of Commerce v. New York",
+    "year": 2019,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_005",
+    "claim": "Courts cannot block enforcement of employer-decreed one-person conflict resolution methods when staff assert violations of workplace collective rights.",
+    "case_name": "Epic Systems Corp. v. Lewis",
+    "post_1980_anchor": "Epic Systems Corp. v. Lewis",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_006",
+    "claim": "When the administration declines to champion a statute, legislative representatives are barred from advancing it in judicial proceedings.",
+    "case_name": "United States v. Windsor",
+    "post_1980_anchor": "United States v. Windsor",
+    "year": 2013,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_007",
+    "claim": "Public support programs must allocate the same cash benefit to each individual irrespective of household size, in order to conform with constitutional safeguards against discriminatory practices.",
+    "case_name": "Fulton v. City of Philadelphia",
+    "post_1980_anchor": "Fulton v. City of Philadelphia",
+    "year": 2021,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_008",
+    "claim": "Statutes mandating permanent confinement for adolescent homicide offenders with no possibility of freedom violate constitutional safeguards.",
+    "case_name": "Jones v. Mississippi",
+    "post_1980_anchor": "Jones v. Mississippi",
+    "year": 2021,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_009",
+    "claim": "Legal challenges against presidential directives on foreign nationals' entry fall under the judiciary's purview.",
+    "case_name": "Trump v. Hawaii",
+    "post_1980_anchor": "Trump v. Hawaii",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_010",
+    "claim": "Confiscating assets tied to unlawful conduct is prohibited from being outside constitutional rules barring unreasonably high monetary penalties.",
+    "case_name": "Timbs v. Indiana",
+    "post_1980_anchor": "Timbs v. Indiana",
+    "year": 2019,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_011",
+    "claim": "Monetary gifts directly to office seekers are unlawful when originating from corporate bodies and labor coalitions.",
+    "case_name": "Citizens United v. Federal Election Commission",
+    "post_1980_anchor": "Citizens United v. Federal Election Commission",
+    "year": 2010,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_012",
+    "claim": "During a lawful temporary detention, officers may perform a protective frisk of a subject and areas within arm's reach if specific facts suggest the presence of a weapon, regardless of whether the initial information originated from an unconfirmed source.",
+    "case_name": "Arizona v. Gant",
+    "post_1980_anchor": "Arizona v. Gant",
+    "year": 2009,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_013",
+    "claim": "Public authorities must not voice contempt toward sacred beliefs in civil rights proceedings.",
+    "case_name": "Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Commission",
+    "post_1980_anchor": "Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Commission",
+    "year": 2018,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_014",
+    "claim": "All states must have unanimous jury verdicts for criminal convictions.",
+    "case_name": "Ramos v. Louisiana",
+    "post_1980_anchor": "Ramos v. Louisiana",
+    "year": 2020,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_015",
+    "claim": "States may set specific sales thresholds for remote sellers to collect sales tax, such as a minimum dollar amount or number of transactions.",
+    "case_name": "South Dakota v. Wayfair, Inc.",
+    "post_1980_anchor": "South Dakota v. Wayfair, Inc.",
+    "year": 2018,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_016",
+    "claim": "Confinement until death for minors requires no determination of irredeemability.",
+    "case_name": "Jones v. Mississippi",
+    "post_1980_anchor": "Jones v. Mississippi",
+    "year": 2021,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_017",
+    "claim": "A federal statute bars contracts preventing staff from jointly resolving work disputes through judicial proceedings like mass actions.",
+    "case_name": "Epic Systems Corp. v. Lewis",
+    "post_1980_anchor": "Epic Systems Corp. v. Lewis",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_018",
+    "claim": "Religious objections may be considered differently than other objections, and this differing consideration does not automatically mean unfair treatment.",
+    "case_name": "Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Commission",
+    "post_1980_anchor": "Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Commission",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_019",
+    "claim": "State governments are barred from mandating that merchants without brick-and-mortar facilities in their territory collect consumption levy payments for retail transactions.",
+    "case_name": "South Dakota v. Wayfair, Inc.",
+    "post_1980_anchor": "South Dakota v. Wayfair, Inc.",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_020",
+    "claim": "U.S. law enabling foreign nationals to seek remedies for breaches of international law does not permit civil actions directed at business organizations.",
+    "case_name": "Jesner v. Arab Bank, PLC",
+    "post_1980_anchor": "Jesner v. Arab Bank, PLC",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_021",
+    "claim": "Current judicial interpretation bars civil proceedings initiated by non-citizens against entities organized outside U.S. borders for breaches of universally recognized human dignity standards.",
+    "case_name": "Jesner v. Arab Bank, PLC",
+    "post_1980_anchor": "Jesner v. Arab Bank, PLC",
+    "year": 2018,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_022",
+    "claim": "Decisions made by governmental organizations necessitate clear and honest explanations corresponding to assessed evidence.",
+    "case_name": "Department of Commerce v. New York",
+    "post_1980_anchor": "Department of Commerce v. New York",
+    "year": 2019,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_023",
+    "claim": "When statutory mechanisms provide correction pathways without pecuniary entitlement, parties cannot pursue compensation through legal adjudication.",
+    "case_name": "United States v. Windsor",
+    "post_1980_anchor": "United States v. Windsor",
+    "year": 2013,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_024",
+    "claim": "Government must demonstrate compelling interest before impinging on spiritual tenets of corporate leadership, a statutory basis that excuses compliance with universally imposed legal requirements.",
+    "case_name": "Burwell v. Hobby Lobby Stores",
+    "post_1980_anchor": "Burwell v. Hobby Lobby Stores, Inc.",
+    "year": 2014,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_025",
+    "claim": "Judges have authority to review supplemental information beyond government entity archival proceedings when assessing the foundation for its policy decisions.",
+    "case_name": "Department of Commerce v. New York",
+    "post_1980_anchor": "Department of Commerce v. New York",
+    "year": 2019,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_026",
+    "claim": "Customer-facing personnel in motor vehicle service are excluded from obligations for additional payment beyond standard work periods, even without direct involvement in physical vehicle adjustments.",
+    "case_name": "Encino Motorcars, LLC v. Navarro",
+    "post_1980_anchor": "Encino Motorcars, LLC v. Navarro",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_027",
+    "claim": "Laws limiting cross-border movement according to country of citizenship do not by their nature breach constitutional safeguards against faith-based inequality, absent exceptional national safety considerations.",
+    "case_name": "Trump v. Hawaii",
+    "post_1980_anchor": "Trump v. Hawaii",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_028",
+    "claim": "The Supreme Court can overturn previous rulings that are found to conflict with constitutional rights.",
+    "case_name": "Lawrence v. Texas",
+    "post_1980_anchor": "Lawrence v. Texas",
+    "year": 2003,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_029",
+    "claim": "State governments may impose consumer transaction revenue obligations on out-of-state business participants without congressional consent based on volume metrics.",
+    "case_name": "South Dakota v. Wayfair, Inc.",
+    "post_1980_anchor": "South Dakota v. Wayfair, Inc.",
+    "year": 2018,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_030",
+    "claim": "The requirement to exhaust each possible remedy within a system of legal assessment precedes any objection to the constitutional conformity or procedural fairness of the system.",
+    "case_name": "Boumediene v. Bush",
+    "post_1980_anchor": "Boumediene v. Bush",
+    "year": 2008,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_031",
+    "claim": "Companies must disclose money sources for messages about possible future officials",
+    "case_name": "Citizens United v. Federal Election Commission",
+    "post_1980_anchor": "Citizens United v. Federal Election Commission",
+    "year": 2010,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_032",
+    "claim": "Congress can impose a tax on people who do not purchase a specific product or service.",
+    "case_name": "National Federation of Independent Business v. Sebelius",
+    "post_1980_anchor": "National Federation of Independent Business v. Sebelius",
+    "year": 2012,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_033",
+    "claim": "Government must avoid animus toward sacred tenets when applying universally applicable statutes.",
+    "case_name": "Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Commission",
+    "post_1980_anchor": "Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Commission",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_034",
+    "claim": "Individuals detained by the United States on leased Cuban territory are entitled to fair judicial proceedings mandated by the nation's supreme law and protections ensured by international humanitarian law treaties.",
+    "case_name": "Boumediene v. Bush",
+    "post_1980_anchor": "Boumediene v. Bush",
+    "year": 2008,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_035",
+    "claim": "States retain the authority to criminalize private, consensual sexual acts between individuals of the same sex, as such acts do not fall under the protections of the Due Process Clause of the Fourteenth Amendment, and the precedent set in Bowers v. Hardwick should be upheld.",
+    "case_name": "Lawrence v. Texas",
+    "post_1980_anchor": "Lawrence v. Texas",
+    "year": 2003,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_036",
+    "claim": "The Constitution identifies roles that are continuously maintained and codified by statute as public officials.",
+    "case_name": "Lucia v. Securities and Exchange Commission",
+    "post_1980_anchor": "Lucia v. SEC",
+    "year": 2018,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_037",
+    "claim": "Entities with no operational footprint in a jurisdiction are exempt from collecting transaction levies.",
+    "case_name": "South Dakota v. Wayfair, Inc.",
+    "post_1980_anchor": "South Dakota v. Wayfair, Inc.",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_038",
+    "claim": "When the state enables spiritual practices, this does not violate the constitutional line between secular authority and religious spheres in textual form.",
+    "case_name": "Fulton v. City of Philadelphia",
+    "post_1980_anchor": "Fulton v. City of Philadelphia",
+    "year": 2021,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_039",
+    "claim": "Statutory rules requiring the identification of those who finance electoral speech do not conflict with the nation's legal framework when the speech does not contain an express plea to vote for or against individuals in political office.",
+    "case_name": "Citizens United v. Federal Election Commission",
+    "post_1980_anchor": "Citizens United v. Federal Election Commission",
+    "year": 2010,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_040",
+    "claim": "The constitutional safeguard against unauthorized government searches generally requires a warrant for residential entry, though pursuit of a felony suspect constitutes an exception; under misdemeanor circumstances, this exception holds only in the presence of pressing threats.",
+    "case_name": "Lange v. California",
+    "post_1980_anchor": "Lange v. California",
+    "year": 2021,
+    "original_label": "Overruled",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_041",
+    "claim": "Unions formed outside one's state lines do not require state acknowledgment of their validity.",
+    "case_name": "Obergefell v. Hodges",
+    "post_1980_anchor": "Obergefell v. Hodges",
+    "year": 2015,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_042",
+    "claim": "Courts lack jurisdiction to hear actions against regulatory measures prior to enforcement, irrespective of imminent threats or serious repercussions.",
+    "case_name": "Department of Commerce v. New York",
+    "post_1980_anchor": "Department of Commerce v. New York",
+    "year": 2019,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_043",
+    "claim": "Federal labor law protects employees' right to pursue collective legal action against their employers.",
+    "case_name": "Epic Systems Corp. v. Lewis",
+    "post_1980_anchor": "Epic Systems Corp. v. Lewis",
+    "year": 2018,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_044",
+    "claim": "Public servants wielding major discretionary powers pursuant to federal statute are subject to constitutional placement criteria.",
+    "case_name": "Lucia v. Securities and Exchange Commission",
+    "post_1980_anchor": "Lucia v. SEC",
+    "year": 2018,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_045",
+    "claim": "Federal authorities are required to implement viable options that exclude persons with faith-based objections from service provision when feasible.",
+    "case_name": "Burwell v. Hobby Lobby Stores",
+    "post_1980_anchor": "Burwell v. Hobby Lobby Stores, Inc.",
+    "year": 2014,
+    "original_label": "Supported",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_046",
+    "claim": "Oversight of business-related financial activities during elections is a task for governments below the federal level.",
+    "case_name": "Citizens United v. Federal Election Commission",
+    "post_1980_anchor": "Citizens United v. Federal Election Commission",
+    "year": 2010,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_047",
+    "claim": "The Second Amendment protects the right to bear arms primarily for participation in a militia, and does not guarantee an individual right to own guns for self-defense.",
+    "case_name": "District of Columbia v. Heller",
+    "post_1980_anchor": "District of Columbia v. Heller",
+    "year": 2008,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_048",
+    "claim": "Police may search a vehicle incident to a lawful arrest only if it is reasonable to believe the vehicle contains evidence of the offense for which the arrest was made or the arrestee has access to the vehicle at the time of the search.",
+    "case_name": "Arizona v. Gant",
+    "post_1980_anchor": "Arizona v. Gant",
+    "year": 2009,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_049",
+    "claim": "State governments may seize property with a value disproportionate to the severity of the underlying crime.",
+    "case_name": "Timbs v. Indiana",
+    "post_1980_anchor": "Timbs v. Indiana",
+    "year": 2019,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  },
+  {
+    "id": "CF_REF_050",
+    "claim": "Criminal courts may admit oral testimony from someone who shared in an illicit endeavor against the accused person, even without cross-examination, if the factual basis for the scheme and both individuals' involvement meets the threshold where it is more probable than not.",
+    "case_name": "Crawford v. Washington",
+    "post_1980_anchor": "Crawford v. Washington",
+    "year": 2004,
+    "original_label": "Refuted",
+    "ground_truth_class": "Outside Precedent Corpus",
+    "corpus_status": "out_of_corpus_post_1980"
+  }
+]

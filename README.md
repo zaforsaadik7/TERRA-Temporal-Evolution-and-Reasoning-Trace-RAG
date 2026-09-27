@@ -16,11 +16,10 @@
 
 ## 📌 Key Architectural Features
 
-- ⏳ **Temporal Evolution Indexing**: Tracks entity relationships, state transitions, and temporal intervals across structured knowledge graphs (	erra_eeg_index.json).
-- 🧠 **Reasoning-Trace Extraction**: Captures intermediate reasoning pathways during complex RAG retrieval cycles (sk_terra.py, iew_traces.py).
-- 📊 **Dual Graph & Vector Retrieval**: Combines semantic embedding similarity (ChromaDB) with topological graph analytics (graph_analytics.py, udit_graph.py).
-- 🧪 **Automated Benchmark Harness**: Built-in multi-phase evaluation pipelines (eval_terra.py, 
-ejudge_failed.py, stress_test.py).
+- ⏳ **Temporal Evolution Indexing**: Tracks entity relationships, state transitions, and temporal intervals across structured knowledge graphs (`terra_eeg_index.json`).
+- 🧠 **Reasoning-Trace Extraction**: Captures intermediate reasoning pathways during complex RAG retrieval cycles (`ask_terra.py`, `view_traces.py`).
+- 📊 **Dual Graph & Vector Retrieval**: Combines semantic embedding similarity (ChromaDB) with topological graph analytics (`graph_analytics.py`, `audit_graph.py`).
+- 🧪 **Automated Benchmark Harness**: Built-in multi-phase evaluation pipelines (`eval_terra.py`, `rejudge_failed.py`, `stress_test.py`).
 
 ---
 
@@ -30,13 +29,13 @@ ejudge_failed.py, stress_test.py).
 > All local credentials and secret API keys are kept in your local .env file and ignored from Git version control.
 
 ### Step 1: Create .env from Template
-`ash
+```bash
 cp .env.example .env
-`
+```
 
 ### Step 2: Configure Environment Keys
 Add your LLM API keys to .env:
-`env
+```env
 # Gemini API Key for LLM trace generation and evaluation
 GEMINI_API_KEY=your_gemini_api_key_here
 
@@ -45,37 +44,37 @@ GROQ_API_KEY=your_groq_api_key_here
 
 # Google LLM Judge API Key
 GOOGLE_JUDGE_API_KEY=your_google_judge_api_key_here
-`
+```
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Install Dependencies
-`ash
+```bash
 pip install -r requirements.txt
-`
+```
 
 ### 2. Ingest Data & Build Knowledge Graph
-`ash
+```bash
 python ingest_and_build.py
-`
+```
 
 ### 3. Run TERRA Query Engine
-`ash
+```bash
 python ask_terra.py
-`
+```
 
 ### 4. Execute Benchmark Evaluation
-`ash
+```bash
 python eval_terra.py
-`
+```
 
 ---
 
 ## 📁 Repository Architecture
 
-`
+```
 TERRA/
 ├── app.py                   # Streamlit / Web UI Dashboard
 ├── ask_terra.py             # CLI Query & Inference Entrypoint
@@ -86,7 +85,7 @@ TERRA/
 ├── methodology.md           # Research Framework & Theoretical Formulation
 ├── requirements.txt         # Project Dependencies
 └── .env.example             # Environment Secret Placeholder Template
-`
+```
 
 ---
 

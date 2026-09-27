@@ -20,7 +20,7 @@ import json
 import networkx as nx
 
 
-def run_graph_analytics(index_file="terra_eeg_index.json", output_file="terra_graph_metrics.json"):
+def run_graph_analytics(index_file="dataset_10k_cap/terra_eeg_index_10k.json", output_file="terra_graph_metrics.json"):
     if not os.path.exists(index_file):
         print(f"[ERROR] '{index_file}' not found. Run ingest_and_build.py first.")
         return
@@ -28,7 +28,16 @@ def run_graph_analytics(index_file="terra_eeg_index.json", output_file="terra_gr
     print(f"\nLoading graph from '{index_file}'...")
     with open(index_file, "r") as f:
         graph_data = json.load(f)
-    eeg = nx.node_link_graph(graph_data)
+
+    # Handle both NetworkX node_link format (list nodes) and 10k dict-of-dicts format
+    if "links" in graph_data or isinstance(graph_data.get("nodes"), list):
+        eeg = nx.node_link_graph(graph_data)
+    else:
+        eeg = nx.DiGraph()
+        for nid, ninfo in graph_data.get("nodes", {}).items():
+            eeg.add_node(nid, **ninfo)
+        for e in graph_data.get("edges", []):
+            eeg.add_edge(e["source"], e["target"], relation=e.get("relation", "CITES"))
 
     n_nodes = eeg.number_of_nodes()
     n_edges = eeg.number_of_edges()

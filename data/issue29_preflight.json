@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "protected_substrates_pre_edit_manifest": {
+    "terra_350_benchmark.json": {
+      "status": "PASS",
+      "hash": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3"
+    },
+    "dataset_20k_cap/terra_eeg_index_20k.json": {
+      "status": "PASS",
+      "hash": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad"
+    },
+    "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1890.json": {
+      "status": "PASS",
+      "hash": "c530f9858e9b3372dc9079092178e9d8c2239758eda073c35b9fc7b0c49e1f72"
+    },
+    "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1930.json": {
+      "status": "PASS",
+      "hash": "14071dba780157b767dfce1f11ef8190722ad94ab9a37e8258bb574a0183c3fc"
+    },
+    "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1950.json": {
+      "status": "PASS",
+      "hash": "98d14bfb75d5051429ff4c48c0410300efb5ef7f04112701635f110aff094ddf"
+    },
+    "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1970.json": {
+      "status": "PASS",
+      "hash": "5e2b59ac3fce2b9513c9ceb60b6a1cae0c2323150f4936a0410503fd56689f3c"
+    },
+    "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1980.json": {
+      "status": "PASS",
+      "hash": "606a6ec126bf7c5ac4cbdbac04f37eee52f7bd524d35e5f12d8dc4ebff3e23b5"
+    },
+    "ask_terra.py": {
+      "status": "PASS",
+      "hash": "430fc1b3fd1ce7ed156a711d8e489abe814699c12e1a44c207a3bce7dac788cd"
+    },
+    "data/issue21_preflight.json": {
+      "status": "PASS",
+      "hash": "9a26a9e35340111773180cadd9f3c271fcecde1a3863609d6abbd2236ba7a9b2"
+    },
+    "logs/issue21_preflight.txt": {
+      "status": "PASS",
+      "hash": "91d028cd9ce5079d16bf540cba6546bfa825e5688b3283eb5ef226cc8a3d84d8"
+    },
+    "ask_terra_pre_issue13_backup.py": {
+      "status": "PASS",
+      "hash": "bc17d8965a3fc21b0801fb48dd1cf7beeb1cce74ca8a2075a921158ce6d619f9"
+    }
+  },
+  "frozen_archives": {
+    "Paper/prev_main.tex": {
+      "status": "PASS",
+      "hash": "f2491d5ed857639e983e71582811a4f85a76ebaeb516fa029fdb5fce3ca9bcc4"
+    },
+    "ask_terra_pre_issue13_backup.py": {
+      "status": "PASS",
+      "hash": "bc17d8965a3fc21b0801fb48dd1cf7beeb1cce74ca8a2075a921158ce6d619f9"
+    }
+  },
+  "checklist": {
+    "total_items": 43,
+    "completed_count": 32,
+    "completed_pct": 74.42,
+    "completed_items": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "41",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "42",
+      "27",
+      "28",
+      "33",
+      "34"
+    ],
+    "pending_items": [
+      "29",
+      "30",
+      "31",
+      "32",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "43"
+    ]
+  },
+  "active_tex_count": 23,
+  "target_patterns": [
+    "Thinking Trace",
+    "thinking trace",
+    "Cognitive Trajectory",
+    "cognitive reasoning trajectory",
+    "chain-of-thought",
+    "CoT"
+  ],
+  "all_pattern_hits": [
+    {
+      "file": "Paper/figure_1_system_architecture.tex",
+      "line": 119,
+      "pattern": "Thinking Trace",
+      "text": "\\textbf{\\small Thinking Trace Generator}\\\\",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/figure_1_system_architecture.tex",
+      "line": 133,
+      "pattern": "Thinking Trace",
+      "text": "\\fontsize{6.5pt}{7.5pt}\\selectfont (20,000 Thinking Traces)",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/figure_1_system_architecture.tex",
+      "line": 133,
+      "pattern": "Thinking Traces",
+      "text": "\\fontsize{6.5pt}{7.5pt}\\selectfont (20,000 Thinking Traces)",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/main.tex",
+      "line": 113,
+      "pattern": "cognitive reasoning trajectories",
+      "text": "Recent advancements have attempted to address these bottlenecks in isolated silos, exposing critical failure modes. Whil",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/main.tex",
+      "line": 135,
+      "pattern": "CoT",
+      "text": "To bridge this gap in procedural logic, recent research has explored augmenting retrieval with intermediate reasoning tr",
+      "is_exemption": true,
+      "exemption_type": "Approved Third-Party Literature Citation"
+    },
+    {
+      "file": "Paper/main.tex",
+      "line": 180,
+      "pattern": "Thinking Trace",
+      "text": "& \\oplus \\; \\texttt{\"\\textbackslash nThinking Trace: \\{trace\\}\"} \\\\",
+      "is_exemption": true,
+      "exemption_type": "Equation 1 Legacy Internal Key"
+    },
+    {
+      "file": "Paper/other docs/terra_architecture_diagram.tex",
+      "line": 88,
+      "pattern": "Thinking Trace",
+      "text": "\\small \"Thinking Traces\" instead of raw text",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/other docs/terra_architecture_diagram.tex",
+      "line": 88,
+      "pattern": "Thinking Traces",
+      "text": "\\small \"Thinking Traces\" instead of raw text",
+      "is_exemption": false,
+      "exemption_type": null
+    }
+  ],
+  "exempted_hits": [
+    {
+      "file": "Paper/main.tex",
+      "line": 135,
+      "pattern": "CoT",
+      "text": "To bridge this gap in procedural logic, recent research has explored augmenting retrieval with intermediate reasoning tr",
+      "is_exemption": true,
+      "exemption_type": "Approved Third-Party Literature Citation"
+    },
+    {
+      "file": "Paper/main.tex",
+      "line": 180,
+      "pattern": "Thinking Trace",
+      "text": "& \\oplus \\; \\texttt{\"\\textbackslash nThinking Trace: \\{trace\\}\"} \\\\",
+      "is_exemption": true,
+      "exemption_type": "Equation 1 Legacy Internal Key"
+    }
+  ],
+  "targets_for_remediation": [
+    {
+      "file": "Paper/figure_1_system_architecture.tex",
+      "line": 119,
+      "pattern": "Thinking Trace",
+      "text": "\\textbf{\\small Thinking Trace Generator}\\\\",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/figure_1_system_architecture.tex",
+      "line": 133,
+      "pattern": "Thinking Trace",
+      "text": "\\fontsize{6.5pt}{7.5pt}\\selectfont (20,000 Thinking Traces)",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/figure_1_system_architecture.tex",
+      "line": 133,
+      "pattern": "Thinking Traces",
+      "text": "\\fontsize{6.5pt}{7.5pt}\\selectfont (20,000 Thinking Traces)",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/main.tex",
+      "line": 113,
+      "pattern": "cognitive reasoning trajectories",
+      "text": "Recent advancements have attempted to address these bottlenecks in isolated silos, exposing critical failure modes. Whil",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/other docs/terra_architecture_diagram.tex",
+      "line": 88,
+      "pattern": "Thinking Trace",
+      "text": "\\small \"Thinking Traces\" instead of raw text",
+      "is_exemption": false,
+      "exemption_type": null
+    },
+    {
+      "file": "Paper/other docs/terra_architecture_diagram.tex",
+      "line": 88,
+      "pattern": "Thinking Traces",
+      "text": "\\small \"Thinking Traces\" instead of raw text",
+      "is_exemption": false,
+      "exemption_type": null
+    }
+  ]
+}

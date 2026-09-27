@@ -181,11 +181,10 @@ Results reported below are from the expanded 35-query evaluation suite after reb
 
 | Component | Count | Description |
 |---|---|---|
-| **Curated (Real) Cases** | 34 | Real public-domain SCOTUS opinions, 1857–1971, with authentic cross-citations |
-| **Synthetic Supplement** | 366 | Labeled stress-test cases (`is_synthetic=True`) |
-| **Total Corpus** | 400 | Complete EEG node count |
-| **Citation Edges** | 726 | Computed post-ingestion (`722 PRECEDES`, `4 OVERRULES`) |
-| **Landmark Anchor Nodes** | 34 | All curated cases serve as semantic anchors |
+| **Real SCOTUS Cases** | 10,009 | Public-domain U.S. federal court opinions sourced from CourtListener, spanning civil rights constitutional arc |
+| **Citation Edges** | 48,599 | Directed, extracted by `eyecite` citation parser |
+| **CITES edges** | 48,599 | Standard citation precedent flow |
+| **Landmark Anchor Nodes** | ~34 | Key curated SCOTUS landmark cases serving as primary semantic anchors |
 
 ### 6.2. Comparative Evaluation Matrix (35-Query Benchmark)
 
@@ -214,8 +213,22 @@ The safety and firewall architecture was verified across both standalone stress 
 
 ### 6.4. Graph Network Analysis (`terra_graph_metrics.json`)
 
-The Event Evolution Graph (`eeg`) exhibits rigorous scale-free topological properties characteristic of real judicial citation networks:
-* **Connectivity & Coverage:** 400 total nodes connected by 726 directed citation edges. The largest weakly connected component (WCC) contains **395 nodes (98.8% coverage)**.
-* **Degree Distribution:** Mean degree = **3.63** (Max = 379 for `Plessy v. Ferguson`).
-* **Graph Clustering & Diameter:** Average clustering coefficient = **0.2309**; graph diameter = **6 hops** with an average shortest path length of **2.071 hops**.
-* **Top Centrality Hubs:** `Plessy v. Ferguson` (Betweenness: 0.0292), `Brown v. Board of Education` (Betweenness: 0.0178), and `Brown II` (Betweenness: 0.0071) serve as the primary structural bridges across the 1857–1971 civil rights timeline.
+The Event Evolution Graph (EEG) was characterised on the full 10,009-node corpus using `graph_analytics.py`:
+
+| Metric | Value |
+|---|---|
+| **Total Nodes** | 10,009 |
+| **Total Edges (CITES)** | 37,918 |
+| **Graph Density** | 0.000379 |
+| **Mean Degree** | 7.58 (Max: 124) |
+| **Mean In-Degree** | 3.79 |
+| **Mean Out-Degree** | 3.79 |
+| **Avg Clustering Coefficient** | 0.1634 |
+| **Weakly Connected Components** | 1,968 |
+| **Largest WCC** | 7,983 nodes (79.8% coverage) |
+| **Graph Diameter** | 15 hops |
+| **Avg Shortest Path (largest WCC)** | 4.713 hops |
+
+**Top Centrality Hubs (betweenness):** *Crowell v. Benson* (0.0034), *Yakus v. United States* (0.0029), *Simpson v. Shepard* (0.0028). The full distribution reflects real federal court citation patterns across administrative, civil rights, and constitutional law.
+
+> **Note on BFS depth**: With an average shortest path of 4.713 hops, a BFS depth of 2 traverses roughly the first 42% of inter-case distance. This is an intentional design choice balancing context richness against latency. See `terra_graph_metrics.json` for the complete betweenness centrality top-10 and degree distribution.

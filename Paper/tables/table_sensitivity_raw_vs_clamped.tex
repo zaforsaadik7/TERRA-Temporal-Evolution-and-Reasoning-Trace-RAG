@@ -1,0 +1,21 @@
+% AUTO-GENERATED SENSITIVITY TABLE: CLAMPED VS RAW FAITHFULNESS (V2 LEGACY-COMPATIBLE CLAMP)
+\begin{table}[htbp]
+\caption{Sensitivity Analysis: Certified Clamped Faithfulness vs. Pre-Clamp Raw Judge Scores Across All 350 Benchmark Queries ($N=1,750$ Evaluations) Under the Canonical V2 Dual-Judge Protocol.}
+\label{tab:sensitivity_raw_vs_clamped}
+\centering
+\resizebox{0.98\columnwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Pipeline} & \textbf{Overall (Clamped)} & \textbf{Overall (Raw)} & \textbf{Delta} & \textbf{Answer-Only (Clamped)} & \textbf{Answer-Only (Raw)} & \textbf{Delta} \\
+\midrule
+DirectLLM & 0.5339 & 0.5257 & +0.82\% & 0.5339 & 0.5257 & +0.82\% \\
+FlatRAG & 0.6800 & 0.6511 & +2.89\% & 0.3449 & 0.2914 & +5.35\% \\
+GraphRAG & 0.6668 & 0.6193 & +4.75\% & 0.3482 & 0.2556 & +9.25\% \\
+HippoRAG & 0.6946 & 0.6704 & +2.43\% & 0.4311 & 0.3919 & +3.92\% \\
+Terra & 0.7357 & 0.6950 & +4.07\% & 0.6197 & 0.5865 & +3.32\% \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{1mm}
+\raggedright \footnotesize \textit{Note:} Clamped scores mirror the legacy semantic verifier rule (Amendments~K, L, and M): Category~D refusals without fatal errors and verified refutations are protected at $\ge 0.75$, while affirmed fatal errors are forced to $0.00$. All other queries remain at raw dual-judge consensus scores. $\Delta$ values reflect absolute percentage-point differences ($\text{Clamped} - \text{Raw}$).
+\end{table}

@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-09-24T12:27:25.413381+00:00",
+  "status": "PASS",
+  "pillars": {
+    "protected_substrates": {
+      "status": "PASS",
+      "details": {
+        "terra_350_benchmark.json": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3",
+        "dataset_20k_cap/terra_eeg_index_20k.json": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1890.json": "c530f9858e9b3372dc9079092178e9d8c2239758eda073c35b9fc7b0c49e1f72",
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1930.json": "14071dba780157b767dfce1f11ef8190722ad94ab9a37e8258bb574a0183c3fc",
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1950.json": "98d14bfb75d5051429ff4c48c0410300efb5ef7f04112701635f110aff094ddf",
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1970.json": "5e2b59ac3fce2b9513c9ceb60b6a1cae0c2323150f4936a0410503fd56689f3c",
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1980.json": "606a6ec126bf7c5ac4cbdbac04f37eee52f7bd524d35e5f12d8dc4ebff3e23b5",
+        "ask_terra.py": "430fc1b3fd1ce7ed156a711d8e489abe814699c12e1a44c207a3bce7dac788cd",
+        "data/issue21_preflight.json": "9a26a9e35340111773180cadd9f3c271fcecde1a3863609d6abbd2236ba7a9b2",
+        "logs/issue21_preflight.txt": "91d028cd9ce5079d16bf540cba6546bfa825e5688b3283eb5ef226cc8a3d84d8"
+      },
+      "count": 10,
+      "expected_count": 10
+    },
+    "dual_index_anchors": {
+      "status": "PASS",
+      "historical_anchor": "012c999babb853e5d8f24caec353afe8303b8edd517965a6430957c26a6653bb",
+      "active_anchor": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad"
+    },
+    "edge_accounting": {
+      "status": "PASS",
+      "historical_edges": 145363,
+      "active_total_edges": 145366,
+      "active_cites": 145310,
+      "active_overrules": 56,
+      "reclassified_edges": 53,
+      "crs_added_edges": 3,
+      "holdings_accounting": {
+        "substantive_extracted_holdings": 10228,
+        "substantive_extracted_percentage": 51.13999999999999,
+        "tier1_headnote_syllabus": 8404,
+        "tier2_opinion_regex": 1824,
+        "tier3_raw_preamble_fallback": 9772,
+        "total_populated_holding_text": 19997,
+        "total_populated_percentage": 99.985,
+        "unpopulated_nodes": 3,
+        "unpopulated_node_ids": [
+          "83_0699-01",
+          "209_0514-01",
+          "69_0328-01"
+        ]
+      }
+    },
+    "provenance_non_conflation": {
+      "status": "PASS",
+      "historical_raw_evals_count": 1750,
+      "historical_raw_hash": "54e4b34b7c435b612690409dbf59a066ea53c7bc99497dcd683af8e22cc40d63",
+      "active_dual_judged_hash": "eb38918c7c1420cc3f6682dc72d49d77ae0e26e492d7714bac451cf2acbb952b",
+      "non_conflation_certified": true
+    },
+    "adapter_parameters": {
+      "status": "PASS",
+      "graphrag_algorithm": "Louvain modularity maximization (networkx.algorithms.community.louvain_communities)",
+      "hipporag_algorithm": "Personalized PageRank power iteration (alpha=0.85, max_iter=50, tol=1e-6)",
+      "generator_model": "databricks-meta-llama-3-3-70b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 4096
+    },
+    "character_budgets_and_truncation": {
+      "status": "PASS",
+      "terra_generation_ceiling": 60000,
+      "terra_grading_ceiling": 60000,
+      "judge_middle_omission_ceiling": 50000,
+      "flat_rag_n_results": 2,
+      "graphrag_extract_ceiling": 400,
+      "hipporag_extract_ceiling": 400,
+      "nli_evaluates_before_truncation": true
+    },
+    "amendment_timeline_and_clamps": {
+      "status": "PASS",
+      "amendment_k_clamp": true,
+      "amendment_l_clamp": true,
+      "amendment_m_clamp": true,
+      "semantic_verifier_cache": true
+    },
+    "context_asymmetry": {
+      "status": "PASS",
+      "ratios": {
+        "1_Direct_LLM": {
+          "chars": 0,
+          "ratio_vs_flat": 0.0
+        },
+        "2_Flat_Vector_RAG": {
+          "chars": 3200,
+          "ratio_vs_flat": 1.0
+        },
+        "3_GraphRAG_Adapted": {
+          "chars": 5500,
+          "ratio_vs_flat": 1.72
+        },
+        "4_HippoRAG_Adapted": {
+          "chars": 3500,
+          "ratio_vs_flat": 1.09
+        },
+        "5_Full_TERRA": {
+          "chars": 60000,
+          "ratio_vs_flat": 18.75
+        }
+      }
+    }
+  },
+  "errors": []
+}

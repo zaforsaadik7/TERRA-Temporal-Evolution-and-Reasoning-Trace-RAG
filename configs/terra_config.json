@@ -1,0 +1,76 @@
+{
+  "system": {
+    "name": "TERRA",
+    "full_name": "Temporal-Evolution and Reasoning-Trace RAG",
+    "version": "2.0-canonical",
+    "description": "Dual-phase GraphRAG architecture unifying Event Evolution Graphs and Procedural Reasoning Traces via Semantic Entailment"
+  },
+  "retrieval": {
+    "vector_store": {
+      "client": "chromadb.PersistentClient",
+      "collection_name": "thinking_traces",
+      "initial_top_k": 2,
+      "expansion_increment": 2,
+      "metric": "euclidean_l2",
+      "proximity_threshold": 1.3
+    },
+    "dense_embedder": {
+      "model_identifier": "sentence-transformers/all-MiniLM-L6-v2",
+      "embedding_dimensions": 384,
+      "distance_metric": "Euclidean L2",
+      "license": "Apache-2.0"
+    }
+  },
+  "graph_traversal": {
+    "graph_type": "directed_event_evolution_graph",
+    "traversal_algorithm": "temporal_bfs",
+    "maximum_depth": 2,
+    "hub_degree_cap": 50,
+    "temporal_directionality_enforced": true,
+    "subgraph_extraction": "source_seeded_precedent_chains"
+  },
+  "models": {
+    "generator": {
+      "hf_model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "serving_endpoint": "databricks-meta-llama-3-3-70b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 4096
+    },
+    "traffic_cop_router": {
+      "hf_model_id": "google/gemma-3-12b-it",
+      "serving_endpoint": "databricks-gemma-3-12b",
+      "temperature": 0.0,
+      "schema_validation": "pydantic_structured_json"
+    },
+    "nli_smart_grader": {
+      "hf_model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "serving_endpoint": "databricks-meta-llama-3-3-70b-instruct",
+      "temperature": 0.0,
+      "schema_validation": "pydantic_structured_json"
+    },
+    "independent_judges": {
+      "judge_1": {
+        "serving_endpoint": "databricks-qwen3-next-80b-a3b-instruct",
+        "role": "Adversarial Skeptical Critic Judge 1",
+        "temperature": 0.0
+      },
+      "judge_2": {
+        "serving_endpoint": "databricks-gpt-oss-120b",
+        "role": "Adversarial Skeptical Critic Judge 2",
+        "temperature": 0.0
+      }
+    }
+  },
+  "evaluation_hyperparameters": {
+    "random_seed": 42,
+    "benchmark_suite": "terra_350_benchmark.json",
+    "total_evaluations": 1750,
+    "comparative_pipelines": [
+      "1_Direct_LLM",
+      "2_Flat_Vector_RAG",
+      "3_HippoRAG_Adapted",
+      "4_GraphRAG_Adapted",
+      "5_Full_TERRA"
+    ]
+  }
+}

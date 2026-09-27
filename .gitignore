@@ -1,22 +1,204 @@
-# Virtual Environment
+# ==============================================================================
+# TERRA: Temporal-Evolution and Reasoning-Trace RAG
+# .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Python & Bytecode
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# Virtual Environments
+# ------------------------------------------------------------------------------
 venv/
 .venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
-# Vector database storage
-terra_vector_db/
-
-# Local configuration keys
+# ------------------------------------------------------------------------------
+# Secrets & Environment Configurations
+# ------------------------------------------------------------------------------
 .env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+*.secret
 
-# Compiled bytecode
-__pycache__/
-*.pyc
-
-# Local JSON graph states
+# ------------------------------------------------------------------------------
+# Vector Databases, Graph States & Binary Indexes
+# ------------------------------------------------------------------------------
+chroma_db/
+terra_vector_db/
+*vector_db*/
+frozen/
+*.sqlite3
+*.sqlite3-*
+*.bin
+*.pickle
+*.pkl
 terra_eeg_index.json
+terra_eeg_index_*.json
 
-# Temporary / Backup files
+# ------------------------------------------------------------------------------
+# Raw Datasets & Massive Scraped Corpora
+# ------------------------------------------------------------------------------
+dataset_10k_cap/
+dataset_20k_cap/
+legacy_dataset_backup*/
+data/backup/
+data/cache/
+# Raw evaluation output dumps inside data/ (>10MB - 190MB)
+data/issue26_hyperparameter_sensitivity.json
+data/temporal_leakage_dual_judged*.json
+data/temporal_leakage_eval_raw*.json
+data/temporal_leakage_pilot_raw*.json
+data/terra_canonical_v2_eval.json
+
+# ------------------------------------------------------------------------------
+# Benchmark Evaluation Outputs, Raw Generations & Telemetry Results
+# ------------------------------------------------------------------------------
+terra_eval_raw*.json
+terra_generations*.json
+terra_baselines_eval_raw*.json
+terra_pilot_smoke_test*.json
+terra_expanded*.json
+terra_true_ablation*.json
+terra_stress_results.json
+terra_telemetry_traces.json
+terra_graph_metrics.json
+*_eval_results.json
+baselines/audit_payloads*.jsonl
+baselines/cache/
+
+# Evaluation Reports & Conversation Transcripts
+terra_evaluation_report*.md
+terra_dual_judge_5pipeline_report.md
+terra_true_ablation_pilot_report.md
+terra_full_conversation_transcript*.md
+TERRA_Evaluation_Hardening_Full_Chat_Transcript.md
+
+# ------------------------------------------------------------------------------
+# Scratch, Archives, Bundles & Working Workspaces
+# ------------------------------------------------------------------------------
+scratch/
+scratch_*
+round42_audit_tmp/
+CANONICAL_ARCHIVE/
+canonical_v2_reproducibility_bundle/
+issue18_bundle/
+COMPRESSION_WORKSPACE/
+Review/
+New folder/
+.codex/
+*CHECKLIST*.md
+*COMPRESSION_PLAN*.md
+*Review*.md
+*Publication_Review*.md
+
+# Compressed Archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ------------------------------------------------------------------------------
+# Backups & Temporary Files
+# ------------------------------------------------------------------------------
+*backup*
 *_backup.*
-*_final.json
+*_backup_*.*
+*.bak*
+*.broken*
+*.old
+*.orig
+*~
+*.tmp
 
+# ------------------------------------------------------------------------------
+# Logs & Transcripts
+# ------------------------------------------------------------------------------
+logs/
+*.log
+*.log.*
+*.txt
+!requirements.txt
+!prompts/*.txt
+*.jsonl
+
+# ------------------------------------------------------------------------------
+# LaTeX Compilation Artifacts & PDFs
+# ------------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.vrb
+# LaTeX intermediate directories & outputs
+Paper/audit/
+Paper/other docs/
+Paper/overleaf_bundle/
+Paper/*.bak*
+Paper/*.broken*
+Paper/*.pre_*
+Paper/prev_*
+Paper/*Review_Notes*
+Paper/scripts/*.*.*
+Paper/*.aux
+Paper/*.bbl
+Paper/*.blg
+Paper/*.log
+Paper/*.out
+Paper/*.pdf
+
+# Generated PDFs
+*.pdf
+
+# ------------------------------------------------------------------------------
+# IDE, Editor & OS Artifacts
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
