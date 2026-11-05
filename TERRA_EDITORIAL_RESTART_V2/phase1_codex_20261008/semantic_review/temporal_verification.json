@@ -1,0 +1,31 @@
+{
+  "command": [
+    "F:\\TERRA -Copy\\venv\\Scripts\\python.exe",
+    "F:\\TERRA -Copy\\coordination\\terra_antigravity\\verify_temporal_handoff.py"
+  ],
+  "exit": 0,
+  "result": {
+    "input": "F:\\TERRA -Copy\\data\\temporal_leakage_dual_judged.json",
+    "sha256": "ae6726d970d10237cccd0b508031297f09c836987dc515973595e0754d842a22",
+    "records": 400,
+    "valid_pairs": 315,
+    "qwk_severity": 0.25951598806545906,
+    "severity_raw_concordance": 0.6857142857142857,
+    "qwk_tgs": 0.3702031602708804,
+    "judge_models": {
+      "judge1_evaluation": {
+        "databricks-qwen3-next-80b-a3b-instruct": 400
+      },
+      "judge2_evaluation": {
+        "databricks-gpt-oss-120b": 400
+      }
+    },
+    "nonempty_fields": {
+      "answer_full": 400,
+      "context_full": 400,
+      "prompt_sha256": 400,
+      "created_at": 400
+    },
+    "warning": "Matches verify saved records only, not preregistration, historical execution or prompt authenticity."
+  }
+}

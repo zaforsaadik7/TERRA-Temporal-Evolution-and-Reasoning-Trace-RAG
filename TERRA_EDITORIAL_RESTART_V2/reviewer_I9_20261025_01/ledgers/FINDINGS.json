@@ -1,0 +1,77 @@
+[
+  {
+    "id": "I9-PAGE",
+    "severity": "BLOCKING_DECISION",
+    "status": "OPEN",
+    "finding": "67main pages exceeds advisor ceiling25",
+    "evidence": "builds/r34/BUILD_RESULT.json; PAGE_LIMIT_OPTIONS.md"
+  },
+  {
+    "id": "I9-PEER",
+    "severity": "ADOPTION_GATE",
+    "status": "OPEN",
+    "finding": "Exact I9 candidate not yet reviewed by Antigravity",
+    "evidence": "peer contains Codex self-review reports on older r13, not external I9 acceptance"
+  },
+  {
+    "id": "I9-TEMPLATE",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "IEEE to official Springer sn-basic migration",
+    "evidence": "Official901814byte bundle, class/bst identity unchanged"
+  },
+  {
+    "id": "I9-FONT",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "Inherited427main font warnings",
+    "evidence": "T1 standard encoding and native fonts; no final LaTeX Font Warning or missing glyph; lmtt bx-to-b informational selection disclosed"
+  },
+  {
+    "id": "I9-FOOTER",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "Inherited page-enlargement commands intruded into footer under journal layout",
+    "evidence": "All three enlargement directives removed; source.diff and rendered-page checks"
+  },
+  {
+    "id": "I9-ARCH",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "Tiny/overlapping figure labels, retry semantics and overstrong generated-link label",
+    "evidence": "Native8.5/9pt figure; qualified labels; current-source retry evidence and historical caveat retained; finalpage6 inspected"
+  },
+  {
+    "id": "I9-GRAPHS",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "Charts had scaled tiny fonts and crowded legend/ticks",
+    "evidence": "Native charts, explicit tick interval, 8.5/9pt value/legend labels; values unchanged"
+  },
+  {
+    "id": "I9-TABLES",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "Tiny scaled tables and draft conversion row-role defects",
+    "evidence": "11transposed9pt logical tables and wrapped corpus table; role regressions, raw matrices, repeated headers and stable labels"
+  },
+  {
+    "id": "I9-LINK",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "xr generated dangling same-document destinations for external references",
+    "evidence": "xr-hyper + macro-load ordering; all GoToR target filenames and named destinations independently checked"
+  },
+  {
+    "id": "I9-CITATION",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "IEEE numeric style and repeated names after author-year migration",
+    "evidence": "sn-basic and appropriate citet/citep; same citation keys/ref.bib"
+  },
+  {
+    "id": "I9-REPORTING",
+    "status": "RESOLVED_IMPLEMENTATION_VERIFIED",
+    "finding": "Reversed section range, repeated macro percentages, remediation residue, total-edge nomenclature and unsupported length causal claim",
+    "evidence": "REVIEW_DISPOSITIONS.json and source.diff; no quantities regenerated"
+  },
+  {
+    "id": "I9-REPRO",
+    "severity": "I10_I11_HANDOFF",
+    "status": "OPEN_OUTSIDE_I9_CERTIFICATION",
+    "finding": "Actual submission-system pdfLaTeX build not verified by local XeTeX",
+    "evidence": "Build command uses Tectonic0.17.0; class pdflatex option is not proof of actual engine"
+  }
+]

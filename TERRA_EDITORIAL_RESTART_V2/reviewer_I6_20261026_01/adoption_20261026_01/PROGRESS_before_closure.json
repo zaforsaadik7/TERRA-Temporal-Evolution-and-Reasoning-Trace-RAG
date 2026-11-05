@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-26",
+  "authoritative_plan": "20261008_REVIEWER_INTEGRATED_SUBMISSION_PLAN.md",
+  "complete": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I7",
+    "I8"
+  ],
+  "partial": [
+    "I0",
+    "I6",
+    "I9"
+  ],
+  "pending": [
+    "I10",
+    "I11",
+    "I12"
+  ],
+  "counts": {
+    "complete": 7,
+    "partial": 3,
+    "pending": 3
+  },
+  "basis": "I2 closed by reviewed exact working adoption and fresh rebuild; I7 remains done; other states conservatively retained",
+  "i7_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I7_20261025_01\\I7_COMPLETION.json",
+  "i9_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I9_20261025_01\\I9_COMPLETION.json",
+  "i9_status_note": "Springer candidate set aside; retained IEEE layout now includes reviewed I2 corrections, main25pages. I9 remains partial.",
+  "i2_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I2_20261025_01\\I2_COMPLETION.json"
+}

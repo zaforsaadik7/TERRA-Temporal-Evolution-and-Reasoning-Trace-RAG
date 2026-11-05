@@ -1,0 +1,80 @@
+Table S10:
+Pipeline Execution Latency Percentiles (Milliseconds).
+Panel A: Gross wall-clock time (end-to-end including any server-imposed
+retry sleep). Panel B: Net time (retry sleep subtracted). TERRA fast
+route (N = 110): 100 Category A queries plus 10 Category D queries
+routed EASY by the traﬀic-cop; the EASY route records anchor retrieval
+and evidence grading without graph traversal; generation occurs only
+where permitted. TERRA hard route (N = 240): 100 Category B + 75
+Category C + 65 Category D queries; HARD records retrieval/graph ex-
+pansion and evidence checking; generation occurs only where permitted.
+Baselines ran sequentially (5–6 Sept.); TERRA ran with four concurrent
+workers (14 Sept.), so comparisons are indicative only. Forced-hard-path
+latency (Ablation 3) is in Table II (median 6.75 s).
+Execution Path
+p25 Median
+p75
+p95
+Mean ± sample SD
+Panel A: Gross latency (ms)
+Direct LLM (No RAG)
+1, 807
+4, 861
+9, 988
+13, 404
+6, 006 ± 4, 347
+Flat Vector RAG
+2, 178
+2, 952
+7, 796
+12, 647
+4, 805 ± 3, 956
+GraphRAG-Adapted
+2, 223
+2, 860
+8, 024
+11, 904
+4, 956 ± 3, 640
+HippoRAG-Adapted
+1, 971
+2, 703
+7, 607
+10, 992
+4, 482 ± 3, 355
+TERRA Overall
+3922.88
+9185.07 17334.36 45837.21
+14293.97 ± 14780.80
+TERRA Fast Route (N = 110; Cat A + 10×Cat D)
+4065.30
+5464.96 15955.80 18773.82
+9154.17 ± 8043.42
+TERRA Hard Route (N = 240; Cat B + C + 65×Cat D)
+3636.39 14067.48 20002.50 51093.50
+16649.71 ± 16485.95
+Panel B: Net latency, retry sleep subtracted (ms; recorded retry sleep subtracted per row)
+TERRA Overall (net)
+—
+7744.47
+— 38729.13
+—
+TERRA Fast Route (net, N = 110)
+4065.30
+5464.96
+7279.80 17907.36
+7335.99 ± 5701.29
+TERRA Hard Route (net, N = 240)
+3636.39 14067.48 18738.47 44397.45
+14899.71 ± 14076.02
+Secondary block: Category-level TERRA gross latency (ms)
+TERRA Category A
+4143.46
+5828.08
+— 19000.21
+9609.67 ± 8294.57a
+TERRA Category B
+14982.89 17938.50
+— 59988.93
+26298.01 ± 17548.51a
+a Category-level gross latency across all Category A (N = 100) and Category B (N = 100) queries; p75 omitted to limit column width.
+S14

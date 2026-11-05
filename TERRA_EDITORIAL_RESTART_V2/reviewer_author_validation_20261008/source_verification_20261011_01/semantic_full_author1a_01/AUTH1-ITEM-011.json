@@ -1,0 +1,21 @@
+{
+  "id": "AUTH1-ITEM-011",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "Lochner v. New York, 198 U.S. 45 (1905) — https://supreme.justia.com/cases/federal/us/198/45/\nUnited States v. Carolene Products Co., 304 U.S. 144 (1938) — https://supreme.justia.com/cases/federal/us/304/144/\nWest Coast Hotel Co. v. Parrish, 300 U.S. 379 (1937) — https://supreme.justia.com/cases/federal/us/300/379/",
+  "original_excerpt": "From Lochner v. New York, 198 U.S. 45, 53, 64 (1905):\n\"The general right to make a contract in relation to his business is part of the liberty of the individual protected by the Fourteenth Amendment of the Federal Constitution... The act is not, within any fair meaning of the term, a health law, but is an illegal interference with the rights of individuals, both employers and employes, to make contracts regarding labor upon such terms as they may think best.\"\nFrom United States v. Carolene Products Co., 304 U.S. 144, 152–153 n.4 (1938):\n\"...regulatory legislation affecting ordinary commercial transactions is not to be pronounced unconstitutional unless... it is of such a character as to preclude the assumption that it rests upon some rational basis within the knowledge and experience of the legislators... Nor need we enquire... whether prejudice against discrete and insular minorities may be a special condition, which tends seriously to curtail the operation of those political processes ordinarily to be relied upon to protect minorities, and which may call for a correspondingly more searching judicial inquiry.\"",
+  "disposition": "SUPPORTED_CORE_QUOTATION_DELIMITATION_REQUIRED",
+  "attribution": "Lochner majority; Carolene Products majority and footnote 4",
+  "fidelity": "Lochner contract-liberty sentence corresponds; closing sentence ends at 'best' while original continues 'or which they may agree upon ...'. Mark truncation or include remainder. Carolene rational-basis and minority passages correspond with marked internal omissions.",
+  "pinpoint": "Lochner 53, 64; Carolene 152 and n.4 at 152–153.",
+  "scope_note": "Footnote says inquiry need not be decided; do not convert exploratory footnote into a holding that a specific level of scrutiny applies.",
+  "previous_record_verification": "No previous in-scope closure relied on.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-198-45.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-304-144.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-300-379.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

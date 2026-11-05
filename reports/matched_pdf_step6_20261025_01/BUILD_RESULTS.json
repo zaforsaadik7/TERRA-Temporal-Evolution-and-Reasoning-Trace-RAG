@@ -1,0 +1,51 @@
+{
+  "baseline": {
+    "main": {
+      "pages": 25,
+      "sha256": "10b5b699d82f7392d0e85023c7825b70ce83aafa91e2bc530c89bdaafd02c6e3",
+      "undefined": [],
+      "multiply_defined": [],
+      "overfull": 5,
+      "underfull": 75,
+      "question_marks": [],
+      "matched_pages": []
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 17,
+      "sha256": "ada74eb259211a571a242b83238a6904357f2a33508c630ca9c66faf62116c34",
+      "undefined": [],
+      "multiply_defined": [],
+      "overfull": 0,
+      "underfull": 209,
+      "question_marks": [],
+      "matched_pages": []
+    }
+  },
+  "candidate": {
+    "main": {
+      "pages": 25,
+      "sha256": "bb1c3c3a718fd72fbf2dda744afdc9961718708d9ea36552c42f8f2d03fb2130",
+      "undefined": [],
+      "multiply_defined": [],
+      "overfull": 2,
+      "underfull": 76,
+      "question_marks": [],
+      "matched_pages": [
+        11,
+        24
+      ]
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 18,
+      "sha256": "d9ae2f1603a5fd992eb49589a8dc0b8c898bfc721bbccaf08d92fca4efbbcc0e",
+      "undefined": [],
+      "multiply_defined": [],
+      "overfull": 0,
+      "underfull": 209,
+      "question_marks": [],
+      "matched_pages": [
+        17
+      ]
+    }
+  }
+}

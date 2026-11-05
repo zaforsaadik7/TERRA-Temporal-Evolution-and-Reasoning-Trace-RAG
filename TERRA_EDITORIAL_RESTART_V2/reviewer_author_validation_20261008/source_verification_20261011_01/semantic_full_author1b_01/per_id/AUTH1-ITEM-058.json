@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-058",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "As-of Year: 1970",
+  "disposition": "HOLD_WRONG_DECISION_ATTRIBUTION",
+  "attribution_finding": "Full-payment conclusion is authentic 1960 majority. The subsequent language attributed to 1958 is found in the 1960 majority/syllabus, not supplied 1958 pages.",
+  "fidelity_finding": "First passage's bracketed Section is a transparent replacement for statute symbol. Second purported 1958 quotation changes source identity, not merely OCR typography.",
+  "pinpoint_finding": "1960 conclusion 177 correct. Full-tax/congressional-intent language occurs in 1960 at 150–151; 1958 pp.65,69 do not provide supplied quotation.",
+  "scope_and_cutoff_finding": "Both decisions precede 1970 cutoff, so wrong year/source does not itself mean cutoff leakage. Preserve income-tax refund and federal district court scope, not every tax or every refund forum.",
+  "evidence": [
+    "sources/USREPORTS-362-145.txt:15–20,221–250,1318–1322",
+    "sources/USREPORTS-357-63.txt:73–110"
+  ],
+  "proposed_action_not_applied": "Correct the second source to Flora on rehearing 362 U.S.145,150–151 (1960) or use a genuine 1958 passage; no rating change.",
+  "unresolved_questions": [],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "Flora v. United States, 357 U.S. 63 (1958), aff'd on reh'g, 362 U.S. 145 (1960) — https://supreme.justia.com/cases/federal/us/362/145/\n[cite: 1, 5]\n28 U.S.C. § 1346(a)(1)",
+  "ledger_excerpt": "From Flora v. United States, 362 U.S. 145, 177 (1960):\n\"[Section] 1346(a)(1), correctly construed, requires full payment of the assessment before an income tax refund suit can be maintained in a Federal District Court.\"   \nFrom Flora v. United States, 357 U.S. 63, 65, 69 (1958):\n\"The language of § 1346(a)(1) can be more readily construed to require payment of the full tax before suit than to permit suit for recovery of a part payment... the legislative history is barren of any clue to congressional intent.\""
+}
+

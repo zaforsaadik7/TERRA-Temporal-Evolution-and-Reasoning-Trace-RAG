@@ -1,0 +1,97 @@
+{
+  "artifact_type": "NON_EXECUTABLE_LAUNCH_DECISION_PACKET",
+  "prepared_date": "2026-10-23",
+  "ready_to_request_execution_approval": false,
+  "execution_authorized": false,
+  "candidate_packet_path": "F:\\TERRA -Copy\\reports\\compact_candidate_approved_baseline_20261023_01\\packet.compact.proposal.json",
+  "candidate_packet_sha256": "c9e29cb83619e4c77b905a9fbf59f2e6ced4ef6da82ad5605590a726bdd4db1f",
+  "scope": "ONE_QUERY_OFFLINE_SMOKE",
+  "query_id": "B001",
+  "query_text": "Trace the doctrinal evolution of civil rights & equal protection from Minor v. Happersett (1874) through Brown v. Board of Education (1954), detailing the legal standard transitions through intermediate precedent.",
+  "query_text_sha256": "55ae112d6bf9526988d3a7e412255200f5d684779724c4c83f3cb8d6d87c6723",
+  "proposed_parent_working_directory": "F:\\TERRA -Copy",
+  "proposed_parent_command": [
+    "F:\\TERRA -Copy\\venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "scripts.matched_baseline.offline_smoke_parent"
+  ],
+  "proposed_child_command": [
+    "F:\\TERRA -Copy\\venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "scripts.matched_baseline.offline_smoke_child_entry",
+    "--request",
+    "F:\\TERRA -Copy\\reports\\authentic_smoke_candidate_20261022_01\\evidence\\child_request.json"
+  ],
+  "firewall": {
+    "name": "TERRA_Smoke_20261022_candidate01",
+    "proposed_owner_tag": "TERRA_ONE_QUERY_B001_20261022_candidate01",
+    "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "direction": "Outbound",
+    "action": "Block",
+    "profile": "Any",
+    "enabled": true,
+    "policy": "ONLY_VERIFIED_OWN_DIRECT_PARENT_ACCEPTED_NO_NETWORK_EXEMPTION",
+    "other_known_matching_processes": "STOP",
+    "unreadable_processes": "RETAIN_UNCERTAINTY",
+    "cleanup": "OWNERSHIP_VERIFICATION_AND_REMOVAL_CHECK_NOT_GUARANTEED"
+  },
+  "paths": {
+    "evidence": "F:\\TERRA -Copy\\reports\\authentic_smoke_candidate_20261022_01\\evidence",
+    "snapshot": "F:\\TERRA -Copy\\reports\\authentic_smoke_candidate_20261022_01\\snapshot",
+    "disposable": "F:\\TERRA -Copy\\reports\\authentic_smoke_candidate_20261022_01\\disposable",
+    "single_use_lock": "F:\\TERRA -Copy\\reports\\authentic_smoke_candidate_20261022_01\\smoke.single_use.lock"
+  },
+  "proposed_limits": {
+    "timeout_seconds": 300,
+    "memory_bytes": 4294967296,
+    "output_limit_bytes": 16777216
+  },
+  "limit_scope": {
+    "timeout": "Supervised child lifetime, including child setup; not total parent wall time.",
+    "memory": "Child Windows Job tree, not parent controller or total machine memory.",
+    "output": "Child capture; not a global disk quota or combined evidence-folder size."
+  },
+  "runtime_environment": {
+    "SYSTEMROOT": "C:\\Windows",
+    "WINDIR": "C:\\Windows",
+    "PATH": "C:\\Windows\\System32"
+  },
+  "scope_exclusions": [
+    "No retries after any attempted authorized launch",
+    "No 350-query preflight",
+    "No API/provider calls",
+    "No credentials",
+    "No manuscript/threshold/statistics changes",
+    "No canonical promotion"
+  ],
+  "blocking_findings": [
+    {
+      "id": "B1",
+      "status": "SOURCE_REPAIR_PEER_PASSED_CANDIDATE_COMPACT_FINAL_WIRE_PENDING",
+      "topic": "Full inventory expansion exceeds packet and request limits",
+      "measurement": "30552 unique constituent files represented by 11 manifest references; candidate proposal 11969 bytes.",
+      "required_action": "Peer review refreshed manifests and candidate; measure exact final production wire envelopes after separate authority record exists."
+    },
+    {
+      "id": "B2",
+      "status": "SOURCE_BINDING_REPAIRED_EXECUTION_PERMISSION_ABSENT",
+      "topic": "Final human-authority binding",
+      "measurement": "Reviewed source explicitly binds runtime firewall image/controller policy; no execution approval exists.",
+      "required_action": "Obtain separate exact single-attempt approval only after remaining packet/resource review; do not fabricate authority."
+    },
+    {
+      "id": "B3",
+      "status": "REVIEW_REQUIRED",
+      "topic": "Operational resource/native assumptions",
+      "measurement": "Native Windows behavior and adequacy of the proposed resource ceilings have not been tested; full child-side constituent verification consumes part of the child timeout.",
+      "required_action": "Review limit scope, verification cost, failure cleanup and evidence preservation; no claim of proven margin or guaranteed teardown."
+    }
+  ],
+  "approval_record": null,
+  "executable_packet": null,
+  "anchor_change": null,
+  "next_authorized_preparation": "Inventory/candidate assembly only; no source admission or operational execution.",
+  "next_recommended_work": "Peer-review refreshed candidate and resource/OS assumptions, then prepare exact execution decision if acceptable."
+}

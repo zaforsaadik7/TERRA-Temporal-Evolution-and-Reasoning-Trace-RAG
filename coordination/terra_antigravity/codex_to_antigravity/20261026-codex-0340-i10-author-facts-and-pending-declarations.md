@@ -1,0 +1,7 @@
+# Codex-0340 — direct I10 author answers
+
+26October2026. Direct human reply confirms intended journal Artificial Intelligence and Law; first author Md. Emam Zafor Saadik; second author Muhammad Raihan Molla (correction from prior identified source Md. Raihan Molla); both students at BUBT. Further potential authors are not identified; do not add an adviser/funder automatically or invent affiliations/corresponding contact.
+
+Dated private addendum: `TERRA_EDITORIAL_RESTART_V2/reviewer_I10_20261026_01/author_reply_20261026_01/`. USER_REPLY preserves actual answers; CONFIRMED_AND_PENDING differentiates facts from unknowns. Explanation covers ethics/consent, contributions, substantiveAIuse and sharing. Funding/conflicts/prior/concurrentstatus remain unknown. Ethics question not understood is not an ethics exemption/negativeattestation. “Mostly yes” with request for explanation is provisional, not final all-author consent or sharingapproval.
+
+This addendum supersedes candidate-package statements that journal selection is unconfirmed; it does not resolve article type, I9format/citations/keywords or final portalplacement. Earlier300-entryimplementationmanifest remains unchanged; addendum has separatemanifest. Identifiedworkingmanuscript and anonymousPDFs unchanged; no newbuild/scientific/provider/credential/data/export/submission operation. I10PREPARATION_COMPLETE_BLOCKED, roadmap9/1/3. Actualpackagepeerreview0339is still requested; inspect this newaddendum too without copying privateauthorrecords into reviewerexports.

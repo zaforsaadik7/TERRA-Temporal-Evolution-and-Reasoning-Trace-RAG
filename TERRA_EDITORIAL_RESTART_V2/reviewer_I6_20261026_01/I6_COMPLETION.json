@@ -1,0 +1,31 @@
+{
+  "status": "DONE",
+  "I6_complete": true,
+  "scope": "Bounded useful-answer/proxy/source-verification and verifier-rate feasibility audit; not independent legal validation or full satisfaction of reviewer point5",
+  "date": "2026-10-26",
+  "main_pages": 25,
+  "supplement_pages": 21,
+  "matched_inputs_verified": 700,
+  "sample_queries": 40,
+  "sample_arm_outcomes": 80,
+  "source_occurrences": 948,
+  "unlocated_snippet_spans": 23,
+  "independent_legal_sufficiency_references": 0,
+  "verifier_false_acceptance_rejection_rates": "NOT_ESTIMATED_NO_INDEPENDENT_REFERENCE",
+  "final_synthetic_tests": 28,
+  "working_files": 47,
+  "adopted": true,
+  "adopted_existing_files": [
+    "matched_comparison_main.tex",
+    "TERRA_SUPPLEMENT.tex"
+  ],
+  "added_source": [
+    "supplement_utility_audit.tex"
+  ],
+  "all46rebuilt_pages_full_pixel_text_link_parity": true,
+  "remaining_in_bounded_I6": [],
+  "adoption_result": "adoption_20261026_01/ADOPTION_RESULT.json",
+  "expert_assessment_component_fulfilled": false,
+  "canonical_promotion": false,
+  "broader_submission_complete": false
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "F:\\TERRA -Copy\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I11_20261026_01\\test_audit_validators.py"
+  ],
+  "cwd": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I11_20261026_01",
+  "exit": 0,
+  "seconds": 0.16138269999646582,
+  "tests": 12,
+  "scope": "synthetic negative audit fixtures plus actual register/parity/archive validations; no research code",
+  "stdout_stderr": "VALIDATOR_TEST_CONSOLE.txt"
+}

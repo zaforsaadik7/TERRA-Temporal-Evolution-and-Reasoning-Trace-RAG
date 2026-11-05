@@ -1,0 +1,197 @@
+--- baseline/figure_1_system_architecture.tex
++++ candidate/figure_1_system_architecture.tex
+@@ -100,7 +100,7 @@
+     \node (corpus) [processCard] {
+         \textbf{\small SCOTUS Legal Corpus}\\
+         \fontsize{6.5pt}{7.5pt}\selectfont 20,000 Authentic Opinions (1850--1980)\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Pure Substantive Opinion Precedents
++        \fontsize{6.5pt}{7.5pt}\selectfont Length-Filtered Opinion Corpus
+     };
+ 
+     \node (parser) [processCard, right=1.2cm of corpus] {
+@@ -195,16 +195,16 @@
+ 
+     % Dynamic Expansion Loop
+     \node (expansion) [processCard, above=0.8cm of grader] {
+-        \textbf{\small Self-Correction Loop}\\
++        \textbf{\small HARD Retrieval Retry}\\
+         \fontsize{6.5pt}{7.5pt}\selectfont $n_{\text{results}} += 2$ (Max 2 Attempts)\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Expand Search Radius
++        \fontsize{6.5pt}{7.5pt}\selectfont One Fallback After Initial Attempt
+     };
+ 
+     % Final Answer Generator
+     \node (generatorAns) [pillPass, right=1.2cm of grader] {
+         \textbf{\small Grounded Generator}\\
+         \fontsize{6.5pt}{7.5pt}\selectfont \texttt{Llama-3.3-70B-Instruct} ($T=0.0$)\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Verified Citation Links
++        \fontsize{6.5pt}{7.5pt}\selectfont Indexed Citation Links
+     };
+ 
+     % Safety Refusal Firewall
+@@ -223,9 +223,9 @@
+ 
+     % Grader Logic Paths
+     \path [line] (grader) -- node[above, font=\tiny\bfseries, color=AccentGreen] {Yes} (generatorAns);
+-    \path [line] (grader) -- node[right, font=\tiny\bfseries, color=AccentGold] {No} (expansion);
+-    \path [line] (expansion) -| (bfs);
+-    \path [line] (grader) -- node[right, font=\tiny\bfseries, color=AccentRed] {Failed $2\times$} (refusal);
++    \path [line] (grader) -- node[right, font=\tiny\bfseries, color=AccentGold] {No (HARD)} (expansion);
++    \path [line] (expansion.west) -| (retrieval.north);
++    \path [line] (grader) -- node[right, font=\tiny\bfseries, color=AccentRed] {Checks failed} (refusal);
+     
+     % EASY retrieval feeds the shared grader, never the generator directly.
+     \path [line] (fastPath.east) -- (fastPath.east -| grader.west) -- (grader.west);
+--- baseline/main.tex
++++ candidate/main.tex
+@@ -14,7 +14,7 @@
+ \usepackage{longtable}
+ \usepackage{amsmath,amssymb,amsfonts} %Mathematical Symbol,Equation
+ \usepackage{algorithm,algpseudocode}
+-\usepackage{xr}
++\usepackage{xr-hyper}
+ \usepackage{hyperref}
+ \hypersetup{
+     colorlinks=true,
+@@ -150,7 +150,7 @@
+ \begin{figure*}[t]
+     \centering
+     \resizebox{0.98\textwidth}{!}{\input{figure_1_system_architecture}}
+-    \caption{TERRA two-phase architecture over the \CorpusTotalOpinions-opinion corpus. Offline construction builds the EEG from extracted \texttt{CITES} links and curated \texttt{OVERRULES} relations, and indexes deterministic five-step procedural scaffolds with opinion snippets in ChromaDB. Online, EASY queries retrieve anchor evidence without graph expansion; HARD queries additionally traverse the EEG. Retrieved evidence is checked before generation, with refusal on empty context or failed evidence checks.}
++    \caption{TERRA two-phase architecture over the \CorpusTotalOpinions-opinion corpus. Offline construction builds the EEG from extracted \texttt{CITES} links and curated \texttt{OVERRULES} relations, and indexes deterministic five-step procedural scaffolds with opinion snippets in ChromaDB. Online, EASY queries retrieve anchor evidence without graph expansion; HARD queries additionally traverse the EEG. Retrieved evidence is checked before generation, with refusal on empty context or failed evidence checks. Retry arrows describe recovered code, not authenticated historical transitions.}
+     \label{fig:system_architecture}
+ \end{figure*}
+ 
+@@ -212,7 +212,7 @@
+     \end{equation}
+     For the distance-only calibration, $d_{L2}$ denotes ChromaDB's raw squared-L2 score; values at or above $\tau=1.30$ are flagged, while smaller values are unflagged.
+     Embedding proximity does not establish legal validity or domain membership. In an 8 October 2026 diagnostic using the current \CorpusTotalOpinions-case vector index, nearest-neighbour squared-L2 distances for 200 Category A/B query texts had mean 0.712, population standard deviation 0.122 and maximum 1.244. At raw squared-distance threshold $\tau=1.30$, the distance-only rule flagged \TerraGateFPRCountTauOneThreeZero\ in-domain queries (\TerraGateFPRTauOneThreeZero) and \TerraGateTPRCountTauOneThreeZero\ Category C queries (\TerraGateTPRTauOneThreeZero), reproducing the calibration grid in Table~\ref{tab:computational_budget}, Panel B. The diagnostic embedded benchmark query text directly; it did not exercise Title Match or deployed query formatting. This contemporary reproduction does not establish the historical calibration's provenance. In the canonical evaluation, no query was terminated before retrieval.
+-    \item \textbf{Tier 3, Semantic Entailment Verification:} because proximity cannot verify authority or prevent misapplication, the NLI Smart Grader checks the retrieved subgraph, and if entailment fails across two expansion attempts, generation ends in a deterministic safety refusal. In the canonical run, 81 of the 139 refusals followed an empty retrieved context (74 of the 75 Category~C probes) and 58 a non-empty one (Section~\ref{subsec:firewall-analysis}).
++    \item \textbf{Tier 3, Semantic Entailment Verification:} because proximity cannot verify authority or prevent misapplication, the NLI Smart Grader checks the retrieved subgraph, and if the permitted evidence checks fail, generation ends in a deterministic safety refusal. In the canonical run, 81 of the 139 refusals followed an empty retrieved context (74 of the 75 Category~C probes) and 58 a non-empty one (Section~\ref{subsec:firewall-analysis}).
+ \end{enumerate}
+ 
+ A \textit{fatal constraint violation} is a response that affirms an overruled doctrine, misattributes controlling constitutional authority or adopts a legally impossible premise from an adversarial prompt (Category~D); a \textit{false refusal} is an unwarranted refusal of an in-domain Category~A lookup whose controlling precedent is present and unambiguous.
+@@ -227,7 +227,7 @@
+ 
+ \subsubsection{NLI Smart Grader and Self-Correction Expansion Loop}
+ \label{subsubsec:terra-nli-grader}
+-Before generation, $\mathcal{C}(q)$ is evaluated by the NLI Smart Grader, a structured-prompt call to \texttt{databricks-meta-llama-3-3-70b-instruct}~\cite{dubey2024llama3} ($T=0.0$) given the query and context and instructed to return JSON with \texttt{entails} (boolean), \texttt{confidence\_score} (float) and \texttt{reasoning} (string). This allows single-call verification without a separate NLI cross-encoder (e.g., DeBERTa~\cite{he2023debertav3}), while routing stays with the 12B Gemma SLM. No labeled validation set was built for the verifier; the only empirical evidence of its role is the pilot ablation, in which removing the gate (Ablation~2, Table~\ref{tab:ablation}) lowers adversarial safety rejection from \AblationFullCatDSafetyRate\ to \AblationTwoCatDSafetyRate, which is consistent with the gate contributing to safety but not a validation of its accuracy. False non-entailment (supported context rejected) and false entailment (insufficient context accepted) are unquantified failure modes (Section~\ref{subsec:limitations}). If \texttt{entails == True}, the context goes to the generator. If \texttt{entails == False}, a \textbf{Self-Correction Expansion Loop} widens retrieval ($k \leftarrow k + 2$), re-queries ChromaDB and re-runs BFS. If entailment still fails after two expansions, the \textbf{Safety Refusal Firewall} halts generation with a deterministic refusal: \textit{``I apologize, but I do not have sufficient validated legal context in my databases to answer this query accurately without risking hallucination.''}
++Before generation, $\mathcal{C}(q)$ is evaluated by the NLI Smart Grader, a structured-prompt call to \texttt{databricks-meta-llama-3-3-70b-instruct}~\cite{dubey2024llama3} ($T=0.0$) given the query and context and instructed to return JSON with \texttt{entails} (boolean), \texttt{confidence\_score} (float) and \texttt{reasoning} (string). This allows single-call verification without a separate NLI cross-encoder (e.g., DeBERTa~\cite{he2023debertav3}), while routing stays with the 12B Gemma SLM. No labeled validation set was built for the verifier; the only empirical evidence of its role is the pilot ablation, in which removing the gate (Ablation~2, Table~\ref{tab:ablation}) lowers adversarial safety rejection from \AblationFullCatDSafetyRate\ to \AblationTwoCatDSafetyRate, which is consistent with the gate contributing to safety but not a validation of its accuracy. False non-entailment (supported context rejected) and false entailment (insufficient context accepted) are unquantified failure modes (Section~\ref{subsec:limitations}). If \texttt{entails == True}, the context goes to the generator. If \texttt{entails == False}, a \textbf{Self-Correction Expansion Loop} widens retrieval ($k \leftarrow k + 2$), re-queries ChromaDB and re-runs BFS. The recovered HARD path permits two attempts in total (initial retrieval plus one fallback), not two retries; EASY has no expansion retry. Historical logs do not record intermediate retry transitions. If the permitted checks fail, the \textbf{Safety Refusal Firewall} halts generation with a deterministic refusal: \textit{``I apologize, but I do not have sufficient validated legal context in my databases to answer this query accurately without risking hallucination.''}
+ 
+ \subsubsection{Data Leakage Mitigation Framework}
+ \label{subsubsec:data-leakage}
+@@ -345,7 +345,7 @@
+ The protocol incorporates four validation controls:
+ \begin{enumerate}
+     \item \textbf{Judge Calibration:} we correlate the judges' faithfulness with researcher-constructed ROUGE-L across in-domain generations (Categories~A and~B). To handle repeated evaluations within queries, the primary analysis uses whole-query cluster bootstrap and query-cluster permutation over $N_q=\JudgeCalibN$ clusters ($N_{\text{obs}}=\JudgeCalibNObs$ valid pairs): Pearson $r=\JudgePearsonR$ (95\% bootstrap CI $\JudgePearsonCI$; permutation $p=\frac{k+1}{P+1}=\JudgePearsonP$ with $P=10{,}000$ and $k=0$ exceedances; Spearman $\rho=\JudgeSpearmanRho, p=\JudgeSpearmanP$; Kendall $\tau=\JudgeKendallTau, p=\JudgeKendallP$). Collapsing to query means changes the estimand to between-query variation, giving $r_{\text{mean}}=\JudgeMeanPearsonR$ (Fisher 95\% CI $\JudgeMeanPearsonCI$, $p=\JudgeMeanPearsonP$). Historical figures ($r=\HistoricalJudgePearsonR$, pilot $r=\HistoricalPilotJudgePearsonR$) were hard-coded without machine-readable provenance and failed reproduction across 384 candidate preprocessing configurations; the reported estimates come from the corrected canonical analysis. On the 35-query pilot ($N=525$ runs over 3 pipelines and 5 repeats; $N=260$ valid in-domain pairs over 20 query clusters) $r=\PilotJudgePearsonR$ ($p=\PilotJudgePearsonP$). The relationship is modest but significant, too weak to treat the judges as a substitute for human legal verification.
+-    \item \textbf{Multi-Run Provenance:} dates are file-modification times or logged runner headers. Baseline generations ($1{,}400$, \texttt{llama-3.3-70b-instruct}, no router or NLI) are associated with file dates of 5--6 September 2026; the deployed TERRA run ($350$; router \texttt{gemma-3-12b}, NLI grader and generator \texttt{llama-3.3-70b-instruct}) and the dual-judge scoring of all $1{,}750$ answers (judges \texttt{qwen3-next-80b} and \texttt{gpt-oss-120b}) have file dates of 14 September 2026, with four concurrent workers (36 of 350 queries hit HTTP~429, 620\,s of server-imposed sleep). All calls used $T{=}0.0$, which does not guarantee identical outputs on Databricks Model Serving: a second same-day TERRA run gave identical answers on $\TerraIdenticalAnswerFraction$ of queries overall ($\TerraIdenticalAnswerCatA$ on Category~A, $\TerraIdenticalAnswerCatB$ on B, $\TerraIdenticalAnswerCatC$ on C, $\TerraIdenticalAnswerCatD$ on D); the earlier records forced 241 queries to HARD, so recorded execution paths differed; the precise cause of the Category~B text differences is not isolated. The stored pilot ablation records identify a single Llama-3.3-70B judge, unlike the canonical dual-judge protocol; their scores are not directly comparable, and the historical execution date remains unestablished. CaseFacts, CLERC and the obscure suite used the same two judges (identifiers recorded in every raw row for CaseFacts and CLERC); the temporal probe (file date 17 September) records both judge identifiers: \texttt{databricks-qwen3-next-80b-a3b-instruct} and \texttt{databricks-gpt-oss-120b}. The Category~D certification (file date 20 September, $N=75$) used the Llama-3.3-70B semantic verifier, CaseFacts and CLERC have file dates of 18 September ($N=170$ each), and the obscure suite and famous contrast have file dates of 19--20 September ($N=120$ and $76$). These four use task-specific rubrics, so their scores are not on the 1,750-run faithfulness scale, and the dates of the first three are file-modification times.
++    \item \textbf{Multi-Run Provenance:} dates are file-modification times or logged runner headers. Baseline generations ($1{,}400$, \texttt{llama-3.3-70b-instruct}, no router or NLI) are associated with file dates of 5--6 September 2026; the deployed TERRA run ($350$; router \texttt{gemma-3-12b}, NLI grader and generator \texttt{llama-3.3-70b-instruct}) and the dual-judge scoring of all $1{,}750$ answers (judges \texttt{qwen3-next-80b} and \texttt{gpt-oss-120b}) have file dates of 14 September 2026, with four concurrent workers (36 of 350 queries hit HTTP~429, 620\,s of server-imposed sleep). The reported protocol specifies $T{=}0.0$, which does not guarantee identical outputs on Databricks Model Serving: a second same-day TERRA run gave identical answers on $\TerraIdenticalAnswerFraction$ of queries overall ($\TerraIdenticalAnswerCatA$ on Category~A, $\TerraIdenticalAnswerCatB$ on B, $\TerraIdenticalAnswerCatC$ on C, $\TerraIdenticalAnswerCatD$ on D); the earlier records forced 241 queries to HARD, so recorded execution paths differed; the precise cause of the Category~B text differences is not isolated. The stored pilot ablation records identify a single Llama-3.3-70B judge, unlike the canonical dual-judge protocol; their scores are not directly comparable, and the historical execution date remains unestablished. CaseFacts, CLERC and the obscure suite used the same two judges (identifiers recorded in every raw row for CaseFacts and CLERC); the temporal probe (file date 17 September) records both judge identifiers: \texttt{databricks-qwen3-next-80b-a3b-instruct} and \texttt{databricks-gpt-oss-120b}. The Category~D certification (file date 20 September, $N=75$) used the Llama-3.3-70B semantic verifier, CaseFacts and CLERC have file dates of 18 September ($N=170$ each), and the obscure suite and famous contrast have file dates of 19--20 September ($N=120$ and $76$). These four use task-specific rubrics, so their scores are not on the 1,750-run faithfulness scale, and the dates of the first three are file-modification times.
+ 
+ Recorded provenance varies by experiment. The obscure-suite and famous-contrast records contain an engine hash matching the preserved Issue~18 source (SHA256 \texttt{430fc1b3...}), whose parsed Python syntax matches the inspected root source (\texttt{0cca5cf4...}); only a comment differs. Their records also contain vector-index fingerprints. Primary canonical, pilot, CaseFacts and CLERC result records do not identify their historical engine, graph and vector-index state by equivalent hashes. Temporal-probe prompt, context and candidate hashes identify payloads, not the generating code or graph version. The obscure/famous arms requested the same generator endpoint, but direct-call logs record a server response identifier whereas the engine wrapper records the requested identifier; backend weight invariance is not established. Supplementary Table~\ref{supp-tab:run_provenance} summarizes these boundaries.
+     \item \textbf{Component-Level Ablation Matrix:} three same-architecture ablations accompany \textbf{Full TERRA} (Router + EEG Traversal + NLI Smart Grader): \textbf{Ablation~1} replaces graph traversal with Flat Vector RAG while keeping NLI grading; \textbf{Ablation~2} disables entailment verification and self-correction; and \textbf{Ablation~3} forces all queries through the full traversal path.
+--- baseline/supplement_tables/table_run_provenance.tex
++++ candidate/supplement_tables/table_run_provenance.tex
+@@ -3,51 +3,69 @@
+   \small
+   
+   
+-  \begin{longtable}{@{}p{3.8cm}p{2.2cm}p{5.2cm}p{1.4cm}@{}}
++  \begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.8cm}>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{5.2cm}>{\raggedright\arraybackslash}p{1.4cm}@{}}
+ \caption{Evaluation Block Provenance. Dates are from file timestamps or
+            logged runner headers; ``date not recorded'' means no timestamp
+            was found in the source files.}\label{tab:run_provenance}\\
+     \toprule
+-    \textbf{Block} & \textbf{Date (source)} & \textbf{Models} & \textbf{$N$} \\
++    \textbf{Block} & \textbf{Date (source)} & \textbf{Models} & \textbf{$N$ (unit)} \\
+     \midrule
++    \endfirsthead
++    \multicolumn{4}{l}{\textit{Table S9 continued: evaluation block provenance}} \\
++    \toprule
++    \textbf{Block} & \textbf{Date (source)} & \textbf{Models} & \textbf{$N$ (unit)} \\
++    \midrule
++    \endhead
+     Baseline generations & 5--6 Sept.\ 2026\newline (file mtime) &
+       Gen: \texttt{llama-3.3-70b-instruct}; no router/NLI &
+-      1,400 \\
++      1,400 arm rows \\
+     \addlinespace
+     Deployed TERRA run & 14 Sept.\ 2026\newline (file mtime) &
+       Router: \texttt{gemma-3-12b}; NLI + gen: \texttt{llama-3.3-70b-instruct} &
+-      350 \\
++      350 queries \\
+     \addlinespace
+     Dual-judge scoring & 14 Sept.\ 2026\newline (file mtime) &
+       J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} &
+-      1,750 \\
++      1,750 arm rows \\
+     \addlinespace
+     Pilot ablation (Table~\ref{main-tab:ablation}) & date not recorded &
+-      Single judge: \texttt{llama-3.3-70b-instruct} (recorded endpoint) & 35 \\
++      Single judge: \texttt{llama-3.3-70b-instruct} (recorded endpoint) & 35 queries \\
+     \addlinespace
+     Temporal leakage probe & 17 Sept.\ 2026\newline (file mtime) &
+-      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 400 \\
++      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 400 records \\
+     \addlinespace
+     Category~D certification & 20 Sept.\ 2026\newline (file last modified) &
+-      Semantic verifier: \texttt{llama-3.3-70b-instruct} & 75 \\
++      Semantic verifier: \texttt{llama-3.3-70b-instruct} & 75 queries \\
+     \addlinespace
+     CaseFacts eval & 18 Sept.\ 2026\newline (file mtime) &
+-      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 \\
++      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 queries \\
+     \addlinespace
+     CLERC eval & 18 Sept.\ 2026\newline (file mtime) &
+-      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 \\
++      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 queries \\
+     \addlinespace
+     Obscure suite & 19--20 Sept.\ 2026\newline (file mtime) &
+       Gen: \texttt{llama-3.3-70b-instruct}; J1/J2 as above &
+-      120 \\
++      120 arm rows \\
+     \addlinespace
+     Famous D1 contrast & 19--20 Sept.\ 2026\newline (file mtime) &
+       Gen: \texttt{llama-3.3-70b-instruct}; J1/J2 as above &
+-      76 \\
++      76 arm rows \\
+     \addlinespace
+     Prospective hybrid comparison & 25 Oct.\ 2026\newline (run records) &
+       Router: Gemma 3 12B; verifier/gen: Llama 3.3 70B; judges: Qwen3-Next and GPT-OSS & 350 pairs \\
++    \addlinespace
++    Stored-context sensitivity & historical dates unverified &
++      Canonical: 66/100; legacy: 62/100 complete target sets; separate bounded engine: 61/100 & 100 queries \\
++    \addlinespace
++    Distance-only diagnostic & 8 Oct.\ 2026\newline (run record) &
++      MiniLM squared-L2; benchmark text only, not Title Match & 350 queries \\
++    \addlinespace
++    Temporal-update topology & 23 Sept.\ 2026\newline (recorded timestamp) &
++      BFS stability; 106 pair observations, not generated answers & 82 queries \\
++    \addlinespace
++    Corpus / taxonomy audits & historical dates unverified &
++      Original graph properties and automated classification audits; no blanket historical run linkage & 20,000 nodes \\
+     \bottomrule
+   \end{longtable}
+-\footnotesize\raggedright\textbf{Notes:} $N$ denotes the population described in each row, not a uniform count of model calls. The 35-query ablation has 700 stored observations (four arms, five repeats); CaseFacts and CLERC each have 170 source questions and 510 stored arm-level observations (three arms). Obscure/famous engine hashes match a preserved source file (\texttt{430fc1b3...}), and index fingerprints are recorded. Primary, pilot, CaseFacts and CLERC records lack equivalent historical code/graph/index linkage. Temporal-probe hashes identify prompt/context/candidate payloads. The separate temporal-update file records 106 pair observations from 82 unique queries, a timestamp and active-graph/subgraph hashes; the timestamp is a recorded value, not independently authenticated time. File modification dates elsewhere are not execution dates. The prospective comparison uses separate frozen graph/code inputs and a shared pipeline; details and observed model identifiers are recorded with Section~\ref{supp:matched-comparison}. It does not recover historical configuration identities.
++\footnotesize\raggedright\textbf{Notes:} $N$ denotes the population described in each row, not a uniform count of model calls. The 35-query ablation has 700 stored observations (four arms, five repeats); CaseFacts and CLERC each have 170 source questions and 510 stored arm-level observations (three arms). Obscure/famous engine hashes match a preserved source file (\texttt{430fc1b3...}), and index fingerprints are recorded. Primary, pilot, CaseFacts and CLERC records lack equivalent historical code/graph/index linkage. Temporal-probe hashes identify prompt/context/candidate payloads. The separate temporal-update file records 106 pair observations from 82 unique queries, a timestamp and active-graph/subgraph hashes; the timestamp is a recorded value, not independently authenticated time. File modification dates elsewhere are not execution dates. In the recovered source, degree greater than 50 activates hub handling with directional budgets of 75 incoming and 25 outgoing neighbors; these are simultaneous controls, not conflicting cap versions. Current source does not authenticate historical settings. Recorded generator identifiers also reflect different logging paths (requested model arguments versus returned identifiers), not proof of identical backend weights. The prospective comparison uses separate frozen graph/code inputs and a shared pipeline; details and observed model identifiers are recorded with Section~\ref{supp:matched-comparison}. It does not recover historical configuration identities.
+ \par\endgroup
+--- baseline/TERRA_SUPPLEMENT.tex
++++ candidate/TERRA_SUPPLEMENT.tex
+@@ -2,9 +2,8 @@
+ \usepackage[a4paper,landscape,margin=15mm]{geometry}
+ \usepackage{booktabs,multirow,array,longtable,amsmath,amssymb,graphicx,textcomp,xcolor}
+ \usepackage{cite}
+-\usepackage{xr}
++\usepackage{xr-hyper}
+ \usepackage{hyperref}
+-\externaldocument[main-]{main}
+ \renewcommand{\thetable}{S\arabic{table}}
+ \renewcommand{\thesection}{S\arabic{section}}
+ \renewcommand{\thepage}{S\arabic{page}}
+@@ -17,6 +16,7 @@
+ \input{phase3_corrections_b3}
+ \input{phase3_corrections_b6}
+ \input{supplement_latency_corrections}
++\externaldocument[main-]{main}
+ \begin{document}
+ \section*{TERRA supplementary material}
+ This reconstructed supplement preserves the ten mapped table objects and eighteen limitation themes. Historical result blocks remain distinct; the corrected derivative is used only in the prospective comparison and does not replace historical graph attribution. The main paper and this supplement have separate numbering.

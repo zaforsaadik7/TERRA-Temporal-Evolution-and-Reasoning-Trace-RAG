@@ -1,0 +1,7 @@
+"""Separately reviewed root anchor; excluded from its own packet hash closure.
+
+Task 3 must pin this file independently in the user-facing launch command/record.
+Never derive these values from the candidate packet or context file itself.
+"""
+PACKET_PATH = 'F:\\TERRA -Copy\\reports\\diagnostics_user_b001_freeze_20261023_01\\execution_packet.json'
+PACKET_SHA256 = 'dc2a44235bca567e4f7ec5719a470957b1165ad022fffd7c8938ddf60000c986'

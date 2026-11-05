@@ -1,0 +1,32 @@
+"""Seal preparation evidence, not an executable entry point."""
+import difflib
+import hashlib
+import json
+from pathlib import Path
+R=Path('F:/TERRA -Copy');P=Path(__file__).resolve().parent
+def save(name,raw):
+    with (P/name).open('xb') as f:f.write(raw)
+def ident(p):
+    raw=p.read_bytes()
+    return {'path':str(p),'size_bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+meta=json.loads((P/'freeze_metadata.json').read_bytes())
+assert json.loads((P/'freeze_validation.json').read_bytes())['status']=='FROZEN_SCHEMA_AND_AUTHORITY_PASS'
+assert json.loads((P/'wrapper_validation.json').read_bytes())['status']=='PS51_PARSE_AND_EXTRACTED_COVERAGE_PASS'
+diff=[]
+for name in ('offline_smoke_production.py','offline_smoke_entry_anchor.py','launch_offline_smoke_user.ps1'):
+    live=(R/'scripts/matched_baseline'/name).read_bytes()
+    assert live==(P/(name+'.expected')).read_bytes()==(P/(name+'.final')).read_bytes()
+    diff.extend(difflib.unified_diff((P/(name+'.before')).read_text().splitlines(True),
+                live.decode().splitlines(True),fromfile=name+'.before',tofile=name+'.final'))
+save('admission.diff',''.join(diff).encode())
+candidate=R/'reports/authentic_smoke_semantic_candidate_20261023_01'
+assert candidate.is_dir() and not list(candidate.iterdir())
+assert not (P/'outer.single_attempt.lock').exists() and not (P/'wrapper_evidence').exists()
+assert (R/'reports/renewed_user_b001_20261023_01/outer.single_attempt.lock').is_file()
+save('readiness.json',(json.dumps({'status':'AUTHORIZED_FROZEN_USER_WINDOW_POLICY_CHECK_PENDING',
+ 'parent_invoked':False,'attempt_consumed':False,'candidate_parent_empty':True,
+ 'old_attempt_lock_retained':True,'new_outer_lock_absent':True,
+ 'policy_changed':False,'launch_command_withheld_pending_user_policy':True},indent=2)+'\n').encode())
+save('manifest.json',(json.dumps({'scope':'AUTHORIZED_PREPARATION_NOT_RUN_RESULT',
+ 'files':[ident(p) for p in sorted(P.iterdir()) if p.is_file() and p.name!='manifest.json']},indent=2)+'\n').encode())
+print(json.dumps({'manifest':ident(P/'manifest.json'),'live_launcher':ident(R/'scripts/matched_baseline/launch_offline_smoke_user.ps1')}))

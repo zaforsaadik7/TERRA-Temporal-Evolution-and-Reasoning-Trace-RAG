@@ -1,0 +1,897 @@
+{
+  "objects": [
+    {
+      "id": "OBJ01",
+      "original": {
+        "object_id": "OBJ01",
+        "env": "figure*",
+        "label": "fig:system_architecture",
+        "rendered_number_B1": "1",
+        "page_B1": "4",
+        "source_file": "main.tex",
+        "source_line": "149",
+        "incoming_refs": "0",
+        "caption_excerpt": "TERRA two-phase architecture. Phase 1 (offline) constructs the Event Evolution Graph (EEG) and ChromaDB vector index from the \\CorpusTotalOpinions-opinion authe"
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 154,
+        "rendered_number": "1",
+        "rendered_page": "4",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 147
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ02",
+      "original": {
+        "object_id": "OBJ02",
+        "env": "table",
+        "label": "tab:corpus_stats",
+        "rendered_number_B1": "II",
+        "page_B1": "9",
+        "source_file": "main.tex",
+        "source_line": "286",
+        "incoming_refs": "3",
+        "caption_excerpt": "TERRA Event Evolution Graph (EEG) Corpus Statistics and Doctrinal Taxonomy."
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 265,
+        "rendered_number": "I",
+        "rendered_page": "7",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 259
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 319
+        },
+        {
+          "document": "supplement",
+          "file": "supplement_limitations.tex",
+          "line": 7
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ03",
+      "original": {
+        "object_id": "OBJ03",
+        "env": "table",
+        "label": "tab:graph_metrics",
+        "rendered_number_B1": "III",
+        "page_B1": "9",
+        "source_file": "main.tex",
+        "source_line": "316",
+        "incoming_refs": "1",
+        "caption_excerpt": "Event Evolution Graph Topological Properties."
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_graph_metrics.tex",
+        "line": 6,
+        "rendered_number": "S8",
+        "rendered_page": "S11",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ04",
+      "original": {
+        "object_id": "OBJ04",
+        "env": "figure",
+        "label": "fig:hub_centrality",
+        "rendered_number_B1": "2",
+        "page_B1": "9",
+        "source_file": "main.tex",
+        "source_line": "351",
+        "incoming_refs": "1",
+        "caption_excerpt": "Top-5 EEG hub nodes by betweenness centrality ($C_B$) in the \\CorpusTotalOpinions-node network. All top structural hubs correspond to major federal constitution"
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 301,
+        "rendered_number": "2",
+        "rendered_page": "7",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 295
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ05",
+      "original": {
+        "object_id": "OBJ05",
+        "env": "table",
+        "label": "tab:run_provenance",
+        "rendered_number_B1": "V",
+        "page_B1": "13",
+        "source_file": "main.tex",
+        "source_line": "437",
+        "incoming_refs": "6",
+        "caption_excerpt": "Evaluation Block Provenance. Dates are from file timestamps or logged runner headers; ``date not recorded'' means no timestamp was found in the source files."
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_run_provenance.tex",
+        "line": 9,
+        "rendered_number": "S9",
+        "rendered_page": "S12",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 350
+        },
+        {
+          "document": "supplement",
+          "file": "supplement_limitations.tex",
+          "line": 29
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ06",
+      "original": {
+        "object_id": "OBJ06",
+        "env": "table",
+        "label": "tab:ablation",
+        "rendered_number_B1": "VI",
+        "page_B1": "14",
+        "source_file": "main.tex",
+        "source_line": "504",
+        "incoming_refs": "7",
+        "caption_excerpt": "Component-Level Ablation Analysis Across \\numPilotQueries\\ Benchmark Queries ($N=\\numPilotRepeatedRuns$ Repeated Runs, \\numPilotEvals\\ Evaluations)."
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 376,
+        "rendered_number": "II",
+        "rendered_page": "11",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 203
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 230
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 372
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 472
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 661
+        },
+        {
+          "document": "supplement",
+          "file": "supplement_tables/table_run_provenance.tex",
+          "line": 31
+        },
+        {
+          "document": "supplement",
+          "file": "supplement_tables/table_latency_percentiles.tex",
+          "line": 6
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ07",
+      "original": {
+        "object_id": "OBJ07",
+        "env": "table",
+        "label": "tab:cat_b_performance",
+        "rendered_number_B1": "VII",
+        "page_B1": "14",
+        "source_file": "main.tex",
+        "source_line": "534",
+        "incoming_refs": "2",
+        "caption_excerpt": "Category B Multi-Hop Evolutionary Performance and Pairwise Win Rates ($N=\\CatBTotalPairs$ Paired Evaluations)."
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 401,
+        "rendered_number": "III",
+        "rendered_page": "11",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 372
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 397
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ08",
+      "original": {
+        "object_id": "OBJ08",
+        "env": "table",
+        "label": "tab:rouge_tradeoff",
+        "rendered_number_B1": "VIII",
+        "page_B1": "15",
+        "source_file": "main.tex",
+        "source_line": "562",
+        "incoming_refs": "1",
+        "caption_excerpt": "Category B Lexical Alignment and Answer Verbosity Trade-off."
+      },
+      "current": null,
+      "incoming": [],
+      "status": "PARTIAL",
+      "equivalent_source_candidates": [
+        {
+          "file": "main.tex",
+          "line": 423,
+          "text": "ROUGE-L F1 penalizes length through candidate-length precision ($\\text{LCS}/|\\text{cand}|$), and the reference holdings average $70.8$ words (computed against researcher-constructed references, \\texttt{terra\\_350\\_benchmark.json}, SHA256 \\texttt{8144fa81...}, by deterministic tokenized LCS; F1 is the mean of per-query F1, not the harmonic mean of the macro P and R). On Category~B, Flat Vector RAG has the highest F1 ($\\mathbf{\\FlatRAGCatBRougeFOne}$ vs.\\ TERRA $\\TerraCatBRougeFOne$, HippoRAG $\\HippoRAGCatBRougeFOne$, GraphRAG $\\GraphRAGCatBRougeFOne$, Direct LLM $\\DirectLLMCatBRougeFOne$) and precision ($\\mathbf{\\FlatRAGCatBRougePrecision}$ vs.\\ TERRA $\\TerraCatBRougePrecision$, HippoRAG $\\HippoRAGCatBRougePrecision$, GraphRAG $\\GraphRAGCatBRougePrecision$, Direct LLM $\\DirectLLMCatBRougePrecision$), because TERRA writes longer chronological syntheses (mean words in Table~\\ref{tab:cat_b_performance}). On recall, TERRA's firewall falsely refuses \\TerraCatBFalseRefusals\\ Category~B queries (scored zero), giving $\\TerraCatBRougeRecall$ against $\\FlatRAGCatBRougeRecall$ (Flat), $\\GraphRAGCatBRougeRecall$ (GraphRAG), $\\HippoRAGCatBRougeRecall$ (HippoRAG) and $\\mathbf{\\DirectLLMCatBRougeRecall}$ (Direct LLM); on answered queries TERRA reaches \\TerraCatBAnsweredRougeRecall\\ (mean \\TerraCatBAnsweredMeanWords\\ words), comparable to Flat's \\FlatRAGCatBAnsweredRougeRecall. N-gram overlap cannot separate valid modern doctrine from overruled precedent, since it rewards verbatim citation of dead law; TERRA's strengths lie in verified citation-graph recovery (Table~\\ref{tab:retrieval_eval}) and dual-judge faithfulness ($\\TerraCatBFaithfulness$, FDR $q < 0.05$)."
+        }
+      ],
+      "owner": "I0",
+      "next_action": "User ratification of existing representation, or authorized compact-table restoration; then I11 final certification.",
+      "equivalence_check": "LEXICAL_OBJECT_DISPOSITION.json"
+    },
+    {
+      "id": "OBJ09",
+      "original": {
+        "object_id": "OBJ09",
+        "env": "table*",
+        "label": "tab:overall_summary",
+        "rendered_number_B1": "IX",
+        "page_B1": "16",
+        "source_file": "main.tex",
+        "source_line": "591",
+        "incoming_refs": "4",
+        "caption_excerpt": "Comprehensive Benchmark Performance Breakdown ($N=\\numTotalEvals$ Evaluations Across \\numUniqueQueries\\ Unique Queries $\\times$ \\numComparativePipelines\\ Compar"
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 434,
+        "rendered_number": "IV",
+        "rendered_page": "13",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 372
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 430
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 602
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 661
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ10",
+      "original": {
+        "object_id": "OBJ10",
+        "env": "figure",
+        "label": "fig:safety_rejection",
+        "rendered_number_B1": "3",
+        "page_B1": "15",
+        "source_file": "main.tex",
+        "source_line": "615",
+        "incoming_refs": "0",
+        "caption_excerpt": "Safety refusal rate comparison across Category C (Out-of-Context) and Category D (Adversarial Deception). TERRA intercepts 100\\% of out-of-context queries and a"
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 459,
+        "rendered_number": "3",
+        "rendered_page": "12",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 465
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ11",
+      "original": {
+        "object_id": "OBJ11",
+        "env": "table",
+        "label": "tab:latency_percentiles",
+        "rendered_number_B1": "XIII",
+        "page_B1": "18",
+        "source_file": "main.tex",
+        "source_line": "666",
+        "incoming_refs": "1",
+        "caption_excerpt": "Pipeline Execution Latency Percentiles (Milliseconds). Panel~A: Gross wall-clock time (end-to-end including any server-imposed retry sleep). Panel~B: Net time ("
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_latency_percentiles.tex",
+        "line": 6,
+        "rendered_number": "S10",
+        "rendered_page": "S14",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ12",
+      "original": {
+        "object_id": "OBJ12",
+        "env": "table",
+        "label": "tab:power_analysis",
+        "rendered_number_B1": "XIV",
+        "page_B1": "18",
+        "source_file": "main.tex",
+        "source_line": "710",
+        "incoming_refs": "1",
+        "caption_excerpt": "Statistical Significance, Benjamini-Hochberg FDR Control ($M=20$ Family), and Exact Paired Outcomes Across Paired Evaluations."
+      },
+      "current": {
+        "document": "main",
+        "file": "main.tex",
+        "line": 493,
+        "rendered_number": "VI",
+        "rendered_page": "14",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 489
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 520
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ13",
+      "original": {
+        "object_id": "OBJ13",
+        "env": "table",
+        "label": "tab:baseline_specifications",
+        "rendered_number_B1": "IV",
+        "page_B1": "11",
+        "source_file": "tables/table_baseline_specifications.tex",
+        "source_line": "2",
+        "incoming_refs": "1",
+        "caption_excerpt": "Comparative Baseline Adaptation Rigor and Architectural Parameter Configurations."
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_baseline_specifications.tex",
+        "line": 9,
+        "rendered_number": "S2",
+        "rendered_page": "S4",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ14",
+      "original": {
+        "object_id": "OBJ14",
+        "env": "table*",
+        "label": "tab:casefacts_eval",
+        "rendered_number_B1": "XVII",
+        "page_B1": "24",
+        "source_file": "tables/table_casefacts_eval.tex",
+        "source_line": "2",
+        "incoming_refs": "2",
+        "caption_excerpt": "CaseFacts External Benchmark Evaluation Across In-Corpus Precedent Verification (Track 1, $N=120$) and Modern Out-of-Corpus Refusal Control (Track 2, $N=50$). E"
+      },
+      "current": {
+        "document": "main",
+        "file": "tables/table_casefacts_eval.tex",
+        "line": 4,
+        "rendered_number": "VIII",
+        "rendered_page": "18",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 567
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ15",
+      "original": {
+        "object_id": "OBJ15",
+        "env": "table*",
+        "label": "tab:citation_eval",
+        "rendered_number_B1": "XX",
+        "page_B1": "29",
+        "source_file": "tables/table_citation_eval.tex",
+        "source_line": "2",
+        "incoming_refs": "4",
+        "caption_excerpt": "Generative Citation Correctness, Doctrinal Support, and Interactive Hyperlink Provenance Across Comparative Pipelines on Category B ($N=\\CatBRetrievalQueries$ Q"
+      },
+      "current": {
+        "document": "main",
+        "file": "tables/table_citation_eval.tex",
+        "line": 4,
+        "rendered_number": "XI",
+        "rendered_page": "21",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 238
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 613
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 616
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ16",
+      "original": {
+        "object_id": "OBJ16",
+        "env": "table*",
+        "label": "tab:clerc_eval",
+        "rendered_number_B1": "XVIII",
+        "page_B1": "26",
+        "source_file": "tables/table_clerc_eval.tex",
+        "source_line": "2",
+        "incoming_refs": "3",
+        "caption_excerpt": "Standardized External Benchmark Evaluation on a Stratified Sample of CLERC (Track 1, $N=120$) and TERRA-Specific Out-of-Corpus Refusal Stress Test (Track 2, $N="
+      },
+      "current": {
+        "document": "main",
+        "file": "tables/table_clerc_eval.tex",
+        "line": 4,
+        "rendered_number": "IX",
+        "rendered_page": "19",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 583
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 602
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ17",
+      "original": {
+        "object_id": "OBJ17",
+        "env": "table*",
+        "label": "tab:computational_budget",
+        "rendered_number_B1": "XXI",
+        "page_B1": "31",
+        "source_file": "tables/table_computational_budget.tex",
+        "source_line": "2",
+        "incoming_refs": "4",
+        "caption_excerpt": "Computational Budget Profiling, Sequential Pipeline Invocations, Decoupled Component Latency Breakdown, and Geometric Gate Calibration ($N=\\numUniqueQueries$ Be"
+      },
+      "current": {
+        "document": "main",
+        "file": "tables/table_computational_budget.tex",
+        "line": 4,
+        "rendered_number": "XII",
+        "rendered_page": "22",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 214
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 330
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 626
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 663
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ18",
+      "original": {
+        "object_id": "OBJ18",
+        "env": "table*",
+        "label": "tab:full_fdr_family",
+        "rendered_number_B1": "XXIII",
+        "page_B1": "38",
+        "source_file": "tables/table_full_fdr_family.tex",
+        "source_line": "2",
+        "incoming_refs": "6",
+        "caption_excerpt": "Complete Pre-Specified Benjamini-Hochberg False Discovery Rate (FDR) Hypothesis Testing Family ($M=20$ Tests Across 4 Baselines $\\times$ 5 Evaluation Slices)."
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_full_fdr_family.tex",
+        "line": 8,
+        "rendered_number": "S1",
+        "rendered_page": "S2",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ19",
+      "original": {
+        "object_id": "OBJ19",
+        "env": "table*",
+        "label": "tab:obscure_overruled_eval",
+        "rendered_number_B1": "XVI",
+        "page_B1": "22",
+        "source_file": "tables/table_obscure_overruled_eval.tex",
+        "source_line": "2",
+        "incoming_refs": "1",
+        "caption_excerpt": "Obscure Overruled Precedent Benchmark Evaluation ($N=\\ObscCohortSize$ Obscure Decisions, $N=\\ObscKappaCleanEvals$ Completion Instances) and Cross-Suite Descript"
+      },
+      "current": {
+        "document": "main",
+        "file": "tables/table_obscure_overruled_eval.tex",
+        "line": 4,
+        "rendered_number": "VII",
+        "rendered_page": "16",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 545
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ20",
+      "original": {
+        "object_id": "OBJ20",
+        "env": "table",
+        "label": "tab:refusal_breakdown",
+        "rendered_number_B1": "XI",
+        "page_B1": "16",
+        "source_file": "tables/table_refusal_breakdown.tex",
+        "source_line": "2",
+        "incoming_refs": "5",
+        "caption_excerpt": "Comprehensive Per-Category Epistemic and Safety Refusal Breakdown Across All 350 Benchmark Queries ($N=1,750$ Evaluations), Alongside Audited Category D Adversa"
+      },
+      "current": {
+        "document": "main",
+        "file": "tables/table_refusal_breakdown.tex",
+        "line": 4,
+        "rendered_number": "V",
+        "rendered_page": "13",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 372
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 458
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 465
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 551
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ21",
+      "original": {
+        "object_id": "OBJ21",
+        "env": "table*",
+        "label": "tab:retrieval_eval",
+        "rendered_number_B1": "XIX",
+        "page_B1": "28",
+        "source_file": "tables/table_retrieval_eval.tex",
+        "source_line": "2",
+        "incoming_refs": "7",
+        "caption_excerpt": "Direct Evidence Retrieval Quality, Chain-Length Recovery, and Hyperparameter Robustness Grids on Category B ($N=\\CatBRetrievalQueries$ Queries, $\\CatBGoldPreced"
+      },
+      "current": {
+        "document": "main",
+        "file": "tables/table_retrieval_eval.tex",
+        "line": 4,
+        "rendered_number": "X",
+        "rendered_page": "20",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 423
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 592
+        },
+        {
+          "document": "main",
+          "file": "main.tex",
+          "line": 606
+        },
+        {
+          "document": "supplement",
+          "file": "supplement_limitations.tex",
+          "line": 40
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ22",
+      "original": {
+        "object_id": "OBJ22",
+        "env": "table*",
+        "label": "tab:router_eval",
+        "rendered_number_B1": "XII",
+        "page_B1": "18",
+        "source_file": "tables/table_router_eval.tex",
+        "source_line": "2",
+        "incoming_refs": "4",
+        "caption_excerpt": "Standalone Traffic Cop Query Intent Classifier Evaluation Across Canonical Benchmark Queries ($N=\\RouterTotalQueries$), and Category-Disaggregated Routing Behav"
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_router_eval.tex",
+        "line": 7,
+        "rendered_number": "S6",
+        "rendered_page": "S8",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ23",
+      "original": {
+        "object_id": "OBJ23",
+        "env": "table",
+        "label": "tab:sensitivity_raw_vs_clamped",
+        "rendered_number_B1": "X",
+        "page_B1": "16",
+        "source_file": "tables/table_sensitivity_raw_vs_clamped.tex",
+        "source_line": "2",
+        "incoming_refs": "0",
+        "caption_excerpt": "Sensitivity Analysis: Certified Clamped Faithfulness vs. Pre-Clamp Raw Judge Scores Across All 350 Benchmark Queries ($N=1,750$ Evaluations) Under the Canonical"
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_sensitivity_raw_vs_clamped.tex",
+        "line": 7,
+        "rendered_number": "S3",
+        "rendered_page": "S5",
+        "compiled_aux_match": true
+      },
+      "incoming": [
+        {
+          "document": "supplement",
+          "file": "supplement_limitations.tex",
+          "line": 27
+        }
+      ],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ24",
+      "original": {
+        "object_id": "OBJ24",
+        "env": "table*",
+        "label": "tab:system_comparison",
+        "rendered_number_B1": "I",
+        "page_B1": "4",
+        "source_file": "tables/table_system_comparison.tex",
+        "source_line": "2",
+        "incoming_refs": "1",
+        "caption_excerpt": "Architectural and Doctrinal Feature Comparison of Retrieval-Augmented Generation Paradigms Across General and Legal Domains."
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_system_comparison.tex",
+        "line": 7,
+        "rendered_number": "S5",
+        "rendered_page": "S7",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ25",
+      "original": {
+        "object_id": "OBJ25",
+        "env": "table*",
+        "label": "tab:temporal_leakage_probe",
+        "rendered_number_B1": "XV",
+        "page_B1": "20",
+        "source_file": "tables/table_temporal_leakage_probe.tex",
+        "source_line": "2",
+        "incoming_refs": "3",
+        "caption_excerpt": "Temporal Parametric Leakage Stress Test ($N=50$ historical queries across five SCOTUS temporal cutoffs $T=1890$ to $1980$). Panel A reports complete-case and mi"
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_temporal_leakage_probe.tex",
+        "line": 7,
+        "rendered_number": "S7",
+        "rendered_page": "S9",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    },
+    {
+      "id": "OBJ26",
+      "original": {
+        "object_id": "OBJ26",
+        "env": "table",
+        "label": "tab:temporal-update-stability",
+        "rendered_number_B1": "XXII",
+        "page_B1": "31",
+        "source_file": "tables/table_temporal_update_stability.tex",
+        "source_line": "3",
+        "incoming_refs": "1",
+        "caption_excerpt": "Retrieval stability across temporal snapshot expansions on Category~B precedent chains ($N=\\IssueNineteenTotalEvals$ query-pair observations). Evaluates standal"
+      },
+      "current": {
+        "document": "supplement",
+        "file": "supplement_tables/table_temporal_update_stability.tex",
+        "line": 8,
+        "rendered_number": "S4",
+        "rendered_page": "S6",
+        "compiled_aux_match": true
+      },
+      "incoming": [],
+      "status": "RESOLVED_VERIFIED",
+      "scope": "source/compiled-destination continuity; prior I6 full-render verification reused, not a new visual audit"
+    }
+  ],
+  "original_tables": 23,
+  "original_figures": 3,
+  "peer_12plus11_split": "not assumed; current locations derived from actual include graph",
+  "new_objects": {}
+}

@@ -1,0 +1,22 @@
+﻿==============================================================================
+RUNNING SYNTHETIC TESTS FOR OPERATIONAL RUNBOOK
+==============================================================================
+  [PASS] Test 1 : Service Stopped Fails Closed
+  [PASS] Test 2 : Disabled Profile Fails Closed
+  [PASS] Test 3 : Rule Profile Coverage Mismatch Fails Closed
+  [PASS] Test 4 : Transcript Startup Failure Fails Closed
+  [PASS] Test 5 : Rule Collision Fails Closed
+  [PASS] Test 6 : Evidence Write Failure Fails Closed
+  [PASS] Test 7 : Nonzero Child Exit Code Fails Closed
+  [PASS] Test 8 : Teardown Failure Fails Closed
+  [PASS] Test 9 : Other Processes Detected Fails Closed
+  [PASS] Test 10 : Pre-Execution Hash Mismatch Fails Closed
+  [PASS] Test 11 : Post-Execution Hash Mismatch Fails Closed
+  [PASS] Test 12 : Rule Application Path Mismatch Fails Closed
+  [PASS] Test 13 : End-to-End Mock Lifecycle Success
+  [PASS] Test 14 : Pre-execution record written exclusively
+  [PASS] Test 15 : Terminal record written exclusively
+  [PASS] Test 16 : Console transcript written exclusively
+==============================================================================
+SYNTHETIC TEST RESULTS: 16 / 16 PASSED (0 FAILED)
+==============================================================================

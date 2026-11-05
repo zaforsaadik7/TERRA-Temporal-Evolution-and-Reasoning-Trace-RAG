@@ -1,0 +1,87 @@
+{
+  "status": "TECHNICAL_CANDIDATE_READY_PAGE_CONTRACT_AND_PEER_REVIEW_REQUIRED",
+  "I9_complete": false,
+  "final_revision": "r34",
+  "main_pages": 67,
+  "supplement_pages": 18,
+  "advisor_main_ceiling": 25,
+  "page_compliant": false,
+  "working46unchanged": true,
+  "changed_candidate_files": [
+    "figure_1_system_architecture.tex",
+    "figure_2_hub_centrality.tex",
+    "figure_3_safety_rejection.tex",
+    "main.tex",
+    "matched_comparison_main.tex",
+    "supplement_assessment.tex",
+    "supplement_limitations.tex",
+    "supplement_matched_comparison.tex",
+    "supplement_tables/table_baseline_specifications.tex",
+    "supplement_tables/table_full_fdr_family.tex",
+    "supplement_tables/table_graph_metrics.tex",
+    "supplement_tables/table_latency_percentiles.tex",
+    "supplement_tables/table_router_eval.tex",
+    "supplement_tables/table_run_provenance.tex",
+    "supplement_tables/table_sensitivity_raw_vs_clamped.tex",
+    "supplement_tables/table_system_comparison.tex",
+    "supplement_tables/table_temporal_leakage_probe.tex",
+    "supplement_tables/table_temporal_update_stability.tex",
+    "tables/table_casefacts_eval.tex",
+    "tables/table_citation_eval.tex",
+    "tables/table_clerc_eval.tex",
+    "tables/table_computational_budget.tex",
+    "tables/table_obscure_overruled_eval.tex",
+    "tables/table_refusal_breakdown.tex",
+    "tables/table_retrieval_eval.tex",
+    "TERRA_SUPPLEMENT.tex"
+  ],
+  "added": [
+    "sn-basic.bst",
+    "sn-jnl.cls"
+  ],
+  "removed_stale_generated_auxiliary": [
+    "main.bbl"
+  ],
+  "build": {
+    "main": {
+      "pages": 67,
+      "sha256": "052fdbe591b0dd1fa50469027d284dc28bacba8d46fcf5b891c6d1d112ce299a",
+      "overfull": [],
+      "underfull": 74,
+      "font_warnings": [
+        "LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8.5> not available",
+        "(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 35."
+      ],
+      "undefined": [],
+      "duplicates": [],
+      "question_marks": []
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 18,
+      "sha256": "5416a7bec072ad36ba2b1f3b3fdb6c6f3faf34696145b7013195379e0acb48aa",
+      "overfull": [],
+      "underfull": 215,
+      "font_warnings": [],
+      "undefined": [],
+      "duplicates": [],
+      "question_marks": []
+    }
+  },
+  "api_model_calls": 0,
+  "statistics_regenerated": false,
+  "canonical_promotion": false,
+  "remaining": [
+    "Resolve the 25-page versus 67-page journal-format contract; no waiver assumed",
+    "Antigravity review of the exact I9 candidate and reconciliation of its findings",
+    "If accepted under the agreed page contract, adopt the reviewed allowlist and rebuild working sources",
+    "SNAPP pdfLaTeX compatibility and complete submission certification remain I10/I11"
+  ],
+  "visual_verified_count": {
+    "main": 67,
+    "TERRA_SUPPLEMENT": 18
+  },
+  "implementation_self_visual_review_complete": true,
+  "all85pages_covered": true,
+  "external_peer_review_received": false,
+  "working_adoption_performed": false
+}

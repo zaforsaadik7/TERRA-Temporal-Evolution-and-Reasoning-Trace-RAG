@@ -1,0 +1,216 @@
+{
+  "outcome": {
+    "child_capture": {
+      "limit_exceeded": false,
+      "monitored_limit_bytes": 16777216,
+      "name": "child_output.log",
+      "sha256": "0527ac294448d6e1bf095b79ce34d626f772bf778bd21fe5b825fa0fbb4f4daf",
+      "size_bytes": 1360,
+      "status": "VERIFIED"
+    },
+    "child_exit": 1,
+    "failures": [
+      "execution: ChildExecutionFailure: Child supervision/exit failed"
+    ],
+    "status": "FAIL",
+    "transcript_closed": true,
+    "transcript_sha256": "d29557dbb2a23c445d036b513ba63817c3964c6924c64e8e93ae0b1755f4ed80"
+  },
+  "wrapper_terminal": {
+    "transcript_sha256": "8a5b1ada0660e32e72a9eb3c57e2f835cb9e5694571137d0caa228ea4ad894f9",
+    "outcome": "FAIL",
+    "parent_attempted": true,
+    "parent_exit": 1,
+    "failures": [
+      "Parent failed or exit code unavailable; do not retry"
+    ],
+    "caveat": "Wrapper does not independently certify firewall absence or model results. Preserve evidence; no retries."
+  },
+  "before_after_saved_pins_byte_equal": true,
+  "pin_record": {
+    "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\file_pins_before.json",
+    "size_bytes": 5369,
+    "sha256": "6aea265d9bf1045aeb6da65d381f2a8f4203d4c65adccc48a9673a3a18721539"
+  },
+  "pin_summary": {
+    "manifest_counts": {
+      "assets_and_runtime_targets": 23,
+      "base_runtime_dlls": 31,
+      "base_runtime_root": 8,
+      "base_standard_library": 1092,
+      "boundary_script": 1,
+      "cache": 7,
+      "cache_inventory": 7,
+      "repository_auxiliary": 46,
+      "repository_code": 32,
+      "store": 11,
+      "store_inventory": 11,
+      "tokenizer_manifests": 17,
+      "venv_configuration": 1,
+      "venv_installed_environment": 29306
+    },
+    "verified_unique_members": 30556
+  },
+  "child_report_bytes": 0,
+  "child_output": "CHILD FAILURE: ValueError\nCHILD FAILURE DETAIL: {\"exception_type\": \"ValueError\", \"locals_omitted\": true, \"message_omitted\": true, \"schema_version\": 1, \"source_text_omitted\": true, \"stage\": \"LOCAL_COMPUTATION\", \"status\": \"CHILD_FAILURE\", \"traceback_chain\": [{\"exception_type\": \"ValueError\", \"frames\": [{\"file\": \"offline_smoke_production.py\", \"function\": \"child_main\", \"line\": 334}, {\"file\": \"offline_smoke_production.py\", \"function\": \"run_child\", \"line\": 303}, {\"file\": \"offline_smoke_child_entry.py\", \"function\": \"execute_context_cli\", \"line\": 144}, {\"file\": \"offline_smoke_child_entry.py\", \"function\": \"execute_injected_cli\", \"line\": 100}, {\"file\": \"offline_smoke_child_entry.py\", \"function\": \"execute_request_files\", \"line\": 67}, {\"file\": \"offline_smoke_child_entry.py\", \"function\": \"execute_synthetic_request\", \"line\": 34}, {\"file\": \"offline_smoke_authentic.py\", \"function\": \"run\", \"line\": 123}, {\"file\": \"offline_smoke_child.py\", \"function\": \"run\", \"line\": 43}, {\"file\": \"offline_preflight.py\", \"function\": \"extract_layer1_corpus\", \"line\": 2889}, {\"file\": \"offline_preflight.py\", \"function\": \"get_collection\", \"line\": 3057}, {\"file\": \"client.py\", \"function\": \"get_collection\", \"line\": 267}, {\"file\": \"collection_configuration.py\", \"function\": \"validate_embedding_function_conflict_on_get\", \"line\": 795}], \"frames_truncated\": false}], \"truncated\": false}\n",
+  "boundary_records": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_environment_deddc09493544aa39cde366f59a4883c.stdout",
+      "mtime_ns": 1792758752592770400,
+      "value": {
+        "profiles": {
+          "Private": true,
+          "Domain": true,
+          "Public": true
+        },
+        "service": "Running",
+        "adapter_parent_pid": 23884,
+        "verified_controller": {
+          "pid": 23884,
+          "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+          "start_ticks": "639283552398057388"
+        },
+        "unreadable_process_count": 18,
+        "known_other_pids": [
+          23884
+        ],
+        "administrator": true
+      }
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_58ae45dc77f74eb6938fadfdc40fede7.stdout",
+      "mtime_ns": 1792758754597625600,
+      "value": null
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_environment_88bd18cb8dc34f4b8578f5a877e08b11.stdout",
+      "mtime_ns": 1792758796365649900,
+      "value": {
+        "profiles": {
+          "Private": true,
+          "Domain": true,
+          "Public": true
+        },
+        "service": "Running",
+        "adapter_parent_pid": 23884,
+        "verified_controller": {
+          "pid": 23884,
+          "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+          "start_ticks": "639283552398057388"
+        },
+        "unreadable_process_count": 18,
+        "known_other_pids": [
+          23884
+        ],
+        "administrator": true
+      }
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_bc4feb4a059d4c1dbe9f5772ab48efbd.stdout",
+      "mtime_ns": 1792758797968701600,
+      "value": null
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_create_c695a5711b3d4cd88bb28eac5045e698.stdout",
+      "mtime_ns": 1792758799841983400,
+      "value": null
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_13dfe9a2d1ef40ed879bad7f6a1f96e0.stdout",
+      "mtime_ns": 1792758801341653900,
+      "value": {
+        "action": "Block",
+        "name": "TERRA_Smoke_20261023_profile01",
+        "owner_tag": "TERRA_ONE_QUERY_B001_PROFILE_20261023_01",
+        "profile": "Any",
+        "direction": "Outbound",
+        "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "enabled": true
+      }
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_ad51cb1af5cf4e268a3ff80fd4577b0c.stdout",
+      "mtime_ns": 1792758803013656900,
+      "value": {
+        "action": "Block",
+        "name": "TERRA_Smoke_20261023_profile01",
+        "owner_tag": "TERRA_ONE_QUERY_B001_PROFILE_20261023_01",
+        "profile": "Any",
+        "direction": "Outbound",
+        "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "enabled": true
+      }
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_99674b1ea0c54ddca31325bd8df60157.stdout",
+      "mtime_ns": 1792758804709576800,
+      "value": {
+        "action": "Block",
+        "name": "TERRA_Smoke_20261023_profile01",
+        "owner_tag": "TERRA_ONE_QUERY_B001_PROFILE_20261023_01",
+        "profile": "Any",
+        "direction": "Outbound",
+        "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "enabled": true
+      }
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_environment_6d6ba829469f43c0939ac5466ad46fa1.stdout",
+      "mtime_ns": 1792758919777200900,
+      "value": {
+        "profiles": {
+          "Private": true,
+          "Domain": true,
+          "Public": true
+        },
+        "service": "Running",
+        "adapter_parent_pid": 25232,
+        "verified_controller": {
+          "pid": 25232,
+          "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+          "start_ticks": "639283556053371294"
+        },
+        "unreadable_process_count": 18,
+        "known_other_pids": [
+          23884,
+          25232
+        ],
+        "administrator": true
+      }
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_6439cb3fcaa3478a9b954935b3fce1f9.stdout",
+      "mtime_ns": 1792758930418545900,
+      "value": {
+        "action": "Block",
+        "name": "TERRA_Smoke_20261023_profile01",
+        "owner_tag": "TERRA_ONE_QUERY_B001_PROFILE_20261023_01",
+        "profile": "Any",
+        "direction": "Outbound",
+        "program": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "enabled": true
+      }
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_remove_1b7d9fa3749f4f748e455d14b5fc4a48.stdout",
+      "mtime_ns": 1792758932973515400,
+      "value": null
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_68ee75f28f044b419b736279854b0285.stdout",
+      "mtime_ns": 1792758934398229900,
+      "value": null
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\evidence\\boundary_query_1819d303b9ad4ae182e7bd0ecd8d3755.stdout",
+      "mtime_ns": 1792758935643131400,
+      "value": null
+    }
+  ],
+  "limitations": [
+    "No independent fresh source-store/cache rehash or firewall query performed in this audit.",
+    "Structured traceback identifies validate_embedding_function_conflict_on_get; raw exception message intentionally omitted.",
+    "No successful retrieval result; Chroma client construction succeeded but get_collection rejected the embedding function binding."
+  ],
+  "retry_authorized": false
+}

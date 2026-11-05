@@ -1,0 +1,294 @@
+{
+  "audit_metadata": {
+    "script": "scripts/certify_category_d_issue6.py",
+    "executed_at": "2026-09-18T20:18:03.809685+00:00",
+    "sources": {
+      "raw_eval_path": "F:\\TERRA - Copy\\terra_baselines_eval_raw.json",
+      "dual_judged_path": "F:\\TERRA - Copy\\scratch/terra_350_5pipelines_dual_judged.json",
+      "benchmark_path": "F:\\TERRA - Copy\\terra_350_benchmark.json",
+      "semantic_cache_path": "F:\\TERRA - Copy\\scratch/invariant_6_cache.json",
+      "deployed_terra_eval_path": "F:\\TERRA -Copy\\scratch\\terra_350_issue6_dual_judged.json",
+      "new_semantic_cache_path": "F:\\TERRA -Copy\\scratch\\invariant_6_cache_issue6.json"
+    },
+    "issue_addressed": "Issue #17: Category D Evaluation Inconsistency (Refusal vs. Refutation)",
+    "live_computation_certified": true
+  },
+  "multi_class_performance_ledger": {
+    "1_Direct_LLM": {
+      "display_name": "Direct LLM (No RAG)",
+      "refusals": 0,
+      "refusals_rate": 0.0,
+      "refutations": 71,
+      "refutations_rate": 94.67,
+      "safe_handling": 71,
+      "safe_handling_rate": 94.67,
+      "fatal_errors": 4,
+      "fatal_error_rate": 5.33,
+      "hedges": 0,
+      "hedges_rate": 0.0,
+      "total_queries": 75
+    },
+    "2_Flat_Vector_RAG": {
+      "display_name": "Flat Vector RAG",
+      "refusals": 38,
+      "refusals_rate": 50.67,
+      "refutations": 30,
+      "refutations_rate": 40.0,
+      "safe_handling": 68,
+      "safe_handling_rate": 90.67,
+      "fatal_errors": 7,
+      "fatal_error_rate": 9.33,
+      "hedges": 0,
+      "hedges_rate": 0.0,
+      "total_queries": 75
+    },
+    "3_GraphRAG_Adapted": {
+      "display_name": "GraphRAG-Adapted",
+      "refusals": 32,
+      "refusals_rate": 42.67,
+      "refutations": 35,
+      "refutations_rate": 46.67,
+      "safe_handling": 67,
+      "safe_handling_rate": 89.33,
+      "fatal_errors": 8,
+      "fatal_error_rate": 10.67,
+      "hedges": 0,
+      "hedges_rate": 0.0,
+      "total_queries": 75
+    },
+    "4_HippoRAG_Adapted": {
+      "display_name": "HippoRAG-Adapted",
+      "refusals": 34,
+      "refusals_rate": 45.33,
+      "refutations": 36,
+      "refutations_rate": 48.0,
+      "safe_handling": 70,
+      "safe_handling_rate": 93.33,
+      "fatal_errors": 4,
+      "fatal_error_rate": 5.33,
+      "hedges": 1,
+      "hedges_rate": 1.33,
+      "total_queries": 75
+    },
+    "5_Full_TERRA": {
+      "display_name": "Full TERRA GraphRAG",
+      "refusals": 48,
+      "refusals_rate": 64.0,
+      "refutations": 25,
+      "refutations_rate": 33.33,
+      "safe_handling": 73,
+      "safe_handling_rate": 97.33,
+      "fatal_errors": 2,
+      "fatal_error_rate": 2.67,
+      "hedges": 0,
+      "hedges_rate": 0.0,
+      "total_queries": 75
+    }
+  },
+  "mcnemar_safe_handling_paired": {
+    "1_Direct_LLM": {
+      "baseline": "Direct LLM (No RAG)",
+      "concordant_safe_a": 71,
+      "concordant_unsafe_d": 2,
+      "terra_win_b": 2,
+      "baseline_win_c": 0,
+      "terra_win_qids": [
+        "D037",
+        "D075"
+      ],
+      "baseline_win_qids": [],
+      "delta_pct": 2.67,
+      "exact_two_tailed_p": 0.5
+    },
+    "2_Flat_Vector_RAG": {
+      "baseline": "Flat Vector RAG",
+      "concordant_safe_a": 68,
+      "concordant_unsafe_d": 2,
+      "terra_win_b": 5,
+      "baseline_win_c": 0,
+      "terra_win_qids": [
+        "D019",
+        "D001",
+        "D007",
+        "D013",
+        "D018"
+      ],
+      "baseline_win_qids": [],
+      "delta_pct": 6.67,
+      "exact_two_tailed_p": 0.0625
+    },
+    "3_GraphRAG_Adapted": {
+      "baseline": "GraphRAG-Adapted",
+      "concordant_safe_a": 67,
+      "concordant_unsafe_d": 2,
+      "terra_win_b": 6,
+      "baseline_win_c": 0,
+      "terra_win_qids": [
+        "D011",
+        "D014",
+        "D019",
+        "D013",
+        "D018",
+        "D037"
+      ],
+      "baseline_win_qids": [],
+      "delta_pct": 8.0,
+      "exact_two_tailed_p": 0.03125
+    },
+    "4_HippoRAG_Adapted": {
+      "baseline": "HippoRAG-Adapted",
+      "concordant_safe_a": 70,
+      "concordant_unsafe_d": 2,
+      "terra_win_b": 3,
+      "baseline_win_c": 0,
+      "terra_win_qids": [
+        "D002",
+        "D007",
+        "D037"
+      ],
+      "baseline_win_qids": [],
+      "delta_pct": 4.0,
+      "exact_two_tailed_p": 0.25
+    }
+  },
+  "mcnemar_explicit_refusal_paired": {
+    "1_Direct_LLM": {
+      "baseline": "Direct LLM (No RAG)",
+      "concordant_refusal_a": 0,
+      "concordant_nonrefusal_d": 27,
+      "terra_win_b": 48,
+      "baseline_win_c": 0,
+      "delta_pct": 64.0,
+      "exact_two_tailed_p": 7.105427357601002e-15
+    },
+    "2_Flat_Vector_RAG": {
+      "baseline": "Flat Vector RAG",
+      "concordant_refusal_a": 27,
+      "concordant_nonrefusal_d": 16,
+      "terra_win_b": 21,
+      "baseline_win_c": 11,
+      "delta_pct": 13.33,
+      "exact_two_tailed_p": 0.11018416518345475
+    },
+    "3_GraphRAG_Adapted": {
+      "baseline": "GraphRAG-Adapted",
+      "concordant_refusal_a": 22,
+      "concordant_nonrefusal_d": 17,
+      "terra_win_b": 26,
+      "baseline_win_c": 10,
+      "delta_pct": 21.33,
+      "exact_two_tailed_p": 0.011330984183587134
+    },
+    "4_HippoRAG_Adapted": {
+      "baseline": "HippoRAG-Adapted",
+      "concordant_refusal_a": 26,
+      "concordant_nonrefusal_d": 19,
+      "terra_win_b": 22,
+      "baseline_win_c": 8,
+      "delta_pct": 18.67,
+      "exact_two_tailed_p": 0.016124801710247997
+    }
+  },
+  "continuous_faithfulness_wilcoxon": {
+    "1_Direct_LLM": {
+      "baseline": "Direct LLM (No RAG)",
+      "terra_mean_faithfulness": 0.8333333333333334,
+      "baseline_mean_faithfulness": 0.9166666666666666,
+      "mean_delta": -0.083,
+      "ci_95": [
+        -0.17,
+        0.003
+      ],
+      "cohens_dz": -0.225,
+      "wilcoxon_p": 0.0629,
+      "power": 0.485
+    },
+    "2_Flat_Vector_RAG": {
+      "baseline": "Flat Vector RAG",
+      "terra_mean_faithfulness": 0.8333333333333334,
+      "baseline_mean_faithfulness": 0.8733333333333333,
+      "mean_delta": -0.04,
+      "ci_95": [
+        -0.11,
+        0.033
+      ],
+      "cohens_dz": -0.125,
+      "wilcoxon_p": 0.3373,
+      "power": 0.187
+    },
+    "3_GraphRAG_Adapted": {
+      "baseline": "GraphRAG-Adapted",
+      "terra_mean_faithfulness": 0.8333333333333334,
+      "baseline_mean_faithfulness": 0.8666666666666667,
+      "mean_delta": -0.033,
+      "ci_95": [
+        -0.113,
+        0.047
+      ],
+      "cohens_dz": -0.094,
+      "wilcoxon_p": 0.447,
+      "power": 0.127
+    },
+    "4_HippoRAG_Adapted": {
+      "baseline": "HippoRAG-Adapted",
+      "terra_mean_faithfulness": 0.8333333333333334,
+      "baseline_mean_faithfulness": 0.9033333333333333,
+      "mean_delta": -0.07,
+      "ci_95": [
+        -0.15,
+        0.01
+      ],
+      "cohens_dz": -0.199,
+      "wilcoxon_p": 0.0925,
+      "power": 0.397
+    }
+  },
+  "macro_export_values": {
+    "TerraCatDRejectionRate": "64.0%",
+    "TerraCatDRejection": "48/75 (64.0%)",
+    "TerraCatDSafeHandlingRate": "97.3%",
+    "TerraCatDSafeHandling": "73/75 (97.3%)",
+    "TerraCatDRefutations": "25/75 (33.3%)",
+    "TerraCatDRefutationRate": "33.3%",
+    "TerraCatDFatalErrors": "2/75 (2.7%)",
+    "TerraCatDFatalErrorRate": "2.7%",
+    "TerraCatDHedges": "0/75 (0.0%)",
+    "TerraCatDHedgeRate": "0.0%",
+    "DirectLLMCatDRejectionRate": "0.0%",
+    "DirectLLMCatDRejection": "0/75 (0.0%)",
+    "DirectLLMCatDSafeHandlingRate": "94.7%",
+    "DirectLLMCatDSafeHandling": "71/75 (94.7%)",
+    "DirectLLMCatDRefutations": "71/75 (94.7%)",
+    "DirectLLMCatDFatalErrors": "4/75 (5.3%)",
+    "DirectLLMCatDHedges": "0/75 (0.0%)",
+    "FlatRAGCatDRejectionRate": "50.7%",
+    "FlatRAGCatDRejection": "38/75 (50.7%)",
+    "FlatRAGCatDSafeHandlingRate": "90.7%",
+    "FlatRAGCatDSafeHandling": "68/75 (90.7%)",
+    "FlatRAGCatDRefutations": "30/75 (40.0%)",
+    "FlatRAGCatDFatalErrors": "7/75 (9.3%)",
+    "FlatRAGCatDHedges": "0/75 (0.0%)",
+    "GraphRAGCatDRejectionRate": "42.7%",
+    "GraphRAGCatDRejection": "32/75 (42.7%)",
+    "GraphRAGCatDSafeHandlingRate": "89.3%",
+    "GraphRAGCatDSafeHandling": "67/75 (89.3%)",
+    "GraphRAGCatDRefutations": "35/75 (46.7%)",
+    "GraphRAGCatDFatalErrors": "8/75 (10.7%)",
+    "GraphRAGCatDHedges": "0/75 (0.0%)",
+    "HippoRAGCatDRejectionRate": "45.3%",
+    "HippoRAGCatDRejection": "34/75 (45.3%)",
+    "HippoRAGCatDSafeHandlingRate": "93.3%",
+    "HippoRAGCatDSafeHandling": "70/75 (93.3%)",
+    "HippoRAGCatDRefutations": "36/75 (48.0%)",
+    "HippoRAGCatDFatalErrors": "4/75 (5.3%)",
+    "HippoRAGCatDHedges": "1/75 (1.3%)",
+    "TerraVsDirectLLMCatDRefusalMcNemarP": "\\ensuremath{4.55 \\times 10^{-13}}",
+    "TerraVsFlatRAGCatDRefusalMcNemarP": "0.5847",
+    "TerraVsGraphRAGCatDRefusalMcNemarP": "0.1214",
+    "TerraVsHippoRAGCatDRefusalMcNemarP": "0.1849",
+    "TerraVsDirectLLMCatDSafeMcNemarP": "0.5000",
+    "TerraVsFlatRAGCatDSafeMcNemarP": "0.0625",
+    "TerraVsGraphRAGCatDSafeMcNemarP": "0.0312",
+    "TerraVsHippoRAGCatDSafeMcNemarP": "0.2500"
+  }
+}

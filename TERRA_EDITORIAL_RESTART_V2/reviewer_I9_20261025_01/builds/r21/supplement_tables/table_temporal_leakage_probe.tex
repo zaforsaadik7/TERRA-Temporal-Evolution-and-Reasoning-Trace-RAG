@@ -1,0 +1,43 @@
+% TEMPORAL PARAMETRIC LEAKAGE PROBE EVALUATION TABLE (TABLE XII)
+\par\begingroup
+
+
+
+\begin{longtable}{p{4.8cm}p{2.6cm}p{2.8cm}p{2.8cm}p{3cm}p{3cm}p{3cm}}
+\caption{Temporal Parametric Leakage Stress Test ($N=50$ historical queries across five SCOTUS temporal cutoffs $T=1890$ to $1980$). Panel A reports complete-case and missingness-bounded sensitivity intervals $[SPTLR_{\text{lower}}, SPTLR_{\text{upper}}]$ for Level 2 Substantive Leakage, alongside Refusal Rates and consensus Historical Legal Correctness Rates (HLCR). Panel B provides full discordant-pair $(b, c)$ transparency across complete cases ($N_{\text{cc}}$) and bounded missing-data envelopes ($N=50$) under exact McNemar testing.}\label{tab:temporal_leakage_probe}\\
+\toprule
+\multicolumn{7}{c}{\textbf{Panel A: Empirical Performance Across Prompting Regimes ($N=50$ Queries $\times$ 4 Pipelines = 400 Evaluations)}} \\
+\midrule
+& \multicolumn{3}{c}{\textbf{Condition A (Default Task Prompt)}} & \multicolumn{3}{c}{\textbf{Condition B (Explicit Temporal Instruction)}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{Pipeline} & \textbf{SPTLR Bound} $\downarrow$ & \textbf{Refusal Rate} & \textbf{HLCR} $\uparrow$ & \textbf{SPTLR Bound} $\downarrow$ & \textbf{Refusal Rate} & \textbf{HLCR} $\uparrow$ \\
+\midrule
+Direct LLM (No RAG) & $\DirectLlmSptlrA$ & $\DirectLlmRefusalA$ & $\DirectLlmHlcrA$ & $\DirectLlmSptlrB$ & $\DirectLlmRefusalB$ & $\DirectLlmHlcrB$ \\
+Flat Vector RAG & $\FlatRagSptlrA^\dagger$ & $\mathbf{\FlatRagRefusalA}$ & $\FlatRagHlcrA$ & $\FlatRagSptlrB$ & $\FlatRagRefusalB$ & $\FlatRagHlcrB$ \\
+\midrule
+$\text{TERRA}_{\text{ungated}}$ ($L_{\text{gen}}$) & $\TerraUngatedSptlrA$ & $\TerraUngatedRefusalA$ & $\mathbf{\TerraUngatedHlcrA}$ & $\TerraUngatedSptlrB$ & $\TerraUngatedRefusalB$ & $\mathbf{\TerraUngatedHlcrB}$ \\
+$\textbf{TERRA}_{\textbf{gated}}$ ($L_{\textbf{final}}$) & $\mathbf{\TerraGatedSptlrA}^*$ & $\TerraGatedRefusalA$ & $\mathbf{\TerraGatedHlcrA}^{**}$ & $\mathbf{\TerraGatedSptlrB}^*$ & $\TerraGatedRefusalB$ & $\mathbf{\TerraGatedHlcrB}$ \\
+\midrule
+\textbf{NGLIR (Interception Rate)} & \multicolumn{3}{c}{$[0.0\%, 20.0\%]$} & \multicolumn{3}{c}{$\NglirRange^\ddagger$} \\
+\midrule[\heavyrulewidth]
+\multicolumn{7}{c}{\textbf{Panel B: Exploratory Paired Contrasts, Complete Cases ($N_{\text{cc}}$), and Full $N=50$ Sensitivity Bounds}} \\
+\midrule
+\textbf{Hypothesis \& Contrast} & \textbf{Target Metric} & \textbf{Complete Cases ($N_{\text{cc}}$)} & \textbf{Full $N=50$ Sensitivity Bounds} & \textbf{Exact McNemar $p$-value} & \textbf{Directional Stability} & \textbf{Empirical Conclusion} \\
+\midrule
+$H_1$: TERRA vs Flat RAG (Cond A) & SPTLR (Leakage) & $\HoneSptlrDiscordantCompleteCases$ & $\HoneSptlrDiscordantBounds$ & $p = \HoneSptlrPval^\S$ (one-sided) & No ($c > b$) & Not Supported (Refusal Confound) \\
+$H_1$ Companion: TERRA vs Flat RAG & HLCR (Grounding) & $N=50: b=20, c=1$ & $b=20, c=1$ & $p = {\HoneHlcrPvalFormatted}^{**}$ & Yes ($b \gg c$) & $+38.0\%$ automated HLCR label difference \\
+$H_2$: TERRA vs Direct LLM (Cond A) & SPTLR (Leakage) & $\HtwoDiscordantCompleteCases$ & $\HtwoDiscordantBounds$ & $p \in [\HtwoPvalMin, \HtwoPvalMax]$ (one-sided) & Yes ($c_{\max} < b_{\min}$) & \textbf{Directionally Stable} (Clean Dominance) \\
+$H_3$: TERRA vs Flat RAG (Cond B) & SPTLR (Leakage) & $\HthreeDiscordantCompleteCases$ & $\HthreeDiscordantBounds$ & $p \in [\HthreePvalMin, \HthreePvalMax]$ (one-sided) & Yes ($c_{\max} < b_{\min}$) & \textbf{Directionally Stable} (Clean Dominance) \\
+$H_4$: TERRA vs Direct LLM (Cond B) & SPTLR (Leakage) & $\HfourDiscordantCompleteCases$ & $\HfourDiscordantBounds$ & $p \in [\HfourPvalMin, \HfourPvalMax]$ (one-sided) & Yes ($c_{\max} < b_{\min}$) & \textbf{Directionally Stable} (Clean Dominance) \\
+$H_5$: Gated vs Ungated (Cond A) & Gate Interception & $\HfiveDiscordantCompleteCases$ & $b \in [0, 2], c \in [1, 1]$ & Underpowered ($N=50$) & Inconclusive & Targeted Qualitative Safety \\
+$H_6$: Gated vs Ungated (Cond B) & Gate Interception & $\HsixDiscordantCompleteCases$ & $b \in [2, 5], c \in [0, 4]$ & Underpowered ($N=50$) & Inconclusive & Intercepts TLP-10 + 5 Hallucinations \\
+\bottomrule
+\end{longtable}
+\vspace{1mm}
+\raggedright \fontsize{9}{11}\selectfont \textbf{Notes:} Evaluated across 400 response instances dual-judged by \texttt{qwen3-\allowbreak{}next-\allowbreak{}80b} and \texttt{gpt-\allowbreak{}oss-\allowbreak{}120b} ($\kappa = \TemporalQwk$, raw concordance $\TemporalRawConcordance$, monotonic inclusion $\TemporalMonotonicInclusion$ across $N=\TemporalValidPairs$ complete pairs; remaining $\TemporalMissingEvaluations$ missing values bounded via sensitivity intervals). $b$ denotes pairs where TERRA is clean while the baseline leaks; $c$ denotes pairs where TERRA leaks while the baseline is clean. Complete cases ($N_{\text{cc}}$) reflect pairs where both judges successfully evaluated both pipelines under the 5-tier consensus cascade. The reported full $N=50$ sensitivity envelopes add extreme missing-pair contributions $(\Delta b, \Delta c)$ under assumed binary assignments, not observed outcomes ($b = b_{\text{cc}} + \Delta b, c = c_{\text{cc}} + \Delta c$).
+$^*$Directional stability ($c_{\max} < b_{\min}$) shown by the reported extreme envelopes; these bounds do not identify the missing outcomes or certify legal correctness.
+$^{**}$Difference in automated historical-correctness labels (not expert-validated legal correctness) ($p = \HoneHlcrPvalFormatted$ via two-sided exact McNemar test; $b=20, c=1$).
+$^\dagger$Flat Vector RAG Condition A leakage is mechanically suppressed by its severe $\FlatRagRefusalA$ refusal rate ($23/50$ safe refusals), which eliminates answering opportunities.
+$^\S$For $H_1$, testing directional superiority ($H_a: b > c$) yields $p = 1.0000$ (complete-case two-sided $p = 0.2500$ at $N_{\text{cc}}=36$; two-sided $p = 0.0625$ if missing records are zero-imputed at $N=50$), confirming that Flat RAG produced zero leaks on queries where TERRA answered cleanly ($b_{\text{cc}}=0$) alongside a high refusal rate; this does not isolate refusal as the causal explanation.
+$^\ddagger$NGLIR evaluated on denominator $D=\NglirDenominatorQwen$ under Qwen ($\NglirQwen$) and $D=\NglirDenominatorConsensus$ under consensus ($\NglirConsensus$). Independent legal-expert validation of temporal false-negative detection was not performed. The exploratory AI-assisted author assessment is reported separately and does not estimate this rate.
+\par\endgroup

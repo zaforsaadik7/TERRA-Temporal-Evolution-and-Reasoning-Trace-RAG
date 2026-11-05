@@ -1,0 +1,22 @@
+\begin{table*}[!t]
+\caption{Historical operation counts, latency and modelled cost.}
+\label{tab:computational_budget}
+\centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccccc}
+\toprule
+Pipeline/category & Ops/query & Generator calls & Mean ms & Median ms & Cost/1k \\
+\midrule
+Direct LLM & \DirectLLMTotalOpsPerQuery & \DirectLLMGenCallsFormatted & \DirectLLMLatencyMeanMS & \DirectLLMLatencyMedMS & \DirectLLMTotalCostPerThousand \\
+Flat RAG & \FlatRAGTotalOpsPerQuery & \FlatRAGGenCallsFormatted & \FlatRAGLatencyMeanMS & \FlatRAGLatencyMedMS & \FlatRAGTotalCostPerThousand \\
+GraphRAG & \GraphRAGTotalOpsPerQuery & \GraphRAGGenCallsFormatted & \GraphRAGLatencyMeanMS & \GraphRAGLatencyMedMS & \GraphRAGTotalCostPerThousand \\
+HippoRAG & \HippoRAGTotalOpsPerQuery & \HippoRAGGenCallsFormatted & \HippoRAGLatencyMeanMS & \HippoRAGLatencyMedMS & \HippoRAGTotalCostPerThousand \\
+TERRA overall & \TerraOverallTotalOpsPerQuery & \TerraOverallGenCallsFormatted & \TerraOverallLatencyMeanMS & \TerraOverallLatencyMedMS & \TerraOverallTotalCostPerThousand \\
+TERRA A (n100) & \TerraCatATotalOpsPerQuery & \TerraCatAGenCallsFormatted & \TerraCatALatencyMeanMS & \TerraCatALatencyMedMS & \TerraCatATotalCostPerThousand \\
+TERRA B (n100) & \TerraCatBTotalOpsPerQuery & \TerraCatBGenCallsFormatted & \TerraCatBLatencyMeanMS & \TerraCatBLatencyMedMS & \TerraCatBTotalCostPerThousand \\
+TERRA C (n75) & \TerraCatCTotalOpsPerQuery & \TerraCatCGenCallsFormatted & \TerraCatCLatencyMeanMS & \TerraCatCLatencyMedMS & \TerraCatCTotalCostPerThousand \\
+TERRA D (n75) & \TerraCatDTotalOpsPerQuery & \TerraCatDGenCallsFormatted & \TerraCatDLatencyMeanMS & \TerraCatDLatencyMedMS & \TerraCatDTotalCostPerThousand \\
+\bottomrule
+\end{tabular}
+\endgroup\par\vspace{2pt}
+\raggedright\footnotesize Panel A selected columns above; complete stage/tokens/pricing assumptions and Panel B eight-threshold squared-L2 grid are preserved in the full supplement. Cost is modelled, not billing. At 1.30:0/200 in-domain flags,41/75 OODflags; AUROC0.9901. No query was stopped before retrieval in this run. Category A/B are not the 110/240 route cohorts. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:computational_budget}.
+\end{table*}

@@ -1,0 +1,1579 @@
+[
+  {
+    "label": "tab:ablation",
+    "original_columns": 5,
+    "transposed_sections": [
+      {
+        "heading": "",
+        "headers": [
+          "\\textbf{Architecture Configuration}",
+          "\\textbf{Cat B Faith.}",
+          "\\textbf{Cat D Safety}",
+          "\\textbf{Cat A False Ref.}",
+          "\\textbf{Latency (Cat A)}"
+        ],
+        "rows": [
+          [
+            "\\textbf{Full TERRA (Router + EEG + NLI)}",
+            "$\\mathbf{\\AblationFullCatBFaithfulness}$",
+            "$\\mathbf{\\AblationFullCatDSafetyRate}$",
+            "$\\mathbf{\\AblationFullCatAFalseRefusalCount}$",
+            "$\\mathbf{\\AblationFullLatencyMedianSeconds\\text{ s}}$"
+          ],
+          [
+            "Ablation 1: w/o EEG Traversal (Vector Documents Only)",
+            "$\\AblationOneCatBFaithfulness$",
+            "$\\AblationOneCatDSafetyRate$",
+            "$\\AblationOneCatAFalseRefusalCount$",
+            "$\\AblationOneLatencyMedianSeconds\\text{ s}$"
+          ],
+          [
+            "Ablation 2: w/o NLI Smart Grader (No Verification Gate)",
+            "$\\AblationTwoCatBFaithfulness$",
+            "$\\AblationTwoCatDSafetyRate$",
+            "$\\AblationTwoCatAFalseRefusalCount$",
+            "$\\AblationTwoLatencyMedianSeconds\\text{ s}$"
+          ],
+          [
+            "Ablation 3: w/o Traffic Cop Router (Forced Hard Path)",
+            "$\\AblationThreeCatBFaithfulness$",
+            "$\\mathbf{\\AblationThreeCatDSafetyRate}$",
+            "$\\AblationThreeCatAFalseRefusalCount$ ($\\AblationThreeCatAFalseRefusalRate$)",
+            "$\\AblationThreeLatencyMedianSeconds\\text{ s}$"
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:cat_b_performance",
+    "original_columns": 5,
+    "transposed_sections": [
+      {
+        "heading": "",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Faithfulness}",
+          "\\textbf{TERRA Win Rate}",
+          "\\textbf{ROUGE-L Rec.}",
+          "\\textbf{Mean Words}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "$\\DirectLLMCatBFaithfulness \\pm \\DirectLLMCatBFaithfulnessStd$",
+            "$\\TerraVsDirectLLMCatBWinRate^\\dagger$",
+            "$\\mathbf{\\DirectLLMCatBRougeRecall}$",
+            "$\\mathbf{\\DirectLLMCatBMeanWords}$"
+          ],
+          [
+            "Flat Vector RAG",
+            "$\\FlatRAGCatBFaithfulness \\pm \\FlatRAGCatBFaithfulnessStd$",
+            "$\\mathbf{\\TerraVsFlatRAGCatBWinRate}$",
+            "$\\FlatRAGCatBRougeRecall$",
+            "$\\FlatRAGCatBMeanWords$"
+          ],
+          [
+            "GraphRAG-Adapted",
+            "$\\GraphRAGCatBFaithfulness \\pm \\GraphRAGCatBFaithfulnessStd$",
+            "$\\mathbf{\\TerraVsGraphRAGCatBWinRate}$",
+            "$\\GraphRAGCatBRougeRecall$",
+            "$\\GraphRAGCatBMeanWords$"
+          ],
+          [
+            "HippoRAG-Adapted",
+            "$\\HippoRAGCatBFaithfulness \\pm \\HippoRAGCatBFaithfulnessStd$",
+            "$\\mathbf{\\TerraVsHippoRAGCatBWinRate}$",
+            "$\\HippoRAGCatBRougeRecall$",
+            "$\\HippoRAGCatBMeanWords$"
+          ],
+          [
+            "\\textbf{TERRA GraphRAG}",
+            "$\\mathbf{\\TerraCatBFaithfulness \\pm \\TerraCatBFaithfulnessStd}$",
+            "---",
+            "$\\TerraCatBRougeRecall$",
+            "$\\TerraCatBMeanWords$"
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:overall_summary",
+    "original_columns": 8,
+    "transposed_sections": [
+      {
+        "heading": "",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Overall Faithfulness [95\\% CI]}",
+          "\\textbf{Answer-Only Faithfulness [95\\% CI]}",
+          "\\textbf{Cat A Factual}",
+          "\\textbf{Cat B Evolutionary}",
+          "\\textbf{Cat C Out-of-Context Refusal}",
+          "\\textbf{Cat D Adversarial Refusal}",
+          "\\textbf{Median Latency}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "$\\DirectLLMOverallFaithfulness$ $\\DirectLLMOverallCI$",
+            "$\\DirectLLMAnswerOnlyFaithfulness$ $\\DirectLLMAnswerOnlyCI$",
+            "$\\DirectLLMCatAFaithfulness$",
+            "$\\DirectLLMCatBFaithfulness$",
+            "$\\DirectLLMCatCRejection$",
+            "$\\DirectLLMCatDRejection$",
+            "$\\DirectLLMLatencyMedianSeconds\\text{ s}$"
+          ],
+          [
+            "Flat Vector RAG",
+            "$\\FlatRAGOverallFaithfulness$ $\\FlatRAGOverallCI$",
+            "$\\FlatRAGAnswerOnlyFaithfulness$ $\\FlatRAGAnswerOnlyCI$",
+            "$\\FlatRAGCatAFaithfulness$",
+            "$\\FlatRAGCatBFaithfulness$",
+            "$\\FlatRAGCatCRejection$",
+            "$\\FlatRAGCatDRejection$",
+            "$\\FlatRAGLatencyMedianSeconds\\text{ s}$"
+          ],
+          [
+            "GraphRAG-Adapted",
+            "$\\GraphRAGOverallFaithfulness$ $\\GraphRAGOverallCI$",
+            "$\\GraphRAGAnswerOnlyFaithfulness$ $\\GraphRAGAnswerOnlyCI$",
+            "$\\GraphRAGCatAFaithfulness$",
+            "$\\GraphRAGCatBFaithfulness$",
+            "$\\mathbf{\\GraphRAGCatCRejection}$",
+            "$\\GraphRAGCatDRejection$",
+            "$\\GraphRAGLatencyMedianSeconds\\text{ s}$"
+          ],
+          [
+            "HippoRAG-Adapted",
+            "$\\HippoRAGOverallFaithfulness$ $\\HippoRAGOverallCI$",
+            "$\\HippoRAGAnswerOnlyFaithfulness$ $\\HippoRAGAnswerOnlyCI$",
+            "$\\mathbf{\\HippoRAGCatAFaithfulness}$",
+            "$\\HippoRAGCatBFaithfulness$",
+            "$\\HippoRAGCatCRejection$",
+            "$\\HippoRAGCatDRejection$",
+            "$\\mathbf{\\HippoRAGLatencyMedianSeconds\\text{ s}}$"
+          ],
+          [
+            "\\textbf{TERRA GraphRAG}",
+            "$\\mathbf{\\TerraOverallFaithfulness}$ $\\mathbf{\\TerraOverallCI}$",
+            "$\\mathbf{\\TerraAnswerOnlyFaithfulness}$ $\\mathbf{\\TerraAnswerOnlyCI}$",
+            "$\\TerraCatAFaithfulness$",
+            "$\\mathbf{\\TerraCatBFaithfulness}$",
+            "$\\mathbf{\\TerraCatCRejection}$",
+            "$\\mathbf{\\TerraCatDRejection}$",
+            "$\\TerraLatencyMedianSeconds\\text{ s}$"
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:power_analysis",
+    "original_columns": 6,
+    "transposed_sections": [
+      {
+        "heading": "",
+        "headers": [
+          "\\textbf{Comparison}",
+          "\\textbf{Mean Delta [95\\% CI]}",
+          "\\textbf{Cohen's $d_z$}",
+          "\\textbf{Wilcoxon $p$}",
+          "\\textbf{FDR $q$}",
+          "\\textbf{Paired ($n^+/n^0/n^-$)}"
+        ],
+        "rows": [
+          [
+            "TERRA vs. Direct LLM (Cat B)",
+            "$\\CatBTerraVsDirectLLMDelta$ $\\CatBTerraVsDirectLLMCI$",
+            "$\\CatBTerraVsDirectLLMDz$",
+            "$\\CatBTerraVsDirectLLMWilcoxonP$",
+            "$\\CatBTerraVsDirectLLMAdjQ$",
+            "$\\TerraVsDirectLLMCatBWins/\\TerraVsDirectLLMCatBTies/\\TerraVsDirectLLMCatBLosses$"
+          ],
+          [
+            "TERRA vs. Direct LLM (Combined A+B)",
+            "$\\CombinedTerraVsDirectLLMDelta$ $\\CombinedTerraVsDirectLLMCI$",
+            "$\\CombinedTerraVsDirectLLMDz$",
+            "$\\CombinedTerraVsDirectLLMWilcoxonP$",
+            "$\\CombinedTerraVsDirectLLMAdjQ$",
+            "$\\TerraVsDirectLLMCombinedWins/\\TerraVsDirectLLMCombinedTies/\\TerraVsDirectLLMCombinedLosses$"
+          ],
+          [
+            "TERRA vs. Direct LLM (Cat C Refusal)$^\\dagger$",
+            "$+100.0\\%$ Diff.",
+            "---",
+            "$\\mathbf{\\CatCTerraVsDirectLLMFisherP}$",
+            "$\\mathbf{\\CatCTerraVsDirectLLMAdjQ}$",
+            "$75/75 \\text{ vs. } 0/75$"
+          ],
+          [
+            "TERRA vs. Flat RAG (Cat B)",
+            "$\\mathbf{\\CatBTerraVsFlatRAGDelta}$ $\\CatBTerraVsFlatRAGCI$",
+            "$\\mathbf{\\CatBTerraVsFlatRAGDz}$",
+            "$\\mathbf{\\CatBTerraVsFlatRAGWilcoxonP}$",
+            "$\\mathbf{\\CatBTerraVsFlatRAGAdjQ}$",
+            "$\\TerraVsFlatRAGCatBWins/\\TerraVsFlatRAGCatBTies/\\TerraVsFlatRAGCatBLosses$"
+          ],
+          [
+            "TERRA vs. Flat RAG (Combined A+B)",
+            "$\\mathbf{\\CombinedTerraVsFlatRAGDelta}$ $\\CombinedTerraVsFlatRAGCI$",
+            "$\\CombinedTerraVsFlatRAGDz$",
+            "$\\mathbf{\\CombinedTerraVsFlatRAGWilcoxonP}$",
+            "$\\mathbf{\\CombinedTerraVsFlatRAGAdjQ}$",
+            "$\\TerraVsFlatRAGCombinedWins/\\TerraVsFlatRAGCombinedTies/\\TerraVsFlatRAGCombinedLosses$"
+          ],
+          [
+            "TERRA vs. GraphRAG (Cat B)",
+            "$\\mathbf{\\CatBTerraVsGraphRAGDelta}$ $\\CatBTerraVsGraphRAGCI$",
+            "$\\mathbf{\\CatBTerraVsGraphRAGDz}$",
+            "$\\mathbf{\\CatBTerraVsGraphRAGWilcoxonP}$",
+            "$\\mathbf{\\CatBTerraVsGraphRAGAdjQ}$",
+            "$\\TerraVsGraphRAGCatBWins/\\TerraVsGraphRAGCatBTies/\\TerraVsGraphRAGCatBLosses$"
+          ],
+          [
+            "TERRA vs. GraphRAG (Combined A+B)",
+            "$\\mathbf{\\CombinedTerraVsGraphRAGDelta}$ $\\CombinedTerraVsGraphRAGCI$",
+            "$\\CombinedTerraVsGraphRAGDz$",
+            "$\\mathbf{\\CombinedTerraVsGraphRAGWilcoxonP}$",
+            "$\\mathbf{\\CombinedTerraVsGraphRAGAdjQ}$",
+            "$\\TerraVsGraphRAGCombinedWins/\\TerraVsGraphRAGCombinedTies/\\TerraVsGraphRAGCombinedLosses$"
+          ],
+          [
+            "TERRA vs. HippoRAG (Cat B)",
+            "$\\mathbf{\\CatBTerraVsHippoRAGDelta}$ $\\CatBTerraVsHippoRAGCI$",
+            "$\\mathbf{\\CatBTerraVsHippoRAGDz}$",
+            "$\\mathbf{\\CatBTerraVsHippoRAGWilcoxonP}$",
+            "$\\mathbf{\\CatBTerraVsHippoRAGAdjQ}$",
+            "$\\TerraVsHippoRAGCatBWins/\\TerraVsHippoRAGCatBTies/\\TerraVsHippoRAGCatBLosses$"
+          ],
+          [
+            "TERRA vs. HippoRAG (Combined A+B)",
+            "$\\CombinedTerraVsHippoRAGDelta$ $\\CombinedTerraVsHippoRAGCI$",
+            "$\\CombinedTerraVsHippoRAGDz$",
+            "$\\CombinedTerraVsHippoRAGWilcoxonP$",
+            "$\\CombinedTerraVsHippoRAGAdjQ$",
+            "$\\TerraVsHippoRAGCombinedWins/\\TerraVsHippoRAGCombinedTies/\\TerraVsHippoRAGCombinedLosses$"
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:casefacts_eval",
+    "original_columns": 9,
+    "transposed_sections": [
+      {
+        "heading": "\\textbf{Panel A: Track 1 In-Corpus Precedent Benchmark ($N=120$: 67 Supported, 45 Refuted, 8 Overruled)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Macro-$F_1$} $\\uparrow$",
+          "\\textbf{Accuracy (OOC = error)} $\\uparrow$",
+          "\\textbf{Supp. $F_1$ ($n=67$)}",
+          "\\textbf{Ref. $F_1$ ($n=45$)}",
+          "\\textbf{Overruled ($n=8$)$^\\dagger$}",
+          "\\textbf{Overruled 95\\% CI}",
+          "\\textbf{Avg. Faith.}",
+          "\\textbf{Avg. Rel.}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "$\\CaseFactsDirectMacroFOne$",
+            "$\\CaseFactsDirectMicroFOne$",
+            "\\textbf{67.11\\%}",
+            "36.07\\%",
+            "$\\CaseFactsDirectOverruled$",
+            "$\\CaseFactsDirectOverruledCI$",
+            "3.97",
+            "3.90"
+          ],
+          [
+            "Flat Vector RAG",
+            "$\\CaseFactsFlatMacroFOne$",
+            "$\\CaseFactsFlatMicroFOne$",
+            "66.67\\%",
+            "\\textbf{44.78\\%}",
+            "$\\CaseFactsFlatOverruled$",
+            "$\\CaseFactsFlatOverruledCI$",
+            "3.97",
+            "3.85"
+          ],
+          [
+            "\\textbf{Full TERRA (Gated Live)}",
+            "$\\mathbf{\\CaseFactsTerraMacroFOne}^*$",
+            "$\\CaseFactsTerraMicroFOne$",
+            "65.69\\%",
+            "40.62\\%",
+            "$\\mathbf{\\CaseFactsTerraOverruled}^{**}$",
+            "$\\mathbf{\\CaseFactsTerraOverruledCI}$",
+            "3.83",
+            "3.66"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Track 2 Dedicated Modern Refusal Control ($N=50$ Post-1980 Supreme Court Decisions)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Total Out-of-Corpus Refusal}",
+          "\\textbf{Total Out-of-Corpus Refusal}",
+          "\\textbf{Hard NLI Gate Refusal}",
+          "\\textbf{Hard NLI Gate Refusal}",
+          "\\textbf{Disclosed Reasoning$^\\ddagger$}",
+          "\\textbf{Disclosed Reasoning$^\\ddagger$}",
+          "\\textbf{Hallucination Rate $\\downarrow$}",
+          "\\textbf{Hallucination Rate $\\downarrow$}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "$\\CaseFactsDirectRefusalTrackTwo$",
+            "",
+            "0/50 (0.0\\%)",
+            "",
+            "40/50 (80.0\\%)",
+            "",
+            "$\\CaseFactsDirectHallucinationTrackTwo$",
+            ""
+          ],
+          [
+            "Flat Vector RAG",
+            "$\\CaseFactsFlatRefusalTrackTwo$",
+            "",
+            "0/50 (0.0\\%)",
+            "",
+            "46/50 (92.0\\%)",
+            "",
+            "$\\CaseFactsFlatHallucinationTrackTwo$",
+            ""
+          ],
+          [
+            "\\textbf{Full TERRA (Gated Live)}",
+            "$\\mathbf{\\CaseFactsTerraRefusalTrackTwo}$",
+            "",
+            "$\\mathbf{\\CaseFactsTerraHardRefusalTrackTwo}$",
+            "",
+            "$\\mathbf{\\CaseFactsTerraDisclosedTrackTwo}$",
+            "",
+            "$\\mathbf{\\CaseFactsTerraHallucinationTrackTwo}$",
+            ""
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:citation_eval",
+    "original_columns": 8,
+    "transposed_sections": [
+      {
+        "heading": "\\textbf{Panel A: Category B Multi-Hop Precedent Citation Performance ($N=\\CatBRetrievalQueries$ Queries, $\\CatBGoldPrecedents$ Gold Precedents)}",
+        "headers": [
+          "\\textbf{Pipeline Architecture}",
+          "\\textbf{Macro CR} $\\uparrow$",
+          "\\textbf{Micro CR} $\\uparrow$",
+          "\\textbf{Entity CP} $\\uparrow$",
+          "\\textbf{Doctrinal CP} $\\uparrow$",
+          "\\textbf{Citation $F_1$} $\\uparrow$",
+          "\\textbf{Full Paths Cited}",
+          "\\textbf{Path Citation Lift}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (\\texttt{meta-llama-3-3-70b})",
+            "\\CatBDirectMacroCitationRecall",
+            "\\CatBDirectMicroCitationRecall",
+            "\\textbf{\\CatBDirectEntityCitationPrecision}",
+            "\\CatBDirectDoctrinalCitationPrecision",
+            "\\CatBDirectCitationFOne",
+            "\\CatBDirectFullPathCitationCount",
+            "Baseline ($1.00\\times$)"
+          ],
+          [
+            "Flat Vector RAG (ChromaDB)",
+            "\\CatBFlatMacroCitationRecall",
+            "\\CatBFlatMicroCitationRecall",
+            "\\CatBFlatEntityCitationPrecision",
+            "\\textbf{\\CatBFlatDoctrinalCitationPrecision}",
+            "\\textbf{\\CatBFlatCitationFOne}",
+            "\\CatBFlatFullPathCitationCount",
+            "$2.00\\times$ vs. Direct"
+          ],
+          [
+            "GraphRAG-Adapted (Modularity)",
+            "\\CatBGraphRAGMacroCitationRecall",
+            "\\CatBGraphRAGMicroCitationRecall",
+            "\\CatBGraphRAGEntityCitationPrecision",
+            "\\CatBGraphRAGDoctrinalCitationPrecision",
+            "\\CatBGraphRAGCitationFOne",
+            "\\CatBGraphRAGFullPathCitationCount",
+            "$0.00\\times$ vs. Direct"
+          ],
+          [
+            "HippoRAG-Adapted (PPR)",
+            "\\CatBHippoRAGMacroCitationRecall",
+            "\\CatBHippoRAGMicroCitationRecall",
+            "\\CatBHippoRAGEntityCitationPrecision",
+            "\\CatBHippoRAGDoctrinalCitationPrecision",
+            "\\CatBHippoRAGCitationFOne",
+            "\\CatBHippoRAGFullPathCitationCount",
+            "$4.00\\times$ vs. Direct"
+          ],
+          [
+            "\\textbf{Full TERRA (2-Hop EEG GraphRAG)}",
+            "\\textbf{\\CatBTerraMacroCitationRecall}",
+            "\\textbf{\\CatBTerraMicroCitationRecall}",
+            "\\CatBTerraEntityCitationPrecision",
+            "\\CatBTerraDoctrinalCitationPrecision",
+            "\\CatBTerraCitationFOne",
+            "\\textbf{\\CatBTerraFullPathCitationCount}",
+            "$\\mathbf{\\CatBTerraVsDirectPathCitationLift}$ \\textbf{vs. Direct (}$\\mathbf{\\CatBTerraVsHippoPathCitationLift}$ \\textbf{vs. Hippo)}"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Dynamic Interactive Hyperlink Attribution \\& Epistemic Negative Containment (Full 350-Benchmark Suite)}",
+        "headers": [
+          "\\textbf{Pipeline Architecture}",
+          "\\textbf{Interactive Links Emitted}",
+          "\\textbf{Link Resolution Rate} $\\uparrow$",
+          "\\textbf{Semantic Node Fidelity} $\\uparrow$",
+          "\\textbf{Broken / Padding Links}",
+          "\\textbf{Cat C Citations} $\\downarrow$",
+          "\\textbf{Cat C Clean Refusals} $\\uparrow$",
+          "\\textbf{Cat C Precision} $\\uparrow$"
+        ],
+        "rows": [
+          [
+            "Direct LLM (\\texttt{meta-llama-3-3-70b})",
+            "\\BaselinesMarkdownLinks",
+            "N/A",
+            "N/A",
+            "0",
+            "\\CatCDirectEmittedCitations",
+            "\\CatCDirectCleanRefusals",
+            "\\CatCDirectCitationPrecision"
+          ],
+          [
+            "Flat Vector RAG (ChromaDB)",
+            "\\BaselinesMarkdownLinks",
+            "N/A",
+            "N/A",
+            "0",
+            "\\CatCFlatEmittedCitations",
+            "\\CatCFlatCleanRefusals",
+            "\\CatCFlatCitationPrecision"
+          ],
+          [
+            "GraphRAG-Adapted (Modularity)",
+            "\\BaselinesMarkdownLinks",
+            "N/A",
+            "N/A",
+            "0",
+            "\\CatCGraphRAGEmittedCitations",
+            "\\CatCGraphRAGCleanRefusals",
+            "\\CatCGraphRAGCitationPrecision"
+          ],
+          [
+            "HippoRAG-Adapted (PPR)",
+            "\\BaselinesMarkdownLinks",
+            "N/A",
+            "N/A",
+            "0",
+            "\\CatCHippoRAGEmittedCitations",
+            "\\CatCHippoRAGCleanRefusals",
+            "\\CatCHippoRAGCitationPrecision"
+          ],
+          [
+            "\\textbf{Full TERRA (2-Hop EEG GraphRAG)}",
+            "\\textbf{\\TerraTotalMarkdownLinks}",
+            "\\textbf{\\TerraMarkdownLinkResolutionRate}",
+            "\\textbf{\\TerraMarkdownLinkFidelityRate}",
+            "\\TerraBrokenMarkdownLinks$^\\dagger$",
+            "\\textbf{\\CatCTerraEmittedCitations}",
+            "\\textbf{\\CatCTerraCleanRefusals}",
+            "\\textbf{\\CatCTerraCitationPrecision}"
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:clerc_eval",
+    "original_columns": 12,
+    "transposed_sections": [
+      {
+        "heading": "\\textbf{Panel A: Track 1 Standardized CLERC Sample: Precedent Retrieval \\& Drafting ($N=120$: 60 Direct Citation, 60 Indirect Synthesis)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{R@1} $\\uparrow$",
+          "\\textbf{R@5} $\\uparrow$",
+          "\\textbf{R@10} $\\uparrow$",
+          "\\textbf{MRR@10} $\\uparrow$",
+          "\\textbf{nDCG@10} $\\uparrow$",
+          "\\textbf{ROUGE-L} $\\uparrow$",
+          "\\textbf{BLEU-4} $\\uparrow$",
+          "\\textbf{Cite $F_1$ [CP/CR]} $\\uparrow$",
+          "\\textbf{Sound.} $\\uparrow$",
+          "\\textbf{Non-corpus captions} $\\downarrow$",
+          "\\textbf{Misapplication [OR / AND]} $\\downarrow$"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "---",
+            "---",
+            "---",
+            "---",
+            "---",
+            "$\\mathbf{\\ClercDirectRougeL}$",
+            "$\\ClercDirectBleu$",
+            "$\\mathbf{\\ClercDirectCiteFOne}$",
+            "$\\mathbf{\\ClercDirectSoundness}$",
+            "$\\ClercDirectFabricationTrackOne$",
+            "$\\ClercDirectMisapplicationTrackOne$"
+          ],
+          [
+            "Flat Vector RAG",
+            "$\\ClercFlatRecallOne$",
+            "$\\ClercFlatRecallFive$",
+            "$\\ClercFlatRecallTen$",
+            "$\\ClercFlatMRR$",
+            "$\\ClercFlatNDCG$",
+            "$\\ClercFlatRougeL$",
+            "$\\ClercFlatBleu$",
+            "$\\ClercFlatCiteFOne$",
+            "$\\ClercFlatSoundness$",
+            "$15.0\\%$",
+            "$\\ClercFlatMisapplicationTrackOne$"
+          ],
+          [
+            "\\textbf{Full TERRA (Gated Live)}",
+            "$\\mathbf{\\ClercTerraRecallOne}^*$",
+            "$\\mathbf{\\ClercTerraRecallFive}$",
+            "$\\mathbf{\\ClercTerraRecallTen}$",
+            "$\\mathbf{\\ClercTerraMRR}$",
+            "$\\mathbf{\\ClercTerraNDCG}$",
+            "$\\ClercTerraRougeL^{**}$",
+            "$\\mathbf{\\ClercTerraBleu}$",
+            "$\\ClercTerraCiteFOne$",
+            "$\\ClercTerraSoundness$",
+            "$15.3\\%$",
+            "$\\mathbf{\\ClercTerraMisapplicationTrackOne}$"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Track 2 TERRA-Specific Out-of-Corpus Refusal \\& Safety Stress Test ($N=50$: 39 Post-1980 Decisions, 11 Statutory/Circuit Probes)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Total Out-of-Corpus Refusal}",
+          "\\textbf{Total Out-of-Corpus Refusal}",
+          "\\textbf{Total Out-of-Corpus Refusal}",
+          "\\textbf{Hard NLI Gate Refusal}",
+          "\\textbf{Hard NLI Gate Refusal}",
+          "\\textbf{Disclosed Reasoning$^\\dagger$}",
+          "\\textbf{Disclosed Reasoning$^\\dagger$}",
+          "\\textbf{Non-corpus captions $\\downarrow$}",
+          "\\textbf{Non-corpus captions $\\downarrow$}",
+          "\\textbf{Misapplication [OR / AND] $\\downarrow$}",
+          "\\textbf{Misapplication [OR / AND] $\\downarrow$}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "$\\ClercDirectRefusalTrackTwo$",
+            "",
+            "",
+            "0/50 (0.0\\%)",
+            "",
+            "$\\ClercDirectDisclosedTrackTwo$",
+            "",
+            "$\\ClercDirectFabricationTrackTwo$",
+            "",
+            "$\\ClercDirectMisapplicationTrackTwo$",
+            ""
+          ],
+          [
+            "Flat Vector RAG",
+            "$\\ClercFlatRefusalTrackTwo$",
+            "",
+            "",
+            "0/50 (0.0\\%)",
+            "",
+            "$\\ClercFlatDisclosedTrackTwo$",
+            "",
+            "$11.5\\%$",
+            "",
+            "$\\ClercFlatMisapplicationTrackTwo$",
+            ""
+          ],
+          [
+            "\\textbf{Full TERRA (Gated Live)}",
+            "$\\mathbf{\\ClercTerraRefusalTrackTwo}$",
+            "",
+            "",
+            "$\\mathbf{\\ClercTerraHardRefusalTrackTwo}$",
+            "",
+            "$\\mathbf{\\ClercTerraDisclosedTrackTwo}$",
+            "",
+            "$8.7\\%$",
+            "",
+            "$\\mathbf{\\ClercTerraMisapplicationTrackTwo}$",
+            ""
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:obscure_overruled_eval",
+    "original_columns": 7,
+    "transposed_sections": [
+      {
+        "heading": "\\textbf{Panel A: Empirical Outcome Distribution Across Evaluation Arms ($N=\\ObscCohortSize$ Obscure Precedent Queries)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Safe Rate ($k/N$, \\% [CI])} $\\uparrow$",
+          "$\\mathbf{R_{\\text{ref}}}$ $\\uparrow$",
+          "$\\mathbf{R_{\\text{refut}}}$ $\\uparrow$",
+          "\\textbf{Fatal-Affirmed} $\\downarrow$",
+          "\\textbf{Fatal-Unwarned} $\\downarrow$",
+          "$\\mathbf{R_{\\text{hedge}}}$"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "\\ObscDirectSafeSummary",
+            "\\ObscDirectRRef",
+            "\\ObscDirectRRefut",
+            "\\ObscDirectFatalAff",
+            "\\ObscDirectFatalUnw",
+            "\\ObscDirectRHedge"
+          ],
+          [
+            "Flat Vector RAG",
+            "\\ObscFlatSafeSummary",
+            "\\ObscFlatRRef",
+            "\\ObscFlatRRefut",
+            "\\ObscFlatFatalAff",
+            "\\ObscFlatFatalUnw",
+            "\\ObscFlatRHedge"
+          ],
+          [
+            "TERRA-Unlabeled",
+            "\\ObscUnlabeledSafeSummary",
+            "\\ObscUnlabeledRRef",
+            "\\ObscUnlabeledRRefut",
+            "\\ObscUnlabeledFatalAff",
+            "\\ObscUnlabeledFatalUnw",
+            "\\ObscUnlabeledRHedge"
+          ],
+          [
+            "\\textbf{Full TERRA}",
+            "\\textbf{\\ObscFullSafeSummary}",
+            "\\textbf{\\ObscFullRRef}",
+            "\\textbf{\\ObscFullRRefut}",
+            "\\textbf{\\ObscFullFatalAff}",
+            "\\textbf{\\ObscFullFatalUnw}",
+            "\\textbf{\\ObscFullRHedge}"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Preregistered Paired Hypothesis Tests, Gate Status, and Sensitivity Subsets} \\textit{Preregistered Primary Test (Confirmatory Gate)}",
+        "headers": [
+          "\\textbf{Hypothesis Contrast / Stratum}",
+          "\\textbf{Theoretical Scope / Mechanism}",
+          "$\\mathbf{b}$",
+          "$\\mathbf{c}$",
+          "\\textbf{Exact McNemar $p$}",
+          "\\textbf{Gate Status / Robustness Conclusion}",
+          "\\textbf{Gate Status / Robustness Conclusion}"
+        ],
+        "rows": [
+          [
+            "Primary: TERRA-Unlabeled vs. Flat Vector RAG",
+            "Unlabeled Mechanism Lift",
+            "\\ObscPrimaryDiscordantB",
+            "\\ObscPrimaryDiscordantC",
+            "$p\\,\\ObscPrimaryMcNemarPRel$",
+            "\\textbf{\\ObscPrimaryGate} (Primary Not Rejected)",
+            ""
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Preregistered Paired Hypothesis Tests, Gate Status, and Sensitivity Subsets} \\textit{Preregistered Secondary Tests (Descriptive / Unconfirmed Gate)}",
+        "headers": [
+          "\\textbf{Hypothesis Contrast / Stratum}",
+          "\\textbf{Theoretical Scope / Mechanism}",
+          "$\\mathbf{b}$",
+          "$\\mathbf{c}$",
+          "\\textbf{Exact McNemar $p$}",
+          "\\textbf{Gate Status / Robustness Conclusion}",
+          "\\textbf{Gate Status / Robustness Conclusion}"
+        ],
+        "rows": [
+          [
+            "Secondary: Full TERRA vs. TERRA-Unlabeled",
+            "Graph Label Contribution",
+            "\\ObscSecFullVsUnlabeledB",
+            "\\ObscSecFullVsUnlabeledC",
+            "$p\\,\\ObscSecFullVsUnlabeledPRel$",
+            "\\ObscSecFullVsUnlabeledGate\\ (Descriptive Only)",
+            ""
+          ],
+          [
+            "Secondary: Full TERRA vs. Flat Vector RAG",
+            "End-to-End System Lift",
+            "\\ObscSecFullVsFlatB",
+            "\\ObscSecFullVsFlatC",
+            "$p\\,\\ObscSecFullVsFlatPRel$",
+            "\\ObscSecFullVsFlatGate\\ (Descriptive Only)",
+            ""
+          ],
+          [
+            "Secondary: TERRA-Unlabeled vs. Direct LLM",
+            "Retrieval Grounding vs. Parametric",
+            "\\ObscSecUnlabeledVsDirectB",
+            "\\ObscSecUnlabeledVsDirectC",
+            "$p\\,\\ObscSecUnlabeledVsDirectPRel$",
+            "\\ObscSecUnlabeledVsDirectGate\\ (Descriptive Only)",
+            ""
+          ],
+          [
+            "Secondary: Flat Vector RAG vs. Direct LLM",
+            "Baseline Retrieval vs. Parametric",
+            "\\ObscSecFlatVsDirectB",
+            "\\ObscSecFlatVsDirectC",
+            "$p\\,\\ObscSecFlatVsDirectPRel$",
+            "\\ObscSecFlatVsDirectGate\\ (Descriptive Only)",
+            ""
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Preregistered Paired Hypothesis Tests, Gate Status, and Sensitivity Subsets} \\textit{Sensitivity Subsets (TERRA-Unlabeled vs. Flat Vector RAG Across Context and Subgraph Conditions)}",
+        "headers": [
+          "\\textbf{Hypothesis Contrast / Stratum}",
+          "\\textbf{Theoretical Scope / Mechanism}",
+          "$\\mathbf{b}$",
+          "$\\mathbf{c}$",
+          "\\textbf{Exact McNemar $p$}",
+          "\\textbf{Gate Status / Robustness Conclusion}",
+          "\\textbf{Gate Status / Robustness Conclusion}"
+        ],
+        "rows": [
+          [
+            "Empty Context Excluded ($N=\\ObscSubsetEmptyContextN$)",
+            "Context Non-Empty Conditioning",
+            "\\ObscSubsetEmptyContextB",
+            "\\ObscSubsetEmptyContextC",
+            "$p\\,\\ObscSubsetEmptyContextPRel$",
+            "No Significant Difference ($p\\,\\ObscSubsetEmptyContextPRel$)",
+            ""
+          ],
+          [
+            "Overruler Missing Excluded ($N=\\ObscSubsetOverrulerMissingN$)",
+            "Overruler in Context Conditioning",
+            "\\ObscSubsetOverrulerMissingB",
+            "\\ObscSubsetOverrulerMissingC",
+            "$p\\,\\ObscSubsetOverrulerMissingPRel$",
+            "No Significant Difference ($p\\,\\ObscSubsetOverrulerMissingPRel$)",
+            ""
+          ],
+          [
+            "Explicit Overruling Only ($N=\\ObscSubsetExplicitOverruleN$)",
+            "Strict Explicit Overruling Language",
+            "\\ObscSubsetExplicitOverruleB",
+            "\\ObscSubsetExplicitOverruleC",
+            "$p\\,\\ObscSubsetExplicitOverrulePRel$",
+            "No Significant Difference ($p\\,\\ObscSubsetExplicitOverrulePRel$)",
+            ""
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel C: Descriptive Cross-Suite Contrast (Famous Landmark vs. Obscure Precedents)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Famous Safe ($N=\\ObscFamousCohortSize$)}",
+          "\\textbf{Obscure Safe ($N=\\ObscCohortSize$)}",
+          "\\textbf{Risk Diff. ($\\Delta$)}",
+          "\\textbf{Newcombe CI}",
+          "\\textbf{Fisher's Exact $p$}",
+          "\\textbf{Odds Ratio (OR)}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "\\ObscCrossDirectFamousSafe",
+            "\\ObscCrossDirectObscureSafe",
+            "\\ObscCrossDirectRiskDiff",
+            "\\ObscCrossDirectNewcombeCI",
+            "$p\\,\\ObscCrossDirectFisherPRel$",
+            "\\ObscCrossDirectOddsRatio"
+          ],
+          [
+            "Flat Vector RAG",
+            "\\ObscCrossFlatFamousSafe",
+            "\\ObscCrossFlatObscureSafe",
+            "\\ObscCrossFlatRiskDiff",
+            "\\ObscCrossFlatNewcombeCI",
+            "$p\\,\\ObscCrossFlatFisherPRel$",
+            "\\ObscCrossFlatOddsRatio"
+          ],
+          [
+            "TERRA-Unlabeled",
+            "\\ObscCrossUnlabeledFamousSafe",
+            "\\ObscCrossUnlabeledObscureSafe",
+            "\\ObscCrossUnlabeledRiskDiff",
+            "\\ObscCrossUnlabeledNewcombeCI",
+            "$p\\,\\ObscCrossUnlabeledFisherPRel$",
+            "\\ObscCrossUnlabeledOddsRatio"
+          ],
+          [
+            "Full TERRA",
+            "\\ObscCrossFullFamousSafe",
+            "\\ObscCrossFullObscureSafe",
+            "\\ObscCrossFullRiskDiff",
+            "\\ObscCrossFullNewcombeCI",
+            "$p\\,\\ObscCrossFullFisherPRel$",
+            "\\ObscCrossFullOddsRatio"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel D: Per-Judge Robustness Breakdown and Primary McNemar Sensitivity}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Judge One (Qwen)} / \\textbf{Safe ($k/N$)}",
+          "\\textbf{Judge One (Qwen)} / \\textbf{Safe (\\%)}",
+          "\\textbf{Judge Two (GPT-OSS)} / \\textbf{Safe ($k/N$)}",
+          "\\textbf{Judge Two (GPT-OSS)} / \\textbf{Safe (\\%)}",
+          "\\textbf{Consensus (Combined)} / \\textbf{Safe ($k/N$)}",
+          "\\textbf{Consensus (Combined)} / \\textbf{Safe (\\%)}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "\\ObscJudgeOneDirectSafeCount/\\ObscCohortSize",
+            "\\ObscJudgeOneDirectSafePct",
+            "\\ObscJudgeTwoDirectSafeCount/\\ObscCohortSize",
+            "\\ObscJudgeTwoDirectSafePct",
+            "\\ObscDirectSafeCount/\\ObscCohortSize",
+            "\\ObscDirectSafePct"
+          ],
+          [
+            "Flat Vector RAG",
+            "\\ObscJudgeOneFlatSafeCount/\\ObscCohortSize",
+            "\\ObscJudgeOneFlatSafePct",
+            "\\ObscJudgeTwoFlatSafeCount/\\ObscCohortSize",
+            "\\ObscJudgeTwoFlatSafePct",
+            "\\ObscFlatSafeCount/\\ObscCohortSize",
+            "\\ObscFlatSafePct"
+          ],
+          [
+            "TERRA-Unlabeled",
+            "\\ObscJudgeOneUnlabeledSafeCount/\\ObscCohortSize",
+            "\\ObscJudgeOneUnlabeledSafePct",
+            "\\ObscJudgeTwoUnlabeledSafeCount/\\ObscCohortSize",
+            "\\ObscJudgeTwoUnlabeledSafePct",
+            "\\ObscUnlabeledSafeCount/\\ObscCohortSize",
+            "\\ObscUnlabeledSafePct"
+          ],
+          [
+            "\\textbf{Full TERRA}",
+            "\\textbf{\\ObscJudgeOneFullSafeCount/\\ObscCohortSize}",
+            "\\textbf{\\ObscJudgeOneFullSafePct}",
+            "\\textbf{\\ObscJudgeTwoFullSafeCount/\\ObscCohortSize}",
+            "\\textbf{\\ObscJudgeTwoFullSafePct}",
+            "\\textbf{\\ObscFullSafeCount/\\ObscCohortSize}",
+            "\\textbf{\\ObscFullSafePct}"
+          ],
+          [
+            "\\textbf{Primary McNemar $p$}",
+            "$p\\,\\ObscJudgeOnePrimaryPRel\\ (b=\\ObscJudgeOnePrimaryB, c=\\ObscJudgeOnePrimaryC)$",
+            "",
+            "$p\\,\\ObscJudgeTwoPrimaryPRel\\ (b=\\ObscJudgeTwoPrimaryB, c=\\ObscJudgeTwoPrimaryC)$",
+            "",
+            "$p\\,\\ObscPrimaryMcNemarPRel\\ (b=\\ObscPrimaryDiscordantB, c=\\ObscPrimaryDiscordantC)$",
+            ""
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:retrieval_eval",
+    "original_columns": 6,
+    "transposed_sections": [
+      {
+        "heading": "\\textbf{Panel A: Overall Multi-Hop Precedent-Chain Retrieval Performance ($N=\\CatBRetrievalQueries$ Queries, $\\CatBGoldPrecedents$ Gold Precedents)}",
+        "headers": [
+          "\\textbf{Retrieval Architecture}",
+          "\\textbf{Macro Node Recall} $\\uparrow$",
+          "\\textbf{Micro Node Recall} $\\uparrow$",
+          "\\textbf{Full Path Recall (100\\% Chain)} $\\uparrow$",
+          "\\textbf{Full Chains Recovered}",
+          "\\textbf{Path Recovery Lift}"
+        ],
+        "rows": [
+          [
+            "Flat Vector RAG (ChromaDB)",
+            "\\CatBFlatMacroNodeRecall",
+            "\\CatBFlatMicroNodeRecall",
+            "\\CatBFlatFullPathRecall",
+            "\\CatBFlatFullPathCount",
+            "Baseline ($1.0\\times$)"
+          ],
+          [
+            "GraphRAG-Adapted (Modularity)",
+            "\\CatBGraphRAGMacroNodeRecall",
+            "\\CatBGraphRAGMicroNodeRecall",
+            "\\CatBGraphRAGFullPathRecall",
+            "\\CatBGraphRAGFullPathCount",
+            "$9.0\\times$ vs. Flat"
+          ],
+          [
+            "HippoRAG-Adapted (PPR)",
+            "\\CatBHippoRAGMacroNodeRecall",
+            "\\CatBHippoRAGMicroNodeRecall",
+            "\\CatBHippoRAGFullPathRecall",
+            "\\CatBHippoRAGFullPathCount",
+            "$21.0\\times$ vs. Flat"
+          ],
+          [
+            "\\textbf{Full TERRA (2-Hop EEG Traversal)}",
+            "\\textbf{\\CatBTerraMacroNodeRecall}",
+            "\\textbf{\\CatBTerraMicroNodeRecall}",
+            "\\textbf{\\CatBTerraFullPathRecall}",
+            "\\textbf{\\CatBTerraFullPathCount}",
+            "$\\mathbf{\\CatBTerraVsFlatPathRecallFactor}$ \\textbf{vs. Flat (}$\\mathbf{\\CatBTerraVsHippoPathRecallFactor}$ \\textbf{vs. Hippo)}"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Precedent Recovery Disaggregated by Evolutionary Chain Length (Second Review Issue \\#11)}",
+        "headers": [
+          "\\textbf{Evolutionary Path Length (Nodes / Citation Hops)}",
+          "\\textbf{Evaluated Metric}",
+          "\\textbf{Flat Vector RAG}",
+          "\\textbf{GraphRAG-Adapted}",
+          "\\textbf{HippoRAG-Adapted}",
+          "\\textbf{Full TERRA (2-Hop EEG)}"
+        ],
+        "rows": [
+          [
+            "\\textbf{3 Nodes / 2 Hops ($N=\\CatBQueriesLenThree$)}",
+            "Node Recall $\\uparrow$",
+            "\\CatBFlatNodeRecallLenThree",
+            "\\CatBGraphRAGNodeRecallLenThree",
+            "\\CatBHippoRAGNodeRecallLenThree",
+            "\\textbf{\\CatBTerraNodeRecallLenThree}"
+          ],
+          [
+            "\\textbf{3 Nodes / 2 Hops ($N=\\CatBQueriesLenThree$)}",
+            "Full Precedent Path Recall $\\uparrow$",
+            "\\CatBFlatPathRecallLenThree\\ (\\CatBFlatPathCountLenThree)",
+            "\\CatBGraphRAGPathRecallLenThree\\ (\\CatBGraphRAGPathCountLenThree)",
+            "\\CatBHippoRAGPathRecallLenThree\\ (\\CatBHippoRAGPathCountLenThree)",
+            "\\textbf{\\CatBTerraPathRecallLenThree}\\ (\\textbf{\\CatBTerraPathCountLenThree})"
+          ],
+          [
+            "\\textbf{4 Nodes / 3 Hops ($N=\\CatBQueriesLenFour$)}",
+            "Node Recall $\\uparrow$",
+            "\\CatBFlatNodeRecallLenFour",
+            "\\CatBGraphRAGNodeRecallLenFour",
+            "\\CatBHippoRAGNodeRecallLenFour",
+            "\\textbf{\\CatBTerraNodeRecallLenFour}"
+          ],
+          [
+            "\\textbf{4 Nodes / 3 Hops ($N=\\CatBQueriesLenFour$)}",
+            "Full Precedent Path Recall $\\uparrow$",
+            "\\CatBFlatPathRecallLenFour\\ (\\CatBFlatPathCountLenFour)",
+            "\\CatBGraphRAGPathRecallLenFour\\ (\\CatBGraphRAGPathCountLenFour)",
+            "\\CatBHippoRAGPathRecallLenFour\\ (\\CatBHippoRAGPathCountLenFour)",
+            "\\textbf{\\CatBTerraPathRecallLenFour}\\ (\\textbf{\\CatBTerraPathCountLenFour})"
+          ],
+          [
+            "\\textbf{5 Nodes / 4 Hops ($N=\\CatBQueriesLenFive$)$^\\dagger$}",
+            "Node Recall $\\uparrow$",
+            "\\CatBFlatNodeRecallLenFive",
+            "\\CatBGraphRAGNodeRecallLenFive",
+            "\\CatBHippoRAGNodeRecallLenFive",
+            "\\textbf{\\CatBTerraNodeRecallLenFive}"
+          ],
+          [
+            "\\textbf{5 Nodes / 4 Hops ($N=\\CatBQueriesLenFive$)$^\\dagger$}",
+            "Full Precedent Path Recall $\\uparrow$",
+            "\\CatBFlatPathRecallLenFive\\ (\\CatBFlatPathCountLenFive)",
+            "\\CatBGraphRAGPathRecallLenFive\\ (\\CatBGraphRAGPathCountLenFive)",
+            "\\CatBHippoRAGPathRecallLenFive\\ (\\CatBHippoRAGPathCountLenFive)",
+            "\\textbf{\\CatBTerraPathRecallLenFive}\\ (\\textbf{\\CatBTerraPathCountLenFive})"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel C: Retrieval Hyperparameter Robustness \\& Traversal Horizon Sensitivity Grid ($N=\\CatBRetrievalQueries$ Category B Queries)} \\textit{Section 1: Legacy-Context-Conditioned Traversal Sensitivity (Pre-Issue \\#13 Engine)}",
+        "headers": [
+          "\\textbf{Configuration / Traversal Parameters}",
+          "\\textbf{Macro Recall} $\\uparrow$",
+          "\\textbf{Full Path} $\\uparrow$",
+          "\\textbf{Chain Paths (3 / 4 / 5 Node)}",
+          "\\textbf{Visited Nodes}",
+          "\\textbf{Offline Latency} $\\downarrow$"
+        ],
+        "rows": [
+          [
+            "\\textbf{Legacy-Context Baseline ($k=2, d=2, C=50$)}",
+            "\\textbf{\\IssueTwentySixHistMacro}",
+            "\\textbf{\\IssueTwentySixHistFullPath}",
+            "\\textbf{\\IssueTwentySixHistThreeNodeCount\\ / \\IssueTwentySixHistFourNodeCount\\ / \\IssueTwentySixHistFiveNodeCount}",
+            "\\textbf{\\IssueTwentySixHistMeanVisitedNodes}",
+            "\\textbf{\\IssueTwentySixHistOfflineLatencyMS~ms}"
+          ],
+          [
+            "-- Depth Horizon $d=1$ ($k=2, C=50$)",
+            "\\IssueTwentySixHistDepthOneMacro",
+            "\\IssueTwentySixHistDepthOnePath",
+            "35/63 / 14/32 / 2/5",
+            "\\IssueTwentySixHistDepthOneVisitedNodes",
+            "\\IssueTwentySixHistDepthOneLatencyMS~ms"
+          ],
+          [
+            "-- Depth Horizon $d=3$ ($k=2, C=50$)",
+            "\\IssueTwentySixHistDepthThreeMacro",
+            "\\IssueTwentySixHistDepthThreePath",
+            "41/63 / 22/32 / 5/5",
+            "\\IssueTwentySixHistDepthThreeVisitedNodes",
+            "\\IssueTwentySixHistDepthThreeLatencyMS~ms"
+          ],
+          [
+            "-- Hub Degree Cap $C=25$ ($k=2, d=2$)",
+            "\\IssueTwentySixHistCapTwentyFiveMacro",
+            "\\IssueTwentySixHistCapTwentyFivePath",
+            "23/63 / 5/32 / 0/5",
+            "\\IssueTwentySixHistCapTwentyFiveVisitedNodes",
+            "\\IssueTwentySixHistCapTwentyFiveLatencyMS~ms"
+          ],
+          [
+            "-- Hub Degree Cap $C=100$ ($k=2, d=2$)",
+            "\\IssueTwentySixHistCapOneHundredMacro",
+            "\\IssueTwentySixHistCapOneHundredPath",
+            "59/63 / 31/32 / 5/5",
+            "\\IssueTwentySixHistCapOneHundredVisitedNodes",
+            "\\IssueTwentySixHistCapOneHundredLatencyMS~ms"
+          ],
+          [
+            "-- Adaptive Depth $d_{\\text{adapt}}$ ($k=2, C=50$)",
+            "\\IssueTwentySixHistAdaptiveMacro",
+            "\\IssueTwentySixHistAdaptivePath",
+            "37/63 / 21/32 / 5/5",
+            "\\IssueTwentySixHistAdaptiveVisitedNodes",
+            "\\IssueTwentySixHistAdaptiveLatencyMS~ms"
+          ],
+          [
+            "-- Counterfactual Single-Seed $k=1^\\ast$ ($d=2, C=50$)",
+            "\\IssueTwentySixHistKOneMacro",
+            "\\IssueTwentySixHistKOnePath",
+            "31/63 / 11/32 / 3/5",
+            "\\IssueTwentySixHistKOneVisitedNodes",
+            "\\IssueTwentySixHistKOneLatencyMS~ms"
+          ],
+          [
+            "-- Counterfactual Vector Seed $k=4^\\ast$ ($d=2, C=50$)$^\\ddagger$",
+            "\\IssueTwentySixHistKFourMacro",
+            "\\IssueTwentySixHistKFourPath",
+            "13/63 / 0/32 / 0/5",
+            "\\IssueTwentySixHistKFourVisitedNodes",
+            "\\IssueTwentySixHistKFourLatencyMS~ms"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel C: Retrieval Hyperparameter Robustness \\& Traversal Horizon Sensitivity Grid ($N=\\CatBRetrievalQueries$ Category B Queries)} \\textit{Section 2: Post-Issue \\#13 Bounded Operational Diagnostic (Operational-Efficiency Diagnostic; 35k Char / 40-Node Safe Caps)}",
+        "headers": [
+          "\\textbf{Configuration / Traversal Parameters}",
+          "\\textbf{Macro Recall} $\\uparrow$",
+          "\\textbf{Full Path} $\\uparrow$",
+          "\\textbf{Chain Paths (3 / 4 / 5 Node)}",
+          "\\textbf{Visited Nodes}",
+          "\\textbf{Offline Latency} $\\downarrow$"
+        ],
+        "rows": [
+          [
+            "Bounded Baseline ($k=2, d=2, C=50$)$^\\mathsection$",
+            "\\IssueTwentySixBoundMacro",
+            "\\IssueTwentySixBoundFullPath",
+            "\\IssueTwentySixBoundThreeNodeCount\\ / \\IssueTwentySixBoundFourNodeCount\\ / \\IssueTwentySixBoundFiveNodeCount",
+            "\\IssueTwentySixBoundMeanVisitedNodes",
+            "\\IssueTwentySixBoundOfflineLatencyMS~ms"
+          ],
+          [
+            "-- Hub Degree Cap $C=25$ ($k=2, d=2$)",
+            "\\IssueTwentySixBoundCapTwentyFiveMacro",
+            "\\IssueTwentySixBoundCapTwentyFivePath",
+            "43/63 / 12/32 / 1/5",
+            "\\IssueTwentySixBoundCapTwentyFiveVisitedNodes",
+            "\\IssueTwentySixBoundCapTwentyFiveLatencyMS~ms"
+          ],
+          [
+            "-- Hub Degree Cap $C=100$ ($k=2, d=2$)",
+            "\\IssueTwentySixBoundCapOneHundredMacro",
+            "\\IssueTwentySixBoundCapOneHundredPath",
+            "50/63 / 15/32 / 1/5",
+            "\\IssueTwentySixBoundCapOneHundredVisitedNodes",
+            "\\IssueTwentySixBoundCapOneHundredLatencyMS~ms"
+          ],
+          [
+            "-- Counterfactual Single-Seed $k=1^\\ast$ ($d=2, C=50$)",
+            "\\IssueTwentySixBoundKOneMacro",
+            "\\IssueTwentySixBoundKOnePath",
+            "43/63 / 6/32 / 0/5",
+            "\\IssueTwentySixBoundKOneVisitedNodes",
+            "\\IssueTwentySixBoundKOneLatencyMS~ms"
+          ],
+          [
+            "-- Counterfactual Vector Seed $k=4^\\ast$ ($d=2, C=50$)$^\\ddagger$",
+            "\\IssueTwentySixBoundKFourMacro",
+            "\\IssueTwentySixBoundKFourPath",
+            "13/63 / 0/32 / 0/5",
+            "\\IssueTwentySixBoundKFourVisitedNodes",
+            "\\IssueTwentySixBoundKFourLatencyMS~ms"
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:computational_budget",
+    "original_columns": 12,
+    "transposed_sections": [
+      {
+        "heading": "\\textbf{Panel A: End-to-End Computational Budget, Pipeline Invocations, Decoupled Latency Breakdown, and Financial Costs}",
+        "headers": [
+          "\\textbf{Architecture / Category}",
+          "\\textbf{Total Ops /} / \\textbf{Query}",
+          "\\textbf{Active 70B} / \\textbf{Gen Calls}",
+          "\\textbf{End-to-End Latency (ms)} / \\textbf{Mean}",
+          "\\textbf{End-to-End Latency (ms)} / \\textbf{Median}",
+          "\\textbf{End-to-End Latency (ms)} / \\textbf{p95}",
+          "\\textbf{Stage Latency (Mean ms)} / \\textbf{Routing}",
+          "\\textbf{Stage Latency (Mean ms)} / \\textbf{Retrieval}",
+          "\\textbf{Stage Latency (Mean ms)} / \\textbf{NLI Grading}",
+          "\\textbf{Stage Latency (Mean ms)} / \\textbf{Generation}",
+          "\\textbf{Effective Tokens} / \\textbf{Prompt / Compl.}",
+          "\\textbf{Total Cost /} / \\textbf{1k Queries (Modelled)}"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "\\DirectLLMTotalOpsPerQuery",
+            "\\DirectLLMGenCallsFormatted",
+            "\\DirectLLMLatencyMeanMS",
+            "\\DirectLLMLatencyMedMS",
+            "\\DirectLLMLatencyPninetyfiveMS",
+            "\\DirectLLMDecoupledRoutingMS",
+            "\\DirectLLMDecoupledRetrievalMS",
+            "\\DirectLLMDecoupledNliMS",
+            "\\DirectLLMDecoupledGenerationMS",
+            "\\DirectLLMEffectiveTokens",
+            "\\DirectLLMTotalCostPerThousand"
+          ],
+          [
+            "Flat Vector RAG",
+            "\\FlatRAGTotalOpsPerQuery",
+            "\\FlatRAGGenCallsFormatted",
+            "\\FlatRAGLatencyMeanMS",
+            "\\FlatRAGLatencyMedMS",
+            "\\FlatRAGLatencyPninetyfiveMS",
+            "\\FlatRAGDecoupledRoutingMS",
+            "\\FlatRAGDecoupledRetrievalMS",
+            "\\FlatRAGDecoupledNliMS",
+            "\\FlatRAGDecoupledGenerationMS",
+            "\\FlatRAGEffectiveTokens",
+            "\\FlatRAGTotalCostPerThousand"
+          ],
+          [
+            "GraphRAG-Adapted",
+            "\\GraphRAGTotalOpsPerQuery",
+            "\\GraphRAGGenCallsFormatted",
+            "\\GraphRAGLatencyMeanMS",
+            "\\GraphRAGLatencyMedMS",
+            "\\GraphRAGLatencyPninetyfiveMS",
+            "\\GraphRAGDecoupledRoutingMS",
+            "\\GraphRAGDecoupledRetrievalMS",
+            "\\GraphRAGDecoupledNliMS",
+            "\\GraphRAGDecoupledGenerationMS",
+            "\\GraphRAGEffectiveTokens",
+            "\\GraphRAGTotalCostPerThousand"
+          ],
+          [
+            "HippoRAG-Adapted",
+            "\\HippoRAGTotalOpsPerQuery",
+            "\\HippoRAGGenCallsFormatted",
+            "\\HippoRAGLatencyMeanMS",
+            "\\HippoRAGLatencyMedMS",
+            "\\HippoRAGLatencyPninetyfiveMS",
+            "\\HippoRAGDecoupledRoutingMS",
+            "\\HippoRAGDecoupledRetrievalMS",
+            "\\HippoRAGDecoupledNliMS",
+            "\\HippoRAGDecoupledGenerationMS",
+            "\\HippoRAGEffectiveTokens",
+            "\\HippoRAGTotalCostPerThousand"
+          ],
+          [
+            "\\textbf{TERRA Overall (Benchmark)}",
+            "\\textbf{\\TerraOverallTotalOpsPerQuery}",
+            "\\textbf{\\TerraOverallGenCallsFormatted}",
+            "\\textbf{\\TerraOverallLatencyMeanMS}",
+            "\\textbf{\\TerraOverallLatencyMedMS}",
+            "\\textbf{\\TerraOverallLatencyPninetyfiveMS}",
+            "\\textbf{\\TerraOverallDecoupledRoutingMS}",
+            "\\textbf{\\TerraOverallDecoupledRetrievalMS}",
+            "\\textbf{\\TerraOverallDecoupledNliMS}",
+            "\\textbf{\\TerraOverallDecoupledGenerationMS}",
+            "\\textbf{\\TerraOverallEffectiveTokens}",
+            "\\textbf{\\TerraOverallTotalCostPerThousand}"
+          ],
+          [
+            "-- Category A (Fast Path, N=100)",
+            "\\TerraCatATotalOpsPerQuery",
+            "\\TerraCatAGenCallsFormatted",
+            "\\TerraCatALatencyMeanMS",
+            "\\TerraCatALatencyMedMS",
+            "\\TerraCatALatencyPninetyfiveMS",
+            "\\TerraCatADecoupledRoutingMS",
+            "\\TerraCatADecoupledRetrievalMS",
+            "\\TerraCatADecoupledNliMS",
+            "\\TerraCatADecoupledGenerationMS",
+            "\\TerraCatAEffectiveTokens",
+            "\\TerraCatATotalCostPerThousand"
+          ],
+          [
+            "-- Category B (Hard Path, N=100)",
+            "\\TerraCatBTotalOpsPerQuery",
+            "\\TerraCatBGenCallsFormatted",
+            "\\TerraCatBLatencyMeanMS",
+            "\\TerraCatBLatencyMedMS",
+            "\\TerraCatBLatencyPninetyfiveMS",
+            "\\TerraCatBDecoupledRoutingMS",
+            "\\TerraCatBDecoupledRetrievalMS",
+            "\\TerraCatBDecoupledNliMS",
+            "\\TerraCatBDecoupledGenerationMS",
+            "\\TerraCatBEffectiveTokens",
+            "\\TerraCatBTotalCostPerThousand"
+          ],
+          [
+            "-- Category C (OOD Refusal, N=75)",
+            "\\TerraCatCTotalOpsPerQuery",
+            "\\TerraCatCGenCallsFormatted",
+            "\\TerraCatCLatencyMeanMS",
+            "\\TerraCatCLatencyMedMS",
+            "\\TerraCatCLatencyPninetyfiveMS",
+            "\\TerraCatCDecoupledRoutingMS",
+            "\\TerraCatCDecoupledRetrievalMS",
+            "\\TerraCatCDecoupledNliMS",
+            "\\TerraCatCDecoupledGenerationMS",
+            "\\TerraCatCEffectiveTokens",
+            "\\TerraCatCTotalCostPerThousand"
+          ],
+          [
+            "-- Category D (Adversarial, N=75)",
+            "\\TerraCatDTotalOpsPerQuery",
+            "\\TerraCatDGenCallsFormatted",
+            "\\TerraCatDLatencyMeanMS",
+            "\\TerraCatDLatencyMedMS",
+            "\\TerraCatDLatencyPninetyfiveMS",
+            "\\TerraCatDDecoupledRoutingMS",
+            "\\TerraCatDDecoupledRetrievalMS",
+            "\\TerraCatDDecoupledNliMS",
+            "\\TerraCatDDecoupledGenerationMS",
+            "\\TerraCatDEffectiveTokens",
+            "\\TerraCatDTotalCostPerThousand"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Offline Squared-L2 Domain-Flag Grid on the 20,000-Case Index ($\\text{AUROC} = \\TerraGateIsolatedAUROC$)}",
+        "headers": [
+          "\\textbf{Threshold ($\\tau$)}",
+          "\\textbf{In-Domain FPR (False Flag) $\\downarrow$}",
+          "\\textbf{In-Domain FPR (False Flag) $\\downarrow$}",
+          "\\textbf{OOD TPR (Distance Flag) $\\uparrow$}",
+          "\\textbf{OOD TPR (Distance Flag) $\\uparrow$}",
+          "\\textbf{OOD FNR (Unflagged)}",
+          "\\textbf{OOD FNR (Unflagged)}",
+          "\\textbf{Operational Function and Multi-Tier Safety Role}",
+          "\\textbf{Operational Function and Multi-Tier Safety Role}",
+          "\\textbf{Operational Function and Multi-Tier Safety Role}",
+          "\\textbf{Operational Function and Multi-Tier Safety Role}",
+          "\\textbf{Operational Function and Multi-Tier Safety Role}"
+        ],
+        "rows": [
+          [
+            "$\\tau = 0.90$",
+            "\\TerraGateFPRTauZeroNineZero\\ (\\TerraGateFPRCountTauZeroNineZero)",
+            "",
+            "\\TerraGateTPRTauZeroNineZero\\ (\\TerraGateTPRCountTauZeroNineZero)",
+            "",
+            "\\TerraGateFNRTauZeroNineZero\\ (\\TerraGateFNRCountTauZeroNineZero)",
+            "",
+            "Aggressive distance flag; false positives within this in-domain sample.",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "$\\tau = 1.00$",
+            "\\TerraGateFPRTauOneZeroZero\\ (\\TerraGateFPRCountTauOneZeroZero)",
+            "",
+            "\\TerraGateTPRTauOneZeroZero\\ (\\TerraGateTPRCountTauOneZeroZero)",
+            "",
+            "\\TerraGateFNRTauOneZeroZero\\ (\\TerraGateFNRCountTauOneZeroZero)",
+            "",
+            "Distance-only operating point with non-zero in-domain false positives.",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "$\\tau = 1.10$",
+            "\\TerraGateFPRTauOneOneZero\\ (\\TerraGateFPRCountTauOneOneZero)",
+            "",
+            "\\TerraGateTPRTauOneOneZero\\ (\\TerraGateTPRCountTauOneOneZero)",
+            "",
+            "\\TerraGateFNRTauOneOneZero\\ (\\TerraGateFNRCountTauOneOneZero)",
+            "",
+            "Distance-only flag; unflagged cases are not validated by proximity.",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "$\\tau = 1.20$",
+            "\\TerraGateFPRTauOneTwoZero\\ (\\TerraGateFPRCountTauOneTwoZero)",
+            "",
+            "\\TerraGateTPRTauOneTwoZero\\ (\\TerraGateTPRCountTauOneTwoZero)",
+            "",
+            "\\TerraGateFNRTauOneTwoZero\\ (\\TerraGateFNRCountTauOneTwoZero)",
+            "",
+            "Conservative distance-only flag.",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "$\\tau = 1.25$",
+            "\\TerraGateFPRTauOneTwoFive\\ (\\TerraGateFPRCountTauOneTwoFive)",
+            "",
+            "\\TerraGateTPRTauOneTwoFive\\ (\\TerraGateTPRCountTauOneTwoFive)",
+            "",
+            "\\TerraGateFNRTauOneTwoFive\\ (\\TerraGateFNRCountTauOneTwoFive)",
+            "",
+            "Zero false positives observed on the 200 in-domain queries.",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "\\textbf{$\\tau = \\mathbf{1.30}$}",
+            "\\textbf{\\TerraGateFPRTauOneThreeZero\\ (\\TerraGateFPRCountTauOneThreeZero)}",
+            "",
+            "\\textbf{\\TerraGateTPRTauOneThreeZero\\ (\\TerraGateTPRCountTauOneThreeZero)}",
+            "",
+            "\\textbf{\\TerraGateFNRTauOneThreeZero\\ (\\TerraGateFNRCountTauOneThreeZero)}",
+            "",
+            "\\textbf{Threshold 1.30: 0/200 in-domain and 41/75 OOD distance flags (offline).}",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "$\\tau = 1.35$",
+            "\\TerraGateFPRTauOneThreeFive\\ (\\TerraGateFPRCountTauOneThreeFive)",
+            "",
+            "\\TerraGateTPRTauOneThreeFive\\ (\\TerraGateTPRCountTauOneThreeFive)",
+            "",
+            "\\TerraGateFNRTauOneThreeFive\\ (\\TerraGateFNRCountTauOneThreeFive)",
+            "",
+            "Permissive distance threshold; most OOD queries remain unflagged.",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "$\\tau = 1.40$",
+            "\\TerraGateFPRTauOneFourZero\\ (\\TerraGateFPRCountTauOneFourZero)",
+            "",
+            "\\TerraGateTPRTauOneFourZero\\ (\\TerraGateTPRCountTauOneFourZero)",
+            "",
+            "\\TerraGateFNRTauOneFourZero\\ (\\TerraGateFNRCountTauOneFourZero)",
+            "",
+            "Highly permissive distance threshold; compute savings were not measured.",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  },
+  {
+    "label": "tab:refusal_breakdown",
+    "original_columns": 6,
+    "transposed_sections": [
+      {
+        "heading": "\\textbf{Panel A: Benchmark System-Flagged Refusals Across Categories ($N=350$)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Cat A (Factual)} / ($N=100$)",
+          "\\textbf{Cat B (Evolutionary)} / ($N=100$)",
+          "\\textbf{Cat C (Out-of-Domain)} / ($N=75$)",
+          "\\textbf{Cat D (Adversarial)} / ($N=75$)",
+          "\\textbf{Total Refusals (\\%)} / ($N=350$)"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "$0/100$ ($0.0\\%$)",
+            "$0/100$ ($0.0\\%$)",
+            "$0/75$ ($0.0\\%$)",
+            "$0/75$ ($0.0\\%$)",
+            "$0/350$ ($0.0\\%$)"
+          ],
+          [
+            "Flat Vector RAG",
+            "$63/100$ ($63.0\\%$)",
+            "$13/100$ ($13.0\\%$)",
+            "$74/75$ ($98.7\\%$)",
+            "$34/75$ ($45.3\\%$)",
+            "$184/350$ ($52.6\\%$)"
+          ],
+          [
+            "GraphRAG-Adapted",
+            "$72/100$ ($72.0\\%$)",
+            "$1/100$ ($1.0\\%$)",
+            "$\\mathbf{75/75}$ ($\\mathbf{100.0\\%}$)",
+            "$25/75$ ($33.3\\%$)",
+            "$173/350$ ($49.4\\%$)"
+          ],
+          [
+            "HippoRAG-Adapted",
+            "$62/100$ ($62.0\\%$)",
+            "$2/100$ ($2.0\\%$)",
+            "$74/75$ ($98.7\\%$)",
+            "$27/75$ ($36.0\\%$)",
+            "$165/350$ ($47.1\\%$)"
+          ],
+          [
+            "\\textbf{TERRA GraphRAG}",
+            "$\\mathbf{2/100}$ ($\\mathbf{2.0\\%}$)",
+            "$\\mathbf{16/100}$ ($\\mathbf{16.0\\%}$)",
+            "$\\mathbf{75/75}$ ($\\mathbf{100.0\\%}$)",
+            "$\\mathbf{46/75}$ ($\\mathbf{61.3\\%}$)",
+            "$\\mathbf{139/350}$ ($\\mathbf{39.7\\%}$)"
+          ]
+        ]
+      },
+      {
+        "heading": "\\textbf{Panel B: Category D Adversarial Deception Multi-Class Robustness Breakdown ($N=75$)}",
+        "headers": [
+          "\\textbf{Pipeline}",
+          "\\textbf{Explicit Refusal ($R_{\\text{ref}}$)} / ($N=75$)",
+          "\\textbf{Verified Refutation ($R_{\\text{refut}}$)} / ($N=75$)",
+          "\\textbf{Safe Handling ($R_{\\text{safe}}$)} / ($N=75$)",
+          "\\textbf{Fatal Errors ($R_{\\text{fatal}}$)} / ($N=75$)",
+          "\\textbf{Hedges ($R_{\\text{hedge}}$)} / ($N=75$)"
+        ],
+        "rows": [
+          [
+            "Direct LLM (No RAG)",
+            "\\DirectLLMCatDAuditedRefusal",
+            "\\DirectLLMCatDRefutations",
+            "\\DirectLLMCatDSafeHandling",
+            "\\DirectLLMCatDFatalErrors",
+            "\\DirectLLMCatDHedges"
+          ],
+          [
+            "Flat Vector RAG",
+            "\\FlatRAGCatDAuditedRefusal",
+            "\\FlatRAGCatDRefutations",
+            "\\FlatRAGCatDSafeHandling",
+            "\\FlatRAGCatDFatalErrors",
+            "\\FlatRAGCatDHedges"
+          ],
+          [
+            "GraphRAG-Adapted",
+            "\\GraphRAGCatDAuditedRefusal",
+            "\\GraphRAGCatDRefutations",
+            "\\GraphRAGCatDSafeHandling",
+            "\\GraphRAGCatDFatalErrors",
+            "\\GraphRAGCatDHedges"
+          ],
+          [
+            "HippoRAG-Adapted",
+            "\\HippoRAGCatDAuditedRefusal",
+            "\\HippoRAGCatDRefutations",
+            "\\HippoRAGCatDSafeHandling",
+            "\\HippoRAGCatDFatalErrors",
+            "\\HippoRAGCatDHedges"
+          ],
+          [
+            "\\textbf{TERRA GraphRAG}",
+            "$\\mathbf{\\TerraCatDRejection}$",
+            "\\TerraCatDRefutations",
+            "$\\mathbf{\\TerraCatDSafeHandling}$",
+            "$\\mathbf{\\TerraCatDFatalErrors}$",
+            "\\TerraCatDHedges"
+          ]
+        ]
+      }
+    ],
+    "no_cross_document_relocation": true,
+    "all_nonempty_original_data_cells_retained": true,
+    "original_caption_retained": true
+  }
+]

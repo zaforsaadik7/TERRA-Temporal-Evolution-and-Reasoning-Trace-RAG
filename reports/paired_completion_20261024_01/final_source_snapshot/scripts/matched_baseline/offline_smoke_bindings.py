@@ -1,0 +1,170 @@
+"""Preparation-only named bindings. Pure data; no permission or file access.
+
+snapshot_manifest pins the expected-copy artifact bytes, not the lifecycle
+receipt's relative-file aggregate. Existing member manifests remain declared.
+"""
+from copy import deepcopy
+import hashlib
+import json
+from pathlib import PurePosixPath, PureWindowsPath
+import re
+
+REQUIRED = frozenset({'interpreter','driver','benchmark','graph','snapshot_manifest',
+                      'store_inventory','cache_inventory','tokenizer_manifests'})
+
+def encode(value):
+    return (json.dumps(value, sort_keys=True, allow_nan=False, ensure_ascii=False)+'\n').encode('utf-8')
+
+
+def validate_profile_environment(environment):
+    """Require a frozen explicit Windows profile, without reading ambient env."""
+    value = environment.get('USERPROFILE')
+    if (type(value) is not str or not value or any(c in value for c in '\0\r\n%') or
+            not PureWindowsPath(value).is_absolute() or
+            not re.fullmatch('[A-Za-z]:', PureWindowsPath(value).drive) or
+            len(PureWindowsPath(value).parts)<2 or
+            '..' in PureWindowsPath(value).parts or
+            ':' in value[2:]):
+        raise ValueError('Explicit absolute non-root USERPROFILE required')
+
+
+def windows_runtime_environment(*, system_directory, user_profile):
+    """Pure reviewed bindings; no inherited keys, secrets, or filesystem reads."""
+    system = PureWindowsPath(system_directory)
+    if (not system.is_absolute() or not re.fullmatch('[A-Za-z]:',system.drive) or
+            len(system.parts)<2 or '..' in system.parts or ':' in str(system)[2:]):
+        raise ValueError('Explicit absolute system directory required')
+    result = {'PATH':str(system),'SYSTEMROOT':str(system.parent),
+              'WINDIR':str(system.parent),'USERPROFILE':user_profile}
+    validate_profile_environment(result)
+    return result
+
+def file_identity(path, raw):
+    if type(raw) is not bytes:
+        raise ValueError('Artifact bytes required')
+    return {'path':path,'size_bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+
+def identity(row):
+    if (type(row) is not dict or not {'path','size_bytes','sha256'}.issubset(row) or
+            type(row['path']) is not str or not PureWindowsPath(row['path']).is_absolute() or
+            '..' in PureWindowsPath(row['path']).parts or '\0' in row['path'] or
+            type(row['size_bytes']) is not int or row['size_bytes'] < 0 or
+            type(row['sha256']) is not str or not re.fullmatch('[0-9a-f]{64}',row['sha256'])):
+        raise ValueError('Invalid binding identity')
+    return {k:row[k] for k in ('path','size_bytes','sha256')}
+
+def relative_inventory(rows, source):
+    root = PureWindowsPath(source)
+    if not root.is_absolute() or '..' in root.parts or not rows:
+        raise ValueError('Source root and nonempty rows required')
+    entries = {}
+    for row in rows:
+        row = identity(row)
+        try:
+            relative = PureWindowsPath(row['path']).relative_to(root)
+        except ValueError as exc:
+            raise ValueError('Store member outside source root') from exc
+        # Manager.compute_manifest and receipt aggregation use '/' on Windows.
+        key = relative.as_posix()
+        if not relative.parts or key.casefold() in {v.casefold() for v in entries}:
+            raise ValueError('Duplicate or empty relative member')
+        entries[key] = {'rel_path':key,'size_bytes':row['size_bytes'],'sha256':row['sha256']}
+    return entries
+
+def validate_relative_inventory(entries):
+    if type(entries) is not dict:
+        raise ValueError('Relative inventory must be a mapping')
+    for key,row in entries.items():
+        if (type(key) is not str or not key or '\\' in key or ':' in key or '\0' in key or
+                PurePosixPath(key).is_absolute() or '..' in PurePosixPath(key).parts or
+                PurePosixPath(key).as_posix()!=key or
+                type(row) is not dict or set(row)!={'rel_path','size_bytes','sha256'} or row['rel_path']!=key or
+                type(row['size_bytes']) is not int or row['size_bytes']<0 or
+                type(row['sha256']) is not str or not re.fullmatch('[0-9a-f]{64}',row['sha256'])):
+            raise ValueError('Noncanonical relative inventory: forward-slash keys/entries required')
+
+def expected_copy_inventory(rows, source):
+    entries = relative_inventory(rows, source)
+    validate_relative_inventory(entries)
+    aggregate = hashlib.sha256()
+    for key in sorted(entries):
+        row = entries[key]
+        aggregate.update(f"{key}:{row['size_bytes']}:{row['sha256']}\n".encode())
+    return {'schema_version':1,'purpose':'EXPECTED_SNAPSHOT_CONTENTS_NOT_ISSUED_RECEIPT',
+            'source_root':source,'files':entries,'expected_receipt_aggregate_sha256':aggregate.hexdigest()}
+
+def windows_runtime_bindings(*, workspace, system_directory, reviewed_members):
+    """Resolve actual executable/script files, never a list-manifest pathname."""
+    workspace=PureWindowsPath(workspace); system=PureWindowsPath(system_directory)
+    if not workspace.is_absolute() or not system.is_absolute():
+        raise ValueError('Absolute runtime roots required')
+    targets={'script_path':workspace/'scripts/matched_baseline/offline_smoke_windows_boundary.ps1',
+             'powershell_path':system/'WindowsPowerShell/v1.0/powershell.exe',
+             'kernel':system/'kernel32.dll'}
+    selected={}
+    for name,path in targets.items():
+        rows=[identity(row) for row in reviewed_members.values() if PureWindowsPath(row['path'])==path]
+        if len(rows)!=1:
+            raise ValueError('Actual reviewed runtime file required: '+str(path))
+        selected[name]=rows[0]
+    return {'system_directory':str(system),'script_path':selected['script_path']['path'],
+            'powershell_path':selected['powershell_path']['path'],'kernel32_sha256':selected['kernel']['sha256']}
+
+def compose_bindings(*, partitions, reviewed_members, direct_roles, inventory_artifacts,
+                     source, store_rows, cache_rows, tokenizer_rows, artifact_paths):
+    """Return new declared map and generated artifacts; never mutate inputs.
+
+    Caller must independently select exact interpreter/driver/benchmark/graph
+    paths from the reviewed inventory. No unknown hash-only role alias accepted.
+    """
+    if set(direct_roles) != {'interpreter','driver','benchmark','graph'}:
+        raise ValueError('Exact direct roles required')
+    if set(inventory_artifacts) != {'store_inventory','cache_inventory'} or set(artifact_paths) != {'snapshot_manifest','tokenizer_manifests'}:
+        raise ValueError('Explicit inventory artifacts required')
+    declared = deepcopy(partitions)
+    for name,row in direct_roles.items():
+        clean = identity(row)
+        expected = reviewed_members.get(clean['path'])
+        if expected is None or identity(expected) != clean:
+            raise ValueError('Direct role differs from reviewed member')
+        if name in declared and declared[name] != clean:
+            raise ValueError('Existing role binding conflict')
+        declared[name] = clean
+    for name,rows in (('store_inventory',store_rows),('cache_inventory',cache_rows)):
+        artifact = inventory_artifacts[name]
+        if set(artifact) != {'declaration','raw'}:
+            raise ValueError('Inventory bytes and declaration required')
+        spec = artifact['declaration']
+        if identity(spec) != file_identity(spec['path'],artifact['raw']) or json.loads(artifact['raw']) != rows:
+            raise ValueError('Inventory bytes/rows mismatch')
+        if 'members' not in spec or spec['members']['count'] != len(rows) or not rows:
+            raise ValueError('Inventory must retain member checks')
+        for row in rows:
+            clean = identity(row)
+            if clean != identity(reviewed_members.get(clean['path'],{})):
+                raise ValueError('Inventory member differs from reviewed identity')
+        if name in declared:
+            raise ValueError('Existing inventory role conflict')
+        declared[name] = deepcopy(spec)
+    snapshot = expected_copy_inventory(store_rows, source)
+    seen = set()
+    if not tokenizer_rows:
+        raise ValueError('Empty tokenizer inventory')
+    for row in tokenizer_rows:
+        clean = identity(row)
+        if clean['path'].casefold() in seen or clean != identity(reviewed_members.get(clean['path'],{})):
+            raise ValueError('Tokenizer identity/duplicate mismatch')
+        seen.add(clean['path'].casefold())
+    generated = {'snapshot_manifest':encode(snapshot), 'tokenizer_manifests':encode(tokenizer_rows)}
+    for name,raw in generated.items():
+        if name in declared:
+            raise ValueError('Generated role conflict')
+        declared[name] = identity(file_identity(artifact_paths[name],raw))
+        if name == 'tokenizer_manifests':
+            declared[name]['members'] = {
+                'roots':sorted({str(PureWindowsPath(row['path']).parent) for row in tokenizer_rows}),
+                'count':len(tokenizer_rows),'complete_roots':[]}
+    pins = {name:identity(row)['sha256'] for name,row in declared.items()}
+    if not REQUIRED.issubset(pins):
+        raise ValueError('Missing named role')
+    return declared, generated, snapshot

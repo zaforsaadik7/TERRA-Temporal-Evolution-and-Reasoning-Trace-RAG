@@ -1,0 +1,62 @@
+[
+  {
+    "id": "R1",
+    "requirement": "Official recommended template",
+    "status": "IMPLEMENTED",
+    "evidence": "sn-jnl 3.1 unmodified; pdflatex,sn-basic; T1 standard font encoding"
+  },
+  {
+    "id": "R2",
+    "requirement": "Author-year citation identities",
+    "status": "AUTOMATED_PASS",
+    "evidence": "Same citation keys; official style and textual-citation repairs"
+  },
+  {
+    "id": "R3",
+    "requirement": "Readable scientific objects",
+    "status": "CANDIDATE_IMPLEMENTED_REVIEW_PENDING",
+    "evidence": "No global scaling; native figure labels;9pt tables; peer must inspect actual candidate"
+  },
+  {
+    "id": "R4",
+    "requirement": "Protected numerical science and all18themes",
+    "status": "AUTOMATED_PASS",
+    "evidence": "Macros/ref.bib preserved; bounded narrative corrections logged"
+  },
+  {
+    "id": "R5",
+    "requirement": "Main <=25 PDF pages including references",
+    "status": "FAIL_DECISION_REQUIRED",
+    "evidence": "Candidate 67 pages, original advisor IEEE25; no waiver inferred"
+  },
+  {
+    "id": "R6",
+    "requirement": "All-page final scientific/visual reread",
+    "status": "IMPLEMENTATION_SELF_VERIFICATION_COMPLETE",
+    "evidence": "67main+18supp pages inspected directly or by exact pixel/text parity; scientific text read; final links separately verified. External peer review remains R8."
+  },
+  {
+    "id": "R7",
+    "requirement": "Main/supplement cross-document links",
+    "status": "AUTOMATED_PASS",
+    "evidence": "xr-hyper after macro definitions; all remote named destinations resolve in delivered pair"
+  },
+  {
+    "id": "R8",
+    "requirement": "External peer reconciliation",
+    "status": "PENDING",
+    "evidence": "Antigravity I9 candidate review not yet received"
+  },
+  {
+    "id": "R9",
+    "requirement": "Working adoption and fresh parity",
+    "status": "HELD",
+    "evidence": "Working46files untouched until page contract and peer acceptance"
+  },
+  {
+    "id": "R10",
+    "requirement": "Submission-wide pdfLaTeX compatibility",
+    "status": "I10_I11_PENDING",
+    "evidence": "Local Tectonic XeTeX build is not SNAPP pdfLaTeX proof"
+  }
+]

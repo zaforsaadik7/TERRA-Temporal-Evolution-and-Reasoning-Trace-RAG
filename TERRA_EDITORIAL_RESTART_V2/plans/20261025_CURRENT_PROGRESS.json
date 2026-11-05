@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-26",
+  "authoritative_plan": "20261008_REVIEWER_INTEGRATED_SUBMISSION_PLAN.md",
+  "complete": [
+    "I0",
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6",
+    "I7",
+    "I8"
+  ],
+  "partial": [
+    "I9",
+    "I11"
+  ],
+  "pending": [
+    "I10",
+    "I12"
+  ],
+  "counts": {
+    "complete": 9,
+    "partial": 2,
+    "pending": 2
+  },
+  "basis": "I0-I8 retain bounded closure. I11 audit/repairs and bounded peer review complete; original certification remains partial under deferred conditions. I9 and I10 user-deferred, I12 not authorized. No active implementation remaining.",
+  "i7_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I7_20261025_01\\I7_COMPLETION.json",
+  "i9_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I9_20261025_01\\I9_COMPLETION.json",
+  "i9_status_note": "Springer candidate set aside. Retained IEEE layout includes accepted I2/I6 corrections,25main/21supp; I9remains partial.",
+  "i2_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I2_20261025_01\\I2_COMPLETION.json",
+  "i6_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I6_20261026_01\\I6_COMPLETION.json",
+  "i0_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I0_20261026_03\\closure_20261026_01\\I0_COMPLETION.json",
+  "i11_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I11_20261026_01\\I11_COMPLETION.json",
+  "i11_repair_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I11_repairs_20261026_01\\REPAIR_COMPLETION.json",
+  "i11_peer_reconciliation": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I11_repairs_20261026_01\\peer_reconciliation_20261026_02\\RECONCILIATION.json",
+  "latest_main_table_evidence": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I11_main_evidence_20261026_01\\COMPLETION.json"
+}

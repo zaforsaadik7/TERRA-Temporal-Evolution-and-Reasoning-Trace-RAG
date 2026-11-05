@@ -1,0 +1,16 @@
+\begin{table*}[!t]
+\caption{CLERC Track 1:120 drafting contexts.}
+\label{tab:clerc_eval}
+\centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccccc}
+\toprule
+Pipeline & Recall@10 & ROUGE-L & Citation F1 & Soundness & Misapplication OR/AND \\
+\midrule
+Direct LLM & --- & $\ClercDirectRougeL$ & $\ClercDirectCiteFOne$ & $\ClercDirectSoundness$ & $\ClercDirectMisapplicationTrackOne$ \\
+Flat RAG & $\ClercFlatRecallTen$ & $\ClercFlatRougeL$ & $\ClercFlatCiteFOne$ & $\ClercFlatSoundness$ & $\ClercFlatMisapplicationTrackOne$ \\
+TERRA & $\ClercTerraRecallTen$ & $\ClercTerraRougeL^{**}$ & $\ClercTerraCiteFOne$ & $\ClercTerraSoundness$ & $\ClercTerraMisapplicationTrackOne$ \\
+\bottomrule
+\end{tabular}
+\endgroup\par\vspace{2pt}
+\raggedright\footnotesize Misapplication rates use all 120 completions, not precedent omissions. TERRA gated 53/120; all its flags are among 67 generated completions. Track 2(50 engineered controls), all retrieval metrics, citation audits and notes are preserved in the supplement. No fabricated-citation rate inferred from unmatched captions. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:clerc_eval}.
+\end{table*}

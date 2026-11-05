@@ -1,0 +1,9 @@
+fact_id,printed,result,source
+B8-F01,"faithfulness = mean of two judges (1,750/1,750)",VERIFIED,data/terra_canonical_v2_eval.json
+B8-F02,"per-judge values are (L-1)/4 in {0,.25,.5,.75,1}",VERIFIED,same
+B8-F03,no Llama marker in raw_judge_scores,VERIFIED,same
+B8-F04,TERRA raw mean faithfulness 0.695,VERIFIED,same
+B8-F05,sensitivity table Raw TERRA 0.6950,VERIFIED,sensitivity table (skipped if absent)
+B8-F06-casefacts,"casefacts: judge identity recorded per row on 360/360 rows (qwen3-next-80b, gpt-oss-120b), no fallback contamination",VERIFIED,scratch/casefacts_120_eval_raw.json
+B8-F06-clerc,"clerc: judge identity recorded per row on 360/360 rows (qwen3-next-80b, gpt-oss-120b), no fallback contamination",VERIFIED,scratch/clerc_120_eval_raw.json
+B8-F07,leakage summary reports inter-judge agreement but no judge identifiers,VERIFIED,scratch/temporal_leakage_statistical_summary.json

@@ -1,0 +1,58 @@
+[
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "--untrusted",
+      "-k",
+      "--keep-logs",
+      "--makefile-rules",
+      "dependencies_1.mk",
+      "TERRA_SUPPLEMENT.tex"
+    ],
+    "exit": 0,
+    "seconds": 3.8944680000131484
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "--untrusted",
+      "-k",
+      "--keep-logs",
+      "--makefile-rules",
+      "dependencies_2.mk",
+      "main.tex"
+    ],
+    "exit": 0,
+    "seconds": 8.079516999991029
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "--untrusted",
+      "-k",
+      "--keep-logs",
+      "--makefile-rules",
+      "dependencies_3.mk",
+      "TERRA_SUPPLEMENT.tex"
+    ],
+    "exit": 0,
+    "seconds": 1.4396503000025405
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "--untrusted",
+      "-k",
+      "--keep-logs",
+      "--makefile-rules",
+      "dependencies_4.mk",
+      "main.tex"
+    ],
+    "exit": 0,
+    "seconds": 3.9145581999910064
+  }
+]

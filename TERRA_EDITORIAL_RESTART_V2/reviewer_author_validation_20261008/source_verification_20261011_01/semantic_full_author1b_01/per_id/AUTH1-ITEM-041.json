@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-041",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "N/A",
+  "disposition": "SOURCE_EXCEPTION_FACTS_SUPPORTED",
+  "attribution_finding": "Nonlegal factual note. NFL official reporting is an appropriate primary factual source.",
+  "fidelity_finding": "NFL confirms Chiefs 25–22 overtime win and Mahomes MVP on February 11, 2024; no quotation is claimed.",
+  "pinpoint_finding": "The named official Game Summary was not supplied with a direct pinpoint; NFL MVP article provides corroboration.",
+  "scope_and_cutoff_finding": "This supports sports facts only, not the universal claim that no legal authority can govern any aspect of sports awards.",
+  "evidence": [
+    "https://amp.nfl.com/news/chiefs-qb-patrick-mahomes-named-super-bowl-lviii-mvp",
+    "https://www.nfl.com/photos/top-10-photos-from-super-bowl-lviii"
+  ],
+  "proposed_action_not_applied": "Add a direct factual-source locator; narrow legal N/A to the requested result/MVP.",
+  "unresolved_questions": [
+    "Specific named Game Summary and precise Paradise/Las Vegas location formulation were not independently checked against that document."
+  ],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "None (No controlling primary legal authorities exist governing the game score or MVP winner of Super Bowl LVIII).\nNon-legal factual baseline: National Football League (NFL) Official Game Summary, Super Bowl LVIII (February 11, 2024).",
+  "ledger_excerpt": "Legal sources: Not applicable (no statutory, constitutional, or judicial authorities govern sports match outcomes or athletic MVP awards).\nFactual record: In Super Bowl LVIII, held on February 11, 2024, at Allegiant Stadium in Paradise/Las Vegas, Nevada, the Kansas City Chiefs defeated the San Francisco 49ers by a score of 25–22 in overtime; quarterback Patrick Mahomes was awarded the Super Bowl Most Valuable Player (MVP)."
+}
+

@@ -1,0 +1,9 @@
+# Draft wording only — DO NOT APPROVE OR EXECUTE YET
+
+Assistant-prepared wording, not a human-authored approval record. No approval date, ID, signature or executable authorization is supplied. The exact final decision-manifest identity must be substituted only after the listed readiness repairs and review; no current candidate hash is misrepresented as the final executable-packet hash.
+
+Proposed future wording:
+
+> On [actual approval date], I approve exactly one B001 offline feasibility attempt under the reviewed final decision packet [exact path and SHA-256], using its exact parent and child commands, selected query UTF-8 hash 55ae112d6bf9526988d3a7e412255200f5d684779724c4c83f3cb8d6d87c6723, frozen constituent manifests and output paths. I separately approve creating and removing only its specified temporary Outbound/Block/Any rule for the actual base Python runtime image. I understand it also blocks the owned Python controller; only that positively verified controller is accepted by the known-process check, and any other known matching process stops launch. I accept the disclosed unreadable-process and untested-native uncertainty, and the exact reviewed child-timeout/Job-memory/capture limits and their scope. Stop on failed checks, preserve all failure/copy evidence and verify owned-rule cleanup; cleanup is not guaranteed. No retries, provider/API calls, 350-query run, manuscript/statistics/threshold changes or canonical promotion are authorized.
+
+This template is intentionally not a JSON record accepted by verify_approval_bytes. It is not the user's present decision and must not be copied into an accepted record merely because it exists. Any eventual authorization needs the user's actual dated response and a verified binding to the final exact reviewed configuration.

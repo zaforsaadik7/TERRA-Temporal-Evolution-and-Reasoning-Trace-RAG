@@ -1,0 +1,977 @@
+{
+  "author": "Codex",
+  "date": "2026-10-11",
+  "scope": "Author 1 IDs 001–038; Column N attribution, fidelity, pinpoint and scope only",
+  "coverage_count": 38,
+  "ratings_certified": false,
+  "findings": [
+    {
+      "id": "AUTH1-ITEM-001",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Illinois Brick Co. v. Illinois, 431 U.S. 720 (1977) — https://supreme.justia.com/cases/federal/us/431/720/\nReiter v. Sonotone Corp., 442 U.S. 330 (1979) — https://supreme.justia.com/cases/federal/us/442/330/",
+      "original_excerpt": "From Illinois Brick Co. v. Illinois, 431 U.S. 720, 728–729, 746 (1977):\nThe Court held that direct purchasers are the parties injured within the meaning of Clayton Act § 4 and barred the offensive use of pass-on theories, concluding that antitrust enforcement is better served by concentrating full overcharge recovery in direct purchasers rather than attempting to apportion damages among indirect purchasers in the distribution chain.\n\nFrom Reiter v. Sonotone Corp., 442 U.S. 330, 334 n.2, 337 (1979):\nThe Court held that retail consumers paying higher prices for personal-use goods sustain an injury in their \"property\" under § 4, explicitly clarifying that its review was restricted to the consumer \"property\" statutory term and did not alter or disturb the direct-purchaser rule of Illinois Brick.",
+      "disposition": "SUPPORTED_PARAPHRASE_WITH_SCOPE_LIMIT",
+      "attribution": "Court opinions",
+      "fidelity": "Core indirect-purchaser/pass-on and consumer-property distinction is supported. Reiter leaves direct-purchaser issues outside review; it does not affirmatively adjudicate them.",
+      "pinpoint": "Illinois Brick 728–729, 735, 746; Reiter 334 n.2, 337–338.",
+      "scope_note": "Federal §4 overcharge recovery, subject to the opinion's recognized exceptions; not all antitrust injury or state-law remedies.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-431-720.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-442-330.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-002",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Seattle Municipal Code (SMC), Title 22, Subtitle VIII, Chapters 22.800–22.808 (Stormwater Code).\nCity of Seattle Stormwater Manual (SDCI Director's Rule 10-2021 / SPU Director's Rule DWW-200).\nOfficial Reference: https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT22BUCOCO_SUBTITLE_VIIISTCO",
+      "original_excerpt": "From Seattle Municipal Code § 22.800.010:\n\"This subtitle, comprised of Chapters 22.800 through 22.808, shall be known as the 'Stormwater Code' and may be cited as such.\"   \n\nFrom Seattle Municipal Code § 22.800.020 & City of Seattle Stormwater Manual (Directors' Rule DWW-200 / SDCI 10-2021):\nChapter 22.800 establishes the title, purpose, scope, and authority governing all grading, drainage, and land-disturbing activities in Seattle, while specific drainage calculation methodologies and flow control modeling standards (such as continuous runoff modeling and the Single Event Hydrograph Method) are codified across Chapters 22.800–22.808 and elaborated under the incorporated Stormwater Manual (Appendix F).",
+      "disposition": "PARTIALLY_VERIFIED_SOURCE_SCOPE_UNRESOLVED",
+      "attribution": "Municipal legislation and administrative manual",
+      "fidelity": "Title sentence corroborated in City draft carrying unchanged title language. Official 2021 Appendix F supports hydrologic methods, but no historical enacted-code copy was secured in this turn. Do not call an absent local U.S. Reports source a false quotation.",
+      "pinpoint": "22.800.010 title; scope belongs to 22.800.030, not merely .020 purpose; Appendix F F-1/F-2 and single-event modeling guidance.",
+      "scope_note": "Remove or qualify 'all' grading/drainage activities; methods depend on facility/performance standard. Single-event methods are for conveyance, not an interchangeable substitute for continuous flow-control modeling. Version applicability remains unresolved.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRIMARY_WEB_PARTIAL_HISTORICAL_VERSION_UNRESOLVED",
+      "evidence_paths": [],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-003",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "None (No controlling U.S. primary legal authority exists on this foreign constitutional doctrine).",
+      "original_excerpt": "Not applicable (U.S. primary legal sources do not establish the internal separation of powers doctrine under the Constitution of Japan).",
+      "disposition": "NOT_APPLICABLE_NO_QUOTATION",
+      "attribution": "Assessor bibliographic/scope note",
+      "fidelity": "No attributed quotation to authenticate. The absence of a controlling U.S. authority for Japan's internal constitutional doctrine is a jurisdictional note, not a demonstrated exhaustive negative search.",
+      "pinpoint": "No pinpoint supplied or required for quotation comparison.",
+      "scope_note": "Does not establish absence of Japanese primary law; no Japan doctrinal research or rating certification.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "NO_ATTRIBUTED_SOURCE_APPLICABLE",
+      "evidence_paths": [],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-004",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Wolf v. Colorado, 338 U.S. 25 (1949) — https://supreme.justia.com/cases/federal/us/338/25/\n[cite: 1]\nHurtado v. California, 110 U.S. 516 (1884)   \nTwining v. New Jersey, 211 U.S. 78 (1908)",
+      "original_excerpt": "From Wolf v. Colorado, 338 U.S. 25, 33 (1949):\n\"We hold, therefore, that in a prosecution in a State court for a State crime the Fourteenth Amendment does not forbid the admission of evidence obtained by an unreasonable search and seizure.\"",
+      "disposition": "VERIFIED_HISTORICAL_QUOTATION",
+      "attribution": "Wolf majority opinion",
+      "fidelity": "Quoted holding corresponds to printed page 33 after OCR/line normalization.",
+      "pinpoint": "338 U.S. at 33.",
+      "scope_note": "1949 state prosecution holding; do not present as current law or imply quoted Mapp support.",
+      "previous_record_verification": "semantic_followup_01 confirmation independently checked against preserved Wolf text.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-338-25.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-110-516.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-211-78.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-005",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Wolf v. Colorado, 338 U.S. 25 (1949) — https://supreme.justia.com/cases/federal/us/338/25/\n[cite: 1]\nHurtado v. California, 110 U.S. 516 (1884)   \nTwining v. New Jersey, 211 U.S. 78 (1908)",
+      "original_excerpt": "From Wolf v. Colorado, 338 U.S. 25, 33 (1949):\n\"We hold, therefore, that in a prosecution in a State court for a State crime the Fourteenth Amendment does not forbid the admission of evidence obtained by an unreasonable search and seizure.\"   \nFrom Wolf v. Colorado, 338 U.S. 25, 26 (1949):\nCiting Hurtado v. California, 110 U.S. 516, and Twining v. New Jersey, 211 U.S. 78, when addressing the scope of Fourteenth Amendment due process in relation to specific Bill of Rights guarantees.",
+      "disposition": "VERIFIED_QUOTATION_AND_PARAPHRASE",
+      "attribution": "Wolf majority opinion",
+      "fidelity": "Page 33 quote corresponds; page 26 discussion cites Hurtado and Twining in due-process incorporation analysis.",
+      "pinpoint": "338 U.S. at 26, 33.",
+      "scope_note": "Historical Wolf proposition. Additional source listing does not establish independent holdings of every listed authority.",
+      "previous_record_verification": "semantic_followup_01 confirmed by actual preserved text.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-338-25.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-110-516.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-211-78.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-006",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Wolf v. Colorado, 338 U.S. 25 (1949) — https://supreme.justia.com/cases/federal/us/338/25/\n[cite: 1]\nMapp v. Ohio, 367 U.S. 643 (1961) — https://supreme.justia.com/cases/federal/us/367/643/\n[cite: 2, 3]",
+      "original_excerpt": "From Wolf v. Colorado, 338 U.S. 25, 33 (1949):\n\"We hold, therefore, that in a prosecution in a State court for a State crime the Fourteenth Amendment does not forbid the admission of evidence obtained by an unreasonable search and seizure.\"",
+      "disposition": "VERIFIED_HISTORICAL_QUOTATION",
+      "attribution": "Wolf majority opinion",
+      "fidelity": "Quoted holding corresponds to printed page 33 after OCR/line normalization.",
+      "pinpoint": "338 U.S. at 33.",
+      "scope_note": "1949 state prosecution holding; do not present as current law or imply quoted Mapp support.",
+      "previous_record_verification": "semantic_followup_01 confirmation independently checked against preserved Wolf text.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-338-25.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-367-643.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-007",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Wolf v. Colorado, 338 U.S. 25 (1949) — https://supreme.justia.com/cases/federal/us/338/25/\n[cite: 1]\nMapp v. Ohio, 367 U.S. 643 (1961) — https://supreme.justia.com/cases/federal/us/367/643/\n[cite: 2]",
+      "original_excerpt": "From Wolf v. Colorado, 338 U.S. 25, 33 (1949):\n\"We hold, therefore, that in a prosecution in a State court for a State crime the Fourteenth Amendment does not forbid the admission of evidence obtained by an unreasonable search and seizure.\"",
+      "disposition": "VERIFIED_HISTORICAL_QUOTATION",
+      "attribution": "Wolf majority opinion",
+      "fidelity": "Quoted holding corresponds to printed page 33 after OCR/line normalization.",
+      "pinpoint": "338 U.S. at 33.",
+      "scope_note": "1949 state prosecution holding; do not present as current law or imply quoted Mapp support.",
+      "previous_record_verification": "semantic_followup_01 confirmation independently checked against preserved Wolf text.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-338-25.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-367-643.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-008",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Argentine Mining Co. v. Terrible Mining Co., 122 U.S. 478 (1887) — https://supreme.justia.com/cases/federal/us/122/478/\n[cite: 1]",
+      "original_excerpt": "From Argentine Mining Co. v. Terrible Mining Co., 122 U.S. 478 (1887), Reporter Heading:\n\"ARGENTINE MINING COMPANY v. TERRIBLE MINING COMPANY. ERROR TO THE CIRCUIT COURT OF THE UNITED STATES FOR THE DISTRICT OF COLORADO. Argued May 3, 1887. — Decided May 27, 1887.\"",
+      "disposition": "QUOTATION_METADATA_CORRECTION_REQUIRED",
+      "attribution": "Reporter heading, not judicial reasoning",
+      "fidelity": "Preserved heading says Argued April 21, 1887, not May 3, 1887. Decided May 27, 1887 and Colorado circuit-court origin correspond. Expanded company names are transcription expansion rather than exact heading.",
+      "pinpoint": "122 U.S. at 478, lines 1–6.",
+      "scope_note": "Correct argument date; label metadata or transcribe heading accurately. This metadata cannot support a doctrinal proposition.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-122-478.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-009",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Baker v. Carr, 369 U.S. 186 (1962) — https://supreme.justia.com/cases/federal/us/369/186/\n[cite: 2]\nReynolds v. Sims, 377 U.S. 533 (1964) — https://supreme.justia.com/cases/federal/us/377/533/\n[cite: 3]",
+      "original_excerpt": "From Baker v. Carr, 369 U.S. 186, 197–198, 209 (1962):\n\"We hold that the appellants' claim that they are being denied equal protection is justiciable... We hold that this challenge to an apportionment presents no nonjusticiable 'political question.'\"   \nFrom Reynolds v. Sims, 377 U.S. 533, 556 (1964):\n\"In Baker v. Carr, 369 U.S. 186, we held that a claim asserted under the Equal Protection Clause challenging the constitutionality of a State's apportionment of seats in its legislature, on the ground that the right to vote of certain citizens was effectively diluted and debased, presented a justiciable controversy subject to adjudication by federal courts... we were not faced in Baker with the task of determining the basic substantive standards which must be applied in evaluating the constitutionality of a state legislative apportionment scheme.\"",
+      "disposition": "QUOTATION_AND_PINPOINT_CORRECTION_REQUIRED",
+      "attribution": "Baker and Reynolds majority opinions",
+      "fidelity": "Baker's first submitted sentence adds 'We hold that' to actual 'Appellants’ claim ... is justiciable'; next quotation is genuine. Reynolds rewrites 'effectively impaired since debased and diluted, in effect' and its ending is a summary rather than the quoted page-556 wording.",
+      "pinpoint": "Baker 209 for justiciability language, alongside 197–198 threshold discussion; Reynolds 556 has actual 'We intimated no view' discussion.",
+      "scope_note": "Underlying threshold-versus-merits distinction is supported; label rewritten portions paraphrase instead of treating quotation marks as exact.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-369-186.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-377-533.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-010",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "West Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943) — https://supreme.justia.com/cases/federal/us/319/624/\n[cite: 1, 2]\nNew York Times Co. v. Sullivan, 376 U.S. 254 (1964) — https://supreme.justia.com/cases/federal/us/376/254/\n[cite: 2, 3]\nIntermediate precedents: Dennis v. United States, 341 U.S. 494 (1951); Beauharnais v. Illinois, 343 U.S. 250 (1952); Yates v. United States, 354 U.S. 298 (1957); NAACP v. Alabama ex rel. Patterson, 357 U.S. 449 (1958).",
+      "original_excerpt": "From West Virginia State Board of Education v. Barnette, 319 U.S. 624, 642 (1943):\n\"If there is any fixed star in our constitutional constellation, it is that no official, high or petty, can prescribe what shall be orthodox in politics, nationalism, religion, or other matters of opinion or force citizens to confess by word or act their faith therein.\"\nFrom New York Times Co. v. Sullivan, 376 U.S. 254, 270, 279–280 (1964):\n\"Thus we consider this case against the background of a profound national commitment to the principle that debate on public issues should be uninhibited, robust, and wide-open, and that it may well include vehement, caustic, and sometimes unpleasantly sharp attacks on government and public officials... The constitutional guarantees require, we think, a federal rule that prohibits a public official from recovering damages for a defamatory falsehood relating to his official conduct unless he proves that the statement was made with 'actual malice'...\"",
+      "disposition": "VERIFIED_ELIDED_QUOTATIONS_WITH_SCOPE_LIMIT",
+      "attribution": "Barnette and Sullivan majority opinions",
+      "fidelity": "Fixed-star and public-debate language correspond. Actual-malice passage corresponds across page break and footnote on 279–280.",
+      "pinpoint": "Barnette 642; Sullivan 270, 279–280.",
+      "scope_note": "Ending omits definition of actual malice; no verification of intermediate-precedent chain or candidate answer.",
+      "previous_record_verification": "semantic_followup_01 Sullivan fragment finding rechecked against preserved source.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-319-624.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-376-254.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-341-494.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-343-250.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-354-298.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-357-449.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-011",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Lochner v. New York, 198 U.S. 45 (1905) — https://supreme.justia.com/cases/federal/us/198/45/\nUnited States v. Carolene Products Co., 304 U.S. 144 (1938) — https://supreme.justia.com/cases/federal/us/304/144/\nWest Coast Hotel Co. v. Parrish, 300 U.S. 379 (1937) — https://supreme.justia.com/cases/federal/us/300/379/",
+      "original_excerpt": "From Lochner v. New York, 198 U.S. 45, 53, 64 (1905):\n\"The general right to make a contract in relation to his business is part of the liberty of the individual protected by the Fourteenth Amendment of the Federal Constitution... The act is not, within any fair meaning of the term, a health law, but is an illegal interference with the rights of individuals, both employers and employes, to make contracts regarding labor upon such terms as they may think best.\"\nFrom United States v. Carolene Products Co., 304 U.S. 144, 152–153 n.4 (1938):\n\"...regulatory legislation affecting ordinary commercial transactions is not to be pronounced unconstitutional unless... it is of such a character as to preclude the assumption that it rests upon some rational basis within the knowledge and experience of the legislators... Nor need we enquire... whether prejudice against discrete and insular minorities may be a special condition, which tends seriously to curtail the operation of those political processes ordinarily to be relied upon to protect minorities, and which may call for a correspondingly more searching judicial inquiry.\"",
+      "disposition": "SUPPORTED_CORE_QUOTATION_DELIMITATION_REQUIRED",
+      "attribution": "Lochner majority; Carolene Products majority and footnote 4",
+      "fidelity": "Lochner contract-liberty sentence corresponds; closing sentence ends at 'best' while original continues 'or which they may agree upon ...'. Mark truncation or include remainder. Carolene rational-basis and minority passages correspond with marked internal omissions.",
+      "pinpoint": "Lochner 53, 64; Carolene 152 and n.4 at 152–153.",
+      "scope_note": "Footnote says inquiry need not be decided; do not convert exploratory footnote into a holding that a specific level of scrutiny applies.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-198-45.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-304-144.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-300-379.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-012",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Commissioner v. Kowalski, 434 U.S. 77 (1977) — https://supreme.justia.com/cases/federal/us/434/77/\n[cite: 2]\nInternal Revenue Code of 1954, 26 U.S.C. § 61(a) and § 119",
+      "original_excerpt": "In Commissioner v. Kowalski, 434 U.S. 77 (1977), the Supreme Court ruled that cash meal allowances paid to state troopers represent realized accessions to wealth over which employees exercise complete dominion, making them includible as gross income under § 61(a).   \n\nThe Court explicitly concluded that § 119 applies exclusively to meals furnished in kind on the employer's business premises and does not permit exclusions for cash reimbursements or meal allowances, regardless of whether the payments were provided for the employer's convenience or tied to employment conditions.",
+      "disposition": "SUPPORTED_PARAPHRASE_WITH_RESERVATION",
+      "attribution": "Kowalski majority",
+      "fidelity": "Regular trooper allowances are income; §119 excludes in-kind meals under its conditions rather than cash reimbursements. Generalization should remain tied to this holding.",
+      "pinpoint": "434 U.S. 82–84, 92 n.28, 93–94.",
+      "scope_note": "No ruling that every possible meal-related reimbursement is taxable under every provision; opinion expressly reserves sporadic reimbursement and other grounds for supper-money exclusions.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-434-77.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-013",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Commissioner v. Kowalski, 434 U.S. 77 (1977) — https://supreme.justia.com/cases/federal/us/434/77/\nInternal Revenue Code of 1954, 26 U.S.C. § 61(a) and § 119",
+      "original_excerpt": "In Commissioner v. Kowalski, 434 U.S. 77, 84, 90–94 (1977), the Supreme Court ruled that cash meal allowances paid to state troopers constitute gross income under § 61(a) and are not subject to exclusion under § 119 of the Internal Revenue Code. The Court determined that § 119 covers only meals furnished in kind by the employer, not cash allowances or cash reimbursements, and that the enactment of § 119 ended any nonstatutory convenience-of-the-employer doctrine for cash payments.",
+      "disposition": "SUPPORTED_PARAPHRASE_WITH_RESERVATION",
+      "attribution": "Kowalski majority",
+      "fidelity": "Income and §119 in-kind/cash distinction supported. 'Ended any nonstatutory ... doctrine for cash payments' should be bounded to the prior convenience rationale and allowances at issue.",
+      "pinpoint": "434 U.S. 84, 90–94; reservation at 92 n.28 (continued at 93).",
+      "scope_note": "Preserve reserved other grounds and sporadic meal reimbursement; avoid universal cash-benefit rule.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-434-77.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-014",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Commissioner v. Kowalski, 434 U.S. 77 (1977) — https://supreme.justia.com/cases/federal/us/434/77/\nInternal Revenue Code of 1954, 26 U.S.C. § 61(a) and § 119",
+      "original_excerpt": "In Commissioner v. Kowalski, 434 U.S. 77, 84, 90–94 (1977), the Supreme Court ruled that cash meal allowances paid to state troopers constitute gross income under § 61(a) and are not subject to exclusion under § 119 of the Internal Revenue Code. The Court determined that § 119 covers only meals furnished in kind by the employer, not cash allowances or cash reimbursements, and that the enactment of § 119 ended any nonstatutory convenience-of-the-employer doctrine for cash payments.",
+      "disposition": "SUPPORTED_PARAPHRASE_WITH_RESERVATION",
+      "attribution": "Kowalski majority",
+      "fidelity": "Income and §119 in-kind/cash distinction supported. 'Ended any nonstatutory ... doctrine for cash payments' should be bounded to the prior convenience rationale and allowances at issue.",
+      "pinpoint": "434 U.S. 84, 90–94; reservation at 92 n.28 (continued at 93).",
+      "scope_note": "Preserve reserved other grounds and sporadic meal reimbursement; avoid universal cash-benefit rule.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-434-77.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-015",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Commissioner v. Kowalski, 434 U.S. 77 (1977) — https://supreme.justia.com/cases/federal/us/434/77/\n[cite: 1]\nInternal Revenue Code of 1954, 26 U.S.C. § 61(a) and § 119   \nTreas. Reg. § 1.119-1(c)(2) (1977)   \nRev. Rul. 71-131, 1971-1 C.B. 28",
+      "original_excerpt": "From Commissioner v. Kowalski, 434 U.S. 77, 84, 90 (1977):\n\"The payments are not subject to exclusion from gross income under § 119, since § 119, by its terms, covers meals furnished by the employer and not cash reimbursements for meals... 'Section 119 applies only to meals or lodging furnished in kind.' S. Rep. No. 1622, 83d Cong., 2d Sess., 190 (1954). See also Treas. Reg. § 1.119-1 (c) (2), 26 CFR § 1.119-1 (1977).\"",
+      "disposition": "SYLLABUS_OPINION_BLEND_CORRECTION_REQUIRED",
+      "attribution": "Reporter syllabus blended with majority quoting Senate report",
+      "fidelity": "Opening 'The payments are not subject ... since ...' is syllabus wording on 77–78, not literal majority wording at 84. In-kind Senate-report quotation and regulation citation appear in majority at 84, not 90 as suggested by combined pinpoint.",
+      "pinpoint": "Syllabus 77–78; majority 84, preserved lines 282–295.",
+      "scope_note": "Core §119 proposition supported. Separate syllabus attribution, majority text, and nested Senate-report quotation; do not imply independently verified Rev. Rul. 71-131 text.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-434-77.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-016",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Miranda v. Arizona, 384 U.S. 436 (1966) — https://supreme.justia.com/cases/federal/us/384/436/",
+      "original_excerpt": "From Miranda v. Arizona, 384 U.S. 436, 444 (1966):\n\"Prior to any questioning, the person must be warned that he has a right to remain silent, that any statement he does make may be used as evidence against him, and that he has a right to the presence of an attorney, either retained or appointed. The defendant may waive effectuation of these rights, provided the waiver is made voluntarily, knowingly and intelligently.\"\nFrom Miranda v. Arizona, 384 U.S. 436, 469, 471, 473 (1966):\n\"The warning of the right to remain silent must be accompanied by the explanation that anything said can and will be used against the individual in court... [A]n individual held for interrogation must be clearly informed that he has the right to consult with a lawyer and to have the lawyer with him during interrogation... [I]t is necessary to warn him not only that he has the right to consult with an attorney, but also that if he is indigent a lawyer will be appointed to represent him.\"",
+      "disposition": "QUOTATION_OMISSION_CORRECTION_REQUIRED",
+      "attribution": "Miranda majority",
+      "fidelity": "Page-444 warning/waiver text and 469/473 warning language correspond. Page-471 counsel clause stops before 'under the system for protecting the privilege we delineate today' without marking that omission; original starts 'Accordingly we hold that an individual'.",
+      "pinpoint": "384 U.S. 444, 469, 471, 473; page-471 lines 1445–1451.",
+      "scope_note": "Custodial interrogation; preserve alternative fully effective safeguards and voluntary, knowing, intelligent waiver conditions.",
+      "previous_record_verification": "semantic_followup_01 omission independently confirmed; no later correction record located.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-384-436.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-017",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Miranda v. Arizona, 384 U.S. 436 (1966) — https://supreme.justia.com/cases/federal/us/384/436/\nMathis v. United States, 391 U.S. 1 (1968) — https://supreme.justia.com/cases/federal/us/391/1/\n[cite: 1, 3]\nOrozco v. Texas, 394 U.S. 324 (1969) — https://supreme.justia.com/cases/federal/us/394/324/\n[cite: 2, 4]",
+      "original_excerpt": "From Miranda v. Arizona, 384 U.S. 436, 444, 467–473 (1966):\n\"Prior to any questioning, the person must be warned that he has a right to remain silent, that any statement he does make may be used as evidence against him, and that he has a right to the presence of an attorney, either retained or appointed. The defendant may waive effectuation of these rights, provided the waiver is made voluntarily, knowingly and intelligently.\"\nFrom Mathis v. United States, 391 U.S. 1, 4–5 (1968):\nHolding that Miranda warnings are an absolute prerequisite whenever an individual is in custody and subjected to interrogation, even during routine tax investigations or where the custody stems from an unrelated offense.   \nFrom Orozco v. Texas, 394 U.S. 324, 326–327 (1969):\nReaffirming that Miranda warnings are mandatory whenever a person is in custody or otherwise deprived of their freedom of action in any significant way, including questioning occurring outside the police station.",
+      "disposition": "SUPPORTED_CORE_PARAPHRASE_SCOPE_QUALIFICATION",
+      "attribution": "Miranda, Mathis and Orozco majority opinions",
+      "fidelity": "Miranda quote corresponds. Mathis rejects tax-investigation/unrelated-custody exceptions on these facts; Orozco applies warnings to custodial bedroom questioning. 'Absolute prerequisite whenever' is broader than a case-specific paraphrase.",
+      "pinpoint": "Miranda 444, 467–473; Mathis 4–5; Orozco 326–327.",
+      "scope_note": "Qualify categorical language with custodial interrogation and Miranda's recognition of fully effective alternatives; not a rule for every interview.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-384-436.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-391-1.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-394-324.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-018",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Miranda v. Arizona, 384 U.S. 436 (1966) — https://supreme.justia.com/cases/federal/us/384/436/",
+      "original_excerpt": "From Miranda v. Arizona, 384 U.S. 436, 444 (1966):\n\"Prior to any questioning, the person must be warned that he has a right to remain silent, that any statement he does make may be used as evidence against him, and that he has a right to the presence of an attorney, either retained or appointed. The defendant may waive effectuation of these rights, provided the waiver is made voluntarily, knowingly and intelligently.\"\nFrom Miranda v. Arizona, 384 U.S. 436, 467–473 (1966):\nThe Court set forth the four mandatory procedural safeguards: (1) the individual must be informed of the right to remain silent; (2) the warning must be accompanied by the explanation that anything said can and will be used against the individual in court; (3) the person must be clearly informed of the right to consult with a lawyer and have counsel present during interrogation; and (4) the person must be warned that if indigent, a lawyer will be appointed prior to any questioning.",
+      "disposition": "SUPPORTED_QUOTATION_AND_BOUNDED_PARAPHRASE",
+      "attribution": "Miranda majority",
+      "fidelity": "Warning/waiver quote corresponds; four warnings summarized faithfully for the system delineated in opinion.",
+      "pinpoint": "384 U.S. 444, 467–473.",
+      "scope_note": "'Mandatory' should be read within custodial interrogation and absent fully effective alternatives, not as invalidating the expressly recognized alternatives.",
+      "previous_record_verification": "Batch-1 grouped Miranda concern does not affect this item: it paraphrases the counsel warning rather than quoting the truncated page-471 clause.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-384-436.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-019",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Miranda v. Arizona, 384 U.S. 436 (1966) — https://supreme.justia.com/cases/federal/us/384/436/",
+      "original_excerpt": "From Miranda v. Arizona, 384 U.S. 436, 444 (1966):\n\"Prior to any questioning, the person must be warned that he has a right to remain silent, that any statement he does make may be used as evidence against him, and that he has a right to the presence of an attorney, either retained or appointed. The defendant may waive effectuation of these rights, provided the waiver is made voluntarily, knowingly and intelligently.\"\nFrom Miranda v. Arizona, 384 U.S. 436, 469, 471, 473 (1966):\n\"The warning of the right to remain silent must be accompanied by the explanation that anything said can and will be used against the individual in court... [A]n individual held for interrogation must be clearly informed that he has the right to consult with a lawyer and to have the lawyer with him during interrogation... [I]t is necessary to warn him not only that he has the right to consult with an attorney, but also that if he is indigent a lawyer will be appointed to represent him.\"",
+      "disposition": "QUOTATION_OMISSION_CORRECTION_REQUIRED",
+      "attribution": "Miranda majority",
+      "fidelity": "Page-444 warning/waiver text and 469/473 warning language correspond. Page-471 counsel clause stops before 'under the system for protecting the privilege we delineate today' without marking that omission; original starts 'Accordingly we hold that an individual'.",
+      "pinpoint": "384 U.S. 444, 469, 471, 473; page-471 lines 1445–1451.",
+      "scope_note": "Custodial interrogation; preserve alternative fully effective safeguards and voluntary, knowing, intelligent waiver conditions.",
+      "previous_record_verification": "semantic_followup_01 omission independently confirmed; no later correction record located.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-384-436.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-020",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "The Thompson, 70 U.S. (3 Wall.) 155 (1865) — https://www.govinfo.gov/content/pkg/USREPORTS-70/pdf/USREPORTS-70-155.pdf\n[cite: 1]\nOfficial Reference: https://supreme.justia.com/cases/federal/us/70/155/\n[cite: 2]",
+      "original_excerpt": "From The Thompson, 70 U.S. (3 Wall.) 155 (1865), Reporter Heading:\n\"THE THOMPSON. APPEAL FROM THE DISTRICT COURT OF THE UNITED STATES FOR THE SOUTHERN DISTRICT OF NEW YORK.\"",
+      "disposition": "REPORTER_HEADING_UNSUPPORTED_AS_LITERAL_DATE_UNRESOLVED",
+      "attribution": "Purported reporter heading / bibliographic metadata",
+      "fidelity": "Preserved page 155 begins with adjacent-case tail and The Thompson case statement; submitted all-caps APPEAL heading is not present as a literal reporter passage. Case narrative supports New York adjudication and appeal, not that exact heading.",
+      "pinpoint": "70 U.S. 155 and case statement 158; local file begins with neighboring-case text.",
+      "scope_note": "Treat origin as paraphrased metadata. LOC primary catalog labels 1866 while source term heading says Dec. 1865; exact decision date/year requires reconciliation, not guessing.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-70-155.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-021",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "De Jonge v. Oregon, 299 U.S. 353 (1937) — https://supreme.justia.com/cases/federal/us/299/353/\nWest Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943) — https://supreme.justia.com/cases/federal/us/319/624/\nShelton v. Tucker, 364 U.S. 479 (1960) — https://supreme.justia.com/cases/federal/us/364/479/\nEdwards v. South Carolina, 372 U.S. 229 (1963) — https://supreme.justia.com/cases/federal/us/372/229/\nTinker v. Des Moines Independent Community School District, 393 U.S. 503 (1969) — https://supreme.justia.com/cases/federal/us/393/503/",
+      "original_excerpt": "From De Jonge v. Oregon, 299 U.S. 353, 364–365 (1937):\n\"The right of peaceable assembly is a right cognate to those of free speech and free press and is equally fundamental... The holding of meetings for peaceable political action cannot be proscribed.\"\nFrom Tinker v. Des Moines Independent Community School District, 393 U.S. 503, 506, 513 (1969):\n\"It can hardly be argued that either students or teachers shed their constitutional rights to freedom of speech or expression at the schoolhouse gate... conduct by the student, in class or out of it, which for any reason—whether it stems from time, place, or type of behavior—materially disrupts classwork or involves substantial disorder or invasion of the rights of others is, of course, not immunized by the constitutional guarantee of freedom of speech.\"",
+      "disposition": "VERIFIED_ELIDED_QUOTATIONS",
+      "attribution": "De Jonge and Tinker majority opinions",
+      "fidelity": "Both quoted components correspond with marked internal ellipses; De Jonge second component remains on 365.",
+      "pinpoint": "De Jonge 364–365; Tinker 506, 513.",
+      "scope_note": "Peaceable lawful political assembly and school speech subject to disruption/disorder/rights-of-others limits. Listed Barnette/Shelton/Edwards are not independently authenticated by these Column N quotes.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-299-353.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-319-624.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-364-479.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-372-229.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-393-503.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-022",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Felsenheld v. United States, 186 U.S. 126 (1902) — https://supreme.justia.com/cases/federal/us/186/126/\n[cite: 1, 6, 7]\nAct of July 24, 1897 (Dingley Act), ch. 11, § 10, 30 Stat. 151, 206",
+      "original_excerpt": "From Felsenheld v. United States, 186 U.S. 126, 134 (1902):\n\"It is within the power of Congress to prescribe that a package of any article which it subjects to a tax, and upon which it requires the affixing of a stamp, shall contain only the article which is subject to the tax.\"   \nFrom Felsenheld v. United States, 186 U.S. 126, 132–133 (1902):\nHolding that under its taxing power, Congress has the authority to protect the administration and integrity of excise taxes by excluding all foreign objects, coupons, or promotional items from stamped packages of tobacco, regardless of whether the coupon itself is of negligible weight or value.",
+      "disposition": "SUPPORTED_QUOTATION_WITH_MINOR_DELIMITATION_AND_SCOPE",
+      "attribution": "Felsenheld majority",
+      "fidelity": "Core quoted clause is in majority at 134 following 'We are of opinion that it ...'; capitalized standalone 'It' should be bracketed [I]t if strict transcription is intended. Paraphrase supports minute size/weight, not an express value exception.",
+      "pinpoint": "186 U.S. 132–134, quoted clause at preserved lines 328–332.",
+      "scope_note": "Reasonable excise packaging regulation, not unlimited congressional power. Replace 'negligible ... value' with source's size/weight formulation.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-186-126.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-023",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Felsenheld v. United States, 186 U.S. 126 (1902) — https://supreme.justia.com/cases/federal/us/186/126/\n[cite: 1, 2]\nAct of July 24, 1897 (Dingley Act), ch. 11, § 10, 30 Stat. 151, 206",
+      "original_excerpt": "From Felsenheld v. United States, 186 U.S. 126, 134 (1902):\n\"It is within the power of Congress to prescribe that a package of any article which it subjects to a tax, and upon which it requires the affixing of a stamp, shall contain only the article which is subject to the tax.\"   \n\nFrom Felsenheld v. United States, 186 U.S. 126, 131–133 (1902):\nHolding that under the federal excise taxing power, Congress has full authority to protect the administration and integrity of excise taxation by prohibiting manufacturers from packing or attaching any foreign objects, promotional coupons, tickets, or premium certificates inside stamped packages of tobacco.",
+      "disposition": "SUPPORTED_QUOTATION_WITH_SCOPE_QUALIFICATION",
+      "attribution": "Felsenheld majority",
+      "fidelity": "Quoted clause corresponds with initial-capitalization delimitation noted for 022. Statutory prohibition of packing/attaching/connecting articles or things and coupon application are supported.",
+      "pinpoint": "186 U.S. 131–134.",
+      "scope_note": "'Full authority' must retain reasonable-regulation qualification; statute excepts specified items (e.g. labels/wrappers), so do not summarize as every object without exceptions.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-186-126.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-024",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Felsenheld v. United States, 186 U.S. 126 (1902) — https://supreme.justia.com/cases/federal/us/186/126/\n[cite: 1, 5]\n\nAct of July 24, 1897 (Dingley Act), ch. 11, § 10, 30 Stat. 151, 206",
+      "original_excerpt": "From Felsenheld v. United States, 186 U.S. 126, 134 (1902):\n\"It is within the power of Congress to prescribe that a package of any article which it subjects to a tax, and upon which it requires the affixing of a stamp, shall contain only the article which is subject to the tax.\"   \n\nFrom Felsenheld v. United States, 186 U.S. 126, 132–133 (1902):\nHolding that under its excise taxing power, Congress has the authority to protect the administration and integrity of excise taxes by excluding all foreign objects, coupons, or promotional items from stamped packages of tobacco, regardless of whether the coupon itself is of negligible weight or value.",
+      "disposition": "SUPPORTED_QUOTATION_WITH_MINOR_DELIMITATION_AND_SCOPE",
+      "attribution": "Felsenheld majority",
+      "fidelity": "Core quoted clause is in majority at 134 following 'We are of opinion that it ...'; capitalized standalone 'It' should be bracketed [I]t if strict transcription is intended. Paraphrase supports minute size/weight, not an express value exception.",
+      "pinpoint": "186 U.S. 132–134, quoted clause at preserved lines 328–332.",
+      "scope_note": "Reasonable excise packaging regulation, not unlimited congressional power. Replace 'negligible ... value' with source's size/weight formulation.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-186-126.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-025",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Felsenheld v. United States, 186 U.S. 126 (1902) — https://supreme.justia.com/cases/federal/us/186/126/\n[cite: 1, 2]\n\nAct of July 24, 1897 (Dingley Act), ch. 11, § 10, 30 Stat. 151, 206",
+      "original_excerpt": "From Felsenheld v. United States, 186 U.S. 126, 134 (1902):\n\"It is within the power of Congress to prescribe that a package of any article which it subjects to a tax, and upon which it requires the affixing of a stamp, shall contain only the article which is subject to the tax.\"   \n\nFrom Felsenheld v. United States, 186 U.S. 126, 131–133 (1902):\nHolding that under the federal excise taxing power, Congress has the authority to protect the administration and integrity of excise taxation by prohibiting manufacturers from packing or attaching foreign articles, promotional coupons, tickets, or premium certificates inside stamped packages of tobacco.",
+      "disposition": "SUPPORTED_QUOTATION_WITH_SCOPE_QUALIFICATION",
+      "attribution": "Felsenheld majority",
+      "fidelity": "Quoted clause corresponds with initial-capitalization delimitation noted for 022. Statutory prohibition of packing/attaching/connecting articles or things and coupon application are supported.",
+      "pinpoint": "186 U.S. 131–134.",
+      "scope_note": "'Full authority' must retain reasonable-regulation qualification; statute excepts specified items (e.g. labels/wrappers), so do not summarize as every object without exceptions.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-186-126.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-026",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "United States v. Jackalow, 66 U.S. (1 Black) 484 (1862) — https://supreme.justia.com/cases/federal/us/66/484/",
+      "original_excerpt": "From United States v. Jackalow, 66 U.S. (1 Black) 484, 487–488 (1862):\n\"The boundary of a State, when a question of fact, is to be ascertained by the jury; and whether a particular place is within the boundary of a State is not a question of law for the court, but a question of fact for the jury... The special verdict is defective in that it does not find whether the place was within the limits of Connecticut, or New York, or out of the jurisdiction of any State. For this reason a new trial must be granted.\"",
+      "disposition": "ORIGINAL_NONVERBATIM_PRIOR_REPAIR_VERIFIED",
+      "attribution": "Jackalow opinion of Justice Nelson",
+      "fidelity": "Ledger's quoted summary is not verbatim and oversimplifies court/jury distinction. Repaired N27–N30 quote actual boundary-construction/evidence-application distinction and defective-verdict/new-trial disposition.",
+      "pinpoint": "66 U.S. 487–488; adjacent Knight's Administrator text begins after Jackalow's disposition and is excluded.",
+      "scope_note": "Court construes boundary description; jury applies evidence. No opinion resolving precise NY/CT boundary here.",
+      "previous_record_verification": "Both replacement passages checked in preserved text; actual N27–N30 read from item030_repair_01 workbook XML, hash 7bab322326f927addc5c630fceb74e77a3c773545b642f82f990c8316f895ec8. Records preserved.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-66-484.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-027",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "United States v. Jackalow, 66 U.S. (1 Black) 484 (1862) — https://supreme.justia.com/cases/federal/us/66/484/",
+      "original_excerpt": "From United States v. Jackalow, 66 U.S. (1 Black) 484, 487–488 (1862):\n\"The boundary of a State, when a question of fact, is to be ascertained by the jury; and whether a particular place is within the boundary of a State is not a question of law for the court, but a question of fact for the jury... The special verdict is defective in that it does not find whether the place was within the limits of Connecticut, or New York, or out of the jurisdiction of any State. For this reason a new trial must be granted.\"",
+      "disposition": "ORIGINAL_NONVERBATIM_PRIOR_REPAIR_VERIFIED",
+      "attribution": "Jackalow opinion of Justice Nelson",
+      "fidelity": "Ledger's quoted summary is not verbatim and oversimplifies court/jury distinction. Repaired N27–N30 quote actual boundary-construction/evidence-application distinction and defective-verdict/new-trial disposition.",
+      "pinpoint": "66 U.S. 487–488; adjacent Knight's Administrator text begins after Jackalow's disposition and is excluded.",
+      "scope_note": "Court construes boundary description; jury applies evidence. No opinion resolving precise NY/CT boundary here.",
+      "previous_record_verification": "Both replacement passages checked in preserved text; actual N27–N30 read from item030_repair_01 workbook XML, hash 7bab322326f927addc5c630fceb74e77a3c773545b642f82f990c8316f895ec8. Records preserved.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-66-484.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-028",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "United States v. Jackalow, 66 U.S. (1 Black) 484 (1862) — https://supreme.justia.com/cases/federal/us/66/484/\nUnited States v. Bevans, 16 U.S. (3 Wheat.) 336 (1818) — https://supreme.justia.com/cases/federal/us/16/336/\nUnited States v. Furlong (referred to as United States v. Pirates), 18 U.S. (5 Wheat.) 184 (1820) — https://supreme.justia.com/cases/federal/us/18/184/",
+      "original_excerpt": "From United States v. Jackalow, 66 U.S. (1 Black) 484, 487–488 (1862):\n\"The boundary of a State, when a question of fact, is to be ascertained by the jury; and whether a particular place is within the boundary of a State is not a question of law for the court, but a question of fact for the jury... The special verdict is defective in that it does not find whether the place was within the limits of Connecticut, or New York, or out of the jurisdiction of any State. For this reason a new trial must be granted.\"",
+      "disposition": "ORIGINAL_NONVERBATIM_PRIOR_REPAIR_VERIFIED",
+      "attribution": "Jackalow opinion of Justice Nelson",
+      "fidelity": "Ledger's quoted summary is not verbatim and oversimplifies court/jury distinction. Repaired N27–N30 quote actual boundary-construction/evidence-application distinction and defective-verdict/new-trial disposition.",
+      "pinpoint": "66 U.S. 487–488; adjacent Knight's Administrator text begins after Jackalow's disposition and is excluded.",
+      "scope_note": "Court construes boundary description; jury applies evidence. No opinion resolving precise NY/CT boundary here.",
+      "previous_record_verification": "Both replacement passages checked in preserved text; actual N27–N30 read from item030_repair_01 workbook XML, hash 7bab322326f927addc5c630fceb74e77a3c773545b642f82f990c8316f895ec8. Records preserved.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-66-484.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-16-336.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-18-184.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-029",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "United States v. Jackalow, 66 U.S. (1 Black) 484 (1862) — https://supreme.justia.com/cases/federal/us/66/484/",
+      "original_excerpt": "From United States v. Jackalow, 66 U.S. (1 Black) 484, 487–488 (1862):\n\"The boundary of a State, when a question of fact, is to be ascertained by the jury; and whether a particular place is within the boundary of a State is not a question of law for the court, but a question of fact for the jury... The special verdict is defective in that it does not find whether the place was within the limits of Connecticut, or New York, or out of the jurisdiction of any State. For this reason a new trial must be granted.\"",
+      "disposition": "ORIGINAL_NONVERBATIM_PRIOR_REPAIR_VERIFIED",
+      "attribution": "Jackalow opinion of Justice Nelson",
+      "fidelity": "Ledger's quoted summary is not verbatim and oversimplifies court/jury distinction. Repaired N27–N30 quote actual boundary-construction/evidence-application distinction and defective-verdict/new-trial disposition.",
+      "pinpoint": "66 U.S. 487–488; adjacent Knight's Administrator text begins after Jackalow's disposition and is excluded.",
+      "scope_note": "Court construes boundary description; jury applies evidence. No opinion resolving precise NY/CT boundary here.",
+      "previous_record_verification": "Both replacement passages checked in preserved text; actual N27–N30 read from item030_repair_01 workbook XML, hash 7bab322326f927addc5c630fceb74e77a3c773545b642f82f990c8316f895ec8. Records preserved.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-66-484.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-030",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "The Daniel Ball, 77 U.S. (10 Wall.) 557 (1870) — https://supreme.justia.com/cases/federal/us/77/557/\n[cite: 1]\nThe Montello, 87 U.S. (20 Wall.) 430 (1874) — https://supreme.justia.com/cases/federal/us/87/430/\n[cite: 3]",
+      "original_excerpt": "From The Daniel Ball, 77 U.S. (10 Wall.) 557, 563 (1870):\n\"Those rivers must be regarded as public navigable rivers in law which are navigable in fact. And they are navigable in fact when they are used, or are susceptible of being used, in their ordinary condition, as highways for...sourcewith other States or foreign countries in the customary modes in which such commerce is conducted by water.\"",
+      "disposition": "ORIGINAL_CORRUPTION_PRIOR_REPAIR_VERIFIED",
+      "attribution": "Daniel Ball majority",
+      "fidelity": "Ledger has literal corruption '...sourcewith'. Repaired N31 restores full page-563 paragraph and corresponds after line-break joining.",
+      "pinpoint": "77 U.S. at 563, preserved lines 276–289.",
+      "scope_note": "Retains separate navigable-in-fact and federal interstate/foreign-highway requirements.",
+      "previous_record_verification": "Actual repaired N31 checked read-only in ZIP/XML; hash matches verification.json: 7bab322326f927addc5c630fceb74e77a3c773545b642f82f990c8316f895ec8.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-77-557.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-87-430.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-031",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "The Daniel Ball, 77 U.S. (10 Wall.) 557 (1870) — https://supreme.justia.com/cases/federal/us/77/557/\n[cite: 1]\nThe Montello, 78 U.S. (11 Wall.) 411 (1871) — https://supreme.justia.com/cases/federal/us/78/411/\nThe Montello, 87 U.S. (20 Wall.) 430 (1874) — https://supreme.justia.com/cases/federal/us/87/430/\n[cite: 2]",
+      "original_excerpt": "From The Daniel Ball, 77 U.S. (10 Wall.) 557, 563 (1870):\n\"Those rivers must be regarded as public navigable rivers in law which are navigable in fact. And they are navigable in fact when they are used, or are susceptible of being used, in their ordinary condition, as highways for commerce, over which trade and travel are or may be conducted in the customary modes of trade and travel on water. And they constitute navigable waters of the United States within the meaning of the acts of Congress, in contradistinction from the navigable waters of the States, when they form in their ordinary condition by themselves, or by uniting with other waters, a continued highway over which commerce is or may be carried on with other States or foreign countries...\"   \nFrom The Montello, 78 U.S. (11 Wall.) 411, 415 (1871):\nThe Court held that although it takes judicial notice of general geography, navigability in fact is an evidentiary question of fact that must be alleged and proved: \"If we take judicial notice of geography... still it is not in the power of the court, but on the other hand, of the libellants, to allege and prove that Fox River is a navigable water of the United States...\"",
+      "disposition": "UNSUPPORTED_MONTELLO_QUOTATION_ATTRIBUTION",
+      "attribution": "Daniel Ball genuine elided quote; Montello purported quote absent",
+      "fidelity": "Daniel Ball portion corresponds with explicit final ellipsis. Entire short 1871 Montello opinion supports uncertain geography and remand, but not supplied 'If we take judicial notice ... libellants' sentence.",
+      "pinpoint": "Daniel Ball 563; Montello 78 U.S. 414–416, rather than purported sentence at 415.",
+      "scope_note": "Replace Montello subsection with labelled case-specific paraphrase; do not invent categorical prohibition of judicial notice. Adjacent Moncure v. Zunts starts after disposition and is excluded.",
+      "previous_record_verification": "semantic_followup_02 attribution error independently reconfirmed; proposed correction not present in repair records.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-77-557.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-78-411.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-87-430.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-032",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "The Daniel Ball, 77 U.S. (10 Wall.) 557 (1870) — https://supreme.justia.com/cases/federal/us/77/557/\n[cite: 1]\nThe Montello, 87 U.S. (20 Wall.) 430 (1874) — https://supreme.justia.com/cases/federal/us/87/430/\n[cite: 2]",
+      "original_excerpt": "From The Daniel Ball, 77 U.S. (10 Wall.) 557, 563 (1870):\n\"Those rivers must be regarded as public navigable rivers in law which are navigable in fact. And they are navigable in fact when they are used, or are susceptible of being used, in their ordinary condition, as highways for commerce, over which trade and travel are or may be conducted in the customary modes of trade and travel on water. And they constitute navigable waters of the United States within the meaning of the acts of Congress, in contradistinction from the navigable waters of the States, when they form in their ordinary condition by themselves, or by uniting with other waters, a continued highway over which commerce is or may be carried on with other States or foreign countries in the customary modes in which such commerce is conducted by water.\"   \nFrom The Montello, 87 U.S. (20 Wall.) 430, 439, 441–442 (1874):\nThe Supreme Court reaffirmed the two-part test of The Daniel Ball, holding that navigability in fact for useful commerce satisfies the first inquiry, but the stream must also form an unbroken water link connecting to interstate or foreign commerce to constitute navigable waters of the United States.",
+      "disposition": "SUPPORTED_CORE_MONTELLO_SCOPE_CORRECTION_REQUIRED",
+      "attribution": "Daniel Ball and 1874 Montello majority opinions",
+      "fidelity": "Daniel Ball quote corresponds. Montello's continued interstate highway supports core paraphrase; 'unbroken water link' risks imposing vessel continuity that the opinion rejects.",
+      "pinpoint": "Daniel Ball 563; Montello 439–443, including Durham boats/portages 440–441.",
+      "scope_note": "Use continued highway by itself or connection with other waters; no requirement for unobstructed steam/sail vessel passage.",
+      "previous_record_verification": "semantic_followup_02 scope finding independently reconfirmed; no repair applied.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-77-557.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-87-430.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-033",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "The Daniel Ball, 77 U.S. (10 Wall.) 557 (1870) — https://supreme.justia.com/cases/federal/us/77/557/\n[cite: 1]\nThe Montello, 87 U.S. (20 Wall.) 430 (1874) — https://supreme.justia.com/cases/federal/us/87/430/\n[cite: 2]",
+      "original_excerpt": "From The Daniel Ball, 77 U.S. (10 Wall.) 557, 563 (1870):\n\"Those rivers must be regarded as public navigable rivers in law which are navigable in fact. And they are navigable in fact when they are used, or are susceptible of being used, in their ordinary condition, as highways for commerce, over which trade and travel are or may be conducted in the customary modes of trade and travel on water. And they constitute navigable waters of the United States within the meaning of the acts of Congress, in contradistinction from the navigable waters of the States, when they form in their ordinary condition by themselves, or by uniting with other waters, a continued highway over which commerce is or may be carried on with other States or foreign countries in the customary modes in which such commerce is conducted by water.\"",
+      "disposition": "VERIFIED_QUOTATION",
+      "attribution": "Daniel Ball majority",
+      "fidelity": "Full paragraph corresponds after joining OCR line-break hyphenation.",
+      "pinpoint": "77 U.S. at 563.",
+      "scope_note": "Federal navigability under acts of Congress distinct from navigability in fact; additional Montello listing outside exact Column N passage.",
+      "previous_record_verification": "semantic_followup_02 confirmation independently rechecked.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-77-557.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-87-430.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-034",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Hornbuckle v. Toombs, 85 U.S. (18 Wall.) 648 (1874) — https://www.govinfo.gov/app/details/USREPORTS-85/USREPORTS-85-648/context\nOfficial Reference / Constitution Annotated: https://constitution.congress.gov/resources/decisions-overruled/\nJustia Repository: https://supreme.justia.com/cases/federal/us/85/648/",
+      "original_excerpt": "From Hornbuckle v. Toombs, 85 U.S. (18 Wall.) 648 (1874), Official Reporter Record:\nThe case was argued in the spring of 1874 and officially decided on May 4, 1874, during the Supreme Court's October Term, 1873.\nOfficial U.S. Government Citation Record:\n\"Hornbuckle v. Toombs, 85 U.S. (18 Wall.) 648 (1874)... Decided: May 4, 1874.\"",
+      "disposition": "METADATA_CORE_VERIFIED_QUOTATION_LABEL_AND_ARGUMENT_DATE_UNRESOLVED",
+      "attribution": "Government catalog metadata, not opinion quotation",
+      "fidelity": "GovInfo supplies May 4, 1874 decision date and 1873 court term. Submitted combined quoted citation/Decided line is a constructed metadata summary, not one literal record sentence. Preserved reporter does not establish 'argued in spring 1874'.",
+      "pinpoint": "GovInfo Content Details Decision Date and Court Term; reporter 85 U.S. 648 term heading.",
+      "scope_note": "Label metadata as paraphrase, remove unsupported argument-season assertion until documented. Do not read term heading as decision year.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-85-648.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-035",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "A. L. A. Schechter Poultry Corp. v. United States, 295 U.S. 495 (1935) — https://supreme.justia.com/cases/federal/us/295/495/\n[cite: 1]\nHumphrey's Executor v. United States, 295 U.S. 602 (1935) — https://supreme.justia.com/cases/federal/us/295/602/\nSt. Joseph Stock Yards Co. v. United States, 298 U.S. 38 (1936) — https://supreme.justia.com/cases/federal/us/298/38/\nMorgan v. United States (Morgan I), 298 U.S. 468 (1936) — https://supreme.justia.com/cases/federal/us/298/468/\n[cite: 2]\nMorgan v. United States (Morgan II), 304 U.S. 1 (1938) — https://supreme.justia.com/cases/federal/us/304/1/\n[cite: 2, 3]",
+      "original_excerpt": "From A. L. A. Schechter Poultry Corp. v. United States, 295 U.S. 495, 537 (1935):\n\"Congress cannot delegate legislative power to the President to exercise an unfettered discretion to make whatever laws he thinks may be needed or advisable for the rehabilitation and expansion of trade or industry.\"   \nFrom Morgan v. United States, 304 U.S. 1, 14–15, 18 (1938):\n\"In administrative proceedings of a quasi-judicial character, the liberty and property of the citizen must be protected by the rudimentary requirements of fair play. These demand 'a fair and open hearing'... The right to a 'full hearing' embraces not only the right to present evidence, but also a reasonable opportunity to know the claims of the opposing party and to meet them.\"",
+      "disposition": "MORGAN_QUOTATION_BLEND_AND_PINPOINT_CORRECTION_REQUIRED",
+      "attribution": "Schechter majority; Morgan syllabus/opinion blend",
+      "fidelity": "Schechter sentence crosses 537–538, so add 538. Morgan opening is a syllabus-style reformulation ('must' versus opinion 'shall' and omitted framing). Its second quote says right to 'full hearing'; majority at 18 says right to 'a hearing', while syllabus uses 'full hearing'.",
+      "pinpoint": "Schechter 537–538; Morgan syllabus 1–2, majority 14–15 and 18.",
+      "scope_note": "Core administrative fair-hearing proposition supported. Label paraphrase or transcribe majority faithfully; scope quasi-judicial administrative proceeding under statute, not all administrative acts.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-295-495.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-295-602.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-298-38.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-298-468.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-304-1.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-036",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Lochner v. New York, 198 U.S. 45 (1905) — https://supreme.justia.com/cases/federal/us/198/45/\nUnited States v. Carolene Products Co., 304 U.S. 144 (1938) — https://supreme.justia.com/cases/federal/us/304/144/\nWest Coast Hotel Co. v. Parrish, 300 U.S. 379 (1937) — https://supreme.justia.com/cases/federal/us/300/379/",
+      "original_excerpt": "From Lochner v. New York, 198 U.S. 45, 57–58, 64 (1905):\n\"There is no reasonable ground for interfering with the liberty of person or the right of free contract, by determining the hours of labor, in the occupation of a baker... It is a question of which of two powers or rights shall prevail — the power of the State to legislate or the right of the individual to liberty of person and freedom of contract... The act is not, within any fair meaning of the term, a health law, but is an illegal interference with the rights of individuals, both employers and employes, to make contracts regarding labor upon such terms as they may think best.\"",
+      "disposition": "SUPPORTED_CORE_QUOTATION_END_OMISSION_REQUIRED",
+      "attribution": "Lochner majority",
+      "fidelity": "57-page labor-law and competing-power clauses correspond. 64-page final clause truncates continuing source sentence at 'best' without ellipsis.",
+      "pinpoint": "198 U.S. 57–58, 64.",
+      "scope_note": "Historical bakery-hours holding; mark terminal omission, do not generalize liberty of contract beyond opinion's police-power discussion.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-198-45.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-304-144.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-300-379.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-037",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Baker v. Carr, 369 U.S. 186 (1962) — https://supreme.justia.com/cases/federal/us/369/186/\nReynolds v. Sims, 377 U.S. 533 (1964) — https://supreme.justia.com/cases/federal/us/377/533/\nGray v. Sanders, 372 U.S. 368 (1963) — https://supreme.justia.com/cases/federal/us/372/368/",
+      "original_excerpt": "Baker v. Carr, 369 U.S. 186, 197–198, 237 (1962):\nThe Supreme Court limited its decision to procedural and threshold jurisdictional questions, ruling that voter challenges to legislative apportionment under the Fourteenth Amendment Equal Protection Clause are justiciable in federal court and do not present a non-justiciable political question. Justice Brennan made clear that the Court was not reaching the merits or defining the substantive constitutional standards of equality required for legislative apportionment.\nReynolds v. Sims, 377 U.S. 533, 556, 568 (1964):\nThe Supreme Court recognized that Baker v. Carr had resolved only the threshold issue of justiciability without determining the substantive rules governing apportionment schemes. Reynolds then established the substantive constitutional rule requiring that seats across both chambers of a bicameral state legislature be apportioned on a population basis to afford voters substantially equal representation.",
+      "disposition": "SUPPORTED_PARAPHRASE",
+      "attribution": "Baker and Reynolds majority opinions",
+      "fidelity": "Threshold/justiciability versus population-based substantive standard accurately summarized; Baker does not decide ultimate apportionment merits.",
+      "pinpoint": "Baker 197–198, 209, 237; Reynolds 556, 568.",
+      "scope_note": "Reynolds requires substantial population equality, not mathematical exactness. Gray merely listed and not independently established by Column N.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-369-186.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-377-533.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-372-368.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    },
+    {
+      "id": "AUTH1-ITEM-038",
+      "author": 1,
+      "column": "N",
+      "original_source_field": "Terry v. Ohio, 392 U.S. 1 (1968) — https://supreme.justia.com/cases/federal/us/392/1/\n[cite: 2]\nMapp v. Ohio, 367 U.S. 643 (1961) — https://supreme.justia.com/cases/federal/us/367/643/\n[cite: 2, 3, 4]\nWeeks v. United States, 232 U.S. 383 (1914) — https://supreme.justia.com/cases/federal/us/232/383/\n[cite: 4]",
+      "original_excerpt": "From Terry v. Ohio, 392 U.S. 1, 30–31 (1968):\n\"We merely hold today that where a police officer observes unusual conduct which leads him reasonably to conclude in light of his experience that criminal activity may be afoot and that the persons with whom he is dealing may be armed and presently dangerous... he is entitled for the protection of himself and others in the area to conduct a carefully limited search of the outer clothing of such persons in an attempt to discover weapons... Such a search is a reasonable search under the Fourth Amendment, and any weapons seized may properly be introduced in evidence against the person from whom they were taken.\"   \nFrom Mapp v. Ohio, 367 U.S. 643, 655 (1961):\n\"We hold that all evidence obtained by searches and seizures in violation of the Constitution is, by that same authority, inadmissible in a state court.\"",
+      "disposition": "VERIFIED_ELIDED_QUOTATIONS_WITH_SCOPE_LIMIT",
+      "attribution": "Terry and Mapp majority opinions",
+      "fidelity": "Terry and Mapp quoted wording corresponds; Terry interior ellipsis removes self-identification/inquiries and failure to dispel reasonable fear conditions.",
+      "pinpoint": "Terry 30–31; Mapp 655.",
+      "scope_note": "Retain armed-and-dangerous grounds and carefully limited weapons frisk. Ellipsis should not be used to remove those intervening conditions in a substantive account; not authority for general evidence searches.",
+      "previous_record_verification": "No previous in-scope closure relied on.",
+      "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+      "evidence_paths": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-392-1.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-367-643.txt",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-232-383.txt"
+      ],
+      "ratings_certified": false,
+      "workbook_changes_made": false
+    }
+  ],
+  "identities": [
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\ledger.json",
+      "sha256": "7022be9e93a90482862e8a38639c88b8bb91eca3e67cf978de3449888a7a5817"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\source_manifest.json",
+      "sha256": "d16a262ce510a38a015e584fb5b38200c32fbee244c9e1462798b88a9b034293"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\semantic_followup_01\\REVIEW.md",
+      "sha256": "0bf6de838bbd2923de30ec774d3b97699fb553ce4bd12e79f45b41c3732fbadb"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\semantic_followup_02\\REVIEW.md",
+      "sha256": "5975f3f3320cc93964ec6c6e9f68074301433924ec81803e00600e7d8b3156c0"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\approved_source_wording_changes.json",
+      "sha256": "62c6f8aa0aff03ae088d4a0bf3ef8ad3ee00073dabdc2673e45c3292a4c5cb22"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\item030_repair_01\\approved_source_wording_changes.json",
+      "sha256": "d9dd017fb76c0cfe48fbff6ce69b364e992a1c5a486466ff3431d83392ced8bc"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\item030_repair_01\\verification.json",
+      "sha256": "a03744eda8b96d343a73606f5a4d70a279aef4028fde091435afe4ccaf29a9db"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\item030_repair_01\\ASSESSMENT_AUTHOR_1_SOURCE_CORRECTED.xlsx",
+      "sha256": "7bab322326f927addc5c630fceb74e77a3c773545b642f82f990c8316f895ec8"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-110-516.txt",
+      "sha256": "f443600d9e8183745f67a03fafee9d7e933c16bccde118a9743cc8bfe3c5b379"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-122-478.txt",
+      "sha256": "3368ccb224ccff1301d107654be2fb54ac6fd00702f2e8385c80b2695720d4aa"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-16-336.txt",
+      "sha256": "6e0123448effd15ef765da492f94d5c36345f608db1287cc52b36a911ff4fe23"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-18-184.txt",
+      "sha256": "d8c4d8ce3f2b5aa3af7f8fdec603041a25af4f9c323afd7423843867110f65f5"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-186-126.txt",
+      "sha256": "22f6fbfacb71094454518464437549ce8e626ecf6331ca03cda326cfc89639c7"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-198-45.txt",
+      "sha256": "91ce1779f665242cbdaee5a969c37fa1c7d417089148cb2a48f14e8f7743e137"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-211-78.txt",
+      "sha256": "3c5601bd8b9c02157e20d639c8bf2c9a2b355e425f3028d8ca903ee3d49ba2a7"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-232-383.txt",
+      "sha256": "74381baa481e6a5cfc9ae1219c29509ffd98b09bac937d3d829c7d48528decb6"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-295-495.txt",
+      "sha256": "247b241d0e70444e9f592366d0e2205dd471d1e021a1a4629c58039702632703"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-295-602.txt",
+      "sha256": "d685b20881b8bc471c45687166702983c6943642b4b6a7363724e2c0df8ae7cd"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-298-38.txt",
+      "sha256": "b451153952bc09b2fefc2ee3f90bbe694a84b31da3b211ed813803093143f804"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-298-468.txt",
+      "sha256": "6645c0c4dbedba574f759c67de0ffb7e1cfe92b697dd316a4b89d4531cf12cec"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-299-353.txt",
+      "sha256": "05002b83f42bad1ea1d5f2fb6aebf280632382feaf82c62134d465c2742e70ba"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-300-379.txt",
+      "sha256": "ea0162c18571449a5cd5fcbaa81bb023c14c274d13ad1f7749f7c4fecc3e13ad"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-304-1.txt",
+      "sha256": "a4e458d1a458c49cb421e810488004dbafdb77d772d198025d8f19038c0eeb13"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-304-144.txt",
+      "sha256": "a04127985487b0976dbfc0a37be38c57f0ce0e090e095cd4a4f5198fdc1f217a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-319-624.txt",
+      "sha256": "e48b2b50a9d1761ae0565c9e2d713c62a3a16dd1e469b26eff50246d59a941f9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-338-25.txt",
+      "sha256": "ddf51f8b819cbd6f475b14aece7f074f0bd172a59790d423e3d96701c6898ae3"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-341-494.txt",
+      "sha256": "b90d9d67f3d5f1256af79d1b80a8f289d0f21355f2335a0a7b85b038349159d2"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-343-250.txt",
+      "sha256": "fd7775294db6d6ed30b2ca635c2ff1b918e1c05dd0b590cecf9ea6d84b174a6f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-354-298.txt",
+      "sha256": "d831775b517f8b3ddae5e71d899270d7896e91cc8943d9cd0b24d8db0dc9019f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-357-449.txt",
+      "sha256": "9272fe430367dde167b19b67dbef18d2381f34016c6c4c83d7f409268464b197"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-364-479.txt",
+      "sha256": "c70012ffb1a9fef7c67fe40499ec8383fd614a4b14e5199b064a1ddee4526621"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-367-643.txt",
+      "sha256": "65004543a7b835b608b1ad088865bc397b73f82003eb01ffe619f03c8c354cfc"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-369-186.txt",
+      "sha256": "40ac7912a75c92584d563f21675d979f9ee0ad34c884c477805ca78632cc5c80"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-372-229.txt",
+      "sha256": "a9bb856eaa68fb7cf45b30257cbba86923ac33520444ec2fe5e665430ca7e2ca"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-372-368.txt",
+      "sha256": "63d4f125d061b5f50078bf86c89a221708601f9a8fd76ea579bb9d132697f01f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-376-254.txt",
+      "sha256": "3061df9f86493e7cf43f39bf4c88f141a42a5b488b47336f307e4f2282a4ebcf"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-377-533.txt",
+      "sha256": "fec5597508ccb2907f267830cd8da62d2dd2934f9686829f06130e1c4b5ece57"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-384-436.txt",
+      "sha256": "ee4c3d9665146c03547bd449ab35e8bb864f54a151ceeeb4ff36bf8dadbbcc3c"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-391-1.txt",
+      "sha256": "d00b88e18a8c380c1dbb4d8b9fe6bfcf55d95018b24df95b5933b48b402ec4a5"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-392-1.txt",
+      "sha256": "ba5fd5c8a66210e09587c8812e4d2ee80b6b397c7ae187a138dd33b5c8687ba8"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-393-503.txt",
+      "sha256": "c8d99e6c6dafd52e4a8de3d6682363be29814f4c7e12cc61867952c01053ac2a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-394-324.txt",
+      "sha256": "7016a42124965874e1524e4cb14a6553c0dd3e6e85870bb525051a279900f83f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-431-720.txt",
+      "sha256": "4650c547503b4c54e2c70398b092c0e306e89297c92c042a50eef8f350c2e0fa"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-434-77.txt",
+      "sha256": "404ad2fee2328a61074878b5689b71c8863c8ffc941cdb280bca50d0234bff48"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-442-330.txt",
+      "sha256": "63a316767ffe504ace6bb82d3fe7190d1ecc93520c0319e9391528e0914313b9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-66-484.txt",
+      "sha256": "c3f08d1da53686c80d87a21e7823ec9e17e23a8dabb6608f1d8a67c257e3c0a7"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-70-155.txt",
+      "sha256": "1fcc4379d0165fdf2ff369cfff74549a01c96e6726507dbf7fcaef0285f37b53"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-77-557.txt",
+      "sha256": "0133da81fbe0c3875a8b48f347d5a49429446d1c072823349ae1527ab2ba22ec"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-78-411.txt",
+      "sha256": "4303b6ab8234c5844ccd8bd1120eff2a822eeee47a1ca8c3b4eabb5fe854ea9b"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-85-648.txt",
+      "sha256": "a6f1e0a86899219fcea9629345c867dcfc42fcdfb7384ac404bbfd7f7342c0cc"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\source_verification_20261011_01\\sources\\USREPORTS-87-430.txt",
+      "sha256": "6acd96bde005c4ea972beb998523845998e8eee31587334caf20d5cb1ba0906e"
+    }
+  ],
+  "limitations": [
+    "No complete candidate-answer or rating review.",
+    "Text extractions have OCR defects and neighboring-case content; opinion boundaries explicitly checked where implicated.",
+    "No new PDF page-by-page visual review. Primary-web supplemental sources checked for municipal and metadata issues; unavailable historical versions retained unresolved.",
+    "Hashes establish identity, not correctness. Prior repair cells inspected read-only without rerunning mutation scripts."
+  ]
+}

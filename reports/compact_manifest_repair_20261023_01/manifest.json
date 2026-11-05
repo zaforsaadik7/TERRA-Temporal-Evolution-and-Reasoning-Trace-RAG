@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-23",
+  "scope": "USER_APPROVED_CODE_AND_SYNTHETIC_TESTS_ONLY",
+  "new_files": [
+    "scripts/matched_baseline/offline_smoke_manifests.py",
+    "tests/test_offline_smoke_manifests_synthetic.py"
+  ],
+  "files": [
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_file_pins.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\offline_smoke_file_pins.py.final",
+      "size_bytes": 4741,
+      "sha256": "ad3a429bac6f51ec049b0e51637d7d4dc31d183cf2fe0446f29a437c825accaf"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_manifests.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\offline_smoke_manifests.py.final",
+      "size_bytes": 5422,
+      "sha256": "05d7f6a2a8d7ae3287dfb27117b0f1645fef38fd6959da0738b0b826f393cfe7"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_production.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\offline_smoke_production.py.final",
+      "size_bytes": 17882,
+      "sha256": "12178377327d4288a10007a3ca0dd09ef85f416ee9ef29aed803f73b75484a9a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_approval.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\offline_smoke_approval.py.final",
+      "size_bytes": 3406,
+      "sha256": "4246be3a271bc400fd704c7372ab5a3e4946691b69114084ec7b897931a037d9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_config.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\offline_smoke_config.py.final",
+      "size_bytes": 5771,
+      "sha256": "e25055bacb9b91ca18db6b9dcffc9b782a8c95316a3da982cb32f3912bac0606"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_smoke_approval_synthetic.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\test_offline_smoke_approval_synthetic.py.final",
+      "size_bytes": 3375,
+      "sha256": "54edbc0974c972fc2a738d06a12014d8ec661cb7391eb457ddb261407cddfa3e"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_smoke_config_synthetic.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\test_offline_smoke_config_synthetic.py.final",
+      "size_bytes": 3550,
+      "sha256": "386b447e55253f4ce0286317e0b2150bcc1ff7c4f12f84365d85ebe3598d087c"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_smoke_file_pins_synthetic.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\test_offline_smoke_file_pins_synthetic.py.final",
+      "size_bytes": 5681,
+      "sha256": "160b835a7fa88218ccbcbe8a30c5834367b6bda16ba9c7a2701dffd6adcba332"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_smoke_manifests_synthetic.py",
+      "checkpoint": "F:\\TERRA -Copy\\reports\\compact_manifest_repair_20261023_01\\test_offline_smoke_manifests_synthetic.py.final",
+      "size_bytes": 9616,
+      "sha256": "c9c2c43973dce80952b667a4e5f6b13fa96bfd75b0047eeef520f4d67fcab7d1"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-06T02:20:14.328445",
+  "category_b_status": "OFFICIALLY_CLOSED_AND_CERTIFIED",
+  "total_queries_completed": 100,
+  "total_evaluations_completed": 500,
+  "b041_patched_and_verified": true,
+  "summary": {
+    "1_Direct_LLM": {
+      "n_queries": 100,
+      "refusals": 0,
+      "refusal_rate": 0.0,
+      "overall_faithfulness": 0.75,
+      "answer_only_faithfulness": 0.75,
+      "relevance": 0.9925
+    },
+    "2_Flat_Vector_RAG": {
+      "n_queries": 100,
+      "refusals": 13,
+      "refusal_rate": 13.0,
+      "overall_faithfulness": 0.3675,
+      "answer_only_faithfulness": 0.273,
+      "relevance": 0.5725
+    },
+    "3_GraphRAG_Adapted": {
+      "n_queries": 100,
+      "refusals": 1,
+      "refusal_rate": 1.0,
+      "overall_faithfulness": 0.37,
+      "answer_only_faithfulness": 0.3636,
+      "relevance": 0.6075
+    },
+    "4_HippoRAG_Adapted": {
+      "n_queries": 100,
+      "refusals": 2,
+      "refusal_rate": 2.0,
+      "overall_faithfulness": 0.4925,
+      "answer_only_faithfulness": 0.4821,
+      "relevance": 0.7825
+    },
+    "5_Full_TERRA": {
+      "n_queries": 100,
+      "refusals": 0,
+      "refusal_rate": 0.0,
+      "overall_faithfulness": 0.695,
+      "answer_only_faithfulness": 0.695,
+      "relevance": 0.9225
+    }
+  }
+}

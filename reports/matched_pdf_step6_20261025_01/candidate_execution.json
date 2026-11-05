@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "TERRA_SUPPLEMENT.tex"
+    ],
+    "cwd": "F:\\TERRA -Copy\\reports\\matched_pdf_step6_20261025_01\\candidate",
+    "exit": 0,
+    "seconds": 2.3359176000012667
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "main.tex"
+    ],
+    "cwd": "F:\\TERRA -Copy\\reports\\matched_pdf_step6_20261025_01\\candidate",
+    "exit": 0,
+    "seconds": 5.735993399997824
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "TERRA_SUPPLEMENT.tex"
+    ],
+    "cwd": "F:\\TERRA -Copy\\reports\\matched_pdf_step6_20261025_01\\candidate",
+    "exit": 0,
+    "seconds": 1.2238516999968851
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "main.tex"
+    ],
+    "cwd": "F:\\TERRA -Copy\\reports\\matched_pdf_step6_20261025_01\\candidate",
+    "exit": 0,
+    "seconds": 3.8750448999999207
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "F:\\TERRA -Copy\\venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "tests.test_paired_study_candidate_synthetic",
+    "tests.test_paired_study_supervision_synthetic",
+    "tests.test_paired_local_runtime_synthetic",
+    "tests.test_paired_study_runtime_synthetic",
+    "tests.test_paired_dependency_bridge_synthetic",
+    "tests.test_paired_prompt_workflow_synthetic",
+    "tests.test_provider_accounting_synthetic",
+    "tests.test_provider_run_control_synthetic",
+    "tests.test_static_matched_study_synthetic",
+    "tests.test_matched_baseline_synthetic"
+  ],
+  "exit_code": 0,
+  "elapsed_wall_seconds": 23.563,
+  "output_sha256": "535a5dd49e8fff469c1989caa1219ab7adefbeb8b28a2a4645a60c16c9cd25d9",
+  "scope": "named synthetic suites only; no real assets, credentials or provider calls"
+}

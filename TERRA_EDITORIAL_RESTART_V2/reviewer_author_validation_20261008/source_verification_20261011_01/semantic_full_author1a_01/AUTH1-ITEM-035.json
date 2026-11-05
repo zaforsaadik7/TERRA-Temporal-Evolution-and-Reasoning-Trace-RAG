@@ -1,0 +1,23 @@
+{
+  "id": "AUTH1-ITEM-035",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "A. L. A. Schechter Poultry Corp. v. United States, 295 U.S. 495 (1935) — https://supreme.justia.com/cases/federal/us/295/495/\n[cite: 1]\nHumphrey's Executor v. United States, 295 U.S. 602 (1935) — https://supreme.justia.com/cases/federal/us/295/602/\nSt. Joseph Stock Yards Co. v. United States, 298 U.S. 38 (1936) — https://supreme.justia.com/cases/federal/us/298/38/\nMorgan v. United States (Morgan I), 298 U.S. 468 (1936) — https://supreme.justia.com/cases/federal/us/298/468/\n[cite: 2]\nMorgan v. United States (Morgan II), 304 U.S. 1 (1938) — https://supreme.justia.com/cases/federal/us/304/1/\n[cite: 2, 3]",
+  "original_excerpt": "From A. L. A. Schechter Poultry Corp. v. United States, 295 U.S. 495, 537 (1935):\n\"Congress cannot delegate legislative power to the President to exercise an unfettered discretion to make whatever laws he thinks may be needed or advisable for the rehabilitation and expansion of trade or industry.\"   \nFrom Morgan v. United States, 304 U.S. 1, 14–15, 18 (1938):\n\"In administrative proceedings of a quasi-judicial character, the liberty and property of the citizen must be protected by the rudimentary requirements of fair play. These demand 'a fair and open hearing'... The right to a 'full hearing' embraces not only the right to present evidence, but also a reasonable opportunity to know the claims of the opposing party and to meet them.\"",
+  "disposition": "MORGAN_QUOTATION_BLEND_AND_PINPOINT_CORRECTION_REQUIRED",
+  "attribution": "Schechter majority; Morgan syllabus/opinion blend",
+  "fidelity": "Schechter sentence crosses 537–538, so add 538. Morgan opening is a syllabus-style reformulation ('must' versus opinion 'shall' and omitted framing). Its second quote says right to 'full hearing'; majority at 18 says right to 'a hearing', while syllabus uses 'full hearing'.",
+  "pinpoint": "Schechter 537–538; Morgan syllabus 1–2, majority 14–15 and 18.",
+  "scope_note": "Core administrative fair-hearing proposition supported. Label paraphrase or transcribe majority faithfully; scope quasi-judicial administrative proceeding under statute, not all administrative acts.",
+  "previous_record_verification": "No previous in-scope closure relied on.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-295-495.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-295-602.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-298-38.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-298-468.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-304-1.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

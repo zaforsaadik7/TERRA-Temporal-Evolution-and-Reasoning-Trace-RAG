@@ -1,0 +1,213 @@
+\documentclass[tikz, border=15pt]{standalone}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc, backgrounds, fit, shadows}
+
+% Define vibrant, modern color scheme suitable for LinkedIn graphics
+\definecolor{Phase1Header}{RGB}{26, 82, 118}      % Deep Slate Blue
+\definecolor{Phase2Header}{RGB}{17, 122, 101}     % Emerald Teal
+\definecolor{CardBg}{RGB}{255, 255, 255}         % Clean White Card
+\definecolor{BorderColor}{RGB}{208, 211, 212}     % Light Gray Border
+\definecolor{TextDark}{RGB}{44, 62, 80}            % Dark Slate Text
+\definecolor{AccentGold}{RGB}{214, 137, 16}       % Amber Gold
+\definecolor{AccentRed}{RGB}{192, 57, 43}          % Coral Red (Refusal)
+\definecolor{AccentGreen}{RGB}{39, 174, 96}       % Green (Verified Answer)
+\definecolor{BoxBgPhase1}{RGB}{240, 244, 248}      % Soft Blue-Gray Container
+\definecolor{BoxBgPhase2}{RGB}{234, 242, 241}      % Soft Mint Container
+
+\begin{document}
+
+\begin{tikzpicture}[
+    font=\sffamily,
+    >=Stealth,
+    node distance=1.2cm and 1.5cm,
+    % Styles for diagram components
+    card/.style={
+        rectangle,
+        draw=BorderColor,
+        fill=CardBg,
+        thick,
+        rounded corners=8pt,
+        align=center,
+        inner sep=10pt,
+        drop shadow={opacity=0.15, shadow xshift=2pt, shadow yshift=-2pt}
+    },
+    processCard/.style={
+        card,
+        minimum width=3.4cm,
+        minimum height=1.3cm,
+        text=TextDark
+    },
+    decisionCard/.style={
+        diamond,
+        draw=AccentGold,
+        fill=CardBg,
+        thick,
+        aspect=2,
+        align=center,
+        inner sep=4pt,
+        drop shadow={opacity=0.12, shadow xshift=2pt, shadow yshift=-2pt},
+        text=TextDark
+    },
+    pillCard/.style={
+        rectangle,
+        draw=#1,
+        fill=#1!10,
+        thick,
+        rounded corners=15pt,
+        align=center,
+        inner sep=8pt,
+        text=TextDark
+    },
+    line/.style={
+        draw=TextDark!80,
+        ->,
+        very thick,
+        line cap=round
+    },
+    dashedLine/.style={
+        draw=TextDark!60,
+        ->,
+        thick,
+        dashed
+    }
+]
+
+    % =========================================================================
+    % PHASE 1: KNOWLEDGE BASE BUILDING (OFFLINE PREPARATION)
+    % =========================================================================
+
+    % Nodes for Phase 1
+    \node (rawCases) [processCard] {
+        \textbf{\large 📜 Historical Legal Cases}\\
+        \small Court opinions, precedents\\
+        \small \& landmark rulings (1857--1971)
+    };
+
+    \node (traceExtractor) [processCard, right=of rawCases] {
+        \textbf{\large 🧠 Logic Trace Extractor}\\
+        \small Extracts step-by-step\\
+        \small "Thinking Traces" instead of raw text
+    };
+
+    \node (graphBuilder) [processCard, right=of traceExtractor] {
+        \textbf{\large 🕸️ Temporal Knowledge Graph}\\
+        \small Links cases through time with relationships:\\
+        \small \textit{\textbf{PRECEDES}} $\rightarrow$ \textit{\textbf{OVERRULES}}
+    };
+
+    % Connections Phase 1
+    \path [line] (rawCases) -- (traceExtractor);
+    \path [line] (traceExtractor) -- (graphBuilder);
+
+    % Container for Phase 1
+    \begin{scope}[on background layer]
+        \node (fitPhase1) [fit=(rawCases) (traceExtractor) (graphBuilder), 
+               fill=BoxBgPhase1, draw=Phase1Header!40, thick, rounded corners=12pt, inner sep=16pt] {};
+        \node [anchor=north west, color=Phase1Header, font=\sffamily\bfseries\Large] 
+               at (fitPhase1.north west) {\hspace{8pt}PHASE 1: Temporal Knowledge Graph Construction (Offline Preparation)};
+    \end{scope}
+
+    % =========================================================================
+    % PHASE 2: SMART QUERY & REASONING ENGINE (ONLINE QUERY RESPONSE)
+    % =========================================================================
+
+    % User Query Input
+    \node (userQuery) [processCard, below=2.2cm of rawCases] {
+        \textbf{\large 👤 User Legal Query}\\
+        \small e.g., \textit{"How did racial segregation}\\
+        \small \textit{precedents change over time?"}
+    };
+
+    % Router / Traffic Cop
+    \node (trafficCop) [processCard, right=of userQuery] {
+        \textbf{\large 🚦 Traffic Cop Router}\\
+        \small Analyzes query complexity\\
+        \small \& checks domain boundary
+    };
+
+    % Fast Path for Simple Queries
+    \node (fastPath) [pillCard=AccentGreen, below=1.2cm of trafficCop] {
+        \textbf{\large ⚡ Fast Direct Path}\\
+        \small Simple factual lookup (e.g., case year)
+    };
+
+    % Out of Domain Firewall
+    \node (firewall) [pillCard=AccentRed, above=1.2cm of trafficCop] {
+        \textbf{\large 🛡️ Out-of-Domain Firewall}\\
+        \small Blocks unrelated/trick questions\\
+        \small Prevents AI hallucinations!
+    };
+
+    % Multi-Hop Graph Traversal
+    \node (graphTraverse) [processCard, right=of trafficCop] {
+        \textbf{\large ⏳ Multi-Hop Timeline Search}\\
+        \small Traverses precedent chain across\\
+        \small decades up to 2 steps deep
+    };
+
+    % Smart Grader (Verification)
+    \node (smartGrader) [decisionCard, right=of graphTraverse] {
+        \textbf{\large 🔍 Smart Grader}\\
+        \small Does retrieved context\\
+        \small logically answer query?
+    };
+
+    % Dynamic Expansion Loop
+    \node (expandRadius) [processCard, above=1.2cm of smartGrader] {
+        \textbf{\large 🔄 Dynamic Radius Expansion}\\
+        \small Doubles search depth to find\\
+        \small missing historical context
+    };
+
+    % Verified Grounded Answer
+    \node (finalAnswer) [card, draw=AccentGreen, fill=AccentGreen!8, right=1.8cm of smartGrader] {
+        \textbf{\large ✅ Grounded Answer \& Visual Trajectory}\\
+        \small Provides complete, verified answer + clickable\\
+        \small historical timeline showing how rulings evolved
+    };
+
+    % Refusal Block
+    \node (refusalBlock) [pillCard=AccentRed, below=1.2cm of smartGrader] {
+        \textbf{\large 🚫 Strict Safety Refusal}\\
+        \small Safely declines to answer if\\
+        \small facts cannot be verified
+    };
+
+    % Connections Phase 2
+    \path [line] (userQuery) -- (trafficCop);
+
+    % Router Split
+    \path [line] (trafficCop) -- node[left, font=\small\bfseries, color=AccentRed] {Out-of-Domain} (firewall);
+    \path [line] (trafficCop) -- node[right, font=\small\bfseries, color=AccentGreen] {Simple Lookup} (fastPath);
+    \path [line] (trafficCop) -- node[above, font=\small\bfseries] {Complex Doctrinal} (graphTraverse);
+
+    % Link from Graph Knowledge Base (Phase 1) to Graph Search (Phase 2)
+    \path [dashedLine] (graphBuilder) -- node[right, font=\small\itshape, color=Phase1Header] {Searches Graph} (graphTraverse);
+
+    \path [line] (graphTraverse) -- (smartGrader);
+
+    % Smart Grader Paths
+    \path [line] (smartGrader) -- node[above, font=\small\bfseries, color=AccentGreen] {Yes (Verified)} (finalAnswer);
+    \path [line] (smartGrader) -- node[left, font=\small\bfseries, color=AccentGold] {No (Incomplete)} (expandRadius);
+    \path [line] (expandRadius) -| (graphTraverse);
+    \path [line] (smartGrader) -- node[right, font=\small\bfseries, color=AccentRed] {Failed 2x} (refusalBlock);
+
+    \path [line] (fastPath) |- (finalAnswer);
+
+    % Container for Phase 2
+    \begin{scope}[on background layer]
+        \node (fitPhase2) [fit=(userQuery) (firewall) (fastPath) (graphTraverse) (smartGrader) (expandRadius) (finalAnswer) (refusalBlock), 
+               fill=BoxBgPhase2, draw=Phase2Header!40, thick, rounded corners=12pt, inner sep=16pt] {};
+        \node [anchor=north west, color=Phase2Header, font=\sffamily\bfseries\Large] 
+               at (fitPhase2.north west) {\hspace{8pt}PHASE 2: Intelligent Reasoning Engine \& Safety Firewall (Online Inference)};
+    \end{scope}
+
+    % =========================================================================
+    % DIAGRAM MAIN TITLE
+    % =========================================================================
+    \node (mainTitle) [above=0.8cm of fitPhase1, font=\sffamily\bfseries\Huge, color=Phase1Header] {
+        TERRA Architecture: How Temporal Evolution \& Reasoning-Trace RAG Works
+    };
+
+\end{tikzpicture}
+
+\end{document}

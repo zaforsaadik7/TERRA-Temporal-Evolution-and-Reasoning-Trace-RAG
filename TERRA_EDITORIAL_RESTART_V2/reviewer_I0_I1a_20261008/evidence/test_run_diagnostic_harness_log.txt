@@ -1,0 +1,882 @@
+test_01_rejects_empty_offline_condition_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_01_rejects_empty_offline_condition_leaves_lock_unused)
+Pre-flight gate: rejects empty condition without creating lock. ... [PRE-LAUNCH GATE FAILURE] Enforced offline condition cannot be empty.
+ok
+test_02_rejects_unconfirmed_condition_literal_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_02_rejects_unconfirmed_condition_literal_leaves_lock_unused)
+Pre-flight gate: rejects unconfirmed environment literal without creating lock. ... [PRE-LAUNCH GATE FAILURE] Refusing execution: 'UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT' is not in approved offline execution conditions set: ['TEST_OFFLINE_FIREWALL'].
+ok
+test_03_rejects_unapproved_free_text_condition_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_03_rejects_unapproved_free_text_condition_leaves_lock_unused)
+Pre-flight gate: rejects unapproved free text like 'ok' without creating lock. ... [PRE-LAUNCH GATE FAILURE] Refusing execution: 'ok' is not in approved offline execution conditions set: ['TEST_OFFLINE_FIREWALL'].
+ok
+test_04_pinned_interpreter_hash_mismatch_aborts_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_04_pinned_interpreter_hash_mismatch_aborts_leaves_lock_unused)
+Pre-flight gate: bad interpreter SHA-256 aborts without creating lock. ... [PRE-LAUNCH GATE FAILURE] Runtime environment pin verification failed:
+  - Python executable SHA256 mismatch: 3adbbf2af609e206e3ca18cd55fc7c4b52f5c8bb8218dd99fd5a9e50d7a193cd != 0000000000000000000000000000000000000000000000000000000000000000
+ok
+test_05_pinned_diagnostic_script_hash_mismatch_aborts_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_05_pinned_diagnostic_script_hash_mismatch_aborts_leaves_lock_unused)
+Pre-flight gate: bad diagnostic script SHA-256 aborts without creating lock. ... [PRE-LAUNCH GATE FAILURE] Runtime environment pin verification failed:
+  - Diagnostic script SHA256 mismatch: 342168666222009c5dadebbb228863dbba4a27929b6f0a37ded3a2eb2b6cb374 != ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ok
+test_06_missing_store_file_aborts_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_06_missing_store_file_aborts_leaves_lock_unused)
+Pre-flight parity gate: missing store file aborts without creating lock. ... [PRE-LAUNCH GATE FAILURE] Store and asset parity verification against snapshot failed:
+  - Store file count drift: current store has 10 files, snapshot manifest has 11
+  - Original store missing file recorded in snapshot: chroma.sqlite3
+ok
+test_07_mutated_store_file_aborts_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_07_mutated_store_file_aborts_leaves_lock_unused)
+Pre-flight parity gate: mutated store file aborts without creating lock. ... [PRE-LAUNCH GATE FAILURE] Store and asset parity verification against snapshot failed:
+  - Store file chroma.sqlite3 size mismatch: 18 != 36
+  - Store file chroma.sqlite3 SHA256 mismatch: 251855a288f62c612aff06cb3f40a1bc02904f51d7d6df25982e158298d26b15 != 2efccb488c6074f7ee3a3c694b0d664b2fcd30862fd2ad9d185900c328d9096c
+ok
+test_08_extra_store_file_aborts_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_08_extra_store_file_aborts_leaves_lock_unused)
+Pre-flight parity gate: unrecorded extraneous store file aborts without creating lock. ... [PRE-LAUNCH GATE FAILURE] Store and asset parity verification against snapshot failed:
+  - Store file count drift: current store has 12 files, snapshot manifest has 11
+  - Original store contains unexpected extraneous file: extra_unrecorded.bin
+ok
+test_09_mutated_preserved_snapshot_asset_copy_aborts_leaves_lock_unused (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_09_mutated_preserved_snapshot_asset_copy_aborts_leaves_lock_unused)
+Pre-flight parity gate: mutated preserved copy of benchmark in snapshot_dir aborts without creating lock. ... [PRE-LAUNCH GATE FAILURE] Store and asset parity verification against snapshot failed:
+  - Preserved snapshot asset copy terra_350_benchmark.json size mismatch: 22 != 44819
+  - Preserved snapshot asset copy terra_350_benchmark.json SHA256 mismatch against manifest: 7170b57bc118329004e374d0e849d05157072551b21b4004745716e00fe3639d != 8a258c552afba8d28ef28dda1bd714376440e345e1a0da4f7b66da22e8471d1a
+ok
+test_10_single_run_lock_collision_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_10_single_run_lock_collision_fails_closed)
+Single-run lock: fail closed if lock already exists when all gates pass. ... [PRE-LAUNCH GATE FAILURE] Single-run lock failed: Single-run lock already exists at C:\Users\zafor\AppData\Local\Temp\tmpzpfnzino\workspace\addendum_01\runs\.single_run_lock. Subsequent invocations are forbidden.
+ok
+test_11_single_run_lock_acquired_only_after_preflight_blocks_second_run (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_11_single_run_lock_acquired_only_after_preflight_blocks_second_run)
+Single-run lock: acquired only on committed execution, permanently blocking second run. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\run_1791426398_21668_ef13f38e\contemporary_distance_diagnostic_1791426398_21668_ef13f38e.json
+[PRE-LAUNCH GATE FAILURE] Single-run lock failed: Single-run lock already exists at C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\.single_run_lock. Subsequent invocations are forbidden.
+ok
+test_12_successful_run_with_production_shaped_report (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_12_successful_run_with_production_shaped_report)
+Lifecycle: fake child writes complete production-shaped report, exit code 0, all invariants pass. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\addendum_01\runs\run_1791426400_12428_c294404a\contemporary_distance_diagnostic_1791426400_12428_c294404a.json
+ok
+test_13_child_report_nested_mock_override_detected_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_13_child_report_nested_mock_override_detected_fails_closed)
+Report validation: nested is_mock_override=True detected and rejected. ... ================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpned522ls\workspace
+Declared Offline Condition: 
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpyllfglio\workspace
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp3ojq5ewm\workspace
+Declared Offline Condition: ok
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpur_jxnx2\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp6ypc1x2u\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpfh7rx3xh\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpymq80llp\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp58ehcyo1\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpf49lt4as\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpzpfnzino\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\harness_run_1791426398_20420_b93fa56c
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\harness_run_1791426398_20420_b93fa56c\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 0 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\harness_run_1791426398_20420_b93fa56c\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\harness_run_1791426398_20420_b93fa56c\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace\addendum_01\runs\.single_run_lock
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmppit8giuf\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\addendum_01\runs\harness_run_1791426400_20420_2eb40c5c
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\addendum_01\runs\harness_run_1791426400_20420_2eb40c5c\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 0 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\addendum_01\runs\harness_run_1791426400_20420_2eb40c5c\console_output.log[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\addendum_01\runs\run_1791426402_24472_cb7ea5d1\contemporary_distance_diagnostic_1791426402_24472_cb7ea5d1.json
+ok
+test_14_child_report_missing_nested_mock_field_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_14_child_report_missing_nested_mock_field_fails_closed)
+Report validation: missing is_mock_override in delegate detected and rejected. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\addendum_01\runs\run_1791426403_9376_1232e264\contemporary_distance_diagnostic_1791426403_9376_1232e264.json
+ok
+test_15_child_report_script_hash_mismatch_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_15_child_report_script_hash_mismatch_fails_closed)
+Report validation: child report script.sha256 mismatch detected and rejected. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\addendum_01\runs\run_1791426404_21676_e1590b90\contemporary_distance_diagnostic_1791426404_21676_e1590b90.json
+ok
+test_16_child_report_run_id_mismatch_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_16_child_report_run_id_mismatch_fails_closed)
+Report validation: child report run_id mismatch against directory detected. ... 
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\addendum_01\runs\harness_run_1791426400_20420_2eb40c5c\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp31yzarjd\workspace\addendum_01\runs\.single_run_lock
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\addendum_01\runs\harness_run_1791426402_20420_d80f6f75
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\addendum_01\runs\harness_run_1791426402_20420_d80f6f75\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\addendum_01\runs\harness_run_1791426402_20420_d80f6f75\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\addendum_01\runs\harness_run_1791426402_20420_d80f6f75\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpk71ue98j\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report 'is_mock_override' is True: mock embedding function detected
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\addendum_01\runs\harness_run_1791426403_20420_b097419f
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\addendum_01\runs\harness_run_1791426403_20420_b097419f\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\addendum_01\runs\harness_run_1791426403_20420_b097419f\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\addendum_01\runs\harness_run_1791426403_20420_b097419f\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpisrh9hbl\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report 'metadata.embedding_function_delegate' missing mandatory 'is_mock_override' field
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\addendum_01\runs\harness_run_1791426404_20420_9e821494
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\addendum_01\runs\harness_run_1791426404_20420_9e821494\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\addendum_01\runs\harness_run_1791426404_20420_9e821494\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\addendum_01\runs\harness_run_1791426404_20420_9e821494\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpnmwv8vnd\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report script SHA-256 mismatch: 0000000000000000000000000000000000000000000000000000000000000000 != f7581200e051b0c4cb7d966c97bb3d5e566fa3a59304b28e9fae58e5b2944dbd
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\addendum_01\runs\harness_run_1791426406_20420_d86a9327[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\addendum_01\runs\run_1791426406_19968_74a3e260\contemporary_distance_diagnostic_1791426406_19968_74a3e260.json
+ok
+test_17_child_report_missing_top_level_key_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_17_child_report_missing_top_level_key_fails_closed)
+Report validation: report missing required top-level production key fails closed. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\addendum_01\runs\run_1791426407_23028_42165ce0\contemporary_distance_diagnostic_1791426407_23028_42165ce0.json
+ok
+test_18_child_report_populated_errors_list_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_18_child_report_populated_errors_list_fails_closed)
+Report validation: report containing errors in errors list fails closed. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\addendum_01\runs\run_1791426408_6348_c909d00f\contemporary_distance_diagnostic_1791426408_6348_c909d00f.json
+ok
+test_19_child_report_missing_stage_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_19_child_report_missing_stage_fails_closed)
+Report validation: report missing required completed stage fails closed. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\addendum_01\runs\run_1791426409_17072_170ff80b\contemporary_distance_diagnostic_1791426409_17072_170ff80b.json
+ok
+test_20_child_report_offline_condition_mismatch_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_20_child_report_offline_condition_mismatch_fails_closed)
+Report validation: report offline condition not matching harness parameter fails closed. ... 
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\addendum_01\runs\harness_run_1791426406_20420_d86a9327\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\addendum_01\runs\harness_run_1791426406_20420_d86a9327\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\addendum_01\runs\harness_run_1791426406_20420_d86a9327\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpqxfow4ox\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report run_id mismatch: 'mismatched_1791426406_19968_74a3e260' != '1791426406_19968_74a3e260'
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\addendum_01\runs\harness_run_1791426407_20420_9a33362f
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\addendum_01\runs\harness_run_1791426407_20420_9a33362f\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\addendum_01\runs\harness_run_1791426407_20420_9a33362f\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\addendum_01\runs\harness_run_1791426407_20420_9a33362f\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpl9cye5ls\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report missing required production key: 'concordance'
+  - REPORT_VALIDATION_ERROR: Report 'concordance' is not a dictionary
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\addendum_01\runs\harness_run_1791426408_20420_c728e610
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\addendum_01\runs\harness_run_1791426408_20420_c728e610\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\addendum_01\runs\harness_run_1791426408_20420_c728e610\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\addendum_01\runs\harness_run_1791426408_20420_c728e610\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpbkqsytah\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report errors list is not empty (1 error(s) recorded): [{'error_type': 'ChildInternalError', 'error_message': 'Simulated error recorded'}]
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\addendum_01\runs\harness_run_1791426409_20420_8bbce532
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\addendum_01\runs\harness_run_1791426409_20420_8bbce532\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\addendum_01\runs\harness_run_1791426409_20420_8bbce532\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\addendum_01\runs\harness_run_1791426409_20420_8bbce532\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmptnqu5vj5\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report missing required stage completion: 'stage_10_metadata_finalized'
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\addendum_01\runs\run_1791426411_12148_5a7a62c2\contemporary_distance_diagnostic_1791426411_12148_5a7a62c2.json
+ok
+test_21_child_report_truncated_ledger_350_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_21_child_report_truncated_ledger_350_fails_closed)
+Report validation: report query_ledger_350 with length < 350 fails closed. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\addendum_01\runs\run_1791426412_23212_ebcabc9d\contemporary_distance_diagnostic_1791426412_23212_ebcabc9d.json
+ok
+test_22_child_report_duplicate_qid_ledger_350_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_22_child_report_duplicate_qid_ledger_350_fails_closed)
+Report validation: duplicate query_id in query_ledger_350 fails closed. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\addendum_01\runs\run_1791426413_17068_8bb0ef3a\contemporary_distance_diagnostic_1791426413_17068_8bb0ef3a.json
+ok
+test_23_child_report_nonfinite_distance_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_23_child_report_nonfinite_distance_fails_closed)
+Report validation: non-finite distance (NaN/Inf) in ledger fails closed. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\addendum_01\runs\run_1791426414_24404_a4844fa2\contemporary_distance_diagnostic_1791426414_24404_a4844fa2.json
+ok
+test_24_child_report_truncated_legacy_ledger_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_24_child_report_truncated_legacy_ledger_fails_closed)
+Report validation: report legacy_sample20_query_ledger with length < 40 fails closed. ... 
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\addendum_01\runs\harness_run_1791426411_20420_7151ceca
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\addendum_01\runs\harness_run_1791426411_20420_7151ceca\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\addendum_01\runs\harness_run_1791426411_20420_7151ceca\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\addendum_01\runs\harness_run_1791426411_20420_7151ceca\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp1q3qguv1\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report top-level 'enforced_offline_condition' mismatch: 'MISMATCHED_CONDITION' != 'TEST_OFFLINE_FIREWALL'
+  - REPORT_VALIDATION_ERROR: Report offline_execution_environment.enforced_offline_condition mismatch: 'MISMATCHED_CONDITION' != 'TEST_OFFLINE_FIREWALL'
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\addendum_01\runs\harness_run_1791426412_20420_d7a6aeb5
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\addendum_01\runs\harness_run_1791426412_20420_d7a6aeb5\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\addendum_01\runs\harness_run_1791426412_20420_d7a6aeb5\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\addendum_01\runs\harness_run_1791426412_20420_d7a6aeb5\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp18auni1q\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report 'query_ledger_350' length is 349, expected 350
+  - REPORT_VALIDATION_ERROR: Report 'query_ledger_350' Category D (Adversarial) count is 74, expected 75
+  - REPORT_VALIDATION_ERROR: Report 'query_ledger_350' query_id sequence does not match Benchmark 350 input file
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\addendum_01\runs\harness_run_1791426413_20420_9e9df0b9
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\addendum_01\runs\harness_run_1791426413_20420_9e9df0b9\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\addendum_01\runs\harness_run_1791426413_20420_9e9df0b9\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\addendum_01\runs\harness_run_1791426413_20420_9e9df0b9\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp5i1ti0ag\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report 'query_ledger_350' contains duplicate query_ids
+  - REPORT_VALIDATION_ERROR: Report 'query_ledger_350' query_id sequence does not match Benchmark 350 input file
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\addendum_01\runs\harness_run_1791426414_20420_770b4b70
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\addendum_01\runs\harness_run_1791426414_20420_770b4b70\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\addendum_01\runs\harness_run_1791426414_20420_770b4b70\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\addendum_01\runs\harness_run_1791426414_20420_770b4b70\execution_metadata.json[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\addendum_01\runs\run_1791426416_9844_459658ac\contemporary_distance_diagnostic_1791426416_9844_459658ac.json
+ok
+test_25_child_report_wrong_grid_thresholds_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_25_child_report_wrong_grid_thresholds_fails_closed)
+Report validation: calibration grid threshold keys mismatch fails closed. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\addendum_01\runs\run_1791426417_9860_2d16924d\contemporary_distance_diagnostic_1791426417_9860_2d16924d.json
+ok
+test_26_child_nonzero_exit_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_26_child_nonzero_exit_fails_closed)
+Lifecycle: fake child exit code 2 captured, wrapper returns 1. ... [FAKE CHILD] Simulated non-zero exit.
+ok
+test_27_child_anomaly_zero_and_multiple_reports_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_27_child_anomaly_zero_and_multiple_reports_fails_closed)
+Lifecycle anomalies: zero reports and multiple reports detected and rejected with isolated configs. ... ok
+test_28_child_stream_failure_terminates_child_cleanly (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_28_child_stream_failure_terminates_child_cleanly)
+Lifecycle safety: child stream failure terminates child cleanly and forces nonzero exit. ... ok
+test_29_post_run_store_mutation_caught_in_finally_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_29_post_run_store_mutation_caught_in_finally_fails_closed)
+Invariants: store file mutated during run detected in post-run finally re-hash. ... 
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpe_vooicc\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report 'query_ledger_350' item 'bench350_q001' distance_raw_squared is not a finite float: nan
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\addendum_01\runs\harness_run_1791426416_20420_38459d8c
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\addendum_01\runs\harness_run_1791426416_20420_38459d8c\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\addendum_01\runs\harness_run_1791426416_20420_38459d8c\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\addendum_01\runs\harness_run_1791426416_20420_38459d8c\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp9kie9491\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report 'legacy_sample20_query_ledger' length is 39, expected 40
+  - REPORT_VALIDATION_ERROR: Report 'legacy_sample20_query_ledger' sample_out_20 count is 19, expected 20
+  - REPORT_VALIDATION_ERROR: Report 'legacy_sample20_query_ledger' query_id sequence does not match Benchmark 175 sample cohorts
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\addendum_01\runs\harness_run_1791426417_20420_ae35ab68
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\addendum_01\runs\harness_run_1791426417_20420_ae35ab68\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\addendum_01\runs\harness_run_1791426417_20420_ae35ab68\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\addendum_01\runs\harness_run_1791426417_20420_ae35ab68\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpwiptk8f6\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - REPORT_VALIDATION_ERROR: Report calibration grid threshold keys mismatch: found ['0.50'], expected exactly 8 production thresholds ['0.90', '1.00', '1.10', '1.20', '1.25', '1.30', '1.35', '1.40']
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\addendum_01\runs\harness_run_1791426418_20420_5613a100
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\addendum_01\runs\harness_run_1791426418_20420_5613a100\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 2)
+Elapsed: 0.08s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\addendum_01\runs\harness_run_1791426418_20420_5613a100\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\addendum_01\runs\harness_run_1791426418_20420_5613a100\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp9wnbh777\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - Child process exited with non-zero exit code: 2
+  - ZERO_CHILD_RUN_DIRECTORIES_DISCOVERED
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\addendum_01\runs\run_1791426423_13944_7d4e93b0\contemporary_distance_diagnostic_1791426423_13944_7d4e93b0.json
+ok
+test_30_post_run_manifest_deletion_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_30_post_run_manifest_deletion_fails_closed)
+Invariants: snapshot manifest deleted post-run caught against in-memory frozen hash. ... 
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\addendum_01\runs\harness_run_1791426420_20420_18ac6fa9
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\addendum_01\runs\harness_run_1791426420_20420_18ac6fa9\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.08s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\addendum_01\runs\harness_run_1791426420_20420_18ac6fa9\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\addendum_01\runs\harness_run_1791426420_20420_18ac6fa9\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpg6e5wxrh\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - ZERO_REPORTS_IN_CHILD_DIRECTORY: run_1791426420_15788_5e9020ca
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\addendum_01\runs\harness_run_1791426421_20420_aef00f2f
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\addendum_01\runs\harness_run_1791426421_20420_aef00f2f\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.08s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\addendum_01\runs\harness_run_1791426421_20420_aef00f2f\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\addendum_01\runs\harness_run_1791426421_20420_aef00f2f\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpyfz73ksy\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - MULTIPLE_REPORTS_IN_CHILD_DIRECTORY: ['contemporary_distance_diagnostic_1791426421_24048_f9ef07ef.json', 'contemporary_distance_diagnostic_extra_1791426421_24048_f9ef07ef.json']
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\addendum_01\runs\harness_run_1791426422_20420_0d20b796
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\addendum_01\runs\harness_run_1791426422_20420_0d20b796\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 1)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\addendum_01\runs\harness_run_1791426422_20420_0d20b796\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\addendum_01\runs\harness_run_1791426422_20420_0d20b796\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp040a8v09\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - Console stream reading failed: Simulated console stream reading failure
+  - Child process exited with non-zero exit code: 1
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\addendum_01\runs\harness_run_1791426423_20420_d6f620dd
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\addendum_01\runs\harness_run_1791426423_20420_d6f620dd\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\addendum_01\runs\harness_run_1791426423_20420_d6f620dd\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\addendum_01\runs\harness_run_1791426423_20420_d6f620dd\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp2vcahdjw\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - Store file chroma.sqlite3 SHA256 mismatch post-run: 2058f20fe0108275754e36997a4bdcb5678474277b242c7c332e9f9b31ff77c1 != 2efccb488c6074f7ee3a3c694b0d664b2fcd30862fd2ad9d185900c328d9096c
+  - POST_RUN_INVARIANT_HASH_MISMATCH
+Original Asset Status: INVARIANT VIOLATION
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\addendum_01\runs\run_1791426425_21092_8cf88803\contemporary_distance_diagnostic_1791426425_21092_8cf88803.json
+ok
+test_31_post_run_manifest_mutation_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_31_post_run_manifest_mutation_fails_closed)
+Invariants: snapshot manifest drifted post-run caught against in-memory frozen hash. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\addendum_01\runs\run_1791426426_9740_d7bcd7bb\contemporary_distance_diagnostic_1791426426_9740_d7bcd7bb.json
+ok
+test_32_post_run_extra_store_file_caught_in_finally_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_32_post_run_extra_store_file_caught_in_finally_fails_closed)
+Invariants: extra store file added post-run caught by full post-inventory check. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\addendum_01\runs\run_1791426427_2640_34a452a5\contemporary_distance_diagnostic_1791426427_2640_34a452a5.json
+ok
+test_33_post_run_preserved_snapshot_asset_copy_mutation_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_33_post_run_preserved_snapshot_asset_copy_mutation_fails_closed)
+Invariants: preserved benchmark copy inside snapshot_dir mutated post-run detected in finally. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\addendum_01\runs\run_1791426428_1360_35aabd6d\contemporary_distance_diagnostic_1791426428_1360_35aabd6d.json
+ok
+test_34_evidence_write_failures_reliably_force_nonzero (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_34_evidence_write_failures_reliably_force_nonzero)
+Evidence safety: metadata/exit_code write failures force wrapper_exit_code = 1 with isolated configs. ... 
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\addendum_01\runs\harness_run_1791426425_20420_fd3df78d
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\addendum_01\runs\harness_run_1791426425_20420_fd3df78d\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\addendum_01\runs\harness_run_1791426425_20420_fd3df78d\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\addendum_01\runs\harness_run_1791426425_20420_fd3df78d\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp_nlfobp4\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - SNAPSHOT_MANIFEST_DELETED_POST_RUN
+  - POST_RUN_INVARIANT_HASH_MISMATCH
+Original Asset Status: INVARIANT VIOLATION
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\addendum_01\runs\harness_run_1791426426_20420_6dbdda33
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\addendum_01\runs\harness_run_1791426426_20420_6dbdda33\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\addendum_01\runs\harness_run_1791426426_20420_6dbdda33\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\addendum_01\runs\harness_run_1791426426_20420_6dbdda33\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp1hx6vq2h\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - SNAPSHOT_MANIFEST_MUTATED_POST_RUN: 903201b2fd0f90b99add090bf04bb3a515508958009227bb2c30d7d6d673c579 != 8d3f9ee0c7c4071fc23bbc81b38496416d0c16e49b03816fef3bd54f38df15e0
+  - POST_RUN_INVARIANT_HASH_MISMATCH
+Original Asset Status: INVARIANT VIOLATION
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\addendum_01\runs\harness_run_1791426427_20420_da686d9d
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\addendum_01\runs\harness_run_1791426427_20420_da686d9d\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\addendum_01\runs\harness_run_1791426427_20420_da686d9d\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\addendum_01\runs\harness_run_1791426427_20420_da686d9d\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmp_l6u90sn\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - Store file count drift post-run: 12 != 11
+  - Unexpected extra store file post-run: extra_unrecorded.bin
+  - POST_RUN_INVARIANT_HASH_MISMATCH
+Original Asset Status: INVARIANT VIOLATION
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\addendum_01\runs\harness_run_1791426428_20420_0c31f6b3
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\addendum_01\runs\harness_run_1791426428_20420_0c31f6b3\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\addendum_01\runs\harness_run_1791426428_20420_0c31f6b3\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\addendum_01\runs\harness_run_1791426428_20420_0c31f6b3\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmphg30778p\workspace\addendum_01\runs\.single_run_lock[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\addendum_01\runs\run_1791426430_19368_8a06cf8f\contemporary_distance_diagnostic_1791426430_19368_8a06cf8f.json
+CRITICAL: Primary metadata write failed: Simulated metadata write failure. Terminal record:
+{
+  "terminal_event": "METADATA_WRITE_FAILURE",
+  "wrapper_exit_code": 1,
+  "child_return_code": 0,
+  "failure_reasons": [
+    "Failed to write execution_metadata.json: Simulated metadata write failure"
+  ]
+}
+[FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\addendum_01\runs\run_1791426431_3044_dfe77e94\contemporary_distance_diagnostic_1791426431_3044_dfe77e94.json
+ok
+test_35_real_mocked_io_exception_during_post_run_inventory_fails_closed (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_35_real_mocked_io_exception_during_post_run_inventory_fails_closed)
+Exception safety: real mocked OSError during post-run store inventory is caught and forces nonzero exit. ... [FAKE CHILD] Serialized report to: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\addendum_01\runs\run_1791426432_21140_0005565b\contemporary_distance_diagnostic_1791426432_21140_0005565b.json
+ok
+test_36_production_constants_read_only_audit (scripts.test_run_diagnostic_harness.TestRunDiagnosticHarnessSynthetic.test_36_production_constants_read_only_audit)
+Read-only verification of real workspace production pins without executing child. ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 42.383s
+
+OK
+
+FAILURE REASONS RECORDED:
+  - Preserved snapshot asset copy terra_350_benchmark.json SHA256 mismatch post-run: dbc88fbbe0d4927bd58f144a21a2b5bac530bab65f10ae391b4883f697e5599b != 8a258c552afba8d28ef28dda1bd714376440e345e1a0da4f7b66da22e8471d1a
+  - POST_RUN_INVARIANT_HASH_MISMATCH
+Original Asset Status: INVARIANT VIOLATION
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\addendum_01\runs\harness_run_1791426430_20420_1beb2525
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\addendum_01\runs\harness_run_1791426430_20420_1beb2525\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.10s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\addendum_01\runs\harness_run_1791426430_20420_1beb2525\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\addendum_01\runs\harness_run_1791426430_20420_1beb2525\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpt6gbf74g\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - Failed to write execution_metadata.json: Simulated metadata write failure
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\addendum_01\runs\harness_run_1791426431_20420_1fe5e898
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\addendum_01\runs\harness_run_1791426431_20420_1fe5e898\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\addendum_01\runs\harness_run_1791426431_20420_1fe5e898\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\addendum_01\runs\harness_run_1791426431_20420_1fe5e898\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpzc3z6d9p\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - Failed to write exit_code.txt: Simulated exit code write failure
+Original Asset Status: 100% BIT-IDENTICAL
+================================================================================
+================================================================================
+ACTION: HARDENED CONTEMPORARY DIAGNOSTIC HARNESS EXECUTION
+Workspace Root: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace
+Declared Offline Condition: TEST_OFFLINE_FIREWALL
+================================================================================
+PASS: Pinned Python interpreter, diagnostic script, library versions, and ONNX cache verified.
+PASS: Pre-launch parity confirmed across all 11 store files, snapshot copy, and additional assets.
+PASS: Single-run lock acquired at: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\addendum_01\runs\.single_run_lock
+
+Launching diagnostic child subprocess:
+  C:\Users\zafor\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\fake_child.py --workspace-root C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace --onnx-cache-dir C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\onnx_cache --enforced-offline-condition TEST_OFFLINE_FIREWALL
+
+Harness Directory: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\addendum_01\runs\harness_run_1791426432_20420_89b93303
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\addendum_01\runs\harness_run_1791426432_20420_89b93303\console_output.log
+
+================================================================================
+DIAGNOSTIC HARNESS EXECUTION COMPLETE: Wrapper Exit Code 1 (Child: 0)
+Elapsed: 0.09s
+Console Output Log: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\addendum_01\runs\harness_run_1791426432_20420_89b93303\console_output.log
+Execution Metadata: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\addendum_01\runs\harness_run_1791426432_20420_89b93303\execution_metadata.json
+Single-Run Lock: C:\Users\zafor\AppData\Local\Temp\tmpdht039c6\workspace\addendum_01\runs\.single_run_lock
+FAILURE REASONS RECORDED:
+  - Failed to inventory store files post-run: Simulated post-run disk I/O error during store inventory
+  - Failed to check preserved snapshot directory post-run: Simulated post-run disk I/O error during store inventory
+  - POST_RUN_INVARIANT_HASH_MISMATCH
+Original Asset Status: INVARIANT VIOLATION
+================================================================================

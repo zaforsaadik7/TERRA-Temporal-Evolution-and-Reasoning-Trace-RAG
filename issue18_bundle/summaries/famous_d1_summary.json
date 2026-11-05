@@ -1,0 +1,336 @@
+{
+  "suite": "famous_d1",
+  "input_file_hashes": {
+    "benchmark_350": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3",
+    "eeg_index": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+    "raw_responses": "912c55bef3a085ae7cf3df9375a323c51181a7583d60f60a29dde7ac981aaaa3",
+    "judge_cache": "e3efe39c4b6c70ba8b0bcd3590176899bcdb4445bdf10dbce500f7417b7f2181"
+  },
+  "per_arm": {
+    "1_Direct_LLM": {
+      "n": 19,
+      "k_safe": 15,
+      "safe_pct": 78.9,
+      "ci_95": [
+        0.5443,
+        0.9395
+      ],
+      "R_ref": 0,
+      "R_refut": 15,
+      "Fatal_Affirmed": 1,
+      "Fatal_Unwarned": 0,
+      "R_hedge": 3,
+      "errors": 0
+    },
+    "2_Flat_Vector_RAG": {
+      "n": 19,
+      "k_safe": 10,
+      "safe_pct": 52.6,
+      "ci_95": [
+        0.2886,
+        0.7555
+      ],
+      "R_ref": 0,
+      "R_refut": 10,
+      "Fatal_Affirmed": 1,
+      "Fatal_Unwarned": 3,
+      "R_hedge": 5,
+      "errors": 0
+    },
+    "3_Full_TERRA": {
+      "n": 19,
+      "k_safe": 14,
+      "safe_pct": 73.7,
+      "ci_95": [
+        0.488,
+        0.9085
+      ],
+      "R_ref": 4,
+      "R_refut": 10,
+      "Fatal_Affirmed": 1,
+      "Fatal_Unwarned": 0,
+      "R_hedge": 4,
+      "errors": 0
+    },
+    "4_TERRA_Unlabeled": {
+      "n": 19,
+      "k_safe": 15,
+      "safe_pct": 78.9,
+      "ci_95": [
+        0.5443,
+        0.9395
+      ],
+      "R_ref": 3,
+      "R_refut": 12,
+      "Fatal_Affirmed": 0,
+      "Fatal_Unwarned": 0,
+      "R_hedge": 4,
+      "errors": 0
+    }
+  },
+  "kappa": {
+    "cohens_kappa": 0.5557,
+    "evaluated_responses": 76,
+    "excluded_error_rows": 0,
+    "judge_pair": [
+      "databricks-qwen3-next-80b-a3b-instruct",
+      "databricks-gpt-oss-120b"
+    ]
+  },
+  "quote_stats": {
+    "judge_1": {
+      "model": "databricks-qwen3-next-80b-a3b-instruct",
+      "unverified_quotes": 20,
+      "overlong_quotes": 56,
+      "total_evaluations": 76
+    },
+    "judge_2": {
+      "model": "databricks-gpt-oss-120b",
+      "unverified_quotes": 25,
+      "overlong_quotes": 9,
+      "total_evaluations": 76
+    }
+  },
+  "marker_prevalence": {
+    "1_Direct_LLM": {
+      "total": 19,
+      "overrules_repudiates_count": 0,
+      "overrules_repudiates_pct": 0.0,
+      "cites_count": 0,
+      "cites_pct": 0.0,
+      "caselink_count": 0,
+      "caselink_pct": 0.0
+    },
+    "2_Flat_Vector_RAG": {
+      "total": 19,
+      "overrules_repudiates_count": 0,
+      "overrules_repudiates_pct": 0.0,
+      "cites_count": 0,
+      "cites_pct": 0.0,
+      "caselink_count": 19,
+      "caselink_pct": 100.0
+    },
+    "3_Full_TERRA": {
+      "total": 19,
+      "overrules_repudiates_count": 0,
+      "overrules_repudiates_pct": 0.0,
+      "cites_count": 1,
+      "cites_pct": 5.3,
+      "caselink_count": 15,
+      "caselink_pct": 78.9
+    },
+    "4_TERRA_Unlabeled": {
+      "total": 19,
+      "overrules_repudiates_count": 0,
+      "overrules_repudiates_pct": 0.0,
+      "cites_count": 0,
+      "cites_pct": 0.0,
+      "caselink_count": 16,
+      "caselink_pct": 84.2
+    }
+  },
+  "pairwise_comparisons": {
+    "primary": {
+      "comparison": "TERRA-Unlabeled vs Flat Vector RAG",
+      "n": 19,
+      "discordant_b": 7,
+      "discordant_c": 2,
+      "mcnemar_p": 0.179688,
+      "fisher_p": 0.170447,
+      "alpha": 0.05,
+      "rejected": false,
+      "gate_status": "CLOSED"
+    },
+    "secondaries": {
+      "Full vs Unlabeled": {
+        "b": 0,
+        "c": 1,
+        "p_value": 1.0,
+        "gate": "CLOSED",
+        "alpha_threshold": null,
+        "rejected": false
+      },
+      "Full vs Flat": {
+        "b": 6,
+        "c": 2,
+        "p_value": 0.289062,
+        "gate": "CLOSED",
+        "alpha_threshold": null,
+        "rejected": false
+      },
+      "Unlabeled vs Direct": {
+        "b": 1,
+        "c": 1,
+        "p_value": 1.0,
+        "gate": "CLOSED",
+        "alpha_threshold": null,
+        "rejected": false
+      },
+      "Flat vs Direct": {
+        "b": 2,
+        "c": 7,
+        "p_value": 0.179688,
+        "gate": "CLOSED",
+        "alpha_threshold": null,
+        "rejected": false
+      }
+    }
+  },
+  "sensitivity_subsets": {},
+  "per_judge_robustness": {
+    "judge_1": {
+      "model": "databricks-qwen3-next-80b-a3b-instruct",
+      "per_arm": {
+        "1_Direct_LLM": {
+          "k_safe": 16,
+          "n": 19,
+          "safe_pct": 84.2,
+          "ci_95": [
+            0.6042,
+            0.9662
+          ]
+        },
+        "2_Flat_Vector_RAG": {
+          "k_safe": 15,
+          "n": 19,
+          "safe_pct": 78.9,
+          "ci_95": [
+            0.5443,
+            0.9395
+          ]
+        },
+        "3_Full_TERRA": {
+          "k_safe": 18,
+          "n": 19,
+          "safe_pct": 94.7,
+          "ci_95": [
+            0.7397,
+            0.9987
+          ]
+        },
+        "4_TERRA_Unlabeled": {
+          "k_safe": 19,
+          "n": 19,
+          "safe_pct": 100.0,
+          "ci_95": [
+            0.8235,
+            1.0
+          ]
+        }
+      },
+      "primary_mcnemar": {
+        "b": 4,
+        "c": 0,
+        "p_value": 0.125
+      },
+      "secondary_p_values": {
+        "Full vs Unlabeled": {
+          "b": 0,
+          "c": 1,
+          "p_value": 1.0
+        },
+        "Full vs Flat": {
+          "b": 4,
+          "c": 1,
+          "p_value": 0.375
+        },
+        "Unlabeled vs Direct": {
+          "b": 3,
+          "c": 0,
+          "p_value": 0.25
+        },
+        "Flat vs Direct": {
+          "b": 2,
+          "c": 3,
+          "p_value": 1.0
+        }
+      }
+    },
+    "judge_2": {
+      "model": "databricks-gpt-oss-120b",
+      "per_arm": {
+        "1_Direct_LLM": {
+          "k_safe": 16,
+          "n": 19,
+          "safe_pct": 84.2,
+          "ci_95": [
+            0.6042,
+            0.9662
+          ]
+        },
+        "2_Flat_Vector_RAG": {
+          "k_safe": 10,
+          "n": 19,
+          "safe_pct": 52.6,
+          "ci_95": [
+            0.2886,
+            0.7555
+          ]
+        },
+        "3_Full_TERRA": {
+          "k_safe": 14,
+          "n": 19,
+          "safe_pct": 73.7,
+          "ci_95": [
+            0.488,
+            0.9085
+          ]
+        },
+        "4_TERRA_Unlabeled": {
+          "k_safe": 15,
+          "n": 19,
+          "safe_pct": 78.9,
+          "ci_95": [
+            0.5443,
+            0.9395
+          ]
+        }
+      },
+      "primary_mcnemar": {
+        "b": 7,
+        "c": 2,
+        "p_value": 0.179688
+      },
+      "secondary_p_values": {
+        "Full vs Unlabeled": {
+          "b": 0,
+          "c": 1,
+          "p_value": 1.0
+        },
+        "Full vs Flat": {
+          "b": 6,
+          "c": 2,
+          "p_value": 0.289062
+        },
+        "Unlabeled vs Direct": {
+          "b": 0,
+          "c": 1,
+          "p_value": 1.0
+        },
+        "Flat vs Direct": {
+          "b": 2,
+          "c": 8,
+          "p_value": 0.109375
+        }
+      }
+    }
+  },
+  "judge_disagreements": {
+    "1_Direct_LLM": {
+      "disagreements": 2,
+      "total": 19
+    },
+    "2_Flat_Vector_RAG": {
+      "disagreements": 6,
+      "total": 19
+    },
+    "3_Full_TERRA": {
+      "disagreements": 4,
+      "total": 19
+    },
+    "4_TERRA_Unlabeled": {
+      "disagreements": 4,
+      "total": 19
+    }
+  }
+}

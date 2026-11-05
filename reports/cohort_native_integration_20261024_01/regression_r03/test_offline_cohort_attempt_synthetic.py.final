@@ -1,0 +1,106 @@
+"""Whole attempt tests with complete generated 350-row report and fake owner."""
+from dataclasses import replace
+import json
+from types import SimpleNamespace
+import unittest
+from unittest.mock import Mock
+from scripts.matched_baseline import offline_cohort_attempt as attempt
+from scripts.matched_baseline.offline_cohort_contracts import ProposedResources,CohortReportBuilder
+from tests import test_offline_cohort_core_synthetic as fixtures
+
+
+class AttemptTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.spec=fixtures.fixture_spec();cls.resources=ProposedResources()
+        report=CohortReportBuilder(cls.spec,cls.resources,expected_mode='SIMULATED')
+        for row in cls.spec.queries:report.add(fixtures.fixture_row(row))
+        cls.raw=report.finish()
+
+    def setUp(self):
+        self.events=[];self.time=0.
+        self.boundary=SimpleNamespace(receipt=object(),owned=False,preflight=Mock(),verify=Mock())
+        def create():self.boundary.owned=True;self.events.append('create')
+        self.boundary.create=Mock(side_effect=create)
+        self.cleanup=Mock()
+        self.owner=Mock()
+        self.owner.pid.return_value=42
+        self.owner.state.return_value=dict(active_processes=0,root_exited=True,exit_code=0,
+            memory_limit_hit=False,peak_memory_bytes=1,output_bytes=0,evidence_bytes=10,disposable_bytes=10)
+        self.owner.wait_empty.return_value=True
+        self.integrity=Mock();self.phase=Mock(side_effect=lambda p:self.events.append(p))
+        self.args=dict(outer_started=0,clock=lambda:self.time,pause=lambda n:None,
+            verify_authority=Mock(return_value=True),lock=Mock(),phase=self.phase,
+            inventory_before=Mock(),inventory_after=Mock(),free_bytes=lambda:3*1024**3,
+            integrity=self.integrity,boundary=self.boundary,boundary_cleanup=self.cleanup,
+            record_intent=Mock(side_effect=lambda:self.events.append('intent')),
+            prepare_child=Mock(return_value=(('C:\\fixture\\python.exe',),{})),owner=self.owner,
+            storage=lambda:dict(disposable_bytes=10,evidence_bytes=0),emit=Mock(),
+            read_report=Mock(return_value=self.raw),spec=self.spec,terminal=Mock())
+        self.actor=attempt.FixtureCohortAttempt(resources=self.resources)
+
+    def run_actor(self):return self.actor.run(**self.args)
+
+    def test_complete_attempt_validates_report_and_postchecks(self):
+        result=self.run_actor();self.assertEqual(result['status'],'SIMULATED_COHORT_SUCCESS')
+        self.assertTrue(result['report_verified']);self.assertTrue(result['postchecks_verified'])
+        self.assertLess(self.events.index('intent'),self.events.index('create'))
+        self.assertEqual(self.args['emit'].call_args_list[0].args[0]['root_pid'],42)
+        self.cleanup.remove_owned_rule.assert_called_once();self.owner.close.assert_called_once()
+        self.integrity.final_check.assert_called_once();self.args['inventory_after'].assert_called_once()
+        with self.assertRaises(RuntimeError):self.run_actor()
+
+    def test_authority_failure_has_no_copy_or_native_calls(self):
+        self.args['verify_authority'].return_value=False
+        self.assertEqual(self.run_actor()['status'],'FAIL')
+        self.integrity.prepare.assert_not_called();self.boundary.create.assert_not_called()
+        self.integrity.final_check.assert_not_called();self.owner.start.assert_not_called()
+
+    def test_copy_failure_still_performs_both_postchecks(self):
+        self.integrity.prepare.side_effect=OSError('synthetic')
+        self.assertEqual(self.run_actor()['status'],'FAIL')
+        self.integrity.final_check.assert_called_once();self.args['inventory_after'].assert_called_once()
+        self.boundary.create.assert_not_called()
+
+    def test_assignment_failure_terminates_before_removing_rule(self):
+        self.owner.start.side_effect=RuntimeError('synthetic')
+        self.assertEqual(self.run_actor()['status'],'FAIL')
+        self.owner.terminate.assert_called_once();self.owner.wait_empty.assert_called_once()
+        self.cleanup.remove_owned_rule.assert_called_once()
+
+    def test_unknown_termination_retains_rule_and_cannot_pass(self):
+        self.owner.start.side_effect=RuntimeError('synthetic');self.owner.wait_empty.return_value=False
+        self.owner.close.side_effect=RuntimeError('retained')
+        result=self.run_actor();self.assertEqual(result['status'],'FAIL')
+        self.cleanup.retain_owned_rule_for_recovery.assert_called_once()
+        self.cleanup.remove_owned_rule.assert_not_called()
+
+    def test_final_hash_failure_rejects_completed_child(self):
+        self.integrity.final_check.side_effect=ValueError('changed')
+        result=self.run_actor();self.assertEqual(result['status'],'FAIL')
+        self.assertTrue(result['report_verified']);self.assertFalse(result['postchecks_verified'])
+        self.args['inventory_after'].assert_called_once()
+
+    def test_incomplete_or_forged_summary_rejected(self):
+        for change in ({'query_count':True},{'complete':False},{'route_record_count':699}):
+            value=json.loads(self.raw);value.update(change)
+            with self.assertRaises(ValueError):attempt.validate_complete_report(json.dumps(value).encode(),
+                spec=self.spec,resources=self.resources,expected_mode='SIMULATED')
+        value=json.loads(self.raw);value['records'].pop()
+        self.args['read_report'].return_value=json.dumps(value).encode()
+        self.assertEqual(self.run_actor()['status'],'FAIL')
+
+    def test_late_state_cannot_be_success(self):
+        def late_state():self.time=self.resources.child_seconds;return self.owner.state.return_value
+        self.owner.state.side_effect=late_state
+        self.assertEqual(self.run_actor()['status'],'FAIL')
+        self.owner.terminate.assert_called_once()
+
+    def test_terminal_write_failure_and_genuine_entry_hold(self):
+        self.args['terminal'].side_effect=OSError('terminal')
+        with self.assertRaises(OSError):self.run_actor()
+        with self.assertRaises(RuntimeError):attempt.FixtureCohortAttempt(resources=None,is_synthetic=False)
+        self.assertEqual(attempt.main(),2)
+
+
+if __name__=='__main__':unittest.main()

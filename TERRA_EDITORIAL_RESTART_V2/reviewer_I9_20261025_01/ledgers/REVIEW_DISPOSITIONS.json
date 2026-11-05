@@ -1,0 +1,123 @@
+[
+  {
+    "before": "\\enlargethispage{3\\baselineskip}",
+    "after": "",
+    "basis": "Inherited page enlargement violates Springer body/footer geometry; preserve all text by natural reflow"
+  },
+  {
+    "before": "\\enlargethispage{14\\baselineskip}",
+    "after": "",
+    "basis": "Inherited page enlargement violates Springer body/footer geometry; preserve all text by natural reflow"
+  },
+  {
+    "before": "\\enlargethispage{2\\baselineskip}",
+    "after": "",
+    "basis": "Inherited page enlargement violates Springer body/footer geometry; preserve all text by natural reflow"
+  },
+  {
+    "before": "Liu and Cao \\citep{liu2026raglearningunderstandinglimits}",
+    "after": "\\citet{liu2026raglearningunderstandinglimits}",
+    "basis": "Mechanical author-year migration; citation key and reference identity unchanged"
+  },
+  {
+    "before": "Zhang et al. \\citep{zhang2025respectingtemporalcausalconsistencyentityevent}",
+    "after": "\\citet{zhang2025respectingtemporalcausalconsistencyentityevent}",
+    "basis": "Mechanical author-year migration; citation key and reference identity unchanged"
+  },
+  {
+    "before": "Zhu et al. \\citep{zhu2025rightanswerrighttime}",
+    "after": "\\citet{zhu2025rightanswerrighttime}",
+    "basis": "Mechanical author-year migration; citation key and reference identity unchanged"
+  },
+  {
+    "before": "Hashmi \\citep{hashmi2026adaptivequeryroutingtierbased}",
+    "after": "\\citet{hashmi2026adaptivequeryroutingtierbased}",
+    "basis": "Mechanical author-year migration; citation key and reference identity unchanged"
+  },
+  {
+    "before": "Yalavarthi \\citep{yalavarthi2026opensourcereproductionexplainabilityanalysis}",
+    "after": "\\citet{yalavarthi2026opensourcereproductionexplainabilityanalysis}",
+    "basis": "Mechanical author-year migration; citation key and reference identity unchanged"
+  },
+  {
+    "before": "overruled; and motivates",
+    "after": "overruled. This motivates",
+    "basis": "Grammar repair; argument retained"
+  },
+  {
+    "before": "because TERRA writes longer chronological syntheses (mean words in Table~\\ref{tab:cat_b_performance})",
+    "after": "while the aggregate word counts in Table~\\ref{tab:cat_b_performance} do not establish a length-based causal explanation",
+    "basis": "Table reports TERRA mean415 versus other means470-612, answered-only490 is a different subset; remove unsupported causal inference, not data"
+  },
+  {
+    "before": "that also avoids context bloat from tangential citing precedents",
+    "after": "that does not expand citation-graph neighborhoods on the EASY path",
+    "basis": "Current path definition; no measured causal claim about pilot latency"
+  },
+  {
+    "before": "\\CorpusPrecedentEdges\\ citation edges",
+    "after": "\\CorpusPrecedentEdges\\ directed graph edges",
+    "basis": "Existing145366total partitions145310CITES+56OVERRULES; correct total-edge label without altering counts"
+  },
+  {
+    "before": "\\CorpusPrecedentEdges\\ directed citation edges",
+    "after": "\\CorpusPrecedentEdges\\ directed graph edges",
+    "basis": "Existing145366total partitions145310CITES+56OVERRULES; correct total-edge label without altering counts"
+  },
+  {
+    "before": "Citation Edges ($|E|$)",
+    "after": "Directed Graph Edges ($|E|$)",
+    "basis": "Existing145366total partitions145310CITES+56OVERRULES; correct total-edge label without altering counts"
+  },
+  {
+    "before": "Sections~\\ref{subsec:safety-and-factual}--\\ref{subsec:ablation-study}",
+    "after": "Sections~\\ref{subsec:ablation-study}, \\ref{subsec:evolutionary-reasoning} and~\\ref{subsec:safety-and-factual}",
+    "basis": "Replace reversed range with the actual three named internal-result sections"
+  },
+  {
+    "before": "$\\mathbf{\\CaseFactsTerraRefusalTrackTwo}$ ($100.0\\%$)",
+    "after": "$\\mathbf{\\CaseFactsTerraRefusalTrackTwo}$",
+    "basis": "Frozen macro already renders count and percentage; remove duplicate literal suffix"
+  },
+  {
+    "before": "$\\CaseFactsTerraHardRefusalTrackTwo$ ($92.0\\%$)",
+    "after": "$\\CaseFactsTerraHardRefusalTrackTwo$",
+    "basis": "Frozen macro already renders count and percentage; remove duplicate literal suffix"
+  },
+  {
+    "before": "$\\CaseFactsTerraDisclosedTrackTwo$ ($8.0\\%$)",
+    "after": "$\\CaseFactsTerraDisclosedTrackTwo$",
+    "basis": "Frozen macro already renders count and percentage; remove duplicate literal suffix"
+  },
+  {
+    "before": "$\\CaseFactsTerraHallucinationTrackTwo$ ($0.0\\%$)",
+    "after": "$\\CaseFactsTerraHallucinationTrackTwo$",
+    "basis": "Frozen macro already renders count and percentage; remove duplicate literal suffix"
+  },
+  {
+    "before": "$\\CaseFactsDirectHallucinationTrackTwo$ ($20.0\\%$)",
+    "after": "$\\CaseFactsDirectHallucinationTrackTwo$",
+    "basis": "Frozen macro already renders count and percentage; remove duplicate literal suffix"
+  },
+  {
+    "before": "$\\CaseFactsFlatHallucinationTrackTwo$ ($8.0\\%$)",
+    "after": "$\\CaseFactsFlatHallucinationTrackTwo$",
+    "basis": "Frozen macro already renders count and percentage; remove duplicate literal suffix"
+  },
+  {
+    "before": "($\\CaseFactsFlatRefusalTrackTwo$, $92.0\\%$)",
+    "after": "($\\CaseFactsFlatRefusalTrackTwo$)",
+    "basis": "Frozen macro includes percentage; redundant prose suffix removed"
+  },
+  {
+    "before": "($\\CaseFactsDirectRefusalTrackTwo$, $80.0\\%$)",
+    "after": "($\\CaseFactsDirectRefusalTrackTwo$)",
+    "basis": "Frozen macro includes percentage; redundant prose suffix removed"
+  },
+  {
+    "file": "tables\\table_casefacts_eval.tex",
+    "before": "(Fix 1), Per Fix 1",
+    "after": "Self-contained diagnostic qualification, no editorial process label",
+    "basis": "Caption/note already state exact Clopper-Pearson intervals and n=8"
+  }
+]

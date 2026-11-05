@@ -1,0 +1,92 @@
+--- a/audit_i1a_contemporary_gate_calibration_checkpoint_7cd926.py (7cd926be...)
++++ b/audit_i1a_contemporary_gate_calibration.py (c37ddaa7...)
+@@ -422,6 +422,24 @@
+         d_sqrt = float(np.sqrt(d_raw))
+ 
+     return d_raw, nid, d_sqrt, anomaly_flag
++
++
++def resolve_benchmark_identifier(q: dict) -> Tuple[str, str]:
++    """
++    Resolve identifier from benchmark record: query_id if present and nonempty, else id.
++    Fails closed if neither is present or non-empty string.
++    Returns (resolved_id, source_field).
++    """
++    if not isinstance(q, dict):
++        raise AuditValidationError(f"Benchmark record is not a dictionary: {type(q)}")
++    qid = q.get("query_id")
++    if isinstance(qid, str) and qid.strip():
++        return qid.strip(), "query_id"
++    alt_id = q.get("id")
++    if isinstance(alt_id, str) and alt_id.strip():
++        return alt_id.strip(), "id"
++    raise AuditValidationError(f"Benchmark record missing valid 'query_id' or 'id': {q}")
++
+ 
+ def write_and_verify_report(report_file: Path, state: dict) -> None:
+     """
+@@ -730,6 +748,8 @@
+         # Benchmark 175 cohort validation
+         with open(benchmark_175_path, "r", encoding="utf-8") as f:
+             bench_175 = json.load(f)
++        if not isinstance(bench_175, list):
++            raise AuditValidationError(f"Benchmark 175 is not a list: {type(bench_175)}")
+         sample_in_175 = [q for q in bench_175 if q.get("category") in ["A_Factual", "B_Evolutionary"]][:20]
+         sample_out_175 = [q for q in bench_175 if q.get("category") == "C_OutOfContext"][:20]
+ 
+@@ -737,6 +757,17 @@
+             raise AuditValidationError(f"Legacy sample_in_20 count is {len(sample_in_175)}, expected 20.")
+         if len(sample_out_175) != 20:
+             raise AuditValidationError(f"Legacy sample_out_20 count is {len(sample_out_175)}, expected 20.")
++
++        legacy_40_records = sample_in_175 + sample_out_175
++        legacy_40_ids = []
++        for q in legacy_40_records:
++            qid, _ = resolve_benchmark_identifier(q)
++            legacy_40_ids.append(qid)
++            qtext = q.get("query")
++            if not isinstance(qtext, str) or not qtext.strip():
++                raise AuditValidationError(f"Benchmark 175 entry '{qid}' missing valid 'query' text.")
++        if len(set(legacy_40_ids)) != 40:
++            raise AuditValidationError("Duplicate identifiers detected across Benchmark 175 sample cohorts.")
+ 
+         workflow_state["stages_completed"].append("stage_6_cohorts_validated")
+         print("  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.")
+@@ -850,13 +881,17 @@
+         sample_in_dists_raw = []
+         sample_in_dists_sqrt = []
+         for q, raw_d_list, raw_id_list in zip(sample_in_175, res_in_175["distances"], res_in_175["ids"]):
+-            qid = q.get("query_id", "sample_in_q")
++            qid, src_field = resolve_benchmark_identifier(q)
++            qtext = q.get("query", "")
++            q_sha = hashlib.sha256(qtext.encode("utf-8")).hexdigest()
+             d_raw, nid, d_sqrt, flag = validate_and_transform_result(qid, raw_d_list, raw_id_list)
+             sample_in_dists_raw.append(d_raw)
+             sample_in_dists_sqrt.append(d_sqrt)
+             workflow_state["legacy_sample20_query_ledger"].append({
+                 "cohort": "sample_in_20",
+                 "query_id": qid,
++                "source_field": src_field,
++                "query_sha256": q_sha,
+                 "distance_raw_squared": d_raw,
+                 "distance_euclidean_sqrt": d_sqrt,
+                 "nearest_node_id": nid,
+@@ -866,13 +901,17 @@
+         sample_out_dists_raw = []
+         sample_out_dists_sqrt = []
+         for q, raw_d_list, raw_id_list in zip(sample_out_175, res_out_175["distances"], res_out_175["ids"]):
+-            qid = q.get("query_id", "sample_out_q")
++            qid, src_field = resolve_benchmark_identifier(q)
++            qtext = q.get("query", "")
++            q_sha = hashlib.sha256(qtext.encode("utf-8")).hexdigest()
+             d_raw, nid, d_sqrt, flag = validate_and_transform_result(qid, raw_d_list, raw_id_list)
+             sample_out_dists_raw.append(d_raw)
+             sample_out_dists_sqrt.append(d_sqrt)
+             workflow_state["legacy_sample20_query_ledger"].append({
+                 "cohort": "sample_out_20",
+                 "query_id": qid,
++                "source_field": src_field,
++                "query_sha256": q_sha,
+                 "distance_raw_squared": d_raw,
+                 "distance_euclidean_sqrt": d_sqrt,
+                 "nearest_node_id": nid,

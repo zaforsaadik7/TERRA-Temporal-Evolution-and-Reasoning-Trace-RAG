@@ -1,0 +1,18 @@
+test_actual_archive_members (__main__.AuditChecks.test_actual_archive_members) ... ok
+test_actual_coverage (__main__.AuditChecks.test_actual_coverage) ... ok
+test_alias (__main__.AuditChecks.test_alias) ... ok
+test_citation_keys_match_actual_bibliography (__main__.AuditChecks.test_citation_keys_match_actual_bibliography) ... ok
+test_cross_pdf_destination (__main__.AuditChecks.test_cross_pdf_destination) ... ok
+test_empty_inspection (__main__.AuditChecks.test_empty_inspection) ... ok
+test_exception_cannot_be_ready (__main__.AuditChecks.test_exception_cannot_be_ready) ... ok
+test_false_closure (__main__.AuditChecks.test_false_closure) ... ok
+test_findings_have_owners (__main__.AuditChecks.test_findings_have_owners) ... ok
+test_missing_page (__main__.AuditChecks.test_missing_page) ... ok
+test_no_false_eq_pass (__main__.AuditChecks.test_no_false_eq_pass) ... ok
+test_stale_hash (__main__.AuditChecks.test_stale_hash) ... ok
+test_traversal (__main__.AuditChecks.test_traversal) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.022s
+
+OK

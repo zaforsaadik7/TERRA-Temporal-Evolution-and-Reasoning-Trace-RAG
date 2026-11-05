@@ -1,0 +1,119 @@
+Under Condition B, the SPTLR bounds are [26.0%, 32.0%],
+[26.0%, 32.0%], [18.0%, 24.0%] and [14.0%, 22.0%] in the
+same order (refusal 0.0%, 30.0%, 0.0%, 12.0%; HLCR
+64.0%, 42.0%, 72.0%, 72.0%). The gate interception
+rate (NGLIR) is [0.0%, 20.0%] under Condition A and
+[16.7%, 41.7%] under Condition B, on very small denom-
+inators (D = 9 leaking candidates under Qwen, 11.1%
+intercepted; D = 5 under consensus, 20.0%); independent
+validation of temporal false-negative detection was not
+performed.
+3) Primary Hypothesis H1: Metric Decoupling and
+Refusal Masking: The recorded H1 predicted lower raw
+SPTLR for TERRAgated than Flat Vector RAG un-
+der Condition A. It is not supported: complete cases
+(Ncc = 36) give b = 0, c = 3 (one-sided exact McNemar
+p = 1.0000; two-sided p = 0.2500, or 0.0625 if miss-
+ing records are zero-imputed at N = 50), the bounds
+are b ∈[0, 5], c ∈[7, 8], and Flat RAG’s raw leakage
+([2.0%, 14.0%]) is lower than TERRA’s ([18.0%, 18.0%]).
+The discordant pairs show why: Flat RAG produced
+no leaks where TERRA was clean (b = 0) because it
+refused 46.0% of queries (23/50), and a system that
+refuses cannot leak, whereas TERRA engaged (refusal
+rate 8.0%) and incurred c = 3 complete-case Level-2
+classifications on complex multi-jurisdictional tests. On
+HLCR, TERRAgated reaches 76.0% automated historical-
+correctness labels against 38.0% for Flat RAG (b = 20, c =
+1; exact McNemar p = 2.1 × 10−5, p < 0.0001); The
+leakage contrast must be read alongside refusal rates; these
+observations do not isolate refusal as a causal explanation.
+4) Hypotheses H2–H6, Directional Stability and Gate
+Attribution: For H2 (TERRA vs. Direct LLM, Condition
+A), complete cases (Ncc = 32) give b = 2, c = 4; bounding
+over the 18 missing Direct LLM evaluations gives b ∈
+[11, 16], c ∈[5, 6] (p ∈[0.0133, 0.1662]). Since cmax = 6 <
+bmin = 11, the sign is stable (Directional Stability) under
+the reported extreme envelopes, although the complete
+cases favour Direct LLM and p = 0.0133 holds only at the
+most favourable bound. For H3 (vs. Flat RAG, Condition
+B), Ncc = 29 gives b = 5, c = 1; Flat RAG’s refusal rate
+falls to 30.0% under explicit prompting, exposing leakage
+([26.0%, 32.0%]); bounds are b ∈[10, 13], c ∈[4, 8] (p ∈
+[0.0245, 0.4073]), directionally stable (cmax = 8 < bmin =
+10). For H4 (vs. Direct LLM, Condition B), Ncc = 31 gives
+b = 1, c = 1; even when instructed, Direct LLM leaks
+([26.0%, 32.0%]); bounds are b ∈[8, 11], c ∈[2, 6] (p ∈
+[0.0112, 0.3953]), directionally stable (cmax = 6 < bmin =
+8). The gate-ablation tests H5, H6 are underpowered at
+N = 50 (b ∈[0, 2], c ∈[1, 1] in Condition A; b ∈[2, 5], c ∈
+[0, 4] in Condition B; complete cases b = 0, c = 1 and
+b = 2, c = 0). Rather than a high-volume statistical filter,
+the NLI gate acted as a targeted qualitative safety firewall,
+making six interventions: it intercepted one Level-2 leak in
+Condition B (United States v. Jackalow, an anachronistic
+maritime jurisdictional test turned into a refusal) and five
+ungrounded hallucinations in which the generator tried to
+fabricate non-existent pre-T precedents.
+I. Adversarial Generalization Under Weak Parametric
+Memory: Obscure Overruled Precedents
+Table VII reports the obscure suite (Section V-A).
+a) Parametric collapse.: Direct LLM safely handled
+0/30 (0.0%, [0.0000, 0.1157]) of the obscure queries, with 9
+answers aﬀirming the overruled rule as current law and 15
+reciting it without warning, compared with 15/19 (78.9%)
+on the famous Category D1 subset (descriptive Fisher p =
+2.46 × 10−9). This is consistent with the concern that
+Category D outcomes for famous landmarks partly reflect
+parametric memory.
+b) Preregistered primary test.: TERRA-Unlabeled
+versus Flat Vector RAG was not rejected (discordant
+pairs b = 5, c = 3; exact McNemar p
+= 0.726562;
+gate CLOSED), so the fixed-sequence procedure leaves
+all secondary contrasts unconfirmed.
+c) Source
+of
+the
+advantage.:
+Descriptively,
+Full
+TERRA exceeded TERRA-Unlabeled (b = 11, c = 0;
+exact p < 0.001). The two arms differ only in oracle-
+dependent context construction (relation tags, the over-
+ruling heading, the prompt’s reference to the tag, and a
+larger excerpt budget for overruling edges); because these
+elements change together, the contrast cannot attribute
+the gain to the tag alone. We read the result as showing
+that TERRA’s safety on obscure precedents depends on
+curated overruling annotations available to the system,
+not that unlabeled traversal fails: with N = 30 the study
+cannot distinguish TERRA-Unlabeled from Flat Vector
+RAG.
+d) Robustness.:
+The magnitude depends on the
+judge: Judge 1 scored Full TERRA at 93.3% and TERRA-
+Unlabeled at 46.7% (primary p = 0.092285), Judge 2
+scored 63.3% and 26.7% (primary p = 1.000000), and
+the combined severity rule tracks the stricter judge. The
+primary contrast is non-significant under both. Excluding
+items with empty TERRA context (N = 28) gives primary
+p = 1.000000 and Full TERRA 60.7%; excluding items
+whose context lacks the overruler (N = 25), p = 1.000000
+and 64.0%; explicit-overrule items only (N = 12), p =
+1.000000 and 83.3%.
+e) Cross-suite contrast (descriptive).: Full TERRA’s
+safe handling was 19/30 (63.3%) on obscure precedents
+versus 14/19 (73.7%) on the famous subset (risk difference
++10.3%, 95% CI [−16.6%, +33.3%]); Direct LLM and
+TERRA-Unlabeled fell from 15/19 (78.9%) and 15/19
+(78.9%) to 0/30 (0.0%) and 8/30 (26.7%). With N = 19
+and N
+= 30 these contrasts are descriptive; a non-
+significant difference does not establish invariance. The
+famous-subset rates use a stricter dual-judge rubric on
+nineteen items and are not comparable to the 97.3% safe-
+handling rate of Table V.
+f) Reliability.: Inter-judge agreement was Cohen’s
+κ = 0.5746 over 120 judgments; evidence quotes could not
+be verified verbatim for 16 (Judge 1) and 26 (Judge 2)

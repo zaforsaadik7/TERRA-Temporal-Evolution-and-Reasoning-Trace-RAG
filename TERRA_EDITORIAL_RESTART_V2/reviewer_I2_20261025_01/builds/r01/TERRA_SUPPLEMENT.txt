@@ -1,0 +1,1564 @@
+TERRA supplementary material
+This reconstructed supplement preserves the ten mapped table objects and eighteen limitation themes. Historical result blocks remain distinct; the corrected derivative is used
+only in the prospective comparison and does not replace historical graph attribution. The main paper and this supplement have separate numbering.
+S1
+
+Table S1: Complete Pre-Specified Benjamini-Hochberg False Discovery
+Rate (FDR) Hypothesis Testing Family (M = 20 Tests Across 4 Base-
+lines × 5 Evaluation Slices).
+Rank
+(i)
+Comparative
+Baseline
+Evaluation
+Slice
+Statistical
+Test
+Mean
+∆
+[95%
+CI]
+Cohen’s
+dz
+Raw
+p-
+value
+FDR
+q-
+value
+Paired
+(n+/n0/n−)
+Significance
+(α = 0.05)
+1
+Direct
+LLM
+(No RAG)
+Category
+C
+(Out-
+of-Context
+Refusal)
+Fisher’s
+Ex-
+act Test
++100.0% Diff.
+—
+2.15 × 10−44
+4.31 × 10−43
+75/75 vs. 0/75
+Yes
+(TERRA)
+2
+Direct
+LLM
+(No RAG)
+Category
+A
+(Factual)
+Wilcoxon
+Signed-Rank
++0.427
+[+0.350, +0.501]
+1.081
+1.93 × 10−12
+1.93 × 10−11
+71/25/4
+Yes
+(TERRA)
+3
+Direct
+LLM
+(No RAG)
+Combined
+In-Domain
+(A+B)
+Wilcoxon
+Signed-Rank
++0.173
+[+0.114, +0.233]
+0.401
+4.73 × 10−8
+3.15 × 10−7
+98/43/59
+Yes
+(TERRA)
+4
+GraphRAG-
+Adapted
+Category
+B
+(Evolutionary)
+Wilcoxon
+Signed-Rank
++0.119
+[+0.045, +0.191]
+0.318
+3.94 × 10−6
+1.97 × 10−5
+73/16/11
+Yes
+(TERRA)
+5
+GraphRAG-
+Adapted
+Combined
+In-Domain
+(A+B)
+Wilcoxon
+Signed-Rank
++0.086
+[+0.039, +0.131]
+0.257
+1.02 × 10−5
+4.08 × 10−5
+91/91/18
+Yes
+(TERRA)
+6
+Direct
+LLM
+(No RAG)
+Category
+D
+(Adversarial
+Faithfulness)
+Wilcoxon
+Signed-Rank
+−0.200
+[−0.287, −0.117]
+−0.529
+3.81 × 10−5
+1.27 × 10−4
+9/30/36
+Yes
+(Base-
+line)
+7
+Flat
+Vector
+RAG
+Combined
+In-Domain
+(A+B)
+Wilcoxon
+Signed-Rank
++0.078
+[+0.025, +0.129]
+0.207
+0.0006
+0.0016
+87/91/22
+Yes
+(TERRA)
+8
+Direct
+LLM
+(No RAG)
+Category
+B
+(Evolutionary)
+Wilcoxon
+Signed-Rank
+−0.081
+[−0.139, −0.021]
+−0.275
+0.0009
+0.0023
+27/18/55
+Yes
+(Base-
+line)
+9
+HippoRAG-
+Adapted
+Combined
+In-Domain
+(A+B)
+Wilcoxon
+Signed-Rank
++0.049
+[+0.009, +0.089]
+0.170
+0.0028
+0.0063
+61/112/27
+Yes
+(TERRA)
+10
+Flat
+Vector
+RAG
+Category
+B
+(Evolutionary)
+Wilcoxon
+Signed-Rank
++0.070
+[−0.015, +0.151]
+0.166
+0.0032
+0.0063
+67/18/15
+Yes
+(TERRA)
+11
+HippoRAG-
+Adapted
+Category
+B
+(Evolutionary)
+Wilcoxon
+Signed-Rank
++0.066
+[+0.004, +0.130]
+0.207
+0.0068
+0.0124
+51/26/23
+Yes
+(TERRA)
+12
+Flat
+Vector
+RAG
+Category
+A
+(Factual)
+Wilcoxon
+Signed-Rank
++0.086
+[+0.025, +0.151]
+0.261
+0.0114
+0.0189
+20/73/7
+Yes
+(TERRA)
+13
+GraphRAG-
+Adapted
+Category
+D
+(Adversarial
+Faithfulness)
+Wilcoxon
+Signed-Rank
++0.115
+[+0.017, +0.212]
+0.265
+0.0454
+0.0699
+36/20/19
+No
+14
+GraphRAG-
+Adapted
+Category
+A
+(Factual)
+Wilcoxon
+Signed-Rank
++0.052
+[−0.004, +0.107]
+0.183
+0.0818
+0.1169
+18/75/7
+No
+15
+HippoRAG-
+Adapted
+Category
+A
+(Factual)
+Wilcoxon
+Signed-Rank
++0.031
+[−0.018, +0.080]
+0.126
+0.2898
+0.3865
+10/86/4
+No
+S2
+
+Table S1 continued from previous page
+Rank
+(i)
+Comparative
+Baseline
+Evaluation
+Slice
+Statistical
+Test
+Mean
+∆
+[95%
+CI]
+Cohen’s
+dz
+Raw
+p-
+value
+FDR
+q-
+value
+Paired
+(n+/n0/n−)
+Significance
+(α = 0.05)
+16
+Flat
+Vector
+RAG
+Category
+D
+(Adversarial
+Faithfulness)
+Wilcoxon
+Signed-Rank
+−0.030
+[−0.120, +0.060]
+−0.075
+0.5109
+0.6386
+21/30/24
+No
+17
+HippoRAG-
+Adapted
+Category
+D
+(Adversarial
+Faithfulness)
+Wilcoxon
+Signed-Rank
+−0.033
+[−0.120, +0.052]
+−0.089
+0.5509
+0.6481
+24/25/26
+No
+18
+Flat
+Vector
+RAG
+Category
+C
+(Out-
+of-Context
+Refusal)
+Fisher’s
+Ex-
+act Test
++1.3% Diff.
+—
+1.0000
+1.0000
+75/75 vs. 74/75 No
+19
+GraphRAG-
+Adapted
+Category
+C
+(Out-
+of-Context
+Refusal)
+Fisher’s
+Ex-
+act Test
++0.0% Diff.
+—
+1.0000
+1.0000
+75/75 vs. 75/75 No
+20
+HippoRAG-
+Adapted
+Category
+C
+(Out-
+of-Context
+Refusal)
+Fisher’s
+Ex-
+act Test
++1.3% Diff.
+—
+1.0000
+1.0000
+75/75 vs. 74/75 No
+Notes: Ranks i ∈{1, . . . , 20} reflect ascending raw p-value ordering. FDR adjusted q-values are computed via the standard Benjamini-Hochberg step-up procedure: q(i) = mink≥i{
+20·p(k)
+k
+}. Tests with
+q < 0.05 are deemed statistically significant. Following Hoenig and Heisey (2001) [1], retrospective post-hoc power is omitted as an uninformative monotonic transformation of p-values; instead, exact
+paired outcome counts (n+/n0/n−: TERRA wins, ties, losses) are reported for Wilcoxon continuous tests alongside contingency counts for Fisher’s exact tests. For prospective study design (α = 0.05,
+two-sided, 80% target power), standardized paired-mean MDES approximations are dz = 0.283 at N = 100 and dz = 0.200 at N = 200 (dz = 0.328 for continuous Category D at N = 75); discrete
+Fisher/McNemar comparisons are evaluated via exact p-values without continuous MDES claims. The sign of ∆and the significance column identify the direction of each comparison; these observational
+contrasts do not isolate an architectural cause. Category D continuous faithfulness comparisons occupy ranks 6, 13, 16 and 17, and are distinct from the eight-test Holm-adjusted secondary family of
+discrete refusals and safe handling in the main paper. Confidence intervals in rows 2, 6 and 12–17 retain historical bootstrap values whose original resampling settings could not be verified; these intervals
+are not independently reproduced.
+S3
+
+Table S2: Comparative Baseline Adaptation Rigor and Architectural
+Parameter Configurations.
+Pipeline
+Graph
+Topology
+&
+Representation
+Retrieval Algorithm &
+Parameters
+Generator
+&
+Set-
+tings
+Context Ceiling Refusal
+&
+Safety
+Treatment
+1. Direct LLM
+None
+(pure
+parametric
+memory)
+None (k = 0)
+LLaMA 3.3 70B (T =
+0.0, 4k tok)
+0 chars
+Unconstrained
+comple-
+tion
+2.
+Flat Vector
+RAG
+None
+(unstructured
+text
+embeddings)
+ChromaDB semantic simi-
+larity (n = 2 traces)
+LLaMA 3.3 70B (T =
+0.0, 4k tok)
+≈3,200 chars max
+Direct
+generation
+from
+retrieved context
+3.
+GraphRAG-
+Adapted
+(Lou-
+vain)
+Undirected
+citation
+net-
+work (145,353 edges; Net-
+workX Louvain modular-
+ity)
+Local
+1-hop
+expansion
+(k = 5 seeds; 3 in / 3 out
+edges; 400 char extracts)
+LLaMA 3.3 70B (T =
+0.0, 4k tok)
+≈5,500 chars max
+Community-informed
+synthesis;
+fallback
+to
+epistemic disclaimer
+4.
+HippoRAG-
+Adapted
+Symmetric bipartite cita-
+tion matrix (290,706 non-
+zeros; open-walk diffusion)
+Personalized
+PageRank
+power iteration (α = 0.85,
+tol=10−6,
+max
+50
+iter,
+k = 5 opinions; 400 char
+extracts)
+LLaMA 3.3 70B (T =
+0.0, 4k tok)
+≈3,500 chars max
+Associative memory syn-
+thesis; fallback to heuris-
+tic hedges
+5. Full TERRA
+Directed
+chronological
+EEG
+(145,366
+active
+edges: 145,310 CITES + 56
+OVERRULES; 20k nodes)
+BFS traversal (k
+=
+2
+seeds, depth d = 2, hub
+cap 50, generic procedural
+scaffold injection;
+no re-
+trieval distance cutoff)
+LLaMA 3.3 70B (T =
+0.0, 4k tok)
+60,000
+chars
+hard
+ceiling
+(18.8× vs. Flat)
+Traﬀic Cop router +
+NLI
+Smart
+Grader
+(epistemic refusal / refu-
+tation; not independently
+validated)
+Notes: Shared: Harvard CAP corpus, Meta LLaMA 3.3 70B (T = 0.0, max tokens 4k). Divergences: GraphRAG undirected Louvain (Q = 0.6110); HippoRAG symmetric PPR diffusion; TERRA directed
+EEG. Context limits in code are character-based string operations ([:N]); TERRA’s 60,000-char ceiling provides an intentional 18.8× context volume asymmetry over Flat RAG.
+S4
+
+Table S3: Sensitivity Analysis: Historical Clamped Faithfulness vs. Pre-
+Clamp Raw Judge Scores Across All 350 Benchmark Queries (N = 1, 750
+Evaluations) Under the Canonical V2 Dual-Judge Protocol.
+Pipeline
+Overall
+(Clamped)
+Overall (Raw)
+Delta
+Answer-Only
+(Clamped)
+Answer-Only
+(Raw)
+Delta
+DirectLLM
+0.5339
+0.5257
++0.82%
+0.5339
+0.5257
++0.82%
+FlatRAG
+0.6800
+0.6511
++2.89%
+0.3449
+0.2914
++5.35%
+GraphRAG
+0.6668
+0.6193
++4.75%
+0.3482
+0.2556
++9.25%
+HippoRAG
+0.6946
+0.6704
++2.43%
+0.4311
+0.3919
++3.92%
+Terra
+0.7357
+0.6950
++4.07%
+0.6197
+0.5865
++3.32%
+Note: Clamped scores mirror the legacy semantic verifier rule (Amendments K, L, and M): Category D refusals without fatal errors and verified refutations are protected at ≥0.75, while aﬀirmed fatal
+errors are forced to 0.00. All other queries remain at raw dual-judge consensus scores. The headline faithfulness values elsewhere in this paper are the raw (pre-clamp) dual-judge means. ∆values reflect
+absolute percentage-point differences (Clamped −Raw).
+S5
+
+Table S4: Retrieval stability across temporal snapshot expansions on
+Category B precedent chains (N = 106 query-pair observations). Evalu-
+ates standalone BFS citation traversal seeded by benchmark origin prece-
+dents (s = q[target_nodes][0]) traversing all available directed graph
+edges (generic CITES); strictly decoupled from end-to-end vector retrieval
+and live index upsert. Latency reflects in-memory NetworkX traversal
+(grand median < 0.01 ms, mean 0.15±0.18 ms; 54/106 queries complete
+in 1–3 µs while 52/106 expand denser neighborhoods in 0.1–0.6 ms).
+Snapshot Pair
+Step N
+Nq
+Recall@T (µ ± σ)
+Recall@T+N (µ ± σ)
+∆Recall (µ ± σ)
+Discovery Rate (µ)
+BFS Latency@T+N
+(ms, med)
+1890→1930
+40 yr
+10
+0.50 ± 0.20
+0.40 ± 0.12
+−0.10 ± 0.25
+0.20
+< 0.01
+1930→1950
+20 yr
+32
+0.32 ± 0.11
+0.34 ± 0.12
+0.01 ± 0.15
+0.13
+0.14
+1950→1970
+20 yr
+44
+0.32 ± 0.06
+0.40 ± 0.16
+0.08 ± 0.14
+0.16
+< 0.01
+1970→1980
+10 yr
+20
+0.37 ± 0.16
+0.36 ± 0.15
+−0.00 ± 0.10
+0.00
+0.10
+Overall
+—
+106
+0.35 ± 0.13
+0.38 ± 0.14
+0.03 ± 0.16
+0.12
+< 0.01
+S6
+
+Table S5: Architectural and Doctrinal Feature Comparison of Retrieval-
+Augmented Generation Paradigms Across General and Legal Domains.
+Architecture
+Knowledge Substrate Temporal Dynamics
+Evidence Granularity
+Verification
+Mecha-
+nism
+Target
+Domain
+&
+Scale
+Flat Vector RAG
+[2]
+Dense
+semantic
+vector
+embeddings
+of
+text
+chunks
+Static
+/
+time-agnostic
+(similarity retrieval with-
+out temporal ordering)
+Unstructured top-k docu-
+ment chunks
+None (uncalibrated direct
+generation)
+General
+open-domain
+text corpora
+GraphRAG [3]
+Hierarchical
+entity-
+relation
+knowledge
+graph
+Static community cluster-
+ing
+(hierarchical
+Leiden
+partitioning)
+Pre-computed community
+summaries
+None (unverified hierarchi-
+cal generation)
+General query-focused
+summarization
+HippoRAG [4]
+OpenIE
+associative
+graph with Personalized
+PageRank
+Static entity co-occurrence
+edges (time-invariant acti-
+vation)
+Entity-linked passage sub-
+graphs
+None (heuristic graph acti-
+vation without entailment
+gate)
+Multi-hop
+open-
+domain
+QA
+(2Wiki,
+MuSiQue)
+LegalGraphRAG
+[5]
+Tripartite
+legal
+knowl-
+edge
+graph
+(ontology,
+fact, and rule layers)
+Static
+statutory
+linkages
+across codified articles
+Multi-agent
+structured
+reasoning trajectories
+Multi-agent
+self-reflection
+and peer review
+Chinese statutory civil
+and criminal law
+SAT-Graph RAG
+[6]
+Ontology-driven norma-
+tive knowledge graph
+Diachronic
+statutory
+amendment
+transitions
+across formal revisions
+Version-delta
+statutory
+norm texts
+Propositional SAT solver
+checking
+logical
+consis-
+tency
+Brazilian
+constitu-
+tional
+and
+statutory
+norms
+TERRA
+(Pro-
+posed)
+Directed
+common-
+law citation evolution
+graph
+Longitudinal
+prece-
+dent
+evolution
+(tciting
+≥
+tcited)
+with
+curated invalidation
+Node-level generic five-
+step
+procedural
+scaf-
+folds (not case-specific
+issue, test, and holding
+analyses)
+LLM-prompted
+ev-
+idence
+gate;
+refusal
+accuracy unvalidated
+20,000
+U.S.
+Supreme
+Court
+opinions
+(1850–
+1980)
+Notes: Feature comparison distinguishing TERRA from generic RAG baselines and contemporary legal GraphRAG architectures. Whereas LegalGraphRAG [5] and SAT-Graph RAG [6] model codified
+statutory provisions and formal legislative amendment events, TERRA is specialized for longitudinal common-law precedent, where judicial authority evolves continuously through citation networks and
+earlier precedents remain presumptive law unless explicitly modified or overruled. Furthermore, TERRA couples graph topology directly with generic procedural scaffolds and an autonomous natural
+language inference (NLI) entailment gate intended to suppress hallucinated endorsements of superseded doctrine; the gate lacks independent legal validation.
+S7
+
+Table S6:
+Standalone Traﬀic Cop Query Intent Classifier Evalua-
+tion Across Canonical Benchmark Queries (N = 350), and Category-
+Disaggregated Routing Behavior with Downstream Defense-in-Depth
+Outcomes.
+Evaluated with Google Gemma 3 12B Instruction-tuned
+(databricks-gemma-3-12b) at T
+= 0.0 under structured Pydantic
+schema validation (RoutingDecision). Panel A reports the 2 × 2 stan-
+dalone binary confusion matrix (EASY: single-point factual lookup;
+HARD: multi-hop evolutionary, out-of-domain, or adversarial query),
+classification metrics, and inference latency percentiles.
+Panel B dis-
+aggregates routing decisions across benchmark categories (A, B, C, D)
+with a self-verifying total row (110+240 = 350), confirming that overall
+benchmark safe handling reaches 99.43% (348/350), with 100.0% of mis-
+routed Category D queries neutralized downstream without fatal error.
+Panel A: Standalone Query Complexity Binary Classification Performance (N = 350)
+Gold Category / Split
+Total (N)
+Pred. EASY
+Pred. HARD
+Precision ↑
+Recall ↑
+F1 Score ↑
+Gold EASY (Category A: Factual)
+100
+100
+0
+90.91%
+100.00%
+95.24%
+Gold HARD (Categories B, C, D: Com-
+plex)
+250
+10
+240
+100.00%
+96.00%
+97.96%
+Macro-Averaged / Overall Summary 350
+110
+240
+95.45%
+98.00%
+96.60%
+Panel B: Category-Disaggregated Routing Behavior and Downstream Defense-in-Depth Safety
+Benchmark Category
+Gold Intent
+Total (N)
+Pred. EASY
+Pred. HARD
+False
+Route
+Rate
+Safe
+Handling
+Rate
+Category A (Single-Point Factual)
+EASY
+100
+100
+0
+0.00%
+100.0% (100/100)
+Category B (Multi-Hop Evolutionary)
+HARD
+100
+0
+100
+0.00%
+100.0% (100/100)
+Category C (Out-of-Context Negative)
+HARD
+75
+0
+75
+0.00%
+100.0% (75/75)
+Category D (Adversarial Deception)
+HARD
+75
+10
+65
+13.33%
+97.3% (73/75)†
+Total / Overall
+MIX
+350
+110
+240
+2.86%
+99.43% (348/350)∗
+Notes: Evaluated on all N = 350 canonical benchmark queries executed deterministically at T = 0.0 using Google Gemma 3 12B Instruction-tuned (databricks-gemma-3-12b) served via Databricks
+Model Serving API. Overall classifier accuracy is 97.14% (340/350) with an overall routing error rate of 2.86% (10/350). The router achieves zero False-HARD misclassifications (0.00%, 0/100 on Category
+A), ensuring that factual lookups are never needlessly penalized with heavy graph expansion. Across all complex queries (Categories B, C, D), the False-EASY rate is 4.00% (10/250), with zero false-EASY
+routes on Categories B and C. Standalone router latency: Min = 601.9 ms, Median = 1,126.4 ms, Mean = 1,565.5 ms, p90 = 2,043.8 ms, Max = 15,370.2 ms. †On Category D, 73/75 queries (97.3%)
+achieved safe handling: 48 explicit refusals and 25 substantive refutations under the multi-class scoring (distinct from 46 system-flagged refusals), with the only two errors being reciprocal procedural
+misattributions between Baker and Reynolds (D033/D034; Section VI-D). ∗All 10 Category D queries classified as EASY by the router were single-sentence syntactic prompts without multi-hop
+connectors. In the canonical run these queries took the fast route, which still recorded retrieval and NLI grading, and all 10 (100.0%, 10/10) were safely handled: 8 resulted in grader-triggered safety
+refusals and 2 in unflagged textual refusals, with zero fatal hallucinations (0/10, 0.0%); with n = 10 this is a small-sample observation.
+S8
+
+Table S7: Temporal Parametric Leakage Stress Test (N = 50 historical
+queries across five SCOTUS temporal cutoffs T = 1890 to 1980). Panel
+A reports complete-case and missingness-bounded sensitivity intervals
+[SPTLRlower, SPTLRupper] for Level 2 Substantive Leakage, along-
+side Refusal Rates and consensus Historical Legal Correctness Rates
+(HLCR). Panel B provides full discordant-pair (b, c) transparency across
+complete cases (Ncc) and bounded missing-data envelopes (N = 50) un-
+der exact McNemar testing.
+Panel A: Empirical Performance Across Prompting Regimes (N = 50 Queries × 4 Pipelines = 400 Evaluations)
+Condition A (Default Task Prompt)
+Condition B (Explicit Temporal Instruction)
+Pipeline
+SPTLR
+Bound
+↓
+Refusal Rate
+HLCR ↑
+SPTLR Bound ↓
+Refusal Rate
+HLCR ↑
+Direct LLM (No RAG)
+[28.0%, 40.0%]
+0.0%
+56.0%
+[26.0%, 32.0%]
+0.0%
+64.0%
+Flat Vector RAG
+[2.0%, 14.0%]†
+46.0%
+38.0%
+[26.0%, 32.0%]
+30.0%
+42.0%
+TERRAungated (Lgen)
+[16.0%, 20.0%]
+0.0%
+80.0%
+[18.0%, 24.0%]
+0.0%
+72.0%
+TERRAgated (Lfinal)
+[18.0%, 18.0%]∗
+8.0%
+76.0%∗∗
+[14.0%, 22.0%]∗
+12.0%
+72.0%
+NGLIR (Interception Rate)
+[0.0%, 20.0%]
+[16.7%, 41.7%]‡
+Panel B: Exploratory Paired Contrasts, Complete Cases (Ncc), and Full N = 50 Sensitivity Bounds
+Hypothesis & Contrast
+Target Metric
+Complete
+Cases
+(Ncc)
+Full N = 50 Sen-
+sitivity Bounds
+Exact
+McNemar
+p-value
+Directional Stabil-
+ity
+Empirical Conclu-
+sion
+H1: TERRA vs Flat RAG (Cond
+A)
+SPTLR (Leakage) N = 36 : b = 0, c =
+3
+b ∈[0, 5], c ∈[7, 8]
+p
+=
+1.0000§ (one-
+sided)
+No (c > b)
+Not Supported (Re-
+fusal Confound)
+H1 Companion: TERRA vs Flat
+RAG
+HLCR
+(Ground-
+ing)
+N
+=
+50
+:
+b
+=
+20, c = 1
+b = 20, c = 1
+p = 2.1 × 10−5∗∗
+Yes (b ≫c)
++38.0%
+automated
+HLCR
+label
+differ-
+ence
+H2:
+TERRA
+vs
+Direct
+LLM
+(Cond A)
+SPTLR (Leakage) N = 32 : b = 2, c =
+4
+b
+∈
+[11, 16], c
+∈
+[5, 6]
+p ∈[0.0133, 0.1662]
+(one-sided)
+Yes (cmax < bmin)
+Directionally
+Stable (Clean Dom-
+inance)
+H3: TERRA vs Flat RAG (Cond
+B)
+SPTLR (Leakage) N = 29 : b = 5, c =
+1
+b
+∈
+[10, 13], c
+∈
+[4, 8]
+p ∈[0.0245, 0.4073]
+(one-sided)
+Yes (cmax < bmin)
+Directionally
+Stable (Clean Dom-
+inance)
+H4:
+TERRA
+vs
+Direct
+LLM
+(Cond B)
+SPTLR (Leakage) N = 31 : b = 1, c =
+1
+b ∈[8, 11], c ∈[2, 6]
+p ∈[0.0112, 0.3953]
+(one-sided)
+Yes (cmax < bmin)
+Directionally
+Stable (Clean Dom-
+inance)
+H5: Gated vs Ungated (Cond A)
+Gate Interception
+N = 41 : b = 0, c =
+1
+b ∈[0, 2], c ∈[1, 1]
+Underpowered (N =
+50)
+Inconclusive
+Targeted Qualitative
+Safety
+H6: Gated vs Ungated (Cond B)
+Gate Interception
+N = 41 : b = 2, c =
+0
+b ∈[2, 5], c ∈[0, 4]
+Underpowered (N =
+50)
+Inconclusive
+Intercepts TLP-10 +
+5 Hallucinations
+Notes: Evaluated across 400 response instances dual-judged by qwen3-next-80b and gpt-oss-120b (κ = 0.260, raw concordance 68.6%, monotonic inclusion 100% across N = 315 complete pairs;
+remaining 85 missing values bounded via sensitivity intervals). b denotes pairs where TERRA is clean while the baseline leaks; c denotes pairs where TERRA leaks while the baseline is clean. Complete
+S9
+
+cases (Ncc) reflect pairs where both judges successfully evaluated both pipelines under the 5-tier consensus cascade. The reported full N = 50 sensitivity envelopes add extreme missing-pair contributions
+(∆b, ∆c) under assumed binary assignments, not observed outcomes (b = bcc + ∆b, c = ccc + ∆c). ∗Directional stability (cmax < bmin) shown by the reported extreme envelopes; these bounds do not
+identify the missing outcomes or certify legal correctness. ∗∗Difference in automated historical-correctness labels (not expert-validated legal correctness) (p = 2.1 × 10−5 via two-sided exact McNemar test;
+b = 20, c = 1). †Flat Vector RAG Condition A leakage is mechanically suppressed by its severe 46.0% refusal rate (23/50 safe refusals), which eliminates answering opportunities. §For H1, testing
+directional superiority (Ha : b > c) yields p = 1.0000 (complete-case two-sided p = 0.2500 at Ncc = 36; two-sided p = 0.0625 if missing records are zero-imputed at N = 50), confirming that Flat RAG
+produced zero leaks on queries where TERRA answered cleanly (bcc = 0) alongside a high refusal rate; this does not isolate refusal as the causal explanation. ‡NGLIR evaluated on denominator D = 9
+under Qwen (11.1%) and D = 5 under consensus (20.0%). Independent legal-expert validation of temporal false-negative detection was not performed. The exploratory AI-assisted author assessment is
+reported separately and does not estimate this rate.
+S10
+
+Table S8: Event Evolution Graph Topological Properties.
+Diameter
+and mean shortest path use the undirected largest weakly connected
+component of the original active 20k graph; results are not attributed
+to the corrected derivative.
+Metric
+Value
+Total Nodes (|V |)
+20,000
+Total Edges (|E|)
+145,366
+Graph Density (ρ)
+0.000363
+Mean Node Degree (¯k)
+14.54
+Maximum Degree (Simpson v. Shepard)
+276
+Average Clustering Coeﬀicient (C)
+0.2047
+Graph Diameter (dmax)
+13 hops
+Average Shortest Path Length (L)
+4.305 hops
+Largest Weakly Connected Component (WCC) 18,558 (92.8%)
+Largest Strongly Connected Component (SCC)
+2
+S11
+
+Table S9: Evaluation Block Provenance. Dates are from file timestamps
+or logged runner headers; “date not recorded” means no timestamp was
+found in the source files.
+Block
+Date (source) Models
+N (unit)
+Baseline generations
+5–6 Sept. 2026
+(file mtime)
+Gen: llama-3.3-70b-instruct; no
+router/NLI
+1,400 out-
+puts
+Deployed TERRA run
+14 Sept. 2026
+(file mtime)
+Router:
+gemma-3-12b; NLI + gen:
+llama-3.3-70b-instruct
+350
+queries
+Dual-judge scoring
+14 Sept. 2026
+(file mtime)
+J1:
+qwen3-next-80b;
+J2:
+gpt-oss-120b
+1,750 out-
+puts
+Pilot ablation (Table II)
+date
+not
+recorded
+Single
+judge:
+llama-3.3-70b-instruct (recorded
+endpoint)
+35 queries
+Temporal leakage probe
+17 Sept. 2026
+(file mtime)
+J1:
+qwen3-next-80b;
+J2:
+gpt-oss-120b
+400
+records
+Category D certification
+20 Sept. 2026
+(file last modi-
+fied)
+Semantic
+verifier:
+llama-3.3-70b-instruct
+75 queries
+CaseFacts eval
+18 Sept. 2026
+(file mtime)
+J1:
+qwen3-next-80b;
+J2:
+gpt-oss-120b
+170
+queries
+CLERC eval
+18 Sept. 2026
+(file mtime)
+J1:
+qwen3-next-80b;
+J2:
+gpt-oss-120b
+170
+queries
+Obscure suite
+19–20
+Sept.
+2026
+(file mtime)
+Gen:
+llama-3.3-70b-instruct;
+J1/J2 as above
+120
+out-
+puts
+Famous D1 contrast
+19–20
+Sept.
+2026
+(file mtime)
+Gen:
+llama-3.3-70b-instruct;
+J1/J2 as above
+76
+out-
+puts
+Prospective
+hybrid
+com-
+parison
+25 Oct. 2026
+(run records)
+Router: Gemma 3 12B; verifier/gen:
+Llama 3.3 70B; judges: Qwen3-Next
+and GPT-OSS
+350 pairs
+Stored-context sensitivity
+historical dates
+unverified
+Canonical: 66/100; legacy: 62/100
+complete
+target
+sets;
+separate
+bounded engine: 61/100
+100
+queries
+Distance-only diagnostic
+8 Oct. 2026
+(run record)
+MiniLM squared-L2; benchmark text
+only, not Title Match
+350
+queries
+Temporal-update topology 23 Sept. 2026
+(recorded
+timestamp)
+BFS stability; 106 pair observations,
+not generated answers
+82 queries
+S12
+
+Corpus / taxonomy audits historical dates
+unverified
+Original graph properties and auto-
+mated classification audits; no blan-
+ket historical run linkage
+20,000
+nodes
+Notes: N denotes the population described in each row, not a uniform count of model calls. The 35-query ablation has 700 stored observations (four arms, five repeats); CaseFacts and CLERC each have
+170 source questions and 510 stored arm-level observations (three arms). Obscure/famous engine hashes match a preserved source file (430fc1b3...), and index fingerprints are recorded. Primary, pilot,
+CaseFacts and CLERC records lack equivalent historical code/graph/index linkage. Temporal-probe hashes identify prompt/context/candidate payloads. The separate temporal-update file records 106
+pair observations from 82 unique queries, a timestamp and active-graph/subgraph hashes; the timestamp is a recorded value, not independently authenticated time. File modification dates elsewhere are
+not execution dates. In the recovered source, degree greater than 50 activates hub handling with directional budgets of 75 incoming and 25 outgoing neighbors; these are simultaneous controls, not
+conflicting cap versions. Current source does not authenticate historical settings. Recorded generator identifiers also reflect different logging paths (requested model arguments versus returned identifiers),
+not proof of identical backend weights. The prospective comparison uses separate frozen graph/code inputs and a shared pipeline; details and observed model identifiers are recorded with Section S3. It
+does not recover historical configuration identities.
+S13
+
+Table S10:
+Pipeline Execution Latency Percentiles (Milliseconds).
+Panel A: Gross wall-clock time (end-to-end including any server-imposed
+retry sleep). Panel B: Net time (retry sleep subtracted). TERRA fast
+route (N = 110): 100 Category A queries plus 10 Category D queries
+routed EASY by the traﬀic-cop; the EASY route records anchor retrieval
+and evidence grading without graph traversal; generation occurs only
+where permitted. TERRA hard route (N = 240): 100 Category B + 75
+Category C + 65 Category D queries; HARD records retrieval/graph ex-
+pansion and evidence checking; generation occurs only where permitted.
+Baselines ran sequentially (5–6 Sept.); TERRA ran with four concurrent
+workers (14 Sept.), so comparisons are indicative only. Forced-hard-path
+latency (Ablation 3) is in Table II (median 6.75 s).
+Execution Path
+p25 Median
+p75
+p95
+Mean ± sample SD
+Panel A: Gross latency (ms)
+Direct LLM (No RAG)
+1, 807
+4, 861
+9, 988
+13, 404
+6, 006 ± 4, 347
+Flat Vector RAG
+2, 178
+2, 952
+7, 796
+12, 647
+4, 805 ± 3, 956
+GraphRAG-Adapted
+2, 223
+2, 860
+8, 024
+11, 904
+4, 956 ± 3, 640
+HippoRAG-Adapted
+1, 971
+2, 703
+7, 607
+10, 992
+4, 482 ± 3, 355
+TERRA Overall
+3922.88
+9185.07 17334.36 45837.21
+14293.97 ± 14780.80
+TERRA Fast Route (N = 110; Cat A + 10×Cat D)
+4065.30
+5464.96 15955.80 18773.82
+9154.17 ± 8043.42
+TERRA Hard Route (N = 240; Cat B + C + 65×Cat D)
+3636.39 14067.48 20002.50 51093.50
+16649.71 ± 16485.95
+Panel B: Net latency, retry sleep subtracted (ms; recorded retry sleep subtracted per row)
+TERRA Overall (net)
+—
+7744.47
+— 38729.13
+—
+TERRA Fast Route (net, N = 110)
+4065.30
+5464.96
+7279.80 17907.36
+7335.99 ± 5701.29
+TERRA Hard Route (net, N = 240)
+3636.39 14067.48 18738.47 44397.45
+14899.71 ± 14076.02
+Secondary block: Category-level TERRA gross latency (ms)
+TERRA Category A
+4143.46
+5828.08
+— 19000.21
+9609.67 ± 8294.57a
+TERRA Category B
+14982.89 17938.50
+— 59988.93
+26298.01 ± 17548.51a
+a Category-level gross latency across all Category A (N = 100) and Category B (N = 100) queries; p75 omitted to limit column width.
+S14
+
+S1
+Detailed limitations
+1. Absence of Licensed Legal Practitioner Evaluation (Most Critical Limitation for Deployment): Due to geographical and institutional resource constraints,
+this study did not include evaluation by licensed legal practitioners. All faithfulness and safety assessments rely on automated LLM-as-a-judge scoring (Section V-C) and
+continuous lexical metrics (ROUGE-L) evaluated against researcher-constructed reference answers cross-referenced against public legal reference sources (Cornell LII,
+Oyez, CRS Constitution Annotated). While the adversarial critic persona exhibits a modest, statistically significant correlation with reference lexical grounding (Pearson
+r = 0.555, p =
+1
+10001 ≈9.999 × 10−5), automated scoring cannot replicate practitioner judgment on subtle constitutional doctrine. Specifically, practitioners would assess
+legal correctness, temporal consistency, citation validity, and hallucination behavior beyond continuous metrics. Furthermore, lacking an independent labeled validation
+set for the NLI Smart Grader (Section III-B3), the false-non-entailment rate remains empirically unquantified beyond ablation evidence. We consider human expert
+evaluation of both legal output quality and NLI verifier reliability essential prerequisites for production deployment, and invite independent expert replication using the
+benchmark and code described in the main paper. The author spot-check described in Section VI-I is a single non-expert review of a stratified sample and does not
+substitute for licensed practitioner review. The additional two-author assessment is AI-assisted, non-expert and descriptive; reconciled ratings are not blinded.
+2. Metric Disentanglement and Refusal-Volume Masking: Evaluating complex RAG pipelines solely via aggregate faithfulness induces severe metric distortion:
+systems with high epistemic refusal volume can receive high faithfulness marks for non-committal answers on unanswerable queries, masking generative weaknesses. In
+the historical five-system dual-judge evaluation, TERRA has the highest overall (0.695 vs. 0.670; intervals overlap) and answer-only faithfulness (0.586 vs. 0.392) with
+fewer flagged refusals (139 vs. 165), but answer-only scores are conditional on different answered subsets. On multi-hop reasoning TERRA leads HippoRAG by +0.066
+(q = 0.0124). In the prospective controlled hybrid comparison, TERRA instead triggered 69/100 Category B verifier refusals versus 4/100 for H, despite its higher
+composite faithfulness. Neither score certifies useful-answer coverage or legal correctness. Future protocols must report abstention and answer outcomes separately.
+3. Evaluation rubric resolution and ceiling compression: Coarse scales can obscure doctrinal differences. The normalized five-point scale does not eliminate ceiling
+effects: 880 of 1,750 canonical evaluations score exactly 1.0 (50.3%). Automated rubric scores are not legal ground truth.
+4. Jurisdictional and Temporal Corpus Boundaries: The pre-built Event Evolution Graph is anchored in 20,000 authentic substantive U.S. Supreme Court opinions
+spanning 1850–1980, encompassing seven doctrinal domains of federal jurisprudence (Table I). Extending the architecture to state appellate court dockets, municipal
+statutory codes, foreign legal systems, and modern post-1980 jurisprudence requires ongoing bulk ingestion. Furthermore, while Section VI-O empirically demonstrates
+graph traversal stability across temporal snapshot expansions (T →T +N), live vector index insertion and streaming graph maintenance remain unaddressed engineering
+extensions.
+5. Hosted API Output Variability at T = 0.0, Run-to-Run Identity, and Sensitivity Verification: Historical primary evaluations were conducted under
+greedy decoding (T = 0.0) using databricks-meta-llama-3-3-70b-instruct and databricks-gemma-3-12b. While setting T = 0.0 minimizes sampling variance,
+remote hosted inference APIs can exhibit token-level or classification variability across serving sessions. Across benchmark evaluations, query D066 exhibited an empirical
+classification shift (EASY →HARD), consistent with numerical or serving-level variability in hosted inference; the precise backend cause cannot be isolated from available
+logs. Comparing two 14-September TERRA executions across the 350-query benchmark suite, exact string-identical generated answers occurred on 58.9% of queries overall
+(206/350), with pronounced category divergence: 95.0% on Category A (95/100) and 82.7% on Category C (62/75), versus 52.0% on Category D (39/75) and 10.0% on
+Category B (10/100). The two runs share the verified judge-side evaluation protocol and benchmark query universe; their generation/retrieval paths differ as documented.
+Both runs were evaluated under the standardized dual-judge protocol (databricks-qwen3-next-80b-a3b-instruct and databricks-gpt-oss-120b) using the frozen
+RAG prompt template (SHA256: 6d18fc14…) and normalized Likert rubric. Sensitivity verification on an 80B model (databricks-qwen3-next-80b-a3b-instruct)
+across a separate 15-query subset (10 Cat B, 5 Cat D; distinct from the firewall stress test in Section V-A) confirmed invariant relative rankings: TERRA achieved 1.000
+Category B Faithfulness (vs. 0.900 Flat RAG, 0.800 Direct LLM) and 100% Category D safety rejection (vs. 40% Flat RAG, 0% Direct LLM). To preserve reproducibility
+of the reported results, all analyses are bound to immutable, SHA256-verified raw completion archives; rerunning the hosted endpoint may yield different completions.
+6. Parametric knowledge and temporal containment: Direct LLM scored higher than TERRA on Category D continuous faithfulness (∆= −0.200, p = 3.8 × 10−5,
+q = 1.27 × 10−4; main FDR table, Rank 6) and Category B (−0.081, q = 0.0023). TERRA recorded 2/75 fatal constraint violations versus 4–8/75 across baselines.
+S15
+
+Category D refusal and safe-handling comparisons form one eight-test Holm-adjusted secondary family; no safe-handling contrast survives that adjustment. Famous-case
+pretraining is a possible explanation, not an identified cause. TERRA’s 73/75 safe outcomes comprise 48 refusals and 25 refutations in four-class scoring; system-flagged
+refusals are a different measure (46/75). D033 and D034 transposed the roles of Baker and Reynolds. Retrieval provenance does not purge post-cutoff knowledge from
+model weights or guarantee temporal correctness. Missing temporal judge values can reflect filtering or API errors; missingness alone does not establish the cause. On
+the obscure suite Direct LLM safe handling was 0.0% versus 15/19 (78.9%) on the famous subset. Citation coverage and full-path recovery are retrieval/attribution
+measures, not proof of legal correctness. Adaptive invalidation-path traversal, weight-level approaches and expert checks remain future work.
+7. Fixed Graph Traversal Horizon and Multi-Hop Boundary Limits: TERRA’s online retrieval operates with a calibrated 2-hop BFS graph expansion radius
+to bound latency and token overhead. While 2-hop traversal captures direct citing and invalidating authorities across most evolutionary arcs, it can miss subsequent
+modifying precedents when citation chains exceed two steps. An empirical boundary emerged during our CaseFacts audit on Chimel v. California (query CF_INC_058;
+Section VI-J), where the modifying precedent (United States v. Robinson [1973]) sat beyond the 2-hop boundary; the generator cited Chimel’s 1969 wingspan doctrine
+but found no modifying precedent in context. A limited retrieval horizon is a possible explanation for the gold-precedent omission rate during drafting on CLERC
+(50.0%/37.5%; Section VI-K), where incomplete context may encourage analogical reasoning from historical cases rather than fabrication. Developing adaptive traversal
+horizons along invalidation paths represents a high-priority architectural extension.
+8. Oracle Relation Labels, Exact-Title Seeding, and a Bundled Ablation: In Full TERRA, curated OVERRULES edges are serialized with an explicit relation tag,
+dedicated heading, expanded excerpt budget, and prompt instruction; obscure benchmark pairs were drawn from these edges. The Full-TERRA advantage on that suite
+is therefore contingent on curated annotations, and the bundled ablation cannot isolate the tag alone. For named-case queries, seeding relied on exact caption matches
+(category-filtered vector retrieval returned no candidates), causing two queries to produce empty context and safe-rated refusals, one to omit the overruling case, and
+two to take the fast path; we evaluated TERRA as deployed and report sensitivity subsets excluding these items. The primary comparison contrasts complete systems,
+and Direct LLM receives no instruction block. Outcomes are judge-dependent in magnitude, the suite has thirty items, and judges were not fully blind to arm identity.
+9. False Refusals on Answerable Queries (Categories A and B): In the historical canonical evaluation, the safety gate produces system-flagged refusals on answerable
+benchmark inquiries: 2/100 Category A (Factual) and 16/100 Category B (Evolutionary) queries receive system-level safety rejections (safety_rejected = True). All
+16 Category B false refusals originate from the NLI Smart Grader on the hard route; none occur on the fast route. Individual causes were not separately diagnosed. The
+prospective B refusal counts (T69/H4) are verifier decisions, not an independently adjudicated false-rejection rate.
+10. Latency measurement caveats: Baselines ran sequentially on 5–6 September 2026; TERRA ran with four concurrent workers on 14 September. 36/350 TERRA
+queries incurred HTTP 429 back-off (620 s total). EASY includes 110 queries (100 A and 10 D), gross/net median 5.465 s; HARD includes 240 (100 B, 75 C, 65 D),
+gross/net median 14.067 s. Category A/B medians (5.828/17.939 s) are not route medians. Retry sleep is subtracted per query before computing net percentiles. These
+are unlike harnesses; aggregate medians obscure routing and throttling, and comparisons are indicative only.
+11. Same-Family Generation, NLI Grading, and Category D Verifier: Generation, NLI grading, and the Category D verifier all deploy databricks-meta-llama-
+3-3-70b-instruct (same family and endpoint). Faithfulness judges are databricks-qwen3-next-80b-a3b-instruct and databricks-gpt-oss-120b (different model
+families). Category D four-class labels (refusal, refutation, fatal error, hedge) may inherit shared Llama biases; cross-family verifier ablation has not been run.
+12. Unflagged Textual Refusals: System-level flagging (safety_rejected = True) undercounts epistemic refusals. Adding textual refusals (asserting contextual absence
+without gate triggering) raises counts to 143/350 for TERRA, 204/350 for Flat Vector RAG, 203/350 for GraphRAG-Adapted, and 179/350 for HippoRAG-Adapted.
+Unflagged TERRA cases are D034 (refusal phrasing with fatal error, score 0.000), D061 (verified refutation, floored at 0.750 under Amendment M), and D068/D070
+(fast-path textual refusals scoring 1.000). Aggregate Table S3 sensitivity results for TERRA are invariant to this distinction (∆= 0.000).
+13. Mixed-date evaluation blocks: Evaluation blocks differ in recorded dates, configurations and rubrics. The prospective hybrid comparison is separately frozen and
+does not recover the historical run identities. File modification dates are not execution timestamps. The obscure/famous records identify a recovered engine source
+and vector-index fingerprints, but exact historical code/graph/index linkage remains unavailable for the primary, pilot, CaseFacts and CLERC results. Temporal-probe
+S16
+
+payload hashes do not establish the generating engine or graph version. The pilot records identify a single Llama-3.3-70B judge, unlike canonical dual judging; task-
+specific scores are not interchangeable. Category B/D context profiles differ without establishing different execution dates. Requested generator endpoint parity does
+not establish backend weight invariance. See Table S9.
+14. Corpus Length-Filtering Bias and Concise Landmark Exclusion: Filtering by length (≥4,000 characters) purges noise: across 399 volumes (131,315 cases),
+102,235 records are < 500 characters (77.85%, procedural orders/dockets). However, equating length with authority induces bias: it excludes 8,324 decisions (500–3,999
+characters, 6.34%), with 46 in the top 0.5% of CAP PageRank authority. Deterministic audit of 63 landmarks reveals 21 (33.33%) were purged, including procedural
+standards (Haines, 3,730 chars, 100.00th percentile; Diebold, 2,441 chars, 100.00th percentile), competency (Dusky, 1,532 chars, 99.99th percentile), tax milestones (Lucas
+v. Earl, 3,654 chars), and desegregation orders (Sipuel, 2,012 chars; Gayle, 712 chars). Bolling v. Sharpe (5,137 chars) met the threshold but was omitted in subsampling.
+Future graphs should replace static floors with citation retention.
+15. Citation Extraction Precision, Same-Year Chronology, and Provenance Uncertainty: Automated citation extraction via eyecite establishes citation existence
+rather than doctrinal endorsement. Our stratified audit (N = 200, seed 20260924) confirms 100.0% of sampled edges contain reporter strings; direct precedential reliance
+is verified in 94.5% (95% CI: [90.4%, 96.9%]), with 5.5% in quotations. Furthermore, 4,077 edges (2.81%) connect same-year opinions, with 13 intra-year date reversals
+from publication artifacts and zero cross-year forward violations.
+The legacy claim of “99.91% chronological validity / 0.09% noise” in earlier working drafts was
+untraceable to repository artifacts, mandating this audit. Citation trails provide candidate authorities with 94.5% precision rather than certified doctrinal paths.
+16. Rule-Based Doctrinal Taxonomy, Lexical Polysemy, Truncation, and Residual Fallback Bias: The seven-domain classification is generated by a determin-
+istic 69-phrase rule-based lexicon over truncated texts (≤4, 000 characters), inducing four limitations: (1) Lexical polysemy: Keyword matching without contextual
+disambiguation risks misclassification when terms appear in procedural dicta or dissenting quotes. (2) Truncation artifacts: Truncating texts to 4,000 characters restricts
+matching to introductory syllabi, occasionally missing dispositive holdings. (3) Residual fallback bias: The general_constitutional_statutory category acts as an
+unkeyed fallback for 4,594 decisions (22.97%) lacking substantive keywords, functioning as a catch-all with 10.0% baseline precision despite 100.00% validity as a residual
+class. (4) Absence of human expert annotation: Taxonomy validation relies on dual automated evaluators (IEA 44.29%, Cohen’s κ = 0.3395) and a blinded automated
+adjudicator (34.15% weighted accuracy, 95% CI: [25.27%, 43.02%]), not licensed practitioner annotation; classifications are not certified human ground truth.
+17. A Priori Hyperparameter Selection and Sensitivity Analysis Scope: Core retrieval and graph expansion parameters (k = 2, depth d = 2, hub cap 50, geometric
+threshold τ = 1.30) were fixed prior to benchmark construction and evaluation based on topological network constraints and preliminary feasibility testing on an
+independent 35-query development suite (August 2026). The development audit does not establish global optimality or exclude all contamination. Empirical sensitivity
+sweeps across 22 configurations (Section VI-L, Table X Panel C) profile performance across horizons (k ∈{1, 2, 4}, d ∈{1, 2, 3}, C ∈{25, 50, 100}), describing the
+older stored-context configuration, not exact reproduction of canonical-v2 (k = 2, d = 2, C = 50, 86.08% macro recall, 62.0% full path recall) while quantifying the
+coverage-eﬀiciency trade-off under bounded operational caps (90.85% landmark retention, 97.0% context reduction). Canonical-v2 recovers 66/100 complete targets,
+older stored contexts 62/100 and the separate bounded engine 61/100; these are distinct records and configurations.
+18. Task-Corpus Domain Asymmetry and Private-Law Generalizability Scope: A core methodological boundary is the intentional asymmetry between corpus
+composition and benchmark task scope. While the indexed repository reflects the complete 20,000-case docket spanning seven domains (51.5% private and general
+statutory law), the evaluated multi-hop reasoning benchmark (Category B) evaluates constitutional and public-law precedent exclusively (100.0% across five public-
+law domains; zero private-law chains). While the evaluation demonstrates TERRA’s measured performance on the evaluated constitutional citation chains across a
+dense background network containing 5,707 private-law distractors, the system’s performance on complex multi-hop statutory or patent reasoning remains unvalidated.
+Multi-hop evolutionary retrieval over complex commercial codes and specialized regulatory dockets constitutes an important open frontier for future domain-specific
+evaluation.
+S17
+
+S2
+Exploratory AI-assisted author assessment
+As an exploratory assessment, two project authors, neither legally trained nor licensed to practise law, reviewed 76 assigned response instances each with AI assistance. Author
+1 drafted assessments and used AI for source finding, interpretation, checking and rewriting; Author 2 reviewed and amended AI-proposed ratings and rationales. Original
+ratings were recorded before access to the other author’s ratings; reconciliation subsequently incorporated shared ratings and source-audit feedback. The sample includes
+repeated questions and overlapping response instances, so the assignments are not 152 independent queries. These assessments are descriptive, not independent legal-expert
+validation or population estimates.
+Each author assessed 76 assigned rows. Non-refusal coverage includes substantive and mixed refusal/substantive responses. Supported-answer yield counts non-refusal rows
+rated supported divided by all assigned rows. Contradicted among non-refusals divides contradicted rows by substantive-plus-mixed rows. These are descriptive proxies, not
+verified legal-correctness measures. Supported ratings can reflect a correct central answer despite subsidiary errors. Uncertain ratings remain separate.
+Measure
+Author 1 original Author 1 reconciled Author 2 original Author 2 reconciled
+Non-refusal coverage
+62/76 (81.6%)
+62/76 (81.6%)
+65/76 (85.5%)
+65/76 (85.5%)
+Supported-answer yield
+43/76 (56.6%)
+40/76 (52.6%)
+47/76 (61.8%)
+47/76 (61.8%)
+Contradicted among non-refusals
+19/62 (30.6%)
+22/62 (35.5%)
+12/65 (18.5%)
+12/65 (18.5%)
+Author 2 rated six non-refusals uncertain; Author 1 rated none uncertain. Reconciled values apply only author-confirmed amendments. Author-specific aggregates must
+not be compared as system-performance estimates or pooled as independent observations. No pipeline-specific analysis, paired agreement, confidence intervals, weighting or
+verifier confusion matrix is reported. Supporting-text corrections were excluded from the completed ratings-only analysis; source attribution and rationale completeness are
+not certified by this table.
+S3
+Prospective controlled hybrid comparison
+This fresh run is distinct from the canonical five-system evaluation and the earlier partial attempt. All 350 assigned queries (100 A, 100 B, 75 C, 75 D) completed. H used
+native dense top-100 and Okapi BM25 top-100 candidates fused with reciprocal-rank constant 60; T used the same dense ranks, two seeds, depth zero/two nodes for EASY
+and depth two/up to 40 nodes for HARD, with incoming/outgoing hub caps 75/25. Layer-1 stored document text was identical across sparse and dense indexing, while Layer-2
+evidence fields came from one shared 20,000-node graph snapshot with 145,363 edges (145,310 citations and 53 overruling relations). This corrected snapshot is not an identity
+claim about the historical 56-tag graph.
+One query-only router selected EASY/HARD for both arms; this control did not exercise the legacy title-match or geometric-proximity helper and is not a replay of
+the historical routing implementation. The arms shared the formatter, 6,000-token evidence budget and 7,000-token generator/verifier prompt ceiling; judges allowed 15,000
+local input tokens, including the actual answer. Generator/verifier output caps were 4,096/512; judge caps were 1,024/4,096, with low GPT-OSS reasoning effort. The
+same role-specific JSON schemas constrained router, verifier and judges in both arms, with plain-text generation. No malformed output was repaired. A negative verifier
+decision produced a standardized refusal that both judges assessed. Generation temperature was zero, with hash-seeded arm order (seed 42); this does not establish provider
+determinism.
+Serving endpoints were Databricks Gemma 3 12B (router), Llama 3.3 70B (verifier/generator), Qwen3-Next 80B A3B and GPT-OSS 120B (judges). The archived packet
+and raw returned identifiers bind this run; identifiers do not certify server weights or tokenizer equivalence. The recovered Gemma tokenizer retains its unresolved independent
+upstream transport-receipt caveat. Provider-reported token usage was checked and settled for every request.
+Among the 100 assessable Category B pairs out of 100 assigned, the T-minus-H composite difference was 0.26885 (paired percentile-bootstrap 95% CI [0.16035, 0.37205];
+two-sided paired randomization p = 0.000010). T produced 69/100 verifier-triggered refusals on Category B versus 4/100 for H; this coverage tradeoff prevents interpreting the
+faithfulness difference as better answer coverage or legal correctness. The primary Category B analysis uses 10,000 query-level paired bootstrap resamples and 100,000 paired
+sign-flip draws (exact enumeration if at most 14 pairs are assessable), base seed 42 (randomization substream 43). It is separate from the historical multiple-testing family;
+the reported Monte Carlo probability uses the plus-one correction and cannot resolve probabilities below its draw-count floor. Resampling describes this fixed benchmark, not
+S18
+
+Table S11: Prospective controlled comparison. Means and differences use assessable pairs; refusal counts use all assigned queries. H/T in the last column denotes verifier-based
+refusals. Secondary categories are descriptive.
+Category Eligible/assigned H mean T mean
+T–H Refusals H/T
+A
+100/100
+0.8950
+0.9750
+0.0800
+47/74
+B
+100/100
+0.4951
+0.7640
+0.2689
+4/69
+C
+75/75
+0.9933
+0.9667 -0.0267
+75/75
+D
+75/75
+0.8133
+0.8433
+0.0300
+46/54
+a probability sample of legal practice. Complete-case inference is conditional on assessability and can be biased by missingness. The assigned Category B cohort’s worst-case
+difference bounds are [0.2689, 0.2689], allowing each excluded pair to range from -1 to 1. Faithfulness concerns support in supplied evidence, not independent legal correctness
+or task utility; justified abstentions and substantive answers must be interpreted with their separate outcomes.
+A prior unstructured-output attempt stopped on invalid JSON after 83 Category A pairs and 671 settled calls; those pairs are not resumed or merged here. A subsequent
+diagnostic stopped before any provider call because of a local zero-wait timing bug. Its repair was tested before a fresh five-role compatibility probe and this separately generated
+run. This fresh study used 2706 settled requests and had a conditional reference token cost of $61.935583. The conversion assumes the disclosed, unverified USD-per-DBU
+rate and is not an invoice; fixed charges and credits were not independently certified. No HTTP retries or silent query replacement occurred. Raw journals, frozen inputs
+and the analysis ledger preserve the complete history. The comparison does not validate historical adapted-baseline implementations, isolate every graph/scaffold component,
+establish cross-seed stability or replace licensed-practitioner review.
+References
+[1] J. M. Hoenig and D. M. Heisey, “The abuse of power: The pervasive fallacy of power calculations for data analysis,” The American Statistician, vol. 55, no. 1, pp. 19–24,
+2001.
+[2] P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin, N. Goyal, H. Küttler, M. Lewis, W. tau Yih, T. Rocktäschel, S. Riedel, and D. Kiela, “Retrieval-augmented
+generation for knowledge-intensive nlp tasks,” in Advances in Neural Information Processing Systems (NeurIPS), vol. 33, 2020, pp. 9459–9474.
+[3] D. Edge, H. Trinh, N. Cheng, J. Bradley, A. Chao, A. Mody, S. Truitt, D. Metropolitansky, R. O. Ness, and J. Larson, “From local to global: A graph rag approach to
+query-focused summarization,” 2024.
+[4] B. J. Gutiérrez, Y. Shu, Y. Gu, M. Yasunaga, and Y. Su, “Hipporag: Neurobiologically inspired long-term memory for large language models,” in Advances in Neural
+Information Processing Systems (NeurIPS), 2024.
+[5] Z. Chen, Q. Zhang, Z. Xiang, Z. Wei, L. Gao, X. Huang, Z. Zhang, and J. Su, “Legalgraphrag: Multi-agent graph retrieval-augmented generation for reliable legal
+reasoning,” in Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL), 2026, pp. 37 455–37 484.
+[6] H. de Martim, “An ontology-driven graph rag for legal norms: A hierarchical, temporal, and deterministic approach,” in Legal Knowledge and Information Systems (JURIX
+2025), ser. Frontiers in Artificial Intelligence and Applications, vol. 395.
+IOS Press, 2025, pp. 586–591.
+S19

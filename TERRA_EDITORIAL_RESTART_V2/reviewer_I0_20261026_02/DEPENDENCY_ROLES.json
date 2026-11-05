@@ -1,0 +1,19 @@
+{
+  "dependencies": [
+    {
+      "role": "corrected_graph_archive",
+      "preservation": "VERIFIED_IN_PLACE",
+      "historical_attribution": "not substituted for missing historical lineage",
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\derived_graphs\\r30corr_v1\\terra_eeg_index_20k_r30corr_v1.json.xz",
+      "bytes": 16630936,
+      "sha256": "330ab8c58468011de380f0d2a82f4cfda28e628ac001c314572a751540da5c63"
+    }
+  ],
+  "not_in_scope": [
+    "vector database connections",
+    "full CAP corpus inventory",
+    "credentials",
+    "API endpoints"
+  ],
+  "source_dependencies": "All47 build sources copied and independently hash matched; graph archive verified in place."
+}

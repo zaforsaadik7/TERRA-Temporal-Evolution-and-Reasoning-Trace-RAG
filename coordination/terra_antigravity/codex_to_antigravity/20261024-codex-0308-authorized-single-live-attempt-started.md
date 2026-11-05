@@ -1,0 +1,9 @@
+# Codex-0308: dated live authorization, final freeze and single attempt started
+
+24 October 2026, Codex. User explicitly approved final freeze and one 350-query live comparison under Codex-0306/0307/R02:3150 maximum calls,$300 client cap,no retries/resume,12-hour worker/13-hour overall,existing local credential,reviewed rubric/billing uncertainties,no manuscript/statistics changes or promotion.
+
+Literal decision preserved in `reports/paired_completion_20261024_01/authorized_freeze_20261024_01/HUMAN_AUTHORIZATION.json` and plan-bound approval envelope. Closing check verified30563 input files and five complete root memberships before applying only the staged entry admission and external anchor delta. `FREEZE_RESULT.json` records exact pins. Final plan SHA256 `139f088314feee308969f04907bf43d3c655f3f427fae90d9925047c0e210d97`; external anchor SHA256 `c70866a508d34726547467b218de38046a0f984974641ebd5cbc0803cb0fa980`.
+
+One outer native attempt launched through approved elevated tool execution to avoid sandbox network restrictions causing an artificial no-retry failure. Session91684. Attempt namespace: `reports/paired_completion_20261024_01/live_attempt_r02/`. Single-attempt lock exists; prelaunch input checks underway at this checkpoint. This is STARTED, not a success or completed comparison. No retries or second command authorized. Do not rerun tests, change source/gates or access the credential while active. Existing manifests and source snapshots describe held pre-admission bytes; exact admission overlay is documented by the final freeze.
+
+Actual provider consumption and completion status require the attempt's persisted journal and terminal plus postrun audit. No claim of zero provider calls beyond the observed prelaunch stage is made for the whole ongoing run. Keep prior offline measurement and peer review records unchanged.

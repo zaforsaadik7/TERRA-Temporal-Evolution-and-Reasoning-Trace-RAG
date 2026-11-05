@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-067",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "N/A",
+  "disposition": "HOLD_PLURALITY_ATTRIBUTION",
+  "attribution_finding": "Jacobellis passage is Brennan opinion joined by Goldberg, a plurality, not majority holding. Miller passage is majority.",
+  "fidelity_finding": "Jacobellis191 and Miller24 words correspond (ellipsis omits nested citations).",
+  "pinpoint_finding": "191 and24 correct.",
+  "scope_and_cutoff_finding": "Miller1973 expressly declines the earlier utterly-without-redeeming-value formulation. Do not fuse the two tests into simultaneous current requirements or elevate Brennan's plurality into binding majority rationale. N/A cutoff is not a historical-year restriction.",
+  "evidence": [
+    "sources/USREPORTS-378-184.txt:71–73,293–309",
+    "sources/USREPORTS-413-15.txt:369–380"
+  ],
+  "proposed_action_not_applied": "Label Jacobellis plurality and state historical relationship to Miller; no rating inference.",
+  "unresolved_questions": [],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "Roth v. United States, 354 U.S. 476 (1957) — https://supreme.justia.com/cases/federal/us/354/476/\nJacobellis v. Ohio, 378 U.S. 184 (1964) — https://supreme.justia.com/cases/federal/us/378/184/\nMiller v. California, 413 U.S. 15 (1973) — https://supreme.justia.com/cases/federal/us/413/15/\nTinker v. Des Moines Independent Community School District, 393 U.S. 503 (1969) — https://supreme.justia.com/cases/federal/us/393/503/",
+  "ledger_excerpt": "From Jacobellis v. Ohio, 378 U.S. 184, 191 (1964):\n\"Nor may the constitutional status of the material be made to turn on a 'weighing' of its social importance against its prurient appeal, for a work cannot be proscribed unless it is 'utterly' without social importance.\"\nFrom Miller v. California, 413 U.S. 15, 24 (1973):\n\"The basic guidelines for the trier of fact must be: (a) whether 'the average person, applying contemporary community standards' would find that the work, taken as a whole, appeals to the prurient interest... (b) whether the work depicts or describes, in a patently offensive way, sexual conduct specifically defined by the applicable state law; and (c) whether the work, taken as a whole, lacks serious literary, artistic, political, or scientific value.\""
+}
+

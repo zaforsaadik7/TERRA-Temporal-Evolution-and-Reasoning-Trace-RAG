@@ -1,0 +1,11 @@
+Notes: Evaluated on Category B (N = 100, 342 gold precedents). Target coverage uses an exact CAP ID anywhere in context or a case-title prefix longer than four characters; complete recovery means
+every gold target matches, not independently verified connected-path recovery in Panels A/B, on stored context_full fields from terra_canonical_v2_eval.json (SHA256 prefix 95e775e2) delivered to
+the 70B generator in the primary dual-judge benchmark. †The 5-node stratum (N = 5) is a descriptive diagnostic demonstrating topological feasibility (exact Clopper-Pearson 95% CI: [0.5%, 71.6%]).
+Panel C uses anchors extracted from terra_baselines_eval_raw.json, not canonical-v2 contexts. Section 1 matches the older records’ context-node sets, traversal-node sets and gold intersections on
+100/100 queries (62/100 complete recoveries); this is set-level parity, not byte-identical context or fresh vector-retrieval reproduction. Section 2 uses the same legacy-derived anchors with a bounded engine
+and yields 61/100, distinct from canonical v2’s 66/100. Section 2 evaluates the bounded post-Issue #13 engine as an operational-eﬀiciency diagnostic; visited nodes counts BFS expansion centers (mean
+2.0), which reach the 35,000-character ceiling after expanding the 2 seeds, assembling 78.7 unique case authorities into context and retaining 90.85% of gold landmark precedents while eliminating 97.0% of
+context character volume. Traversal latency strictly reflects offline NetworkX DiGraph traversal and string assembly on CPU. §Bounded retrieval coverage is invariant across d ∈{1, 2, 3} and dadapt
+because character limits are reached at depth 1. ∗Single-seed condition (k = 1∗) initializes traversal strictly from the primary anchor. ‡Vector-seed condition (k = 4∗) queries ChromaDB under the known
+Issue #19 taxonomy constraint (civil_rights, 0 seeds).
+S31

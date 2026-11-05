@@ -1,0 +1,11 @@
+--- controls.before
++++ controls.final
+@@ -44,7 +44,7 @@
+     A real composition must pass an exclusive file sink; tests use BytesIO.
+     No inferred/zero-filled duration, arbitrary stage text or exception message.
+     """
+-    STAGES = {'DENSE_BATCH','GRAPH_LOAD','CORPUS_LOAD','ROUTE_ENVELOPE','CLEANUP'}
++    STAGES = {'DENSE_BATCH','GRAPH_LOAD','GRAPH_AUDIT','CORPUS_LOAD','CORPUS_INDEX','ROUTE_ENVELOPE','CLEANUP'}
+ 
+     def __init__(self, *, clock, budget, sink):
+         self.clock, self.budget, self.sink = clock, budget, sink

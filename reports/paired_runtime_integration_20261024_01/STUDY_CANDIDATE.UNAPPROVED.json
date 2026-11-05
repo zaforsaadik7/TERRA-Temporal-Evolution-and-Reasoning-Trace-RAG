@@ -1,0 +1,189 @@
+{
+  "status": "PROPOSED_NOT_ADMITTED",
+  "execution_authorized": false,
+  "user_reported_account_balance_usd": 400,
+  "proposed_client_cap_usd": 300,
+  "user_instruction": "I have total 400 dollar with that account so use less than 400",
+  "balance_independently_verified": false,
+  "effective_account_rate_confirmed": false,
+  "fixed_charges_confirmed_absent": false,
+  "usd_per_dbu_ceiling_assumption": "1.00",
+  "gpt_oss_reasoning_policy": "low; completion billing inclusion remains a disclosed assumption",
+  "local_prompt_token_ceilings": {
+    "router": 1000,
+    "all_other_roles": 7000
+  },
+  "roles": [
+    {
+      "role": "router",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-gemma-3-12b",
+      "accepted_models": [
+        "gemma-3-12b-it-060225"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 2048,
+      "max_output_tokens": 128,
+      "request_bytes": 262144,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU",
+        "input_per_million": 2143000000,
+        "output_per_million": 7143000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "verifier",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-meta-llama-3-3-70b-instruct",
+      "accepted_models": [
+        "meta-llama-3.3-70b-instruct-121024"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 512,
+      "request_bytes": 262144,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU",
+        "input_per_million": 7143000000,
+        "output_per_million": 21429000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "generator",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-meta-llama-3-3-70b-instruct",
+      "accepted_models": [
+        "meta-llama-3.3-70b-instruct-121024"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 4096,
+      "request_bytes": 262144,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU",
+        "input_per_million": 7143000000,
+        "output_per_million": 21429000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "judge1",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-qwen3-next-80b-a3b-instruct",
+      "accepted_models": [
+        "qwen3-next-instruct-091725"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 1024,
+      "request_bytes": 262144,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU",
+        "input_per_million": 2143000000,
+        "output_per_million": 17143000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "judge2",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-gpt-oss-120b",
+      "accepted_models": [
+        "gpt-oss-120b-080525"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 4096,
+      "request_bytes": 262144,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU",
+        "input_per_million": 2143000000,
+        "output_per_million": 8571000000,
+        "reasoning_in_completion": true
+      }
+    }
+  ],
+  "budget": {
+    "status": "PREVIEW_NOT_EXECUTION_AUTHORITY",
+    "live_admitted": false,
+    "roles": {
+      "router": {
+        "study_calls": 350,
+        "smoke_calls": 0,
+        "maximum_attempts": 350,
+        "reserved_input_tokens": 716800,
+        "reserved_output_tokens": 44800,
+        "maximum_nanodollars": 1856108800,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "verifier": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 5734400,
+        "reserved_output_tokens": 358400,
+        "maximum_nanodollars": 48640972800,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "generator": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 5734400,
+        "reserved_output_tokens": 2867200,
+        "maximum_nanodollars": 102402048000,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "judge1": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 5734400,
+        "reserved_output_tokens": 716800,
+        "maximum_nanodollars": 24576921600,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "judge2": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 5734400,
+        "reserved_output_tokens": 2867200,
+        "maximum_nanodollars": 36863590400,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      }
+    },
+    "automatic_retries": 0,
+    "maximum_attempts": 3150,
+    "token_cost_nanodollars": 214339641600,
+    "fixed_charges_nanodollars": 0,
+    "maximum_nanodollars": 214339641600,
+    "proposed_cap_nanodollars": 300000000000,
+    "within_proposed_cap": true
+  },
+  "public_sources": [
+    "https://www.databricks.com/product/pricing/foundation-model-serving",
+    "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/api-reference",
+    "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/limits"
+  ],
+  "remaining_requirements": [
+    "authentic prompt measurements",
+    "authenticated worker CLI and native packet binding",
+    "account-specific quota/pacing policy",
+    "rubric and missing-score decision acceptance",
+    "effective billing confirmation or explicit acceptance of pricing uncertainty",
+    "final peer review and dated full-run authorization"
+  ]
+}

@@ -1,0 +1,40 @@
+% AUTO-GENERATED COMPLETE FDR FAMILY TABLE (M=20 PRE-SPECIFIED HYPOTHESIS TESTS)
+\par\begingroup
+
+
+
+\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{p{0.9cm}p{2.2cm}p{2.1cm}p{2cm}p{2.6cm}p{1.3cm}p{1.9cm}p{1.9cm}p{2.3cm}p{2cm}}
+\caption{Complete Pre-Specified Benjamini-Hochberg False Discovery Rate (FDR) Hypothesis Testing Family ($M=20$ Tests Across 4 Baselines $\times$ 5 Evaluation Slices).}\label{tab:full_fdr_family}\\
+\toprule
+\textbf{Rank ($i$)} & \textbf{Comparative Baseline} & \textbf{Evaluation Slice} & \textbf{Statistical Test} & \textbf{Mean $\Delta$ [95\% CI]} & \textbf{Cohen's $d_z$} & \textbf{Raw $p$-value} & \textbf{FDR $q$-value} & \textbf{Paired ($n^+/n^0/n^-$)} & \textbf{Significance ($\alpha=0.05$)} \\
+\midrule\endfirsthead
+\multicolumn{10}{l}{\fontsize{9}{11}\selectfont\textit{Table \thetable{} continued from previous page}} \\
+\midrule
+\textbf{Rank ($i$)} & \textbf{Comparative Baseline} & \textbf{Evaluation Slice} & \textbf{Statistical Test} & \textbf{Mean $\Delta$ [95\% CI]} & \textbf{Cohen's $d_z$} & \textbf{Raw $p$-value} & \textbf{FDR $q$-value} & \textbf{Paired ($n^+/n^0/n^-$)} & \textbf{Significance ($\alpha=0.05$)} \\
+\midrule\endhead
+1 & Direct LLM (No RAG) & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +100.0\% Diff. & --- & $\ensuremath{2.15 \times 10^{-44}}$ & $\ensuremath{4.31 \times 10^{-43}}$ & $75/75 \text{ vs. } 0/75$ & \textbf{Yes (TERRA)} \\
+2 & Direct LLM (No RAG) & Category A (Factual) & Wilcoxon Signed-Rank & $+0.427$ \ensuremath{[+0.350, +0.501]} & $1.081$ & $\ensuremath{1.93 \times 10^{-12}}$ & $\ensuremath{1.93 \times 10^{-11}}$ & $71/25/4$ & \textbf{Yes (TERRA)} \\
+3 & Direct LLM (No RAG) & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.173$ \ensuremath{[+0.114, +0.233]} & $0.401$ & $\ensuremath{4.73 \times 10^{-8}}$ & $\ensuremath{3.15 \times 10^{-7}}$ & $98/43/59$ & \textbf{Yes (TERRA)} \\
+4 & GraphRAG-Adapted & Category B (Evolutionary) & Wilcoxon Signed-Rank & $+0.119$ \ensuremath{[+0.045, +0.191]} & $0.318$ & $\ensuremath{3.94 \times 10^{-6}}$ & $\ensuremath{1.97 \times 10^{-5}}$ & $73/16/11$ & \textbf{Yes (TERRA)} \\
+5 & GraphRAG-Adapted & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.086$ \ensuremath{[+0.039, +0.131]} & $0.257$ & $\ensuremath{1.02 \times 10^{-5}}$ & $\ensuremath{4.08 \times 10^{-5}}$ & $91/91/18$ & \textbf{Yes (TERRA)} \\
+6 & Direct LLM (No RAG) & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $-0.200$ \ensuremath{[-0.287, -0.117]} & $-0.529$ & $\ensuremath{3.81 \times 10^{-5}}$ & $\ensuremath{1.27 \times 10^{-4}}$ & $9/30/36$ & \textbf{Yes (Baseline)} \\
+7 & Flat Vector RAG & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.078$ \ensuremath{[+0.025, +0.129]} & $0.207$ & $0.0006$ & $0.0016$ & $87/91/22$ & \textbf{Yes (TERRA)} \\
+8 & Direct LLM (No RAG) & Category B (Evolutionary) & Wilcoxon Signed-Rank & $-0.081$ \ensuremath{[-0.139, -0.021]} & $-0.275$ & $0.0009$ & $0.0023$ & $27/18/55$ & \textbf{Yes (Baseline)} \\
+9 & HippoRAG-Adapted & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.049$ \ensuremath{[+0.009, +0.089]} & $0.170$ & $0.0028$ & $0.0063$ & $61/112/27$ & \textbf{Yes (TERRA)} \\
+10 & Flat Vector RAG & Category B (Evolutionary) & Wilcoxon Signed-Rank & $+0.070$ \ensuremath{[-0.015, +0.151]} & $0.166$ & $0.0032$ & $0.0063$ & $67/18/15$ & \textbf{Yes (TERRA)} \\
+11 & HippoRAG-Adapted & Category B (Evolutionary) & Wilcoxon Signed-Rank & $+0.066$ \ensuremath{[+0.004, +0.130]} & $0.207$ & $0.0068$ & $0.0124$ & $51/26/23$ & \textbf{Yes (TERRA)} \\
+12 & Flat Vector RAG & Category A (Factual) & Wilcoxon Signed-Rank & $+0.086$ \ensuremath{[+0.025, +0.151]} & $0.261$ & $0.0114$ & $0.0189$ & $20/73/7$ & \textbf{Yes (TERRA)} \\
+13 & GraphRAG-Adapted & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $+0.115$ \ensuremath{[+0.017, +0.212]} & $0.265$ & $0.0454$ & $0.0699$ & $36/20/19$ & No \\
+14 & GraphRAG-Adapted & Category A (Factual) & Wilcoxon Signed-Rank & $+0.052$ \ensuremath{[-0.004, +0.107]} & $0.183$ & $0.0818$ & $0.1169$ & $18/75/7$ & No \\
+15 & HippoRAG-Adapted & Category A (Factual) & Wilcoxon Signed-Rank & $+0.031$ \ensuremath{[-0.018, +0.080]} & $0.126$ & $0.2898$ & $0.3865$ & $10/86/4$ & No \\
+16 & Flat Vector RAG & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $-0.030$ \ensuremath{[-0.120, +0.060]} & $-0.075$ & $0.5109$ & $0.6386$ & $21/30/24$ & No \\
+17 & HippoRAG-Adapted & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $-0.033$ \ensuremath{[-0.120, +0.052]} & $-0.089$ & $0.5509$ & $0.6481$ & $24/25/26$ & No \\
+18 & Flat Vector RAG & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +1.3\% Diff. & --- & $1.0000$ & $1.0000$ & $75/75 \text{ vs. } 74/75$ & No \\
+19 & GraphRAG-Adapted & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +0.0\% Diff. & --- & $1.0000$ & $1.0000$ & $75/75 \text{ vs. } 75/75$ & No \\
+20 & HippoRAG-Adapted & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +1.3\% Diff. & --- & $1.0000$ & $1.0000$ & $75/75 \text{ vs. } 74/75$ & No \\
+\bottomrule
+\end{longtable}
+\vspace{1mm}
+\raggedright \fontsize{9}{11}\selectfont \textbf{Notes:} Ranks $i \in \{1, \dots, 20\}$ reflect ascending raw $p$-value ordering. FDR adjusted $q$-values are computed via the standard Benjamini-Hochberg step-up procedure: $q_{(i)} = \min_{k \ge i} \{ \frac{20 \cdot p_{(k)}}{k} \}$. Tests with $q < 0.05$ are deemed statistically significant. Following Hoenig and Heisey (2001) \citep{hoenig2001abuse}, retrospective post-hoc power is omitted as an uninformative monotonic transformation of $p$-values; instead, exact paired outcome counts ($n^+ / n^0 / n^-$: TERRA wins, ties, losses) are reported for Wilcoxon continuous tests alongside contingency counts for Fisher's exact tests. For prospective study design ($\alpha=0.05$, two-sided, $80\%$ target power), standardized paired-mean MDES approximations are $d_z = 0.283$ at $N=100$ and $d_z = 0.200$ at $N=200$ ($d_z = 0.328$ for continuous Category D at $N=75$); discrete Fisher/McNemar comparisons are evaluated via exact $p$-values without continuous MDES claims. The sign of $\Delta$ and the significance column identify the direction of each comparison; these observational contrasts do not isolate an architectural cause. Category D continuous faithfulness comparisons occupy ranks 6, 13, 16 and 17, and are distinct from the eight-test Holm-adjusted secondary family of discrete refusals and safe handling in the main paper. Confidence intervals in rows 2, 6 and 12--17 retain historical bootstrap values whose original resampling settings could not be verified; these intervals are not independently reproduced.
+\par\endgroup

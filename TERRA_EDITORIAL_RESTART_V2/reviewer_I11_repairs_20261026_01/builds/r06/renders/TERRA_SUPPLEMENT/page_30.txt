@@ -1,0 +1,167 @@
+S13
+Full detail for main Table X
+Direct Evidence Retrieval Quality, Chain-Length Recovery, and Hyperparameter Robustness Grids on Category B (N = 100 Queries, 342 Gold Landmark Precedents). Evaluated decoupled from the
+generator on retrieved context subgraphs delivered prior to generator invocation. Panel A reports overall precedent recovery across comparative retrievers. Panel B disaggregates precedent discovery by
+evolutionary chain length (3, 4, and 5 nodes; spanning 2, 3, and 4 citation hops). Panel C reports traversal sensitivity conditional on anchors frozen from older stored contexts: Section 1 uses the legacy
+unconstrained engine (62/100 complete recoveries), distinct from the canonical-v2 results in Panels A/B (66/100); Section 2 is a separate bounded operational diagnostic (35k-character / 40-node limits).
+Panel A: Overall Multi-Hop Precedent-Chain Retrieval Performance (N = 100 Queries, 342 Gold Precedents)
+Retrieval Architecture
+Macro Node Recall ↑
+Micro Node Recall ↑Full Path Recall (100% Chain) ↑Full Chains Recovered
+Path Recovery Lift
+Flat Vector RAG (ChromaDB)
+26.8%
+26.3%
+1.0%
+1/100
+Baseline (1.0×)
+GraphRAG-Adapted (Modularity)
+35.7%
+35.1%
+9.0%
+9/100
+9.0× vs. Flat
+HippoRAG-Adapted (PPR)
+68.5%
+67.0%
+21.0%
+21/100
+21.0× vs. Flat
+Full TERRA
+(2-Hop EEG Traversal)
+88.9%
+88.3%
+66.0%
+66/100
+66× vs. Flat (3.1× vs. Hippo)
+Panel B: Precedent Recovery Disaggregated by Evolutionary Chain Length (Second Review Issue #11)
+Evolutionary Path Length
+(Nodes / Citation Hops)
+Evaluated Metric
+Flat Vector RAG
+GraphRAG-Adapted
+HippoRAG-Adapted
+Full TERRA (2-Hop EEG)
+3 Nodes / 2 Hops (N = 63)
+Node Recall ↑
+28.6%
+38.6%
+75.7%
+91.5%
+Full Precedent Path Recall ↑
+1.6% (1/63)
+14.3% (9/63)
+31.7% (20/63)
+77.8% (49/63)
+4 Nodes / 3 Hops (N = 32)
+Node Recall ↑
+25.0%
+31.2%
+57.0%
+85.2%
+Full Precedent Path Recall ↑
+0.0% (0/32)
+0.0% (0/32)
+3.1% (1/32)
+50.0% (16/32)
+5 Nodes / 4 Hops (N = 5)†
+Node Recall ↑
+16.0%
+28.0%
+52.0%
+80.0%
+Full Precedent Path Recall ↑
+0.0% (0/5)
+0.0% (0/5)
+0.0% (0/5)
+20.0% (1/5)
+Panel C: Retrieval Hyperparameter Robustness & Traversal Horizon Sensitivity Grid (N = 100 Category B Queries)
+Configuration / Traversal Parameters
+Macro Recall ↑
+Full Path ↑
+Chain Paths (3 / 4 / 5 Node)
+Visited
+Nodes
+Offline
+Latency ↓
+Section 1: Legacy-Context-Conditioned Traversal Sensitivity (Pre-Issue #13 Engine)
+Legacy-Context Baseline (k = 2, d = 2, C = 50)
+86.08%
+62.0%
+37/63 / 20/32 / 5/5
+311.1
+46.2 ms
+– Depth Horizon d = 1 (k = 2, C = 50)
+83.32%
+51.0%
+35/63 / 14/32 / 2/5
+33.9
+5.0 ms
+– Depth Horizon d = 3 (k = 2, C = 50)
+88.17%
+68.0%
+41/63 / 22/32 / 5/5
+2087.7
+310.2 ms
+– Hub Degree Cap C = 25 (k = 2, d = 2)
+71.62%
+28.0%
+23/63 / 5/32 / 0/5
+22.8
+2.9 ms
+– Hub Degree Cap C = 100 (k = 2, d = 2)
+98.17%
+95.0%
+59/63 / 31/32 / 5/5
+1470.1
+275.3 ms
+– Adaptive Depth dadapt (k = 2, C = 50)
+86.33%
+63.0%
+37/63 / 21/32 / 5/5
+1383.0
+208.2 ms
+– Counterfactual Single-Seed k = 1∗(d = 2, C = 50)
+74.47%
+45.0%
+31/63 / 11/32 / 3/5
+133.5
+19.9 ms
+– Counterfactual Vector Seed k = 4∗(d = 2, C = 50)‡
+58.12%
+13.0%
+13/63 / 0/32 / 0/5
+0.0
+0.1 ms
+Section 2: Post-Issue #13 Bounded Operational Diagnostic (Operational-Eﬀiciency Diagnostic; 35k Char / 40-Node Safe Caps)
+Bounded Baseline (k = 2, d = 2, C = 50)§
+85.58%
+61.0%
+48/63 / 12/32 / 1/5
+2.0
+1.6 ms
+– Hub Degree Cap C = 25 (k = 2, d = 2)
+84.80%
+56.0%
+43/63 / 12/32 / 1/5
+2.4
+1.5 ms
+– Hub Degree Cap C = 100 (k = 2, d = 2)
+87.13%
+66.0%
+50/63 / 15/32 / 1/5
+1.9
+1.5 ms
+– Counterfactual Single-Seed k = 1∗(d = 2, C = 50)
+80.73%
+49.0%
+43/63 / 6/32 / 0/5
+2.0
+1.4 ms
+– Counterfactual Vector Seed k = 4∗(d = 2, C = 50)‡
+58.12%
+13.0%
+13/63 / 0/32 / 0/5
+0.0
+0.1 ms
+S30

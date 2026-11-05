@@ -1,0 +1,27 @@
+== R11 obscure suite (generated_obscure_stats.tex)
+primary Unl vs Flat: b=5 c=3 two-sided exact p=0.726562 (reported 0.726562)
+Full vs Unl: b=11 c=0 two-sided exact p=0.000977 (reported <0.001)
+Full vs Flat: b=13 c=0 two-sided exact p=0.000244 (reported <0.001)
+Unl vs Direct: b=8 c=0 two-sided exact p=0.007812 (reported 0.007812)
+Flat vs Direct: b=6 c=0 two-sided exact p=0.031250 (reported 0.031250)
+J1 primary: b=10 c=3 two-sided exact p=0.092285 (reported 0.092285)
+J2 primary: b=3 c=4 two-sided exact p=1.000000 (reported 1.0)
+subset empty: b=3 c=3 two-sided exact p=1.000000 (reported 1.0)
+subset overruler: b=2 c=3 two-sided exact p=1.000000 (reported 1.0)
+subset explicit: b=3 c=2 two-sided exact p=1.000000 (reported 1.0)
+cross Direct: famous 15/19=0.7895 obscure 0/30=0.0000 RD=+78.95% (rep +79.0%) Newcombe=[+53.9,+91.5] (rep [+53.9,+91.5]) Fisher p=2.46e-09 (rep 2.46e-9)
+cross Flat: famous 10/19=0.5263 obscure 6/30=0.2000 RD=+32.63% (rep +32.6%) Newcombe=[+5.5,+55.3] (rep [+5.5,+55.2]) Fisher p=0.0284 (rep 0.028)
+cross Unlabeled: famous 15/19=0.7895 obscure 8/30=0.2667 RD=+52.28% (rep +52.3%) Newcombe=[+23.8,+70.0] (rep [+23.8,+70.0]) Fisher p=0.000468 (rep 4.68e-4)
+cross Full: famous 14/19=0.7368 obscure 19/30=0.6333 RD=+10.35% (rep +10.3%) Newcombe=[-16.6,+33.3] (rep [-16.6,+33.3]) Fisher p=0.541 (rep 0.541)
+
+== R22 temporal probe (generated_stats.tex)
+H1 SPTLR b=0 c=3: one-sided(b>c) p= 1.0  two-sided= 0.25
+H1 HLCR b=20 c=1 two-sided p= 2.09808349609375e-05
+H2: one-sided range [0.0133,0.1662]; two-sided range [0.0266,0.3323] (reported [0.0133,0.1662])
+H3: one-sided range [0.0245,0.4073]; two-sided range [0.0490,0.8145] (reported [0.0245,0.4073])
+H4: one-sided range [0.0112,0.3953]; two-sided range [0.0225,0.7905] (reported [0.0112,0.3953])
+H2 cc: b=2 c=4 two-sided p=0.6875; direction TERRA worse
+H3 cc: b=5 c=1 two-sided p=0.2188; direction TERRA better
+H4 cc: b=1 c=1 two-sided p=1.0000; direction tie
+GPT-OSS Level0 share 289/315 = 0.9174603174603174
+HLCR ratio 76/38 = 2.0

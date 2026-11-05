@@ -1,0 +1,46 @@
+[
+  {
+    "document": "TERRA_SUPPLEMENT",
+    "exit": 0,
+    "command": [
+      "F:/TERRA -Copy/scratch/tectonic/tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "TERRA_SUPPLEMENT.tex"
+    ]
+  },
+  {
+    "document": "main",
+    "exit": 0,
+    "command": [
+      "F:/TERRA -Copy/scratch/tectonic/tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "main.tex"
+    ]
+  },
+  {
+    "document": "TERRA_SUPPLEMENT",
+    "exit": 0,
+    "command": [
+      "F:/TERRA -Copy/scratch/tectonic/tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "TERRA_SUPPLEMENT.tex"
+    ]
+  },
+  {
+    "document": "main",
+    "exit": 0,
+    "command": [
+      "F:/TERRA -Copy/scratch/tectonic/tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "main.tex"
+    ]
+  }
+]

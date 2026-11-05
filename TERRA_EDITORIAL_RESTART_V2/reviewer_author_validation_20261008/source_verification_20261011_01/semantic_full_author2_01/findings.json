@@ -1,0 +1,1696 @@
+{
+  "schema_version": 1,
+  "author": "Codex independent source auditor",
+  "audit_date": "2026-10-11",
+  "input": "../ledger.json",
+  "input_sha256": "7022BE9E93A90482862E8A38639C88B8BB91ECA3E67CF978DE3449888A7A5817",
+  "scope": "All 76 Author 2 ledger source/excerpt entries; Column N attribution, fidelity, pinpoint, historical scope. No ratings or underlying-answer adjudication.",
+  "limitations": [
+    "Preserved text with surrounding headings/context is the principal evidence; this is not exhaustive visual PDF inspection.",
+    "Extra listed cases inspected at identity/opening-context level; one quoted passage does not validate all listed cases.",
+    "Original queries and rating rationales were not independently audited.",
+    "Online judicial-text reproductions are distinguished from authenticated primary page scans.",
+    "No legal correctness or full validation certification; no edits to XLSX/manuscript/data."
+  ],
+  "status_definitions": {
+    "source_supported_bounded": "Passage attribution, wording and locator supported within stated historical/context limits.",
+    "source_supported_with_locator_gap": "Passage supported, but locator missing/imprecise or linkage needs improvement.",
+    "correction_needed": "Concrete source attribution, semantic annotation or locator defect.",
+    "bibliographic_only": "Case identity metadata supported; no substantive quotation.",
+    "not_applicable_no_source": "N/A placeholder; query nonlegal classification not audited.",
+    "reproduction_supported_primary_scan_incomplete": "Passage supported by online opinion reproduction; target page unavailable in preserved/primary scan.",
+    "primary_evidence_unavailable_reproduction_only": "No retrieved primary copy; online reproduction offers provisional bibliographic/posture evidence.",
+    "available_source_exact_scenario_unresolved": "Preserved relevant source exists; exact-query applicability unresolved.",
+    "limited_primary_web_support_version_unresolved": "Official indexed heading support only; full dated/current code unavailable."
+  },
+  "group_count": 40,
+  "coverage": {
+    "assigned": 76,
+    "dispositioned": 76,
+    "unique_ids": 76
+  },
+  "findings": [
+    {
+      "id": "AUTH2-ITEM-001",
+      "author": 2,
+      "column": "N",
+      "group_id": "wickard",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion, not dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence with ordinary apostrophe/hyphen normalization.",
+      "pinpoint": "317 U.S. 127–128 is correct.",
+      "scope": "Aggregation of similarly situated wheat production affecting market demand; not a generic power over any activity. The Act reference is contextual, not a separately verified statutory extract.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-317-111.txt:651–667"
+      ],
+      "recommendation": "Retain historical and wheat-market context.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-002",
+      "author": 2,
+      "column": "N",
+      "group_id": "wickard",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion, not dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence with ordinary apostrophe/hyphen normalization.",
+      "pinpoint": "317 U.S. 127–128 is correct.",
+      "scope": "Aggregation of similarly situated wheat production affecting market demand; not a generic power over any activity. The Act reference is contextual, not a separately verified statutory extract.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-317-111.txt:651–667"
+      ],
+      "recommendation": "Retain historical and wheat-market context.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-003",
+      "author": 2,
+      "column": "N",
+      "group_id": "wickard",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion, not dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence with ordinary apostrophe/hyphen normalization.",
+      "pinpoint": "317 U.S. 127–128 is correct.",
+      "scope": "Aggregation of similarly situated wheat production affecting market demand; not a generic power over any activity. The Act reference is contextual, not a separately verified statutory extract.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-317-111.txt:651–667"
+      ],
+      "recommendation": "Retain historical and wheat-market context.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-004",
+      "author": 2,
+      "column": "N",
+      "group_id": "wickard",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion, not dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence with ordinary apostrophe/hyphen normalization.",
+      "pinpoint": "317 U.S. 127–128 is correct.",
+      "scope": "Aggregation of similarly situated wheat production affecting market demand; not a generic power over any activity. The Act reference is contextual, not a separately verified statutory extract.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-317-111.txt:651–667"
+      ],
+      "recommendation": "Retain historical and wheat-market context.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-005",
+      "author": 2,
+      "column": "N",
+      "group_id": "window_glass",
+      "disposition": "correction_needed",
+      "attribution": "First sentence is opinion at 411; inserted material is syllabus at 403; disposition at 413 belongs to this case despite adjacent Rooker header.",
+      "quotation_or_paraphrase_fidelity": "Opinion sentence/disposition faithful. Editorial formulation changes the syllabus question: it is whether the agreement violates Sherman law WHEN it concerns production, not whether it concerns production.",
+      "pinpoint": "Add 411 for opinion and 403 for syllabus; 413 disposition correct.",
+      "scope": "Fact-dependent labor allocation under shortage, not a categorical exemption for all production restraints.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-263-403.txt:9–27",
+        "USREPORTS-263-403.txt:341–352",
+        "USREPORTS-263-403.txt:final Window Glass paragraphs before ROOKER title"
+      ],
+      "recommendation": "Rewrite the syllabus annotation to preserve the conditional question; distinguish its text from opinion.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-006",
+      "author": 2,
+      "column": "N",
+      "group_id": "window_glass",
+      "disposition": "correction_needed",
+      "attribution": "First sentence is opinion at 411; inserted material is syllabus at 403; disposition at 413 belongs to this case despite adjacent Rooker header.",
+      "quotation_or_paraphrase_fidelity": "Opinion sentence/disposition faithful. Editorial formulation changes the syllabus question: it is whether the agreement violates Sherman law WHEN it concerns production, not whether it concerns production.",
+      "pinpoint": "Add 411 for opinion and 403 for syllabus; 413 disposition correct.",
+      "scope": "Fact-dependent labor allocation under shortage, not a categorical exemption for all production restraints.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-263-403.txt:9–27",
+        "USREPORTS-263-403.txt:341–352",
+        "USREPORTS-263-403.txt:final Window Glass paragraphs before ROOKER title"
+      ],
+      "recommendation": "Rewrite the syllabus annotation to preserve the conditional question; distinguish its text from opinion.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-007",
+      "author": 2,
+      "column": "N",
+      "group_id": "window_glass",
+      "disposition": "correction_needed",
+      "attribution": "First sentence is opinion at 411; inserted material is syllabus at 403; disposition at 413 belongs to this case despite adjacent Rooker header.",
+      "quotation_or_paraphrase_fidelity": "Opinion sentence/disposition faithful. Editorial formulation changes the syllabus question: it is whether the agreement violates Sherman law WHEN it concerns production, not whether it concerns production.",
+      "pinpoint": "Add 411 for opinion and 403 for syllabus; 413 disposition correct.",
+      "scope": "Fact-dependent labor allocation under shortage, not a categorical exemption for all production restraints.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-263-403.txt:9–27",
+        "USREPORTS-263-403.txt:341–352",
+        "USREPORTS-263-403.txt:final Window Glass paragraphs before ROOKER title"
+      ],
+      "recommendation": "Rewrite the syllabus annotation to preserve the conditional question; distinguish its text from opinion.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-008",
+      "author": 2,
+      "column": "N",
+      "group_id": "window_glass",
+      "disposition": "correction_needed",
+      "attribution": "First sentence is opinion at 411; inserted material is syllabus at 403; disposition at 413 belongs to this case despite adjacent Rooker header.",
+      "quotation_or_paraphrase_fidelity": "Opinion sentence/disposition faithful. Editorial formulation changes the syllabus question: it is whether the agreement violates Sherman law WHEN it concerns production, not whether it concerns production.",
+      "pinpoint": "Add 411 for opinion and 403 for syllabus; 413 disposition correct.",
+      "scope": "Fact-dependent labor allocation under shortage, not a categorical exemption for all production restraints.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-263-403.txt:9–27",
+        "USREPORTS-263-403.txt:341–352",
+        "USREPORTS-263-403.txt:final Window Glass paragraphs before ROOKER title"
+      ],
+      "recommendation": "Rewrite the syllabus annotation to preserve the conditional question; distinguish its text from opinion.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-009",
+      "author": 2,
+      "column": "N",
+      "group_id": "goss",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Explicit Goss syllabus attribution correct; not McLaurin or Green.",
+      "quotation_or_paraphrase_fidelity": "Faithful shortened syllabus passage.",
+      "pinpoint": "Syllabus 373 U.S. 683; underlying opinion 684–689.",
+      "scope": "Race-based minority-to-majority transfers; Brown citation is Brown II, 349 U.S. 294, not Brown I. Other listed cases are not established by this excerpt.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-373-683.txt:8–24",
+        "USREPORTS-339-637.txt:opening syllabus",
+        "USREPORTS-391-430.txt:opening syllabus"
+      ],
+      "recommendation": "Add syllabus page; retain case-specific transfer scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-010",
+      "author": 2,
+      "column": "N",
+      "group_id": "wampler",
+      "disposition": "bibliographic_only",
+      "attribution": "Bibliographic record, not an opinion excerpt.",
+      "quotation_or_paraphrase_fidelity": "Title/citation/year/date supported.",
+      "pinpoint": "282 U.S. 172; decided December 8, 1930.",
+      "scope": "Establishes case identity only.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-282-172.txt:10–13"
+      ],
+      "recommendation": "No substantive validation follows from metadata.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-011",
+      "author": 2,
+      "column": "N",
+      "group_id": "overton",
+      "disposition": "source_supported_bounded",
+      "attribution": "Overton Park Court opinion; not Yamashita.",
+      "quotation_or_paraphrase_fidelity": "Bracketed capital T is editorial. Otherwise faithful selected portion.",
+      "pinpoint": "401 U.S. 416 correct.",
+      "scope": "APA arbitrary/capricious review: searching inquiry but narrow review; court cannot substitute its judgment. No Yamashita proposition is proved.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-401-402.txt:571–588"
+      ],
+      "recommendation": "Name Overton Park explicitly beside quote; preserve review limits.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-012",
+      "author": 2,
+      "column": "N",
+      "group_id": "baker",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Baker Court opinion, not Reynolds; item 074 URL leads to Reynolds despite Baker text.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence.",
+      "pinpoint": "Quoted text is at 369 U.S. 237, not the opening page 186.",
+      "scope": "Justiciability and trial/remand, not a final merits ruling or population apportionment standard.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-369-186.txt:2033–2049"
+      ],
+      "recommendation": "Add Baker 237 and direct Baker URL, especially item 074.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-013",
+      "author": 2,
+      "column": "N",
+      "group_id": "gideon",
+      "disposition": "source_supported_bounded",
+      "attribution": "Gideon Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Editorial capital A and omitted lead-in preserve selected sentence, but criminal-justice lead-in matters.",
+      "pinpoint": "372 U.S. 344 correct.",
+      "scope": "Criminal prosecution of an indigent defendant, not every civil litigant or every police encounter. Massiah, Terry, Hamilton and Cohen address different issues; this quote supplies no collective holding for all listed authorities. Betts overruled in Gideon.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-372-335.txt:350–365",
+        "USREPORTS-372-335.txt:opening syllabus",
+        "USREPORTS-377-201.txt:opening",
+        "USREPORTS-368-52.txt:opening",
+        "USREPORTS-366-117.txt:opening",
+        "USREPORTS-392-1.txt:opening"
+      ],
+      "recommendation": "Keep criminal context; do not infer holdings of adjacent listed cases.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-014",
+      "author": 2,
+      "column": "N",
+      "group_id": "na",
+      "disposition": "not_applicable_no_source",
+      "attribution": "No source passage supplied.",
+      "quotation_or_paraphrase_fidelity": "N/A is a placeholder, not a quotation.",
+      "pinpoint": "Not applicable.",
+      "scope": "The ledger alone cannot independently establish that each underlying query is nonlegal. No judgment about refusal or rating.",
+      "evidence_availability": "not_applicable_no_source_asserted",
+      "evidence": [],
+      "recommendation": "Retain no-source disposition; query applicability remains outside this source-only evidence.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-015",
+      "author": 2,
+      "column": "N",
+      "group_id": "shelley",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "334 U.S. 20 correct.",
+      "scope": "State judicial enforcement of racially restrictive covenants; not a holding that private covenants standing alone violate Fourteenth Amendment.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-334-1.txt:740–751",
+        "USREPORTS-334-1.txt:opening syllabus"
+      ],
+      "recommendation": "Retain judicial enforcement qualification.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-016",
+      "author": 2,
+      "column": "N",
+      "group_id": "crockett",
+      "disposition": "bibliographic_only",
+      "attribution": "Bibliographic entry.",
+      "quotation_or_paraphrase_fidelity": "Citation, case name and June 22, 1914 supported; R.Y. is a metadata styling issue.",
+      "pinpoint": "234 U.S. 725.",
+      "scope": "No substantive holding supplied. Opening page also ends a preceding case; its Affirmed is not independently the Crockett disposition.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-234-725.txt:16–20"
+      ],
+      "recommendation": "Metadata-only disposition.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-017",
+      "author": 2,
+      "column": "N",
+      "group_id": "na",
+      "disposition": "not_applicable_no_source",
+      "attribution": "No source passage supplied.",
+      "quotation_or_paraphrase_fidelity": "N/A is a placeholder, not a quotation.",
+      "pinpoint": "Not applicable.",
+      "scope": "The ledger alone cannot independently establish that each underlying query is nonlegal. No judgment about refusal or rating.",
+      "evidence_availability": "not_applicable_no_source_asserted",
+      "evidence": [],
+      "recommendation": "Retain no-source disposition; query applicability remains outside this source-only evidence.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-018",
+      "author": 2,
+      "column": "N",
+      "group_id": "na",
+      "disposition": "not_applicable_no_source",
+      "attribution": "No source passage supplied.",
+      "quotation_or_paraphrase_fidelity": "N/A is a placeholder, not a quotation.",
+      "pinpoint": "Not applicable.",
+      "scope": "The ledger alone cannot independently establish that each underlying query is nonlegal. No judgment about refusal or rating.",
+      "evidence_availability": "not_applicable_no_source_asserted",
+      "evidence": [],
+      "recommendation": "Retain no-source disposition; query applicability remains outside this source-only evidence.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-019",
+      "author": 2,
+      "column": "N",
+      "group_id": "pierson",
+      "disposition": "bibliographic_only",
+      "attribution": "Case reference only.",
+      "quotation_or_paraphrase_fidelity": "Case identity/year supported.",
+      "pinpoint": "386 U.S. 547.",
+      "scope": "No quoted holding or legal proposition to validate.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-386-547.txt:1–6"
+      ],
+      "recommendation": "Metadata-only disposition.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-020",
+      "author": 2,
+      "column": "N",
+      "group_id": "olmstead",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court majority opinion, not Brandeis dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "277 U.S. 464 correct; next page begins 465 after passage.",
+      "scope": "Historical wiretapping without physical entry rationale. Katz source rejects controlling trespass rationale; quotation alone must not be treated as current doctrine.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-277-438.txt:1035–1054",
+        "USREPORTS-389-347.txt:253–268"
+      ],
+      "recommendation": "Retain historical scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-021",
+      "author": 2,
+      "column": "N",
+      "group_id": "olmstead",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court majority opinion, not Brandeis dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "277 U.S. 464 correct; next page begins 465 after passage.",
+      "scope": "Historical wiretapping without physical entry rationale. Katz source rejects controlling trespass rationale; quotation alone must not be treated as current doctrine.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-277-438.txt:1035–1054",
+        "USREPORTS-389-347.txt:253–268"
+      ],
+      "recommendation": "Retain historical scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-022",
+      "author": 2,
+      "column": "N",
+      "group_id": "olmstead",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court majority opinion, not Brandeis dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "277 U.S. 464 correct; next page begins 465 after passage.",
+      "scope": "Historical wiretapping without physical entry rationale. Katz source rejects controlling trespass rationale; quotation alone must not be treated as current doctrine.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-277-438.txt:1035–1054",
+        "USREPORTS-389-347.txt:253–268"
+      ],
+      "recommendation": "Retain historical scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-023",
+      "author": 2,
+      "column": "N",
+      "group_id": "olmstead",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court majority opinion, not Brandeis dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "277 U.S. 464 correct; next page begins 465 after passage.",
+      "scope": "Historical wiretapping without physical entry rationale. Katz source rejects controlling trespass rationale; quotation alone must not be treated as current doctrine.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-277-438.txt:1035–1054",
+        "USREPORTS-389-347.txt:253–268"
+      ],
+      "recommendation": "Retain historical scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-024",
+      "author": 2,
+      "column": "N",
+      "group_id": "trenton",
+      "disposition": "source_supported_bounded",
+      "attribution": "Trenton Potteries Court opinion, not Standard Oil.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "273 U.S. 397 correct.",
+      "scope": "Price-fixing removes competition even if prices claimed reasonable. Quote does not certify every Sherman §1 issue or provide statutory text.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-273-392.txt:218–235",
+        "USREPORTS-221-1.txt:opening"
+      ],
+      "recommendation": "Identify Trenton Potteries as passage source.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-025",
+      "author": 2,
+      "column": "N",
+      "group_id": "trenton",
+      "disposition": "source_supported_bounded",
+      "attribution": "Trenton Potteries Court opinion, not Standard Oil.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "273 U.S. 397 correct.",
+      "scope": "Price-fixing removes competition even if prices claimed reasonable. Quote does not certify every Sherman §1 issue or provide statutory text.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-273-392.txt:218–235",
+        "USREPORTS-221-1.txt:opening"
+      ],
+      "recommendation": "Identify Trenton Potteries as passage source.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-026",
+      "author": 2,
+      "column": "N",
+      "group_id": "trenton",
+      "disposition": "source_supported_bounded",
+      "attribution": "Trenton Potteries Court opinion, not Standard Oil.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "273 U.S. 397 correct.",
+      "scope": "Price-fixing removes competition even if prices claimed reasonable. Quote does not certify every Sherman §1 issue or provide statutory text.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-273-392.txt:218–235",
+        "USREPORTS-221-1.txt:opening"
+      ],
+      "recommendation": "Identify Trenton Potteries as passage source.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-027",
+      "author": 2,
+      "column": "N",
+      "group_id": "trenton",
+      "disposition": "source_supported_bounded",
+      "attribution": "Trenton Potteries Court opinion, not Standard Oil.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "273 U.S. 397 correct.",
+      "scope": "Price-fixing removes competition even if prices claimed reasonable. Quote does not certify every Sherman §1 issue or provide statutory text.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-273-392.txt:218–235",
+        "USREPORTS-221-1.txt:opening"
+      ],
+      "recommendation": "Identify Trenton Potteries as passage source.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-028",
+      "author": 2,
+      "column": "N",
+      "group_id": "civil_rights",
+      "disposition": "reproduction_supported_primary_scan_incomplete",
+      "attribution": "Bradley majority passage in online judicial-text reproduction; not Harlan dissent.",
+      "quotation_or_paraphrase_fidelity": "Reproduction supports wording except typographic capitalization/hyphenation.",
+      "pinpoint": "Online reproduction places passage at 109 U.S. 11; local extract only page 3.",
+      "scope": "Fourteenth Amendment state-action discussion; cannot generalize to all constitutional/statutory protection against private conduct.",
+      "evidence_availability": "local_primary_extract_incomplete_web_reproduction_available",
+      "evidence": [
+        "USREPORTS-109-3.txt only page 3",
+        "https://supreme.justia.com/cases/federal/us/109/3/ judicial opinion text near page 11",
+        "GovInfo case PDF also one page; LOC full scan fetch 403"
+      ],
+      "recommendation": "Preserve reproduction-supported status; obtain actual page 11 scan for scan-level confirmation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-029",
+      "author": 2,
+      "column": "N",
+      "group_id": "civil_rights",
+      "disposition": "reproduction_supported_primary_scan_incomplete",
+      "attribution": "Bradley majority passage in online judicial-text reproduction; not Harlan dissent.",
+      "quotation_or_paraphrase_fidelity": "Reproduction supports wording except typographic capitalization/hyphenation.",
+      "pinpoint": "Online reproduction places passage at 109 U.S. 11; local extract only page 3.",
+      "scope": "Fourteenth Amendment state-action discussion; cannot generalize to all constitutional/statutory protection against private conduct.",
+      "evidence_availability": "local_primary_extract_incomplete_web_reproduction_available",
+      "evidence": [
+        "USREPORTS-109-3.txt only page 3",
+        "https://supreme.justia.com/cases/federal/us/109/3/ judicial opinion text near page 11",
+        "GovInfo case PDF also one page; LOC full scan fetch 403"
+      ],
+      "recommendation": "Preserve reproduction-supported status; obtain actual page 11 scan for scan-level confirmation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-030",
+      "author": 2,
+      "column": "N",
+      "group_id": "civil_rights",
+      "disposition": "reproduction_supported_primary_scan_incomplete",
+      "attribution": "Bradley majority passage in online judicial-text reproduction; not Harlan dissent.",
+      "quotation_or_paraphrase_fidelity": "Reproduction supports wording except typographic capitalization/hyphenation.",
+      "pinpoint": "Online reproduction places passage at 109 U.S. 11; local extract only page 3.",
+      "scope": "Fourteenth Amendment state-action discussion; cannot generalize to all constitutional/statutory protection against private conduct.",
+      "evidence_availability": "local_primary_extract_incomplete_web_reproduction_available",
+      "evidence": [
+        "USREPORTS-109-3.txt only page 3",
+        "https://supreme.justia.com/cases/federal/us/109/3/ judicial opinion text near page 11",
+        "GovInfo case PDF also one page; LOC full scan fetch 403"
+      ],
+      "recommendation": "Preserve reproduction-supported status; obtain actual page 11 scan for scan-level confirmation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-031",
+      "author": 2,
+      "column": "N",
+      "group_id": "civil_rights",
+      "disposition": "reproduction_supported_primary_scan_incomplete",
+      "attribution": "Bradley majority passage in online judicial-text reproduction; not Harlan dissent.",
+      "quotation_or_paraphrase_fidelity": "Reproduction supports wording except typographic capitalization/hyphenation.",
+      "pinpoint": "Online reproduction places passage at 109 U.S. 11; local extract only page 3.",
+      "scope": "Fourteenth Amendment state-action discussion; cannot generalize to all constitutional/statutory protection against private conduct.",
+      "evidence_availability": "local_primary_extract_incomplete_web_reproduction_available",
+      "evidence": [
+        "USREPORTS-109-3.txt only page 3",
+        "https://supreme.justia.com/cases/federal/us/109/3/ judicial opinion text near page 11",
+        "GovInfo case PDF also one page; LOC full scan fetch 403"
+      ],
+      "recommendation": "Preserve reproduction-supported status; obtain actual page 11 scan for scan-level confirmation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-032",
+      "author": 2,
+      "column": "N",
+      "group_id": "katz",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion, not Harlan concurrence.",
+      "quotation_or_paraphrase_fidelity": "Faithful with normalized quote marks.",
+      "pinpoint": "389 U.S. 353 correct.",
+      "scope": "Rejection of controlling Olmstead/Goldman trespass rationale; not itself Harlan's full two-part reasonable-expectation test.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-389-347.txt:253–268"
+      ],
+      "recommendation": "Retain narrow attribution.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-033",
+      "author": 2,
+      "column": "N",
+      "group_id": "gideon",
+      "disposition": "source_supported_bounded",
+      "attribution": "Gideon Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Editorial capital A and omitted lead-in preserve selected sentence, but criminal-justice lead-in matters.",
+      "pinpoint": "372 U.S. 344 correct.",
+      "scope": "Criminal prosecution of an indigent defendant, not every civil litigant or every police encounter. Massiah, Terry, Hamilton and Cohen address different issues; this quote supplies no collective holding for all listed authorities. Betts overruled in Gideon.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-372-335.txt:350–365",
+        "USREPORTS-372-335.txt:opening syllabus",
+        "USREPORTS-377-201.txt:opening",
+        "USREPORTS-368-52.txt:opening",
+        "USREPORTS-366-117.txt:opening",
+        "USREPORTS-392-1.txt:opening"
+      ],
+      "recommendation": "Keep criminal context; do not infer holdings of adjacent listed cases.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-034",
+      "author": 2,
+      "column": "N",
+      "group_id": "thompson",
+      "disposition": "bibliographic_only",
+      "attribution": "Bibliographic case identification.",
+      "quotation_or_paraphrase_fidelity": "1866 decision versus December Term 1865 distinction confirmed.",
+      "pinpoint": "70 U.S. 155; GPO January 15, 1866.",
+      "scope": "Case starts after previous opinion and is followed by The Louisiana. Louisiana drifting-vessel material is not Thompson.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-70-155.txt:case boundary and final Louisiana heading",
+        "https://www.govinfo.gov/app/details/USREPORTS-70/USREPORTS-70-155"
+      ],
+      "recommendation": "Metadata-only; retain term/year distinction.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-035",
+      "author": 2,
+      "column": "N",
+      "group_id": "gregg",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Expressly labeled Gregg syllabus, summarizing Stewart/Powell/Stevens joint opinion; not all listed cases' collective text.",
+      "quotation_or_paraphrase_fidelity": "Faithful syllabus sentence.",
+      "pinpoint": "Add Gregg syllabus 428 U.S. 156–157; underlying discussion 188–195.",
+      "scope": "Guided capital sentencing; does not establish every companion-case result. Woodson rejects mandatory scheme; Lockett/Godfrey qualify application.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-428-153.txt:100–115",
+        "USREPORTS-428-153.txt:1650–1667",
+        "USREPORTS-428-280.txt:opening syllabus",
+        "USREPORTS-428-242.txt:opening",
+        "USREPORTS-428-262.txt:opening",
+        "USREPORTS-446-420.txt:opening"
+      ],
+      "recommendation": "Keep syllabus attribution and add locator; do not label this unanimous Court language.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-036",
+      "author": 2,
+      "column": "N",
+      "group_id": "gregg",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Expressly labeled Gregg syllabus, summarizing Stewart/Powell/Stevens joint opinion; not all listed cases' collective text.",
+      "quotation_or_paraphrase_fidelity": "Faithful syllabus sentence.",
+      "pinpoint": "Add Gregg syllabus 428 U.S. 156–157; underlying discussion 188–195.",
+      "scope": "Guided capital sentencing; does not establish every companion-case result. Woodson rejects mandatory scheme; Lockett/Godfrey qualify application.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-428-153.txt:100–115",
+        "USREPORTS-428-153.txt:1650–1667",
+        "USREPORTS-428-280.txt:opening syllabus",
+        "USREPORTS-428-242.txt:opening",
+        "USREPORTS-428-262.txt:opening",
+        "USREPORTS-446-420.txt:opening"
+      ],
+      "recommendation": "Keep syllabus attribution and add locator; do not label this unanimous Court language.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-037",
+      "author": 2,
+      "column": "N",
+      "group_id": "lockett",
+      "disposition": "source_supported_bounded",
+      "attribution": "Lockett Part III plurality; label correct.",
+      "quotation_or_paraphrase_fidelity": "Faithful selected conclusion, with punctuation normalization and omitted footnote markers.",
+      "pinpoint": "438 U.S. 604 correct.",
+      "scope": "Capital mitigation principle, including rarest-case reservation and relevant-evidence limits; not text of Gregg linked in source field.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-438-586.txt:52–65",
+        "USREPORTS-438-586.txt:712–728"
+      ],
+      "recommendation": "Supply direct Lockett URL; retain plurality label.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-038",
+      "author": 2,
+      "column": "N",
+      "group_id": "lockett",
+      "disposition": "source_supported_bounded",
+      "attribution": "Lockett Part III plurality; label correct.",
+      "quotation_or_paraphrase_fidelity": "Faithful selected conclusion, with punctuation normalization and omitted footnote markers.",
+      "pinpoint": "438 U.S. 604 correct.",
+      "scope": "Capital mitigation principle, including rarest-case reservation and relevant-evidence limits; not text of Gregg linked in source field.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-438-586.txt:52–65",
+        "USREPORTS-438-586.txt:712–728"
+      ],
+      "recommendation": "Supply direct Lockett URL; retain plurality label.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-039",
+      "author": 2,
+      "column": "N",
+      "group_id": "cayuga",
+      "disposition": "bibliographic_only",
+      "attribution": "Bibliographic case note.",
+      "quotation_or_paraphrase_fidelity": "1872 decision and December Term 1871 supported.",
+      "pinpoint": "81 U.S. 270; GPO April 1, 1872.",
+      "scope": "Not the separate Cayuga at 83 U.S. 177. Extract begins with previous opinion and later includes another case.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-81-270.txt:1–54",
+        "https://www.govinfo.gov/app/details/USREPORTS-81/USREPORTS-81-270"
+      ],
+      "recommendation": "Metadata-only; guard case boundary and term/year.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-040",
+      "author": 2,
+      "column": "N",
+      "group_id": "roe",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion; bracketed subject is editorial replacement.",
+      "quotation_or_paraphrase_fidelity": "Faithful condensed selection but omits intervening privacy-basis qualification; bracket marks replacement transparently.",
+      "pinpoint": "410 U.S. 153 correct.",
+      "scope": "Historical Roe proposition, not unrestricted right or certification of present doctrine; surrounding opinion recognizes limits. Danforth/Colautti not demonstrated by single Roe sentence.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-410-113.txt:1582–1599",
+        "USREPORTS-410-113.txt:1670–1683",
+        "USREPORTS-428-52.txt:opening",
+        "USREPORTS-439-379.txt:opening"
+      ],
+      "recommendation": "Keep historical and nonabsolute scope; use ellipsis/full lead-in if presented as continuous quotation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-041",
+      "author": 2,
+      "column": "N",
+      "group_id": "roe",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion; bracketed subject is editorial replacement.",
+      "quotation_or_paraphrase_fidelity": "Faithful condensed selection but omits intervening privacy-basis qualification; bracket marks replacement transparently.",
+      "pinpoint": "410 U.S. 153 correct.",
+      "scope": "Historical Roe proposition, not unrestricted right or certification of present doctrine; surrounding opinion recognizes limits. Danforth/Colautti not demonstrated by single Roe sentence.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-410-113.txt:1582–1599",
+        "USREPORTS-410-113.txt:1670–1683",
+        "USREPORTS-428-52.txt:opening",
+        "USREPORTS-439-379.txt:opening"
+      ],
+      "recommendation": "Keep historical and nonabsolute scope; use ellipsis/full lead-in if presented as continuous quotation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-042",
+      "author": 2,
+      "column": "N",
+      "group_id": "roe",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion; bracketed subject is editorial replacement.",
+      "quotation_or_paraphrase_fidelity": "Faithful condensed selection but omits intervening privacy-basis qualification; bracket marks replacement transparently.",
+      "pinpoint": "410 U.S. 153 correct.",
+      "scope": "Historical Roe proposition, not unrestricted right or certification of present doctrine; surrounding opinion recognizes limits. Danforth/Colautti not demonstrated by single Roe sentence.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-410-113.txt:1582–1599",
+        "USREPORTS-410-113.txt:1670–1683",
+        "USREPORTS-428-52.txt:opening",
+        "USREPORTS-439-379.txt:opening"
+      ],
+      "recommendation": "Keep historical and nonabsolute scope; use ellipsis/full lead-in if presented as continuous quotation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-043",
+      "author": 2,
+      "column": "N",
+      "group_id": "roe",
+      "disposition": "source_supported_bounded",
+      "attribution": "Court opinion; bracketed subject is editorial replacement.",
+      "quotation_or_paraphrase_fidelity": "Faithful condensed selection but omits intervening privacy-basis qualification; bracket marks replacement transparently.",
+      "pinpoint": "410 U.S. 153 correct.",
+      "scope": "Historical Roe proposition, not unrestricted right or certification of present doctrine; surrounding opinion recognizes limits. Danforth/Colautti not demonstrated by single Roe sentence.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-410-113.txt:1582–1599",
+        "USREPORTS-410-113.txt:1670–1683",
+        "USREPORTS-428-52.txt:opening",
+        "USREPORTS-439-379.txt:opening"
+      ],
+      "recommendation": "Keep historical and nonabsolute scope; use ellipsis/full lead-in if presented as continuous quotation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-044",
+      "author": 2,
+      "column": "N",
+      "group_id": "reynolds",
+      "disposition": "source_supported_bounded",
+      "attribution": "Reynolds Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Faithful fragment after omitted opening lead-in.",
+      "pinpoint": "377 U.S. 568 correct.",
+      "scope": "Both houses of state legislature; surrounding explanation permits practical deviations, not mechanical exactness. Avery/Hadley are different local-body contexts.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-377-533.txt:1402–1425",
+        "USREPORTS-377-533.txt:opening syllabus",
+        "USREPORTS-390-474.txt:opening",
+        "USREPORTS-397-50.txt:opening"
+      ],
+      "recommendation": "Retain state-legislature scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-045",
+      "author": 2,
+      "column": "N",
+      "group_id": "reynolds",
+      "disposition": "source_supported_bounded",
+      "attribution": "Reynolds Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Faithful fragment after omitted opening lead-in.",
+      "pinpoint": "377 U.S. 568 correct.",
+      "scope": "Both houses of state legislature; surrounding explanation permits practical deviations, not mechanical exactness. Avery/Hadley are different local-body contexts.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-377-533.txt:1402–1425",
+        "USREPORTS-377-533.txt:opening syllabus",
+        "USREPORTS-390-474.txt:opening",
+        "USREPORTS-397-50.txt:opening"
+      ],
+      "recommendation": "Retain state-legislature scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-046",
+      "author": 2,
+      "column": "N",
+      "group_id": "reynolds",
+      "disposition": "source_supported_bounded",
+      "attribution": "Reynolds Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Faithful fragment after omitted opening lead-in.",
+      "pinpoint": "377 U.S. 568 correct.",
+      "scope": "Both houses of state legislature; surrounding explanation permits practical deviations, not mechanical exactness. Avery/Hadley are different local-body contexts.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-377-533.txt:1402–1425",
+        "USREPORTS-377-533.txt:opening syllabus",
+        "USREPORTS-390-474.txt:opening",
+        "USREPORTS-397-50.txt:opening"
+      ],
+      "recommendation": "Retain state-legislature scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-047",
+      "author": 2,
+      "column": "N",
+      "group_id": "reynolds",
+      "disposition": "source_supported_bounded",
+      "attribution": "Reynolds Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Faithful fragment after omitted opening lead-in.",
+      "pinpoint": "377 U.S. 568 correct.",
+      "scope": "Both houses of state legislature; surrounding explanation permits practical deviations, not mechanical exactness. Avery/Hadley are different local-body contexts.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-377-533.txt:1402–1425",
+        "USREPORTS-377-533.txt:opening syllabus",
+        "USREPORTS-390-474.txt:opening",
+        "USREPORTS-397-50.txt:opening"
+      ],
+      "recommendation": "Retain state-legislature scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-048",
+      "author": 2,
+      "column": "N",
+      "group_id": "snow",
+      "disposition": "available_source_exact_scenario_unresolved",
+      "attribution": "A relevant Snow source exists locally; N/A is a search-limitation note.",
+      "quotation_or_paraphrase_fidelity": "No quotation supplied. 'Text not located' is too broad if read as source unavailability.",
+      "pinpoint": "61 U.S. 543 opening describes collision; 1857 is term header, decision-year not independently resolved here.",
+      "scope": "Local opening describes descending towboat with lashed vessels and ascending steamer. Exact-query applicability cannot be established without query evidence; no controlling-authority claim made.",
+      "evidence_availability": "local_source_available_query_context_missing",
+      "evidence": [
+        "USREPORTS-61-543.txt:1–22"
+      ],
+      "recommendation": "Say exact-scenario applicability unresolved, rather than implying Snow primary text unavailable.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-049",
+      "author": 2,
+      "column": "N",
+      "group_id": "na",
+      "disposition": "not_applicable_no_source",
+      "attribution": "No source passage supplied.",
+      "quotation_or_paraphrase_fidelity": "N/A is a placeholder, not a quotation.",
+      "pinpoint": "Not applicable.",
+      "scope": "The ledger alone cannot independently establish that each underlying query is nonlegal. No judgment about refusal or rating.",
+      "evidence_availability": "not_applicable_no_source_asserted",
+      "evidence": [],
+      "recommendation": "Retain no-source disposition; query applicability remains outside this source-only evidence.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-050",
+      "author": 2,
+      "column": "N",
+      "group_id": "lottawanna",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Expressly labeled Lottawanna syllabus.",
+      "quotation_or_paraphrase_fidelity": "Faithful syllabus segment; original prints material-men.",
+      "pinpoint": "Syllabus point 6 at 88 U.S. 559; add locator.",
+      "scope": "General maritime law home-port lien rule; adjoining syllabus recognizes state-created liens and legislative change. No broad claim that no lien can exist.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-88-558.txt:40–68",
+        "USREPORTS-17-438.txt:opening"
+      ],
+      "recommendation": "Add 559 and preserve general-maritime/home-port qualifiers.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-051",
+      "author": 2,
+      "column": "N",
+      "group_id": "lottawanna",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Expressly labeled Lottawanna syllabus.",
+      "quotation_or_paraphrase_fidelity": "Faithful syllabus segment; original prints material-men.",
+      "pinpoint": "Syllabus point 6 at 88 U.S. 559; add locator.",
+      "scope": "General maritime law home-port lien rule; adjoining syllabus recognizes state-created liens and legislative change. No broad claim that no lien can exist.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-88-558.txt:40–68",
+        "USREPORTS-17-438.txt:opening"
+      ],
+      "recommendation": "Add 559 and preserve general-maritime/home-port qualifiers.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-052",
+      "author": 2,
+      "column": "N",
+      "group_id": "peoples_ferry",
+      "disposition": "correction_needed",
+      "attribution": "NOT syllabus: Mr. O'Connor's argument for appellants, before Mr. Benedict's opposing points and Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Words are present, but faithful copying does not cure false institutional attribution.",
+      "pinpoint": "61 U.S. 396, rather than opening syllabus 393.",
+      "scope": "Counsel advocacy in vessel-construction jurisdiction case; cannot elevate broad 'only case' formulation to Court holding. Local extract includes previous case and following McCormick; target sentence lies within counsel section.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-61-393.txt:29–34",
+        "USREPORTS-61-393.txt:140–195, especially 176–183"
+      ],
+      "recommendation": "Replace with actual Court passage, or explicitly label counsel argument; do not use this as syllabus evidence.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-053",
+      "author": 2,
+      "column": "N",
+      "group_id": "lottawanna",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Expressly labeled Lottawanna syllabus.",
+      "quotation_or_paraphrase_fidelity": "Faithful syllabus segment; original prints material-men.",
+      "pinpoint": "Syllabus point 6 at 88 U.S. 559; add locator.",
+      "scope": "General maritime law home-port lien rule; adjoining syllabus recognizes state-created liens and legislative change. No broad claim that no lien can exist.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-88-558.txt:40–68",
+        "USREPORTS-17-438.txt:opening"
+      ],
+      "recommendation": "Add 559 and preserve general-maritime/home-port qualifiers.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-054",
+      "author": 2,
+      "column": "N",
+      "group_id": "picco",
+      "disposition": "bibliographic_only",
+      "attribution": "Case citation only.",
+      "quotation_or_paraphrase_fidelity": "Title/year/citation supported.",
+      "pinpoint": "411 U.S. 655.",
+      "scope": "No holding supplied; identity alone does not validate pollution/navigation proposition.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-411-655.txt:1–7"
+      ],
+      "recommendation": "Metadata-only disposition.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-055",
+      "author": 2,
+      "column": "N",
+      "group_id": "lochner",
+      "disposition": "source_supported_bounded",
+      "attribution": "Majority opinion, not Holmes/Harlan dissent.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence, disregarding OCR punctuation artifact.",
+      "pinpoint": "198 U.S. 53 correct.",
+      "scope": "Historical contract-liberty discussion with police-power qualification immediately following; not categorical contractual immunity or present-law certification.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-198-45.txt:321–341"
+      ],
+      "recommendation": "Retain historical/context limits.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-056",
+      "author": 2,
+      "column": "N",
+      "group_id": "daniel_ball",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Field's Court opinion, not merely syllabus.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence sequence.",
+      "pinpoint": "Add 77 U.S. 563; decision January 23, 1871. December Term 1870 is not decision year.",
+      "scope": "Navigability in fact; following sentence additionally requires interstate/foreign highway connection for US navigable-water classification.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-77-557.txt:270–291",
+        "https://www.govinfo.gov/app/details/USREPORTS-77/USREPORTS-77-557"
+      ],
+      "recommendation": "Add 563 and (1871); retain separately labeled December Term 1870.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-057",
+      "author": 2,
+      "column": "N",
+      "group_id": "daniel_ball",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Field's Court opinion, not merely syllabus.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence sequence.",
+      "pinpoint": "Add 77 U.S. 563; decision January 23, 1871. December Term 1870 is not decision year.",
+      "scope": "Navigability in fact; following sentence additionally requires interstate/foreign highway connection for US navigable-water classification.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-77-557.txt:270–291",
+        "https://www.govinfo.gov/app/details/USREPORTS-77/USREPORTS-77-557"
+      ],
+      "recommendation": "Add 563 and (1871); retain separately labeled December Term 1870.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-058",
+      "author": 2,
+      "column": "N",
+      "group_id": "daniel_ball",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Field's Court opinion, not merely syllabus.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence sequence.",
+      "pinpoint": "Add 77 U.S. 563; decision January 23, 1871. December Term 1870 is not decision year.",
+      "scope": "Navigability in fact; following sentence additionally requires interstate/foreign highway connection for US navigable-water classification.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-77-557.txt:270–291",
+        "https://www.govinfo.gov/app/details/USREPORTS-77/USREPORTS-77-557"
+      ],
+      "recommendation": "Add 563 and (1871); retain separately labeled December Term 1870.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-059",
+      "author": 2,
+      "column": "N",
+      "group_id": "daniel_ball",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Field's Court opinion, not merely syllabus.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence sequence.",
+      "pinpoint": "Add 77 U.S. 563; decision January 23, 1871. December Term 1870 is not decision year.",
+      "scope": "Navigability in fact; following sentence additionally requires interstate/foreign highway connection for US navigable-water classification.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-77-557.txt:270–291",
+        "https://www.govinfo.gov/app/details/USREPORTS-77/USREPORTS-77-557"
+      ],
+      "recommendation": "Add 563 and (1871); retain separately labeled December Term 1870.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-060",
+      "author": 2,
+      "column": "N",
+      "group_id": "pace",
+      "disposition": "reproduction_supported_primary_scan_incomplete",
+      "attribution": "Court opinion in online judicial-text reproduction.",
+      "quotation_or_paraphrase_fidelity": "Online text supports sentence; missing local page is not contradictory evidence.",
+      "pinpoint": "106 U.S. 585 supported by reproduction; preserved/GPO/LOC extracts only 583.",
+      "scope": "Historical rationale compares punishments within interracial offense, not punishment of same-race relationships; do not convert to general equality proposition or current doctrine.",
+      "evidence_availability": "local_primary_extract_incomplete_web_reproduction_available",
+      "evidence": [
+        "USREPORTS-106-583.txt only 583 including preceding Plainview note",
+        "https://supreme.justia.com/cases/federal/us/106/583/ judicial text at 585",
+        "GPO and LOC fetched PDFs each only one page"
+      ],
+      "recommendation": "Obtain page 585 scan for primary scan-level confirmation.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-061",
+      "author": 2,
+      "column": "N",
+      "group_id": "bryant",
+      "disposition": "primary_evidence_unavailable_reproduction_only",
+      "attribution": "Online reproduction shows certiorari denial followed by Brennan dissent joined by Stewart/Marshall; citation alone is metadata.",
+      "quotation_or_paraphrase_fidelity": "Reproduction supports case/year and October 29, 1974; no local 419-974 source.",
+      "pinpoint": "419 U.S. 974; primary GPO/LOC fetches unsuccessful.",
+      "scope": "Certiorari denial is not merits affirmance; dissent following order is not Court holding.",
+      "evidence_availability": "no_local_primary_copy_primary_web_fetch_failed_reproduction_available",
+      "evidence": [
+        "https://supreme.justia.com/cases/federal/us/419/974/",
+        "Failed GPO detail/PDF and LOC PDF retrieval; no preserved 419-974.txt"
+      ],
+      "recommendation": "Keep bibliographic identity provisional pending primary copy; do not describe denial as merits decision.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-062",
+      "author": 2,
+      "column": "N",
+      "group_id": "stapf",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Expressly Stapf syllabus, not Delgadillo.",
+      "quotation_or_paraphrase_fidelity": "Faithful with added comma normalization.",
+      "pinpoint": "Syllabus at 287 U.S. 129; underlying holding 132.",
+      "scope": "Round-trip voyage to Germany by irregularly admitted seaman; Delgadillo shipwreck/involuntary Cuba episode is distinguishable. No inference all overseas diversions constitute entry.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-287-129.txt:16–28",
+        "USREPORTS-332-388.txt:opening syllabus and 389–391"
+      ],
+      "recommendation": "Add syllabus locator and retain factual distinction.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-063",
+      "author": 2,
+      "column": "N",
+      "group_id": "flora",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "1960 rehearing Court opinion recounts earlier decision.",
+      "quotation_or_paraphrase_fidelity": "Faithful selected sentence.",
+      "pinpoint": "362 U.S. 146, not opening 145. 1957 Term is compatible with 1958 first decision and 1960 rehearing.",
+      "scope": "Federal income-tax refund jurisdiction under §1346(a)(1); not all tax proceedings. Statutory reference contextual, not independently quoted current statute.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-362-145.txt:43–75",
+        "USREPORTS-357-63.txt:opening"
+      ],
+      "recommendation": "Add 146; preserve term/decision-year distinction.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-064",
+      "author": 2,
+      "column": "N",
+      "group_id": "flora",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "1960 rehearing Court opinion recounts earlier decision.",
+      "quotation_or_paraphrase_fidelity": "Faithful selected sentence.",
+      "pinpoint": "362 U.S. 146, not opening 145. 1957 Term is compatible with 1958 first decision and 1960 rehearing.",
+      "scope": "Federal income-tax refund jurisdiction under §1346(a)(1); not all tax proceedings. Statutory reference contextual, not independently quoted current statute.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-362-145.txt:43–75",
+        "USREPORTS-357-63.txt:opening"
+      ],
+      "recommendation": "Add 146; preserve term/decision-year distinction.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-065",
+      "author": 2,
+      "column": "N",
+      "group_id": "flora",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "1960 rehearing Court opinion recounts earlier decision.",
+      "quotation_or_paraphrase_fidelity": "Faithful selected sentence.",
+      "pinpoint": "362 U.S. 146, not opening 145. 1957 Term is compatible with 1958 first decision and 1960 rehearing.",
+      "scope": "Federal income-tax refund jurisdiction under §1346(a)(1); not all tax proceedings. Statutory reference contextual, not independently quoted current statute.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-362-145.txt:43–75",
+        "USREPORTS-357-63.txt:opening"
+      ],
+      "recommendation": "Add 146; preserve term/decision-year distinction.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-066",
+      "author": 2,
+      "column": "N",
+      "group_id": "flora",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "1960 rehearing Court opinion recounts earlier decision.",
+      "quotation_or_paraphrase_fidelity": "Faithful selected sentence.",
+      "pinpoint": "362 U.S. 146, not opening 145. 1957 Term is compatible with 1958 first decision and 1960 rehearing.",
+      "scope": "Federal income-tax refund jurisdiction under §1346(a)(1); not all tax proceedings. Statutory reference contextual, not independently quoted current statute.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-362-145.txt:43–75",
+        "USREPORTS-357-63.txt:opening"
+      ],
+      "recommendation": "Add 146; preserve term/decision-year distinction.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-067",
+      "author": 2,
+      "column": "N",
+      "group_id": "denver",
+      "disposition": "limited_primary_web_support_version_unresolved",
+      "attribution": "Section heading only, not operative limits.",
+      "quotation_or_paraphrase_fidelity": "Heading supported by indexed official Denver legislative documents; live Municode provided no readable code; document fetches returned 410.",
+      "pinpoint": "§36-6 heading confirmed in indexed legislative material.",
+      "scope": "No numerical noise limits, exceptions, or historical effective version supplied or independently established.",
+      "evidence_availability": "primary_index_excerpt_available_full_current_code_unavailable",
+      "evidence": [
+        "https://denver.legistar.com/View.ashx?GUID=9256551A-49F9-4840-A90E-B38B5D6C8DC3&ID=13759982&M=F indexed official legislative excerpt",
+        "https://library.municode.com/co/denver/codes/code_of_ordinances empty readable response"
+      ],
+      "recommendation": "Record heading-only support; obtain dated adopted code if substantive limits matter.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-068",
+      "author": 2,
+      "column": "N",
+      "group_id": "dallas",
+      "disposition": "correction_needed",
+      "attribution": "Primary municipal code-host text at §51A-7.1605(h).",
+      "quotation_or_paraphrase_fidelity": "Sentence exact in primary hosted code.",
+      "pinpoint": "Exact subsection resolved; source field Div. 51A-7.200 does not identify quoted §51A-7.1605(h).",
+      "scope": "District-specific provision: following subsection says 'this district'. A citywide luminance rule or historical effective version cannot be inferred.",
+      "evidence_availability": "primary_hosted_code_available",
+      "evidence": [
+        "https://codelibrary.amlegal.com/codes/dallas/latest/dallas_tx/0-0-0-88389 lines 15,28–35; displayed 4/2026 Code S-32"
+      ],
+      "recommendation": "Correct locator to §51A-7.1605(h); retain district and version limits.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-069",
+      "author": 2,
+      "column": "N",
+      "group_id": "illinois_brick",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Correctly Illinois Brick syllabus summarizing Hanover Shoe.",
+      "quotation_or_paraphrase_fidelity": "Faithful except '§4' rendered s.4 and normal quote typography.",
+      "pinpoint": "431 U.S. 720 syllabus; Hanover Shoe opening 392 U.S. 481 is not location of this sentence.",
+      "scope": "Direct-purchaser pass-on discussion; Reiter addresses property injury and does not erase Illinois Brick rule. Listed sources must not be fused.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-431-720.txt:20–29",
+        "USREPORTS-392-481.txt:opening",
+        "USREPORTS-442-330.txt:opening"
+      ],
+      "recommendation": "Add syllabus page and preserve attribution.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-070",
+      "author": 2,
+      "column": "N",
+      "group_id": "cooper",
+      "disposition": "source_supported_bounded",
+      "attribution": "Cooper Court opinion; not Brown or McLaurin quote.",
+      "quotation_or_paraphrase_fidelity": "Bracketed initial T marks selected clause; faithful.",
+      "pinpoint": "358 U.S. 18 correct.",
+      "scope": "Binding Brown interpretation on state authorities in desegregation context; does not supply every listed case's holding.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-358-1.txt:658–687",
+        "USREPORTS-339-637.txt:opening",
+        "USREPORTS-347-483.txt:opening"
+      ],
+      "recommendation": "Retain named Cooper attribution.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-071",
+      "author": 2,
+      "column": "N",
+      "group_id": "loving",
+      "disposition": "source_supported_bounded",
+      "attribution": "Loving Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "388 U.S. 12 correct.",
+      "scope": "Racial restrictions on marriage, not a Sweatt education passage; separate due-process discussion follows.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-388-1.txt:418–433",
+        "USREPORTS-339-629.txt:opening"
+      ],
+      "recommendation": "Retain case-specific marriage scope.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-072",
+      "author": 2,
+      "column": "N",
+      "group_id": "repair_asphalt",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Pre-opinion headnote/syllabus, correctly labeled despite page header 'Opinion of the Court'.",
+      "quotation_or_paraphrase_fidelity": "Faithful except OCR/typography normalization.",
+      "pinpoint": "183 U.S. 591; decided January 6, 1902, distinct from October Term 1901 and French patent June 11, 1880.",
+      "scope": "Anticipation by identified French patent; no general patentability standard or Hotchkiss holding supplied.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-183-591.txt:1–15",
+        "USREPORTS-52-248.txt:opening after preceding ORDER"
+      ],
+      "recommendation": "Add syllabus/headnote page; keep dates distinct.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-073",
+      "author": 2,
+      "column": "N",
+      "group_id": "tinker",
+      "disposition": "source_supported_bounded",
+      "attribution": "Tinker Court opinion.",
+      "quotation_or_paraphrase_fidelity": "Faithful.",
+      "pinpoint": "393 U.S. 506 correct.",
+      "scope": "Rights apply with special characteristics of school environment; not unconditional immunity from school discipline or quotation from all listed speech cases.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-393-503.txt:128–141",
+        "USREPORTS-299-353.txt:opening",
+        "USREPORTS-319-624.txt:target title after prior dissent",
+        "USREPORTS-364-479.txt:opening",
+        "USREPORTS-372-229.txt:opening"
+      ],
+      "recommendation": "Preserve school-context qualification.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-074",
+      "author": 2,
+      "column": "N",
+      "group_id": "baker",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Baker Court opinion, not Reynolds; item 074 URL leads to Reynolds despite Baker text.",
+      "quotation_or_paraphrase_fidelity": "Faithful sentence.",
+      "pinpoint": "Quoted text is at 369 U.S. 237, not the opening page 186.",
+      "scope": "Justiciability and trial/remand, not a final merits ruling or population apportionment standard.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-369-186.txt:2033–2049"
+      ],
+      "recommendation": "Add Baker 237 and direct Baker URL, especially item 074.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-075",
+      "author": 2,
+      "column": "N",
+      "group_id": "maintenance",
+      "disposition": "source_supported_with_locator_gap",
+      "attribution": "Explicit syllabus attribution correct.",
+      "quotation_or_paraphrase_fidelity": "Faithful fragment with lower-case initial and antecedent omitted.",
+      "pinpoint": "366 U.S. 169 syllabus; discussion 169–179.",
+      "scope": "'This' refers to statutory employee-protection arrangement, not unrestricted merger discretion. Compensation versus retention, not all employee rights.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-366-169.txt:8–22"
+      ],
+      "recommendation": "Add syllabus locator and antecedent.",
+      "ratings_reviewed": false
+    },
+    {
+      "id": "AUTH2-ITEM-076",
+      "author": 2,
+      "column": "N",
+      "group_id": "dennis",
+      "disposition": "source_supported_bounded",
+      "attribution": "Vinson plurality quoting and adopting Learned Hand; attribution correct.",
+      "quotation_or_paraphrase_fidelity": "Faithful; [courts] is already bracketed in quoted source.",
+      "pinpoint": "341 U.S. 510 correct.",
+      "scope": "Historical Smith Act danger formulation; Brandenburg supplies different incitement limits and Cohen a different expression context. Not current test established by this quotation.",
+      "evidence_availability": "preserved_source_available",
+      "evidence": [
+        "USREPORTS-341-494.txt:633–648",
+        "USREPORTS-395-444.txt:opening",
+        "USREPORTS-403-15.txt:opening"
+      ],
+      "recommendation": "Retain plurality/Hand labels and historical scope.",
+      "ratings_reviewed": false
+    }
+  ],
+  "source_identity_manifest": [
+    {
+      "name": "USREPORTS-106-583.txt",
+      "sha256": "A676F9786E40769EC49E8954AB033D002BB87066561116FAE63C17833E2D28CE"
+    },
+    {
+      "name": "USREPORTS-109-3.txt",
+      "sha256": "B1BD09A99660A33FE03833176ECA7ECAEC2FFDA192BBF6B05A07E88053EC71E1"
+    },
+    {
+      "name": "USREPORTS-17-438.txt",
+      "sha256": "3ADC9F08995D73EDD3D0F23AB389F8E5EBC2E50ABD96BC72718B40CC3B51B4A4"
+    },
+    {
+      "name": "USREPORTS-183-591.txt",
+      "sha256": "FAB6DABA0F0C9EF595126A42AC99F970A09EE7F560FE67116DFA9EDAD044923D"
+    },
+    {
+      "name": "USREPORTS-198-45.txt",
+      "sha256": "91CE1779F665242CBDAEE5A969C37FA1C7D417089148CB2A48F14E8F7743E137"
+    },
+    {
+      "name": "USREPORTS-221-1.txt",
+      "sha256": "74E6F15A45BC05CCAD4EE031E4516D6EB3C44663EB940DD7DE59D7715F23E5EB"
+    },
+    {
+      "name": "USREPORTS-234-725.txt",
+      "sha256": "AED27B0F73BAF07E334C2916ACCA6DA8F35599B872B4F24DACD3C1B548AAF141"
+    },
+    {
+      "name": "USREPORTS-263-403.txt",
+      "sha256": "3F21E080992D318D8E9980550F1720BCB4B3D6EB97A58A369946366958B5FB7D"
+    },
+    {
+      "name": "USREPORTS-273-392.txt",
+      "sha256": "15483C0BCB6B7824A28369A45BBFDE7A1773889071FF36DE52D610EB4FF4CCF2"
+    },
+    {
+      "name": "USREPORTS-277-438.txt",
+      "sha256": "1AF1D8F6B89BFBB93E66AF113B99B08499AC8E2EEF8E8812315EDA908D2155E7"
+    },
+    {
+      "name": "USREPORTS-282-172.txt",
+      "sha256": "E4B12489EC62DD4F980EDC23419E123CE067D63052A779DF644A9334FEA1B969"
+    },
+    {
+      "name": "USREPORTS-287-129.txt",
+      "sha256": "DA282ECF2183E331AD47824754BB2B4A449BC5AF60941771971E1205DDB4CE09"
+    },
+    {
+      "name": "USREPORTS-299-353.txt",
+      "sha256": "05002B83F42BAD1EA1D5F2FB6AEBF280632382FEAF82C62134D465C2742E70BA"
+    },
+    {
+      "name": "USREPORTS-316-455.txt",
+      "sha256": "651C865D78D697CB81C8096E6084564619826FFBA5BFF929D3434CB95FF0BF4C"
+    },
+    {
+      "name": "USREPORTS-317-111.txt",
+      "sha256": "30ED88A3259807915EF87D7D90218397D941BDE3B767D972FA6FDCDE963AECE8"
+    },
+    {
+      "name": "USREPORTS-319-624.txt",
+      "sha256": "E48B2B50A9D1761AE0565C9E2D713C62A3A16DD1E469B26EFF50246D59A941F9"
+    },
+    {
+      "name": "USREPORTS-327-1.txt",
+      "sha256": "E4B787F9FB873F5593CCAEEFC1FB4C2FBE5DEFEC1EBC0A698797D966C4916F2D"
+    },
+    {
+      "name": "USREPORTS-332-388.txt",
+      "sha256": "CBB4098E2BC65AA391050990FA913A456EBE755BF977E0AA2E6C4F8F2E545CB4"
+    },
+    {
+      "name": "USREPORTS-334-1.txt",
+      "sha256": "865BAD00ABF391FCFE60141A01F16182F4DBE4FC3EE28591E6A1E5D687F874B4"
+    },
+    {
+      "name": "USREPORTS-339-629.txt",
+      "sha256": "823D5B4ED6A5E205F8F5FF6A09B7BDBB6626EDAC83319B0B105CB5D588C998FE"
+    },
+    {
+      "name": "USREPORTS-339-637.txt",
+      "sha256": "ED3778B6FD7439F7B0F6C75B7F818582ECCA5EC6856D1E0152B716C568534BC4"
+    },
+    {
+      "name": "USREPORTS-341-494.txt",
+      "sha256": "B90D9D67F3D5F1256AF79D1B80A8F289D0F21355F2335A0A7B85B038349159D2"
+    },
+    {
+      "name": "USREPORTS-347-483.txt",
+      "sha256": "D1C9C48CCA1EFE984286EEC8C1E10CBD6183DEB99E27A69DC143708C06E7E4D1"
+    },
+    {
+      "name": "USREPORTS-349-294.txt",
+      "sha256": "E944AD55BD0D20E3671ACCB94A6B6935D4E212690153B18133B35B9A33D528FB"
+    },
+    {
+      "name": "USREPORTS-357-63.txt",
+      "sha256": "44A9416FB44B4B96A25F1174D4AE90B9B3FA09B7E47E9486944ECB5615127BCB"
+    },
+    {
+      "name": "USREPORTS-358-1.txt",
+      "sha256": "0377309EC6B3AEB95980493E4B813E48A78444CC8374D0D50C3B14952949E1F1"
+    },
+    {
+      "name": "USREPORTS-362-145.txt",
+      "sha256": "E9BE299629B64DF9CA4732C96A57B0BE9698A12B3D373957AABAA5C7533CF9A0"
+    },
+    {
+      "name": "USREPORTS-364-479.txt",
+      "sha256": "C70012FFB1A9FEF7C67FE40499EC8383FD614A4B14E5199B064A1DDEE4526621"
+    },
+    {
+      "name": "USREPORTS-366-117.txt",
+      "sha256": "26BFC3848A0CC4349DA0CD276466F580AE6C4A8E4A39A90E25B497A830950648"
+    },
+    {
+      "name": "USREPORTS-366-169.txt",
+      "sha256": "55F398C9FA50F01A2CF55C3BBAA2547281259C64FB90D941B5C15255504B3478"
+    },
+    {
+      "name": "USREPORTS-368-52.txt",
+      "sha256": "1FFE8AE4D716C06E5A073A3E2220E669D9142ECD70161910FB5693CE1F755398"
+    },
+    {
+      "name": "USREPORTS-369-186.txt",
+      "sha256": "40AC7912A75C92584D563F21675D979F9EE0AD34C884C477805CA78632CC5C80"
+    },
+    {
+      "name": "USREPORTS-372-229.txt",
+      "sha256": "A9BB856EAA68FB7CF45B30257CBBA86923AC33520444EC2FE5E665430CA7E2CA"
+    },
+    {
+      "name": "USREPORTS-372-335.txt",
+      "sha256": "4C381AA43C690BDB74CD3F37742BACC6EBAAFD6D0F7710F3FAAE79D2F1CA8EC9"
+    },
+    {
+      "name": "USREPORTS-373-683.txt",
+      "sha256": "724D936D604438270BD2755F4DCADDF8028F546041A45CBC24E201F8CA146453"
+    },
+    {
+      "name": "USREPORTS-377-201.txt",
+      "sha256": "57E9C046ACA8C62FF9E4F90613FA47634AB63B215FA0FF95F7B5A86CC2FFCCCD"
+    },
+    {
+      "name": "USREPORTS-377-533.txt",
+      "sha256": "FEC5597508CCB2907F267830CD8DA62D2DD2934F9686829F06130E1C4B5ECE57"
+    },
+    {
+      "name": "USREPORTS-386-547.txt",
+      "sha256": "BA76EF3649256D7C6F256C87E26CD24401B01D570F6E0E9F6436C7596EC6D106"
+    },
+    {
+      "name": "USREPORTS-388-1.txt",
+      "sha256": "AF28F1E833B9E03B6B8618585281B633FCDF98F4EAE9646E3C58082040D7E0E6"
+    },
+    {
+      "name": "USREPORTS-389-347.txt",
+      "sha256": "0912A92EB0CBEEFFD2B1DA314934DD1DA1E05FC92D2E7A861B5985918A517052"
+    },
+    {
+      "name": "USREPORTS-390-474.txt",
+      "sha256": "894ED6A5DB77F764B28C38A2CFB2C8F82D5C67E64B0AF0C68749E744374BEB52"
+    },
+    {
+      "name": "USREPORTS-391-430.txt",
+      "sha256": "2B26EE497C02539DF611B6B5DCBE59621BD984A2A1E6B109E4CAE9080ADB77DC"
+    },
+    {
+      "name": "USREPORTS-392-1.txt",
+      "sha256": "BA5FD5C8A66210E09587C8812E4D2EE80B6B397C7AE187A138DD33B5C8687BA8"
+    },
+    {
+      "name": "USREPORTS-392-481.txt",
+      "sha256": "5566F3019FBCA5167231024DC476437082A45518785F013905F9EC945A442C3C"
+    },
+    {
+      "name": "USREPORTS-393-503.txt",
+      "sha256": "C8D99E6C6DAFD52E4A8DE3D6682363BE29814F4C7E12CC61867952C01053AC2A"
+    },
+    {
+      "name": "USREPORTS-395-444.txt",
+      "sha256": "3885BD97375A6E21B8A409AD6DE04FA6CBF8781B9D21300F7A917C98C20F18B1"
+    },
+    {
+      "name": "USREPORTS-397-50.txt",
+      "sha256": "7DBF105175199A357F88D514DD428F8E3D6E685640605C5F841E268BB49C6835"
+    },
+    {
+      "name": "USREPORTS-401-402.txt",
+      "sha256": "548EAA071AD7CFF5250B07F68A3CBE68C9FA59A49DDEFC587A395DAD044074FE"
+    },
+    {
+      "name": "USREPORTS-403-15.txt",
+      "sha256": "C2DE1CFBD1FCE504EDF83AA4B02B2C493F26AA0D3C09AD7018D8D033B5460942"
+    },
+    {
+      "name": "USREPORTS-410-113.txt",
+      "sha256": "E2890A5F79171CCA26460C804FB8F5C90EA64DF67C8F6E40745F481FE5060C6F"
+    },
+    {
+      "name": "USREPORTS-411-655.txt",
+      "sha256": "61314B24827B50B61A723C1478CCC9633631A478C328FCEDACBAB583934AD6ED"
+    },
+    {
+      "name": "USREPORTS-428-153.txt",
+      "sha256": "519CE5FD90B9053F9EA30237CAF8135DBDF909E4823B984C1D79D45589569E46"
+    },
+    {
+      "name": "USREPORTS-428-242.txt",
+      "sha256": "8EB993E62FAE39C5DE0AC486BB253C0F4805A02BC6C735AC986028C69ABD53B1"
+    },
+    {
+      "name": "USREPORTS-428-262.txt",
+      "sha256": "0750D187771F4765EB72F6D2AB8EA9A097D3D5E46C3D5DD1BD0AD812B969B66C"
+    },
+    {
+      "name": "USREPORTS-428-280.txt",
+      "sha256": "2923A86BF017651B96ABC434E902E5EBA4E9DBDB197833CF90ED369B88EFD842"
+    },
+    {
+      "name": "USREPORTS-428-52.txt",
+      "sha256": "95A17BC9728D6DA11AD3D328A05BF615A17BEA98E467F2818926E6E741205176"
+    },
+    {
+      "name": "USREPORTS-431-720.txt",
+      "sha256": "4650C547503B4C54E2C70398B092C0E306E89297C92C042A50EEF8F350C2E0FA"
+    },
+    {
+      "name": "USREPORTS-438-586.txt",
+      "sha256": "1FE95E81521BD849682C9FE4363E42D43BD8F2062DCE2CF7CA31EAED00EE89F1"
+    },
+    {
+      "name": "USREPORTS-439-379.txt",
+      "sha256": "6F058775461439DACA9B035AAD0C13407F339897BD0C4725C84FE30B575C2C3E"
+    },
+    {
+      "name": "USREPORTS-442-330.txt",
+      "sha256": "63A316767FFE504ACE6BB82D3FE7190D1ECC93520C0319E9391528E0914313B9"
+    },
+    {
+      "name": "USREPORTS-446-420.txt",
+      "sha256": "E15868BAD9E4662D4EF081158C9B654F4BB1840352CE65A3BCECDEF97539E439"
+    },
+    {
+      "name": "USREPORTS-52-248.txt",
+      "sha256": "3B29862A0EAFAFAC2CC2B6E3A29FF904BA984D2CF72737E96D70768CD0F597DF"
+    },
+    {
+      "name": "USREPORTS-61-393.txt",
+      "sha256": "C8E09176E5B8CFAC2EB51FC5E737F3DC1FD51688089D3BE3DC8AD25B0427FA65"
+    },
+    {
+      "name": "USREPORTS-61-543.txt",
+      "sha256": "1B46EF39481A0EE54D40765D50BBCE345C31241C2B4468F96CB2AF8212B119CF"
+    },
+    {
+      "name": "USREPORTS-70-155.txt",
+      "sha256": "1FCC4379D0165FDF2FF369CFFF74549A01C96E6726507DBF7FCAEF0285F37B53"
+    },
+    {
+      "name": "USREPORTS-77-557.txt",
+      "sha256": "0133DA81FBE0C3875A8B48F347D5A49429446D1C072823349AE1527AB2BA22EC"
+    },
+    {
+      "name": "USREPORTS-81-270.txt",
+      "sha256": "2EDFE26FD93F9DC1ACAB742AE995288A117418E2976A7FE05C78EFF5200ED269"
+    },
+    {
+      "name": "USREPORTS-88-558.txt",
+      "sha256": "4F35BED9035A99C65AF1ADD408C88CACB65B7377C4E2B2AB1EF7CDBD0311535E"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "protected_files_byte_equal": true,
+  "limitation_text_equal_after_discretionary_break_normalization": true,
+  "themes": [
+    "Absence of Licensed Legal Practitioner Evaluation (Most Critical Limitation for Deployment):",
+    "Metric Disentanglement and Refusal-Volume Masking:",
+    "Evaluation rubric resolution and ceiling compression:",
+    "Jurisdictional and Temporal Corpus Boundaries:",
+    "Hosted API Output Variability at $T=0.0$, Run-to-Run Identity, and Sensitivity Verification:",
+    "Parametric knowledge and temporal containment:",
+    "Fixed Graph Traversal Horizon and Multi-Hop Boundary Limits:",
+    "Oracle Relation Labels, Exact-Title Seeding, and a Bundled Ablation:",
+    "False Refusals on Answerable Queries (Categories A and B):",
+    "Latency measurement caveats:",
+    "Same-Family Generation, NLI Grading, and Category~D Verifier:",
+    "Unflagged Textual Refusals:",
+    "Mixed-date evaluation blocks:",
+    "Corpus Length-Filtering Bias and Concise Landmark Exclusion:",
+    "Citation Extraction Precision, Same-Year Chronology, and Provenance Uncertainty:",
+    "Rule-Based Doctrinal Taxonomy, Lexical Polysemy, Truncation, and Residual Fallback Bias:",
+    "A Priori Hyperparameter Selection and Sensitivity Analysis Scope:",
+    "Task-Corpus Domain Asymmetry and Private-Law Generalizability Scope:"
+  ],
+  "citation_keys_and_label_multiplicities_equal": true,
+  "table_data_retention_evidence": "TRANSPOSED_CELL_RETENTION.json, REVIEW_DISPOSITIONS.json, EMPTY_PRESENTATION_ROWS.json and source.diff",
+  "bounded_reporting_corrections": "24 source-backed changes in REVIEW_DISPOSITIONS.json; diagram current-source caveat retained",
+  "no_new_scores_or_inferential_results": true,
+  "not_a_full_independent_scientific_certification": true
+}

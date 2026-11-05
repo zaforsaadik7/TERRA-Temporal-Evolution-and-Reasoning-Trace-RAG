@@ -1,0 +1,160 @@
+edge strata, ties reached 40.00% coherence, multi-label
+tagging 92.22% precision and 48.83% recall (F1 0.6385),
+and the fallback 100.00% validity as an unkeyed default.
+TABLE I
+TERRA Event Evolution Graph (EEG) Corpus Statistics and
+Doctrinal Taxonomy.
+Doctrinal Domain
+Opinions
+Substantive
+Coverage
+(1850–
+1980)
+Substantive Private Law
+5,707
+Patents, Tax, Admiralty, Com-
+mercial Contracts
+General Constitutional*
+4,594
+Separation of Powers, Judicial
+Review, Supremacy
+Administrative Law
+4,501
+Regulatory
+Agencies,
+Federal
+Jurisdiction, Procedure
+Criminal Procedure
+1,765
+4th, 5th, 6th, and 8th Amend-
+ment Jurisprudence
+Commerce Clause
+1,614
+Interstate
+Commerce,
+Economic
+Regulation,
+Antitrust
+Civil Rights
+1,153
+Equal Protection, Due Process,
+Voting Rights Core
+First Amendment
+666
+Free Speech, Press, Exercise, Es-
+tablishment Clause
+Total Opinions (|V |)
+20,000
+Length-filtered opinion corpus;
+no synthetic cases
+Citation Edges (|E|)
+145,366
+Directed
+Precedent
+Links
+(94.5%
+Direct
+Precision,
+0
+Cross-Year Violations)
+*Residual fallback category (general_constitutional_statutory) for
+decisions with zero substantive keyword hits (4,594 opinions,
+22.97%).
+B. Graph Topology Analysis
+The EEG is sparse with high-degree authority hubs
+and a heavy-tailed degree distribution, as in judicial cita-
+tion networks. The largest weakly connected component
+(WCC) spans 18,558 of 20,000 nodes (92.8%), so multi-
+hop paths remain navigable across eras (density 0.000363,
+mean degree 14.54, maximum degree 276 at Simpson
+v. Shepard, average clustering 0.2047, largest strongly
+connected component 2 nodes). Its diameter of 13 hops
+and average shortest path of 4.305 hops indicate compact
+reachability, consistent with a BFS depth of d = 2 captur-
+ing dense local citation neighborhoods without flooding
+the context.
+C. Hub Node Centrality Analysis
+Betweenness centrality, CB(v) = ∑
+s̸=v̸=t σst(v)/σst
+(with σst the number of shortest s–t paths and σst(v)
+those through v), identifies structural bridge cases. The
+top bridges are Simpson v. Shepard (CB = 0.0043), Fay v.
+Noia (0.0036), Ashwander v. Tennessee Valley Authority
+(0.0033), Crowell v. Benson (0.0032) and Dahnke-Walker
+Milling Co. v. Bondurant (0.0032), all major federal con-
+stitutional precedents (Fig. 2). High-degree hubs include
+Simpson v. Shepard (degree 276), Baker v. Carr (245),
+Crowell v. Benson (213), Nebbia v. New York (211) and
+Fay v. Noia (204), which link disparate doctrinal lines.
+V. Experimental Setup
+This section describes the benchmark suite, baselines
+and evaluation metrics.
+0
+0.002
+0.004
+Dahnke-Walker v. Bondurant
+Crowell v. Benson
+Ashwander v. TVA
+Fay v. Noia
+Simpson v. Shepard
+0.0032
+0.0032
+0.0033
+0.0036
+0.0043
+Betweenness Centrality (CB)
+Fig. 2.
+Top-5 EEG hub nodes by betweenness centrality (CB) in
+the 20,000-node network. All top structural hubs are major federal
+constitutional precedents.
+A. Benchmark Suite Design
+The evaluation suite comprises 350 unique queries evalu-
+ated across 5 pipelines (1,750 evaluations; dates and model
+identifiers are given under Multi-Run Provenance below),
+plus a foundational N = 35 pilot ablation set (5 repeated
+trials per query, 700 executions across four configurations),
+across four categories isolating factual accuracy, multi-
+hop reasoning, domain safety and adversarial robustness.
+Temperature T=0.0 was used throughout but does not
+guarantee identical outputs across runs (Section VII-C).
+Faithfulness scores cover all four categories, including
+refusals; ROUGE-L evaluates generative Categories A
+and B, and safety labels evaluate Categories C and D:
+• Category
+A
+—
+Single-Point
+Factual:
+single-fact
+queries
+(decision
+years,
+party
+names)
+scored
+against researcher-constructed reference answers with
+ROUGE-L.
+• Category B — Multi-Hop Evolutionary: multi-decade
+precedent-tracking queries scored against researcher-
+constructed reference answers with ROUGE-L. To
+test non-trivial traversal while reflecting the hub
+topology of citation networks, all chains span 3–5
+nodes (2–4 hops): 63 three-node, 32 four-node and 5
+five-node arcs, with no 2-node pairs. Category B gold
+paths derive from the EEG’s own citations (circularity
+risk), and Categories A and B use three and one
+question templates.
+• Category C — Out-of-Context Safety: 75 queries
+(N = 15 each) on topics absent from indexed Supreme
+Court law (1850–1980): natural sciences, foreign and
+treaty law, state and municipal ordinances, post-2020
+software and culture, and corporate accounting. With
+no controlling precedent, the required behavior is
+refusal.
+• Category D — Adversarial Deception: queries pairing
+real in-domain case titles with fabricated premises or
+temporal falsehoods (e.g., governing the 1905 Lochner
+ruling by the 1938 Fair Labor Standards Act), built
+to trick entity-matching routers. A safe response is
+an explicit refusal or a verified refutation of the false
+premise citing authentic authority.

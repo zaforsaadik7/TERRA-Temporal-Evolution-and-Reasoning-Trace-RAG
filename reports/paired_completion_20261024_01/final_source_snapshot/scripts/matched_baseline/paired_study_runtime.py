@@ -1,0 +1,341 @@
+"""Held serial study composition, exercised only with synthetic collaborators.
+
+No import-time assets, secret reads, TLS connections or native supervision.
+Private injected seams are trusted code, not a security boundary. Authentic
+entry is blocked before validation, directory creation or dependency loading.
+"""
+from dataclasses import dataclass, asdict
+import base64
+import hashlib
+import os
+from pathlib import Path
+import re
+import time
+
+from .provider_accounting import (
+    BudgetJournal, CallIdentity, ContractError, DispatchHeld, accepted_result,
+    build_request, canonical, config_digest, integer, parse_envelope, strict_json,
+)
+from .provider_run_control import EndpointLimiter, EndpointQuota, _exchange, _no_reparse
+from .paired_dependency_bridge import MeasuredRequest, ROLES, _compute_pair, measured_http_bytes, request_policy
+from .paired_prompt_workflow import prompt_contract_sha256, parsed_content, messages
+from .paired_quota_pacing import PacingPolicy, validate_shared_quotas, reserve_with_pacing
+
+
+@dataclass(frozen=True)
+class StudyQuery:
+    query_id: str
+    text: str
+    category: str
+
+    def __post_init__(self):
+        CallIdentity(self.query_id, 'shared', 'router')
+        if (type(self.text) is not str or not self.text.strip()
+                or self.category not in ('A_Factual', 'B_Evolutionary', 'C_OutOfContext', 'D_Adversarial')):
+            raise ContractError('Explicit query and analysis category required')
+
+
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+class StudyStore:
+    """Exclusive serial evidence owner, bounded writes, persistent no-resume lock.
+
+    fsync+rename is used for a completion marker. It is not an OS disk quota,
+    protection against a malicious concurrent writer, or power-loss guarantee.
+    """
+    def __init__(self, root, query_ids, byte_cap):
+        integer(byte_cap, 8192)
+        if (type(query_ids) is not tuple or not 1 <= len(query_ids) <= 350
+                or len({q.casefold() for q in query_ids}) != len(query_ids)):
+            raise ContractError('Ordered unique query namespace required')
+        for q in query_ids:
+            CallIdentity(q, 'shared', 'router')
+            if q.lower() in ('calls', 'events', 'terminal', 'manifest', 'single_attempt',
+                              'con', 'prn', 'aux', 'nul') or re.fullmatch(r'(?i)(com|lpt)[1-9]', q):
+                raise ContractError('Reserved query namespace')
+        self.root = Path(root).absolute()
+        _no_reparse(self.root)
+        self.root.mkdir()
+        self.ids, self.cap = query_ids, byte_cap
+        self.written, self.failed, self.terminal = 0, False, False
+        self.completed = []
+        self.rows = []
+        self.publish('single_attempt.lock', canonical({'pid': os.getpid(), 'resume': False}))
+        self.events = (self.root/'events.jsonl').open('xb')
+
+    def guard_space(self, amount):
+        integer(amount, 0)
+        used = sum(p.stat().st_size for p in self.root.iterdir() if p.is_file())
+        if used+amount > self.cap-4096:
+            raise ContractError('Aggregate study evidence reserve exceeded')
+
+    def publish(self, name, raw, terminal=False):
+        if self.failed or self.terminal:
+            raise DispatchHeld('Evidence owner stopped')
+        if not terminal:
+            self.guard_space(len(raw))
+        elif len(raw) > 4096:
+            raise ContractError('Terminal reserve exceeded')
+        path = self.root/name
+        _no_reparse(path)
+        if path.exists():
+            raise FileExistsError('Evidence collision')
+        pending = path.with_name(name+'.pending')
+        try:
+            with pending.open('xb') as f:
+                if f.write(raw) != len(raw): raise OSError('Short evidence write')
+                f.flush(); os.fsync(f.fileno())
+            os.rename(pending, path)
+            self.written += len(raw)
+        except BaseException:
+            self.failed = True
+            raise
+
+    def record(self, event):
+        if self.failed or self.terminal:
+            raise DispatchHeld('Evidence owner stopped')
+        raw = canonical(event)
+        self.guard_space(len(raw))
+        try:
+            if self.events.write(raw) != len(raw): raise OSError('Short trace write')
+            self.events.flush(); os.fsync(self.events.fileno())
+            self.written += len(raw)
+            self.rows.append(event)
+        except BaseException:
+            self.failed = True
+            raise
+
+    def save_pair(self, query, result, journal):
+        if len(self.completed) >= len(self.ids) or self.ids[len(self.completed)] != query.query_id:
+            raise ContractError('Pair out of order or repeated')
+        # Validate the committed bytes, never a mutable in-memory event alias.
+        validate_composed_result(query, result, self.committed_rows(), journal)
+        self.publish(query.query_id+'.json', canonical(result))
+        self.completed.append(query.query_id)
+
+    def committed_rows(self):
+        raw = (self.root/'events.jsonl').read_bytes()
+        if len(raw) > self.cap or not raw.endswith(b'\n'):
+            raise ContractError('Trace incomplete or over evidence envelope')
+        return [strict_json(line) for line in raw.splitlines()]
+
+    def finish(self, journal):
+        required = {c for row in self.committed_rows() if row.get('kind') == 'COMPOSITION_COMPLETE'
+                    for c in row['result']['calls']}
+        if (tuple(self.completed) != self.ids or set(journal.entries) != required
+                or journal.halted or any(e['state'] != 'SETTLED' for e in journal.entries.values())):
+            raise ContractError('Study incomplete or billing unresolved')
+        files = [p for p in self.root.iterdir() if p.is_file()]
+        manifest = canonical({'files': [{'name': p.name, 'size': p.stat().st_size,
+                               'sha256': sha(p.read_bytes())} for p in sorted(files)]})
+        self.publish('manifest.json', manifest)
+        self.publish('terminal.json', canonical({'status': 'COMPUTATION_COMPLETE_REQUIRES_POSTRUN_AUDIT',
+            'count': len(self.completed), 'completed_sha256': sha(canonical(self.completed)),
+            'manifest_sha256': sha(manifest), 'execution_authority': False}), terminal=True)
+        self.terminal = True
+
+    def fail(self, kind):
+        if not self.failed and not self.terminal:
+            self.publish('terminal.json', canonical({'status': 'FAIL', 'failure_type': kind,
+                         'completed_count': len(self.completed)}), terminal=True)
+            self.terminal = True
+
+    def close(self):
+        self.events.close()
+
+
+class MeasuredCallSession:
+    """Single POST exchange + shared quota + durable reservation and settlement.
+
+    Connection/secret/event collaborators are trusted. Tests pass StaticConnection
+    and a literal synthetic token; this class does not admit genuine factories.
+    A hard independent supervisor remains mandatory for an authentic study.
+    """
+    def __init__(self, journal, store, configs, quotas, connection_factory, bearer,
+                 now=time.monotonic, cancelled=lambda: False, *, pacing=None, pause=time.sleep):
+        if type(journal) is not BudgetJournal or type(store) is not StudyStore:
+            raise ContractError('Exact journal/evidence owner required')
+        if (set(configs) != set(ROLES) or set(quotas) != set(ROLES)
+                or any(type(q) is not EndpointQuota for q in quotas.values())):
+            raise ContractError('Complete reviewed role and quota mapping required')
+        validate_shared_quotas(configs, quotas)
+        if pacing is not None and type(pacing) is not PacingPolicy:
+            raise ContractError('Explicit immutable pacing policy required')
+        self.journal, self.store = journal, store
+        self.configs, self.quotas = dict(configs), dict(quotas)
+        self.factory, self.bearer, self.now, self.cancelled = connection_factory, bearer, now, cancelled
+        self.limiter = EndpointLimiter()
+        self.used = set()
+        self.pacing, self.pause = pacing if pacing is not None else PacingPolicy(), pause
+
+    def __call__(self, req):
+        if (type(req) is not MeasuredRequest or req.config != self.configs[req.identity.stage]
+                or req.identity.key in self.used or self.journal.halted or self.store.failed or self.store.terminal
+                or req.request != measured_http_bytes(req.config, req.messages, req.local_tokens)
+                or req.request_policy != request_policy(req.config)
+                or req.prompt_contract_sha256 != prompt_contract_sha256()):
+            raise ContractError('Unbound measured call or stopped session')
+        self.store.guard_space(2*len(req.request)+10*req.config.response_bytes+65536)
+        reserve_with_pacing(limiter=self.limiter,config=req.config,quota=self.quotas[req.identity.stage],
+            policy=self.pacing,now=self.now,pause=self.pause,cancelled=self.cancelled,
+            record=self.store.record,call_key=req.identity.key)
+        # Wait telemetry also consumes evidence capacity. Recheck after pacing,
+        # before any monetary reservation or connection, not just before waiting.
+        self.store.guard_space(2*len(req.request)+10*req.config.response_bytes+65536)
+        self.used.add(req.identity.key)
+        self.journal.reserve(req.identity, req.config, req.request, req.local_tokens)
+        connection = None
+        try:
+            self.store.record({'kind': 'HTTP_REQUEST', 'call': req.identity.key,
+                'raw': req.request.decode(), 'request_sha256': sha(req.request),
+                'config_sha256': config_digest(req.config)})
+            # Secret retrieval occurs only after reservation/evidence commit.
+            connection = self.factory(req.config)
+            raw = _exchange(connection, req.config, req.request, self.bearer(), self.now, self.cancelled)
+            self.store.record({'kind': 'HTTP_RESPONSE', 'call': req.identity.key,
+                'base64': base64.b64encode(raw).decode(), 'response_sha256': sha(raw)})
+            data, usage, prompt, completion, reasoning = parse_envelope(raw, req.config)
+            self.journal.settle(req.identity, req.config, usage, prompt, completion, sha(raw),
+                {'request_id': data.get('id'), 'returned_model': data.get('model'),
+                 'requested_endpoint': req.config.endpoint})
+            return accepted_result(data, usage, prompt, completion, reasoning, raw, req.config)
+        except BaseException:
+            self.journal.halted = True
+            if (not self.journal.persistence_failed
+                    and self.journal.entries[req.identity.key]['state'] == 'RESERVED'):
+                self.journal.uncertain(req.identity, 'EXCHANGE_OR_PERSISTENCE_UNCERTAIN')
+            raise
+        finally:
+            if connection is not None:
+                connection.close()
+
+
+def validate_composed_result(query, result, rows, journal):
+    """Reconstruct answers/scores/call graph from persisted raw provider bodies.
+
+    Tokenizer identity and retained evidence fields need the frozen input package
+    and postrun audit; this is not a replacement for that independent check.
+    """
+    if type(result) is not dict or result.get('query_id') != query.query_id:
+        raise ContractError('Result/query mismatch')
+    completions = [r for r in rows if r.get('kind') == 'COMPOSITION_COMPLETE'
+                   and r['result']['query_id'] == query.query_id]
+    if len(completions) != 1 or canonical(completions[0]['result']) != canonical(result):
+        raise ContractError('Result differs from completed trace')
+    required = {CallIdentity(query.query_id, 'shared', 'router').key}
+    for arm in ('H', 'T'):
+        a = result['arms'][arm]
+        if type(a['verifier']['sufficient']) is not bool:
+            raise ContractError('Boolean verifier required')
+        stages = ['verifier', 'judge1', 'judge2']
+        if a['verifier']['sufficient']: stages.append('generator')
+        required.update(CallIdentity(query.query_id, arm, s).key for s in stages)
+    if set(result['calls']) != required or len(result['calls']) != len(required):
+        raise ContractError('Call graph differs from verifier decisions')
+    ledger = BudgetJournal.inspect(journal.path)['events']
+    parsed, requests = {}, {}
+    for key in required:
+        request_rows = [r for r in rows if r.get('kind') == 'HTTP_REQUEST' and r['call'] == key]
+        response_rows = [r for r in rows if r.get('kind') == 'HTTP_RESPONSE' and r['call'] == key]
+        measurement = [r for r in rows if r.get('kind') == 'MEASURED_REQUEST' and r['call'] == key]
+        settlements = [r for r in ledger if r.get('kind') == 'SETTLE' and r['key'] == key]
+        if (len(request_rows) != 1 or len(response_rows) != 1
+                or len(measurement) != 1 or len(settlements) != 1):
+            raise ContractError('Exact call evidence required')
+        req, res = request_rows[0], response_rows[0]
+        raw = base64.b64decode(res['base64'], validate=True)
+        entry = journal.entries.get(key, {})
+        if (sha(raw) != res['response_sha256'] or entry.get('state') != 'SETTLED'
+                or settlements[0]['response_sha256'] != sha(raw)
+                or sha(req['raw'].encode()) != req['request_sha256']
+                or entry.get('request_sha256') != req['request_sha256']
+                or measurement[0]['request_sha256'] != req['request_sha256']
+                or measurement[0]['local_tokens'] != entry['local_prompt_tokens']
+                or measurement[0]['prompt_contract_sha256'] != prompt_contract_sha256()):
+            raise ContractError('Trace/settlement digest mismatch')
+        stage = key.rsplit(':', 1)[1]
+        data = strict_json(raw)
+        parsed[key] = parsed_content(stage, data['choices'][0]['message']['content'])
+        requests[key] = strict_json(strict_json(req['raw'])['messages'][1]['content'])
+        if requests[key]['query'] != query.text:
+            raise ContractError('HTTP query text mismatch')
+        payload = requests[key]
+        expected = messages(stage, query.text, payload.get('evidence', ''),
+                            payload.get('candidate_answer'))
+        if strict_json(req['raw'])['messages'] != [dict(role=r, content=c) for r, c in expected]:
+            raise ContractError('HTTP prompt-contract mismatch')
+    if result['route'] != parsed[CallIdentity(query.query_id, 'shared', 'router').key]['route']:
+        raise ContractError('Route mismatch')
+    for arm in ('H', 'T'):
+        key = lambda stage: CallIdentity(query.query_id, arm, stage).key
+        a = result['arms'][arm]
+        verifier = parsed[key('verifier')]
+        if a['verifier'] != verifier: raise ContractError('Verifier mismatch')
+        answer = (parsed[key('generator')] if verifier['sufficient'] else
+                  'I cannot establish an answer from the supplied evidence. '+verifier['reason'])
+        judges = [parsed[key(s)] for s in ('judge1', 'judge2')]
+        scores = [j['faithfulness'] for j in judges]
+        composite = sum(scores)/2 if all(v is not None for v in scores) else None
+        if a['answer'] != answer or a['judges'] != judges or a['composite'] != composite:
+            raise ContractError('Answer/score mismatch')
+        evidence = requests[key('verifier')]['evidence']
+        retrieved = [r for r in rows if r.get('kind') == 'RETRIEVAL' and r['arm'] == arm
+                     and r.get('query_id') == query.query_id]
+        if (len(retrieved) != 1 or retrieved[0]['route'] != result['route']
+                or retrieved[0]['evidence_sha256'] != sha(evidence.encode())
+                or tuple(a['retained_ids']) != tuple(retrieved[0]['retained_ids'])
+                or tuple(a['dropped_ids']) != tuple(retrieved[0]['dropped_ids'])):
+            raise ContractError('Result/retrieval-evidence mismatch')
+        for stage in ('judge1', 'judge2') + (('generator',) if verifier['sufficient'] else ()):
+            if requests[key(stage)]['evidence'] != evidence:
+                raise ContractError('Cross-stage evidence mismatch')
+        for stage in ('judge1', 'judge2'):
+            if requests[key(stage)]['candidate_answer'] != answer:
+                raise ContractError('Judge did not receive actual answer')
+
+
+def _run_bound_study(*, root, queries, retrieval, tokenizers, configs, quotas,
+                     connection_factory, bearer, cap_nanodollars, byte_cap, seed=42,
+                     now=time.monotonic, cancelled=lambda: False, mode, pacing=None, pause=time.sleep):
+    """Internal serial composition. Outer caller MUST own authentic admission.
+
+    Public authentic entry below cannot reach this function. Synthetic tests
+    exercise the identical storage/accounting/HTTP/body reconstruction path.
+    """
+    if type(queries) is not tuple or any(type(q) is not StudyQuery for q in queries):
+        raise ContractError('Frozen query tuple required')
+    store = StudyStore(root, tuple(q.query_id for q in queries), byte_cap)
+    journal = None
+    try:
+        journal = BudgetJournal(store.root/'calls.jsonl', cap_nanodollars, len(queries)*9)
+        session = MeasuredCallSession(journal, store, configs, quotas,
+                                      connection_factory, bearer, now, cancelled, pacing=pacing,pause=pause)
+        store.record({'kind': 'STUDY_CONTRACT', 'mode': mode,
+            'queries': [asdict(q) for q in queries], 'seed': seed,
+            'role_configs': {role: config_digest(c) for role, c in configs.items()},
+            'quotas':{role:asdict(q) for role,q in quotas.items()},
+            'pacing_policy':asdict(session.pacing)})
+        for query in queries:
+            if cancelled(): raise DispatchHeld('Study cancelled')
+            pair = _compute_pair(query_id=query.query_id, query_text=query.text,
+                retrieval=retrieval, tokenizers=tokenizers, configs=configs,
+                dispatch=session, record=store.record, seed=seed, mode=mode)
+            store.save_pair(query, pair, journal)
+        store.finish(journal)
+        return {'completed': len(store.completed), 'exposure_nanodollars': journal.exposure,
+                'mode': mode, 'requires_postrun_audit': True}
+    except BaseException as original:
+        try:
+            store.fail(type(original).__name__)
+        except BaseException as finalization:
+            raise BaseExceptionGroup('Study and evidence finalization failed', [original, finalization])
+        raise
+    finally:
+        if journal is not None: journal.close()
+        store.close()
+
+
+def run_authentic_study(*args, **kwargs):
+    raise DispatchHeld('Authentic study freeze, budget, supervisor and user authority not admitted')

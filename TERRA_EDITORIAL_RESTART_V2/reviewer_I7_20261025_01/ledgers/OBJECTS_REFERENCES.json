@@ -1,0 +1,1475 @@
+[
+  {
+    "id": "main:sec:Introduction",
+    "label": "sec:Introduction",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 114
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:sec:related-work",
+    "label": "sec:related-work",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 135
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:sec:methodology",
+    "label": "sec:methodology",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 145
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:fig:system_architecture",
+    "label": "fig:system_architecture",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 154
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 147
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "figure"
+  },
+  {
+    "id": "main:subsec:phase1-ingestion",
+    "label": "subsec:phase1-ingestion",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 158
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 234
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 324
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 656
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 672
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:eq:trace_doc",
+    "label": "eq:trace_doc",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 183
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "equation"
+  },
+  {
+    "id": "main:subsec:phase2-inference",
+    "label": "subsec:phase2-inference",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 190
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:eq:routing",
+    "label": "eq:routing",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 201
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "equation"
+  },
+  {
+    "id": "main:eq:l2threshold",
+    "label": "eq:l2threshold",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 211
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "equation"
+  },
+  {
+    "id": "main:eq:bfs",
+    "label": "eq:bfs",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 224
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "equation"
+  },
+  {
+    "id": "main:subsubsec:terra-nli-grader",
+    "label": "subsubsec:terra-nli-grader",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 229
+    },
+    "incoming": [
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 1
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsubsec:data-leakage",
+    "label": "subsubsec:data-leakage",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 233
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 321
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsubsec:xai-provenance",
+    "label": "subsubsec:xai-provenance",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 237
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 619
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:eq:temperature",
+    "label": "eq:temperature",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 244
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "equation"
+  },
+  {
+    "id": "main:subsec:implementation-details",
+    "label": "subsec:implementation-details",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 249
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:sec:dataset-analysis",
+    "label": "sec:dataset-analysis",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 253
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:corpus-stats",
+    "label": "subsec:corpus-stats",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 258
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:tab:corpus_stats",
+    "label": "tab:corpus_stats",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 265
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 259
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 319
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 7
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:subsec:graph-topology",
+    "label": "subsec:graph-topology",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 290
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:hub-analysis",
+    "label": "subsec:hub-analysis",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 294
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:fig:hub_centrality",
+    "label": "fig:hub_centrality",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 301
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 295
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "figure"
+  },
+  {
+    "id": "main:sec:experimental-setup",
+    "label": "sec:experimental-setup",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 305
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:benchmark-design",
+    "label": "subsec:benchmark-design",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 310
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 166
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 545
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 10
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:baselines",
+    "label": "subsec:baselines",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 327
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:eval-metrics",
+    "label": "subsec:eval-metrics",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 333
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 363
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 1
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:validation-methodology",
+    "label": "subsec:validation-methodology",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 344
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 338
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:author-assessment",
+    "label": "subsec:author-assessment",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 356
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:data-code-availability",
+    "label": "subsec:data-code-availability",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 361
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:reproducibility",
+    "label": "subsec:reproducibility",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 362
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:sec:results-analysis",
+    "label": "sec:results-analysis",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 365
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:ablation-study",
+    "label": "subsec:ablation-study",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 370
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 574
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:tab:ablation",
+    "label": "tab:ablation",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 376
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 203
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 230
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 372
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 472
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 661
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_tables/table_run_provenance.tex",
+        "line": 25
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_tables/table_latency_percentiles.tex",
+        "line": 6
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:subsec:evolutionary-reasoning",
+    "label": "subsec:evolutionary-reasoning",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 395
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 372
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 463
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:tab:cat_b_performance",
+    "label": "tab:cat_b_performance",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 401
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 372
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 397
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 423
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:subsec:safety-and-factual",
+    "label": "subsec:safety-and-factual",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 428
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 372
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 574
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_tables/table_router_eval.tex",
+        "line": 33
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:tab:overall_summary",
+    "label": "tab:overall_summary",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 434
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 372
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 430
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 602
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 661
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:fig:safety_rejection",
+    "label": "fig:safety_rejection",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 459
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 465
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "figure"
+  },
+  {
+    "id": "main:subsec:router-standalone-eval",
+    "label": "subsec:router-standalone-eval",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 470
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 203
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:latency-distribution",
+    "label": "subsec:latency-distribution",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 480
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:statistical-significance",
+    "label": "subsec:statistical-significance",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 487
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:tab:power_analysis",
+    "label": "tab:power_analysis",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 493
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 489
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 520
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:subsec:temporal-leakage",
+    "label": "subsec:temporal-leakage",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 523
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 234
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 465
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:obscure-generalization",
+    "label": "subsec:obscure-generalization",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 544
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 670
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 682
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 1
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:casefacts-generalization",
+    "label": "subsec:casefacts-generalization",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 555
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 574
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 14
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:clerc-generalization",
+    "label": "subsec:clerc-generalization",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 572
+    },
+    "incoming": [
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 14
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsubsec:clerc-protocol",
+    "label": "subsubsec:clerc-protocol",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 577
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:retrieval-quality",
+    "label": "subsec:retrieval-quality",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 590
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 221
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 585
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 636
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 40
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsubsec:hyperparameter-sensitivity",
+    "label": "subsubsec:hyperparameter-sensitivity",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 605
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:citation-correctness",
+    "label": "subsec:citation-correctness",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 611
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 238
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 420
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:computational-budget",
+    "label": "subsec:computational-budget",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 624
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 128
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:temporal-update-stability",
+    "label": "subsec:temporal-update-stability",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 645
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 121
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 682
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 7
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:sec:discussion",
+    "label": "sec:discussion",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 650
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:contrib-discussion",
+    "label": "subsec:contrib-discussion",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 655
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:firewall-analysis",
+    "label": "subsec:firewall-analysis",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 659
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 128
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 215
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:limitations",
+    "label": "subsec:limitations",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 666
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 131
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 230
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 311
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 567
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 574
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 647
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 682
+      },
+      {
+        "document": "main",
+        "file": "tables/table_casefacts_eval.tex",
+        "line": 30
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:future-work",
+    "label": "subsec:future-work",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 676
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:sec:conclusion",
+    "label": "sec:conclusion",
+    "document": "main",
+    "source": {
+      "file": "main.tex",
+      "line": 680
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:subsec:matched-comparison",
+    "label": "subsec:matched-comparison",
+    "document": "main",
+    "source": {
+      "file": "matched_comparison_main.tex",
+      "line": 2
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 123
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 166
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 363
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 367
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "main:tab:refusal_breakdown",
+    "label": "tab:refusal_breakdown",
+    "document": "main",
+    "source": {
+      "file": "tables/table_refusal_breakdown.tex",
+      "line": 4
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 372
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 458
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 465
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 551
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:tab:obscure_overruled_eval",
+    "label": "tab:obscure_overruled_eval",
+    "document": "main",
+    "source": {
+      "file": "tables/table_obscure_overruled_eval.tex",
+      "line": 4
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 545
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:tab:casefacts_eval",
+    "label": "tab:casefacts_eval",
+    "document": "main",
+    "source": {
+      "file": "tables/table_casefacts_eval.tex",
+      "line": 4
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 567
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:tab:clerc_eval",
+    "label": "tab:clerc_eval",
+    "document": "main",
+    "source": {
+      "file": "tables/table_clerc_eval.tex",
+      "line": 4
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 583
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 602
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:tab:retrieval_eval",
+    "label": "tab:retrieval_eval",
+    "document": "main",
+    "source": {
+      "file": "tables/table_retrieval_eval.tex",
+      "line": 4
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 423
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 592
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 606
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 40
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:tab:citation_eval",
+    "label": "tab:citation_eval",
+    "document": "main",
+    "source": {
+      "file": "tables/table_citation_eval.tex",
+      "line": 4
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 238
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 613
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 616
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "main:tab:computational_budget",
+    "label": "tab:computational_budget",
+    "document": "main",
+    "source": {
+      "file": "tables/table_computational_budget.tex",
+      "line": 4
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 214
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 330
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 626
+      },
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 663
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:full_fdr_family",
+    "label": "tab:full_fdr_family",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_full_fdr_family.tex",
+      "line": 8
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:baseline_specifications",
+    "label": "tab:baseline_specifications",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_baseline_specifications.tex",
+      "line": 9
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:sensitivity_raw_vs_clamped",
+    "label": "tab:sensitivity_raw_vs_clamped",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_sensitivity_raw_vs_clamped.tex",
+      "line": 7
+    },
+    "incoming": [
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 27
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:temporal-update-stability",
+    "label": "tab:temporal-update-stability",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_temporal_update_stability.tex",
+      "line": 8
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:system_comparison",
+    "label": "tab:system_comparison",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_system_comparison.tex",
+      "line": 7
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:router_eval",
+    "label": "tab:router_eval",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_router_eval.tex",
+      "line": 7
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:temporal_leakage_probe",
+    "label": "tab:temporal_leakage_probe",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_temporal_leakage_probe.tex",
+      "line": 7
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:graph_metrics",
+    "label": "tab:graph_metrics",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_graph_metrics.tex",
+      "line": 6
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:run_provenance",
+    "label": "tab:run_provenance",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_run_provenance.tex",
+      "line": 9
+    },
+    "incoming": [
+      {
+        "document": "main",
+        "file": "main.tex",
+        "line": 350
+      },
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_limitations.tex",
+        "line": 29
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:tab:latency_percentiles",
+    "label": "tab:latency_percentiles",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_tables/table_latency_percentiles.tex",
+      "line": 6
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "table"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:item:hosted-api-determinism",
+    "label": "item:hosted-api-determinism",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_limitations.tex",
+      "line": 9
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:item:falserefusal",
+    "label": "item:falserefusal",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_limitations.tex",
+      "line": 18
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:item:samefamily",
+    "label": "item:samefamily",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_limitations.tex",
+      "line": 23
+    },
+    "incoming": [],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  },
+  {
+    "id": "TERRA_SUPPLEMENT:supp:matched-comparison",
+    "label": "supp:matched-comparison",
+    "document": "TERRA_SUPPLEMENT",
+    "source": {
+      "file": "supplement_matched_comparison.tex",
+      "line": 2
+    },
+    "incoming": [
+      {
+        "document": "TERRA_SUPPLEMENT",
+        "file": "supplement_tables/table_run_provenance.tex",
+        "line": 52
+      }
+    ],
+    "status": "REAL_SOURCE_LABEL_AND_FRESH_COMPILED_AUX",
+    "object_type": "section_or_item"
+  }
+]

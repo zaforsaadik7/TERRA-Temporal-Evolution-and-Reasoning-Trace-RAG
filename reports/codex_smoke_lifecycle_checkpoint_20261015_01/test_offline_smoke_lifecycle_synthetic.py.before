@@ -1,0 +1,73 @@
+"""Pure mock lifecycle tests; no protected assets or real OS operations."""
+import unittest
+from scripts.matched_baseline.offline_smoke_lifecycle import SmokeLifecycle
+
+
+class SmokeLifecycleTests(unittest.TestCase):
+    def build(self, fail=None, result=None):
+        self.events = []
+        self.records = []
+        def hook(name, value=None):
+            def call(*args):
+                self.events.append(name)
+                if fail == name:
+                    raise RuntimeError(name)
+                if name == "terminal_record":
+                    self.records.append(args[0])
+                return value
+            return call
+        keys = ["preflight", "acquire_lock", "verify_boundary", "remove_boundary",
+                "verify_absence", "postcheck", "start_record", "close_transcript",
+                "terminal_record"]
+        kwargs = {key: hook(key) for key in keys}
+        kwargs["create_boundary"] = hook("create_boundary", "owned-receipt")
+        kwargs["run_child"] = hook("run_child", result or {
+            "termination_confirmed": True, "exit_code": 0})
+        return SmokeLifecycle(**kwargs)
+
+    def test_success_order_and_label(self):
+        outcome = self.build().run()
+        self.assertEqual(outcome.status, "SIMULATED_SUCCESS")
+        self.assertEqual(self.events, ["start_record", "preflight", "create_boundary",
+            "verify_boundary", "acquire_lock", "run_child", "remove_boundary",
+            "verify_absence", "postcheck", "close_transcript", "terminal_record"])
+
+    def test_prelaunch_failures_no_child_or_spent_lock(self):
+        for failure in ("start_record", "preflight", "create_boundary", "verify_boundary"):
+            with self.subTest(failure=failure):
+                outcome = self.build(fail=failure).run()
+                self.assertEqual(outcome.status, "FAIL")
+                self.assertNotIn("run_child", self.events)
+                self.assertNotIn("acquire_lock", self.events)
+                self.assertIn(failure, outcome.failures[0])
+
+    def test_finalization_failures_never_success(self):
+        for failure in ("remove_boundary", "verify_absence", "postcheck", "close_transcript"):
+            with self.subTest(failure=failure):
+                outcome = self.build(fail=failure).run()
+                self.assertEqual(outcome.status, "FAIL")
+                self.assertIn(failure, " ".join(outcome.failures))
+                self.assertEqual(self.records[0].status, "FAIL")
+
+    def test_unknown_termination_skips_hashes(self):
+        outcome = self.build(fail="run_child").run()
+        self.assertNotIn("postcheck", self.events)
+        self.assertIn("remove_boundary", self.events)
+        self.assertIn("NOT_VERIFIED", " ".join(outcome.failures))
+
+    def test_nonzero_child(self):
+        outcome = self.build(result={"termination_confirmed": True, "exit_code": 7}).run()
+        self.assertEqual(outcome.child_exit, 7)
+        self.assertEqual(outcome.status, "FAIL")
+        self.assertIn("postcheck", self.events)
+
+    def test_terminal_write_failure_propagates(self):
+        with self.assertRaisesRegex(RuntimeError, "terminal_record"):
+            self.build(fail="terminal_record").run()
+
+    def test_production_block(self):
+        with self.assertRaisesRegex(RuntimeError, "real execution blocked"):
+            SmokeLifecycle(is_synthetic=False, **{k: lambda *a: None for k in (
+                "preflight", "acquire_lock", "create_boundary", "verify_boundary",
+                "run_child", "remove_boundary", "verify_absence", "postcheck",
+                "start_record", "close_transcript", "terminal_record")})

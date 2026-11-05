@@ -1,0 +1,114 @@
+[
+  {
+    "id": "HIST_PRIMARY",
+    "population": "Historical 350-query/1750 arm evaluations",
+    "evidence_path": "F:\\TERRA -Copy\\data\\terra_canonical_v2_eval.json",
+    "evidence_sha256": "95e775e29c3a0d95f3cb35aa9d50a5f030d04b51d3f2175848db2f2b57aad507",
+    "qualification": "Historical five systems; exact old engine/graph/index linkage incomplete; records not overwritten",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "PILOT",
+    "population": "35 unique queries; 4 arms x5 repeats =700 stored observations",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\provenance_disclosure_20261012_01\\IMPLEMENTATION_REPORT.md",
+    "evidence_sha256": "0e0180a3782596484985920990d28e2c470e77d24bd34efb9878bb9e836c1a52",
+    "qualification": "Single historical Llama judge; date unestablished; not canonical dual-judge scale",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "CALIBRATION",
+    "population": "350 recorded query distances; primary200 A/B vs75 C",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I0_I1a_20261008\\I1a_implementation_20261008\\IMPLEMENTATION_REPORT.md",
+    "evidence_sha256": "63bfeba628d211eca3c27823c08f514ee74007a0fb36730ae8e734b12ac75469",
+    "qualification": "Contemporary squared-L2 diagnostic; title/deployed formatting untested; no historical replay",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "CHAIN_CANONICAL_LEGACY",
+    "population": "100 CategoryB contexts per generation",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I1b_20261008\\stored_context_recount.json",
+    "evidence_sha256": "57fee83ae81da482b24aa769baa5b59b5a904b402956c38b00554c52cc98c109",
+    "qualification": "66 canonical vs62 legacy; ID/title target coverage not certified connected paths",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "CHAIN_BOUNDED",
+    "population": "100 legacy-anchored bounded diagnostics",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I1b_20261008\\I1B_REPORT.md",
+    "evidence_sha256": "fddceced03d5cf5ed3c477eace62da2b68cc0f913bcc1e47c916995cb3d37f56",
+    "qualification": "61 full recoveries; distinct engine/config/context",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "LATENCY",
+    "population": "350 historical TERRA queries,110EASY/240HARD",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I1c_20261008\\export_approved_01\\latency_percentiles_summary.json",
+    "evidence_sha256": "9cefb5a3119260e0b67f9e6515a98c1757803e0133487f85c207d86f99f5f623",
+    "qualification": "Gross/net and category/route cohorts kept separate; timing stages not API request count proof",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "TEMPORAL",
+    "population": "50 queries x4pipelines x2conditions =400 responses",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\assessment_integration_20261012_01\\IMPLEMENTATION_AND_SELF_AUDIT_REPORT.md",
+    "evidence_sha256": "ad015e88d156c06a829708bc493a7f2fb81e27dfc6d4f06aa63e365d5127dc12",
+    "qualification": "315 complete judge pairs;85missing; exploratory envelopes; unsupported spot check withdrawn",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "OBSCURE_FAMOUS",
+    "population": "30x4 obscure plus19x4 famous contrast",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\provenance_disclosure_20261012_01\\IMPLEMENTATION_REPORT.md",
+    "evidence_sha256": "0e0180a3782596484985920990d28e2c470e77d24bd34efb9878bb9e836c1a52",
+    "qualification": "Recovered engine hash/fingerprints; oracle dependency; nonblind model labels; fixed sequence",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "CASEFACTS",
+    "population": "120+50 questions;3arms/510completions",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\working\\src\\phase3_corrections_b6.tex",
+    "evidence_sha256": "a5813ad760637b1698b75cf663418efa552b53337716ad8f0b9ecc4e2451b918",
+    "qualification": "Header-parsed labels, no expert validation; 8overruled paired test posthoc p0.625",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "CLERC",
+    "population": "120drafting+50engineeredrefusal;3arms/510completions",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\working\\src\\phase3_corrections_b6.tex",
+    "evidence_sha256": "a5813ad760637b1698b75cf663418efa552b53337716ad8f0b9ecc4e2451b918",
+    "qualification": "Membership not fabrication; soundness/misapplication adverse findings retained",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "TEMPORAL_UPDATE",
+    "population": "106pair observations/82uniquequeries",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\working\\src\\supplement_tables\\table_temporal_update_stability.tex",
+    "evidence_sha256": "f19cbc7aa58fa938162c8c4e0e05fd8f2409b34be3007265947668c99da0ca29",
+    "qualification": "Topology-only standalone BFS; no streaming index validation",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "TAXONOMY_GRAPH_SCAFFOLD",
+    "population": "20000-node corpus and recorded sample audits",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\working\\src\\generated_corpus_stats_20k.tex",
+    "evidence_sha256": "b5cbef2c66d3370917966f874ba0e75ba4b42be8a4f79342642d89b58bfc284e",
+    "qualification": "Automated taxonomy/metadata/snippet audits not legal reasoning validation",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "AUTHOR_ASSESSMENT",
+    "population": "76 assigned rows each author; overlaps/repeated questions",
+    "evidence_path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\working\\src\\supplement_assessment.tex",
+    "evidence_sha256": "4ccced524dd6dab63b721320fcb1c6c7b104559fac172516524bb81c836f4ac3",
+    "qualification": "AI-assisted nonexpert; original/reconciled kept separate; not152independentqueries",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  },
+  {
+    "id": "PROSPECTIVE_MATCHED",
+    "population": "350pairs/700arm outcomes;2706settled calls",
+    "evidence_path": "F:\\TERRA -Copy\\reports\\matched_study_r03_20261025_01\\FINAL_REPORT.md",
+    "evidence_sha256": "489485c0e07b0786de7f700b82fe9dd2d0ea02206237a7ae0e54efbe804da30f",
+    "qualification": "Fresh frozen pipeline; shared controls; B69Tvs4Hrefusals; no legal correctness/coverage superiority",
+    "provenance_status": "As explicitly qualified; report digest is identity, not replacement for primary artifacts"
+  }
+]

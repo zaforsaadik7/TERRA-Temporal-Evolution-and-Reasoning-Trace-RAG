@@ -1,0 +1,17 @@
+=== CLERC
+T1 1_Direct_LLM       n=120 OR=108 (90.0%) AND=77 (64.2%) short_circuit=0 OR_among_generated=108/120 AND_among_generated=77/120 OR_among_shortcircuit=0 fallback=0 qwen_status={'SUBSTANTIVE_ANSWER': 99, 'DISCLOSED_OUT_OF_CORPUS': 21}
+T1 2_Flat_Vector_RAG  n=120 OR=118 (98.3%) AND=104 (86.7%) short_circuit=0 OR_among_generated=118/120 AND_among_generated=104/120 OR_among_shortcircuit=0 fallback=0 qwen_status={'DISCLOSED_OUT_OF_CORPUS': 38, 'SUBSTANTIVE_ANSWER': 82}
+   hits@10 flat 12 terra 13
+T1 5_Full_TERRA       n=120 OR=60 (50.0%) AND=45 (37.5%) short_circuit=53 OR_among_generated=60/67 AND_among_generated=45/67 OR_among_shortcircuit=0 fallback=0 qwen_status={'DISCLOSED_OUT_OF_CORPUS': 36, 'REFUSAL': 34, 'SUBSTANTIVE_ANSWER': 50}
+   hits@10 flat 12 terra 13
+T2 1_Direct_LLM       n=50 OR=46 (92.0%) AND=37 (74.0%) short_circuit=0 OR_among_generated=46/50 AND_among_generated=37/50 OR_among_shortcircuit=0 fallback=0 qwen_status={'DISCLOSED_OUT_OF_CORPUS': 32, 'SUBSTANTIVE_ANSWER': 18}
+T2 2_Flat_Vector_RAG  n=50 OR=50 (100.0%) AND=49 (98.0%) short_circuit=0 OR_among_generated=50/50 AND_among_generated=49/50 OR_among_shortcircuit=0 fallback=0 qwen_status={'DISCLOSED_OUT_OF_CORPUS': 42, 'SUBSTANTIVE_ANSWER': 8}
+T2 5_Full_TERRA       n=50 OR=17 (34.0%) AND=17 (34.0%) short_circuit=33 OR_among_generated=17/17 AND_among_generated=17/17 OR_among_shortcircuit=0 fallback=0 qwen_status={'DISCLOSED_OUT_OF_CORPUS': 20, 'REFUSAL': 25, 'SUBSTANTIVE_ANSWER': 5}
+=== CaseFacts T1
+1_Direct_LLM       macroF1(3cls)=46.51 macroF1(Supp+Ref only)=51.59 accuracy(=script 'micro')=53.33 trueMicroF1(OOC as abstain)=57.14 OOC_preds=16 F1={'Supported': 67.11, 'Refuted': 36.07, 'Overruled': 36.36} judge_concord=120/120 parsed==qwen=120/120
+2_Flat_Vector_RAG  macroF1(3cls)=48.26 macroF1(Supp+Ref only)=55.72 accuracy(=script 'micro')=53.33 trueMicroF1(OOC as abstain)=58.18 OOC_preds=20 F1={'Supported': 66.67, 'Refuted': 44.78, 'Overruled': 33.33} judge_concord=120/120 parsed==qwen=120/120
+5_Full_TERRA       macroF1(3cls)=54.49 macroF1(Supp+Ref only)=53.16 accuracy(=script 'micro')=51.67 trueMicroF1(OOC as abstain)=57.67 OOC_preds=25 F1={'Supported': 65.69, 'Refuted': 40.62, 'Overruled': 57.14} judge_concord=120/120 parsed==qwen=120/120
+=== CaseFacts T2
+1_Direct_LLM parsed_label {'Outside Precedent Corpus': 40, 'Supported': 7, 'Refuted': 3} direct_match 40 consensus_correct 40 refused(script rule) 40 ctx_len0 50 answer_startswith_apolog 0
+2_Flat_Vector_RAG parsed_label {'Outside Precedent Corpus': 46, 'Refuted': 2, 'Supported': 2} direct_match 46 consensus_correct 46 refused(script rule) 46 ctx_len0 0 answer_startswith_apolog 0
+5_Full_TERRA parsed_label {'Outside Precedent Corpus': 50} direct_match 50 consensus_correct 50 refused(script rule) 50 ctx_len0 0 answer_startswith_apolog 46

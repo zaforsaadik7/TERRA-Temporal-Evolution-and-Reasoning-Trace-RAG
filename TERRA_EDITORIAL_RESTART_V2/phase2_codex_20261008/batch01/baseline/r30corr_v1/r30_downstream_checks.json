@@ -1,0 +1,128 @@
+{
+ "inputs": {
+  "code": "0cca5cf440a1299853c37899647465b5f1f843803898e630d8d5402a3d9fffbb",
+  "active": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+  "pre_issue6": "012c999babb853e5d8f24caec353afe8303b8edd517965a6430957c26a6653bb",
+  "derivative": "14827bd623700cc84909fa050746ca92cf1c972b8335f6d1391d3908f3fc146c",
+  "eval": "95e775e29c3a0d95f3cb35aa9d50a5f030d04b51d3f2175848db2f2b57aad507",
+  "obscure": "fd8fa9b18ff71800b52e0368f26fb6716ddc1a212c14419e615dd317c005d9b0"
+ },
+ "topology": {
+  "derivative_pairs_equal_pre_issue6": true,
+  "active_minus_derivative": [
+   [
+    "403_0088-01",
+    "342_0519-01"
+   ],
+   [
+    "411_0345-01",
+    "172_0269-01"
+   ],
+   [
+    "415_0651-01",
+    "394_0759-01"
+   ]
+  ],
+  "derivative_minus_active": [],
+  "relation_changes_vs_active": 0,
+  "overrules_in_derivative": 53
+ },
+ "stats_active": {
+  "nodes": 20000,
+  "edges": 145366,
+  "density": 0.000363,
+  "mean_undirected_degree": 14.54,
+  "max_degree": 276,
+  "max_degree_node": "230_0352-01",
+  "max_degree_title": "Simpson v. Shepard",
+  "n_wcc": 1397,
+  "largest_wcc": 18558,
+  "largest_scc": 2,
+  "scc_size_gt1": 9,
+  "avg_clustering_undirected": 0.2047
+ },
+ "stats_derivative": {
+  "nodes": 20000,
+  "edges": 145363,
+  "density": 0.000363,
+  "mean_undirected_degree": 14.54,
+  "max_degree": 276,
+  "max_degree_node": "230_0352-01",
+  "max_degree_title": "Simpson v. Shepard",
+  "n_wcc": 1397,
+  "largest_wcc": 18558,
+  "largest_scc": 2,
+  "scc_size_gt1": 9,
+  "avg_clustering_undirected": 0.2047
+ },
+ "endpoint_degrees": {
+  "415_0651-01": {
+   "active": {
+    "out": 35,
+    "inn": 40
+   },
+   "derivative": {
+    "out": 34,
+    "inn": 40
+   }
+  },
+  "394_0759-01": {
+   "active": {
+    "out": 11,
+    "inn": 9
+   },
+   "derivative": {
+    "out": 11,
+    "inn": 8
+   }
+  },
+  "403_0088-01": {
+   "active": {
+    "out": 23,
+    "inn": 13
+   },
+   "derivative": {
+    "out": 22,
+    "inn": 13
+   }
+  },
+  "342_0519-01": {
+   "active": {
+    "out": 4,
+    "inn": 9
+   },
+   "derivative": {
+    "out": 4,
+    "inn": 8
+   }
+  },
+  "411_0345-01": {
+   "active": {
+    "out": 13,
+    "inn": 1
+   },
+   "derivative": {
+    "out": 12,
+    "inn": 1
+   }
+  },
+  "172_0269-01": {
+   "active": {
+    "out": 18,
+    "inn": 23
+   },
+   "derivative": {
+    "out": 18,
+    "inn": 22
+   }
+  }
+ },
+ "obscure_edges_present_as_OVERRULES": "see r30_obscure_edge_check.json",
+ "deployed_overrules_pairs": 11,
+ "deployed_pairs_present_in_derivative": 11,
+ "traversal_replay_active_vs_derivative": {
+  "rows": 159,
+  "identical": 159,
+  "differing": []
+ }
+}

@@ -1,0 +1,1759 @@
+macro,frozen_value,defined_in,line,total_uses,uses_by_file
+AblationEEGFaithfulnessRelDrop,17.2\%,generated_stats.tex,426,1,main.tex:1
+AblationFullCatAFalseRefusalCount,0/10,generated_stats.tex,401,1,main.tex:1
+AblationFullCatAFalseRefusalRate,0.0\%,generated_stats.tex,402,0,
+AblationFullCatBFaithfulness,0.815,generated_stats.tex,399,4,main.tex:4
+AblationFullCatDSafetyRate,100.0\%,generated_stats.tex,400,4,main.tex:4
+AblationFullLatencyMedianSeconds,1.38,generated_stats.tex,403,2,main.tex:2
+AblationFullOverallLatencyMedianSeconds,6.45,generated_stats.tex,404,0,
+AblationOneCatAFalseRefusalCount,0/10,generated_stats.tex,408,1,main.tex:1
+AblationOneCatAFalseRefusalRate,0.0\%,generated_stats.tex,409,0,
+AblationOneCatBFaithfulness,0.675,generated_stats.tex,406,2,main.tex:2
+AblationOneCatDSafetyRate,100.0\%,generated_stats.tex,407,1,main.tex:1
+AblationOneLatencyMedianSeconds,1.80,generated_stats.tex,410,1,main.tex:1
+AblationOneOverallLatencyMedianSeconds,5.84,generated_stats.tex,411,0,
+AblationRouterLatencySlowdownFactor,4.90,generated_stats.tex,427,4,main.tex:4
+AblationThreeCatAFalseRefusalCount,2/10,generated_stats.tex,422,2,main.tex:2
+AblationThreeCatAFalseRefusalRate,20.0\%,generated_stats.tex,423,4,main.tex:4
+AblationThreeCatBFaithfulness,0.840,generated_stats.tex,420,2,main.tex:2
+AblationThreeCatDSafetyRate,100.0\%,generated_stats.tex,421,1,main.tex:1
+AblationThreeLatencyMedianSeconds,6.75,generated_stats.tex,424,3,main.tex:3
+AblationThreeOverallLatencyMedianSeconds,6.78,generated_stats.tex,425,0,
+AblationTwoCatAFalseRefusalCount,0/10,generated_stats.tex,415,1,main.tex:1
+AblationTwoCatAFalseRefusalRate,0.0\%,generated_stats.tex,416,0,
+AblationTwoCatBFaithfulness,0.780,generated_stats.tex,413,1,main.tex:1
+AblationTwoCatDSafetyRate,0.0\%,generated_stats.tex,414,3,main.tex:3
+AblationTwoLatencyMedianSeconds,1.43,generated_stats.tex,417,1,main.tex:1
+AblationTwoOverallLatencyMedianSeconds,7.92,generated_stats.tex,418,0,
+AmendmentMFloorScore,0.750,generated_stats.tex,1226,1,main.tex:1
+BaselineFatalMax,8,generated_stats.tex,1231,1,main.tex:1
+BaselineFatalMin,4,generated_stats.tex,1230,1,main.tex:1
+BaselinesMarkdownLinks,0,generated_stats.tex,976,5,main.tex:1;tables/table_citation_eval.tex:4
+CaseFactsDirectHallucinationTrackTwo,10/50 (20.0\%),generated_stats.tex,517,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsDirectMacroFOne,46.51\%,generated_stats.tex,502,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsDirectMicroFOne,53.33\%,generated_stats.tex,503,1,tables/table_casefacts_eval.tex:1
+CaseFactsDirectOverruled,2/8 (25.0\%),generated_stats.tex,504,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsDirectOverruledCI,"\ensuremath{[3.19\%, 65.09\%]}",generated_stats.tex,505,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsDirectRefusalTrackTwo,40/50 (80.0\%),generated_stats.tex,516,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsFlatHallucinationTrackTwo,4/50 (8.0\%),generated_stats.tex,519,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsFlatMacroFOne,48.26\%,generated_stats.tex,506,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsFlatMicroFOne,53.33\%,generated_stats.tex,507,1,tables/table_casefacts_eval.tex:1
+CaseFactsFlatOverruled,2/8 (25.0\%),generated_stats.tex,508,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsFlatOverruledCI,"\ensuremath{[3.19\%, 65.09\%]}",generated_stats.tex,509,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsFlatRefusalTrackTwo,46/50 (92.0\%),generated_stats.tex,518,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsFootprintDensity,1.42\%,generated_stats.tex,496,1,main.tex:1
+CaseFactsFootprintNodes,"284/20,000",generated_stats.tex,497,1,main.tex:1
+CaseFactsSeedDensity,0.17\%,generated_stats.tex,494,1,main.tex:1
+CaseFactsSeedDensityRaw,"34/20,000",generated_stats.tex,495,1,main.tex:1
+CaseFactsTerraDisclosedTrackTwo,4/50 (8.0\%),generated_stats.tex,522,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraHallucinationTrackTwo,0/50 (0.0\%),generated_stats.tex,523,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraHardRefusalTrackTwo,46/50 (92.0\%),generated_stats.tex,521,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraLiftDirect,+7.97\%,generated_stats.tex,515,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraLiftFlat,+6.22\%,generated_stats.tex,514,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraMacroFOne,54.48\%,generated_stats.tex,510,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraMicroFOne,51.67\%,generated_stats.tex,511,1,tables/table_casefacts_eval.tex:1
+CaseFactsTerraOverruled,4/8 (50.0\%),generated_stats.tex,512,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraOverruledCI,"\ensuremath{[15.70\%, 84.30\%]}",generated_stats.tex,513,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTerraRefusalTrackTwo,50/50 (100.0\%),generated_stats.tex,520,2,main.tex:1;tables/table_casefacts_eval.tex:1
+CaseFactsTrackOneN,120,generated_stats.tex,500,1,main.tex:1
+CaseFactsTrackTwoN,50,generated_stats.tex,501,1,main.tex:1
+CaseFactsUntouchedNodes,"19,716/20,000",generated_stats.tex,499,1,main.tex:1
+CaseFactsUntouchedSubstrate,98.58\%,generated_stats.tex,498,1,main.tex:1
+CatATerraVsDirectLLMAdjQ,\ensuremath{1.93 \times 10^{-11}},generated_stats.tex,1064,2,main.tex:2
+CatATerraVsDirectLLMCI,"\ensuremath{[+0.350, +0.501]}",generated_stats.tex,1061,0,
+CatATerraVsDirectLLMDelta,+0.427,generated_stats.tex,1060,3,main.tex:3
+CatATerraVsDirectLLMDz,0.887,generated_stats.tex,1062,0,
+CatATerraVsDirectLLMPower,100.0\%,generated_stats.tex,1067,0,
+CatATerraVsDirectLLMWilcoxonP,\ensuremath{1.93 \times 10^{-12}},generated_stats.tex,1063,0,
+CatATerraVsDirectLLMWilcoxonQ,\ensuremath{1.93 \times 10^{-11}},generated_stats.tex,1172,0,
+CatATerraVsFlatRAGAdjQ,0.0177,generated_stats.tex,1072,1,main.tex:1
+CatATerraVsFlatRAGCI,"\ensuremath{[+0.025, +0.151]}",generated_stats.tex,1069,0,
+CatATerraVsFlatRAGDelta,+0.086,generated_stats.tex,1068,1,main.tex:1
+CatATerraVsFlatRAGDz,0.222,generated_stats.tex,1070,0,
+CatATerraVsFlatRAGPower,73.5\%,generated_stats.tex,1073,0,
+CatATerraVsFlatRAGWilcoxonP,0.0114,generated_stats.tex,1071,0,
+CatATerraVsFlatRAGWilcoxonQ,0.0177,generated_stats.tex,1173,0,
+CatATerraVsGraphRAGAdjQ,0.1169,generated_stats.tex,1078,1,main.tex:1
+CatATerraVsGraphRAGCI,"\ensuremath{[-0.004, +0.107]}",generated_stats.tex,1075,0,
+CatATerraVsGraphRAGDelta,+0.052,generated_stats.tex,1074,1,main.tex:1
+CatATerraVsGraphRAGDz,0.141,generated_stats.tex,1076,0,
+CatATerraVsGraphRAGPower,44.2\%,generated_stats.tex,1079,0,
+CatATerraVsGraphRAGWilcoxonP,0.0818,generated_stats.tex,1077,0,
+CatATerraVsGraphRAGWilcoxonQ,0.1169,generated_stats.tex,1174,0,
+CatATerraVsHippoRAGAdjQ,0.3623,generated_stats.tex,1084,1,main.tex:1
+CatATerraVsHippoRAGCI,"\ensuremath{[-0.018, +0.080]}",generated_stats.tex,1081,0,
+CatATerraVsHippoRAGDelta,+0.031,generated_stats.tex,1080,1,main.tex:1
+CatATerraVsHippoRAGDz,0.087,generated_stats.tex,1082,0,
+CatATerraVsHippoRAGPower,23.7\%,generated_stats.tex,1085,0,
+CatATerraVsHippoRAGWilcoxonP,0.2898,generated_stats.tex,1083,0,
+CatATerraVsHippoRAGWilcoxonQ,0.3865,generated_stats.tex,1175,0,
+CatBDirectCitationFOne,12.17\%,generated_stats.tex,954,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBDirectDoctrinalCitationPrecision,7.08\%,generated_stats.tex,953,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBDirectEntityCitationPrecision,90.27\%,generated_stats.tex,952,1,tables/table_citation_eval.tex:1
+CatBDirectFullPathCitationCount,1/100,generated_stats.tex,956,1,tables/table_citation_eval.tex:1
+CatBDirectFullPathCitationRecall,1.00\%,generated_stats.tex,955,0,
+CatBDirectMacroCitationRecall,43.55\%,generated_stats.tex,950,3,main.tex:2;tables/table_citation_eval.tex:1
+CatBDirectMicroCitationRecall,42.40\%,generated_stats.tex,951,1,tables/table_citation_eval.tex:1
+CatBEndpointsAnchoredPct,100.0\%,generated_stats.tex,659,1,main.tex:1
+CatBFiveNodeClopperPearsonCI,"[47.8\%, 100.0\%]",generated_stats.tex,618,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBFlatCitationFOne,21.15\%,generated_stats.tex,938,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBFlatDoctrinalCitationPrecision,14.15\%,generated_stats.tex,937,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBFlatEntityCitationPrecision,90.05\%,generated_stats.tex,936,1,tables/table_citation_eval.tex:1
+CatBFlatFullPathCitationCount,2/100,generated_stats.tex,940,1,tables/table_citation_eval.tex:1
+CatBFlatFullPathCitationRecall,2.00\%,generated_stats.tex,939,0,
+CatBFlatFullPathCount,1/100,generated_stats.tex,598,4,main.tex:3;tables/table_retrieval_eval.tex:1
+CatBFlatFullPathRecall,1.0\%,generated_stats.tex,597,4,main.tex:3;tables/table_retrieval_eval.tex:1
+CatBFlatMacroCitationRecall,41.88\%,generated_stats.tex,934,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBFlatMacroNodeRecall,26.8\%,generated_stats.tex,595,3,main.tex:2;tables/table_retrieval_eval.tex:1
+CatBFlatMicroCitationRecall,40.94\%,generated_stats.tex,935,1,tables/table_citation_eval.tex:1
+CatBFlatMicroNodeRecall,26.3\%,generated_stats.tex,596,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBFlatNodeRecallLenFive,16.0\%,generated_stats.tex,643,1,tables/table_retrieval_eval.tex:1
+CatBFlatNodeRecallLenFour,25.0\%,generated_stats.tex,631,1,tables/table_retrieval_eval.tex:1
+CatBFlatNodeRecallLenThree,28.6\%,generated_stats.tex,619,1,tables/table_retrieval_eval.tex:1
+CatBFlatPathCountLenFive,0/5,generated_stats.tex,645,1,tables/table_retrieval_eval.tex:1
+CatBFlatPathCountLenFour,0/32,generated_stats.tex,633,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBFlatPathCountLenThree,1/63,generated_stats.tex,621,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBFlatPathRecallLenFive,0.0\%,generated_stats.tex,644,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBFlatPathRecallLenFour,0.0\%,generated_stats.tex,632,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBFlatPathRecallLenThree,1.6\%,generated_stats.tex,620,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBFourNodeEndpointsAnchoredPct,100.0\%,generated_stats.tex,660,1,main.tex:1
+CatBFourPlusSeedsPct,8.0\%,generated_stats.tex,658,1,main.tex:1
+CatBGoldPrecedents,342,generated_stats.tex,594,6,main.tex:2;tables/table_citation_eval.tex:2;tables/table_retrieval_eval.tex:2
+CatBGraphRAGCitationFOne,10.91\%,generated_stats.tex,946,1,tables/table_citation_eval.tex:1
+CatBGraphRAGDoctrinalCitationPrecision,6.29\%,generated_stats.tex,945,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBGraphRAGEntityCitationPrecision,89.10\%,generated_stats.tex,944,1,tables/table_citation_eval.tex:1
+CatBGraphRAGFullPathCitationCount,0/100,generated_stats.tex,948,1,tables/table_citation_eval.tex:1
+CatBGraphRAGFullPathCitationRecall,0.00\%,generated_stats.tex,947,0,
+CatBGraphRAGFullPathCount,9/100,generated_stats.tex,602,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBGraphRAGFullPathRecall,9.0\%,generated_stats.tex,601,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBGraphRAGMacroCitationRecall,41.10\%,generated_stats.tex,942,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBGraphRAGMacroNodeRecall,35.7\%,generated_stats.tex,599,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBGraphRAGMicroCitationRecall,40.06\%,generated_stats.tex,943,1,tables/table_citation_eval.tex:1
+CatBGraphRAGMicroNodeRecall,35.1\%,generated_stats.tex,600,1,tables/table_retrieval_eval.tex:1
+CatBGraphRAGNodeRecallLenFive,28.0\%,generated_stats.tex,646,1,tables/table_retrieval_eval.tex:1
+CatBGraphRAGNodeRecallLenFour,31.2\%,generated_stats.tex,634,1,tables/table_retrieval_eval.tex:1
+CatBGraphRAGNodeRecallLenThree,38.6\%,generated_stats.tex,622,1,tables/table_retrieval_eval.tex:1
+CatBGraphRAGPathCountLenFive,0/5,generated_stats.tex,648,1,tables/table_retrieval_eval.tex:1
+CatBGraphRAGPathCountLenFour,0/32,generated_stats.tex,636,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBGraphRAGPathCountLenThree,9/63,generated_stats.tex,624,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBGraphRAGPathRecallLenFive,0.0\%,generated_stats.tex,647,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBGraphRAGPathRecallLenFour,0.0\%,generated_stats.tex,635,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBGraphRAGPathRecallLenThree,14.3\%,generated_stats.tex,623,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGCitationFOne,15.02\%,generated_stats.tex,930,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBHippoRAGDoctrinalCitationPrecision,9.06\%,generated_stats.tex,929,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBHippoRAGEntityCitationPrecision,89.45\%,generated_stats.tex,928,1,tables/table_citation_eval.tex:1
+CatBHippoRAGFullPathCitationCount,4/100,generated_stats.tex,932,1,tables/table_citation_eval.tex:1
+CatBHippoRAGFullPathCitationRecall,4.00\%,generated_stats.tex,931,0,
+CatBHippoRAGFullPathCount,21/100,generated_stats.tex,606,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGFullPathRecall,21.0\%,generated_stats.tex,605,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGMacroCitationRecall,43.88\%,generated_stats.tex,926,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBHippoRAGMacroNodeRecall,68.5\%,generated_stats.tex,603,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGMicroCitationRecall,42.69\%,generated_stats.tex,927,1,tables/table_citation_eval.tex:1
+CatBHippoRAGMicroNodeRecall,67.0\%,generated_stats.tex,604,1,tables/table_retrieval_eval.tex:1
+CatBHippoRAGNodeRecallLenFive,52.0\%,generated_stats.tex,649,1,tables/table_retrieval_eval.tex:1
+CatBHippoRAGNodeRecallLenFour,57.0\%,generated_stats.tex,637,1,tables/table_retrieval_eval.tex:1
+CatBHippoRAGNodeRecallLenThree,75.7\%,generated_stats.tex,625,1,tables/table_retrieval_eval.tex:1
+CatBHippoRAGPathCountLenFive,0/5,generated_stats.tex,651,1,tables/table_retrieval_eval.tex:1
+CatBHippoRAGPathCountLenFour,1/32,generated_stats.tex,639,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGPathCountLenThree,20/63,generated_stats.tex,627,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGPathRecallLenFive,0.0\%,generated_stats.tex,650,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGPathRecallLenFour,3.1\%,generated_stats.tex,638,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBHippoRAGPathRecallLenThree,31.7\%,generated_stats.tex,626,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBMDES,0.283,generated_stats.tex,232,0,
+CatBMeanSeedsPerQuery,2.41,generated_stats.tex,655,1,main.tex:1
+CatBQueriesLenFive,5,generated_stats.tex,617,3,main.tex:2;tables/table_retrieval_eval.tex:1
+CatBQueriesLenFour,32,generated_stats.tex,616,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBQueriesLenThree,63,generated_stats.tex,615,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBRetrievalQueries,100,generated_stats.tex,593,8,main.tex:3;tables/table_citation_eval.tex:2;tables/table_retrieval_eval.tex:3
+CatBTerraCitationFOne,16.02\%,generated_stats.tex,922,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBTerraDoctrinalCitationPrecision,9.30\%,generated_stats.tex,921,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBTerraEntityCitationPrecision,74.25\%,generated_stats.tex,920,1,tables/table_citation_eval.tex:1
+CatBTerraFullPathCitationCount,23/100,generated_stats.tex,924,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBTerraFullPathCitationRecall,23.00\%,generated_stats.tex,923,1,main.tex:1
+CatBTerraFullPathCount,66/100,generated_stats.tex,610,3,main.tex:2;tables/table_retrieval_eval.tex:1
+CatBTerraFullPathRecall,66.0\%,generated_stats.tex,609,3,main.tex:2;tables/table_retrieval_eval.tex:1
+CatBTerraMacroCitationRecall,57.85\%,generated_stats.tex,918,3,main.tex:2;tables/table_citation_eval.tex:1
+CatBTerraMacroNodeRecall,88.9\%,generated_stats.tex,607,3,main.tex:2;tables/table_retrieval_eval.tex:1
+CatBTerraMicroCitationRecall,55.56\%,generated_stats.tex,919,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBTerraMicroNodeRecall,88.3\%,generated_stats.tex,608,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraNodeRecallLenFive,80.0\%,generated_stats.tex,652,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraNodeRecallLenFour,85.2\%,generated_stats.tex,640,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraNodeRecallLenThree,91.5\%,generated_stats.tex,628,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraPathCountLenFive,1/5,generated_stats.tex,654,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraPathCountLenFour,16/32,generated_stats.tex,642,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraPathCountLenThree,49/63,generated_stats.tex,630,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraPathRecallLenFive,20.0\%,generated_stats.tex,653,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraPathRecallLenFour,50.0\%,generated_stats.tex,641,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraPathRecallLenThree,77.8\%,generated_stats.tex,629,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraVsDirectCI,"\ensuremath{[-0.139, -0.021]}",generated_stats.tex,299,0,
+CatBTerraVsDirectCitationFOneLift,\ensuremath{1.32\times},generated_stats.tex,961,1,main.tex:1
+CatBTerraVsDirectDelta,-0.081,generated_stats.tex,298,0,
+CatBTerraVsDirectDz,-0.275,generated_stats.tex,300,0,
+CatBTerraVsDirectLLMAdjQ,0.0023,generated_stats.tex,241,7,main.tex:7
+CatBTerraVsDirectLLMCI,"\ensuremath{[-0.139, -0.021]}",generated_stats.tex,238,1,main.tex:1
+CatBTerraVsDirectLLMDelta,-0.081,generated_stats.tex,237,8,main.tex:8
+CatBTerraVsDirectLLMDz,-0.275,generated_stats.tex,239,1,main.tex:1
+CatBTerraVsDirectLLMPower,77.6\%,generated_stats.tex,326,0,
+CatBTerraVsDirectLLMWilcoxonP,0.0009,generated_stats.tex,240,2,main.tex:2
+CatBTerraVsDirectLLMWilcoxonQ,0.0025,generated_stats.tex,1155,0,
+CatBTerraVsDirectPathCitationLift,\ensuremath{23.00\times},generated_stats.tex,964,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBTerraVsDirectPower,77.6\%,generated_stats.tex,334,0,
+CatBTerraVsDirectWilcoxonP,0.0009,generated_stats.tex,301,0,
+CatBTerraVsFlatBootCIHigh,+0.151,generated_stats.tex,1163,0,
+CatBTerraVsFlatBootCILow,-0.015,generated_stats.tex,1161,0,
+CatBTerraVsFlatCI,"\ensuremath{[-0.015, +0.151]}",generated_stats.tex,304,0,
+CatBTerraVsFlatCitationFOneLift,\ensuremath{0.76\times},generated_stats.tex,960,1,main.tex:1
+CatBTerraVsFlatDelta,+0.070,generated_stats.tex,303,3,main.tex:3
+CatBTerraVsFlatDz,0.166,generated_stats.tex,305,1,main.tex:1
+CatBTerraVsFlatHLMedian,+0.125,generated_stats.tex,1157,0,
+CatBTerraVsFlatNodeRecallDelta,+62.1\%,generated_stats.tex,611,1,main.tex:1
+CatBTerraVsFlatPathCitationLift,\ensuremath{11.50\times},generated_stats.tex,963,0,
+CatBTerraVsFlatPathRecallFactor,66\times,generated_stats.tex,613,3,main.tex:2;tables/table_retrieval_eval.tex:1
+CatBTerraVsFlatPower,37.6\%,generated_stats.tex,335,0,
+CatBTerraVsFlatRAGAdjQ,0.0063,generated_stats.tex,256,4,main.tex:4
+CatBTerraVsFlatRAGBootCIHigh,+0.151,generated_stats.tex,1162,1,main.tex:1
+CatBTerraVsFlatRAGBootCILow,-0.015,generated_stats.tex,1160,1,main.tex:1
+CatBTerraVsFlatRAGCI,"\ensuremath{[-0.015, +0.151]}",generated_stats.tex,253,1,main.tex:1
+CatBTerraVsFlatRAGDelta,+0.070,generated_stats.tex,252,3,main.tex:3
+CatBTerraVsFlatRAGDz,0.166,generated_stats.tex,254,2,main.tex:2
+CatBTerraVsFlatRAGHLHigh,+0.188,generated_stats.tex,1159,1,main.tex:1
+CatBTerraVsFlatRAGHLLow,+0.062,generated_stats.tex,1158,1,main.tex:1
+CatBTerraVsFlatRAGHLMedian,+0.125,generated_stats.tex,1156,1,main.tex:1
+CatBTerraVsFlatRAGPower,37.6\%,generated_stats.tex,327,0,
+CatBTerraVsFlatRAGWilcoxonP,0.0032,generated_stats.tex,255,2,main.tex:2
+CatBTerraVsFlatRAGWilcoxonQ,0.0070,generated_stats.tex,1151,0,
+CatBTerraVsFlatWilcoxonP,0.0032,generated_stats.tex,306,1,main.tex:1
+CatBTerraVsFlatWilcoxonQ,0.0070,generated_stats.tex,1152,0,
+CatBTerraVsGraphCitationRecallDelta,+16.75\%,generated_stats.tex,966,1,main.tex:1
+CatBTerraVsGraphRAGAdjQ,\ensuremath{1.97 \times 10^{-5}},generated_stats.tex,271,4,main.tex:4
+CatBTerraVsGraphRAGCI,"\ensuremath{[+0.045, +0.191]}",generated_stats.tex,268,1,main.tex:1
+CatBTerraVsGraphRAGDelta,+0.119,generated_stats.tex,267,6,main.tex:6
+CatBTerraVsGraphRAGDz,0.318,generated_stats.tex,269,2,main.tex:2
+CatBTerraVsGraphRAGPower,88.2\%,generated_stats.tex,328,0,
+CatBTerraVsGraphRAGWilcoxonP,\ensuremath{3.94 \times 10^{-6}},generated_stats.tex,270,2,main.tex:2
+CatBTerraVsGraphRAGWilcoxonQ,\ensuremath{1.97 \times 10^{-5}},generated_stats.tex,1154,0,
+CatBTerraVsHippoCitationFOneLift,\ensuremath{1.07\times},generated_stats.tex,959,1,main.tex:1
+CatBTerraVsHippoCitationRecallDelta,+13.97\%,generated_stats.tex,965,1,main.tex:1
+CatBTerraVsHippoNodeRecallDelta,+20.4\%,generated_stats.tex,612,1,main.tex:1
+CatBTerraVsHippoPathCitationLift,\ensuremath{5.75\times},generated_stats.tex,962,2,main.tex:1;tables/table_citation_eval.tex:1
+CatBTerraVsHippoPathRecallFactor,3.1\times,generated_stats.tex,614,2,main.tex:1;tables/table_retrieval_eval.tex:1
+CatBTerraVsHippoRAGAdjQ,0.0124,generated_stats.tex,286,5,main.tex:5
+CatBTerraVsHippoRAGCI,"\ensuremath{[+0.004, +0.130]}",generated_stats.tex,283,1,main.tex:1
+CatBTerraVsHippoRAGDelta,+0.066,generated_stats.tex,282,8,main.tex:8
+CatBTerraVsHippoRAGDz,0.207,generated_stats.tex,284,4,main.tex:4
+CatBTerraVsHippoRAGPower,53.6\%,generated_stats.tex,329,0,
+CatBTerraVsHippoRAGWilcoxonP,0.0068,generated_stats.tex,285,3,main.tex:3
+CatBTerraVsHippoRAGWilcoxonQ,0.0136,generated_stats.tex,1153,0,
+CatBThreeSeedsPct,19.0\%,generated_stats.tex,657,1,main.tex:1
+CatBTotalPairs,100,generated_stats.tex,165,2,main.tex:2
+CatBTwoSeedsPct,73.0\%,generated_stats.tex,656,1,main.tex:1
+CatCDirectCitationPrecision,94.67\%,generated_stats.tex,983,1,tables/table_citation_eval.tex:1
+CatCDirectCleanRefusals,71/75,generated_stats.tex,993,1,tables/table_citation_eval.tex:1
+CatCDirectEmittedCitations,7,generated_stats.tex,988,1,tables/table_citation_eval.tex:1
+CatCFlatCitationPrecision,12.00\%,generated_stats.tex,980,2,main.tex:1;tables/table_citation_eval.tex:1
+CatCFlatCleanRefusals,9/75,generated_stats.tex,990,1,tables/table_citation_eval.tex:1
+CatCFlatEmittedCitations,102,generated_stats.tex,985,2,main.tex:1;tables/table_citation_eval.tex:1
+CatCGraphRAGCitationPrecision,96.00\%,generated_stats.tex,981,1,tables/table_citation_eval.tex:1
+CatCGraphRAGCleanRefusals,72/75,generated_stats.tex,991,1,tables/table_citation_eval.tex:1
+CatCGraphRAGEmittedCitations,5,generated_stats.tex,986,1,tables/table_citation_eval.tex:1
+CatCHippoRAGCitationPrecision,86.67\%,generated_stats.tex,982,1,tables/table_citation_eval.tex:1
+CatCHippoRAGCleanRefusals,65/75,generated_stats.tex,992,1,tables/table_citation_eval.tex:1
+CatCHippoRAGEmittedCitations,21,generated_stats.tex,987,1,tables/table_citation_eval.tex:1
+CatCTerraCitationPrecision,100.00\%,generated_stats.tex,979,2,main.tex:1;tables/table_citation_eval.tex:1
+CatCTerraCleanRefusals,75/75,generated_stats.tex,989,1,tables/table_citation_eval.tex:1
+CatCTerraEmittedCitations,0,generated_stats.tex,984,2,main.tex:1;tables/table_citation_eval.tex:1
+CatCTerraVsDirectLLMAdjQ,\ensuremath{4.31 \times 10^{-43}},generated_stats.tex,250,2,main.tex:2
+CatCTerraVsDirectLLMFisherP,\ensuremath{2.15 \times 10^{-44}},generated_stats.tex,249,2,main.tex:2
+CatCTerraVsFlatRAGAdjQ,1.0000,generated_stats.tex,265,0,
+CatCTerraVsFlatRAGFisherP,1.0000,generated_stats.tex,264,0,
+CatCTerraVsGraphRAGAdjQ,1.0000,generated_stats.tex,280,0,
+CatCTerraVsGraphRAGFisherP,1.0000,generated_stats.tex,279,0,
+CatCTerraVsHippoRAGAdjQ,1.0000,generated_stats.tex,295,0,
+CatCTerraVsHippoRAGFisherP,1.0000,generated_stats.tex,294,0,
+CatDMDES,0.328,generated_stats.tex,234,0,
+CatDTerraVsDirectLLMAdjQ,0.0177,generated_stats.tex,1090,1,main.tex:1
+CatDTerraVsDirectLLMCI,"\ensuremath{[-0.090, -0.002]}",generated_stats.tex,1087,0,
+CatDTerraVsDirectLLMDelta,-0.048,generated_stats.tex,1086,1,main.tex:1
+CatDTerraVsDirectLLMDz,-0.171,generated_stats.tex,1088,0,
+CatDTerraVsDirectLLMPower,54.6\%,generated_stats.tex,1091,0,
+CatDTerraVsDirectLLMWilcoxonP,0.0115,generated_stats.tex,1089,0,
+CatDTerraVsDirectLLMWilcoxonQ,0.0177,generated_stats.tex,1176,0,
+CatDTerraVsFlatRAGAdjQ,0.9696,generated_stats.tex,1096,0,
+CatDTerraVsFlatRAGCI,"\ensuremath{[-0.025, +0.082]}",generated_stats.tex,1093,0,
+CatDTerraVsFlatRAGDelta,+0.025,generated_stats.tex,1092,0,
+CatDTerraVsFlatRAGDz,0.063,generated_stats.tex,1094,0,
+CatDTerraVsFlatRAGPower,14.9\%,generated_stats.tex,1097,0,
+CatDTerraVsFlatRAGWilcoxonP,0.8242,generated_stats.tex,1095,0,
+CatDTerraVsGraphRAGAdjQ,0.0177,generated_stats.tex,1102,0,
+CatDTerraVsGraphRAGCI,"\ensuremath{[+0.030, +0.142]}",generated_stats.tex,1099,0,
+CatDTerraVsGraphRAGDelta,+0.083,generated_stats.tex,1098,0,
+CatDTerraVsGraphRAGDz,0.297,generated_stats.tex,1100,0,
+CatDTerraVsGraphRAGPower,80.7\%,generated_stats.tex,1103,0,
+CatDTerraVsGraphRAGWilcoxonP,0.0100,generated_stats.tex,1101,0,
+CatDTerraVsGraphRAGWilcoxonQ,0.0699,generated_stats.tex,1177,0,
+CatDTerraVsHippoRAGAdjQ,0.3557,generated_stats.tex,1108,0,
+CatDTerraVsHippoRAGCI,"\ensuremath{[-0.007, +0.097]}",generated_stats.tex,1105,0,
+CatDTerraVsHippoRAGDelta,+0.043,generated_stats.tex,1104,0,
+CatDTerraVsHippoRAGDz,0.126,generated_stats.tex,1106,0,
+CatDTerraVsHippoRAGPower,37.0\%,generated_stats.tex,1109,0,
+CatDTerraVsHippoRAGWilcoxonP,0.2668,generated_stats.tex,1107,0,
+CitationLinkResolutionRate,99.40\%,generated_stats.tex,1198,1,main.tex:1
+CitationLinksEmitted,664,generated_stats.tex,1196,1,main.tex:1
+CitationLinksResolved,660,generated_stats.tex,1197,1,main.tex:1
+CleanSpotCheckCI,"\ensuremath{[0.0\%, 7.0\%]}",generated_stats.tex,440,1,tables/table_temporal_leakage_probe.tex:1
+CleanSpotCheckEvaluations,51,generated_stats.tex,438,1,tables/table_temporal_leakage_probe.tex:1
+CleanSpotCheckFalseNegatives,0,generated_stats.tex,439,1,tables/table_temporal_leakage_probe.tex:1
+CleanSpotCheckUpperOneSided,5.7\%,generated_stats.tex,441,0,
+ClercDirectBleu,0.92,generated_stats.tex,529,1,tables/table_clerc_eval.tex:1
+ClercDirectCiteFOne,4.7\% [4.5\% / 4.9\%],generated_stats.tex,530,1,tables/table_clerc_eval.tex:1
+ClercDirectCitePrecision,4.5\%,generated_stats.tex,581,1,main.tex:1
+ClercDirectCiteRecall,4.9\%,generated_stats.tex,582,1,main.tex:1
+ClercDirectDisclosedTrackTwo,0/50 (0.0\%),generated_stats.tex,563,1,tables/table_clerc_eval.tex:1
+ClercDirectFabricationTrackOne,41.1\%,generated_stats.tex,532,3,main.tex:1;tables/table_clerc_eval.tex:2
+ClercDirectFabricationTrackTwo,45.5\%,generated_stats.tex,564,3,main.tex:1;tables/table_clerc_eval.tex:2
+ClercDirectMisapplicationAndTrackOne,64.2\%,generated_stats.tex,535,0,
+ClercDirectMisapplicationAndTrackTwo,74.0\%,generated_stats.tex,567,0,
+ClercDirectMisapplicationOrTrackOne,90.0\%,generated_stats.tex,534,0,
+ClercDirectMisapplicationOrTrackTwo,92.0\%,generated_stats.tex,566,0,
+ClercDirectMisapplicationTrackOne,90.0\% / 64.2\%,generated_stats.tex,533,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercDirectMisapplicationTrackTwo,92.0\% / 74.0\%,generated_stats.tex,565,1,tables/table_clerc_eval.tex:1
+ClercDirectRefusalTrackTwo,10/50 (20.0\%),generated_stats.tex,562,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercDirectRougeL,6.52,generated_stats.tex,528,1,tables/table_clerc_eval.tex:1
+ClercDirectSoundness,2.84,generated_stats.tex,531,1,tables/table_clerc_eval.tex:1
+ClercFlatBleu,0.61,generated_stats.tex,542,1,tables/table_clerc_eval.tex:1
+ClercFlatCiteFOne,1.8\% [2.9\% / 1.4\%],generated_stats.tex,543,1,tables/table_clerc_eval.tex:1
+ClercFlatCitePrecision,2.9\%,generated_stats.tex,583,1,main.tex:1
+ClercFlatCiteRecall,1.4\%,generated_stats.tex,584,1,main.tex:1
+ClercFlatDisclosedTrackTwo,1/50 (2.0\%),generated_stats.tex,569,1,tables/table_clerc_eval.tex:1
+ClercFlatFabricationTrackOne,0.0\%,generated_stats.tex,545,1,tables/table_clerc_eval.tex:1
+ClercFlatFabricationTrackTwo,0.0\%,generated_stats.tex,570,1,tables/table_clerc_eval.tex:1
+ClercFlatMRR,0.055,generated_stats.tex,539,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercFlatMisapplicationAndTrackOne,86.7\%,generated_stats.tex,548,0,
+ClercFlatMisapplicationAndTrackTwo,98.0\%,generated_stats.tex,573,0,
+ClercFlatMisapplicationOrTrackOne,98.3\%,generated_stats.tex,547,0,
+ClercFlatMisapplicationOrTrackTwo,100.0\%,generated_stats.tex,572,0,
+ClercFlatMisapplicationTrackOne,98.3\% / 86.7\%,generated_stats.tex,546,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercFlatMisapplicationTrackTwo,100.0\% / 98.0\%,generated_stats.tex,571,1,tables/table_clerc_eval.tex:1
+ClercFlatNDCG,0.066,generated_stats.tex,540,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercFlatRecallFive,8.3\%,generated_stats.tex,537,1,tables/table_clerc_eval.tex:1
+ClercFlatRecallOne,3.3\%,generated_stats.tex,536,1,tables/table_clerc_eval.tex:1
+ClercFlatRecallTen,10.0\%,generated_stats.tex,538,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercFlatRefusalTrackTwo,10/50 (20.0\%),generated_stats.tex,568,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercFlatRougeL,5.47,generated_stats.tex,541,1,tables/table_clerc_eval.tex:1
+ClercFlatSoundness,2.34,generated_stats.tex,544,1,tables/table_clerc_eval.tex:1
+ClercNQueries,120,generated_stats.tex,526,1,main.tex:1
+ClercNRefusal,50,generated_stats.tex,527,1,main.tex:1
+ClercTerraBleu,1.10,generated_stats.tex,555,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraCiteFOne,3.5\% [5.5\% / 2.6\%],generated_stats.tex,556,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraCitePrecision,5.5\%,generated_stats.tex,585,1,main.tex:1
+ClercTerraCiteRecall,2.6\%,generated_stats.tex,586,1,main.tex:1
+ClercTerraDisclosedTrackTwo,0/50 (0.0\%),generated_stats.tex,576,1,tables/table_clerc_eval.tex:1
+ClercTerraExternalCitePct,15.3\%,generated_stats.tex,588,1,main.tex:1
+ClercTerraFabricationTrackOne,\mathbf{0.0\%},generated_stats.tex,558,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraFabricationTrackTwo,\mathbf{0.0\%},generated_stats.tex,577,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraHardRefusalTrackTwo,33/50 (66.0\%),generated_stats.tex,575,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraInCorpusCitePct,84.7\%,generated_stats.tex,587,1,main.tex:1
+ClercTerraMRR,0.056,generated_stats.tex,552,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraMisapplicationAndTrackOne,37.5\%,generated_stats.tex,561,1,main.tex:1
+ClercTerraMisapplicationAndTrackTwo,34.0\%,generated_stats.tex,580,0,
+ClercTerraMisapplicationOrTrackOne,50.0\%,generated_stats.tex,560,1,main.tex:1
+ClercTerraMisapplicationOrTrackTwo,34.0\%,generated_stats.tex,579,1,main.tex:1
+ClercTerraMisapplicationTrackOne,50.0\% / 37.5\%,generated_stats.tex,559,3,main.tex:2;tables/table_clerc_eval.tex:1
+ClercTerraMisapplicationTrackTwo,34.0\% / 34.0\%,generated_stats.tex,578,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraNDCG,0.069,generated_stats.tex,553,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraNDCGTenDelta,+0.003,generated_stats.tex,590,0,
+ClercTerraRecallFive,9.2\%,generated_stats.tex,550,1,tables/table_clerc_eval.tex:1
+ClercTerraRecallOne,3.3\%,generated_stats.tex,549,1,tables/table_clerc_eval.tex:1
+ClercTerraRecallTen,10.8\%,generated_stats.tex,551,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraRecallTenDelta,+0.8,generated_stats.tex,589,1,main.tex:1
+ClercTerraRefusalTrackTwo,33/50 (66.0\%),generated_stats.tex,574,3,main.tex:2;tables/table_clerc_eval.tex:1
+ClercTerraRougeL,6.50,generated_stats.tex,554,2,main.tex:1;tables/table_clerc_eval.tex:1
+ClercTerraSoundness,1.98,generated_stats.tex,557,1,tables/table_clerc_eval.tex:1
+CombinedMDES,0.200,generated_stats.tex,233,0,
+CombinedPairs,200,generated_stats.tex,317,0,
+CombinedTerraVsDirectCI,"\ensuremath{[+0.114, +0.233]}",generated_stats.tex,309,0,
+CombinedTerraVsDirectDelta,+0.173,generated_stats.tex,308,0,
+CombinedTerraVsDirectDz,0.401,generated_stats.tex,310,0,
+CombinedTerraVsDirectLLMAdjQ,\ensuremath{3.15 \times 10^{-7}},generated_stats.tex,247,3,main.tex:3
+CombinedTerraVsDirectLLMBootCIHigh,+0.233,generated_stats.tex,1171,1,main.tex:1
+CombinedTerraVsDirectLLMBootCILow,+0.114,generated_stats.tex,1170,1,main.tex:1
+CombinedTerraVsDirectLLMCI,"\ensuremath{[+0.114, +0.233]}",generated_stats.tex,244,1,main.tex:1
+CombinedTerraVsDirectLLMDelta,+0.173,generated_stats.tex,243,3,main.tex:3
+CombinedTerraVsDirectLLMDz,0.401,generated_stats.tex,245,1,main.tex:1
+CombinedTerraVsDirectLLMPower,100.0\%,generated_stats.tex,330,0,
+CombinedTerraVsDirectLLMWilcoxonP,\ensuremath{4.73 \times 10^{-8}},generated_stats.tex,246,2,main.tex:2
+CombinedTerraVsDirectLLMWilcoxonQ,\ensuremath{3.15 \times 10^{-7}},generated_stats.tex,1164,0,
+CombinedTerraVsDirectPower,100.0\%,generated_stats.tex,336,0,
+CombinedTerraVsDirectWilcoxonP,\ensuremath{4.73 \times 10^{-8}},generated_stats.tex,311,0,
+CombinedTerraVsDirectWilcoxonQ,\ensuremath{3.15 \times 10^{-7}},generated_stats.tex,1165,0,
+CombinedTerraVsFlatCI,"\ensuremath{[+0.025, +0.129]}",generated_stats.tex,314,0,
+CombinedTerraVsFlatDelta,+0.078,generated_stats.tex,313,0,
+CombinedTerraVsFlatDz,0.207,generated_stats.tex,315,0,
+CombinedTerraVsFlatPower,82.9\%,generated_stats.tex,337,0,
+CombinedTerraVsFlatRAGAdjQ,0.0016,generated_stats.tex,262,2,main.tex:2
+CombinedTerraVsFlatRAGCI,"\ensuremath{[+0.025, +0.129]}",generated_stats.tex,259,1,main.tex:1
+CombinedTerraVsFlatRAGDelta,+0.078,generated_stats.tex,258,2,main.tex:2
+CombinedTerraVsFlatRAGDz,0.207,generated_stats.tex,260,1,main.tex:1
+CombinedTerraVsFlatRAGPower,82.9\%,generated_stats.tex,331,0,
+CombinedTerraVsFlatRAGWilcoxonP,0.0006,generated_stats.tex,261,2,main.tex:2
+CombinedTerraVsFlatRAGWilcoxonQ,0.0016,generated_stats.tex,1166,0,
+CombinedTerraVsFlatWilcoxonP,0.0006,generated_stats.tex,316,0,
+CombinedTerraVsFlatWilcoxonQ,0.0016,generated_stats.tex,1167,0,
+CombinedTerraVsGraphRAGAdjQ,\ensuremath{4.08 \times 10^{-5}},generated_stats.tex,277,2,main.tex:2
+CombinedTerraVsGraphRAGCI,"\ensuremath{[+0.039, +0.131]}",generated_stats.tex,274,1,main.tex:1
+CombinedTerraVsGraphRAGDelta,+0.086,generated_stats.tex,273,2,main.tex:2
+CombinedTerraVsGraphRAGDz,0.257,generated_stats.tex,275,1,main.tex:1
+CombinedTerraVsGraphRAGPower,95.1\%,generated_stats.tex,332,0,
+CombinedTerraVsGraphRAGWilcoxonP,\ensuremath{1.02 \times 10^{-5}},generated_stats.tex,276,2,main.tex:2
+CombinedTerraVsGraphRAGWilcoxonQ,\ensuremath{4.08 \times 10^{-5}},generated_stats.tex,1168,0,
+CombinedTerraVsHippoRAGAdjQ,0.0063,generated_stats.tex,292,1,main.tex:1
+CombinedTerraVsHippoRAGCI,"\ensuremath{[+0.009, +0.089]}",generated_stats.tex,289,1,main.tex:1
+CombinedTerraVsHippoRAGDelta,+0.049,generated_stats.tex,288,1,main.tex:1
+CombinedTerraVsHippoRAGDz,0.170,generated_stats.tex,290,1,main.tex:1
+CombinedTerraVsHippoRAGPower,66.8\%,generated_stats.tex,333,0,
+CombinedTerraVsHippoRAGWilcoxonP,0.0028,generated_stats.tex,291,1,main.tex:1
+CombinedTerraVsHippoRAGWilcoxonQ,0.0063,generated_stats.tex,1169,0,
+CorpusAdminLawOpinions,"4,501",generated_corpus_stats_20k.tex,14,1,main.tex:1
+CorpusAverageClustering,0.2047,generated_corpus_stats_20k.tex,27,1,main.tex:1
+CorpusAverageDegree,7.2683,generated_corpus_stats_20k.tex,23,0,
+CorpusAvgShortestPath,4.713,generated_corpus_stats_20k.tex,29,2,main.tex:2
+CorpusCivilRightsOpinions,"1,153",generated_corpus_stats_20k.tex,8,1,main.tex:1
+CorpusCommerceClauseOpinions,"1,614",generated_corpus_stats_20k.tex,13,1,main.tex:1
+CorpusCriminalProcedureOpinions,"1,765",generated_corpus_stats_20k.tex,12,1,main.tex:1
+CorpusFirstAmendmentOpinions,666,generated_corpus_stats_20k.tex,11,1,main.tex:1
+CorpusGeneralConstitutionalOpinions,"4,594",generated_corpus_stats_20k.tex,16,2,main.tex:2
+CorpusGraphDensity,0.000363,generated_corpus_stats_20k.tex,22,1,main.tex:1
+CorpusGraphDiameter,15,generated_corpus_stats_20k.tex,28,2,main.tex:2
+CorpusLargestComponentSize,"18,558",generated_corpus_stats_20k.tex,33,3,main.tex:3
+CorpusLargestSccSize,2,generated_corpus_stats_20k.tex,31,1,main.tex:1
+CorpusLargestWccPercent,92.8\%,generated_corpus_stats_20k.tex,34,2,main.tex:2
+CorpusMaxDegree,276,generated_corpus_stats_20k.tex,25,2,main.tex:2
+CorpusMaxDegreeCase,\textit{Simpson v. Shepard},generated_corpus_stats_20k.tex,26,2,main.tex:2
+CorpusMeanNodeDegree,14.54,generated_corpus_stats_20k.tex,24,1,main.tex:1
+CorpusNumStronglyConnectedComponents,"19,991",generated_corpus_stats_20k.tex,30,0,
+CorpusNumWeaklyConnectedComponents,"1,397",generated_corpus_stats_20k.tex,32,0,
+CorpusOtherSubjectOpinions,"18,847",generated_corpus_stats_20k.tex,9,0,
+CorpusPrecedentEdges,"145,366",generated_corpus_stats_20k.tex,17,9,main.tex:8;figure_1_system_architecture.tex:1
+CorpusPrecedentEdgesRaw,145366,generated_corpus_stats_20k.tex,18,0,
+CorpusPrivateLawOpinions,"5,707",generated_corpus_stats_20k.tex,15,3,main.tex:3
+CorpusProceduralOpinions,0,generated_corpus_stats_20k.tex,10,0,
+CorpusTemporalSpan,1850--1980,generated_corpus_stats_20k.tex,21,7,main.tex:6;tables/table_system_comparison.tex:1
+CorpusTemporalSpanEnd,1980,generated_corpus_stats_20k.tex,20,0,
+CorpusTemporalSpanStart,1850,generated_corpus_stats_20k.tex,19,0,
+CorpusTotalOpinions,"20,000",generated_corpus_stats_20k.tex,6,20,main.tex:19;tables/table_system_comparison.tex:1
+CorpusTotalOpinionsRaw,20000,generated_corpus_stats_20k.tex,7,0,
+DirectLLMAnswerOnlyCI,"\ensuremath{[0.491, 0.561]}",generated_stats.tex,35,1,main.tex:1
+DirectLLMAnswerOnlyClamped,0.5339,generated_stats.tex,1139,0,
+DirectLLMAnswerOnlyCount,350,generated_stats.tex,36,0,
+DirectLLMAnswerOnlyFaithfulness,\ensuremath{0.526 \pm 0.333},generated_stats.tex,32,1,main.tex:1
+DirectLLMAnswerOnlyFaithfulnessMean,0.526,generated_stats.tex,33,0,
+DirectLLMAnswerOnlyFaithfulnessStd,0.333,generated_stats.tex,34,0,
+DirectLLMAnswerOnlyRaw,0.5257,generated_stats.tex,1140,0,
+DirectLLMCatAFaithfulness,0.514,generated_stats.tex,37,3,main.tex:3
+DirectLLMCatAFaithfulnessLegacy,0.818,generated_stats.tex,1218,1,main.tex:1
+DirectLLMCatBFaithfulness,0.335,generated_stats.tex,38,5,main.tex:5
+DirectLLMCatBFaithfulnessStd,0.166,generated_stats.tex,39,1,main.tex:1
+DirectLLMCatBMeanWords,612,generated_stats.tex,157,2,main.tex:2
+DirectLLMCatBRougeFOne,0.115,generated_stats.tex,151,1,main.tex:1
+DirectLLMCatBRougePrecision,0.064,generated_stats.tex,145,1,main.tex:1
+DirectLLMCatBRougeRecall,0.546,generated_stats.tex,139,3,main.tex:3
+DirectLLMCatCFaithfulness,0.472,generated_stats.tex,40,0,
+DirectLLMCatCRejection,0/75 (0.0\%),generated_stats.tex,42,2,main.tex:2
+DirectLLMCatCRejectionRate,0.0\%,generated_stats.tex,43,0,
+DirectLLMCatDAuditedRefusal,0/75 (0.0\%),generated_stats.tex,1002,1,tables/table_refusal_breakdown.tex:1
+DirectLLMCatDAuditedRefusalRate,0.0\%,generated_stats.tex,1003,0,
+DirectLLMCatDFaithfulness,0.850,generated_stats.tex,41,1,main.tex:1
+DirectLLMCatDFatalErrorRate,5.3\%,generated_stats.tex,1009,0,
+DirectLLMCatDFatalErrors,4/75 (5.3\%),generated_stats.tex,1008,1,tables/table_refusal_breakdown.tex:1
+DirectLLMCatDHedgeRate,0.0\%,generated_stats.tex,1011,0,
+DirectLLMCatDHedges,0/75 (0.0\%),generated_stats.tex,1010,1,tables/table_refusal_breakdown.tex:1
+DirectLLMCatDRefutationRate,94.7\%,generated_stats.tex,1007,0,
+DirectLLMCatDRefutations,71/75 (94.7\%),generated_stats.tex,1006,1,tables/table_refusal_breakdown.tex:1
+DirectLLMCatDRejection,0/75 (0.0\%),generated_stats.tex,44,2,main.tex:2
+DirectLLMCatDRejectionRate,0.0\%,generated_stats.tex,45,0,
+DirectLLMCatDSafeHandling,71/75 (94.7\%),generated_stats.tex,1004,2,main.tex:1;tables/table_refusal_breakdown.tex:1
+DirectLLMCatDSafeHandlingRate,94.7\%,generated_stats.tex,1005,0,
+DirectLLMDecoupledGenerationMS,"6,006.4",generated_stats.tex,695,1,tables/table_computational_budget.tex:1
+DirectLLMDecoupledNliMS,0.0,generated_stats.tex,694,1,tables/table_computational_budget.tex:1
+DirectLLMDecoupledRetrievalMS,0.0,generated_stats.tex,693,1,tables/table_computational_budget.tex:1
+DirectLLMDecoupledRoutingMS,0.0,generated_stats.tex,692,1,tables/table_computational_budget.tex:1
+DirectLLMEffectiveTokens,7 / 362,generated_stats.tex,752,1,tables/table_computational_budget.tex:1
+DirectLLMGenCallsFormatted,350 (100.0\%),generated_stats.tex,674,1,tables/table_computational_budget.tex:1
+DirectLLMLatencyMeanAndStdMs,"\ensuremath{6,006 \pm 4,347}",generated_stats.tex,365,1,main.tex:1
+DirectLLMLatencyMeanMS,"6,006.4",generated_stats.tex,689,1,tables/table_computational_budget.tex:1
+DirectLLMLatencyMedMS,"4,860.6",generated_stats.tex,690,1,tables/table_computational_budget.tex:1
+DirectLLMLatencyMedianMs,"4,861",generated_stats.tex,362,1,main.tex:1
+DirectLLMLatencyMedianSeconds,4.86,generated_stats.tex,46,2,main.tex:2
+DirectLLMLatencyPNinetyFiveMs,"13,404",generated_stats.tex,364,1,main.tex:1
+DirectLLMLatencyPSeventyFiveMs,"9,988",generated_stats.tex,363,1,main.tex:1
+DirectLLMLatencyPTwentyFiveMs,"1,807",generated_stats.tex,361,1,main.tex:1
+DirectLLMLatencyPninetyfiveMS,"13,403.5",generated_stats.tex,691,1,tables/table_computational_budget.tex:1
+DirectLLMOverallCI,"\ensuremath{[0.491, 0.561]}",generated_stats.tex,31,1,main.tex:1
+DirectLLMOverallClamped,0.5339,generated_stats.tex,1129,0,
+DirectLLMOverallFaithfulness,\ensuremath{0.526 \pm 0.333},generated_stats.tex,28,1,main.tex:1
+DirectLLMOverallFaithfulnessMean,0.526,generated_stats.tex,29,0,
+DirectLLMOverallFaithfulnessStd,0.333,generated_stats.tex,30,0,
+DirectLLMOverallRaw,0.5257,generated_stats.tex,1130,0,
+DirectLLMTotalCostPerThousand,\$0.22,generated_stats.tex,753,1,tables/table_computational_budget.tex:1
+DirectLLMTotalOpsPerQuery,1.00,generated_stats.tex,663,1,tables/table_computational_budget.tex:1
+DirectLlmHlcrA,56.0\%,generated_stats.tex,444,1,tables/table_temporal_leakage_probe.tex:1
+DirectLlmHlcrB,64.0\%,generated_stats.tex,456,1,tables/table_temporal_leakage_probe.tex:1
+DirectLlmRefusalA,0.0\%,generated_stats.tex,443,1,tables/table_temporal_leakage_probe.tex:1
+DirectLlmRefusalB,0.0\%,generated_stats.tex,455,1,tables/table_temporal_leakage_probe.tex:1
+DirectLlmSptlrA,"\ensuremath{[28.0\%, 40.0\%]}",generated_stats.tex,442,1,tables/table_temporal_leakage_probe.tex:1
+DirectLlmSptlrB,"\ensuremath{[26.0\%, 32.0\%]}",generated_stats.tex,454,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+FlatDocFOneGrounded,40.4\%,generated_stats.tex,1204,1,main.tex:1
+FlatDocPrecisionGrounded,39.1\%,generated_stats.tex,1201,1,main.tex:1
+FlatEpistemicRefusals,204,generated_stats.tex,1183,2,main.tex:2
+FlatRAGAnswerOnlyCI,"\ensuremath{[0.234, 0.351]}",generated_stats.tex,55,1,main.tex:1
+FlatRAGAnswerOnlyClamped,0.3449,generated_stats.tex,1141,0,
+FlatRAGAnswerOnlyCount,166,generated_stats.tex,56,1,main.tex:1
+FlatRAGAnswerOnlyFaithfulness,\ensuremath{0.291 \pm 0.384},generated_stats.tex,52,1,main.tex:1
+FlatRAGAnswerOnlyFaithfulnessMean,0.291,generated_stats.tex,53,0,
+FlatRAGAnswerOnlyFaithfulnessStd,0.384,generated_stats.tex,54,0,
+FlatRAGAnswerOnlyRaw,0.2914,generated_stats.tex,1142,0,
+FlatRAGCatAFaithfulness,0.855,generated_stats.tex,57,2,main.tex:2
+FlatRAGCatBAnsweredRougeRecall,0.527,generated_stats.tex,161,1,main.tex:1
+FlatRAGCatBFaithfulness,0.184,generated_stats.tex,58,3,main.tex:3
+FlatRAGCatBFaithfulnessStd,0.366,generated_stats.tex,59,1,main.tex:1
+FlatRAGCatBMeanWords,481,generated_stats.tex,156,2,main.tex:2
+FlatRAGCatBRougeFOne,0.147,generated_stats.tex,150,2,main.tex:2
+FlatRAGCatBRougePrecision,0.096,generated_stats.tex,144,2,main.tex:2
+FlatRAGCatBRougeRecall,0.500,generated_stats.tex,138,3,main.tex:3
+FlatRAGCatCFaithfulness,0.973,generated_stats.tex,60,0,
+FlatRAGCatCRejection,74/75 (98.7\%),generated_stats.tex,62,2,main.tex:2
+FlatRAGCatCRejectionRate,98.7\%,generated_stats.tex,63,0,
+FlatRAGCatDAuditedRefusal,38/75 (50.7\%),generated_stats.tex,1014,1,tables/table_refusal_breakdown.tex:1
+FlatRAGCatDAuditedRefusalRate,50.7\%,generated_stats.tex,1015,0,
+FlatRAGCatDFaithfulness,0.680,generated_stats.tex,61,0,
+FlatRAGCatDFatalErrorRate,9.3\%,generated_stats.tex,1021,0,
+FlatRAGCatDFatalErrors,7/75 (9.3\%),generated_stats.tex,1020,1,tables/table_refusal_breakdown.tex:1
+FlatRAGCatDHedgeRate,0.0\%,generated_stats.tex,1023,0,
+FlatRAGCatDHedges,0/75 (0.0\%),generated_stats.tex,1022,1,tables/table_refusal_breakdown.tex:1
+FlatRAGCatDRefutationRate,40.0\%,generated_stats.tex,1019,0,
+FlatRAGCatDRefutations,30/75 (40.0\%),generated_stats.tex,1018,1,tables/table_refusal_breakdown.tex:1
+FlatRAGCatDRejection,38/75 (50.7\%),generated_stats.tex,64,1,main.tex:1
+FlatRAGCatDRejectionRate,50.7\%,generated_stats.tex,65,1,main.tex:1
+FlatRAGCatDSafeHandling,68/75 (90.7\%),generated_stats.tex,1016,2,main.tex:1;tables/table_refusal_breakdown.tex:1
+FlatRAGCatDSafeHandlingRate,90.7\%,generated_stats.tex,1017,0,
+FlatRAGDecoupledGenerationMS,"4,448.5",generated_stats.tex,702,1,tables/table_computational_budget.tex:1
+FlatRAGDecoupledNliMS,0.0,generated_stats.tex,701,1,tables/table_computational_budget.tex:1
+FlatRAGDecoupledRetrievalMS,356.9,generated_stats.tex,700,1,tables/table_computational_budget.tex:1
+FlatRAGDecoupledRoutingMS,0.0,generated_stats.tex,699,1,tables/table_computational_budget.tex:1
+FlatRAGEffectiveTokens,653 / 249,generated_stats.tex,754,1,tables/table_computational_budget.tex:1
+FlatRAGFlaggedRefusals,184,generated_stats.tex,1221,1,main.tex:1
+FlatRAGGenCallsFormatted,350 (100.0\%),generated_stats.tex,675,2,main.tex:1;tables/table_computational_budget.tex:1
+FlatRAGLatencyMeanAndStdMs,"\ensuremath{4,805 \pm 3,956}",generated_stats.tex,370,1,main.tex:1
+FlatRAGLatencyMeanMS,"4,805.5",generated_stats.tex,696,1,tables/table_computational_budget.tex:1
+FlatRAGLatencyMedMS,"2,952.2",generated_stats.tex,697,2,main.tex:1;tables/table_computational_budget.tex:1
+FlatRAGLatencyMedianMs,"2,952",generated_stats.tex,367,1,main.tex:1
+FlatRAGLatencyMedianSeconds,2.95,generated_stats.tex,66,2,main.tex:2
+FlatRAGLatencyPNinetyFiveMs,"12,647",generated_stats.tex,369,1,main.tex:1
+FlatRAGLatencyPSeventyFiveMs,"7,796",generated_stats.tex,368,1,main.tex:1
+FlatRAGLatencyPTwentyFiveMs,"2,178",generated_stats.tex,366,1,main.tex:1
+FlatRAGLatencyPninetyfiveMS,"12,646.6",generated_stats.tex,698,1,tables/table_computational_budget.tex:1
+FlatRAGOverallCI,"\ensuremath{[0.603, 0.698]}",generated_stats.tex,51,1,main.tex:1
+FlatRAGOverallClamped,0.6800,generated_stats.tex,1131,0,
+FlatRAGOverallFaithfulness,\ensuremath{0.651 \pm 0.440},generated_stats.tex,48,1,main.tex:1
+FlatRAGOverallFaithfulnessMean,0.651,generated_stats.tex,49,0,
+FlatRAGOverallFaithfulnessStd,0.440,generated_stats.tex,50,0,
+FlatRAGOverallRaw,0.6511,generated_stats.tex,1132,0,
+FlatRAGPerQueryCost,\$0.00054,generated_stats.tex,825,1,main.tex:1
+FlatRAGTotalCostPerThousand,\$0.54,generated_stats.tex,755,2,main.tex:1;tables/table_computational_budget.tex:1
+FlatRAGTotalOpsPerQuery,2.00,generated_stats.tex,664,2,main.tex:1;tables/table_computational_budget.tex:1
+FlatRagHlcrA,38.0\%,generated_stats.tex,447,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+FlatRagHlcrB,42.0\%,generated_stats.tex,459,1,tables/table_temporal_leakage_probe.tex:1
+FlatRagRefusalA,46.0\%,generated_stats.tex,446,3,main.tex:1;tables/table_temporal_leakage_probe.tex:2
+FlatRagRefusalB,30.0\%,generated_stats.tex,458,1,tables/table_temporal_leakage_probe.tex:1
+FlatRagSptlrA,"\ensuremath{[2.0\%, 14.0\%]}",generated_stats.tex,445,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+FlatRagSptlrB,"\ensuremath{[26.0\%, 32.0\%]}",generated_stats.tex,457,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+GraphEpistemicRefusals,203,generated_stats.tex,1184,2,main.tex:2
+GraphRAGAnswerOnlyCI,"\ensuremath{[0.206, 0.307]}",generated_stats.tex,75,1,main.tex:1
+GraphRAGAnswerOnlyClamped,0.3482,generated_stats.tex,1143,0,
+GraphRAGAnswerOnlyCount,177,generated_stats.tex,76,1,main.tex:1
+GraphRAGAnswerOnlyFaithfulness,\ensuremath{0.256 \pm 0.345},generated_stats.tex,72,1,main.tex:1
+GraphRAGAnswerOnlyFaithfulnessMean,0.256,generated_stats.tex,73,0,
+GraphRAGAnswerOnlyFaithfulnessStd,0.345,generated_stats.tex,74,0,
+GraphRAGAnswerOnlyRaw,0.2556,generated_stats.tex,1144,0,
+GraphRAGCatAFaithfulness,0.889,generated_stats.tex,77,1,main.tex:1
+GraphRAGCatBFaithfulness,0.135,generated_stats.tex,78,3,main.tex:3
+GraphRAGCatBFaithfulnessStd,0.300,generated_stats.tex,79,1,main.tex:1
+GraphRAGCatBMeanWords,477,generated_stats.tex,155,2,main.tex:2
+GraphRAGCatBRougeFOne,0.140,generated_stats.tex,149,2,main.tex:2
+GraphRAGCatBRougePrecision,0.083,generated_stats.tex,143,1,main.tex:1
+GraphRAGCatBRougeRecall,0.523,generated_stats.tex,137,3,main.tex:3
+GraphRAGCatCFaithfulness,0.990,generated_stats.tex,80,0,
+GraphRAGCatCRejection,75/75 (100.0\%),generated_stats.tex,82,2,main.tex:2
+GraphRAGCatCRejectionRate,100.0\%,generated_stats.tex,83,0,
+GraphRAGCatDAuditedRefusal,32/75 (42.7\%),generated_stats.tex,1026,1,tables/table_refusal_breakdown.tex:1
+GraphRAGCatDAuditedRefusalRate,42.7\%,generated_stats.tex,1027,0,
+GraphRAGCatDFaithfulness,0.535,generated_stats.tex,81,0,
+GraphRAGCatDFatalErrorRate,10.7\%,generated_stats.tex,1033,0,
+GraphRAGCatDFatalErrors,8/75 (10.7\%),generated_stats.tex,1032,1,tables/table_refusal_breakdown.tex:1
+GraphRAGCatDHedgeRate,0.0\%,generated_stats.tex,1035,0,
+GraphRAGCatDHedges,0/75 (0.0\%),generated_stats.tex,1034,1,tables/table_refusal_breakdown.tex:1
+GraphRAGCatDRefutationRate,46.7\%,generated_stats.tex,1031,0,
+GraphRAGCatDRefutations,35/75 (46.7\%),generated_stats.tex,1030,1,tables/table_refusal_breakdown.tex:1
+GraphRAGCatDRejection,32/75 (42.7\%),generated_stats.tex,84,1,main.tex:1
+GraphRAGCatDRejectionRate,42.7\%,generated_stats.tex,85,1,main.tex:1
+GraphRAGCatDSafeHandling,67/75 (89.3\%),generated_stats.tex,1028,2,main.tex:1;tables/table_refusal_breakdown.tex:1
+GraphRAGCatDSafeHandlingRate,89.3\%,generated_stats.tex,1029,0,
+GraphRAGDecoupledGenerationMS,"4,621.4",generated_stats.tex,709,1,tables/table_computational_budget.tex:1
+GraphRAGDecoupledNliMS,0.0,generated_stats.tex,708,1,tables/table_computational_budget.tex:1
+GraphRAGDecoupledRetrievalMS,334.8,generated_stats.tex,707,1,tables/table_computational_budget.tex:1
+GraphRAGDecoupledRoutingMS,0.0,generated_stats.tex,706,1,tables/table_computational_budget.tex:1
+GraphRAGEffectiveTokens,752 / 249,generated_stats.tex,756,1,tables/table_computational_budget.tex:1
+GraphRAGFlaggedRefusals,173,generated_stats.tex,1222,1,main.tex:1
+GraphRAGGenCallsFormatted,350 (100.0\%),generated_stats.tex,676,1,tables/table_computational_budget.tex:1
+GraphRAGLatencyMeanAndStdMs,"\ensuremath{4,956 \pm 3,640}",generated_stats.tex,375,1,main.tex:1
+GraphRAGLatencyMeanMS,"4,956.3",generated_stats.tex,703,1,tables/table_computational_budget.tex:1
+GraphRAGLatencyMedMS,"2,859.6",generated_stats.tex,704,1,tables/table_computational_budget.tex:1
+GraphRAGLatencyMedianMs,"2,860",generated_stats.tex,372,1,main.tex:1
+GraphRAGLatencyMedianSeconds,2.86,generated_stats.tex,86,2,main.tex:2
+GraphRAGLatencyPNinetyFiveMs,"11,904",generated_stats.tex,374,1,main.tex:1
+GraphRAGLatencyPSeventyFiveMs,"8,024",generated_stats.tex,373,1,main.tex:1
+GraphRAGLatencyPTwentyFiveMs,"2,223",generated_stats.tex,371,1,main.tex:1
+GraphRAGLatencyPninetyfiveMS,"11,903.8",generated_stats.tex,705,1,tables/table_computational_budget.tex:1
+GraphRAGOverallCI,"\ensuremath{[0.572, 0.666]}",generated_stats.tex,71,1,main.tex:1
+GraphRAGOverallClamped,0.6668,generated_stats.tex,1133,0,
+GraphRAGOverallFaithfulness,\ensuremath{0.619 \pm 0.444},generated_stats.tex,68,1,main.tex:1
+GraphRAGOverallFaithfulnessMean,0.619,generated_stats.tex,69,0,
+GraphRAGOverallFaithfulnessStd,0.444,generated_stats.tex,70,0,
+GraphRAGOverallRaw,0.6193,generated_stats.tex,1134,0,
+GraphRAGTotalCostPerThousand,\$0.60,generated_stats.tex,757,1,tables/table_computational_budget.tex:1
+GraphRAGTotalOpsPerQuery,2.00,generated_stats.tex,665,1,tables/table_computational_budget.tex:1
+HfiveDiscordantCompleteCases,"\ensuremath{N=41: b=0, c=1}",generated_stats.tex,490,1,tables/table_temporal_leakage_probe.tex:1
+HfourDiscordantBounds,"\ensuremath{b \in [8, 11], c \in [2, 6]}",generated_stats.tex,489,1,tables/table_temporal_leakage_probe.tex:1
+HfourDiscordantCompleteCases,"\ensuremath{N=31: b=1, c=1}",generated_stats.tex,488,1,tables/table_temporal_leakage_probe.tex:1
+HfourPvalMax,0.3953,generated_stats.tex,487,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+HfourPvalMin,0.0112,generated_stats.tex,486,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+HippoDocFOneGrounded,45.3\%,generated_stats.tex,1203,1,main.tex:1
+HippoDocPrecisionGrounded,46.7\%,generated_stats.tex,1200,1,main.tex:1
+HippoDocPrecisionJudgeWeighted,9.06\%,generated_stats.tex,1206,1,main.tex:1
+HippoEpistemicRefusals,179,generated_stats.tex,1185,2,main.tex:2
+HippoFlaggedRefusals,165,generated_stats.tex,1229,1,main.tex:1
+HippoRAGAnswerOnlyCI,"\ensuremath{[0.340, 0.445]}",generated_stats.tex,95,1,main.tex:1
+HippoRAGAnswerOnlyClamped,0.4311,generated_stats.tex,1145,0,
+HippoRAGAnswerOnlyCount,185,generated_stats.tex,96,1,main.tex:1
+HippoRAGAnswerOnlyFaithfulness,\ensuremath{0.392 \pm 0.370},generated_stats.tex,92,2,main.tex:2
+HippoRAGAnswerOnlyFaithfulnessMean,0.392,generated_stats.tex,93,2,main.tex:2
+HippoRAGAnswerOnlyFaithfulnessStd,0.370,generated_stats.tex,94,0,
+HippoRAGAnswerOnlyRaw,0.3919,generated_stats.tex,1146,0,
+HippoRAGCatAFaithfulness,0.910,generated_stats.tex,97,2,main.tex:2
+HippoRAGCatBFaithfulness,0.188,generated_stats.tex,98,3,main.tex:3
+HippoRAGCatBFaithfulnessStd,0.232,generated_stats.tex,99,1,main.tex:1
+HippoRAGCatBMeanWords,470,generated_stats.tex,154,2,main.tex:2
+HippoRAGCatBRougeFOne,0.145,generated_stats.tex,148,2,main.tex:2
+HippoRAGCatBRougePrecision,0.085,generated_stats.tex,142,1,main.tex:1
+HippoRAGCatBRougeRecall,0.536,generated_stats.tex,136,3,main.tex:3
+HippoRAGCatCFaithfulness,0.982,generated_stats.tex,100,0,
+HippoRAGCatCRejection,74/75 (98.7\%),generated_stats.tex,102,1,main.tex:1
+HippoRAGCatCRejectionRate,98.7\%,generated_stats.tex,103,0,
+HippoRAGCatDAuditedRefusal,34/75 (45.3\%),generated_stats.tex,1038,1,tables/table_refusal_breakdown.tex:1
+HippoRAGCatDAuditedRefusalRate,45.3\%,generated_stats.tex,1039,0,
+HippoRAGCatDFaithfulness,0.683,generated_stats.tex,101,0,
+HippoRAGCatDFatalErrorRate,5.3\%,generated_stats.tex,1045,0,
+HippoRAGCatDFatalErrors,4/75 (5.3\%),generated_stats.tex,1044,1,tables/table_refusal_breakdown.tex:1
+HippoRAGCatDHedgeRate,1.3\%,generated_stats.tex,1047,0,
+HippoRAGCatDHedges,1/75 (1.3\%),generated_stats.tex,1046,1,tables/table_refusal_breakdown.tex:1
+HippoRAGCatDRefutationRate,48.0\%,generated_stats.tex,1043,0,
+HippoRAGCatDRefutations,36/75 (48.0\%),generated_stats.tex,1042,1,tables/table_refusal_breakdown.tex:1
+HippoRAGCatDRejection,34/75 (45.3\%),generated_stats.tex,104,1,main.tex:1
+HippoRAGCatDRejectionRate,45.3\%,generated_stats.tex,105,1,main.tex:1
+HippoRAGCatDSafeHandling,70/75 (93.3\%),generated_stats.tex,1040,2,main.tex:1;tables/table_refusal_breakdown.tex:1
+HippoRAGCatDSafeHandlingRate,93.3\%,generated_stats.tex,1041,0,
+HippoRAGDecoupledGenerationMS,"4,416.2",generated_stats.tex,716,1,tables/table_computational_budget.tex:1
+HippoRAGDecoupledNliMS,0.0,generated_stats.tex,715,1,tables/table_computational_budget.tex:1
+HippoRAGDecoupledRetrievalMS,66.2,generated_stats.tex,714,1,tables/table_computational_budget.tex:1
+HippoRAGDecoupledRoutingMS,0.0,generated_stats.tex,713,1,tables/table_computational_budget.tex:1
+HippoRAGEffectiveTokens,575 / 242,generated_stats.tex,758,1,tables/table_computational_budget.tex:1
+HippoRAGFlaggedRefusals,165,generated_stats.tex,1220,1,main.tex:1
+HippoRAGGenCallsFormatted,350 (100.0\%),generated_stats.tex,677,1,tables/table_computational_budget.tex:1
+HippoRAGLatencyMeanAndStdMs,"\ensuremath{4,482 \pm 3,355}",generated_stats.tex,380,1,main.tex:1
+HippoRAGLatencyMeanMS,"4,482.4",generated_stats.tex,710,1,tables/table_computational_budget.tex:1
+HippoRAGLatencyMedMS,"2,703.1",generated_stats.tex,711,1,tables/table_computational_budget.tex:1
+HippoRAGLatencyMedianMs,"2,703",generated_stats.tex,377,1,main.tex:1
+HippoRAGLatencyMedianSeconds,2.70,generated_stats.tex,106,2,main.tex:2
+HippoRAGLatencyPNinetyFiveMs,"10,992",generated_stats.tex,379,1,main.tex:1
+HippoRAGLatencyPSeventyFiveMs,"7,607",generated_stats.tex,378,1,main.tex:1
+HippoRAGLatencyPTwentyFiveMs,"1,971",generated_stats.tex,376,1,main.tex:1
+HippoRAGLatencyPninetyfiveMS,"10,992.0",generated_stats.tex,712,1,tables/table_computational_budget.tex:1
+HippoRAGOverallCI,"\ensuremath{[0.627, 0.712]}",generated_stats.tex,91,2,main.tex:2
+HippoRAGOverallClamped,0.6946,generated_stats.tex,1135,0,
+HippoRAGOverallFaithfulness,\ensuremath{0.670 \pm 0.406},generated_stats.tex,88,1,main.tex:1
+HippoRAGOverallFaithfulnessMean,0.670,generated_stats.tex,89,4,main.tex:4
+HippoRAGOverallFaithfulnessStd,0.406,generated_stats.tex,90,0,
+HippoRAGOverallRaw,0.6704,generated_stats.tex,1136,0,
+HippoRAGTotalCostPerThousand,\$0.49,generated_stats.tex,759,1,tables/table_computational_budget.tex:1
+HippoRAGTotalOpsPerQuery,2.00,generated_stats.tex,666,1,tables/table_computational_budget.tex:1
+HistoricalJudgePearsonR,0.482,generated_stats.tex,354,1,main.tex:1
+HistoricalPilotJudgePearsonR,0.451,generated_stats.tex,355,1,main.tex:1
+HoneHlcrDiscordant,"\ensuremath{b=20, c=1}",generated_stats.tex,477,0,
+HoneHlcrPval,0.000021,generated_stats.tex,475,0,
+HoneHlcrPvalFormatted,\ensuremath{2.1 \times 10^{-5}},generated_stats.tex,476,3,main.tex:1;tables/table_temporal_leakage_probe.tex:2
+HoneSptlrDiscordantBounds,"\ensuremath{b \in [0, 5], c \in [7, 8]}",generated_stats.tex,474,1,tables/table_temporal_leakage_probe.tex:1
+HoneSptlrDiscordantCompleteCases,"\ensuremath{N=36: b=0, c=3}",generated_stats.tex,473,1,tables/table_temporal_leakage_probe.tex:1
+HoneSptlrDiscordantConsensus,"\ensuremath{b=0, c=3}",generated_stats.tex,472,0,
+HoneSptlrPval,1.0000,generated_stats.tex,471,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+HsixDiscordantCompleteCases,"\ensuremath{N=41: b=2, c=0}",generated_stats.tex,491,1,tables/table_temporal_leakage_probe.tex:1
+HthreeDiscordantBounds,"\ensuremath{b \in [10, 13], c \in [4, 8]}",generated_stats.tex,485,1,tables/table_temporal_leakage_probe.tex:1
+HthreeDiscordantCompleteCases,"\ensuremath{N=29: b=5, c=1}",generated_stats.tex,484,1,tables/table_temporal_leakage_probe.tex:1
+HthreePvalMax,0.4073,generated_stats.tex,483,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+HthreePvalMin,0.0245,generated_stats.tex,482,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+HtwoDiscordantBounds,"\ensuremath{b \in [11, 16], c \in [5, 6]}",generated_stats.tex,481,1,tables/table_temporal_leakage_probe.tex:1
+HtwoDiscordantCompleteCases,"\ensuremath{N=32: b=2, c=4}",generated_stats.tex,480,1,tables/table_temporal_leakage_probe.tex:1
+HtwoPvalMax,0.1662,generated_stats.tex,479,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+HtwoPvalMin,0.0133,generated_stats.tex,478,3,main.tex:2;tables/table_temporal_leakage_probe.tex:1
+IssueNineteenBFSLatencyMedianMs,\ensuremath{< 0.01},generated_stats.tex,1278,3,main.tex:1;tables/table_temporal_update_stability.tex:2
+IssueNineteenDREligibleCount,106,generated_stats.tex,1266,0,
+IssueNineteenDeltaRecallMean,+0.03,generated_stats.tex,1274,0,
+IssueNineteenDeltaRecallStd,0.16,generated_stats.tex,1275,0,
+IssueNineteenDiscoveryRateMean,0.12,generated_stats.tex,1276,2,main.tex:1;tables/table_temporal_update_stability.tex:1
+IssueNineteenOverallDeltaRecallMeanStd,\ensuremath{0.03 \pm 0.16},generated_stats.tex,1273,2,main.tex:1;tables/table_temporal_update_stability.tex:1
+IssueNineteenOverallRecallTMean,0.35,generated_stats.tex,1268,0,
+IssueNineteenOverallRecallTMeanStd,\ensuremath{0.35 \pm 0.13},generated_stats.tex,1267,2,main.tex:1;tables/table_temporal_update_stability.tex:1
+IssueNineteenOverallRecallTNMean,0.38,generated_stats.tex,1271,0,
+IssueNineteenOverallRecallTNMeanStd,\ensuremath{0.38 \pm 0.14},generated_stats.tex,1270,2,main.tex:1;tables/table_temporal_update_stability.tex:1
+IssueNineteenOverallRecallTNStd,0.14,generated_stats.tex,1272,0,
+IssueNineteenOverallRecallTStd,0.13,generated_stats.tex,1269,0,
+IssueNineteenPairIBFSLatency,\ensuremath{< 0.01},generated_stats.tex,1291,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIDeltaRecall,-0.10,generated_stats.tex,1288,0,
+IssueNineteenPairIDeltaRecallMeanStd,\ensuremath{-0.10 \pm 0.25},generated_stats.tex,1287,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIDeltaRecallStd,0.25,generated_stats.tex,1289,0,
+IssueNineteenPairIDiscoveryRate,0.20,generated_stats.tex,1290,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIBFSLatency,0.14,generated_stats.tex,1304,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIDeltaRecall,+0.01,generated_stats.tex,1301,0,
+IssueNineteenPairIIDeltaRecallMeanStd,\ensuremath{0.01 \pm 0.15},generated_stats.tex,1300,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIDeltaRecallStd,0.15,generated_stats.tex,1302,0,
+IssueNineteenPairIIDiscoveryRate,0.13,generated_stats.tex,1303,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIIBFSLatency,\ensuremath{< 0.01},generated_stats.tex,1317,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIIDeltaRecall,+0.08,generated_stats.tex,1314,0,
+IssueNineteenPairIIIDeltaRecallMeanStd,\ensuremath{0.08 \pm 0.14},generated_stats.tex,1313,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIIDeltaRecallStd,0.14,generated_stats.tex,1315,0,
+IssueNineteenPairIIIDiscoveryRate,0.16,generated_stats.tex,1316,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIINq,44,generated_stats.tex,1306,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIIRecallTMean,0.32,generated_stats.tex,1308,0,
+IssueNineteenPairIIIRecallTMeanStd,\ensuremath{0.32 \pm 0.06},generated_stats.tex,1307,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIIRecallTNMean,0.40,generated_stats.tex,1311,0,
+IssueNineteenPairIIIRecallTNMeanStd,\ensuremath{0.40 \pm 0.16},generated_stats.tex,1310,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIIRecallTNStd,0.16,generated_stats.tex,1312,0,
+IssueNineteenPairIIIRecallTStd,0.06,generated_stats.tex,1309,0,
+IssueNineteenPairIINq,32,generated_stats.tex,1293,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIRecallTMean,0.32,generated_stats.tex,1295,0,
+IssueNineteenPairIIRecallTMeanStd,\ensuremath{0.32 \pm 0.11},generated_stats.tex,1294,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIRecallTNMean,0.34,generated_stats.tex,1298,0,
+IssueNineteenPairIIRecallTNMeanStd,\ensuremath{0.34 \pm 0.12},generated_stats.tex,1297,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIIRecallTNStd,0.12,generated_stats.tex,1299,0,
+IssueNineteenPairIIRecallTStd,0.11,generated_stats.tex,1296,0,
+IssueNineteenPairINq,10,generated_stats.tex,1280,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIRecallTMean,0.50,generated_stats.tex,1282,0,
+IssueNineteenPairIRecallTMeanStd,\ensuremath{0.50 \pm 0.20},generated_stats.tex,1281,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIRecallTNMean,0.40,generated_stats.tex,1285,0,
+IssueNineteenPairIRecallTNMeanStd,\ensuremath{0.40 \pm 0.12},generated_stats.tex,1284,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIRecallTNStd,0.12,generated_stats.tex,1286,0,
+IssueNineteenPairIRecallTStd,0.20,generated_stats.tex,1283,0,
+IssueNineteenPairIVBFSLatency,0.10,generated_stats.tex,1330,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIVDeltaRecall,-0.00,generated_stats.tex,1327,0,
+IssueNineteenPairIVDeltaRecallMeanStd,\ensuremath{-0.00 \pm 0.10},generated_stats.tex,1326,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIVDeltaRecallStd,0.10,generated_stats.tex,1328,0,
+IssueNineteenPairIVDiscoveryRate,0.00,generated_stats.tex,1329,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIVNq,20,generated_stats.tex,1319,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIVRecallTMean,0.37,generated_stats.tex,1321,0,
+IssueNineteenPairIVRecallTMeanStd,\ensuremath{0.37 \pm 0.16},generated_stats.tex,1320,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIVRecallTNMean,0.36,generated_stats.tex,1324,0,
+IssueNineteenPairIVRecallTNMeanStd,\ensuremath{0.36 \pm 0.15},generated_stats.tex,1323,1,tables/table_temporal_update_stability.tex:1
+IssueNineteenPairIVRecallTNStd,0.15,generated_stats.tex,1325,0,
+IssueNineteenPairIVRecallTStd,0.16,generated_stats.tex,1322,0,
+IssueNineteenStabilityCoefficient,90.6\%,generated_stats.tex,1277,1,main.tex:1
+IssueNineteenTotalEvals,106,generated_stats.tex,1264,3,main.tex:1;tables/table_temporal_update_stability.tex:2
+IssueNineteenUniqueQueries,82,generated_stats.tex,1265,1,main.tex:1
+IssueTwentyBollingCAPPRPercentile,99.97,generated_stats.tex,1417,0,
+IssueTwentyBollingCharCount,"5,137",generated_stats.tex,1415,1,main.tex:1
+IssueTwentyBollingCharCountRaw,5137,generated_stats.tex,1416,0,
+IssueTwentyBollingInDegree,55,generated_stats.tex,1418,0,
+IssueTwentyCooperCAPPRPercentile,99.81,generated_stats.tex,1405,0,
+IssueTwentyCooperCharCount,"1,192",generated_stats.tex,1403,0,
+IssueTwentyCooperCharCountRaw,1192,generated_stats.tex,1404,0,
+IssueTwentyCooperInDegree,9,generated_stats.tex,1406,0,
+IssueTwentyDieboldCAPPRPercentile,100.00,generated_stats.tex,1393,1,main.tex:1
+IssueTwentyDieboldCharCount,"2,441",generated_stats.tex,1391,1,main.tex:1
+IssueTwentyDieboldCharCountRaw,2441,generated_stats.tex,1392,0,
+IssueTwentyDieboldInDegree,8,generated_stats.tex,1394,0,
+IssueTwentyDirectedGraphEdges,"331,870",generated_stats.tex,1340,0,
+IssueTwentyDuskyCAPPRPercentile,99.99,generated_stats.tex,1397,1,main.tex:1
+IssueTwentyDuskyCharCount,"1,532",generated_stats.tex,1395,1,main.tex:1
+IssueTwentyDuskyCharCountRaw,1532,generated_stats.tex,1396,0,
+IssueTwentyDuskyInDegree,2,generated_stats.tex,1398,0,
+IssueTwentyExcludedPRGeNinetyNineFive,52,generated_stats.tex,1375,0,
+IssueTwentyExcludedPRGeNinetyNineNine,10,generated_stats.tex,1377,0,
+IssueTwentyExcludedPageRankGeNinetyNineFive,52,generated_stats.tex,1376,0,
+IssueTwentyExcludedPoolCount,"110,559",generated_stats.tex,1347,0,
+IssueTwentyExcludedPoolCountRaw,110559,generated_stats.tex,1348,0,
+IssueTwentyExcludedPoolPct,84.19\%,generated_stats.tex,1349,0,
+IssueTwentyExcludedPoolPctVal,84.19,generated_stats.tex,1350,0,
+IssueTwentyFiveBenchConstitutionalPublicCount,232,generated_stats.tex,1627,1,main.tex:1
+IssueTwentyFiveBenchConstitutionalPublicPct,84.4\%,generated_stats.tex,1628,1,main.tex:1
+IssueTwentyFiveBenchGeneralStatutoryCount,20,generated_stats.tex,1631,1,main.tex:1
+IssueTwentyFiveBenchGeneralStatutoryPct,7.3\%,generated_stats.tex,1632,1,main.tex:1
+IssueTwentyFiveBenchInDomainTotal,275,generated_stats.tex,1626,1,main.tex:1
+IssueTwentyFiveBenchPrivateLawCount,23,generated_stats.tex,1629,1,main.tex:1
+IssueTwentyFiveBenchPrivateLawPct,8.4\%,generated_stats.tex,1630,1,main.tex:1
+IssueTwentyFiveCatBConstitutionalPublicCount,100,generated_stats.tex,1635,0,
+IssueTwentyFiveCatBConstitutionalPublicPct,100.0\%,generated_stats.tex,1636,2,main.tex:2
+IssueTwentyFiveCatBPrivateLawCount,0,generated_stats.tex,1637,0,
+IssueTwentyFiveCatBPrivateLawPct,0.0\%,generated_stats.tex,1638,0,
+IssueTwentyFiveCorpusCombinedPrivateStatutoryPct,51.5\%,generated_stats.tex,1622,2,main.tex:2
+IssueTwentyFiveCorpusConstitutionalPublicPct,48.5\%,generated_stats.tex,1623,0,
+IssueTwentyFiveCorpusGeneralStatutoryPct,23.0\%,generated_stats.tex,1621,0,
+IssueTwentyFiveCorpusPrivateLawPct,28.5\%,generated_stats.tex,1620,0,
+IssueTwentyFourBfsDepth,2,generated_stats.tex,1614,3,main.tex:3
+IssueTwentyFourDevCatACount,10,generated_stats.tex,1602,0,
+IssueTwentyFourDevCatBCount,10,generated_stats.tex,1603,0,
+IssueTwentyFourDevCatCCount,10,generated_stats.tex,1604,0,
+IssueTwentyFourDevCatDCount,5,generated_stats.tex,1605,1,main.tex:1
+IssueTwentyFourDevDate,August~2026,generated_stats.tex,1607,2,main.tex:2
+IssueTwentyFourDevPipelineCount,3,generated_stats.tex,1599,1,main.tex:1
+IssueTwentyFourDevQueryCount,35,generated_stats.tex,1597,2,main.tex:2
+IssueTwentyFourDevRunCount,5,generated_stats.tex,1598,1,main.tex:1
+IssueTwentyFourDevTotalEvals,525,generated_stats.tex,1600,1,main.tex:1
+IssueTwentyFourDistThreshold,1.30,generated_stats.tex,1616,3,main.tex:2;tables/table_computational_budget.tex:1
+IssueTwentyFourHubCap,50,generated_stats.tex,1615,3,main.tex:3
+IssueTwentyFourOverlapPct,0.0\%,generated_stats.tex,1611,1,main.tex:1
+IssueTwentyFourOverlapQueries,0,generated_stats.tex,1610,0,
+IssueTwentyFourSeedK,2,generated_stats.tex,1613,3,main.tex:3
+IssueTwentyFourTestQueryCount,350,generated_stats.tex,1609,1,main.tex:1
+IssueTwentyGayleCAPPRPercentile,17.54,generated_stats.tex,1413,0,
+IssueTwentyGayleCharCount,712,generated_stats.tex,1411,1,main.tex:1
+IssueTwentyGayleCharCountRaw,712,generated_stats.tex,1412,0,
+IssueTwentyGayleInDegree,12,generated_stats.tex,1414,0,
+IssueTwentyHainesCAPPRPercentile,100.00,generated_stats.tex,1389,1,main.tex:1
+IssueTwentyHainesCharCount,"3,730",generated_stats.tex,1387,1,main.tex:1
+IssueTwentyHainesCharCountRaw,3730,generated_stats.tex,1388,0,
+IssueTwentyHainesInDegree,12,generated_stats.tex,1390,0,
+IssueTwentyIntermediateExcludedCount,"8,324",generated_stats.tex,1362,2,main.tex:2
+IssueTwentyIntermediateExcludedCountRaw,8324,generated_stats.tex,1363,0,
+IssueTwentyIntermediateExcludedPct,6.34\%,generated_stats.tex,1364,2,main.tex:2
+IssueTwentyIntermediateExcludedPctVal,6.34,generated_stats.tex,1365,0,
+IssueTwentyIntermediatePRGeNinety,600,generated_stats.tex,1367,0,
+IssueTwentyIntermediatePRGeNinetyEight,171,generated_stats.tex,1369,0,
+IssueTwentyIntermediatePRGeNinetyFive,365,generated_stats.tex,1368,0,
+IssueTwentyIntermediatePRGeNinetyNine,87,generated_stats.tex,1370,0,
+IssueTwentyIntermediatePRGeNinetyNineFive,46,generated_stats.tex,1371,0,
+IssueTwentyIntermediatePRGeNinetyNineNine,8,generated_stats.tex,1373,0,
+IssueTwentyIntermediatePageRankGeNinetyNineFive,46,generated_stats.tex,1372,2,main.tex:2
+IssueTwentyLandmarkCatalogTotal,63,generated_stats.tex,1379,0,
+IssueTwentyLandmarksExcludedByLength,21,generated_stats.tex,1380,1,main.tex:1
+IssueTwentyLandmarksExcludedByLengthPct,33.33\%,generated_stats.tex,1381,1,main.tex:1
+IssueTwentyLandmarksExcludedByLengthPctVal,33.33,generated_stats.tex,1382,0,
+IssueTwentyLandmarksRetainedByLength,42,generated_stats.tex,1383,0,
+IssueTwentyLandmarksRetainedByLengthPct,66.67\%,generated_stats.tex,1384,0,
+IssueTwentyLandmarksRetainedByLengthPctVal,66.67,generated_stats.tex,1385,0,
+IssueTwentyLucasCAPPRPercentile,99.97,generated_stats.tex,1401,0,
+IssueTwentyLucasCharCount,"3,654",generated_stats.tex,1399,1,main.tex:1
+IssueTwentyLucasCharCountRaw,3654,generated_stats.tex,1400,0,
+IssueTwentyLucasInDegree,22,generated_stats.tex,1402,0,
+IssueTwentyOneAuditAbsentCount,0,generated_stats.tex,1456,0,
+IssueTwentyOneAuditAbsentPct,0.0\%,generated_stats.tex,1457,0,
+IssueTwentyOneAuditAmbiguousCount,0,generated_stats.tex,1458,0,
+IssueTwentyOneAuditAmbiguousPct,0.0\%,generated_stats.tex,1459,0,
+IssueTwentyOneAuditCitationPresentCI,"\ensuremath{[98.1\%, 100.0\%]}",generated_stats.tex,1453,1,main.tex:1
+IssueTwentyOneAuditCitationPresentCount,200,generated_stats.tex,1451,0,
+IssueTwentyOneAuditCitationPresentPct,100.0\%,generated_stats.tex,1452,2,main.tex:2
+IssueTwentyOneAuditConcurrenceCount,10,generated_stats.tex,1466,0,
+IssueTwentyOneAuditConcurrencePct,5.0\%,generated_stats.tex,1467,0,
+IssueTwentyOneAuditDissentCount,34,generated_stats.tex,1464,0,
+IssueTwentyOneAuditDissentPct,17.0\%,generated_stats.tex,1465,0,
+IssueTwentyOneAuditFootnoteCount,0,generated_stats.tex,1470,0,
+IssueTwentyOneAuditHeadMatterCount,0,generated_stats.tex,1471,0,
+IssueTwentyOneAuditMajorityCount,156,generated_stats.tex,1462,0,
+IssueTwentyOneAuditMajorityPct,78.0\%,generated_stats.tex,1463,0,
+IssueTwentyOneAuditQuotationCount,11,generated_stats.tex,1454,0,
+IssueTwentyOneAuditQuotationPct,5.5\%,generated_stats.tex,1455,2,main.tex:2
+IssueTwentyOneAuditSampleN,200,generated_stats.tex,1444,2,main.tex:2
+IssueTwentyOneAuditSeed,20260924,generated_stats.tex,1445,2,main.tex:2
+IssueTwentyOneAuditTargetConfirmedCI,"\ensuremath{[90.4\%, 96.9\%]}",generated_stats.tex,1450,2,main.tex:2
+IssueTwentyOneAuditTargetConfirmedCILower,90.4\%,generated_stats.tex,1448,0,
+IssueTwentyOneAuditTargetConfirmedCIUpper,96.9\%,generated_stats.tex,1449,0,
+IssueTwentyOneAuditTargetConfirmedCount,189,generated_stats.tex,1446,0,
+IssueTwentyOneAuditTargetConfirmedPct,94.5\%,generated_stats.tex,1447,5,main.tex:5
+IssueTwentyOneAuditTitleCorroboratedCount,200,generated_stats.tex,1468,0,
+IssueTwentyOneAuditTitleCorroboratedPct,100.0\%,generated_stats.tex,1469,0,
+IssueTwentyOneAuditUnreadableCount,0,generated_stats.tex,1460,0,
+IssueTwentyOneAuditUnreadablePct,0.0\%,generated_stats.tex,1461,0,
+IssueTwentyOneCrossYearViolations,0,generated_stats.tex,1431,0,
+IssueTwentyOneCrossYearViolationsPct,0.00\%,generated_stats.tex,1432,1,main.tex:1
+IssueTwentyOneIntraYearReversals,13,generated_stats.tex,1433,2,main.tex:2
+IssueTwentyOneIntraYearReversalsPct,0.0089\%,generated_stats.tex,1434,0,
+IssueTwentyOneOverrulesEdges,56,generated_stats.tex,1430,4,main.tex:4
+IssueTwentyOneSameDateEdges,122,generated_stats.tex,1435,0,
+IssueTwentyOneSameDateEdgesPct,0.084\%,generated_stats.tex,1436,0,
+IssueTwentyOneSameYearEdges,"4,077",generated_stats.tex,1437,2,main.tex:2
+IssueTwentyOneSameYearEdgesPct,2.81\%,generated_stats.tex,1439,2,main.tex:2
+IssueTwentyOneSameYearEdgesRaw,4077,generated_stats.tex,1438,0,
+IssueTwentyOneStrictlyPriorDateEdges,"145,175",generated_stats.tex,1442,1,main.tex:1
+IssueTwentyOneStrictlyPriorDatePct,99.91\%,generated_stats.tex,1443,1,main.tex:1
+IssueTwentyOneStrictlyPriorYearEdges,"141,233",generated_stats.tex,1440,0,
+IssueTwentyOneStrictlyPriorYearPct,97.19\%,generated_stats.tex,1441,0,
+IssueTwentyOneTotalCitesEdges,"145,310",generated_stats.tex,1426,3,main.tex:3
+IssueTwentyOneTotalCitesEdgesRaw,145310,generated_stats.tex,1427,0,
+IssueTwentyOneTotalGraphEdges,"145,366",generated_stats.tex,1428,0,
+IssueTwentyOneTotalGraphEdgesRaw,145366,generated_stats.tex,1429,0,
+IssueTwentySipuelCAPPRPercentile,98.66,generated_stats.tex,1409,0,
+IssueTwentySipuelCharCount,"2,012",generated_stats.tex,1407,1,main.tex:1
+IssueTwentySipuelCharCountRaw,2012,generated_stats.tex,1408,0,
+IssueTwentySipuelInDegree,12,generated_stats.tex,1410,0,
+IssueTwentySixBoundAdaptiveChars,"40,161",generated_stats.tex,1755,0,
+IssueTwentySixBoundAdaptiveFullNodes,78.7,generated_stats.tex,1754,0,
+IssueTwentySixBoundAdaptiveLatencyMS,1.5,generated_stats.tex,1756,0,
+IssueTwentySixBoundAdaptiveMacro,85.58\%,generated_stats.tex,1751,0,
+IssueTwentySixBoundAdaptivePath,61.0\%,generated_stats.tex,1752,0,
+IssueTwentySixBoundAdaptiveVisitedNodes,2.0,generated_stats.tex,1753,0,
+IssueTwentySixBoundCapOneHundredChars,"40,158",generated_stats.tex,1748,0,
+IssueTwentySixBoundCapOneHundredFullNodes,79.9,generated_stats.tex,1747,0,
+IssueTwentySixBoundCapOneHundredLatencyMS,1.5,generated_stats.tex,1749,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundCapOneHundredMacro,87.13\%,generated_stats.tex,1744,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundCapOneHundredPath,66.0\%,generated_stats.tex,1745,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundCapOneHundredVisitedNodes,1.9,generated_stats.tex,1746,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundCapTwentyFiveChars,"39,483",generated_stats.tex,1741,0,
+IssueTwentySixBoundCapTwentyFiveFullNodes,75.0,generated_stats.tex,1740,0,
+IssueTwentySixBoundCapTwentyFiveLatencyMS,1.5,generated_stats.tex,1742,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundCapTwentyFiveMacro,84.80\%,generated_stats.tex,1737,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundCapTwentyFivePath,56.0\%,generated_stats.tex,1738,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundCapTwentyFiveVisitedNodes,2.4,generated_stats.tex,1739,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundDepthOneChars,"40,161",generated_stats.tex,1727,0,
+IssueTwentySixBoundDepthOneFullNodes,78.7,generated_stats.tex,1726,0,
+IssueTwentySixBoundDepthOneLatencyMS,1.5,generated_stats.tex,1728,0,
+IssueTwentySixBoundDepthOneMacro,85.58\%,generated_stats.tex,1723,0,
+IssueTwentySixBoundDepthOnePath,61.0\%,generated_stats.tex,1724,0,
+IssueTwentySixBoundDepthOneVisitedNodes,2.0,generated_stats.tex,1725,0,
+IssueTwentySixBoundDepthThreeChars,"40,161",generated_stats.tex,1734,0,
+IssueTwentySixBoundDepthThreeFullNodes,78.7,generated_stats.tex,1733,0,
+IssueTwentySixBoundDepthThreeLatencyMS,1.5,generated_stats.tex,1735,0,
+IssueTwentySixBoundDepthThreeMacro,85.58\%,generated_stats.tex,1730,0,
+IssueTwentySixBoundDepthThreePath,61.0\%,generated_stats.tex,1731,0,
+IssueTwentySixBoundDepthThreeVisitedNodes,2.0,generated_stats.tex,1732,0,
+IssueTwentySixBoundFiveNodeCount,1/5,generated_stats.tex,1717,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundFiveNodePath,20.0\%,generated_stats.tex,1716,0,
+IssueTwentySixBoundFourNodeCount,12/32,generated_stats.tex,1715,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundFourNodePath,37.5\%,generated_stats.tex,1714,0,
+IssueTwentySixBoundFullPath,61.0\%,generated_stats.tex,1710,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundFullPathCount,61/100,generated_stats.tex,1711,0,
+IssueTwentySixBoundKFourChars,"4,921",generated_stats.tex,1769,0,
+IssueTwentySixBoundKFourFullNodes,0.0,generated_stats.tex,1768,0,
+IssueTwentySixBoundKFourLatencyMS,0.1,generated_stats.tex,1770,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundKFourMacro,58.12\%,generated_stats.tex,1765,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundKFourPath,13.0\%,generated_stats.tex,1766,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundKFourVisitedNodes,0.0,generated_stats.tex,1767,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundKOneChars,"38,414",generated_stats.tex,1762,0,
+IssueTwentySixBoundKOneFullNodes,71.8,generated_stats.tex,1761,0,
+IssueTwentySixBoundKOneLatencyMS,1.4,generated_stats.tex,1763,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundKOneMacro,80.73\%,generated_stats.tex,1758,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundKOnePath,49.0\%,generated_stats.tex,1759,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundKOneVisitedNodes,2.0,generated_stats.tex,1760,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundMacro,85.58\%,generated_stats.tex,1708,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundMeanChars,"40,161",generated_stats.tex,1720,1,main.tex:1
+IssueTwentySixBoundMeanFullNodes,78.7,generated_stats.tex,1719,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundMeanVisitedNodes,2.0,generated_stats.tex,1718,3,main.tex:1;tables/table_retrieval_eval.tex:2
+IssueTwentySixBoundMicro,84.80\%,generated_stats.tex,1709,0,
+IssueTwentySixBoundOfflineLatencyMS,1.6,generated_stats.tex,1721,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundThreeNodeCount,48/63,generated_stats.tex,1713,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixBoundThreeNodePath,76.2\%,generated_stats.tex,1712,0,
+IssueTwentySixConfigCount,22,generated_stats.tex,1777,2,main.tex:2
+IssueTwentySixContextReductionPct,97.0\%,generated_stats.tex,1775,3,main.tex:2;tables/table_retrieval_eval.tex:1
+IssueTwentySixGoldRetentionCount,268/295,generated_stats.tex,1774,1,main.tex:1
+IssueTwentySixGoldRetentionPct,90.85\%,generated_stats.tex,1773,3,main.tex:2;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistAdaptiveChars,"5,936,793",generated_stats.tex,1690,0,
+IssueTwentySixHistAdaptiveFullNodes,4083.3,generated_stats.tex,1689,0,
+IssueTwentySixHistAdaptiveLatencyMS,208.2,generated_stats.tex,1691,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistAdaptiveMacro,86.33\%,generated_stats.tex,1686,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistAdaptivePath,63.0\%,generated_stats.tex,1687,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistAdaptiveVisitedNodes,1383.0,generated_stats.tex,1688,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapOneHundredChars,"7,444,457",generated_stats.tex,1683,1,main.tex:1
+IssueTwentySixHistCapOneHundredFullNodes,6238.8,generated_stats.tex,1682,0,
+IssueTwentySixHistCapOneHundredLatencyMS,275.3,generated_stats.tex,1684,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapOneHundredMacro,98.17\%,generated_stats.tex,1679,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapOneHundredPath,95.0\%,generated_stats.tex,1680,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapOneHundredVisitedNodes,1470.1,generated_stats.tex,1681,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapTwentyFiveChars,"84,896",generated_stats.tex,1676,0,
+IssueTwentySixHistCapTwentyFiveFullNodes,55.9,generated_stats.tex,1675,0,
+IssueTwentySixHistCapTwentyFiveLatencyMS,2.9,generated_stats.tex,1677,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapTwentyFiveMacro,71.62\%,generated_stats.tex,1672,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapTwentyFivePath,28.0\%,generated_stats.tex,1673,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistCapTwentyFiveVisitedNodes,22.8,generated_stats.tex,1674,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthOneChars,"147,114",generated_stats.tex,1662,1,main.tex:1
+IssueTwentySixHistDepthOneFullNodes,201.7,generated_stats.tex,1661,0,
+IssueTwentySixHistDepthOneLatencyMS,5.0,generated_stats.tex,1663,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthOneMacro,83.32\%,generated_stats.tex,1658,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthOnePath,51.0\%,generated_stats.tex,1659,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthOneVisitedNodes,33.9,generated_stats.tex,1660,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthThreeChars,"8,919,253",generated_stats.tex,1669,1,main.tex:1
+IssueTwentySixHistDepthThreeFullNodes,5711.8,generated_stats.tex,1668,0,
+IssueTwentySixHistDepthThreeLatencyMS,310.2,generated_stats.tex,1670,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthThreeMacro,88.17\%,generated_stats.tex,1665,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthThreePath,68.0\%,generated_stats.tex,1666,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistDepthThreeVisitedNodes,2087.7,generated_stats.tex,1667,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistFiveNodeCount,5/5,generated_stats.tex,1651,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistFiveNodePath,100.0\%,generated_stats.tex,1650,0,
+IssueTwentySixHistFourNodeCount,20/32,generated_stats.tex,1649,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistFourNodePath,62.5\%,generated_stats.tex,1648,0,
+IssueTwentySixHistFullPath,62.0\%,generated_stats.tex,1644,3,main.tex:2;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistFullPathCount,62/100,generated_stats.tex,1645,0,
+IssueTwentySixHistKFourChars,"4,921",generated_stats.tex,1704,0,
+IssueTwentySixHistKFourFullNodes,0.0,generated_stats.tex,1703,0,
+IssueTwentySixHistKFourLatencyMS,0.1,generated_stats.tex,1705,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistKFourMacro,58.12\%,generated_stats.tex,1700,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistKFourPath,13.0\%,generated_stats.tex,1701,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistKFourVisitedNodes,0.0,generated_stats.tex,1702,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistKOneChars,"576,531",generated_stats.tex,1697,0,
+IssueTwentySixHistKOneFullNodes,666.1,generated_stats.tex,1696,0,
+IssueTwentySixHistKOneLatencyMS,19.9,generated_stats.tex,1698,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistKOneMacro,74.47\%,generated_stats.tex,1693,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistKOnePath,45.0\%,generated_stats.tex,1694,2,main.tex:1;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistKOneVisitedNodes,133.5,generated_stats.tex,1695,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistMacro,86.08\%,generated_stats.tex,1642,3,main.tex:2;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistMeanChars,"1,342,598",generated_stats.tex,1654,2,main.tex:2
+IssueTwentySixHistMeanFullNodes,1467.5,generated_stats.tex,1653,0,
+IssueTwentySixHistMeanVisitedNodes,311.1,generated_stats.tex,1652,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistMicro,86.26\%,generated_stats.tex,1643,0,
+IssueTwentySixHistOfflineLatencyMS,46.2,generated_stats.tex,1655,3,main.tex:2;tables/table_retrieval_eval.tex:1
+IssueTwentySixHistThreeNodeCount,37/63,generated_stats.tex,1647,1,tables/table_retrieval_eval.tex:1
+IssueTwentySixHistThreeNodePath,58.7\%,generated_stats.tex,1646,0,
+IssueTwentySixPostLoopChars,"35{,}240",generated_stats.tex,1780,0,
+IssueTwentySixPreClampChars,"34{,}882",generated_stats.tex,1779,0,
+IssueTwentySixSpeedupFactor,\ensuremath{28.9\times},generated_stats.tex,1776,1,main.tex:1
+IssueTwentySixTotalEvals,44,generated_stats.tex,1778,0,
+IssueTwentySubFiveHundredCertDenialCount,2,generated_stats.tex,1356,0,
+IssueTwentySubFiveHundredCharCount,"102,235",generated_stats.tex,1352,2,main.tex:2
+IssueTwentySubFiveHundredCharCountRaw,102235,generated_stats.tex,1353,0,
+IssueTwentySubFiveHundredCharPct,77.85\%,generated_stats.tex,1354,2,main.tex:2
+IssueTwentySubFiveHundredCharPctVal,77.85,generated_stats.tex,1355,0,
+IssueTwentySubFiveHundredDocketRecordCount,"97,977",generated_stats.tex,1358,0,
+IssueTwentySubFiveHundredMotionCount,"4,254",generated_stats.tex,1357,0,
+IssueTwentySubFiveHundredOtherCount,2,generated_stats.tex,1359,0,
+IssueTwentySubFiveHundredUnresolvedCount,"97,977",generated_stats.tex,1360,0,
+IssueTwentySubstantivePoolCount,"20,756",generated_stats.tex,1342,0,
+IssueTwentySubstantivePoolCountRaw,20756,generated_stats.tex,1343,0,
+IssueTwentySubstantivePoolPct,15.81\%,generated_stats.tex,1344,0,
+IssueTwentySubstantivePoolPctVal,15.81,generated_stats.tex,1345,0,
+IssueTwentyThreeActiveCites,"145{,}310",generated_stats.tex,1564,2,main.tex:2
+IssueTwentyThreeActiveCorpusHash,7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad,generated_stats.tex,1560,0,
+IssueTwentyThreeActiveCorpusHashShort,7aa6db46\dots,generated_stats.tex,1561,2,main.tex:2
+IssueTwentyThreeActiveEdges,"145{,}366",generated_stats.tex,1563,3,main.tex:3
+IssueTwentyThreeActiveFileSizeMB,109.5,generated_stats.tex,1589,1,main.tex:1
+IssueTwentyThreeActiveOverrules,56,generated_stats.tex,1565,2,main.tex:2
+IssueTwentyThreeContextAsymmetryRatio,\ensuremath{18.8\times},generated_stats.tex,1585,1,main.tex:1
+IssueTwentyThreeCrsAddedEdges,3,generated_stats.tex,1567,1,main.tex:1
+IssueTwentyThreeFlatCharCeiling,"3{,}200",generated_stats.tex,1582,1,main.tex:1
+IssueTwentyThreeGraphRAGCharCeiling,"5{,}500",generated_stats.tex,1583,1,main.tex:1
+IssueTwentyThreeGraphRAGModularity,0.6110,generated_stats.tex,1587,2,main.tex:2
+IssueTwentyThreeGraphRAGUndirectedEdges,"145{,}353",generated_stats.tex,1579,1,main.tex:1
+IssueTwentyThreeHippoRAGCharCeiling,"3{,}500",generated_stats.tex,1584,1,main.tex:1
+IssueTwentyThreeHippoRAGNonZeroEntries,"290{,}706",generated_stats.tex,1580,2,main.tex:2
+IssueTwentyThreeHistoricalCorpusHash,012c999babb853e5d8f24caec353afe8303b8edd517965a6430957c26a6653bb,generated_stats.tex,1558,0,
+IssueTwentyThreeHistoricalCorpusHashShort,012c999b\dots,generated_stats.tex,1559,1,main.tex:1
+IssueTwentyThreeHistoricalEdges,"145{,}363",generated_stats.tex,1562,2,main.tex:2
+IssueTwentyThreeHistoricalFileSizeMB,98.9,generated_stats.tex,1588,1,main.tex:1
+IssueTwentyThreeJudgeMiddleOmissionCeiling,"50{,}000",generated_stats.tex,1586,1,main.tex:1
+IssueTwentyThreePopulatedHoldingCount,"19{,}997",generated_stats.tex,1576,1,main.tex:1
+IssueTwentyThreePopulatedHoldingPct,99.985\%,generated_stats.tex,1577,1,main.tex:1
+IssueTwentyThreePromptTokenRatio,\ensuremath{17.3\times},generated_stats.tex,1590,1,main.tex:1
+IssueTwentyThreeReclassifiedEdges,53,generated_stats.tex,1566,1,main.tex:1
+IssueTwentyThreeSubstantiveHoldingsCount,"10{,}228",generated_stats.tex,1568,1,main.tex:1
+IssueTwentyThreeSubstantiveHoldingsPct,51.14\%,generated_stats.tex,1569,1,main.tex:1
+IssueTwentyThreeTerraCharCeiling,"60{,}000",generated_stats.tex,1581,1,main.tex:1
+IssueTwentyThreeTierOneHeadnotesCount,"8{,}404",generated_stats.tex,1570,1,main.tex:1
+IssueTwentyThreeTierOneHeadnotesPct,42.02\%,generated_stats.tex,1571,0,
+IssueTwentyThreeTierThreeFallbackCount,"9{,}772",generated_stats.tex,1574,1,main.tex:1
+IssueTwentyThreeTierThreeFallbackPct,48.86\%,generated_stats.tex,1575,1,main.tex:1
+IssueTwentyThreeTierTwoRegexCount,"1{,}824",generated_stats.tex,1572,1,main.tex:1
+IssueTwentyThreeTierTwoRegexPct,9.12\%,generated_stats.tex,1573,0,
+IssueTwentyThreeUnpopulatedHoldingCount,3,generated_stats.tex,1578,1,main.tex:1
+IssueTwentyTotalDecisionsScanned,"131,315",generated_stats.tex,1338,2,main.tex:2
+IssueTwentyTotalDecisionsScannedRaw,131315,generated_stats.tex,1339,0,
+IssueTwentyTotalVolumesScanned,399,generated_stats.tex,1337,2,main.tex:2
+IssueTwentyTwoAdjudicatorModel,\texttt{databricks-gemma-3-12b},generated_stats.tex,1522,1,main.tex:1
+IssueTwentyTwoAdjudicatorOverlapCount,0,generated_stats.tex,1523,1,main.tex:1
+IssueTwentyTwoAdminLawBaselineAcc,25.0\%,generated_stats.tex,1548,0,
+IssueTwentyTwoAdminLawCorpus,"4,501",generated_stats.tex,1498,1,main.tex:1
+IssueTwentyTwoAdminLawCorpusPct,22.50\%,generated_stats.tex,1499,1,main.tex:1
+IssueTwentyTwoAdminLawPhrases,11,generated_stats.tex,1485,1,main.tex:1
+IssueTwentyTwoBaselineSampleN,140,generated_stats.tex,1510,1,main.tex:1
+IssueTwentyTwoCivilRightsBaselineAcc,50.0\%,generated_stats.tex,1551,0,
+IssueTwentyTwoCivilRightsCorpus,"1,153",generated_stats.tex,1504,1,main.tex:1
+IssueTwentyTwoCivilRightsCorpusPct,5.76\%,generated_stats.tex,1505,1,main.tex:1
+IssueTwentyTwoCivilRightsPhrases,12,generated_stats.tex,1488,1,main.tex:1
+IssueTwentyTwoCommerceClauseBaselineAcc,55.0\%,generated_stats.tex,1550,0,
+IssueTwentyTwoCommerceClauseCorpus,"1,614",generated_stats.tex,1502,1,main.tex:1
+IssueTwentyTwoCommerceClauseCorpusPct,8.07\%,generated_stats.tex,1503,1,main.tex:1
+IssueTwentyTwoCommerceClausePhrases,12,generated_stats.tex,1487,1,main.tex:1
+IssueTwentyTwoCriminalProcedureBaselineAcc,45.0\%,generated_stats.tex,1549,0,
+IssueTwentyTwoCriminalProcedureCorpus,"1,765",generated_stats.tex,1500,1,main.tex:1
+IssueTwentyTwoCriminalProcedureCorpusPct,8.82\%,generated_stats.tex,1501,1,main.tex:1
+IssueTwentyTwoCriminalProcedurePhrases,13,generated_stats.tex,1486,1,main.tex:1
+IssueTwentyTwoEdgeSampleN,70,generated_stats.tex,1511,1,main.tex:1
+IssueTwentyTwoFallbackPhrases,0,generated_stats.tex,1490,0,
+IssueTwentyTwoFallbackSampleN,20,generated_stats.tex,1514,1,main.tex:1
+IssueTwentyTwoFallbackValidityPct,100.00\%,generated_stats.tex,1544,2,main.tex:2
+IssueTwentyTwoFirstAmendmentBaselineAcc,20.0\%,generated_stats.tex,1552,0,
+IssueTwentyTwoFirstAmendmentCorpus,666,generated_stats.tex,1506,1,main.tex:1
+IssueTwentyTwoFirstAmendmentCorpusPct,3.33\%,generated_stats.tex,1507,1,main.tex:1
+IssueTwentyTwoFirstAmendmentPhrases,11,generated_stats.tex,1489,1,main.tex:1
+IssueTwentyTwoGeneralConstitutionalBaselineAcc,10.0\%,generated_stats.tex,1547,1,main.tex:1
+IssueTwentyTwoGeneralConstitutionalCorpus,"4,594",generated_stats.tex,1496,3,main.tex:3
+IssueTwentyTwoGeneralConstitutionalCorpusPct,22.97\%,generated_stats.tex,1497,3,main.tex:3
+IssueTwentyTwoHorvitzThompsonAccuracy,34.15\%,generated_stats.tex,1525,2,main.tex:2
+IssueTwentyTwoHorvitzThompsonCI,"\ensuremath{[25.27\%, 43.02\%]}",generated_stats.tex,1529,2,main.tex:2
+IssueTwentyTwoHorvitzThompsonCILower,25.27\%,generated_stats.tex,1527,0,
+IssueTwentyTwoHorvitzThompsonCIUpper,43.02\%,generated_stats.tex,1528,0,
+IssueTwentyTwoHorvitzThompsonSE,4.53\%,generated_stats.tex,1526,1,main.tex:1
+IssueTwentyTwoIEACohensKappa,0.3395,generated_stats.tex,1518,2,main.tex:2
+IssueTwentyTwoIEADisagreementCount,117,generated_stats.tex,1520,0,
+IssueTwentyTwoIEARawAgreement,44.29\%,generated_stats.tex,1517,2,main.tex:2
+IssueTwentyTwoIEAUnanimousCount,93,generated_stats.tex,1519,0,
+IssueTwentyTwoIncoherentCount,63,generated_stats.tex,1537,1,main.tex:1
+IssueTwentyTwoIncoherentPct,30.00\%,generated_stats.tex,1538,1,main.tex:1
+IssueTwentyTwoMultiTagFOne,0.6385,generated_stats.tex,1543,1,main.tex:1
+IssueTwentyTwoMultiTagPrecision,92.22\%,generated_stats.tex,1541,1,main.tex:1
+IssueTwentyTwoMultiTagRecall,48.83\%,generated_stats.tex,1542,1,main.tex:1
+IssueTwentyTwoMultiTagSampleN,30,generated_stats.tex,1513,1,main.tex:1
+IssueTwentyTwoPartialCoherentCount,77,generated_stats.tex,1533,1,main.tex:1
+IssueTwentyTwoPartialCoherentPct,36.67\%,generated_stats.tex,1534,1,main.tex:1
+IssueTwentyTwoSamplingSeed,20260925,generated_stats.tex,1515,1,main.tex:1
+IssueTwentyTwoStrictCoherentCount,70,generated_stats.tex,1531,1,main.tex:1
+IssueTwentyTwoStrictCoherentPct,33.33\%,generated_stats.tex,1532,1,main.tex:1
+IssueTwentyTwoSubstantivePrivateLawBaselineAcc,50.0\%,generated_stats.tex,1546,0,
+IssueTwentyTwoSubstantivePrivateLawCorpus,"5,707",generated_stats.tex,1494,1,main.tex:1
+IssueTwentyTwoSubstantivePrivateLawCorpusPct,28.54\%,generated_stats.tex,1495,1,main.tex:1
+IssueTwentyTwoSubstantivePrivateLawPhrases,10,generated_stats.tex,1484,1,main.tex:1
+IssueTwentyTwoSubstantivelyGroundedCount,147,generated_stats.tex,1535,1,main.tex:1
+IssueTwentyTwoSubstantivelyGroundedPct,70.00\%,generated_stats.tex,1536,1,main.tex:1
+IssueTwentyTwoTextTruncationChars,"4,000",generated_stats.tex,1482,2,main.tex:2
+IssueTwentyTwoTextTruncationCharsRaw,4000,generated_stats.tex,1483,0,
+IssueTwentyTwoTieAccuracy,40.00\%,generated_stats.tex,1540,1,main.tex:1
+IssueTwentyTwoTieSampleN,20,generated_stats.tex,1512,1,main.tex:1
+IssueTwentyTwoTotalCorpusSize,"20,000",generated_stats.tex,1492,0,
+IssueTwentyTwoTotalCorpusSizeRaw,20000,generated_stats.tex,1493,0,
+IssueTwentyTwoTotalLexiconPhrases,69,generated_stats.tex,1481,3,main.tex:3
+IssueTwentyTwoTotalSampleN,210,generated_stats.tex,1509,7,main.tex:7
+JudgeCalibN,200,generated_stats.tex,349,1,main.tex:1
+JudgeCalibNObs,787,generated_stats.tex,350,1,main.tex:1
+JudgeKendallP,\ensuremath{\frac{1}{10001} \approx 9.999 \times 10^{-5}},generated_stats.tex,348,1,main.tex:1
+JudgeKendallTau,0.404,generated_stats.tex,347,1,main.tex:1
+JudgeMeanPearsonCI,"\ensuremath{[0.651, 0.784]}",generated_stats.tex,352,1,main.tex:1
+JudgeMeanPearsonP,\ensuremath{\frac{1}{10001} \approx 9.999 \times 10^{-5}},generated_stats.tex,353,1,main.tex:1
+JudgeMeanPearsonR,0.724,generated_stats.tex,351,1,main.tex:1
+JudgePearsonCI,"\ensuremath{[0.488, 0.616]}",generated_stats.tex,342,1,main.tex:1
+JudgePearsonP,\ensuremath{\frac{1}{10001} \approx 9.999 \times 10^{-5}},generated_stats.tex,341,2,main.tex:2
+JudgePearsonR,0.555,generated_stats.tex,340,3,main.tex:3
+JudgeSpearmanP,\ensuremath{\frac{1}{10001} \approx 9.999 \times 10^{-5}},generated_stats.tex,346,1,main.tex:1
+JudgeSpearmanRho,0.570,generated_stats.tex,345,1,main.tex:1
+NglirConsensus,20.0\%,generated_stats.tex,468,1,tables/table_temporal_leakage_probe.tex:1
+NglirDenominatorConsensus,5,generated_stats.tex,470,1,tables/table_temporal_leakage_probe.tex:1
+NglirDenominatorQwen,9,generated_stats.tex,469,1,tables/table_temporal_leakage_probe.tex:1
+NglirQwen,11.1\%,generated_stats.tex,467,1,tables/table_temporal_leakage_probe.tex:1
+NglirRange,"\ensuremath{[16.7\%, 41.7\%]}",generated_stats.tex,466,1,tables/table_temporal_leakage_probe.tex:1
+ObscCohortSize,30,generated_obscure_stats.tex,15,21,main.tex:4;tables/table_obscure_overruled_eval.tex:17
+ObscCrossDirectFamousSafe,15/19\ (78.9\%\!),generated_obscure_stats.tex,125,4,main.tex:3;tables/table_obscure_overruled_eval.tex:1
+ObscCrossDirectFisherP,\ensuremath{2.46 \times 10^{-9}},generated_obscure_stats.tex,129,0,
+ObscCrossDirectFisherPRel,= \ensuremath{2.46 \times 10^{-9}},generated_obscure_stats.tex,130,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossDirectNewcombeCI,"\ensuremath{[+53.9\%, +91.5\%]}",generated_obscure_stats.tex,128,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossDirectObscureSafe,0/30\ (0.0\%\!),generated_obscure_stats.tex,126,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossDirectOddsRatio,210.11$^*$,generated_obscure_stats.tex,131,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossDirectRiskDiff,+79.0\%,generated_obscure_stats.tex,127,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFlatFamousSafe,10/19\ (52.6\%\!),generated_obscure_stats.tex,132,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFlatFisherP,0.028,generated_obscure_stats.tex,136,0,
+ObscCrossFlatFisherPRel,= 0.028,generated_obscure_stats.tex,137,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFlatNewcombeCI,"\ensuremath{[+5.5\%, +55.2\%]}",generated_obscure_stats.tex,135,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFlatObscureSafe,6/30\ (20.0\%\!),generated_obscure_stats.tex,133,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFlatOddsRatio,4.44,generated_obscure_stats.tex,138,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFlatRiskDiff,+32.6\%,generated_obscure_stats.tex,134,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFullFamousSafe,14/19\ (73.7\%\!),generated_obscure_stats.tex,139,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossFullFisherP,0.541,generated_obscure_stats.tex,143,0,
+ObscCrossFullFisherPRel,= 0.541,generated_obscure_stats.tex,144,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFullNewcombeCI,"\ensuremath{[-16.6\%, +33.3\%]}",generated_obscure_stats.tex,142,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossFullObscureSafe,19/30\ (63.3\%\!),generated_obscure_stats.tex,140,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossFullOddsRatio,1.62,generated_obscure_stats.tex,145,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossFullRiskDiff,+10.3\%,generated_obscure_stats.tex,141,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossUnlabeledFamousSafe,15/19\ (78.9\%\!),generated_obscure_stats.tex,146,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossUnlabeledFisherP,\ensuremath{4.68 \times 10^{-4}},generated_obscure_stats.tex,150,0,
+ObscCrossUnlabeledFisherPRel,= \ensuremath{4.68 \times 10^{-4}},generated_obscure_stats.tex,151,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossUnlabeledNewcombeCI,"\ensuremath{[+23.8\%, +70.0\%]}",generated_obscure_stats.tex,149,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossUnlabeledObscureSafe,8/30\ (26.7\%\!),generated_obscure_stats.tex,147,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscCrossUnlabeledOddsRatio,10.31,generated_obscure_stats.tex,152,1,tables/table_obscure_overruled_eval.tex:1
+ObscCrossUnlabeledRiskDiff,+52.3\%,generated_obscure_stats.tex,148,1,tables/table_obscure_overruled_eval.tex:1
+ObscDirectError,0,generated_obscure_stats.tex,33,0,
+ObscDirectFatalAff,9,generated_obscure_stats.tex,30,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscDirectFatalUnw,15,generated_obscure_stats.tex,31,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscDirectRHedge,6,generated_obscure_stats.tex,32,1,tables/table_obscure_overruled_eval.tex:1
+ObscDirectRRef,0,generated_obscure_stats.tex,28,1,tables/table_obscure_overruled_eval.tex:1
+ObscDirectRRefut,0,generated_obscure_stats.tex,29,1,tables/table_obscure_overruled_eval.tex:1
+ObscDirectSafeCI,"\ensuremath{[0.0000, 0.1157]}",generated_obscure_stats.tex,26,0,
+ObscDirectSafeCIHigh,0.1157,generated_obscure_stats.tex,25,0,
+ObscDirectSafeCILow,0.0000,generated_obscure_stats.tex,24,0,
+ObscDirectSafeCount,0,generated_obscure_stats.tex,22,1,tables/table_obscure_overruled_eval.tex:1
+ObscDirectSafePct,0.0\%,generated_obscure_stats.tex,23,3,main.tex:2;tables/table_obscure_overruled_eval.tex:1
+ObscDirectSafeSummary,"0/30\ (0.0\%, \ensuremath{[0.0000, 0.1157]})",generated_obscure_stats.tex,27,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscDoubleColSpan,2,generated_obscure_stats.tex,10,15,tables/table_obscure_overruled_eval.tex:15
+ObscFamousCohortSize,19,generated_obscure_stats.tex,16,4,main.tex:1;tables/table_obscure_overruled_eval.tex:3
+ObscFlatError,0,generated_obscure_stats.tex,46,0,
+ObscFlatFatalAff,1,generated_obscure_stats.tex,43,1,tables/table_obscure_overruled_eval.tex:1
+ObscFlatFatalUnw,21,generated_obscure_stats.tex,44,1,tables/table_obscure_overruled_eval.tex:1
+ObscFlatRHedge,2,generated_obscure_stats.tex,45,1,tables/table_obscure_overruled_eval.tex:1
+ObscFlatRRef,1,generated_obscure_stats.tex,41,1,tables/table_obscure_overruled_eval.tex:1
+ObscFlatRRefut,5,generated_obscure_stats.tex,42,1,tables/table_obscure_overruled_eval.tex:1
+ObscFlatSafeCI,"\ensuremath{[0.0771, 0.3857]}",generated_obscure_stats.tex,39,0,
+ObscFlatSafeCIHigh,0.3857,generated_obscure_stats.tex,38,0,
+ObscFlatSafeCILow,0.0771,generated_obscure_stats.tex,37,0,
+ObscFlatSafeCount,6,generated_obscure_stats.tex,35,1,tables/table_obscure_overruled_eval.tex:1
+ObscFlatSafePct,20.0\%,generated_obscure_stats.tex,36,1,tables/table_obscure_overruled_eval.tex:1
+ObscFlatSafeSummary,"6/30\ (20.0\%, \ensuremath{[0.0771, 0.3857]})",generated_obscure_stats.tex,40,1,tables/table_obscure_overruled_eval.tex:1
+ObscFullError,0,generated_obscure_stats.tex,59,0,
+ObscFullFatalAff,0,generated_obscure_stats.tex,56,1,tables/table_obscure_overruled_eval.tex:1
+ObscFullFatalUnw,2,generated_obscure_stats.tex,57,1,tables/table_obscure_overruled_eval.tex:1
+ObscFullRHedge,9,generated_obscure_stats.tex,58,1,tables/table_obscure_overruled_eval.tex:1
+ObscFullRRef,4,generated_obscure_stats.tex,54,1,tables/table_obscure_overruled_eval.tex:1
+ObscFullRRefut,15,generated_obscure_stats.tex,55,1,tables/table_obscure_overruled_eval.tex:1
+ObscFullSafeCI,"\ensuremath{[0.4386, 0.8007]}",generated_obscure_stats.tex,52,0,
+ObscFullSafeCIHigh,0.8007,generated_obscure_stats.tex,51,0,
+ObscFullSafeCILow,0.4386,generated_obscure_stats.tex,50,0,
+ObscFullSafeCount,19,generated_obscure_stats.tex,48,1,tables/table_obscure_overruled_eval.tex:1
+ObscFullSafePct,63.3\%,generated_obscure_stats.tex,49,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscFullSafeSummary,"19/30\ (63.3\%, \ensuremath{[0.4386, 0.8007]})",generated_obscure_stats.tex,53,1,tables/table_obscure_overruled_eval.tex:1
+ObscGptOssUnverifiedQuotes,26,generated_obscure_stats.tex,20,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneDirectSafeCI,"\ensuremath{[0.0771, 0.3857]}",generated_obscure_stats.tex,161,0,
+ObscJudgeOneDirectSafeCount,6,generated_obscure_stats.tex,158,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneDirectSafePct,20.0\%,generated_obscure_stats.tex,159,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneDirectSafeSummary,6/30\ (20.0\%\!),generated_obscure_stats.tex,160,0,
+ObscJudgeOneFlatSafeCI,"\ensuremath{[0.0993, 0.4228]}",generated_obscure_stats.tex,165,0,
+ObscJudgeOneFlatSafeCount,7,generated_obscure_stats.tex,162,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneFlatSafePct,23.3\%,generated_obscure_stats.tex,163,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneFlatSafeSummary,7/30\ (23.3\%\!),generated_obscure_stats.tex,164,0,
+ObscJudgeOneFullSafeCI,"\ensuremath{[0.7793, 0.9918]}",generated_obscure_stats.tex,169,0,
+ObscJudgeOneFullSafeCount,28,generated_obscure_stats.tex,166,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneFullSafePct,93.3\%,generated_obscure_stats.tex,167,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneFullSafeSummary,28/30\ (93.3\%\!),generated_obscure_stats.tex,168,0,
+ObscJudgeOnePrimaryB,10,generated_obscure_stats.tex,154,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOnePrimaryC,3,generated_obscure_stats.tex,155,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOnePrimaryP,0.092285,generated_obscure_stats.tex,156,0,
+ObscJudgeOnePrimaryPRel,= 0.092285,generated_obscure_stats.tex,157,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscJudgeOneUnlabeledSafeCI,"\ensuremath{[0.2834, 0.6567]}",generated_obscure_stats.tex,173,0,
+ObscJudgeOneUnlabeledSafeCount,14,generated_obscure_stats.tex,170,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneUnlabeledSafePct,46.7\%,generated_obscure_stats.tex,171,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscJudgeOneUnlabeledSafeSummary,14/30\ (46.7\%\!),generated_obscure_stats.tex,172,0,
+ObscJudgeTwoDirectSafeCI,"\ensuremath{[0.0000, 0.1157]}",generated_obscure_stats.tex,181,0,
+ObscJudgeTwoDirectSafeCount,0,generated_obscure_stats.tex,178,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoDirectSafePct,0.0\%,generated_obscure_stats.tex,179,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoDirectSafeSummary,0/30\ (0.0\%\!),generated_obscure_stats.tex,180,0,
+ObscJudgeTwoFlatSafeCI,"\ensuremath{[0.1473, 0.4940]}",generated_obscure_stats.tex,185,0,
+ObscJudgeTwoFlatSafeCount,9,generated_obscure_stats.tex,182,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoFlatSafePct,30.0\%,generated_obscure_stats.tex,183,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoFlatSafeSummary,9/30\ (30.0\%\!),generated_obscure_stats.tex,184,0,
+ObscJudgeTwoFullSafeCI,"\ensuremath{[0.4386, 0.8007]}",generated_obscure_stats.tex,189,0,
+ObscJudgeTwoFullSafeCount,19,generated_obscure_stats.tex,186,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoFullSafePct,63.3\%,generated_obscure_stats.tex,187,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoFullSafeSummary,19/30\ (63.3\%\!),generated_obscure_stats.tex,188,0,
+ObscJudgeTwoPrimaryB,3,generated_obscure_stats.tex,174,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoPrimaryC,4,generated_obscure_stats.tex,175,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoPrimaryP,1.000000,generated_obscure_stats.tex,176,0,
+ObscJudgeTwoPrimaryPRel,= 1.000000,generated_obscure_stats.tex,177,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscJudgeTwoUnlabeledSafeCI,"\ensuremath{[0.1228, 0.4589]}",generated_obscure_stats.tex,193,0,
+ObscJudgeTwoUnlabeledSafeCount,8,generated_obscure_stats.tex,190,1,tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoUnlabeledSafePct,26.7\%,generated_obscure_stats.tex,191,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscJudgeTwoUnlabeledSafeSummary,8/30\ (26.7\%\!),generated_obscure_stats.tex,192,0,
+ObscKappa,0.5746,generated_obscure_stats.tex,17,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscKappaCleanEvals,120,generated_obscure_stats.tex,18,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscPrimaryDiscordantB,5,generated_obscure_stats.tex,74,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscPrimaryDiscordantC,3,generated_obscure_stats.tex,75,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscPrimaryFisherP,0.761068,generated_obscure_stats.tex,78,0,
+ObscPrimaryFisherPRel,= 0.761068,generated_obscure_stats.tex,79,0,
+ObscPrimaryGate,CLOSED,generated_obscure_stats.tex,80,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscPrimaryMcNemarP,0.726562,generated_obscure_stats.tex,76,0,
+ObscPrimaryMcNemarPRel,= 0.726562,generated_obscure_stats.tex,77,5,main.tex:2;tables/table_obscure_overruled_eval.tex:3
+ObscQwenUnverifiedQuotes,16,generated_obscure_stats.tex,19,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscSecFlatVsDirectB,6,generated_obscure_stats.tex,97,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFlatVsDirectC,0,generated_obscure_stats.tex,98,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFlatVsDirectGate,CLOSED,generated_obscure_stats.tex,101,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFlatVsDirectP,0.031250,generated_obscure_stats.tex,99,0,
+ObscSecFlatVsDirectPRel,= 0.031250,generated_obscure_stats.tex,100,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsFlatB,13,generated_obscure_stats.tex,87,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsFlatC,0,generated_obscure_stats.tex,88,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsFlatGate,CLOSED,generated_obscure_stats.tex,91,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsFlatP,< 0.001,generated_obscure_stats.tex,89,0,
+ObscSecFullVsFlatPRel,< 0.001,generated_obscure_stats.tex,90,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsUnlabeledB,11,generated_obscure_stats.tex,82,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsUnlabeledC,0,generated_obscure_stats.tex,83,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsUnlabeledGate,CLOSED,generated_obscure_stats.tex,86,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecFullVsUnlabeledP,< 0.001,generated_obscure_stats.tex,84,0,
+ObscSecFullVsUnlabeledPRel,< 0.001,generated_obscure_stats.tex,85,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscSecUnlabeledVsDirectB,8,generated_obscure_stats.tex,92,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecUnlabeledVsDirectC,0,generated_obscure_stats.tex,93,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecUnlabeledVsDirectGate,CLOSED,generated_obscure_stats.tex,96,1,tables/table_obscure_overruled_eval.tex:1
+ObscSecUnlabeledVsDirectP,0.007812,generated_obscure_stats.tex,94,0,
+ObscSecUnlabeledVsDirectPRel,= 0.007812,generated_obscure_stats.tex,95,1,tables/table_obscure_overruled_eval.tex:1
+ObscSpotAgreeMatch,16,generated_obscure_stats.tex,197,1,main.tex:1
+ObscSpotAgreeN,16,generated_obscure_stats.tex,196,1,main.tex:1
+ObscSpotDisagreeMatch,4,generated_obscure_stats.tex,199,1,main.tex:1
+ObscSpotDisagreeN,14,generated_obscure_stats.tex,198,1,main.tex:1
+ObscSpotMatchCombined,20,generated_obscure_stats.tex,202,0,
+ObscSpotMatchJOne,22,generated_obscure_stats.tex,200,0,
+ObscSpotMatchJTwo,22,generated_obscure_stats.tex,201,0,
+ObscSpotMismatchDirect,1,generated_obscure_stats.tex,206,1,main.tex:1
+ObscSpotMismatchFlat,5,generated_obscure_stats.tex,205,1,main.tex:1
+ObscSpotMismatchFull,4,generated_obscure_stats.tex,204,1,main.tex:1
+ObscSpotMismatchN,10,generated_obscure_stats.tex,203,1,main.tex:1
+ObscSpotMismatchUnlabeled,0,generated_obscure_stats.tex,207,1,main.tex:1
+ObscSpotN,30,generated_obscure_stats.tex,195,1,main.tex:1
+ObscSubsetEmptyContextB,3,generated_obscure_stats.tex,104,1,tables/table_obscure_overruled_eval.tex:1
+ObscSubsetEmptyContextC,3,generated_obscure_stats.tex,105,1,tables/table_obscure_overruled_eval.tex:1
+ObscSubsetEmptyContextFullSafeCount,17,generated_obscure_stats.tex,108,0,
+ObscSubsetEmptyContextFullSafePct,60.7\%,generated_obscure_stats.tex,109,1,main.tex:1
+ObscSubsetEmptyContextN,28,generated_obscure_stats.tex,103,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscSubsetEmptyContextP,1.000000,generated_obscure_stats.tex,106,0,
+ObscSubsetEmptyContextPRel,= 1.000000,generated_obscure_stats.tex,107,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscSubsetExplicitOverruleB,3,generated_obscure_stats.tex,118,1,tables/table_obscure_overruled_eval.tex:1
+ObscSubsetExplicitOverruleC,2,generated_obscure_stats.tex,119,1,tables/table_obscure_overruled_eval.tex:1
+ObscSubsetExplicitOverruleFullSafeCount,10,generated_obscure_stats.tex,122,0,
+ObscSubsetExplicitOverruleFullSafePct,83.3\%,generated_obscure_stats.tex,123,1,main.tex:1
+ObscSubsetExplicitOverruleN,12,generated_obscure_stats.tex,117,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscSubsetExplicitOverruleP,1.000000,generated_obscure_stats.tex,120,0,
+ObscSubsetExplicitOverrulePRel,= 1.000000,generated_obscure_stats.tex,121,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscSubsetOverrulerMissingB,2,generated_obscure_stats.tex,111,1,tables/table_obscure_overruled_eval.tex:1
+ObscSubsetOverrulerMissingC,3,generated_obscure_stats.tex,112,1,tables/table_obscure_overruled_eval.tex:1
+ObscSubsetOverrulerMissingFullSafeCount,16,generated_obscure_stats.tex,115,0,
+ObscSubsetOverrulerMissingFullSafePct,64.0\%,generated_obscure_stats.tex,116,1,main.tex:1
+ObscSubsetOverrulerMissingN,25,generated_obscure_stats.tex,110,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscSubsetOverrulerMissingP,1.000000,generated_obscure_stats.tex,113,0,
+ObscSubsetOverrulerMissingPRel,= 1.000000,generated_obscure_stats.tex,114,3,main.tex:1;tables/table_obscure_overruled_eval.tex:2
+ObscTableColSpan,7,generated_obscure_stats.tex,9,7,tables/table_obscure_overruled_eval.tex:7
+ObscTableScale,0.98,generated_obscure_stats.tex,12,1,tables/table_obscure_overruled_eval.tex:1
+ObscTripleColSpan,3,generated_obscure_stats.tex,11,0,
+ObscUnlabeledError,0,generated_obscure_stats.tex,72,0,
+ObscUnlabeledFatalAff,7,generated_obscure_stats.tex,69,1,tables/table_obscure_overruled_eval.tex:1
+ObscUnlabeledFatalUnw,11,generated_obscure_stats.tex,70,1,tables/table_obscure_overruled_eval.tex:1
+ObscUnlabeledRHedge,4,generated_obscure_stats.tex,71,1,tables/table_obscure_overruled_eval.tex:1
+ObscUnlabeledRRef,4,generated_obscure_stats.tex,67,1,tables/table_obscure_overruled_eval.tex:1
+ObscUnlabeledRRefut,4,generated_obscure_stats.tex,68,1,tables/table_obscure_overruled_eval.tex:1
+ObscUnlabeledSafeCI,"\ensuremath{[0.1228, 0.4589]}",generated_obscure_stats.tex,65,0,
+ObscUnlabeledSafeCIHigh,0.4589,generated_obscure_stats.tex,64,0,
+ObscUnlabeledSafeCILow,0.1228,generated_obscure_stats.tex,63,0,
+ObscUnlabeledSafeCount,8,generated_obscure_stats.tex,61,1,tables/table_obscure_overruled_eval.tex:1
+ObscUnlabeledSafePct,26.7\%,generated_obscure_stats.tex,62,2,main.tex:1;tables/table_obscure_overruled_eval.tex:1
+ObscUnlabeledSafeSummary,"8/30\ (26.7\%, \ensuremath{[0.1228, 0.4589]})",generated_obscure_stats.tex,66,1,tables/table_obscure_overruled_eval.tex:1
+ObscVerticalSpace,1mm,generated_obscure_stats.tex,13,1,tables/table_obscure_overruled_eval.tex:1
+PilotJudgePearsonP,0.076,generated_stats.tex,344,1,main.tex:1
+PilotJudgePearsonR,0.215,generated_stats.tex,343,1,main.tex:1
+RouterAccuracy,97.14\%,generated_stats.tex,892,3,main.tex:2;tables/table_router_eval.tex:1
+RouterCatDFalseEasyCount,10,generated_stats.tex,905,2,main.tex:1;tables/table_router_eval.tex:1
+RouterCatDFalseEasyRate,13.33\%,generated_stats.tex,906,2,main.tex:1;tables/table_router_eval.tex:1
+RouterCatDSafeHandlingRate,100.0\%,generated_stats.tex,907,2,main.tex:1;tables/table_router_eval.tex:1
+RouterCorrectCount,340/350,generated_stats.tex,893,2,main.tex:1;tables/table_router_eval.tex:1
+RouterEasyFOne,95.24\%,generated_stats.tex,899,2,main.tex:1;tables/table_router_eval.tex:1
+RouterEasyPrecision,90.91\%,generated_stats.tex,897,1,tables/table_router_eval.tex:1
+RouterEasyRecall,100.00\%,generated_stats.tex,898,2,main.tex:1;tables/table_router_eval.tex:1
+RouterErrorCount,10,generated_stats.tex,1188,1,main.tex:1
+RouterFalseEasyRate,4.00\%,generated_stats.tex,903,2,main.tex:1;tables/table_router_eval.tex:1
+RouterFalseHardRate,0.00\%,generated_stats.tex,904,3,main.tex:1;tables/table_router_eval.tex:2
+RouterFastPathCount,110,generated_stats.tex,1186,2,main.tex:2
+RouterHardFOne,97.96\%,generated_stats.tex,902,2,main.tex:1;tables/table_router_eval.tex:1
+RouterHardPathCount,240,generated_stats.tex,1187,2,main.tex:2
+RouterHardPrecision,100.00\%,generated_stats.tex,900,2,main.tex:1;tables/table_router_eval.tex:1
+RouterHardRecall,96.00\%,generated_stats.tex,901,1,tables/table_router_eval.tex:1
+RouterLatencyMaxMs,"15,370.2",generated_stats.tex,914,1,main.tex:1
+RouterLatencyMeanMs,"1,565.5",generated_stats.tex,912,2,main.tex:1;tables/table_router_eval.tex:1
+RouterLatencyMedianMs,"1,126.4",generated_stats.tex,911,2,main.tex:1;tables/table_router_eval.tex:1
+RouterLatencyMinMs,601.9,generated_stats.tex,910,1,main.tex:1
+RouterLatencyPNinetyMs,"2,043.8",generated_stats.tex,913,1,main.tex:1
+RouterMacroFOne,96.60\%,generated_stats.tex,896,3,main.tex:2;tables/table_router_eval.tex:1
+RouterMacroPrecision,95.45\%,generated_stats.tex,894,2,main.tex:1;tables/table_router_eval.tex:1
+RouterMacroRecall,98.00\%,generated_stats.tex,895,2,main.tex:1;tables/table_router_eval.tex:1
+RouterModel,databricks-gemma-3-12b,generated_stats.tex,890,6,main.tex:4;tables/table_router_eval.tex:2
+RouterOverallErrorRate,2.86\%,generated_stats.tex,909,2,tables/table_router_eval.tex:2
+RouterOverallSafeHandlingRate,99.43\%,generated_stats.tex,908,2,tables/table_router_eval.tex:2
+RouterTotalQueries,350,generated_stats.tex,891,4,main.tex:1;tables/table_router_eval.tex:3
+TemporalMissingEvaluations,85,generated_stats.tex,434,1,tables/table_temporal_leakage_probe.tex:1
+TemporalMonotonicInclusion,100\%,generated_stats.tex,437,1,tables/table_temporal_leakage_probe.tex:1
+TemporalQueries,50,generated_stats.tex,431,0,
+TemporalQwk,0.260,generated_stats.tex,435,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+TemporalRawConcordance,68.6\%,generated_stats.tex,436,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+TemporalTotalEvaluations,400,generated_stats.tex,432,1,main.tex:1
+TemporalValidPairs,315,generated_stats.tex,433,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+TerraAnswerOnlyCI,"\ensuremath{[0.531, 0.640]}",generated_stats.tex,115,1,main.tex:1
+TerraAnswerOnlyClamped,0.6197,generated_stats.tex,1147,0,
+TerraAnswerOnlyCount,211,generated_stats.tex,116,0,
+TerraAnswerOnlyFaithfulness,\ensuremath{0.586 \pm 0.399},generated_stats.tex,112,2,main.tex:2
+TerraAnswerOnlyFaithfulnessMean,0.586,generated_stats.tex,113,4,main.tex:4
+TerraAnswerOnlyFaithfulnessStd,0.399,generated_stats.tex,114,0,
+TerraAnswerOnlyRaw,0.5865,generated_stats.tex,1148,0,
+TerraAnsweredQueries,211,generated_stats.tex,1189,1,main.tex:1
+TerraBaselinesOpsPerQuery,2.00,generated_stats.tex,849,0,
+TerraBenchmarkTotalOpsFormatted,"1,330",generated_stats.tex,673,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraBenchmarkTotalOpsRaw,1330,generated_stats.tex,672,0,
+TerraBrokenMarkdownLinks,4,generated_stats.tex,973,2,main.tex:1;tables/table_citation_eval.tex:1
+TerraBrokenNotProvidedLinks,3,generated_stats.tex,974,1,main.tex:1
+TerraBrokenUnindexedCorpusLinks,1,generated_stats.tex,975,1,main.tex:1
+TerraCatADecoupledGenerationMS,"3,698.2",generated_stats.tex,730,1,tables/table_computational_budget.tex:1
+TerraCatADecoupledNliMS,0.0,generated_stats.tex,729,1,tables/table_computational_budget.tex:1
+TerraCatADecoupledRetrievalMS,0.0,generated_stats.tex,728,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatADecoupledRoutingMS,995.3,generated_stats.tex,727,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatAEffectiveTokens,21 / 24,generated_stats.tex,765,1,tables/table_computational_budget.tex:1
+TerraCatAFaithfulness,0.941,generated_stats.tex,117,2,main.tex:2
+TerraCatAFalseRefusalCount,2,generated_stats.tex,1178,0,
+TerraCatAFalseRefusals,2,generated_stats.tex,1179,5,main.tex:5
+TerraCatAGenCallsFormatted,100 (100.0\%),generated_stats.tex,681,1,tables/table_computational_budget.tex:1
+TerraCatALatencyMeanAndStdMs,"\ensuremath{9,610 \pm 8,295}",generated_stats.tex,1244,1,main.tex:1
+TerraCatALatencyMeanMS,"9,609.7",generated_stats.tex,724,1,tables/table_computational_budget.tex:1
+TerraCatALatencyMedMS,"5,828.1",generated_stats.tex,725,1,tables/table_computational_budget.tex:1
+TerraCatALatencyMedianMs,"5,828",generated_stats.tex,1242,1,main.tex:1
+TerraCatALatencyPNinetyFiveMs,"19,000",generated_stats.tex,1243,1,main.tex:1
+TerraCatALatencyPTwentyFiveMs,"4,143",generated_stats.tex,1241,1,main.tex:1
+TerraCatALatencyPninetyfiveMS,"19,000.2",generated_stats.tex,726,1,tables/table_computational_budget.tex:1
+TerraCatATotalCostPerThousand,\$0.06,generated_stats.tex,766,1,tables/table_computational_budget.tex:1
+TerraCatATotalOps,300,generated_stats.tex,847,1,main.tex:1
+TerraCatATotalOpsPerQuery,3.00,generated_stats.tex,668,1,tables/table_computational_budget.tex:1
+TerraCatBAnsweredMeanWords,490,generated_stats.tex,162,1,main.tex:1
+TerraCatBAnsweredRougeRecall,0.525,generated_stats.tex,160,1,main.tex:1
+TerraCatBDecoupledGenerationMS,"13,300.9",generated_stats.tex,737,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatBDecoupledNliMS,"9,367.2",generated_stats.tex,736,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatBDecoupledRetrievalMS,293.9,generated_stats.tex,735,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatBDecoupledRoutingMS,"1,124.2",generated_stats.tex,734,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatBEffectiveTokens,10317 / 527,generated_stats.tex,767,1,tables/table_computational_budget.tex:1
+TerraCatBFaithfulness,0.254,generated_stats.tex,118,7,main.tex:7
+TerraCatBFaithfulnessStd,0.226,generated_stats.tex,119,1,main.tex:1
+TerraCatBFalseRefusalCount,16,generated_stats.tex,1180,0,
+TerraCatBFalseRefusals,16,generated_stats.tex,1181,7,main.tex:7
+TerraCatBGenCallsFormatted,100 (100.0\%),generated_stats.tex,682,1,tables/table_computational_budget.tex:1
+TerraCatBLatencyMeanAndStdMs,"\ensuremath{26,298 \pm 17,549}",generated_stats.tex,1248,1,main.tex:1
+TerraCatBLatencyMeanMS,"26,298.0",generated_stats.tex,731,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatBLatencyMedMS,"17,938.5",generated_stats.tex,732,1,tables/table_computational_budget.tex:1
+TerraCatBLatencyMedianMs,"17,939",generated_stats.tex,1246,1,main.tex:1
+TerraCatBLatencyPNinetyFiveMs,"59,989",generated_stats.tex,1247,1,main.tex:1
+TerraCatBLatencyPTwentyFiveMs,"14,983",generated_stats.tex,1245,1,main.tex:1
+TerraCatBLatencyPninetyfiveMS,"59,988.9",generated_stats.tex,733,1,tables/table_computational_budget.tex:1
+TerraCatBMeanWords,415,generated_stats.tex,153,2,main.tex:2
+TerraCatBPerQueryCost,\$0.014,generated_stats.tex,824,1,main.tex:1
+TerraCatBPromptTokensMean,10317,generated_stats.tex,768,0,
+TerraCatBRougeFOne,0.123,generated_stats.tex,147,2,main.tex:2
+TerraCatBRougePrecision,0.086,generated_stats.tex,141,2,main.tex:2
+TerraCatBRougeRecall,0.448,generated_stats.tex,135,3,main.tex:3
+TerraCatBTotalCostPerThousand,\$6.76,generated_stats.tex,769,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatBTotalCostPerThousandValue,6.76,generated_stats.tex,770,0,
+TerraCatBTotalOps,500,generated_stats.tex,848,1,main.tex:1
+TerraCatBTotalOpsPerQuery,5.00,generated_stats.tex,669,1,tables/table_computational_budget.tex:1
+TerraCatBVsFlatCostRatio,26\times,generated_stats.tex,826,1,main.tex:1
+TerraCatCBorderlineOps,2,generated_stats.tex,844,2,main.tex:2
+TerraCatCDecoupledGenerationMS,0.0,generated_stats.tex,744,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatCDecoupledNliMS,295.2,generated_stats.tex,743,4,main.tex:2;tables/table_computational_budget.tex:2
+TerraCatCDecoupledRetrievalMS,249.9,generated_stats.tex,742,1,tables/table_computational_budget.tex:1
+TerraCatCDecoupledRoutingMS,"3,096.8",generated_stats.tex,741,1,tables/table_computational_budget.tex:1
+TerraCatCEffectiveTokens,127 / 29,generated_stats.tex,771,1,tables/table_computational_budget.tex:1
+TerraCatCFailNliHaltedCount,12,generated_stats.tex,836,3,main.tex:3
+TerraCatCFailNliOps,60,generated_stats.tex,840,2,main.tex:2
+TerraCatCFaithfulness,1.000,generated_stats.tex,120,0,
+TerraCatCGenCallsCount,23,generated_stats.tex,683,0,
+TerraCatCGenCallsFormatted,23 (30.7\%),generated_stats.tex,685,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatCGenCallsPct,30.7\%,generated_stats.tex,684,0,
+TerraCatCLatencyMeanMS,"3,642.0",generated_stats.tex,738,1,tables/table_computational_budget.tex:1
+TerraCatCLatencyMedMS,"2,212.5",generated_stats.tex,739,1,tables/table_computational_budget.tex:1
+TerraCatCLatencyPninetyfiveMS,"14,538.1",generated_stats.tex,740,1,tables/table_computational_budget.tex:1
+TerraCatCMeanClampedChars,801,generated_stats.tex,829,1,main.tex:1
+TerraCatCMeanRawChars,"7,231",generated_stats.tex,828,1,main.tex:1
+TerraCatCPassNliGenCount,22,generated_stats.tex,835,2,main.tex:2
+TerraCatCPassNliOps,88,generated_stats.tex,839,2,main.tex:2
+TerraCatCPreFilterBorderlineCount,1,generated_stats.tex,834,0,
+TerraCatCPreFilterExceedingCount,41,generated_stats.tex,832,0,
+TerraCatCPreFilterExceedingHaltedCount,40,generated_stats.tex,833,3,main.tex:3
+TerraCatCPreFilterHaltedOps,40,generated_stats.tex,843,2,main.tex:2
+TerraCatCRejection,75/75 (100.0\%),generated_stats.tex,122,2,main.tex:2
+TerraCatCRejectionRate,100.0\%,generated_stats.tex,123,2,main.tex:2
+TerraCatCTotalCostPerThousand,\$0.58,generated_stats.tex,772,1,tables/table_computational_budget.tex:1
+TerraCatCTotalOps,190,generated_stats.tex,845,1,main.tex:1
+TerraCatCTotalOpsPerQuery,2.53,generated_stats.tex,670,3,main.tex:1;tables/table_computational_budget.tex:2
+TerraCatDDecoupledGenerationMS,"4,504.1",generated_stats.tex,751,1,tables/table_computational_budget.tex:1
+TerraCatDDecoupledNliMS,"9,066.4",generated_stats.tex,750,4,main.tex:2;tables/table_computational_budget.tex:2
+TerraCatDDecoupledRetrievalMS,233.2,generated_stats.tex,749,1,tables/table_computational_budget.tex:1
+TerraCatDDecoupledRoutingMS,"1,382.7",generated_stats.tex,748,1,tables/table_computational_budget.tex:1
+TerraCatDEffectiveTokens,6482 / 150,generated_stats.tex,773,1,tables/table_computational_budget.tex:1
+TerraCatDFailNliHaltedCount,40,generated_stats.tex,838,2,main.tex:2
+TerraCatDFailNliOps,200,generated_stats.tex,842,2,main.tex:2
+TerraCatDFaithfulness,0.650,generated_stats.tex,121,1,main.tex:1
+TerraCatDFatalErrorRate,2.7\%,generated_stats.tex,130,0,
+TerraCatDFatalErrors,2/75 (2.7\%),generated_stats.tex,129,7,main.tex:6;tables/table_refusal_breakdown.tex:1
+TerraCatDGenCallsCount,35,generated_stats.tex,686,0,
+TerraCatDGenCallsFormatted,35 (46.7\%),generated_stats.tex,688,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraCatDGenCallsPct,46.7\%,generated_stats.tex,687,0,
+TerraCatDHedgeRate,0.0\%,generated_stats.tex,999,0,
+TerraCatDHedges,0/75 (0.0\%),generated_stats.tex,998,2,main.tex:1;tables/table_refusal_breakdown.tex:1
+TerraCatDLatencyMeanMS,"15,186.3",generated_stats.tex,745,1,tables/table_computational_budget.tex:1
+TerraCatDLatencyMedMS,"10,144.6",generated_stats.tex,746,1,tables/table_computational_budget.tex:1
+TerraCatDLatencyPninetyfiveMS,"45,384.0",generated_stats.tex,747,1,tables/table_computational_budget.tex:1
+TerraCatDMeanClampedChars,"15,969",generated_stats.tex,831,1,main.tex:1
+TerraCatDMeanRawChars,"268,682",generated_stats.tex,830,1,main.tex:1
+TerraCatDPassNliGenCount,35,generated_stats.tex,837,2,main.tex:2
+TerraCatDPassNliOps,140,generated_stats.tex,841,2,main.tex:2
+TerraCatDRefutationRate,33.3\%,generated_stats.tex,997,4,main.tex:4
+TerraCatDRefutations,25/75 (33.3\%),generated_stats.tex,128,6,main.tex:5;tables/table_refusal_breakdown.tex:1
+TerraCatDRejection,48/75 (64.0\%),generated_stats.tex,124,8,main.tex:7;tables/table_refusal_breakdown.tex:1
+TerraCatDRejectionRate,64.0\%,generated_stats.tex,125,5,main.tex:5
+TerraCatDSafeHandling,73/75 (97.3\%),generated_stats.tex,126,5,main.tex:4;tables/table_refusal_breakdown.tex:1
+TerraCatDSafeHandlingRate,97.3\%,generated_stats.tex,127,7,main.tex:7
+TerraCatDTotalCostPerThousand,\$4.37,generated_stats.tex,774,1,tables/table_computational_budget.tex:1
+TerraCatDTotalOps,340,generated_stats.tex,846,1,main.tex:1
+TerraCatDTotalOpsPerQuery,4.53,generated_stats.tex,671,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraDeployedCostPerThousand,\$5.12,generated_stats.tex,1225,1,main.tex:1
+TerraDocFOneGrounded,53.3\%,generated_stats.tex,1202,1,main.tex:1
+TerraDocPrecisionGrounded,49.4\%,generated_stats.tex,1199,1,main.tex:1
+TerraDocPrecisionJudgeWeighted,9.30\%,generated_stats.tex,1205,1,main.tex:1
+TerraEntityCitePrecision,74.25\%,generated_stats.tex,1207,1,main.tex:1
+TerraEntityCitePrecisionLegacy,91.95\%,generated_stats.tex,1208,1,main.tex:1
+TerraEpistemicRefusals,143,generated_stats.tex,1182,2,main.tex:2
+TerraFastPathLatencyMeanAndStdMs,"\ensuremath{9,610 \pm 8,295}",generated_stats.tex,390,1,main.tex:1
+TerraFastPathLatencyMedianMs,"5,828",generated_stats.tex,387,1,main.tex:1
+TerraFastPathLatencyPNinetyFiveMs,"19,000",generated_stats.tex,389,1,main.tex:1
+TerraFastPathLatencyPSeventyFiveMs,"16,359",generated_stats.tex,388,1,main.tex:1
+TerraFastPathLatencyPTwentyFiveMs,"4,143",generated_stats.tex,386,1,main.tex:1
+TerraFastPathMedianSeconds,5.83,generated_stats.tex,359,2,main.tex:2
+TerraFastPathNetLatencyMeanAndStdMs,"\ensuremath{7,336 \pm 5,675}",generated_stats.tex,1236,1,main.tex:1
+TerraFastPathNetLatencyMedianMs,"5,457",generated_stats.tex,1116,1,main.tex:1
+TerraFastPathNetLatencyPNinetyFiveMs,"17,911",generated_stats.tex,1119,1,main.tex:1
+TerraFastPathNetLatencyPSeventyFiveMs,"7,281",generated_stats.tex,1118,1,main.tex:1
+TerraFastPathNetLatencyPTwentyFiveMs,"4,065",generated_stats.tex,1235,1,main.tex:1
+TerraFastPathNetMedianSeconds,5.46,generated_stats.tex,1117,0,
+TerraFastRouteMedianS,"5.46\,s",generated_stats.tex,1214,2,main.tex:2
+TerraFlaggedRefusals,139,generated_stats.tex,1219,2,main.tex:2
+TerraGateFNRCountTauOneFourZero,43/75,generated_stats.tex,823,1,tables/table_computational_budget.tex:1
+TerraGateFNRCountTauOneOneZero,21/75,generated_stats.tex,793,1,tables/table_computational_budget.tex:1
+TerraGateFNRCountTauOneThreeFive,40/75,generated_stats.tex,817,1,tables/table_computational_budget.tex:1
+TerraGateFNRCountTauOneThreeZero,34/75,generated_stats.tex,811,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraGateFNRCountTauOneTwoFive,31/75,generated_stats.tex,805,1,tables/table_computational_budget.tex:1
+TerraGateFNRCountTauOneTwoZero,28/75,generated_stats.tex,799,1,tables/table_computational_budget.tex:1
+TerraGateFNRCountTauOneZeroZero,13/75,generated_stats.tex,787,1,tables/table_computational_budget.tex:1
+TerraGateFNRCountTauZeroNineZero,3/75,generated_stats.tex,781,1,tables/table_computational_budget.tex:1
+TerraGateFNRTauOneFourZero,57.33\%,generated_stats.tex,820,1,tables/table_computational_budget.tex:1
+TerraGateFNRTauOneOneZero,28.00\%,generated_stats.tex,790,1,tables/table_computational_budget.tex:1
+TerraGateFNRTauOneThreeFive,53.33\%,generated_stats.tex,814,1,tables/table_computational_budget.tex:1
+TerraGateFNRTauOneThreeZero,45.33\%,generated_stats.tex,808,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraGateFNRTauOneTwoFive,41.33\%,generated_stats.tex,802,1,tables/table_computational_budget.tex:1
+TerraGateFNRTauOneTwoZero,37.33\%,generated_stats.tex,796,1,tables/table_computational_budget.tex:1
+TerraGateFNRTauOneZeroZero,17.33\%,generated_stats.tex,784,1,tables/table_computational_budget.tex:1
+TerraGateFNRTauZeroNineZero,4.00\%,generated_stats.tex,778,1,tables/table_computational_budget.tex:1
+TerraGateFPRCountTauOneFourZero,0/200,generated_stats.tex,821,1,tables/table_computational_budget.tex:1
+TerraGateFPRCountTauOneOneZero,1/200,generated_stats.tex,791,1,tables/table_computational_budget.tex:1
+TerraGateFPRCountTauOneThreeFive,0/200,generated_stats.tex,815,1,tables/table_computational_budget.tex:1
+TerraGateFPRCountTauOneThreeZero,0/200,generated_stats.tex,809,4,main.tex:3;tables/table_computational_budget.tex:1
+TerraGateFPRCountTauOneTwoFive,0/200,generated_stats.tex,803,1,tables/table_computational_budget.tex:1
+TerraGateFPRCountTauOneTwoZero,1/200,generated_stats.tex,797,1,tables/table_computational_budget.tex:1
+TerraGateFPRCountTauOneZeroZero,2/200,generated_stats.tex,785,1,tables/table_computational_budget.tex:1
+TerraGateFPRCountTauZeroNineZero,9/200,generated_stats.tex,779,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraGateFPRTauOneFourZero,0.00\%,generated_stats.tex,818,1,tables/table_computational_budget.tex:1
+TerraGateFPRTauOneOneZero,0.50\%,generated_stats.tex,788,1,tables/table_computational_budget.tex:1
+TerraGateFPRTauOneThreeFive,0.00\%,generated_stats.tex,812,1,tables/table_computational_budget.tex:1
+TerraGateFPRTauOneThreeZero,0.00\%,generated_stats.tex,806,4,main.tex:3;tables/table_computational_budget.tex:1
+TerraGateFPRTauOneTwoFive,0.00\%,generated_stats.tex,800,1,tables/table_computational_budget.tex:1
+TerraGateFPRTauOneTwoZero,0.50\%,generated_stats.tex,794,1,tables/table_computational_budget.tex:1
+TerraGateFPRTauOneZeroZero,1.00\%,generated_stats.tex,782,1,tables/table_computational_budget.tex:1
+TerraGateFPRTauZeroNineZero,4.50\%,generated_stats.tex,776,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraGateIsolatedAUROC,0.9901,generated_stats.tex,775,4,main.tex:2;tables/table_computational_budget.tex:2
+TerraGateTPRCountTauOneFourZero,32/75,generated_stats.tex,822,1,tables/table_computational_budget.tex:1
+TerraGateTPRCountTauOneOneZero,54/75,generated_stats.tex,792,1,tables/table_computational_budget.tex:1
+TerraGateTPRCountTauOneThreeFive,35/75,generated_stats.tex,816,1,tables/table_computational_budget.tex:1
+TerraGateTPRCountTauOneThreeZero,41/75,generated_stats.tex,810,4,main.tex:3;tables/table_computational_budget.tex:1
+TerraGateTPRCountTauOneTwoFive,44/75,generated_stats.tex,804,1,tables/table_computational_budget.tex:1
+TerraGateTPRCountTauOneTwoZero,47/75,generated_stats.tex,798,1,tables/table_computational_budget.tex:1
+TerraGateTPRCountTauOneZeroZero,62/75,generated_stats.tex,786,1,tables/table_computational_budget.tex:1
+TerraGateTPRCountTauZeroNineZero,72/75,generated_stats.tex,780,1,tables/table_computational_budget.tex:1
+TerraGateTPRTauOneFourZero,42.67\%,generated_stats.tex,819,1,tables/table_computational_budget.tex:1
+TerraGateTPRTauOneOneZero,72.00\%,generated_stats.tex,789,1,tables/table_computational_budget.tex:1
+TerraGateTPRTauOneThreeFive,46.67\%,generated_stats.tex,813,1,tables/table_computational_budget.tex:1
+TerraGateTPRTauOneThreeZero,54.67\%,generated_stats.tex,807,4,main.tex:3;tables/table_computational_budget.tex:1
+TerraGateTPRTauOneTwoFive,58.67\%,generated_stats.tex,801,1,tables/table_computational_budget.tex:1
+TerraGateTPRTauOneTwoZero,62.67\%,generated_stats.tex,795,1,tables/table_computational_budget.tex:1
+TerraGateTPRTauOneZeroZero,82.67\%,generated_stats.tex,783,1,tables/table_computational_budget.tex:1
+TerraGateTPRTauZeroNineZero,96.00\%,generated_stats.tex,777,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraGatedHlcrA,76.0\%,generated_stats.tex,453,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+TerraGatedHlcrB,72.0\%,generated_stats.tex,465,1,tables/table_temporal_leakage_probe.tex:1
+TerraGatedRefusalA,8.0\%,generated_stats.tex,452,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+TerraGatedRefusalB,12.0\%,generated_stats.tex,464,1,tables/table_temporal_leakage_probe.tex:1
+TerraGatedSptlrA,"\ensuremath{[18.0\%, 18.0\%]}",generated_stats.tex,451,2,main.tex:1;tables/table_temporal_leakage_probe.tex:1
+TerraGatedSptlrB,"\ensuremath{[14.0\%, 22.0\%]}",generated_stats.tex,463,1,tables/table_temporal_leakage_probe.tex:1
+TerraHardPathLatencyMeanAndStdMs,"\ensuremath{26,298 \pm 17,549}",generated_stats.tex,395,1,main.tex:1
+TerraHardPathLatencyMedianMs,"17,939",generated_stats.tex,392,1,main.tex:1
+TerraHardPathLatencyPNinetyFiveMs,"59,989",generated_stats.tex,394,1,main.tex:1
+TerraHardPathLatencyPSeventyFiveMs,"30,385",generated_stats.tex,393,1,main.tex:1
+TerraHardPathLatencyPTwentyFiveMs,"14,983",generated_stats.tex,391,1,main.tex:1
+TerraHardPathMedianSeconds,17.94,generated_stats.tex,360,4,main.tex:4
+TerraHardPathNetLatencyMeanAndStdMs,"\ensuremath{14,900 \pm 14,047}",generated_stats.tex,1238,1,main.tex:1
+TerraHardPathNetLatencyMedianMs,"14,071",generated_stats.tex,1120,1,main.tex:1
+TerraHardPathNetLatencyPNinetyFiveMs,"44,402",generated_stats.tex,1123,1,main.tex:1
+TerraHardPathNetLatencyPSeventyFiveMs,"18,744",generated_stats.tex,1122,1,main.tex:1
+TerraHardPathNetLatencyPTwentyFiveMs,"3,636",generated_stats.tex,1237,1,main.tex:1
+TerraHardPathNetMedianSeconds,14.07,generated_stats.tex,1121,0,
+TerraHardRouteMedianS,"14.07\,s",generated_stats.tex,1215,2,main.tex:2
+TerraIdenticalAnswerCatA,95.0\%,generated_stats.tex,1210,2,main.tex:2
+TerraIdenticalAnswerCatB,10.0\%,generated_stats.tex,1211,2,main.tex:2
+TerraIdenticalAnswerCatC,82.7\%,generated_stats.tex,1212,2,main.tex:2
+TerraIdenticalAnswerCatD,52.0\%,generated_stats.tex,1213,2,main.tex:2
+TerraIdenticalAnswerFraction,58.9\%,generated_stats.tex,1209,2,main.tex:2
+TerraLatencyMeanAndStdMs,"\ensuremath{14,294 \pm 14,781}",generated_stats.tex,385,1,main.tex:1
+TerraLatencyMedianMs,"9,185",generated_stats.tex,382,1,main.tex:1
+TerraLatencyMedianSeconds,9.19,generated_stats.tex,132,3,main.tex:3
+TerraLatencyPNinetyFiveMs,"45,837",generated_stats.tex,384,1,main.tex:1
+TerraLatencyPNinetyFiveSeconds,45.84,generated_stats.tex,358,1,main.tex:1
+TerraLatencyPSeventyFiveMs,"17,334",generated_stats.tex,383,1,main.tex:1
+TerraLatencyPTwentyFiveMs,"3,923",generated_stats.tex,381,1,main.tex:1
+TerraMarkdownLinkFidelityRate,97.44\%,generated_stats.tex,972,3,main.tex:2;tables/table_citation_eval.tex:1
+TerraMarkdownLinkResolutionRate,99.40\%,generated_stats.tex,971,3,main.tex:2;tables/table_citation_eval.tex:1
+TerraMedianGrossSeconds,9.19,generated_stats.tex,1190,0,
+TerraMedianNetSeconds,7.74,generated_stats.tex,1191,0,
+TerraNetLatencyMedianMs,"7,745",generated_stats.tex,1112,1,main.tex:1
+TerraNetLatencyMedianSeconds,7.74,generated_stats.tex,1113,1,main.tex:1
+TerraNetLatencyPNinetyFiveMs,"38,728",generated_stats.tex,1114,1,main.tex:1
+TerraNetLatencyPNinetyFiveSeconds,38.73,generated_stats.tex,1115,1,main.tex:1
+TerraOperationsPerQuery,4.35,generated_stats.tex,1224,1,main.tex:1
+TerraOperationsTotalCount,"1,522",generated_stats.tex,1223,1,main.tex:1
+TerraOverallCI,"\ensuremath{[0.654, 0.735]}",generated_stats.tex,111,2,main.tex:2
+TerraOverallClamped,0.7357,generated_stats.tex,1137,0,
+TerraOverallDecoupledGenerationMS,"5,822.0",generated_stats.tex,723,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraOverallDecoupledNliMS,"4,682.4",generated_stats.tex,722,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraOverallDecoupledRetrievalMS,187.5,generated_stats.tex,721,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraOverallDecoupledRoutingMS,"1,565.5",generated_stats.tex,720,2,main.tex:1;tables/table_computational_budget.tex:1
+TerraOverallEffectiveTokens,4370 / 196,generated_stats.tex,760,1,tables/table_computational_budget.tex:1
+TerraOverallFaithfulness,\ensuremath{0.695 \pm 0.380},generated_stats.tex,108,1,main.tex:1
+TerraOverallFaithfulnessMean,0.695,generated_stats.tex,109,4,main.tex:4
+TerraOverallFaithfulnessStd,0.380,generated_stats.tex,110,0,
+TerraOverallGenCallsCount,258,generated_stats.tex,678,1,main.tex:1
+TerraOverallGenCallsFormatted,258 (73.7\%),generated_stats.tex,680,1,tables/table_computational_budget.tex:1
+TerraOverallGenCallsPct,73.7\%,generated_stats.tex,679,1,main.tex:1
+TerraOverallGenCallsReductionPct,26.3\%,generated_stats.tex,827,1,main.tex:1
+TerraOverallLatencyMeanMS,"14,294.0",generated_stats.tex,717,1,tables/table_computational_budget.tex:1
+TerraOverallLatencyMedMS,"9,185.1",generated_stats.tex,718,1,tables/table_computational_budget.tex:1
+TerraOverallLatencyPninetyfiveMS,"45,837.2",generated_stats.tex,719,1,tables/table_computational_budget.tex:1
+TerraOverallOutputTokensMean,196,generated_stats.tex,762,0,
+TerraOverallPromptTokensMean,4370,generated_stats.tex,761,0,
+TerraOverallRaw,0.6950,generated_stats.tex,1138,0,
+TerraOverallTotalCostPerThousand,\$3.01,generated_stats.tex,763,1,tables/table_computational_budget.tex:1
+TerraOverallTotalCostPerThousandValue,3.01,generated_stats.tex,764,0,
+TerraOverallTotalOpsPerQuery,3.80,generated_stats.tex,667,3,main.tex:1;tables/table_computational_budget.tex:2
+TerraPNinetyFiveGrossSeconds,45.84,generated_stats.tex,1192,0,
+TerraPNinetyFiveNetSeconds,38.73,generated_stats.tex,1193,0,
+TerraResolvedMarkdownLinks,660,generated_stats.tex,970,2,main.tex:2
+TerraRetrySleepRows,36,generated_stats.tex,1124,0,
+TerraRetrySleepTotalSeconds,620.0,generated_stats.tex,1125,0,
+TerraThrottleSleepSeconds,620,generated_stats.tex,1195,2,main.tex:2
+TerraThrottledRows,36,generated_stats.tex,1194,2,main.tex:2
+TerraTotalMarkdownLinks,664,generated_stats.tex,969,5,main.tex:4;tables/table_citation_eval.tex:1
+TerraTotalRefusals,139/350 (39.7\%),generated_stats.tex,131,0,
+TerraUngatedHlcrA,80.0\%,generated_stats.tex,450,1,tables/table_temporal_leakage_probe.tex:1
+TerraUngatedHlcrB,72.0\%,generated_stats.tex,462,1,tables/table_temporal_leakage_probe.tex:1
+TerraUngatedRefusalA,0.0\%,generated_stats.tex,449,1,tables/table_temporal_leakage_probe.tex:1
+TerraUngatedRefusalB,0.0\%,generated_stats.tex,461,1,tables/table_temporal_leakage_probe.tex:1
+TerraUngatedSptlrA,"\ensuremath{[16.0\%, 20.0\%]}",generated_stats.tex,448,1,tables/table_temporal_leakage_probe.tex:1
+TerraUngatedSptlrB,"\ensuremath{[18.0\%, 24.0\%]}",generated_stats.tex,460,1,tables/table_temporal_leakage_probe.tex:1
+TerraVsDirectLLMCatALosses,4,generated_stats.tex,200,0,
+TerraVsDirectLLMCatATies,25,generated_stats.tex,199,0,
+TerraVsDirectLLMCatAWins,71,generated_stats.tex,198,0,
+TerraVsDirectLLMCatBLosses,55,generated_stats.tex,169,3,main.tex:3
+TerraVsDirectLLMCatBTies,18,generated_stats.tex,168,3,main.tex:3
+TerraVsDirectLLMCatBWinRate,27.0\%,generated_stats.tex,166,2,main.tex:2
+TerraVsDirectLLMCatBWins,27,generated_stats.tex,167,3,main.tex:3
+TerraVsDirectLLMCatCPaired,75/75 \text{ vs. } 0/75,generated_stats.tex,226,0,
+TerraVsDirectLLMCatDLosses,36,generated_stats.tex,214,0,
+TerraVsDirectLLMCatDRefusalMcNemarP,\ensuremath{4.55 \times 10^{-13}},generated_stats.tex,1050,2,main.tex:2
+TerraVsDirectLLMCatDSafeMcNemarP,0.5000,generated_stats.tex,1056,1,main.tex:1
+TerraVsDirectLLMCatDTies,30,generated_stats.tex,213,0,
+TerraVsDirectLLMCatDWins,9,generated_stats.tex,212,0,
+TerraVsDirectLLMCombinedLosses,59,generated_stats.tex,186,1,main.tex:1
+TerraVsDirectLLMCombinedTies,43,generated_stats.tex,185,1,main.tex:1
+TerraVsDirectLLMCombinedWins,98,generated_stats.tex,184,1,main.tex:1
+TerraVsFlatRAGCatALosses,7,generated_stats.tex,203,0,
+TerraVsFlatRAGCatATies,73,generated_stats.tex,202,0,
+TerraVsFlatRAGCatAWins,20,generated_stats.tex,201,0,
+TerraVsFlatRAGCatBLosses,15,generated_stats.tex,173,1,main.tex:1
+TerraVsFlatRAGCatBTies,18,generated_stats.tex,172,2,main.tex:2
+TerraVsFlatRAGCatBWinRate,67.0\%,generated_stats.tex,170,1,main.tex:1
+TerraVsFlatRAGCatBWins,67,generated_stats.tex,171,2,main.tex:2
+TerraVsFlatRAGCatCPaired,75/75 \text{ vs. } 74/75,generated_stats.tex,227,0,
+TerraVsFlatRAGCatDLosses,24,generated_stats.tex,217,0,
+TerraVsFlatRAGCatDRefusalMcNemarP,0.5847,generated_stats.tex,1051,1,main.tex:1
+TerraVsFlatRAGCatDSafeMcNemarP,0.0625,generated_stats.tex,1057,1,main.tex:1
+TerraVsFlatRAGCatDTies,30,generated_stats.tex,216,0,
+TerraVsFlatRAGCatDWins,21,generated_stats.tex,215,0,
+TerraVsFlatRAGCombinedLosses,22,generated_stats.tex,189,1,main.tex:1
+TerraVsFlatRAGCombinedTies,91,generated_stats.tex,188,1,main.tex:1
+TerraVsFlatRAGCombinedWins,87,generated_stats.tex,187,1,main.tex:1
+TerraVsGraphRAGCatALosses,7,generated_stats.tex,206,0,
+TerraVsGraphRAGCatATies,75,generated_stats.tex,205,0,
+TerraVsGraphRAGCatAWins,18,generated_stats.tex,204,0,
+TerraVsGraphRAGCatBLosses,11,generated_stats.tex,177,1,main.tex:1
+TerraVsGraphRAGCatBTies,16,generated_stats.tex,176,2,main.tex:2
+TerraVsGraphRAGCatBWinRate,73.0\%,generated_stats.tex,174,1,main.tex:1
+TerraVsGraphRAGCatBWins,73,generated_stats.tex,175,2,main.tex:2
+TerraVsGraphRAGCatCPaired,75/75 \text{ vs. } 75/75,generated_stats.tex,228,0,
+TerraVsGraphRAGCatDLosses,19,generated_stats.tex,220,0,
+TerraVsGraphRAGCatDRefusalMcNemarP,0.1214,generated_stats.tex,1052,1,main.tex:1
+TerraVsGraphRAGCatDSafeMcNemarP,0.0312,generated_stats.tex,1058,1,main.tex:1
+TerraVsGraphRAGCatDTies,20,generated_stats.tex,219,0,
+TerraVsGraphRAGCatDWins,36,generated_stats.tex,218,0,
+TerraVsGraphRAGCombinedLosses,18,generated_stats.tex,192,1,main.tex:1
+TerraVsGraphRAGCombinedTies,91,generated_stats.tex,191,1,main.tex:1
+TerraVsGraphRAGCombinedWins,91,generated_stats.tex,190,1,main.tex:1
+TerraVsHippoRAGCatALosses,4,generated_stats.tex,209,0,
+TerraVsHippoRAGCatATies,86,generated_stats.tex,208,0,
+TerraVsHippoRAGCatAWins,10,generated_stats.tex,207,0,
+TerraVsHippoRAGCatBLosses,23,generated_stats.tex,181,1,main.tex:1
+TerraVsHippoRAGCatBTies,26,generated_stats.tex,180,2,main.tex:2
+TerraVsHippoRAGCatBWinRate,51.0\%,generated_stats.tex,178,1,main.tex:1
+TerraVsHippoRAGCatBWins,51,generated_stats.tex,179,2,main.tex:2
+TerraVsHippoRAGCatCPaired,75/75 \text{ vs. } 74/75,generated_stats.tex,229,0,
+TerraVsHippoRAGCatDLosses,26,generated_stats.tex,223,0,
+TerraVsHippoRAGCatDRefusalMcNemarP,0.1849,generated_stats.tex,1053,1,main.tex:1
+TerraVsHippoRAGCatDSafeMcNemarP,0.2500,generated_stats.tex,1059,1,main.tex:1
+TerraVsHippoRAGCatDTies,25,generated_stats.tex,222,0,
+TerraVsHippoRAGCatDWins,24,generated_stats.tex,221,0,
+TerraVsHippoRAGCombinedLosses,27,generated_stats.tex,195,1,main.tex:1
+TerraVsHippoRAGCombinedTies,112,generated_stats.tex,194,1,main.tex:1
+TerraVsHippoRAGCombinedWins,61,generated_stats.tex,193,1,main.tex:1
+TraceActiveTracesCount,"20,000",generated_stats.tex,853,0,
+TraceActiveTracesPct,100.0\%,generated_stats.tex,854,0,
+TraceAuditSampleCount,100,generated_stats.tex,871,1,main.tex:1
+TraceChromaVersion,1.5.9,generated_stats.tex,886,1,main.tex:1
+TraceCuratedAnachronismFreePct,100.0\%,generated_stats.tex,874,0,
+TraceCuratedCensusCount,31,generated_stats.tex,872,1,main.tex:1
+TraceCuratedCount,34,generated_stats.tex,858,2,main.tex:2
+TraceCuratedFactualPct,100.0\%,generated_stats.tex,877,0,
+TraceCuratedInCorpusCount,31,generated_stats.tex,860,0,
+TraceCuratedOmittedCount,3,generated_stats.tex,861,0,
+TraceCuratedPct,0.17\%,generated_stats.tex,859,0,
+TraceEmbeddingDimensions,384,generated_stats.tex,885,2,main.tex:2
+TraceEmptyCount,0,generated_stats.tex,855,0,
+TraceMaxLengthChars,646,generated_stats.tex,865,0,
+TraceMeanLengthChars,501.6,generated_stats.tex,862,0,
+TraceMedianLengthChars,496,generated_stats.tex,863,0,
+TraceMinLengthChars,467,generated_stats.tex,864,0,
+TraceNetworkXVersion,3.6.1,generated_stats.tex,887,1,main.tex:1
+TracePathAbsLift,\ensuremath{+65.0\text{ pp}},generated_stats.tex,883,1,main.tex:1
+TracePathRelMultiplier,\ensuremath{66.0\times},generated_stats.tex,884,1,main.tex:1
+TracePopWeightedAnachronismFreePct,100.00\%,generated_stats.tex,876,1,main.tex:1
+TracePopWeightedFactualPct,100.00\%,generated_stats.tex,879,1,main.tex:1
+TraceProcAnachronismFreePct,100.0\%,generated_stats.tex,875,0,
+TraceProcFactualPct,100.0\%,generated_stats.tex,878,0,
+TraceProceduralCount,"20,000",generated_stats.tex,856,2,main.tex:2
+TraceProceduralPct,100.0\%,generated_stats.tex,857,1,main.tex:1
+TraceSpanDiscrepanciesCount,4,generated_stats.tex,869,1,main.tex:1
+TraceSpanDiscrepanciesPct,0.02\%,generated_stats.tex,870,1,main.tex:1
+TraceSpanGroundingCount,"19,996/20,000",generated_stats.tex,867,1,main.tex:1
+TraceSpanGroundingRate,99.98\%,generated_stats.tex,866,1,main.tex:1
+TraceSpanGroundingThreshold,99.90\%,generated_stats.tex,868,1,main.tex:1
+TraceStratifiedProcCount,69,generated_stats.tex,873,1,main.tex:1
+TraceTopologicalAbsLift,\ensuremath{+62.1\text{ pp}},generated_stats.tex,880,1,main.tex:1
+TraceTopologicalRelMultiplier,\ensuremath{3.32\times},generated_stats.tex,881,1,main.tex:1
+TraceTopologicalRelPctGain,\ensuremath{+231.8\%},generated_stats.tex,882,0,
+TraceTotalNodes,"20,000",generated_stats.tex,852,1,main.tex:1
+numComparativePipelines,5,generated_stats.tex,13,7,main.tex:6;tables/table_computational_budget.tex:1
+numPilotBaselineEvals,175,generated_stats.tex,23,1,main.tex:1
+numPilotEvals,700,generated_stats.tex,24,3,main.tex:3
+numPilotQueries,35,generated_stats.tex,22,3,main.tex:3
+numPilotRepeatedRuns,5,generated_stats.tex,25,3,main.tex:3
+numRepeatedRuns,5,generated_stats.tex,14,0,
+numTotalEvals,"1,750",generated_stats.tex,11,9,main.tex:9
+numTotalEvalsRaw,1750,generated_stats.tex,12,0,
+numUniqueQueries,350,generated_stats.tex,10,16,main.tex:14;tables/table_citation_eval.tex:1;tables/table_computational_budget.tex:1

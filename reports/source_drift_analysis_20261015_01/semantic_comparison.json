@@ -1,0 +1,710 @@
+{
+  "baseline_limit": "Older preserved snapshot is NOT the exact a184ae23 pre-incident baseline.",
+  "databases": {
+    "older_snapshot": {
+      "schema": [
+        [
+          "index",
+          "embedding_metadata_array_id_key",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_id_key\n    ON embedding_metadata_array (id, key)"
+        ],
+        [
+          "index",
+          "embedding_metadata_array_key_float",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_key_float\n    ON embedding_metadata_array (key, float_value) WHERE float_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_array_key_int",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_key_int\n    ON embedding_metadata_array (key, int_value) WHERE int_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_array_key_string",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_key_string\n    ON embedding_metadata_array (key, string_value) WHERE string_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_float_value",
+          "embedding_metadata",
+          "CREATE INDEX embedding_metadata_float_value ON embedding_metadata (key, float_value) WHERE float_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_int_value",
+          "embedding_metadata",
+          "CREATE INDEX embedding_metadata_int_value ON embedding_metadata (key, int_value) WHERE int_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_string_value",
+          "embedding_metadata",
+          "CREATE INDEX embedding_metadata_string_value ON embedding_metadata (key, string_value) WHERE string_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "sqlite_autoindex_collection_metadata_1",
+          "collection_metadata",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_collections_1",
+          "collections",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_collections_2",
+          "collections",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_databases_1",
+          "databases",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_databases_2",
+          "databases",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_embedding_metadata_1",
+          "embedding_metadata",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_embeddings_1",
+          "embeddings",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_maintenance_log_1",
+          "maintenance_log",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_max_seq_id_1",
+          "max_seq_id",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_migrations_1",
+          "migrations",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_segment_metadata_1",
+          "segment_metadata",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_segments_1",
+          "segments",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_tenants_1",
+          "tenants",
+          null
+        ],
+        [
+          "table",
+          "acquire_write",
+          "acquire_write",
+          "CREATE TABLE acquire_write (\n                id INTEGER PRIMARY KEY,\n                lock_status INTEGER NOT NULL\n            )"
+        ],
+        [
+          "table",
+          "collection_metadata",
+          "collection_metadata",
+          "CREATE TABLE collection_metadata (\n    collection_id TEXT REFERENCES collections(id) ON DELETE CASCADE,\n    key TEXT NOT NULL,\n    str_value TEXT,\n    int_value INTEGER,\n    float_value REAL, bool_value INTEGER,\n    PRIMARY KEY (collection_id, key)\n)"
+        ],
+        [
+          "table",
+          "collections",
+          "collections",
+          "CREATE TABLE \"collections\" (\n    id TEXT PRIMARY KEY, -- unique globally\n    name TEXT NOT NULL, -- unique per database\n    dimension INTEGER,\n    database_id TEXT NOT NULL REFERENCES databases(id) ON DELETE CASCADE, config_json_str TEXT, schema_str TEXT,\n    UNIQUE (name, database_id)\n)"
+        ],
+        [
+          "table",
+          "databases",
+          "databases",
+          "CREATE TABLE databases (\n    id TEXT PRIMARY KEY, -- unique globally\n    name TEXT NOT NULL, -- unique per tenant\n    tenant_id TEXT NOT NULL REFERENCES tenants(id) ON DELETE CASCADE,\n    UNIQUE (tenant_id, name) -- Ensure that a tenant has only one database with a given name\n)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search",
+          "embedding_fulltext_search",
+          "CREATE VIRTUAL TABLE embedding_fulltext_search USING fts5(string_value, tokenize='trigram')"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_config",
+          "embedding_fulltext_search_config",
+          "CREATE TABLE 'embedding_fulltext_search_config'(k PRIMARY KEY, v) WITHOUT ROWID"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_content",
+          "embedding_fulltext_search_content",
+          "CREATE TABLE 'embedding_fulltext_search_content'(id INTEGER PRIMARY KEY, c0)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_data",
+          "embedding_fulltext_search_data",
+          "CREATE TABLE 'embedding_fulltext_search_data'(id INTEGER PRIMARY KEY, block BLOB)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_docsize",
+          "embedding_fulltext_search_docsize",
+          "CREATE TABLE 'embedding_fulltext_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_idx",
+          "embedding_fulltext_search_idx",
+          "CREATE TABLE 'embedding_fulltext_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID"
+        ],
+        [
+          "table",
+          "embedding_metadata",
+          "embedding_metadata",
+          "CREATE TABLE embedding_metadata (\n    id INTEGER REFERENCES embeddings(id),\n    key TEXT NOT NULL,\n    string_value TEXT,\n    int_value INTEGER,\n    float_value REAL, bool_value INTEGER,\n    PRIMARY KEY (id, key)\n)"
+        ],
+        [
+          "table",
+          "embedding_metadata_array",
+          "embedding_metadata_array",
+          "CREATE TABLE embedding_metadata_array (\n    id INTEGER NOT NULL REFERENCES embeddings(id),\n    key TEXT NOT NULL,\n    string_value TEXT,\n    int_value INTEGER,\n    float_value REAL,\n    bool_value INTEGER\n)"
+        ],
+        [
+          "table",
+          "embeddings",
+          "embeddings",
+          "CREATE TABLE embeddings (\n    id INTEGER PRIMARY KEY,\n    segment_id TEXT NOT NULL,\n    embedding_id TEXT NOT NULL,\n    seq_id BLOB NOT NULL,\n    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n    UNIQUE (segment_id, embedding_id)\n)"
+        ],
+        [
+          "table",
+          "embeddings_queue",
+          "embeddings_queue",
+          "CREATE TABLE embeddings_queue (\n    seq_id INTEGER PRIMARY KEY,\n    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n    operation INTEGER NOT NULL,\n    topic TEXT NOT NULL,\n    id TEXT NOT NULL,\n    vector BLOB,\n    encoding TEXT,\n    metadata TEXT\n)"
+        ],
+        [
+          "table",
+          "embeddings_queue_config",
+          "embeddings_queue_config",
+          "CREATE TABLE embeddings_queue_config (\n    id INTEGER PRIMARY KEY,\n    config_json_str TEXT\n)"
+        ],
+        [
+          "table",
+          "maintenance_log",
+          "maintenance_log",
+          "CREATE TABLE maintenance_log (\n  id INT PRIMARY KEY,\n  timestamp INT NOT NULL,\n  operation TEXT NOT NULL\n)"
+        ],
+        [
+          "table",
+          "max_seq_id",
+          "max_seq_id",
+          "CREATE TABLE max_seq_id (\n    segment_id TEXT PRIMARY KEY,\n    seq_id INTEGER)"
+        ],
+        [
+          "table",
+          "migrations",
+          "migrations",
+          "CREATE TABLE migrations (\n                dir TEXT NOT NULL,\n                version INTEGER NOT NULL,\n                filename TEXT NOT NULL,\n                sql TEXT NOT NULL,\n                hash TEXT NOT NULL,\n                PRIMARY KEY (dir, version)\n            )"
+        ],
+        [
+          "table",
+          "segment_metadata",
+          "segment_metadata",
+          "CREATE TABLE segment_metadata (\n    segment_id TEXT  REFERENCES segments(id) ON DELETE CASCADE,\n    key TEXT NOT NULL,\n    str_value TEXT,\n    int_value INTEGER,\n    float_value REAL, bool_value INTEGER,\n    PRIMARY KEY (segment_id, key)\n)"
+        ],
+        [
+          "table",
+          "segments",
+          "segments",
+          "CREATE TABLE \"segments\" (\n    id TEXT PRIMARY KEY,\n    type TEXT NOT NULL,\n    scope TEXT NOT NULL,\n    collection TEXT REFERENCES collection(id) NOT NULL\n)"
+        ],
+        [
+          "table",
+          "tenants",
+          "tenants",
+          "CREATE TABLE tenants (\n    id TEXT PRIMARY KEY,\n    UNIQUE (id)\n)"
+        ]
+      ],
+      "tables": {
+        "acquire_write": {
+          "rows": 349,
+          "content_multiset_sha256": "960cfee319f70decbfae95108023931c18dd7fa8982ffa88925f12f7856e9d1c"
+        },
+        "collection_metadata": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "collections": {
+          "rows": 1,
+          "content_multiset_sha256": "7280d351af023e7272eb0435bd5c57243fef351a3b23621fd537687afb2ec7a9"
+        },
+        "databases": {
+          "rows": 1,
+          "content_multiset_sha256": "ef0f1c8defb90c37fca4ffccdf5c9833de0034f883dc19b827c9e32d8eb46904"
+        },
+        "embedding_fulltext_search": {
+          "rows": 20000,
+          "content_multiset_sha256": "a8aea552eb42072f2ae380a6c59c002e861859299a4a742b705ebb062e7fa429"
+        },
+        "embedding_fulltext_search_config": {
+          "rows": 1,
+          "content_multiset_sha256": "300c80a0261120ea097372af8371d15ea35efab886367d002f6ac9f2e362b6c9"
+        },
+        "embedding_fulltext_search_content": {
+          "rows": 20000,
+          "content_multiset_sha256": "6360f210bf35ff76a6d774fdb4cb73e7e436bcea2679c71fdbc888ed9fdffa5a"
+        },
+        "embedding_fulltext_search_data": {
+          "rows": 42966,
+          "content_multiset_sha256": "dd972955bababf94fa137768f13973694eee8e52bcf88cc3c136426489bd3759"
+        },
+        "embedding_fulltext_search_docsize": {
+          "rows": 20000,
+          "content_multiset_sha256": "b89504a442de5dc3cb2ee9dae3b5f6c6ff7512a15e24f32b898d7dfcf2443453"
+        },
+        "embedding_fulltext_search_idx": {
+          "rows": 13480,
+          "content_multiset_sha256": "53aa27a175dcab3cca9b16040c283e87935716b5f170a4fb47c15ba3e15e5064"
+        },
+        "embedding_metadata": {
+          "rows": 160000,
+          "content_multiset_sha256": "eaf68e50158363675be6c5465f44e6f9963c0db4cbd7af0a9a7e51999e900ffc"
+        },
+        "embedding_metadata_array": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "embeddings": {
+          "rows": 20000,
+          "content_multiset_sha256": "123e9ae0ba5bd77e3fddd46687bd274be147fb862d024d8ec144cc9f613cb4bd"
+        },
+        "embeddings_queue": {
+          "rows": 1,
+          "content_multiset_sha256": "711a0d6e587cab4563590258458f083a7028400282cf4d9b2444ca5258045dfc"
+        },
+        "embeddings_queue_config": {
+          "rows": 1,
+          "content_multiset_sha256": "92c9725c43b0695a86d6c0f9bc0d1f7ec3d44342292663896d550c863d370f68"
+        },
+        "maintenance_log": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "max_seq_id": {
+          "rows": 2,
+          "content_multiset_sha256": "aa8ff1dc4bc8299b62aa7c4ea3becc7b73c834c084cc0fc46ea363e0517e8e68"
+        },
+        "migrations": {
+          "rows": 18,
+          "content_multiset_sha256": "15352a10ecf529a3b07ee0c97e6716cadbaa62612cc3b73a0a8a358e8baf8510"
+        },
+        "segment_metadata": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "segments": {
+          "rows": 2,
+          "content_multiset_sha256": "b77e9b96bf6de08b3bf5d0e9cb41cba18693fbc6718122e40180db64179b7cb7"
+        },
+        "tenants": {
+          "rows": 1,
+          "content_multiset_sha256": "e067ea429c9a4b3fa14c155c1eb2ac1db6ad9dd98ec184a78b9ffdc06fa703e6"
+        }
+      },
+      "quick_check": [
+        [
+          "ok"
+        ]
+      ]
+    },
+    "current_copy": {
+      "schema": [
+        [
+          "index",
+          "embedding_metadata_array_id_key",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_id_key\n    ON embedding_metadata_array (id, key)"
+        ],
+        [
+          "index",
+          "embedding_metadata_array_key_float",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_key_float\n    ON embedding_metadata_array (key, float_value) WHERE float_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_array_key_int",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_key_int\n    ON embedding_metadata_array (key, int_value) WHERE int_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_array_key_string",
+          "embedding_metadata_array",
+          "CREATE INDEX embedding_metadata_array_key_string\n    ON embedding_metadata_array (key, string_value) WHERE string_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_float_value",
+          "embedding_metadata",
+          "CREATE INDEX embedding_metadata_float_value ON embedding_metadata (key, float_value) WHERE float_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_int_value",
+          "embedding_metadata",
+          "CREATE INDEX embedding_metadata_int_value ON embedding_metadata (key, int_value) WHERE int_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "embedding_metadata_string_value",
+          "embedding_metadata",
+          "CREATE INDEX embedding_metadata_string_value ON embedding_metadata (key, string_value) WHERE string_value IS NOT NULL"
+        ],
+        [
+          "index",
+          "sqlite_autoindex_collection_metadata_1",
+          "collection_metadata",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_collections_1",
+          "collections",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_collections_2",
+          "collections",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_databases_1",
+          "databases",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_databases_2",
+          "databases",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_embedding_metadata_1",
+          "embedding_metadata",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_embeddings_1",
+          "embeddings",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_maintenance_log_1",
+          "maintenance_log",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_max_seq_id_1",
+          "max_seq_id",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_migrations_1",
+          "migrations",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_segment_metadata_1",
+          "segment_metadata",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_segments_1",
+          "segments",
+          null
+        ],
+        [
+          "index",
+          "sqlite_autoindex_tenants_1",
+          "tenants",
+          null
+        ],
+        [
+          "table",
+          "acquire_write",
+          "acquire_write",
+          "CREATE TABLE acquire_write (\n                id INTEGER PRIMARY KEY,\n                lock_status INTEGER NOT NULL\n            )"
+        ],
+        [
+          "table",
+          "collection_metadata",
+          "collection_metadata",
+          "CREATE TABLE collection_metadata (\n    collection_id TEXT REFERENCES collections(id) ON DELETE CASCADE,\n    key TEXT NOT NULL,\n    str_value TEXT,\n    int_value INTEGER,\n    float_value REAL, bool_value INTEGER,\n    PRIMARY KEY (collection_id, key)\n)"
+        ],
+        [
+          "table",
+          "collections",
+          "collections",
+          "CREATE TABLE \"collections\" (\n    id TEXT PRIMARY KEY, -- unique globally\n    name TEXT NOT NULL, -- unique per database\n    dimension INTEGER,\n    database_id TEXT NOT NULL REFERENCES databases(id) ON DELETE CASCADE, config_json_str TEXT, schema_str TEXT,\n    UNIQUE (name, database_id)\n)"
+        ],
+        [
+          "table",
+          "databases",
+          "databases",
+          "CREATE TABLE databases (\n    id TEXT PRIMARY KEY, -- unique globally\n    name TEXT NOT NULL, -- unique per tenant\n    tenant_id TEXT NOT NULL REFERENCES tenants(id) ON DELETE CASCADE,\n    UNIQUE (tenant_id, name) -- Ensure that a tenant has only one database with a given name\n)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search",
+          "embedding_fulltext_search",
+          "CREATE VIRTUAL TABLE embedding_fulltext_search USING fts5(string_value, tokenize='trigram')"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_config",
+          "embedding_fulltext_search_config",
+          "CREATE TABLE 'embedding_fulltext_search_config'(k PRIMARY KEY, v) WITHOUT ROWID"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_content",
+          "embedding_fulltext_search_content",
+          "CREATE TABLE 'embedding_fulltext_search_content'(id INTEGER PRIMARY KEY, c0)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_data",
+          "embedding_fulltext_search_data",
+          "CREATE TABLE 'embedding_fulltext_search_data'(id INTEGER PRIMARY KEY, block BLOB)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_docsize",
+          "embedding_fulltext_search_docsize",
+          "CREATE TABLE 'embedding_fulltext_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)"
+        ],
+        [
+          "table",
+          "embedding_fulltext_search_idx",
+          "embedding_fulltext_search_idx",
+          "CREATE TABLE 'embedding_fulltext_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID"
+        ],
+        [
+          "table",
+          "embedding_metadata",
+          "embedding_metadata",
+          "CREATE TABLE embedding_metadata (\n    id INTEGER REFERENCES embeddings(id),\n    key TEXT NOT NULL,\n    string_value TEXT,\n    int_value INTEGER,\n    float_value REAL, bool_value INTEGER,\n    PRIMARY KEY (id, key)\n)"
+        ],
+        [
+          "table",
+          "embedding_metadata_array",
+          "embedding_metadata_array",
+          "CREATE TABLE embedding_metadata_array (\n    id INTEGER NOT NULL REFERENCES embeddings(id),\n    key TEXT NOT NULL,\n    string_value TEXT,\n    int_value INTEGER,\n    float_value REAL,\n    bool_value INTEGER\n)"
+        ],
+        [
+          "table",
+          "embeddings",
+          "embeddings",
+          "CREATE TABLE embeddings (\n    id INTEGER PRIMARY KEY,\n    segment_id TEXT NOT NULL,\n    embedding_id TEXT NOT NULL,\n    seq_id BLOB NOT NULL,\n    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n    UNIQUE (segment_id, embedding_id)\n)"
+        ],
+        [
+          "table",
+          "embeddings_queue",
+          "embeddings_queue",
+          "CREATE TABLE embeddings_queue (\n    seq_id INTEGER PRIMARY KEY,\n    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n    operation INTEGER NOT NULL,\n    topic TEXT NOT NULL,\n    id TEXT NOT NULL,\n    vector BLOB,\n    encoding TEXT,\n    metadata TEXT\n)"
+        ],
+        [
+          "table",
+          "embeddings_queue_config",
+          "embeddings_queue_config",
+          "CREATE TABLE embeddings_queue_config (\n    id INTEGER PRIMARY KEY,\n    config_json_str TEXT\n)"
+        ],
+        [
+          "table",
+          "maintenance_log",
+          "maintenance_log",
+          "CREATE TABLE maintenance_log (\n  id INT PRIMARY KEY,\n  timestamp INT NOT NULL,\n  operation TEXT NOT NULL\n)"
+        ],
+        [
+          "table",
+          "max_seq_id",
+          "max_seq_id",
+          "CREATE TABLE max_seq_id (\n    segment_id TEXT PRIMARY KEY,\n    seq_id INTEGER)"
+        ],
+        [
+          "table",
+          "migrations",
+          "migrations",
+          "CREATE TABLE migrations (\n                dir TEXT NOT NULL,\n                version INTEGER NOT NULL,\n                filename TEXT NOT NULL,\n                sql TEXT NOT NULL,\n                hash TEXT NOT NULL,\n                PRIMARY KEY (dir, version)\n            )"
+        ],
+        [
+          "table",
+          "segment_metadata",
+          "segment_metadata",
+          "CREATE TABLE segment_metadata (\n    segment_id TEXT  REFERENCES segments(id) ON DELETE CASCADE,\n    key TEXT NOT NULL,\n    str_value TEXT,\n    int_value INTEGER,\n    float_value REAL, bool_value INTEGER,\n    PRIMARY KEY (segment_id, key)\n)"
+        ],
+        [
+          "table",
+          "segments",
+          "segments",
+          "CREATE TABLE \"segments\" (\n    id TEXT PRIMARY KEY,\n    type TEXT NOT NULL,\n    scope TEXT NOT NULL,\n    collection TEXT REFERENCES collection(id) NOT NULL\n)"
+        ],
+        [
+          "table",
+          "tenants",
+          "tenants",
+          "CREATE TABLE tenants (\n    id TEXT PRIMARY KEY,\n    UNIQUE (id)\n)"
+        ]
+      ],
+      "tables": {
+        "acquire_write": {
+          "rows": 353,
+          "content_multiset_sha256": "0bc6f3a71b788ad77fe0e8f74631c67c5c410c74690ac0236cdfbb9f0351e688"
+        },
+        "collection_metadata": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "collections": {
+          "rows": 1,
+          "content_multiset_sha256": "7280d351af023e7272eb0435bd5c57243fef351a3b23621fd537687afb2ec7a9"
+        },
+        "databases": {
+          "rows": 1,
+          "content_multiset_sha256": "ef0f1c8defb90c37fca4ffccdf5c9833de0034f883dc19b827c9e32d8eb46904"
+        },
+        "embedding_fulltext_search": {
+          "rows": 20000,
+          "content_multiset_sha256": "a8aea552eb42072f2ae380a6c59c002e861859299a4a742b705ebb062e7fa429"
+        },
+        "embedding_fulltext_search_config": {
+          "rows": 1,
+          "content_multiset_sha256": "300c80a0261120ea097372af8371d15ea35efab886367d002f6ac9f2e362b6c9"
+        },
+        "embedding_fulltext_search_content": {
+          "rows": 20000,
+          "content_multiset_sha256": "6360f210bf35ff76a6d774fdb4cb73e7e436bcea2679c71fdbc888ed9fdffa5a"
+        },
+        "embedding_fulltext_search_data": {
+          "rows": 42966,
+          "content_multiset_sha256": "dd972955bababf94fa137768f13973694eee8e52bcf88cc3c136426489bd3759"
+        },
+        "embedding_fulltext_search_docsize": {
+          "rows": 20000,
+          "content_multiset_sha256": "b89504a442de5dc3cb2ee9dae3b5f6c6ff7512a15e24f32b898d7dfcf2443453"
+        },
+        "embedding_fulltext_search_idx": {
+          "rows": 13480,
+          "content_multiset_sha256": "53aa27a175dcab3cca9b16040c283e87935716b5f170a4fb47c15ba3e15e5064"
+        },
+        "embedding_metadata": {
+          "rows": 160000,
+          "content_multiset_sha256": "eaf68e50158363675be6c5465f44e6f9963c0db4cbd7af0a9a7e51999e900ffc"
+        },
+        "embedding_metadata_array": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "embeddings": {
+          "rows": 20000,
+          "content_multiset_sha256": "123e9ae0ba5bd77e3fddd46687bd274be147fb862d024d8ec144cc9f613cb4bd"
+        },
+        "embeddings_queue": {
+          "rows": 1,
+          "content_multiset_sha256": "711a0d6e587cab4563590258458f083a7028400282cf4d9b2444ca5258045dfc"
+        },
+        "embeddings_queue_config": {
+          "rows": 1,
+          "content_multiset_sha256": "92c9725c43b0695a86d6c0f9bc0d1f7ec3d44342292663896d550c863d370f68"
+        },
+        "maintenance_log": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "max_seq_id": {
+          "rows": 2,
+          "content_multiset_sha256": "aa8ff1dc4bc8299b62aa7c4ea3becc7b73c834c084cc0fc46ea363e0517e8e68"
+        },
+        "migrations": {
+          "rows": 18,
+          "content_multiset_sha256": "15352a10ecf529a3b07ee0c97e6716cadbaa62612cc3b73a0a8a358e8baf8510"
+        },
+        "segment_metadata": {
+          "rows": 0,
+          "content_multiset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "segments": {
+          "rows": 2,
+          "content_multiset_sha256": "b77e9b96bf6de08b3bf5d0e9cb41cba18693fbc6718122e40180db64179b7cb7"
+        },
+        "tenants": {
+          "rows": 1,
+          "content_multiset_sha256": "e067ea429c9a4b3fa14c155c1eb2ac1db6ad9dd98ec184a78b9ffdc06fa703e6"
+        }
+      },
+      "quick_check": [
+        [
+          "ok"
+        ]
+      ]
+    }
+  },
+  "schema_equal": true,
+  "changed_tables": {
+    "acquire_write": {
+      "older": {
+        "rows": 349,
+        "content_multiset_sha256": "960cfee319f70decbfae95108023931c18dd7fa8982ffa88925f12f7856e9d1c"
+      },
+      "current": {
+        "rows": 353,
+        "content_multiset_sha256": "0bc6f3a71b788ad77fe0e8f74631c67c5c410c74690ac0236cdfbb9f0351e688"
+      }
+    }
+  },
+  "header_changed_offsets": [
+    27,
+    95
+  ],
+  "page_size": 4096,
+  "changed_page_count": 2,
+  "changed_pages": [
+    1,
+    4
+  ]
+}

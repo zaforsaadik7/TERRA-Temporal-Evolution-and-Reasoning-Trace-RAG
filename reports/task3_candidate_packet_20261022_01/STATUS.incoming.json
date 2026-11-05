@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "created_local_date": "2026-10-08",
+  "created_utc": "2026-10-07T20:13:56Z",
+  "workspace": "F:\\TERRA -Copy",
+  "implementation_lead": "Codex",
+  "context_peer": "Antigravity",
+  "channel": "user-relayed file/messages",
+  "direct_channel_established": false,
+  "automatic_wake_or_monitor_installed": false,
+  "antigravity_acknowledgment_received": true,
+  "antigravity_latest_artifacts_verified": true,
+  "state": "TASK3_RUNTIME_IMAGE_POLICY_CODE_REVISED_PEER_REVIEW_PASS",
+  "current_turn_scope": "Peer-reviewed Codex-0225 Task 2 production integration checkpoint (scripts/matched_baseline/offline_smoke_production.py, scripts/matched_baseline/offline_smoke_entry_anchor.py, scripts/matched_baseline/offline_smoke_child_entry.py, scripts/matched_baseline/offline_smoke_parent.py, scripts/matched_baseline/offline_smoke_runner.py, scripts/matched_baseline/offline_smoke_dispatch.py, scripts/matched_baseline/offline_smoke_lifecycle.py, scripts/matched_baseline/offline_smoke_evidence.py, tests/test_offline_smoke_runner_synthetic.py, and reports/codex_task2_integration_20261015_01/manifest.json). Concurred with root-of-trust entry anchor (offline_smoke_entry_anchor.py) outside packet hash closure; decode_packet() strictly validating schema, 20,000 document / seed_k=2 policy, fixed child entry vector, and clean runtime environment; verify_packet_inputs() binding FrozenFilePinVerifier and verify_approval_bytes(); parent-to-child context transport writing child_context.json and passing SHA-256 via TERRA_SMOKE_CONTEXT_SHA256 (rejecting caller inheritance); top-level entry holding via ENTRY_ADMITTED=False with scoped _components() flag restoration; distinct controller/child interpreter policy; prelaunch setup failure postchecks with confirmed no-launch typing; and authentic mode (AUTHENTIC_OFFLINE_FEASIBILITY) and terminal status (OFFLINE_FEASIBILITY_SUCCESS) propagation requiring verified captured output. Verified byte-exact checkpoint copies. All 304 focused synthetic tests passed across 20 named suites in 7.417s, and all 473 tests passed across 24 approved named synthetic modules (471 passed, 2 skipped, 0 failures, 0 errors in 10.396s) without wildcard discovery. Confirmed negative invariants: reports/master_launch_ledger_20261015_v2 does not exist, Gate C remains sealed, authentic loader/CLI remains held, zero real Win32/kernel execution, zero authentic dependencies or store access, zero firewall edits, and zero API calls.",
+  "user_designation": "Codex will perform subsequent work; Antigravity supplies context via the user",
+  "promotion_authorized_by_this_setup": false,
+  "new_experiments_or_data_changes_authorized_by_this_setup": false,
+  "advisor_main_page_ceiling": 25,
+  "target_journal_verified": false,
+  "latest_codex_message": "codex_to_antigravity/20261022-codex-0228-runtime-image-owned-controller-revision.md",
+  "latest_codex_scope": "22 October 2026: user-approved code-only runtime-image and verified-owned-controller policy implemented; separate reviewed firewall image, direct-parent/image/start-time attestation, other known matching PID rejection, and child actual-image check before authentic dependency loading. 491 synthetic tests run, 489 passed, two skipped. PowerShell source parsing only; no native adapter execution. Awaiting peer review and later full inventory/packet freeze; all live admission holds remain. Antigravity-0194 reviews the earlier protocol repair, not this revision.",
+  "latest_antigravity_message": "antigravity_to_codex/20261022-antigravity-0195-runtime-image-owned-controller-peer-review.md",
+  "codex_audited_artifacts": [
+    {"role": "main_source", "path": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex", "sha256": "56b79e1f903ebed99ee13c831cd6146dd7b3922ad259eb46f76177420b0412f2"},
+    {"role": "main_pdf", "path": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/main_repairs_A/build/main.pdf", "pages": 24, "sha256": "900bb124e9a1a0a8f21b42f3b15ed6fd22440849e7f3327d0810fa73467ffbeb"},
+    {"role": "supplement_pdf", "path": "TERRA_EDITORIAL_RESTART_V2/working/TERRA_supplementary_removed_material.pdf", "pages": 6, "sha256": "9dcb2d41acf53fc7eb77f0ba57b89dfb62798cc80599458a3a621a14a4937e89"}
+  ],
+  "findings": [
+    {"id": "F01", "topic": "architecture figure / observed EASY path", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present; figure_1_system_architecture.tex lines 170-173 still state No RAG bypass; needs Grounded Fast Path label"},
+    {"id": "F02", "topic": "supplement sources and unresolved references", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present; historical supplement has synthetic anchors and duplicate labels; extract clean tables I-X and 18 limitations to build working/src/TERRA_SUPPLEMENT.tex"},
+    {"id": "F03", "topic": "stale moved-table descriptions/counts", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present in removed-material PDF; Table II/V/VI notes require sync with main disclosures"},
+    {"id": "F04", "topic": "unverified temporal-probe evidence", "status": "PARTIALLY_REPAIRED_NEEDS_NARROWING", "antigravity_disposition": "Codex's TGS QWK 0.3702 confirmed on final 315-pair dataset (0.3672 was an earlier 307-pair snapshot from scratch summary); narrow claims to pre-specified protocol and exploratory diagnostic"},
+    {"id": "F05", "topic": "missing handoffs/approvals/completeness maps", "status": "EVIDENCE_EXPLAINED", "antigravity_disposition": "Batches 15-28 applied cumulatively under user delegation; 13 milestone PDFs preserved in working/; no separate diff folders created"},
+    {"id": "F06", "topic": "table readability", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present; Tables V, XI, XII downscaled to 3.4-4.4 pt via resizebox; redesign to 7-8 pt without downscaling and check real pagination"}
+  ],
+  "warning": "This index identifies observations and communication state, not current scientific truth, user approval, or an unseen Antigravity package."
+}

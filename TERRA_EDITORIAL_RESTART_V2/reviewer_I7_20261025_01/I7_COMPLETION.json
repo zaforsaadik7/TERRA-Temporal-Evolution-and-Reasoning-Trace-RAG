@@ -1,0 +1,42 @@
+{
+  "status": "DONE",
+  "I7_complete": true,
+  "local_batches_completed": [
+    "I7.0",
+    "I7.1",
+    "I7.2",
+    "I7.3",
+    "I7.4",
+    "I7.5",
+    "I7.6",
+    "I7.7"
+  ],
+  "I7.7": "Antigravity-0303 PASS reconciled; exact 11-file adoption, fresh build and all43-page pixel/text/link parity PASS",
+  "findings_are_linked_edits_not_independent_bugs": 98,
+  "changed_candidate_files": [
+    "main.tex",
+    "supplement_limitations.tex",
+    "supplement_tables/table_baseline_specifications.tex",
+    "supplement_tables/table_run_provenance.tex",
+    "supplement_tables/table_sensitivity_raw_vs_clamped.tex",
+    "supplement_tables/table_system_comparison.tex",
+    "tables/table_casefacts_eval.tex",
+    "tables/table_citation_eval.tex",
+    "tables/table_clerc_eval.tex",
+    "tables/table_computational_budget.tex",
+    "TERRA_SUPPLEMENT.tex"
+  ],
+  "main_pages": 25,
+  "supplement_pages": 18,
+  "all43pages_reviewed": true,
+  "source_claim_records": 281,
+  "effective_used_macro_records": 1380,
+  "real_labels": 79,
+  "working_sources_unchanged": false,
+  "api_model_calls": 0,
+  "canonical_promotion": false,
+  "working_sources_adopted": true,
+  "remaining_in_scope": [],
+  "adoption_result": "adoption_20261025_01/ADOPTION_RESULT.json",
+  "final_dispositions": "adoption_20261025_01/FINAL_DISPOSITIONS.json"
+}

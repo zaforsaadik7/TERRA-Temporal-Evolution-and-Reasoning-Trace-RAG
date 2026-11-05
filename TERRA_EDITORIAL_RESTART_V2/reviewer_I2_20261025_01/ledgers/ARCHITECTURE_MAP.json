@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "M01",
+      "finding": "EASY anchor retrieval/no graph expansion already described",
+      "disposition": "RETAIN_NO_REDUNDANT_EDIT",
+      "evidence": "ask_terra.py:747-800; figure fastPath and main caption"
+    },
+    {
+      "id": "M02",
+      "finding": "Main says two expansions; current source has two total attempts, initial plus one fallback",
+      "disposition": "PATCH_MINIMAL_WITH_CURRENT_SOURCE_AND_HISTORICAL_LOGGING_CAVEAT",
+      "evidence": "ask_terra.py:925-1035"
+    },
+    {
+      "id": "M03",
+      "finding": "Diagram retry returns to BFS but changed seed count first re-queries vector store; EASY shares grader but has no HARD retry",
+      "disposition": "PATCH_ARROW_AND_LABEL_QUALIFY_HARD_ONLY",
+      "evidence": "ask_terra.py:757,929-937,1035"
+    },
+    {
+      "id": "M04",
+      "finding": "50high-degree trigger and75/25budgets already reconciled in active main",
+      "disposition": "RETAIN_EXISTING_CORRECT_DISCLOSURE",
+      "evidence": "ask_terra.py:518-520,575-582; main Hyperparameter Freezing paragraph"
+    },
+    {
+      "id": "M05",
+      "finding": "Provenance table uses heterogeneous N units, notes already distinguish pilot/external populations",
+      "disposition": "CLARIFY_HEADER_AND_ADD_STRUCTURED_SENSITIVITY_DIAGNOSTIC_REFERENCES",
+      "evidence": "supplement_tables/table_run_provenance.tex"
+    },
+    {
+      "id": "M06",
+      "finding": "Squared-L2 metric/title-match/current-vs-historical calibration already qualified",
+      "disposition": "RETAIN_NO_NEW_METRIC_OR_RUNTIME_SAFETY_CLAIM",
+      "evidence": "main Tier2 paragraph"
+    },
+    {
+      "id": "M07",
+      "finding": "Generic scaffold and model logging paths already qualified; preserve caveats",
+      "disposition": "RETAIN_WITH_CONCISE_LOGGING_NOTE_IF_NEEDED",
+      "evidence": "TERRA_EDITORIAL_RESTART_V2/experiment_provenance_20261012_01/EVIDENCE_RESPONSE_REVIEW_01.md"
+    },
+    {
+      "id": "M08",
+      "finding": "Diagram says verified citation links despite known imperfect attribution",
+      "disposition": "CHANGE_TO_INDEXED_CITATION_LINKS_WITHOUT_ASSERTING_CORRECTNESS",
+      "evidence": "main XAI paragraph reports imperfect link fidelity"
+    }
+  ],
+  "recovered_root_AST_equal": true
+}

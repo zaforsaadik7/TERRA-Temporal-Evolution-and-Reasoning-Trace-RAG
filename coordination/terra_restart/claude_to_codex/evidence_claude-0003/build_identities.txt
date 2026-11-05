@@ -1,0 +1,40 @@
+== build
+6cdfa791fddb0d56dc65dae6908c5a84654f626f713ea0f990c5a258afdedbd5  build/main.pdf
+Producer:        pdfTeX-1.40.25
+Pages:           37
+CMBX10 CMBX6 CMBX8 CMEX10 CMMI10 CMMI5 CMMI6 CMMI7 CMMI8 CMMI9 CMR10 CMR5 CMR6 CMR7 CMR8 CMR9 CMSY10 CMSY5 CMSY6 CMSY7 CMSY8 CMSY9 NimbusMonL-Bold NimbusMonL-Regu NimbusRomNo9L-Medi NimbusRomNo9L-MediItal NimbusRomNo9L-Regu NimbusRomNo9L-ReguItal 
+== xe
+8b6de9cf77000290bccac5828a09a295080515b43c50f088b526a3210a08dddb  xe/main.pdf
+Producer:        xdvipdfmx (20220710)
+Pages:           39
+CMBX10 CMBX6 CMBX8 CMEX10 CMMI10 CMMI5 CMMI6 CMMI7 CMMI8 CMMI9 CMR10 CMR5 CMR6 CMR7 CMR8 CMR9 CMSY10 CMSY5 CMSY6 CMSY7 CMSY8 CMSY9 LMRoman10-Regular-Identity-H LMRoman12-Regular-Identity-H LMRoman17-Regular-Identity-H LMRoman5-Regular-Identity-H LMRoman6-Regular-Identity-H LMRoman7-Regular-Identity-H LMRoman8-Regular-Identity-H LMRoman9-Regular-Identity-H 
+== v_all
+1d0397bfc27ce565682e82c73d0d7cc9740fbf4d03a47b77d67fa29b6ab00f84  v_all/main.pdf
+Producer:        pdfTeX-1.40.25
+Pages:           37
+CMBX10 CMBX6 CMBX8 CMEX10 CMMI10 CMMI5 CMMI6 CMMI7 CMMI8 CMMI9 CMR10 CMR5 CMR6 CMR7 CMR8 CMR9 CMSY10 CMSY5 CMSY6 CMSY7 CMSY8 CMSY9 NimbusMonL-Bold NimbusMonL-Regu NimbusRomNo9L-Medi NimbusRomNo9L-MediItal NimbusRomNo9L-Regu NimbusRomNo9L-ReguItal 
+== archive
+757ad2ec03a205649cc97ee2bd06e30c06f41bc47dd857ced3019f3a8b7a38f3  /mnt/user-data/uploads/TERRA -Copy/CANONICAL_ARCHIVE/main.pdf
+== input closure hash (sha256 of sha256sum list: main.tex generated_*.tex ref.bib figure_*.tex tables/*.tex)
+31db54c4b2771d34e1b3b59168fcdebea9b3b5e8198f9268f21298a61fc3fec4  main.tex
+e4e369b7b7c3e55c4c541fc552f175018ea656c67193ebcf1dfb183a93756b73  generated_stats.tex
+a836b442a9238e898c2b8a60b57c30b5e09f9819af190a3df650a21f29ea6d05  generated_obscure_stats.tex
+b5cbef2c66d3370917966f874ba0e75ba4b42be8a4f79342642d89b58bfc284e  generated_corpus_stats_20k.tex
+cbde319532889d5490c1d2ab4e6d2f5477dde1424d192642af62d114e6356a8a  ref.bib
+55b1f1201479c18f4ac85eeb1138c8d6c037434b398ab0a510ce3c6dc6eb05af  figure_1_system_architecture.tex
+abc16501db8de6e1272fe92c559f06131244fb27eb78bd2340adfeb72a75c10d  figure_2_hub_centrality.tex
+8dc435e7a77d242adb8b3890c67b807460584a7e934355ffd198b7a74694b2bb  figure_3_safety_rejection.tex
+d38845e0a752f0010f3ab34bb634ed1ecc6706f9fb59d11e9b62213ce516bdbf  tables/table_baseline_specifications.tex
+49cb53591a643b3feeac377c67a8f690d3af3f92e77543b8f6db80c3634ea10f  tables/table_casefacts_eval.tex
+73c50145835e42934f9456e42da4972d8c5b81d702f0e3ebc9c2f26cd4ed757b  tables/table_citation_eval.tex
+7a53168d37252e57e699fda039d5589656d2c361e1d76ae8b3d4e985c775383c  tables/table_clerc_eval.tex
+4960a2eb32696d87eb545da522d3da507d0c32e63bac6e84675846d6779c6b3a  tables/table_computational_budget.tex
+cc253da52cd27a227262b0f4c6ee1433f690a0a8ff6483106b8926d8c12dbc2e  tables/table_full_fdr_family.tex
+ae24ad04736a0809bce233093ef42db25aab83fe6101f5b00357e886e68d4af6  tables/table_obscure_overruled_eval.tex
+b9bbc21b69783eb07eba798dde100b7098592c081f3b6a4faf3d59441c80bdcb  tables/table_refusal_breakdown.tex
+9155c312cba317b057120475e87c67e4c5e16fb22e9692a2ce2a48356eb9192f  tables/table_retrieval_eval.tex
+87a7da4940e8d3f6a7a69c532ffd60e1e9864d634a3ae6c5d604224633be84d2  tables/table_router_eval.tex
+2e293d66c90b4c7266a5cf3a8326bdd406c846474cd07b0222bf967e3636b747  tables/table_sensitivity_raw_vs_clamped.tex
+9914443964964a944466f0fd7d013c814c1ea7614b55dc75993be7ad7bc07438  tables/table_system_comparison.tex
+a0d8b8e31c46a2008239bffaaa1f9a5dc94fbc2ca9ac3ecb3f7b80816df612f5  tables/table_temporal_leakage_probe.tex
+5a07453341c018adae23a2cc126ae7babc16a5b500c9afca77c6b68eeb894b89  tables/table_temporal_update_stability.tex

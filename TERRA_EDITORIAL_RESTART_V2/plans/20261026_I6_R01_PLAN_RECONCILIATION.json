@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-26",
+  "original_plan_sha256": "3c2c8ef76fe1980a6e5d02d29a66f1f795cb2fc91b0462b98fa69e67f72d7722",
+  "revised_plan_sha256": "842c77d22168e2ac99ef4dca096e3e3a0804076059f14dfa832eb67fbee74f9d",
+  "active_I2_supplement_pages": 19,
+  "supplement_pdf_sha256": "0784041b9c264958715b52905fa1be2256f8c305d725135c430e4d03c64b239e",
+  "verifier_input_spot_checks": [
+    {
+      "call": "B001:T:verifier",
+      "byte_offset": 15324379,
+      "kind": "HTTP_REQUEST",
+      "source": "reports/matched_study_r03_20261025_01/attempt/results/events.jsonl",
+      "request_sha256": "f255211570579dd86a77f4540c3279fd9301a0b74686618bb5e16094de3799b4",
+      "raw_body_keys": [
+        "max_tokens",
+        "messages",
+        "response_format",
+        "stream",
+        "temperature"
+      ],
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "exact_body_validated": true
+    },
+    {
+      "call": "B001:H:verifier",
+      "byte_offset": 15431464,
+      "kind": "HTTP_REQUEST",
+      "source": "reports/matched_study_r03_20261025_01/attempt/results/events.jsonl",
+      "request_sha256": "0af4650fe239592963d01a3cb5c1509ebc3debc0c34e35e9de77951d104ffb0d",
+      "raw_body_keys": [
+        "max_tokens",
+        "messages",
+        "response_format",
+        "stream",
+        "temperature"
+      ],
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "exact_body_validated": true
+    }
+  ],
+  "scope_limit": "Two B001 HTTP_REQUEST bodies spot-checked, not all700 verifier inputs; no new analysis or source adjudication performed.",
+  "implementation_started": false
+}

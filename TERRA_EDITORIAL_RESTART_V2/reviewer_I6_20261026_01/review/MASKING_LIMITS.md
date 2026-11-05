@@ -1,0 +1,1 @@
+Pipeline IDs, scores and verifier decisions are omitted from the review view. Mapping is private/REVIEW_LINKAGE.json. Codex and existing authors already know project outcomes; this view does not retroactively create independent blinded assessment. No new human ratings have been collected.

@@ -1,0 +1,1 @@
+User requested Antigravity plan, Codex audit, then Codex implementation. Codex-0327 corrects the preserved peer plan. Current phase: evidence consolidation and isolated candidate only. No experiments, credentials, API/model/database operations, runtime edits, statistics regeneration, I9 migration or canonical promotion. Working sources remain untouched.

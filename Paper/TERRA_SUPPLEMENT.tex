@@ -1,0 +1,1108 @@
+\documentclass[conference]{IEEEtran}
+\renewcommand{\theHtable}{supp.\arabic{table}}
+\renewcommand{\theHfigure}{supp.\arabic{figure}}
+\IEEEoverridecommandlockouts
+\renewcommand\IEEEkeywordsname{Keywords}
+
+% Package declarations matching main manuscript environment
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{cite}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue,
+    pdftitle={Supplementary Material: Unifying Event Evolution Graphs and Reasoning Traces via Semantic Entailment},
+    pdfpagemode=FullScreen,
+}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{csquotes}
+\usepackage{anyfontsize}
+\usepackage{microtype}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric, shadows, fit, calc, backgrounds}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+
+% Independent Supplementary Namespace Definition (S* Scheme)
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thesectiondis}{S\arabic{section}.}
+\renewcommand{\thesubsection}{S\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesubsectiondis}{S\arabic{section}.\arabic{subsection}.}
+\renewcommand{\thesubsubsection}{S\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+\renewcommand{\thesubsubsectiondis}{S\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thepage}{S\arabic{page}}
+\setcounter{page}{1}
+
+% Auto-generated canonical statistics macros (Read-Only)
+\input{generated_stats}
+\input{generated_obscure_stats}
+\input{generated_corpus_stats_20k}
+
+% Compatibility anchors for canonical table cross-references without modifying source assets
+\makeatletter
+\newcommand{\anchorlabel}[2]{%
+  \@ifundefined{r@#1}{%
+    \expandafter\gdef\csname r@#1\endcsname{{#2}{1}{#2}{section.1}{}}%
+  }{}%
+}
+\makeatother
+\anchorlabel{subsec:safety-and-factual}{VI-C}
+\anchorlabel{tab:refusal_breakdown}{II}
+\anchorlabel{subsec:limitations}{VII-C}
+
+\lstset{
+    basicstyle=\fontsize{7pt}{8.5pt}\ttfamily,
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{gray!5},
+    rulecolor=\color{gray!40},
+    columns=fullflexible,
+    keepspaces=true,
+    showstringspaces=false
+}
+
+\begin{document}
+
+\title{Supplementary Material:\\Unifying Event Evolution Graphs and Reasoning Traces via Semantic Entailment: A Dual-Phase Architecture for Judicial GraphRAG}
+
+\author{\IEEEauthorblockN{Md. Emam Zafor Saadik and Md. Raihan Molla}
+\IEEEauthorblockA{\textit{Department of Computer Science and Engineering}\\ 
+\textit{Bangladesh University of Business and Technology (BUBT), Dhaka, Bangladesh}}}
+
+\maketitle
+
+\begin{abstract}
+This Supplementary Document provides exhaustive experimental disclosures, complete hypothesis testing registers, unabridged methodological limitations disclosures, and extended architectural specifications supporting the primary manuscript ``Unifying Event Evolution Graphs and Reasoning Traces via Semantic Entailment: A Dual-Phase Architecture for Judicial GraphRAG''. To maintain strict scientific traceability, every section in this supplement preserves explicit line-level mapping to original canonical manuscript anchors while operating under an independent supplementary namespace (Section~S*, Table~S*, Figure~S*).
+\end{abstract}
+
+\begin{IEEEkeywords}
+Supplementary Material, Event Evolution Graphs, Legal NLP, Benchmark Disclosures, Methodological Limitations, Traceability Ledger.
+\end{IEEEkeywords}
+
+% ==============================================================================
+% SECTION S1: EXTENDED STATISTICAL TABLES & HYPOTHESIS TESTING FAMILIES
+% ==============================================================================
+\section{Extended Statistical Tables \& Hypothesis Testing Families}
+\label{sec:supp-relocated-tables}
+
+\noindent\textbf{Traceability \& Relocation Scope:}
+\begin{itemize}
+    \item \textbf{Target Artifact:} Supplementary Table~S1 (Full Benjamini-Hochberg False Discovery Rate Testing Family across $M=20$ hypothesis tests).
+    \item \textbf{Source Anchor:} Primary Manuscript Table~XXIII, Appendix~A, Lines 1101--1105 in \texttt{Paper/main.tex}.
+    \item \textbf{Source LaTeX File:} \texttt{tables/table\_full\_fdr\_family.tex}.
+    \item \textbf{Scientific Grounding:} Complete $M=20$ family of hypothesis tests evaluating paired comparisons across four baseline systems (Flat Vector RAG, HippoRAG-Adapted, GraphRAG-Adapted, and Direct LLM) across Categories A, B, C, and D, with exact $p$-values, rank orders $i \in \{1, \dots, 20\}$, and step-up adjusted FDR critical boundaries ($q$-values).
+    \item \textbf{Preservation Guarantee:} Rendered directly from canonical source \texttt{tables/table\_full\_fdr\_family.tex} under the independent Supplementary Table namespace.
+\end{itemize}
+
+\vspace{0.5em}
+% Ingestion of canonical Full FDR Family Table (Renders as Table S1)
+\input{tables/table_full_fdr_family}
+
+% ============================================================================
+% SUPPLEMENTARY TABLE S2: FULL TEMPORAL LEAKAGE AUDIT
+% ============================================================================
+\subsection{Full Temporal Leakage Probe Audit}
+\label{sec:supp-temporal-leakage}
+
+\noindent\textbf{Traceability \& Relocation Scope:} This section preserves the complete preregistered temporal leakage table formerly rendered in the primary manuscript. The compact primary-paper summary retains the headline SPTLR, refusal, HLCR, and NGLIR values; this full table retains all complete-case counts, missingness bounds, exact McNemar tests, and directional-stability conclusions. No values or macro definitions are recomputed.
+
+\input{tables/table_temporal_leakage_probe}
+
+% ============================================================================
+% SUPPLEMENTARY TABLE S3: FULL OBSCURE-OVERRULED AUDIT
+% ============================================================================
+\subsection{Full Obscure Overruled-Precedent Audit}
+\label{sec:supp-obscure-overruled}
+
+\noindent\textbf{Traceability \& Relocation Scope:} This section preserves the complete four-panel obscure-overruled benchmark table formerly rendered in the primary manuscript. The compact primary-paper summary retains the outcome distribution and preregistered primary contrast; this full table retains all secondary contrasts, sensitivity subsets, cross-suite comparisons, per-judge results, and reliability disclosures. No values or macro definitions are recomputed.
+
+\input{tables/table_obscure_overruled_eval}
+
+% ==============================================================================
+% SECTION S2: UNABRIDGED METHODOLOGICAL LIMITATIONS REGISTER
+% ==============================================================================
+\section{Extended Tables Preserved from the Main Manuscript}
+\label{sec:supp-extended-tables}
+The following tables are moved from the main manuscript without recomputation or numerical alteration; all values remain backed by the frozen source macros.
+
+\section{Unabridged Methodological Limitations Register}
+\label{sec:supp-unabridged-limitations}
+
+To ensure complete transparency and permanent scientific reproducibility, this section provides the unabridged disclosures for all eighteen methodological limitations identified in the TERRA architecture and evaluation protocol. Substantive limitation text is preserved verbatim, except for approved cross-reference remapping and provenance metadata. Every subsection below records line-level source provenance from \texttt{Paper/main.tex} (Lines 1051--1088; overall register lines 1051--1089) and defines its corresponding grouped summary section in the primary manuscript according to the approved Phase 4 Claim-Level Disposition Matrix.
+
+\subsection{Absence of Licensed Legal Practitioner Evaluation}
+\label{subsec:supp-lim-1}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 1 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Line 1051.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.1 (\textit{Evaluator Scope \& Absence of Licensed Legal Practitioners}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: \textit{Main Manuscript Section~V-C} (Evaluation Metrics \cite{zheng2023judging}), \textit{Main Manuscript Section~III-B.3} (NLI Smart Grader), and \textit{Main Manuscript Section~VI-H} (Obscure Overruled Benchmark).
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Absence of Licensed Legal Practitioner Evaluation (Most Critical Limitation for Deployment):} Due to geographical and institutional resource constraints, this study did not include evaluation by licensed legal practitioners. All faithfulness and safety assessments rely on automated LLM-as-a-judge scoring (\textit{Main Manuscript Section~V-C}) and continuous lexical metrics (ROUGE-L) evaluated against researcher-constructed reference answers cross-referenced against public legal reference sources (Cornell LII, Oyez, CRS Constitution Annotated). While the adversarial critic persona exhibits a modest, statistically significant correlation with reference lexical grounding (Pearson $r = \JudgePearsonR, p = \JudgePearsonP$), automated scoring cannot replicate practitioner judgment on subtle constitutional doctrine. Specifically, practitioners would assess legal correctness, temporal consistency, citation validity, and hallucination behavior beyond continuous metrics. Furthermore, lacking an independent labeled validation set for the NLI Smart Grader (\textit{Main Manuscript Section~III-B.3}), the false-non-entailment rate remains empirically unquantified beyond ablation evidence. We consider human expert evaluation of both legal output quality and NLI verifier reliability essential prerequisites for production deployment, and release the complete 350-query benchmark suite and codebase to invite independent expert replication. The author spot-check described in \textit{Main Manuscript Section~VI-H} is a single non-expert review of a stratified sample and does not substitute for licensed practitioner review.
+
+
+\subsection{Metric Disentanglement and Refusal-Volume Masking}
+\label{subsec:supp-lim-2}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 2 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Line 1052.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.2 (\textit{Evaluation Methodology, Rubric Resolution \& Metric Disentanglement}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Self-contained macro invocation; preserves dual-judge conditioning caveat and Category~B advantage ($q=\CatBTerraVsHippoRAGAdjQ$).
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Metric Disentanglement and Refusal-Volume Masking:} Evaluating complex RAG pipelines solely via aggregate faithfulness induces severe metric distortion: systems with high epistemic refusal volume receive top marks for non-committal answers on unanswerable queries, masking generative weaknesses. Under our dual-judge protocol, TERRA has the highest overall ($\TerraOverallFaithfulnessMean$ vs.\ $\HippoRAGOverallFaithfulnessMean$; intervals overlap) and answer-only faithfulness ($\TerraAnswerOnlyFaithfulnessMean$ vs.\ $\HippoRAGAnswerOnlyFaithfulnessMean$) with fewer flagged refusals ($\TerraFlaggedRefusals$ vs.\ $\HippoFlaggedRefusals$), but answer-only scores are conditional on different answered subsets. On multi-hop reasoning TERRA leads HippoRAG by $\CatBTerraVsHippoRAGDelta$ ($q=\CatBTerraVsHippoRAGAdjQ$). Future benchmark protocols must mandate disentangled reporting of refusal rates alongside answer-only faithfulness.
+
+
+\subsection{Evaluation Rubric Resolution and Likert Normalization}
+\label{subsec:supp-lim-3}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 3 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Line 1053.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.2 (\textit{Evaluation Methodology, Rubric Resolution \& Metric Disentanglement}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Self-contained analytical disclosure; preserves normalized $[0, 1]$ Likert scale explanation.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Evaluation Rubric Resolution and Likert Normalization:} Coarse evaluation scales (e.g., discrete binary pass/fail or $\{0.0, 0.8, 1.0\}$ heuristics) induce artificial ceiling compression, clustering over $75\%$ of responses at $1.0$. Implementing a 5-point Likert scale normalized to $[0, 1]$ effectively resolves this compression, exposing genuine variances in doctrinal nuance.
+
+
+\subsection{Jurisdictional and Temporal Corpus Boundaries}
+\label{subsec:supp-lim-4}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 4 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Line 1054.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.5 (\textit{Corpus Boundaries, Filtering Biases \& Domain Generalizability}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: \textit{Main Manuscript Section~IV-A, Table~III} (Corpus Statistics) and \textit{Main Manuscript Section~VI-N} (Benchmark-Graph Traversal Stability).
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Jurisdictional and Temporal Corpus Boundaries:} The pre-built Event Evolution Graph is anchored in \CorpusTotalOpinions\ authentic substantive U.S. Supreme Court opinions spanning \CorpusTemporalSpan, encompassing seven doctrinal domains of federal jurisprudence (\textit{Main Manuscript Section~IV-A, Table~III}). Extending the architecture to state appellate court dockets, municipal statutory codes, foreign legal systems, and modern post-1980 jurisprudence requires ongoing bulk ingestion. Furthermore, while \textit{Main Manuscript Section~VI-N} empirically demonstrates graph traversal stability across temporal snapshot expansions ($T \to T+N$), live vector index insertion and streaming graph maintenance remain unaddressed engineering extensions.
+
+
+\subsection{Hosted API Output Variability at $T=0.0$, Run-to-Run Identity, and Sensitivity Verification}
+\label{subsec:supp-lim-5}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 5 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1055--1056.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.2 (\textit{Evaluation Methodology, Rubric Resolution \& Metric Disentanglement}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: \textit{Main Manuscript Section~V-A} (Benchmark Suite Design); preserves exact query-level identity statistics.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Hosted API Output Variability at $T=0.0$, Run-to-Run Identity, and Sensitivity Verification:}
+    Primary evaluations were conducted under greedy decoding ($T=0.0$) using \texttt{databricks-meta-llama-3-3-70b-instruct} and \texttt{databricks-gemma-3-12b}. While setting $T=0.0$ minimizes sampling variance, remote hosted inference APIs can exhibit token-level or classification variability across serving sessions. Across benchmark evaluations, query \texttt{D066} exhibited an empirical classification shift (EASY $\to$ HARD), consistent with numerical or serving-level variability in hosted inference; the precise backend cause cannot be isolated from available logs. Comparing two 14-September TERRA executions across the 350-query benchmark suite, exact string-identical generated answers occurred on \TerraIdenticalAnswerFraction\ of queries overall (206/350), with pronounced category divergence: \TerraIdenticalAnswerCatA\ on Category~A (95/100) and \TerraIdenticalAnswerCatC\ on Category~C (62/75), versus \TerraIdenticalAnswerCatD\ on Category~D (39/75) and \TerraIdenticalAnswerCatB\ on Category~B (10/100). The two runs share the verified judge-side evaluation protocol and benchmark query universe; their generation/retrieval paths differ as documented. Both runs were evaluated under the standardized dual-judge protocol (\texttt{databricks-qwen3-next-80b-a3b-instruct} and \texttt{databricks-gpt-oss-120b}) using the frozen RAG prompt template (SHA256: \texttt{6d18fc14\dots}) and normalized Likert rubric. Sensitivity verification on an 80B model (\texttt{databricks-qwen3-next-80b-a3b-instruct}) across a separate 15-query subset (10 Cat~B, 5 Cat~D; distinct from the firewall stress test in \textit{Main Manuscript Section~V-A}) confirmed invariant relative rankings: TERRA achieved $1.000$ Category~B Faithfulness (vs. $0.900$ Flat RAG, $0.800$ Direct LLM) and $100\%$ Category~D safety rejection (vs. $40\%$ Flat RAG, $0\%$ Direct LLM). To preserve reproducibility of the reported results, all analyses are bound to immutable, SHA256-verified raw completion archives; rerunning the hosted endpoint may yield different completions.
+
+
+\subsection{Parametric Pretraining Confounders, Latent Weights, and Temporal Containment Bounds}
+\label{subsec:supp-lim-6}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 6 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1057--1059.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.4 (\textit{Failure Modes, Fatal Errors (2/75) \& Refusal Asymmetry}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: Supplementary Table~S1 (Rank 11), \textit{Main Manuscript Section~V-A, Table~II} (Refusal Breakdown), \textit{Main Manuscript Section~VI-L} (Generative Citation Correctness), \textit{Main Manuscript Section~VI-G} (Temporal Parametric Leakage), and \textit{Main Manuscript Section~VI-H} (Obscure Overruled Benchmark).
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Parametric Pretraining Confounders, Latent Weights, and Temporal Containment Bounds:} On continuous evaluation of Category D (Adversarial Deception), Direct LLM recorded a higher continuous Faithfulness score ($\DirectLLMCatDFaithfulness$ vs. $\TerraCatDFaithfulness$), yielding a non-significant Wilcoxon signed-rank comparison in Direct LLM's favor ($\Delta = -0.083, p = 0.0629$, Supplementary Table~S1 (Rank~11)). Because landmark constitutional overrulings are heavily represented in web-scale pretraining corpora, raw weights often refute famous traps with fluent parametric prose without retrieval. However, evaluating discrete outcome safety via the formal rubric (\textit{Main Manuscript Section~V-A}, \textit{Main Manuscript Table~II}) reveals that Direct LLM achieves its $94.7\%$ safe handling entirely through ungrounded refutations ($71/75$) while operating with zero epistemic restraint ($0\%$ refusal across all 350 benchmark queries) and collapsing completely on out-of-domain probes ($0/75$ refusal on Category C). In contrast, TERRA achieves $\mathbf{\TerraCatDSafeHandlingRate}$ total safe handling ($73/75$: $\TerraCatDRejection$ explicit refusals and $\TerraCatDRefutations$ verified refutations), delivering a $+\TerraCatDRejectionRate$ explicit refusal advantage ($p = \TerraVsDirectLLMCatDRefusalMcNemarP$), perfect monotonic containment ($c=0$), and an $80.0\%$ reduction in fatal constraint violations (from $10/75$ to $\TerraCatDFatalErrors$) with zero uncommitted hedges ($0/75$). While the pre-specified hypothesis test in Supplementary Table~S1 (Rank 11) evaluates continuous faithfulness, TERRA's true structural advantage lies in verifiable citation provenance, epistemic restraint, and temporal boundary integrity. Forensic auditing reveals that the two remaining fatal errors (queries D033 and D034) are reciprocal misattributions between coupled apportionment landmarks (\textit{Baker v. Carr} [1962] and \textit{Reynolds v. Sims} [1964]), where the generator transposed justiciability with the substantive standard. Adaptive edge-weighting to prioritize invalidation paths constitutes essential future work. Similarly, on Category~B (Evolutionary Precedents), Direct LLM achieves higher judge-scored faithfulness ($\DirectLLMCatBFaithfulness$ vs.\ $\TerraCatBFaithfulness$, $\Delta=\CatBTerraVsDirectLLMDelta$, $q=\CatBTerraVsDirectLLMAdjQ$), consistent with base model fluency on generic historical narratives, whereas TERRA's retrieval evaluation shows stronger Category~B citation coverage and full-precedent-path recovery ($\CatBTerraMacroCitationRecall$ macro citation recall vs.\ $\CatBDirectMacroCitationRecall$ for Direct LLM; \textit{Main Manuscript Section~VI-L}).
+
+    More fundamentally, we distinguish \textit{latent parametric knowledge} from \textit{operative doctrinal leakage}. Because modern foundation models are pretrained on web-scale text, weights encode post-$T$ legal history (e.g., \textit{Plessy} overruled by \textit{Brown} in 1954). TERRA does not purge latent weights; its provenance-bounded retrieval and temporal gate prevent latent memory from intruding into operative pre-$T$ reasoning. While forensic auditing (\textit{Main Manuscript Section~VI-G}) confirms suppression of Level-2 leakage in $\text{TERRA}_{\text{gated}}$, future work should explore circuit editing and machine unlearning for weight-level guarantees. Provider-side safety filtering on historical legal topics (terminating 85 evaluations in \textit{Main Manuscript Section~VI-G}) highlights the operational dependency of LLM-as-a-judge pipelines on third-party API policies, motivating our sensitivity-bounded framework. \textit{Main Manuscript Section~VI-H} tests this confounder directly: on obscure overruled precedents Direct LLM safe handling was \ObscDirectSafePct\ (\ObscCrossDirectFamousSafe\ on the famous subset), consistent with famous-landmark performance partly reflecting parametric memory.
+
+
+\subsection{Fixed Graph Traversal Horizon and Multi-Hop Boundary Limits}
+\label{subsec:supp-lim-7}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 7 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Line 1060.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.3 (\textit{Graph Traversal Horizons, Taxonomies \& Hyperparameters}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: \textit{Main Manuscript Section~VI-I} (CaseFacts External Benchmark) and \textit{Main Manuscript Section~VI-J} (CLERC External Benchmark).
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Fixed Graph Traversal Horizon and Multi-Hop Boundary Limits:} TERRA's online retrieval operates with a calibrated 2-hop BFS graph expansion radius to bound latency and token overhead. While 2-hop traversal captures direct citing and invalidating authorities across most evolutionary arcs, it can miss subsequent modifying precedents when citation chains exceed two steps. An empirical boundary emerged during our CaseFacts audit on \textit{Chimel v. California} (query \texttt{CF\_INC\_058}; \textit{Main Manuscript Section~VI-I}), where the modifying precedent (\textit{United States v. Robinson} [1973]) sat beyond the 2-hop boundary; the generator cited \textit{Chimel}'s 1969 wingspan doctrine but found no modifying precedent in context. This multi-hop horizon likewise accounts for the gold-precedent omission rate during drafting on CLERC ($\ClercTerraMisapplicationTrackOne$; \textit{Main Manuscript Section~VI-J}), where distant authorities prompted analogical reasoning from historical cases rather than fabrication. Developing adaptive traversal horizons along invalidation paths represents a high-priority architectural extension.
+
+
+\subsection{Oracle Relation Labels, Exact-Title Seeding, and a Bundled Ablation}
+\label{subsec:supp-lim-8}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 8 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1061--1062.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.3 (\textit{Graph Traversal Horizons, Taxonomies \& Hyperparameters}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Preserves explicit disclosure regarding curated OVERRULES edge annotations and sensitivity exclusions.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Oracle Relation Labels, Exact-Title Seeding, and a Bundled Ablation:} In Full TERRA, curated \texttt{OVERRULES} edges are serialized with an explicit relation tag, dedicated heading, expanded excerpt budget, and prompt instruction; obscure benchmark pairs were drawn from these edges. The Full-TERRA advantage on that suite is therefore contingent on curated annotations, and the bundled ablation cannot isolate the tag alone. For named-case queries, seeding relied on exact caption matches (category-filtered vector retrieval returned no candidates), causing two queries to produce empty context and safe-rated refusals, one to omit the overruling case, and two to take the fast path; we evaluated TERRA as deployed and report sensitivity subsets excluding these items. The primary comparison contrasts complete systems, and Direct LLM receives no instruction block. Outcomes are judge-dependent in magnitude, the suite has thirty items, and judges were not fully blind to arm identity.
+
+
+\subsection{False Refusals on Answerable Queries (Categories A and B)}
+\label{subsec:supp-lim-9}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 9 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1063--1065.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.4 (\textit{Failure Modes, Fatal Errors (2/75) \& Refusal Asymmetry}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Self-contained macro invocation; preserves exact breakdown of Category~A and Category~B false refusal counts.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{False Refusals on Answerable Queries (Categories A and B):}
+The safety gate produces false refusals on non-adversarial inquiries: \TerraCatAFalseRefusals/100 Category~A (Factual) and \TerraCatBFalseRefusals/100 Category~B (Evolutionary) queries receive system-level safety rejections (\texttt{safety\_rejected = True}). All \TerraCatBFalseRefusals\ Category~B false refusals originate from the NLI Smart Grader on the hard route; none occur on the fast route. Individual causes were not separately diagnosed.
+
+
+\subsection{Latency Measurement Caveats}
+\label{subsec:supp-lim-10}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 10 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1066--1068.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.4 (\textit{Failure Modes, Fatal Errors (2/75) \& Refusal Asymmetry}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Self-contained disclosure; preserves gross vs. net latency and HTTP~429 throttling disclosures.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Latency Measurement Caveats:}
+Three factors limit direct latency comparisons. (1)~\textit{Execution mode}: Baselines ran sequentially on 5--6~September~2026; TERRA ran with four concurrent workers on 14~September~2026. (2)~\textit{HTTP~429 throttling}: \TerraThrottledRows/350 TERRA queries incurred rate-limiting back-off accumulating \TerraThrottleSleepSeconds\,s of sleep; reported medians are gross with net values alongside. (3)~\textit{Bimodal routing}: The fast route contains \RouterFastPathCount\ queries (median \TerraFastRouteMedianS); the hard route contains \RouterHardPathCount\ queries (median \TerraHardRouteMedianS). Aggregate medians obscure this bimodal structure; baseline and TERRA comparisons are indicative only.
+
+
+\subsection{Same-Family Generation, NLI Grading, and Category~D Verifier}
+\label{subsec:supp-lim-11}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 11 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1069--1071.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.2 (\textit{Evaluation Methodology, Rubric Resolution \& Metric Disentanglement}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Preserves model family alignment and verifier ablation caveats.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Same-Family Generation, NLI Grading, and Category~D Verifier:}
+Generation, NLI grading, and the Category~D verifier all deploy \texttt{databricks-meta-llama-3-3-70b-instruct} (same family and endpoint). Faithfulness judges are \texttt{databricks-qwen3-next-80b-a3b-instruct} and \texttt{databricks-gpt-oss-120b} (independent families). Category~D four-class labels (refusal, refutation, fatal error, hedge) may inherit shared Llama biases; cross-family verifier ablation has not been run.
+
+
+\subsection{Unflagged Textual Refusals}
+\label{subsec:supp-lim-12}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 12 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1072--1074.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.4 (\textit{Failure Modes, Fatal Errors (2/75) \& Refusal Asymmetry}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: \textit{Main Manuscript Section~VI-E, Table~IX} sensitivity results.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Unflagged Textual Refusals:}
+System-level flagging (\texttt{safety\_rejected = True}) undercounts epistemic refusals. Adding textual refusals (asserting contextual absence without gate triggering) raises counts to \TerraEpistemicRefusals/350 for TERRA, \FlatEpistemicRefusals/350 for Flat Vector RAG, \GraphEpistemicRefusals/350 for GraphRAG-Adapted, and \HippoEpistemicRefusals/350 for HippoRAG-Adapted. Unflagged TERRA cases are D034 (refusal phrasing with fatal error, score 0.000), D061 (verified refutation, floored at \AmendmentMFloorScore\ under Amendment~M), and D068/D070 (fast-path textual refusals scoring 1.000). Aggregate \textit{Main Manuscript Section~VI-E, Table~IX} sensitivity results for TERRA are invariant to this distinction ($\Delta = 0.000$).
+
+
+\subsection{Mixed-Date Evaluation Blocks}
+\label{subsec:supp-lim-13}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 13 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1075--1077.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.2 (\textit{Evaluation Methodology, Rubric Resolution \& Metric Disentanglement}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: \textit{Main Manuscript Table~XI / Supplementary Table~S14}.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Mixed-Date Evaluation Blocks:}
+Not all blocks were re-evaluated under v2 dual-judge protocols; \textit{Main Manuscript Table~XI / Supplementary Table~S14} details dates and backends. Blocks lacking timestamps (pilot ablation, temporal leakage probe, CaseFacts, CLERC) carry ``date not recorded''; scores derive from earlier single-judge evaluation and are not numerically comparable to v2 evaluations.
+
+
+\subsection{Corpus Length-Filtering Bias and Concise Landmark Exclusion}
+\label{subsec:supp-lim-14}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 14 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1078--1080.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.5 (\textit{Corpus Boundaries, Filtering Biases \& Domain Generalizability}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Preserves exact list of excluded concise landmarks (\textit{Haines}, \textit{Diebold}, \textit{Dusky}, etc.).
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Corpus Length-Filtering Bias and Concise Landmark Exclusion:}
+Filtering by length ($\ge 4{,}000$ characters) purges noise: across \IssueTwentyTotalVolumesScanned\ volumes (\IssueTwentyTotalDecisionsScanned\ cases), \IssueTwentySubFiveHundredCharCount\ records are $<500$ characters (\IssueTwentySubFiveHundredCharPct, procedural orders/dockets). However, equating length with authority induces bias: it excludes \IssueTwentyIntermediateExcludedCount\ decisions ($500$--$3{,}999$ characters, \IssueTwentyIntermediateExcludedPct), with \IssueTwentyIntermediatePageRankGeNinetyNineFive\ in the top $0.5\%$ of CAP PageRank authority. Deterministic audit of 63 landmarks reveals \IssueTwentyLandmarksExcludedByLength\ (\IssueTwentyLandmarksExcludedByLengthPct) were purged, including procedural standards (\textit{Haines}, \IssueTwentyHainesCharCount\ chars, \IssueTwentyHainesCAPPRPercentile th percentile; \textit{Diebold}, \IssueTwentyDieboldCharCount\ chars, \IssueTwentyDieboldCAPPRPercentile th percentile), competency (\textit{Dusky}, \IssueTwentyDuskyCharCount\ chars, \IssueTwentyDuskyCAPPRPercentile th percentile), tax milestones (\textit{Lucas v. Earl}, \IssueTwentyLucasCharCount\ chars), and desegregation orders (\textit{Sipuel}, \IssueTwentySipuelCharCount\ chars; \textit{Gayle}, \IssueTwentyGayleCharCount\ chars). \textit{Bolling v. Sharpe} (\IssueTwentyBollingCharCount\ chars) met the threshold but was omitted in subsampling. Future graphs should replace static floors with citation retention.
+
+
+\subsection{Citation Extraction Precision, Same-Year Chronology, and Provenance Uncertainty}
+\label{subsec:supp-lim-15}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 15 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1081--1083.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.3 (\textit{Graph Traversal Horizons, Taxonomies \& Hyperparameters}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Preserves stratified edge sample precision and same-year reversal statistics.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Citation Extraction Precision, Same-Year Chronology, and Provenance Uncertainty:}
+Automated citation extraction via \texttt{eyecite} establishes citation existence rather than doctrinal endorsement. Our stratified audit ($N=\IssueTwentyOneAuditSampleN$, seed \IssueTwentyOneAuditSeed) confirms \IssueTwentyOneAuditCitationPresentPct\ of sampled edges contain reporter strings; direct precedential reliance is verified in \IssueTwentyOneAuditTargetConfirmedPct\ (95\% CI: \IssueTwentyOneAuditTargetConfirmedCI), with \IssueTwentyOneAuditQuotationPct\ in quotations. Furthermore, \IssueTwentyOneSameYearEdges\ edges (\IssueTwentyOneSameYearEdgesPct) connect same-year opinions, with \IssueTwentyOneIntraYearReversals\ intra-year date reversals from publication artifacts and zero cross-year forward violations. The legacy claim of ``$99.91\%$ chronological validity / $0.09\%$ noise'' in earlier working drafts was untraceable to repository artifacts, mandating this audit. Citation trails provide candidate authorities with \IssueTwentyOneAuditTargetConfirmedPct\ precision rather than certified doctrinal paths.
+
+
+\subsection{Rule-Based Doctrinal Taxonomy, Lexical Polysemy, Truncation, and Residual Fallback Bias}
+\label{subsec:supp-lim-16}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 16 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Lines 1084--1086.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.3 (\textit{Graph Traversal Horizons, Taxonomies \& Hyperparameters}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Preserves four-point classification limitation analysis and inter-annotator statistics.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Rule-Based Doctrinal Taxonomy, Lexical Polysemy, Truncation, and Residual Fallback Bias:}
+The seven-domain classification is generated by a deterministic \IssueTwentyTwoTotalLexiconPhrases-phrase rule-based lexicon over truncated texts ($\le \IssueTwentyTwoTextTruncationChars$ characters), inducing four limitations: (1)~\textit{Lexical polysemy}: Keyword matching without contextual disambiguation risks misclassification when terms appear in procedural dicta or dissenting quotes. (2)~\textit{Truncation artifacts}: Truncating texts to \IssueTwentyTwoTextTruncationChars\ characters restricts matching to introductory syllabi, occasionally missing dispositive holdings. (3)~\textit{Residual fallback bias}: The \texttt{general\_constitutional\_statutory} category acts as an unkeyed fallback for \IssueTwentyTwoGeneralConstitutionalCorpus\ decisions (\IssueTwentyTwoGeneralConstitutionalCorpusPct) lacking substantive keywords, functioning as a catch-all with \IssueTwentyTwoGeneralConstitutionalBaselineAcc\ baseline precision despite \IssueTwentyTwoFallbackValidityPct\ validity as a residual class. (4)~\textit{Absence of human expert annotation}: Taxonomy validation relies on dual automated evaluators (IEA \IssueTwentyTwoIEARawAgreement, Cohen's $\kappa=\IssueTwentyTwoIEACohensKappa$) and a blinded automated adjudicator (\IssueTwentyTwoHorvitzThompsonAccuracy\ weighted accuracy, 95\% CI: \IssueTwentyTwoHorvitzThompsonCI), not licensed practitioner annotation; classifications are not certified human ground truth.
+
+
+\subsection{A Priori Hyperparameter Selection and Sensitivity Analysis Scope}
+\label{subsec:supp-lim-17}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 17 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Line 1087.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.3 (\textit{Graph Traversal Horizons, Taxonomies \& Hyperparameters}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Remapped to Phase 4 Matrix: \textit{Main Manuscript Section~VI-K, Table~VIII Panel~C / Supplementary Table~S10}.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{A Priori Hyperparameter Selection and Sensitivity Analysis Scope:} Core retrieval and graph expansion parameters ($k=\IssueTwentyFourSeedK$, depth $d=\IssueTwentyFourBfsDepth$, hub cap $\IssueTwentyFourHubCap$, geometric threshold $\tau=\IssueTwentyFourDistThreshold$) were fixed prior to benchmark construction and evaluation based on topological network constraints and preliminary feasibility testing on an independent \IssueTwentyFourDevQueryCount-query development suite (\IssueTwentyFourDevDate). While this frozen protocol prevents the audited forms of test-set leakage and hyperparameter overfitting, it precludes claiming global parameter optimality. Empirical sensitivity sweeps across \IssueTwentySixConfigCount\ configurations (\textit{Main Manuscript Section~VI-K, Table~VIII Panel~C / Supplementary Table~S10}) profile performance across horizons ($k \in \{1,2,4\}$, $d \in \{1,2,3\}$, $C \in \{25,50,100\}$), confirming empirical stability around the historical configuration ($k=2, d=2, C=50$, \IssueTwentySixHistMacro\ macro recall, \IssueTwentySixHistFullPath\ full path recall) while quantifying the coverage-efficiency trade-off under bounded operational caps (\IssueTwentySixGoldRetentionPct\ landmark retention, \IssueTwentySixContextReductionPct\ context reduction).
+
+
+\subsection{Task-Corpus Domain Asymmetry and Private-Law Generalizability Scope}
+\label{subsec:supp-lim-18}
+
+\noindent\textbf{Traceability \& Provenance Field:}
+\begin{itemize}
+    \item \textbf{Original Limitation Index:} Limitation 18 of 18.
+    \item \textbf{Source Line in \texttt{Paper/main.tex}:} Line 1088.
+    \item \textbf{Original Manuscript Section:} Section~VII-C (\textit{Limitations}).
+    \item \textbf{Main Manuscript Grouped Destination:} Section~VII-C.5 (\textit{Corpus Boundaries, Filtering Biases \& Domain Generalizability}).
+    \item \textbf{Decoupled Cross-Reference Strategy:} Preserves constitutional vs. commercial/private-law asymmetry boundaries.
+\end{itemize}
+
+\noindent\textbf{Substantive Limitation Disclosure (Preserved Verbatim Except for Approved Cross-Reference Remapping and Provenance Metadata):}\\
+\textbf{Task-Corpus Domain Asymmetry and Private-Law Generalizability Scope:} A core methodological boundary is the intentional asymmetry between corpus composition and benchmark task scope. While the indexed repository reflects the complete 20,000-case docket spanning seven domains (\IssueTwentyFiveCorpusCombinedPrivateStatutoryPct\ private and general statutory law), the evaluated multi-hop reasoning benchmark (Category~B) evaluates constitutional and public-law precedent exclusively (\IssueTwentyFiveCatBConstitutionalPublicPct\ across five public-law domains; zero private-law chains). While the evaluation demonstrates TERRA's measured performance on the evaluated constitutional citation chains across a dense background network containing \CorpusPrivateLawOpinions\ private-law distractors, the system's performance on complex multi-hop statutory or patent reasoning remains unvalidated. Multi-hop evolutionary retrieval over complex commercial codes and specialized regulatory dockets constitutes an important open frontier for future domain-specific evaluation.
+
+% ==============================================================================
+% SECTION S3: SECONDARY TOPOLOGICAL & NETWORK CENTRALITY VISUALIZATIONS
+% ==============================================================================
+\section{Secondary Topological \& Network Centrality Visualizations}
+\label{sec:supp-topological-vis}
+
+\noindent\textbf{Traceability \& Relocation Scope:}
+\begin{itemize}
+    \item \textbf{Target Artifact:} Supplementary Figure~S1 (Hub Centrality Distribution and Authority Spikes across the 20,000-case Precedent Network).
+    \item \textbf{Source Anchor:} Primary Manuscript Figure~2, Section~IV-C, Lines 342--360 in \texttt{Paper/main.tex} (Phase 4 Matrix: Section~IV-C).
+    \item \textbf{Source LaTeX File:} \texttt{figure\_2\_hub\_centrality.tex}.
+    \item \textbf{Topological Significance:} Evaluates betweenness centrality ($C_B$) distribution across the pre-built Event Evolution Graph, identifying top-5 hub opinions that serve as structural bridges connecting historical constitutional doctrines.
+\end{itemize}
+
+\begin{figure}[!t]
+\centering
+\resizebox{0.98\columnwidth}{!}{\input{figure_2_hub_centrality}}
+\caption{Betweenness centrality distribution ($C_B$) and top-5 hub opinion authority spikes across the 20,000-case CAP knowledge substrate. Hub nodes act as critical topological articulation points bridging multi-decade doctrinal evolution trajectories.}
+\label{fig:supp-hub-centrality}
+\end{figure}
+
+% ==============================================================================
+% SECTION S4: EXPERIMENTAL PROTOCOLS, HYPERPARAMETER GRIDS & PROMPTS
+% ==============================================================================
+\section{Experimental Protocols, Hyperparameter Grids \& Benchmark Prompts}
+\label{sec:supp-protocols-prompts}
+
+This section documents the frozen operational parameters, model serving configurations, and prompt templates with cryptographic SHA256 provenance utilized across the TERRA inference and evaluation architecture.
+
+\subsection{Operational Hyperparameter Grids}
+\label{subsec:supp-hyperparameters}
+
+All primary retrieval, graph traversal, and generation hyperparameters were established a priori and remained frozen across the 350-query canonical benchmark evaluations:
+\begin{itemize}
+    \item \textbf{Candidate Case Seeding Horizon ($k$):} $k=2$ primary case candidates retrieved via dense cosine similarity over the BGE-Large embedding substrate.
+    \item \textbf{Event Evolution Graph Traversal Depth ($d$):} Calibrated 2-hop Breadth-First Search (BFS) expansion ($d=2$) traversing explicit \texttt{CITES}, \texttt{OVERRULES}, and \texttt{PRECEDENT\_FOLLOWED} directed relations.
+    \item \textbf{Hub Node Degree Cap ($C$):} In-degree hub pruning threshold $C=50$ authorities to prevent super-spreader precedent nodes (e.g., procedural standards) from monopolizing reasoning context budgets.
+    \item \textbf{Semantic Distance Boundary Threshold ($\tau$):} Cosine distance threshold $\tau=0.82$ bounding relevance radius.
+    \item \textbf{Generation Sampling Temperature:} Greedy decoding ($T=0.0$, top-$p=1.0$) across all production runs to ensure deterministic inference repeatability.
+\end{itemize}
+
+\subsection{Traffic Cop Intent Classification Router Prompt}
+\label{subsec:supp-prompt-router}
+
+\noindent\textbf{Source Artifact:} \texttt{prompts/router\_system\_prompt.txt}\newline
+\noindent\textbf{Canonical Template Digest (SHA256):}\newline
+\resizebox{0.9\columnwidth}{!}{\texttt{6443720d3ddd650bd06e6eb0796f18429331d65861b4bf7107998b7ebc31b546}}
+
+\vspace{0.4em}
+The Traffic Cop Router classifies incoming user queries as either \texttt{EASY} (single-point factual lookup dispatched to the fast path) or \texttt{HARD} (multi-hop evolutionary query or adversarial probe dispatched to the verified graph reasoning path).
+
+\begin{lstlisting}
+You are a routing classifier for a legal AI system. Classify the query below as either 'EASY' or 'HARD'.
+
+EASY -- Use when the query is a simple, single-point factual lookup:
+  - Asking for a specific year or date (e.g. "In what year was X decided?")
+  - Asking for a case citation (e.g. "What is the U.S. Reports citation for X?")
+  - Asking for the name of a ruling, doctrine, or single case fact
+  - Any question answerable with one sentence from memory
+  Examples: "When was Brown v. Board decided?", "What is the citation for Plessy v. Ferguson?"
+
+HARD -- Use when the query requires reasoning, comparison, or multiple cases:
+  - Tracking legal evolution over time (e.g., "How did X change from Y to Z?")
+  - Comparing multiple cases or doctrines
+  - Questions outside the civil rights constitutional law domain
+  - Any open-ended analytical question
+
+Domain Relevance Flag: {domain_relevance}
+IMPORTANT: If OUT-OF-DOMAIN and the query cannot be answered from SCOTUS civil rights cases, you MUST classify as HARD (which triggers safety refusal).
+
+Query: {user_query}
+
+Respond with JSON containing keys "complexity" (EASY or HARD) and "reason".
+\end{lstlisting}
+
+\subsection{NLI Smart Grader Quality Control Prompt}
+\label{subsec:supp-prompt-grader}
+
+\noindent\textbf{Source Artifact:} \texttt{prompts/nli\_grader\_prompt.txt}\newline
+\noindent\textbf{Canonical Template Digest (SHA256):}\newline
+\resizebox{0.9\columnwidth}{!}{\texttt{c5185e69056e57227d67a0783be1710a7b8bf42c23053a5ab48fb73a7158c105}}
+
+\vspace{0.4em}
+The NLI Smart Grader evaluates whether the retrieved precedent context logically entails the factual predicates required to construct a valid response.
+
+\begin{lstlisting}
+You are an NLI (Natural Language Inference) model acting as a legal quality control grader.
+Determine if the provided Legal Context logically ENTAILS the information required to answer the User Query.
+
+GUIDELINES:
+- Set "entails": true if the Legal Context contains the relevant case holdings, legal principles, historical connections, or subsequent citing/overruling precedents needed to address the query.
+- DOCTRINAL EVOLUTION & ADVERSARIAL QUERIES: If a query asks whether a historical doctrine is currently binding, enforceable, or constitutional, evidence showing that the precedent was overruled, repudiated, or superseded ENTAILS the necessary information to formulate a correct refusal or refutation.
+- Set "entails": false if the context is empty, generic, completely off-topic, or lacks the necessary doctrinal authority.
+
+[USER QUERY]
+{user_query}
+
+[LEGAL CONTEXT]
+{retrieved_context}
+
+Output JSON with keys "entails" (boolean) and "rationale" (string).
+\end{lstlisting}
+
+\subsection{Dual-Judge Adversarial Critic Prompt Template (RAG Pipeline)}
+\label{subsec:supp-prompt-rag-judge}
+
+\noindent\textbf{Source Artifact:} \texttt{eval\_terra.py} (Lines 549--573)\newline
+\noindent\textbf{Canonical Template Digest (SHA256):}\newline
+\resizebox{0.9\columnwidth}{!}{\texttt{6d18fc14563d265c0d8feceb282c39d260caf258338e618e6c958851fe8f3587}}
+
+\vspace{0.4em}
+The primary automated evaluation protocol deploys an adversarial critic persona with a standardized 5-point Likert scale.
+
+\begin{lstlisting}
+You are a SKEPTICAL legal AI auditor. Your job is to find flaws, hallucinations, and relevance gaps. Be strict. Do not be generous.
+
+Evaluate this RAG-system answer strictly against the retrieved context.
+
+Query: {query}
+Retrieved Context:
+{eval_context}
+
+Generated Answer: {answer}
+
+Scoring Criteria (5-point Likert Scale):
+- Faithfulness (integer 1-5):
+  1 = Completely unfaithful (factually wrong, hallucinated, or unsupported claims)
+  2 = Mostly unfaithful (major errors or significant unsupported claims)
+  3 = Partially faithful (some correct points grounded in context, but notable unsupported claims)
+  4 = Mostly faithful (substantially grounded in context with only minor unverified details)
+  5 = Completely faithful (every claim strictly supported by context)
+  CRITICAL REFUSAL SCORING RULE: If the generated answer is a safety refusal stating insufficient context or inability to answer:
+  - If the retrieved context lacks sufficient information or query is out of domain, the refusal is 100% FAITHFUL. Score = 5.
+  - If the retrieved context contains sufficient information but the model refused anyway, Score = 1.
+- Relevance (integer 1-5):
+  1 = Off-topic or unwarranted refusal
+  2 = Largely irrelevant
+  3 = Partially relevant, addresses query superficially
+  4 = Mostly relevant, addresses the core question well
+  5 = Highly relevant, directly answers the query (or appropriate safety refusal on an out-of-context query)
+
+Output strictly a valid json object with keys:
+  "faithfulness_score": integer between 1 and 5,
+  "faithfulness_reasoning": detailed explanation string,
+  "relevance_score": integer between 1 and 5,
+  "relevance_reasoning": detailed explanation string.
+\end{lstlisting}
+
+\subsection{Dual-Judge Adversarial Critic Prompt Template (Direct LLM Baseline)}
+\label{subsec:supp-prompt-direct-judge}
+
+\noindent\textbf{Source Artifact:} \texttt{eval\_terra.py} (Lines 528--548)\newline
+\noindent\textbf{Canonical Template Digest (SHA256):}\newline
+\resizebox{0.9\columnwidth}{!}{\texttt{2cf9bb323892813301a308e64948f65eabd80116b7fb9a0a413b536dc06ec09b}}
+
+\vspace{0.4em}
+For the Direct LLM baseline without retrieval, the critic evaluates legal accuracy against doctrinal standards.
+
+\begin{lstlisting}
+You are a SKEPTICAL legal AI auditor. Your job is to find flaws, hallucinations, and relevance gaps. Be strict. Do not be generous.
+
+Evaluate this direct LLM answer for a legal query (answered without retrieved context).
+
+Query: {query}
+Generated Answer: {answer}
+
+Scoring Criteria (5-point Likert Scale):
+- Faithfulness (integer 1-5):
+  1 = Completely unfaithful (contains serious legal falsehoods, gross anachronisms, or invented holdings)
+  2 = Mostly unfaithful (major legal inaccuracies or misattributions)
+  3 = Partially faithful (mix of accurate points and notable legal errors)
+  4 = Mostly faithful (accurate statement of law with minor imprecisions)
+  5 = Completely faithful (entirely accurate, sound legal doctrine, no hallucinations)
+- Relevance (integer 1-5):
+  1 = Off-topic, evasive, or refusal to an in-domain question
+  2 = Largely irrelevant or minimally responsive
+  3 = Partially relevant, addresses query superficially
+  4 = Mostly relevant, addresses the core question well
+  5 = Highly relevant, directly, comprehensively, and thoroughly answers the query
+
+Output strictly a valid json object with keys:
+  "faithfulness_score": integer between 1 and 5,
+  "faithfulness_reasoning": detailed explanation string,
+  "relevance_score": integer between 1 and 5,
+  "relevance_reasoning": detailed explanation string.
+\end{lstlisting}
+
+% ==============================================================================
+% REFERENCES
+% ==============================================================================
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
+
+% Batch 29 Path A: exact canonical Table I representation.
+\setcounter{table}{14}
+\input{tables/table_system_comparison}
+\label{supp:table-S15}
+
+\end{document}
+
+\input{tables/table_baseline_specifications}
+
+\input{tables/table_temporal_leakage_compact}
+
+\input{tables/table_obscure_overruled_compact}
+
+\input{tables/table_external_benchmarks}
+
+\input{tables/table_retrieval_eval}
+
+\input{tables/table_citation_eval}
+
+\input{tables/table_computational_budget}
+
+\input{tables/table_temporal_update_stability}
+
+\section{Evaluation Block Provenance}
+\label{sec:supp-provenance}
+The complete evaluation-block provenance table is retained here for auditability.
+\input{tables/table_run_provenance}
+
+\input{tables/table_sensitivity_raw_vs_clamped}
+
+\input{tables/table_router_eval}
+
+\input{tables/table_casefacts_eval}
+
+\input{tables/table_clerc_eval}
+
+\section{Extended Architecture and Corpus Methods}
+\label{sec:supp-methods}
+Full implementation and corpus-method description displaced from the compressed main text:
+\section{System Architecture and Methodology}
+\label{sec:methodology}
+
+TERRA is a two-phase, closed-loop GraphRAG architecture: offline ingestion constructs the corpus and indexes, while online routing and inference perform the task-specific retrieval. This separation keeps graph traversal, citation extraction, and trace construction offline and yields a bimodal latency profile (median \TerraFastPathMedianSeconds~s for factual lookups vs. \TerraHardPathMedianSeconds~s for multi-hop chains).
+
+
+\begin{figure*}[t]
+    \centering
+    \resizebox{0.98\textwidth}{!}{\input{figure_1_system_architecture}}
+    \caption{TERRA two-phase architecture. Phase 1 (offline) constructs the Event Evolution Graph (EEG) and ChromaDB vector index from the \CorpusTotalOpinions-opinion authentic SCOTUS citation corpus. Phase 2 (online) routes user queries through a Traffic Cop Router with multi-tier domain boundary gating, performs BFS citation-graph traversal, validates context via NLI entailment, and conditionally generates grounded answers or triggers a safety refusal.}
+    \label{fig:system_architecture}
+\end{figure*}
+
+\subsection{Phase 1: Offline Ingestion and Knowledge Graph Construction}
+\label{subsec:phase1-ingestion}
+
+\subsubsection{Authentic Judicial Opinion Corpus (\CorpusTotalOpinions\ Cases)}
+To ensure legal authenticity and reflect the true topological complexity of judicial precedent, TERRA operates on a scaled corpus of \CorpusTotalOpinions\ authentic, full-text Supreme Court of the United States (SCOTUS) opinions spanning \CorpusTemporalSpan\ (Volumes 50--448). The corpus was curated from an initial harvest of 23,010 public-domain federal decisions acquired from the open CourtListener and Harvard Caselaw repositories. Under 17 U.S.C. \S~105, all federal judicial opinions are public domain. To eliminate non-precedential noise while preserving doctrinal completeness, opinions were filtered under a substantive length mandate ($\text{character count} \ge 4{,}000$). Across the \IssueTwentyTotalVolumesScanned\ scanned U.S. Reports volumes (\IssueTwentyTotalDecisionsScanned\ total decisions), \IssueTwentySubFiveHundredCharCount\ records are shorter than 500 characters (\IssueTwentySubFiveHundredCharPct, representing procedural orders, summary dispositions, and docket records, subject to audit verification). However, filtering strictly by character length induces corpus length-filtering bias: it excludes \IssueTwentyIntermediateExcludedCount\ intermediate decisions ($500$--$3{,}999$ characters, \IssueTwentyIntermediateExcludedPct), among which \IssueTwentyIntermediatePageRankGeNinetyNineFive\ rank in the top $0.5\%$ of citation authority under Harvard CAP PageRank (including procedural landmarks such as \textit{Haines v. Kerner} on pro se pleadings and \textit{United States v. Diebold, Inc.} on summary judgment inferences, competency standards such as \textit{Dusky v. United States}, tax milestones such as \textit{Lucas v. Earl}, and desegregation orders such as \textit{Sipuel v. Board of Regents} and \textit{Gayle v. Browder}). The production corpus contains zero synthetic cases ($0\%$ synthetic supplement). Within this global network, a core set of 34 landmark civil rights decisions---spanning the constitutional evolution from \textit{Dred Scott v. Sandford} (1857), through \textit{Plessy v. Ferguson} (1896), \textit{Missouri ex rel. Gaines v. Canada} (1938), \textit{Brown v. Board of Education} (1954), to \textit{Swann v. Charlotte-Mecklenburg} (1971)---serves as the primary ground-truth anchor set for benchmarking multi-hop doctrinal reasoning.
+
+\subsubsection{Citation Parsing and Directed Edge Classification}
+Inter-case legal citations embedded within opinion texts are extracted using the \texttt{eyecite} library~\cite{cushman2021eyecite}. We emphasize that \texttt{eyecite} serves strictly as a token-level citation extraction and reporter normalization utility; it establishes citation existence ($A \xrightarrow{\text{CITES}} B$) rather than inferring substantive precedential treatment, doctrinal approval, or negative authority. Citation strings are normalized via \texttt{cite.corrected\_citation()} (e.g., \snippet{347 U.S. 483}) and cross-referenced against exact opinion identifier hashes. Across \CorpusTotalOpinions\ decisions, the verified Event Evolution Graph contains \CorpusPrecedentEdges\ directed edges (\IssueTwentyOneTotalCitesEdges\ precedential \texttt{CITES} links and \IssueTwentyOneOverrulesEdges\ \texttt{OVERRULES} relations). Precedential citations strictly maintain forward chronological validity at calendar-year granularity with zero cross-year forward violations (\IssueTwentyOneCrossYearViolationsPct); \IssueTwentyOneSameYearEdges\ edges (\IssueTwentyOneSameYearEdgesPct) connect opinions within the same calendar year (including \IssueTwentyOneIntraYearReversals\ intra-year day-of-month reporting artifacts). The legacy claim of ``99.91\% chronological validity / 0.09\% noise'' has unresolved provenance in project logs (likely an unverified decimal approximation of full-date ordering, $\IssueTwentyOneStrictlyPriorDateEdges/\IssueTwentyOneTotalCitesEdges = {}$\IssueTwentyOneStrictlyPriorDatePct). A reproducible stratified audit across 14 decades ($N=\IssueTwentyOneAuditSampleN$, seed \IssueTwentyOneAuditSeed) confirms verbatim citation presence in \IssueTwentyOneAuditCitationPresentPct\ of sampled edges (95\% CI: \IssueTwentyOneAuditCitationPresentCI), with \IssueTwentyOneAuditTargetConfirmedPct\ verified direct precedential reliance (95\% CI: \IssueTwentyOneAuditTargetConfirmedCI) and \IssueTwentyOneAuditQuotationPct\ citations within third-party quotations.
+
+The graph contains \IssueTwentyOneTotalCitesEdges\ generic \texttt{CITES} edges and \IssueTwentyOneOverrulesEdges\ authoritative typed \texttt{OVERRULES} edges imported from Congressional Research Service (CRS) annotations ($A \xrightarrow{\text{OVERRULES}} B$, denoting explicit judicial abrogation of prior doctrine). The 19 Category-D pairs (e.g., \textit{Brown v. Board of Education} explicitly invalidating \textit{Plessy v. Ferguson}'s separate-but-equal doctrine) are a curated evaluation subset of those \IssueTwentyOneOverrulesEdges\ graph relations, populating the Category~D adversarial benchmark (Section~\ref{subsec:benchmark-design}) to evaluate temporal reasoning and deception defense.
+
+The resulting Event Evolution Graph (EEG) is serialized as a NetworkX directed graph (\texttt{DiGraph}) stored in \texttt{dataset\_20k\_cap/terra\_eeg\_index\_20k.json}.
+
+\subsubsection{Procedural Reasoning Trace Synthesis and Vector Serialization}
+To provide generation with structured procedural legal context rather than static text snippets alone, each case is paired with a node-level Structured Legal Reasoning Trace (SLRT), formalizing procedural case briefs grounded in Harvard Caselaw Access Project (CAP) records:
+\begin{enumerate}
+    \item \textbf{Curated Landmark Prototypes ($N=\TraceCuratedCount$):} During early system development, \TraceCuratedCount\ landmark constitutional decisions received curated procedural reasoning traces generated via instruction-tuned models (\texttt{gemini-3.1-flash-lite} baseline; \texttt{mistral.ministral-3-8b-instruct} validated variants for active benchmark seeds) at pinned temperature $T=0.0$. Traces were constrained to a 150-word ceiling and strictly followed a five-point doctrinal schema: (1) core constitutional question, (2) governing constitutional provisions and review standard, (3) central legal holding, (4) direct precedent connection (built upon, distinguished, or overruled), and (5) longitudinal doctrinal significance.
+    \item \textbf{Deterministic Procedural Substrate at Scale ($N=\TraceProceduralCount$, \TraceProceduralPct):} When scaling to the substantive \CorpusTotalOpinions-case retrieval corpus, to completely eliminate generative hallucination risk from the retrieval index, all \TraceProceduralCount\ opinions are serialized deterministically via a procedural function (\texttt{build\_structured\_trace}) parameterized directly by authenticated CAP metadata: official case title (\texttt{name\_abbreviation}), decision year (\texttt{decision\_date}), and legal subject taxonomy (\texttt{category}). This function generates a five-step analytical workflow (identifying the operative legal question under the specific domain jurisprudence, scrutinizing governing Supreme Court precedent, evaluating the factual record under appellate standards, harmonizing conflicting doctrines, and pronouncing the holding). Thus, the substantive retrieval substrate contains zero generative LLM hallucinations.
+\end{enumerate}
+
+Each vector document serializes the case title header, its SLRT (under legacy internal key \texttt{"Thinking Trace:"}), and an authentic opinion preamble snippet:
+\begin{equation}
+\begin{aligned}
+\text{Document} = \; & \texttt{\{title\} (\{year\})} \\
+& \oplus \; \texttt{"\textbackslash nThinking Trace: \{trace\}"} \\
+& \oplus \; \texttt{"\textbackslash nOpinion Snippet: \{text\_snip[:1000]\}"}
+\end{aligned}
+\label{eq:trace_doc}
+\end{equation}
+All \CorpusTotalOpinions\ documents are embedded using Sentence-Transformers (\texttt{sentence-transformers/all-MiniLM-L6-v2}~\cite{reimers2019sentencetransformers}, \TraceEmbeddingDimensions-dimensional dense vectors, normalized Euclidean $L_2$ metric) and indexed into a local ChromaDB \texttt{PersistentClient} vector store (\texttt{dataset\_20k\_cap/vector\_db\_20k}), establishing an aligned dual-index architecture.
+
+To verify evidence integrity before treating the trace store as a trusted retrieval layer, we executed an exhaustive empirical audit across all \TraceTotalNodes\ index nodes. Forensic substring verification against raw CAP casebody JSON files confirms an aggregate span grounding rate of \TraceSpanGroundingRate\ (\TraceSpanGroundingCount\ exact verbatim matches), decisively surpassing the pre-registered $\ge \TraceSpanGroundingThreshold$ acceptance floor (expected 100.0\%, with exactly \TraceSpanDiscrepanciesCount\ discrepancies, \TraceSpanDiscrepanciesPct, attributable to short historical per curiam docket orders lacking opinion text bodies in CAP). Furthermore, a dual-critic factual consistency and temporal anachronism audit across an $N=\TraceAuditSampleCount$ verification cohort---comprising a 100.0\% complete census of all curated landmark prototypes indexed in the 20,000-case graph ($N=\TraceCuratedCensusCount$, with 3 short historical per curiam orders omitted by CAP's $\ge 4,000$ character length filter) and a stratified random sample of the procedural majority ($N=\TraceStratifiedProcCount$ across all seven subject categories)---confirmed \TracePopWeightedAnachronismFreePct\ population-weighted temporal integrity (zero cited precedents post-date the target decision's ruling date; automated check $\text{decision\_date}(\text{precedent}) \le \text{decision\_date}(\text{target})$) and \TracePopWeightedFactualPct\ population-weighted factual consistency. Complete per-case landmark provenance tags, generator prompts, and audit ledgers are published in the open-source release (\texttt{docs/REASONING\_TRACE\_SPECIFICATION.md}).
+
+\subsection{Phase 2: Online Query Routing and Inference Engine}
+\label{subsec:phase2-inference}
+
+\subsubsection{Traffic Cop Router and Multi-Tier Domain Boundary Filtering}
+Incoming user queries $q$ are initially processed by the Traffic Cop Router, an SLM-driven classification module powered by Google Gemma 3 12B Instruction-tuned (\texttt{\RouterModel}) operating at temperature $T=0.0$ under structured Pydantic schema validation (\texttt{RoutingDecision}):
+\begin{equation}
+\begin{aligned}
+\text{Route}(q) = \begin{cases} 
+\text{EASY}, & \text{if } \text{Low Complexity} \land \text{In-Domain} \\
+\text{HARD}, & \text{if } \text{High Complexity} \lor \text{Out-of-Domain}
+\end{cases}
+\end{aligned}
+\label{eq:routing}
+\end{equation}
+EASY queries (e.g., single-fact decision years or case author lookups) bypass multi-hop graph expansion and route directly to the Grounded Fast Path, trading complex retrieval for a $\AblationRouterLatencySlowdownFactor\times$ operational speedup (Table~\ref{tab:ablation}) while eliminating context bloat from tangential citing precedents. As evaluated standalone in Section~\ref{subsec:router-standalone-eval} and Table~\ref{tab:router_eval}, the router achieves $\RouterAccuracy$ classification accuracy and $\RouterMacroFOne$ macro-$F_1$ across the \numUniqueQueries-query benchmark suite.
+
+To prevent hallucinations on out-of-domain topics without maintaining brittle, static allowlists, TERRA implements a multi-tier \textbf{Domain Boundary Safety Framework} structured across three defense-in-depth layers:
+\begin{enumerate}
+    \item \textbf{Tier 1: Lexical Title Matching:} Extracts indexed landmark case titles from the active NetworkX EEG nodes and checks whether $q$ contains an exact title substring.
+    \item \textbf{Tier 2: Optional Geometric Pre-Filter (Scale-Dependent):} Evaluates the L2 embedding distance $d_{L2}$ of the nearest ChromaDB reasoning trace against an empirical boundary threshold:
+    \begin{equation}
+    d_{L2}(q, v_{\text{nearest}}) < 1.3
+    \label{eq:l2threshold}
+    \end{equation}
+    Crucially, embedding distance does not prove legal validity or domain membership; rather, it functions strictly as an optional coarse pre-filter to conserve retrieval and grading compute on obvious out-of-domain inputs while maintaining zero false refusals on valid constitutional queries. Empirical auditing on the \CorpusTotalOpinions-case substantive index (Table~\ref{tab:computational_budget}, Panel~B) establishes that in-domain legal queries cluster tightly (mean $0.365 \pm 0.082$, max $0.509$), allowing $\tau = 1.30$ to achieve zero false refusal (\TerraGateFPRTauOneThreeZero, \TerraGateFPRCountTauOneThreeZero) while intercepting \TerraGateTPRTauOneThreeZero\ (\TerraGateTPRCountTauOneThreeZero) of out-of-domain probes prior to retrieval.
+    \item \textbf{Tier 3: Semantic Entailment Verification (Primary Safeguard):} Because geometric proximity alone cannot verify semantic authority or prevent doctrinal misapplication, the primary empirical safeguard is enforced downstream by the autonomous NLI Smart Grader. If retrieved legal subgraphs fail logical entailment across two expansion attempts, generation terminates deterministically in a safety refusal, designed to systematically intercept out-of-domain queries passing Tier~2 before answer synthesis.
+\end{enumerate}
+
+Within this multi-tier verification framework, a \textit{fatal constraint violation} is formally defined as generating an affirmative, factual-sounding response that validates an overruled legal doctrine, misattributes controlling constitutional authority, or credulously adopts a legally impossible premise embedded within an adversarial prompt (Category D). Conversely, a \textit{false refusal} is formally defined as issuing an unwarranted epistemic refusal on an in-domain factual lookup query (Category A) where controlling historical precedent is fully present and unambiguous in the corpus.
+
+\subsubsection{Multi-Hop Citation Graph Traversal}
+For HARD-routed queries requiring legal synthesis, retrieval proceeds via a coordinated vector-graph traversal:
+\begin{enumerate}
+    \item \textbf{Seed Retrieval and Error Propagation Insulation:} ChromaDB retrieves top-$k$ (initialized to $k=2$) reasoning trace vectors matching $q$, establishing initial entry seed nodes $V_{\text{seed}}$. Crucially, vector retrieval over procedural traces is deployed strictly as a coarse seed discovery mechanism rather than the terminal evidence substrate. Downstream precedent discovery is governed by topological citation graph traversal ($G_{\text{EEG}}$) and substantive holding injection (Section~\ref{subsec:retrieval-quality}), structurally insulating generative synthesis from vector seeding inaccuracies: while dense vector seeding alone achieves only $\CatBFlatMacroNodeRecall$ precedent node recall and $\CatBFlatFullPathRecall$ path recovery, two-hop citation traversal lifts precedent recall to $\CatBTerraMacroNodeRecall$ (\TraceTopologicalAbsLift, \TraceTopologicalRelMultiplier\ relative multiplier) and path recovery to $\CatBTerraFullPathRecall$ (\TracePathAbsLift, \TracePathRelMultiplier\ multiplier). Before context compilation reaches the generator, the NLI Smart Grader enforces semantic entailment boundaries, intercepting unentailed or deceptive retrieved traces ($100.0\%$ clean handling on Category~C and $97.3\%$ safe handling on Category~D).
+    \item \textbf{BFS Traversal with Hub Capping:} Starting from $V_{\text{seed}}$, Breadth-First Search (BFS) traverses the EEG up to depth $d=2$ across both predecessors and successors:
+    \begin{equation}
+    \mathcal{C}(q) = V_{\text{seed}} \cup \bigcup_{v \in V_{\text{seed}}} \text{BFS}(v, G_{\text{EEG}}, d=2)
+    \label{eq:bfs}
+    \end{equation}
+    To prevent super-hub nodes (e.g., cases with degree $>50$) from flooding the context, hub expansion is dynamically capped. Traversed node summaries and topological trajectories are compiled chronologically into a unified evidence block $\mathcal{C}(q)$.
+\end{enumerate}
+
+\subsubsection{NLI Smart Grader and Self-Correction Expansion Loop}
+\label{subsubsec:terra-nli-grader}
+Before answer generation, context $\mathcal{C}(q)$ is evaluated by an autonomous NLI Smart Grader. The Smart Grader is implemented as a structured-prompt LLM call to \texttt{databricks-meta-llama-3-3-70b-instruct}~\cite{dubey2024llama3} (temperature $T=0.0$), presented with the user query and retrieved legal context, and instructed to output a JSON object with fields \texttt{entails}~(boolean), \texttt{confidence\_score}~(float), and \texttt{reasoning}~(string). The Smart Grader operates as a specialized verification prompt on the primary 70B parameter model at $T=0.0$, while front-line complexity routing is decoupled into the independent 12B parameter Gemma 3 SLM (\texttt{\RouterModel}), enabling lightweight single-API-call verification without deploying a separate specialized NLI cross-encoder (e.g., DeBERTa~\cite{he2023debertav3}). No independent labeled validation set was constructed for the NLI verifier; the primary empirical evidence of its reliability is the ablation result: removing the entailment gate (Ablation~2, Table~\ref{tab:ablation}) causes adversarial safety rejection to collapse from \AblationFullCatDSafetyRate\ to \AblationTwoCatDSafetyRate, confirming that the gate is the operative safety mechanism. False-non-entailment errors (insufficient context incorrectly passed to the generator) constitute the principal unquantified failure mode; we identify this as a limitation (Section~\ref{subsec:limitations}) and a target for future validation with a labeled entailment test set. The Smart Grader operates with structured JSON validation as follows:
+\begin{itemize}
+    \item \textbf{Entailment Verified (\texttt{entails == True}):} The verified context is forwarded directly to the generator.
+    \item \textbf{Entailment Failed (\texttt{entails == False}):} The engine triggers an autonomous \textbf{Self-Correction Expansion Loop}. Retrieval breadth expands ($k \leftarrow k + 2$), ChromaDB is re-queried, and BFS traversal re-executes over the wider citation neighborhood.
+    \item \textbf{Double Failure Termination:} If entailment fails after two expansion attempts, the \textbf{Safety Refusal Firewall} halts generation, outputting a deterministic refusal: \textit{``I apologize, but I do not have sufficient validated legal context in my databases to answer this query accurately without risking hallucination.''}
+\end{itemize}
+
+\subsubsection{Data Leakage Mitigation Framework}
+\label{subsubsec:data-leakage}
+In legal temporal GraphRAG, data leakage represents a major methodological failure mode. TERRA implements four strict safeguards:
+\begin{enumerate}
+    \item \textbf{Temporal Directionality and Precedent Inversion Protection:} In legal precedent networks, an earlier case cannot cite future jurisprudence. Directed EEG edges enforce chronological integrity: forward \texttt{CITES} edges strictly require $t(v_{\text{cite}}) \ge t(v_{\text{cited}})$. Retrospective invalidations are evaluated via authoritative \texttt{OVERRULES} relations imported from CRS annotations (Section~\ref{subsec:phase1-ingestion}) rather than unrestricted backward edges, preventing the retriever from anachronistically projecting modern legal standards onto historical inquiries.
+    \item \textbf{Vector Store Contamination Isolation:} Benchmark test queries, evaluation rubrics, and reference answers are strictly segregated from the retrieval index. ChromaDB contains exclusively authentic opinion text and procedural reasoning traces; zero evaluation queries or answers exist in the vector database.
+    \item \textbf{Cross-Domain Feature Bleed Prevention:} Out-of-domain concepts are prevented from contaminating generated answers through a defense-in-depth hierarchy: title matching and scale-dependent geometric boundary gating provide initial coarse filtering, while downstream NLI entailment verification strictly suppresses non-entailed retrieved subgraphs before answer synthesis.
+    \item \textbf{Temporal Parametric Containment Firewall:} While modern foundation models encode extensive post-training parametric knowledge, historical legal reasoning requires strict fidelity to jurisprudence as of a specific temporal horizon $T$. To prevent temporal parametric leakage---wherein the generator inadvertently incorporates subsequent abrogations, modern statutory standards, or post-$T$ precedents into historical evaluations---TERRA implements a dual-layer containment firewall. First, graph traversals and retrieved opinion corpora are strictly bounded by provenance timestamps ($\text{KnowledgeProvenance} \le T$), ensuring that retrieved evidence contains no anachronistic materials. Second, candidate generations $\hat{y}_{\text{candidate}}$ are evaluated by an entailment-based NLI gate against contemporaneous opinion evidence prior to output release. As demonstrated in Section~\ref{subsec:temporal-leakage}, this mechanism intercepts anachronistic doctrine and ungrounded hallucinations, reducing operative temporal leakage while preserving historical correctness without requiring costly model retraining or fine-tuning.
+\end{enumerate}
+
+\subsubsection{Explainable AI (XAI) and Topological Provenance}
+\label{subsubsec:xai-provenance}
+Transparent reasoning paths are essential in judicial AI research, particularly where legal conclusions must be traceable to cited authority. TERRA enforces four distinct explainability layers:
+\begin{enumerate}
+    \item \textbf{Graph Traversal Provenance:} Every synthesized answer is rooted in an explicit multi-hop citation path $\mathcal{P} = \langle v_1, e_1, v_2, \dots, v_k \rangle$ traversed through the EEG, providing a full legal audit trail from landmark anchor to modern precedent.
+    \item \textbf{Dynamic Hyperlinked Attribution:} In generated answers, referenced cases possessing indexed node identifiers are dynamically formatted as interactive relative markdown links (e.g., \texttt{[Brown v. Board of Education](/case/347\_0483-01)}), enabling instant auditability against primary legal texts. Across benchmark completions, TERRA emitted \TerraTotalMarkdownLinks\ interactive markdown links with a \TerraMarkdownLinkResolutionRate\ corpus resolution rate (\TerraResolvedMarkdownLinks/\TerraTotalMarkdownLinks) and \TerraMarkdownLinkFidelityRate\ semantic title fidelity (evaluated standalone in Section~\ref{subsec:citation-correctness} and Table~\ref{tab:citation_eval}), while comparative baselines emit zero interactive links.
+    \item \textbf{NLI Entailment Transparency:} The Smart Grader outputs structured qualitative justifications (\texttt{faithfulness\_reasoning} and \texttt{confidence\_score}), detailing why retrieved context is legally sufficient or deficient.
+    \item \textbf{Routing Decision Transparency:} The Traffic Cop emits explicit reasoning strings explaining the classification into the EASY or HARD execution path.
+\end{enumerate}
+
+\subsubsection{Grounded Answer Generation}
+When context passes NLI grading, the final answer is generated by \texttt{databricks-meta-llama-3-3-70b-instruct}~\cite{dubey2024llama3} under a strict grounding instruction. Generation temperature is pinned to:
+\begin{equation}
+T = 0.0
+\label{eq:temperature}
+\end{equation}
+enforcing greedy decoding ($T=0.0$). We note that remote hosted inference APIs may exhibit minor output variability across serving sessions, even at $T=0.0$ (Section~\ref{subsec:limitations}, Limitation~\ref{item:hosted-api-determinism}).
+
+\subsection{Implementation Details}
+\label{subsec:implementation-details}
+The research prototype is implemented in Python 3.11 using \texttt{openai}, \texttt{chromadb}, \texttt{networkx}, and \texttt{fastapi}. Online execution is served via a FastAPI/Uvicorn endpoint with an in-memory query cache. Telemetry logging captures per-request routing latency, NLI confidence, and firewall status into \texttt{terra\_telemetry\_traces.json}.
+
+
+
+\section{Dataset and Corpus Analysis}
+\label{sec:dataset-analysis}
+
+To validate the structural and topological integrity of the Event Evolution Graph (EEG), we perform network analysis on the pre-built dual-index corpus. This section outlines the corpus composition, topological graph metrics, and centrality hub properties.
+
+\subsection{Corpus Statistics and Doctrinal Taxonomy}
+\label{subsec:corpus-stats}
+The indexed legal knowledge base contains \CorpusTotalOpinions\ authentic substantive judicial opinions connected by \CorpusPrecedentEdges\ directed citation edges across \CorpusTemporalSpan\ (Volumes 50--448), partitioned across seven doctrinal categories. To structure graph traversal and domain-routed retrieval, each opinion is assigned to exactly one mutually exclusive primary doctrinal domain via an automated deterministic rule-based taxonomy comprising an exact \IssueTwentyTwoTotalLexiconPhrases-phrase legal lexicon across six substantive domains: Substantive Private Law (\IssueTwentyTwoSubstantivePrivateLawPhrases\ phrases, \IssueTwentyTwoSubstantivePrivateLawCorpus\ opinions, \IssueTwentyTwoSubstantivePrivateLawCorpusPct), Administrative Law and Federal Courts (\IssueTwentyTwoAdminLawPhrases\ phrases, \IssueTwentyTwoAdminLawCorpus\ opinions, \IssueTwentyTwoAdminLawCorpusPct), Criminal Procedure (\IssueTwentyTwoCriminalProcedurePhrases\ phrases, \IssueTwentyTwoCriminalProcedureCorpus\ opinions, \IssueTwentyTwoCriminalProcedureCorpusPct), Commerce Clause and Economic Regulation (\IssueTwentyTwoCommerceClausePhrases\ phrases, \IssueTwentyTwoCommerceClauseCorpus\ opinions, \IssueTwentyTwoCommerceClauseCorpusPct), Civil Rights and Equal Protection (\IssueTwentyTwoCivilRightsPhrases\ phrases, \IssueTwentyTwoCivilRightsCorpus\ opinions, \IssueTwentyTwoCivilRightsCorpusPct), and First Amendment (\IssueTwentyTwoFirstAmendmentPhrases\ phrases, \IssueTwentyTwoFirstAmendmentCorpus\ opinions, \IssueTwentyTwoFirstAmendmentCorpusPct). 
+
+The seventh domain, General Constitutional and Statutory (\IssueTwentyTwoGeneralConstitutionalCorpus\ opinions, \IssueTwentyTwoGeneralConstitutionalCorpusPct), functions as an unkeyed residual fallback category assigned strictly when an opinion contains zero substantive keyword hits across all six explicit lexicons. Positive-score ties between substantive domains are resolved deterministically by documented dictionary insertion order; ties never assign the residual fallback category. In addition to mutually exclusive primary domain partitioning, opinions independently support secondary multi-label doctrinal tags capturing multidimensional jurisprudence.
+
+To audit taxonomy quality without circularity or manual inflation, we evaluated a stratified sample of $N=\IssueTwentyTwoTotalSampleN$ opinions (\IssueTwentyTwoBaselineSampleN\ baseline stratified cases and \IssueTwentyTwoEdgeSampleN\ edge cases: \IssueTwentyTwoTieSampleN\ ties, \IssueTwentyTwoMultiTagSampleN\ multi-tag cases, and \IssueTwentyTwoFallbackSampleN\ residual fallback cases; random seed \IssueTwentyTwoSamplingSeed). Validation was conducted using two independent automated evaluators: Judge~A (a deterministic statutory/constitutional parser scanning opinion texts and official headnotes) and Judge~B (\texttt{databricks-gpt-oss-120b} with logged fallback to \texttt{databricks-qwen3-next-80b-a3b-instruct}; zero LLaMA calls). Inter-evaluator agreement yielded raw agreement of \IssueTwentyTwoIEARawAgreement\ (Cohen's $\kappa = \IssueTwentyTwoIEACohensKappa$). Disagreements and edge cases were adjudicated by a third independent automated adjudicator, Judge~C (\IssueTwentyTwoAdjudicatorModel), evaluated strictly blinded to the assigned taxonomy and prior evaluator votes, with strictly zero endpoint overlap with Judge~B (\IssueTwentyTwoAdjudicatorOverlapCount/\IssueTwentyTwoTotalSampleN). We explicitly disclose that this protocol represents automated model adjudication and parser evaluation, not human legal-expert validation. Against this independent model-derived reference adjudication standard, the primary-domain taxonomy achieves a Horvitz-Thompson prevalence-weighted accuracy of \IssueTwentyTwoHorvitzThompsonAccuracy\ (SE: \IssueTwentyTwoHorvitzThompsonSE, 95\% CI: \IssueTwentyTwoHorvitzThompsonCI). Across the complete \IssueTwentyTwoTotalSampleN-case audit, the taxonomy exhibits \IssueTwentyTwoStrictCoherentPct\ strict coherence (\IssueTwentyTwoStrictCoherentCount/\IssueTwentyTwoTotalSampleN), \IssueTwentyTwoPartialCoherentPct\ partial alignment (\IssueTwentyTwoPartialCoherentCount/\IssueTwentyTwoTotalSampleN), yielding an overall substantively grounded rate of \IssueTwentyTwoSubstantivelyGroundedPct\ (\IssueTwentyTwoSubstantivelyGroundedCount/\IssueTwentyTwoTotalSampleN), with \IssueTwentyTwoIncoherentPct\ incoherent classifications (\IssueTwentyTwoIncoherentCount/\IssueTwentyTwoTotalSampleN). In edge-case strata, tie resolution achieved \IssueTwentyTwoTieAccuracy\ coherence, secondary multi-label tagging reached \IssueTwentyTwoMultiTagPrecision\ precision, \IssueTwentyTwoMultiTagRecall\ recall (F1 score \IssueTwentyTwoMultiTagFOne), and residual fallback assignment exhibited \IssueTwentyTwoFallbackValidityPct\ validity as an unkeyed default. Table~\ref{tab:corpus_stats} (Panel~A) summarizes corpus composition and substantive domain coverage across the complete graph structure.
+
+\begin{table*}[t]
+\caption{TERRA Event Evolution Graph (EEG) Corpus Statistics, Doctrinal Taxonomy, and Network Topological Properties. Panel~A reports the 7-domain primary partition of authentic SCOTUS opinions (\CorpusTemporalSpan). Panel~B reports network topological metrics computed over the directed citation graph (\CorpusTotalOpinions\ nodes, \CorpusPrecedentEdges\ edges).}
+\label{tab:corpus_stats}
+\label{tab:graph_metrics}
+\centering
+\resizebox{0.98\textwidth}{!}{%
+\begin{tabular}{lcp{4.5cm}|lc}
+\toprule
+\multicolumn{3}{c|}{\textbf{Panel A: Doctrinal Taxonomy and Substantive Domain Coverage}} & \multicolumn{2}{c}{\textbf{Panel B: Graph Topological Properties}} \\
+\midrule
+\textbf{Doctrinal Domain} & \textbf{Opinions} & \textbf{Substantive Coverage (\CorpusTemporalSpan)} & \textbf{Metric} & \textbf{Value} \\
+\midrule
+Substantive Private Law & \CorpusPrivateLawOpinions & Patents, Tax, Admiralty, Commercial Contracts & Total Nodes ($|V|$) & \CorpusTotalOpinions \\
+General Constitutional\textsuperscript{*} & \CorpusGeneralConstitutionalOpinions & Separation of Powers, Judicial Review, Supremacy & Total Edges ($|E|$) & \CorpusPrecedentEdges \\
+Administrative Law & \CorpusAdminLawOpinions & Regulatory Agencies, Federal Jurisdiction, Procedure & Graph Density ($\rho$) & \CorpusGraphDensity \\
+Criminal Procedure & \CorpusCriminalProcedureOpinions & 4th, 5th, 6th, and 8th Amendment Jurisprudence & Mean Node Degree ($\bar{k}$) & \CorpusMeanNodeDegree \\
+Commerce Clause & \CorpusCommerceClauseOpinions & Interstate Commerce, Economic Regulation, Antitrust & Maximum Degree (\CorpusMaxDegreeCase) & \CorpusMaxDegree \\
+Civil Rights & \CorpusCivilRightsOpinions & Equal Protection, Due Process, Voting Rights Core & Average Clustering Coefficient ($C$) & \CorpusAverageClustering \\
+First Amendment & \CorpusFirstAmendmentOpinions & Free Speech, Press, Exercise, Establishment Clause & Graph Diameter ($d_{\text{max}}$) & \CorpusGraphDiameter\ hops \\
+\midrule
+\textbf{Total Opinions ($|V|$)} & \textbf{\CorpusTotalOpinions} & 100\% Authentic Substantive Opinions (0 Procedural) & Average Shortest Path Length ($L$) & \CorpusAvgShortestPath\ hops \\
+\textbf{Citation Edges ($|E|$)} & \textbf{\CorpusPrecedentEdges} & Directed Precedent Links (\IssueTwentyOneAuditTargetConfirmedPct\ Direct Precision, 0 Cross-Year Violations) & Largest WCC & \CorpusLargestComponentSize\ (\CorpusLargestWccPercent) \\
+\multicolumn{3}{c|}{} & Largest SCC & \CorpusLargestSccSize \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{1mm}
+\raggedright \footnotesize{\textsuperscript{*}Primary-domain partition: Each opinion is assigned to exactly one mutually exclusive primary domain via a deterministic \IssueTwentyTwoTotalLexiconPhrases-phrase rule-based lexicon, with \texttt{general\_constitutional\_statutory} serving as the residual fallback category for decisions with zero substantive keyword hits (\IssueTwentyTwoGeneralConstitutionalCorpus\ opinions, \IssueTwentyTwoGeneralConstitutionalCorpusPct). Opinions independently support secondary multi-label doctrinal tags.}
+\end{table*}
+
+\subsection{Graph Topology Analysis}
+\label{subsec:graph-topology}
+The EEG exhibits a sparse topology with high-degree authority hubs and a heavy-tailed empirical degree distribution, consistent with judicial citation networks. The largest weakly connected component (WCC) spans \CorpusLargestComponentSize\ out of \CorpusTotalOpinions\ nodes (\CorpusLargestWccPercent\ coverage), confirming robust macro-level graph connectivity and ensuring that multi-hop retrieval paths remain navigable across historical eras. Table~\ref{tab:graph_metrics} (Panel~B) details the network metrics computed via the \texttt{graph\_analytics} module.
+
+The graph diameter of \CorpusGraphDiameter\ hops with an average shortest path length of \CorpusAvgShortestPath\ hops across the \CorpusLargestComponentSize-node component demonstrates compact topological reachability across federal appellate history. This confirms that setting the BFS graph traversal depth to $d=2$ in Phase 2 effectively captures dense local citation neighborhoods without flooding the context window with distant nodes.
+
+\subsection{Hub Node Centrality Analysis}
+\label{subsec:hub-analysis}
+Betweenness centrality ($C_B$) measures the extent to which a case node lies on the shortest paths between other pairs of cases, identifying structural bridge cases in legal history:
+\begin{equation}
+C_B(v) = \sum_{s \neq v \neq t} \frac{\sigma_{st}(v)}{\sigma_{st}}
+\label{eq:betweenness}
+\end{equation}
+where $\sigma_{st}$ is the total number of shortest paths from node $s$ to node $t$ and $\sigma_{st}(v)$ is the number of those paths that pass through $v$.
+
+\phantomsection\label{fig:hub_centrality}Betweenness centrality distributions and top-5 hub opinion authority curves across the \CorpusTotalOpinions-case precedent network are plotted in Supplementary Figure~S1.
+
+As plotted in Supplementary Figure~S1, betweenness centrality analysis on the \CorpusTotalOpinions-node EEG identifies \textit{Simpson v. Shepard} ($C_B = 0.0043$), \textit{Fay v. Noia} ($C_B = 0.0036$), \textit{Ashwander v. Tennessee Valley Authority} ($C_B = 0.0033$), \textit{Crowell v. Benson} ($C_B = 0.0032$), and \textit{Dahnke-Walker Milling Co. v. Bondurant} ($C_B = 0.0032$) as the primary structural bridges in the citation network. High-degree hubs such as \CorpusMaxDegreeCase\ (degree \CorpusMaxDegree), \textit{Baker v. Carr} (degree 245), \textit{Crowell v. Benson} (degree 213), \textit{Nebbia v. New York} (degree 211), and \textit{Fay v. Noia} (degree 204) function as critical statutory and constitutional cross-roads linking disparate doctrinal lines across the historical graph.
+
+
+
+
+\section{Extended External Results and Retrieval Audits}
+\label{sec:supp-extended-results}
+Unabridged external-result narratives displaced from the compressed main text; values are unchanged:
+\subsection{Adversarial Generalization Under Weak Parametric Memory: Obscure Overruled Precedents}
+\label{subsec:obscure-generalization}
+Table~\ref{tab:obscure_overruled_eval} reports the obscure suite (Section~\ref{subsec:benchmark-design}).
+% Table retained in supplementary inventory.
+\paragraph{Parametric collapse.} Direct LLM safely handled \ObscDirectSafeSummary\ of the obscure queries, with \ObscDirectFatalAff\ answers affirming the overruled rule as current law and \ObscDirectFatalUnw\ reciting it without warning, compared with \ObscCrossDirectFamousSafe\ on the famous Category~D1 subset (descriptive Fisher $p\,\ObscCrossDirectFisherPRel$). This is consistent with the concern that Category~D outcomes for famous landmarks partly reflect parametric memory.
+\paragraph{Preregistered primary test.} TERRA-Unlabeled versus Flat Vector RAG was not rejected (discordant pairs $b=\ObscPrimaryDiscordantB$, $c=\ObscPrimaryDiscordantC$; exact McNemar $p\,\ObscPrimaryMcNemarPRel$; gate \ObscPrimaryGate), so the fixed-sequence procedure leaves all secondary contrasts unconfirmed.
+\paragraph{Source of the advantage.} Descriptively, Full TERRA exceeded TERRA-Unlabeled ($b=\ObscSecFullVsUnlabeledB$, $c=\ObscSecFullVsUnlabeledC$; exact $p\,\ObscSecFullVsUnlabeledPRel$). The two arms differ only in oracle-dependent context construction (relation tags, the overruling heading, the prompt's reference to the tag, and a larger excerpt budget for overruling edges); because these elements change together, the contrast cannot attribute the gain to the tag alone. We read the result as showing that TERRA's safety on obscure precedents depends on curated overruling annotations available to the system, not that unlabeled traversal fails: with $N=\ObscCohortSize$ the study cannot distinguish TERRA-Unlabeled from Flat Vector RAG.
+\paragraph{Robustness.} The magnitude depends on the judge: Judge~1 scored Full TERRA at \ObscJudgeOneFullSafePct\ and TERRA-Unlabeled at \ObscJudgeOneUnlabeledSafePct\ (primary $p\,\ObscJudgeOnePrimaryPRel$), Judge~2 scored \ObscJudgeTwoFullSafePct\ and \ObscJudgeTwoUnlabeledSafePct\ (primary $p\,\ObscJudgeTwoPrimaryPRel$), and the combined severity rule tracks the stricter judge. The primary contrast is non-significant under both. Excluding items with empty TERRA context ($N=\ObscSubsetEmptyContextN$) gives primary $p\,\ObscSubsetEmptyContextPRel$ and Full TERRA \ObscSubsetEmptyContextFullSafePct; excluding items whose context lacks the overruler ($N=\ObscSubsetOverrulerMissingN$), $p\,\ObscSubsetOverrulerMissingPRel$ and \ObscSubsetOverrulerMissingFullSafePct; explicit-overrule items only ($N=\ObscSubsetExplicitOverruleN$), $p\,\ObscSubsetExplicitOverrulePRel$ and \ObscSubsetExplicitOverruleFullSafePct.
+\paragraph{Cross-suite contrast (descriptive).} Full TERRA's safe handling was \ObscCrossFullObscureSafe\ on obscure precedents versus \ObscCrossFullFamousSafe\ on the famous subset (risk difference \ObscCrossFullRiskDiff, 95\% CI \ObscCrossFullNewcombeCI); Direct LLM and TERRA-Unlabeled fell from \ObscCrossDirectFamousSafe\ and \ObscCrossUnlabeledFamousSafe\ to \ObscCrossDirectObscureSafe\ and \ObscCrossUnlabeledObscureSafe. With $N=\ObscFamousCohortSize$ and $N=\ObscCohortSize$ these contrasts are descriptive; a non-significant difference does not establish invariance. The famous-subset rates use a stricter dual-judge rubric on nineteen items and are not comparable to the \TerraCatDSafeHandlingRate\ safe-handling rate of Table~\ref{tab:refusal_breakdown}.
+\paragraph{Reliability.} Inter-judge agreement was Cohen's $\kappa=\ObscKappa$ over \ObscKappaCleanEvals\ judgments; evidence quotes could not be verified verbatim for \ObscQwenUnverifiedQuotes\ (Judge~1) and \ObscGptOssUnverifiedQuotes\ (Judge~2) judgments, with labels retained. Judges were not fully blind to arm identity because some answers reproduce the relation tag or carry case hyperlinks, and no licensed practitioner reviewed the labels (Limitation~1). A blinded spot-check by one author (not a licensed practitioner) of \ObscSpotN\ items stratified by judge disagreement, primary-test discordance and random selection matched the combined class on \ObscSpotAgreeMatch\ of \ObscSpotAgreeN\ items where the judges agreed but on only \ObscSpotDisagreeMatch\ of \ObscSpotDisagreeN\ where they disagreed. All \ObscSpotMismatchN\ combined-class mismatches rated the answer safer than the severity rule did (Full TERRA \ObscSpotMismatchFull, Flat Vector RAG \ObscSpotMismatchFlat, Direct LLM \ObscSpotMismatchDirect, TERRA-Unlabeled \ObscSpotMismatchUnlabeled), so the rule is conservative but not uniformly across arms, which may affect arm contrasts; the check is not a validation of either judge.
+
+\subsection{External Benchmark Generalization and Anti-Circularity Audit (CaseFacts)}
+\label{subsec:casefacts-generalization}
+
+While the canonical \numUniqueQueries-query benchmark rigorously probes multi-hop temporal evolution within indexed Supreme Court jurisprudence, evaluating exclusively on researcher-constructed queries introduces potential risks of circular alignment or latent benchmark overfitting. To establish out-of-distribution empirical validity, we evaluate TERRA against an independent, third-party benchmark: \textbf{CaseFacts} \cite{putta2026casefactsbenchmarklegalfactchecking}, a legal fact-checking dataset constructed from U.S. Supreme Court decisions by an external research team.
+
+\subsubsection{Anti-Circularity and Graph Substrate Audit}
+To formally falsify the hypothesis of circular alignment between graph construction and benchmark evaluation, we executed an exhaustive topological audit of the 20,000-opinion Event Evolution Graph:
+\begin{itemize}
+    \item \textbf{Curated Backbone Seed Density vs. Canonical Benchmark Footprint:} We draw a fundamental scientific distinction between corpus-construction seed density and benchmark query footprint. During offline graph construction, exactly $34$ landmark decisions out of the $20,000$-node corpus ($\CaseFactsSeedDensity$, $\CaseFactsSeedDensityRaw$) received curated procedural reasoning traces. In contrast, the canonical 350-query benchmark touches a total footprint of $284$ distinct nodes ($\CaseFactsFootprintDensity$, $\CaseFactsFootprintNodes$) across its target cases and multi-hop paths (100 in Category A, 151 in Category B, 0 in Category C, and 58 in Category D, with 25 nodes of multi-category overlap). Consequently, $\mathbf{\CaseFactsUntouchedSubstrate}$ of the graph substrate ($\CaseFactsUntouchedNodes$ nodes) remained completely unvisited during canonical evaluation.
+    \item \textbf{External Precedent Curation Provenance:} The 19 curated landmark overrulings encoded in the backbone are a strict subset ($19 \subset 56$) of the landmark overruling decisions cataloged by the official Congressional Research Service (CRS) \textit{Constitution Annotated}, confirming that curation reflects established constitutional history rather than benchmark-fitted selections.
+    \item \textbf{Hop-Length Invariance:} Topological analysis of Category B multi-hop paths confirms that traversal depth reflects natural citation diameter rather than artificial tuning: 63 paths require 3 hops, 32 require 4 hops, and 5 require 5 hops, with invariant relative performance across hop lengths.
+\end{itemize}
+
+\subsubsection{Standardized External Splits and Protocol Parity}
+From the complete CaseFacts repository, we established two standardized, auditable evaluation splits:
+\begin{enumerate}
+    \item \textbf{Track 1: In-Corpus Precedent Classification Benchmark ($N=\CaseFactsTrackOneN$):} Comprises 67 Supported claims (true historical holdings), 45 Refuted claims (inverted or false holdings), and 8 Overruled claims (doctrinally invalidated precedents) anchored in pre-1980 decisions ($1850 \le T \le 1980$).
+    \item \textbf{Track 2: Dedicated Modern Refusal Control ($N=\CaseFactsTrackTwoN$):} Comprises 50 modern Supreme Court decisions decided between 1982 and 2023 (e.g., \textit{Citizens United v. FEC}, \textit{United States v. Windsor}, \textit{Fulton v. City of Philadelphia}, \textit{Epic Systems Corp. v. Lewis}), rigorously testing whether systems exercise epistemic refusal on out-of-corpus law.
+\end{enumerate}
+
+All 510 evaluations ($360$ Track 1, $150$ Track 2 across Direct LLM, Flat Vector RAG, and Full TERRA) were executed under strict payload parity ($T=0.0$, max tokens 4096, identical LLaMA 3.3 70B generator) and evaluated by independent, non-LLaMA dual judges (\texttt{qwen3-next-80b-a3b-instruct} and \texttt{gpt-oss-120b}). Evaluators achieved $100.0\%$ concordance on parsed classification labels with certified zero LLaMA fallback contaminations.
+
+% Table retained in supplementary inventory.
+
+\subsubsection{Empirical Findings: In-Corpus Precedent Verification (Track 1)}
+As reported in Table~\ref{tab:casefacts_eval} (Panel~A.1), Full TERRA demonstrates decisive generalization advantages on external precedent verification:
+\begin{itemize}
+    \item \textbf{Macro-$F_1$ Gains:} Full TERRA achieves $\mathbf{\CaseFactsTerraMacroFOne}$ Macro-$F_1$, outperforming Flat Vector RAG ($\CaseFactsFlatMacroFOne$, a $\CaseFactsTerraLiftFlat$ lift) and Direct LLM ($\CaseFactsDirectMacroFOne$, a $\CaseFactsTerraLiftDirect$ lift). This advantage persists despite TERRA's NLI entailment gate converting 25 borderline in-corpus queries into out-of-corpus safety refusals when retrieved context was legally incomplete.
+    \item \textbf{Overruled Class Diagnostic Recall ($n=8$):} In strict compliance with Fix 1, the Overruled class is evaluated as a diagnostic finding with exact Clopper-Pearson 95\% confidence intervals rather than an unconstrained headline metric. Full TERRA correctly identifies $\mathbf{\CaseFactsTerraOverruled}$ Overruled cases (accuracy $50.0\%$, 95\% CI: $\CaseFactsTerraOverruledCI$), double the recall of Flat Vector RAG ($\CaseFactsFlatOverruled$, 95\% CI: $\CaseFactsFlatOverruledCI$) and Direct LLM ($\CaseFactsDirectOverruled$, 95\% CI: $\CaseFactsDirectOverruledCI$).
+    \item \textbf{Topological Edge Nuance and Non-Recall Audit:} Graph verification confirms that 2 of the 8 pairs (\textit{Wolf $\to$ Mapp}, \textit{Olmstead $\to$ Katz}) possess direct \texttt{OVERRULES} edges in the EEG, while 6 pairs reflect in-graph citation paths and doctrinal succession. Forensic auditing of the 4 non-recalled Overruled cases demonstrates that none resulted from citation fabrication or hallucination: 2 were safely intercepted by the NLI entailment gate (\textit{Plessy}, \textit{Schenck}) due to incomplete contextual entailment; 1 was a defensible label discordance under 5/5 faithful citations (\textit{Cicenia v. Lagay}, where the model accurately proved the proposition was refuted by \textit{Miranda}); and 1 was an EEG retrieval depth limitation (\textit{Chimel v. California}, where the modifying overruling authority \textit{United States v. Robinson} lay beyond the 2-hop traversal boundary; Section~\ref{subsec:limitations}).
+\end{itemize}
+
+\subsubsection{Empirical Findings: Modern Refusal Control and Hallucination Suppression (Track 2)}
+On Track 2 (Table~\ref{tab:casefacts_eval}, Panel~A.2), Full TERRA establishes complete epistemic safety on out-of-corpus jurisprudence:
+\begin{itemize}
+    \item \textbf{100\% Out-of-Corpus Discrimination:} TERRA correctly classifies $\mathbf{\CaseFactsTerraRefusalTrackTwo}$ ($100.0\%$) of modern cases as out-of-corpus, outperforming Flat Vector RAG ($\CaseFactsFlatRefusalTrackTwo$, $92.0\%$) and Direct LLM ($\CaseFactsDirectRefusalTrackTwo$, $80.0\%$).
+    \item \textbf{Dual Refusal Modality:} Of the 50 queries, $\CaseFactsTerraHardRefusalTrackTwo$ ($92.0\%$) were short-circuited directly by the NLI entailment gate into safety refusals, while $\CaseFactsTerraDisclosedTrackTwo$ ($8.0\%$) were fully disclosed historical analyses where the model explicitly noted that the target decision was post-1980, evaluated pre-1980 doctrine without anachronism, and concluded with \texttt{OUTSIDE PRECEDENT CORPUS}.
+    \item \textbf{Zero Hallucination / Zero Phantom Citations:} Forensic examination of all 50 Track 2 completions confirmed a certified $\mathbf{\CaseFactsTerraHallucinationTrackTwo}$ ($0.0\%$) hallucination rate, with zero phantom citations and zero fabricated precedents, whereas Direct LLM hallucinated substantive answers on $\CaseFactsDirectHallucinationTrackTwo$ ($20.0\%$) and Flat RAG on $\CaseFactsFlatHallucinationTrackTwo$ ($8.0\%$).
+\end{itemize}
+
+\subsection{Standardized External Benchmark Evaluation on CLERC (NAACL 2025)}
+\label{subsec:clerc-generalization}
+
+While the internal \numUniqueQueries-query benchmark rigorously isolates specific algorithmic mechanisms (Sections~\ref{subsec:safety-and-factual}--\ref{subsec:ablation-study}) and CaseFacts establishes external fact-checking and overruling recognition (Section~\ref{subsec:casefacts-generalization}), evaluating on researcher-crafted queries leaves open whether the architecture generalizes to standardized legal retrieval and generative drafting benchmarks designed by independent natural language processing teams. To address this question, we evaluate TERRA on a stratified sample of \textbf{CLERC} (\textit{Case Law Evaluation and Retrieval Corpus}; Findings of NAACL 2025) \cite{hou2024clerc}, a standardized legal benchmark constructed by Johns Hopkins University and collaborating institutions.
+
+\subsubsection{Four-Layer Scientific Evaluation Architecture}
+\label{subsubsec:four-layer-eval}
+To establish methodological clarity and prevent confounding between internal mechanism isolation, standardized retrieval benchmarks, and external generalization scope, our empirical validation adheres to a structured four-layer evaluation architecture:
+\begin{enumerate}
+    \item \textbf{Layer 1: Internal Controlled Benchmark ($N=\numUniqueQueries$):} Isolates fine-grained algorithmic mechanisms (temporal citation graphs, procedural reasoning traces, NLI entailment gate) across four controlled experimental categories (Sections~\ref{subsec:safety-and-factual}--\ref{subsec:ablation-study}).
+    \item \textbf{Layer 2: Standardized Precedent Retrieval and Generative Legal Drafting (CLERC Sample, NAACL 2025):} Evaluates general-purpose precedent case retrieval (Task 1A) and unredacted judicial analysis generation (Task 1B) on external, uncurated judicial opinions from a stratified sample of CLERC ($N=120$), complemented by an engineered out-of-corpus refusal stress test ($N=50$).
+    \item \textbf{Layer 3: External Temporal Fact-Checking and Overruling Recognition (CaseFacts, ACL 2026):} Evaluates temporal proposition classification, doctrinal overruling recognition, and anti-circularity under third-party adjudication ($N=120$ in-corpus, $N=50$ modern refusal controls; Section~\ref{subsec:casefacts-generalization}).
+    \item \textbf{Layer 4: Licensed Legal Practitioner Evaluation:} Parked as essential future work (Section~\ref{subsec:limitations}, Limitation~1) due to resource constraints; all evaluations at Layers 1--3 rely on reproducible algorithmic and non-LLaMA dual-judge protocols.
+\end{enumerate}
+
+\subsubsection{Benchmark Protocol, Provenance Hardening, and Anti-Leakage Audit}
+\label{subsubsec:clerc-protocol}
+The evaluation protocol is divided into two distinct tracks:
+\begin{itemize}
+    \item \textbf{Track 1: Standardized CLERC Precedent Retrieval and Generative Drafting Sample ($N=\ClercNQueries$):} To evaluate on external common-law contexts while maintaining reproducible execution, we extracted a stratified sample of 120 authentic pre-1980 legal drafting contexts from the 1,498 candidate instances in the CLERC test split. The sample was drawn pre-hoc (prior to observing any model outputs) with a fixed random seed (\texttt{SEED=42}), balanced equally between 60 Direct Precedent Citation queries and 60 Indirect Synthesis queries across five historical eras (1850--1880: $11.7\%$; 1881--1910: $20.0\%$; 1911--1940: $26.7\%$; 1941--1960: $21.7\%$; 1961--1980: $20.0\%$).
+    \item \textbf{Track 2: TERRA-Specific Modern and Cross-Jurisdictional Refusal Stress Test ($N=\ClercNRefusal$):} Rather than a native CLERC benchmark task, Track 2 serves as a dedicated architectural safety stress test comprising 50 negative control queries (39 post-1980 modern Supreme Court decisions and 11 non-SCOTUS federal circuit/statutory queries) to rigorously evaluate epistemic boundary enforcement and anti-hallucination guardrails under out-of-corpus pressure.
+\end{itemize}
+
+\paragraph{Provenance Audit and Seed Purge}
+To guard against latent circularity, we executed an automated cryptographic provenance audit. Out of 120 Track 1 target cases, exactly zero ($0.0\%$, 0/120) overlap with the 34 hand-curated landmark seed nodes that received bespoke reasoning traces during graph construction; all overlapping queries were purged during split generation. Track 1 evaluates on a certified $100.0\%$ uncurated graph substrate. Crucially, this exclusion specifically guarantees that evaluation is not artificially aided by the bespoke reasoning-trace seeds created during system development; it does not preclude legitimate retrieval over ordinary authentic Supreme Court opinions in the 20,000-opinion corpus, which serves as the uniform, shared knowledge substrate for all evaluated retrieval systems. As a documented limitation and scope distinction, the broader corpus-wide substantive holding extraction cascade (Tier~1 syllabi and Tier~2 headnotes covering $51.1\%$ of the 20,000 opinions) was not separately screened, as it constitutes the uniform, automated knowledge substrate available to all in-corpus GraphRAG retrievers.
+
+\paragraph{Pre-Flight Gate Smoke Test}
+Following the fatal-interception safeguards developed in prior evaluation phases, the batch harness enforces a mandatory pre-flight assertion over three known-refusal probes (Probe 1: Modern Post-1980 Authority; Probe 2: Fabricated Holding Trap; Probe 3: Non-SCOTUS Circuit Rule). The harness verifies that the NLI Smart Grader successfully short-circuits execution before launching the full evaluation batch.
+
+\paragraph{Independent Non-LLaMA Dual Judging}
+All completions across Direct LLM, Flat Vector RAG, and Full TERRA were executed under strict payload parity ($T=0.0$, max tokens 4096, identical LLaMA 3.3 70B generator) and judged by independent, non-LLaMA dual evaluators (\texttt{qwen3-next-80b-a3b-instruct} and \texttt{gpt-oss-120b}). Exact citation metrics (Citation Precision and Citation Recall) were computed via deterministic parse-tree resolution using \texttt{eyecite}.
+
+% Consolidated into Table~\ref{tab:clerc_eval} (Panel B)
+
+\subsubsection{Empirical Findings: Precedent Retrieval and Analysis Generation (Track 1)}
+As detailed in Table~\ref{tab:clerc_eval} (Panel~B.1), Full TERRA demonstrates decisive structural advantages across retrieval and generation while surfacing a clear architectural boundary in open-ended generative drafting:
+\begin{itemize}
+    \item \textbf{Precedent Retrieval Comparison (Task 1A):} On the evaluated CLERC sample, Full TERRA achieved slightly higher Recall@10 ($\ClercTerraRecallTen$ vs. $\ClercFlatRecallTen$) and nDCG@10 ($\ClercTerraNDCG$ vs. $\ClercFlatNDCG$) than Flat Vector RAG, alongside an MRR@10 of $\ClercTerraMRR$ vs. $\ClercFlatMRR$ for dense retrieval. While directional improvements are observed from chronological citation traversal and holding re-ranking, the absolute margin on single-turn benchmark queries remains modest ($\ClercTerraRecallTenDelta$ percentage points Recall@10).
+    \item \textbf{Generative Analysis and Lexical Fidelity (Task 1B):} In judicial analysis drafting, TERRA attains $\ClercTerraRougeL$ ROUGE-L and $\ClercTerraBleu$ BLEU-4, reflecting structural adherence to judicial reasoning styles without degenerating into verbatim repetition. Deterministic \texttt{eyecite} parse-tree extraction demonstrates that TERRA attains the highest Citation Precision among evaluated systems ($\text{CP} = \ClercTerraCitePrecision$, vs. $\ClercFlatCitePrecision$ for Flat Vector RAG and $\ClercDirectCitePrecision$ for Direct LLM) alongside a Citation Recall of $\text{CR} = \ClercTerraCiteRecall$ and Citation $F_1$ of $\ClercTerraCiteFOne$ (compared to Flat RAG's $\ClercFlatCiteRecall$ and Direct LLM's $\ClercDirectCiteRecall$, where Direct LLM's higher recall is driven by prolific ungrounded citation dumping).
+    \item \textbf{Zero Case Caption Fabrication:} Forensic auditing of all citations extracted across the 120 Track 1 completions confirms that no fabricated case captions or phantom citations were observed in the audited TERRA outputs ($0/120$, $\ClercTerraFabricationTrackOne$). Every citation generated by TERRA corresponded to a verified historical Supreme Court authority ($\ClercTerraInCorpusCitePct$) or an authentic external context case ($\ClercTerraExternalCitePct$). When the NLI entailment gate fired to intercept drafting queries ($53/120$ cases), forensic auditing confirmed zero fabricated case citations among the short-circuited completions ($0/53$). By contrast, unaugmented Direct LLM suffered a $\ClercDirectFabricationTrackOne$ phantom citation rate, frequently inventing non-existent case captions and reporter volumes.
+    \item \textbf{Disclosed Limitation: Doctrinal Misapplication Under Retrieval Horizon Truncation:} However, when generation proceeded on incomplete retrieval subgraphs ($67/120$ cases), independent dual judging flagged a doctrinal misapplication rate of $\ClercTerraMisapplicationTrackOne$ ($\ClercTerraMisapplicationOrTrackOne$ under Logical OR union, $\ClercTerraMisapplicationAndTrackOne$ under Unanimous AND consensus; compared to $\ClercFlatMisapplicationTrackOne$ for Flat Vector RAG and $\ClercDirectMisapplicationTrackOne$ for Direct LLM). Case-by-case auditing reveals that these errors are not phantom fabrications, but instances of doctrinal misapplication where the generator attempted to reason by analogy from retrieved historical authorities when the gold controlling precedent lay beyond the 2-hop traversal radius. This establishes a fundamental empirical principle: \textit{authentic evidence does not equate to sufficient evidence}. Grounding generations on authentic graph subgraphs completely eliminates phantom case inventions, but generative reasoning remains vulnerable to doctrinal error whenever relevant authority is truncated by the graph retrieval horizon. This finding directly motivates our in-depth examination of precedent-chain path recovery and multi-hop retrieval depth in Section~\ref{subsec:retrieval-quality}.
+\end{itemize}
+
+\subsubsection{Empirical Findings: Refusal Control on Negative Probes (Track 2)}
+On Track 2 (Table~\ref{tab:clerc_eval}, Panel~B.2), Full TERRA establishes robust epistemic boundary discipline on external out-of-corpus queries:
+\begin{itemize}
+    \item \textbf{Total Out-of-Corpus Discrimination:} TERRA achieves $\mathbf{\ClercTerraRefusalTrackTwo}$ total safe refusal on out-of-corpus queries, outperforming Flat Vector RAG ($\ClercFlatRefusalTrackTwo$) and Direct LLM ($\ClercDirectRefusalTrackTwo$) by a $3.3\times$ margin. We emphasize that Track 2 functions specifically as an engineered epistemic boundary and refusal stress test rather than an overall task utility metric. While high safe refusal ($\ClercTerraRefusalTrackTwo$) demonstrates effective containment of out-of-corpus queries, real-world deployment requires balancing safe refusal with retrieval coverage.
+    \item \textbf{Hard NLI Interception and Gate Safety:} The NLI entailment gate successfully intercepted $\mathbf{\ClercTerraHardRefusalTrackTwo}$ of out-of-corpus queries prior to generation. Forensic auditing confirmed zero fabricated case citations among the 86 gate-triggering events across both tracks (0/53 in Track 1, 0/33 in Track 2), confirming that gate interception reliably halts generation before unverified citations can be introduced.
+    \item \textbf{Fabrication vs. Misapplication on Negative Probes:} Full TERRA recorded a certified $\mathbf{\ClercTerraFabricationTrackTwo}$ case caption fabrication rate on Track 2 (zero phantom case names across all 50 negative controls), compared to $\ClercDirectFabricationTrackTwo$ citation fabrication in Direct LLM. On the remaining 17 cases where generation proceeded without gate short-circuit (representing \ClercTerraMisapplicationOrTrackTwo\ across all 50 Track-2 queries; 100.0\% of generated completions), both judges unanimously flagged doctrinal misapplication ($\ClercTerraMisapplicationTrackTwo$), as the model attempted to answer modern post-1980 or statutory questions using historical pre-1980 SCOTUS authorities.
+\end{itemize}
+
+\subsection{Direct Evidence Retrieval Quality and Precedent-Chain Coverage}
+\label{subsec:retrieval-quality}
+
+A critical question in retrieval-augmented legal architectures is whether downstream generative advantages stem from superior evidence retrieval or merely reflect the generator's ability to synthesize plausible analyses from average context. Furthermore, Second Review Issue~\#11 noted that while TERRA's canonical graph expansion operates with breadth $k=2$ and depth $d=2$, Category~B queries comprise 3-to-5 node evolutionary arcs (spanning 2 to 4 citation hops), requiring explicit evaluation of retrieval success as a function of precedent chain length.
+
+The core judicial benchmark encompasses $N=350$ queries across four operational strata: Category~A ($N=100$ single-point factual lookups), Category~B ($N=100$ multi-hop evolutionary chains), Category~C ($N=75$ out-of-context unanswerable refusal probes where target authorities are absent from the corpus, evaluated for gate interception in Section~\ref{subsec:safety-and-factual}), and Category~D ($N=75$ adversarial temporal overruling pairs). To rigorously isolate evidence-retrieval quality on complex multi-hop common-law reasoning without conflating single-point lookups (which TERRA intentionally routes through its parametric Fast Path) or unanswerable negative probes (where no target nodes exist in the corpus), we evaluate raw evidence retrieval on the $N=\CatBRetrievalQueries$ Category~B multi-hop trajectories ($\CatBGoldPrecedents$ gold landmark precedents) prior to generator invocation.
+
+Because comparative architectures deliver heterogeneous retrieval representations---Flat Vector RAG returns a linear ranked list of document chunks, GraphRAG delivers unranked modularity community reports, HippoRAG yields unranked Personalized PageRank (PPR) activation clusters, and TERRA produces a 2-hop directed EEG subgraph structured by temporal edges and holding headnotes---linear ranked-list metrics such as MRR or nDCG cannot be applied uniformly across community and subgraph representations without imposing arbitrary ranking assumptions. We therefore evaluate deterministic dual-resolution entity recall (exact CAP Node ID and canonical case title) and full precedent trajectory recovery in Table~\ref{tab:retrieval_eval}. All retrieval metrics are evaluated directly on the canonical stored \texttt{context\_full} fields from \texttt{terra\_baselines\_eval\_raw.json} (SHA256 verified) that were delivered to the LLaMA-3.3-70B-Instruct generator in the primary dual-judge benchmark, guaranteeing zero retrieval drift or post-hoc re-extraction divergence.
+
+% Table retained in supplementary inventory.
+
+\subsubsection{Overall Precedent-Chain Recovery Performance}
+As reported in Table~\ref{tab:retrieval_eval} (Panel A), comparative retrievers exhibit fundamental divergences in their ability to capture multi-hop common-law trajectories:
+\begin{itemize}
+    \item \textbf{Dense Semantic Search Horizon Truncation:} Flat Vector RAG achieves only $\CatBFlatMacroNodeRecall$ macro node recall ($\CatBFlatMicroNodeRecall$ micro) and captures the complete precedent trajectory on only $\CatBFlatFullPathRecall$ of queries ($\CatBFlatFullPathCount$). While dense embeddings successfully identify one or two lexically adjacent landmark cases, they almost completely fail to recover intermediate stepping-stone authorities across multi-decade evolutionary spans.
+    \item \textbf{Static Community and Undirected Diffusion Limitations:} GraphRAG-Adapted achieves $\CatBGraphRAGMacroNodeRecall$ node recall and $\CatBGraphRAGFullPathRecall$ full-path recovery ($\CatBGraphRAGFullPathCount$), bounded by the fact that static Louvain modularity communities group cases topically without preserving chronological precedence. HippoRAG-Adapted achieves substantially higher node recall ($\CatBHippoRAGMacroNodeRecall$), but attains only $\CatBHippoRAGFullPathRecall$ full-chain path recall ($\CatBHippoRAGFullPathCount$). Because Personalized PageRank diffuses undirected probability mass across dense citation clusters, it frequently activates high-degree peripheral precedents rather than following the strict temporal citation spine.
+    \item \textbf{Directional Precedent Spine Traversal:} Full TERRA achieves $\CatBTerraMacroNodeRecall$ macro node recall ($\CatBTerraMicroNodeRecall$ micro) and recovers the complete evolutionary chain on $\CatBTerraFullPathCount$/100 queries, a $\CatBTerraVsFlatNodeRecallDelta$ node-recall lift and $\CatBTerraVsFlatPathRecallFactor$ path-recovery factor over Flat Vector RAG (which recovers $\CatBFlatFullPathCount$/100), and $\CatBTerraVsHippoNodeRecallDelta$ and $\CatBTerraVsHippoPathRecallFactor$ over HippoRAG. By traversing chronologically directed citation edges and re-ranking via substantive holding headnotes, TERRA preserves the continuous chain of legal authority necessary for sound doctrinal synthesis.
+\end{itemize}
+
+\subsubsection{Chain-Length Disaggregation and Hop Analysis}
+Table~\ref{tab:retrieval_eval} (Panel B) disaggregates precedent discovery across evolutionary chain lengths, addressing Second Review Issue~\#11:
+\begin{itemize}
+    \item \textbf{3-Node Chains ($N=\CatBQueriesLenThree$, 2 Citation Hops, 1 Intermediate Node):} On 2-hop chains (e.g., \textit{Plessy} $\to$ \textit{Gaines} $\to$ \textit{Brown}), Flat Vector RAG captures the full chain in only $\CatBFlatPathRecallLenThree$ of queries ($\CatBFlatPathCountLenThree$), GraphRAG achieves $\CatBGraphRAGPathRecallLenThree$ ($\CatBGraphRAGPathCountLenThree$), and HippoRAG achieves $\CatBHippoRAGPathRecallLenThree$ ($\CatBHippoRAGPathCountLenThree$). Full TERRA achieves $\CatBTerraNodeRecallLenThree$ node recall and $\CatBTerraPathRecallLenThree$ full path recovery ($\CatBTerraPathCountLenThree$), confirming that $d=2$ graph expansion reliably spans two-hop doctrinal progressions.
+    \item \textbf{4-Node Chains ($N=\CatBQueriesLenFour$, 3 Citation Hops, 2 Intermediate Nodes):} When doctrinal arcs span 3 citation hops (e.g., \textit{Strauder} $\to$ \textit{Neal} $\to$ \textit{Norris} $\to$ \textit{Batson}), baseline path recovery drops to zero for both Flat Vector RAG ($\CatBFlatPathRecallLenFour$, $\CatBFlatPathCountLenFour$) and GraphRAG ($\CatBGraphRAGPathRecallLenFour$, $\CatBGraphRAGPathCountLenFour$), and collapses to $\CatBHippoRAGPathRecallLenFour$ ($\CatBHippoRAGPathCountLenFour$) for HippoRAG. In contrast, Full TERRA sustains $\CatBTerraNodeRecallLenFour$ node recall and $\CatBTerraPathRecallLenFour$ full path recovery ($\CatBTerraPathCountLenFour$).
+    \item \textbf{5-Node Chains ($N=\CatBQueriesLenFive$, 4 Citation Hops, 3 Intermediate Nodes):} On long 4-hop lineages, all baseline retrievers fail completely to recover the full precedent path ($\CatBFlatPathRecallLenFive$, $\CatBGraphRAGPathRecallLenFive$, and $\CatBHippoRAGPathRecallLenFive$; $0/5$ each). Full TERRA achieves $\CatBTerraNodeRecallLenFive$ node recall and $\CatBTerraPathRecallLenFive$ full path recovery ($\CatBTerraPathCountLenFive$). Due to the limited sample size ($N=\CatBQueriesLenFive$, exact Clopper-Pearson 95\% CI: \CatBFiveNodeClopperPearsonCI), this 5-node stratum serves as a qualitative descriptive diagnostic demonstrating topological feasibility rather than a statistically generalized population estimate.
+\end{itemize}
+
+\subsubsection{Formal Definition and Seed Positioning of Multi-Seed Anchoring}
+The ability of TERRA's nominal $d=2$ graph traversal to achieve complete path recovery on 3-hop and 4-hop lineages is governed by \textit{multi-seed anchoring}. For an evolutionary query $q$, entity and legal concept extraction identifies a set of seed nodes $S_q \subset V$ with $|S_q| \ge 2$ (empirical mean of $\CatBMeanSeedsPerQuery$ seeds per query across Category~B; $\CatBTwoSeedsPct$ with $|S_q|=2$, $\CatBThreeSeedsPct$ with $|S_q|=3$, and $\CatBFourPlusSeedsPct$ with $|S_q| \ge 4$). From each seed $s \in S_q$, directed EEG traversal expands a $d=2$ graph ball $B(s, 2)$ along forward and backward citation edges with breadth $k=2$.
+
+Crucially, empirical auditing of seed placements confirms that multi-seed extraction anchors the extremities of the precedent trajectory: in $\CatBEndpointsAnchoredPct$ of 5-node chains (5/5) and $\CatBFourNodeEndpointsAnchoredPct$ of recovered 4-node chains (20/20), seeds anchor both the historical origin (index 0) and the culminating modern authority (index $m-1$). For an evolutionary chain $v_0 \to \dots \to v_{m-1}$, the forward 2-hop ball $B(v_0, 2)$ covers $\{v_0, v_1, v_2\}$ while the reverse 2-hop ball $B(v_{m-1}, 2)$ covers $\{v_{m-1}, v_{m-2}, v_{m-3}\}$. When intermediate branching along the precedent spine remains within the $k=2$ beam, the forward and backward neighborhoods intersect at intermediate stepping-stone authorities ($v_2$ in 5-node chains), seamlessly covering 3-hop and 4-hop doctrinal paths without requiring explosive unconstrained search depths ($d \ge 4$). Conversely, in the 12 non-recovered 4-node cases, high citation fan-out at intermediate nodes exceeded the $k=2$ beam width, causing the traversal to prune intermediate nodes despite correct endpoint seeding.
+
+These empirical findings confirm that TERRA's high generative win rates (Table~\ref{tab:overall_summary}) and low fabrication rates (Table~\ref{tab:clerc_eval}) are fundamentally anchored in direct evidence retrieval quality rather than ungrounded parametric fluency.
+
+\subsubsection{Retrieval Hyperparameter Robustness and Traversal Horizon Sensitivity}
+\label{subsubsec:hyperparameter-sensitivity}
+To evaluate retrieval sensitivity across topological expansion horizons, Table~\ref{tab:retrieval_eval} (Panel~C) reports sensitivity sweeps across \IssueTwentySixConfigCount\ configurations ($N=\CatBRetrievalQueries$ Category~B queries) under a dual-reporting protocol:
+
+\textit{1) Historical-Baseline Sensitivity Analysis (Pre-Issue~\#13 Engine):} Evaluating the unconstrained retrieval engine reproduces the published canonical baseline ($k=\IssueTwentyFourSeedK, d=\IssueTwentyFourBfsDepth, C=\IssueTwentyFourHubCap$) with certified 100/100 bit-identical parity across node sets, gold landmark intersections, and aggregate metrics (\IssueTwentySixHistMacro\ macro recall, \IssueTwentySixHistFullPath\ full path recall). Truncating search depth to $d=1$ reduces full-path recovery to \IssueTwentySixHistDepthOnePath\ (\IssueTwentySixHistDepthOneMacro\ macro recall) by prematurely pruning intermediate stepping-stones, while reducing context from \IssueTwentySixHistMeanChars\ to \IssueTwentySixHistDepthOneChars\ characters and offline traversal latency from \IssueTwentySixHistOfflineLatencyMS~ms to \IssueTwentySixHistDepthOneLatencyMS~ms. Expanding depth to $d=3$ yields modest path recovery gains (\IssueTwentySixHistDepthThreePath, 68/100) at exponential context scale (\IssueTwentySixHistDepthThreeChars\ characters, \IssueTwentySixHistDepthThreeLatencyMS~ms). Constraining hub caps to $C=25$ severely restricts multi-hop recovery (\IssueTwentySixHistCapTwentyFivePath\ path recall), whereas relaxing to $C=100$ achieves near-complete path recovery (\IssueTwentySixHistCapOneHundredPath, \IssueTwentySixHistCapOneHundredMacro\ macro recall) at prohibitive context scale (\IssueTwentySixHistCapOneHundredChars\ characters). Adaptive depth ($d_{\text{adapt}}$) matches static $d=2$ closely (\IssueTwentySixHistAdaptiveMacro\ macro, \IssueTwentySixHistAdaptivePath\ path recall). Single-seed initialization ($k=1^\ast$) attains \IssueTwentySixHistKOnePath\ path recovery, confirming that multi-seed boundary anchoring provides essential stepping-stone coverage, while vector-seed expansion ($k=4^\ast$) retrieves zero seeds due to the known active-index category filter constraint (\IssueTwentySixHistKFourPath\ path recall).
+
+\textit{2) Post-Issue~\#13 Bounded Operational Diagnostic:} Enforcing production operational caps ($35{,}000$ structural characters, 40 traversed nodes, asymmetric hub budgets), expanding 2 seed nodes into citation neighborhoods halts traversal after visiting a mean of \IssueTwentySixBoundMeanVisitedNodes\ expansion centers, assembling \IssueTwentySixBoundMeanFullNodes\ unique case authorities into context. The bounded engine preserves \IssueTwentySixGoldRetentionPct\ of gold landmark precedents (\IssueTwentySixGoldRetentionCount) and achieves \IssueTwentySixBoundFullPath\ full path recall (48/63 on 3-node, 12/32 on 4-node, 1/5 on 5-node), eliminating \IssueTwentySixContextReductionPct\ of context character volume (from \IssueTwentySixHistMeanChars\ to \IssueTwentySixBoundMeanChars\ characters) and accelerating offline traversal latency by \IssueTwentySixSpeedupFactor\ (from \IssueTwentySixHistOfflineLatencyMS~ms to \IssueTwentySixBoundOfflineLatencyMS~ms).
+
+% Table retained in supplementary inventory.
+
+\subsection{Generative Citation Correctness, Doctrinal Support, and Interactive Hyperlink Provenance}
+\label{subsec:citation-correctness}
+
+While direct evidence retrieval evaluation (Table~\ref{tab:retrieval_eval}) rigorously establishes the retriever's ability to assemble necessary precedent authorities in the prompt context prior to generator invocation, legal validity fundamentally depends on whether the generator accurately cites and attributes doctrine in its final synthesized completions. Large language models frequently commit subtle citation errors---inventing phantom case names, citing authorities for propositions they never established, transposing holdings across contemporaneous landmarks, or hallucinating citations on unanswerable inquiries.
+
+To resolve Issue~\#16, Table~\ref{tab:citation_eval} evaluates end-to-end citation fidelity directly in the synthesized completions across the canonical \numUniqueQueries-query benchmark suite (\numTotalEvals\ comparative evaluations across all \numComparativePipelines\ pipelines). Grounded doctrinal precision and F1 serve as primary metrics (TERRA \TerraDocPrecisionGrounded/\TerraDocFOneGrounded, HippoRAG \HippoDocPrecisionGrounded/\HippoDocFOneGrounded, Flat Vector RAG \FlatDocPrecisionGrounded/\FlatDocFOneGrounded), with the judge-weighted variant as secondary (TERRA \TerraDocPrecisionJudgeWeighted, HippoRAG \HippoDocPrecisionJudgeWeighted; weighting multiplies by the dual-judge faithfulness of each answer). TERRA's entity citation precision is \TerraEntityCitePrecision\ (earlier single-judge run \TerraEntityCitePrecisionLegacy); \CitationLinksResolved\ of \CitationLinksEmitted\ emitted links resolved (\CitationLinkResolutionRate).
+
+
+
+\subsubsection{Category B Precedent Milestone Citation and Doctrinal Support}
+As reported in Table~\ref{tab:citation_eval} (Panel~A), comparative architectures exhibit substantial divergence in their ability to cite and support multi-hop legal precedents:
+\begin{itemize}
+    \item \textbf{Precedent Citation Recall Leadership:} On Category~B multi-decade evolutionary trajectories ($N=\CatBRetrievalQueries$ queries, $\CatBGoldPrecedents$ gold landmark authorities), Full TERRA achieves $\mathbf{\CatBTerraMacroCitationRecall}$ macro citation recall ($\CatBTerraMicroCitationRecall$ micro), outperforming HippoRAG-Adapted ($\CatBHippoRAGMacroCitationRecall$ macro), Direct LLM ($\CatBDirectMacroCitationRecall$), Flat Vector RAG ($\CatBFlatMacroCitationRecall$), and GraphRAG-Adapted ($\CatBGraphRAGMacroCitationRecall$) by $\CatBTerraVsHippoCitationRecallDelta$ to $\CatBTerraVsGraphCitationRecallDelta$ absolute percentage points.
+    \item \textbf{Doctrinal Support Precision:} When evaluating whether cited authorities factually support the asserted legal claims without holding misattribution, Full TERRA attains $\mathbf{\CatBTerraDoctrinalCitationPrecision}$ Doctrinal Citation Precision. In contrast, comparative baselines suffer from frequent holding misattribution and factual drift, achieving only $\CatBHippoRAGDoctrinalCitationPrecision$ (HippoRAG), $\CatBFlatDoctrinalCitationPrecision$ (Flat Vector RAG), $\CatBDirectDoctrinalCitationPrecision$ (Direct LLM), and $\CatBGraphRAGDoctrinalCitationPrecision$ (GraphRAG).
+    \item \textbf{Harmonic Citation $F_1$ Advantage:} Balancing precision and recall, Full TERRA delivers a Citation $F_1$ score of $\mathbf{\CatBTerraCitationFOne}$. This represents a $\mathbf{\CatBTerraVsHippoCitationFOneLift}$ lift over HippoRAG-Adapted ($\CatBHippoRAGCitationFOne$), a $\mathbf{\CatBTerraVsFlatCitationFOneLift}$ lift over Flat Vector RAG ($\CatBFlatCitationFOne$), and a $\mathbf{\CatBTerraVsDirectCitationFOneLift}$ lift over Direct LLM ($\CatBDirectCitationFOne$).
+    \item \textbf{Complete Precedent Path Citation:} On complete precedent trajectories, Full TERRA captures and cites 100\% of the gold landmark precedent milestones in $\mathbf{\CatBTerraFullPathCitationCount}$ answers ($\CatBTerraFullPathCitationRecall$), compared to only $4/100$ for HippoRAG, $2/100$ for Flat Vector RAG, $1/100$ for Direct LLM, and $0/100$ for GraphRAG---a $\mathbf{\CatBTerraVsHippoPathCitationLift}$ advantage over HippoRAG and a $\mathbf{\CatBTerraVsDirectPathCitationLift}$ increase over Direct LLM.
+\end{itemize}
+
+\subsubsection{Dynamic Interactive Hyperlink Attribution and Epistemic Negative Containment}
+Table~\ref{tab:citation_eval} (Panel~B) profiles the explainable attribution mechanics across the 350-benchmark suite:
+\begin{itemize}
+    \item \textbf{Interactive Hyperlinked Attribution:} In accordance with Section~\ref{subsubsec:xai-provenance}, Full TERRA dynamically formats referenced opinions as interactive relative markdown links. Across benchmark completions, TERRA emitted $\mathbf{\TerraTotalMarkdownLinks}$ interactive links. Empirical auditing against the 20,000-case EEG index confirms that $\mathbf{\TerraResolvedMarkdownLinks/\TerraTotalMarkdownLinks}$ links ($\mathbf{\TerraMarkdownLinkResolutionRate}$) resolve directly to authentic opinion nodes, with $\mathbf{\TerraMarkdownLinkFidelityRate}$ semantic title-to-node fidelity (including authentic historical aliases such as the \textit{Slaughter-House Cases} dynamically resolving to its formal reporter caption \textit{Butchers' Benevolent Ass'n}, \texttt{83\_0036-01}). The remaining $\TerraBrokenMarkdownLinks$ exceptions sum exactly to $1{,}042 - 1{,}036 = 6$, comprising $\TerraBrokenNotProvidedLinks$ instances of \texttt{/case/not\_provided} emitted on unindexed statutory or procedural references (queries~B026 and~B075) and $\TerraBrokenUnindexedCorpusLinks$ instances where valid external case citations fell outside the 20,000-opinion indexed corpus (\textit{Sipuel v. Board of Regents}, \texttt{332\_0631-01} in queries~B010 and~B012; and \textit{Palko v. Connecticut}, \texttt{302\_0319-01} in query~B035), with zero fabricated phantom decisions. In stark contrast, all four baseline architectures emit \textbf{zero} interactive hyperlinks (\BaselinesMarkdownLinks), leaving their citations unlinked and unverifiable without manual docket lookups.
+    \item \textbf{Out-of-Corpus Negative Probe Containment (Category C):} On the $N=75$ unanswerable negative probes, under the formal piecewise precision formulation (where emitting zero citations constitutes safe epistemic silence, scored as $1.00$, while hallucinating citations is scored as $0.00$), Flat Vector RAG suffered severe context bleed, hallucinating $\CatCFlatEmittedCitations$ spurious case citations across unanswerable queries ($\CatCFlatCitationPrecision$ precision). In contrast, Full TERRA achieved $\mathbf{\CatCTerraCitationPrecision}$ precision, emitting only $\CatCTerraEmittedCitations$ citations across all 75 queries ($72/75$ clean refusals), confirming that NLI entailment gating successfully suppresses citation hallucination on out-of-domain inquiries.
+% Table retained in supplementary inventory.
+
+\end{itemize}
+
+\subsection{Computational Budget Profiling and Geometric Gate Calibration}
+\label{subsec:computational-budget}
+
+A rigorous comparative evaluation of complex agentic RAG frameworks requires auditing the full computational footprint of the underlying architecture. Second Review Issue~\#10 noted that multi-stage RAG pipelines deploy multiple sequential inference calls (query routing, vector retrieval, graph traversal, NLI verification, and final generation), which can compound latency, token consumption, and serving costs. To provide complete transparency and establish call parity against standard single-shot baselines, Table~\ref{tab:computational_budget} profiles total operations per query, active 70B generator invocations, end-to-end and decoupled component latencies, effective token volumes, and financial costs across all \numComparativePipelines\ comparative architectures, alongside an empirical calibration of the Tier~2 geometric pre-filter on the 20,000-case CAP index.
+
+
+
+% Table retained in supplementary inventory.
+
+\subsubsection{Sequential Pipeline Operations and Call-Parity Accounting}
+Comparative single-shot baselines (Flat Vector RAG, GraphRAG, and HippoRAG) execute a uniform two-stage retrieve-then-generate pipeline ($\FlatRAGTotalOpsPerQuery$ operations per query), uniformly issuing $\FlatRAGGenCallsFormatted$ active 70B generator calls across the $N=\numUniqueQueries$ benchmark suite (Panel~A). In contrast, TERRA implements a multi-stage sequential architecture:
+\begin{equation}
+\begin{aligned}
+q &\xrightarrow{\text{Router}} \text{Tier 2 Gate} \xrightarrow{\text{Retrieve}} \text{EEG BFS} \\
+  &\xrightarrow{\text{NLI Grader}} \text{70B Generator}
+\end{aligned}
+\end{equation}
+Across the 350-query benchmark, TERRA performs \TerraOperationsTotalCount\ operations (\TerraOperationsPerQuery\ per query; operations counted where a stage recorded non-zero time) at \TerraDeployedCostPerThousand\ per 1,000 queries under the deployed configuration (Gemma~3 12B router; Llama~3.3 70B NLI grader and generator).
+
+Critically, both Category~C (unanswerable out-of-domain probes) and Category~D (adversarial overruling pairs) operate under an identical deterministic self-correction mechanism:
+\begin{itemize}
+    \item \textbf{Passing Entailment (Attempt~1 Resolution):} Queries that satisfy NLI entailment on the initial attempt require $1\text{ retrieval} + 1\text{ NLI verification} + 1\text{ generator invocation} = 4\text{ operations}$. This path is taken by $\TerraCatCPassNliGenCount$ queries in Category~C ($\TerraCatCPassNliGenCount \times 4 = \TerraCatCPassNliOps\text{ operations}$) and $\TerraCatDPassNliGenCount$ queries in Category~D ($\TerraCatDPassNliGenCount \times 4 = \TerraCatDPassNliOps\text{ operations}$).
+    \item \textbf{Failing Entailment (Attempt~2 Halting):} Queries failing entailment on Attempt~1 trigger an expanded retrieval query and undergo a second NLI verification attempt; when Attempt~2 likewise fails, generation halts in a deterministic safety refusal ($2\text{ retrievals} + 2\text{ NLI verifications} + 0\text{ generator invocations} = 5\text{ operations}$). This trajectory is executed by $\TerraCatCFailNliHaltedCount$ post-retrieval halted queries in Category~C ($\TerraCatCFailNliHaltedCount \times 5 = \TerraCatCFailNliOps\text{ operations}$) and $\TerraCatDFailNliHaltedCount$ post-retrieval halted queries in Category~D ($\TerraCatDFailNliHaltedCount \times 5 = \TerraCatDFailNliOps\text{ operations}$).
+    \item \textbf{Pre-Retrieval Interceptions (Category~C):} In Category~C, $\TerraCatCPreFilterExceedingHaltedCount$ out-of-domain queries exceed the geometric proximity boundary ($d_{L2} \ge 1.30$) and are terminated immediately pre-retrieval, incurring only $1\text{ operation}$ each ($\TerraCatCPreFilterExceedingHaltedCount \times 1 = \TerraCatCPreFilterHaltedOps\text{ operations}$). A single borderline probe (\texttt{C069}, $d_{L2}=1.366$) proceeds directly to the generator with empty context ($1\text{ pre-filter} + 1\text{ generator} = \TerraCatCBorderlineOps\text{ operations}$).
+\end{itemize}
+Summing these operational paths yields exact integer closure: $\TerraCatCPreFilterHaltedOps + \TerraCatCBorderlineOps + \TerraCatCFailNliOps + \TerraCatCPassNliOps = \TerraCatCTotalOps\text{ operations}$ on Category~C (averaging $\TerraCatCTotalOpsPerQuery$ ops/query) and $\TerraCatDFailNliOps + \TerraCatDPassNliOps = \TerraCatDTotalOps\text{ operations}$ on Category~D (averaging $\TerraCatDTotalOpsPerQuery$ ops/query). Combined with Category~A ($\TerraCatATotalOps\text{ operations}$) and Category~B ($\TerraCatBTotalOps\text{ operations}$), TERRA executes $\TerraBenchmarkTotalOpsFormatted\text{ operations}$ ($\TerraOverallTotalOpsPerQuery$ ops/query).
+
+Importantly, while TERRA executes more sequential pipeline stages than single-shot baselines, it invokes the computationally expensive 70B parameter generator on only $\TerraOverallGenCallsCount$ of the 350 benchmark queries ($\TerraOverallGenCallsPct$), achieving a $\TerraOverallGenCallsReductionPct$ reduction in active 70B generator calls compared to comparative baselines ($350/350$). This reduction is driven by epistemic refusal on Category~C ($\TerraCatCGenCallsFormatted$) and adversarial safety halting on Category~D ($\TerraCatDGenCallsFormatted$). We frame this generator-call reduction not as an alternative metric for call parity, but as one important mitigating factor in aggregate serving efficiency.
+
+\subsubsection{Candid Disclosure of Deliberate Latency and Cost Trade-Offs}
+Operating a multi-stage sequential architecture entails a deliberate engineering trade-off between computational budget and epistemic reliability. On complex multi-hop evolutionary chains (Category~B), TERRA exhibits a median pipeline latency of $\TerraHardPathMedianSeconds\text{ s}$ ($\TerraCatBLatencyMeanMS\text{ ms}$ mean) and an operational cost of $\TerraCatBTotalCostPerThousand$ per 1,000 queries ($\TerraCatBPerQueryCost$ per query), compared to $\FlatRAGLatencyMedMS\text{ ms}$ and $\FlatRAGTotalCostPerThousand$ per 1,000 queries ($\FlatRAGPerQueryCost$ per query) for Flat Vector RAG---representing a $\TerraCatBVsFlatCostRatio$ per-query cost ratio.
+
+We candidly disclose this computational overhead as an intentional, necessary investment to resolve the structural vulnerabilities of dense semantic retrieval. As established in Section~\ref{subsec:retrieval-quality}, Flat Vector RAG achieves only $\CatBFlatFullPathRecall$ full precedent path recovery ($\CatBFlatFullPathCount$), collapsing completely on three-hop and four-hop legal trajectories. In contrast, TERRA's coordinated EEG citation traversal and procedural trace synthesis attains $\CatBTerraFullPathRecall$ complete precedent path recovery ($\CatBTerraFullPathCount$), delivering a $\CatBTerraVsFlatPathRecallFactor$ increase in trajectory recovery over Flat RAG. In high-stakes legal applications where ungrounded generative hallucinations or missing precedent stepping-stones induce malpractice liability, expending $\sim \TerraHardPathMedianSeconds\text{ s}$ and approximately one cent per query to secure complete doctrinal authority is an operationally sound trade-off.
+
+\subsubsection{Decoupled Wall-Clock Latency Profiling}
+Panel~A decouples end-to-end wall-clock latency into four isolated execution stages, reconciling with reported benchmark totals within $0.02\text{ ms}$:
+\begin{enumerate}
+    \item \textbf{Traffic Cop Routing:} Across all categories, SLM routing consumes an average of $\TerraOverallDecoupledRoutingMS\text{ ms}$ ($\TerraCatADecoupledRoutingMS\text{ ms}$ on Category~A, $\TerraCatBDecoupledRoutingMS\text{ ms}$ on Category~B).
+    \item \textbf{Isolated Graph Retrieval:} Pure graph retrieval latency (isolated from query routing) averages $\TerraOverallDecoupledRetrievalMS\text{ ms}$ overall, rising to $\TerraCatBDecoupledRetrievalMS\text{ ms}$ on Category~B multi-hop BFS traversal, while Category~A fast path bypasses retrieval entirely ($\TerraCatADecoupledRetrievalMS\text{ ms}$).
+    \item \textbf{NLI Smart Grader Verification:} Entailment grading consumes $\TerraOverallDecoupledNliMS\text{ ms}$ overall ($\TerraCatBDecoupledNliMS\text{ ms}$ on Category~B, $\TerraCatCDecoupledNliMS\text{ ms}$ on Category~C, and $\TerraCatDDecoupledNliMS\text{ ms}$ on Category~D). Notably, Category~D registers higher mean NLI latency than Category~C ($\TerraCatDDecoupledNliMS\text{ ms}$ vs. $\TerraCatCDecoupledNliMS\text{ ms}$). Trace analysis reveals that this asymmetry is driven by prompt context volume rather than attempt count: Category~D queries retrieve dense overruled precedents and citation dockets (averaging $\TerraCatDMeanRawChars$ raw / $\TerraCatDMeanClampedChars$ clamped characters per query) requiring full attention processing over long sequences on the 70B model, whereas Category~C unanswerable probes retrieve sparse or empty candidate texts (averaging $\TerraCatCMeanRawChars$ raw / $\TerraCatCMeanClampedChars$ clamped characters).
+    \item \textbf{70B Answer Generation:} Generative synthesis averages $\TerraOverallDecoupledGenerationMS\text{ ms}$ overall. On Category~B, generation requires $\TerraCatBDecoupledGenerationMS\text{ ms}$ due to comprehensive multi-paragraph legal synthesis; on Category~C, generator latency collapses to $\TerraCatCDecoupledGenerationMS\text{ ms}$ because $\TerraCatCPreFilterExceedingHaltedCount$ queries are intercepted pre-retrieval and $\TerraCatCFailNliHaltedCount$ are halted at the NLI gate.
+\end{enumerate}
+
+\subsubsection{Tier 2 Geometric Domain Boundary Pre-Filter Calibration}
+Table~\ref{tab:computational_budget} (Panel~B) presents empirical calibration for the Tier~2 geometric proximity pre-filter across distance thresholds $\tau \in [0.90, 1.40]$ on the 20,000-case CAP index, evaluated against $N=200$ in-domain legal queries (Categories~A and B) and $N=75$ out-of-domain probes (Category~C).
+
+The isolated pre-filter demonstrates strong discriminative separation, achieving an AUROC of $\TerraGateIsolatedAUROC$. At aggressive thresholds ($\tau \le 1.10$), the filter rejects out-of-domain queries at high rates ($\TerraGateTPRTauZeroNineZero$ at $\tau=0.90$) but induces unacceptable false refusals on legitimate constitutional inquiries ($\TerraGateFPRTauZeroNineZero$, $\TerraGateFPRCountTauZeroNineZero$). As the threshold relaxes to $\tau=1.25$ and $\tau=1.30$, in-domain false refusals collapse to zero ($\TerraGateFPRTauOneThreeZero$, $\TerraGateFPRCountTauOneThreeZero$).
+
+Under TERRA's operational threshold $\tau=1.30$, the pre-filter functions with zero false refusal while intercepting $\TerraGateTPRTauOneThreeZero$ ($\TerraGateTPRCountTauOneThreeZero$) of out-of-domain probes before retrieval. The remaining $\TerraGateFNRTauOneThreeZero$ ($\TerraGateFNRCountTauOneThreeZero$) of out-of-domain queries slip past the pre-filter and enter retrieval; however, these deferred queries are subsequently intercepted by downstream NLI entailment grading, which halts generation in a safe refusal. We emphasize that geometric proximity serves strictly as an \textit{optional coarse pre-filter} to conserve retrieval and grading compute on obvious out-of-domain inputs; embedding distance metrics do not prove legal validity or domain membership, which remains the exclusive operational responsibility of the downstream NLI Smart Grader.
+
+\subsection{Benchmark-Graph Traversal Stability Under Temporal Snapshot Expansion}
+\label{subsec:temporal-update-stability}
+
+To evaluate precedent traversal stability under corpus growth without generative confounding, we test standalone breadth-first graph traversal across four chronological snapshot expansions: $1890\to1930$ (Pair~I, Step $N=40$~yr), $1930\to1950$ (Pair~II, Step $N=20$~yr), $1950\to1970$ (Pair~III, Step $N=20$~yr), and $1970\to1980$ (Pair~IV, Step $N=10$~yr).
+
+
+
+Across $N=\IssueNineteenTotalEvals$ qualifying Category~B observations ($\IssueNineteenUniqueQueries$ unique queries anchored at an origin precedent decided at or before Year~$T$, with at least one subsequent gold authority in $(T, T+N]$), BFS citation traversal ($k=2, d=2$, matching production parameters) was run on base subgraph $G_{\le T}$ and expanded subgraph $G_{\le T+N}$ seeded by benchmark origin precedent ($s = q[\texttt{target\_nodes}][0]$). As reported in Table~\ref{tab:temporal-update-stability}, expanding from $T$ to $T+N$ shifts grand pooled recall from $\IssueNineteenOverallRecallTMeanStd$ to $\IssueNineteenOverallRecallTNMeanStd$ ($\Delta\text{Recall} = \IssueNineteenOverallDeltaRecallMeanStd$), with $\IssueNineteenStabilityCoefficient$ of queries exhibiting non-negative recall shift ($\Delta\text{Recall} \ge 0$). On newly eligible authorities ($S_{\text{new}}$), traversal attains a grand mean Discovery Rate of $\IssueNineteenDiscoveryRateMean$, with median traversal latency under one millisecond (\IssueNineteenBFSLatencyMedianMs~ms; grand mean $0.15 \pm 0.18$~ms). Three methodological boundaries govern these findings: (1)~Because gold sequences include seed anchor $s$ (retrieved at depth 0), absolute recall reflects baseline seed inclusion; $\Delta\text{Recall}$ is invariant to this offset. (2)~Negative shifts on specific queries stem from degree caps when expanding nodes become hubs. (3)~This standalone experiment evaluates topological traversal over available directed edges (generic \texttt{CITES}) on NetworkX DiGraphs; it is decoupled from upstream vector retrieval (subject to the category filter limitation in Section~\ref{subsec:limitations}) and does not evaluate live vector index upsert, which remains future systems engineering.
+
+

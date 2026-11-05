@@ -1,0 +1,22 @@
+[
+  {
+    "function": "Author1assessment",
+    "workflow": "Human read opinions and drafted assessments; AI sourcefinding/legal interpretation/comparison/checking/rewriting; human checked alignment",
+    "tool_reported": "Gemini website",
+    "model_reported": "Gemini 3.8 Flash with research mode",
+    "identity_status": "author-reported historical label; not provider-authenticated"
+  },
+  {
+    "function": "Author2assessment",
+    "workflow": "AI proposed ratings/rationales first; human opened/read opinions, reviewed and amended; later reconciliation saw shared ratings",
+    "tool_reported": "claude.ai",
+    "model_reported": "Opus 5.5",
+    "identity_status": "author-reported historical label; not provider-authenticated"
+  },
+  {
+    "function": "Research software, audits, analysis support and substantive manuscript assistance",
+    "tools": "Codex and Antigravity with historical Claude involvement per coordination evidence",
+    "scope": "substantive coding/review/drafting, not merely copyediting",
+    "complete_model_version_inventory": "unknown; author confirmation required"
+  }
+]

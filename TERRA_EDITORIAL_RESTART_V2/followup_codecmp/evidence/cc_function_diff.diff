@@ -1,0 +1,554 @@
+
+######## extract_graph_context: ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py
+--- 
++++ 
+@@ -8,8 +8,10 @@
+        but context was appended before the set-add guard — fixed).
+-    3. Hub-cap: nodes with total degree > HUB_DEGREE_CAP are not expanded
+-       into the BFS queue (their title+text are still included if reached),
+-       preventing C007 Plessy (degree 379) from flooding context with 300+
+-       synthetic successors.
++    3. Adaptive Hub Traversal (Issue #13 Fix - Option A):
++       When total node degree > HUB_DEGREE_CAP (50), instead of skipping expansion entirely (which
++       blinded TERRA to downstream overruling cases), 100% of the budget is allocated to incoming
++       citing predecessors, prioritized by chronological recency (decision_date descending).
++       This guarantees that recent overruling/modifying successor cases are queued and surfaced in
++       structural context without requiring any hardcoded landmark overlays.
+     """
+-    HUB_DEGREE_CAP = 50  # do not expand nodes with degree above this
++    HUB_DEGREE_CAP = 50  # Maximum neighbor budget for high-degree hub nodes
+     structural_context = ""
+@@ -22,2 +24,13 @@
+             queue.append((case_id, 0))
++
++    def _sort_predecessors_by_recency(preds):
++        def _extract_year_date(pid):
++            pdata = eeg.nodes.get(pid, {})
++            pdate = str(pdata.get('decision_date') or pdata.get('date') or '')
++            try:
++                pyear = int(pdate[:4])
++            except (ValueError, IndexError):
++                pyear = 0
++            return (pyear, pdate)
++        return sorted(preds, key=_extract_year_date, reverse=True)
+ 
+@@ -35,5 +48,6 @@
+         current_text  = current_node_data.get('text', '').strip()
++        current_date  = current_node_data.get('decision_date') or current_node_data.get('date', '')
+ 
+         structural_context += (
+-            f"\n--- Node: {current_title} (Case ID: {current_id}, Depth {depth}) ---\n"
++            f"\n--- Node: {current_title} (Case ID: {current_id}, Date: {current_date}, Depth {depth}) ---\n"
+         )
+@@ -43,31 +57,44 @@
+ 
+-        # (3) Hub-cap: record title+text but do not expand if degree is extreme
+         node_degree = eeg.degree(current_id)
++        
++        # (2) Hub-cap handling: Option A (100% budget to incoming citing predecessors by recency)
+         if node_degree > HUB_DEGREE_CAP:
++            all_preds = list(eeg.predecessors(current_id)) if hasattr(eeg, "predecessors") else []
++            sorted_preds = _sort_predecessors_by_recency(all_preds)
++            selected_preds = sorted_preds[:HUB_DEGREE_CAP]
++
+             structural_context += (
+-                f"[Note: High-degree hub node (degree={node_degree}); "
+-                f"neighbours not expanded to prevent context overflow.]\n"
++                f"[Note: High-degree hub node (total_degree={node_degree}, in_degree={len(all_preds)}). "
++                f"Adaptive traversal engaged: prioritized top {len(selected_preds)} incoming citing cases "
++                f"by chronological recency to detect temporal invalidations/overrulings.]\n"
+             )
+-            # Still emit the hub's own outgoing OVERRULES edges (rare, meaningful)
++
++            for predecessor in selected_preds:
++                edge_data = eeg.get_edge_data(predecessor, current_id) or {}
++                relation  = edge_data.get('relation', 'CITES')
++                pred_data = eeg.nodes.get(predecessor, {})
++                pred_title = pred_data.get('title', predecessor)
++                pred_date  = pred_data.get('decision_date') or pred_data.get('date', '')
++
++                structural_context += (
++                    f"- CHRONOLOGICAL FLOW / CITING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
++                    f"[{relation}] this precedent (Case ID: {current_id}).\n"
++                )
++                if predecessor not in visited_nodes and depth + 1 <= max_depth:
++                    queue.append((predecessor, depth + 1))
++
++            continue  # Hub node expansion completed under Option A policy
++
++        # (3) Normal Node Expansion (node_degree <= HUB_DEGREE_CAP)
++        if eeg.has_node(current_id):
++            # Outgoing relations (cases cited by this case - historical precedent)
+             for neighbor in eeg.neighbors(current_id):
+                 edge_data = eeg.get_edge_data(current_id, neighbor) or {}
+-                if edge_data.get('relation') == 'OVERRULES':
+-                    nb_data  = eeg.nodes.get(neighbor, {})
+-                    nb_title = nb_data.get('title', neighbor)
+-                    structural_context += (
+-                        f"- LOGICAL RELATION: This case [{edge_data['relation']}] "
+-                        f"'{nb_title}' (Case ID: {neighbor}).\n"
+-                    )
+-            continue  # do not queue neighbours of hub node
+-
+-        if eeg.has_node(current_id):
+-            # Outgoing relations (who this case overrules/precedes)
+-            for neighbor in eeg.neighbors(current_id):
+-                edge_data = eeg.get_edge_data(current_id, neighbor) or {}
+-                relation  = edge_data.get('relation', 'CONNECTED')
++                relation  = edge_data.get('relation', 'CITES')
+                 nb_data   = eeg.nodes.get(neighbor, {})
+                 nb_title  = nb_data.get('title', neighbor)
++                nb_date   = nb_data.get('decision_date') or nb_data.get('date', '')
+                 structural_context += (
+                     f"- LOGICAL RELATION: This case (Case ID: {current_id}) "
+-                    f"[{relation}] '{nb_title}' (Case ID: {neighbor}).\n"
++                    f"[{relation}] earlier case '{nb_title}' (Case ID: {neighbor}, Date: {nb_date}).\n"
+                 )
+@@ -76,14 +103,16 @@
+ 
+-            # Incoming chronological relations (who preceded this case)
++            # Incoming chronological relations (cases that cite this case - citing successors)
+             if hasattr(eeg, "predecessors"):
+-                for predecessor in eeg.predecessors(current_id):
++                all_preds = list(eeg.predecessors(current_id))
++                sorted_preds = _sort_predecessors_by_recency(all_preds)
++                for predecessor in sorted_preds:
+                     edge_data = eeg.get_edge_data(predecessor, current_id) or {}
+-                    relation  = edge_data.get('relation', 'CONNECTED')
++                    relation  = edge_data.get('relation', 'CITES')
+                     pred_data = eeg.nodes.get(predecessor, {})
+                     pred_title = pred_data.get('title', predecessor)
+-                    if relation == "PRECEDES":
+-                        structural_context += (
+-                            f"- CHRONOLOGICAL FLOW: '{pred_title}' (Case ID: {predecessor}) "
+-                            f"historically [PRECEDES] this case (Case ID: {current_id}).\n"
+-                        )
++                    pred_date  = pred_data.get('decision_date') or pred_data.get('date', '')
++                    structural_context += (
++                        f"- CHRONOLOGICAL FLOW / CITING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
++                        f"[{relation}] this precedent (Case ID: {current_id}).\n"
++                    )
+                     if predecessor not in visited_nodes and depth + 1 <= max_depth:
+
+######## extract_graph_context: ask_terra_pre_dual_budget_backup.py -> ask_terra.py
+--- 
++++ 
+@@ -1,17 +1,22 @@
+-def extract_graph_context(retrieved_metadatas, max_depth=2) -> str:
++def extract_graph_context(retrieved_metadatas, max_depth=2, arm4_unlabeled=False, restrict_to_nodes=None) -> str:
+     """
+-    Graph Trajectory Extractor — v23 (Problem 3 final fix).
+-    Three additions over the structural-only version:
+-    1. Node text: each traversed node's actual 'text' field is included in context.
+-    2. Deduplication: a node is added to context exactly once, regardless of
+-       how many traversal paths reach it (visited_nodes set already existed,
+-       but context was appended before the set-add guard — fixed).
+-    3. Adaptive Hub Traversal (Issue #13 Fix - Option A):
+-       When total node degree > HUB_DEGREE_CAP (50), instead of skipping expansion entirely (which
+-       blinded TERRA to downstream overruling cases), 100% of the budget is allocated to incoming
+-       citing predecessors, prioritized by chronological recency (decision_date descending).
+-       This guarantees that recent overruling/modifying successor cases are queued and surfaced in
+-       structural context without requiring any hardcoded landmark overlays.
++    Dual-Directional Hub Traversal Extractor (Issue #13 Final Solution).
++    
++    1. Dual-Budget Allocation:
++       - INCOMING_HUB_CAP = 75: incoming citing successors prioritized by recency (decision_date descending)
++         to detect temporal invalidations and overrulings (Wolf->Mapp at Rank 49, Olmstead->Katz at Rank 41).
++       - OUTGOING_HUB_CAP = 25: outgoing cited precedents prioritized chronologically to capture
++         foundational doctrinal lineage (Brown->Gaines/Sweatt/McLaurin has 11 out-degree).
++    2. Substantive Holding Snippets:
++       - Every citing successor and cited precedent includes a substantive holding excerpt (up to 180 chars)
++         with author headers stripped, so smart_grader has factual holding text rather than bare citations.
++    3. Branching & Context Bounds:
++       - Node text summaries capped at 400 chars.
++       - High-degree hub nodes do not expand neighbors into unconstrained Depth 2 branching.
++       - Bounds total structural context to ~15,000–35,000 chars, eliminating 6.6M char bloat and
++         ensuring 100% of context fits within the 60,000 char window without vector trace truncation.
+     """
+-    HUB_DEGREE_CAP = 50  # Maximum neighbor budget for high-degree hub nodes
++    INCOMING_HUB_CAP = 75
++    OUTGOING_HUB_CAP = 25
++    HUB_DEGREE_CAP = 50
+     structural_context = ""
+@@ -23,16 +28,23 @@
+         if case_id and eeg.has_node(case_id):
+-            queue.append((case_id, 0))
+-
+-    def _sort_predecessors_by_recency(preds):
+-        def _extract_year_date(pid):
+-            pdata = eeg.nodes.get(pid, {})
+-            pdate = str(pdata.get('decision_date') or pdata.get('date') or '')
+-            try:
+-                pyear = int(pdate[:4])
+-            except (ValueError, IndexError):
+-                pyear = 0
+-            return (pyear, pdate)
+-        return sorted(preds, key=_extract_year_date, reverse=True)
++            if restrict_to_nodes is None or case_id in restrict_to_nodes:
++                queue.append((case_id, 0))
++
++    def _extract_year_date(pid):
++        pdata = eeg.nodes.get(pid, {})
++        pdate = str(pdata.get('decision_date') or pdata.get('date') or '')
++        try:
++            pyear = int(pdate[:4])
++        except (ValueError, IndexError):
++            pyear = 0
++        return (pyear, pdate)
++
++    def _sort_nodes_by_recency(nodes, reverse=True):
++        return sorted(nodes, key=_extract_year_date, reverse=reverse)
++
++    MAX_GRAPH_NODES = 40
++    MAX_STRUCTURAL_CHARS = 35000
+ 
+     while queue:
++        if len(visited_nodes) >= MAX_GRAPH_NODES or len(structural_context) >= MAX_STRUCTURAL_CHARS:
++            break
+         current_id, depth = queue.pop(0)
+@@ -41,2 +53,4 @@
+             continue
++        if restrict_to_nodes is not None and current_id not in restrict_to_nodes:
++            continue
+ 
+@@ -44,6 +58,9 @@
+ 
+-        # Safe dictionary access for the current node
+         current_node_data = eeg.nodes.get(current_id, {})
+         current_title = current_node_data.get('title', current_id)
+-        current_text  = current_node_data.get('text', '').strip()
++        current_holding = current_node_data.get('substantive_holding')
++        if not current_holding:
++            current_holding = clean_case_snippet(current_node_data.get('text', ''), max_chars=1200)
++        else:
++            current_holding = current_holding[:1200]
+         current_date  = current_node_data.get('decision_date') or current_node_data.get('date', '')
+@@ -53,18 +70,20 @@
+         )
+-        # (1) Include actual node text if present
+-        if current_text:
+-            structural_context += f"[Case Summary/Text]: {current_text}\n"
++        if current_holding:
++            structural_context += f"[Case Holding/Rule]: {current_holding}\n"
+ 
+         node_degree = eeg.degree(current_id)
+-        
+-        # (2) Hub-cap handling: Option A (100% budget to incoming citing predecessors by recency)
++
+         if node_degree > HUB_DEGREE_CAP:
+             all_preds = list(eeg.predecessors(current_id)) if hasattr(eeg, "predecessors") else []
+-            sorted_preds = _sort_predecessors_by_recency(all_preds)
+-            selected_preds = sorted_preds[:HUB_DEGREE_CAP]
++            sorted_preds = _sort_nodes_by_recency(all_preds, reverse=True)
++            selected_preds = sorted_preds[:INCOMING_HUB_CAP]
++
++            all_succs = list(eeg.neighbors(current_id)) if hasattr(eeg, "neighbors") else []
++            sorted_succs = _sort_nodes_by_recency(all_succs, reverse=True)
++            selected_succs = sorted_succs[:OUTGOING_HUB_CAP]
+ 
+             structural_context += (
+-                f"[Note: High-degree hub node (total_degree={node_degree}, in_degree={len(all_preds)}). "
+-                f"Adaptive traversal engaged: prioritized top {len(selected_preds)} incoming citing cases "
+-                f"by chronological recency to detect temporal invalidations/overrulings.]\n"
++                f"[Note: High-degree hub node (total_degree={node_degree}, in_degree={len(all_preds)}, out_degree={len(all_succs)}). "
++                f"Dual-budget traversal engaged: {len(selected_preds)} incoming citing cases (overruling/invalidation detection) "
++                f"and {len(selected_succs)} outgoing cited precedents (foundational lineage).]\n"
+             )
+@@ -72,2 +91,6 @@
+             for predecessor in selected_preds:
++                if len(structural_context) >= MAX_STRUCTURAL_CHARS:
++                    break
++                if restrict_to_nodes is not None and predecessor not in restrict_to_nodes:
++                    continue
+                 edge_data = eeg.get_edge_data(predecessor, current_id) or {}
+@@ -77,16 +100,26 @@
+                 pred_date  = pred_data.get('decision_date') or pred_data.get('date', '')
+-
+-                structural_context += (
+-                    f"- CHRONOLOGICAL FLOW / CITING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
+-                    f"[{relation}] this precedent (Case ID: {current_id}).\n"
+-                )
+-                if predecessor not in visited_nodes and depth + 1 <= max_depth:
+-                    queue.append((predecessor, depth + 1))
+-
+-            continue  # Hub node expansion completed under Option A policy
+-
+-        # (3) Normal Node Expansion (node_degree <= HUB_DEGREE_CAP)
+-        if eeg.has_node(current_id):
+-            # Outgoing relations (cases cited by this case - historical precedent)
+-            for neighbor in eeg.neighbors(current_id):
++                pred_holding = pred_data.get('substantive_holding')
++
++                if relation == "OVERRULES" and not arm4_unlabeled:
++                    pred_text = pred_holding[:600] if pred_holding else clean_case_snippet(pred_data.get('text', ''), max_chars=400)
++                    line = (
++                        f"- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
++                        f"[OVERRULES / REPUDIATES] this precedent (Case ID: {current_id})."
++                    )
++                else:
++                    rel_tag = "CITES" if arm4_unlabeled else relation
++                    pred_text = pred_holding[:250] if pred_holding else clean_case_snippet(pred_data.get('text', ''), max_chars=180)
++                    line = (
++                        f"- CHRONOLOGICAL FLOW / CITING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
++                        f"[{rel_tag}] this precedent (Case ID: {current_id})."
++                    )
++                if pred_text:
++                    line += f" [Holding]: {pred_text}"
++                structural_context += line + "\n"
++
++            for neighbor in selected_succs:
++                if len(structural_context) >= MAX_STRUCTURAL_CHARS:
++                    break
++                if restrict_to_nodes is not None and neighbor not in restrict_to_nodes:
++                    continue
+                 edge_data = eeg.get_edge_data(current_id, neighbor) or {}
+@@ -96,14 +129,63 @@
+                 nb_date   = nb_data.get('decision_date') or nb_data.get('date', '')
+-                structural_context += (
+-                    f"- LOGICAL RELATION: This case (Case ID: {current_id}) "
+-                    f"[{relation}] earlier case '{nb_title}' (Case ID: {neighbor}, Date: {nb_date}).\n"
+-                )
+-                if neighbor not in visited_nodes and depth + 1 <= max_depth:
++                nb_holding = nb_data.get('substantive_holding')
++
++                if relation == "OVERRULES" and not arm4_unlabeled:
++                    nb_text = nb_holding[:600] if nb_holding else clean_case_snippet(nb_data.get('text', ''), max_chars=400)
++                    line = (
++                        f"- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: {current_id}) "
++                        f"[OVERRULES / REPUDIATES] earlier precedent '{nb_title}' (Case ID: {neighbor}, Date: {nb_date})."
++                    )
++                else:
++                    rel_tag = "CITES" if arm4_unlabeled else relation
++                    nb_text = nb_holding[:250] if nb_holding else clean_case_snippet(nb_data.get('text', ''), max_chars=180)
++                    line = (
++                        f"- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: {current_id}) "
++                        f"[{rel_tag}] earlier precedent '{nb_title}' (Case ID: {neighbor}, Date: {nb_date})."
++                    )
++                if nb_text:
++                    line += f" [Holding]: {nb_text}"
++                structural_context += line + "\n"
++
++            continue
++
++        if eeg.has_node(current_id):
++            for neighbor in list(eeg.neighbors(current_id))[:OUTGOING_HUB_CAP]:
++                if len(structural_context) >= MAX_STRUCTURAL_CHARS:
++                    break
++                if restrict_to_nodes is not None and neighbor not in restrict_to_nodes:
++                    continue
++                edge_data = eeg.get_edge_data(current_id, neighbor) or {}
++                relation  = edge_data.get('relation', 'CITES')
++                nb_data   = eeg.nodes.get(neighbor, {})
++                nb_title  = nb_data.get('title', neighbor)
++                nb_date   = nb_data.get('decision_date') or nb_data.get('date', '')
++                nb_holding = nb_data.get('substantive_holding')
++
++                if relation == "OVERRULES" and not arm4_unlabeled:
++                    nb_text = nb_holding[:600] if nb_holding else clean_case_snippet(nb_data.get('text', ''), max_chars=400)
++                    line = (
++                        f"- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: {current_id}) "
++                        f"[OVERRULES / REPUDIATES] earlier precedent '{nb_title}' (Case ID: {neighbor}, Date: {nb_date})."
++                    )
++                else:
++                    rel_tag = "CITES" if arm4_unlabeled else relation
++                    nb_text = nb_holding[:250] if nb_holding else clean_case_snippet(nb_data.get('text', ''), max_chars=180)
++                    line = (
++                        f"- LOGICAL RELATION: This case (Case ID: {current_id}) "
++                        f"[{rel_tag}] earlier case '{nb_title}' (Case ID: {neighbor}, Date: {nb_date})."
++                    )
++                if nb_text:
++                    line += f" [Holding]: {nb_text}"
++                structural_context += line + "\n"
++                if neighbor not in visited_nodes and depth + 1 <= max_depth and len(queue) < 15 and (restrict_to_nodes is None or neighbor in restrict_to_nodes):
+                     queue.append((neighbor, depth + 1))
+ 
+-            # Incoming chronological relations (cases that cite this case - citing successors)
+             if hasattr(eeg, "predecessors"):
+                 all_preds = list(eeg.predecessors(current_id))
+-                sorted_preds = _sort_predecessors_by_recency(all_preds)
+-                for predecessor in sorted_preds:
++                sorted_preds = _sort_nodes_by_recency(all_preds, reverse=True)
++                for predecessor in sorted_preds[:INCOMING_HUB_CAP]:
++                    if len(structural_context) >= MAX_STRUCTURAL_CHARS:
++                        break
++                    if restrict_to_nodes is not None and predecessor not in restrict_to_nodes:
++                        continue
+                     edge_data = eeg.get_edge_data(predecessor, current_id) or {}
+@@ -113,9 +195,23 @@
+                     pred_date  = pred_data.get('decision_date') or pred_data.get('date', '')
+-                    structural_context += (
+-                        f"- CHRONOLOGICAL FLOW / CITING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
+-                        f"[{relation}] this precedent (Case ID: {current_id}).\n"
+-                    )
+-                    if predecessor not in visited_nodes and depth + 1 <= max_depth:
++                    pred_holding = pred_data.get('substantive_holding')
++
++                    if relation == "OVERRULES" and not arm4_unlabeled:
++                        pred_text = pred_holding[:600] if pred_holding else clean_case_snippet(pred_data.get('text', ''), max_chars=400)
++                        line = (
++                            f"- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
++                            f"[OVERRULES / REPUDIATES] this precedent (Case ID: {current_id})."
++                        )
++                    else:
++                        rel_tag = "CITES" if arm4_unlabeled else relation
++                        pred_text = pred_holding[:250] if pred_holding else clean_case_snippet(pred_data.get('text', ''), max_chars=180)
++                        line = (
++                            f"- CHRONOLOGICAL FLOW / CITING SUCCESSOR: '{pred_title}' (Case ID: {predecessor}, Date: {pred_date}) "
++                            f"[{rel_tag}] this precedent (Case ID: {current_id})."
++                        )
++                    if pred_text:
++                        line += f" [Holding]: {pred_text}"
++                    structural_context += line + "\n"
++                    if predecessor not in visited_nodes and depth + 1 <= max_depth and len(queue) < 15 and (restrict_to_nodes is None or predecessor in restrict_to_nodes):
+                         queue.append((predecessor, depth + 1))
+ 
+-    return structural_context+    return structural_context[:40000]
+######## generate_content_with_retry: ask_terra_pre_dual_budget_backup.py -> ask_terra.py
+--- 
++++ 
+@@ -1,3 +1,3 @@
+ def generate_content_with_retry(client, model, contents, config=None, max_retries=5):
+-    # Enforce temperature=0.0 for deterministic outputs (TIER 1.6)
++    # Enforce temperature=0.0 for greedy decoding (TIER 1.6)
+     if config is None:
+
+######## smart_grader: ask_terra_pre_dual_budget_backup.py -> ask_terra.py
+--- 
++++ 
+@@ -1,2 +1,14 @@
+ def smart_grader(user_query: str, retrieved_context: str) -> bool:
++    # Deterministic empty/trivial context gate (anti-hallucination safety invariant)
++    if not retrieved_context or not retrieved_context.strip():
++        print("[SMART GRADER] Empty context provided. Immediate fail (False).")
++        return False
++    
++    clean_ctx = retrieved_context.strip()
++    for marker in ["[Top Retrieved Cases]", "[GRAPH EXPANSION CONTEXT]", "[STRUCTURAL CONNECTIONS]", "No relevant legal context found."]:
++        clean_ctx = clean_ctx.replace(marker, "").strip()
++    if len(clean_ctx) < 50:
++        print(f"[SMART GRADER] Substantive context too short ({len(clean_ctx)} chars after boilerplate stripping). Immediate fail (False).")
++        return False
++
+     prompt = f"""
+@@ -6,4 +18,8 @@
+     GUIDELINES:
+-    - Set "entails": true if the Legal Context contains the relevant case holdings, legal principles, or historical connections needed to address the query (including synthesized context across multiple retrieved cases).
+-    - Set "entails": false ONLY if the Legal Context completely lacks relevant legal information or is on an entirely unrelated subject.
++    - Set "entails": true if the Legal Context contains the relevant case holdings, legal principles, historical connections, or subsequent citing/overruling precedents needed to address the query (including synthesized context across multiple retrieved cases).
++    - DOCTRINAL EVOLUTION & ADVERSARIAL QUERIES: If a query asks whether a historical doctrine is currently binding, enforceable, or constitutional (e.g. asking if Plessy, Lochner, Wolf, or Olmstead is currently constitutional), evidence showing the historical case alongside its subsequent citing successors or overruling precedents (such as Brown v. Board, West Coast Hotel, Mapp, Katz) LOGICALLY ENTAILS the answer (refuting the premise of current constitutionality is a fully entailed answer). Do NOT require the context to literally state the modern status if the citing successors and trajectory provide the doctrinal foundation.
++    - Set "entails": false if:
++      (1) The Legal Context completely lacks relevant legal information or is on an entirely unrelated subject.
++      (2) The query requests specific factual citations, reporter volumes, or page numbers that are absent from the context (e.g. missing US Reports volume).
++      (3) The query asserts a false holding about a case and the context provides zero evidence to address or resolve it.
+     
+@@ -55,3 +71,3 @@
+     except Exception as e:
+-        print(f"[SMART GRADER ERROR] Assuming True for safety. Error: {e}")
+-        return True+        print(f"[SMART GRADER ERROR] Exception during entailment grading: {e}. Defaulting to False for anti-hallucination safety.")
++        return False
+######## terra_inference_engine: ask_terra_pre_dual_budget_backup.py -> ask_terra.py
+--- 
++++ 
+@@ -7,3 +7,6 @@
+     interceptor=None,
+-    query_id="N/A"
++    query_id="N/A",
++    arm4_unlabeled=False,
++    restrict_to_nodes=None,
++    forced_route=None
+ ):
+@@ -15,3 +18,6 @@
+     _t0 = time.time()
+-    if force_hard_path:
++    if forced_route is not None:
++        route = forced_route
++        _routing_meta = {"router_model_used": f"FORCED_{forced_route}", "fallback_contaminated": False}
++    elif force_hard_path:
+         route = "HARD"
+@@ -226,3 +232,3 @@
+         else:
+-            structural_context = extract_graph_context(combined_metadatas, max_depth=2)
++            structural_context = extract_graph_context(combined_metadatas, max_depth=2, arm4_unlabeled=arm4_unlabeled, restrict_to_nodes=restrict_to_nodes)
+             
+@@ -237,3 +243,3 @@
+                             _dst_title = eeg.nodes.get(_dst, {}).get('title', _dst)
+-                            _rel = _edge.get('relation', 'CITES') if isinstance(_edge, dict) else 'CITES'
++                            _rel = "CITES" if arm4_unlabeled else (_edge.get('relation', 'CITES') if isinstance(_edge, dict) else 'CITES')
+                             _structural_connections.append(
+@@ -247,2 +253,14 @@
+ 
++        # Wire precedent evolution and citing successors into grading context
++        _successor_lines = [
++            line.strip() for line in structural_context.splitlines() 
++            if ("CHRONOLOGICAL FLOW / CITING SUCCESSOR" in line or "LOGICAL RELATION" in line)
++        ]
++        # CRITICAL SAFEGUARD: Do not alter the string header "[PRECEDENT EVOLUTION & CITING SUCCESSORS (GRAPH TRAVERSAL)]"
++        # or the successor prefixes without re-running scripts/evaluate_nli_verifier.py (Issue #2 sensitivity invariant).
++        _graph_evolution_block = ""
++        if _successor_lines:
++            _succ_header = "\n".join(_successor_lines[:100])
++            _graph_evolution_block = f"[PRECEDENT EVOLUTION & CITING SUCCESSORS (GRAPH TRAVERSAL)]\n{_succ_header}\n\n"
++
+         # v41.4: Fetch thinking traces from ChromaDB (where they were ingested),
+@@ -253,3 +271,7 @@
+             _title = _ndata.get('title', _nid)
+-            _text = _ndata.get('text', '')[:400]
++            _holding = _ndata.get('substantive_holding')
++            if not _holding:
++                _holding = clean_case_snippet(_ndata.get('text', ''), max_chars=1200)
++            else:
++                _holding = _holding[:1200]
+             try:
+@@ -259,3 +281,3 @@
+                 _trace = ""
+-            _summary = f"{_trace}\n{_text}".strip() if (_trace or _text) else ""
++            _summary = f"{_trace}\n[Holding]: {_holding}".strip() if (_trace or _holding) else ""
+             if _title or _summary:
+@@ -264,3 +286,3 @@
+         _traces_excerpt = "\n".join([f"- {t}" for t in retrieved_traces[:5]])
+-        grading_context = f"{_connections_block}{_seed_header}\n\n[Top Retrieved Cases]\n{_traces_excerpt}" if _seed_header else f"{_connections_block}[Top Retrieved Cases]\n{_traces_excerpt}"
++        grading_context = f"{_graph_evolution_block}{_connections_block}{_seed_header}\n\n[Top Retrieved Cases]\n{_traces_excerpt}" if _seed_header else f"{_graph_evolution_block}{_connections_block}[Top Retrieved Cases]\n{_traces_excerpt}"
+         grading_context = grading_context[:60000]
+@@ -274,2 +296,3 @@
+             full_compiled_context = f"{structural_context}\n{traces_context}"
++        full_compiled_context = full_compiled_context[:60000]
+         _timing.setdefault('retrieval_ms', round((time.time() - _t0) * 1000, 2))
+@@ -322,2 +345,19 @@
+ 
++    # HARD SAFETY INVARIANT: If compiled context is empty or trivial, refuse immediately
++    clean_compiled = full_compiled_context.strip() if full_compiled_context else ""
++    for marker in ["[Top Retrieved Cases]", "[GRAPH EXPANSION CONTEXT]", "[STRUCTURAL CONNECTIONS]", "No relevant legal context found."]:
++        clean_compiled = clean_compiled.replace(marker, "").strip()
++    if len(clean_compiled) < 50:
++        _timing['smart_grader_passed'] = False
++        _timing['is_refusal'] = True
++        _timing['generation_ms'] = 0.0
++        _timing['total_ms'] = round((time.time() - _t_start) * 1000, 2)
++        _timing['_generation_model_used'] = "SAFETY_GATE_EMPTY_CONTEXT"
++        _timing['_retry_sleep_ms'] = 0.0
++        _timing['_model_degraded'] = False
++        refusal = "I apologize, but I do not have sufficient validated legal context in my databases to answer this query accurately without risking hallucination."
++        if return_timing:
++            return refusal, full_compiled_context, _timing
++        return refusal, full_compiled_context
++
+     # STEP 3: Generate Final Answer
+@@ -329,2 +369,7 @@
+         
++    if arm4_unlabeled:
++        instruction_2 = "2. If CONTEXT DATA indicates that an earlier precedent has been overruled or repudiated by a subsequent decision, or if citing cases establish that an earlier doctrine has been rejected, your answer must explicitly state that the historical doctrine is NO LONGER valid law and cite the modifying or overruling decision."
++    else:
++        instruction_2 = "2. If CONTEXT DATA indicates that an earlier precedent has been [OVERRULES / REPUDIATES] by a subsequent decision, or if citing cases establish that an earlier doctrine has been rejected, your answer must explicitly state that the historical doctrine is NO LONGER valid law and cite the modifying or overruling decision."
++
+     system_prompt = f"""
+@@ -340,5 +385,7 @@
+     1. Answer the Question directly, thoroughly, and factually based ONLY on CONTEXT DATA.
+-    2. If multiple cases are provided under [SEEDED CASE] headers in CONTEXT DATA, your answer must explicitly reference and synthesize ALL of them, explaining how they relate to the Question. Do not stop after summarizing a single case when multiple seeded cases are present.
+-    3. The Question is a valid, complete legal query. Provide a complete, grounded legal answer.
+-    4. For any legal case you mention in your answer that has an explicit Case ID listed in the CONTEXT DATA (e.g. Case ID: 5 for Brown v. Board of Education), format the case title as a relative markdown link using its ID, e.g. "[Brown v. Board of Education](/case/5)". Only format links for cases that have explicit Case IDs provided in the context data.
++    {instruction_2}
++    3. If multiple cases are provided under [SEEDED CASE] headers in CONTEXT DATA, your answer must explicitly reference and synthesize ALL of them, explaining how they relate to the Question. Do not stop after summarizing a single case when multiple seeded cases are present.
++    4. For doctrinal evolution questions tracing multiple cases, detail the legal transitions, rulings, and standards grounded strictly in the provided [Holding] and case text. Synthesize the trajectory across the cases provided without asserting external legal standards or factual tests that do not appear in the context. If an intermediate standard is only partially described, state the rule as established in the provided text rather than refusing to answer.
++    5. The Question is a valid, complete legal query. Provide a direct, substantive, and grounded legal answer. Do not issue a refusal or hedge unnecessarily when relevant case holdings and trajectory are provided in the context.
++    6. For any legal case you mention in your answer that has an explicit Case ID listed in the CONTEXT DATA (e.g. Case ID: 5 for Brown v. Board of Education), format the case title as a relative markdown link using its ID, e.g. "[Brown v. Board of Education](/case/5)". Only format links for cases that have explicit Case IDs provided in the context data.
+     

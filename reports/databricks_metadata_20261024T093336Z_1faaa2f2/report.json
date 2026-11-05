@@ -1,0 +1,123 @@
+{
+  "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+  "cloud_hint": "AWS_FROM_HOST_SUFFIX_NOT_REGION_CERTIFICATION",
+  "region": null,
+  "billing_rates": null,
+  "credits": null,
+  "inference_calls": 0,
+  "status": "READ_ONLY_METADATA_COMPLETE",
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/2.0/serving-endpoints",
+      "response_sha256": "d4575a62e41c9a0ddcbef8a46a30ce21c40c719bd33592885a97dbe01840ab39"
+    },
+    {
+      "method": "GET",
+      "path": "/api/2.0/serving-endpoints/databricks-gemma-3-12b",
+      "response_sha256": "1f3755049d5341b6a194505be825e88cb7c7bf72b67f4fd282dd887f3646540f"
+    },
+    {
+      "method": "GET",
+      "path": "/api/2.0/serving-endpoints/databricks-meta-llama-3-3-70b-instruct",
+      "response_sha256": "0cdcad71918215cd64fd09d49ca57cce0bdb3aff316c0fa7256391d492cf3ec5"
+    },
+    {
+      "method": "GET",
+      "path": "/api/2.0/serving-endpoints/databricks-qwen3-next-80b-a3b-instruct",
+      "response_sha256": "c1dbe6a314e10f22a5ab9687798e878e002b0c362c974d5337b88fe37d40c801"
+    },
+    {
+      "method": "GET",
+      "path": "/api/2.0/serving-endpoints/databricks-gpt-oss-120b",
+      "response_sha256": "40cca6e1a5218a548ef629627c97f0d64095a018ffa3d5ad65fa62f18e673707"
+    }
+  ],
+  "attempted_paths": [
+    "/api/2.0/serving-endpoints",
+    "/api/2.0/serving-endpoints/databricks-gemma-3-12b",
+    "/api/2.0/serving-endpoints/databricks-meta-llama-3-3-70b-instruct",
+    "/api/2.0/serving-endpoints/databricks-qwen3-next-80b-a3b-instruct",
+    "/api/2.0/serving-endpoints/databricks-gpt-oss-120b"
+  ],
+  "endpoint_names": [
+    "databricks-gpt-oss-120b",
+    "databricks-gpt-oss-20b",
+    "databricks-qwen3-next-80b-a3b-instruct",
+    "databricks-qwen35-122b-a10b",
+    "databricks-gemma-3-12b",
+    "databricks-gte-large-en",
+    "databricks-bge-large-en",
+    "databricks-meta-llama-3-1-8b-instruct",
+    "databricks-meta-llama-3-3-70b-instruct",
+    "databricks-qwen3-embedding-0-6b",
+    "databricks-llama-4-maverick",
+    "databricks-deepseek-v4-flash-0731"
+  ],
+  "targets": {
+    "databricks-gemma-3-12b": {
+      "status": "METADATA_READ",
+      "metadata": {
+        "name": "databricks-gemma-3-12b",
+        "state": {
+          "ready": "READY",
+          "config_update": "NOT_UPDATING"
+        },
+        "served_entities": [
+          {
+            "name": "databricks-gemma-3-12b"
+          }
+        ],
+        "reported_rate_limits": []
+      }
+    },
+    "databricks-meta-llama-3-3-70b-instruct": {
+      "status": "METADATA_READ",
+      "metadata": {
+        "name": "databricks-meta-llama-3-3-70b-instruct",
+        "state": {
+          "ready": "READY",
+          "config_update": "NOT_UPDATING"
+        },
+        "served_entities": [
+          {
+            "name": "databricks-meta-llama-3-3-70b-instruct"
+          }
+        ],
+        "reported_rate_limits": []
+      }
+    },
+    "databricks-qwen3-next-80b-a3b-instruct": {
+      "status": "METADATA_READ",
+      "metadata": {
+        "name": "databricks-qwen3-next-80b-a3b-instruct",
+        "state": {
+          "ready": "READY",
+          "config_update": "NOT_UPDATING"
+        },
+        "served_entities": [
+          {
+            "name": "databricks-qwen3-next-80b-a3b-instruct"
+          }
+        ],
+        "reported_rate_limits": []
+      }
+    },
+    "databricks-gpt-oss-120b": {
+      "status": "METADATA_READ",
+      "metadata": {
+        "name": "databricks-gpt-oss-120b",
+        "state": {
+          "ready": "READY",
+          "config_update": "NOT_UPDATING"
+        },
+        "served_entities": [
+          {
+            "name": "databricks-gpt-oss-120b"
+          }
+        ],
+        "reported_rate_limits": []
+      }
+    }
+  }
+}

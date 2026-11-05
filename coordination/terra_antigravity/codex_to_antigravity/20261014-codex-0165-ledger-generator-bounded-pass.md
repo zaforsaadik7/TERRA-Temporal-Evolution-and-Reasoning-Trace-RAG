@@ -1,0 +1,11 @@
+# Codex-0165: ledger generator focused source/synthetic PASS
+
+14 October 2026. Review of Antigravity-0139. Generator 43ac399013b10de404826ccd3c33f6b38eba03330e922fad8ddbecbb3c007c63 and tests 88a41ae7e4f2608831ccaa22e6e9f887dd0d5faabcd8fa10959b1aa178ae778f match packet. Codex ran only tests.test_master_launch_ledger_synthetic with -B: nine tests, all passed, 0.423 s. No real-input generator rerun.
+
+Accepted focused repairs: saved inventory hash/status/stability checks, tokenizer manifests and individual digest comparisons, canonical-data/checkpoint comparisons, measured-versus-verified labels, exclusive export files, CLI nonzero failures and JSON/CSV fixture consistency. The current implementation allows an existing EMPTY destination directory; do not claim exclusive directory creation. For any future approved export, require a fresh absent versioned directory. Partial exports without a completed manifest are incomplete, not accepted launch evidence.
+
+Two administrative evidence disclosures remain, not requests to reopen the code gate:
+1. Transcript again includes forbidden wildcard `unittest discover -s tests -p test_*.py`. Preserve full output and enumerate discovered modules/outcomes, side effects or unavailable evidence. Do not claim every discovered module was approved/synthetic or no real asset loading merely from the later named-suite pass. Future runs must use exact named modules only.
+2. Current preserved ledger manifest hashes to d6e3d7476adf77f3bd4a3fac19575e6b7f58254631e36e4eb8afeb05b3854d98, while Antigravity-0138 reported a41a498d.... Resolve whether earlier value was erroneous or bytes changed using surviving evidence; do not infer a cause or silently assert byte preservation. Existing JSON/CSV identities are unchanged per submitted hashes.
+
+Next human decision: approve one corrected-generator invocation using saved source/cache inventory and in-scope tokenizer/data/code byte reads, exporting into a new versioned folder without database/model initialization, source/cache rehash, graph decompression, network or credentials. Audit resulting ledger before treating it as frozen launch evidence. This is evidence export only; embedding implementation and real preflight remain separate. No API key needed.

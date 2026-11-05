@@ -1,0 +1,84 @@
+S12
+Full detail for main Table IX
+Standardized External Benchmark Evaluation on a Stratified Sample of CLERC (Track 1, N = 120) and TERRA-Specific Out-of-Corpus Refusal Stress Test (Track 2, N = 50). Evaluated under strict
+payload parity (T = 0.0, 4096 tokens, LLaMA 3.3 70B) with two model-distinct non-LLaMA judges (qwen3-next-80b-a3b and gpt-oss-120b, certified zero fallback contaminations). Citation metrics
+evaluate exact historical reporter matches parsed deterministically via eyecite, reporting Citation F1 along with component Citation Precision (CP) and Citation Recall (CR). Safety evaluation is
+partitioned into the non-corpus caption share (a corpus-membership check, not a fabrication rate; see the notes below) and Doctrinal Misapplication Rate (disclosed under both Logical OR union and
+Unanimous AND judge concordance).
+Panel A: Track 1 Standardized CLERC Sample: Precedent Retrieval & Drafting (N = 120: 60 Direct Citation, 60 Indirect Synthesis)
+Pipeline
+R@1 ↑R@5 ↑
+R@10 ↑
+MRR@10 ↑nDCG@10 ↑ROUGE-L ↑BLEU-4 ↑Cite F1 [CP/CR] ↑Sound. ↑Non-corpus captions ↓Misapplication [OR / AND] ↓
+Direct LLM (No RAG)
+—
+—
+—
+—
+—
+6.52
+0.92
+4.7%[4.5%/4.9%]
+2.84
+41.1%
+90.0%/64.2%
+Flat Vector RAG
+3.3%
+8.3%
+10.0%
+0.055
+0.066
+5.47
+0.61
+1.8%[2.9%/1.4%]
+2.34
+15.0%
+98.3%/86.7%
+Full TERRA (Gated Live)
+3.3%∗
+9.2%
+10.8%
+0.056
+0.069
+6.50∗∗
+1.10
+3.5%[5.5%/2.6%]
+1.98
+15.3%
+50.0%/37.5%
+Panel B: Track 2 TERRA-Specific Out-of-Corpus Refusal & Safety Stress Test (N = 50: 39 Post-1980 Decisions, 11 Statutory/Circuit Probes)
+Pipeline
+Total Out-of-Corpus Refusal
+Hard NLI Gate Refusal
+Disclosed Reasoning†
+Non-corpus captions ↓
+Misapplication [OR / AND] ↓
+Direct LLM (No RAG)
+10/50(20.0%)
+0/50 (0.0%)
+0/50(0.0%)
+45.5%
+92.0%/74.0%
+Flat Vector RAG
+10/50(20.0%)
+0/50 (0.0%)
+1/50(2.0%)
+11.5%
+100.0%/98.0%
+Full TERRA (Gated Live)
+33/50(66.0%)
+33/50(66.0%)
+0/50(0.0%)
+8.7%
+34.0%/34.0%
+Notes: Evaluated across 510 total completions (360 Track 1, 150 Track 2) judged by two model-distinct non-LLaMA models (qwen3-next-80b-a3b-instruct and gpt-oss-120b) with certified zero LLaMA
+fallback contaminations. ∗Retrieval metrics evaluate the stratified CLERC Track 1 sample (N = 120); TERRA achieves slightly higher Recall@10 (+0.8 percentage points) and nDCG@10 (+0.003) than
+Flat Vector RAG. ∗∗Generation quality is scored against unredacted judicial analysis sections; it does not certify authentic legal reasoning or legal correctness. Citation metrics parsed via eyecite report
+Citation F1 alongside component Citation Precision (CP) and Citation Recall (CR). †Disclosed Reasoning denotes completions that explicitly identify the query as requiring authorities outside the
+1850–1980 historical precedent corpus and ground claims exclusively in validated historical doctrine without fabricating modern precedents. Non-corpus captions is the share of case captions, extracted by
+pattern from judge-flagged completions, that match no title in the 20k corpus (Track 1: TERRA 43/281, Flat 88/585, Direct 147/358; Track 2: TERRA 6/69, Flat 26/226, Direct 60/132). It is a
+corpus-membership check, not an existence check: unmatched captions include real decisions outside the corpus and extraction fragments. An earlier recorded fabrication value of 0.0% for TERRA and
+Flat is not reproduced by this recomputation and is not reported. Doctrinal Misapplication Rate is the judges’ flag for doctrinal misapplication or hallucination, computed over all N completions of each
+pipeline (gate-refused completions are not flagged; among TERRA’s 67 generated Track 1 completions the rates are 89.6%(60/67) under OR and 67.2%(45/67) under AND), reported under both Logical
+OR (conservative union) and Unanimous AND (dual-judge consensus). Citation F1 is computed from micro-pooled CP and CR.
+S29

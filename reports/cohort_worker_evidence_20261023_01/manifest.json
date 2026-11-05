@@ -1,0 +1,92 @@
+{
+  "scope": "SYNTHETIC_PREPARED_WORKER_AND_FILESYSTEM_SINKS",
+  "sources": [
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_controls.py",
+      "size_bytes": 8807,
+      "sha256": "a9be7f2b18a8480078daa13687ee1d4705e694bfb92b992e593b219f19de818a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_evidence.py",
+      "size_bytes": 3931,
+      "sha256": "42400d3d5f1b8b83bb60183a42399513e939f8431564528549b7c54f658027e9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_worker.py",
+      "size_bytes": 6872,
+      "sha256": "a9f8cd28109304fe4c8e55f31188f43c1a99ca66d69f1627b86c51aab5632f63"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_cohort_worker_evidence_synthetic.py",
+      "size_bytes": 8461,
+      "sha256": "cb92f3e8bd87ec114f6bfd75e88ddf166bd3d07c944ccb2e58ed8eb47f51ba03"
+    }
+  ],
+  "files": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\controls.diff",
+      "size_bytes": 539,
+      "sha256": "b4e0c06e88e326fd4e77d8f87184d00bb072074cef3525f612b8f30ac154e362"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\IMPLEMENTATION_SCOPE.md",
+      "size_bytes": 5594,
+      "sha256": "3425f4f0deb724cdf0a99d8f4272b79d573609f0213f0aa770959660826246cf"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\named_tests.log",
+      "size_bytes": 137079,
+      "sha256": "043f2ee703da230c9b19ad4f94b8e1f116bb7f8c21f746d70dbdc59ef4d3f6bd"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\offline_cohort_controls.py.before",
+      "size_bytes": 8778,
+      "sha256": "73088206b78e88177eef1031dbd8b1b8d9823b64c34d95ac88e11538f0e35590"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\offline_cohort_controls.py.final",
+      "size_bytes": 8807,
+      "sha256": "a9be7f2b18a8480078daa13687ee1d4705e694bfb92b992e593b219f19de818a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\offline_cohort_evidence.py.final",
+      "size_bytes": 3931,
+      "sha256": "42400d3d5f1b8b83bb60183a42399513e939f8431564528549b7c54f658027e9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\offline_cohort_worker.py.final",
+      "size_bytes": 6872,
+      "sha256": "a9f8cd28109304fe4c8e55f31188f43c1a99ca66d69f1627b86c51aab5632f63"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\preservation_checks.json",
+      "size_bytes": 136,
+      "sha256": "67fb9b6a65dad17a0e5512f8419e7ee224bae645664008e293210f1976a13bd2"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\run_named_tests.py",
+      "size_bytes": 1850,
+      "sha256": "ce4295a6ad0bc649e3c7a8daf35d677416c51beb158883635fb21bc07800fdc8"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\seal_checkpoint.py",
+      "size_bytes": 2964,
+      "sha256": "44c6e479e60ed464c45a60f7792211635fab588add863b0fffb3a49e9e2b869b"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\STATUS.incoming.json",
+      "size_bytes": 10747,
+      "sha256": "f115dc66f68324a90e08649694f72d98ac9111d60524b0fbe2bd91ea24530ea9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\test_offline_cohort_worker_evidence_synthetic.py.final",
+      "size_bytes": 8461,
+      "sha256": "cb92f3e8bd87ec114f6bfd75e88ddf166bd3d07c944ccb2e58ed8eb47f51ba03"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_worker_evidence_20261023_01\\TEST_RESULT.json",
+      "size_bytes": 2149,
+      "sha256": "ff6d0643d2ef16565084c2c83e46a5aca8201a2f9203e5131208fc58c17487f5"
+    }
+  ]
+}

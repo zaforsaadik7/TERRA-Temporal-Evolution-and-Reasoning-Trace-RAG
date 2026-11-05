@@ -1,0 +1,54 @@
+{
+ "derivative": "terra_eeg_index_20k_r30corr_v1.json",
+ "derivative_sha256": "14827bd623700cc84909fa050746ca92cf1c972b8335f6d1391d3908f3fc146c",
+ "derivative_bytes": 109573765,
+ "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+ "source_sha256": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+ "source_bytes": 109574119,
+ "method": "byte-level removal of exactly three edge records (each with its preceding \", \" separator); all other bytes identical",
+ "removed_edges": [
+  {
+   "source": "415_0651-01",
+   "target": "394_0759-01",
+   "relation": "OVERRULES",
+   "reason": "mis-resolved case identity (R30; intended target absent from corpus)"
+  },
+  {
+   "source": "403_0088-01",
+   "target": "342_0519-01",
+   "relation": "OVERRULES",
+   "reason": "mis-resolved case identity (R30; intended target absent from corpus)"
+  },
+  {
+   "source": "411_0345-01",
+   "target": "172_0269-01",
+   "relation": "OVERRULES",
+   "reason": "mis-resolved case identity (R30; intended target absent from corpus)"
+  }
+ ],
+ "counts": {
+  "nodes": 20000,
+  "edges_listed": 145363,
+  "relations": {
+   "CITES": 145310,
+   "OVERRULES": 53
+  },
+  "unique_directed_pairs": 145363
+ },
+ "header_fields_unchanged": {
+  "total_nodes": 20000,
+  "total_edges": 145363,
+  "graph_density": 0.0003634256712835642,
+  "average_degree": 7.26815,
+  "largest_wcc_size": 18558,
+  "largest_wcc_pct": 92.79,
+  "largest_scc_size": 2,
+  "build_timestamp": "2026-09-05 10:10:10 UTC"
+ },
+ "header_consistency": {
+  "total_edges_matches_list": true,
+  "average_degree_is_edges_over_nodes": true,
+  "graph_density_is_edges_over_n_n_minus_1": true
+ },
+ "policy": "Historical results remain attributed to the ORIGINAL graph (7aa6db46...). This derivative is not wired into any pipeline."
+}

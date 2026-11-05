@@ -1,0 +1,95 @@
+diff --git a/reports/adapter_binding_checkpoint_20261014_01/test_fast_tokenizer_adapter_synthetic.py b/tests/test_fast_tokenizer_adapter_synthetic.py
+index 148f78ac..e75b0904 100644
+--- a/reports/adapter_binding_checkpoint_20261014_01/test_fast_tokenizer_adapter_synthetic.py
++++ b/tests/test_fast_tokenizer_adapter_synthetic.py
+@@ -185,7 +185,10 @@ class TestFastTokenizerAdapterSynthetic(unittest.TestCase):
+             rel_path = f"assets/tokenizers/{role}/{fname}"
+             manifest_lines.append(f"{digest}  {rel_path}")
+ 
+-        manifest_file = self.staging_dir / "tokenizer_manifest.sha256"
++        manifest_file = self.staging_dir / (
++            "gated_tokenizer_manifest.v1.sha256"
++            if role in {"generator", "router"} else "tokenizer_manifest.sha256"
++        )
+         manifest_file.write_text("\n".join(manifest_lines) + "\n", encoding="utf-8")
+         return role_dir
+ 
+@@ -638,7 +641,7 @@ class TestFastTokenizerAdapterSynthetic(unittest.TestCase):
+     def test_verify_role_artifacts_generator_success(self):
+         """Verifies multi-artifact validation succeeds for canonical generator (Llama-3.3)."""
+         role_dir = self._create_mock_role_dir("generator")
+-        manifest_path = self.staging_dir / "tokenizer_manifest.sha256"
++        manifest_path = self.staging_dir / "gated_tokenizer_manifest.v1.sha256"
+         verified = verify_role_artifacts("generator", role_dir, manifest_path, base_dir=self.base_path)
+         self.assertEqual(len(verified), 3)
+         for fname in MANDATORY_ROLE_FILES["generator"]:
+@@ -647,7 +650,7 @@ class TestFastTokenizerAdapterSynthetic(unittest.TestCase):
+     def test_verify_role_artifacts_router_success(self):
+         """Verifies multi-artifact validation succeeds for canonical router (Gemma-3)."""
+         role_dir = self._create_mock_role_dir("router")
+-        manifest_path = self.staging_dir / "tokenizer_manifest.sha256"
++        manifest_path = self.staging_dir / "gated_tokenizer_manifest.v1.sha256"
+         verified = verify_role_artifacts("router", role_dir, manifest_path, base_dir=self.base_path)
+         self.assertEqual(len(verified), 4)
+         for fname in MANDATORY_ROLE_FILES["router"]:
+@@ -656,7 +659,7 @@ class TestFastTokenizerAdapterSynthetic(unittest.TestCase):
+     def test_verify_role_artifacts_router_missing_chat_template_fails_closed(self):
+         """Verifies ConfigurationError if router role lacks chat_template.json."""
+         role_dir = self._create_mock_role_dir("router")
+-        manifest_path = self.staging_dir / "tokenizer_manifest.sha256"
++        manifest_path = self.staging_dir / "gated_tokenizer_manifest.v1.sha256"
+         (role_dir / "chat_template.json").unlink()
+         with self.assertRaises(ConfigurationError) as ctx:
+             verify_role_artifacts("router", role_dir, manifest_path, base_dir=self.base_path)
+@@ -926,7 +929,7 @@ class TestFastTokenizerAdapterSynthetic(unittest.TestCase):
+     def test_local_fast_tokenizer_synthetic_router_chat_template_json_loading(self):
+         """Verifies LocalFastTokenizer loads template from chat_template.json for router role."""
+         role_dir = self._create_mock_role_dir("router")
+-        manifest_path = self.staging_dir / "tokenizer_manifest.sha256"
++        manifest_path = self.staging_dir / "gated_tokenizer_manifest.v1.sha256"
+ 
+         mock_engine = MockEngine(vocab_size=262144)
+ 
+@@ -949,7 +952,7 @@ class TestFastTokenizerAdapterSynthetic(unittest.TestCase):
+     def test_local_fast_tokenizer_synthetic_generator_tokenizer_config_loading(self):
+         """Verifies LocalFastTokenizer loads template from tokenizer_config.json for generator role."""
+         role_dir = self._create_mock_role_dir("generator")
+-        manifest_path = self.staging_dir / "tokenizer_manifest.sha256"
++        manifest_path = self.staging_dir / "gated_tokenizer_manifest.v1.sha256"
+ 
+         mock_engine = MockEngine(vocab_size=128256)
+ 
+@@ -986,6 +989,33 @@ class TestFastTokenizerAdapterSynthetic(unittest.TestCase):
+         self.assertIn("custom_tokenizer and custom_renderer are forbidden in authentic and staged modes", str(ctx.exception))
+ 
+ 
++    def test_role_manifest_routing_rejects_cross_binding(self):
++        for role in ("generator", "router", "judge1", "judge2"):
++            with self.subTest(role=role):
++                role_dir = self._create_mock_role_dir(role)
++                correct = ("gated_tokenizer_manifest.v1.sha256"
++                           if role in {"generator", "router"} else "tokenizer_manifest.sha256")
++                wrong = ("tokenizer_manifest.sha256"
++                         if role in {"generator", "router"} else "gated_tokenizer_manifest.v1.sha256")
++                (self.staging_dir / wrong).write_bytes((self.staging_dir / correct).read_bytes())
++                with self.assertRaisesRegex(SecurityViolationError, "does not match canonical path"):
++                    verify_role_artifacts(role, role_dir, self.staging_dir / wrong, base_dir=self.base_path)
++
++    def test_gated_manifest_detects_tampered_asset_and_missing_row(self):
++        for role in ("generator", "router"):
++            with self.subTest(role=role):
++                role_dir = self._create_mock_role_dir(role)
++                manifest = self.staging_dir / "gated_tokenizer_manifest.v1.sha256"
++                original = (role_dir / "tokenizer.json").read_bytes()
++                (role_dir / "tokenizer.json").write_bytes(b"tampered")
++                with self.assertRaisesRegex(ConfigurationError, "SHA-256 mismatch"):
++                    verify_role_artifacts(role, role_dir, manifest, base_dir=self.base_path)
++                (role_dir / "tokenizer.json").write_bytes(original)
++                rows = manifest.read_text().splitlines()
++                manifest.write_text("\n".join(r for r in rows if not r.endswith('/tokenizer.json')) + "\n")
++                with self.assertRaisesRegex(ConfigurationError, "not present in checksum manifest"):
++                    verify_role_artifacts(role, role_dir, manifest, base_dir=self.base_path)
++
+     def test_renderer_no_tools_context_does_not_activate_is_not_none_or_truthiness_branches(self):
+         """Verifies that context tools=None does not activate 'is not none' (Llama) or truthiness (Qwen/GPT-OSS) branches."""
+         # Template containing both styles of tool branch

@@ -1,0 +1,234 @@
+--- before/provider_accounting.py
++++ scripts\matched_baseline\provider_accounting.py
+@@ -228,6 +228,7 @@
+         self.lock = RLock()
+         self.entries = {}
+         self.halted = False
++        self.persistence_failed = False
+         self.closed = False
+         self.sequence = 0
+         self.file = self.path.open('xb')
+@@ -238,6 +239,8 @@
+             raise
+ 
+     def _append(self, event):
++        if self.persistence_failed:
++            raise DispatchHeld('Journal persistence failed; ambiguous tail must remain untouched')
+         try:
+             raw = canonical(dict(event, sequence=self.sequence))
+             if self.file.write(raw) != len(raw):
+@@ -247,6 +250,7 @@
+             self.sequence += 1
+         except BaseException:
+             self.halted = True
++            self.persistence_failed = True
+             raise
+ 
+     @property
+--- before/provider_run_control.py
++++ scripts\matched_baseline\provider_run_control.py
+@@ -9,6 +9,7 @@
+ import hashlib
+ import math
+ import os
++import re
+ from pathlib import Path
+ from threading import RLock
+ import time
+@@ -200,6 +201,12 @@
+         if type(query_ids) is not tuple or not query_ids or len(set(query_ids)) != len(query_ids):
+             raise ContractError('Ordered unique query manifest required')
+         for q in query_ids: CallIdentity(q, 'shared', 'router')
++        reserved = {'terminal','artifact_manifest','events','calls','single_attempt',
++                    'con','prn','aux','nul'}
++        if (len({q.casefold() for q in query_ids}) != len(query_ids)
++                or any(q.casefold() in reserved or re.fullmatch(r'(?i)(com|lpt)[1-9]',q)
++                       for q in query_ids)):
++            raise ContractError('Query IDs collide with Windows/control namespaces')
+         if type(byte_cap) is not int or byte_cap < 8192: raise ContractError('Invalid evidence cap')
+         _no_reparse(self.root)
+         self.root.mkdir()  # exclusive, never overwrite or adopt an old run
+@@ -221,9 +228,16 @@
+     def _new(self, name, raw):
+         limit = self.byte_cap if name == 'terminal.json' else self.byte_cap-4096
+         if self.written+len(raw) > limit: raise ContractError('Run evidence cap exceeded')
+-        with (self.root/name).open('xb') as f:
++        pending = name
++        if name == 'terminal.json':
++            status = 'success' if b'SYNTHETIC_COMPLETE' in raw else 'failure'
++            pending = 'terminal.'+status+'.pending'
++            if (self.root/name).exists(): raise FileExistsError('Terminal already exists')
++        with (self.root/pending).open('xb') as f:
+             if f.write(raw) != len(raw): raise OSError('Short evidence write')
+             f.flush(); os.fsync(f.fileno())
++        if pending != name:
++            os.rename(self.root/pending, self.root/name)
+         self.written += len(raw)
+ 
+     def event(self, data):
+@@ -242,6 +256,8 @@
+                 raise ContractError('Duplicate or out-of-order query result')
+             if type(result) is not dict or result.get('query_id') != query_id:
+                 raise ContractError('Result identity mismatch')
++            from .paired_result_validation import validate_pair_artifact
++            validate_pair_artifact(self.root, query_id, result)
+             required = {CallIdentity(query_id,'shared','router').key}
+             for arm, label in (('H','arm_h'),('T','arm_t')):
+                 value = result.get(label)
+@@ -265,7 +281,9 @@
+                     or any(e['state'] != 'SETTLED' for e in journal.entries.values())):
+                 raise DispatchHeld('Incomplete run or unresolved provider attempts')
+             self._new('terminal.json', canonical({'status': 'SYNTHETIC_COMPLETE',
+-                      'completed_queries': self.completed, 'provider_certified': False}))
++                      'completed_query_count': len(self.completed),
++                      'completed_manifest_sha256': hashlib.sha256(canonical(self.completed)).hexdigest(),
++                      'provider_certified': False}))
+             self.terminal = True
+             self.events.close()
+ 
+@@ -274,7 +292,8 @@
+             if self.terminal: return
+             try:
+                 self._new('terminal.json', canonical({'status': 'FAIL',
+-                    'failure_type': failure_type, 'completed_queries': self.completed}))
++                    'failure_type': failure_type, 'completed_query_count': len(self.completed),
++                    'completed_manifest_sha256': hashlib.sha256(canonical(self.completed)).hexdigest()}))
+             finally:
+                 self.terminal = True
+                 self.events.close()
+--- before/paired_prompt_workflow.py
++++ scripts\matched_baseline\paired_prompt_workflow.py
+@@ -188,7 +188,12 @@
+     try:
+         trace.append({'kind': 'PAIR_START', 'mode': 'SYNTHETIC_MOCK',
+                       'query_id': query.query_id, 'category': query.category,
++                      'query_text_sha256': hashlib.sha256(query.query_text.encode()).hexdigest(),
+                       'prompt_contract': prompt_contract_sha256(), 'seed': seed})
++        if http_session is not None:
++            http_session.store.event({'kind':'QUERY_CONTRACT','query_id':query.query_id,
++                'category':query.category,'seed':seed,
++                'query_text_sha256':hashlib.sha256(query.query_text.encode()).hexdigest()})
+         def call(stage, arm, text='', answer=None):
+             nonlocal active
+             identity = CallIdentity(query.query_id, arm, stage)
+@@ -208,17 +213,21 @@
+                 result = dispatch_synthetic(identity, role_configs[stage], msgs, tokens, journal, response)
+             else:
+                 from .provider_run_control import HttpFixture, StaticConnection
+-                from .static_matched_study import check_aggregate
+                 cfg = role_configs[stage]
+                 # Conservative space reservation for duplicate request/response traces,
+                 # bounded JSON escaping, monetary journal and failure finalization.
+                 reserve = 2*cfg.request_bytes+10*cfg.response_bytes+65536
+-                check_aggregate(http_session.store.root, aggregate_limit_bytes, reserve)
++                def aggregate_check(extra):
++                    used = (http_session.store.written+journal.file.tell()+trace.written
++                            +getattr(http_session,'completed_trace_bytes',0))
++                    if used+extra > aggregate_limit_bytes:
++                        raise ContractError('Aggregate writer reservation exceeded')
++                aggregate_check(reserve)
+                 connection = StaticConnection(HttpFixture(status=response.status, body=response.body,
+                     fail_at='request' if response.timeout else None))
+                 result = http_session.invoke(identity, cfg, msgs, tokens,
+                     http_session.study_quotas[stage], connection)
+-                check_aggregate(http_session.store.root, aggregate_limit_bytes, 4096)
++                aggregate_check(4096)
+             # Preserve charged provider content before schema/rubric parsing.
+             trace.append({'kind': 'RESPONSE', 'call': identity.key, 'provider': asdict(result)})
+             calls.append(identity.key)
+@@ -231,7 +240,12 @@
+             packed = evidence.select(route, arm)
+             text = '\n\n---\n\n'.join(format_evidence_item(i, n+1) for n,i in enumerate(packed.retained_items))
+             evidence_tokens = tokenizer.count_tokens(text)
++            # Bind retained item bytes to the actual serializer-produced prompt,
++            # not merely to an unrelated stored string/hash of equal token length.
++            evidence_marker = ('Evidence Documents:\n'+text+'\n\n' if text else
++                               'Evidence Documents:\nNo evidence provided.\n\n')
+             if (evidence_tokens > 6000 or evidence_tokens != packed.evidence_tokens
++                    or evidence_marker not in packed.prompt_text
+                     or packed.content_sha256 != hashlib.sha256(packed.prompt_text.encode()).hexdigest()):
+                 raise ContractError('Packed fixture token/hash mismatch')
+             trace.append({'kind': 'EVIDENCE', 'arm': arm, 'route': route,
+@@ -275,6 +289,8 @@
+         raise
+     finally:
+         trace.close()
++        if http_session is not None:
++            http_session.completed_trace_bytes = getattr(http_session,'completed_trace_bytes',0)+trace.written
+ 
+ 
+ def run_live_pair(*args, **kwargs):
+--- before/test_provider_run_control_synthetic.py
++++ tests\test_provider_run_control_synthetic.py
+@@ -51,7 +51,27 @@
+         return [json.loads(x) for x in (self.store.root/'events.jsonl').read_text().splitlines()]
+ 
+     def pair_result(self):
+-        return {'query_id':'Q001','arm_h':{'verifier_passed':True},'arm_t':{'verifier_passed':True}}
++        from dataclasses import asdict
++        from scripts.matched_baseline.common_serializer import CommonSerializer, MockBpeTokenizer
++        from scripts.matched_baseline.paired_prompt_workflow import FixtureQuery, RouteEvidence, run_fixture_pair
++        from scripts.matched_baseline.provider_accounting import SyntheticResponse
++        q=FixtureQuery('Q001','synthetic question','A_Factual')
++        p=CommonSerializer(MockBpeTokenizer()).pack_and_serialize('fixture',q.query_text,[])
++        roles=('router','generator','verifier','judge1','judge2')
++        configs=tuple(replace(self.cfg,role=r) for r in roles)
++        responses={}
++        for arm,stage in [('shared','router')]+[(a,s) for a in ('H','T') for s in ('verifier','generator','judge1','judge2')]:
++            content=({'route':'HARD'} if stage=='router' else
++                     {'sufficient':True,'reason':'synthetic'} if stage=='verifier' else
++                     'fixture answer' if stage=='generator' else
++                     {'faithfulness':1,'outcome':'SUBSTANTIVE_ANSWER','rationale':'synthetic'})
++            body=json.loads(self.body())
++            body['choices'][0]['message']['content']=canonical(content).decode().strip() if type(content) is dict else content
++            responses['Q001:'+arm+':'+stage]=SyntheticResponse(200,canonical(body))
++        self.session.study_quotas={r:self.quota for r in roles}
++        result=run_fixture_pair(q,RouteEvidence(p,p,p,p),configs,responses,self.journal,
++            self.store.root/'Q001.trace.jsonl',http_session=self.session,aggregate_limit_bytes=128*1024**2)
++        return asdict(result)
+ 
+     def remaining_pair_calls(self):
+         identities=[CallIdentity('Q001','shared','router')]
+@@ -195,14 +215,14 @@
+ 
+     def test_pair_result_out_of_order_or_duplicate_rejected(self):
+         with self.assertRaises(ContractError): self.store.complete_pair('OTHER',{'query_id':'OTHER'})
+-        self.store.complete_pair('Q001',self.pair_result())
+-        with self.assertRaises(ContractError): self.store.complete_pair('Q001',self.pair_result())
++        result=self.pair_result()
++        self.store.complete_pair('Q001',result)
++        with self.assertRaises(ContractError): self.store.complete_pair('Q001',result)
+ 
+     def test_run_finish_requires_complete_queries_and_settled_attempts(self):
+         with self.assertRaises(DispatchHeld): self.store.finish(self.journal)
+-        self.invoke()
+-        self.remaining_pair_calls()
+-        self.store.complete_pair('Q001',self.pair_result())
++        result=self.pair_result()
++        self.store.complete_pair('Q001',result)
+         self.store.finish(self.journal)
+         terminal=json.loads((self.store.root/'terminal.json').read_text())
+         self.assertEqual(terminal['status'],'SYNTHETIC_COMPLETE')
+@@ -210,8 +230,9 @@
+         with self.assertRaises(DispatchHeld): self.store.event({'kind':'late'})
+ 
+     def test_unresolved_attempt_cannot_complete_run(self):
+-        self.journal.reserve(self.identity,self.cfg,b'{}',40)
+-        self.store.complete_pair('Q001',self.pair_result())
++        result=self.pair_result()
++        self.store.complete_pair('Q001',result)
++        self.journal.reserve(CallIdentity('Q002','H','generator'),self.cfg,b'{}',40)
+         with self.assertRaises(DispatchHeld): self.store.finish(self.journal)
+ 
+     def test_terminal_space_reserved_when_event_budget_exhausted(self):
+@@ -238,8 +259,8 @@
+         self.assertEqual(self.journal.entries,{})
+ 
+     def test_missing_calls_cannot_be_hidden_by_complete_query_file(self):
+-        self.store.complete_pair('Q001',self.pair_result())
+-        with self.assertRaises(DispatchHeld): self.store.finish(self.journal)
++        with self.assertRaises(ContractError):
++            self.store.complete_pair('Q001',{'query_id':'Q001','arm_h':{'verifier_passed':True},'arm_t':{'verifier_passed':True}})
+ 
+     def test_missing_explicit_arm_outcomes_rejected(self):
+         with self.assertRaises(ContractError): self.store.complete_pair('Q001',{'query_id':'Q001'})

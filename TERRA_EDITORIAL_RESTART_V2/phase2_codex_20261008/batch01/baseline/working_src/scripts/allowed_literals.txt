@@ -1,0 +1,315 @@
+# Paper/scripts/allowed_literals.txt
+# ==================================
+# Whitelist of legitimate architectural hyperparameters, literature citations,
+# geometric density thresholds, software versions, and corpus constants allowed as literals in main.tex.
+# Checked by check_consistency.py.
+
+# --- LaTeX Layout & Formatting ---
+5.5                     # Bibliography item skip in pt (\\renewcommand{\\IEEEbibitemsep}{-5.5pt})
+0.98                    # \resizebox{0.98\columnwidth} or \resizebox{0.98\textwidth}
+0.5                     # Header/footer box width fraction (\LenToUnit{0.5\paperwidth}, \parbox{0.5\textwidth})
+2in                     # Footnote rule width
+2cm                     # Marginpar width
+2.6                     # Footnote rule kern (\kern 2.6\p@)
+0.4pt                   # Footnote rule height
+1.14                    # PGFPlots package version (\pgfplotsset{compat=1.14})
+1.18                    # PGFPlots package version (\pgfplotsset{compat=1.18})
+0.80                    # Table arraystretch (\renewcommand{\arraystretch}{0.80})
+6.5                     # Bibliography font size in pt (\fontsize{6.5pt}{7.0pt})
+7.0                     # Bibliography baseline skip in pt (\fontsize{6.5pt}{7.0pt})
+6.8                     # Bibliography font size in pt (\fontsize{6.8pt}{7.4pt})
+7.4                     # Bibliography baseline skip in pt (\fontsize{6.8pt}{7.4pt})
+2.8                     # Bibliography item separation in pt (\IEEEbibitemsep)
+3.3                     # Bibliography item separation in pt (\IEEEbibitemsep)
+4.1                     # Table column width in cm (p{4.1cm})
+4.2                     # Table column width in cm (p{4.2cm})
+
+# --- Architectural Hyperparameters ---
+0.0                     # Pinned generation temperature T = 0.0, Likert minimum
+0.00                    # Piecewise Category C precision scale lower bound
+0.000                   # Deterministic multi-run variance sigma = 0.000
+1.0                     # Likert maximum scale bound [0.0, 1.0]
+1.00                    # Piecewise Category C precision scale upper bound
+0.8                     # Intermediate Likert scale bound {0.0, 0.8, 1.0}
+0.05                    # Statistical significance alpha = 0.05
+1.3                     # Domain firewall L2 distance threshold d_L2 < 1.3
+2.5                     # Geometric safety multiplier (2.5x max observed distance)
+
+# --- Software & Infrastructure Environment ---
+3.11                    # Python 3.11 implementation runtime
+
+# --- Embedding Geometry Audit (scratch/verify_domain_firewall_distribution.py) ---
+0.365                   # In-domain L2 mean distance
+0.082                   # In-domain L2 std distance
+0.373                   # In-domain L2 median distance
+0.504                   # In-domain L2 p95 distance
+0.509                   # In-domain L2 max distance
+0.515                   # Out-of-domain L2 mean distance
+0.281                   # Out-of-domain L2 min distance
+
+# --- Embedding Geometry Audit (scratch/audit_firewall_geometry.py) ---
+0.859                   # 10k out-of-domain max L2 distance
+1.065                   # 20k out-of-domain mean L2 distance
+0.352                   # 20k out-of-domain std L2 distance
+1.729                   # 20k out-of-domain max L2 distance
+0%                      # Zero false rejections / zero OOD interception rate
+28.0%                   # 20k scale OOD interception rate
+28.0                    # 20k scale OOD interception decimal
+
+# --- Corpus Topology Invariant Properties (Table I / Fig 2) ---
+7.58                    # Mean node degree (total edges / total nodes)
+124                     # Maximum degree (Simpson v. Shepard)
+15                      # Graph diameter (hops)
+4.713                   # Average shortest path length (hops)
+11                      # 20k graph diameter (hops)
+4.318                   # 20k average shortest path length (hops)
+79.8%                   # Largest WCC percentage (7,983 / 10,009)
+79.8                    # Largest WCC percentage decimal
+14                      # Largest strongly connected component size
+0.00318                 # Betweenness centrality: Crowell v. Benson
+0.00287                 # Betweenness centrality: Plessy v. Ferguson
+0.00245                 # Betweenness centrality: Brown v. Board of Education
+0.00219                 # Betweenness centrality: Lochner v. New York
+0.00201                 # Betweenness centrality: Marbury v. Madison
+0.0034                  # Centrality plot tick
+0.0029                  # Centrality plot tick
+0.0028                  # Centrality plot tick
+0.0027                  # Centrality plot tick
+0.0026                  # Centrality plot tick
+0.0043                  # 20k Centrality: Simpson v. Shepard
+0.0036                  # 20k Centrality: Fay v. Noia
+0.0033                  # 20k Centrality: Ashwander v. TVA
+0.0032                  # 20k Centrality: Crowell v. Benson / Dahnke-Walker
+276                     # 20k degree hub: Simpson v. Shepard
+245                     # 20k degree hub: Baker v. Carr
+213                     # 20k degree hub: Crowell v. Benson
+211                     # 20k degree hub: Nebbia v. New York
+204                     # 20k degree hub: Fay v. Noia
+37%                     # Fast path speedup over Direct LLM (37% faster)
+0/100                   # Category A full benchmark false refusal count
+
+# --- Literature Citations in Related Work ---
+88.3%                   # Yalavarthi et al. (CRAG SHAP analysis misclassification rate)
+88.3                    # Yalavarthi et al. (decimal)
+5.0%                    # Yalavarthi et al. (CRAG accuracy on non-entity queries)
+5.0                     # Yalavarthi et al. (decimal)
+
+# --- Standalone Sensitivity Verification on Qwen 80B (Limitations Sec. V) ---
+1.000                   # Sensitivity check TERRA Cat B Faithfulness on Qwen-80B
+0.900                   # Sensitivity check Flat RAG Cat B Faithfulness on Qwen-80B
+0.800                   # Sensitivity check Direct LLM Cat B Faithfulness on Qwen-80B
+40%                     # Sensitivity check Flat RAG Cat D Safety on Qwen-80B
+0%                      # Sensitivity check Direct LLM Cat D Safety on Qwen-80B
+100%                    # Sensitivity check TERRA Cat D Safety on Qwen-80B
+
+# --- Derived Claims & Proportions ---
+95%                     # Confidence interval specification (95% CI)
+100.0%                  # Full statistical power (100.0%)
+100.0                   # Full statistical power decimal
+30%                     # Ablation 1 false refusal rate discussion
+38.3                    # Human ground truth mean reference word count (Table V)
+10.5                    # Baseline words per second throughput
+21.6                    # Direct LLM words per second throughput
+99.91%                  # 20k precedent citation edges percentage (145,233 / 145,363)
+99.91                   # 20k precedent citation edges percentage decimal
+0.09%                   # 20k citation extraction noise percentage
+0.09                    # 20k citation extraction noise decimal
+82.7%                   # Baseline safe handling on Category D (62/75 = 82.7%)
+82.7                    # Baseline safe handling decimal
+97.3%                   # Calibrated total safe handling on Category D (73/75 = 97.3%)
+97.3                    # Calibrated total safe handling decimal
+29.3%                   # Baseline substantive refutation rate on Category D (22/75 = 29.3%)
+29.3                    # Baseline substantive refutation rate decimal
+41.3%                   # Calibrated substantive refutation rate on Category D (31/75 = 41.3%)
+41.3                    # Calibrated substantive refutation rate decimal / Relative gain on Cat B
+89.4%                   # Relative gain on Cat B over Flat RAG (+89.4%)
+89.4                    # Relative gain decimal
+4.89                    # Fast-path operational speedup factor
+10,000                  # Theoretical sample size in post-hoc power discussion (N > 10,000)
+75%                     # Ceiling compression discussion (> 75% at 1.0)
+13.3%                   # Baseline Category D fatal error rate (10/75 = 13.3%)
+13.3                    # Baseline Category D fatal error rate decimal
+2.7%                    # Calibrated Category D fatal error rate (2/75 = 2.7%)
+2.7                     # Calibrated Category D fatal error rate decimal
+80.0%                   # Fatal error reduction percentage (from 10/75 to 2/75)
+80.0                    # Fatal error reduction decimal
+80%                     # Fatal error reduction shorthand
+4.0%                    # Baseline Category D uncommitted response rate (3/75 = 4.0%)
+4.0                     # Baseline Category D uncommitted response rate decimal
+0.0%                    # Calibrated uncommitted response rate / zero refusal rate
+94.7%                   # Direct LLM Category D non-fatal response rate (71/75 = 94.7%)
+94.7                    # Direct LLM Category D non-fatal response rate decimal
+56.0%                   # Calibrated TERRA Category D explicit refusal rate (42/75 = 56.0%)
+56.0                    # Calibrated TERRA Category D explicit refusal rate decimal
+33.4%                   # Calibrated Table VIII total refusal rate (117/350 = 33.4%)
+33.4                    # Calibrated Table VIII total refusal rate decimal
+-0.083                  # Table XI Rank 11 mean delta (TERRA vs Direct LLM on Cat D)
+0.083                   # Table XI Rank 11 mean delta absolute decimal
+0.0629                  # Table XI Rank 11 raw p-value (TERRA vs Direct LLM on Cat D)
+0.40                    # Baseline parameter
+0.85                    # Baseline parameter
+70.8                    # Reference metric literal
+6.38                    # Latency measurement literal
+3.07                    # Latency measurement literal
+18.77                   # Latency measurement literal
+15                      # Standalone stress test query count
+10                      # Standalone stress test OOC query count
+5                       # Standalone stress test Adversarial query count
+
+# --- Temporal Parametric Leakage Probe (Table XII / Sec VI-F) ---
+0.260                   # Temporal probe inter-judge QWK
+68.6%                   # Temporal probe raw inter-judge concordance
+68.6                    # Temporal probe raw concordance decimal
+91.7%                   # GPT-OSS Level-0 base rate skew
+91.7                    # Base rate skew decimal
+18.0%                   # Gated Cond A lower/upper bound
+18.0                    # Gated Cond A decimal
+14.0%                   # Gated Cond B lower bound / Flat RAG upper bound
+14.0                    # Gated Cond B decimal
+22.0%                   # Gated Cond B upper bound
+22.0                    # Gated Cond B decimal
+76.0%                   # Gated Cond A HLCR
+76.0                    # Gated Cond A HLCR decimal
+72.0%                   # Gated Cond B HLCR
+72.0                    # Gated Cond B HLCR decimal
+38.0%                   # Flat RAG Cond A HLCR
+38.0                    # Flat RAG Cond A HLCR decimal
+42.0%                   # Flat RAG Cond B HLCR
+42.0                    # Flat RAG Cond B HLCR decimal
+46.0%                   # Flat RAG Cond A refusal rate
+46.0                    # Flat RAG Cond A refusal rate decimal
+46%                     # Flat RAG refusal shorthand
+56.0%                   # Direct LLM Cond A HLCR
+56.0                    # Direct LLM Cond A HLCR decimal
+64.0%                   # Direct LLM Cond B HLCR
+64.0                    # Direct LLM Cond B HLCR decimal
+80.0%                   # Ungated Cond A HLCR
+80.0                    # Ungated Cond A HLCR decimal
+20.0%                   # Consensus NGLIR
+20.0                    # Consensus NGLIR decimal
+11.1%                   # Qwen NGLIR
+11.1                    # Qwen NGLIR decimal
+16.7%                   # Lower bound NGLIR
+16.7                    # Lower bound NGLIR decimal
+41.7%                   # Upper bound NGLIR
+41.7                    # Upper bound NGLIR decimal
+7.0%                    # Clopper-Pearson 95% CI upper bound
+7.0                     # Clopper-Pearson upper decimal
+5.7%                    # One-sided spot-check upper bound
+5.7                     # One-sided spot-check decimal
+6%                      # Spot-check textual shorthand
+7%                      # Spot-check textual shorthand
+0.000021                # H1 HLCR exact McNemar p-value
+1.0000                  # H1 SPTLR exact McNemar p-value
+1.000                   # H1 SPTLR p-value 3-decimal
+0.0266                  # H2 lower p-value
+0.3323                  # H2 upper p-value
+0.0490                  # H3 lower p-value
+0.8145                  # H3 upper p-value
+0.0225                  # H4 lower p-value
+0.7905                  # H4 upper p-value
+8.0%                    # TERRA Gated Cond A refusal rate
+8.0                     # TERRA Gated Cond A refusal rate decimal
+12.0%                   # TERRA Gated Cond B refusal rate
+12.0                    # TERRA Gated Cond B refusal rate decimal
+2.0%                    # Flat RAG Cond A SPTLR lower bound
+2.0                     # Flat RAG Cond A SPTLR decimal
+26.0%                   # Baseline Cond B SPTLR lower bound
+26.0                    # Baseline Cond B SPTLR decimal
+32.0%                   # Baseline Cond B SPTLR upper bound
+32.0                    # Baseline Cond B SPTLR decimal
+40.0%                   # Direct LLM Cond A SPTLR upper bound
+40.0                    # Direct LLM Cond A SPTLR decimal
+16.0%                   # Ungated Cond A SPTLR lower bound
+16.0                    # Ungated Cond A SPTLR decimal
+24.0%                   # Ungated Cond B SPTLR upper bound
+24.0                    # Ungated Cond B SPTLR decimal
+30.0%                   # Flat RAG Cond B refusal rate
+30.0                    # Flat RAG Cond B refusal rate decimal
+0.70                    # Benchmark-wide QWK reference
+60%                     # Expected chance agreement P_e percentage
+60                      # Expected chance agreement P_e decimal
+32.1%                   # IP/Patents missingness percentage
+32.1                    # IP/Patents missingness decimal
+23.2%                   # Antitrust/Commerce missingness percentage
+23.2                    # Antitrust/Commerce missingness decimal
+0.0001                  # p-value threshold (p < 0.0001)
+0.0133                  # H2 exact min p-value
+0.1662                  # H2 exact max p-value
+0.0245                  # H3 exact min p-value
+0.4073                  # H3 exact max p-value
+0.0112                  # H4 exact min p-value
+0.3953                  # H4 exact max p-value
+0.2500                  # H1 complete-case two-sided p-value
+0.0625                  # H1 zero-imputed two-sided p-value
+6.98%                   # Exact beta quantile upper bound
+6.98                    # Exact beta quantile decimal
+5.70%                   # One-sided exact spot-check upper bound
+5.70                    # One-sided exact spot-check decimal
+12%                     # Zero out-edge probe percentage (6/50)
+12                      # Zero out-edge probe percentage decimal
+
+# --- Issue #7: CaseFacts External Benchmark Allowed Literals ---
+3.3                     # LLaMA 3.3 70B model identifier
+50.0%                   # CaseFacts Overruled diagnostic accuracy (4/8)
+50.0                    # CaseFacts Overruled diagnostic decimal
+92.0%                   # CaseFacts Track 2 Flat RAG refusal and TERRA hard refusal rate
+92.0                    # CaseFacts Track 2 Flat RAG refusal decimal
+
+# --- Issue #8: CLERC External Benchmark Allowed Literals ---
+51.1%                   # Corpus-wide substantive holding extraction coverage (Issue #6)
+51.1                    # Corpus-wide substantive holding extraction decimal
+11.7%                   # CLERC Track 1 Era 1850-1880 percentage (14/120)
+11.7                    # CLERC Track 1 Era 1850-1880 decimal
+26.7%                   # CLERC Track 1 Era 1911-1940 percentage (32/120)
+26.7                    # CLERC Track 1 Era 1911-1940 decimal
+21.7%                   # CLERC Track 1 Era 1941-1960 percentage (26/120)
+21.7                    # CLERC Track 1 Era 1941-1960 decimal
+20.0                    # CLERC Track 1 Era decimal
+3.3                     # CLERC Track 2 TERRA discrimination lift multiplier (66% vs 20%)
+3.4                     # Previous multiplier reference
+0/86                    # NLI gate short-circuit fabrication precision (Track 1 0/53, Track 2 0/33)
+0/53                    # Track 1 NLI short-circuits
+0/33                    # Track 2 NLI short-circuits
+0/120                   # Track 1 zero fabrication
+53/120                  # Track 1 NLI short-circuit count
+67/120                  # Track 1 generative continuation count
+
+# --- Issue #10: Computational Budget, Latency Decoupling & Geometric Calibration Literals ---
+0.90                    # Panel B threshold tau = 0.90
+1.00                    # Panel B threshold tau = 1.00
+1.10                    # Panel B threshold tau = 1.10
+1.20                    # Panel B threshold tau = 1.20
+1.25                    # Panel B threshold tau = 1.25
+1.30                    # Panel B operational threshold tau = 1.30
+1.35                    # Panel B threshold tau = 1.35
+1.40                    # Panel B threshold tau = 1.40
+1.366                   # Borderline probe C069 nearest L2 distance
+0.02                    # Decoupled latency reconciliation tolerance (0.02 ms)
+
+# --- Issue #14: Reasoning Trace Specification & Reproducibility Literals ---
+1.5.9                   # ChromaDB runtime patch version
+3.6.1                   # NetworkX runtime patch version
+384                     # Sentence-Transformers all-MiniLM-L6-v2 vector dimension
+3.1                     # LLM model version identifier (gemini-3.1-flash-lite)
+
+# --- Table run_provenance column widths (tabular spec, not result numbers) ---
+3.8                     # tabular column spec p{3.8cm}
+2.2                     # tabular column spec p{2.2cm}
+5.2                     # tabular column spec p{5.2cm}
+1.4                     # tabular column spec p{1.4cm}
+4.5                     # enlargethispage spacing spec 4.5\baselineskip
+
+# --- Snapshot and Threshold Literals ---
+0.15                    # Issue 19 snapshot evaluation threshold
+0.18                    # Issue 19 snapshot evaluation threshold
+
+# --- Issue #42: Historical Unreproduced Calibration Figures Disclosed in Failed Reproduction Context ---
+0.482                   # Historical unprovenanced main benchmark judge-ROUGE correlation (failed reproduction)
+0.451                   # Historical unprovenanced pilot judge-ROUGE correlation (failed reproduction)
+
+# --- Issue #35: Prospective Study Design Paired-Mean MDES Approximations (80% Power, alpha=0.05) ---
+0.283                   # Minimum detectable effect size (MDES) paired-mean approximation at N=100 (Category B)
+0.200                   # Minimum detectable effect size (MDES) paired-mean approximation at N=200 (Combined A+B)
+0.328                   # Minimum detectable effect size (MDES) paired-mean approximation at N=75 (Category D)
+

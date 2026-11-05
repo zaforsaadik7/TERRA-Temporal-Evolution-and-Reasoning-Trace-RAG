@@ -1,0 +1,12 @@
+--- execution.before
++++ execution.final
+@@ -94,7 +94,8 @@
+     """
+     original=None
+     try:
+-        telemetry_stream=writer.new_stream('telemetry.jsonl',max_bytes=resources.evidence_bytes)
++        telemetry_stream=writer.new_stream('telemetry.jsonl',max_bytes=min(
++            resources.evidence_bytes,writer.budget.limit))
+         rows=writer.new_stream('query_records.jsonl',max_bytes=resources.report_bytes)
+         telemetry=StageTelemetry(clock=clock,budget=writer.budget,sink=telemetry_stream._write_reserved)
+         with guard():

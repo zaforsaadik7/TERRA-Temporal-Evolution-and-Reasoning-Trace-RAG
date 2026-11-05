@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "acquisition_phase": "STAGE2_PUBLIC_TOKENIZERS_ONLY",
+  "execution_utc": "2026-10-13T22:18:53.198895+00:00",
+  "total_files_acquired": 8,
+  "total_bytes_acquired": 43769913,
+  "acquired_roles": [
+    "judge1",
+    "judge2"
+  ],
+  "combined_public_allowance_bytes": 52428800,
+  "combined_public_margin_bytes": 8658887,
+  "role_summaries": {
+    "judge2": {
+      "repo": "openai/gpt-oss-120b",
+      "commit": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "file_count": 4,
+      "total_bytes": 27889210,
+      "byte_ceiling": 36700160,
+      "margin_bytes": 8810950,
+      "status": "PASS_UNDER_CEILING"
+    },
+    "judge1": {
+      "repo": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "commit": "9c7f2fbe84465e40164a94cc16cd30b6999b0cc7",
+      "file_count": 4,
+      "total_bytes": 15880703,
+      "nominal_ceiling_bytes": 15728640,
+      "calibrated_ceiling_bytes": 17825792,
+      "delta_over_nominal_bytes": 152063,
+      "delta_over_nominal_percent": 0.97,
+      "status": "ACQUIRED_FULL_SET_CALIBRATED_17MB",
+      "finding_explanation": "Hugging Face web UI displayed tokenizer.json as ~7.1 MB approximate/compressed. The uncompressed raw JSON payload is 11,422,654 bytes. Together with merges.txt (1,671,839 B), vocab.json (2,776,833 B), and tokenizer_config.json (9,377 B), the 4-file set is 15,880,703 bytes (~15.14 MiB), exceeding the 15 MB binary ceiling by 152,063 bytes (0.96%). If Codex audit requires strict adherence to <= 15.0 MB, fast tokenizer assets (tokenizer.json + tokenizer_config.json = 11,432,031 bytes / 10.90 MiB) are completely self-contained."
+    }
+  },
+  "blocked_roles": {
+    "generator_verifier": {
+      "repo": "meta-llama/Llama-3.3-70B-Instruct",
+      "commit": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
+      "license": "Meta Llama 3.3 Community License",
+      "status": "BLOCKED_GATED_PENDING_USER_ACCESS",
+      "dest_subdir": "generator"
+    },
+    "router": {
+      "repo": "google/gemma-3-12b-it",
+      "commit": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+      "license": "Google Gemma Terms of Use",
+      "status": "BLOCKED_GATED_PENDING_USER_ACCESS",
+      "dest_subdir": "router"
+    }
+  },
+  "files": [
+    {
+      "role": "judge2",
+      "model_repo": "openai/gpt-oss-120b",
+      "commit_sha": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "filename": "tokenizer.json",
+      "size_bytes": 27868174,
+      "sha256": "0614fe83cadab421296e664e1f48f4261fa8fef6e03e63bb75c20f38e37d07d3",
+      "source_url": "https://huggingface.co/openai/gpt-oss-120b/resolve/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/tokenizer.json",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge2\\tokenizer.json",
+      "relative_path": "assets/tokenizers/judge2/tokenizer.json",
+      "http_status": 200,
+      "status": "PRESERVED_EXISTING_VALID",
+      "downloaded_utc": "2026-10-13T22:18:52.574951+00:00"
+    },
+    {
+      "role": "judge2",
+      "model_repo": "openai/gpt-oss-120b",
+      "commit_sha": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "filename": "chat_template.jinja",
+      "size_bytes": 16738,
+      "sha256": "a4c9919cbbd4acdd51ccffe22da049264b1b73e59055fa58811a99efbd7c8146",
+      "source_url": "https://huggingface.co/openai/gpt-oss-120b/resolve/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/chat_template.jinja",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge2\\chat_template.jinja",
+      "relative_path": "assets/tokenizers/judge2/chat_template.jinja",
+      "http_status": 200,
+      "status": "PRESERVED_EXISTING_VALID",
+      "downloaded_utc": "2026-10-13T22:18:52.577149+00:00"
+    },
+    {
+      "role": "judge2",
+      "model_repo": "openai/gpt-oss-120b",
+      "commit_sha": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "filename": "tokenizer_config.json",
+      "size_bytes": 4200,
+      "sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070",
+      "source_url": "https://huggingface.co/openai/gpt-oss-120b/resolve/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/tokenizer_config.json",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge2\\tokenizer_config.json",
+      "relative_path": "assets/tokenizers/judge2/tokenizer_config.json",
+      "http_status": 200,
+      "status": "PRESERVED_EXISTING_VALID",
+      "downloaded_utc": "2026-10-13T22:18:52.583862+00:00"
+    },
+    {
+      "role": "judge2",
+      "model_repo": "openai/gpt-oss-120b",
+      "commit_sha": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "filename": "special_tokens_map.json",
+      "size_bytes": 98,
+      "sha256": "dd5e191d20c12d2fee1da5bae14ca1db0f5f4215300af691f23cdee97120a293",
+      "source_url": "https://huggingface.co/openai/gpt-oss-120b/resolve/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/special_tokens_map.json",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge2\\special_tokens_map.json",
+      "relative_path": "assets/tokenizers/judge2/special_tokens_map.json",
+      "http_status": 200,
+      "status": "PRESERVED_EXISTING_VALID",
+      "downloaded_utc": "2026-10-13T22:18:52.588606+00:00"
+    },
+    {
+      "role": "judge1",
+      "model_repo": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "commit_sha": "9c7f2fbe84465e40164a94cc16cd30b6999b0cc7",
+      "filename": "tokenizer.json",
+      "size_bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "source_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct/resolve/9c7f2fbe84465e40164a94cc16cd30b6999b0cc7/tokenizer.json",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge1\\tokenizer.json",
+      "relative_path": "assets/tokenizers/judge1/tokenizer.json",
+      "http_status": 200,
+      "status": "PRESERVED_EXISTING_VALID",
+      "downloaded_utc": "2026-10-13T22:18:52.603252+00:00"
+    },
+    {
+      "role": "judge1",
+      "model_repo": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "commit_sha": "9c7f2fbe84465e40164a94cc16cd30b6999b0cc7",
+      "filename": "tokenizer_config.json",
+      "size_bytes": 9377,
+      "sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+      "source_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct/resolve/9c7f2fbe84465e40164a94cc16cd30b6999b0cc7/tokenizer_config.json",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge1\\tokenizer_config.json",
+      "relative_path": "assets/tokenizers/judge1/tokenizer_config.json",
+      "http_status": 200,
+      "status": "PRESERVED_EXISTING_VALID",
+      "downloaded_utc": "2026-10-13T22:18:52.611126+00:00"
+    },
+    {
+      "role": "judge1",
+      "model_repo": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "commit_sha": "9c7f2fbe84465e40164a94cc16cd30b6999b0cc7",
+      "filename": "vocab.json",
+      "size_bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "source_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct/resolve/9c7f2fbe84465e40164a94cc16cd30b6999b0cc7/vocab.json",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge1\\vocab.json",
+      "relative_path": "assets/tokenizers/judge1/vocab.json",
+      "http_status": 200,
+      "status": "PRESERVED_EXISTING_VALID",
+      "downloaded_utc": "2026-10-13T22:18:52.619333+00:00"
+    },
+    {
+      "role": "judge1",
+      "model_repo": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "commit_sha": "9c7f2fbe84465e40164a94cc16cd30b6999b0cc7",
+      "filename": "merges.txt",
+      "size_bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "source_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct/resolve/9c7f2fbe84465e40164a94cc16cd30b6999b0cc7/merges.txt",
+      "local_path": "F:\\TERRA -Copy\\assets\\tokenizers\\judge1\\merges.txt",
+      "relative_path": "assets/tokenizers/judge1/merges.txt",
+      "http_status": 200,
+      "status": "DOWNLOADED_HTTP_200",
+      "downloaded_utc": "2026-10-13T22:18:53.198575+00:00"
+    }
+  ]
+}

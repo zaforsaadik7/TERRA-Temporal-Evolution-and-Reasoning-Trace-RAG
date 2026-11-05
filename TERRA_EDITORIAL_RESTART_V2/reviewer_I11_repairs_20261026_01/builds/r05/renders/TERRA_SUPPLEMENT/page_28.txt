@@ -1,0 +1,70 @@
+S11
+Full detail for main Table VIII
+CaseFacts External Benchmark Evaluation Across In-Corpus Precedent Verification (Track 1, N = 120) and Modern Out-of-Corpus Refusal Control (Track 2, N = 50). Evaluated under strict payload
+parity (T = 0.0, 4096 tokens, LLaMA 3.3 70B) with two model-distinct non-LLaMA judges (qwen3-next-80b-a3b and gpt-oss-120b, 100.0% concordance on parsed labels, zero fallback contaminations).
+Overruled class performance is reported strictly as a qualitative diagnostic finding with exact Clopper-Pearson 95% confidence intervals (Fix 1). Anti-circularity audit confirms that only 34/20,000 nodes
+(0.1700%) received curated reasoning traces during graph construction, while the benchmark touches 284/20,000 nodes (1.4200%), leaving 98.58% of the graph substrate unvisited.
+Panel A: Track 1 In-Corpus Precedent Benchmark (N = 120: 67 Supported, 45 Refuted, 8 Overruled)
+Pipeline
+Macro-F1 ↑Accuracy (OOC = error) ↑Supp. F1 (n = 67) Ref. F1 (n = 45) Overruled (n = 8)†
+Overruled 95% CI Avg. Faith. Avg. Rel.
+Direct LLM (No RAG)
+46.51%
+53.33%
+67.11%
+36.07%
+2/8(25.0%)
+[3.19%, 65.09%]
+3.97
+3.90
+Flat Vector RAG
+48.26%
+53.33%
+66.67%
+44.78%
+2/8(25.0%)
+[3.19%, 65.09%]
+3.97
+3.85
+Full TERRA (Gated Live)
+54.48%∗
+51.67%
+65.69%
+40.62%
+4/8(50.0%)∗∗
+[15.70%, 84.30%]
+3.83
+3.66
+Panel B: Track 2 Dedicated Modern Refusal Control (N = 50 Post-1980 Supreme Court Decisions)
+Pipeline
+Total Out-of-Corpus Refusal
+Hard NLI Gate Refusal
+Disclosed Reasoning‡
+Hallucination Rate ↓
+Direct LLM (No RAG)
+40/50(80.0%)
+0/50 (0.0%)
+40/50 (80.0%)
+10/50(20.0%)
+Flat Vector RAG
+46/50(92.0%)
+0/50 (0.0%)
+46/50 (92.0%)
+4/50(8.0%)
+Full TERRA (Gated Live)
+50/50(100.0%)
+46/50(92.0%)
+4/50(8.0%)
+0/50(0.0%)
+Notes: Evaluated across 510 total completions (360 Track 1, 150 Track 2) judged by two model-distinct non-LLaMA models (qwen3-next-80b-a3b-instruct and gpt-oss-120b) with 100.0% concordance
+on extracted classification headers and certified zero LLaMA fallback contaminations. ∗TERRA’s three-class Macro-F1 is +6.22 pp above Flat Vector RAG and +7.97 pp above Direct LLM, driven by the
+Overruled class (n = 8); over Supported and Refuted alone it is lower than Flat (53.16% versus 55.72%). NLI gate safety filtering converted 25 borderline in-corpus queries into out-of-corpus refusals.
+∗∗Overruled detection recall is double that of both baselines (4/8 vs. 2/8; post-hoc paired exact McNemar p = 0.625 against each baseline, with 3 TERRA-only versus 1 baseline-only correct labels). Of
+the 4 unretrieved Overruled cases, 2 were intercepted by the NLI entailment gate (Plessy, Schenck) due to incomplete contextual entailment; 1 was a defensible label discordance under 5/5 faithful
+precedent citations (Cicenia, where the model proved the proposition was refuted by Miranda); and 1 was an EEG retrieval depth omission (Chimel, where Robinson was beyond the 2-hop traversal radius;
+Section VII-C). †Per Fix 1, the Overruled class (n = 8) is evaluated strictly as a diagnostic qualitative finding with exact Clopper-Pearson binomial confidence intervals rather than an unconstrained
+headline metric. Graph topological audit confirms that 2 pairs (Wolf →Mapp, Olmstead →Katz) possess direct OVERRULES edges in the 20k EEG, while 6 pairs reflect in-graph citation paths and doctrinal
+succession, with ground-truth invalidation labels sourced from CaseFacts. ‡Disclosed Historical Reasoning denotes completions that explicitly identified the target decision as falling outside the 1850–1980
+precedent corpus, correctly evaluated the claim against historical pre-1980 precedents without fabricating modern doctrine, and concluded with OUTSIDE PRECEDENT CORPUS. Across all 50 Track 2
+evaluations, TERRA exhibited zero phantom citations and zero fabricated precedents.
+S28

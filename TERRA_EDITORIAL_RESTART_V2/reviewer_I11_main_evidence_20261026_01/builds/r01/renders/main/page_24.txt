@@ -1,0 +1,151 @@
+over four snapshot expansions, pooled recall shifted by
+0.03 ± 0.16 (Section VI-O).
+In the separate prospective controlled comparison,
+among the 100 assessable Category B pairs out of 100
+assigned, the T-minus-H composite difference was 0.26885
+(paired percentile-bootstrap 95% CI [0.16035, 0.37205];
+two-sided paired randomization p = 0.000010). T pro-
+duced 69/100 verifier-triggered refusals on Category B
+versus 4/100 for H; this coverage tradeoff prevents in-
+terpreting the faithfulness difference as better answer
+coverage or legal correctness. This evidence-faithfulness
+result is confined to the matched implementation and does
+not establish legal validity.
+References
+[1] S. V. Yalavarthi, “Open-source reproduction and explainability
+analysis of corrective retrieval augmented generation,” 2026.
+[2] A. Hashmi, “Adaptive query routing: A tier-based framework for
+hybrid retrieval across financial, legal, and medical documents,”
+2026.
+[3] P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin,
+N. Goyal, H. Küttler, M. Lewis, W. tau Yih, T. Rocktäschel,
+S. Riedel, and D. Kiela, “Retrieval-augmented generation for
+knowledge-intensive nlp tasks,” in Advances in Neural Informa-
+tion Processing Systems (NeurIPS), vol. 33, 2020, pp. 9459–
+9474.
+[4] K. Guu, K. Lee, Z. Tung, P. Pasupat, and M.-W. Chang,
+“Realm: Retrieval-augmented language model pre-training,” in
+Proceedings of the 37th International Conference on Machine
+Learning (ICML), 2020, pp. 3929–3938.
+[5] D. Edge, H. Trinh, N. Cheng, J. Bradley, A. Chao, A. Mody,
+S. Truitt, D. Metropolitansky, R. O. Ness, and J. Larson,
+“From local to global: A graph rag approach to query-focused
+summarization,” 2024.
+[6] J. Sun, C. Xu, L. Tang, S. Wang, C. Lin, Y. Gong, L. Ni, H.-
+Y. Shum, and J. Guo, “Think-on-graph: Deep and responsible
+reasoning of large language model on knowledge graph,” in
+Proceedings of the International Conference on Learning Rep-
+resentations (ICLR), 2024.
+[7] H. Liu, L. Cao, and Y. Li, “Rag or learning? understanding the
+limits of llm adaptation under continuous knowledge drift in the
+real world,” in Findings of the Association for Computational
+Linguistics: ACL 2026, 2026, pp. 11 234–11 252.
+[8] Z. Y. Zhang, Z. Li, Y. Li, B. Ding, and B. K. H. Low, “Re-
+specting temporal-causal consistency: Entity-event knowledge
+graph for retrieval-augmented generation,” in Proceedings of the
+19th Conference of the European Chapter of the Association for
+Computational Linguistics (EACL), 2026, pp. 2017–2054.
+[9] Z. Zhu, H. Liu, M. He, and S. Luo, “Right answer at the
+right time - temporal retrieval-augmented generation via graph
+summarization,” 2025.
+[10] Z. Chen, Q. Zhang, Z. Xiang, Z. Wei, L. Gao, X. Huang,
+Z. Zhang, and J. Su, “Legalgraphrag: Multi-agent graph
+retrieval-augmented generation for reliable legal reasoning,” in
+Proceedings of the 64th Annual Meeting of the Association for
+Computational Linguistics (ACL), 2026, pp. 37 455–37 484.
+[11] H. de Martim, “An ontology-driven graph rag for legal norms:
+A hierarchical, temporal, and deterministic approach,” in Legal
+Knowledge and Information Systems (JURIX 2025), ser. Fron-
+tiers in Artificial Intelligence and Applications, vol. 416.
+IOS
+Press, 2025, pp. 282–287.
+[12] F. Li, P. Fang, Z. Shi, A. Khan, F. Wang, W. Wang, X. Zhang,
+and Y. Cui, “Cot-rag: Integrating chain of thought and retrieval-
+augmented generation to enhance reasoning in large language
+models,” in Findings of the Association for Computational
+Linguistics: EMNLP 2025, 2025, pp. 3119–3171.
+[13] M. Lin, Z. Wu, Z. Xu, H. Liu, X. Tang, Q. He, C. Aggarwal,
+H. Liu, X. Zhang, and S. Wang, “A comprehensive survey on
+reinforcement learning-based agentic search: Foundations, roles,
+optimizations, evaluations, and applications,” 2025.
+[14] J. Liang, G. Su, H. Lin, Y. Wu, R. Zhao, and Z. Li, “Rea-
+soning rag via system 1 or system 2: A survey on reasoning
+agentic retrieval-augmented generation for industry challenges,”
+in Findings of the Association for Computational Linguistics:
+IJCNLP-AACL 2025, 2025, pp. 1954–1966.
+[15] L. Zheng, N. Guha, B. R. Anderson, P. Henderson, and D. E. Ho,
+“When does pre-training help? assessing self-supervised learning
+for law and the CaseHOLD dataset,” in Proceedings of the
+18th International Conference on Artificial Intelligence and Law
+(ICAIL), 2021, pp. 159–168.
+[16] A. B. Hou, O. Weller, G. Qin, E. Yang, D. Lawrie, N. Holzen-
+berger, A. Blair-Stanek, and B. Van Durme, “CLERC: A dataset
+for U.S. legal case retrieval and retrieval-augmented analysis
+generation,” in Findings of the Association for Computational
+Linguistics: NAACL 2025, 2025, pp. 7913–7928.
+[17] N. Guha, J. Nyarko, D. Ho, C. Ré et al., “LegalBench: A
+collaboratively built benchmark for measuring legal reasoning in
+large language models,” in Advances in Neural Information Pro-
+cessing Systems 36 (NeurIPS 2023), Datasets and Benchmarks
+Track, 2023, pp. 44 123–44 279.
+[18] D. M. Katz, M. J. Bommarito II, and J. Blackman, “A general
+approach for predicting the behavior of the Supreme Court of
+the United States,” PLOS ONE, vol. 12, no. 4, p. e0174698,
+2017.
+[19] I. Chalkidis, M. Fergadiotis, P. Malakasiotis, N. Aletras, and
+I. Androutsopoulos, “LEGAL-BERT: The muppets straight out
+of law school,” in Findings of the Association for Computational
+Linguistics: EMNLP 2020.
+Online: Association for Computa-
+tional Linguistics, 2020, pp. 2898–2904.
+[20] V. Magesh, F. Surani, M. Dahl, M. Suzgun, C. D. Manning, and
+D. E. Ho, “Hallucination-free? assessing the reliability of leading
+AI legal research tools,” Journal of Empirical Legal Studies,
+vol. 22, no. 2, pp. 216–242, 2025.
+[21] A. R. Putta, J. Devasier, and C. Li, “Casefacts: A benchmark for
+legal fact-checking and precedent retrieval,” in Proceedings of
+the 64th Annual Meeting of the Association for Computational
+Linguistics (ACL), 2026, pp. 17 246–17 265.
+[22] J. Cushman, M. Dahl, and M. Lissner, “eyecite: A tool for
+parsing legal citations,” Journal of Open Source Software, vol. 6,
+no. 66, p. 3617, 2021.
+[23] N. Reimers and I. Gurevych, “Sentence-BERT: Sentence em-
+beddings using siamese BERT-networks,” in Proceedings of the
+2019 Conference on Empirical Methods in Natural Language
+Processing (EMNLP), 2019, pp. 3982–3992.
+[24] A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle,
+A. Letman, A. Mathur, A. Schelten, A. Yang, A. Fan et al.,
+“The llama 3 herd of models,” arXiv preprint arXiv:2407.21783,
+2024.
+[25] P. He, J. Gao, and W. Chen, “DeBERTaV3: Improving
+DeBERTa using ELECTRA-style pre-training with gradient-
+disentangled embedding sharing,” in Proceedings of the Interna-
+tional Conference on Learning Representations (ICLR), 2023.
+[26] B. J. Gutiérrez, Y. Shu, Y. Gu, M. Yasunaga, and Y. Su,
+“Hipporag: Neurobiologically inspired long-term memory for
+large language models,” in Advances in Neural Information
+Processing Systems (NeurIPS), 2024.
+[27] L.
+Zheng,
+W.-L.
+Chiang,
+Y.
+Sheng,
+S.
+Zhuang,
+Z.
+Wu,
+Y. Zhuang, Z. Lin, Z. Li, D. Li, E. P. Xing, H. Zhang, J. E. Gon-
+zalez, and I. Stoica, “Judging llm-as-a-judge with mt-bench and
+chatbot arena,” in Advances in Neural Information Processing
+Systems (NeurIPS), Datasets and Benchmarks Track, 2023.
+[28] J. M. Hoenig and D. M. Heisey, “The abuse of power: The
+pervasive fallacy of power calculations for data analysis,” The
+American Statistician, vol. 55, no. 1, pp. 19–24, 2001.
+[29] A. R. Feinstein and D. V. Cicchetti, “High agreement but low
+kappa: I. the problems of two paradoxes,” Journal of Clinical
+Epidemiology, vol. 43, no. 6, pp. 543–549, 1990.
+[30] A. Asai, Z. Wu, Y. Wang, A. Sil, and H. Hajishirzi, “Self-
+rag: Learning to retrieve, generate, and critique through self-
+reflection,” in Proceedings of the International Conference on
+Learning Representations (ICLR), 2024.

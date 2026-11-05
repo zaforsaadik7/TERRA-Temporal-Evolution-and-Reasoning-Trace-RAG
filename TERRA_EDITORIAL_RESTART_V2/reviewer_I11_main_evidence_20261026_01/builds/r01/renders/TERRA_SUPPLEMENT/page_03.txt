@@ -1,0 +1,119 @@
+Table S1 continued from previous page
+Rank
+(i)
+Comparative
+Baseline
+Evaluation
+Slice
+Statistical
+Test
+Mean
+∆
+[95%
+CI]
+Cohen’s
+dz
+Raw
+p-
+value
+FDR
+q-
+value
+Paired
+(n+/n0/n−)
+Significance
+(α = 0.05)
+16
+Flat
+Vector
+RAG
+Category
+D
+(Adversarial
+Faithfulness)
+Wilcoxon
+Signed-Rank
+−0.030
+[−0.120, +0.060]
+−0.075
+0.5109
+0.6386
+21/30/24
+No
+17
+HippoRAG-
+Adapted
+Category
+D
+(Adversarial
+Faithfulness)
+Wilcoxon
+Signed-Rank
+−0.033
+[−0.120, +0.052]
+−0.089
+0.5509
+0.6481
+24/25/26
+No
+18
+Flat
+Vector
+RAG
+Category
+C
+(Out-
+of-Context
+Refusal)
+Fisher’s
+Ex-
+act Test
++1.3% Diff.
+—
+1.0000
+1.0000
+75/75 vs. 74/75 No
+19
+GraphRAG-
+Adapted
+Category
+C
+(Out-
+of-Context
+Refusal)
+Fisher’s
+Ex-
+act Test
++0.0% Diff.
+—
+1.0000
+1.0000
+75/75 vs. 75/75 No
+20
+HippoRAG-
+Adapted
+Category
+C
+(Out-
+of-Context
+Refusal)
+Fisher’s
+Ex-
+act Test
++1.3% Diff.
+—
+1.0000
+1.0000
+75/75 vs. 74/75 No
+Notes: Ranks i ∈{1, . . . , 20} reflect ascending raw p-value ordering. FDR adjusted q-values are computed via the standard Benjamini-Hochberg step-up procedure: q(i) = mink≥i{
+20·p(k)
+k
+}. Tests with
+q < 0.05 are deemed statistically significant. Following Hoenig and Heisey (2001) [1], retrospective post-hoc power is omitted as an uninformative monotonic transformation of p-values; instead, exact
+paired outcome counts (n+/n0/n−: TERRA wins, ties, losses) are reported for Wilcoxon continuous tests alongside contingency counts for Fisher’s exact tests. For prospective study design (α = 0.05,
+two-sided, 80% target power), standardized paired-mean MDES approximations are dz = 0.283 at N = 100 and dz = 0.200 at N = 200 (dz = 0.328 for continuous Category D at N = 75); discrete
+Fisher/McNemar comparisons are evaluated via exact p-values without continuous MDES claims. The sign of ∆and the significance column identify the direction of each comparison; these observational
+contrasts do not isolate an architectural cause. Category D continuous faithfulness comparisons occupy ranks 6, 13, 16 and 17, and are distinct from the eight-test Holm-adjusted secondary family of
+discrete refusals and safe handling in the main paper. Confidence intervals in rows 2, 6 and 12–17 retain historical bootstrap values whose original resampling settings could not be verified; these intervals
+are not independently reproduced.
+S3

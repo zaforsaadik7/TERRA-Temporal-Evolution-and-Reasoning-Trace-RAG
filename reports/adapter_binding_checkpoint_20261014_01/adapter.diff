@@ -1,0 +1,27 @@
+diff --git a/reports/adapter_binding_checkpoint_20261014_01/fast_tokenizer_adapter.py b/scripts/matched_baseline/fast_tokenizer_adapter.py
+index d0b11b57..a9e103ac 100644
+--- a/reports/adapter_binding_checkpoint_20261014_01/fast_tokenizer_adapter.py
++++ b/scripts/matched_baseline/fast_tokenizer_adapter.py
+@@ -344,7 +344,12 @@ def verify_role_artifacts(
+     except ValueError:
+         raise SecurityViolationError(f"Manifest path '{manifest_path}' is not lexically contained in base '{base_dir}'")
+ 
+-    expected_manifest_rel = "assets/tokenizers/tokenizer_manifest.sha256"
++    manifest_name = (
++        "gated_tokenizer_manifest.v1.sha256"
++        if role in {"generator", "router"}
++        else "tokenizer_manifest.sha256"
++    )
++    expected_manifest_rel = f"assets/tokenizers/{manifest_name}"
+     if lexical_manifest_rel != expected_manifest_rel:
+         raise SecurityViolationError(
+             f"Manifest path '{manifest_path}' does not match canonical path '{base_dir / expected_manifest_rel}'"
+@@ -364,7 +369,7 @@ def verify_role_artifacts(
+         )
+ 
+     resolved_manifest_path = manifest_path.resolve()
+-    expected_canonical_manifest = (base / "assets" / "tokenizers" / "tokenizer_manifest.sha256").resolve()
++    expected_canonical_manifest = (base / expected_manifest_rel).resolve()
+     if resolved_manifest_path != expected_canonical_manifest:
+         raise SecurityViolationError(
+             f"Resolved manifest path '{resolved_manifest_path}' does not match canonical path '{expected_canonical_manifest}'"

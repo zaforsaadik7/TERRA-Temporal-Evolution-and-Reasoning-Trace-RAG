@@ -1,0 +1,10 @@
+{
+  "command": "venv/Scripts/python.exe -B -m unittest tests.test_databricks_metadata_synthetic",
+  "tests": 16,
+  "seconds": 0.037,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "exit_code": 0,
+  "scope": "Simulated HTTP and temporary dummy token files only; no actual credential file read"
+}

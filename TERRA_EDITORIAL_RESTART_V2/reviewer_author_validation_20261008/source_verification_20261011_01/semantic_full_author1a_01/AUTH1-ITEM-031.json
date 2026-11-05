@@ -1,0 +1,21 @@
+{
+  "id": "AUTH1-ITEM-031",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "The Daniel Ball, 77 U.S. (10 Wall.) 557 (1870) — https://supreme.justia.com/cases/federal/us/77/557/\n[cite: 1]\nThe Montello, 78 U.S. (11 Wall.) 411 (1871) — https://supreme.justia.com/cases/federal/us/78/411/\nThe Montello, 87 U.S. (20 Wall.) 430 (1874) — https://supreme.justia.com/cases/federal/us/87/430/\n[cite: 2]",
+  "original_excerpt": "From The Daniel Ball, 77 U.S. (10 Wall.) 557, 563 (1870):\n\"Those rivers must be regarded as public navigable rivers in law which are navigable in fact. And they are navigable in fact when they are used, or are susceptible of being used, in their ordinary condition, as highways for commerce, over which trade and travel are or may be conducted in the customary modes of trade and travel on water. And they constitute navigable waters of the United States within the meaning of the acts of Congress, in contradistinction from the navigable waters of the States, when they form in their ordinary condition by themselves, or by uniting with other waters, a continued highway over which commerce is or may be carried on with other States or foreign countries...\"   \nFrom The Montello, 78 U.S. (11 Wall.) 411, 415 (1871):\nThe Court held that although it takes judicial notice of general geography, navigability in fact is an evidentiary question of fact that must be alleged and proved: \"If we take judicial notice of geography... still it is not in the power of the court, but on the other hand, of the libellants, to allege and prove that Fox River is a navigable water of the United States...\"",
+  "disposition": "UNSUPPORTED_MONTELLO_QUOTATION_ATTRIBUTION",
+  "attribution": "Daniel Ball genuine elided quote; Montello purported quote absent",
+  "fidelity": "Daniel Ball portion corresponds with explicit final ellipsis. Entire short 1871 Montello opinion supports uncertain geography and remand, but not supplied 'If we take judicial notice ... libellants' sentence.",
+  "pinpoint": "Daniel Ball 563; Montello 78 U.S. 414–416, rather than purported sentence at 415.",
+  "scope_note": "Replace Montello subsection with labelled case-specific paraphrase; do not invent categorical prohibition of judicial notice. Adjacent Moncure v. Zunts starts after disposition and is excluded.",
+  "previous_record_verification": "semantic_followup_02 attribution error independently reconfirmed; proposed correction not present in repair records.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-77-557.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-78-411.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-87-430.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

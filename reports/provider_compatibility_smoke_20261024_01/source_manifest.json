@@ -1,0 +1,61 @@
+{
+  "scope": "FIVE_ROLE_COMPATIBILITY_SMOKE",
+  "files": [
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_compatibility_smoke.py",
+      "size_bytes": 11804,
+      "sha256": "243ddff22cf453fb1ad6671e89d68ef22c012fa46af63b4c022e4aeced529f76"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_accounting.py",
+      "size_bytes": 17044,
+      "sha256": "3f3210e197d4ba5e7c73289c7e2e49d509c404c3ed28b9de0baee1c6956ab888"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_run_control.py",
+      "size_bytes": 17475,
+      "sha256": "7fea1c87c342be001cb9063cbedef69a023afe8f6e9cd0b33a2ad5bd79eb36f1"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_prompt_workflow.py",
+      "size_bytes": 17223,
+      "sha256": "34b35e37b40373ffe7757263fa26b79b279d00d3972da6393773178bbe2f78d2"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\common_serializer.py",
+      "size_bytes": 12438,
+      "sha256": "27e088bb1ee48f8a00c36f35c4936854916e5d9c57e9607ea0b24a0b50a3d501"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\matched_harness.py",
+      "size_bytes": 38929,
+      "sha256": "53599a70d886eb21bebb681b9b2b36ed4e6333d173c1eb4bb8ff2a64d86a7c4e"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\hybrid_retriever.py",
+      "size_bytes": 3876,
+      "sha256": "f12b8b6b8680ca7440b140523ef0bb6a7da64b3f7149e6612ac750c02cba7997"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\terra_retriever.py",
+      "size_bytes": 10441,
+      "sha256": "1e91d51b471e407cc60e20fd78c53e1d23f2250d6a35da33f8dd16f04428b443"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\bm25_engine.py",
+      "size_bytes": 5097,
+      "sha256": "be2f5abd2cef5936f992dc999b332087db97ae213b60618ff825676d6b8f2b7f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\inspect_databricks_metadata.py",
+      "size_bytes": 9751,
+      "sha256": "dbb1e62fa86ce2871dcfdab55459204944027aeaefb1f2ec175007e2b46e92ae"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\__init__.py",
+      "size_bytes": 173,
+      "sha256": "211523d95a89ef95dd3475ee131220da8856a582914fa06b9a830f3a3c7d0c05"
+    }
+  ],
+  "secret_file_excluded": true
+}

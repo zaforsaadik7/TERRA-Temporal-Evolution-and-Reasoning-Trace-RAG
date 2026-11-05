@@ -1,0 +1,18 @@
+{
+  "operational_events": [
+    "verifier refusal count",
+    "generator invocation count"
+  ],
+  "judge_proxies": [
+    "both judges SUBSTANTIVE",
+    "at least one judge SUBSTANTIVE",
+    "concordant response type; disagreement unknown"
+  ],
+  "historical_author_proxies": [
+    "non-refusal coverage",
+    "supported non-refusal/all assigned",
+    "contradicted/non-refusal; uncertain separate"
+  ],
+  "unsupported_strict_or_legal_endpoints": "unavailable without distinct valid references; never convert high refusal score to useful answer",
+  "new_inference": "descriptive only; no new p-values"
+}

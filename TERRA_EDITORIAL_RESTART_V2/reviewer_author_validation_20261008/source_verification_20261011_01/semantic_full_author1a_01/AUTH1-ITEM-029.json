@@ -1,0 +1,19 @@
+{
+  "id": "AUTH1-ITEM-029",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "United States v. Jackalow, 66 U.S. (1 Black) 484 (1862) — https://supreme.justia.com/cases/federal/us/66/484/",
+  "original_excerpt": "From United States v. Jackalow, 66 U.S. (1 Black) 484, 487–488 (1862):\n\"The boundary of a State, when a question of fact, is to be ascertained by the jury; and whether a particular place is within the boundary of a State is not a question of law for the court, but a question of fact for the jury... The special verdict is defective in that it does not find whether the place was within the limits of Connecticut, or New York, or out of the jurisdiction of any State. For this reason a new trial must be granted.\"",
+  "disposition": "ORIGINAL_NONVERBATIM_PRIOR_REPAIR_VERIFIED",
+  "attribution": "Jackalow opinion of Justice Nelson",
+  "fidelity": "Ledger's quoted summary is not verbatim and oversimplifies court/jury distinction. Repaired N27–N30 quote actual boundary-construction/evidence-application distinction and defective-verdict/new-trial disposition.",
+  "pinpoint": "66 U.S. 487–488; adjacent Knight's Administrator text begins after Jackalow's disposition and is excluded.",
+  "scope_note": "Court construes boundary description; jury applies evidence. No opinion resolving precise NY/CT boundary here.",
+  "previous_record_verification": "Both replacement passages checked in preserved text; actual N27–N30 read from item030_repair_01 workbook XML, hash 7bab322326f927addc5c630fceb74e77a3c773545b642f82f990c8316f895ec8. Records preserved.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-66-484.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

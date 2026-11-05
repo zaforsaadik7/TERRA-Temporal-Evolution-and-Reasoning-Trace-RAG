@@ -1,0 +1,141 @@
+{
+  "status": "STEP6_COMPILE_RENDER_AND_MAIN_PAGE_BUDGET_PASS",
+  "author": "Codex implementation self-verification",
+  "date_local": "2026-10-25",
+  "authorization": "User approved Step 6 with I do after Codex-0316 checkpoint",
+  "compiler": "Tectonic 0.17.0",
+  "compiler_sha256": "99ffcfdbf1ebf8bdda9e791942e3d06aedb12463fddc33f07de6f5211c8bf08d",
+  "cache_only": true,
+  "network_or_provider_calls": 0,
+  "results": {
+    "main": {
+      "pages": 25,
+      "sha256": "2c39e45c36644ee469c326848fc8e291145bf693c50e7493f916e50f570f29e0",
+      "overfull": 0,
+      "underfull": 76,
+      "undefined": [],
+      "multiply_defined": [],
+      "question_marks": [],
+      "matched_pages": [
+        11,
+        24
+      ]
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 18,
+      "sha256": "f2b5cdabfff92d124b7e0651427f897c0f01ab6f3662ee31644227479fb9b546",
+      "overfull": 0,
+      "underfull": 209,
+      "undefined": [],
+      "multiply_defined": [],
+      "question_marks": [],
+      "matched_pages": [
+        17
+      ]
+    }
+  },
+  "main_ceiling_including_references": 25,
+  "supplement_separate_from_main_ceiling": true,
+  "working_sources_unchanged": true,
+  "sealed_study_660_rows_reverified": true,
+  "isolated_source_changes": [
+    "main.bbl",
+    "main.tex"
+  ],
+  "isolated_changes": [
+    "Wrap document serialization equation without deleting content",
+    "Wrap routing cases within column; same AND/OR conditions",
+    "Lowercase duplicated Among in new conclusion"
+  ],
+  "render_review": {
+    "overview_pages_inspected": {
+      "main": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "supplement": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "detail_pages_inspected": {
+      "main": [
+        4,
+        5,
+        11,
+        24
+      ],
+      "supplement": [
+        17,
+        18
+      ]
+    },
+    "final_pixel_changed_pages_vs_initial_candidate": {
+      "main": [
+        4,
+        5,
+        24
+      ],
+      "TERRA_SUPPLEMENT": []
+    },
+    "out_of_page_words": {
+      "main": [],
+      "TERRA_SUPPLEMENT": []
+    },
+    "scope": "Visual layout inspection, not a new legal/scientific validation"
+  },
+  "warning_comparison": {
+    "baseline_main_overfull": 5,
+    "unmodified_integrated_main_overfull": 2,
+    "final_main_overfull": 0,
+    "final_main_underfull": 76,
+    "final_supplement_underfull": 209,
+    "underfull_disposition": "Line/box spacing warnings retained; overview and changed-page visual inspection found no associated clipping. Existing dense historical tables were not shrunk."
+  },
+  "limits": [
+    "No canonical promotion or working-source replacement",
+    "Independent peer PDF review not yet received",
+    "Main-paper 25-page constraint assumed to exclude separate supplement; journal-specific policy remains unverified",
+    "Reference pricing and refusal/coverage scientific caveats remain unchanged"
+  ],
+  "initial_refinement_stop": "Newline anchor assertion stopped before any isolated edit; original helper and untouched copy preserved as refine_layout.initial.py and refine_initial_no_edits."
+}

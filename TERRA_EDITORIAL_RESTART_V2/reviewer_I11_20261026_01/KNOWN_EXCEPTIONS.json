@@ -1,0 +1,44 @@
+[
+  {
+    "id": "EX-I9",
+    "type": "DEFERRED_ADMINISTRATIVE_AND_TYPOGRAPHIC",
+    "status": "OPEN",
+    "detail": "IEEE version retained by user; journal-format compliance not certified. New physical readability defect F09 remains substantive despite I9 deferral."
+  },
+  {
+    "id": "EX-I10",
+    "type": "DEFERRED_AUTHOR_SUBMISSION_FACTS",
+    "status": "OPEN",
+    "detail": "Intended journal confirmed. Complete authorship/contact/funding/conflict/prior-publication/concurrent-status/ethics determination not finalized; corrected second-author spelling pending final author package. Consent to ratings/findings reporting is recorded, not workbook-publication or ethics approval."
+  },
+  {
+    "id": "EX-EXPERT",
+    "type": "SCIENTIFIC_LIMITATION",
+    "status": "OPEN_DISCLOSED",
+    "detail": "Reviewerpoint5 expert component unmet; legal correctness and independent verifier error rates unestimated. No expert commission requested."
+  },
+  {
+    "id": "EX-PROVENANCE",
+    "type": "SCIENTIFIC_LIMITATION",
+    "status": "OPEN_DISCLOSED",
+    "detail": "Missing historical run code/graph/index linkage and upstream Gemma receipt caveat retained. Hashing current files does not repair historical lineage."
+  },
+  {
+    "id": "EX-TOOLCHAIN",
+    "type": "REPRODUCIBILITY_BOUNDARY",
+    "status": "OPEN_DISCLOSED",
+    "detail": "Fresh manuscript extraction rebuild matches PDFs. Shared compiler cache not recursively pinned/fully externally traced; no empty-machine hermetic build claim."
+  },
+  {
+    "id": "EX-PEER",
+    "type": "REVIEW_PENDING",
+    "status": "OPEN",
+    "detail": "No actual I11 peer artifact review received. Mailbox request does not wake Antigravity or confer concurrence."
+  },
+  {
+    "id": "EX-VALUES",
+    "type": "AUDIT_SCOPE",
+    "status": "OPEN_DISCLOSED",
+    "detail": "2025macro uses and2942numeric occurrences inventoried; central accepted derivations checked. Not every inherited statistic independently rederived, and no independent legal judgments made."
+  }
+]

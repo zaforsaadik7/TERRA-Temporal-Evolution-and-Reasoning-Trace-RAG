@@ -1,0 +1,103 @@
+Table S6:
+Standalone Traﬀic Cop Query Intent Classifier Evalua-
+tion Across Canonical Benchmark Queries (N = 350), and Category-
+Disaggregated Routing Behavior with Downstream Defense-in-Depth
+Outcomes.
+Evaluated with Google Gemma 3 12B Instruction-tuned
+(databricks-gemma-3-12b) at T
+= 0.0 under structured Pydantic
+schema validation (RoutingDecision). Panel A reports the 2 × 2 stan-
+dalone binary confusion matrix (EASY: single-point factual lookup;
+HARD: multi-hop evolutionary, out-of-domain, or adversarial query),
+classification metrics, and inference latency percentiles.
+Panel B dis-
+aggregates routing decisions across benchmark categories (A, B, C, D)
+with a self-verifying total row (110+240 = 350), confirming that overall
+benchmark safe handling reaches 99.43% (348/350), with 100.0% of mis-
+routed Category D queries neutralized downstream without fatal error.
+Panel A: Standalone Query Complexity Binary Classification Performance (N = 350)
+Gold Category / Split
+Total (N)
+Pred. EASY
+Pred. HARD
+Precision ↑
+Recall ↑
+F1 Score ↑
+Gold EASY (Category A: Factual)
+100
+100
+0
+90.91%
+100.00%
+95.24%
+Gold HARD (Categories B, C, D: Com-
+plex)
+250
+10
+240
+100.00%
+96.00%
+97.96%
+Macro-Averaged / Overall Summary 350
+110
+240
+95.45%
+98.00%
+96.60%
+Panel B: Category-Disaggregated Routing Behavior and Downstream Defense-in-Depth Safety
+Benchmark Category
+Gold Intent
+Total (N)
+Pred. EASY
+Pred. HARD
+False
+Route
+Rate
+Safe
+Handling
+Rate
+Category A (Single-Point Factual)
+EASY
+100
+100
+0
+0.00%
+100.0% (100/100)
+Category B (Multi-Hop Evolutionary)
+HARD
+100
+0
+100
+0.00%
+100.0% (100/100)
+Category C (Out-of-Context Negative)
+HARD
+75
+0
+75
+0.00%
+100.0% (75/75)
+Category D (Adversarial Deception)
+HARD
+75
+10
+65
+13.33%
+97.3% (73/75)†
+Total / Overall
+MIX
+350
+110
+240
+2.86%
+99.43% (348/350)∗
+Notes: The all-category safe-handling total is a rubric/no-recorded-fatal-outcome summary, not independently validated legal correctness for ordinary Category A/B answers. Evaluated on all N = 350
+canonical benchmark queries executed deterministically at T = 0.0 using Google Gemma 3 12B Instruction-tuned (databricks-gemma-3-12b) served via Databricks Model Serving API. Overall classifier
+accuracy is 97.14% (340/350) with an overall routing error rate of 2.86% (10/350). The router achieves zero False-HARD misclassifications (0.00%, 0/100 on Category A), ensuring that factual lookups are
+never needlessly penalized with heavy graph expansion. Across all complex queries (Categories B, C, D), the False-EASY rate is 4.00% (10/250), with zero false-EASY routes on Categories B and C.
+Standalone router latency: Min = 601.9 ms, Median = 1,126.4 ms, Mean = 1,565.5 ms, p90 = 2,043.8 ms, Max = 15,370.2 ms. †On Category D, 73/75 queries (97.3%) achieved safe handling: 48 explicit
+refusals and 25 substantive refutations under the multi-class scoring (distinct from 46 system-flagged refusals), with the only two errors being reciprocal procedural misattributions between Baker and
+Reynolds (D033/D034; Section VI-D). ∗All 10 Category D queries classified as EASY by the router were single-sentence syntactic prompts without multi-hop connectors. In the canonical run these queries
+took the fast route, which still recorded retrieval and NLI grading, and all 10 (100.0%, 10/10) were safely handled: 8 resulted in grader-triggered safety refusals and 2 in unflagged textual refusals, with
+zero fatal hallucinations (0/10, 0.0%); with n = 10 this is a small-sample observation.
+S8

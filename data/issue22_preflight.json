@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "issue_id": "issue22",
+    "timestamp_utc": "2026-09-24T00:54:05.886686+00:00",
+    "target": "Doctrinal Taxonomy Generation Protocol & Inter-Evaluator Preflight"
+  },
+  "checks": {
+    "check1_protected_substrates": {
+      "passed": true,
+      "files_checked": 10,
+      "details": {
+        "terra_350_benchmark.json": {
+          "status": "PASS",
+          "sha256": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3",
+          "size_bytes": 352287
+        },
+        "dataset_20k_cap/terra_eeg_index_20k.json": {
+          "status": "PASS",
+          "sha256": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+          "size_bytes": 109574119
+        },
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1890.json": {
+          "status": "PASS",
+          "sha256": "c530f9858e9b3372dc9079092178e9d8c2239758eda073c35b9fc7b0c49e1f72",
+          "size_bytes": 28800415
+        },
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1930.json": {
+          "status": "PASS",
+          "sha256": "14071dba780157b767dfce1f11ef8190722ad94ab9a37e8258bb574a0183c3fc",
+          "size_bytes": 75571975
+        },
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1950.json": {
+          "status": "PASS",
+          "sha256": "98d14bfb75d5051429ff4c48c0410300efb5ef7f04112701635f110aff094ddf",
+          "size_bytes": 92964142
+        },
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1970.json": {
+          "status": "PASS",
+          "sha256": "5e2b59ac3fce2b9513c9ceb60b6a1cae0c2323150f4936a0410503fd56689f3c",
+          "size_bytes": 106579098
+        },
+        "dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1980.json": {
+          "status": "PASS",
+          "sha256": "606a6ec126bf7c5ac4cbdbac04f37eee52f7bd524d35e5f12d8dc4ebff3e23b5",
+          "size_bytes": 118195808
+        },
+        "ask_terra.py": {
+          "status": "PASS",
+          "sha256": "430fc1b3fd1ce7ed156a711d8e489abe814699c12e1a44c207a3bce7dac788cd",
+          "size_bytes": 64081
+        },
+        "data/issue21_preflight.json": {
+          "status": "PASS",
+          "sha256": "9a26a9e35340111773180cadd9f3c271fcecde1a3863609d6abbd2236ba7a9b2",
+          "size_bytes": 9663
+        },
+        "logs/issue21_preflight.txt": {
+          "status": "PASS",
+          "sha256": "91d028cd9ce5079d16bf540cba6546bfa825e5688b3283eb5ef226cc8a3d84d8",
+          "size_bytes": 10617
+        }
+      }
+    },
+    "check2_lexicon_inventory": {
+      "passed": true,
+      "total_phrases": 69,
+      "unique_phrases": 69,
+      "domains": {
+        "first_amendment": {
+          "expected": 11,
+          "actual": 11,
+          "phrases": [
+            "first amendment",
+            "free speech",
+            "freedom of speech",
+            "freedom of the press",
+            "establishment clause",
+            "free exercise",
+            "censorship",
+            "obscenity",
+            "libel",
+            "defamation",
+            "religion"
+          ]
+        },
+        "criminal_procedure": {
+          "expected": 13,
+          "actual": 13,
+          "phrases": [
+            "fourth amendment",
+            "search and seizure",
+            "warrant",
+            "probable cause",
+            "fifth amendment",
+            "self-incrimination",
+            "double jeopardy",
+            "sixth amendment",
+            "right to counsel",
+            "habeas corpus",
+            "miranda",
+            "confession",
+            "jury trial"
+          ]
+        },
+        "commerce_clause_economic": {
+          "expected": 12,
+          "actual": 12,
+          "phrases": [
+            "commerce clause",
+            "interstate commerce",
+            "sherman act",
+            "antitrust",
+            "monopoly",
+            "clayton act",
+            "trade regulation",
+            "fair labor",
+            "nlrb",
+            "labor relations",
+            "interstate commerce commission",
+            "icc"
+          ]
+        },
+        "civil_rights_equal_protection": {
+          "expected": 12,
+          "actual": 12,
+          "phrases": [
+            "equal protection",
+            "civil rights",
+            "fourteenth amendment",
+            "14th amendment",
+            "racial discrimination",
+            "segregat",
+            "desegregat",
+            "separate but equal",
+            "thirteenth amendment",
+            "fifteenth amendment",
+            "voting rights",
+            "disenfranchise"
+          ]
+        },
+        "admin_law_federal_courts": {
+          "expected": 11,
+          "actual": 11,
+          "phrases": [
+            "administrative",
+            "statutory interpretation",
+            "jurisdiction",
+            "standing",
+            "exhaustion",
+            "agency",
+            "judicial review",
+            "mandamus",
+            "sovereign immunity",
+            "federal question",
+            "diversity of citizenship"
+          ]
+        },
+        "substantive_private_law": {
+          "expected": 10,
+          "actual": 10,
+          "phrases": [
+            "patent",
+            "copyright",
+            "trademark",
+            "admiralty",
+            "maritime",
+            "internal revenue",
+            "income tax",
+            "taxation",
+            "bankruptcy",
+            "contract"
+          ]
+        }
+      }
+    },
+    "check3_label_parity": {
+      "passed": true,
+      "total_nodes": 20000,
+      "category_mismatches": 0,
+      "primary_domain_mismatches": 0,
+      "doctrinal_tags_mismatches": 0
+    },
+    "check5_distributions": {
+      "passed": true,
+      "domain_counts": {
+        "admin_law_federal_courts": 4501,
+        "substantive_private_law": 5707,
+        "general_constitutional_statutory": 4594,
+        "criminal_procedure": 1765,
+        "first_amendment": 666,
+        "civil_rights_equal_protection": 1153,
+        "commerce_clause_economic": 1614
+      },
+      "residual_fallback_count": 4594,
+      "tie_cases_count": 1587,
+      "multi_tag_distribution": {
+        "1": 13536,
+        "2": 5156,
+        "3": 1213,
+        "4": 90,
+        "5": 5
+      }
+    },
+    "check6_inputs_available": {
+      "passed": true,
+      "manifest_path": "dataset_20k_cap/manifests/selection_manifest_20k.json",
+      "manifest_entries": 20000,
+      "raw_cases_count": 23042
+    },
+    "check7_judge_cache_provenance": {
+      "passed": true,
+      "cache_path": "data/cache/issue22_judge_cache.json",
+      "pre_exec_sha256": "691567e5e5e4b1f72328a948de4e394917306b34e0bc4e425e28d8a5e750efaf",
+      "size_bytes": 138717,
+      "cached_entries_count": 210
+    }
+  },
+  "verdict": {
+    "status": "PASS",
+    "all_checks_passed": true,
+    "reproducibility": "100% Deterministic Bit-Level Parity Verified Across All 20,000 Nodes",
+    "protected_substrates_invariance": "10/10 Invariant",
+    "ready_for_phase2": true
+  }
+}

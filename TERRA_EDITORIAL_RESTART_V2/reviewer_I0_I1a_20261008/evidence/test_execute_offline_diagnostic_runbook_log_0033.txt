@@ -1,0 +1,37 @@
+﻿==============================================================================
+SYNTHETIC TEST SUITE EXECUTION LOG: OPERATIONAL RUNBOOK
+Timestamp UTC      : 2026-10-08T04:15:56Z
+PowerShell Version : 5.1.19041.7725
+PowerShell Edition : Desktop
+OS Version         : Microsoft Windows NT 10.0.19045.0
+Runbook Script     : F:\TERRA -Copy\scripts\execute_offline_diagnostic_runbook.ps1
+Runbook SHA-256    : 7183c252fb9b41dfadafdea727b8ad1cce543e1cc5e71102d9e7eb20f72dcf5c
+Test Suite Script  : F:\TERRA -Copy\scripts\test_execute_offline_diagnostic_runbook.ps1
+Test Suite SHA-256 : 9ab965f1a6f6ea5640793a5cf779ed40e7753a3177c0de4c232d88f2a211f4a8
+Invocation Command : powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/test_execute_offline_diagnostic_runbook.ps1
+==============================================================================
+  [PASS] Test 1 : Production Rejection of Non-empty Test Configuration
+  [PASS] Test 2 : Missing MockOtherProcesses Fails Closed
+  [PASS] Test 3 : Missing MockPostHashes Fails Closed
+  [PASS] Test 4 : Missing MockPreHashes Fails Closed
+  [PASS] Test 5 : Firewall Service Stopped Fails Closed
+  [PASS] Test 6 : Incomplete Firewall Profiles Set Fails Closed
+  [PASS] Test 7 : Empty Firewall Profiles Set Fails Closed
+  [PASS] Test 8 : Disabled Firewall Profile Fails Closed
+  [PASS] Test 9 : Rule Profile Coverage Mismatch Fails Closed
+  [PASS] Test 10 : Rule Program Path Mismatch Fails Closed
+  [PASS] Test 11 : Transcript Startup Failure Fails Closed
+  [PASS] Test 12 : Transcript Stop Failure Leaves Failure on Disk and Exits 1
+  [PASS] Test 13 : Rule Collision Fails Closed
+  [PASS] Test 14 : Nonzero Native Exit Code Preserved in Terminal Record
+  [PASS] Test 15 : Teardown Failure Fails Closed
+  [PASS] Test 16 : Other Interpreter Processes Detected Fails Closed
+  [PASS] Test 17 : Pre-Execution Hash Mismatch Fails Closed
+  [PASS] Test 18 : Post-Execution Hash Mismatch Fails Closed
+  [PASS] Test 19 : Real Save-Exclusive-Record AST: Sentinel Collision Refused & Bytes Untouched
+  [PASS] Test 20 : Control 1: CreateNew Alone Refuses Overwrite & Preserves Sentinel
+  [PASS] Test 21 : Control 2: Unsafe Overwrite Writer Overwrites Sentinel (Proving Sensitivity)
+  [PASS] Test 22 : Clean Simulation Lifecycle with Complete Identity Proof
+==============================================================================
+SYNTHETIC TEST RESULTS: 22 / 22 PASSED (0 FAILED)
+==============================================================================

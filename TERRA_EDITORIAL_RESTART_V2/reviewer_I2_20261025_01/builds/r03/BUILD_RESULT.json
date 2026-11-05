@@ -1,0 +1,72 @@
+{
+  "revision": "r03",
+  "engine": "Tectonic0.17.0 XeTeX; cached-only",
+  "commands": [
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "TERRA_SUPPLEMENT.tex"
+      ],
+      "exit": 0,
+      "seconds": 1.644
+    },
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "main.tex"
+      ],
+      "exit": 0,
+      "seconds": 5.188
+    },
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "TERRA_SUPPLEMENT.tex"
+      ],
+      "exit": 0,
+      "seconds": 1.41
+    },
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "main.tex"
+      ],
+      "exit": 0,
+      "seconds": 3.897
+    }
+  ],
+  "documents": {
+    "main": {
+      "pages": 25,
+      "sha256": "5a8511ccf4d2735b030ddcea2f101113eb88e52de8273227abaddfbf3dde7889",
+      "overfull": 0,
+      "underfull": 69,
+      "undefined": 0,
+      "multiply_defined": 0,
+      "question_marks": false,
+      "font_warnings": 427
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 19,
+      "sha256": "ac841c7245c16c850b86f84f28385a66b74230068ea795a5c62ded55d5379494",
+      "overfull": 0,
+      "underfull": 199,
+      "undefined": 0,
+      "multiply_defined": 0,
+      "question_marks": false,
+      "font_warnings": 0
+    }
+  }
+}

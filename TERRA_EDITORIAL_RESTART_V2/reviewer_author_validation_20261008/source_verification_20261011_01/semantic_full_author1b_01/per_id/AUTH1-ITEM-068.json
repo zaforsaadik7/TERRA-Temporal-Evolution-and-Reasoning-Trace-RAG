@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-068",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "N/A",
+  "disposition": "HOLD_WRONG_URL_ALTERED_CODE_QUOTATION_AND_VERSION",
+  "attribution_finding": "Municipal-code exception reviewed against city-authorized codification. Supplied penalty URL actually opens section12.21, not11.00.",
+  "fidelity_finding": "Current11.00(m) has unlawful/failure sentence, misdemeanor-or-infraction framework and penalty maximum, but submitted 'Any person convicted of a misdemeanor ...' sentence is not its verbatim wording. Omitted infraction/administrative alternatives matter.",
+  "pinpoint_finding": "Correct section11.00 URL ends107510. Section12.21 C.10 contains hillside standards; its specific setback subparagraph/table should be identified for an actual setback proposition.",
+  "scope_and_cutoff_finding": "Generic penalty framework does not prove violation or automatic maximum imprisonment for every setback breach. Latest code is mutable; no historical version or property/zone facts established. Assigned cutoff N/A.",
+  "evidence": [
+    "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-107510",
+    "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-113040",
+    "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-5183"
+  ],
+  "proposed_action_not_applied": "Fix locator and faithfully label quotation/paraphrase, retain misdemeanor/infraction alternatives and historical-version uncertainty.",
+  "unresolved_questions": [
+    "Historical ordinance snapshot; particular property's zone/applicable code; applicability of specific penalty to particular conduct."
+  ],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "Los Angeles Municipal Code (LAMC), Chapter 1, Article 2, Section 12.21 (General Provisions) — https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-5183\n[cite: 1]\nLos Angeles Municipal Code (LAMC), Chapter 1, Article 1, Section 11.00(m) (Penalties for Code Violations) — https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-113040\n[cite: 2, 3]",
+  "ledger_excerpt": "From Los Angeles Municipal Code § 11.00(m):\n\"It shall be unlawful for any person to violate any provision or fail to comply with any of the requirements of this Code... Any person convicted of a misdemeanor under the provisions of this Code, unless provision is otherwise made herein, shall be punishable by a fine of not more than $1,000.00 or by imprisonment in the County Jail for a period of not more than six (6) months, or by both fine and imprisonment... Each person shall be guilty of a separate offense for each and every day during any portion of which any violation of any provision of this Code is committed, continued or permitted...\"   \\\nFrom Los Angeles Municipal Code § 12.21:\nEstablishes general zoning requirements, area standards, and residential/hillside setback limitations (e.g., LAMC § 12.21 C.10), with enforcement and statutory penal consequences flowing through the general penalty framework of the Code."
+}
+

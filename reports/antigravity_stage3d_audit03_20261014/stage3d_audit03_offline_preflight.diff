@@ -1,0 +1,103 @@
+--- a/scripts/matched_baseline/offline_preflight.py
++++ b/scripts/matched_baseline/offline_preflight.py
+@@ -2046,8 +2046,18 @@
+ 
+             tok = factory_fn(role, role_dir, manifest_path, ws, mode)
+             if mode == "authentic":
+-                if isinstance(tok, MockBpeTokenizer) or getattr(tok, "is_synthetic_mock", False) or type(tok).__name__.startswith("Mock"):
+-                    raise ConfigurationError(f"Mock or synthetic tokenizer returned in authentic mode for role '{role}': {type(tok).__name__}")
++                is_synth = getattr(tok, "is_synthetic", None)
++                if is_synth is not False:
++                    if is_synth is None:
++                        raise ConfigurationError(
++                            f"Tokenizer for role '{role}' lacks required 'is_synthetic' attribute; "
++                            "authentic identity requires explicit verified is_synthetic=False."
++                        )
++                    else:
++                        raise ConfigurationError(
++                            f"Synthetic tokenizer returned in authentic mode for role '{role}' "
++                            f"(is_synthetic={is_synth}). Authentic identity requires explicit verified is_synthetic=False."
++                        )
+             constructed_tokenizers[role] = tok
+ 
+         # Verifier shares generator's tokenizer instance
+--- a/tests/test_offline_preflight_real_integration_synthetic.py
++++ b/tests/test_offline_preflight_real_integration_synthetic.py
+@@ -435,6 +435,20 @@
+         self.assertIn("unexpected_added.bin", diff["added"][0]["relative_path"])
+ 
+ 
++class CustomProductionAdapter(TokenizerInterface):
++    """Synthetic non-Mock-named test fake for authentic marker verification."""
++
++    def __init__(self, is_synthetic=None):
++        if is_synthetic is not None:
++            self.is_synthetic = is_synthetic
++
++    def count_tokens(self, text: str) -> int:
++        return 1
++
++    def apply_chat_template(self, messages, add_generation_prompt=True, **kwargs) -> str:
++        return "rendered_prompt"
++
++
+ class TestCanonicalRoleConfigFactorySynthetic(unittest.TestCase):
+     """Synthetic unit tests for CanonicalRoleConfigFactory."""
+ 
+@@ -583,7 +597,7 @@
+         self.assertIn("tokenizer_factory injection is forbidden in authentic mode", str(ctx2.exception))
+ 
+     def test_canonical_role_config_factory_rejects_mock_tokenizer_in_authentic_mode(self):
+-        """Verify returning mock or synthetic tokenizer in authentic mode raises ConfigurationError."""
++        """Verify MockBpeTokenizer (which lacks verified is_synthetic=False) in authentic mode raises ConfigurationError."""
+         from unittest import mock
+         with mock.patch("scripts.matched_baseline.fast_tokenizer_adapter.LocalFastTokenizer", return_value=MockBpeTokenizer()):
+             with self.assertRaises(ConfigurationError) as ctx:
+@@ -591,7 +605,46 @@
+                     tokenizer_base_dir=self.tok_base,
+                     mode="authentic",
+                 )
+-            self.assertIn("mock or synthetic tokenizer returned in authentic mode", str(ctx.exception).lower())
++            self.assertIn("is_synthetic", str(ctx.exception).lower())
++
++    def test_canonical_role_config_factory_rejects_synthetic_marker_on_non_mock_fake(self):
++        """Verify returning tokenizer declaring is_synthetic=True on non-Mock-named fake raises ConfigurationError."""
++        from unittest import mock
++        fake = CustomProductionAdapter(is_synthetic=True)
++        with mock.patch("scripts.matched_baseline.fast_tokenizer_adapter.LocalFastTokenizer", return_value=fake):
++            with self.assertRaises(ConfigurationError) as ctx:
++                CanonicalRoleConfigFactory.build_role_configs(
++                    tokenizer_base_dir=self.tok_base,
++                    mode="authentic",
++                )
++            self.assertIn("synthetic tokenizer returned in authentic mode", str(ctx.exception).lower())
++            self.assertIn("is_synthetic=true", str(ctx.exception).lower())
++
++    def test_canonical_role_config_factory_rejects_absent_marker_on_non_mock_fake(self):
++        """Verify returning tokenizer with absent is_synthetic marker on non-Mock-named fake raises ConfigurationError."""
++        from unittest import mock
++        fake = CustomProductionAdapter(is_synthetic=None)
++        with mock.patch("scripts.matched_baseline.fast_tokenizer_adapter.LocalFastTokenizer", return_value=fake):
++            with self.assertRaises(ConfigurationError) as ctx:
++                CanonicalRoleConfigFactory.build_role_configs(
++                    tokenizer_base_dir=self.tok_base,
++                    mode="authentic",
++                )
++            self.assertIn("lacks required 'is_synthetic' attribute", str(ctx.exception).lower())
++
++    def test_canonical_role_config_factory_accepts_verified_authentic_marker(self):
++        """Verify positive patched construction with explicit is_synthetic=False succeeds in authentic mode."""
++        from unittest import mock
++        fake = CustomProductionAdapter(is_synthetic=False)
++        with mock.patch("scripts.matched_baseline.fast_tokenizer_adapter.LocalFastTokenizer", return_value=fake):
++            configs = CanonicalRoleConfigFactory.build_role_configs(
++                tokenizer_base_dir=self.tok_base,
++                mode="authentic",
++            )
++            self.assertEqual(len(configs), 5)
++            self.assertIs(configs["verifier"].tokenizer, configs["generator"].tokenizer)
++            for role in ["router", "verifier", "generator", "judge1", "judge2"]:
++                self.assertFalse(configs[role].tokenizer.is_synthetic)
+ 
+     def test_canonical_role_config_factory_rejects_conflicting_custom_verifier(self):
+         """Verify distinct verifier tokenizer in custom_tokenizers is rejected."""

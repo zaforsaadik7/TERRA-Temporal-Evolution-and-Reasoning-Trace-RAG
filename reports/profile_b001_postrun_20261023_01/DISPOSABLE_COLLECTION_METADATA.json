@@ -1,0 +1,23 @@
+{
+  "scope": "USED_DISPOSABLE_SQLITE_METADATA_ONLY",
+  "database_unchanged": true,
+  "before": {
+    "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\disposable\\chroma.sqlite3",
+    "size_bytes": 362885120,
+    "sha256": "eef6663cc4d727cc0bf0ced0a2389f8bb45f2b20fb610a235ccb8a3aef73ae6a"
+  },
+  "after": {
+    "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_profile_candidate_20261023_01\\disposable\\chroma.sqlite3",
+    "size_bytes": 362885120,
+    "sha256": "eef6663cc4d727cc0bf0ced0a2389f8bb45f2b20fb610a235ccb8a3aef73ae6a"
+  },
+  "collections_schema": "CREATE TABLE \"collections\" (\n    id TEXT PRIMARY KEY, -- unique globally\n    name TEXT NOT NULL, -- unique per database\n    dimension INTEGER,\n    database_id TEXT NOT NULL REFERENCES databases(id) ON DELETE CASCADE, config_json_str TEXT, schema_str TEXT,\n    UNIQUE (name, database_id)\n)",
+  "collection_metadata": {
+    "name": "thinking_traces",
+    "dimension": 384,
+    "config_json_str": "{}",
+    "schema_str": "{\"defaults\":{\"string\":{\"fts_index\":{\"enabled\":false,\"config\":{}},\"string_inverted_index\":{\"enabled\":true,\"config\":{}}},\"float_list\":{\"vector_index\":{\"enabled\":false,\"config\":{\"space\":\"l2\",\"embedding_function\":{\"type\":\"known\",\"name\":\"default\",\"config\":{}},\"hnsw\":{\"ef_construction\":100,\"max_neighbors\":16,\"ef_search\":100,\"num_threads\":12,\"batch_size\":100,\"sync_threshold\":1000,\"resize_factor\":1.2}}}},\"sparse_vector\":{\"sparse_vector_index\":{\"enabled\":false,\"config\":{\"embedding_function\":{\"type\":\"unknown\"},\"bm25\":false}}},\"int\":{\"int_inverted_index\":{\"enabled\":true,\"config\":{}}},\"float\":{\"float_inverted_index\":{\"enabled\":true,\"config\":{}}},\"bool\":{\"bool_inverted_index\":{\"enabled\":true,\"config\":{}}}},\"keys\":{\"#embedding\":{\"float_list\":{\"vector_index\":{\"enabled\":true,\"config\":{\"space\":\"l2\",\"embedding_function\":{\"type\":\"known\",\"name\":\"default\",\"config\":{}},\"source_key\":\"#document\",\"hnsw\":{\"ef_construction\":100,\"max_neighbors\":16,\"ef_search\":100,\"num_threads\":12,\"batch_size\":100,\"sync_threshold\":1000,\"resize_factor\":1.2}}}}},\"#document\":{\"string\":{\"fts_index\":{\"enabled\":true,\"config\":{}},\"string_inverted_index\":{\"enabled\":false,\"config\":{}}}},\"title\":{\"string\":{\"fts_index\":{\"enabled\":false,\"config\":{}},\"string_inverted_index\":{\"enabled\":true,\"config\":{}}}},\"char_count\":{\"int\":{\"int_inverted_index\":{\"enabled\":true,\"config\":{}}}},\"category\":{\"string\":{\"fts_index\":{\"enabled\":false,\"config\":{}},\"string_inverted_index\":{\"enabled\":true,\"config\":{}}}},\"node_id\":{\"string\":{\"fts_index\":{\"enabled\":false,\"config\":{}},\"string_inverted_index\":{\"enabled\":true,\"config\":{}}}},\"doctrinal_tags\":{\"string\":{\"fts_index\":{\"enabled\":false,\"config\":{}},\"string_inverted_index\":{\"enabled\":true,\"config\":{}}}},\"primary_domain\":{\"string\":{\"fts_index\":{\"enabled\":false,\"config\":{}},\"string_inverted_index\":{\"enabled\":true,\"config\":{}}}},\"date\":{\"string\":{\"fts_index\":{\"enabled\":false,\"config\":{}},\"string_inverted_index\":{\"enabled\":true,\"config\":{}}}}}}"
+  },
+  "chroma_imported": false,
+  "model_operations": false
+}

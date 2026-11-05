@@ -1,0 +1,11 @@
+{
+  "assignments": 152,
+  "unique_exact_response_identities": 113,
+  "overlapping_exact_response_identities": 35,
+  "source_dataset_counts": {
+    "data/temporal_leakage_dual_judged.json": 98,
+    "data/terra_canonical_v2_eval.json": 54
+  },
+  "matched_r03_label_links": 0,
+  "limit": "Existing authors assessed historical/temporal outputs, not this fresh matched study. Private mapping and per-author identities are not included in blinded/public source-check views."
+}

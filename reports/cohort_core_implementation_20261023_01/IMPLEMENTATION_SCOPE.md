@@ -1,0 +1,30 @@
+# Cohort contracts and injected controls: code-only checkpoint
+
+23 October 2026. Codex implementation self-verification under user's code-only approval after Codex-0268/Antigravity-0218. This is the first implementation checkpoint, not completed real-worker/Windows-launcher composition or execution authority.
+
+## Added modules
+
+offline_cohort_contracts.py: distinct COHORT_OFFLINE_FEASIBILITY scope, pinned root benchmark path/digest,350 ordered unique query identities with100/100/75/75 category counts,20k population and32 batch width,1MiB request serialization, positive/integer independently matched resource data. Approval draft validator binds exact reviewed record/digest/date/single-attempt restrictions, ordered request hash, resources and rule/owner identity. It additionally requires an independently supplied launch_binding_sha256: the future frozen pre-authorization config must bind command, actual Python firewall image, complete input pins/paths/controller policy and limits, excluding approval-dependent fields to avoid a hash cycle. That config/outer trust-root is NOT implemented by this data validator and must not be substituted with a candidate's self-supplied hash.
+
+Combined report builder reuses the existing pure per-query report validator; validates350 ordered records, each with100 unique candidates,20k graph/document population, two seeds and both complete hypothetical route metrics.32KiB applies to the entire per-query record, not per route. Strict extra-field checks exclude gold-bearing additions; records are snapshot-copied against later mutation. Partial output explicitly complete=false, never success; final complete report requires350/700 and<=16MiB. Authentic-mode rows must carry existing local-only/placeholder/no-provider-certification disclosures. A syntactically valid report remains untrusted until the supervised execution/identity audit.
+
+offline_cohort_controls.py: application-controlled ByteBudget reserves bytes before calling a sink; partial/failed writes retain reservations. Storage/free-space checks distinguish observed third-party growth from quota enforcement. StageTelemetry uses actual injected monotonic observations and budgeted writes; missing/backwards end time is null and fails, not zero-filled. Supervisor actively polls an injected already-owned backend/rule adapter for child deadline, outer finalization reserve, memory/capture/storage conditions and process exit; structured telemetry includes peak availability. It terminates/waits on failures, removes the owned rule only after confirmed tree termination, retains it for recovery otherwise, closes resources and converts cleanup errors to FAIL. It never returns an authentic cohort success: process success explicitly requires report/integrity audit.
+
+New COHORT_EXECUTION_ADMITTED remains false; main unconditionally returns BLOCKED before real adapter creation. Existing six admission holds and legacy driver production block unchanged.
+
+## Tests
+
+New22-test tests/test_offline_cohort_core_synthetic.py uses generated350 identities/records, in-memory sinks, synthetic clocks and mock backends/boundaries. Tests request/scope/path/pin/population/identity/distribution, resource typing,350/700 report completeness/order/mutation/oversize/extra gold/mode, approval request/launch hash/single-attempt bindings, confirmed cleanup, unconfirmed timeout retention, outer reserve, memory/capture/evidence/disposable overrun, unavailable peak, invalid state/nonzero exit, invalid start-time cleanup, cleanup errors, pre-write/partial-write accounting, free-space floor, blocked entry and persisted stage timing/null unavailable end.
+
+Final33 exact named modules:595 tests,593 passed/two skipped, zero failures/errors,27.320s. TEST_RESULT.json and named_tests.log retained. No discovery; project venv Python-B. Prior installed-Chroma-body contract tests execute only their reviewed functions with synthetic collaborators, no full Chroma/model/backend import/initialization.
+
+## Explicitly unfinished composition and limitations
+
+- No real cohort worker, loader/controller binding, exclusive filesystem/receipt-aware evidence writer, real storage observer, physical free-space probe, native adapter wrapper, pre-child outer watchdog or PowerShell launch entry has been connected. The current loop supervises an already-owned injected child; it does not enforce outer time while an unconnected parent is copying or hashing assets.
+- StageTelemetry can persist through a sink but is not yet wired into actual dense batches/graph traversals. Actual native memory state, filesystem growth and stage timing collection need reviewed adapters. Tests do not provide empirical cohort performance/calibration.
+- ByteBudget is a single-owner application reservation helper, not a cross-process shared quota or concurrency-safe global filesystem budget. Parent/child writer allocation and accounting must be integrated before use. Polling third-party growth can detect overshoot; blocking OS calls and third-party allocation prevent hard no-overshoot/time guarantees.
+- Resource values remain proposed, not live-approved. Data equality checks do not prove human authority. No runnable packet/approval/command issued, no attempt or calibration run. Future composition must keep the exact independent pre-auth launch binding and final freeze lifecycle.
+
+Next code-only work after peer review: assemble the guarded worker/report path and exclusive budgeted writer/telemetry observers, then parent/Windows adapter/wrapper composition and failure-path tests. Preserve existing approved computational helpers/model math. Real-data identity/admission/execution permission remains a later separate decision.
+
+No real benchmark/store/model/graph/native/firewall/API/network/credential/manuscript/statistics or promotion operation occurred.184 old evidence files and four inner/outer lock pairs are reverified at sealing; old code/records remain intact. New source modules/test are snapshotted and hashed. All production entries remain held.

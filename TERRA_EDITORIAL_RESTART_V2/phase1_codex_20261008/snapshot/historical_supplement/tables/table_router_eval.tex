@@ -1,0 +1,65 @@
+% CONSOLIDATED TRAFFIC COP ROUTER INTENT CLASSIFICATION & PIPELINE EXECUTION LATENCY EVALUATION
+\begin{table*}[!t]
+\caption{Consolidated Traffic Cop Intent Classifier Evaluation, Category-Disaggregated Routing Outcomes, and Pipeline Execution Latency Percentiles Across Canonical Benchmark Queries ($N=\RouterTotalQueries$). Evaluated with Google Gemma 3 12B Instruction-tuned (\texttt{\RouterModel}) at $T=0.0$ under structured Pydantic schema validation (\texttt{RoutingDecision}). Panel~A disaggregates standalone binary complexity classification (EASY: single-point factual; HARD: multi-hop evolutionary, out-of-domain, or adversarial) and category routing behavior with downstream defense-in-depth outcomes. Panel~B reports pipeline execution latency percentiles across comparative baselines, overall TERRA, and routing paths under both gross wall-clock and net (retry sleep subtracted) regimes.}
+\label{tab:router_eval}
+\label{tab:latency_percentiles}
+\centering
+\resizebox{0.98\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+\multicolumn{7}{c}{\textbf{Panel A: Traffic Cop Query Intent Classification Performance and Routing Outcomes ($N=\RouterTotalQueries$)}} \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel A.1: Standalone Query Complexity Binary Classification Performance ($N=\RouterTotalQueries$)}} \\
+\midrule
+\textbf{Gold Category / Split} & \textbf{Total ($N$)} & \textbf{Pred. EASY} & \textbf{Pred. HARD} & \textbf{Precision $\uparrow$} & \textbf{Recall $\uparrow$} & \textbf{$F_1$ Score $\uparrow$} \\
+\midrule
+Gold EASY (Category A: Factual) & 100 & 100 & 0 & \RouterEasyPrecision & \RouterEasyRecall & \RouterEasyFOne \\
+Gold HARD (Categories B, C, D: Complex) & 250 & 10 & 240 & \RouterHardPrecision & \RouterHardRecall & \RouterHardFOne \\
+\midrule
+\textbf{Macro-Averaged / Overall Summary} & \textbf{\RouterTotalQueries} & \textbf{110} & \textbf{240} & \textbf{\RouterMacroPrecision} & \textbf{\RouterMacroRecall} & \textbf{\RouterMacroFOne} \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel A.2: Category-Disaggregated Routing Behavior and Downstream Defense-in-Depth Safety}} \\
+\midrule
+\textbf{Benchmark Category} & \textbf{Gold Intent} & \textbf{Total ($N$)} & \textbf{Pred. EASY} & \textbf{Pred. HARD} & \textbf{False Route Rate} & \textbf{Safe Handling Rate} \\
+\midrule
+Category A (Single-Point Factual) & EASY & 100 & 100 & 0 & \RouterFalseHardRate & 100.0\% (100/100) \\
+Category B (Multi-Hop Evolutionary) & HARD & 100 & 0 & 100 & 0.00\% & 100.0\% (100/100) \\
+Category C (Out-of-Context Negative) & HARD & 75 & 0 & 75 & 0.00\% & 100.0\% (75/75) \\
+Category D (Adversarial Deception) & HARD & 75 & \RouterCatDFalseEasyCount & 65 & \RouterCatDFalseEasyRate & 97.3\% (73/75)$^\dagger$ \\
+\midrule
+\textbf{Total / Overall} & \textbf{MIX} & \textbf{350} & \textbf{110} & \textbf{240} & \textbf{\RouterOverallErrorRate} & \textbf{\RouterOverallSafeHandlingRate} (\textbf{348/350})$^*$ \\
+\midrule[\heavyrulewidth]
+\multicolumn{7}{c}{\textbf{Panel B: Pipeline Execution Latency Percentiles (Gross and Net Milliseconds)}} \\
+\midrule
+\textbf{Execution Path} & \textbf{p25} & \textbf{Median} & \textbf{p75} & \textbf{p95} & \multicolumn{2}{c}{\textbf{Mean $\pm$ SD}} \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel B.1: Gross latency (ms)}} \\
+\midrule
+Direct LLM (No RAG) & $\DirectLLMLatencyPTwentyFiveMs$ & $\DirectLLMLatencyMedianMs$ & $\DirectLLMLatencyPSeventyFiveMs$ & $\DirectLLMLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\DirectLLMLatencyMeanAndStdMs$} \\
+Flat Vector RAG & $\FlatRAGLatencyPTwentyFiveMs$ & $\FlatRAGLatencyMedianMs$ & $\FlatRAGLatencyPSeventyFiveMs$ & $\FlatRAGLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\FlatRAGLatencyMeanAndStdMs$} \\
+GraphRAG-Adapted & $\GraphRAGLatencyPTwentyFiveMs$ & $\GraphRAGLatencyMedianMs$ & $\GraphRAGLatencyPSeventyFiveMs$ & $\GraphRAGLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\GraphRAGLatencyMeanAndStdMs$} \\
+HippoRAG-Adapted & $\HippoRAGLatencyPTwentyFiveMs$ & $\mathbf{\HippoRAGLatencyMedianMs}$ & $\HippoRAGLatencyPSeventyFiveMs$ & $\mathbf{\HippoRAGLatencyPNinetyFiveMs}$ & \multicolumn{2}{c}{$\HippoRAGLatencyMeanAndStdMs$} \\
+\textbf{TERRA Overall} & $\TerraLatencyPTwentyFiveMs$ & $\TerraLatencyMedianMs$ & $\TerraLatencyPSeventyFiveMs$ & $\TerraLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\TerraLatencyMeanAndStdMs$} \\
+\midrule
+TERRA Fast Route ($N=110$; Cat A + 10$\times$Cat D) & $\TerraFastPathLatencyPTwentyFiveMs$ & $\TerraFastPathLatencyMedianMs$ & $\TerraFastPathLatencyPSeventyFiveMs$ & $\TerraFastPathLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\TerraFastPathLatencyMeanAndStdMs$} \\
+TERRA Hard Route ($N=240$; Cat B + C + 65$\times$Cat D) & $\TerraHardPathLatencyPTwentyFiveMs$ & $\TerraHardPathLatencyMedianMs$ & $\TerraHardPathLatencyPSeventyFiveMs$ & $\TerraHardPathLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\TerraHardPathLatencyMeanAndStdMs$} \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel B.2: Net latency, retry sleep subtracted (ms; baselines unaffected)}} \\
+\midrule
+\textbf{TERRA Overall (net)} & --- & $\TerraNetLatencyMedianMs$ & --- & $\TerraNetLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{---} \\
+TERRA Fast Route (net, $N=110$) & $\TerraFastPathNetLatencyPTwentyFiveMs$ & $\TerraFastPathNetLatencyMedianMs$ & $\TerraFastPathNetLatencyPSeventyFiveMs$ & $\TerraFastPathNetLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\TerraFastPathNetLatencyMeanAndStdMs$} \\
+TERRA Hard Route (net, $N=240$) & $\TerraHardPathNetLatencyPTwentyFiveMs$ & $\TerraHardPathNetLatencyMedianMs$ & $\TerraHardPathNetLatencyPSeventyFiveMs$ & $\TerraHardPathNetLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\TerraHardPathNetLatencyMeanAndStdMs$} \\
+\midrule
+\multicolumn{7}{l}{\textit{Secondary block: Category-level TERRA gross latency (ms)}} \\
+\midrule
+TERRA Category A & $\TerraCatALatencyPTwentyFiveMs$ & $\TerraCatALatencyMedianMs$ & --- & $\TerraCatALatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\TerraCatALatencyMeanAndStdMs$\textsuperscript{a}} \\
+TERRA Category B & $\TerraCatBLatencyPTwentyFiveMs$ & $\TerraCatBLatencyMedianMs$ & --- & $\TerraCatBLatencyPNinetyFiveMs$ & \multicolumn{2}{c}{$\TerraCatBLatencyMeanAndStdMs$\textsuperscript{a}} \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{1mm}
+\raggedright \footnotesize \textbf{Notes:} Evaluated on all $N=350$ canonical benchmark queries executed deterministically at $T=0.0$ using Google Gemma 3 12B Instruction-tuned (\texttt{\RouterModel}) served via Databricks Model Serving API. Overall classifier accuracy is $\RouterAccuracy$ ($\RouterCorrectCount$) with an overall routing error rate of $\RouterOverallErrorRate$ (10/350). The router achieves zero False-HARD misclassifications ($\RouterFalseHardRate$, 0/100 on Category A), ensuring that factual lookups are never needlessly penalized with heavy graph expansion. Across all complex queries (Categories B, C, D), the False-EASY rate is $\RouterFalseEasyRate$ (10/250), with zero false-EASY routes on Categories B and C. Standalone router latency: Min = 601.9~ms, Median = \RouterLatencyMedianMs~ms, Mean = \RouterLatencyMeanMs~ms, p90 = 2,043.8~ms, Max = 15,370.2~ms.
+$^\dagger$On Category D, 73/75 queries ($97.3\%$) achieved safe handling: 42 explicit refusals and 31 substantive refutations, with the only two errors being reciprocal procedural misattributions between \textit{Baker} and \textit{Reynolds} (D033/D034; Section~\ref{subsec:safety-and-factual}).
+$^*$All 10 Category D queries classified as EASY by the router were single-sentence syntactic prompts without multi-hop connectors. When evaluated under TERRA's Grounded Fast Path (Issue~\#12), all 10 queries (\RouterCatDSafeHandlingRate, 10/10) were safely neutralized: 8 resulted in explicit safety refusals and 2 in substantive refutations, yielding zero fatal hallucinations ($0/10$, $0.0\%$) and confirming complete defense-in-depth safety.
+\textsuperscript{a}~Category-level gross latency across all Category~A ($N=100$) and Category~B ($N=100$) queries; p75 omitted to limit column width.
+\end{table*}

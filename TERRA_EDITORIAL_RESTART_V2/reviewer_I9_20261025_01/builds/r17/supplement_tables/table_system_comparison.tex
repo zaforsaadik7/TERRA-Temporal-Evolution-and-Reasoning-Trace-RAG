@@ -1,0 +1,26 @@
+% ARCHITECTURAL AND DOCTRINAL FEATURE COMPARISON TABLE
+\par\begingroup
+
+
+
+\begin{longtable}{p{2.5cm}p{3.5cm}p{3.8cm}p{3.8cm}p{3.8cm}p{3.2cm}}
+\caption{Architectural and Doctrinal Feature Comparison of Retrieval-Augmented Generation Paradigms Across General and Legal Domains.}\label{tab:system_comparison}\\
+\toprule
+\textbf{Architecture} & \textbf{Knowledge Substrate} & \textbf{Temporal Dynamics} & \textbf{Evidence Granularity} & \textbf{Verification Mechanism} & \textbf{Target Domain \& Scale} \\
+\midrule
+Flat Vector RAG \citep{lewis2020retrieval} & Dense semantic vector embeddings of text chunks & Static / time-agnostic (similarity retrieval without temporal ordering) & Unstructured top-$k$ document chunks & None (uncalibrated direct generation) & General open-domain text corpora \\
+\addlinespace
+GraphRAG \citep{edge2024graphrag} & Hierarchical entity-relation knowledge graph & Static community clustering (hierarchical Leiden partitioning) & Pre-computed community summaries & None (unverified hierarchical generation) & General query-focused summarization \\
+\addlinespace
+HippoRAG \citep{bernal2024hipporag} & OpenIE associative graph with Personalized PageRank & Static entity co-occurrence edges (time-invariant activation) & Entity-linked passage subgraphs & None (heuristic graph activation without entailment gate) & Multi-hop open-domain QA (2Wiki, MuSiQue) \\
+\addlinespace
+LegalGraphRAG \citep{chen2026legalgraphrag} & Tripartite legal knowledge graph (ontology, fact, and rule layers) & Static statutory linkages across codified articles & Multi-agent structured reasoning trajectories & Multi-agent self-reflection and peer review & Chinese statutory civil and criminal law \\
+\addlinespace
+SAT-Graph RAG \citep{demartim2025satgraphrag} & Ontology-driven normative knowledge graph & Diachronic statutory amendment transitions across formal revisions & Version-delta statutory norm texts & Propositional SAT solver checking logical consistency & Brazilian constitutional and statutory norms \\
+\midrule
+\textbf{TERRA (Proposed)} & \textbf{Directed common-law citation evolution graph} & \textbf{Longitudinal precedent evolution ($t_{\text{citing}} \ge t_{\text{cited}}$) with curated invalidation} & \textbf{Node-level generic five-step procedural scaffolds (not case-specific issue, test, and holding analyses)} & \textbf{LLM-prompted evidence gate; refusal accuracy unvalidated} & \textbf{\CorpusTotalOpinions\ U.S. Supreme Court opinions (\CorpusTemporalSpan)} \\
+\bottomrule
+\end{longtable}
+\vspace{1mm}
+\raggedright \fontsize{9}{11}\selectfont \textbf{Notes:} Feature comparison distinguishing TERRA from generic RAG baselines and contemporary legal GraphRAG architectures. Whereas LegalGraphRAG \citep{chen2026legalgraphrag} and SAT-Graph RAG \citep{demartim2025satgraphrag} model codified statutory provisions and formal legislative amendment events, TERRA is specialized for longitudinal common-law precedent, where judicial authority evolves continuously through citation networks and earlier precedents remain presumptive law unless explicitly modified or overruled. Furthermore, TERRA couples graph topology directly with generic procedural scaffolds and an autonomous natural language inference (NLI) entailment gate intended to suppress hallucinated endorsements of superseded doctrine; the gate lacks independent legal validation.
+\par\endgroup

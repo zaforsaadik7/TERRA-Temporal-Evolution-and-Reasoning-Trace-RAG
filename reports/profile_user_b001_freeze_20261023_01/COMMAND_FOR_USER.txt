@@ -1,0 +1,3 @@
+Use exactly once in Administrator Windows PowerShell 5.1. Stop on any failure; no retries or policy bypass.
+
+$terraLauncher='F:\TERRA -Copy\scripts\matched_baseline\launch_offline_smoke_user.ps1'; $terraSha=[Security.Cryptography.SHA256]::Create(); try { $terraHash=[BitConverter]::ToString($terraSha.ComputeHash([IO.File]::ReadAllBytes($terraLauncher))).Replace('-','').ToLowerInvariant() } finally { $terraSha.Dispose() }; if ($terraHash -cne '17b07ba695350c0e9fa163d37b997c7657ed699037eb59f084a9e994f06aa729') { throw 'Launcher hash mismatch: stop, do not retry' }; Write-Host 'Hash checks may take several minutes. Do not rerun.'; & 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe' -NoProfile -NonInteractive -File $terraLauncher

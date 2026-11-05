@@ -1,0 +1,125 @@
+the full 20,000-case docket across seven areas (including
+5,707 Substantive Private Law and 4,594 General Statu-
+tory decisions; Table I), but Category B concentrates
+on constitutional and federal public-law trajectories (20
+queries each across Civil Rights, Criminal Procedure, First
+Amendment, Commerce Clause and Administrative Law;
+100.0%). Of the 275 in-domain queries (Categories A, B
+and D), 232 (84.4%) are constitutional or public law,
+23 (8.4%) private law and 20 (7.3%) general statutory.
+Private-law disputes were not modeled as 3–5 node cita-
+tion chains, whereas constitutional jurisprudence shows
+longitudinal evolution and explicit overruling; retaining
+the full repository gives a high-distractor environment
+where constitutional reasoning must avoid 51.5% commer-
+cial and statutory background nodes.
+Category C and D Construction. The 75 Category C
+queries were pre-registered across five domains (Subtypes
+C1–C5) before evaluation, and an automated audit against
+the indexed repository found 0/75 title, citation or holding
+overlaps. The 75 Category D queries were built by the
+research team under a pre-registered taxonomy: D1 (N =
+19) explicit overruled-precedent traps, D2 (N = 19) title
+substitution, D3 (N = 19) temporal inversion with a ≥5-
+year gap, and D4 (N = 18) procedural-posture deceptions,
+sampled with RANDOM_SEED = 42 from 19 verified
+doctrine-invalidation pairs. All queries were locked into
+terra_350_benchmark.json (SHA256: 8144fa81...) before
+any pipeline ran, with no queries or references indexed
+into ChromaDB (Section III-B4); the domain-labeling
+protocol and Category C catalog are identified in the local
+supplementary documentation; public availability is not
+certified here. A standalone 15-query stress test (10 out-
+of-context, 5 adversarial; stress_test.py) checks firewall
+boundary consistency.
+a) Obscure Overruled Precedent Suite.:
+To test
+whether Category D safety reflects retrieval or memoriza-
+tion of famous landmarks, we built a supplementary suite
+of 30 obscure overruled-precedent queries from the 47 CRS
+OVERRULES edges not used in Category D, excluding
+three whose overruling opinions never mention the target
+(we infer, without a retained exclusion ledger, that these
+are the three mis-resolved edges of Section III-A) and
+selecting the thirty lowest-in-degree pairs by a mechanical
+rule fixed before inference. Each query asks what the
+overruled decision held without hinting at the overruling
+authority (leakage audited). Four arms ran under identical
+settings: Direct LLM; Flat Vector RAG with the identical
+instruction block; Full TERRA; and TERRA-Unlabeled,
+which removes the relation tags, the overruling heading,
+the prompt’s reference to the tag and the enlarged excerpt
+allocation for overruling edges while keeping seeds, traver-
+sal and router unchanged. Two judges (Qwen3-Next-80B,
+GPT-OSS-120B; neither is the generator) classified each
+answer as refusal, verified refutation, fatal error (aﬀirmed
+as current law, or recited without warning) or hedge,
+and the combined class takes the more severe judgment.
+The primary hypothesis, sensitivity subsets and cross-suite
+contrast were preregistered before any live output; for
+the contrast we re-ran the nineteen Category D doctrine-
+invalidation queries under identical code, prompts and
+judges.
+B. Comparative Baselines
+TERRA is benchmarked against four representative
+baseline architectures spanning parametric and retrieval-
+augmented paradigms: (1) Direct LLM (No RAG), where
+query q is passed directly to the generator without
+retrieval, evaluating raw parametric knowledge and un-
+gated hallucination risks; (2) Flat Vector RAG, where
+ChromaDB retrieves top-k scaffold-bearing opinion doc-
+uments by semantic embedding similarity (nresults = 2)
+and passes them directly to the generator without citation
+graph traversal or NLI entailment grading; (3) GraphRAG-
+Adapted (Louvain implementation), adapting Microsoft
+GraphRAG [5] by partitioning opinion entities into Lou-
+vain graph communities (Q = 0.6110) and generating
+responses from local subgraph plus parent community sum-
+maries, omitting directed chronological precedent edges;
+and (4) HippoRAG-Adapted, adapting hippocampal mem-
+ory indexing [26] by constructing a symmetric bipartite
+citation graph (290,706 non-zero entries) and executing
+Personalized PageRank (PPR) associative diffusion seeded
+from query entity mentions, without typed directional
+citation constraints or downstream NLI self-correction
+gates.
+Baseline Implementation Details and Adaptation Rigor.
+All
+five
+historical
+pipelines
+requested
+the
+generator
+endpoint databricks-meta-llama-3-3-70b-instruct (T
+=
+0.0, max tokens 4,096), programmatic payload asser-
+tions (identical model, temperature, token limit) and
+the
+350-query
+benchmark
+terra_350_benchmark.json
+(SHA256: 8144fa81...) over the 20,000-case Harvard CAP
+corpus. The historical corpus record identifies index
+terra_eeg_index_20k.json (SHA256: 012c999b…, 145,363
+edges, 98.9 MB), whereas the active post-Issue #6 index is
+SHA256 7aa6db46… (145,366 edges, 109.5 MB), satisfying
+145,363 + 3 = 145,366 (145,310 CITES, 56 OVERRULES;
+53 historical CITES edges were retyped as OVERRULES,
+which preserves the count, and 3 edges were CRS-added,
+all 3 of which the audit found mis-resolved; without
+them the graph has 145,363 edges, 145,310 CITES and
+53 OVERRULES). Of the 20,000 opinions, 10,228 have
+substantive extracted holdings (51.14%; 8,404 syllabus
+headnotes, 1,824 regex statements), 9,772 (48.86%) rely
+on preamble fallbacks, and 19,997 holding fields are non-
+empty (99.985%; 3 unpopulated). Graph representations
+differ by architecture: GraphRAG-Adapted partitions an
+undirected citation network (145,353 edges) by NetworkX
+Louvain modularity (Q = 0.6110, resolution 1.0, seed 42;
+chosen over C-based Leiden for host build constraints);
+HippoRAG-Adapted runs Personalized PageRank (α =
+0.85, tolerance 10−6, max 50 iterations, top-k = 5) over a
+symmetric citation matrix (290,706 entries); and TERRA
+traverses the directed chronological graph by BFS (k = 2,
+d = 2, hub cap 50); the current source separately uses a

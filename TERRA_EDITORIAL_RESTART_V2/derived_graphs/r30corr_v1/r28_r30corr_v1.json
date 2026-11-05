@@ -1,0 +1,28 @@
+{
+ "input": "terra_eeg_index_20k_r30corr_v1.json",
+ "sha256": "14827bd623700cc84909fa050746ca92cf1c972b8335f6d1391d3908f3fc146c",
+ "load": {
+  "edges_listed": 145363,
+  "self_loops": 0,
+  "edges_missing_endpoint": 0,
+  "unique_directed_edges": 145363
+ },
+ "nodes": 20000,
+ "M1_M2_undirected_largest_wcc": {
+  "n_wcc": 1397,
+  "largest_wcc_size": 18558,
+  "diameter": 13,
+  "sum_dist": 1482553786.0,
+  "ordered_pairs": 344380806,
+  "aspl": 4.3049837858849775,
+  "seconds": 85.1
+ },
+ "M3_directed_reachable_pairs": {
+  "reachable_ordered_pairs": 89406509,
+  "total_ordered_pairs": 399980000,
+  "reachable_fraction": 0.22352744887244363,
+  "max_finite_directed_distance": 21,
+  "mean_over_reachable": 5.168109538870374,
+  "seconds": 19.6
+ }
+}

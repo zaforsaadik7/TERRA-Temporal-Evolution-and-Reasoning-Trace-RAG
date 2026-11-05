@@ -1,0 +1,406 @@
+{
+  "created_while_measurement_running": true,
+  "all_copies_match_prelaunch_pins": true,
+  "files": [
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\__init__.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\__init__.py",
+      "sha256": "211523d95a89ef95dd3475ee131220da8856a582914fa06b9a830f3a3c7d0c05"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\acquire_gated_tokenizers.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\acquire_gated_tokenizers.py",
+      "sha256": "c06cc0c4c024515ff0739238b57f0794409828a84e0346b92ee54ef0ef4aea50"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\acquire_public_tokenizers.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\acquire_public_tokenizers.py",
+      "sha256": "85e34c5c35134186021a02b3ab92ef48a732e5eac45f144b1b05ade51d307e10"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\bm25_engine.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\bm25_engine.py",
+      "sha256": "be2f5abd2cef5936f992dc999b332087db97ae213b60618ff825676d6b8f2b7f"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\common_serializer.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\common_serializer.py",
+      "sha256": "27e088bb1ee48f8a00c36f35c4936854916e5d9c57e9607ea0b24a0b50a3d501"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\fast_tokenizer_adapter.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\fast_tokenizer_adapter.py",
+      "sha256": "976ffaa1c4e702f3352683fa15373877d03391bb0debd4ddf9e3623e94631b3c"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\hybrid_retriever.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\hybrid_retriever.py",
+      "sha256": "f12b8b6b8680ca7440b140523ef0bb6a7da64b3f7149e6612ac750c02cba7997"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\inspect_databricks_metadata.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\inspect_databricks_metadata.py",
+      "sha256": "dbb1e62fa86ce2871dcfdab55459204944027aeaefb1f2ec175007e2b46e92ae"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\inspect_databricks_readiness.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\inspect_databricks_readiness.py",
+      "sha256": "1c8871cccac5379f4f457b4f763c108eb4a8adf55742d813629eabb2c3cd410c"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\matched_budget_preview.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\matched_budget_preview.py",
+      "sha256": "13aef1dd98f3d3ecd4e1aeb6100f9b9206a9ea495dc3888cee51e84cf9632a24"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\matched_harness.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\matched_harness.py",
+      "sha256": "53599a70d886eb21bebb681b9b2b36ed4e6333d173c1eb4bb8ff2a64d86a7c4e"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_adapters.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_adapters.py",
+      "sha256": "8ca5402447ea962a006a907ea169cb4dfaac758d97af34e88f77b9caea315905"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_anchor.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_anchor.py",
+      "sha256": "a7ea6063f42a45035aa36feb95133c68878ef743bd53c1738e3771c70041f911"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_assembly.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_assembly.py",
+      "sha256": "75a53a7d38c6c3f510e963ef51dfe7fd1278c9a75ef26dae776c3f8f2c71c5bf"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_attempt.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_attempt.py",
+      "sha256": "abc27b90a8b94fe1eb413670b2f576d924baba58b5ee56c5fb0af9860c63e2ff"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_command.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_command.py",
+      "sha256": "6b47460ad72c03d09576b7e55b452c25e03382de5bbb0e606df1ce79360a2d86"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_contracts.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_contracts.py",
+      "sha256": "feccfc833e976d8f825fe22c39198e9010f0e3b2e7f9d2820ae893a2aa240c96"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_controller.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_controller.py",
+      "sha256": "dfd4237b5023f625012be9076d43227535bdf413eafe4c341f8e33ba215645df"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_controls.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_controls.py",
+      "sha256": "a9be7f2b18a8480078daa13687ee1d4705e694bfb92b992e593b219f19de818a"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_entry.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_entry.py",
+      "sha256": "26431fd18b3719d97561d502969004df305a669f5b98725661aad231632c63cf"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_evidence.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_evidence.py",
+      "sha256": "42400d3d5f1b8b83bb60183a42399513e939f8431564528549b7c54f658027e9"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_execution.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_execution.py",
+      "sha256": "465bb3955f71c48ffebfa415d35d318871d194125e37382a48fa8a6058a94c29"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_filesystem.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_filesystem.py",
+      "sha256": "056bdff30b6fc11d8f1839ace5cf56a6ee3a739ba219e1df79ffd5862106bf4b"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_input.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_input.py",
+      "sha256": "00dcd131a13aaad2bc5f3cbb33d820c029b15eef65502d2ab84b5ff82819bcb3"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_launch.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_launch.py",
+      "sha256": "1bce80cee9a5bdd126e29ff68cf6ef7d3b1218b83fdf52ef74c165740516d818"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_lifecycle.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_lifecycle.py",
+      "sha256": "68c2adb25bec4d351427f86fc4b2598292c6ae374ebc723e56f4cba9c58601a3"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_loader.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_loader.py",
+      "sha256": "4ba8998985006c5ec9d75e8b9e8b6a4a4d91f4a381004dd1102a0aa5f9b2495b"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_native.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_native.py",
+      "sha256": "fd806c6f858d1c3eb0671a07754892ac62f321ea09aea4e674a6c2d9143b6d8e"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_packet.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_packet.py",
+      "sha256": "35006d6a043b9d60758a08155983f40a0818e3712b15debaa1637dd37386a506"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_parent.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_parent.py",
+      "sha256": "106b6b0eba50f180fc849feae4e1345df3b10184f914ca208f533ebd077b25a8"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_production.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_production.py",
+      "sha256": "59f3098e6a379b3d19cfbe0a966f1193f4a42530a76c64a76a61ea98f2eb6899"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_worker.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_cohort_worker.py",
+      "sha256": "db2ccc30536be4f68b0ff33d2ec46f8c0930b8e87b94fe01c276e0c7fdea48d7"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_preflight.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_preflight.py",
+      "sha256": "34db0423fc35e2fbdc74c9ad40bdd40fc139e3aa2f3a8058af7064d8ec2b94e3"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_approval.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_approval.py",
+      "sha256": "4246be3a271bc400fd704c7372ab5a3e4946691b69114084ec7b897931a037d9"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_authentic.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_authentic.py",
+      "sha256": "afb086c468a4e4ace67222e05b1259b6428245109f23479d551b935fa6fee1f5"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_bindings.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_bindings.py",
+      "sha256": "e1285774b7750ea71790d10a39374e11ed4b36be03b6eb04d243bb48d6ad0448"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_boundary.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_boundary.py",
+      "sha256": "f55cbab06745b862dc5e2719833934b97d0323a4df69156c6363dc1640beef55"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_child.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_child.py",
+      "sha256": "af0123de1c25c387a47cf76c09e9096dd3a2a6f52186a4bdf2cb3251665d1400"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_child_entry.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_child_entry.py",
+      "sha256": "c37b79fe73b5dfc79656d59c23312033dbed08d566bdf0d20347df3a3a50aa37"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_config.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_config.py",
+      "sha256": "e25055bacb9b91ca18db6b9dcffc9b782a8c95316a3da982cb32f3912bac0606"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_diagnostics.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_diagnostics.py",
+      "sha256": "f0a86344d7eeb1988bcbf6a037def58db780f66cdaa7774ed7c09850e9c2a812"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_dispatch.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_dispatch.py",
+      "sha256": "b0598623d78134d13a6258d2f5f24df72c7a2f968a4b4fa4cd0022921e1fc340"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_entry_anchor.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_entry_anchor.py",
+      "sha256": "c04b01838a3dfdb9af648c737023f8c8484082d00a1eeb8a38798622c2aa4e0f"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_evidence.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_evidence.py",
+      "sha256": "3faa526b78c20c85692e8aa342c2b3b583d096de758d478f34d581a982d0b7b6"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_executor.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_executor.py",
+      "sha256": "2516edfac2e30158c8355a026c5d4060895dea89e1eff0ddf460e5cf5228f84e"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_file_pins.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_file_pins.py",
+      "sha256": "ad3a429bac6f51ec049b0e51637d7d4dc31d183cf2fe0446f29a437c825accaf"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_integrity.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_integrity.py",
+      "sha256": "ce919e2cdbed727db2c34f2c97c9863d120d921b4fa754d58c6faad745a7029a"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_lifecycle.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_lifecycle.py",
+      "sha256": "60dc4a9c3680dcbaf678178c0915b95028b6fed4d30be0cc9102382d2aae062c"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_manifests.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_manifests.py",
+      "sha256": "05d7f6a2a8d7ae3287dfb27117b0f1645fef38fd6959da0738b0b826f393cfe7"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_parent.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_parent.py",
+      "sha256": "be59474a9defa28d1d702dbab01a4c55bd4ebb614ccf0a48e2c7dde3184dbaa1"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_process.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_process.py",
+      "sha256": "a799b0760551db714493a6bfc9122a85c0a2167e28ad148ee8194db50ea0ed31"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_production.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_production.py",
+      "sha256": "ab7079ff6db765a94e4f456fd71e5a72dc8fe42f608b2058352d74d41a4812f4"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_report.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_report.py",
+      "sha256": "dc13cc7bd07bf09460f049224b37e192daeafd992abbb0bc20e73b3cb3f45c9c"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_request.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_request.py",
+      "sha256": "9a0ae9e3418d163c56666ecb3006f4f393373e40117c4b8f17c21406f9550c02"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_runner.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_runner.py",
+      "sha256": "f1f7a6adc7ca4568bed65d87e05ff4aace16b8a3093929d6946893267e4f26a0"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_windows_assembly.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_windows_assembly.py",
+      "sha256": "73109b2846b0ae069cf92ab761730a0e49f3338473acf4ab482bb6ad0f05240d"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_windows_backend.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_windows_backend.py",
+      "sha256": "674cd9bf0f5313564293a40a43d4b654213cf2014a61ca8951c8fee63cee164e"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_windows_capture.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_windows_capture.py",
+      "sha256": "4e79ba242282e767a2bd27e957d6c75610b6e64590a73e6b5735876093d14a1f"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_windows_job.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\offline_smoke_windows_job.py",
+      "sha256": "b5aaeb91d1892a43d51bc4ccc20d198b5cd3c85a89aadbc6d94c5ed4105a4f83"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_dependency_bridge.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_dependency_bridge.py",
+      "sha256": "c310eafe9dd102aae55a94bf2a0b1408711e1a3ddf66d4f59d1576ccac1c13c5"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_local_runtime.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_local_runtime.py",
+      "sha256": "efa91f4e35f26ae1ef7b42000c2432e140032a2f6cb4a53e8e46c4e630de2e30"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_preparation_native.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_preparation_native.py",
+      "sha256": "094f0e619f80befa4fb30425c526a7fd412796cfc9dc863998f933b2522c64cb"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_prompt_measurement.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_prompt_measurement.py",
+      "sha256": "c2b540fc7e31513cf9d057aed372f95a72fa131b7905ce3578ebd628753b8262"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_prompt_workflow.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_prompt_workflow.py",
+      "sha256": "34b35e37b40373ffe7757263fa26b79b279d00d3972da6393773178bbe2f78d2"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_quota_pacing.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_quota_pacing.py",
+      "sha256": "18b1b36071dc71eedd7d060d1e8d896bc538ef3cdbfa034c1903c1b737b525ed"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_result_validation.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_result_validation.py",
+      "sha256": "534fda5eb16d3fa770dc2d00eed512abf04f5f8b3afdc237417e2ed4e93de140"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_study_candidate.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_study_candidate.py",
+      "sha256": "c5395e3d0dccac0cb180d5ea97d4d6f4a01912e921241a4ccb5d4e817d00086b"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_study_runtime.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_study_runtime.py",
+      "sha256": "edb909c66a539cc7220d03db08e82c64342f84581791e60a06f6c5c9e03b2dfa"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_study_supervision.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_study_supervision.py",
+      "sha256": "76bd32c9d0a37699b2cef8a7258011b13e792ea105ab65dd534323e577984e6f"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_worker_contract.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\paired_worker_contract.py",
+      "sha256": "faed341627fadac97fbd82c62f870098d59e08f8effc540d623f09d0b7842586"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_accounting.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\provider_accounting.py",
+      "sha256": "3f3210e197d4ba5e7c73289c7e2e49d509c404c3ed28b9de0baee1c6956ab888"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_compatibility_smoke.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\provider_compatibility_smoke.py",
+      "sha256": "243ddff22cf453fb1ad6671e89d68ef22c012fa46af63b4c022e4aeced529f76"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_run_control.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\provider_run_control.py",
+      "sha256": "7fea1c87c342be001cb9063cbedef69a023afe8f6e9cd0b33a2ad5bd79eb36f1"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_smoke_continuation.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\provider_smoke_continuation.py",
+      "sha256": "0a46b64d8d374c0b0c85181efd287e6e8a798db34340606be968c55588fe8d34"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\provider_smoke_final_role.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\provider_smoke_final_role.py",
+      "sha256": "d6b666729074942b802d275a03bf64afb8dfa552de6143e078f7708be3770eab"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\recover_gated_staging.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\recover_gated_staging.py",
+      "sha256": "c350e59bb8f512f46968a9432a6eeaaef6bf7ce7a25e02282b8cc893cdfcf358"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\scoring_analyzer.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\scoring_analyzer.py",
+      "sha256": "7904c5e1b549616d5986f0fa34124ab2370c1499fb7bb51f658617f4a1ba9097"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\static_matched_study.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\static_matched_study.py",
+      "sha256": "45131751a02b02c078f536d82848e0165cc5bb49a34fa76bba58e386add814d3"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\terra_retriever.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\terra_retriever.py",
+      "sha256": "1e91d51b471e407cc60e20fd78c53e1d23f2250d6a35da33f8dd16f04428b443"
+    },
+    {
+      "source": "F:\\TERRA -Copy\\scripts\\matched_baseline\\validate_staged_gated_tokenizers.py",
+      "snapshot": "F:\\TERRA -Copy\\reports\\paired_completion_20261024_01\\measurement_source_snapshot\\validate_staged_gated_tokenizers.py",
+      "sha256": "3915a075eb7658dfe598ed71a775f4e48a52e71510c133a4f919c125ad6e1ece"
+    }
+  ]
+}

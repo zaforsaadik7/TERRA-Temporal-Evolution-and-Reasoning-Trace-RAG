@@ -1,0 +1,2639 @@
+diff --git a/scripts/matched_baseline/offline_preflight.py b/scripts/matched_baseline/offline_preflight.py
+index 64d8489d..f71b2a3b 100644
+--- a/scripts/matched_baseline/offline_preflight.py
++++ b/scripts/matched_baseline/offline_preflight.py
+@@ -26,6 +26,7 @@ import hashlib
+ import json
+ import lzma
+ import math
++import numpy as np
+ import os
+ import pathlib
+ from pathlib import Path
+@@ -36,7 +37,7 @@ import sqlite3
+ import stat
+ import sys
+ import time
+-from typing import Any, Callable, Dict, List, Optional, Set, Tuple
++from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
+ 
+ # Local module imports
+ try:
+@@ -143,6 +144,26 @@ class ManifestVerificationError(IntegrityCheckError):
+     pass
+ 
+ 
++class LockCollisionError(IntegrityCheckError):
++    """Raised when single-use execution lock exists or lock acquisition fails."""
++    pass
++
++
++class NetworkAccessBlockedError(PreflightError):
++    """Raised when in-process outbound network access is attempted while network blocker is active."""
++    pass
++
++
++class ExecutionAuthorizationError(PreflightError):
++    """Raised when execution authorization receipt is missing, incomplete, or invalid."""
++    pass
++
++
++class SupervisorExecutionError(PreflightError):
++    """Raised when child execution fails or times out under supervisor."""
++    pass
++
++
+ # =============================================================================
+ # Enums and Core Data Classes
+ # =============================================================================
+@@ -172,6 +193,129 @@ class IsolationReceipt:
+     created_utc: str
+ 
+ 
++@dataclass(frozen=True)
++class CacheVerificationReceipt:
++    cache_dir: str
++    effective_dir: str
++    verified_sha256: Dict[str, str]
++    verified_utc: str
++    is_synthetic: bool
++    file_count: int = 6
++
++
++class OfflineExecutionScope(str, Enum):
++    SMOKE_GATE = "STAGE3D_OFFLINE_SMOKE_GATE"
++    FULL_PREFLIGHT = "STAGE3E_FULL_PREFLIGHT_DIAGNOSTIC"
++
++
++@dataclass(frozen=True)
++class ExecutionAuthorizationReceipt:
++    """
++    Cryptographically and administratively bound receipt authorizing a bounded execution run.
++    Validates required scope, approval ID, command, query text, driver, store SQLite,
++    cache manifest, and dedicated firewall rule ID against trusted frozen launch evidence.
++    """
++    scope: str
++    approval_id: str
++    command: str
++    query_id: str
++    query_text_sha256: str
++    driver_sha256: str
++    store_sqlite_sha256: str
++    cache_manifest_sha256: str
++    firewall_rule_id: str
++    issued_utc: str
++
++    def compute_receipt_sha256(self) -> str:
++        """Computes canonical lowercase SHA-256 hash of receipt contents for identity tracking."""
++        fields_dict = {
++            "scope": self.scope,
++            "approval_id": self.approval_id,
++            "command": self.command,
++            "query_id": self.query_id,
++            "query_text_sha256": self.query_text_sha256.lower(),
++            "driver_sha256": self.driver_sha256.lower(),
++            "store_sqlite_sha256": self.store_sqlite_sha256.lower(),
++            "cache_manifest_sha256": self.cache_manifest_sha256.lower(),
++            "firewall_rule_id": self.firewall_rule_id,
++            "issued_utc": self.issued_utc,
++        }
++        canonical_bytes = json.dumps(fields_dict, sort_keys=True).encode("utf-8")
++        return hashlib.sha256(canonical_bytes).hexdigest().lower()
++
++    def validate(self) -> None:
++        """
++        Validates all required fields are present, non-empty, and correctly formatted.
++        Raises ExecutionAuthorizationError on any missing or malformed field.
++        """
++        required_fields = [
++            "scope", "approval_id", "command", "query_id", "query_text_sha256",
++            "driver_sha256", "store_sqlite_sha256", "cache_manifest_sha256",
++            "firewall_rule_id", "issued_utc",
++        ]
++        for f in required_fields:
++            val = getattr(self, f, None)
++            if not val or not isinstance(val, str) or not val.strip():
++                raise ExecutionAuthorizationError(
++                    f"ExecutionAuthorizationReceipt missing or empty required field: '{f}'"
++                )
++        if len(self.query_text_sha256) != 64 or not all(c in "0123456789abcdefABCDEF" for c in self.query_text_sha256):
++            raise ExecutionAuthorizationError(f"Invalid query_text_sha256 format: {self.query_text_sha256}")
++        if len(self.driver_sha256) != 64 or not all(c in "0123456789abcdefABCDEF" for c in self.driver_sha256):
++            raise ExecutionAuthorizationError(f"Invalid driver_sha256 format: {self.driver_sha256}")
++        if len(self.store_sqlite_sha256) != 64 or not all(c in "0123456789abcdefABCDEF" for c in self.store_sqlite_sha256):
++            raise ExecutionAuthorizationError(f"Invalid store_sqlite_sha256 format: {self.store_sqlite_sha256}")
++
++    def validate_against_context(
++        self,
++        expected_scope: str,
++        expected_command: str,
++        expected_query_id: str,
++        expected_query_text_sha256: str,
++        expected_driver_sha256: str,
++        expected_store_sqlite_sha256: str,
++        expected_cache_manifest_sha256: str,
++        expected_firewall_rule_id: str,
++    ) -> None:
++        """
++        Compares all receipt parameters against expected frozen launch constants.
++        Fails closed with ExecutionAuthorizationError on any mismatch.
++        """
++        self.validate()
++        if self.scope != expected_scope:
++            raise ExecutionAuthorizationError(
++                f"Scope mismatch: expected '{expected_scope}', got '{self.scope}'"
++            )
++        if self.command != expected_command:
++            raise ExecutionAuthorizationError(
++                f"Command mismatch: expected '{expected_command}', got '{self.command}'"
++            )
++        if self.query_id != expected_query_id:
++            raise ExecutionAuthorizationError(
++                f"Query ID mismatch: expected '{expected_query_id}', got '{self.query_id}'"
++            )
++        if self.query_text_sha256.lower() != expected_query_text_sha256.lower():
++            raise ExecutionAuthorizationError(
++                f"Query text SHA-256 mismatch: expected '{expected_query_text_sha256.lower()}', got '{self.query_text_sha256.lower()}'"
++            )
++        if self.driver_sha256.lower() != expected_driver_sha256.lower():
++            raise ExecutionAuthorizationError(
++                f"Driver SHA-256 mismatch: expected '{expected_driver_sha256.lower()}', got '{self.driver_sha256.lower()}'"
++            )
++        if self.store_sqlite_sha256.lower() != expected_store_sqlite_sha256.lower():
++            raise ExecutionAuthorizationError(
++                f"Store SQLite SHA-256 mismatch: expected '{expected_store_sqlite_sha256.lower()}', got '{self.store_sqlite_sha256.lower()}'"
++            )
++        if self.cache_manifest_sha256.lower() != expected_cache_manifest_sha256.lower():
++            raise ExecutionAuthorizationError(
++                f"Cache manifest SHA-256 mismatch: expected '{expected_cache_manifest_sha256.lower()}', got '{self.cache_manifest_sha256.lower()}'"
++            )
++        if self.firewall_rule_id != expected_firewall_rule_id:
++            raise ExecutionAuthorizationError(
++                f"Firewall rule ID mismatch: expected '{expected_firewall_rule_id}', got '{self.firewall_rule_id}'"
++            )
++
++
+ @dataclass
+ class CorpusParityReport:
+     total_documents: int
+@@ -246,6 +390,7 @@ class PreflightSummary:
+     live_mode_status: str  # "BLOCKED"
+     block_reasons: List[str] = field(default_factory=list)
+     failure_reasons: List[str] = field(default_factory=list)
++    protected_drift_detected: bool = False
+ 
+ 
+ # =============================================================================
+@@ -333,13 +478,14 @@ class IntegrityLifecycleManager:
+     @classmethod
+     def verify_source_quiescence(cls, directory: Path) -> Dict[str, Any]:
+         """
+-        Diagnostic lockfile and mtime check.
+-        Checks for active SQLite write-locks (-wal, .wal, -journal, .lock, .lck).
++        Diagnostic lockfile and quiescence check.
++        Enforces explicit zero-tolerance policy for SQLite WAL/SHM and journal/lock files
++        (-wal, .wal, -shm, .shm, -journal, .lock, .lck) in the source store.
+         """
+         if not directory.exists():
+             return {"quiescent": True, "note": "Directory does not exist yet"}
+ 
+-        lock_patterns = [r"\.lock$", r"\.lck$", r"\.wal$", r"-wal$", r"-journal$"]
++        lock_patterns = [r"\.lock$", r"\.lck$", r"\.wal$", r"-wal$", r"-shm$", r"\.shm$", r"-journal$"]
+         active_locks: List[str] = []
+ 
+         for root, _, files in os.walk(directory):
+@@ -347,18 +493,15 @@ class IntegrityLifecycleManager:
+                 for pat in lock_patterns:
+                     if re.search(pat, f, re.IGNORECASE):
+                         f_path = Path(root) / f
+-                        mtime = f_path.stat().st_mtime
+-                        age_sec = time.time() - mtime
+-                        if age_sec < 5.0:
+-                            active_locks.append(f"{f_path} (mtime age {round(age_sec, 2)}s)")
++                        active_locks.append(str(f_path))
+ 
+         if active_locks:
+             raise QuiescenceViolationError(
+-                f"Quiescence check detected active lock/journal files modified within 5 seconds: {active_locks}. "
+-                "Ensure all external writers are stopped before preflight."
++                f"Quiescence check detected active lock/journal/WAL/SHM files modified within 5 seconds or lingering: {active_locks}. "
++                "Explicit zero-tolerance WAL/SHM policy requires clean database checkpoint and closure of all external writers."
+             )
+ 
+-        return {"quiescent": True, "diagnostic_heuristic": "No write-locks or journal files modified within 5s."}
++        return {"quiescent": True, "diagnostic_heuristic": "Zero WAL, SHM, journal, or lock files present in source store."}
+ 
+     @classmethod
+     def create_preserved_snapshot(cls, source_dir: Path, snapshot_dir: Path) -> Dict[str, ManifestEntry]:
+@@ -613,6 +756,316 @@ class IntegrityLifecycleManager:
+         return res_candidate
+ 
+ 
++# =============================================================================
++# 1B. Protected Inventory Auditor & Run Directory Manifest Separation
++# =============================================================================
++
++class ProtectedInventoryAuditor:
++    """
++    Audits, records, and verifies immutable protected inputs and assets in the workspace.
++    Distinguishes required vs optional protected artifacts.
++    Enforces expected SHA-256 pin verification and reparse-point / symlink containment.
++    Supports pre-run inventory collection, post-run finalizer inventory verification,
++    and structured diff detection (added, missing, changed files) to fail closed on store drift.
++    """
++
++    TOKENIZER_SUBDIRS = ["generator", "router", "judge1", "judge2"]
++
++    EXPECTED_BENCHMARK_350_SHA256 = "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3"
++    EXPECTED_CANONICAL_GRAPH_SHA256 = "330ab8c58468011de380f0d2a82f4cfda28e628ac001c314572a751540da5c63"
++    EXPECTED_GRAPH_PROVENANCE_SHA256 = "f185c50995825b280e81a1b7a4e3912340090e00dcb5608c1b7568fdea707677"
++    EXPECTED_GRAPH_MANIFEST_SHA256 = "be670d3fb62c547b057fe29bc1367a1198e7f3bdde02f6a5e4149df67ae51bb1"
++    EXPECTED_PUBLIC_TOKENIZER_MANIFEST_SHA256 = "41902553acffa03065b3bc6049047d0d573fb4659aea9f428df6d3f809f84a44"
++    EXPECTED_GATED_TOKENIZER_MANIFEST_SHA256 = "588f9614af4a5ae3cb43cf93014b5af386e9986db1d527763967d72a3f37da66"
++
++    CANONICAL_PRODUCTION_PINS: Dict[str, str] = {
++        "terra_350_benchmark.json": EXPECTED_BENCHMARK_350_SHA256,
++        "terra_eeg_index_20k_r30corr_v1.json.xz": EXPECTED_CANONICAL_GRAPH_SHA256,
++        "terra_eeg_index_20k_r30corr_v1.provenance.json": EXPECTED_GRAPH_PROVENANCE_SHA256,
++        "manifest.sha256": EXPECTED_GRAPH_MANIFEST_SHA256,
++        "tokenizer_manifest.sha256": EXPECTED_PUBLIC_TOKENIZER_MANIFEST_SHA256,
++        "gated_tokenizer_manifest.v1.sha256": EXPECTED_GATED_TOKENIZER_MANIFEST_SHA256,
++    }
++
++    @staticmethod
++    def hash_file_sha256(path: Path) -> str:
++        h = hashlib.sha256()
++        with open(path, "rb") as fp:
++            while chunk := fp.read(65536):
++                h.update(chunk)
++        return h.hexdigest()
++
++    @classmethod
++    def collect_protected_inventory(
++        cls,
++        workspace_root: Path,
++        graph_archive: Optional[Path] = None,
++        benchmark_path: Optional[Path] = None,
++        tokenizer_base_dir: Optional[Path] = None,
++        onnx_cache_dir: Optional[Path] = None,
++        source_chroma_dir: Optional[Path] = None,
++        expected_pins: Optional[Dict[str, str]] = None,
++    ) -> Dict[str, Any]:
++        """
++        Discovers, hashes, and records immutable/protected inputs into a structured ledger.
++        Explicitly tracks required vs optional files.
++        Records missing required files, pin mismatches, and symlink/reparse violations.
++        """
++        ws = Path(workspace_root)
++        items: List[Dict[str, Any]] = []
++        missing_required: List[Dict[str, Any]] = []
++        pin_mismatches: List[Dict[str, Any]] = []
++        security_violations: List[Dict[str, Any]] = []
++        seen_paths: Set[str] = set()
++        pins = expected_pins or {}
++
++        def _record_file(f_path: Path, role: str, required: bool, expected_sha: Optional[str] = None, note: Optional[str] = None) -> None:
++            try:
++                rel_p = str(f_path.relative_to(ws)).replace("\\", "/")
++            except ValueError:
++                rel_p = str(f_path).replace("\\", "/")
++
++            if not f_path.exists():
++                if required:
++                    missing_required.append({
++                        "role": role,
++                        "relative_path": rel_p,
++                        "required": True,
++                        "error": "Required protected file does not exist",
++                    })
++                return
++
++            if not f_path.is_file():
++                if required:
++                    missing_required.append({
++                        "role": role,
++                        "relative_path": rel_p,
++                        "required": True,
++                        "error": "Required protected path is not a regular file",
++                    })
++                return
++
++            try:
++                resolved_key = str(f_path.resolve())
++            except Exception:
++                resolved_key = str(f_path)
++            if resolved_key in seen_paths:
++                return
++            seen_paths.add(resolved_key)
++
++            # Check symlink / reparse point containment
++            if f_path.is_symlink() or os.path.islink(f_path):
++                security_violations.append({
++                    "role": role,
++                    "relative_path": rel_p,
++                    "error": "Symlink rejected under containment policy",
++                })
++                return
++
++            try:
++                actual_sha = cls.hash_file_sha256(f_path)
++            except Exception as he:
++                security_violations.append({
++                    "role": role,
++                    "relative_path": rel_p,
++                    "error": f"Failed to hash file: {str(he)}",
++                })
++                return
++
++            exp_pin = pins.get(rel_p) or pins.get(f_path.name) or expected_sha
++            pin_matched = True
++            if exp_pin:
++                if actual_sha.lower() != exp_pin.lower():
++                    pin_matched = False
++                    pin_mismatches.append({
++                        "role": role,
++                        "relative_path": rel_p,
++                        "expected_sha256": exp_pin,
++                        "actual_sha256": actual_sha,
++                    })
++
++            entry: Dict[str, Any] = {
++                "role": role,
++                "relative_path": rel_p,
++                "size_bytes": f_path.stat().st_size,
++                "sha256": actual_sha,
++                "required": required,
++                "status": "VERIFIED" if pin_matched else "PIN_MISMATCH",
++            }
++            if exp_pin:
++                entry["expected_sha256"] = exp_pin
++            if note:
++                entry["provenance_note"] = note
++            items.append(entry)
++
++        # 1. Executed Codebase Modules (Required)
++        code_dir = ws / "scripts" / "matched_baseline"
++        if not code_dir.exists():
++            code_dir = Path(__file__).resolve().parent
++        code_files = [
++            code_dir / "fast_tokenizer_adapter.py",
++            code_dir / "offline_preflight.py",
++            code_dir / "common_serializer.py",
++            code_dir / "bm25_engine.py",
++            code_dir / "hybrid_retriever.py",
++            code_dir / "terra_retriever.py",
++        ]
++        for cf in code_files:
++            _record_file(cf, "code_module", required=True)
++
++        # 2. Python interpreter binary (Required)
++        py_exe = Path(sys.executable)
++        _record_file(py_exe, "python_interpreter", required=True)
++
++        # 3. Benchmark file(s)
++        if benchmark_path:
++            b_path = Path(benchmark_path)
++            exp_b_sha = cls.EXPECTED_BENCHMARK_350_SHA256 if b_path.name == "terra_350_benchmark.json" else None
++            _record_file(b_path, "benchmark_data", required=True, expected_sha=exp_b_sha)
++        else:
++            default_bench = ws / "terra_350_benchmark.json"
++            if default_bench.exists():
++                _record_file(default_bench, "benchmark_data", required=False, expected_sha=cls.EXPECTED_BENCHMARK_350_SHA256)
++
++        # 4. Graph archive, provenance, and manifest
++        if graph_archive:
++            g_path = Path(graph_archive)
++            is_canonical_graph = (g_path.name == "terra_eeg_index_20k_r30corr_v1.json.xz")
++            exp_g_sha = cls.EXPECTED_CANONICAL_GRAPH_SHA256 if is_canonical_graph else None
++            _record_file(g_path, "graph_archive", required=True, expected_sha=exp_g_sha)
++            prov_p = g_path.parent / "terra_eeg_index_20k_r30corr_v1.provenance.json"
++            man_p = g_path.parent / "manifest.sha256"
++            exp_prov_sha = cls.EXPECTED_GRAPH_PROVENANCE_SHA256 if is_canonical_graph else None
++            exp_man_sha = cls.EXPECTED_GRAPH_MANIFEST_SHA256 if is_canonical_graph else None
++            _record_file(prov_p, "graph_provenance", required=is_canonical_graph, expected_sha=exp_prov_sha)
++            _record_file(man_p, "graph_manifest", required=is_canonical_graph, expected_sha=exp_man_sha)
++        else:
++            default_graph = ws / "TERRA_EDITORIAL_RESTART_V2" / "derived_graphs" / "r30corr_v1" / "terra_eeg_index_20k_r30corr_v1.json.xz"
++            if default_graph.exists():
++                _record_file(default_graph, "graph_archive", required=False, expected_sha=cls.EXPECTED_CANONICAL_GRAPH_SHA256)
++                _record_file(default_graph.parent / "terra_eeg_index_20k_r30corr_v1.provenance.json", "graph_provenance", required=False, expected_sha=cls.EXPECTED_GRAPH_PROVENANCE_SHA256)
++                _record_file(default_graph.parent / "manifest.sha256", "graph_manifest", required=False, expected_sha=cls.EXPECTED_GRAPH_MANIFEST_SHA256)
++
++        # 5. Tokenizer assets and manifests
++        if tokenizer_base_dir:
++            tok_base = Path(tokenizer_base_dir)
++            _record_file(tok_base / "tokenizer_manifest.sha256", "public_tokenizer_manifest", required=True)
++            _record_file(tok_base / "gated_tokenizer_manifest.v1.sha256", "gated_tokenizer_manifest", required=True)
++            for subdir in cls.TOKENIZER_SUBDIRS:
++                s_dir = tok_base / subdir
++                if s_dir.exists() and s_dir.is_dir():
++                    for root, _, files in os.walk(s_dir):
++                        for f in sorted(files):
++                            _record_file(Path(root) / f, f"tokenizer_asset_{subdir}", required=True)
++        else:
++            tok_base = ws / "assets" / "tokenizers"
++            if tok_base.exists() and tok_base.is_dir():
++                _record_file(tok_base / "tokenizer_manifest.sha256", "public_tokenizer_manifest", required=False)
++                _record_file(tok_base / "gated_tokenizer_manifest.v1.sha256", "gated_tokenizer_manifest", required=False)
++                for subdir in cls.TOKENIZER_SUBDIRS:
++                    s_dir = tok_base / subdir
++                    if s_dir.exists() and s_dir.is_dir():
++                        for root, _, files in os.walk(s_dir):
++                            for f in sorted(files):
++                                _record_file(Path(root) / f, f"tokenizer_asset_{subdir}", required=False)
++
++        # 6. Local ONNX cache assets
++        if onnx_cache_dir:
++            c_dir = Path(onnx_cache_dir)
++            if c_dir.exists() and c_dir.is_dir():
++                for root, _, files in os.walk(c_dir):
++                    for f in sorted(files):
++                        _record_file(Path(root) / f, "onnx_cache_asset", required=True)
++
++        items.sort(key=lambda x: x["relative_path"])
++
++        return {
++            "inventory_format_version": "1.0",
++            "timestamp_utc": time.strftime("%Y-%m-%d %H:%M:%SZ", time.gmtime()),
++            "workspace_root": str(ws),
++            "protected_item_count": len(items),
++            "protected_inputs": items,
++            "missing_required": missing_required,
++            "pin_mismatches": pin_mismatches,
++            "security_violations": security_violations,
++            "inventory_valid": (len(missing_required) == 0 and len(pin_mismatches) == 0 and len(security_violations) == 0),
++        }
++
++    @classmethod
++    def compare_inventories(
++        cls,
++        pre_inventory: Dict[str, Any],
++        post_inventory: Dict[str, Any],
++    ) -> Dict[str, Any]:
++        """
++        Compare pre-execution and post-execution protected inventories.
++        Detects added, missing, or changed protected files, pin mismatches, or missing required files.
++        """
++        pre_items = {
++            item["relative_path"]: item
++            for item in pre_inventory.get("protected_inputs", [])
++            if item.get("status") == "VERIFIED"
++        }
++        post_items = {
++            item["relative_path"]: item
++            for item in post_inventory.get("protected_inputs", [])
++            if item.get("status") == "VERIFIED"
++        }
++
++        changed: List[Dict[str, Any]] = []
++        missing: List[Dict[str, Any]] = []
++        added: List[Dict[str, Any]] = []
++
++        for rel, pre_ent in pre_items.items():
++            if rel not in post_items:
++                missing.append({
++                    "relative_path": rel,
++                    "pre_sha256": pre_ent["sha256"],
++                    "role": pre_ent["role"],
++                })
++            else:
++                post_ent = post_items[rel]
++                if pre_ent["sha256"] != post_ent["sha256"]:
++                    changed.append({
++                        "relative_path": rel,
++                        "pre_sha256": pre_ent["sha256"],
++                        "post_sha256": post_ent["sha256"],
++                        "role": pre_ent["role"],
++                    })
++
++        for rel, post_ent in post_items.items():
++            if rel not in pre_items:
++                added.append({
++                    "relative_path": rel,
++                    "post_sha256": post_ent["sha256"],
++                    "role": post_ent["role"],
++                })
++
++        pin_mismatches = post_inventory.get("pin_mismatches", [])
++        missing_required = post_inventory.get("missing_required", [])
++        security_violations = post_inventory.get("security_violations", [])
++
++        drift_detected = bool(changed or missing or added)
++
++        return {
++            "drift_detected": drift_detected,
++            "pre_timestamp_utc": pre_inventory.get("timestamp_utc"),
++            "post_timestamp_utc": post_inventory.get("timestamp_utc"),
++            "changed_count": len(changed),
++            "changed": changed,
++            "missing_count": len(missing),
++            "missing": missing,
++            "added_count": len(added),
++            "added": added,
++            "pin_mismatches_count": len(pin_mismatches),
++            "pin_mismatches": pin_mismatches,
++            "missing_required_count": len(missing_required),
++            "missing_required": missing_required,
++            "security_violations_count": len(security_violations),
++            "security_violations": security_violations,
++        }
++
++
+ # =============================================================================
+ # 2. Embedding Model & Offline Guard (No-Download Guard)
+ # =============================================================================
+@@ -659,6 +1112,1076 @@ class NoDownloadGuard:
+         return block_reasons
+ 
+ 
++class OfflineMiniLMEmbeddingFunction:
++    """
++    Offline embedding function for all-MiniLM-L6-v2 preserving native Chroma semantics:
++    - Native tokenization with owned tokenizer explicit configuration:
++      enable_truncation(max_length=256) and enable_padding(pad_id=0, pad_token='[PAD]', length=256).
++    - Native ONNX fixed-width (batch_size, 256) inputs (input_ids, attention_mask, token_type_ids).
++    - Mean pooling weighted by attention mask.
++    - L2 vector normalization with 1e-12 division-by-zero protection.
++    - Output dimension strictly verified as 384.
++    - Strict local file resolution and SHA-256 verification against pinned constants.
++    - Guaranteed NO download fallback: fails closed if any asset is missing or altered.
++    - Unresolved ancestor/entry reparse and symlink guards before path resolution.
++    - Immutable six-file production pins in authentic mode; bound CacheVerificationReceipt.
++    - Validation of batch_size as positive non-boolean integer; rank/shape/finite validation of inputs and ONNX outputs.
++    - Authentic mode unconditionally blocks real execution while production hold is active.
++    """
++
++    EXPECTED_DIM = 384
++    MAX_TOKENS = 256
++    MODEL_NAME = "all-MiniLM-L6-v2"
++
++    # Canonical SHA-256 digests for all-MiniLM-L6-v2 ONNX cache assets from preserved inventory
++    EXPECTED_PINS: Dict[str, str] = {
++        "model.onnx": "4f148ba8ae9c2c7fbee4af2b132db8d06c6a6545b47fc83bbb98c3d22b8393e6",
++        "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
++        "tokenizer_config.json": "7702051bbc4953b94d47fa1d61b42ed4cbb3c71b501a8dd7183a823f8bea1f20",
++        "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
++        "config.json": "b567c7d5a55b636c95186aaf993f9a8920842b7e05a9e703e68b23cab2c3a670",
++        "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
++    }
++
++    def __init__(
++        self,
++        cache_dir: Optional[Union[str, Path]] = None,
++        expected_pins: Optional[Dict[str, str]] = None,
++        tokenizer_instance: Optional[Any] = None,
++        session_instance: Optional[Any] = None,
++        auth_receipt: Optional[ExecutionAuthorizationReceipt] = None,
++        is_synthetic: bool = False,
++        batch_size: int = 32,
++    ):
++        # 1. Validate batch_size as positive non-boolean integer
++        if isinstance(batch_size, bool) or not isinstance(batch_size, int) or batch_size <= 0:
++            raise ConfigurationError(
++                f"batch_size must be a positive non-boolean integer, got {batch_size!r}"
++            )
++        self.batch_size = batch_size
++        self.is_synthetic = is_synthetic
++        self.auth_receipt = auth_receipt
++        if self.auth_receipt is not None:
++            self.auth_receipt.validate()
++
++        # 2. Immutable pins validation
++        if not self.is_synthetic:
++            # Authentic mode: expected_pins cannot be replaced by a partial or custom map
++            if expected_pins is not None:
++                if set(expected_pins.keys()) != set(self.EXPECTED_PINS.keys()):
++                    raise ConfigurationError(
++                        "In authentic mode, expected_pins cannot be overridden with partial or custom pins. "
++                        f"Expected exactly 6 keys: {sorted(self.EXPECTED_PINS.keys())}"
++                    )
++                for k, v in expected_pins.items():
++                    if v.lower() != self.EXPECTED_PINS[k].lower():
++                        raise ConfigurationError(
++                            f"In authentic mode, canonical pin for '{k}' cannot be altered. "
++                            f"Expected {self.EXPECTED_PINS[k]}, got {v}"
++                        )
++            self.expected_pins = dict(self.EXPECTED_PINS)
++        else:
++            # Synthetic mode: fixtures can specify fixture pins, but must specify all 6 canonical asset keys
++            if expected_pins is not None:
++                if set(expected_pins.keys()) != set(self.EXPECTED_PINS.keys()):
++                    raise ConfigurationError(
++                        f"Synthetic expected_pins must specify all 6 canonical assets: {sorted(self.EXPECTED_PINS.keys())}, "
++                        f"got {sorted(expected_pins.keys())}"
++                    )
++                self.expected_pins = dict(expected_pins)
++            else:
++                self.expected_pins = dict(self.EXPECTED_PINS)
++
++        # 3. Cache directory containment on ORIGINAL lexical path BEFORE resolution
++        if cache_dir is not None:
++            raw_path = Path(cache_dir)
++        else:
++            raw_path = Path(os.path.expanduser("~")) / ".cache" / "chroma" / "onnx_models" / "all-MiniLM-L6-v2"
++
++        # Check symlink and reparse point containment on unresolved path and its ancestors
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(raw_path)
++        self.cache_dir = raw_path.resolve()
++        # Also check resolved path
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++
++        # 4. Caller injection check in authentic mode
++        if not self.is_synthetic:
++            if tokenizer_instance is not None or session_instance is not None:
++                raise ConfigurationError(
++                    "Caller cannot inject synthetic fakes into authentic OfflineMiniLMEmbeddingFunction. "
++                    "Set is_synthetic=True for isolated testing."
++                )
++
++        # 5. Tokenizer configuration
++        self._tokenizer = None
++        if tokenizer_instance is not None:
++            self._tokenizer = self._configure_tokenizer(tokenizer_instance)
++        self._session = session_instance
++
++        # 6. Verification receipt binding
++        self._verification_receipt: Optional[CacheVerificationReceipt] = None
++
++    def _configure_tokenizer(self, tokenizer: Any) -> Any:
++        """
++        Explicitly configure owned tokenizer with native Chroma truncation and padding.
++        Fails closed if the required configuration API is missing or fails.
++        Manual slicing or manual padding fallback is strictly forbidden.
++        """
++        if not hasattr(tokenizer, "enable_truncation") or not callable(getattr(tokenizer, "enable_truncation")):
++            raise IntegrityCheckError(
++                "Tokenizer is missing required 'enable_truncation' method. "
++                "Silent slicing fallback is strictly forbidden."
++            )
++        if not hasattr(tokenizer, "enable_padding") or not callable(getattr(tokenizer, "enable_padding")):
++            raise IntegrityCheckError(
++                "Tokenizer is missing required 'enable_padding' method. "
++                "Silent padding fallback is strictly forbidden."
++            )
++        try:
++            tokenizer.enable_truncation(max_length=self.MAX_TOKENS)
++            tokenizer.enable_padding(pad_id=0, pad_token="[PAD]", length=self.MAX_TOKENS)
++        except Exception as e:
++            raise IntegrityCheckError(
++                f"Failed to configure tokenizer with native truncation/padding: {e}"
++            ) from e
++        return tokenizer
++
++    @property
++    def verification_receipt(self) -> Optional[CacheVerificationReceipt]:
++        return self._verification_receipt
++
++    @staticmethod
++    def name() -> str:
++        return "offline_minilm_l6_v2"
++
++    def default_space(self) -> str:
++        return "l2"
++
++    def supported_spaces(self) -> List[str]:
++        return ["l2", "cosine", "ip"]
++
++    def max_tokens(self) -> int:
++        return self.MAX_TOKENS
++
++    def _get_tokenizer(self) -> Any:
++        if self._tokenizer is not None:
++            return self._tokenizer
++        if not self.is_synthetic:
++            raise ConfigurationBlockedError(
++                "Authentic Tokenizer loading is unconditionally blocked in preflight under Gate B/C governance. "
++                "Real tokenization requires explicit Gate C authorization."
++            )
++        raise ConfigurationError("Synthetic tokenizer instance must be injected in synthetic test mode.")
++
++    def _get_session(self) -> Any:
++        if self._session is not None:
++            return self._session
++        if not self.is_synthetic:
++            raise ConfigurationBlockedError(
++                "Authentic ONNX InferenceSession initialization is unconditionally blocked in preflight under Gate B/C governance. "
++                "Real ONNX inference requires explicit Gate C authorization."
++            )
++        raise ConfigurationError("Synthetic session instance must be injected in synthetic test mode.")
++
++    def verify_pinned_cache(self) -> CacheVerificationReceipt:
++        """
++        Verify that all 6 required local ONNX assets exist and match expected SHA-256 digests.
++        Validates unresolved entry paths and ancestors for reparse/symlink containment.
++        Fails closed on any missing file, corrupted hash, or unexpected directory structure.
++        Binds a CacheVerificationReceipt to the instance. Strictly forbids any network download.
++        """
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++        if not self.cache_dir.exists():
++            raise IntegrityCheckError(
++                f"Local ONNX cache directory not found: {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        effective_dir = self.cache_dir
++        if (self.cache_dir / "onnx" / "model.onnx").exists():
++            effective_dir = self.cache_dir / "onnx"
++        elif not (self.cache_dir / "model.onnx").exists():
++            raise IntegrityCheckError(
++                f"Missing required model.onnx in {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(effective_dir)
++
++        verified_hashes: Dict[str, str] = {}
++        for filename, expected_sha in self.expected_pins.items():
++            file_path = effective_dir / filename
++            IntegrityLifecycleManager.check_symlink_and_reparse_containment(file_path)
++            if not file_path.exists():
++                raise IntegrityCheckError(
++                    f"Required offline ONNX asset missing: '{filename}' in {effective_dir}. "
++                    "Network download fallback is strictly forbidden in offline mode."
++                )
++            h = hashlib.sha256()
++            with open(file_path, "rb") as fp:
++                while chunk := fp.read(65536):
++                    h.update(chunk)
++            actual_sha = h.hexdigest().lower()
++            if actual_sha != expected_sha.lower():
++                raise IntegrityCheckError(
++                    f"SHA-256 digest mismatch on offline ONNX asset '{filename}': "
++                    f"expected {expected_sha}, got {actual_sha}"
++                )
++            verified_hashes[filename] = actual_sha
++
++        receipt = CacheVerificationReceipt(
++            cache_dir=str(self.cache_dir),
++            effective_dir=str(effective_dir),
++            verified_sha256=verified_hashes,
++            verified_utc=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
++            is_synthetic=self.is_synthetic,
++            file_count=len(verified_hashes),
++        )
++        self._verification_receipt = receipt
++        return receipt
++
++    def _verify_cache_freshness_and_receipt(self) -> CacheVerificationReceipt:
++        """
++        Require a verified complete receipt and verify current identity against present on-disk files.
++        If no receipt has been established, runs verify_pinned_cache() and binds a fresh receipt.
++        If a receipt exists, checks present file existence and SHA-256 digests against expected pins
++        and the receipt without clearing state, catching post-verification tampering, removal, or replacement.
++        Fails closed immediately on missing cache, missing files, or hash mismatches.
++        """
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++        if not self.cache_dir.exists():
++            raise IntegrityCheckError(
++                f"Local ONNX cache directory not found: {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        if self._verification_receipt is None:
++            return self.verify_pinned_cache()
++
++        receipt = self._verification_receipt
++        effective_dir = Path(receipt.effective_dir)
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(effective_dir)
++        if not effective_dir.exists():
++            raise IntegrityCheckError(
++                f"Effective ONNX cache directory no longer exists on disk: {effective_dir}."
++            )
++
++        for filename, expected_sha in self.expected_pins.items():
++            file_path = effective_dir / filename
++            IntegrityLifecycleManager.check_symlink_and_reparse_containment(file_path)
++            if not file_path.exists():
++                raise IntegrityCheckError(
++                    f"Required offline ONNX asset missing on disk: '{filename}' in {effective_dir}."
++                )
++
++            receipt_sha = receipt.verified_sha256.get(filename)
++            if receipt_sha is None or receipt_sha.lower() != expected_sha.lower():
++                raise IntegrityCheckError(
++                    f"Verification receipt corrupted or mismatched for asset '{filename}': "
++                    f"receipt {receipt_sha}, expected {expected_sha}"
++                )
++
++            h = hashlib.sha256()
++            with open(file_path, "rb") as fp:
++                while chunk := fp.read(65536):
++                    h.update(chunk)
++            actual_sha = h.hexdigest().lower()
++            if actual_sha != expected_sha.lower():
++                raise IntegrityCheckError(
++                    f"SHA-256 digest mismatch on present offline ONNX asset '{filename}': "
++                    f"expected {expected_sha}, got {actual_sha} (receipt was {receipt_sha})"
++                )
++
++        return receipt
++
++    def _download_model_if_not_exists(self) -> None:
++        """Explicit override: network downloads are strictly prohibited."""
++        raise IntegrityCheckError(
++            "Network download fallback is unconditionally disabled in offline preflight. "
++            "All assets must be pre-staged and verified locally."
++        )
++
++    def _normalize(self, v: np.ndarray) -> np.ndarray:
++        """
++        L2 vector normalization matching Chroma ONNXMiniLM_L6_V2._normalize.
++        Handles division by zero by setting zero norms to 1e-12.
++        """
++        norm = np.linalg.norm(v, axis=1)
++        norm[norm == 0] = 1e-12
++        return (v / norm[:, np.newaxis]).astype(np.float32)
++
++    def _mean_pooling(
++        self,
++        last_hidden_state: np.ndarray,
++        attention_mask: np.ndarray,
++    ) -> np.ndarray:
++        """
++        Mean pooling with attention weighting matching native sentence-transformers / Chroma:
++        embeddings = sum(last_hidden_state * expanded_mask) / sum(expanded_mask)
++        """
++        input_mask_expanded = np.broadcast_to(
++            np.expand_dims(attention_mask, -1), last_hidden_state.shape
++        )
++        sum_embeddings = np.sum(last_hidden_state * input_mask_expanded, axis=1)
++        sum_mask = np.clip(input_mask_expanded.sum(axis=1), a_min=1e-9, a_max=None)
++        return sum_embeddings / sum_mask
++
++    def __call__(self, input: Union[str, List[str]]) -> List[np.ndarray]:
++        """
++        Generate 384-dimensional dense embeddings for the given documents or query texts.
++        Preserves native tokenization, truncation (256), fixed-width 256 padding,
++        attention masking, mean pooling, and L2 normalization.
++        Enforces verified cache freshness and receipt before use, input parameter validation,
++        native fixed-width 256 token verification without manual slicing, and non-finite output validation.
++        """
++        # 1. Require cache directory to exist on disk; missing cache must fail closed immediately
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++        if not self.cache_dir.exists():
++            raise IntegrityCheckError(
++                f"Local ONNX cache directory not found: {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        # 2. Require a verified complete receipt and verify present files on disk against pins and receipt
++        self._verify_cache_freshness_and_receipt()
++
++        if isinstance(input, str):
++            documents = [input]
++        elif isinstance(input, list):
++            documents = input
++        else:
++            raise IntegrityCheckError(f"Input to embedding function must be str or list of str, got {type(input)}")
++
++        if not documents:
++            return []
++
++        for d in documents:
++            if not isinstance(d, str):
++                raise IntegrityCheckError(f"Document content must be string, got {type(d)}")
++
++        tokenizer = self._get_tokenizer()
++        session = self._get_session()
++
++        all_embeddings: List[np.ndarray] = []
++        for i in range(0, len(documents), self.batch_size):
++            batch = documents[i : i + self.batch_size]
++
++            encoded = [tokenizer.encode(d) for d in batch]
++
++            # Validate native fixed-width 256 truncation and padding across all documents
++            fixed_ids = []
++            fixed_masks = []
++            for doc_idx, doc_tokens in enumerate(encoded):
++                if not hasattr(doc_tokens, "ids"):
++                    raise IntegrityCheckError(
++                        f"Tokenizer output for document {doc_idx} lacks required 'ids' attribute"
++                    )
++                raw_ids = list(doc_tokens.ids)
++
++                if not hasattr(doc_tokens, "attention_mask"):
++                    raise IntegrityCheckError(
++                        f"Tokenizer output for document {doc_idx} lacks required 'attention_mask' attribute"
++                    )
++                raw_mask = list(doc_tokens.attention_mask)
++
++                # Validate equal length between IDs and attention mask
++                if len(raw_ids) != len(raw_mask):
++                    raise IntegrityCheckError(
++                        f"Tokenizer encoding length mismatch for document {doc_idx}: "
++                        f"ids length ({len(raw_ids)}) != attention_mask length ({len(raw_mask)})"
++                    )
++
++                # Reject overlength or underlength encodings - manual slicing or padding fallback is forbidden
++                if len(raw_ids) > self.MAX_TOKENS:
++                    raise IntegrityCheckError(
++                        f"Tokenizer returned overlength encoding ({len(raw_ids)} > {self.MAX_TOKENS}) after configuration; "
++                        "manual slicing is strictly forbidden."
++                    )
++                if len(raw_ids) < self.MAX_TOKENS:
++                    raise IntegrityCheckError(
++                        f"Tokenizer returned underlength encoding ({len(raw_ids)} < {self.MAX_TOKENS}) after configuration; "
++                        "manual padding is strictly forbidden."
++                    )
++
++                fixed_ids.append(raw_ids)
++                fixed_masks.append(raw_mask)
++
++            input_ids = np.array(fixed_ids, dtype=np.int64)
++            attention_mask = np.array(fixed_masks, dtype=np.int64)
++            token_type_ids = np.zeros_like(input_ids, dtype=np.int64)
++
++            # Validate input ranks and shapes
++            if input_ids.shape != (len(batch), self.MAX_TOKENS):
++                raise IntegrityCheckError(f"Malformed input_ids shape: expected ({len(batch)}, {self.MAX_TOKENS}), got {input_ids.shape}")
++            if attention_mask.shape != (len(batch), self.MAX_TOKENS):
++                raise IntegrityCheckError(f"Malformed attention_mask shape: expected ({len(batch)}, {self.MAX_TOKENS}), got {attention_mask.shape}")
++            if not np.all(np.isin(attention_mask, [0, 1])):
++                raise IntegrityCheckError("Attention mask must contain only binary 0 and 1 values")
++
++            # Check that each document has at least one active token
++            if np.any(attention_mask.sum(axis=1) == 0):
++                raise IntegrityCheckError("Attention mask has zero active tokens for one or more documents in batch")
++
++            onnx_inputs = {
++                "input_ids": input_ids,
++                "attention_mask": attention_mask,
++                "token_type_ids": token_type_ids,
++            }
++
++            model_outputs = session.run(None, onnx_inputs)
++            if not isinstance(model_outputs, (list, tuple)) or len(model_outputs) == 0:
++                raise IntegrityCheckError(f"ONNX session returned invalid output container: {type(model_outputs)}")
++
++            last_hidden_state = model_outputs[0]
++            if not isinstance(last_hidden_state, np.ndarray):
++                raise IntegrityCheckError(f"ONNX last_hidden_state must be a numpy ndarray, got {type(last_hidden_state)}")
++
++            # Validate output rank and shape: (batch_size, MAX_TOKENS, EXPECTED_DIM)
++            if last_hidden_state.ndim != 3:
++                raise IntegrityCheckError(f"ONNX last_hidden_state must be rank-3, got rank {last_hidden_state.ndim}")
++            if last_hidden_state.shape != (len(batch), self.MAX_TOKENS, self.EXPECTED_DIM):
++                raise IntegrityCheckError(
++                    f"Malformed ONNX output shape: expected ({len(batch)}, {self.MAX_TOKENS}, {self.EXPECTED_DIM}), got {last_hidden_state.shape}"
++                )
++
++            # Validate finite values in ONNX output
++            if not np.all(np.isfinite(last_hidden_state)):
++                raise IntegrityCheckError("Non-finite values (NaN/Inf) detected in ONNX last_hidden_state output")
++
++            pooled = self._mean_pooling(last_hidden_state, attention_mask)
++            if not np.all(np.isfinite(pooled)):
++                raise IntegrityCheckError("Non-finite values (NaN/Inf) detected in pooled embeddings")
++
++            normalized = self._normalize(pooled)
++            if not np.all(np.isfinite(normalized)):
++                raise IntegrityCheckError("Non-finite values (NaN/Inf) detected in normalized embeddings")
++
++            if normalized.shape != (len(batch), self.EXPECTED_DIM):
++                raise IntegrityCheckError(
++                    f"Generated embedding dimension {normalized.shape} does not match expected ({len(batch)}, {self.EXPECTED_DIM})"
++                )
++
++            # Verify unit L2 norm for every non-zero vector
++            norms = np.linalg.norm(normalized, axis=1)
++            for norm_val in norms:
++                if not (np.isclose(norm_val, 1.0, atol=1e-4) or np.isclose(norm_val, 0.0, atol=1e-6)):
++                    raise IntegrityCheckError(f"Embedding vector failed L2 unit normalization check: norm={norm_val}")
++
++            for emb in normalized:
++                all_embeddings.append(emb)
++
++        return all_embeddings
++
++
++class OfflineChromaClientFactory:
++    """
++    Factory creating Chroma client instances strictly bound to a validated
++    disposable directory and verified offline embedding function.
++    Enforces isolation receipt verification, path containment, and strict disjointness
++    from source and snapshot directories.
++    """
++    def __init__(
++        self,
++        embedding_function: Optional[OfflineMiniLMEmbeddingFunction] = None,
++        auth_receipt: Optional[ExecutionAuthorizationReceipt] = None,
++        expected_source_dir: Optional[Union[str, Path]] = None,
++        expected_snapshot_dir: Optional[Union[str, Path]] = None,
++        is_synthetic: bool = False,
++        synthetic_client_factory: Optional[Callable[[Path, Optional[Any]], Any]] = None,
++    ):
++        self.embedding_function = embedding_function
++        self.auth_receipt = auth_receipt
++        if self.auth_receipt is not None:
++            self.auth_receipt.validate()
++        self.expected_source_dir = Path(expected_source_dir).resolve() if expected_source_dir else None
++        self.expected_snapshot_dir = Path(expected_snapshot_dir).resolve() if expected_snapshot_dir else None
++        self.is_synthetic = is_synthetic
++        self.synthetic_client_factory = synthetic_client_factory
++
++    def __call__(
++        self,
++        disposable_dir: Path,
++        isolation_receipt: Optional[IsolationReceipt] = None,
++    ) -> Any:
++        # 1. Containment check on entry and ancestors (symlinks, junctions, reparse points)
++        raw_disp = Path(disposable_dir)
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(raw_disp)
++        resolved_disp = raw_disp.resolve()
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(resolved_disp)
++
++        # 2. Strict disjointness enforcement against source and snapshot
++        if self.expected_source_dir:
++            if (
++                resolved_disp == self.expected_source_dir
++                or self.expected_source_dir in resolved_disp.parents
++                or resolved_disp in self.expected_source_dir.parents
++            ):
++                raise DirectoryOverlapError(
++                    f"Factory disposable_dir '{resolved_disp}' overlaps with or equals source directory '{self.expected_source_dir}'"
++                )
++        if self.expected_snapshot_dir:
++            if (
++                resolved_disp == self.expected_snapshot_dir
++                or self.expected_snapshot_dir in resolved_disp.parents
++                or resolved_disp in self.expected_snapshot_dir.parents
++            ):
++                raise DirectoryOverlapError(
++                    f"Factory disposable_dir '{resolved_disp}' overlaps with or equals snapshot directory '{self.expected_snapshot_dir}'"
++                )
++
++        # 3. Isolation receipt verification
++        if isolation_receipt is not None:
++            receipt_disp = Path(isolation_receipt.disposable_dir).resolve()
++            if resolved_disp != receipt_disp:
++                raise ContainmentViolationError(
++                    f"Factory disposable_dir '{resolved_disp}' does not match isolation receipt disposable_dir '{receipt_disp}'"
++                )
++            if self.expected_source_dir:
++                receipt_src = Path(isolation_receipt.source_dir).resolve()
++                if receipt_src != self.expected_source_dir:
++                    raise ContainmentViolationError(
++                        f"Isolation receipt source_dir '{receipt_src}' does not match factory expected source_dir '{self.expected_source_dir}'"
++                    )
++            if self.expected_snapshot_dir:
++                receipt_snap = Path(isolation_receipt.snapshot_dir).resolve()
++                if receipt_snap != self.expected_snapshot_dir:
++                    raise ContainmentViolationError(
++                        f"Isolation receipt snapshot_dir '{receipt_snap}' does not match factory expected snapshot_dir '{self.expected_snapshot_dir}'"
++                    )
++
++        # 4. Authentic initialization hold (unconditional in authentic mode)
++        if not self.is_synthetic:
++            raise ConfigurationBlockedError(
++                "Authentic Chroma PersistentClient instantiation is unconditionally blocked under Gate B/C governance. "
++                "Real store connection requires explicit Gate C authorization."
++            )
++
++        if self.synthetic_client_factory is not None:
++            return self.synthetic_client_factory(resolved_disp, self.embedding_function)
++        raise ConfigurationError("Synthetic client factory must be provided in synthetic test mode.")
++
++
++class SingleUseExecutionLock:
++    """
++    Single-use atomic execution lock preventing authorization replay.
++    Acquires an exclusive lock file using atomic 'x' creation mode.
++    Fails closed with LockCollisionError if lock already exists or cannot be acquired.
++    """
++    def __init__(self, lock_path: Union[str, Path]):
++        self.lock_path = Path(lock_path).resolve()
++        self._acquired = False
++
++    def acquire(self, metadata: Optional[Dict[str, Any]] = None) -> None:
++        if self._acquired:
++            raise LockCollisionError(f"Lock already acquired on {self.lock_path}")
++        if self.lock_path.exists():
++            raise LockCollisionError(
++                f"Execution lock already exists at {self.lock_path}. "
++                "Execution authorizations are single-use; replay is strictly forbidden."
++            )
++        self.lock_path.parent.mkdir(parents=True, exist_ok=True)
++        try:
++            with open(self.lock_path, "x", encoding="utf-8") as fp:
++                payload = {
++                    "lock_acquired_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
++                    "pid": os.getpid(),
++                    "metadata": metadata or {},
++                }
++                json.dump(payload, fp, indent=2)
++            self._acquired = True
++        except FileExistsError:
++            raise LockCollisionError(
++                f"Concurrent creation detected: lock file already exists at {self.lock_path}"
++            )
++        except Exception as e:
++            raise LockCollisionError(f"Failed to acquire exclusive execution lock at {self.lock_path}: {e}") from e
++
++    def release(self) -> None:
++        """
++        Single-use execution lock is persistent by design to prevent replay.
++        Release marks the lock inactive in memory without deleting on disk.
++        """
++        self._acquired = False
++
++    def is_locked(self) -> bool:
++        return self.lock_path.exists()
++
++
++class OfflineSmokeGateConfig:
++    """
++    Stage3D Offline Smoke Gate configuration parameters.
++    Explicitly bounds the single-query smoke verification gate.
++    NOTE: The smoke query 'smoke_q0' is a diagnostic sanity query with pinned text,
++    explicitly distinguished from the 350 evaluation queries in terra_350_benchmark.json.
++    Passing the smoke gate does NOT certify full 350-query execution feasibility.
++    """
++    SCOPE = OfflineExecutionScope.SMOKE_GATE
++    GATE_NAME = "Stage3D Offline Smoke Gate"
++    QUERY_ID = "smoke_q0"
++    QUERY_TEXT = "What is the standard of review for summary judgment?"
++    QUERY_TEXT_SHA256 = "9541720173299f71739564a4c3446cddeab6318dcc1824164a066c966dc6bed9"
++    EXPECTED_RETRIEVAL_LIMIT = 10
++    EXPECTED_ROLES = ["ROUTER", "VERIFIER", "GENERATOR", "JUDGE1", "JUDGE2"]
++
++
++class LaunchGateSequencer:
++    """
++    Enforces the strict, ordered execution gate sequence for bounded preflight:
++    1. Validates execution authorization receipt against context constants.
++    2. Exclusively acquires SingleUseExecutionLock (fails closed on collision/replay).
++    3. Builds sanitized child execution environment via allowlist.
++    4. Activates in-process network blocker.
++    5. Dispatches to supervisor for execution.
++    6. Ensures outer finalizer runs and records exclusive audit evidence.
++    """
++    def __init__(
++        self,
++        receipt: ExecutionAuthorizationReceipt,
++        lock: SingleUseExecutionLock,
++        expected_driver_sha256: str,
++        expected_store_sqlite_sha256: str,
++        expected_cache_manifest_sha256: str,
++        expected_firewall_rule_id: str,
++        expected_scope: str = OfflineExecutionScope.SMOKE_GATE.value,
++        expected_query_id: str = "smoke_q0",
++        expected_query_text_sha256: str = "9541720173299f71739564a4c3446cddeab6318dcc1824164a066c966dc6bed9",
++    ):
++        self.receipt = receipt
++        self.lock = lock
++        self.expected_driver_sha256 = expected_driver_sha256
++        self.expected_store_sqlite_sha256 = expected_store_sqlite_sha256
++        self.expected_cache_manifest_sha256 = expected_cache_manifest_sha256
++        self.expected_firewall_rule_id = expected_firewall_rule_id
++        self.expected_scope = expected_scope
++        self.expected_query_id = expected_query_id
++        self.expected_query_text_sha256 = expected_query_text_sha256
++
++    def validate_and_lock(self, metadata: Optional[Dict[str, Any]] = None) -> None:
++        """
++        Step 1 & 2: Validates receipt fields against expected context and acquires single-use lock.
++        Fails closed BEFORE any execution setup.
++        """
++        self.receipt.validate_against_context(
++            expected_scope=self.expected_scope,
++            expected_command=self.receipt.command,
++            expected_query_id=self.expected_query_id,
++            expected_query_text_sha256=self.expected_query_text_sha256,
++            expected_driver_sha256=self.expected_driver_sha256,
++            expected_store_sqlite_sha256=self.expected_store_sqlite_sha256,
++            expected_cache_manifest_sha256=self.expected_cache_manifest_sha256,
++            expected_firewall_rule_id=self.expected_firewall_rule_id,
++        )
++        lock_meta = {
++            "receipt_sha256": self.receipt.compute_receipt_sha256(),
++            "scope": self.expected_scope,
++            "query_id": self.expected_query_id,
++        }
++        if metadata:
++            lock_meta.update(metadata)
++        self.lock.acquire(metadata=lock_meta)
++
++
++class CleanChildEnvironmentBuilder:
++    """
++    Builds a sanitized environment dictionary for child execution processes using a
++    STRICT ALLOWLIST. Only explicitly permitted OS and Python runtime variables are copied.
++    All credentials, tokens, and arbitrary user variables are excluded by default.
++    Applies strict offline configuration flags.
++    Never modifies, reads with mutation, or poisons the parent environment (os.environ).
++    """
++    # Strict allowlist of safe system and runtime keys (case-insensitive comparison)
++    SAFE_ALLOWLIST_KEYS = frozenset({
++        "SYSTEMROOT",
++        "SYSTEMDRIVE",
++        "WINDIR",
++        "COMSPEC",
++        "PATH",
++        "PATHEXT",
++        "TEMP",
++        "TMP",
++        "USERPROFILE",
++        "HOMEDRIVE",
++        "HOMEPATH",
++        "PYTHONPATH",
++        "PYTHONHOME",
++        "PYTHONUTF8",
++        "PYTHONIOENCODING",
++        "VIRTUAL_ENV",
++    })
++
++    MANDATORY_OFFLINE_ENV = {
++        "HF_HUB_OFFLINE": "1",
++        "TRANSFORMERS_OFFLINE": "1",
++        "HF_DATASETS_OFFLINE": "1",
++        "NO_PROXY": "*",
++        "no_proxy": "*",
++        "PYTHONUNBUFFERED": "1",
++    }
++
++    @classmethod
++    def build(cls, base_env: Optional[Dict[str, str]] = None) -> Dict[str, str]:
++        source = dict(os.environ if base_env is None else base_env)
++        cleaned: Dict[str, str] = {}
++        for k, v in source.items():
++            if k.upper() in cls.SAFE_ALLOWLIST_KEYS:
++                cleaned[k] = v
++        cleaned.update(cls.MANDATORY_OFFLINE_ENV)
++        return cleaned
++
++
++class InProcessNetworkBlocker:
++    """
++    In-process Python socket interceptor providing defense-in-depth against accidental
++    network requests from pure-Python modules.
++
++    IMPORTANT SCOPE LIMITATION:
++    This context manager intercepts Python-level socket calls (connect, connect_ex, sendto,
++    and DNS lookups via getaddrinfo, gethostbyname, gethostbyname_ex). It does NOT intercept
++    native C/C++ network calls made directly by compiled libraries (e.g. libcurl, grpc,
++    native database drivers). Genuine external offline isolation requires operating-system
++    level firewall enforcement.
++    """
++    def __init__(self):
++        self._orig_connect = None
++        self._orig_connect_ex = None
++        self._orig_sendto = None
++        self._orig_getaddrinfo = None
++        self._orig_gethostbyname = None
++        self._orig_gethostbyname_ex = None
++
++    def __enter__(self):
++        import socket
++        self._orig_connect = socket.socket.connect
++        self._orig_connect_ex = socket.socket.connect_ex
++        self._orig_sendto = socket.socket.sendto
++        self._orig_getaddrinfo = socket.getaddrinfo
++        self._orig_gethostbyname = socket.gethostbyname
++        self._orig_gethostbyname_ex = socket.gethostbyname_ex
++
++        def blocked_connect(s_self, address):
++            raise NetworkAccessBlockedError(
++                f"In-process network blocker: socket.connect attempt to {address!r} blocked."
++            )
++
++        def blocked_connect_ex(s_self, address):
++            raise NetworkAccessBlockedError(
++                f"In-process network blocker: socket.connect_ex attempt to {address!r} blocked."
++            )
++
++        def blocked_sendto(s_self, *args, **kwargs):
++            raise NetworkAccessBlockedError(
++                "In-process network blocker: socket.sendto attempt blocked."
++            )
++
++        def blocked_getaddrinfo(*args, **kwargs):
++            raise NetworkAccessBlockedError(
++                f"In-process network blocker: DNS lookup (getaddrinfo) for {args[:2]!r} blocked."
++            )
++
++        def blocked_gethostbyname(*args, **kwargs):
++            raise NetworkAccessBlockedError(
++                f"In-process network blocker: DNS lookup (gethostbyname) for {args[:1]!r} blocked."
++            )
++
++        def blocked_gethostbyname_ex(*args, **kwargs):
++            raise NetworkAccessBlockedError(
++                f"In-process network blocker: DNS lookup (gethostbyname_ex) for {args[:1]!r} blocked."
++            )
++
++        socket.socket.connect = blocked_connect
++        socket.socket.connect_ex = blocked_connect_ex
++        socket.socket.sendto = blocked_sendto
++        socket.getaddrinfo = blocked_getaddrinfo
++        socket.gethostbyname = blocked_gethostbyname
++        socket.gethostbyname_ex = blocked_gethostbyname_ex
++        return self
++
++    def __exit__(self, exc_type, exc_val, exc_tb):
++        import socket
++        if self._orig_connect is not None:
++            socket.socket.connect = self._orig_connect
++            self._orig_connect = None
++        if self._orig_connect_ex is not None:
++            socket.socket.connect_ex = self._orig_connect_ex
++            self._orig_connect_ex = None
++        if self._orig_sendto is not None:
++            socket.socket.sendto = self._orig_sendto
++            self._orig_sendto = None
++        if self._orig_getaddrinfo is not None:
++            socket.getaddrinfo = self._orig_getaddrinfo
++            self._orig_getaddrinfo = None
++        if self._orig_gethostbyname is not None:
++            socket.gethostbyname = self._orig_gethostbyname
++            self._orig_gethostbyname = None
++        if self._orig_gethostbyname_ex is not None:
++            socket.gethostbyname_ex = self._orig_gethostbyname_ex
++            self._orig_gethostbyname_ex = None
++        return False
++
++
++class WindowsFirewallManager:
++    """
++    Mockable interface for managing outbound Windows Firewall rules for offline execution isolation.
++    Real modification is strictly blocked without administrative authorization.
++    In mock mode, models full rule properties: rule_name, program, direction='outbound',
++    action='block', profile='any', protocol='any', owner_pid, and created_utc.
++    Enforces collision detection and PID ownership verification on removal.
++    """
++    def __init__(
++        self,
++        rule_id: str,
++        is_synthetic: bool = True,
++        command_executor: Optional[Callable[[List[str]], Tuple[int, str, str]]] = None,
++    ):
++        self.rule_id = rule_id
++        self.is_synthetic = is_synthetic
++        self.command_executor = command_executor
++        self._rule_properties: Optional[Dict[str, Any]] = None
++        self._owner_pid: Optional[int] = None
++
++    def create_rule(self, program_path: Path) -> Dict[str, Any]:
++        if not self.is_synthetic:
++            raise NotImplementedError(
++                "Genuine Windows Firewall rule creation requires elevated administrative privileges. "
++                "OS firewall rule manipulation is strictly forbidden in code-only mode."
++            )
++        if self._rule_properties is not None:
++            raise IntegrityCheckError(f"Firewall rule collision: rule '{self.rule_id}' is already active.")
++
++        self._owner_pid = os.getpid()
++        self._rule_properties = {
++            "rule_name": self.rule_id,
++            "program": str(Path(program_path).resolve()),
++            "direction": "outbound",
++            "action": "block",
++            "profile": "any",
++            "protocol": "any",
++            "owner_pid": self._owner_pid,
++            "created_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
++        }
++        return dict(self._rule_properties)
++
++    def verify_rule(self) -> Optional[Dict[str, Any]]:
++        if not self.is_synthetic:
++            raise NotImplementedError("Genuine Windows Firewall query requires elevated administrative privileges.")
++        return dict(self._rule_properties) if self._rule_properties else None
++
++    def remove_rule(self) -> None:
++        if not self.is_synthetic:
++            raise NotImplementedError("Genuine Windows Firewall removal requires elevated administrative privileges.")
++        if self._rule_properties is None:
++            return
++        if os.getpid() != self._owner_pid:
++            raise SecurityViolationError(
++                f"Ownership check failed: process PID {os.getpid()} cannot remove rule owned by PID {self._owner_pid}."
++            )
++        self._rule_properties = None
++        self._owner_pid = None
++
++    def get_manual_recovery_command(self) -> str:
++        """Returns the verified netsh command for manual rule cleanup."""
++        return f'netsh advfirewall firewall delete rule name="{self.rule_id}"'
++
++
++class OfflinePreflightSupervisor:
++    """
++    Supervises preflight child process execution with timeout, memory ceiling,
++    and outer finalizer source/snapshot/cache integrity audits.
++    Supports dependency injection for process execution, clock sampling,
++    and memory measurement for deterministic testing without live long-running tasks.
++    """
++    def __init__(
++        self,
++        source_dir: Path,
++        expected_sqlite_sha256: str,
++        expected_store_inventory: Optional[Dict[str, str]] = None,
++        expected_snapshot_dir: Optional[Path] = None,
++        expected_cache_dir: Optional[Path] = None,
++        expected_cache_pins: Optional[Dict[str, str]] = None,
++        timeout_seconds: float = 60.0,
++        memory_ceiling_bytes: int = 4 * 1024 * 1024 * 1024,  # 4 GB provisional
++        audit_output_dir: Optional[Path] = None,
++        process_runner: Optional[Callable[[List[str], Dict[str, str]], Any]] = None,
++        clock_fn: Optional[Callable[[], float]] = None,
++        memory_sampler: Optional[Callable[[Any], int]] = None,
++    ):
++        self.source_dir = Path(source_dir).resolve()
++        self.expected_sqlite_sha256 = expected_sqlite_sha256.lower()
++        self.expected_store_inventory = expected_store_inventory
++        self.expected_snapshot_dir = Path(expected_snapshot_dir).resolve() if expected_snapshot_dir else None
++        self.expected_cache_dir = Path(expected_cache_dir).resolve() if expected_cache_dir else None
++        self.expected_cache_pins = expected_cache_pins
++        self.timeout_seconds = timeout_seconds
++        self.memory_ceiling_bytes = memory_ceiling_bytes
++        self.audit_output_dir = Path(audit_output_dir).resolve() if audit_output_dir else None
++        self.process_runner = process_runner
++        self.clock_fn = clock_fn or time.time
++        self.memory_sampler = memory_sampler
++
++    def verify_source_integrity(self) -> bool:
++        """
++        Outer finalizer check: confirms source chroma.sqlite3 matches expected hash,
++        and all 11 store files in expected_store_inventory match if supplied.
++        """
++        sqlite_p = self.source_dir / "chroma.sqlite3"
++        if not sqlite_p.exists():
++            return False
++        h = hashlib.sha256()
++        with open(sqlite_p, "rb") as fp:
++            while chunk := fp.read(65536):
++                h.update(chunk)
++        if h.hexdigest().lower() != self.expected_sqlite_sha256:
++            return False
++
++        if self.expected_store_inventory:
++            for rel_path, exp_sha in self.expected_store_inventory.items():
++                p = self.source_dir / rel_path
++                if not p.exists():
++                    return False
++                fh = hashlib.sha256()
++                with open(p, "rb") as fp:
++                    while chunk := fp.read(65536):
++                        fh.update(chunk)
++                if fh.hexdigest().lower() != exp_sha.lower():
++                    return False
++
++        if self.expected_cache_dir and self.expected_cache_pins:
++            for rel_path, exp_sha in self.expected_cache_pins.items():
++                p = self.expected_cache_dir / rel_path
++                if (self.expected_cache_dir / "onnx" / rel_path).exists():
++                    p = self.expected_cache_dir / "onnx" / rel_path
++                if not p.exists():
++                    return False
++                fh = hashlib.sha256()
++                with open(p, "rb") as fp:
++                    while chunk := fp.read(65536):
++                        fh.update(chunk)
++                if fh.hexdigest().lower() != exp_sha.lower():
++                    return False
++
++        return True
++
++    def run_supervised_process(
++        self,
++        command: List[str],
++        env: Optional[Dict[str, str]] = None,
++    ) -> Dict[str, Any]:
++        """
++        Runs a child process command under supervision, monitoring elapsed time and memory usage.
++        Kills the child process if timeout or memory ceiling is breached.
++        Always executes the outer finalizer verifying source, snapshot, and cache integrity.
++        """
++        start_time = self.clock_fn()
++        child_proc = None
++        child_error = None
++        exit_code = None
++
++        if self.process_runner is None:
++            raise NotImplementedError(
++                "Real subprocess execution requires explicit process runner injection or Stage 3 authorization."
++            )
++
++        try:
++            child_proc = self.process_runner(command, env or {})
++            while True:
++                now = self.clock_fn()
++                elapsed = now - start_time
++                if elapsed > self.timeout_seconds:
++                    if hasattr(child_proc, "kill"):
++                        child_proc.kill()
++                    raise SupervisorExecutionError(
++                        f"Child execution timed out after {elapsed:.2f}s (ceiling: {self.timeout_seconds:.2f}s)"
++                    )
++                if self.memory_sampler is not None:
++                    mem_used = self.memory_sampler(child_proc)
++                    if mem_used > self.memory_ceiling_bytes:
++                        if hasattr(child_proc, "kill"):
++                            child_proc.kill()
++                        raise SupervisorExecutionError(
++                            f"Child execution breached memory ceiling: {mem_used} bytes > {self.memory_ceiling_bytes} bytes"
++                        )
++                if hasattr(child_proc, "poll"):
++                    status = child_proc.poll()
++                    if status is not None:
++                        exit_code = status
++                        break
++                elif hasattr(child_proc, "exit_code"):
++                    exit_code = child_proc.exit_code
++                    break
++                else:
++                    break
++        except Exception as e:
++            child_error = e
++        finally:
++            elapsed = self.clock_fn() - start_time
++            source_intact = self.verify_source_integrity()
++
++        # Write exclusive audit record if audit_output_dir is configured
++        if self.audit_output_dir is not None:
++            audit_path = self.audit_output_dir / "supervisor_audit.json"
++            if audit_path.exists():
++                raise DestinationCollisionError(f"Supervisor audit file already exists: {audit_path}")
++            self.audit_output_dir.mkdir(parents=True, exist_ok=True)
++            with open(audit_path, "x", encoding="utf-8") as fp:
++                json.dump({
++                    "command": command,
++                    "elapsed_seconds": elapsed,
++                    "source_intact": source_intact,
++                    "exit_code": exit_code,
++                    "error": str(child_error) if child_error else None,
++                }, fp, indent=2)
++
++        if not source_intact:
++            raise IntegrityCheckError(
++                "SUPERVISOR OUTER FINALIZER ALERT: Source/protected store integrity check failed!"
++            )
++        if child_error is not None:
++            raise child_error
++
++        if exit_code != 0:
++            raise SupervisorExecutionError(f"Child process failed with non-zero exit code: {exit_code}")
++
++        return {
++            "status": "SUPERVISED_EXECUTION_SUCCESS",
++            "elapsed_seconds": elapsed,
++            "exit_code": exit_code,
++            "source_store_intact": source_intact,
++        }
++
++    def run_supervised(
++        self,
++        child_fn: Callable[[], Any],
++    ) -> Dict[str, Any]:
++        """
++        Executes child callable under supervisor envelope with outer finalizer guarantee.
++        Provided for callable unit testing.
++        """
++        start_time = self.clock_fn()
++        child_error = None
++        child_result = None
++        try:
++            child_result = child_fn()
++        except Exception as e:
++            child_error = e
++        finally:
++            elapsed = self.clock_fn() - start_time
++            source_intact = self.verify_source_integrity()
++
++        if not source_intact:
++            raise IntegrityCheckError(
++                f"SUPERVISOR OUTER FINALIZER ALERT: Source store hash mismatch detected! Expected {self.expected_sqlite_sha256}"
++            )
++        if child_error is not None:
++            raise child_error
++
++        return {
++            "status": "SUPERVISED_EXECUTION_SUCCESS",
++            "elapsed_seconds": elapsed,
++            "source_store_intact": source_intact,
++            "result": child_result,
++        }
++
++
+ # =============================================================================
+ # 3. Exact Corpus Parity & Layered Representation Audit
+ # =============================================================================
+@@ -812,6 +2335,188 @@ class GraphSchemaAuditor:
+         }
+ 
+ 
++# =============================================================================
++# 4a-1. Benchmark Schema Adapter & Loader (Stage 3D)
++# =============================================================================
++
++class BenchmarkSchemaAdapter:
++    """
++    Validates and loads the authentic 350-query benchmark dataset (terra_350_benchmark.json).
++    Enforces exact schema: 'query_id', 'query', 'category'.
++    Enforces exact category distribution:
++      A_Factual: 100
++      B_Evolutionary: 100
++      C_OutOfContext: 75
++      D_Adversarial: 75
++      Total: 350
++    Keeps category labels strictly outside retrieval query text.
++    Fails closed on missing fields, empty text, duplicate query_ids, or unrecognized categories.
++    """
++
++    EXPECTED_TOTAL_QUERIES = 350
++    EXPECTED_CATEGORY_COUNTS = {
++        "A_Factual": 100,
++        "B_Evolutionary": 100,
++        "C_OutOfContext": 75,
++        "D_Adversarial": 75,
++    }
++
++    @classmethod
++    def validate_and_load(
++        cls,
++        benchmark_path: Union[str, Path],
++        expected_total: Optional[int] = 350,
++        expected_category_counts: Optional[Dict[str, int]] = None,
++        workspace_root: Optional[Path] = None,
++        expected_sha256: Optional[str] = None,
++    ) -> List[Dict[str, Any]]:
++        """
++        Validate containment, schema, and category distribution of benchmark JSON.
++        Enforces path containment, symlink/reparse point rejection, and optional SHA-256 verification.
++        Rejects whitespace-padded query_id and category fields.
++        Returns the validated list of records.
++        """
++        p = Path(benchmark_path)
++        if not p.exists():
++            raise IntegrityCheckError(f"Benchmark file does not exist: {p}")
++        if not p.is_file():
++            raise IntegrityCheckError(f"Benchmark path is not a regular file: {p}")
++
++        # Enforce reviewed path containment and symlink/reparse checks
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(p)
++
++        if workspace_root is not None:
++            try:
++                ws_res = Path(workspace_root).resolve()
++                p_res = p.resolve()
++                p_res.relative_to(ws_res)
++            except ValueError:
++                raise IntegrityCheckError(f"Benchmark path '{p}' resolves outside workspace root '{workspace_root}'")
++
++        if expected_sha256 is not None:
++            actual_sha = ProtectedInventoryAuditor.hash_file_sha256(p)
++            if actual_sha.lower() != expected_sha256.lower():
++                raise IntegrityCheckError(
++                    f"Benchmark SHA-256 pin mismatch for '{p}': expected {expected_sha256}, got {actual_sha}"
++                )
++
++        try:
++            with open(p, "r", encoding="utf-8") as fp:
++                data = json.load(fp)
++        except Exception as e:
++            raise IntegrityCheckError(f"Malformed JSON in benchmark file '{p}': {e}")
++
++        if not isinstance(data, list):
++            raise IntegrityCheckError(f"Benchmark root must be a JSON array, got {type(data).__name__}")
++
++        total_queries = len(data)
++        if expected_total is not None and total_queries != expected_total:
++            raise IntegrityCheckError(
++                f"Benchmark total query count mismatch: {total_queries} != expected {expected_total}"
++            )
++
++        seen_ids: Set[str] = set()
++        category_counts: Dict[str, int] = {}
++        allowed_categories = set(
++            expected_category_counts.keys() if expected_category_counts is not None else cls.EXPECTED_CATEGORY_COUNTS.keys()
++        )
++
++        for idx, item in enumerate(data):
++            if not isinstance(item, dict):
++                raise IntegrityCheckError(f"Benchmark item at index {idx} is not a JSON object")
++
++            for req_key in ("query_id", "query", "category"):
++                if req_key not in item:
++                    raise IntegrityCheckError(f"Benchmark item at index {idx} missing required key '{req_key}'")
++
++            qid = item["query_id"]
++            if not isinstance(qid, str) or not qid.strip():
++                raise IntegrityCheckError(f"Benchmark item at index {idx} has invalid query_id: {repr(qid)}")
++            if qid != qid.strip():
++                raise IntegrityCheckError(f"Benchmark item at index {idx} has whitespace-padded query_id: {repr(qid)}")
++
++            if qid in seen_ids:
++                raise IntegrityCheckError(f"Duplicate query_id detected in benchmark: '{qid}' at index {idx}")
++            seen_ids.add(qid)
++
++            query_text = item["query"]
++            if not isinstance(query_text, str) or not query_text.strip():
++                raise IntegrityCheckError(f"Benchmark item '{qid}' has empty or non-string query text")
++
++            cat = item["category"]
++            if not isinstance(cat, str) or not cat.strip():
++                raise IntegrityCheckError(f"Benchmark item '{qid}' has invalid category: {repr(cat)}")
++            if cat != cat.strip():
++                raise IntegrityCheckError(f"Benchmark item '{qid}' has whitespace-padded category: {repr(cat)}")
++            if cat not in allowed_categories:
++                raise IntegrityCheckError(
++                    f"Benchmark item '{qid}' has unrecognized or forbidden category: {repr(cat)}. "
++                    f"Authorized categories: {sorted(list(allowed_categories))}"
++                )
++            category_counts[cat] = category_counts.get(cat, 0) + 1
++
++        exp_counts = expected_category_counts if expected_category_counts is not None else (
++            cls.EXPECTED_CATEGORY_COUNTS if expected_total == cls.EXPECTED_TOTAL_QUERIES else None
++        )
++        if exp_counts:
++            for cat_name, exp_n in exp_counts.items():
++                actual_n = category_counts.get(cat_name, 0)
++                if actual_n != exp_n:
++                    raise IntegrityCheckError(
++                        f"Benchmark category '{cat_name}' count mismatch: {actual_n} != expected {exp_n}"
++                    )
++
++        return data
++
++    @staticmethod
++    def extract_retrieval_queries(records: List[Dict[str, Any]]) -> List[Tuple[str, str]]:
++        """
++        Extract clean query tuples (query_id, query_text) for retrieval.
++        Strictly excludes category labels and target/gold annotations from retrieval inputs.
++        Preserves query_text exactly without silent normalization or stripping.
++        """
++        return [(r["query_id"], r["query"]) for r in records]
++
++
++# =============================================================================
++# 4a-2. Streaming Graph Archive Loader (Stage 3D)
++# =============================================================================
++
++class StreamingGraphArchiveLoader:
++    """
++    Stage 3D streaming graph archive loader.
++    Reuses and delegates to audited BoundedMemoryGraphLoader to ensure
++    byte/memory ceilings, end-of-stream verification, duplicate JSON key rejection,
++    and graph schema auditing against GraphSchemaAuditor.
++    """
++
++    MAX_UNCOMPRESSED_BYTES = 250 * 1024 * 1024  # 250 MB ceiling
++    MAX_NODES = 25000
++
++    @classmethod
++    def load_graph_archive(
++        cls,
++        archive_path: Path,
++        max_bytes: int = MAX_UNCOMPRESSED_BYTES,
++        max_nodes: int = MAX_NODES,
++        decoder_memlimit: Optional[int] = 128 * 1024 * 1024,
++        allow_uncompressed_test_mode: bool = False,
++        **kwargs,
++    ) -> Tuple[Dict[str, Dict[str, Any]], List[Dict[str, Any]], Dict[str, Any]]:
++        nodes, edges, schema_report = BoundedMemoryGraphLoader.load_graph_archive(
++            archive_path=archive_path,
++            max_decompressed_bytes=max_bytes,
++            decoder_memlimit=decoder_memlimit,
++            allow_uncompressed_test_mode=allow_uncompressed_test_mode,
++            **kwargs,
++        )
++        if len(nodes) > max_nodes:
++            raise IntegrityCheckError(
++                f"Graph node count ({len(nodes)}) exceeds maximum safety limit ({max_nodes})."
++            )
++        return nodes, edges, schema_report
++
++
+ # =============================================================================
+ # 4b. Isolated Chroma Disposable Reader Adapter (Stage 1)
+ # =============================================================================
+@@ -834,6 +2539,7 @@ class ChromaDisposableReader:
+         disposable_dir: Path,
+         expected_source_dir: Path,
+         client_factory: Optional[Callable[[Path], Any]] = None,
++        embedding_function: Optional[Any] = None,
+         sqlite_connect_fn: Optional[Callable[..., Any]] = None,
+     ):
+         self.receipt = receipt
+@@ -845,6 +2551,7 @@ class ChromaDisposableReader:
+             pre_binding=True,
+         )
+         self.client_factory = client_factory
++        self.embedding_function = embedding_function
+         self.sqlite_connect_fn = sqlite_connect_fn or sqlite3.connect
+         self.db_path = self.disposable_dir / "chroma.sqlite3"
+         self._client: Optional[Any] = None
+@@ -1081,10 +2788,23 @@ class ChromaDisposableReader:
+         return self._client
+ 
+     def get_collection(self) -> Any:
+-        """Retrieve the target collection from client."""
++        """
++        Retrieve target collection from client with verified offline embedding function binding.
++        Ensures the collection uses our offline embedding function without downloading.
++        """
+         if self._collection is None:
+             client = self.get_client()
+-            self._collection = client.get_collection(name=self.COLLECTION_NAME)
++            if self.embedding_function is not None:
++                try:
++                    self._collection = client.get_collection(
++                        name=self.COLLECTION_NAME,
++                        embedding_function=self.embedding_function,
++                    )
++                except TypeError:
++                    # Backward compatibility if mock client get_collection accepts only name
++                    self._collection = client.get_collection(name=self.COLLECTION_NAME)
++            else:
++                self._collection = client.get_collection(name=self.COLLECTION_NAME)
+         return self._collection
+ 
+     def query_dense_candidates(
+@@ -1097,6 +2817,7 @@ class ChromaDisposableReader:
+         Validates output candidates, non-empty IDs, finite non-negative distances,
+         and deterministic tie-breaking. Rejects missing distances, fabricated zeros,
+         boolean distances, and candidates exceeding top_k.
++        Uses query_texts embedded strictly via the bound offline embedding_function.
+         """
+         self._revalidate_containment(pre_binding=not self._bound)
+         if not self._schema_validated:
+@@ -1114,11 +2835,13 @@ class ChromaDisposableReader:
+                 raise IntegrityCheckError(f"Malformed query text encountered: {repr(q)} (must be non-empty string)")
+ 
+         collection = self.get_collection()
+-        raw_res = collection.query(
+-            query_texts=query_texts,
+-            n_results=top_k,
+-            include=["distances"],
+-        )
++        query_kwargs: Dict[str, Any] = {
++            "query_texts": query_texts,
++            "n_results": top_k,
++            "include": ["distances"],
++        }
++
++        raw_res = collection.query(**query_kwargs)
+ 
+         if not isinstance(raw_res, dict):
+             raise IntegrityCheckError(f"Query returned invalid result type: {type(raw_res)}")
+@@ -1410,6 +3133,181 @@ class BoundedMemoryGraphLoader:
+ StreamingGraphLoader = BoundedMemoryGraphLoader
+ 
+ 
++# =============================================================================
++# 4b. Canonical Role Configuration Factory (Stage 3D)
++# =============================================================================
++
++class CanonicalRoleConfigFactory:
++    """
++    Factory for production and synthetic role endpoint configurations.
++    Routes tokenizer manifests appropriately:
++    - judge1, judge2 -> tokenizer_manifest.sha256 (public)
++    - router, generator -> gated_tokenizer_manifest.v1.sha256 (gated)
++    - verifier -> shares generator tokenizer instance
++    Enforces provisional context ceilings and output reservations:
++    - router: context 8192, output 100, input ceiling 1000
++    - verifier: context 16384, output 1000, input ceiling 7000
++    - generator: context 128000, output 4096, input ceiling 7000
++    - judge1: context 32768, output 1024, input ceiling 15000
++    - judge2: context 32768, output 1024, input ceiling 15000
++    In authentic mode, strictly rejects missing/mocked dependencies and enforces path containment.
++    Supports injected tokenizer_factory for synthetic testing without touching real assets.
++    """
++
++    ROLE_SPECS: Dict[str, Dict[str, Any]] = {
++        "router": {
++            "model_name": "google/gemma-3-12b-it",
++            "manifest_file": "gated_tokenizer_manifest.v1.sha256",
++            "context_window": 8192,
++            "output_reservation": 100,
++            "input_ceiling": 1000,
++        },
++        "verifier": {
++            "model_name": "meta-llama/Llama-3.3-70B-Instruct",
++            "manifest_file": "gated_tokenizer_manifest.v1.sha256",
++            "context_window": 16384,
++            "output_reservation": 1000,
++            "input_ceiling": 7000,
++            "shares_role": "generator",
++        },
++        "generator": {
++            "model_name": "meta-llama/Llama-3.3-70B-Instruct",
++            "manifest_file": "gated_tokenizer_manifest.v1.sha256",
++            "context_window": 128000,
++            "output_reservation": 4096,
++            "input_ceiling": 7000,
++        },
++        "judge1": {
++            "model_name": "Qwen/Qwen3-Next-80B-A3B-Instruct",
++            "manifest_file": "tokenizer_manifest.sha256",
++            "context_window": 32768,
++            "output_reservation": 1024,
++            "input_ceiling": 15000,
++        },
++        "judge2": {
++            "model_name": "openai/gpt-oss-120b",
++            "manifest_file": "tokenizer_manifest.sha256",
++            "context_window": 32768,
++            "output_reservation": 1024,
++            "input_ceiling": 15000,
++        },
++    }
++
++    @classmethod
++    def build_role_configs(
++        cls,
++        tokenizer_base_dir: Path,
++        workspace_root: Optional[Path] = None,
++        mode: str = "authentic",
++        tokenizer_factory: Optional[Callable[[str, Path, Path, Path, str], TokenizerInterface]] = None,
++        custom_tokenizers: Optional[Dict[str, TokenizerInterface]] = None,
++    ) -> Dict[str, RoleEndpointConfig]:
++        """
++        Constructs RoleEndpointConfig dictionary for the 5 evaluation roles.
++        Enforces manifest routing, verifier sharing generator tokenizer,
++        provisional context ceilings, and strict dependency rejection in authentic mode.
++        """
++        if mode not in ("authentic", "synthetic"):
++            raise ConfigurationError(f"Unsupported mode '{mode}'; mode must be 'authentic' or 'synthetic'")
++
++        if mode == "authentic":
++            if custom_tokenizers is not None:
++                raise ConfigurationError("custom_tokenizers injection is forbidden in authentic mode; restricted to explicit synthetic mode.")
++            if tokenizer_factory is not None:
++                raise ConfigurationError("tokenizer_factory injection is forbidden in authentic mode; restricted to explicit synthetic mode.")
++
++        tok_base = Path(tokenizer_base_dir)
++        ws = Path(workspace_root) if workspace_root else (tok_base.parent.parent if tok_base.name == "tokenizers" else tok_base)
++
++        if mode == "synthetic" and custom_tokenizers is not None:
++            gen_tok = custom_tokenizers.get("generator")
++            if gen_tok is None:
++                raise ConfigurationError("custom_tokenizers must include 'generator'")
++            if "verifier" in custom_tokenizers and custom_tokenizers["verifier"] is not gen_tok:
++                raise ConfigurationError("Verifier tokenizer must share the generator tokenizer instance; distinct verifier tokenizer rejected.")
++
++            configs: Dict[str, RoleEndpointConfig] = {}
++            for role, spec in cls.ROLE_SPECS.items():
++                if role == "verifier":
++                    tok = gen_tok
++                else:
++                    tok = custom_tokenizers.get(role)
++                    if tok is None:
++                        raise ConfigurationError(f"custom_tokenizers missing required role '{role}'")
++                configs[role] = RoleEndpointConfig(
++                    role_name=role,
++                    model_name=spec["model_name"],
++                    tokenizer=tok,
++                    context_window=spec["context_window"],
++                    output_token_reservation=spec["output_reservation"],
++                    input_token_ceiling=spec["input_ceiling"],
++                )
++            return configs
++
++        if mode == "authentic":
++            try:
++                from scripts.matched_baseline.fast_tokenizer_adapter import LocalFastTokenizer
++            except ImportError as ie:
++                raise ConfigurationBlockedError(f"Fast tokenizer adapter unavailable: {ie}")
++
++            def _authentic_factory(r: str, r_dir: Path, m_path: Path, b_dir: Path, m: str) -> TokenizerInterface:
++                return LocalFastTokenizer(
++                    role=r,
++                    role_dir=r_dir,
++                    manifest_path=m_path,
++                    base_dir=b_dir,
++                    mode=m,
++                )
++            factory_fn = _authentic_factory
++        else:
++            if tokenizer_factory is None:
++                raise ConfigurationError("Synthetic mode requires tokenizer_factory or custom_tokenizers")
++            factory_fn = tokenizer_factory
++
++        constructed_tokenizers: Dict[str, TokenizerInterface] = {}
++        for role in ["router", "generator", "judge1", "judge2"]:
++            spec = cls.ROLE_SPECS[role]
++            role_dir = tok_base / role
++            manifest_file = spec["manifest_file"]
++            manifest_path = tok_base / manifest_file
++
++            if not role_dir.exists() or not role_dir.is_dir():
++                raise ConfigurationError(f"Role directory does not exist for '{role}': {role_dir}")
++            if not manifest_path.exists() or not manifest_path.is_file():
++                raise ConfigurationError(f"Checksum manifest does not exist for '{role}': {manifest_path}")
++
++            tok = factory_fn(role, role_dir, manifest_path, ws, mode)
++            if mode == "authentic":
++                is_synth = getattr(tok, "is_synthetic", None)
++                if is_synth is not False:
++                    if is_synth is None:
++                        raise ConfigurationError(
++                            f"Tokenizer for role '{role}' lacks required 'is_synthetic' attribute; "
++                            "authentic identity requires explicit verified is_synthetic=False."
++                        )
++                    else:
++                        raise ConfigurationError(
++                            f"Synthetic tokenizer returned in authentic mode for role '{role}' "
++                            f"(is_synthetic={is_synth}). Authentic identity requires explicit verified is_synthetic=False."
++                        )
++            constructed_tokenizers[role] = tok
++
++        # Verifier shares generator's tokenizer instance
++        constructed_tokenizers["verifier"] = constructed_tokenizers["generator"]
++
++        configs = {}
++        for role, spec in cls.ROLE_SPECS.items():
++            configs[role] = RoleEndpointConfig(
++                role_name=role,
++                model_name=spec["model_name"],
++                tokenizer=constructed_tokenizers[role],
++                context_window=spec["context_window"],
++                output_token_reservation=spec["output_reservation"],
++                input_token_ceiling=spec["input_ceiling"],
++            )
++        return configs
++
++
+ # =============================================================================
+ # 5. Multi-Role Prompt Templates & Dual-Route Feasibility Simulation
+ # =============================================================================
+@@ -1858,6 +3756,15 @@ class OfflinePreflightDriver:
+         is_synthetic_mock: bool = True,
+         pricing_schedule: Optional[Dict[str, Dict[str, float]]] = None,
+         tokenizer: Optional[TokenizerInterface] = None,
++        benchmark_path: Optional[Path] = None,
++        tokenizer_base_dir: Optional[Path] = None,
++        workspace_root: Optional[Path] = None,
++        chroma_client_factory: Optional[Callable[[Path], Any]] = None,
++        embedding_function: Optional[Any] = None,
++        sqlite_connect_fn: Optional[Callable[..., Any]] = None,
++        tokenizer_factory: Optional[Callable[[str, Path, Path, Path, str], TokenizerInterface]] = None,
++        execute_authorized_real_preflight: bool = False,
++        expected_pins: Optional[Dict[str, str]] = None,
+     ):
+         self.base_output_dir = base_output_dir
+         self.source_chroma_dir = source_chroma_dir
+@@ -1867,9 +3774,25 @@ class OfflinePreflightDriver:
+         self.tokenizer = tokenizer
+         self.is_synthetic_mock = is_synthetic_mock
+         self.pricing_schedule = pricing_schedule
++        self.benchmark_path = benchmark_path
++        self.tokenizer_base_dir = tokenizer_base_dir
++        self.workspace_root = workspace_root or Path.cwd()
++        self.chroma_client_factory = chroma_client_factory
++        self.embedding_function = embedding_function
++        self.sqlite_connect_fn = sqlite_connect_fn
++        self.tokenizer_factory = tokenizer_factory
++        self.execute_authorized_real_preflight = execute_authorized_real_preflight
++
++        self.expected_pins: Dict[str, str] = {}
++        if not self.is_synthetic_mock:
++            self.expected_pins.update(ProtectedInventoryAuditor.CANONICAL_PRODUCTION_PINS)
++        if expected_pins:
++            self.expected_pins.update(expected_pins)
+ 
+         if role_configs is not None:
+             self.role_configs = role_configs
++        elif tokenizer_base_dir is not None or tokenizer_factory is not None:
++            self.role_configs = None
+         elif tokenizer is not None:
+             self.role_configs = self._build_default_mock_role_configs(tok=tokenizer)
+         else:
+@@ -1883,6 +3806,10 @@ class OfflinePreflightDriver:
+             labeled_to_check.append(("onnx_cache", self.onnx_cache_dir))
+         if self.graph_archive_path:
+             labeled_to_check.append(("graph_archive", self.graph_archive_path))
++        if self.benchmark_path:
++            labeled_to_check.append(("benchmark", self.benchmark_path))
++        if self.tokenizer_base_dir:
++            labeled_to_check.append(("tokenizer_base", self.tokenizer_base_dir))
+ 
+         IntegrityLifecycleManager.validate_directory_separation(labeled_to_check)
+ 
+@@ -1918,6 +3845,8 @@ class OfflinePreflightDriver:
+         mock_dense_rankings: Optional[Dict[str, List[str]]] = None,
+         expected_corpus_count: Optional[int] = None,
+         expected_query_count: Optional[int] = None,
++        benchmark_path: Optional[Path] = None,
++        disposable_reader: Optional[ChromaDisposableReader] = None,
+     ) -> PreflightSummary:
+         """Execute full offline preflight workflow with guaranteed finalization."""
+         start_time = time.time()
+@@ -1940,10 +3869,53 @@ class OfflinePreflightDriver:
+         snapshot_manifest_before: Dict[str, ManifestEntry] = {}
+         disposable_manifest_before: Dict[str, ManifestEntry] = {}
+ 
++        pre_protected_inv: Optional[Dict[str, Any]] = None
++        protected_drift = False
++
+         try:
+             # -------------------------------------------------------------
+             # Stage 1: Offline Prerequisites & Truthful Production Blocking
+             # -------------------------------------------------------------
++            # Audit and record immutable protected inventory in workspace before execution
++            try:
++                pre_protected_inv = ProtectedInventoryAuditor.collect_protected_inventory(
++                    workspace_root=self.workspace_root,
++                    graph_archive=self.graph_archive_path,
++                    benchmark_path=self.benchmark_path or benchmark_path,
++                    tokenizer_base_dir=self.tokenizer_base_dir,
++                    onnx_cache_dir=self.onnx_cache_dir,
++                    source_chroma_dir=self.source_chroma_dir,
++                    expected_pins=self.expected_pins,
++                )
++                self._save_exclusive_json("protected_input_inventory_pre.json", pre_protected_inv)
++                self._save_exclusive_json("protected_input_inventory.json", pre_protected_inv)
++                if pre_protected_inv.get("missing_required"):
++                    for mr in pre_protected_inv["missing_required"]:
++                        msg = f"Missing required protected file: '{mr['relative_path']}' ({mr['role']})"
++                        if not self.is_synthetic_mock:
++                            block_reasons.append(msg)
++                        else:
++                            failure_reasons.append(msg)
++                if pre_protected_inv.get("pin_mismatches"):
++                    for pm in pre_protected_inv["pin_mismatches"]:
++                        msg = f"Protected pin mismatch for '{pm['relative_path']}': expected {pm['expected_sha256']}, got {pm['actual_sha256']}"
++                        if not self.is_synthetic_mock:
++                            block_reasons.append(msg)
++                        else:
++                            failure_reasons.append(msg)
++                if pre_protected_inv.get("security_violations"):
++                    for sv in pre_protected_inv["security_violations"]:
++                        msg = f"Protected security violation on '{sv['relative_path']}': {sv['error']}"
++                        if not self.is_synthetic_mock:
++                            block_reasons.append(msg)
++                        else:
++                            failure_reasons.append(msg)
++            except Exception as pe:
++                if not self.is_synthetic_mock:
++                    block_reasons.append(f"Protected inventory pre-audit error: {str(pe)}")
++                else:
++                    failure_reasons.append(f"Protected inventory pre-audit error: {str(pe)}")
++
+             guard_reasons = NoDownloadGuard.verify_offline_conditions(
+                 enforced_offline_arg=self.enforced_offline_arg,
+                 onnx_cache_dir=self.onnx_cache_dir,
+@@ -1955,9 +3927,27 @@ class OfflinePreflightDriver:
+             if not self.is_synthetic_mock:
+                 block_reasons.append(
+                     "Production source ChromaDB directory, authentic adapters, and models "
+-                    "not yet implemented. Authentic store access and copy unconditionally BLOCKED "
+-                    "under Gate B governance until Gate C authorization."
++                    "not yet admitted for live drive. Authentic store access and copy unconditionally BLOCKED "
++                    "under Gate B governance until explicit Gate C authorization. "
++                    "CLI flags cannot substitute for human authorization; "
++                    "the --execute-authorized-real-preflight flag is a safety hold assertion, "
++                    "not an operational authorization bypass. No live execution is permitted without "
++                    "a separately reviewed execution packet and explicit dated human instruction."
+                 )
++                # Require complete pins for all declared production inputs
++                for item in (pre_protected_inv.get("protected_inputs") if pre_protected_inv else []):
++                    if item.get("required") and item.get("role") in (
++                        "benchmark_data",
++                        "graph_archive",
++                        "graph_provenance",
++                        "graph_manifest",
++                        "public_tokenizer_manifest",
++                        "gated_tokenizer_manifest",
++                    ):
++                        if not item.get("expected_sha256"):
++                            block_reasons.append(
++                                f"Declared production input '{item['relative_path']}' ({item['role']}) lacks an explicit reviewed SHA-256 pin."
++                            )
+                 if any([mock_dense_corpus, mock_sparse_corpus, mock_graph_nodes, mock_graph_edges, mock_queries, mock_dense_rankings]):
+                     block_reasons.append("Mock fixtures and synthetic inputs are strictly rejected in production mode.")
+                 if self.role_configs:
+@@ -1967,8 +3957,8 @@ class OfflinePreflightDriver:
+                 if self.tokenizer and isinstance(self.tokenizer, MockBpeTokenizer):
+                     block_reasons.append("MockBpeTokenizer rejected in production mode.")
+ 
+-            # If any blocking prerequisite triggered, halt before copying
+-            if block_reasons:
++            # If any blocking prerequisite or inventory failure triggered, halt before copying / reader / query work
++            if block_reasons or failure_reasons:
+                 pass  # Flow straight to finally block; do not return early
+ 
+             else:
+@@ -2006,26 +3996,39 @@ class OfflinePreflightDriver:
+                         "chroma_isolation_receipt.json",
+                         asdict(isolation_receipt),
+                     )
+-                else:
++                    if disposable_reader is None:
++                        disposable_reader = ChromaDisposableReader(
++                            receipt=isolation_receipt,
++                            disposable_dir=disposable_dir,
++                            expected_source_dir=self.source_chroma_dir,
++                            client_factory=self.chroma_client_factory,
++                            embedding_function=self.embedding_function,
++                            sqlite_connect_fn=self.sqlite_connect_fn,
++                        )
++                elif disposable_reader is None:
+                     block_reasons.append("No source Chroma directory provided for store protection test.")
+ 
+                 # -------------------------------------------------------------
+                 # Stage 3: Corpus Parity Audit & Set Agreement
+                 # -------------------------------------------------------------
+-                dense_docs = mock_dense_corpus or {}
+-                sparse_docs = mock_sparse_corpus or {}
+-                nodes_data = mock_graph_nodes or {}
+-                edges_data = mock_graph_edges or []
++                if mock_dense_corpus is not None or mock_sparse_corpus is not None:
++                    dense_docs = mock_dense_corpus or {}
++                    sparse_docs = mock_sparse_corpus or {}
++                elif disposable_reader:
++                    try:
++                        dense_docs = disposable_reader.extract_layer1_corpus(expected_count=expected_corpus_count)
++                        sparse_docs = dense_docs
++                    except Exception as de:
++                        failure_reasons.append(f"Disposable reader Layer 1 extraction error: {str(de)}")
++                        dense_docs = {}
++                        sparse_docs = {}
++                else:
++                    dense_docs = {}
++                    sparse_docs = {}
+ 
+                 if not dense_docs or not sparse_docs:
+                     block_reasons.append("Corpus documents not provided for parity audit.")
+                 else:
+-                    # Check corpus/graph ID set agreement (Finding 1)
+-                    if nodes_data and (set(dense_docs.keys()) != set(nodes_data.keys())):
+-                        failure_reasons.append(
+-                            f"Corpus and graph node ID sets mismatch: {len(dense_docs)} dense docs != {len(nodes_data)} graph nodes."
+-                        )
+-
+                     parity_report = CorpusParityAuditor.audit_corpus_parity(
+                         dense_docs, sparse_docs, expected_total_count=expected_corpus_count
+                     )
+@@ -2037,22 +4040,61 @@ class OfflinePreflightDriver:
+                 # -------------------------------------------------------------
+                 # Stage 4: Authentic Graph Schema Audit
+                 # -------------------------------------------------------------
+-                if not nodes_data:
+-                    block_reasons.append("Graph nodes collection not provided for schema audit.")
+-                else:
+-                    graph_report = GraphSchemaAuditor.audit_graph_data(nodes_data, edges_data)
+-                    self._save_exclusive_json("graph_schema_report.json", graph_report)
+-                    graph_passed = graph_report["schema_valid"]
+-                    if not graph_passed:
+-                        failure_reasons.append(
+-                            f"Graph schema audit failed: dangling edges ({graph_report.get('dangling_edges_count')}) "
+-                            f"or unsupported relations ({graph_report.get('unsupported_relations_count')})."
++                if self.graph_archive_path and not mock_graph_nodes:
++                    try:
++                        nodes_data, edges_data, graph_report = BoundedMemoryGraphLoader.load_graph_archive(
++                            self.graph_archive_path,
++                            allow_uncompressed_test_mode=self.is_synthetic_mock,
+                         )
++                        self._save_exclusive_json("graph_schema_report.json", graph_report)
++                        graph_passed = graph_report.get("schema_valid", False)
++                        if not graph_passed:
++                            failure_reasons.append(
++                                f"Graph schema audit failed: dangling edges ({graph_report.get('dangling_edges_count')}) "
++                                f"or unsupported relations ({graph_report.get('unsupported_relations_count')})."
++                            )
++                    except Exception as ge:
++                        failure_reasons.append(f"Graph archive loading error: {str(ge)}")
++                        nodes_data = {}
++                        edges_data = []
++                else:
++                    nodes_data = mock_graph_nodes or {}
++                    edges_data = mock_graph_edges or []
++                    if not nodes_data:
++                        block_reasons.append("Graph nodes collection not provided for schema audit.")
++                    else:
++                        graph_report = GraphSchemaAuditor.audit_graph_data(nodes_data, edges_data)
++                        self._save_exclusive_json("graph_schema_report.json", graph_report)
++                        graph_passed = graph_report["schema_valid"]
++                        if not graph_passed:
++                            failure_reasons.append(
++                                f"Graph schema audit failed: dangling edges ({graph_report.get('dangling_edges_count')}) "
++                                f"or unsupported relations ({graph_report.get('unsupported_relations_count')})."
++                            )
++
++                # Check corpus/graph ID set agreement (Finding 1)
++                if dense_docs and nodes_data and (set(dense_docs.keys()) != set(nodes_data.keys())):
++                    failure_reasons.append(
++                        f"Corpus and graph node ID sets mismatch: {len(dense_docs)} dense docs != {len(nodes_data)} graph nodes."
++                    )
+ 
+                 # -------------------------------------------------------------
+                 # Stage 5: Dual-Arm & Dual-Route Feasibility Simulation
+                 # -------------------------------------------------------------
+-                queries = mock_queries or []
++                active_bench = benchmark_path or self.benchmark_path
++                if active_bench and not mock_queries:
++                    try:
++                        bench_records = BenchmarkSchemaAdapter.validate_and_load(
++                            active_bench,
++                            expected_total=expected_query_count,
++                        )
++                        queries = BenchmarkSchemaAdapter.extract_retrieval_queries(bench_records)
++                    except Exception as be:
++                        failure_reasons.append(f"Benchmark schema error: {str(be)}")
++                        queries = []
++                else:
++                    queries = mock_queries or []
++
+                 total_queries = len(queries)
+ 
+                 # Reject duplicate query IDs in cohort (Finding 1)
+@@ -2060,6 +4102,15 @@ class OfflinePreflightDriver:
+                 if len(q_ids) != len(set(q_ids)):
+                     failure_reasons.append(f"Duplicate query IDs detected in evaluation cohort: {len(q_ids)} total vs {len(set(q_ids))} unique.")
+ 
++                # If disposable reader provided and rankings missing, query native L2
++                if disposable_reader and not mock_dense_rankings and queries:
++                    try:
++                        q_texts = [q[1] for q in queries]
++                        batch_rankings = disposable_reader.query_dense_candidates(q_texts, top_k=100)
++                        mock_dense_rankings = {queries[i][0]: batch_rankings[i] for i in range(len(queries))}
++                    except Exception as qe:
++                        failure_reasons.append(f"Dense candidate retrieval error: {str(qe)}")
++
+                 if total_queries == 0:
+                     block_reasons.append("No queries provided for feasibility simulation.")
+                 elif expected_query_count is not None and total_queries != expected_query_count:
+@@ -2070,73 +4121,97 @@ class OfflinePreflightDriver:
+                     # Finding 1: Reject absent per-query dense rankings (no defaulting to corpus insertion order)
+                     block_reasons.append("Missing per-query dense rankings for evaluation cohort.")
+                 else:
+-                    # Build default synthetic role configs if not provided
+-                    role_cfgs = self.role_configs or self._build_default_mock_role_configs()
+-
+-                    simulator = DualArmEnvelopeSimulator(role_configs=role_cfgs)
+-
+-                    bm25_engine = None
+-                    if sparse_docs:
+-                        bm25_engine = RobertsonOkapiBM25()
+-                        bm25_engine.index_corpus(sparse_docs)
+-
+-                    hybrid_retriever = HybridRetriever(bm25_engine=bm25_engine, corpus_nodes=nodes_data) if bm25_engine else None
+-                    terra_retriever = TerraRetriever(nodes_data=nodes_data, edges_data=edges_data) if nodes_data else None
+-
+-                    all_fit = True
+-                    query_metrics_list: List[QueryRoleMetrics] = []
+-
+-                    for q_id, q_text in queries:
+-                        dense_ranking = (mock_dense_rankings or {}).get(q_id)
+-                        if not dense_ranking:
+-                            failure_reasons.append(f"Query '{q_id}' is missing required dense ranking.")
+-                            all_fit = False
+-                            continue
+-
+-                        seed_ids = dense_ranking[:2]
+-
+-                        # Arm H: Hybrid BM25 + dense RRF
+-                        arm_h_candidates = hybrid_retriever.retrieve(q_text, dense_ranking, top_k_bm25=100, final_top_n=100) if hybrid_retriever else []
+-
+-                        # Arm T: TerraRetriever (EASY: 0-hop, HARD: depth-2)
+-                        arm_t_easy = terra_retriever.retrieve(seed_ids, top_n=2, max_depth_override=0) if terra_retriever else []
+-                        arm_t_hard = terra_retriever.retrieve(seed_ids, top_n=40, max_depth_override=2) if terra_retriever else []
+-
+-                        # Formatted structural character accounting matching TerraRetriever
+-                        chars_easy = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_easy)) + (7 * (len(arm_t_easy) - 1) if arm_t_easy else 0)
+-                        chars_hard = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_hard)) + (7 * (len(arm_t_hard) - 1) if arm_t_hard else 0)
++                    # Build role configs: use injected, construct via CanonicalRoleConfigFactory, or fallback
++                    role_cfgs = self.role_configs
++                    if role_cfgs is None:
++                        if self.tokenizer_base_dir or self.tokenizer_factory:
++                            try:
++                                mode = "synthetic" if self.is_synthetic_mock else "authentic"
++                                role_cfgs = CanonicalRoleConfigFactory.build_role_configs(
++                                    tokenizer_base_dir=self.tokenizer_base_dir or (self.workspace_root / "assets" / "tokenizers"),
++                                    workspace_root=self.workspace_root,
++                                    mode=mode,
++                                    tokenizer_factory=self.tokenizer_factory,
++                                )
++                            except Exception as tfe:
++                                failure_reasons.append(f"Canonical role config construction failed: {str(tfe)}")
++                                role_cfgs = None
++                        else:
++                            role_cfgs = self._build_default_mock_role_configs(tok=self.tokenizer)
++
++                    if role_cfgs is None:
++                        failure_reasons.append("Missing required role configs for dual-arm feasibility simulation.")
++                        simulator = None
++                    else:
++                        simulator = DualArmEnvelopeSimulator(role_configs=role_cfgs)
++
++                    if simulator is not None:
++                        bm25_engine = None
++                        if sparse_docs:
++                            bm25_engine = RobertsonOkapiBM25()
++                            bm25_engine.index_corpus(sparse_docs)
++
++                        hybrid_retriever = HybridRetriever(bm25_engine=bm25_engine, corpus_nodes=nodes_data) if bm25_engine else None
++                        terra_retriever = TerraRetriever(nodes_data=nodes_data, edges_data=edges_data) if nodes_data else None
++
++                        all_fit = True
++                        query_metrics_list: List[QueryRoleMetrics] = []
++
++                        for q_id, q_text in queries:
++                            dense_ranking = (mock_dense_rankings or {}).get(q_id)
++                            if not dense_ranking:
++                                failure_reasons.append(f"Query '{q_id}' is missing required dense ranking.")
++                                all_fit = False
++                                continue
++
++                            seed_ids = dense_ranking[:2]
++
++                            # Arm H: Hybrid BM25 + dense RRF
++                            arm_h_candidates = hybrid_retriever.retrieve(q_text, dense_ranking, top_k_bm25=100, final_top_n=100) if hybrid_retriever else []
++
++                            # Arm T: TerraRetriever (Hypothetical 0-hop and Hypothetical depth-2)
++                            arm_t_0hop = terra_retriever.retrieve(seed_ids, top_n=2, max_depth_override=0) if terra_retriever else []
++                            arm_t_depth2 = terra_retriever.retrieve(seed_ids, top_n=40, max_depth_override=2) if terra_retriever else []
++
++                            # Formatted structural character accounting matching TerraRetriever
++                            # Separator literal '\n---\n' is strictly 5 characters
++                            SEPARATOR_LEN = 5
++                            chars_0hop = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_0hop)) + (SEPARATOR_LEN * (len(arm_t_0hop) - 1) if arm_t_0hop else 0)
++                            chars_depth2 = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_depth2)) + (SEPARATOR_LEN * (len(arm_t_depth2) - 1) if arm_t_depth2 else 0)
++
++                            m_0hop = simulator.simulate_query(
++                                query_id=q_id,
++                                query_text=q_text,
++                                route_name="hypothetical_envelope_0hop",
++                                arm_h_candidates=arm_h_candidates,
++                                arm_t_candidates=arm_t_0hop,
++                                arm_t_structural_chars=chars_0hop,
++                            )
++                            query_metrics_list.append(m_0hop)
++
++                            m_depth2 = simulator.simulate_query(
++                                query_id=q_id,
++                                query_text=q_text,
++                                route_name="hypothetical_envelope_depth2",
++                                arm_h_candidates=arm_h_candidates,
++                                arm_t_candidates=arm_t_depth2,
++                                arm_t_structural_chars=chars_depth2,
++                            )
++                            query_metrics_list.append(m_depth2)
++
++                            if not (m_0hop.all_roles_passed and m_depth2.all_roles_passed):
++                                all_fit = False
++
++                        envelopes_passed = all_fit and (total_queries > 0)
++                        if not envelopes_passed and total_queries > 0:
++                            failure_reasons.append("One or more query envelopes failed token ceilings across roles.")
+ 
+-                        m_easy = simulator.simulate_query(
+-                            query_id=q_id,
+-                            query_text=q_text,
+-                            route_name="EASY",
+-                            arm_h_candidates=arm_h_candidates,
+-                            arm_t_candidates=arm_t_easy,
+-                            arm_t_structural_chars=chars_easy,
+-                        )
+-                        query_metrics_list.append(m_easy)
+-
+-                        m_hard = simulator.simulate_query(
+-                            query_id=q_id,
+-                            query_text=q_text,
+-                            route_name="HARD",
+-                            arm_h_candidates=arm_h_candidates,
+-                            arm_t_candidates=arm_t_hard,
+-                            arm_t_structural_chars=chars_hard,
++                        self._save_exclusive_json(
++                            "query_envelope_summary.json",
++                            [asdict(m) for m in query_metrics_list],
+                         )
+-                        query_metrics_list.append(m_hard)
+-
+-                        if not (m_easy.all_roles_passed and m_hard.all_roles_passed):
+-                            all_fit = False
+-
+-                    envelopes_passed = all_fit and (total_queries > 0)
+-                    if not envelopes_passed and total_queries > 0:
+-                        failure_reasons.append("One or more query envelopes failed token ceilings across roles.")
+-
+-                    self._save_exclusive_json(
+-                        "query_envelope_summary.json",
+-                        [asdict(m) for m in query_metrics_list],
+-                    )
++                    else:
++                        envelopes_passed = False
+ 
+                 # -------------------------------------------------------------
+                 # Stage 6: Call Count & Cost Modeling
+@@ -2156,6 +4231,32 @@ class OfflinePreflightDriver:
+             # -------------------------------------------------------------
+             # Guaranteed Finalization Lifecycle (Finding 2 & 3)
+             # -------------------------------------------------------------
++            # 1. Post-audit protected inputs and detect drift
++            try:
++                post_protected_inv = ProtectedInventoryAuditor.collect_protected_inventory(
++                    workspace_root=self.workspace_root,
++                    graph_archive=self.graph_archive_path,
++                    benchmark_path=self.benchmark_path or benchmark_path,
++                    tokenizer_base_dir=self.tokenizer_base_dir,
++                    onnx_cache_dir=self.onnx_cache_dir,
++                    source_chroma_dir=self.source_chroma_dir,
++                    expected_pins=self.expected_pins,
++                )
++                self._save_exclusive_json("protected_input_inventory_post.json", post_protected_inv)
++                if pre_protected_inv is not None:
++                    drift_report = ProtectedInventoryAuditor.compare_inventories(pre_protected_inv, post_protected_inv)
++                    self._save_exclusive_json("protected_inventory_audit.json", drift_report)
++                    if drift_report["drift_detected"]:
++                        protected_drift = True
++                        failure_reasons.append(
++                            f"Protected input drift detected: changed={drift_report['changed_count']}, "
++                            f"missing={drift_report['missing_count']}, added={drift_report['added_count']}"
++                        )
++            except Exception as pie:
++                protected_drift = True
++                failure_reasons.append(f"Protected inventory post-audit error: {str(pie)}")
++
++            # 2. Source store integrity check
+             if self.source_chroma_dir and source_manifest_before:
+                 try:
+                     if not self.source_chroma_dir.exists():
+@@ -2176,6 +4277,7 @@ class OfflinePreflightDriver:
+                     source_drift = True
+                     failure_reasons.append(f"Source store drift: {str(ice)}")
+ 
++            # 3. Preserved snapshot integrity check
+             if snapshot_manifest_before:
+                 try:
+                     if not snapshot_dir.exists():
+@@ -2192,6 +4294,7 @@ class OfflinePreflightDriver:
+                     snapshot_drift = True
+                     failure_reasons.append(f"Preserved snapshot drift: {str(ice)}")
+ 
++            # 4. Disposable mutation recording
+             if disposable_manifest_before and disposable_dir.exists():
+                 try:
+                     mutation_rep = IntegrityLifecycleManager.record_disposable_mutations(
+@@ -2214,6 +4317,7 @@ class OfflinePreflightDriver:
+             total_queries=total_queries,
+             block_reasons=block_reasons,
+             failure_reasons=failure_reasons,
++            protected_drift=protected_drift,
+         )
+ 
+     def _build_default_mock_role_configs(self, tok: Optional[TokenizerInterface] = None) -> Dict[str, RoleEndpointConfig]:
+@@ -2240,12 +4344,13 @@ class OfflinePreflightDriver:
+         total_queries: int,
+         block_reasons: List[str],
+         failure_reasons: List[str],
++        protected_drift: bool = False,
+     ) -> PreflightSummary:
+         elapsed = time.time() - start_time
+ 
+         # CRITICAL DISPOSITION LOGIC:
+         # Integrity drift or failures strictly OUTRANK BLOCKED
+-        if source_drift or snapshot_drift or failure_reasons:
++        if source_drift or snapshot_drift or protected_drift or failure_reasons:
+             disposition = PreflightDisposition.FAIL
+         elif block_reasons:
+             disposition = PreflightDisposition.BLOCKED
+@@ -2274,6 +4379,7 @@ class OfflinePreflightDriver:
+             source_store_verified=source_verified,
+             source_drift_detected=source_drift,
+             snapshot_drift_detected=snapshot_drift,
++            protected_drift_detected=protected_drift,
+             disposable_mutations_count=disposable_mutations,
+             corpus_parity_passed=parity_passed,
+             graph_schema_passed=graph_passed,
+@@ -2302,6 +4408,7 @@ class OfflinePreflightDriver:
+                 source_store_verified=source_verified,
+                 source_drift_detected=source_drift,
+                 snapshot_drift_detected=snapshot_drift,
++                protected_drift_detected=protected_drift,
+                 disposable_mutations_count=disposable_mutations,
+                 corpus_parity_passed=parity_passed,
+                 graph_schema_passed=graph_passed,
+@@ -2330,6 +4437,7 @@ class OfflinePreflightDriver:
+                 source_store_verified=source_verified,
+                 source_drift_detected=source_drift,
+                 snapshot_drift_detected=snapshot_drift,
++                protected_drift_detected=protected_drift,
+                 disposable_mutations_count=disposable_mutations,
+                 corpus_parity_passed=parity_passed,
+                 graph_schema_passed=graph_passed,
+@@ -2417,7 +4525,10 @@ def main() -> int:
+     parser.add_argument("--onnx-cache-dir", type=str, default=None, help="Path to local ONNX cache directory")
+     parser.add_argument("--enforced-offline-condition", type=str, default=None, help="Offline declaration tag")
+     parser.add_argument("--graph-archive", type=str, default=None, help="Path to graph archive (.json.xz)")
++    parser.add_argument("--benchmark-path", type=str, default=None, help="Path to benchmark JSON (e.g. terra_350_benchmark.json)")
++    parser.add_argument("--tokenizer-base-dir", type=str, default=None, help="Path to tokenizer base directory")
+     parser.add_argument("--production", action="store_true", default=False, help="Run in production mode (requires real stores)")
++    parser.add_argument("--execute-authorized-real-preflight", action="store_true", default=False, help="Explicit flag (requires Gate C authorization)")
+ 
+     args = parser.parse_args()
+ 
+@@ -2427,7 +4538,10 @@ def main() -> int:
+         onnx_cache_dir=Path(args.onnx_cache_dir) if args.onnx_cache_dir else None,
+         enforced_offline_arg=args.enforced_offline_condition,
+         graph_archive_path=Path(args.graph_archive) if args.graph_archive else None,
++        benchmark_path=Path(args.benchmark_path) if args.benchmark_path else None,
++        tokenizer_base_dir=Path(args.tokenizer_base_dir) if args.tokenizer_base_dir else None,
+         is_synthetic_mock=not args.production,
++        execute_authorized_real_preflight=args.execute_authorized_real_preflight,
+     )
+ 
+     summary = driver.run_preflight()

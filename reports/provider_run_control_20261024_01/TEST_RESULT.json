@@ -1,0 +1,11 @@
+{
+  "command": "venv/Scripts/python.exe -B -m unittest tests.test_provider_run_control_synthetic tests.test_paired_prompt_workflow_synthetic tests.test_provider_accounting_synthetic tests.test_matched_baseline_synthetic",
+  "tests": 127,
+  "new_tests": 30,
+  "seconds": 1.031,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "exit_code": 0,
+  "mode": "STATIC_HTTP_SYNTHETIC_ONLY"
+}

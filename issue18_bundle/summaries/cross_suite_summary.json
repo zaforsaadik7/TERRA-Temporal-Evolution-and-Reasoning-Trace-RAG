@@ -1,0 +1,129 @@
+{
+  "description": "Cross-suite descriptive contrast: Famous D1 (N=19) vs Obscure (N=30)",
+  "contrast_cohorts": {
+    "famous_d1_n": 19,
+    "obscure_n": 30
+  },
+  "per_arm": {
+    "1_Direct_LLM": {
+      "famous_d1": {
+        "k_safe": 15,
+        "n": 19,
+        "safe_pct": 78.9
+      },
+      "obscure": {
+        "k_safe": 0,
+        "n": 30,
+        "safe_pct": 0.0
+      },
+      "contingency_table": [
+        [
+          15,
+          4
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "risk_difference": 0.7895,
+      "newcombe_ci_95": [
+        0.5394,
+        0.9149
+      ],
+      "fisher_exact_p": 2.460045362096174e-09,
+      "odds_ratio": 210.1111,
+      "haldane_anscombe_corrected": true
+    },
+    "2_Flat_Vector_RAG": {
+      "famous_d1": {
+        "k_safe": 10,
+        "n": 19,
+        "safe_pct": 52.6
+      },
+      "obscure": {
+        "k_safe": 6,
+        "n": 30,
+        "safe_pct": 20.0
+      },
+      "contingency_table": [
+        [
+          10,
+          9
+        ],
+        [
+          6,
+          24
+        ]
+      ],
+      "risk_difference": 0.3263,
+      "newcombe_ci_95": [
+        0.0548,
+        0.5525
+      ],
+      "fisher_exact_p": 0.02839775619910818,
+      "odds_ratio": 4.4444,
+      "haldane_anscombe_corrected": false
+    },
+    "3_Full_TERRA": {
+      "famous_d1": {
+        "k_safe": 14,
+        "n": 19,
+        "safe_pct": 73.7
+      },
+      "obscure": {
+        "k_safe": 19,
+        "n": 30,
+        "safe_pct": 63.3
+      },
+      "contingency_table": [
+        [
+          14,
+          5
+        ],
+        [
+          19,
+          11
+        ]
+      ],
+      "risk_difference": 0.1035,
+      "newcombe_ci_95": [
+        -0.1656,
+        0.3333
+      ],
+      "fisher_exact_p": 0.5412066858051269,
+      "odds_ratio": 1.6211,
+      "haldane_anscombe_corrected": false
+    },
+    "4_TERRA_Unlabeled": {
+      "famous_d1": {
+        "k_safe": 15,
+        "n": 19,
+        "safe_pct": 78.9
+      },
+      "obscure": {
+        "k_safe": 8,
+        "n": 30,
+        "safe_pct": 26.7
+      },
+      "contingency_table": [
+        [
+          15,
+          4
+        ],
+        [
+          8,
+          22
+        ]
+      ],
+      "risk_difference": 0.5228,
+      "newcombe_ci_95": [
+        0.2377,
+        0.6998
+      ],
+      "fisher_exact_p": 0.00046830802270259855,
+      "odds_ratio": 10.3125,
+      "haldane_anscombe_corrected": false
+    }
+  }
+}

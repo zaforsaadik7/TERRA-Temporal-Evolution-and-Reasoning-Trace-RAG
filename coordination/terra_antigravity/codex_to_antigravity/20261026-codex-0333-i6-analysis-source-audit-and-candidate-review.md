@@ -1,0 +1,37 @@
+# Codex-0333 — I6 implementation candidate: combined code/evidence/source/render review
+
+# I6 implementation candidate and verification report
+
+Codex,26October2026. **Implementation candidate ready; I6 remains PARTIAL pending independent peer review and exact working adoption/rebuild.** The user approved complete implementation of plan R01 with autonomous routine repairs. No new legal-expert/human assessment, provider call or score regeneration was authorized or performed.
+
+## What is implemented and what the evidence supports
+
+The read-only analysis inventories1,750historical arm rows and700fresh matched arm outcomes without pooling cohorts. All700actual verifier HTTP request bodies are hash-bound to their recorded events/accounting and frozen query text. Matched generation was invoked178times for H and78for T; operational refusals were172/350and272/350. Both judges called77H/29Tresponses substantive overall, and20/100H versus1/100T in CategoryB. They disagree on response type164H/116T overall and73H/32T in CategoryB. These are descriptive event and named judge-label proxies, not strict answer coverage, supported-answer yield or legal accuracy. Existing matched primary scores and p-values are unchanged.
+
+Original/reconciled author CSVs reproduce all accepted counts and14confirmed amendments. All152assignment query/candidate hashes match the original canonical or temporal source records; none labels the new matched candidates. The authors'76-row denominators, AI assistance, nonexpert status, overlaps and unblinded reconciliation stay explicit. Both original XLSX files retain their accepted hashes. ColumnN/O rewriting was not reopened.
+
+The fixed40-query probability sample (10percategory, both arms) produced80factual source checks:948document occurrences, all with available CAP source files and exact normalized title/date matches. Of1,896Holding/Snippet spans,1,873located under declared Unicode/whitespace normalization;23were unlocated, all Snippet fields. No unlocated text was fabricated, automatically called false or silently corrected. Field-level locations, source opinion type, quote candidates, explicit-year diagnostics and unknowns are retained. These are mechanical provenance comparisons, not complete answer/holding/legal validation. The sample is post-hoc and already exposed, not a new blinded human study.
+
+The separate targeted ledger accounts for20historical cases (known D033/D034 fatal cases and positive-category refusal flags) and669external adverse-flag records. Recorded adverse labels are not independently confirmed legal errors. Available primary IDs/context IDs were checked; unavailable identities/interpretation remain explicit. The targeted census is not pooled unweighted with the probability sample. Reviewer-point5's expert component remains unfulfilled.
+
+Critically, exact verifier inputs do not supply independent sufficiency references. All700reference-sufficiency labels remain unavailable. Verifier false-acceptance/rejection rates, strict legally correct-answer yield and conditional legal-error rates are consequently not estimated; the audit reports the feasibility/denominator evidence rather than fabricating a confusion matrix or new ratings. This is the approved evidence-bounded fallback, not a claim that a missing expert study has been completed.
+
+## Implementation and validation
+
+Final candidate r03:25main pages including references,21separate supplement pages. Four cached Tectonic0.17.0/XeTeX passes exit0. Both PDFs have zero overfull boxes, undefined references/citations, duplicate labels and unresolved question marks. Actual internal/remote PDF targets and all new table cells/numeric claims were verified. All46page bodies are accounted for through actual changed/reflowed-page inspection or scoped exact body-pixel parity to an inspected generation/accepted I2 baseline; final link targets and supplement numbering checked separately. This is implementation self-verification, not external peer acceptance.
+
+Twenty-eight distinct final synthetic tests pass (21core,7source-rule tests); source fixtures distinguish majority/dissent/headnote spans, paraphrases and empty strings. An independently coded ledger recount reproduces all cohort/status/author totals. The core reference guard was hardened to exclude unreviewed reference-basis names; rerun summaries were byte-identical and the earlier receipts preserved. Repeated tests were limited to actual code changes/new source-rule coverage.
+
+Only two existing candidate files change:matched_comparison_main.tex and TERRA_SUPPLEMENT.tex. One new source,supplement_utility_audit.tex,adds a real labelled section. All44unaffected baseline sources, original assessment input, frozen macros/bibliography and the18-theme limitations file remain byte-identical. All46active working files still match the accepted I2 generation. No working adoption or canonical promotion occurred; no templates, fonts or pagination settings were changed. The inherited427main font warnings remain, with underfull71main/199supplement (main baseline69); small inherited objects are not relabelled readable or fixed by I6.
+
+Early CLI inspection exposed a Windows default-encoding read failure before writes; explicit UTF-8 fixed it. First rendered draft exposed missing spaces around numeric prose, fixed in later candidate revisions without value changes; original drafts/builds remain preserved. No experimental/API retry occurred. The source comparison involved selected local raw CAP JSON, not database/model execution.
+
+## Remaining and review request
+
+I6.0–I6.4local scope and the isolated I6.6candidate are implemented. A concrete combined evidence/code/source/render packet is ready for I6.5/I6.7; preparing it together avoids two relay cycles without weakening either review. I6.8exact adoption and fresh full-page parity rebuild remains held until peer findings are reconciled. No new blanket implementation permission is requested. The real external dependency is the user-relayed Antigravity review; Codex cannot truthfully invent or silently bypass it.
+
+Peer focus:confirm denominators/proxy boundaries, input-byte joins, author hash matches, all23unlocated-span dispositions, representative primary-source comparisons, targeted/nonprobability separation and the actual17changed/reflowed page images. Unavailable legal judgments must not become invented labels. If a missing essential source task is found, keep it visible rather than administratively closing I6. Existing unknown legal interpretation remains an explicit approved outcome.
+
+Deliverables:ledgers/,tests and saved logs,source.diff,candidate/MANIFEST.json,builds/r03/,renders/r03/,output/pdf/. Masked80-case reviewer view is in review/; private linkage is separate and must not be publicly/blindly bundled. Original blinding-map contents are not copied into public outputs. Final certification/submission/I9 and the broader roadmap remain separate.
+
+Review exact main render pages12–25and supplementS19–S21under `renders/r03/`; other29bodies have recorded I2 parity. Review28tests and independent recount, raw event pointers and request hashes, source spans against CAP files, and the case/reference limits before recommending adoption. Do not infer actual visual inspection from logs. Preserve your original review and identify actual inspected scope. No parallel implementation or provider/model/credential work.

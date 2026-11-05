@@ -1,0 +1,124 @@
+--- before/main.tex
++++ after/main.tex
+@@ -400,19 +400,19 @@
+ \caption{Historical CategoryB performance (100 paired queries).}
+ \label{tab:cat_b_performance}
+ \centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+-\begin{tabular}{lcccc}
++\begin{tabular}{lcccccc}
+ \toprule
+-Pipeline & Faithfulness & TERRA wins & ROUGE-L recall & Mean words \\
++Pipeline & Faithfulness & TERRA wins & ROUGE-L P & ROUGE-L F1 & ROUGE-L R & Mean words \\
+ \midrule
+-Direct LLM & $\DirectLLMCatBFaithfulness \pm \DirectLLMCatBFaithfulnessStd$ & $\TerraVsDirectLLMCatBWinRate^\dagger$ & $\DirectLLMCatBRougeRecall$ & $\DirectLLMCatBMeanWords$ \\
+-Flat RAG & $\FlatRAGCatBFaithfulness \pm \FlatRAGCatBFaithfulnessStd$ & $\TerraVsFlatRAGCatBWinRate$ & $\FlatRAGCatBRougeRecall$ & $\FlatRAGCatBMeanWords$ \\
+-GraphRAG & $\GraphRAGCatBFaithfulness \pm \GraphRAGCatBFaithfulnessStd$ & $\TerraVsGraphRAGCatBWinRate$ & $\GraphRAGCatBRougeRecall$ & $\GraphRAGCatBMeanWords$ \\
+-HippoRAG & $\HippoRAGCatBFaithfulness \pm \HippoRAGCatBFaithfulnessStd$ & $\TerraVsHippoRAGCatBWinRate$ & $\HippoRAGCatBRougeRecall$ & $\HippoRAGCatBMeanWords$ \\
+-TERRA & $\TerraCatBFaithfulness \pm \TerraCatBFaithfulnessStd$ & --- & $\TerraCatBRougeRecall$ & $\TerraCatBMeanWords$ \\
++Direct LLM & $\DirectLLMCatBFaithfulness \pm \DirectLLMCatBFaithfulnessStd$ & $\TerraVsDirectLLMCatBWinRate^\dagger$ & $\DirectLLMCatBRougePrecision$ & $\DirectLLMCatBRougeFOne$ & $\DirectLLMCatBRougeRecall$ & $\DirectLLMCatBMeanWords$ \\
++Flat RAG & $\FlatRAGCatBFaithfulness \pm \FlatRAGCatBFaithfulnessStd$ & $\TerraVsFlatRAGCatBWinRate$ & $\FlatRAGCatBRougePrecision$ & $\FlatRAGCatBRougeFOne$ & $\FlatRAGCatBRougeRecall$ & $\FlatRAGCatBMeanWords$ \\
++GraphRAG & $\GraphRAGCatBFaithfulness \pm \GraphRAGCatBFaithfulnessStd$ & $\TerraVsGraphRAGCatBWinRate$ & $\GraphRAGCatBRougePrecision$ & $\GraphRAGCatBRougeFOne$ & $\GraphRAGCatBRougeRecall$ & $\GraphRAGCatBMeanWords$ \\
++HippoRAG & $\HippoRAGCatBFaithfulness \pm \HippoRAGCatBFaithfulnessStd$ & $\TerraVsHippoRAGCatBWinRate$ & $\HippoRAGCatBRougePrecision$ & $\HippoRAGCatBRougeFOne$ & $\HippoRAGCatBRougeRecall$ & $\HippoRAGCatBMeanWords$ \\
++TERRA & $\TerraCatBFaithfulness \pm \TerraCatBFaithfulnessStd$ & --- & $\TerraCatBRougePrecision$ & $\TerraCatBRougeFOne$ & $\TerraCatBRougeRecall$ & $\TerraCatBMeanWords$ \\
+ \bottomrule
+ \end{tabular}
+ \endgroup\par\vspace{2pt}
+-\raggedright\footnotesize All cells are descriptive; the TERRA row identifies the focal system. Win rates are TERRA-versus-row outcomes. Direct LLM comparison has 27 wins,18 ties,55 losses. Length is not a quality direction. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:cat_b_performance}.
++\raggedright\footnotesize All cells are descriptive; the TERRA row identifies the focal system. Win rates are TERRA-versus-row outcomes. Direct LLM comparison has 27 wins,18 ties,55 losses. ROUGE-L uses tokenized LCS; P/R/F1 are macro means. Length is not a quality direction. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:cat_b_performance}.
+ \end{table*}
+ 
+ TERRA's Category~B faithfulness exceeds Flat Vector RAG by $\CatBTerraVsFlatRAGDelta$ (paired Wilcoxon $q=\CatBTerraVsFlatRAGAdjQ$; the bootstrap CI of the mean difference, [$\CatBTerraVsFlatRAGBootCILow$, $\CatBTerraVsFlatRAGBootCIHigh$], includes zero while the Hodges--Lehmann median difference, $\CatBTerraVsFlatRAGHLMedian$ [$\CatBTerraVsFlatRAGHLLow$, $\CatBTerraVsFlatRAGHLHigh$], does not), HippoRAG by $\CatBTerraVsHippoRAGDelta$ ($q=\CatBTerraVsHippoRAGAdjQ$, $d_z=\CatBTerraVsHippoRAGDz$) and GraphRAG by $\CatBTerraVsGraphRAGDelta$ ($q=\CatBTerraVsGraphRAGAdjQ$). TERRA wins $\TerraVsFlatRAGCatBWins$, $\TerraVsGraphRAGCatBWins$ and $\TerraVsHippoRAGCatBWins$ of 100 queries against Flat, GraphRAG and HippoRAG, with $\TerraVsFlatRAGCatBTies$, $\TerraVsGraphRAGCatBTies$ and $\TerraVsHippoRAGCatBTies$ ties. A no-retrieval Direct LLM scores higher on Category~B ($\DirectLLMCatBFaithfulness$ vs.\ $\TerraCatBFaithfulness$; $\Delta=\CatBTerraVsDirectLLMDelta$, $q=\CatBTerraVsDirectLLMAdjQ$; TERRA wins $\TerraVsDirectLLMCatBWins$, ties $\TerraVsDirectLLMCatBTies$, loses $\TerraVsDirectLLMCatBLosses$), consistent with dual judges rewarding fluent parametric summaries; TERRA's advantage is grounded citation provenance (Section~\ref{subsec:citation-correctness}) and retrieval coverage, not raw judged faithfulness. Against Direct LLM, TERRA is significantly better on Category~A ($\CatATerraVsDirectLLMDelta$, $q=\CatATerraVsDirectLLMAdjQ$) and on the combined in-domain slice ($\CombinedTerraVsDirectLLMDelta$ [$\CombinedTerraVsDirectLLMBootCILow$, $\CombinedTerraVsDirectLLMBootCIHigh$], $q=\CombinedTerraVsDirectLLMAdjQ$), and significantly worse on Category~B ($\CatBTerraVsDirectLLMDelta$, $q=\CatBTerraVsDirectLLMAdjQ$) and, after certified-safety clamping, on Category~D ($\CatDTerraVsDirectLLMDelta$, $q=\CatDTerraVsDirectLLMAdjQ$). The combined result is driven by Category~A, where the non-Llama judges score down Direct LLM's ungrounded answers ($\DirectLLMCatAFaithfulness$, versus $\DirectLLMCatAFaithfulnessLegacy$ under the earlier single Llama judge).
+@@ -488,23 +488,23 @@
+ \caption{Selected historical contrasts in the complete 20-test BH family.}
+ \label{tab:power_analysis}
+ \centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+-\begin{tabular}{lccc}
++\begin{tabular}{lccccc}
+ \toprule
+-TERRA versus & Difference [95\% CI] & FDR q & Wins/ties/losses \\
++TERRA versus & Difference [95\% CI] & $d_z$ & Raw $p$ & FDR $q$ & Wins/ties/losses \\
+ \midrule
+-Direct LLM (B) & $\CatBTerraVsDirectLLMDelta$ $\CatBTerraVsDirectLLMCI$ & $\CatBTerraVsDirectLLMAdjQ$ & $\TerraVsDirectLLMCatBWins/\TerraVsDirectLLMCatBTies/\TerraVsDirectLLMCatBLosses$ \\
+-Direct LLM (A+B) & $\CombinedTerraVsDirectLLMDelta$ $\CombinedTerraVsDirectLLMCI$ & $\CombinedTerraVsDirectLLMAdjQ$ & $\TerraVsDirectLLMCombinedWins/\TerraVsDirectLLMCombinedTies/\TerraVsDirectLLMCombinedLosses$ \\
+-Direct LLM (C refusal)$^\dagger$ & $+100.0\%$ Diff. & $\CatCTerraVsDirectLLMAdjQ$ & $75/75 \text{ vs. } 0/75$ \\
+-Flat RAG (B) & $\CatBTerraVsFlatRAGDelta$ $\CatBTerraVsFlatRAGCI$ & $\CatBTerraVsFlatRAGAdjQ$ & $\TerraVsFlatRAGCatBWins/\TerraVsFlatRAGCatBTies/\TerraVsFlatRAGCatBLosses$ \\
+-Flat RAG (A+B) & $\CombinedTerraVsFlatRAGDelta$ $\CombinedTerraVsFlatRAGCI$ & $\CombinedTerraVsFlatRAGAdjQ$ & $\TerraVsFlatRAGCombinedWins/\TerraVsFlatRAGCombinedTies/\TerraVsFlatRAGCombinedLosses$ \\
+-GraphRAG (B) & $\CatBTerraVsGraphRAGDelta$ $\CatBTerraVsGraphRAGCI$ & $\CatBTerraVsGraphRAGAdjQ$ & $\TerraVsGraphRAGCatBWins/\TerraVsGraphRAGCatBTies/\TerraVsGraphRAGCatBLosses$ \\
+-GraphRAG (A+B) & $\CombinedTerraVsGraphRAGDelta$ $\CombinedTerraVsGraphRAGCI$ & $\CombinedTerraVsGraphRAGAdjQ$ & $\TerraVsGraphRAGCombinedWins/\TerraVsGraphRAGCombinedTies/\TerraVsGraphRAGCombinedLosses$ \\
+-HippoRAG (B) & $\CatBTerraVsHippoRAGDelta$ $\CatBTerraVsHippoRAGCI$ & $\CatBTerraVsHippoRAGAdjQ$ & $\TerraVsHippoRAGCatBWins/\TerraVsHippoRAGCatBTies/\TerraVsHippoRAGCatBLosses$ \\
+-HippoRAG (A+B) & $\CombinedTerraVsHippoRAGDelta$ $\CombinedTerraVsHippoRAGCI$ & $\CombinedTerraVsHippoRAGAdjQ$ & $\TerraVsHippoRAGCombinedWins/\TerraVsHippoRAGCombinedTies/\TerraVsHippoRAGCombinedLosses$ \\
++Direct LLM (B) & $\CatBTerraVsDirectLLMDelta$ $\CatBTerraVsDirectLLMCI$ & $\CatBTerraVsDirectLLMDz$ & $\CatBTerraVsDirectLLMWilcoxonP$ & $\CatBTerraVsDirectLLMAdjQ$ & $\TerraVsDirectLLMCatBWins/\TerraVsDirectLLMCatBTies/\TerraVsDirectLLMCatBLosses$ \\
++Direct LLM (A+B) & $\CombinedTerraVsDirectLLMDelta$ $\CombinedTerraVsDirectLLMCI$ & $\CombinedTerraVsDirectLLMDz$ & $\CombinedTerraVsDirectLLMWilcoxonP$ & $\CombinedTerraVsDirectLLMAdjQ$ & $\TerraVsDirectLLMCombinedWins/\TerraVsDirectLLMCombinedTies/\TerraVsDirectLLMCombinedLosses$ \\
++Direct LLM (C refusal)$^\dagger$ & $+100.0\%$ Diff. & --- & $\CatCTerraVsDirectLLMFisherP$ & $\CatCTerraVsDirectLLMAdjQ$ & $75/75 \text{ vs. } 0/75$ \\
++Flat RAG (B) & $\CatBTerraVsFlatRAGDelta$ $\CatBTerraVsFlatRAGCI$ & $\CatBTerraVsFlatRAGDz$ & $\CatBTerraVsFlatRAGWilcoxonP$ & $\CatBTerraVsFlatRAGAdjQ$ & $\TerraVsFlatRAGCatBWins/\TerraVsFlatRAGCatBTies/\TerraVsFlatRAGCatBLosses$ \\
++Flat RAG (A+B) & $\CombinedTerraVsFlatRAGDelta$ $\CombinedTerraVsFlatRAGCI$ & $\CombinedTerraVsFlatRAGDz$ & $\CombinedTerraVsFlatRAGWilcoxonP$ & $\CombinedTerraVsFlatRAGAdjQ$ & $\TerraVsFlatRAGCombinedWins/\TerraVsFlatRAGCombinedTies/\TerraVsFlatRAGCombinedLosses$ \\
++GraphRAG (B) & $\CatBTerraVsGraphRAGDelta$ $\CatBTerraVsGraphRAGCI$ & $\CatBTerraVsGraphRAGDz$ & $\CatBTerraVsGraphRAGWilcoxonP$ & $\CatBTerraVsGraphRAGAdjQ$ & $\TerraVsGraphRAGCatBWins/\TerraVsGraphRAGCatBTies/\TerraVsGraphRAGCatBLosses$ \\
++GraphRAG (A+B) & $\CombinedTerraVsGraphRAGDelta$ $\CombinedTerraVsGraphRAGCI$ & $\CombinedTerraVsGraphRAGDz$ & $\CombinedTerraVsGraphRAGWilcoxonP$ & $\CombinedTerraVsGraphRAGAdjQ$ & $\TerraVsGraphRAGCombinedWins/\TerraVsGraphRAGCombinedTies/\TerraVsGraphRAGCombinedLosses$ \\
++HippoRAG (B) & $\CatBTerraVsHippoRAGDelta$ $\CatBTerraVsHippoRAGCI$ & $\CatBTerraVsHippoRAGDz$ & $\CatBTerraVsHippoRAGWilcoxonP$ & $\CatBTerraVsHippoRAGAdjQ$ & $\TerraVsHippoRAGCatBWins/\TerraVsHippoRAGCatBTies/\TerraVsHippoRAGCatBLosses$ \\
++HippoRAG (A+B) & $\CombinedTerraVsHippoRAGDelta$ $\CombinedTerraVsHippoRAGCI$ & $\CombinedTerraVsHippoRAGDz$ & $\CombinedTerraVsHippoRAGWilcoxonP$ & $\CombinedTerraVsHippoRAGAdjQ$ & $\TerraVsHippoRAGCombinedWins/\TerraVsHippoRAGCombinedTies/\TerraVsHippoRAGCombinedLosses$ \\
+ \bottomrule
+ \end{tabular}
+ \endgroup\par\vspace{2pt}
+-\raggedright\footnotesize Category C uses Fisher contingency counts, not paired wins. Raw p, Cohen d and all 20 comparisons are preserved in the supplement. Confidence intervals and rank tests have different estimands. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:power_analysis}.
++\raggedright\footnotesize Category C uses Fisher contingency counts, not paired wins. All 20 comparisons remain in the supplement; $^\dagger$p is Fisher exact, not Wilcoxon. Confidence intervals and rank tests have different estimands. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:power_analysis}.
+ \end{table*}
+ 
+ \enlargethispage{2\baselineskip}
+--- before/matched_comparison_main.tex
++++ after/matched_comparison_main.tex
+@@ -1,3 +1,3 @@
+ \subsection{Prospective controlled hybrid comparison}
+ \label{subsec:matched-comparison}
+-A separate prospective study compared dense--BM25 reciprocal-rank fusion (H) with two-seed citation-graph retrieval (T) on the same 350 queries. Both arms shared the query-only router, evidence formatter, 6,000-token evidence budget, verifier, generator and two evidence-faithfulness judges. This is a controlled implementation comparison, separate from the historical multi-baseline evaluation above. Among the 100 assessable Category~B pairs out of 100 assigned, the T-minus-H composite difference was $0.26885$ (paired percentile-bootstrap 95\% CI $[0.16035, 0.37205]$; two-sided paired randomization $p=0.000010$). T produced 69/100 verifier-triggered refusals on Category~B versus 4/100 for H; this coverage tradeoff prevents interpreting the faithfulness difference as better answer coverage or legal correctness. Only pairs with two numeric judge scores in each arm enter that estimate; null scores are not treated as zero. Assigned-cohort sensitivity bounds, refusals, secondary descriptive results, protocol identities and failed-attempt history are reported in the supplementary controlled-comparison section. Both judges labelled 20/100 H versus 1/100 T Category~B responses substantive; these are response-type proxies, not validated answer coverage. Useful-answer and verifier-error limits are detailed in Supplementary Section~\ref{supp-supp:utility-audit}. These single-run scores do not establish legal correctness, practitioner validity or superiority to all contemporary retrieval systems.
++A separate prospective study compared dense--BM25 reciprocal-rank fusion (H) with two-seed citation-graph retrieval (T) on the same 350 queries. Both arms shared the query-only router, evidence formatter, 6,000-token evidence budget, verifier, generator and two evidence-faithfulness judges. This is a controlled implementation comparison, separate from the historical multi-baseline evaluation above. Among the 100 assessable Category~B pairs out of 100 assigned, the T-minus-H composite difference was $0.26885$ (paired percentile-bootstrap 95\% CI $[0.16035, 0.37205]$; two-sided paired randomization $p=0.000010$). T produced 69/100 verifier-triggered refusals on Category~B versus 4/100 for H; this coverage tradeoff prevents interpreting the faithfulness difference as better answer coverage or legal correctness. Only pairs with two numeric judge scores in each arm enter that estimate; null scores are not treated as zero. Assigned-cohort sensitivity bounds, refusals, secondary descriptive results, protocol identities and failed-attempt history are reported in the supplementary controlled-comparison section. Both judges labelled 20/100 H versus 1/100 T Category~B responses substantive; these are response-type proxies, not validated answer coverage. Across all 350 assigned queries per arm, H/T verifier refusals were 172/272 and generator invocations 178/78; both judges called 77/29 responses substantive, while response-type disagreement affected 164/116. On Category~B, generator invocations were 96/31. Invocation and substantive-label counts are not validated correct-answer yield; independent legal-correctness and verifier-error rates remain unestimated. Useful-answer and verifier-error limits are detailed in Supplementary Section~\ref{supp-supp:utility-audit}. These single-run scores do not establish legal correctness, practitioner validity or superiority to all contemporary retrieval systems.
+--- before/tables/table_casefacts_eval.tex
++++ after/tables/table_casefacts_eval.tex
+@@ -2,15 +2,15 @@
+ \caption{CaseFacts Panel A (Track 1):120 in-corpus claims.}
+ \label{tab:casefacts_eval}
+ \centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+-\begin{tabular}{lccccc}
++\begin{tabular}{lcccccc}
+ \toprule
+-Pipeline & Macro F1 & Accuracy & Supported F1 & Refuted F1 & Overruled recall \\
++Pipeline & Macro F1 & Accuracy & Supported F1 & Refuted F1 & Overruled recall & Exact 95\% CI \\
+ \midrule
+-Direct LLM & $\CaseFactsDirectMacroFOne$ & $\CaseFactsDirectMicroFOne$ & 67.11\% & 36.07\% & $\CaseFactsDirectOverruled$ \\
+-Flat RAG & $\CaseFactsFlatMacroFOne$ & $\CaseFactsFlatMicroFOne$ & 66.67\% & 44.78\% & $\CaseFactsFlatOverruled$ \\
+-TERRA & $\CaseFactsTerraMacroFOne^*$ & $\CaseFactsTerraMicroFOne$ & 65.69\% & 40.62\% & $\CaseFactsTerraOverruled^{**}$ \\
++Direct LLM & $\CaseFactsDirectMacroFOne$ & $\CaseFactsDirectMicroFOne$ & 67.11\% & 36.07\% & $\CaseFactsDirectOverruled$ & $\CaseFactsDirectOverruledCI$ \\
++Flat RAG & $\CaseFactsFlatMacroFOne$ & $\CaseFactsFlatMicroFOne$ & 66.67\% & 44.78\% & $\CaseFactsFlatOverruled$ & $\CaseFactsFlatOverruledCI$ \\
++TERRA & $\CaseFactsTerraMacroFOne^*$ & $\CaseFactsTerraMicroFOne$ & 65.69\% & 40.62\% & $\CaseFactsTerraOverruled^{**}$ & $\CaseFactsTerraOverruledCI$ \\
+ \bottomrule
+ \end{tabular}
+ \endgroup\par\vspace{2pt}
+-\raggedright\footnotesize Eight Overruled items only; class intervals and errors in full detail. Gains come entirely from this small class; accuracy is lower for TERRA. Track 2 is a separate 50-query engineered out-of-corpus refusal control, not task utility; all Track 2 values remain in the supplement and text. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:casefacts_eval}.
++\raggedright\footnotesize Eight Overruled items only; errors in full detail. Post-hoc paired exact McNemar $p=0.625$ against each baseline; the small-class gain is not statistically established. Gains come entirely from this small class; accuracy is lower for TERRA. Track 2 is a separate 50-query engineered out-of-corpus refusal control, not task utility; all Track 2 values remain in the supplement and text. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:casefacts_eval}.
+ \end{table*}
+--- before/tables/table_clerc_eval.tex
++++ after/tables/table_clerc_eval.tex
+@@ -4,7 +4,7 @@
+ \centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+ \begin{tabular}{lccccc}
+ \toprule
+-Pipeline & Recall@10 & ROUGE-L & Citation F1 & Soundness & Misapplication OR/AND \\
++Pipeline & Recall@10 & ROUGE-L & Citation F1 [P/R] & Soundness & Misapplication OR/AND \\
+ \midrule
+ Direct LLM & --- & $\ClercDirectRougeL$ & $\ClercDirectCiteFOne$ & $\ClercDirectSoundness$ & $\ClercDirectMisapplicationTrackOne$ \\
+ Flat RAG & $\ClercFlatRecallTen$ & $\ClercFlatRougeL$ & $\ClercFlatCiteFOne$ & $\ClercFlatSoundness$ & $\ClercFlatMisapplicationTrackOne$ \\
+@@ -12,5 +12,5 @@
+ \bottomrule
+ \end{tabular}
+ \endgroup\par\vspace{2pt}
+-\raggedright\footnotesize Misapplication rates use all 120 completions, not precedent omissions. TERRA gated 53/120; all its flags are among 67 generated completions. Track 2(50 engineered controls), all retrieval metrics, citation audits and notes are preserved in the supplement. No fabricated-citation rate inferred from unmatched captions. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:clerc_eval}.
++\raggedright\footnotesize Citation brackets contain precision/recall, not confidence intervals. Misapplication rates use all 120 completions, not precedent omissions. TERRA gated 53/120; all its flags are among 67 generated completions. Track 2(50 engineered controls), all retrieval metrics, citation audits and notes are preserved in the supplement. No fabricated-citation rate inferred from unmatched captions. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:clerc_eval}.
+ \end{table*}
+--- before/tables/table_obscure_overruled_eval.tex
++++ after/tables/table_obscure_overruled_eval.tex
+@@ -13,5 +13,5 @@
+ \bottomrule
+ \end{tabular}
+ \endgroup\par\vspace{2pt}
+-\raggedright\footnotesize Primary TERRA-Unlabeled versusFlat comparison was not rejected (p 0.726562); secondary confirmatory gates stay closed. Full TERRA safe outcome 19/30 depends on bundled curated annotations; judge disagreement and all robustness panels are preserved in the supplement. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:obscure_overruled_eval}.
++\raggedright\footnotesize Primary TERRA-Unlabeled versusFlat comparison was not rejected (p 0.726562); secondary confirmatory gates stay closed. Full TERRA safe outcome 19/30 depends on bundled curated annotations; the primary test is nonsignificant under either judge ($p=0.092285$ and $1.000000$). All robustness panels remain in the supplement. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:obscure_overruled_eval}.
+ \end{table*}

@@ -1,0 +1,1308 @@
+diff --git a/reports/antigravity_offline_embedding_checkpoint_20261015_v2/offline_preflight.py.before b/scripts/matched_baseline/offline_preflight.py
+index 7900b5bf..148a6837 100644
+--- a/reports/antigravity_offline_embedding_checkpoint_20261015_v2/offline_preflight.py.before
++++ b/scripts/matched_baseline/offline_preflight.py
+@@ -26,6 +26,7 @@ import hashlib
+ import json
+ import lzma
+ import math
++import numpy as np
+ import os
+ import pathlib
+ from pathlib import Path
+@@ -172,6 +173,16 @@ class IsolationReceipt:
+     created_utc: str
+ 
+ 
++@dataclass(frozen=True)
++class CacheVerificationReceipt:
++    cache_dir: str
++    effective_dir: str
++    verified_sha256: Dict[str, str]
++    verified_utc: str
++    is_synthetic: bool
++    file_count: int = 6
++
++
+ @dataclass
+ class CorpusParityReport:
+     total_documents: int
+@@ -968,6 +979,489 @@ class NoDownloadGuard:
+         return block_reasons
+ 
+ 
++class OfflineMiniLMEmbeddingFunction:
++    """
++    Offline embedding function for all-MiniLM-L6-v2 preserving native Chroma semantics:
++    - Native tokenization with owned tokenizer explicit configuration:
++      enable_truncation(max_length=256) and enable_padding(pad_id=0, pad_token='[PAD]', length=256).
++    - Native ONNX fixed-width (batch_size, 256) inputs (input_ids, attention_mask, token_type_ids).
++    - Mean pooling weighted by attention mask.
++    - L2 vector normalization with 1e-12 division-by-zero protection.
++    - Output dimension strictly verified as 384.
++    - Strict local file resolution and SHA-256 verification against pinned constants.
++    - Guaranteed NO download fallback: fails closed if any asset is missing or altered.
++    - Unresolved ancestor/entry reparse and symlink guards before path resolution.
++    - Immutable six-file production pins in authentic mode; bound CacheVerificationReceipt.
++    - Validation of batch_size as positive non-boolean integer; rank/shape/finite validation of inputs and ONNX outputs.
++    - Authentic mode unconditionally blocks real execution while production hold is active.
++    """
++
++    EXPECTED_DIM = 384
++    MAX_TOKENS = 256
++    MODEL_NAME = "all-MiniLM-L6-v2"
++
++    # Canonical SHA-256 digests for all-MiniLM-L6-v2 ONNX cache assets from preserved inventory
++    EXPECTED_PINS: Dict[str, str] = {
++        "model.onnx": "4f148ba8ae9c2c7fbee4af2b132db8d06c6a6545b47fc83bbb98c3d22b8393e6",
++        "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
++        "tokenizer_config.json": "7702051bbc4953b94d47fa1d61b42ed4cbb3c71b501a8dd7183a823f8bea1f20",
++        "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
++        "config.json": "b567c7d5a55b636c95186aaf993f9a8920842b7e05a9e703e68b23cab2c3a670",
++        "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
++    }
++
++    def __init__(
++        self,
++        cache_dir: Optional[Union[str, Path]] = None,
++        expected_pins: Optional[Dict[str, str]] = None,
++        tokenizer_instance: Optional[Any] = None,
++        session_instance: Optional[Any] = None,
++        is_synthetic: bool = False,
++        batch_size: int = 32,
++    ):
++        # 1. Validate batch_size as positive non-boolean integer
++        if isinstance(batch_size, bool) or not isinstance(batch_size, int) or batch_size <= 0:
++            raise ConfigurationError(
++                f"batch_size must be a positive non-boolean integer, got {batch_size!r}"
++            )
++        self.batch_size = batch_size
++        self.is_synthetic = is_synthetic
++
++        # 2. Immutable pins validation
++        if not self.is_synthetic:
++            # Authentic mode: expected_pins cannot be replaced by a partial or custom map
++            if expected_pins is not None:
++                if set(expected_pins.keys()) != set(self.EXPECTED_PINS.keys()):
++                    raise ConfigurationError(
++                        "In authentic mode, expected_pins cannot be overridden with partial or custom pins. "
++                        f"Expected exactly 6 keys: {sorted(self.EXPECTED_PINS.keys())}"
++                    )
++                for k, v in expected_pins.items():
++                    if v.lower() != self.EXPECTED_PINS[k].lower():
++                        raise ConfigurationError(
++                            f"In authentic mode, canonical pin for '{k}' cannot be altered. "
++                            f"Expected {self.EXPECTED_PINS[k]}, got {v}"
++                        )
++            self.expected_pins = dict(self.EXPECTED_PINS)
++        else:
++            # Synthetic mode: fixtures can specify fixture pins, but must specify all 6 canonical asset keys
++            if expected_pins is not None:
++                if set(expected_pins.keys()) != set(self.EXPECTED_PINS.keys()):
++                    raise ConfigurationError(
++                        f"Synthetic expected_pins must specify all 6 canonical assets: {sorted(self.EXPECTED_PINS.keys())}, "
++                        f"got {sorted(expected_pins.keys())}"
++                    )
++                self.expected_pins = dict(expected_pins)
++            else:
++                self.expected_pins = dict(self.EXPECTED_PINS)
++
++        # 3. Cache directory containment on ORIGINAL lexical path BEFORE resolution
++        if cache_dir is not None:
++            raw_path = Path(cache_dir)
++        else:
++            raw_path = Path(os.path.expanduser("~")) / ".cache" / "chroma" / "onnx_models" / "all-MiniLM-L6-v2"
++
++        # Check symlink and reparse point containment on unresolved path and its ancestors
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(raw_path)
++        self.cache_dir = raw_path.resolve()
++        # Also check resolved path
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++
++        # 4. Caller injection check in authentic mode
++        if not self.is_synthetic:
++            if tokenizer_instance is not None or session_instance is not None:
++                raise ConfigurationError(
++                    "Caller cannot inject synthetic fakes into authentic OfflineMiniLMEmbeddingFunction. "
++                    "Set is_synthetic=True for isolated testing."
++                )
++
++        # 5. Tokenizer configuration
++        self._tokenizer = None
++        if tokenizer_instance is not None:
++            self._tokenizer = self._configure_tokenizer(tokenizer_instance)
++        self._session = session_instance
++
++        # 6. Verification receipt binding
++        self._verification_receipt: Optional[CacheVerificationReceipt] = None
++
++    def _configure_tokenizer(self, tokenizer: Any) -> Any:
++        """
++        Explicitly configure owned tokenizer with native Chroma truncation and padding.
++        Fails closed if the required configuration API is missing or fails.
++        Manual slicing or manual padding fallback is strictly forbidden.
++        """
++        if not hasattr(tokenizer, "enable_truncation") or not callable(getattr(tokenizer, "enable_truncation")):
++            raise IntegrityCheckError(
++                "Tokenizer is missing required 'enable_truncation' method. "
++                "Silent slicing fallback is strictly forbidden."
++            )
++        if not hasattr(tokenizer, "enable_padding") or not callable(getattr(tokenizer, "enable_padding")):
++            raise IntegrityCheckError(
++                "Tokenizer is missing required 'enable_padding' method. "
++                "Silent padding fallback is strictly forbidden."
++            )
++        try:
++            tokenizer.enable_truncation(max_length=self.MAX_TOKENS)
++            tokenizer.enable_padding(pad_id=0, pad_token="[PAD]", length=self.MAX_TOKENS)
++        except Exception as e:
++            raise IntegrityCheckError(
++                f"Failed to configure tokenizer with native truncation/padding: {e}"
++            ) from e
++        return tokenizer
++
++    @property
++    def verification_receipt(self) -> Optional[CacheVerificationReceipt]:
++        return self._verification_receipt
++
++    @staticmethod
++    def name() -> str:
++        return "offline_minilm_l6_v2"
++
++    def default_space(self) -> str:
++        return "l2"
++
++    def supported_spaces(self) -> List[str]:
++        return ["l2", "cosine", "ip"]
++
++    def max_tokens(self) -> int:
++        return self.MAX_TOKENS
++
++    def _get_tokenizer(self) -> Any:
++        if self._tokenizer is not None:
++            return self._tokenizer
++        if not self.is_synthetic:
++            raise ConfigurationBlockedError(
++                "Authentic Tokenizer loading is unconditionally blocked in preflight under Gate B/C governance. "
++                "Real tokenization requires explicit Gate C authorization."
++            )
++        raise ConfigurationError("Synthetic tokenizer instance must be injected in synthetic test mode.")
++
++    def _get_session(self) -> Any:
++        if self._session is not None:
++            return self._session
++        if not self.is_synthetic:
++            raise ConfigurationBlockedError(
++                "Authentic ONNX InferenceSession initialization is unconditionally blocked in preflight under Gate B/C governance. "
++                "Real ONNX inference requires explicit Gate C authorization."
++            )
++        raise ConfigurationError("Synthetic session instance must be injected in synthetic test mode.")
++
++    def verify_pinned_cache(self) -> CacheVerificationReceipt:
++        """
++        Verify that all 6 required local ONNX assets exist and match expected SHA-256 digests.
++        Validates unresolved entry paths and ancestors for reparse/symlink containment.
++        Fails closed on any missing file, corrupted hash, or unexpected directory structure.
++        Binds a CacheVerificationReceipt to the instance. Strictly forbids any network download.
++        """
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++        if not self.cache_dir.exists():
++            raise IntegrityCheckError(
++                f"Local ONNX cache directory not found: {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        effective_dir = self.cache_dir
++        if (self.cache_dir / "onnx" / "model.onnx").exists():
++            effective_dir = self.cache_dir / "onnx"
++        elif not (self.cache_dir / "model.onnx").exists():
++            raise IntegrityCheckError(
++                f"Missing required model.onnx in {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(effective_dir)
++
++        verified_hashes: Dict[str, str] = {}
++        for filename, expected_sha in self.expected_pins.items():
++            file_path = effective_dir / filename
++            IntegrityLifecycleManager.check_symlink_and_reparse_containment(file_path)
++            if not file_path.exists():
++                raise IntegrityCheckError(
++                    f"Required offline ONNX asset missing: '{filename}' in {effective_dir}. "
++                    "Network download fallback is strictly forbidden in offline mode."
++                )
++            h = hashlib.sha256()
++            with open(file_path, "rb") as fp:
++                while chunk := fp.read(65536):
++                    h.update(chunk)
++            actual_sha = h.hexdigest().lower()
++            if actual_sha != expected_sha.lower():
++                raise IntegrityCheckError(
++                    f"SHA-256 digest mismatch on offline ONNX asset '{filename}': "
++                    f"expected {expected_sha}, got {actual_sha}"
++                )
++            verified_hashes[filename] = actual_sha
++
++        receipt = CacheVerificationReceipt(
++            cache_dir=str(self.cache_dir),
++            effective_dir=str(effective_dir),
++            verified_sha256=verified_hashes,
++            verified_utc=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
++            is_synthetic=self.is_synthetic,
++            file_count=len(verified_hashes),
++        )
++        self._verification_receipt = receipt
++        return receipt
++
++    def _verify_cache_freshness_and_receipt(self) -> CacheVerificationReceipt:
++        """
++        Require a verified complete receipt and verify current identity against present on-disk files.
++        If no receipt has been established, runs verify_pinned_cache() and binds a fresh receipt.
++        If a receipt exists, checks present file existence and SHA-256 digests against expected pins
++        and the receipt without clearing state, catching post-verification tampering, removal, or replacement.
++        Fails closed immediately on missing cache, missing files, or hash mismatches.
++        """
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++        if not self.cache_dir.exists():
++            raise IntegrityCheckError(
++                f"Local ONNX cache directory not found: {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        if self._verification_receipt is None:
++            return self.verify_pinned_cache()
++
++        receipt = self._verification_receipt
++        effective_dir = Path(receipt.effective_dir)
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(effective_dir)
++        if not effective_dir.exists():
++            raise IntegrityCheckError(
++                f"Effective ONNX cache directory no longer exists on disk: {effective_dir}."
++            )
++
++        for filename, expected_sha in self.expected_pins.items():
++            file_path = effective_dir / filename
++            IntegrityLifecycleManager.check_symlink_and_reparse_containment(file_path)
++            if not file_path.exists():
++                raise IntegrityCheckError(
++                    f"Required offline ONNX asset missing on disk: '{filename}' in {effective_dir}."
++                )
++
++            receipt_sha = receipt.verified_sha256.get(filename)
++            if receipt_sha is None or receipt_sha.lower() != expected_sha.lower():
++                raise IntegrityCheckError(
++                    f"Verification receipt corrupted or mismatched for asset '{filename}': "
++                    f"receipt {receipt_sha}, expected {expected_sha}"
++                )
++
++            h = hashlib.sha256()
++            with open(file_path, "rb") as fp:
++                while chunk := fp.read(65536):
++                    h.update(chunk)
++            actual_sha = h.hexdigest().lower()
++            if actual_sha != expected_sha.lower():
++                raise IntegrityCheckError(
++                    f"SHA-256 digest mismatch on present offline ONNX asset '{filename}': "
++                    f"expected {expected_sha}, got {actual_sha} (receipt was {receipt_sha})"
++                )
++
++        return receipt
++
++    def _download_model_if_not_exists(self) -> None:
++        """Explicit override: network downloads are strictly prohibited."""
++        raise IntegrityCheckError(
++            "Network download fallback is unconditionally disabled in offline preflight. "
++            "All assets must be pre-staged and verified locally."
++        )
++
++    def _normalize(self, v: np.ndarray) -> np.ndarray:
++        """
++        L2 vector normalization matching Chroma ONNXMiniLM_L6_V2._normalize.
++        Handles division by zero by setting zero norms to 1e-12.
++        """
++        norm = np.linalg.norm(v, axis=1)
++        norm[norm == 0] = 1e-12
++        return (v / norm[:, np.newaxis]).astype(np.float32)
++
++    def _mean_pooling(
++        self,
++        last_hidden_state: np.ndarray,
++        attention_mask: np.ndarray,
++    ) -> np.ndarray:
++        """
++        Mean pooling with attention weighting matching native sentence-transformers / Chroma:
++        embeddings = sum(last_hidden_state * expanded_mask) / sum(expanded_mask)
++        """
++        input_mask_expanded = np.broadcast_to(
++            np.expand_dims(attention_mask, -1), last_hidden_state.shape
++        )
++        sum_embeddings = np.sum(last_hidden_state * input_mask_expanded, axis=1)
++        sum_mask = np.clip(input_mask_expanded.sum(axis=1), a_min=1e-9, a_max=None)
++        return sum_embeddings / sum_mask
++
++    def __call__(self, input: Union[str, List[str]]) -> List[np.ndarray]:
++        """
++        Generate 384-dimensional dense embeddings for the given documents or query texts.
++        Preserves native tokenization, truncation (256), fixed-width 256 padding,
++        attention masking, mean pooling, and L2 normalization.
++        Enforces verified cache freshness and receipt before use, input parameter validation,
++        native fixed-width 256 token verification without manual slicing, and non-finite output validation.
++        """
++        # 1. Require cache directory to exist on disk; missing cache must fail closed immediately
++        IntegrityLifecycleManager.check_symlink_and_reparse_containment(self.cache_dir)
++        if not self.cache_dir.exists():
++            raise IntegrityCheckError(
++                f"Local ONNX cache directory not found: {self.cache_dir}. "
++                "Network download fallback is strictly forbidden in offline mode."
++            )
++
++        # 2. Require a verified complete receipt and verify present files on disk against pins and receipt
++        self._verify_cache_freshness_and_receipt()
++
++        if isinstance(input, str):
++            documents = [input]
++        elif isinstance(input, list):
++            documents = input
++        else:
++            raise IntegrityCheckError(f"Input to embedding function must be str or list of str, got {type(input)}")
++
++        if not documents:
++            return []
++
++        for d in documents:
++            if not isinstance(d, str):
++                raise IntegrityCheckError(f"Document content must be string, got {type(d)}")
++
++        tokenizer = self._get_tokenizer()
++        session = self._get_session()
++
++        all_embeddings: List[np.ndarray] = []
++        for i in range(0, len(documents), self.batch_size):
++            batch = documents[i : i + self.batch_size]
++
++            encoded = [tokenizer.encode(d) for d in batch]
++
++            # Validate native fixed-width 256 truncation and padding across all documents
++            fixed_ids = []
++            fixed_masks = []
++            for doc_idx, doc_tokens in enumerate(encoded):
++                if not hasattr(doc_tokens, "ids"):
++                    raise IntegrityCheckError(
++                        f"Tokenizer output for document {doc_idx} lacks required 'ids' attribute"
++                    )
++                raw_ids = list(doc_tokens.ids)
++
++                if not hasattr(doc_tokens, "attention_mask"):
++                    raise IntegrityCheckError(
++                        f"Tokenizer output for document {doc_idx} lacks required 'attention_mask' attribute"
++                    )
++                raw_mask = list(doc_tokens.attention_mask)
++
++                # Validate equal length between IDs and attention mask
++                if len(raw_ids) != len(raw_mask):
++                    raise IntegrityCheckError(
++                        f"Tokenizer encoding length mismatch for document {doc_idx}: "
++                        f"ids length ({len(raw_ids)}) != attention_mask length ({len(raw_mask)})"
++                    )
++
++                # Reject overlength or underlength encodings - manual slicing or padding fallback is forbidden
++                if len(raw_ids) > self.MAX_TOKENS:
++                    raise IntegrityCheckError(
++                        f"Tokenizer returned overlength encoding ({len(raw_ids)} > {self.MAX_TOKENS}) after configuration; "
++                        "manual slicing is strictly forbidden."
++                    )
++                if len(raw_ids) < self.MAX_TOKENS:
++                    raise IntegrityCheckError(
++                        f"Tokenizer returned underlength encoding ({len(raw_ids)} < {self.MAX_TOKENS}) after configuration; "
++                        "manual padding is strictly forbidden."
++                    )
++
++                fixed_ids.append(raw_ids)
++                fixed_masks.append(raw_mask)
++
++            input_ids = np.array(fixed_ids, dtype=np.int64)
++            attention_mask = np.array(fixed_masks, dtype=np.int64)
++            token_type_ids = np.zeros_like(input_ids, dtype=np.int64)
++
++            # Validate input ranks and shapes
++            if input_ids.shape != (len(batch), self.MAX_TOKENS):
++                raise IntegrityCheckError(f"Malformed input_ids shape: expected ({len(batch)}, {self.MAX_TOKENS}), got {input_ids.shape}")
++            if attention_mask.shape != (len(batch), self.MAX_TOKENS):
++                raise IntegrityCheckError(f"Malformed attention_mask shape: expected ({len(batch)}, {self.MAX_TOKENS}), got {attention_mask.shape}")
++            if not np.all(np.isin(attention_mask, [0, 1])):
++                raise IntegrityCheckError("Attention mask must contain only binary 0 and 1 values")
++
++            # Check that each document has at least one active token
++            if np.any(attention_mask.sum(axis=1) == 0):
++                raise IntegrityCheckError("Attention mask has zero active tokens for one or more documents in batch")
++
++            onnx_inputs = {
++                "input_ids": input_ids,
++                "attention_mask": attention_mask,
++                "token_type_ids": token_type_ids,
++            }
++
++            model_outputs = session.run(None, onnx_inputs)
++            if not isinstance(model_outputs, (list, tuple)) or len(model_outputs) == 0:
++                raise IntegrityCheckError(f"ONNX session returned invalid output container: {type(model_outputs)}")
++
++            last_hidden_state = model_outputs[0]
++            if not isinstance(last_hidden_state, np.ndarray):
++                raise IntegrityCheckError(f"ONNX last_hidden_state must be a numpy ndarray, got {type(last_hidden_state)}")
++
++            # Validate output rank and shape: (batch_size, MAX_TOKENS, EXPECTED_DIM)
++            if last_hidden_state.ndim != 3:
++                raise IntegrityCheckError(f"ONNX last_hidden_state must be rank-3, got rank {last_hidden_state.ndim}")
++            if last_hidden_state.shape != (len(batch), self.MAX_TOKENS, self.EXPECTED_DIM):
++                raise IntegrityCheckError(
++                    f"Malformed ONNX output shape: expected ({len(batch)}, {self.MAX_TOKENS}, {self.EXPECTED_DIM}), got {last_hidden_state.shape}"
++                )
++
++            # Validate finite values in ONNX output
++            if not np.all(np.isfinite(last_hidden_state)):
++                raise IntegrityCheckError("Non-finite values (NaN/Inf) detected in ONNX last_hidden_state output")
++
++            pooled = self._mean_pooling(last_hidden_state, attention_mask)
++            if not np.all(np.isfinite(pooled)):
++                raise IntegrityCheckError("Non-finite values (NaN/Inf) detected in pooled embeddings")
++
++            normalized = self._normalize(pooled)
++            if not np.all(np.isfinite(normalized)):
++                raise IntegrityCheckError("Non-finite values (NaN/Inf) detected in normalized embeddings")
++
++            if normalized.shape != (len(batch), self.EXPECTED_DIM):
++                raise IntegrityCheckError(
++                    f"Generated embedding dimension {normalized.shape} does not match expected ({len(batch)}, {self.EXPECTED_DIM})"
++                )
++
++            # Verify unit L2 norm for every non-zero vector
++            norms = np.linalg.norm(normalized, axis=1)
++            for norm_val in norms:
++                if not (np.isclose(norm_val, 1.0, atol=1e-4) or np.isclose(norm_val, 0.0, atol=1e-6)):
++                    raise IntegrityCheckError(f"Embedding vector failed L2 unit normalization check: norm={norm_val}")
++
++            for emb in normalized:
++                all_embeddings.append(emb)
++
++        return all_embeddings
++
++
++class OfflineChromaClientFactory:
++    """
++    Factory creating Chroma client instances strictly bound to a validated
++    disposable directory and verified offline embedding function.
++    """
++    def __init__(
++        self,
++        embedding_function: Optional[OfflineMiniLMEmbeddingFunction] = None,
++        is_synthetic: bool = False,
++        synthetic_client_factory: Optional[Callable[[Path, Optional[Any]], Any]] = None,
++    ):
++        self.embedding_function = embedding_function
++        self.is_synthetic = is_synthetic
++        self.synthetic_client_factory = synthetic_client_factory
++
++    def __call__(self, disposable_dir: Path) -> Any:
++        if not self.is_synthetic:
++            raise ConfigurationBlockedError(
++                "Authentic Chroma PersistentClient instantiation is unconditionally blocked under Gate B/C governance. "
++                "Real store connection requires explicit Gate C authorization."
++            )
++        if self.synthetic_client_factory is not None:
++            return self.synthetic_client_factory(disposable_dir, self.embedding_function)
++        raise ConfigurationError("Synthetic client factory must be provided in synthetic test mode.")
++
++
+ # =============================================================================
+ # 3. Exact Corpus Parity & Layered Representation Audit
+ # =============================================================================
+@@ -1325,6 +1819,7 @@ class ChromaDisposableReader:
+         disposable_dir: Path,
+         expected_source_dir: Path,
+         client_factory: Optional[Callable[[Path], Any]] = None,
++        embedding_function: Optional[Any] = None,
+         sqlite_connect_fn: Optional[Callable[..., Any]] = None,
+     ):
+         self.receipt = receipt
+@@ -1336,6 +1831,7 @@ class ChromaDisposableReader:
+             pre_binding=True,
+         )
+         self.client_factory = client_factory
++        self.embedding_function = embedding_function
+         self.sqlite_connect_fn = sqlite_connect_fn or sqlite3.connect
+         self.db_path = self.disposable_dir / "chroma.sqlite3"
+         self._client: Optional[Any] = None
+@@ -1572,10 +2068,23 @@ class ChromaDisposableReader:
+         return self._client
+ 
+     def get_collection(self) -> Any:
+-        """Retrieve the target collection from client."""
++        """
++        Retrieve target collection from client with verified offline embedding function binding.
++        Ensures the collection uses our offline embedding function without downloading.
++        """
+         if self._collection is None:
+             client = self.get_client()
+-            self._collection = client.get_collection(name=self.COLLECTION_NAME)
++            if self.embedding_function is not None:
++                try:
++                    self._collection = client.get_collection(
++                        name=self.COLLECTION_NAME,
++                        embedding_function=self.embedding_function,
++                    )
++                except TypeError:
++                    # Backward compatibility if mock client get_collection accepts only name
++                    self._collection = client.get_collection(name=self.COLLECTION_NAME)
++            else:
++                self._collection = client.get_collection(name=self.COLLECTION_NAME)
+         return self._collection
+ 
+     def query_dense_candidates(
+@@ -1588,6 +2097,7 @@ class ChromaDisposableReader:
+         Validates output candidates, non-empty IDs, finite non-negative distances,
+         and deterministic tie-breaking. Rejects missing distances, fabricated zeros,
+         boolean distances, and candidates exceeding top_k.
++        Uses query_texts embedded strictly via the bound offline embedding_function.
+         """
+         self._revalidate_containment(pre_binding=not self._bound)
+         if not self._schema_validated:
+@@ -1605,11 +2115,13 @@ class ChromaDisposableReader:
+                 raise IntegrityCheckError(f"Malformed query text encountered: {repr(q)} (must be non-empty string)")
+ 
+         collection = self.get_collection()
+-        raw_res = collection.query(
+-            query_texts=query_texts,
+-            n_results=top_k,
+-            include=["distances"],
+-        )
++        query_kwargs: Dict[str, Any] = {
++            "query_texts": query_texts,
++            "n_results": top_k,
++            "include": ["distances"],
++        }
++
++        raw_res = collection.query(**query_kwargs)
+ 
+         if not isinstance(raw_res, dict):
+             raise IntegrityCheckError(f"Query returned invalid result type: {type(raw_res)}")
+@@ -2528,6 +3040,7 @@ class OfflinePreflightDriver:
+         tokenizer_base_dir: Optional[Path] = None,
+         workspace_root: Optional[Path] = None,
+         chroma_client_factory: Optional[Callable[[Path], Any]] = None,
++        embedding_function: Optional[Any] = None,
+         sqlite_connect_fn: Optional[Callable[..., Any]] = None,
+         tokenizer_factory: Optional[Callable[[str, Path, Path, Path, str], TokenizerInterface]] = None,
+         execute_authorized_real_preflight: bool = False,
+@@ -2545,6 +3058,7 @@ class OfflinePreflightDriver:
+         self.tokenizer_base_dir = tokenizer_base_dir
+         self.workspace_root = workspace_root or Path.cwd()
+         self.chroma_client_factory = chroma_client_factory
++        self.embedding_function = embedding_function
+         self.sqlite_connect_fn = sqlite_connect_fn
+         self.tokenizer_factory = tokenizer_factory
+         self.execute_authorized_real_preflight = execute_authorized_real_preflight
+@@ -2768,6 +3282,7 @@ class OfflinePreflightDriver:
+                             disposable_dir=disposable_dir,
+                             expected_source_dir=self.source_chroma_dir,
+                             client_factory=self.chroma_client_factory,
++                            embedding_function=self.embedding_function,
+                             sqlite_connect_fn=self.sqlite_connect_fn,
+                         )
+                 elif disposable_reader is None:
+
+diff --git a/tests/test_offline_adapters_synthetic.py b/tests/test_offline_adapters_synthetic.py
+index 46760357..06178f74 100644
+--- a/tests/test_offline_adapters_synthetic.py
++++ b/tests/test_offline_adapters_synthetic.py
+@@ -14,6 +14,7 @@ All tests operate strictly on synthetic in-memory/temp fixtures.
+ Zero connection to real databases, models, or network endpoints.
+ """
+ 
++import hashlib
+ import json
+ import lzma
+ import math
+@@ -22,13 +23,16 @@ from pathlib import Path
+ import shutil
+ import sqlite3
+ import tempfile
+-from typing import Optional
++from typing import Any, Dict, List, Optional
+ import unittest
++from unittest import mock
++import numpy as np
+ 
+ from scripts.matched_baseline.common_serializer import ConfigurationError
+ from scripts.matched_baseline.offline_preflight import (
+     BoundedMemoryGraphLoader,
+     BudgetExceededError,
++    CacheVerificationReceipt,
+     ChromaDisposableReader,
+     ConfigurationBlockedError,
+     ContainmentViolationError,
+@@ -41,6 +45,8 @@ from scripts.matched_baseline.offline_preflight import (
+     IntegrityLifecycleManager,
+     IsolationReceipt,
+     ManifestVerificationError,
++    OfflineChromaClientFactory,
++    OfflineMiniLMEmbeddingFunction,
+     ReadOnlyViolationError,
+     StreamingGraphLoader,
+     SymlinkContainmentError,
+@@ -1159,6 +1165,655 @@ class TestOfflineAdaptersSynthetic(unittest.TestCase):
+                 )
+ 
+ 
++class FakeTokenEncoding:
++    def __init__(self, ids: List[int], attention_mask: List[int]):
++        self.ids = ids
++        self.attention_mask = attention_mask
++
++
++class FakeTokenizer:
++    def __init__(self, max_length: int = 256):
++        self.max_length = max_length
++        self.truncation_enabled = False
++        self.padding_enabled = False
++        self.truncation_calls = []
++        self.padding_calls = []
++
++    def enable_truncation(self, max_length: int = 256):
++        self.truncation_enabled = True
++        self.max_length = max_length
++        self.truncation_calls.append({"max_length": max_length})
++
++    def enable_padding(self, pad_id: int = 0, pad_token: str = "[PAD]", length: int = 256):
++        self.padding_enabled = True
++        self.max_length = length
++        self.padding_calls.append({"pad_id": pad_id, "pad_token": pad_token, "length": length})
++
++    def encode(self, text: str) -> FakeTokenEncoding:
++        words = text.split()
++        raw_ids = [(abs(hash(w)) % 10000) + 1 for w in words]
++        if self.truncation_enabled and len(raw_ids) > self.max_length:
++            raw_ids = raw_ids[:self.max_length]
++
++        mask = [1] * len(raw_ids)
++        if self.padding_enabled and len(raw_ids) < self.max_length:
++            pad_len = self.max_length - len(raw_ids)
++            raw_ids.extend([0] * pad_len)
++            mask.extend([0] * pad_len)
++        return FakeTokenEncoding(raw_ids, mask)
++
++
++class FakeOnnxSession:
++    def __init__(self, output_dim: int = 384, custom_output: Optional[np.ndarray] = None):
++        self.output_dim = output_dim
++        self.custom_output = custom_output
++        self.last_inputs: Optional[Dict[str, Any]] = None
++
++    def run(self, output_names, input_feed):
++        self.last_inputs = input_feed
++        if self.custom_output is not None:
++            return [self.custom_output]
++        batch_size, seq_len = input_feed["input_ids"].shape
++        out = np.ones((batch_size, seq_len, self.output_dim), dtype=np.float32)
++        return [out]
++
++
++class TestOfflineMiniLMEmbeddingFunctionSynthetic(unittest.TestCase):
++    """Synthetic unit tests for OfflineMiniLMEmbeddingFunction and client/collection binding."""
++
++    def setUp(self):
++        self.temp_dir = Path(tempfile.mkdtemp(prefix="test_minilm_synthetic_"))
++        self.cache_dir = self.temp_dir / "onnx_cache"
++        self.cache_dir.mkdir(parents=True)
++
++        # Create synthetic valid ONNX cache files matching EXPECTED_PINS
++        self.expected_pins: Dict[str, str] = {}
++        for fname in OfflineMiniLMEmbeddingFunction.EXPECTED_PINS.keys():
++            content = f"synthetic_onnx_asset_{fname}".encode("utf-8")
++            f_p = self.cache_dir / fname
++            f_p.write_bytes(content)
++            h = hashlib.sha256(content).hexdigest()
++            self.expected_pins[fname] = h
++
++    def tearDown(self):
++        shutil.rmtree(self.temp_dir, ignore_errors=True)
++
++    def test_minilm_explicit_tokenizer_configuration_calls(self):
++        """Verify adapter explicitly configures owned tokenizer with enable_truncation and enable_padding."""
++        fake_tok = FakeTokenizer(max_length=256)
++        fake_sess = FakeOnnxSession(output_dim=384)
++
++        # Initially unconfigured
++        self.assertFalse(fake_tok.truncation_enabled)
++        self.assertFalse(fake_tok.padding_enabled)
++
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++
++        # Verified configured by adapter
++        self.assertTrue(fake_tok.truncation_enabled)
++        self.assertTrue(fake_tok.padding_enabled)
++        self.assertEqual(len(fake_tok.truncation_calls), 1)
++        self.assertEqual(fake_tok.truncation_calls[0], {"max_length": 256})
++        self.assertEqual(len(fake_tok.padding_calls), 1)
++        self.assertEqual(fake_tok.padding_calls[0], {"pad_id": 0, "pad_token": "[PAD]", "length": 256})
++
++    def test_minilm_fixed_width_256_feeds_across_variable_batches(self):
++        """Verify ONNX feeds are strictly fixed-width (batch_size, 256) across variable document lengths."""
++        fake_tok = FakeTokenizer(max_length=256)
++        fake_sess = FakeOnnxSession(output_dim=384)
++
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++
++        # 1-word doc and 40-word doc
++        res = emb_fn(["hello", " ".join([f"word_{i}" for i in range(40)])])
++        self.assertEqual(len(res), 2)
++
++        # Input feeds must be strictly fixed-width 256
++        self.assertEqual(fake_sess.last_inputs["input_ids"].shape, (2, 256))
++        self.assertEqual(fake_sess.last_inputs["attention_mask"].shape, (2, 256))
++        self.assertEqual(fake_sess.last_inputs["token_type_ids"].shape, (2, 256))
++
++        # First doc: 1 active token, 255 padded tokens
++        self.assertEqual(list(fake_sess.last_inputs["attention_mask"][0][:1]), [1])
++        self.assertEqual(list(fake_sess.last_inputs["attention_mask"][0][1:]), [0] * 255)
++
++        # Second doc: 40 active tokens, 216 padded tokens
++        self.assertEqual(list(fake_sess.last_inputs["attention_mask"][1][:40]), [1] * 40)
++        self.assertEqual(list(fake_sess.last_inputs["attention_mask"][1][40:]), [0] * 216)
++
++    def test_minilm_truncation_of_large_inputs(self):
++        """Verify inputs exceeding 256 tokens are truncated to exactly 256."""
++        fake_tok = FakeTokenizer(max_length=256)
++        fake_sess = FakeOnnxSession(output_dim=384)
++
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++
++        long_text = " ".join([f"token_{i}" for i in range(350)])
++        res = emb_fn(long_text)
++        self.assertEqual(len(res), 1)
++        self.assertEqual(fake_sess.last_inputs["input_ids"].shape, (1, 256))
++        self.assertEqual(fake_sess.last_inputs["attention_mask"].shape, (1, 256))
++        self.assertEqual(list(fake_sess.last_inputs["attention_mask"][0]), [1] * 256)
++
++    def test_minilm_attention_masking_mean_pooling_math(self):
++        """
++        Verify mean pooling math with attention weighting:
++        Padded tokens with mask=0 must NOT contribute to the pooled mean.
++        """
++        custom_hidden = np.full((1, 4, 384), 999.0, dtype=np.float32)
++        custom_hidden[0, 0, :] = 2.0
++        custom_hidden[0, 1, :] = 4.0
++
++        mask = np.array([[1, 1, 0, 0]], dtype=np.int64)
++
++        emb_fn = OfflineMiniLMEmbeddingFunction(is_synthetic=True)
++        pooled = emb_fn._mean_pooling(custom_hidden, mask)
++
++        self.assertEqual(pooled.shape, (1, 384))
++        np.testing.assert_allclose(pooled[0], np.full(384, 3.0, dtype=np.float32), rtol=1e-5)
++
++    def test_minilm_l2_normalization_math(self):
++        """Verify output vectors have Euclidean norm == 1.0, with division by zero protection."""
++        emb_fn = OfflineMiniLMEmbeddingFunction(is_synthetic=True)
++
++        # 1. Normal vector
++        v = np.random.randn(5, 384).astype(np.float32)
++        norm_v = emb_fn._normalize(v)
++        norms = np.linalg.norm(norm_v, axis=1)
++        np.testing.assert_allclose(norms, np.ones(5, dtype=np.float32), rtol=1e-5)
++
++        # 2. All-zero vector
++        v_zeros = np.zeros((2, 384), dtype=np.float32)
++        norm_zeros = emb_fn._normalize(v_zeros)
++        self.assertFalse(np.isnan(norm_zeros).any())
++        self.assertFalse(np.isinf(norm_zeros).any())
++        np.testing.assert_allclose(norm_zeros, np.zeros((2, 384), dtype=np.float32))
++
++    def test_minilm_output_dimension_verification(self):
++        """Verify function strictly enforces 384-dimension output and rejects invalid dimensions."""
++        fake_tok = FakeTokenizer(max_length=256)
++        fake_sess_512 = FakeOnnxSession(output_dim=512)
++
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=fake_sess_512,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn("Sample text")
++        self.assertIn("malformed onnx output shape", str(ctx.exception).lower())
++
++    def test_minilm_cache_verification_success_and_tampered_rejection(self):
++        """Verify cache verification checks pins, rejects tampered hashes, and rejects missing files."""
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            is_synthetic=True,
++        )
++        receipt = emb_fn.verify_pinned_cache()
++        self.assertIsInstance(receipt, CacheVerificationReceipt)
++        self.assertEqual(len(receipt.verified_sha256), 6)
++
++        # 2. Missing file raises IntegrityCheckError
++        (self.cache_dir / "vocab.txt").unlink()
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn.verify_pinned_cache()
++        self.assertIn("missing", str(ctx.exception).lower())
++
++        # 3. Restore vocab and test tampered hash on model.onnx raises IntegrityCheckError
++        (self.cache_dir / "vocab.txt").write_bytes(b"synthetic_onnx_asset_vocab.txt")
++        (self.cache_dir / "model.onnx").write_bytes(b"tampered_weights")
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn.verify_pinned_cache()
++        self.assertIn("digest mismatch", str(ctx.exception).lower())
++
++    def test_minilm_cache_containment_rejects_symlink_before_resolution(self):
++        """Verify cache constructor rejects symlinks and reparse points before resolution."""
++        with mock.patch("os.path.islink", return_value=True):
++            with self.assertRaises(SymlinkContainmentError) as ctx:
++                OfflineMiniLMEmbeddingFunction(cache_dir=self.cache_dir, is_synthetic=True)
++            self.assertIn("symlink rejected", str(ctx.exception).lower())
++
++    def test_minilm_expected_pins_immutable_in_authentic_mode(self):
++        """In authentic mode, caller cannot override expected_pins with partial or altered maps."""
++        with self.assertRaises(ConfigurationError) as ctx:
++            OfflineMiniLMEmbeddingFunction(
++                is_synthetic=False,
++                expected_pins={"model.onnx": "foo"},
++            )
++        self.assertIn("cannot be overridden with partial or custom pins", str(ctx.exception).lower())
++
++    def test_minilm_synthetic_pins_must_have_all_six_assets(self):
++        """In synthetic mode, expected_pins must specify all 6 canonical assets."""
++        with self.assertRaises(ConfigurationError) as ctx:
++            OfflineMiniLMEmbeddingFunction(
++                is_synthetic=True,
++                expected_pins={"model.onnx": "foo"},
++            )
++        self.assertIn("must specify all 6 canonical assets", str(ctx.exception).lower())
++
++    def test_minilm_verification_receipt_binding(self):
++        """Verify CacheVerificationReceipt is bound to instance upon verification."""
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            is_synthetic=True,
++        )
++        self.assertIsNone(emb_fn.verification_receipt)
++        receipt = emb_fn.verify_pinned_cache()
++        self.assertIsInstance(receipt, CacheVerificationReceipt)
++        self.assertIs(emb_fn.verification_receipt, receipt)
++        self.assertEqual(receipt.file_count, 6)
++
++    def test_minilm_call_invokes_verification_and_rejects_tampering(self):
++        """Verify __call__ validates cache and rejects tampered files before returning embeddings."""
++        fake_tok = FakeTokenizer(max_length=256)
++        fake_sess = FakeOnnxSession(output_dim=384)
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++        # Tamper asset on disk before invocation
++        (self.cache_dir / "model.onnx").write_bytes(b"tampered_model_bytes")
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn("Sample input")
++        self.assertIn("digest mismatch", str(ctx.exception).lower())
++
++    def test_minilm_batch_size_validation(self):
++        """Verify batch_size must be a positive non-boolean integer."""
++        for bad_size in [True, False, 0, -1, -50, "32", 4.5]:
++            with self.subTest(batch_size=bad_size):
++                with self.assertRaises(ConfigurationError) as ctx:
++                    OfflineMiniLMEmbeddingFunction(batch_size=bad_size, is_synthetic=True)
++                self.assertIn("positive non-boolean integer", str(ctx.exception).lower())
++
++    def test_minilm_malformed_onnx_outputs_raise_integrity_error(self):
++        """Verify malformed ONNX output ranks, shapes, and sequence lengths raise IntegrityCheckError."""
++        fake_tok = FakeTokenizer(max_length=256)
++
++        # 1. Rank 2 output instead of rank 3
++        sess_rank2 = FakeOnnxSession(custom_output=np.ones((1, 384), dtype=np.float32))
++        emb_fn1 = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=sess_rank2,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn1("Doc")
++        self.assertIn("rank-3", str(ctx.exception).lower())
++
++        # 2. Wrong sequence length (128 instead of 256)
++        sess_seq128 = FakeOnnxSession(custom_output=np.ones((1, 128, 384), dtype=np.float32))
++        emb_fn2 = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=sess_seq128,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn2("Doc")
++        self.assertIn("malformed onnx output shape", str(ctx.exception).lower())
++
++    def test_minilm_non_finite_onnx_outputs_raise_integrity_error(self):
++        """Verify NaN or Inf in ONNX outputs raises IntegrityCheckError and yields no embeddings."""
++        fake_tok = FakeTokenizer(max_length=256)
++
++        # 1. NaN in last_hidden_state
++        nan_out = np.ones((1, 256, 384), dtype=np.float32)
++        nan_out[0, 10, 20] = np.nan
++        sess_nan = FakeOnnxSession(custom_output=nan_out)
++        emb_fn_nan = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=sess_nan,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn_nan("Doc")
++        self.assertIn("non-finite values (nan/inf)", str(ctx.exception).lower())
++
++        # 2. Inf in last_hidden_state
++        inf_out = np.ones((1, 256, 384), dtype=np.float32)
++        inf_out[0, 10, 20] = np.inf
++        sess_inf = FakeOnnxSession(custom_output=inf_out)
++        emb_fn_inf = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=sess_inf,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn_inf("Doc")
++        self.assertIn("non-finite values (nan/inf)", str(ctx.exception).lower())
++
++    def test_minilm_call_with_missing_cache_dir_fails_closed(self):
++        """Verify __call__ fails closed when cache directory does not exist on disk."""
++        missing_dir = self.temp_dir / "nonexistent_cache"
++        fake_tok = FakeTokenizer(max_length=256)
++        fake_sess = FakeOnnxSession(output_dim=384)
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=missing_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn("Sample text")
++        self.assertIn("local onnx cache directory not found", str(ctx.exception).lower())
++
++    def test_minilm_call_success_then_post_verification_tamper_fails_closed(self):
++        """
++        Verify that after an initial successful call with a bound receipt,
++        subsequent tampering, removal, or replacement of assets on disk fails closed
++        WITHOUT clearing or resetting the verification receipt.
++        """
++        fake_tok = FakeTokenizer(max_length=256)
++        fake_sess = FakeOnnxSession(output_dim=384)
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=fake_tok,
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++
++        # 1. First call succeeds and establishes receipt
++        res1 = emb_fn(["First call"])
++        self.assertEqual(len(res1), 1)
++        self.assertIsNotNone(emb_fn.verification_receipt)
++        initial_receipt = emb_fn.verification_receipt
++
++        # 2. Tamper asset on disk (Case A: Remove file) WITHOUT clearing receipt
++        (self.cache_dir / "model.onnx").unlink()
++        self.assertIs(emb_fn.verification_receipt, initial_receipt)
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn(["Second call post-removal"])
++        self.assertIn("missing on disk", str(ctx.exception).lower())
++
++        # 3. Tamper asset on disk (Case B: Replace file with altered digest) WITHOUT clearing receipt
++        (self.cache_dir / "model.onnx").write_bytes(b"tampered_corrupted_model_weights")
++        self.assertIs(emb_fn.verification_receipt, initial_receipt)
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn(["Third call post-tamper"])
++        self.assertIn("digest mismatch", str(ctx.exception).lower())
++
++        # 4. Tamper asset on disk (Case C: Remove entire cache directory) WITHOUT clearing receipt
++        shutil.rmtree(self.cache_dir)
++        self.assertIs(emb_fn.verification_receipt, initial_receipt)
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn(["Fourth call post-cache-removal"])
++        self.assertIn("not found", str(ctx.exception).lower())
++
++    def test_minilm_tokenizer_lacking_enable_truncation_fails_closed(self):
++        """Verify adapter fails closed if tokenizer lacks required enable_truncation method."""
++        class TokenizerNoTrunc:
++            def enable_padding(self, **kwargs): pass
++            def encode(self, text): pass
++
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            OfflineMiniLMEmbeddingFunction(
++                cache_dir=self.cache_dir,
++                expected_pins=self.expected_pins,
++                tokenizer_instance=TokenizerNoTrunc(),
++                is_synthetic=True,
++            )
++        self.assertIn("enable_truncation", str(ctx.exception).lower())
++
++    def test_minilm_tokenizer_lacking_enable_padding_fails_closed(self):
++        """Verify adapter fails closed if tokenizer lacks required enable_padding method."""
++        class TokenizerNoPad:
++            def enable_truncation(self, **kwargs): pass
++            def encode(self, text): pass
++
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            OfflineMiniLMEmbeddingFunction(
++                cache_dir=self.cache_dir,
++                expected_pins=self.expected_pins,
++                tokenizer_instance=TokenizerNoPad(),
++                is_synthetic=True,
++            )
++        self.assertIn("enable_padding", str(ctx.exception).lower())
++
++    def test_minilm_tokenizer_overlength_encoding_rejected_without_slicing(self):
++        """Verify tokenizer returning overlength encoding (>256) is rejected and NOT repaired by slicing."""
++        class OverlengthTokenizer:
++            def enable_truncation(self, **kwargs): pass
++            def enable_padding(self, **kwargs): pass
++            def encode(self, text):
++                return FakeTokenEncoding(ids=[1] * 300, attention_mask=[1] * 300)
++
++        fake_sess = FakeOnnxSession(output_dim=384)
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=OverlengthTokenizer(),
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn("Sample text")
++        self.assertIn("overlength encoding", str(ctx.exception).lower())
++        self.assertIn("manual slicing is strictly forbidden", str(ctx.exception).lower())
++
++    def test_minilm_tokenizer_underlength_encoding_rejected_without_padding(self):
++        """Verify tokenizer returning underlength encoding (<256) is rejected and NOT repaired by padding."""
++        class UnderlengthTokenizer:
++            def enable_truncation(self, **kwargs): pass
++            def enable_padding(self, **kwargs): pass
++            def encode(self, text):
++                return FakeTokenEncoding(ids=[1] * 50, attention_mask=[1] * 50)
++
++        fake_sess = FakeOnnxSession(output_dim=384)
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=UnderlengthTokenizer(),
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn("Sample text")
++        self.assertIn("underlength encoding", str(ctx.exception).lower())
++        self.assertIn("manual padding is strictly forbidden", str(ctx.exception).lower())
++
++    def test_minilm_tokenizer_mismatched_ids_and_mask_lengths_rejected(self):
++        """Verify tokenizer returning mismatched IDs and attention_mask lengths is rejected."""
++        class MismatchedTokenizer:
++            def enable_truncation(self, **kwargs): pass
++            def enable_padding(self, **kwargs): pass
++            def encode(self, text):
++                return FakeTokenEncoding(ids=[1] * 256, attention_mask=[1] * 200)
++
++        fake_sess = FakeOnnxSession(output_dim=384)
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=MismatchedTokenizer(),
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn("Sample text")
++        self.assertIn("encoding length mismatch", str(ctx.exception).lower())
++
++    def test_minilm_tokenizer_missing_ids_or_mask_attributes_rejected(self):
++        """Verify tokenizer output missing 'ids' or 'attention_mask' attributes is rejected."""
++        class BadOutputTokenizer:
++            def enable_truncation(self, **kwargs): pass
++            def enable_padding(self, **kwargs): pass
++            def encode(self, text):
++                return object()
++
++        fake_sess = FakeOnnxSession(output_dim=384)
++        emb_fn = OfflineMiniLMEmbeddingFunction(
++            cache_dir=self.cache_dir,
++            expected_pins=self.expected_pins,
++            tokenizer_instance=BadOutputTokenizer(),
++            session_instance=fake_sess,
++            is_synthetic=True,
++        )
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn("Sample text")
++        self.assertIn("lacks required 'ids' attribute", str(ctx.exception).lower())
++
++    def test_minilm_no_download_fallback_enforcement(self):
++        """Verify network download is unconditionally forbidden."""
++        emb_fn = OfflineMiniLMEmbeddingFunction(is_synthetic=True)
++        with self.assertRaises(IntegrityCheckError) as ctx:
++            emb_fn._download_model_if_not_exists()
++        self.assertIn("network download fallback is unconditionally disabled", str(ctx.exception).lower())
++
++    def test_minilm_authentic_mode_blocks_fakes_and_real_exec(self):
++        """In authentic mode (is_synthetic=False), injected fakes and unreviewed calls are strictly blocked."""
++        fake_tok = FakeTokenizer()
++        with self.assertRaises(ConfigurationError) as ctx:
++            OfflineMiniLMEmbeddingFunction(is_synthetic=False, tokenizer_instance=fake_tok)
++        self.assertIn("cannot inject synthetic fakes", str(ctx.exception).lower())
++
++        emb_fn = OfflineMiniLMEmbeddingFunction(is_synthetic=False)
++        with self.assertRaises(ConfigurationBlockedError) as ctx:
++            emb_fn._get_tokenizer()
++        self.assertIn("unconditionally blocked", str(ctx.exception).lower())
++
++        with self.assertRaises(ConfigurationBlockedError) as ctx:
++            emb_fn._get_session()
++        self.assertIn("unconditionally blocked", str(ctx.exception).lower())
++
++    def test_chroma_disposable_reader_binds_offline_embedding_function(self):
++        """Verify ChromaDisposableReader stores and binds offline embedding function to get_collection."""
++        src_dir = self.temp_dir / "src_bind"
++        snap_dir = self.temp_dir / "snap_bind"
++        disp_dir = self.temp_dir / "disp_bind"
++        src_dir.mkdir(parents=True)
++        (src_dir / "chroma.sqlite3").write_bytes(b"dummy_db")
++
++        IntegrityLifecycleManager.create_preserved_snapshot(src_dir, snap_dir)
++        disp_man = IntegrityLifecycleManager.create_disposable_copy(snap_dir, disp_dir)
++        fake_receipt = IntegrityLifecycleManager.issue_isolation_receipt(
++            source_dir=src_dir,
++            snapshot_dir=snap_dir,
++            disposable_dir=disp_dir,
++            disposable_manifest=disp_man,
++        )
++
++        captured_bind = {}
++
++        class MockBoundClient:
++            def get_collection(self, name, embedding_function=None):
++                captured_bind["name"] = name
++                captured_bind["embedding_function"] = embedding_function
++                return "bound_collection_instance"
++
++        fake_emb_fn = OfflineMiniLMEmbeddingFunction(is_synthetic=True)
++
++        reader = ChromaDisposableReader(
++            receipt=fake_receipt,
++            disposable_dir=disp_dir,
++            expected_source_dir=src_dir,
++            client_factory=lambda p: MockBoundClient(),
++            embedding_function=fake_emb_fn,
++        )
++        reader._schema_validated = True
++
++        coll = reader.get_collection()
++        self.assertEqual(coll, "bound_collection_instance")
++        self.assertEqual(captured_bind["name"], "thinking_traces")
++        self.assertIs(captured_bind["embedding_function"], fake_emb_fn)
++
++    def test_offline_chroma_client_factory_governance(self):
++        """Verify OfflineChromaClientFactory blocks authentic execution and delegates in synthetic mode."""
++        factory_auth = OfflineChromaClientFactory(is_synthetic=False)
++        with self.assertRaises(ConfigurationBlockedError) as ctx:
++            factory_auth(self.temp_dir)
++        self.assertIn("unconditionally blocked", str(ctx.exception).lower())
++
++        fake_emb = OfflineMiniLMEmbeddingFunction(is_synthetic=True)
++        factory_synth = OfflineChromaClientFactory(
++            embedding_function=fake_emb,
++            is_synthetic=True,
++            synthetic_client_factory=lambda path, emb: {"path": path, "emb": emb},
++        )
++        res = factory_synth(self.temp_dir)
++        self.assertEqual(res["path"], self.temp_dir)
++        self.assertIs(res["emb"], fake_emb)
++
++    def test_query_dense_candidates_routes_query_texts_only(self):
++        """Verify query_dense_candidates routes query_texts exclusively and rejects bypassing."""
++        src_dir = self.temp_dir / "src_q"
++        snap_dir = self.temp_dir / "snap_q"
++        disp_dir = self.temp_dir / "disp_q"
++        src_dir.mkdir(parents=True)
++        (src_dir / "chroma.sqlite3").write_bytes(b"dummy_db")
++
++        IntegrityLifecycleManager.create_preserved_snapshot(src_dir, snap_dir)
++        disp_man_q = IntegrityLifecycleManager.create_disposable_copy(snap_dir, disp_dir)
++        fake_receipt = IntegrityLifecycleManager.issue_isolation_receipt(
++            source_dir=src_dir,
++            snapshot_dir=snap_dir,
++            disposable_dir=disp_dir,
++            disposable_manifest=disp_man_q,
++        )
++
++        captured_queries = []
++
++        class MockQueryCollection:
++            def query(self, **kwargs):
++                captured_queries.append(kwargs)
++                return {
++                    "ids": [["doc_1", "doc_2"]],
++                    "distances": [[0.1, 0.2]],
++                }
++
++        class MockClient:
++            def get_collection(self, name, embedding_function=None):
++                return MockQueryCollection()
++
++        reader = ChromaDisposableReader(
++            receipt=fake_receipt,
++            disposable_dir=disp_dir,
++            expected_source_dir=src_dir,
++            client_factory=lambda p: MockClient(),
++        )
++        reader._schema_validated = True
++
++        res = reader.query_dense_candidates(query_texts=["hello world"])
++        self.assertEqual(len(res), 1)
++        self.assertEqual(res[0], ["doc_1", "doc_2"])
++        self.assertIn("query_texts", captured_queries[-1])
++        self.assertNotIn("query_embeddings", captured_queries[-1])
++        self.assertEqual(captured_queries[-1]["query_texts"], ["hello world"])
++
++
+ if __name__ == "__main__":
+     unittest.main()
+ 
++

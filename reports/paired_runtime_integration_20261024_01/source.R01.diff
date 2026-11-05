@@ -1,0 +1,983 @@
+--- scripts/matched_baseline/paired_dependency_bridge.py.before
++++ scripts/matched_baseline/paired_dependency_bridge.py
+@@ -38,6 +38,26 @@
+     local_tokens: int
+     rendered_sha256: str
+     prompt_contract_sha256: str
++    request_policy: tuple = ()
++
++
++def request_policy(config):
++    # Match the actual five-role smoke's tested GPT-OSS request explicitly.
++    # Other provider/model families must not inherit this setting by guessing.
++    return (('reasoning_effort', 'low'),) if config.endpoint == 'databricks-gpt-oss-120b' else ()
++
++
++def measured_http_bytes(config, msgs, tokens):
++    raw = build_request(config, msgs, tokens)
++    policy = request_policy(config)
++    if policy:
++        from .provider_accounting import strict_json
++        body = strict_json(raw)
++        body.update(dict(policy))
++        raw = canonical(body)
++        if len(raw) > config.request_bytes:
++            raise ContractError('Request byte bound exceeded')
++    return raw
+ 
+ 
+ class JournaledFixtureTransport:
+@@ -59,6 +79,7 @@
+         if (type(request) is not MeasuredRequest
+                 or request.identity.key in self.used
+                 or request.identity.key not in self.responses
++                or request.request_policy
+                 or request.request != build_request(request.config, request.messages, request.local_tokens)
+                 or request.prompt_contract_sha256 != prompt_contract_sha256()):
+             raise ContractError('Unbound or repeated measured fixture request')
+@@ -79,7 +100,7 @@
+     msgs = messages(identity.stage, query_text, evidence, answer)
+     rendered = tokenizer.apply_chat_template(
+         [dict(role=role, content=text) for role, text in msgs],
+-        add_generation_prompt=True)
++        add_generation_prompt=True, **dict(request_policy(config)))
+     if type(rendered) is not str or not rendered:
+         raise ContractError('Nonempty rendered chat required')
+     count = tokenizer.count_tokens(rendered)
+@@ -87,9 +108,9 @@
+     ceiling = 1000 if identity.stage == 'router' else 7000
+     if count > min(ceiling, config.reserved_input_tokens):
+         raise PromptEnvelopeExceeded('Measured prompt token bound exceeded')
+-    raw = build_request(config, msgs, count)
++    raw = measured_http_bytes(config, msgs, count)
+     return MeasuredRequest(identity, config, msgs, raw, count,
+-                           digest(rendered.encode()), prompt_contract_sha256())
++                           digest(rendered.encode()), prompt_contract_sha256(), request_policy(config))
+ 
+ 
+ class RetrievalComposition:
+@@ -195,6 +216,20 @@
+     """
+     if is_synthetic is not True:
+         raise DispatchHeld('Authentic paired dependency composition remains held')
++    return _compute_pair(query_id=query_id, query_text=query_text, retrieval=retrieval,
++        configs=configs, tokenizers=tokenizers, dispatch=dispatch, record=record,
++        seed=seed, mode='SYNTHETIC_DEPENDENCY_COMPOSITION')
++
++
++def _compute_pair(*, query_id, query_text, retrieval, configs, tokenizers,
++                  dispatch, record, seed, mode):
++    """Internal shared computation; caller owns admission and dependencies.
++
++    A mode string is a descriptive label, never a provenance or permission check.
++    Public authentic entry remains unconditionally held.
++    """
++    if mode not in ('SYNTHETIC_DEPENDENCY_COMPOSITION', 'AUTHENTIC_PAIRED_COMPUTATION'):
++        raise ContractError('Unknown computation mode')
+     if set(configs) != set(ROLES) or set(tokenizers) != set(ROLES):
+         raise ContractError('All five role dependencies required')
+     CallIdentity(query_id, 'shared', 'router')
+@@ -230,7 +265,7 @@
+     for arm in order:
+         kept, dropped = pack_for_roles(query_id, arm, query_text, candidates[arm], configs, tokenizers)
+         text = evidence_text(kept)
+-        record({'kind': 'RETRIEVAL', 'arm': arm, 'route': route,
++        record({'kind': 'RETRIEVAL', 'query_id': query_id, 'arm': arm, 'route': route,
+                 'dense_ids': dense, 'retained_ids': tuple(i.case_id for i in kept),
+                 'dropped_ids': tuple(i.case_id for i in dropped), 'evidence_sha256': digest(text.encode())})
+         verdict = call('verifier', arm, text)
+@@ -242,7 +277,7 @@
+                      'composite': sum(scores)/2 if all(s is not None for s in scores) else None,
+                      'retained_ids': tuple(i.case_id for i in kept),
+                      'dropped_ids': tuple(i.case_id for i in dropped)}
+-    result = {'mode': 'SYNTHETIC_DEPENDENCY_COMPOSITION', 'query_id': query_id,
++    result = {'mode': mode, 'query_id': query_id,
+               'route': route, 'arm_order': order, 'arms': arms, 'calls': tuple(calls),
+               'execution_admitted': False}
+     record({'kind': 'COMPOSITION_COMPLETE', 'result': result})
+--- /dev/null
++++ scripts/matched_baseline/paired_study_runtime.py
+@@ -0,0 +1,329 @@
++"""Held serial study composition, exercised only with synthetic collaborators.
++
++No import-time assets, secret reads, TLS connections or native supervision.
++Private injected seams are trusted code, not a security boundary. Authentic
++entry is blocked before validation, directory creation or dependency loading.
++"""
++from dataclasses import dataclass, asdict
++import base64
++import hashlib
++import os
++from pathlib import Path
++import re
++import time
++
++from .provider_accounting import (
++    BudgetJournal, CallIdentity, ContractError, DispatchHeld, accepted_result,
++    build_request, canonical, config_digest, integer, parse_envelope, strict_json,
++)
++from .provider_run_control import EndpointLimiter, EndpointQuota, _exchange, _no_reparse
++from .paired_dependency_bridge import MeasuredRequest, ROLES, _compute_pair, measured_http_bytes, request_policy
++from .paired_prompt_workflow import prompt_contract_sha256, parsed_content, messages
++
++
++@dataclass(frozen=True)
++class StudyQuery:
++    query_id: str
++    text: str
++    category: str
++
++    def __post_init__(self):
++        CallIdentity(self.query_id, 'shared', 'router')
++        if (type(self.text) is not str or not self.text.strip()
++                or self.category not in ('A_Factual', 'B_Evolutionary', 'C_OutOfContext', 'D_Adversarial')):
++            raise ContractError('Explicit query and analysis category required')
++
++
++def sha(raw):
++    return hashlib.sha256(raw).hexdigest()
++
++
++class StudyStore:
++    """Exclusive serial evidence owner, bounded writes, persistent no-resume lock.
++
++    fsync+rename is used for a completion marker. It is not an OS disk quota,
++    protection against a malicious concurrent writer, or power-loss guarantee.
++    """
++    def __init__(self, root, query_ids, byte_cap):
++        integer(byte_cap, 8192)
++        if (type(query_ids) is not tuple or not 1 <= len(query_ids) <= 350
++                or len({q.casefold() for q in query_ids}) != len(query_ids)):
++            raise ContractError('Ordered unique query namespace required')
++        for q in query_ids:
++            CallIdentity(q, 'shared', 'router')
++            if q.lower() in ('calls', 'events', 'terminal', 'manifest', 'single_attempt',
++                              'con', 'prn', 'aux', 'nul') or re.fullmatch(r'(?i)(com|lpt)[1-9]', q):
++                raise ContractError('Reserved query namespace')
++        self.root = Path(root).absolute()
++        _no_reparse(self.root)
++        self.root.mkdir()
++        self.ids, self.cap = query_ids, byte_cap
++        self.written, self.failed, self.terminal = 0, False, False
++        self.completed = []
++        self.rows = []
++        self.publish('single_attempt.lock', canonical({'pid': os.getpid(), 'resume': False}))
++        self.events = (self.root/'events.jsonl').open('xb')
++
++    def guard_space(self, amount):
++        integer(amount, 0)
++        used = sum(p.stat().st_size for p in self.root.iterdir() if p.is_file())
++        if used+amount > self.cap-4096:
++            raise ContractError('Aggregate study evidence reserve exceeded')
++
++    def publish(self, name, raw, terminal=False):
++        if self.failed or self.terminal:
++            raise DispatchHeld('Evidence owner stopped')
++        if not terminal:
++            self.guard_space(len(raw))
++        elif len(raw) > 4096:
++            raise ContractError('Terminal reserve exceeded')
++        path = self.root/name
++        _no_reparse(path)
++        if path.exists():
++            raise FileExistsError('Evidence collision')
++        pending = path.with_name(name+'.pending')
++        try:
++            with pending.open('xb') as f:
++                if f.write(raw) != len(raw): raise OSError('Short evidence write')
++                f.flush(); os.fsync(f.fileno())
++            os.rename(pending, path)
++            self.written += len(raw)
++        except BaseException:
++            self.failed = True
++            raise
++
++    def record(self, event):
++        if self.failed or self.terminal:
++            raise DispatchHeld('Evidence owner stopped')
++        raw = canonical(event)
++        self.guard_space(len(raw))
++        try:
++            if self.events.write(raw) != len(raw): raise OSError('Short trace write')
++            self.events.flush(); os.fsync(self.events.fileno())
++            self.written += len(raw)
++            self.rows.append(event)
++        except BaseException:
++            self.failed = True
++            raise
++
++    def save_pair(self, query, result, journal):
++        if len(self.completed) >= len(self.ids) or self.ids[len(self.completed)] != query.query_id:
++            raise ContractError('Pair out of order or repeated')
++        # Validate the committed bytes, never a mutable in-memory event alias.
++        validate_composed_result(query, result, self.committed_rows(), journal)
++        self.publish(query.query_id+'.json', canonical(result))
++        self.completed.append(query.query_id)
++
++    def committed_rows(self):
++        raw = (self.root/'events.jsonl').read_bytes()
++        if len(raw) > self.cap or not raw.endswith(b'\n'):
++            raise ContractError('Trace incomplete or over evidence envelope')
++        return [strict_json(line) for line in raw.splitlines()]
++
++    def finish(self, journal):
++        required = {c for row in self.committed_rows() if row.get('kind') == 'COMPOSITION_COMPLETE'
++                    for c in row['result']['calls']}
++        if (tuple(self.completed) != self.ids or set(journal.entries) != required
++                or journal.halted or any(e['state'] != 'SETTLED' for e in journal.entries.values())):
++            raise ContractError('Study incomplete or billing unresolved')
++        files = [p for p in self.root.iterdir() if p.is_file()]
++        manifest = canonical({'files': [{'name': p.name, 'size': p.stat().st_size,
++                               'sha256': sha(p.read_bytes())} for p in sorted(files)]})
++        self.publish('manifest.json', manifest)
++        self.publish('terminal.json', canonical({'status': 'COMPUTATION_COMPLETE_REQUIRES_POSTRUN_AUDIT',
++            'count': len(self.completed), 'completed_sha256': sha(canonical(self.completed)),
++            'manifest_sha256': sha(manifest), 'execution_authority': False}), terminal=True)
++        self.terminal = True
++
++    def fail(self, kind):
++        if not self.failed and not self.terminal:
++            self.publish('terminal.json', canonical({'status': 'FAIL', 'failure_type': kind,
++                         'completed_count': len(self.completed)}), terminal=True)
++            self.terminal = True
++
++    def close(self):
++        self.events.close()
++
++
++class MeasuredCallSession:
++    """Single POST exchange + shared quota + durable reservation and settlement.
++
++    Connection/secret/event collaborators are trusted. Tests pass StaticConnection
++    and a literal synthetic token; this class does not admit genuine factories.
++    A hard independent supervisor remains mandatory for an authentic study.
++    """
++    def __init__(self, journal, store, configs, quotas, connection_factory, bearer,
++                 now=time.monotonic, cancelled=lambda: False):
++        if type(journal) is not BudgetJournal or type(store) is not StudyStore:
++            raise ContractError('Exact journal/evidence owner required')
++        if (set(configs) != set(ROLES) or set(quotas) != set(ROLES)
++                or any(type(q) is not EndpointQuota for q in quotas.values())):
++            raise ContractError('Complete reviewed role and quota mapping required')
++        self.journal, self.store = journal, store
++        self.configs, self.quotas = dict(configs), dict(quotas)
++        self.factory, self.bearer, self.now, self.cancelled = connection_factory, bearer, now, cancelled
++        self.limiter = EndpointLimiter()
++        self.used = set()
++
++    def __call__(self, req):
++        if (type(req) is not MeasuredRequest or req.config != self.configs[req.identity.stage]
++                or req.identity.key in self.used or self.journal.halted or self.store.failed
++                or req.request != measured_http_bytes(req.config, req.messages, req.local_tokens)
++                or req.request_policy != request_policy(req.config)
++                or req.prompt_contract_sha256 != prompt_contract_sha256()):
++            raise ContractError('Unbound measured call or stopped session')
++        self.store.guard_space(2*len(req.request)+10*req.config.response_bytes+65536)
++        self.limiter.reserve(req.config, self.quotas[req.identity.stage], self.now())
++        self.used.add(req.identity.key)
++        self.journal.reserve(req.identity, req.config, req.request, req.local_tokens)
++        connection = None
++        try:
++            self.store.record({'kind': 'HTTP_REQUEST', 'call': req.identity.key,
++                'raw': req.request.decode(), 'request_sha256': sha(req.request),
++                'config_sha256': config_digest(req.config)})
++            # Secret retrieval occurs only after reservation/evidence commit.
++            connection = self.factory(req.config)
++            raw = _exchange(connection, req.config, req.request, self.bearer(), self.now, self.cancelled)
++            self.store.record({'kind': 'HTTP_RESPONSE', 'call': req.identity.key,
++                'base64': base64.b64encode(raw).decode(), 'response_sha256': sha(raw)})
++            data, usage, prompt, completion, reasoning = parse_envelope(raw, req.config)
++            self.journal.settle(req.identity, req.config, usage, prompt, completion, sha(raw),
++                {'request_id': data.get('id'), 'returned_model': data.get('model'),
++                 'requested_endpoint': req.config.endpoint})
++            return accepted_result(data, usage, prompt, completion, reasoning, raw, req.config)
++        except BaseException:
++            self.journal.halted = True
++            if (not self.journal.persistence_failed
++                    and self.journal.entries[req.identity.key]['state'] == 'RESERVED'):
++                self.journal.uncertain(req.identity, 'EXCHANGE_OR_PERSISTENCE_UNCERTAIN')
++            raise
++        finally:
++            if connection is not None:
++                connection.close()
++
++
++def validate_composed_result(query, result, rows, journal):
++    """Reconstruct answers/scores/call graph from persisted raw provider bodies.
++
++    Tokenizer identity and retained evidence fields need the frozen input package
++    and postrun audit; this is not a replacement for that independent check.
++    """
++    if type(result) is not dict or result.get('query_id') != query.query_id:
++        raise ContractError('Result/query mismatch')
++    completions = [r for r in rows if r.get('kind') == 'COMPOSITION_COMPLETE'
++                   and r['result']['query_id'] == query.query_id]
++    if len(completions) != 1 or canonical(completions[0]['result']) != canonical(result):
++        raise ContractError('Result differs from completed trace')
++    required = {CallIdentity(query.query_id, 'shared', 'router').key}
++    for arm in ('H', 'T'):
++        a = result['arms'][arm]
++        if type(a['verifier']['sufficient']) is not bool:
++            raise ContractError('Boolean verifier required')
++        stages = ['verifier', 'judge1', 'judge2']
++        if a['verifier']['sufficient']: stages.append('generator')
++        required.update(CallIdentity(query.query_id, arm, s).key for s in stages)
++    if set(result['calls']) != required or len(result['calls']) != len(required):
++        raise ContractError('Call graph differs from verifier decisions')
++    ledger = BudgetJournal.inspect(journal.path)['events']
++    parsed, requests = {}, {}
++    for key in required:
++        request_rows = [r for r in rows if r.get('kind') == 'HTTP_REQUEST' and r['call'] == key]
++        response_rows = [r for r in rows if r.get('kind') == 'HTTP_RESPONSE' and r['call'] == key]
++        measurement = [r for r in rows if r.get('kind') == 'MEASURED_REQUEST' and r['call'] == key]
++        settlements = [r for r in ledger if r.get('kind') == 'SETTLE' and r['key'] == key]
++        if (len(request_rows) != 1 or len(response_rows) != 1
++                or len(measurement) != 1 or len(settlements) != 1):
++            raise ContractError('Exact call evidence required')
++        req, res = request_rows[0], response_rows[0]
++        raw = base64.b64decode(res['base64'], validate=True)
++        entry = journal.entries.get(key, {})
++        if (sha(raw) != res['response_sha256'] or entry.get('state') != 'SETTLED'
++                or settlements[0]['response_sha256'] != sha(raw)
++                or sha(req['raw'].encode()) != req['request_sha256']
++                or entry.get('request_sha256') != req['request_sha256']
++                or measurement[0]['request_sha256'] != req['request_sha256']
++                or measurement[0]['local_tokens'] != entry['local_prompt_tokens']
++                or measurement[0]['prompt_contract_sha256'] != prompt_contract_sha256()):
++            raise ContractError('Trace/settlement digest mismatch')
++        stage = key.rsplit(':', 1)[1]
++        data = strict_json(raw)
++        parsed[key] = parsed_content(stage, data['choices'][0]['message']['content'])
++        requests[key] = strict_json(strict_json(req['raw'])['messages'][1]['content'])
++        if requests[key]['query'] != query.text:
++            raise ContractError('HTTP query text mismatch')
++        payload = requests[key]
++        expected = messages(stage, query.text, payload.get('evidence', ''),
++                            payload.get('candidate_answer'))
++        if strict_json(req['raw'])['messages'] != [dict(role=r, content=c) for r, c in expected]:
++            raise ContractError('HTTP prompt-contract mismatch')
++    if result['route'] != parsed[CallIdentity(query.query_id, 'shared', 'router').key]['route']:
++        raise ContractError('Route mismatch')
++    for arm in ('H', 'T'):
++        key = lambda stage: CallIdentity(query.query_id, arm, stage).key
++        a = result['arms'][arm]
++        verifier = parsed[key('verifier')]
++        if a['verifier'] != verifier: raise ContractError('Verifier mismatch')
++        answer = (parsed[key('generator')] if verifier['sufficient'] else
++                  'I cannot establish an answer from the supplied evidence. '+verifier['reason'])
++        judges = [parsed[key(s)] for s in ('judge1', 'judge2')]
++        scores = [j['faithfulness'] for j in judges]
++        composite = sum(scores)/2 if all(v is not None for v in scores) else None
++        if a['answer'] != answer or a['judges'] != judges or a['composite'] != composite:
++            raise ContractError('Answer/score mismatch')
++        evidence = requests[key('verifier')]['evidence']
++        retrieved = [r for r in rows if r.get('kind') == 'RETRIEVAL' and r['arm'] == arm
++                     and r.get('query_id') == query.query_id]
++        if (len(retrieved) != 1 or retrieved[0]['route'] != result['route']
++                or retrieved[0]['evidence_sha256'] != sha(evidence.encode())
++                or tuple(a['retained_ids']) != tuple(retrieved[0]['retained_ids'])
++                or tuple(a['dropped_ids']) != tuple(retrieved[0]['dropped_ids'])):
++            raise ContractError('Result/retrieval-evidence mismatch')
++        for stage in ('judge1', 'judge2') + (('generator',) if verifier['sufficient'] else ()):
++            if requests[key(stage)]['evidence'] != evidence:
++                raise ContractError('Cross-stage evidence mismatch')
++        for stage in ('judge1', 'judge2'):
++            if requests[key(stage)]['candidate_answer'] != answer:
++                raise ContractError('Judge did not receive actual answer')
++
++
++def _run_bound_study(*, root, queries, retrieval, tokenizers, configs, quotas,
++                     connection_factory, bearer, cap_nanodollars, byte_cap, seed=42,
++                     now=time.monotonic, cancelled=lambda: False, mode):
++    """Internal serial composition. Outer caller MUST own authentic admission.
++
++    Public authentic entry below cannot reach this function. Synthetic tests
++    exercise the identical storage/accounting/HTTP/body reconstruction path.
++    """
++    if type(queries) is not tuple or any(type(q) is not StudyQuery for q in queries):
++        raise ContractError('Frozen query tuple required')
++    store = StudyStore(root, tuple(q.query_id for q in queries), byte_cap)
++    journal = None
++    try:
++        journal = BudgetJournal(store.root/'calls.jsonl', cap_nanodollars, len(queries)*9)
++        session = MeasuredCallSession(journal, store, configs, quotas,
++                                      connection_factory, bearer, now, cancelled)
++        store.record({'kind': 'STUDY_CONTRACT', 'mode': mode,
++            'queries': [asdict(q) for q in queries], 'seed': seed,
++            'role_configs': {role: config_digest(c) for role, c in configs.items()}})
++        for query in queries:
++            if cancelled(): raise DispatchHeld('Study cancelled')
++            pair = _compute_pair(query_id=query.query_id, query_text=query.text,
++                retrieval=retrieval, tokenizers=tokenizers, configs=configs,
++                dispatch=session, record=store.record, seed=seed, mode=mode)
++            store.save_pair(query, pair, journal)
++        store.finish(journal)
++        return {'completed': len(store.completed), 'exposure_nanodollars': journal.exposure,
++                'mode': mode, 'requires_postrun_audit': True}
++    except BaseException as original:
++        try:
++            store.fail(type(original).__name__)
++        except BaseException as finalization:
++            raise BaseExceptionGroup('Study and evidence finalization failed', [original, finalization])
++        raise
++    finally:
++        if journal is not None: journal.close()
++        store.close()
++
++
++def run_authentic_study(*args, **kwargs):
++    raise DispatchHeld('Authentic study freeze, budget, supervisor and user authority not admitted')
+--- /dev/null
++++ scripts/matched_baseline/paired_local_runtime.py
+@@ -0,0 +1,67 @@
++"""Link verified local dependency assembly to paired retrieval. Genuine gate held.
++
++Reuses the offline cohort's receipt-aware, explicit-embedding loader. A future
++authentic packet must admit all of that loader's existing gates independently;
++this module never flips them or substitutes synthetic assets for authentic ones.
++"""
++from dataclasses import dataclass
++
++from .paired_dependency_bridge import RetrievalComposition, ROLES
++from .provider_accounting import ContractError, DispatchHeld
++
++
++@dataclass
++class PairedLocalBundle:
++    retrieval: object
++    tokenizers: dict
++    close: object
++
++
++def _assemble_local(*, assembly, spec, query_pairs, receipt, expected_count):
++    """Trusted assembly seam. Caller owns independent path/receipt admission.
++
++    Genuine use must require expected_count=20000, not the tiny fixture counts.
++    Assembly owns all partial allocations; bundle close releases its references.
++    Release is not proof of native shutdown: the dedicated child must exit.
++    """
++    try:
++        loaded = assembly.load(spec=spec, query_pairs=query_pairs, receipt=receipt)
++        if type(loaded) is not dict or set(loaded) != {'reader', 'nodes', 'edges', 'role_configs'}:
++            raise ContractError('Exact local dependency bundle required')
++        roles = loaded['role_configs']
++        if type(roles) is not dict or set(roles) != set(ROLES):
++            raise ContractError('Five local tokenizer roles required')
++        tokens = {role: roles[role].tokenizer for role in ROLES}
++        if tokens['generator'] is not tokens['verifier']:
++            raise ContractError('Generator/verifier tokenizer identity must match')
++        corpus = loaded['reader'].extract_layer1_corpus(expected_count=expected_count)
++        if len(corpus) != expected_count or len(loaded['nodes']) != expected_count:
++            raise ContractError('Local corpus population mismatch')
++        retrieval = RetrievalComposition(loaded['reader'], corpus, loaded['nodes'], loaded['edges'])
++        return PairedLocalBundle(retrieval, tokens, assembly.close)
++    except BaseException as original:
++        try:
++            assembly.close()
++        except BaseException as cleanup:
++            raise BaseExceptionGroup('Local loading and cleanup failed', [original, cleanup])
++        raise
++
++
++def load_authentic_local(*args, **kwargs):
++    # Before imports that could load numpy/Chroma/tokenizers and before paths.
++    raise DispatchHeld('Authentic local study dependency loading is not admitted')
++
++
++def _construct_authentic_local(*, plan, reviewed_plan, spec, query_pairs, receipt):
++    """Source for future reviewed admission, unreachable from the held entry.
++
++    Existing genuine_runtime() has its own source hold. No gate is overridden.
++    The expected source comes from reviewed_plan, not the candidate receipt.
++    """
++    from .offline_cohort_adapters import genuine_runtime, compose_dependency_factories
++    from .offline_cohort_assembly import CohortAssembly
++    dependencies = compose_dependency_factories(plan=plan, runtime=genuine_runtime(), is_synthetic=True)
++    assembly = CohortAssembly(plan=plan, reviewed_plan=reviewed_plan,
++                               dependencies=dependencies, is_synthetic=True)
++    return _assemble_local(assembly=assembly, spec=spec, query_pairs=query_pairs,
++                           receipt=receipt, expected_count=20000)
+--- /dev/null
++++ scripts/matched_baseline/paired_study_supervision.py
+@@ -0,0 +1,74 @@
++"""Prospective paired worker supervision over the reviewed Job backend protocol.
++
++Only injected fake backends are exercised. Authentic launcher/child packet and
++native API admission are not supplied by a command hash or a synthetic receipt.
++"""
++from dataclasses import dataclass
++import hashlib
++import re
++
++from .provider_accounting import canonical, ContractError, DispatchHeld, integer
++
++
++@dataclass(frozen=True)
++class SupervisionPlan:
++    command: tuple
++    environment: tuple
++    timeout_seconds: int
++    memory_bytes: int
++    output_bytes: int
++    max_polls: int
++
++    def __post_init__(self):
++        if (type(self.command) is not tuple or not self.command
++                or any(type(v) is not str or not v or any(c in v for c in '\0\r\n') for v in self.command)
++                or type(self.environment) is not tuple):
++            raise ContractError('Exact immutable command/environment required')
++        names = set()
++        for pair in self.environment:
++            if (type(pair) is not tuple or len(pair) != 2
++                    or any(type(v) is not str or any(c in v for c in '\0\r\n') for v in pair)):
++                raise ContractError('Malformed environment pair')
++            key,value = pair
++            if (not key or '=' in key or key.upper() in names
++                    or re.search(r'TOKEN|SECRET|PASSWORD|API.?KEY',key,re.I)):
++                raise ContractError('Aliased or secret-bearing environment name forbidden')
++            names.add(key.upper())
++        for n in (self.timeout_seconds, self.memory_bytes, self.output_bytes, self.max_polls):
++            integer(n,1)
++
++    def digest(self):
++        from dataclasses import asdict
++        return hashlib.sha256(canonical(asdict(self))).hexdigest()
++
++
++class SupervisedStudyDispatch:
++    """One owned process tree, termination confirmed before success is accepted.
++
++    Resource policy is bound to command/environment by independent equality.
++    Callback names are not proof of hard native deadlines or Windows ABI safety.
++    """
++    def __init__(self, *, plan, reviewed_plan, backend, clock, pause, is_synthetic=True):
++        if is_synthetic is not True:
++            raise DispatchHeld('Native paired-study supervision remains held')
++        if type(plan) is not SupervisionPlan or plan != reviewed_plan:
++            raise ContractError('Supervision policy differs from reviewed command')
++        self.plan, self.used = plan, False
++        from .offline_smoke_process import SmokeProcessSupervisor
++        self.supervisor = SmokeProcessSupervisor(backend,clock=clock,pause=pause,
++            timeout_seconds=plan.timeout_seconds,memory_bytes=plan.memory_bytes,
++            max_polls=plan.max_polls,is_synthetic=True)
++        self.supervisor.output_limit_bytes=plan.output_bytes
++
++    def run(self):
++        if self.used:raise DispatchHeld('Supervised study retry forbidden')
++        self.used=True
++        result=self.supervisor.run(list(self.plan.command),dict(self.plan.environment))
++        if result.termination_confirmed is not True or result.exit_code != 0:
++            raise DispatchHeld('Child result is not confirmed zero-exit termination')
++        # Even a confirmed exit needs exact result/manifest/input postrun audit.
++        return result
++
++
++def launch_authentic_study(*args, **kwargs):
++    raise DispatchHeld('Authenticated paired-worker CLI and Windows packet remain held')
+--- /dev/null
++++ scripts/matched_baseline/paired_study_candidate.py
+@@ -0,0 +1,53 @@
++"""Pure, non-executable study budget/binding proposal. No account API or secret.
++
++Prices are public DBU rates times an UNCONFIRMED $1/DBU ceiling, not a bill.
++Observed response IDs do not certify weights or tokenizer/server equivalence.
++"""
++from dataclasses import asdict
++from decimal import Decimal
++
++from .provider_accounting import Price, RoleConfig, ContractError
++from .matched_budget_preview import preview_budget
++
++WORKSPACE='https://dbc-899e438f-4c30.cloud.databricks.com'
++MODELS={
++    'router': ('databricks-gemma-3-12b', 'gemma-3-12b-it-060225'),
++    'verifier': ('databricks-meta-llama-3-3-70b-instruct', 'meta-llama-3.3-70b-instruct-121024'),
++    'generator': ('databricks-meta-llama-3-3-70b-instruct', 'meta-llama-3.3-70b-instruct-121024'),
++    'judge1': ('databricks-qwen3-next-80b-a3b-instruct', 'qwen3-next-instruct-091725'),
++    'judge2': ('databricks-gpt-oss-120b', 'gpt-oss-120b-080525'),
++}
++DBU_RATES={'router':('2.143','7.143'), 'verifier':('7.143','21.429'),
++    'generator':('7.143','21.429'), 'judge1':('2.143','17.143'), 'judge2':('2.143','8.571')}
++OUTPUT_CAPS={'router':128,'verifier':512,'generator':4096,'judge1':1024,'judge2':4096}
++
++
++def candidate():
++    roles=[]
++    for role,(endpoint,observed) in MODELS.items():
++        rates=DBU_RATES[role]
++        price=Price('PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU',
++            int(Decimal(rates[0])*10**9),int(Decimal(rates[1])*10**9),True)
++        # Local composition still enforces 1000/7000. The larger reservations
++        # allow bounded server-added tokens; they cannot certify server behavior.
++        roles.append(RoleConfig(role,WORKSPACE,endpoint,(observed,),128000,
++            2048 if role=='router' else 8192,OUTPUT_CAPS[role],256*1024,1024**2,120,price))
++    budget=preview_budget(tuple(roles),study_queries=350,smoke_queries=0,
++                          spend_cap_nanodollars=300*10**9)
++    return {'status':'PROPOSED_NOT_ADMITTED','execution_authorized':False,
++        'user_reported_account_balance_usd':400,'proposed_client_cap_usd':300,
++        'user_instruction':'I have total 400 dollar with that account so use less than 400',
++        'balance_independently_verified':False,'effective_account_rate_confirmed':False,
++        'fixed_charges_confirmed_absent':False,'usd_per_dbu_ceiling_assumption':'1.00',
++        'gpt_oss_reasoning_policy':'low; completion billing inclusion remains a disclosed assumption',
++        'local_prompt_token_ceilings':{'router':1000,'all_other_roles':7000},
++        'roles':[asdict(r) for r in roles], 'budget':budget,
++        'public_sources':[
++            'https://www.databricks.com/product/pricing/foundation-model-serving',
++            'https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/api-reference',
++            'https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/limits'],
++        'remaining_requirements':['authentic prompt measurements',
++            'authenticated worker CLI and native packet binding',
++            'account-specific quota/pacing policy','rubric and missing-score decision acceptance',
++            'effective billing confirmation or explicit acceptance of pricing uncertainty',
++            'final peer review and dated full-run authorization']}
+--- /dev/null
++++ tests/test_paired_study_runtime_synthetic.py
+@@ -0,0 +1,191 @@
++"""End-to-end held study wiring with static HTTP and temporary files only."""
++from dataclasses import replace
++import copy
++import json
++from pathlib import Path
++import tempfile
++import unittest
++from unittest.mock import patch, Mock
++
++from tests import test_paired_dependency_bridge_synthetic as fixtures
++from scripts.matched_baseline.provider_accounting import (
++    canonical, strict_json, BudgetJournal, ContractError, DispatchHeld,
++)
++from scripts.matched_baseline.provider_run_control import (
++    StaticConnection, HttpFixture, EndpointQuota,
++)
++from scripts.matched_baseline.paired_study_runtime import (
++    StudyQuery, StudyStore, _run_bound_study, run_authentic_study,
++    validate_composed_result,
++)
++
++
++class RuntimeTests(unittest.TestCase):
++    def setUp(self):
++        self.tmp = tempfile.TemporaryDirectory()
++        self.addCleanup(self.tmp.cleanup)
++        self.root = Path(self.tmp.name)/'run'
++        self.f = fixtures.BridgeTests('runTest')
++        self.f.setUp()
++        self.connections = []
++        self.factories = []
++        self.bad_stage = None
++        self.fail_stage = None
++        self.quota = {r: EndpointQuota(1000000, 1000000, 10000) for r in self.f.configs}
++
++    def connection(self, config):
++        self.factories.append(config.role)
++        stage = config.role
++        content = ({'route': 'HARD'} if stage == 'router' else
++            {'sufficient': self.f.sufficient, 'reason': 'fixture'} if stage == 'verifier' else
++            'synthetic generated answer' if stage == 'generator' else
++            {'faithfulness': None if self.f.null else 0.5,
++             'outcome': 'SUBSTANTIVE_ANSWER', 'rationale': 'fixture'})
++        if stage == self.bad_stage: content = {'invalid': 'fixture'}
++        body = canonical({'id': 'fixture', 'model': 'fixture-model',
++            'choices': [{'finish_reason': 'stop', 'message': {'role': 'assistant',
++                'content': content if type(content) is str else json.dumps(content)}}],
++            'usage': {'prompt_tokens': 10, 'completion_tokens': 10, 'total_tokens': 20}})
++        connection = StaticConnection(HttpFixture(body=body,
++            fail_at='request' if stage == self.fail_stage else None))
++        self.connections.append(connection)
++        return connection
++
++    def run_study(self, **overrides):
++        opts = dict(root=self.root,
++            queries=(StudyQuery('Q001', 'alpha', 'B_Evolutionary'),),
++            retrieval=self.f.retrieval, tokenizers=self.f.tokenizers,
++            configs=self.f.configs, quotas=self.quota,
++            connection_factory=self.connection, bearer=lambda:'SYNTHETIC_NOT_A_CREDENTIAL',
++            cap_nanodollars=10000000, byte_cap=16*1024**2,
++            now=lambda:0, mode='SYNTHETIC_DEPENDENCY_COMPOSITION')
++        opts.update(overrides)
++        return _run_bound_study(**opts)
++
++    def test_complete_pair_http_usage_and_manifest(self):
++        result = self.run_study()
++        self.assertEqual(result['completed'], 1)
++        self.assertEqual(len(self.connections), 9)
++        self.assertTrue(all(c.closed for c in self.connections))
++        terminal = strict_json((self.root/'terminal.json').read_bytes())
++        self.assertEqual(terminal['status'], 'COMPUTATION_COMPLETE_REQUIRES_POSTRUN_AUDIT')
++        self.assertFalse(terminal['execution_authority'])
++        self.assertEqual(len(BudgetJournal.inspect(self.root/'calls.jsonl')['states']), 9)
++
++    def test_refusal_and_null_reconstruct_without_score_invention(self):
++        self.f.sufficient = False
++        self.f.null = True
++        self.run_study()
++        result = strict_json((self.root/'Q001.json').read_bytes())
++        self.assertIsNone(result['arms']['H']['composite'])
++        self.assertNotIn('generator', self.factories)
++        self.assertEqual(len(self.connections), 7)
++
++    def test_two_queries_serial_order_same_pipeline(self):
++        self.run_study(queries=(StudyQuery('Q001','alpha','B_Evolutionary'),
++                                StudyQuery('Q002','beta','A_Factual')))
++        self.assertEqual(len(self.connections), 18)
++        terminal = strict_json((self.root/'terminal.json').read_bytes())
++        self.assertEqual(terminal['count'], 2)
++
++    def test_authentic_entry_fails_before_files_or_callbacks(self):
++        callback = Mock(side_effect=AssertionError())
++        with self.assertRaises(DispatchHeld):
++            run_authentic_study(root=self.root, bearer=callback)
++        self.assertFalse(self.root.exists())
++        callback.assert_not_called()
++
++    def test_timeout_retains_exposure_and_no_retry(self):
++        self.fail_stage = 'router'
++        with self.assertRaises(TimeoutError): self.run_study()
++        evidence = BudgetJournal.inspect(self.root/'calls.jsonl')
++        self.assertEqual(len(self.connections), 1)
++        self.assertEqual(evidence['states']['Q001:shared:router'], 'UNCERTAIN')
++        self.assertTrue((self.root/'single_attempt.lock').exists())
++        self.assertEqual(strict_json((self.root/'terminal.json').read_bytes())['status'], 'FAIL')
++
++    def test_invalid_content_still_settled_and_no_result(self):
++        self.bad_stage = 'router'
++        with self.assertRaises(ContractError): self.run_study()
++        entry = BudgetJournal.inspect(self.root/'calls.jsonl')['states']['Q001:shared:router']
++        self.assertEqual(entry, 'SETTLE')
++        self.assertFalse((self.root/'Q001.json').exists())
++
++    def test_record_fsync_failure_prevents_network(self):
++        original = StudyStore.record
++        def fail(store, event):
++            if event.get('kind') == 'HTTP_REQUEST': raise OSError('fixture disk')
++            return original(store, event)
++        with patch.object(StudyStore, 'record', fail), self.assertRaises(OSError):
++            self.run_study()
++        self.assertEqual(self.connections, [])
++        self.assertEqual(BudgetJournal.inspect(self.root/'calls.jsonl')['states']['Q001:shared:router'], 'UNCERTAIN')
++
++    def test_tampered_pair_rejected_before_publish(self):
++        original = StudyStore.save_pair
++        def tamper(store, query, pair, journal):
++            value = copy.deepcopy(pair)
++            value['arms']['H']['composite'] = 1
++            return original(store, query, value, journal)
++        with patch.object(StudyStore, 'save_pair', tamper), self.assertRaises(ContractError):
++            self.run_study()
++        self.assertFalse((self.root/'Q001.json').exists())
++
++    def test_coherent_trace_score_tamper_still_rejected_by_response(self):
++        original = StudyStore.save_pair
++        def tamper(store, query, pair, journal):
++            pair['arms']['H']['composite'] = 1
++            # store.rows completion contains the same pair object. Reconstruction
++            # must still fail against the raw provider HTTP response.
++            return original(store, query, pair, journal)
++        with patch.object(StudyStore, 'save_pair', tamper), self.assertRaises(ContractError):
++            self.run_study()
++
++    def test_namespace_collision_before_creation(self):
++        with self.assertRaises(ContractError): StudyStore(self.root, ('CON',), 8192)
++        self.assertFalse(self.root.exists())
++
++    def test_repeat_directory_never_adopted(self):
++        self.run_study()
++        before = (self.root/'terminal.json').read_bytes()
++        with self.assertRaises(FileExistsError): self.run_study()
++        self.assertEqual(before, (self.root/'terminal.json').read_bytes())
++
++    def test_tiny_aggregate_cap_stops_before_connection(self):
++        with self.assertRaises(ContractError): self.run_study(byte_cap=16384)
++        self.assertEqual(self.connections, [])
++
++    def test_budget_exhaustion_stops_before_secret_or_connection(self):
++        config = self.f.configs['router']
++        self.f.configs['router'] = replace(config, price=replace(config.price, input_per_million=1000000))
++        secret = Mock(side_effect=AssertionError('not expected'))
++        with self.assertRaises(DispatchHeld): self.run_study(cap_nanodollars=1, bearer=secret)
++        self.assertEqual(self.connections, [])
++        secret.assert_not_called()
++
++    def test_generator_verifier_share_endpoint_quota(self):
++        self.f.configs['verifier'] = replace(self.f.configs['verifier'], endpoint='generator')
++        self.quota['generator'] = EndpointQuota(8000, 10000, 1000)
++        self.quota['verifier'] = self.quota['generator']
++        with self.assertRaises(DispatchHeld): self.run_study()
++        self.assertLess(len(self.connections), 9)
++
++    def test_gpt_request_and_local_template_both_bind_low_reasoning(self):
++        config=self.f.configs['judge2']
++        self.f.configs['judge2']=replace(config,endpoint='databricks-gpt-oss-120b')
++        tokenizer=self.f.tokenizers['judge2']
++        original=tokenizer.apply_chat_template
++        observed=[]
++        def render(msgs,add_generation_prompt=True,**kwargs):
++            observed.append(kwargs)
++            return original(msgs,add_generation_prompt=add_generation_prompt)
++        tokenizer.apply_chat_template=render
++        self.run_study()
++        gpt=[c for c in self.connections if 'gpt-oss' in c.requests[0][1]]
++        self.assertEqual(len(gpt),2)
++        self.assertTrue(all(json.loads(c.requests[0][2])['reasoning_effort']=='low' for c in gpt))
++        self.assertTrue(all(k=={'reasoning_effort':'low'} for k in observed))
++
++
++if __name__ == '__main__':
++    unittest.main()
+--- /dev/null
++++ tests/test_paired_local_runtime_synthetic.py
+@@ -0,0 +1,65 @@
++"""Local assembly seam over tiny in-memory fake objects; no real loaders."""
++from types import SimpleNamespace
++import unittest
++from unittest.mock import Mock
++
++from scripts.matched_baseline.paired_local_runtime import _assemble_local, load_authentic_local
++from scripts.matched_baseline.provider_accounting import ContractError, DispatchHeld
++from tests import test_paired_dependency_bridge_synthetic as fixtures
++
++
++class LocalRuntimeTests(unittest.TestCase):
++    def setup_bundle(self):
++        f = fixtures.BridgeTests('runTest'); f.setUp()
++        f.tokenizers['verifier'] = f.tokenizers['generator']
++        reader = Mock()
++        reader.extract_layer1_corpus.return_value = f.corpus
++        values = dict(reader=reader, nodes=f.nodes, edges=f.edges,
++            role_configs={r: SimpleNamespace(tokenizer=t) for r,t in f.tokenizers.items()})
++        assembly = Mock()
++        assembly.load.return_value = values
++        return f, reader, assembly, values
++
++    def test_shared_tokenizers_and_full_corpus_use(self):
++        f,reader,assembly,_ = self.setup_bundle()
++        bundle = _assemble_local(assembly=assembly,spec='fixture',query_pairs=[],receipt='fixture',expected_count=3)
++        reader.extract_layer1_corpus.assert_called_once_with(expected_count=3)
++        self.assertIs(bundle.tokenizers['generator'], bundle.tokenizers['verifier'])
++        assembly.close.assert_not_called()
++        bundle.close(); assembly.close.assert_called_once()
++
++    def test_loading_failure_closes_ownership(self):
++        _,_,assembly,_ = self.setup_bundle()
++        assembly.load.side_effect = ValueError('fixture')
++        with self.assertRaises(ValueError):
++            _assemble_local(assembly=assembly,spec=None,query_pairs=[],receipt=None,expected_count=3)
++        assembly.close.assert_called_once()
++
++    def test_tokenizer_mismatch_rejected_and_closed(self):
++        _,_,assembly,values = self.setup_bundle()
++        values['role_configs']['verifier'] = SimpleNamespace(tokenizer=object())
++        with self.assertRaises(ContractError):
++            _assemble_local(assembly=assembly,spec=None,query_pairs=[],receipt=None,expected_count=3)
++        assembly.close.assert_called_once()
++
++    def test_population_mismatch_rejected(self):
++        _,_,assembly,_ = self.setup_bundle()
++        with self.assertRaises(ContractError):
++            _assemble_local(assembly=assembly,spec=None,query_pairs=[],receipt=None,expected_count=20000)
++        assembly.close.assert_called_once()
++
++    def test_cleanup_error_preserves_original(self):
++        _,_,assembly,_ = self.setup_bundle()
++        assembly.load.side_effect=ValueError('fixture')
++        assembly.close.side_effect=OSError('fixture')
++        with self.assertRaises(BaseExceptionGroup) as caught:
++            _assemble_local(assembly=assembly,spec=None,query_pairs=[],receipt=None,expected_count=3)
++        self.assertEqual(len(caught.exception.exceptions),2)
++
++    def test_genuine_entry_held_before_any_callback(self):
++        assembly=Mock()
++        with self.assertRaises(DispatchHeld):load_authentic_local(assembly=assembly)
++        assembly.load.assert_not_called()
++
++
++if __name__ == '__main__':unittest.main()
+--- /dev/null
++++ tests/test_paired_study_supervision_synthetic.py
+@@ -0,0 +1,56 @@
++"""Mock Job backend only: no DLLs, native processes, firewall or real clock waits."""
++import unittest
++from dataclasses import replace
++from unittest.mock import Mock
++from scripts.matched_baseline.paired_study_supervision import (
++    SupervisionPlan, SupervisedStudyDispatch, launch_authentic_study,
++)
++from scripts.matched_baseline.provider_accounting import ContractError, DispatchHeld
++
++
++class SupervisionTests(unittest.TestCase):
++    def setUp(self):
++        self.plan=SupervisionPlan(('fixture-python','fixture-child'),(('MODE','fixture'),),60,1024**3,4096,100)
++        self.backend=Mock()
++        self.backend.state.return_value=dict(active_processes=0,peak_memory_bytes=100,output_bytes=20)
++        self.backend.pid.return_value=123
++        self.backend.exit_code.return_value=0
++
++    def dispatcher(self,**updates):
++        args=dict(plan=self.plan,reviewed_plan=self.plan,backend=self.backend,
++                  clock=lambda:0,pause=lambda _:None)
++        args.update(updates)
++        return SupervisedStudyDispatch(**args)
++
++    def test_suspended_assignment_order_and_exact_environment(self):
++        self.assertTrue(self.dispatcher().run().termination_confirmed)
++        names=[c[0] for c in self.backend.mock_calls]
++        self.assertLess(names.index('create_suspended'),names.index('assign'))
++        self.assertLess(names.index('assign'),names.index('resume'))
++        self.backend.create_suspended.assert_called_once_with(list(self.plan.command),dict(self.plan.environment))
++
++    def test_retry_blocked(self):
++        d=self.dispatcher();d.run()
++        with self.assertRaises(DispatchHeld):d.run()
++        self.backend.create_suspended.assert_called_once()
++
++    def test_resource_or_environment_change_rejected_before_launch(self):
++        with self.assertRaises(ContractError):
++            self.dispatcher(plan=replace(self.plan,timeout_seconds=61))
++        self.backend.create_job.assert_not_called()
++
++    def test_nonzero_exit_rejected(self):
++        self.backend.exit_code.return_value=1
++        with self.assertRaises(DispatchHeld):self.dispatcher().run()
++
++    def test_credentials_not_allowed_in_environment(self):
++        with self.assertRaises(ContractError):
++            replace(self.plan,environment=(('DATABRICKS_TOKEN','fixture'),))
++
++    def test_live_entry_held_before_backend(self):
++        with self.assertRaises(DispatchHeld):launch_authentic_study(backend=self.backend)
++        with self.assertRaises(DispatchHeld):self.dispatcher(is_synthetic=False)
++        self.backend.create_job.assert_not_called()
++
++
++if __name__=='__main__':unittest.main()
+--- /dev/null
++++ tests/test_paired_study_candidate_synthetic.py
+@@ -0,0 +1,27 @@
++"""Pure budget proposal tests. No files, model assets or provider requests."""
++import unittest
++from scripts.matched_baseline.paired_study_candidate import candidate
++
++
++class CandidateTests(unittest.TestCase):
++    def test_no_execution_authority_or_verified_balance_claim(self):
++        c=candidate()
++        self.assertFalse(c['execution_authorized'])
++        self.assertFalse(c['balance_independently_verified'])
++        self.assertFalse(c['effective_account_rate_confirmed'])
++
++    def test_within_user_ceiling_and_client_proposal(self):
++        c=candidate()
++        self.assertLess(c['proposed_client_cap_usd'],400)
++        self.assertTrue(c['budget']['within_proposed_cap'])
++        self.assertEqual(c['budget']['maximum_attempts'],3150)
++        self.assertEqual(c['budget']['automatic_retries'],0)
++        self.assertLess(c['budget']['maximum_nanodollars'],300*10**9)
++
++    def test_exact_observed_ids_no_discovery_aliases(self):
++        c=candidate()
++        self.assertTrue(all(len(r['accepted_models'])==1 for r in c['roles']))
++        self.assertEqual(c['roles'][-1]['accepted_models'],('gpt-oss-120b-080525',))
++
++
++if __name__=='__main__':unittest.main()

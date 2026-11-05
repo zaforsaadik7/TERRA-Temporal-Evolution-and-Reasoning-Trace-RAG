@@ -1,0 +1,180 @@
+{
+ "total_used_macros": 1236,
+ "by_status": {
+  "UNVERIFIED": 223,
+  "TRACED_WEAK": 70,
+  "REPRODUCED": 480,
+  "TRACED": 309,
+  "CONFLICT": 58,
+  "BLOCKED": 56,
+  "MINOR_MISMATCH": 14,
+  "CONSISTENT": 18,
+  "LAYOUT": 4,
+  "REPRODUCED_METHOD": 4
+ },
+ "by_zone_status": {
+  "HEAD": {
+   "UNVERIFIED": 22,
+   "REPRODUCED": 222,
+   "CONSISTENT": 1
+  },
+  "DOWNSTREAM": {
+   "UNVERIFIED": 186,
+   "TRACED_WEAK": 70,
+   "REPRODUCED": 240,
+   "TRACED": 215,
+   "CONFLICT": 56,
+   "BLOCKED": 56,
+   "MINOR_MISMATCH": 11,
+   "REPRODUCED_METHOD": 4
+  },
+  "OBSCURE": {
+   "TRACED": 94,
+   "UNVERIFIED": 15,
+   "CONSISTENT": 17,
+   "MINOR_MISMATCH": 3,
+   "LAYOUT": 4
+  },
+  "CORPUS": {
+   "REPRODUCED": 18,
+   "CONFLICT": 2
+  }
+ },
+ "by_block_status": {
+  "HEAD (generate_stats_v2)": {
+   "UNVERIFIED": 22,
+   "REPRODUCED": 222,
+   "CONSISTENT": 1
+  },
+  "Canonical V2 Phase 3 additions": {
+   "UNVERIFIED": 2,
+   "REPRODUCED": 4,
+   "REPRODUCED_METHOD": 1,
+   "CONFLICT": 2
+  },
+  "A2/A3/B1 additions": {
+   "UNVERIFIED": 2,
+   "REPRODUCED": 11,
+   "REPRODUCED_METHOD": 2
+  },
+  "Hyperlink attribution Panel B": {
+   "TRACED_WEAK": 1,
+   "REPRODUCED": 5,
+   "CONFLICT": 2
+  },
+  "CaseFacts external (Issue 7)": {
+   "TRACED_WEAK": 9,
+   "REPRODUCED": 8,
+   "TRACED": 5,
+   "UNVERIFIED": 8
+  },
+  "Cat D multi-class + McNemar (Issue 17)": {
+   "UNVERIFIED": 2,
+   "TRACED": 22,
+   "CONFLICT": 4,
+   "REPRODUCED": 4
+  },
+  "DEPRECATED post-hoc power": {
+   "UNVERIFIED": 8
+  },
+  "Cat B citation Panel A (Issue 16)": {
+   "REPRODUCED": 27,
+   "TRACED_WEAK": 4
+  },
+  "Retrieval quality (Table XV, Issue 9)": {
+   "CONFLICT": 3,
+   "TRACED_WEAK": 17,
+   "REPRODUCED": 37,
+   "TRACED": 3,
+   "UNVERIFIED": 8
+  },
+  "Cat B citation lifts": {
+   "REPRODUCED": 4,
+   "UNVERIFIED": 3
+  },
+  "Z3 added (verified from logs)": {
+   "UNVERIFIED": 14,
+   "TRACED_WEAK": 2,
+   "REPRODUCED": 23
+  },
+  "Cat C containment Panel B": {
+   "TRACED": 4,
+   "REPRODUCED": 5,
+   "TRACED_WEAK": 6
+  },
+  "Temporal leakage probe (Table XII)": {
+   "BLOCKED": 56
+  },
+  "CLERC (Table XIV)": {
+   "TRACED": 25,
+   "UNVERIFIED": 9,
+   "TRACED_WEAK": 12,
+   "REPRODUCED": 9
+  },
+  "Corpus statistics (Table III)": {
+   "REPRODUCED": 18,
+   "CONFLICT": 2
+  },
+  "Computational budget / gate (Issue 10)": {
+   "REPRODUCED": 58,
+   "UNVERIFIED": 71,
+   "CONFLICT": 45
+  },
+  "Issue 19 temporal traversal stability": {
+   "UNVERIFIED": 26,
+   "TRACED": 4,
+   "TRACED_WEAK": 2
+  },
+  "Issue 20 corpus length filtering": {
+   "TRACED": 17,
+   "TRACED_WEAK": 2
+  },
+  "Issue 25 corpus vs task scope": {
+   "TRACED": 7,
+   "TRACED_WEAK": 2
+  },
+  "Issue 24 hyper-parameters / dev set": {
+   "REPRODUCED": 4,
+   "TRACED_WEAK": 4,
+   "TRACED": 3,
+   "UNVERIFIED": 1
+  },
+  "Issue 21 citation-edge precision": {
+   "TRACED": 12,
+   "TRACED_WEAK": 3
+  },
+  "Issue 26 sensitivity grids": {
+   "TRACED": 69
+  },
+  "Issue 23 baseline adaptation": {
+   "REPRODUCED": 16,
+   "UNVERIFIED": 3,
+   "MINOR_MISMATCH": 3,
+   "TRACED": 7
+  },
+  "Issue 22 taxonomy audit": {
+   "TRACED": 36,
+   "TRACED_WEAK": 6,
+   "UNVERIFIED": 8
+  },
+  "Obscure overruled suite (Issue 18)": {
+   "TRACED": 94,
+   "UNVERIFIED": 15,
+   "CONSISTENT": 17,
+   "MINOR_MISMATCH": 3,
+   "LAYOUT": 4
+  },
+  "Router (Issue 15)": {
+   "REPRODUCED": 23,
+   "REPRODUCED_METHOD": 1,
+   "TRACED": 1
+  },
+  "Net latency": {
+   "MINOR_MISMATCH": 8,
+   "REPRODUCED": 2
+  },
+  "Reasoning-trace audit (Issue 14)": {
+   "UNVERIFIED": 21
+  }
+ }
+}

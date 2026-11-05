@@ -1,0 +1,134 @@
+[
+  {
+    "role": "benchmark",
+    "local": {
+      "path": "F:\\TERRA -Copy\\terra_350_benchmark.json",
+      "bytes": 352287,
+      "sha256": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "canonical_results",
+    "local": {
+      "path": "F:\\TERRA -Copy\\data\\terra_canonical_v2_eval.json",
+      "bytes": 15156436,
+      "sha256": "95e775e29c3a0d95f3cb35aa9d50a5f030d04b51d3f2175848db2f2b57aad507"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "corrected_graph",
+    "local": {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\derived_graphs\\r30corr_v1\\terra_eeg_index_20k_r30corr_v1.json.xz",
+      "bytes": 16630936,
+      "sha256": "330ab8c58468011de380f0d2a82f4cfda28e628ac001c314572a751540da5c63"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "historical_bundle_manifest",
+    "local": {
+      "path": "F:\\TERRA -Copy\\canonical_v2_reproducibility_bundle\\manifest.sha256",
+      "bytes": 4293,
+      "sha256": "5c4fd90856974c6c032f06b9b9a5d630883021f96890658169937a191b06b35c"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "obscure_bundle_manifest",
+    "local": {
+      "path": "F:\\TERRA -Copy\\issue18_bundle\\manifest.sha256",
+      "bytes": 6742,
+      "sha256": "051b4b3fa66e36876f0158b214cf0be0758e55d34a27b37222908d9cc42edb8c"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "matched_analysis",
+    "local": {
+      "path": "F:\\TERRA -Copy\\reports\\matched_study_r03_20261025_01\\ANALYSIS_RESULTS.json",
+      "bytes": 73258,
+      "sha256": "777a16b190333082e409a89e46c54e7f755bb320daacf724e77f2d9d3fa16175"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "matched_analysis_script",
+    "local": {
+      "path": "F:\\TERRA -Copy\\reports\\matched_study_r03_20261025_01\\analyze_audited_results.py",
+      "bytes": 4462,
+      "sha256": "7dc34dee6d4eaa43cbcae2ab0d984753293c74f4f076247012db8e99fdb7df97"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "matched_final_report",
+    "local": {
+      "path": "F:\\TERRA -Copy\\reports\\matched_study_r03_20261025_01\\FINAL_REPORT.md",
+      "bytes": 9583,
+      "sha256": "489485c0e07b0786de7f700b82fe9dd2d0ea02206237a7ae0e54efbe804da30f"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "I6completion",
+    "local": {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I6_20261026_01\\I6_COMPLETION.json",
+      "bytes": 1115,
+      "sha256": "0338d43347caf6fac333bcf2bbfa9980c556ce85a364084227fdb0f15825b749"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "original_private_assessment",
+    "local": {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\issued_20261009_01\\COMPLETED\\ASSESSMENT_AUTHOR_1_COMPLETED.xlsx",
+      "bytes": 83334,
+      "sha256": "34735965b0636a26570b3053baebfd8b58532888f684e2ee381754c8bdf6832b"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  },
+  {
+    "role": "original_private_assessment",
+    "local": {
+      "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_author_validation_20261008\\issued_20261009_01\\COMPLETED\\ASSESSMENT_AUTHOR_2_COMPLETED.xlsx",
+      "bytes": 112721,
+      "sha256": "ce3869f8b0930b6a28df73b5deabffc5e1e7da9c4b2df5a649bec27f838c598b"
+    },
+    "public_specific_version": "NOT_VERIFIED",
+    "redistribution": "AUTHOR_RIGHTS_PRIVACY_CONFIRMATION_REQUIRED",
+    "export": "EXCLUDED_RAW_DATA_OR_IDENTIFIED_RECORD",
+    "reuse": "no license inferred from visibility or access"
+  }
+]

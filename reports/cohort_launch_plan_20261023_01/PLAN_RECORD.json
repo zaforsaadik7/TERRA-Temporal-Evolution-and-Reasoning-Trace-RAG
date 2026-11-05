@@ -1,0 +1,59 @@
+{
+  "scope": "PLAN_ONLY_NOT_IMPLEMENTATION_OR_RUN_AUTHORITY",
+  "execution_authorized": false,
+  "resource_limits_approved": false,
+  "empirically_calibrated": false,
+  "proposed_child_seconds": 7200,
+  "proposed_outer_scheduling_seconds": 10800,
+  "proposed_finalization_reserve_seconds": 300,
+  "proposed_child_memory_bytes": 4294967296,
+  "proposed_capture_bytes": 16777216,
+  "proposed_report_bytes": 16777216,
+  "proposed_evidence_budget_bytes": 134217728,
+  "proposed_free_space_floor_bytes": 2147483648,
+  "proposed_disposable_growth_bytes": 536870912,
+  "query_count": 350,
+  "route_record_count": 700,
+  "batch_size": 32,
+  "dense_batches": 11,
+  "evidence_files_reverified": 184,
+  "live_admissions_closed": true,
+  "real_assets_or_native_operations": false,
+  "source_references": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_preflight_integration_20261023_01\\manifest.json",
+      "size_bytes": 2631,
+      "sha256": "030aab67538057a31ebf057a7d181c1008a5240f0f09263e414e082ca1f5333c"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\explicit_b001_postrun_20261023_01\\manifest.json",
+      "size_bytes": 2366,
+      "sha256": "92ad31af1b4dbb75bb7685a931a638b1b4f2c9b7e7b3b212c0dee2bf5ce436b8"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\authentic_smoke_explicit_candidate_20261023_01\\evidence\\child_report.json",
+      "size_bytes": 4017,
+      "sha256": "04aa90030068acf140755adb601c749cddefd33099c8bce42ca8f0f83c58f1f9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_preflight.py",
+      "size_bytes": 231231,
+      "sha256": "34db0423fc35e2fbdc74c9ad40bdd40fc139e3aa2f3a8058af7064d8ec2b94e3"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_config.py",
+      "size_bytes": 5771,
+      "sha256": "e25055bacb9b91ca18db6b9dcffc9b782a8c95316a3da982cb32f3912bac0606"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_request.py",
+      "size_bytes": 3994,
+      "sha256": "9a0ae9e3418d163c56666ecb3006f4f393373e40117c4b8f17c21406f9550c02"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_windows_job.py",
+      "size_bytes": 12714,
+      "sha256": "b5aaeb91d1892a43d51bc4ccc20d198b5cd3c85a89aadbc6d94c5ed4105a4f83"
+    }
+  ]
+}

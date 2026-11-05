@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "created_local_date": "2026-10-08",
+  "created_utc": "2026-10-07T20:13:56Z",
+  "workspace": "F:\\TERRA -Copy",
+  "implementation_lead": "Codex",
+  "context_peer": "Antigravity",
+  "channel": "user-relayed file/messages",
+  "direct_channel_established": false,
+  "automatic_wake_or_monitor_installed": false,
+  "antigravity_acknowledgment_received": true,
+  "antigravity_latest_artifacts_verified": true,
+  "state": "MATCHED_BASELINE_SOURCE_STORE_DRIFT_DETECTED_REAL_RUN_HALTED",
+  "current_turn_scope": "Reviewed Codex-0170 source store drift finding (chroma.sqlite3 hash changed from a184ae23... to c7fc28f2..., size unchanged at 362,885,120 bytes; remaining 10 store files and 7 cache files 100% identical). Real-data progression halted. Conducted read-only audit of existing logs and static code: chroma.sqlite3 modification timestamp (2026-10-14 17:52:27.759 UTC) matches task-1167 unittest discovery launch to the millisecond, caused by unmocked top-level chromadb.PersistentClient initialization in ask_terra.py imported by historical tests. Zero database connections, schema queries, file restorations, or probe commands executed. Gate C strictly sealed; production hold active; zero real model/tokenizer/database/network execution.",
+  "user_designation": "Codex will perform subsequent work; Antigravity supplies context via the user",
+  "promotion_authorized_by_this_setup": false,
+  "new_experiments_or_data_changes_authorized_by_this_setup": false,
+  "advisor_main_page_ceiling": 25,
+  "target_journal_verified": false,
+  "latest_codex_message": "codex_to_antigravity/20261015-codex-0170-renewed-source-cache-identity-pass.md",
+  "latest_antigravity_message": "antigravity_to_codex/20261015-antigravity-0143-source-drift-log-review-and-hold-acknowledgment.md",
+  "codex_audited_artifacts": [
+    {"role": "main_source", "path": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex", "sha256": "56b79e1f903ebed99ee13c831cd6146dd7b3922ad259eb46f76177420b0412f2"},
+    {"role": "main_pdf", "path": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/main_repairs_A/build/main.pdf", "pages": 24, "sha256": "900bb124e9a1a0a8f21b42f3b15ed6fd22440849e7f3327d0810fa73467ffbeb"},
+    {"role": "supplement_pdf", "path": "TERRA_EDITORIAL_RESTART_V2/working/TERRA_supplementary_removed_material.pdf", "pages": 6, "sha256": "9dcb2d41acf53fc7eb77f0ba57b89dfb62798cc80599458a3a621a14a4937e89"}
+  ],
+  "findings": [
+    {"id": "F01", "topic": "architecture figure / observed EASY path", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present; figure_1_system_architecture.tex lines 170-173 still state No RAG bypass; needs Grounded Fast Path label"},
+    {"id": "F02", "topic": "supplement sources and unresolved references", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present; historical supplement has synthetic anchors and duplicate labels; extract clean tables I-X and 18 limitations to build working/src/TERRA_SUPPLEMENT.tex"},
+    {"id": "F03", "topic": "stale moved-table descriptions/counts", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present in removed-material PDF; Table II/V/VI notes require sync with main disclosures"},
+    {"id": "F04", "topic": "unverified temporal-probe evidence", "status": "PARTIALLY_REPAIRED_NEEDS_NARROWING", "antigravity_disposition": "Codex's TGS QWK 0.3702 confirmed on final 315-pair dataset (0.3672 was an earlier 307-pair snapshot from scratch summary); narrow claims to pre-specified protocol and exploratory diagnostic"},
+    {"id": "F05", "topic": "missing handoffs/approvals/completeness maps", "status": "EVIDENCE_EXPLAINED", "antigravity_disposition": "Batches 15-28 applied cumulatively under user delegation; 13 milestone PDFs preserved in working/; no separate diff folders created"},
+    {"id": "F06", "topic": "table readability", "status": "CONFIRMED_STILL_PRESENT", "antigravity_disposition": "still present; Tables V, XI, XII downscaled to 3.4-4.4 pt via resizebox; redesign to 7-8 pt without downscaling and check real pagination"}
+  ],
+  "warning": "This index identifies observations and communication state, not current scientific truth, user approval, or an unseen Antigravity package."
+}

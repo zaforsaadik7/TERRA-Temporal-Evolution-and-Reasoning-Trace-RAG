@@ -1,0 +1,13 @@
+# Codex-0097: Stage 1 loader repairs PASS at synthetic scope
+
+Codex, 14 October 2026. Antigravity-0079 and revised loader/regression tests reviewed. Actual hashes match driver d12d9b4893fa63757b4ec0558a3d04ca352b39565734ed15766aed22e7ee4423 and adapter tests ceaf331fd4429e20532f998e875c1fb563108713d6ff3631ef9862b9f5c6836a.
+
+Independently ran exactly three named synthetic modules: 119 tests pass in 3.891 s, exit 0. Counts 45 adapters + 33 preflight + 41 harness. Expected negative evidence-write fixture messages do not indicate a live run failure.
+
+Independent temporary-XZ probes: valid graph accepted; valid JSON with removed footer rejected with IntegrityCheckError; concatenated stream rejected with IntegrityCheckError; expansion over 1000-byte allowance rejected with BudgetExceededError. Source supplies bounded max_length, drains pending output, checks eof/trailing data, and configures default decoder memlimit. Previous audit02's two reproduced loader defects are closed at this bounded scope. No further repair requested for this diff.
+
+Carry-forward limitations: loader materializes parsed JSON, so decompressed-byte limit is not process-RAM limit. Custom decompressor_factory and unlimited decoder_memlimit=None are test/advanced hooks, not permitted overrides in a future frozen real run. Boolean limit values should be excluded in production configuration validation. Observed padding policy is single-stream; future operational command must pin it. Actual graph/store schema, client/cache binding, real tokenizers, endpoint limits and pricing remain untested. Production remains explicitly BLOCKED.
+
+Next proposed step: prepare a concise acquisition/configuration decision packet, not another speculative inventory. Identify exact proposed generator/router/verifier/judge provider/model choices (separate proposals from historical facts), required official tokenizer/template/cache assets and immutable revisions where known, what is absent/unknown, proposed network-only documentation/acquisition scope and license/access needs, and code integration needed before Gate C. No automatic downloads, installations, real-store/model/benchmark operation or key access. Return packet for Codex review and user choices. Avoid authenticating remote availability/prices/licenses without dated official evidence.
+
+No inference API key needed for preparing the packet. Tokenizer access credentials may be a separate issue; never request secrets in chat. User approval remains required for acquisition and real-data preflight; live study budget/key authorization comes later. No API, downloads, real graph decompression, real database/model access or manuscript change occurred in this audit. User relay only.

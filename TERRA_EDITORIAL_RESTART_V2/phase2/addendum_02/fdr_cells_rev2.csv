@@ -1,0 +1,21 @@
+fact_id,table_line,baseline,slice,rank_ok,p_ok,q_ok,paired_ok,delta_ok,d_z_ok,significance_ok,ci95_ok,ci_note,printed_label,expected_label,row_status,failed,unchecked
+F-FDR-01,12,Direct LLM (No RAG),Category C (Out-of-Context Refusal),True,True,True,True,True,True,True,N/A,no CI printed (Fisher row),Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-02,13,Direct LLM (No RAG),Category A (Factual),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",Yes (TERRA),Yes (TERRA),VERIFIED_PARTIAL,,ci95
+F-FDR-03,14,Direct LLM (No RAG),Combined In-Domain (A+B),True,True,True,True,True,True,True,True,via macro CombinedTerraVsDirectLLMCI,Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-04,15,GraphRAG-Adapted,Category B (Evolutionary),True,True,True,True,True,True,True,True,via macro CatBTerraVsGraphRAGCI,Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-05,16,GraphRAG-Adapted,Combined In-Domain (A+B),True,True,True,True,True,True,True,True,via macro CombinedTerraVsGraphRAGCI,Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-06,17,Direct LLM (No RAG),Category D (Adversarial Faithfulness),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",Yes (Baseline),Yes (Baseline),VERIFIED_PARTIAL,,ci95
+F-FDR-07,18,Flat Vector RAG,Combined In-Domain (A+B),True,True,True,True,True,True,True,True,via macro CombinedTerraVsFlatRAGCI,Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-08,19,Direct LLM (No RAG),Category B (Evolutionary),True,True,True,True,True,True,True,True,via macro CatBTerraVsDirectLLMCI,Yes (Baseline),Yes (Baseline),VERIFIED_ALL_CELLS,,
+F-FDR-09,20,HippoRAG-Adapted,Combined In-Domain (A+B),True,True,True,True,True,True,True,True,via macro CombinedTerraVsHippoRAGCI,Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-10,21,Flat Vector RAG,Category B (Evolutionary),True,True,True,True,True,True,True,True,via macro CatBTerraVsFlatRAGCI,Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-11,22,HippoRAG-Adapted,Category B (Evolutionary),True,True,True,True,True,True,True,True,via macro CatBTerraVsHippoRAGCI,Yes (TERRA),Yes (TERRA),VERIFIED_ALL_CELLS,,
+F-FDR-12,23,Flat Vector RAG,Category A (Factual),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",Yes (TERRA),Yes (TERRA),VERIFIED_PARTIAL,,ci95
+F-FDR-13,24,GraphRAG-Adapted,Category D (Adversarial Faithfulness),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",No,No,VERIFIED_PARTIAL,,ci95
+F-FDR-14,25,GraphRAG-Adapted,Category A (Factual),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",No,No,VERIFIED_PARTIAL,,ci95
+F-FDR-15,26,HippoRAG-Adapted,Category A (Factual),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",No,No,VERIFIED_PARTIAL,,ci95
+F-FDR-16,27,Flat Vector RAG,Category D (Adversarial Faithfulness),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",No,No,VERIFIED_PARTIAL,,ci95
+F-FDR-17,28,HippoRAG-Adapted,Category D (Adversarial Faithfulness),True,True,True,True,True,True,True,,"no macro, no Phase 1 field",No,No,VERIFIED_PARTIAL,,ci95
+F-FDR-18,29,Flat Vector RAG,Category C (Out-of-Context Refusal),True,True,True,True,True,True,True,N/A,no CI printed (Fisher row),No,No,VERIFIED_ALL_CELLS,,
+F-FDR-19,30,GraphRAG-Adapted,Category C (Out-of-Context Refusal),True,True,True,True,True,True,True,N/A,no CI printed (Fisher row),No,No,VERIFIED_ALL_CELLS,,
+F-FDR-20,31,HippoRAG-Adapted,Category C (Out-of-Context Refusal),True,True,True,True,True,True,True,N/A,no CI printed (Fisher row),No,No,VERIFIED_ALL_CELLS,,

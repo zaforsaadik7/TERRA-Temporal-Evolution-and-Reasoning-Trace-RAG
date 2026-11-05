@@ -1,0 +1,534 @@
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_config.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_config.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/offline_smoke_config.py.before b/reports/runtime_image_policy_20261022_01/offline_smoke_config.py.final
+index 1fcfaeef..c0789b9c 100644
+--- a/reports/runtime_image_policy_20261022_01/offline_smoke_config.py.before
++++ b/reports/runtime_image_policy_20261022_01/offline_smoke_config.py.final
+@@ -35,10 +35,18 @@ class SmokeLaunchConfig:
+     scope: str = 'ONE_QUERY_OFFLINE_SMOKE'
+     hypothetical_routes: tuple[str, ...] = ('EASY', 'HARD')
+     expected_documents: int = 20000
++    firewall_program: str | None = None
+ 
+     def validate(self, *, reviewed_command, reviewed_pins, reviewed_authorization,
+                  reviewed_query_id, query_text, reviewed_paths, reviewed_limits,
+-                 reviewed_rule_name, reviewed_expected_documents=20000):
++                 reviewed_rule_name, reviewed_expected_documents=20000,
++                 reviewed_firewall_program=None):
++        if self.firewall_program != reviewed_firewall_program:
++            raise SmokeConfigurationError('Firewall image differs from reviewed image')
++        if self.firewall_program is not None and (type(self.firewall_program) is not str or
++                not PureWindowsPath(self.firewall_program).is_absolute() or
++                '..' in PureWindowsPath(self.firewall_program).parts or '\0' in self.firewall_program):
++            raise SmokeConfigurationError('Invalid absolute firewall image')
+         if type(self.expected_documents) is not int or self.expected_documents <= 0 or self.expected_documents != reviewed_expected_documents:
+             raise SmokeConfigurationError('Reviewed population mismatch')
+         if self.scope != 'ONE_QUERY_OFFLINE_SMOKE' or self.hypothetical_routes != ('EASY', 'HARD'):
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_runner.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_runner.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/offline_smoke_runner.py.before b/reports/runtime_image_policy_20261022_01/offline_smoke_runner.py.final
+index 73a3ecf0..b158ca3b 100644
+--- a/reports/runtime_image_policy_20261022_01/offline_smoke_runner.py.before
++++ b/reports/runtime_image_policy_20261022_01/offline_smoke_runner.py.final
+@@ -64,7 +64,7 @@ class SmokeRunner:
+             'caveat':'Environment flags are not operating-system network enforcement.'})
+         if str(self.writer.directory) != self.config.evidence_directory:
+             raise RuntimeError('Evidence writer/config mismatch')
+-        if self.boundary.receipt.name != self.config.rule_name or self.boundary.receipt.program != self.config.command[0]:
++        if self.boundary.receipt.name != self.config.rule_name or self.boundary.receipt.program != (self.config.firewall_program or self.config.command[0]):
+             raise RuntimeError('Boundary/config identity mismatch')
+         environment = self.boundary.preflight()
+         self.writer._write_json('boundary_environment_preparation.json',environment)
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_production.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_production.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/offline_smoke_production.py.before b/reports/runtime_image_policy_20261022_01/offline_smoke_production.py.final
+index 99248857..2fab6543 100644
+--- a/reports/runtime_image_policy_20261022_01/offline_smoke_production.py.before
++++ b/reports/runtime_image_policy_20261022_01/offline_smoke_production.py.final
+@@ -61,6 +61,8 @@ def decode_packet(raw,expected_sha256):
+     values['hypothetical_routes'] = tuple(values['hypothetical_routes'])
+     config = SmokeLaunchConfig(**values)
+     config.validate(**packet['reviewed_context'])
++    if config.firewall_program is None:
++        raise ValueError('Explicit reviewed runtime firewall image required')
+     plan = AuthenticLoadPlan(**packet['load_plan'])
+     if plan.expected_documents!=config.expected_documents or plan.expected_documents!=20000 or plan.seed_k!=2 or plan.expected_graph_sha256!=dict(config.pins)['graph']:
+         raise ValueError('Load plan/config identity mismatch')
+@@ -110,7 +112,7 @@ def verify_packet_inputs(packet,config):
+     # The entry anchor is the separately reviewed trust root, not a constituent
+     # of the packet whose digest it contains (which would create a hash cycle).
+     required_paths = {str(Path(__file__).absolute()),str(Path(packet['load_plan']['graph_archive'])),
+-        config.command[0],packet['controller_interpreter'],packet['windows']['powershell_path'],packet['windows']['script_path'],
++        config.command[0],config.firewall_program,packet['controller_interpreter'],packet['windows']['powershell_path'],packet['windows']['script_path'],
+         str(Path(packet['windows']['system_directory'])/'kernel32.dll')}
+     if not required_paths.issubset({str(path) for path in verifier.paths.values()}):
+         raise ValueError('Missing referenced production constituent')
+@@ -202,8 +204,10 @@ def run_parent(packet,config,plan):
+     if not ENTRY_ADMITTED:
+         raise RuntimeError('Production parent execution not admitted')
+     controller = Path(packet['controller_interpreter']).resolve()
+-    if controller!=Path(sys.executable).resolve() or controller==Path(config.command[0]).resolve():
+-        raise ValueError('Frozen controller must match this process and differ from child interpreter')
++    if controller!=Path(sys.executable).resolve():
++        raise ValueError('Frozen controller must match this process')
++    if not config.firewall_program:
++        raise ValueError('Explicit runtime firewall image required')
+     from scripts.matched_baseline.offline_preflight import ManifestEntry,SingleUseExecutionLock,IntegrityLifecycleManager as Manager
+     from scripts.matched_baseline.offline_smoke_integrity import SmokeProtectedLifecycle
+     from scripts.matched_baseline.offline_smoke_boundary import OwnedSmokeBoundary,BoundaryReceipt
+@@ -223,12 +227,12 @@ def run_parent(packet,config,plan):
+             windows = packet['windows']
+             kernel = load_authentic_windows_library(system_directory=windows['system_directory'],
+                 reviewed_system_directory=windows['system_directory'],expected_dll_sha256=windows['kernel32_sha256'])
+-            receipt = BoundaryReceipt(config.rule_name,config.command[0],packet['owner_tag'])
++            receipt = BoundaryReceipt(config.rule_name,config.firewall_program,packet['owner_tag'])
+             backend = construct_boundary_backend(receipt=receipt,powershell_path=windows['powershell_path'],
+                 script_path=windows['script_path'],evidence_directory=writer.directory,
+-                environment=packet['runtime_environment'])
++                environment=packet['runtime_environment'],controller_pid=os.getpid())
+             runner = SmokeRunner(config=config,reviewed_context=packet['reviewed_context'],integrity=integrity,
+-                boundary=OwnedSmokeBoundary(backend,receipt),writer=writer,
++                boundary=OwnedSmokeBoundary(backend,receipt,controller_pid=os.getpid()),writer=writer,
+                 execution_lock=SingleUseExecutionLock(config.lock_path),
+                 execute_child=_dispatch(packet,config,plan,kernel,writer),approval_bytes=approval,
+                 reviewed_approval=packet['reviewed_approval'],runtime_environment=packet['runtime_environment'],
+@@ -247,6 +251,20 @@ def run_parent(packet,config,plan):
+         raise
+ 
+ 
++def _verify_child_runtime_image(packet,config):
++    # Verify the actual child image, not sys.executable / a venv redirector.
++    # This read-only adapter operation cannot create/remove a firewall rule.
++    from scripts.matched_baseline.offline_smoke_executor import construct_boundary_backend
++    from scripts.matched_baseline.offline_smoke_boundary import BoundaryReceipt
++    windows = packet['windows']
++    backend = construct_boundary_backend(
++        receipt=BoundaryReceipt(config.rule_name,config.firewall_program,packet['owner_tag']),
++        powershell_path=windows['powershell_path'],script_path=windows['script_path'],
++        evidence_directory=config.evidence_directory,environment=packet['runtime_environment'],
++        controller_pid=os.getpid())
++    backend.environment(config.firewall_program)
++
++
+ def run_child(argv,packet,config,plan,environment):
+     if not ENTRY_ADMITTED:
+         raise RuntimeError('Production child execution not admitted')
+@@ -259,6 +277,7 @@ def run_child(argv,packet,config,plan,environment):
+     context = _read(Path(config.evidence_directory)/'child_context.json',2*1024*1024)
+     def loader(request):
+         receipt = _request_matches(request,packet,config,plan)
++        _verify_child_runtime_image(packet,config)
+         return construct_authentic_worker(plan,receipt,{'scope':config.scope,'mode':MODE})
+     with _components():
+         return execute_context_cli(argv,context_bytes=context,expected_context_sha256=digest,
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_boundary.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_boundary.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/offline_smoke_boundary.py.before b/reports/runtime_image_policy_20261022_01/offline_smoke_boundary.py.final
+index 6b00fe9d..dc247074 100644
+--- a/reports/runtime_image_policy_20261022_01/offline_smoke_boundary.py.before
++++ b/reports/runtime_image_policy_20261022_01/offline_smoke_boundary.py.final
+@@ -19,7 +19,7 @@ class BoundaryFailure(RuntimeError):
+ 
+ 
+ class OwnedSmokeBoundary:
+-    def __init__(self, backend, receipt: BoundaryReceipt, *, is_synthetic=True):
++    def __init__(self, backend, receipt: BoundaryReceipt, *, is_synthetic=True, controller_pid=None):
+         if is_synthetic is not True:
+             raise BoundaryFailure("Native firewall backend not admitted")
+         if type(receipt) is not BoundaryReceipt:
+@@ -32,6 +32,10 @@ class OwnedSmokeBoundary:
+         self.receipt = receipt
+         self.owned = False
+         self.attempted = False
++        if controller_pid is not None and (type(controller_pid) is not int or controller_pid <= 0):
++            raise BoundaryFailure('Invalid owned controller PID')
++        self.controller_pid = controller_pid
++        self.controller_identity = None
+ 
+     def preflight(self):
+         state = self.backend.environment(self.receipt.program)
+@@ -46,7 +50,23 @@ class OwnedSmokeBoundary:
+             raise BoundaryFailure("Disabled firewall profile")
+         if type(state.get("known_other_pids")) is not list:
+             raise BoundaryFailure("Missing known-process inventory")
+-        if state["known_other_pids"]:
++        known = state['known_other_pids']
++        if any(type(pid) is not int or pid <= 0 for pid in known) or len(set(known)) != len(known):
++            raise BoundaryFailure('Invalid known-process inventory')
++        if self.controller_pid is not None:
++            identity = state.get('verified_controller')
++            if (type(identity) is not dict or set(identity) != {'pid','program','start_ticks'} or
++                    type(identity['pid']) is not int or identity['pid'] != self.controller_pid or
++                    identity['program'] != self.receipt.program or
++                    type(identity['start_ticks']) is not str or not re.fullmatch('[0-9]{1,20}',identity['start_ticks']) or
++                    type(state.get('adapter_parent_pid')) is not int or state['adapter_parent_pid'] != self.controller_pid or
++                    self.controller_pid not in known):
++                raise BoundaryFailure('Owned controller identity not verified')
++            if self.controller_identity is not None and identity != self.controller_identity:
++                raise BoundaryFailure('Owned controller identity changed')
++            self.controller_identity = dict(identity)
++            known = [pid for pid in known if pid != self.controller_pid]
++        if known:
+             raise BoundaryFailure("Known competing interpreter process")
+         if self.backend.query(self.receipt.name) is not None:
+             raise BoundaryFailure("Rule collision")
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_windows_backend.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_windows_backend.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/offline_smoke_windows_backend.py.before b/reports/runtime_image_policy_20261022_01/offline_smoke_windows_backend.py.final
+index f57ebdc9..f757410a 100644
+--- a/reports/runtime_image_policy_20261022_01/offline_smoke_windows_backend.py.before
++++ b/reports/runtime_image_policy_20261022_01/offline_smoke_windows_backend.py.final
+@@ -12,7 +12,7 @@ from scripts.matched_baseline.offline_smoke_boundary import BoundaryFailure
+ 
+ class WindowsBoundaryBackend:
+     def __init__(self, *, powershell_path, script_path, receipt, executor,
+-                 is_synthetic=True):
++                 is_synthetic=True, controller_pid=None):
+         if is_synthetic is not True:
+             raise BoundaryFailure("Native execution not admitted")
+         if not callable(executor):
+@@ -23,9 +23,19 @@ class WindowsBoundaryBackend:
+             raise BoundaryFailure("Absolute adapter paths required")
+         self.receipt = receipt
+         self.executor = executor
++        if controller_pid is not None and (type(controller_pid) is not int or controller_pid <= 0):
++            raise BoundaryFailure('Invalid owned controller PID')
++        self.controller_pid = controller_pid
++        self.controller_identity = None
+ 
+     def _call(self, operation):
+-        encoded = base64.b64encode(json.dumps(asdict(self.receipt)).encode()).decode("ascii")
++        payload = asdict(self.receipt)
++        if self.controller_pid is not None:
++            if operation != 'environment' and self.controller_identity is None:
++                raise BoundaryFailure('Controller identity must be established first')
++            payload['controller_pid'] = self.controller_pid
++            payload['controller_start_ticks'] = (self.controller_identity or {}).get('start_ticks')
++        encoded = base64.b64encode(json.dumps(payload).encode()).decode("ascii")
+         command = [self.powershell_path, "-NoProfile", "-NonInteractive", "-File",
+                    self.script_path, "-Operation", operation, "-PayloadBase64", encoded]
+         exit_code, stdout, stderr = self.executor(command)
+@@ -42,6 +52,18 @@ class WindowsBoundaryBackend:
+         value = self._call("environment")
+         if type(value) is not dict:
+             raise BoundaryFailure("Invalid environment response")
++        if self.controller_pid is not None:
++            identity = value.get('verified_controller')
++            if (type(identity) is not dict or set(identity) != {'pid','program','start_ticks'} or
++                    type(identity['pid']) is not int or identity['pid'] != self.controller_pid or
++                    identity['program'] != self.receipt.program or
++                    type(identity['start_ticks']) is not str or not identity['start_ticks'].isascii() or
++                    not identity['start_ticks'].isdigit() or len(identity['start_ticks']) > 20 or
++                    type(value.get('adapter_parent_pid')) is not int or value['adapter_parent_pid'] != self.controller_pid):
++                raise BoundaryFailure('Invalid controller attestation')
++            if self.controller_identity is not None and self.controller_identity != identity:
++                raise BoundaryFailure('Controller identity changed')
++            self.controller_identity = dict(identity)
+         return value
+ 
+     def query(self, name):
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_executor.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_executor.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/offline_smoke_executor.py.before b/reports/runtime_image_policy_20261022_01/offline_smoke_executor.py.final
+index 7294a956..5a5b437f 100644
+--- a/reports/runtime_image_policy_20261022_01/offline_smoke_executor.py.before
++++ b/reports/runtime_image_policy_20261022_01/offline_smoke_executor.py.final
+@@ -8,7 +8,7 @@ import uuid
+ EXECUTION_ADMITTED = False
+ 
+ 
+-def construct_boundary_backend(*, receipt, **executor_arguments):
++def construct_boundary_backend(*, receipt, controller_pid=None, **executor_arguments):
+     if not EXECUTION_ADMITTED:
+         raise RuntimeError('PowerShell boundary construction not admitted')
+     executor = PowerShellBoundaryExecutor(**executor_arguments)
+@@ -16,7 +16,7 @@ def construct_boundary_backend(*, receipt, **executor_arguments):
+     # The existing backend's injected-executor interface is shared, not a claim
+     # of synthetic operation. This factory binds the genuine implementation.
+     return WindowsBoundaryBackend(powershell_path=executor.program,script_path=executor.script,
+-        receipt=receipt,executor=executor)
++        receipt=receipt,executor=executor,controller_pid=controller_pid)
+ 
+ 
+ class PowerShellBoundaryExecutor:
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_windows_boundary.ps1.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/offline_smoke_windows_boundary.ps1.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/offline_smoke_windows_boundary.ps1.before b/reports/runtime_image_policy_20261022_01/offline_smoke_windows_boundary.ps1.final
+index 6120cb00..e3e94572 100644
+--- a/reports/runtime_image_policy_20261022_01/offline_smoke_windows_boundary.ps1.before
++++ b/reports/runtime_image_policy_20261022_01/offline_smoke_windows_boundary.ps1.final
+@@ -10,6 +10,38 @@ if ($payload.name -notmatch '^TERRA_Smoke_[A-Za-z0-9_-]{8,80}$') { throw 'Invali
+ if ([string]::IsNullOrWhiteSpace($payload.owner_tag)) { throw 'Missing ownership tag' }
+ if (-not [IO.Path]::IsPathRooted($payload.program)) { throw 'Absolute program path required' }
+ $program = [IO.Path]::GetFullPath($payload.program)
++function Read-ControllerIdentity {
++    if ($null -eq $payload.controller_pid) { return $null }
++    $controllerId = [int]$payload.controller_pid
++    if ($controllerId -le 0) { throw 'Invalid controller PID' }
++    # This PowerShell process must be the direct child of the Python controller.
++    # No caller-selected unrelated PID or executable-path alias is exempted.
++    $self = Get-CimInstance Win32_Process -Filter "ProcessId = $PID" -ErrorAction Stop
++    if ($null -eq $self -or [int]$self.ParentProcessId -ne $controllerId) { throw 'Controller is not direct parent' }
++    $parent = Get-Process -Id $controllerId -ErrorAction Stop
++    try {
++        $image = $parent.MainModule.FileName
++        $started = $parent.StartTime.ToUniversalTime().Ticks.ToString([Globalization.CultureInfo]::InvariantCulture)
++        if ([string]::IsNullOrWhiteSpace($image) -or [IO.Path]::GetFullPath($image) -ine $program) {
++            throw 'Controller runtime image mismatch'
++        }
++        if ($null -ne $payload.controller_start_ticks -and $started -cne $payload.controller_start_ticks) {
++            throw 'Controller process identity changed'
++        }
++        return @{pid=$controllerId; program=$payload.program; start_ticks=$started}
++    } finally { $parent.Dispose() }
++}
++$controller = Read-ControllerIdentity
++function Read-InterpreterInventory {
++    $known = @()
++    $unreadable = 0
++    foreach ($proc in @(Get-CimInstance Win32_Process -ErrorAction Stop)) {
++        if ([string]::IsNullOrWhiteSpace($proc.ExecutablePath)) { $unreadable++; continue }
++        if ($proc.ExecutablePath -ieq $program) { $known += [int]$proc.ProcessId }
++    }
++    if ($null -ne $controller -and $known -notcontains $controller.pid) { throw 'Controller absent from inventory' }
++    return @{known_other_pids=@($known); unreadable_process_count=$unreadable}
++}
+ function Read-Rules {
+     # Enumerate first; absence is not inferred from an English error message.
+     return @(Get-NetFirewallRule -PolicyStore ActiveStore -ErrorAction Stop |
+@@ -45,14 +77,10 @@ switch ($Operation) {
+             if ($profiles.ContainsKey([string]$profile.Name)) { throw 'Duplicate profile' }
+             $profiles[[string]$profile.Name] = ([string]$profile.Enabled -eq 'True')
+         }
+-        $known = @()
+-        $unreadable = 0
+-        foreach ($proc in @(Get-CimInstance Win32_Process -ErrorAction Stop)) {
+-            if ([string]::IsNullOrWhiteSpace($proc.ExecutablePath)) { $unreadable++; continue }
+-            if ($proc.ExecutablePath -ieq $program) { $known += [int]$proc.ProcessId }
+-        }
++        $inventory = Read-InterpreterInventory
+         @{ administrator=$admin; service=[string]$service.Status; profiles=$profiles;
+-           known_other_pids=@($known); unreadable_process_count=$unreadable } | ConvertTo-Json -Depth 5 -Compress
++           known_other_pids=@($inventory.known_other_pids); unreadable_process_count=$inventory.unreadable_process_count;
++           verified_controller=$controller; adapter_parent_pid=$(if ($null -ne $controller) {$controller.pid} else {$null}) } | ConvertTo-Json -Depth 5 -Compress
+     }
+     'query' {
+         $rules = @(Read-Rules)
+@@ -61,6 +89,13 @@ switch ($Operation) {
+         else { (Read-Identity $rules[0]) | ConvertTo-Json -Compress }
+     }
+     'create' {
++        if ($null -ne $controller -and $null -eq $payload.controller_start_ticks) {
++            throw 'Prior controller identity required before creation'
++        }
++        $inventory = Read-InterpreterInventory
++        foreach ($candidate in $inventory.known_other_pids) {
++            if ($null -eq $controller -or $candidate -ne $controller.pid) { throw 'Known competing interpreter process' }
++        }
+         if (@(Read-Rules).Count -ne 0) { throw 'Rule collision' }
+         New-NetFirewallRule -PolicyStore PersistentStore -Name $payload.name -DisplayName $payload.name `
+             -Description $payload.owner_tag -Program $program -Direction Outbound -Action Block `
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/test_offline_smoke_boundary_synthetic.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/test_offline_smoke_boundary_synthetic.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/test_offline_smoke_boundary_synthetic.py.before b/reports/runtime_image_policy_20261022_01/test_offline_smoke_boundary_synthetic.py.final
+index 00d47892..b81bd1ea 100644
+--- a/reports/runtime_image_policy_20261022_01/test_offline_smoke_boundary_synthetic.py.before
++++ b/reports/runtime_image_policy_20261022_01/test_offline_smoke_boundary_synthetic.py.final
+@@ -93,3 +93,50 @@ class BoundaryTests(unittest.TestCase):
+     def test_native_backend_stays_blocked(self):
+         with self.assertRaisesRegex(BoundaryFailure, "not admitted"):
+             OwnedSmokeBoundary(self.backend, self.receipt, is_synthetic=False)
++
++    def owned_controller(self):
++        self.backend.state.update(known_other_pids=[123],adapter_parent_pid=123,
++            verified_controller={'pid':123,'program':self.receipt.program,'start_ticks':'639000000000000001'})
++        return OwnedSmokeBoundary(self.backend,self.receipt,controller_pid=123)
++
++    def test_only_verified_owned_controller_can_remain(self):
++        boundary = self.owned_controller()
++        state = boundary.preflight()
++        self.assertEqual(state['known_other_pids'],[123])  # evidence is not filtered
++        boundary.create()
++        boundary.remove(self.receipt)
++        self.assertEqual(self.backend.operations,['create','remove'])
++
++    def test_extra_matching_process_stops_before_creation(self):
++        boundary = self.owned_controller()
++        self.backend.state['known_other_pids'].append(456)
++        with self.assertRaisesRegex(BoundaryFailure,'competing'):
++            boundary.create()
++        self.assertEqual(self.backend.operations,[])
++
++    def test_unverified_parent_or_reused_pid_fails(self):
++        for key,value in [('adapter_parent_pid',456),('verified_controller',None),('known_other_pids',[])]:
++            with self.subTest(key=key):
++                boundary = self.owned_controller()
++                self.backend.state[key] = value
++                with self.assertRaisesRegex(BoundaryFailure,'identity not verified'):
++                    boundary.create()
++                self.assertEqual(self.backend.operations,[])
++        boundary = self.owned_controller()
++        boundary.preflight()
++        self.backend.state['verified_controller']['start_ticks'] = '639000000000000002'
++        with self.assertRaisesRegex(BoundaryFailure,'identity changed'):
++            boundary.create()
++
++    def test_pid_image_and_inventory_types_fail_closed(self):
++        for identity in ({'pid':True,'program':self.receipt.program,'start_ticks':'1'},
++                         {'pid':123,'program':'foreign','start_ticks':'1'},
++                         {'pid':123,'program':self.receipt.program,'start_ticks':1}):
++            boundary = self.owned_controller()
++            self.backend.state['verified_controller'] = identity
++            with self.assertRaisesRegex(BoundaryFailure,'identity not verified'):
++                boundary.preflight()
++        boundary = self.owned_controller()
++        self.backend.state['known_other_pids'] = [123,123]
++        with self.assertRaisesRegex(BoundaryFailure,'Invalid known-process'):
++            boundary.preflight()
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/test_offline_smoke_windows_backend_synthetic.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/test_offline_smoke_windows_backend_synthetic.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/test_offline_smoke_windows_backend_synthetic.py.before b/reports/runtime_image_policy_20261022_01/test_offline_smoke_windows_backend_synthetic.py.final
+index 26cf446b..66a5a819 100644
+--- a/reports/runtime_image_policy_20261022_01/test_offline_smoke_windows_backend_synthetic.py.before
++++ b/reports/runtime_image_policy_20261022_01/test_offline_smoke_windows_backend_synthetic.py.final
+@@ -11,6 +11,38 @@ from scripts.matched_baseline.offline_smoke_windows_backend import WindowsBounda
+ 
+ 
+ class BackendTests(unittest.TestCase):
++    def test_controller_attestation_bound_to_every_subsequent_operation(self):
++        state = {'verified_controller':{'pid':123,'program':'runtime.exe','start_ticks':'639000000000000001'},
++                 'adapter_parent_pid':123}
++        calls = []
++        def fake(command):
++            calls.append(json.loads(base64.b64decode(command[-1])))
++            return 0,json.dumps(state) if command[6]=='environment' else 'null',''
++        backend = WindowsBoundaryBackend(powershell_path=str(Path.cwd()/'ps.exe'),
++            script_path=str(Path.cwd()/'script.ps1'),receipt=BoundaryReceipt('TERRA_Smoke_fake_001','runtime.exe','owner'),
++            executor=fake,controller_pid=123)
++        with self.assertRaisesRegex(BoundaryFailure,'established first'):
++            backend.create(backend.receipt)
++        self.assertEqual(calls,[])
++        backend.environment('runtime.exe')
++        backend.create(backend.receipt)
++        self.assertIsNone(calls[0]['controller_start_ticks'])
++        self.assertEqual(calls[1]['controller_start_ticks'],'639000000000000001')
++        state['verified_controller']['start_ticks'] = '2'
++        with self.assertRaisesRegex(BoundaryFailure,'identity changed'):
++            backend.environment('runtime.exe')
++
++    def test_invalid_controller_attestation_never_authorizes_create(self):
++        for state in ({}, {'verified_controller':{'pid':123,'program':'foreign','start_ticks':'1'},'adapter_parent_pid':123},
++                      {'verified_controller':{'pid':123,'program':'runtime.exe','start_ticks':'1'},'adapter_parent_pid':999}):
++            backend = WindowsBoundaryBackend(powershell_path=str(Path.cwd()/'ps.exe'),
++                script_path=str(Path.cwd()/'script.ps1'),receipt=BoundaryReceipt('TERRA_Smoke_fake_001','runtime.exe','owner'),
++                executor=lambda command:(0,json.dumps(state),''),controller_pid=123)
++            with self.assertRaisesRegex(BoundaryFailure,'attestation'):
++                backend.environment('runtime.exe')
++            with self.assertRaisesRegex(BoundaryFailure,'established first'):
++                backend.create(backend.receipt)
++
+     def test_genuine_executor_factory_connects_boundary_adapter_query(self):
+         with tempfile.TemporaryDirectory() as folder,patch.object(executor_module,'EXECUTION_ADMITTED',True):
+             executor,process,command = self.executor_fixture(folder)
+
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/test_offline_smoke_runner_synthetic.py.before', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'reports/runtime_image_policy_20261022_01/test_offline_smoke_runner_synthetic.py.final', LF will be replaced by CRLF the next time Git touches it
+diff --git a/reports/runtime_image_policy_20261022_01/test_offline_smoke_runner_synthetic.py.before b/reports/runtime_image_policy_20261022_01/test_offline_smoke_runner_synthetic.py.final
+index 87f0ac69..c09b09fb 100644
+--- a/reports/runtime_image_policy_20261022_01/test_offline_smoke_runner_synthetic.py.before
++++ b/reports/runtime_image_policy_20261022_01/test_offline_smoke_runner_synthetic.py.final
+@@ -69,6 +69,10 @@ class ProductionIntegrationTests(unittest.TestCase):
+                 self.assertEqual(production.run_parent(packet,config,plan).status,production.STATUS)
+                 self.assertEqual(factory.call_args.kwargs['report_mode'],production.MODE)
+                 self.assertEqual(factory.call_args.kwargs['writer'].success_status,production.STATUS)
++                self.assertEqual(factory.call_args.kwargs['boundary'].receipt.program,config.firewall_program)
++                self.assertNotEqual(config.firewall_program,config.command[0])
++                import os
++                self.assertEqual(factory.call_args.kwargs['boundary'].controller_pid,os.getpid())
+                 dll.assert_called_once()
+ 
+     def test_parent_setup_failure_preserves_failure_and_runs_both_postchecks(self):
+@@ -93,8 +97,10 @@ class ProductionIntegrationTests(unittest.TestCase):
+         evidence = str(root/'evidence')
+         command = (str(root/'python.exe'),'-B','-m','scripts.matched_baseline.offline_smoke_child_entry',
+                    '--request',str(root/'evidence'/'child_request.json'))
+-        config = replace(fixture.config,command=command,evidence_directory=evidence,lock_path=str(root/'lock'))
+-        context = {**fixture.context,'reviewed_command':command,'reviewed_paths':(config.lock_path,evidence)}
++        config = replace(fixture.config,command=command,evidence_directory=evidence,lock_path=str(root/'lock'),
++                         firewall_program=str(root/'runtime.exe'))
++        context = {**fixture.context,'reviewed_command':command,'reviewed_paths':(config.lock_path,evidence),
++                   'reviewed_firewall_program':config.firewall_program}
+         paths = {key:str(root/key) for key in ('source','cache','snapshot','disposable')}
+         packet = dict(schema_version=1,controller_interpreter=sys.executable,config=asdict(config),reviewed_context=context,
+             load_plan=dict(workspace=str(root),cache_directory=paths['cache'],graph_archive=str(root/'graph.xz'),
+@@ -134,6 +140,15 @@ class ProductionIntegrationTests(unittest.TestCase):
+             self.assertEqual(production.parent_main([]),2)
+             self.assertEqual(production.child_main([]),2)
+ 
++    def test_production_packet_cannot_infer_runtime_from_launcher(self):
++        with tempfile.TemporaryDirectory() as folder:
++            packet,raw,digest = self.packet_fixture(Path(folder))
++            packet['config'].pop('firewall_program')
++            packet['reviewed_context'].pop('reviewed_firewall_program')
++            raw = json.dumps(packet).encode()
++            with self.assertRaisesRegex(ValueError,'Explicit reviewed runtime'):
++                production.decode_packet(raw,hashlib.sha256(raw).hexdigest())
++
+     def test_packet_rejects_credential_and_python_override_environment_keys(self):
+         with tempfile.TemporaryDirectory() as folder:
+             packet,raw,digest = self.packet_fixture(Path(folder))
+@@ -211,6 +226,7 @@ class ProductionIntegrationTests(unittest.TestCase):
+             with patch.object(production,'ENTRY_ADMITTED',True), \
+                  patch.object(production,'verify_packet_inputs'), \
+                  patch.object(Manager,'validate_disposable_containment'), \
++                 patch.object(production,'_verify_child_runtime_image') as image_check, \
+                  patch('scripts.matched_baseline.offline_smoke_authentic.construct_authentic_worker',return_value=worker), \
+                  patch('scripts.matched_baseline.offline_smoke_windows_assembly.assemble_windows_dispatch',return_value=dispatcher):
+                 result = production._dispatch(packet,config,plan,object(),writer)(receipt,root/'child_output.log',config,{})
+@@ -227,11 +243,37 @@ class ProductionIntegrationTests(unittest.TestCase):
+                 production.run_child([],{},object(),object(),{})
+             worker.assert_not_called()
+ 
+-    def test_same_interpreter_controller_rejected_without_pin_or_store_access(self):
++    def test_child_image_failure_prevents_dependency_loading(self):
++        def execute(argv,**kwargs):
++            return kwargs['worker_loader'](object())
++        with patch.object(production,'ENTRY_ADMITTED',True), \
++             patch.object(production,'verify_packet_inputs'), \
++             patch.object(production,'_read',return_value=b'fake context'), \
++             patch.object(production,'_request_matches',return_value=object()), \
++             patch.object(production,'_verify_child_runtime_image',side_effect=RuntimeError('image mismatch')), \
++             patch('scripts.matched_baseline.offline_smoke_child_entry.execute_context_cli',side_effect=execute), \
++             patch('scripts.matched_baseline.offline_smoke_authentic.construct_authentic_worker') as worker:
++            with self.assertRaisesRegex(RuntimeError,'image mismatch'):
++                production.run_child([],{},SimpleNamespace(evidence_directory=str(Path.cwd())),None,
++                                     {'TERRA_SMOKE_CONTEXT_SHA256':'a'*64})
++            worker.assert_not_called()
++
++    def test_child_runtime_attestation_uses_only_environment_read(self):
++        with tempfile.TemporaryDirectory() as folder:
++            packet,raw,digest = self.packet_fixture(Path(folder))
++            packet,config,plan = production.decode_packet(raw,digest)
++            with patch('scripts.matched_baseline.offline_smoke_executor.construct_boundary_backend') as factory:
++                production._verify_child_runtime_image(packet,config)
++                factory.return_value.environment.assert_called_once_with(config.firewall_program)
++                factory.return_value.create.assert_not_called()
++                factory.return_value.remove.assert_not_called()
++                self.assertEqual(factory.call_args.kwargs['receipt'].program,config.firewall_program)
++
++    def test_missing_runtime_target_rejected_without_pin_or_store_access(self):
+         with patch.object(production,'ENTRY_ADMITTED',True),patch.object(production,'verify_packet_inputs') as verify:
+-            with self.assertRaisesRegex(ValueError,'differ from child'):
++            with self.assertRaisesRegex(ValueError,'runtime firewall image'):
+                 production.run_parent({'controller_interpreter':sys.executable},
+-                    SimpleNamespace(command=(sys.executable,)),None)
++                    SimpleNamespace(command=(sys.executable,),firewall_program=None),None)
+             verify.assert_not_called()

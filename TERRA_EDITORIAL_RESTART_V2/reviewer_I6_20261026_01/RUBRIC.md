@@ -1,0 +1,13 @@
+# Frozen I6 local audit rules — 26October2026
+
+Analysis is post-hoc on already known results. No new legal ground truth, provider queries or human ratings are created. Existing author original/reconciled labels keep their prior definitions and separate denominators. Outcome status derived from agreement of the two stored judge labels is expressly a **judge-concordance response-type proxy**, not strict substantive coverage or verified correctness. Disagreement is unclassifiable, not resolved by the verifier or the higher score. Operational verifier rejection/generator omission is recorded independently and cannot become legal false refusal.
+
+Strict supported-answer yield, legal correctness, corpus answerability and verifier false-acceptance/rejection rates require an adequate distinct reference. Current author labels are not references for new matched answers; high faithfulness on an abstention is not a sufficiency reference. Such endpoints remain not estimable unless a valid source-bound reference is actually found. Exact verifier inputs alone are not enough to establish gold sufficiency.
+
+The probability sample is40unique matched query IDs,10per category, selected once using random.Random(42).sample on sorted IDs. A/B probability1/10, C/D probability2/15; both H/T outputs included. This freezes source comparison, not retrospective preregistration or unseen data. Known historical errors and positive-task refusal flags plus external adverse records are separately targeted; never pool them unweighted with the random sample or call them all legally established errors.
+
+Source comparison checks the actual verifier-message document identities, titles, dates, scaffold presence and Holding/Snippet text against preserved CAP casebody material. Exact normalized span presence is factual provenance only, not doctrinal support or answer correctness. Question/candidate quotes and temporal cutoffs require exact evidence; otherwise mark unverified. Unknown legal interpretation stays unknown. Existing workbook ColumnN/O repair is not reopened.
+
+Verifier feasibility requires raw UTF-8 request hash = recorded event hash = accounting reservation hash, unique call IDs and correct query-body identity. A final-decision audit is distinct from unavailable historical intermediate retries. Missing/self-derived gold references are excluded from a confusion matrix. Explicitly report unavailable rates and all decision/input denominators.
+
+Counts are descriptive within fixed cohorts; no new p-values, performance-weight tuning, population confidence claims or legal-expert validation. Independent checks use ledger recounts and source hashes. All unknowns and adverse outcomes remain visible.

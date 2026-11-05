@@ -1,0 +1,21 @@
+{
+  "id": "AUTH1-ITEM-036",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "Lochner v. New York, 198 U.S. 45 (1905) — https://supreme.justia.com/cases/federal/us/198/45/\nUnited States v. Carolene Products Co., 304 U.S. 144 (1938) — https://supreme.justia.com/cases/federal/us/304/144/\nWest Coast Hotel Co. v. Parrish, 300 U.S. 379 (1937) — https://supreme.justia.com/cases/federal/us/300/379/",
+  "original_excerpt": "From Lochner v. New York, 198 U.S. 45, 57–58, 64 (1905):\n\"There is no reasonable ground for interfering with the liberty of person or the right of free contract, by determining the hours of labor, in the occupation of a baker... It is a question of which of two powers or rights shall prevail — the power of the State to legislate or the right of the individual to liberty of person and freedom of contract... The act is not, within any fair meaning of the term, a health law, but is an illegal interference with the rights of individuals, both employers and employes, to make contracts regarding labor upon such terms as they may think best.\"",
+  "disposition": "SUPPORTED_CORE_QUOTATION_END_OMISSION_REQUIRED",
+  "attribution": "Lochner majority",
+  "fidelity": "57-page labor-law and competing-power clauses correspond. 64-page final clause truncates continuing source sentence at 'best' without ellipsis.",
+  "pinpoint": "198 U.S. 57–58, 64.",
+  "scope_note": "Historical bakery-hours holding; mark terminal omission, do not generalize liberty of contract beyond opinion's police-power discussion.",
+  "previous_record_verification": "No previous in-scope closure relied on.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-198-45.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-304-144.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-300-379.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

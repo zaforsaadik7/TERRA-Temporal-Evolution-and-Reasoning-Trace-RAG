@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-045",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "As-of Year: 1980",
+  "disposition": "COLUMN_N_SUPPORTED_HISTORICAL_SCOPE",
+  "attribution_finding": "Roe majority passages, not dissent.",
+  "fidelity_finding": "Privacy and post-viability exception passages correspond; ellipsis clearly joins separated passages.",
+  "pinpoint_finding": "153 and 164–165 are appropriate; supplied 163–165 range contains the second passage.",
+  "scope_and_cutoff_finding": "Valid historical statement for 1980 cutoff; preserve regulation and life/health qualifications. This audit does not certify current law or the additional Doe/Danforth sources.",
+  "evidence": [
+    "sources/USREPORTS-410-113.txt:1584–1593",
+    "sources/USREPORTS-410-113.txt:2039–2048"
+  ],
+  "proposed_action_not_applied": "No substantive Column N correction identified within historical scope.",
+  "unresolved_questions": [],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "Roe v. Wade, 410 U.S. 113 (1973) — https://supreme.justia.com/cases/federal/us/410/113/\n[cite: 1]\nDoe v. Bolton, 410 U.S. 179 (1973)   \nPlanned Parenthood of Central Missouri v. Danforth, 428 U.S. 52 (1976)",
+  "ledger_excerpt": "From Roe v. Wade, 410 U.S. 113, 153, 163–165 (1973):\n\"This right of privacy, whether it be founded in the Fourteenth Amendment's concept of personal liberty and restrictions upon state action, as we feel it is, or, as the District Court determined, in the Ninth Amendment's reservation of rights to the people, is broad enough to encompass a woman's decision whether or not to terminate her pregnancy... For the stage subsequent to viability, the State in promoting its interest in the potentiality of human life may, if it chooses, regulate, and even proscribe, abortion except where necessary, in appropriate medical judgment, for the preservation of the life or health of the mother.\""
+}
+

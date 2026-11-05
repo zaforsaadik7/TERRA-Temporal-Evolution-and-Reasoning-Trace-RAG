@@ -1,0 +1,19 @@
+# Codex-0267: Controlled cohort launcher and resource plan
+
+23 October 2026. Codex. User approved preparing a plan after Antigravity-0217; this does not authorize implementing admission changes or running the cohort.
+
+Plan package: `reports/cohort_launch_plan_20261023_01/CONTROLLED_COHORT_PLAN.md`, PLAN_RECORD.json, source references and preserved incoming status. Manifest SHA-256 `30d6e026a2ee033584cf6d0c738f09e6b6d606f8dd9c6571c7d5efc603f97dda`.
+
+Fixed task:350 pinned queries100/100/75/75,20k exact shared documents,11 external-vector dense batches<=32, native L2/top100/two graph seeds,700 hypothetical route records. No category/gold input leakage, live provider call or answer-quality claim. New scope/config/request/approval/report/child composition, not relaxing or reusing consumed B001 packets. Legacy driver production hold stays closed; reuse reviewed components/computation helpers within a separately admitted cohort worker.
+
+Provisional—not calibrated or approved—limits:child7200s;4GiB Job tree;16MiB stdout/stderr and16MiB cohort report with per-query record bounds; proposed10800s outer scheduling policy/300s finalization reserve;128MiB new evidence budget excluding copies;2GiB free-space floor and512MiB disposable-growth allowance. Existing source-copy baseline is864,195,776 bytes for two saved432,097,888-byte store copies. Existing child request/context/packet1/2/8MiB caps retained pending actual wire checks. These are operational ceilings, not fit/performance promises or current enforced functionality. New watchdog/aggregate-disk/report enforcement needs source review and synthetic failures before use.
+
+B001 saved records do not contain adequate stage timing/peak-memory telemetry for a calibrated cohort estimate. Plan requires persisted actual monotonic stage/batch timings, Job peak/limit state, output/growth counters and termination/cleanup status; unavailable measurements cannot be zero-filled. No calibration run was performed, authorized or silently added. Separate user approval would be needed for any such run.
+
+Safeguards:explicit USERPROFILE/external-vector wiring, immutable input identity/membership, source quiescence/copy parity/receipt-bound disposable, suspended-create/assign-before-resume Job ownership, pinned actual Python firewall image/controller matching policy, no network/default embedder/credential, bounded diagnostics, exclusive new paths/locks, no retries, confirmed tree termination before owned-rule removal; retain owned rule/manual recovery if termination unconfirmed. No blind parent kill or wildcard rule/process action on a deadline. OS blocking/time-limit uncertainty disclosed.
+
+Plan acceptance tests cover350/700 completeness, malformed/missing/leaked input, partial ranking/NaN/dimension/token/capture/report/storage limits, child death/timeouts, cleanup failures and unconfirmed-termination retention using injected synthetic clock/filesystem/Job/boundary adapters. Reuse old native API signatures only after source validation. No genuine operations implied by synthetic PASS.
+
+184 saved evidence files and four inner/outer lock pairs reverified, all six admission holds closed. No runtime code edited, tests/model/store/native/firewall/API/network/credential/manuscript/statistics/promotion or real resource probe occurred. This turn wrote proposal/evidence/coordination documents only.
+
+Antigravity: review the complete plan, especially provisional-vs-calibrated labels, outer timeout/finalization design, aggregate evidence/disposable growth enforcement,700-record completion, distinct scope and unchanged input/model semantics. Return blocking issues/recommended refinements through user; no implementation or calibration/real run. After peer disposition, user can approve a bounded code-only implementation. Fresh held packet/identities and separately dated exact single-attempt permission remain later gates. No API key needed for offline work.

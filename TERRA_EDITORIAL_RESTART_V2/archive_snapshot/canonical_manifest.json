@@ -1,0 +1,216 @@
+{
+  "manifest_version": "1.0",
+  "timestamp_utc": "2026-09-27T05:36:00Z",
+  "description": "Formal Canonical Preservation Manifest for TERRA Submission State (Prior to Manuscript Compression)",
+  "baseline_page_count": 39,
+  "page_budget_invariant": 39,
+  "total_archived_files": 29,
+  "active_constituents_count": 26,
+  "root_bundles_count": 2,
+  "files": [
+    {
+      "category": "active_source",
+      "source_path": "Paper/main.tex",
+      "archive_path": "src/main.tex",
+      "bytes": 227985,
+      "sha256": "31db54c4b2771d34e1b3b59168fcdebea9b3b5e8198f9268f21298a61fc3fec4"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/ref.bib",
+      "archive_path": "src/ref.bib",
+      "bytes": 10175,
+      "sha256": "cbde319532889d5490c1d2ab4e6d2f5477dde1424d192642af62d114e6356a8a"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/main.bbl",
+      "archive_path": "src/main.bbl",
+      "bytes": 7754,
+      "sha256": "7be341df38710db2cfa9a61f4c6ed3bedbc038a2c04b0a67728025f3ac35bfb3"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/generated_stats.tex",
+      "archive_path": "src/generated_stats.tex",
+      "bytes": 93109,
+      "sha256": "e4e369b7b7c3e55c4c541fc552f175018ea656c67193ebcf1dfb183a93756b73"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/generated_obscure_stats.tex",
+      "archive_path": "src/generated_obscure_stats.tex",
+      "bytes": 9798,
+      "sha256": "a836b442a9238e898c2b8a60b57c30b5e09f9819af190a3df650a21f29ea6d05"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/generated_corpus_stats_20k.tex",
+      "archive_path": "src/generated_corpus_stats_20k.tex",
+      "bytes": 1593,
+      "sha256": "b5cbef2c66d3370917966f874ba0e75ba4b42be8a4f79342642d89b58bfc284e"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/figure_1_system_architecture.tex",
+      "archive_path": "src/figure_1_system_architecture.tex",
+      "bytes": 9589,
+      "sha256": "55b1f1201479c18f4ac85eeb1138c8d6c037434b398ab0a510ce3c6dc6eb05af"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/figure_2_hub_centrality.tex",
+      "archive_path": "src/figure_2_hub_centrality.tex",
+      "bytes": 1719,
+      "sha256": "abc16501db8de6e1272fe92c559f06131244fb27eb78bd2340adfeb72a75c10d"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/figure_3_safety_rejection.tex",
+      "archive_path": "src/figure_3_safety_rejection.tex",
+      "bytes": 2520,
+      "sha256": "8dc435e7a77d242adb8b3890c67b807460584a7e934355ffd198b7a74694b2bb"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_sensitivity_raw_vs_clamped.tex",
+      "archive_path": "src/tables/table_sensitivity_raw_vs_clamped.tex",
+      "bytes": 1443,
+      "sha256": "2e293d66c90b4c7266a5cf3a8326bdd406c846474cd07b0222bf967e3636b747"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_refusal_breakdown.tex",
+      "archive_path": "src/tables/table_refusal_breakdown.tex",
+      "bytes": 4346,
+      "sha256": "b9bbc21b69783eb07eba798dde100b7098592c081f3b6a4faf3d59441c80bdcb"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_full_fdr_family.tex",
+      "archive_path": "src/tables/table_full_fdr_family.tex",
+      "bytes": 6341,
+      "sha256": "cc253da52cd27a227262b0f4c6ee1433f690a0a8ff6483106b8926d8c12dbc2e"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_system_comparison.tex",
+      "archive_path": "src/tables/table_system_comparison.tex",
+      "bytes": 3345,
+      "sha256": "9914443964964a944466f0fd7d013c814c1ea7614b55dc75993be7ad7bc07438"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_temporal_leakage_probe.tex",
+      "archive_path": "src/tables/table_temporal_leakage_probe.tex",
+      "bytes": 6276,
+      "sha256": "a0d8b8e31c46a2008239bffaaa1f9a5dc94fbc2ca9ac3ecb3f7b80816df612f5"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_casefacts_eval.tex",
+      "archive_path": "src/tables/table_casefacts_eval.tex",
+      "bytes": 5316,
+      "sha256": "49cb53591a643b3feeac377c67a8f690d3af3f92e77543b8f6db80c3634ea10f"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_clerc_eval.tex",
+      "archive_path": "src/tables/table_clerc_eval.tex",
+      "bytes": 5520,
+      "sha256": "7a53168d37252e57e699fda039d5589656d2c361e1d76ae8b3d4e985c775383c"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_retrieval_eval.tex",
+      "archive_path": "src/tables/table_retrieval_eval.tex",
+      "bytes": 10064,
+      "sha256": "9155c312cba317b057120475e87c67e4c5e16fb22e9692a2ce2a48356eb9192f"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_computational_budget.tex",
+      "archive_path": "src/tables/table_computational_budget.tex",
+      "bytes": 10457,
+      "sha256": "4960a2eb32696d87eb545da522d3da507d0c32e63bac6e84675846d6779c6b3a"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_router_eval.tex",
+      "archive_path": "src/tables/table_router_eval.tex",
+      "bytes": 4569,
+      "sha256": "87a7da4940e8d3f6a7a69c532ffd60e1e9864d634a3ae6c5d604224633be84d2"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_citation_eval.tex",
+      "archive_path": "src/tables/table_citation_eval.tex",
+      "bytes": 6169,
+      "sha256": "73c50145835e42934f9456e42da4972d8c5b81d702f0e3ebc9c2f26cd4ed757b"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_obscure_overruled_eval.tex",
+      "archive_path": "src/tables/table_obscure_overruled_eval.tex",
+      "bytes": 10346,
+      "sha256": "ae24ad04736a0809bce233093ef42db25aab83fe6101f5b00357e886e68d4af6"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_temporal_update_stability.tex",
+      "archive_path": "src/tables/table_temporal_update_stability.tex",
+      "bytes": 2381,
+      "sha256": "5a07453341c018adae23a2cc126ae7babc16a5b500c9afca77c6b68eeb894b89"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/tables/table_baseline_specifications.tex",
+      "archive_path": "src/tables/table_baseline_specifications.tex",
+      "bytes": 2578,
+      "sha256": "d38845e0a752f0010f3ab34bb634ed1ecc6706f9fb59d11e9b62213ce516bdbf"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/scripts/check_consistency.py",
+      "archive_path": "src/scripts/check_consistency.py",
+      "bytes": 9924,
+      "sha256": "f4e3f17005d751f9ac3254a6bf714a10f5473048475484532c20a8c291301190"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/scripts/allowed_literals.txt",
+      "archive_path": "src/scripts/allowed_literals.txt",
+      "bytes": 19349,
+      "sha256": "148500d260d5900446eb9e741f243cfec5959518c66efcae76333320f7d83dbc"
+    },
+    {
+      "category": "active_source",
+      "source_path": "Paper/scripts/generate_stats.py",
+      "archive_path": "src/scripts/generate_stats.py",
+      "bytes": 48448,
+      "sha256": "aa41e10ecdaf7ef78b0fd505e4ba3b2a7015d5a3449a4e35093545811f4584ec"
+    },
+    {
+      "category": "baseline_pdf",
+      "source_path": "Paper/main.pdf",
+      "archive_path": "main.pdf",
+      "bytes": 426570,
+      "sha256": "757ad2ec03a205649cc97ee2bd06e30c06f41bc47dd857ced3019f3a8b7a38f3",
+      "page_count": 39
+    },
+    {
+      "category": "root_bundle",
+      "source_path": "TERRA_Overleaf_Bundle.zip",
+      "archive_path": "bundles/TERRA_Overleaf_Bundle.zip",
+      "bytes": 132809,
+      "sha256": "81b5e29409b7b9209cf512997c63023c92bd969f6f34c16e89027e94d56833ae"
+    },
+    {
+      "category": "root_bundle",
+      "source_path": "TERRA_Reproducibility_Bundle.zip",
+      "archive_path": "bundles/TERRA_Reproducibility_Bundle.zip",
+      "bytes": 32359816,
+      "sha256": "0e8803b8c63f40048c42daa629bcc7d904f0b62e9996c5696382fedf107306bc"
+    }
+  ]
+}

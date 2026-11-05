@@ -1,0 +1,34 @@
+--- paired_dependency_bridge.py.before
++++ paired_dependency_bridge.py
+@@ -105,7 +105,9 @@
+         raise ContractError('Nonempty rendered chat required')
+     count = tokenizer.count_tokens(rendered)
+     integer(count, 1)
+-    ceiling = 1000 if identity.stage == 'router' else 7000
++    # Judges need room for the same evidence PLUS the eventual answer. Match
++    # the reviewed offline role's 15000 input ceiling; generation remains7000.
++    ceiling = 1000 if identity.stage == 'router' else (15000 if identity.stage.startswith('judge') else 7000)
+     if count > min(ceiling, config.reserved_input_tokens):
+         raise PromptEnvelopeExceeded('Measured prompt token bound exceeded')
+     raw = measured_http_bytes(config, msgs, count)
+--- paired_study_candidate.py.before
++++ paired_study_candidate.py
+@@ -31,7 +31,8 @@
+         # Local composition still enforces 1000/7000. The larger reservations
+         # allow bounded server-added tokens; they cannot certify server behavior.
+         roles.append(RoleConfig(role,WORKSPACE,endpoint,(observed,),128000,
+-            2048 if role=='router' else 8192,OUTPUT_CAPS[role],256*1024,1024**2,120,price))
++            2048 if role=='router' else (16384 if role.startswith('judge') else 8192),
++            OUTPUT_CAPS[role],256*1024,1024**2,120,price))
+     budget=preview_budget(tuple(roles),study_queries=350,smoke_queries=0,
+                           spend_cap_nanodollars=300*10**9)
+     return {'status':'PROPOSED_NOT_ADMITTED','execution_authorized':False,
+@@ -40,7 +41,7 @@
+         'balance_independently_verified':False,'effective_account_rate_confirmed':False,
+         'fixed_charges_confirmed_absent':False,'usd_per_dbu_ceiling_assumption':'1.00',
+         'gpt_oss_reasoning_policy':'low; completion billing inclusion remains a disclosed assumption',
+-        'local_prompt_token_ceilings':{'router':1000,'all_other_roles':7000},
++        'local_prompt_token_ceilings':{'router':1000,'generator_and_verifier':7000,'judges':15000},
+         'roles':[asdict(r) for r in roles], 'budget':budget,
+         'public_sources':[
+             'https://www.databricks.com/product/pricing/foundation-model-serving',

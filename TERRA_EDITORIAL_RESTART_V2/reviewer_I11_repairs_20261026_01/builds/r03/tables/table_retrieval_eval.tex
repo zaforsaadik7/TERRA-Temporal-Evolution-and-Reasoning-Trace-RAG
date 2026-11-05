@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\caption{Retrieval recovery:100 CategoryBqueries,342 gold authorities.}
+\label{tab:retrieval_eval}
+\centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lcccc}
+\toprule
+Pipeline & Macro recall & Micro recall & Complete targets & Count \\
+\midrule
+Flat RAG & \CatBFlatMacroNodeRecall & \CatBFlatMicroNodeRecall & \CatBFlatFullPathRecall & \CatBFlatFullPathCount \\
+GraphRAG & \CatBGraphRAGMacroNodeRecall & \CatBGraphRAGMicroNodeRecall & \CatBGraphRAGFullPathRecall & \CatBGraphRAGFullPathCount \\
+HippoRAG & \CatBHippoRAGMacroNodeRecall & \CatBHippoRAGMicroNodeRecall & \CatBHippoRAGFullPathRecall & \CatBHippoRAGFullPathCount \\
+TERRA & \CatBTerraMacroNodeRecall & \CatBTerraMicroNodeRecall & \CatBTerraFullPathRecall & \CatBTerraFullPathCount \\
+\bottomrule
+\end{tabular}
+\endgroup\par\vspace{2pt}
+\raggedright\footnotesize PanelA above uses canonical stored contexts; target-set matching does not certify connected paths. PanelB chain-length cells and PanelC all 22 sensitivity configurations are retained in the corresponding full-detail supplement. Canonical 66/100, legacy 62/100 and bounded 61/100 are distinct. Five-node stratum n 5 is descriptive. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:retrieval_eval}.
+\end{table*}

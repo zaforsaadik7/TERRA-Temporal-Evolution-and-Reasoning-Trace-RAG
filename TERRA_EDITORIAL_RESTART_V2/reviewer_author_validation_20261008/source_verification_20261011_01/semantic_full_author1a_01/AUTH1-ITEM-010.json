@@ -1,0 +1,24 @@
+{
+  "id": "AUTH1-ITEM-010",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "West Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943) — https://supreme.justia.com/cases/federal/us/319/624/\n[cite: 1, 2]\nNew York Times Co. v. Sullivan, 376 U.S. 254 (1964) — https://supreme.justia.com/cases/federal/us/376/254/\n[cite: 2, 3]\nIntermediate precedents: Dennis v. United States, 341 U.S. 494 (1951); Beauharnais v. Illinois, 343 U.S. 250 (1952); Yates v. United States, 354 U.S. 298 (1957); NAACP v. Alabama ex rel. Patterson, 357 U.S. 449 (1958).",
+  "original_excerpt": "From West Virginia State Board of Education v. Barnette, 319 U.S. 624, 642 (1943):\n\"If there is any fixed star in our constitutional constellation, it is that no official, high or petty, can prescribe what shall be orthodox in politics, nationalism, religion, or other matters of opinion or force citizens to confess by word or act their faith therein.\"\nFrom New York Times Co. v. Sullivan, 376 U.S. 254, 270, 279–280 (1964):\n\"Thus we consider this case against the background of a profound national commitment to the principle that debate on public issues should be uninhibited, robust, and wide-open, and that it may well include vehement, caustic, and sometimes unpleasantly sharp attacks on government and public officials... The constitutional guarantees require, we think, a federal rule that prohibits a public official from recovering damages for a defamatory falsehood relating to his official conduct unless he proves that the statement was made with 'actual malice'...\"",
+  "disposition": "VERIFIED_ELIDED_QUOTATIONS_WITH_SCOPE_LIMIT",
+  "attribution": "Barnette and Sullivan majority opinions",
+  "fidelity": "Fixed-star and public-debate language correspond. Actual-malice passage corresponds across page break and footnote on 279–280.",
+  "pinpoint": "Barnette 642; Sullivan 270, 279–280.",
+  "scope_note": "Ending omits definition of actual malice; no verification of intermediate-precedent chain or candidate answer.",
+  "previous_record_verification": "semantic_followup_01 Sullivan fragment finding rechecked against preserved source.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-319-624.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-376-254.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-341-494.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-343-250.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-354-298.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-357-449.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

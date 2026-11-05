@@ -1,0 +1,300 @@
+"""Paired retrieval/request composition. Authentic execution is unconditionally held.
+
+This dependency-injected computation does not establish input provenance,
+transport safety, durable persistence, or execution authority. Tests use only
+temporary synthetic corpora, tokenizers and dispatchers. No assets load on import.
+"""
+from dataclasses import dataclass
+import hashlib
+
+from .bm25_engine import RobertsonOkapiBM25
+from .common_serializer import EvidenceItem, format_evidence_item
+from .hybrid_retriever import HybridRetriever
+from .terra_retriever import TerraRetriever
+from .paired_prompt_workflow import messages, parsed_content, prompt_contract_sha256
+from .provider_accounting import (
+    CallIdentity, ContractError, DispatchHeld, RoleConfig, ProviderResult,
+    BudgetJournal, SyntheticResponse, build_request, canonical, integer,
+    dispatch_synthetic,
+)
+
+ROLES = ('router', 'verifier', 'generator', 'judge1', 'judge2')
+
+
+class PromptEnvelopeExceeded(ContractError):
+    """Packing may drop an item only for a measured token-budget overflow."""
+
+
+def digest(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+@dataclass(frozen=True)
+class MeasuredRequest:
+    identity: CallIdentity
+    config: RoleConfig
+    messages: tuple
+    request: bytes
+    local_tokens: int
+    rendered_sha256: str
+    prompt_contract_sha256: str
+    request_policy: tuple = ()
+
+
+def request_policy(config):
+    # Match the actual five-role smoke's tested GPT-OSS request explicitly.
+    # Other provider/model families must not inherit this setting by guessing.
+    from .paired_output_format import output_format
+    policy = list(template_policy(config))
+    structured = output_format(config.role, config.endpoint)
+    if structured is not None:policy.append(('response_format', structured))
+    return tuple(policy)
+
+
+def template_policy(config):
+    # A response schema is an HTTP generation constraint, not an invented
+    # Hugging Face template argument or locally certified server-added prompt.
+    return (('reasoning_effort', 'low'),) if config.endpoint == 'databricks-gpt-oss-120b' else ()
+
+
+def measured_http_bytes(config, msgs, tokens):
+    raw = build_request(config, msgs, tokens)
+    policy = request_policy(config)
+    if policy:
+        from .provider_accounting import strict_json
+        body = strict_json(raw)
+        body.update(dict(policy))
+        raw = canonical(body)
+        if len(raw) > config.request_bytes:
+            raise ContractError('Request byte bound exceeded')
+    return raw
+
+
+class JournaledFixtureTransport:
+    """Static responses through the existing reserve/settle accounting path.
+
+    No socket factory or credential collaborator is accepted. Unknown or repeated
+    calls halt; this is not a resumable or authentic transport implementation.
+    """
+    def __init__(self, journal, responses):
+        if (type(journal) is not BudgetJournal or type(responses) is not dict
+                or any(type(k) is not str or type(v) is not SyntheticResponse
+                       for k, v in responses.items())):
+            raise ContractError('Exact fixture journal and static responses required')
+        self.journal = journal
+        self.responses = dict(responses)
+        self.used = set()
+
+    def __call__(self, request):
+        if (type(request) is not MeasuredRequest
+                or request.identity.key in self.used
+                or request.identity.key not in self.responses
+                or request.request_policy
+                or request.request != build_request(request.config, request.messages, request.local_tokens)
+                or request.prompt_contract_sha256 != prompt_contract_sha256()):
+            raise ContractError('Unbound or repeated measured fixture request')
+        self.used.add(request.identity.key)
+        return dispatch_synthetic(request.identity, request.config, request.messages,
+            request.local_tokens, self.journal, self.responses[request.identity.key])
+
+
+def measure_request(identity, config, tokenizer, query_text, evidence='', answer=None):
+    """Count exactly the messages serialized into HTTP, with this role's template.
+
+    Local template counts remain local measurements, not provider usage claims.
+    Judges receive actual answer bytes and may fail the context check; evidence
+    is never silently repacked for a judge after generation.
+    """
+    if type(config) is not RoleConfig or config.role != identity.stage:
+        raise ContractError('Role/config identity mismatch')
+    msgs = messages(identity.stage, query_text, evidence, answer)
+    rendered = tokenizer.apply_chat_template(
+        [dict(role=role, content=text) for role, text in msgs],
+        add_generation_prompt=True, **dict(template_policy(config)))
+    if type(rendered) is not str or not rendered:
+        raise ContractError('Nonempty rendered chat required')
+    count = tokenizer.count_tokens(rendered)
+    integer(count, 1)
+    # Judges need room for the same evidence PLUS the eventual answer. Match
+    # the reviewed offline role's 15000 input ceiling; generation remains7000.
+    ceiling = 1000 if identity.stage == 'router' else (15000 if identity.stage.startswith('judge') else 7000)
+    if count > min(ceiling, config.reserved_input_tokens):
+        raise PromptEnvelopeExceeded('Measured prompt token bound exceeded')
+    raw = measured_http_bytes(config, msgs, count)
+    return MeasuredRequest(identity, config, msgs, raw, count,
+                           digest(rendered.encode()), prompt_contract_sha256(), request_policy(config))
+
+
+class RetrievalComposition:
+    """Shared stored-text BM25 and dense ranking; shared graph evidence fields.
+
+    Reader must be an already verified disposable-reader capability. This class
+    deliberately does not construct a Chroma client or certify that capability.
+    The authentic entry below remains held pending lifecycle integration.
+    """
+    def __init__(self, reader, corpus, nodes, edges):
+        if (type(corpus) is not dict or not corpus or type(nodes) is not dict
+                or set(corpus) != set(nodes)
+                or any(type(k) is not str or not k.strip() or type(v) is not str
+                       for k, v in corpus.items())
+                or any(type(v) is not dict for v in nodes.values())):
+            raise ContractError('Exact nonempty sparse/dense/graph ID parity required')
+        # Copy payloads: callers cannot mutate graph fields after construction.
+        self.nodes = {key: dict(value) for key, value in nodes.items()}
+        self.reader = reader
+        self.ids = frozenset(corpus)
+        bm25 = RobertsonOkapiBM25()
+        bm25.index_corpus(dict(corpus))
+        self.hybrid = HybridRetriever(bm25, self.nodes, rrf_k=60, default_top_k=100)
+        self.terra = TerraRetriever(self.nodes, [dict(edge) for edge in edges])
+
+    def retrieve(self, query_text, route):
+        if route not in ('EASY', 'HARD') or type(query_text) is not str or not query_text.strip():
+            raise ContractError('Valid route and query required')
+        batches = self.reader.query_dense_candidates([query_text], top_k=100)
+        if type(batches) is not list or len(batches) != 1:
+            raise ContractError('Dense batch count mismatch')
+        dense = batches[0]
+        if (type(dense) is not list or not dense or len(dense) > 100
+                or any(type(i) is not str or i not in self.ids for i in dense)
+                or len(dense) != len(set(dense))):
+            raise ContractError('Invalid shared dense ranking')
+        h = self.hybrid.retrieve(query_text, list(dense), top_k_bm25=100, final_top_n=100)
+        t = self.terra.retrieve(dense[:2], top_n=2 if route == 'EASY' else 40,
+                                max_depth_override=0 if route == 'EASY' else 2)
+        result = {}
+        shared = {}
+        for arm, candidates in (('H', h), ('T', t)):
+            items = []
+            for row in candidates:
+                item = EvidenceItem(**{k: row[k] for k in (
+                    'case_id', 'title', 'decision_date', 'holding',
+                    'thinking_trace', 'snippet', 'relation_context')})
+                if item.case_id in shared and shared[item.case_id] != item:
+                    raise ContractError('Cross-arm evidence field mismatch')
+                shared[item.case_id] = item
+                items.append(item)
+            result[arm] = tuple(items)
+        return result, tuple(dense)
+
+
+def evidence_text(items):
+    return '\n\n---\n\n'.join(format_evidence_item(item, n+1)
+                              for n, item in enumerate(items))
+
+
+def pack_for_roles(query_id, arm, query_text, items, configs, tokenizers):
+    """Greedy shared evidence, checked against generator AND verifier messages.
+
+    This replaces the unrelated serializer-template count at the composition
+    boundary. Judges are checked again with the eventual candidate answer.
+    """
+    if (type(items) is not tuple or any(type(i) is not EvidenceItem for i in items)
+            or len({i.case_id for i in items}) != len(items)):
+        raise ContractError('Unique immutable evidence items required')
+    retained, dropped = [], []
+    for stage in ('generator', 'verifier'):
+        measure_request(CallIdentity(query_id, arm, stage), configs[stage],
+                        tokenizers[stage], query_text)
+    for item in items:
+        text = evidence_text(retained + [item])
+        fits = True
+        for stage in ('generator', 'verifier'):
+            count = tokenizers[stage].count_tokens(text)
+            integer(count, 0)
+            if count > 6000:
+                fits = False
+                continue
+            try:
+                measure_request(CallIdentity(query_id, arm, stage), configs[stage],
+                                tokenizers[stage], query_text, text)
+            except PromptEnvelopeExceeded:
+                # Only budget failure is droppable. Invalid role/config/request
+                # contracts must stop, never masquerade as a truncation choice.
+                fits = False
+        (retained if fits else dropped).append(item)
+    return tuple(retained), tuple(dropped)
+
+
+def run_composed_fixture(*, query_id, query_text, retrieval, configs, tokenizers,
+                         dispatch, record, seed=42, is_synthetic=True):
+    """One paired computation through injected collaborators; SYNTHETIC ONLY.
+
+    dispatch(MeasuredRequest) must durably reserve/settle, bind exact request
+    bytes and preserve provider response before returning ProviderResult.
+    record(event) must durably persist or raise. Those obligations are not proven
+    by this seam; real factories, run-store and supervising admission stay held.
+    No retry, resume, placeholder answer or fallback score is implemented here.
+    """
+    if is_synthetic is not True:
+        raise DispatchHeld('Authentic paired dependency composition remains held')
+    return _compute_pair(query_id=query_id, query_text=query_text, retrieval=retrieval,
+        configs=configs, tokenizers=tokenizers, dispatch=dispatch, record=record,
+        seed=seed, mode='SYNTHETIC_DEPENDENCY_COMPOSITION')
+
+
+def _compute_pair(*, query_id, query_text, retrieval, configs, tokenizers,
+                  dispatch, record, seed, mode):
+    """Internal shared computation; caller owns admission and dependencies.
+
+    A mode string is a descriptive label, never a provenance or permission check.
+    Public authentic entry remains unconditionally held.
+    """
+    if mode not in ('SYNTHETIC_DEPENDENCY_COMPOSITION', 'AUTHENTIC_PAIRED_COMPUTATION'):
+        raise ContractError('Unknown computation mode')
+    if set(configs) != set(ROLES) or set(tokenizers) != set(ROLES):
+        raise ContractError('All five role dependencies required')
+    CallIdentity(query_id, 'shared', 'router')
+    integer(seed, 0)
+    if type(query_text) is not str or not query_text.strip():
+        raise ContractError('Nonempty query text required')
+    # Validate every role contract before even the shared router dispatch.
+    for stage in ROLES:
+        measure_request(CallIdentity(query_id, 'shared' if stage == 'router' else 'H', stage),
+                        configs[stage], tokenizers[stage], query_text,
+                        answer='Envelope precheck' if stage.startswith('judge') else None)
+    calls = []
+    def call(stage, arm, text='', answer=None):
+        request = measure_request(CallIdentity(query_id, arm, stage), configs[stage],
+                                  tokenizers[stage], query_text, text, answer)
+        record({'kind': 'MEASURED_REQUEST', 'call': request.identity.key,
+                'request_sha256': digest(request.request),
+                'rendered_sha256': request.rendered_sha256,
+                'local_tokens': request.local_tokens,
+                'prompt_contract_sha256': request.prompt_contract_sha256})
+        result = dispatch(request)
+        if (type(result) is not ProviderResult or result.requested_endpoint != configs[stage].endpoint
+                or result.returned_model not in configs[stage].accepted_models):
+            raise ContractError('Dispatcher result/config mismatch')
+        record({'kind': 'PROVIDER_CONTENT', 'call': request.identity.key,
+                'content': result.content, 'response_sha256': result.response_sha256})
+        calls.append(request.identity.key)
+        return parsed_content(stage, result.content)
+    route = call('router', 'shared')['route']
+    candidates, dense = retrieval.retrieve(query_text, route)
+    order = ('H', 'T') if hashlib.sha256(canonical([seed, query_id])).digest()[0] % 2 == 0 else ('T', 'H')
+    arms = {}
+    for arm in order:
+        kept, dropped = pack_for_roles(query_id, arm, query_text, candidates[arm], configs, tokenizers)
+        text = evidence_text(kept)
+        record({'kind': 'RETRIEVAL', 'query_id': query_id, 'arm': arm, 'route': route,
+                'dense_ids': dense, 'retained_ids': tuple(i.case_id for i in kept),
+                'dropped_ids': tuple(i.case_id for i in dropped), 'evidence_sha256': digest(text.encode())})
+        verdict = call('verifier', arm, text)
+        answer = (call('generator', arm, text) if verdict['sufficient'] else
+                  'I cannot establish an answer from the supplied evidence. '+verdict['reason'])
+        judges = [call(stage, arm, text, answer) for stage in ('judge1', 'judge2')]
+        scores = tuple(j['faithfulness'] for j in judges)
+        arms[arm] = {'answer': answer, 'verifier': verdict, 'judges': judges,
+                     'composite': sum(scores)/2 if all(s is not None for s in scores) else None,
+                     'retained_ids': tuple(i.case_id for i in kept),
+                     'dropped_ids': tuple(i.case_id for i in dropped)}
+    result = {'mode': mode, 'query_id': query_id,
+              'route': route, 'arm_order': order, 'arms': arms, 'calls': tuple(calls),
+              'execution_admitted': False}
+    record({'kind': 'COMPOSITION_COMPLETE', 'result': result})
+    return result
+
+
+def run_authentic_composition(*args, **kwargs):
+    raise DispatchHeld('Authentic factories, transport and lifecycle admission remain held')

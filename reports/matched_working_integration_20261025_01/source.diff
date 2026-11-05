@@ -1,0 +1,32 @@
+--- working_before/main.tex
++++ working_after/main.tex
+@@ -177,7 +177,8 @@
+ \begin{aligned}
+ \text{Document} = \; & \texttt{\{title\} (\{year\})} \\
+ & \oplus \; \texttt{"\textbackslash nThinking Trace: \{trace\}"} \\
+-& \oplus \; \texttt{"\textbackslash nOpinion Snippet: \{text\_snip[:1000]\}"}
++& \oplus \; \texttt{"\textbackslash nOpinion Snippet:}
++\\ & \qquad \texttt{\{text\_snip[:1000]\}"}
+ \end{aligned}
+ \label{eq:trace_doc}
+ \end{equation}
+@@ -193,8 +194,8 @@
+ \begin{equation}
+ \begin{aligned}
+ \text{Route}(q) = \begin{cases} 
+-\text{EASY}, & \text{if } \text{Low Complexity} \land \text{In-Domain} \\
+-\text{HARD}, & \text{if } \text{High Complexity} \lor \text{Out-of-Domain}
++\text{EASY}, & \begin{gathered}\text{Low Complexity}\\[-2pt]\land\ \text{In-Domain}\end{gathered} \\[6pt]
++\text{HARD}, & \begin{gathered}\text{High Complexity}\\[-2pt]\lor\ \text{Out-of-Domain}\end{gathered}
+ \end{cases}
+ \end{aligned}
+ \label{eq:routing}
+@@ -680,7 +681,7 @@
+ 
+ This paper introduced TERRA, an experimental dual-phase GraphRAG architecture addressing knowledge drift and multi-step legal reasoning on historical SCOTUS jurisprudence (\CorpusTemporalSpan). Structuring \CorpusTotalOpinions\ authentic decisions (\CorpusPrecedentEdges\ citation edges) with generic procedural scaffolds, TERRA enables inference via Traffic Cop routing, BFS traversal, and an NLI grader evaluating retrieved evidence. The historical multi-baseline evaluation across \numUniqueQueries\ queries (\numTotalEvals\ evaluations) shows higher Category~B multi-hop faithfulness than Flat Vector RAG, HippoRAG, and GraphRAG ($\Delta$ from $\CatBTerraVsHippoRAGDelta$ to $\CatBTerraVsGraphRAGDelta$; $q<0.05$; the paired interval against Flat includes zero), though not over Direct LLM ($\CatBTerraVsDirectLLMDelta$); higher overall faithfulness ($\TerraOverallFaithfulnessMean$ vs.\ $\HippoRAGOverallFaithfulnessMean$, overlapping CIs; $\TerraAnswerOnlyFaithfulnessMean$); and $\TerraCatDSafeHandlingRate$ adversarial safe handling ($\TerraCatDRejection$ refusals, \TerraCatDRefutations\ refutations). Constraints include \TerraCatDFatalErrors\ fatal errors, false refusals on \TerraCatAFalseRefusals\ Category~A and \TerraCatBFalseRefusals\ Category~B queries, and reliance on curated overruling annotations (Section~\ref{subsec:obscure-generalization}). Critically, because evaluations rely on automated LLM judges without licensed attorneys (Section~\ref{subsec:limitations}), human expert review remains an essential prerequisite for deployment. In a standalone traversal test over four snapshot expansions, pooled recall shifted by $\IssueNineteenOverallDeltaRecallMeanStd$ (Section~\ref{subsec:temporal-update-stability}).
+ 
+-In the separate prospective controlled comparison, Among the 100 assessable Category~B pairs out of 100 assigned, the T-minus-H composite difference was $0.26885$ (paired percentile-bootstrap 95\% CI $[0.16035, 0.37205]$; two-sided paired randomization $p=0.000010$). T produced 69/100 verifier-triggered refusals on Category~B versus 4/100 for H; this coverage tradeoff prevents interpreting the faithfulness difference as better answer coverage or legal correctness. This evidence-faithfulness result is confined to the matched implementation and does not establish legal validity.
++In the separate prospective controlled comparison, among the 100 assessable Category~B pairs out of 100 assigned, the T-minus-H composite difference was $0.26885$ (paired percentile-bootstrap 95\% CI $[0.16035, 0.37205]$; two-sided paired randomization $p=0.000010$). T produced 69/100 verifier-triggered refusals on Category~B versus 4/100 for H; this coverage tradeoff prevents interpreting the faithfulness difference as better answer coverage or legal correctness. This evidence-faithfulness result is confined to the matched implementation and does not establish legal validity.
+ 
+ \begingroup
+ \let\oldfootnotesize\footnotesize

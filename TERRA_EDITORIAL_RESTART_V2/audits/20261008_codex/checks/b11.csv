@@ -1,0 +1,7 @@
+fact_id,printed,result,source
+B11-F01,"TERRA-Flat Category B paired bootstrap 95% CI includes zero [-0.013, 0.150] (Phase 1: [-0.015, +0.151])",VERIFIED,data/terra_canonical_v2_eval.json
+B11-F02,"TERRA false refusals Category A 2/100, B 16/100",VERIFIED,same
+B11-F03,74 of 75 Category C probes had empty retrieved context,VERIFIED,same
+B11-F04,"all 20,000 traces are one template after masking title, year and domain phrase (distinct = 1)",VERIFIED,dataset_20k_cap/terra_eeg_index_20k.json
+B11-F05,"macros used exist (CatBTerraVsDirectLLMDelta, TerraCatBFalseRefusals)",VERIFIED,generated_*.tex
+B11-F06,label tab:system_comparison exists,VERIFIED,main.tex/tables

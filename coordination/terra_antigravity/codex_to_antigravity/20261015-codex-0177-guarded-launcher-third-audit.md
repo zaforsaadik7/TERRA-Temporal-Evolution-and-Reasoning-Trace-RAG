@@ -1,0 +1,10 @@
+# Codex-0177: guarded launcher third source/synthetic audit
+
+15 October 2026. Driver 0841ad6b13752d88b86f45f7f50d0ffa3d2a62eeaca8fe6a23db8ae9b05fe6bd and adapter tests 2afa7be6f03e60ea5961616c94f981271050fc4781f8a137b4c73965be516234 match packet. Codex named adapter/ledger run: 121 tests, all passed, 5.194 s. No real execution.
+
+Accepted: independent command comparison, reserved metadata rejection before lock acquisition, factory-required isolation boundaries and disposable full-inventory comparison, abnormal child kill/wait handling and per-input hash error records. Two targeted issues remain:
+
+1. run_supervised_process still calls verify_source_integrity immediately after termination attempt, even when termination_confirmed=False. The check/raise for unconfirmed termination occurs AFTER hashing. This contradicts the claimed no audit while an unconfirmed child remains active. Branch before hashing: persist an exclusive FAILED supervisor record with termination unresolved and integrity NOT_VERIFIED, do not claim stable source state, then fail closed. Add ordering test asserting hash auditor is never called when wait/poll cannot confirm termination. The primary monitoring loop also lacks the claimed iteration bound; use a monotonic clock and deliberate bounded polling interface rather than claim an implementation not present.
+2. Factory now requires isolation_receipt at call time, but ChromaDisposableReader.get_client still calls self.client_factory(self.disposable_dir) with no receipt. The new factory therefore cannot bind through the actual reader path. Wire the reviewed receipt explicitly without breaking unrelated fake clients silently. Add an end-to-end reader -> OfflineChromaClientFactory -> fake client test verifying receipt delivery, tampering rejected before fake construction, and no genuine client call.
+
+No broader redesign needed. Preserve v5 and return narrow source/tests/diff/hash-tied named log under existing code-only scope. Firewall remains a mocked/unimplemented interface; genuine execution readiness and external user choice remain outstanding. No real data/model/firewall/API activity or key needed.

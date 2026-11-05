@@ -1,0 +1,26 @@
+{
+  "status": "FIVE_ROLE_COMPATIBILITY_VERIFIED",
+  "total_calls": 5,
+  "role_call_counts": {
+    "router": 1,
+    "verifier": 1,
+    "generator": 1,
+    "judge1": 1,
+    "judge2": 1
+  },
+  "retries": 0,
+  "total_input_tokens": 1004,
+  "total_output_tokens": 300,
+  "reference_cost_nanodollars": 7841540,
+  "actual_billing_certified": false,
+  "shared_generator_answer_verified": true,
+  "all_frozen_sources_verified": true,
+  "full_study_authorized": false,
+  "observed_models": {
+    "router": "gemma-3-12b-it-060225",
+    "verifier": "meta-llama-3.3-70b-instruct-121024",
+    "generator": "meta-llama-3.3-70b-instruct-121024",
+    "judge1": "qwen3-next-instruct-091725",
+    "judge2": "gpt-oss-120b-080525"
+  }
+}

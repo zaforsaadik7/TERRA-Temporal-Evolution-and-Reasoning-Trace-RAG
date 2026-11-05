@@ -1,0 +1,40 @@
+% Compact unscaled layout: every label uses a readable physical font size.
+\begin{tikzpicture}[
+  x=1cm,y=1cm,>=Stealth,
+  box/.style={draw=blue!55!black,fill=blue!3,rounded corners=2pt,
+    text width=4.65cm,minimum height=0.9cm,align=center,
+    font=\fontsize{8}{9.5}\selectfont,inner sep=4pt},
+  gate/.style={box,draw=orange!75!black,fill=orange!6},
+  good/.style={box,draw=green!45!black,fill=green!4},
+  bad/.style={box,draw=red!65!black,fill=red!3},
+  flow/.style={->,thick,draw=black!65},
+  tag/.style={font=\fontsize{7.5}{9}\selectfont,fill=white,inner sep=2pt}]
+\node[anchor=west,font=\fontsize{9}{11}\selectfont\bfseries] at (0,0.9)
+  {PHASE 1: Offline corpus and index construction};
+\node[box] (corpus) at (2.5,0) {SCOTUS corpus\\20,000 opinions,1850--1980\\Length-filtered public-domain text};
+\node[box] (parse) at (8.3,0) {\texttt{eyecite} citation parser\\Normalized reporter citations\\Extracted CITES, curated OVERRULES};
+\node[box] (graph) at (14.1,0) {Event Evolution Graph\\NetworkX directed graph\\20,000nodes; \CorpusPrecedentEdges\ edges};
+\node[box] (scaffold) at (8.3,-1.55) {Generic scaffold builder\\Same five procedural steps per case\\Not case-specific legal reasoning};
+\node[box] (vector) at (14.1,-1.55) {ChromaDB persistent vector index\\Title/date, scaffold, opinion snippet\\20,000 stored documents};
+\draw[flow] (corpus)--(parse);\draw[flow] (parse)--(graph);
+\draw[flow] (parse)--(scaffold);\draw[flow] (scaffold)--(vector);
+\node[anchor=west,font=\fontsize{9}{11}\selectfont\bfseries] at (0,-2.7)
+  {PHASE 2: Online retrieval, evidence checking and generation};
+\node[box] (query) at (2.5,-3.45) {User legal query\\Example: how did Plessy evolve\\to Brown v. Board?};
+\node[gate] (router) at (8.3,-3.45) {Traffic Cop router (Gemma3 12B)\\Intent/complexity classification\\Structured EASY or HARD decision};
+\node[box] (easy) at (2.5,-5.05) {EASY: grounded anchor retrieval\\ChromaDB document retrieval\\No citation-graph expansion};
+\node[box] (hard) at (14.1,-5.05) {HARD: vector seeds + graph traversal\\ChromaDB top-2seed documents\\Bidirectional EEG BFS, depth2};
+\node[gate] (grader) at (8.3,-6.7) {NLI Smart Grader\\Llama3.3 70B evidence check\\Structured entailment decision};
+\node[box] (retry) at (2.5,-6.7) {HARD-only fallback\\Increase retrieved seeds by2\\At most2attempts in total};
+\node[good] (answer) at (14.1,-6.7) {Grounded generator\\Llama3.3 70B, temperature0\\Answer with indexed citation links};
+\node[bad] (refusal) at (8.3,-8.3) {Safety refusal\\Failed evidence checks\\Fixed inability-to-answer notice};
+\draw[flow] (query)--(router);
+\draw[flow] (router.west) -- ++(-0.35,0) |- node[tag,pos=.7]{EASY} (easy.north);
+\draw[flow] (router.east) -- ++(0.35,0) |- node[tag,pos=.7]{HARD} (hard.north);
+\draw[flow] (easy.south) -- ++(0,-0.35) -| (grader.north);
+\draw[flow] (hard.south) -- ++(0,-0.35) -| (grader.north);
+\draw[flow] (grader.east)--node[tag]{entails} (answer.west);
+\draw[flow] (grader.south)--node[tag,right]{checks failed} (refusal.north);
+\draw[flow] (grader.west)--node[tag]{HARD: retry available} (retry.east);
+\draw[flow] (retry.west)--++(-0.45,0)--++(0,-2.65)-|(hard.east);
+\end{tikzpicture}

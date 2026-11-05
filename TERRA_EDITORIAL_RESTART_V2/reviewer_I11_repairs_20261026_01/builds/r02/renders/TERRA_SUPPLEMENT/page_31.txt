@@ -1,0 +1,8 @@
+canonical-v2 contexts. Section 1 matches the older records’ context-node sets, traversal-node sets and gold intersections on 100/100 queries (62/100 complete recoveries); this
+is set-level parity, not byte-identical context or fresh vector-retrieval reproduction. Section 2 uses the same legacy-derived anchors with a bounded engine and yields 61/100,
+distinct from canonical v2’s 66/100. Section 2 evaluates the bounded post-Issue #13 engine as an operational-eﬀiciency diagnostic; visited nodes counts BFS expansion centers
+(mean 2.0), which reach the 35,000-character ceiling after expanding the 2 seeds, assembling 78.7 unique case authorities into context and retaining 90.85% of gold landmark
+precedents while eliminating 97.0% of context character volume. Traversal latency strictly reflects offline NetworkX DiGraph traversal and string assembly on CPU. §Bounded
+retrieval coverage is invariant across d ∈{1, 2, 3} and dadapt because character limits are reached at depth 1. ∗Single-seed condition (k = 1∗) initializes traversal strictly from
+the primary anchor. ‡Vector-seed condition (k = 4∗) queries ChromaDB under the known Issue #19 taxonomy constraint (civil_rights, 0 seeds).
+S31

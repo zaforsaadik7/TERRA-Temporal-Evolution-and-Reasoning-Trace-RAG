@@ -1,0 +1,82 @@
+{
+  "status": "PROPOSAL_ONLY_NOT_EXECUTABLE",
+  "context_sha256": "8ebc9580639023e881f694e40f150e92c2e7a0dbbeb7a72624886fa62c78a97e",
+  "launch_binding_sha256": "f7caa9fee0737d4301926c04c818317dbc302a5b9f093ea889101370fb53f3a4",
+  "native_plan_sha256": "fa63444e81c45b1673ef48236cb55d5eeb10b0345b63d730088f3907b662297d",
+  "source_overlay_only": {
+    "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_production_native.py",
+    "held_sha256": "8ab9189d86842a33e992dd6ad54260cb6919f6784aeb15e0e732a0aecc59b326",
+    "expected_admitted_sha256": "21f80c769f80b048050b8c811d006814d6de47778c0877907fc33c836a1b3f86",
+    "source_currently_held": true
+  },
+  "anchor_excluded_from_packet_pins": "F:\\TERRA -Copy\\scripts\\matched_baseline\\paired_production_anchor.py",
+  "actual_approval_record_created": false,
+  "live_attempt_directory_exists": false,
+  "budget": {
+    "status": "PREVIEW_NOT_EXECUTION_AUTHORITY",
+    "live_admitted": false,
+    "roles": {
+      "router": {
+        "study_calls": 350,
+        "smoke_calls": 0,
+        "maximum_attempts": 350,
+        "reserved_input_tokens": 716800,
+        "reserved_output_tokens": 44800,
+        "maximum_nanodollars": 1856108800,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "verifier": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 5734400,
+        "reserved_output_tokens": 358400,
+        "maximum_nanodollars": 48640972800,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "generator": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 5734400,
+        "reserved_output_tokens": 2867200,
+        "maximum_nanodollars": 102402048000,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "judge1": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 11468800,
+        "reserved_output_tokens": 716800,
+        "maximum_nanodollars": 36865740800,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      },
+      "judge2": {
+        "study_calls": 700,
+        "smoke_calls": 0,
+        "maximum_attempts": 700,
+        "reserved_input_tokens": 11468800,
+        "reserved_output_tokens": 2867200,
+        "maximum_nanodollars": 49152409600,
+        "price_identity": "PUBLIC_DBU_REFERENCE_UNCONFIRMED_1_USD_PER_DBU"
+      }
+    },
+    "automatic_retries": 0,
+    "maximum_attempts": 3150,
+    "token_cost_nanodollars": 238917280000,
+    "fixed_charges_nanodollars": 0,
+    "maximum_nanodollars": 238917280000,
+    "proposed_cap_nanodollars": 300000000000,
+    "within_proposed_cap": true
+  },
+  "local_quota_status": "CONSERVATIVE_CLIENT_PROPOSAL_NOT_ACCOUNT_CONFIRMED",
+  "finalization_requires": [
+    "peer source/evidence review",
+    "human acceptance of rubric/pricing/quota/resource assumptions",
+    "dated plan-bound live authorization",
+    "fresh closing input/code checks and exact source/anchor freeze"
+  ],
+  "no_paid_calls": true,
+  "no_credential_reads": true
+}

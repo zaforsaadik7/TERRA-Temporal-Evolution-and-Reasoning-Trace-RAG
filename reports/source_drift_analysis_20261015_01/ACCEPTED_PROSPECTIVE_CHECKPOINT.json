@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "accepted_local_date": "2026-10-15",
+  "timezone": "Asia/Dhaka",
+  "authority": "Human user: okay then do it, following recommendation to accept current database with limitations",
+  "status": "ACCEPTED_PROSPECTIVE_INPUT_CHECKPOINT",
+  "source_root": "F:\\TERRA -Copy\\dataset_20k_cap\\vector_db_20k",
+  "sqlite_relative_path": "chroma.sqlite3",
+  "sqlite_size_bytes": 362885120,
+  "accepted_sqlite_sha256": "c7fc28f24403303b384f73f3eac349629661a430aeee3c05e899c8d5e27b475d",
+  "historical_pre_incident_sqlite_sha256": "a184ae237b3e0afca09361178824bfc56a009533d6bdfc865b0ab1fbd40715fc",
+  "full_store_inventory": "reports/read_only_inventory_4607d306c9fb4f1e85b935c158c20787/inventory.json",
+  "full_inventory_sha256": "a44618af9cc95ffcce32f8ed70d3f7b7867dd3c72544cc52737c0f3d7365b4f6",
+  "semantic_comparison": "reports/source_drift_analysis_20261015_01/semantic_comparison.json",
+  "semantic_comparison_sha256": "c11e6c26365114c5fabfd308b3d4df3899f740917e484bbc1282b69af0052d99",
+  "compared_older_snapshot_sha256": "3ee12a495b1ccf8320bc7d6fdbd08f180b2a87865713cee387ac2fb481fa30d6",
+  "limitations": [
+    "No checked surviving copy matched the exact pre-incident a184ae23 baseline.",
+    "Current and older snapshot schemas and all table content hashes match except acquire_write, with four additional rows in current.",
+    "This does not establish exact incident causation, historical nonaccess, or absence of transient changes.",
+    "Source identity must be reverified immediately before any future approved copying or execution."
+  ],
+  "database_modified_by_acceptance": false,
+  "old_ledgers_overwritten": false,
+  "preflight_execution_authorized": false,
+  "model_inference_authorized": false,
+  "network_or_firewall_changes_authorized": false,
+  "api_calls_authorized": false,
+  "manuscript_changes_authorized": false,
+  "next_scope": "Prepare a new versioned launch ledger and guarded execution plan; do not reuse old SQLite or driver pins blindly."
+}

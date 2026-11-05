@@ -1,0 +1,106 @@
+Table S9: Evaluation Block Provenance. Dates are from file timestamps
+or logged runner headers; “date not recorded” means no timestamp was
+found in the source files.
+Block
+Date
+(source)
+Models
+N (unit)
+Baseline generations
+5–6 Sept. 2026
+(file mtime)
+Gen: llama-3.3-70b-instruct; no
+router/NLI
+1,400
+arm rows
+Deployed TERRA run
+14 Sept. 2026
+(file mtime)
+Router: gemma-3-12b; NLI + gen:
+llama-3.3-70b-instruct
+350
+queries
+Dual-judge scoring
+14 Sept. 2026
+(file mtime)
+J1: qwen3-next-80b; J2:
+gpt-oss-120b
+1,750
+arm rows
+Pilot ablation (Table II)
+date not
+recorded
+Single judge:
+llama-3.3-70b-instruct (recorded
+endpoint)
+35
+queries
+Temporal leakage probe
+17 Sept. 2026
+(file mtime)
+J1: qwen3-next-80b; J2:
+gpt-oss-120b
+400
+records
+Category D certification
+20 Sept. 2026
+(file last
+modified)
+Semantic verifier:
+llama-3.3-70b-instruct
+75
+queries
+CaseFacts eval
+18 Sept. 2026
+(file mtime)
+J1: qwen3-next-80b; J2:
+gpt-oss-120b
+170
+queries
+CLERC eval
+18 Sept. 2026
+(file mtime)
+J1: qwen3-next-80b; J2:
+gpt-oss-120b
+170
+queries
+Obscure suite
+19–20 Sept.
+2026
+(file mtime)
+Gen: llama-3.3-70b-instruct;
+J1/J2 as above
+120 arm
+rows
+Famous D1 contrast
+19–20 Sept.
+2026
+(file mtime)
+Gen: llama-3.3-70b-instruct;
+J1/J2 as above
+76 arm
+rows
+Prospective hybrid
+comparison
+25 Oct. 2026
+(run records)
+Router: Gemma 3 12B; verifier/gen:
+Llama 3.3 70B; judges: Qwen3-Next
+and GPT-OSS
+350 pairs
+Stored-context sensitivity
+historical dates
+unverified
+Canonical: 66/100; legacy: 62/100
+complete target sets; separate
+bounded engine: 61/100
+100
+queries
+Distance-only diagnostic
+8 Oct. 2026
+(run record)
+MiniLM squared-L2; benchmark
+text only, not Title Match
+350
+queries
+S12

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_SELF_VERIFICATION",
+  "working_files": 47,
+  "original_objects": 26,
+  "original_tables": 23,
+  "original_figures": 3,
+  "limitation_themes": 18,
+  "reviewer_obligations": 10,
+  "historical_finding_ids": 32,
+  "F_findings": 6,
+  "negative_validator_cases_rejected": [
+    "duplicate",
+    "unsupported_closed",
+    "unknown_status",
+    "missing_owner"
+  ],
+  "schema_and_status_reference_checks": true,
+  "protected_input_checks": true,
+  "peer_final_pending": true
+}

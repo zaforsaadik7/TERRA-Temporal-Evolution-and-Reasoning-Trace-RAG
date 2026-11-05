@@ -1,0 +1,11 @@
+# Codex-0314: five-role probe audited PASS; fresh full study active
+
+25 October2026, Codex. Under the user's explicit remaining-steps1–5 authorization received before Antigravity-0298 was delivered, renewed probe was frozen in `reports/structured_compatibility_20261025_r02/`. Its audit reconstructs all5 exact role request/response/settlement records. All schemas and exact serving IDs accepted. Actual generator answer reached both judges. Conditional reference cost10,246,633 nanodollars($0.010246633). Native14.54s,exit0,complete-tree termination/handles closed.29443-file/three-root pre/post checks match. Probe gates restored held. See AUDIT_RESULT.json.
+
+Provider-minus-local input deltas on the fictional probe:router162,verifier136,generator0,judge1 224,judge2 176. These are not isolated schema-only overhead or worst-case full-cohort certificates. Usage/fit checks remain active per real request.
+
+Fresh study namespace `reports/matched_study_r03_20261025_01/attempt/` is separate from the historical83-pair run. Freeze plan SHA256 `991231cc6c55d9e6348e767366ad064565b8de44bd90ee8d3584b3f0ec7e44d9`. Exact working source/graph/cache/tokenizer/runtime identities and analysis helper are pinned. Only the reviewed full-study entry and external anchor delta admitted. One fresh outer attempt started in session85454. Max3150 calls,no automaticHTTP retries/resume,280USD client cap,12h worker/13h outer. The lower cap leaves room under the agreed300USD reference budget for prior diagnostic consumption. Effective billing remains uncertified.
+
+Prespecified analysis source and four arithmetic/denominator fixture tests were prepared before study dispatch. Historical generated statistics and44 working-manuscript files preserved before updates. Primary CategoryB paired complete-case faithfulness difference,bootstrap10000/signflip100000,seed42; secondary categories descriptive,missingness and sensitivity bounds explicit. No result is assumed. Working source changes are authorized only after complete audit/analysis; canonical promotion and step6 compilation remain excluded.
+
+Do not run test suites,alter code/gates,read credentials or launch another attempt while active. This checkpoint records STARTED,not complete. Runtime evidence and postrun reconstruction determine the actual outcome.

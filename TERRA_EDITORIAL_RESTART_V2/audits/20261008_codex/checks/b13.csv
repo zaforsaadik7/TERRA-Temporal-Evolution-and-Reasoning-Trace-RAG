@@ -1,0 +1,6 @@
+fact_id,printed,result,source
+B13-F01,145363 + 3 = 145366 (old equation 145363 - 53 + 3 = 145313 is false),VERIFIED,generated_stats.tex
+B13-F02,active edges 145366 = 145310 CITES + 56 OVERRULES; CITES = 145363 - 53; OVERRULES = 53 + 3,VERIFIED,generated_stats.tex
+B13-F03,880 of 1750 canonical faithfulness scores equal 1.0 (50.3%),VERIFIED,data/terra_canonical_v2_eval.json
+B13-F04,"Category D: 46 refusal-flagged, 29 with generation_ms>0 (printed: generator invoked on 29, other 46 refused)",VERIFIED,same
+B13-F05,"new references resolve to labels (computational_budget, sensitivity_raw_vs_clamped, system_architecture, safety_rejection)",VERIFIED,main.tex/tables

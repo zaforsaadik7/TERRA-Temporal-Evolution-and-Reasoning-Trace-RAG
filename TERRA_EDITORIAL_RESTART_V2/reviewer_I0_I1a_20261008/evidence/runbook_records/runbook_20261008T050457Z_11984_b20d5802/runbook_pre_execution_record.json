@@ -1,0 +1,89 @@
+﻿{
+    "runbook_version":  "3.2.0",
+    "timestamp_utc":  "20261008T050457Z",
+    "run_id":  "20261008T050457Z_11984_b20d5802",
+    "workspace_root":  "F:\\TERRA -Copy",
+    "ps_version":  "5.1.19041.7725",
+    "execution_mode":  "PRODUCTION_LIVE",
+    "simulation_mode":  false,
+    "simulation_mock_applied":  false,
+    "bound_parameters":  [
+
+                         ],
+    "allow_other_interpreter_processes_flag":  false,
+    "actual_firewall_enforced":  false,
+    "actual_native_invoked":  false,
+    "mock_parameters_supplied":  {
+
+                                 },
+    "rule_name":  "TERRA_Offline_Diagnostic_20261008",
+    "elevation_checked":  true,
+    "transcript_started":  true,
+    "transcript_closed_cleanly":  false,
+    "pre_execution_hashes":  {
+                                 "python_exe":  {
+                                                    "actual":  "3adbbf2af609e206e3ca18cd55fc7c4b52f5c8bb8218dd99fd5a9e50d7a193cd",
+                                                    "expected":  "3adbbf2af609e206e3ca18cd55fc7c4b52f5c8bb8218dd99fd5a9e50d7a193cd"
+                                                },
+                                 "run_diagnostic_harness":  {
+                                                                "actual":  "b7f59c413178a3e1006156897e0b7671fd36bc2a89aed3b1589e90f7def6ce25",
+                                                                "expected":  "b7f59c413178a3e1006156897e0b7671fd36bc2a89aed3b1589e90f7def6ce25"
+                                                            },
+                                 "audit_i1a_contemporary":  {
+                                                                "actual":  "c37ddaa72ab5c410d43756af40d27003b446f0ad19ea182454ec0f097e67094d",
+                                                                "expected":  "c37ddaa72ab5c410d43756af40d27003b446f0ad19ea182454ec0f097e67094d"
+                                                            },
+                                 "terra_350_benchmark":  {
+                                                             "actual":  "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3",
+                                                             "expected":  "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3"
+                                                         },
+                                 "terra_175_benchmark":  {
+                                                             "actual":  "8a474d2fac1d72d32feda410971332e49ffb6f294c58c49b8c892802f70b5305",
+                                                             "expected":  "8a474d2fac1d72d32feda410971332e49ffb6f294c58c49b8c892802f70b5305"
+                                                         },
+                                 "chroma_sqlite3":  {
+                                                        "actual":  "3ee12a495b1ccf8320bc7d6fdbd08f180b2a87865713cee387ac2fb481fa30d6",
+                                                        "expected":  "3ee12a495b1ccf8320bc7d6fdbd08f180b2a87865713cee387ac2fb481fa30d6"
+                                                    }
+                             },
+    "known_other_interpreter_processes":  [
+
+                                          ],
+    "unreadable_processes_count":  16,
+    "firewall_service_status":  "Running",
+    "firewall_profiles_status":  {
+                                     "Private":  {
+                                                     "Enabled":  "True",
+                                                     "DefaultOutboundAction":  "NotConfigured"
+                                                 },
+                                     "Domain":  {
+                                                    "Enabled":  "True",
+                                                    "DefaultOutboundAction":  "NotConfigured"
+                                                },
+                                     "Public":  {
+                                                    "Enabled":  "True",
+                                                    "DefaultOutboundAction":  "NotConfigured"
+                                                }
+                                 },
+    "pre_execution_record_attempted":  true,
+    "rule_created_by_this_run":  false,
+    "rule_verification_facts":  {
+
+                                },
+    "native_execution_attempted":  false,
+    "simulated_native_execution":  false,
+    "native_execution_start_utc":  null,
+    "native_execution_end_utc":  null,
+    "native_exit_code":  null,
+    "teardown_attempted":  false,
+    "teardown_verified":  false,
+    "post_execution_hashes":  {
+
+                              },
+    "post_hashes_passed":  false,
+    "terminal_record_attempted":  false,
+    "operational_status":  "INITIALIZED",
+    "errors":  [
+
+               ]
+}

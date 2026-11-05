@@ -1,0 +1,58 @@
+Table S4: Retrieval stability across temporal snapshot expansions on
+Category B precedent chains (N = 106 query-pair observations). Evalu-
+ates standalone BFS citation traversal seeded by benchmark origin prece-
+dents (s = q[target_nodes][0]) traversing all available directed graph
+edges (generic CITES); strictly decoupled from end-to-end vector retrieval
+and live index upsert. Latency reflects in-memory NetworkX traversal
+(grand median < 0.01 ms, mean 0.15±0.18 ms; 54/106 queries complete
+in 1–3 µs while 52/106 expand denser neighborhoods in 0.1–0.6 ms).
+Snapshot Pair
+Step N
+Nq
+Recall@T (µ ± σ)
+Recall@T+N (µ ± σ)
+∆Recall (µ ± σ)
+Discovery Rate (µ)
+BFS Latency@T+N
+(ms, med)
+1890→1930
+40 yr
+10
+0.50 ± 0.20
+0.40 ± 0.12
+−0.10 ± 0.25
+0.20
+< 0.01
+1930→1950
+20 yr
+32
+0.32 ± 0.11
+0.34 ± 0.12
+0.01 ± 0.15
+0.13
+0.14
+1950→1970
+20 yr
+44
+0.32 ± 0.06
+0.40 ± 0.16
+0.08 ± 0.14
+0.16
+< 0.01
+1970→1980
+10 yr
+20
+0.37 ± 0.16
+0.36 ± 0.15
+−0.00 ± 0.10
+0.00
+0.10
+Overall
+—
+106
+0.35 ± 0.13
+0.38 ± 0.14
+0.03 ± 0.16
+0.12
+< 0.01
+S6

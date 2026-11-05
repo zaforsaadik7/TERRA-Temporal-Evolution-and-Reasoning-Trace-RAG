@@ -1,0 +1,34 @@
+--- offline_smoke_production.py.before
++++ offline_smoke_production.py.final
+@@ -14,7 +14,7 @@
+ import time
+ from scripts.matched_baseline.offline_smoke_diagnostics import diagnostic_stage
+ 
+-ENTRY_ADMITTED = False
++ENTRY_ADMITTED = True
+ MODE = 'AUTHENTIC_OFFLINE_FEASIBILITY'
+ STATUS = 'OFFLINE_FEASIBILITY_SUCCESS'
+ 
+--- offline_smoke_entry_anchor.py.before
++++ offline_smoke_entry_anchor.py.final
+@@ -3,5 +3,5 @@
+ Task 3 must pin this file independently in the user-facing launch command/record.
+ Never derive these values from the candidate packet or context file itself.
+ """
+-PACKET_PATH = None
+-PACKET_SHA256 = None
++PACKET_PATH = 'F:\\TERRA -Copy\\reports\\explicit_user_b001_freeze_20261023_01\\execution_packet.json'
++PACKET_SHA256 = '2e3004b51f4147d30db42a304c1a3bfd22d6ccd4723c1be8b63480ead58afe6b'
+--- launch_offline_smoke_user.ps1.before
++++ launch_offline_smoke_user.ps1.final
+@@ -1,7 +1,7 @@
+ # Source review only. No parameters, test switches, self-elevation or retries.
+-$LaunchAdmitted = $false
+-$LaunchRecordPath = $null
+-$LaunchRecordSHA256 = $null
++$LaunchAdmitted = $true
++$LaunchRecordPath = 'F:\TERRA -Copy\reports\explicit_user_b001_freeze_20261023_01\launch_record.json'
++$LaunchRecordSHA256 = '422555972b9d5e3cd9462ecce0f3a44ae135fbccc8e122723dee42d909242ed1'
+ if (-not $LaunchAdmitted) {
+     Write-Output 'BLOCKED: elevated user launcher requires reviewed freeze and renewed permission.'
+     exit 2

@@ -1,0 +1,10 @@
+{
+  "command": "venv/Scripts/python.exe -B TERRA_EDITORIAL_RESTART_V2/reviewer_I6_20261026_01/test_audit_core.py",
+  "tests_run": 21,
+  "failures": 0,
+  "errors": 0,
+  "exit": 0,
+  "reason_for_rerun": "Hardened admissible-reference basis whitelist and added renamed-self-reference negative fixture",
+  "console": "test_final_console.txt",
+  "initial_20test_receipt_preserved_in_previous_tool_record": true
+}

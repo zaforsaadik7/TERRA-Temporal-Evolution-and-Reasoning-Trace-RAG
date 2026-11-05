@@ -1,0 +1,326 @@
+{
+ "HOLDING": [
+  {
+   "query_id": "B001",
+   "kind": "NODE",
+   "node_id": "347_0483-01",
+   "cls": "HOLDING",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "inding is rejected. We conclude that in the field of public education the doctrine of \u201cseparate but equal\u201d has no place."
+  },
+  {
+   "query_id": "B001",
+   "kind": "OVR",
+   "node_id": "163_0537-01",
+   "cls": "HOLDING",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "The statute of Louisiana, acts of 1890, No. 111, requiring railway companies carrying passengers in their coaches inthat"
+  },
+  {
+   "query_id": "B001",
+   "kind": "REL",
+   "node_id": "402_0001-01",
+   "cls": "HOLDING",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "We hold that the pairing and grouping of noncontiguous school zones is a permissible tool and such action is to be consi"
+  },
+  {
+   "query_id": "B001",
+   "kind": "REL",
+   "node_id": "391_0430-01",
+   "cls": "HOLDING",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "Mr. Justice Brennan delivered the opinion of the Court. The question for decision is whether, under all the circumstance"
+  },
+  {
+   "query_id": "B001",
+   "kind": "REL",
+   "node_id": "388_0001-01",
+   "cls": "HOLDING",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "Mr. Chief Justice Warren delivered the opinion of the Court. This case presents a constitutional question never addresse"
+  }
+ ],
+ "FALLBACK": [
+  {
+   "query_id": "B001",
+   "kind": "NODE",
+   "node_id": "349_0294-01",
+   "cls": "FALLBACK",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "These cases were decided on May 17, 1954. The opinions of that date, declaring the fundamental principle that racial dis"
+  },
+  {
+   "query_id": "B001",
+   "kind": "REL",
+   "node_id": "448_0448-01",
+   "cls": "FALLBACK",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "announced the judgment of the Court and delivered an opinion, in which Mr. Justice White and Mr. Justice Powell joined. "
+  },
+  {
+   "query_id": "B001",
+   "kind": "REL",
+   "node_id": "448_0555-01",
+   "cls": "FALLBACK",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "Mb. Chief Justice.Burger announced the judgment of the Court and delivered an opinion, in which Mr. Justice White and Mr"
+  },
+  {
+   "query_id": "B001",
+   "kind": "REL",
+   "node_id": "448_0297-01",
+   "cls": "FALLBACK",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "This case presents statutory and constitutional questions concerning the public funding of abortions under Title XIX of "
+  },
+  {
+   "query_id": "B001",
+   "kind": "REL",
+   "node_id": "446_0923-02",
+   "cls": "FALLBACK",
+   "diag": "",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "C. A. 3d Cir. Certiorari denied. The Chief Justice agrees these cases merit review here but only when a full Court is av"
+  }
+ ],
+ "NEITHER/node id not resolved": [
+  {
+   "query_id": "B001",
+   "kind": "SEED",
+   "node_id": "AMBIG_TITLE:347_0483-01|349_0294-01",
+   "cls": "NEITHER",
+   "diag": "node id not resolved",
+   "holding_populated_now": false,
+   "holding_source_now": "",
+   "obs_head": "inding is rejected. We conclude that in the field of public education the doctrine of \u201cseparate but equal\u201d has no place."
+  },
+  {
+   "query_id": "B001",
+   "kind": "SEED",
+   "node_id": "AMBIG_TITLE:347_0483-01|349_0294-01",
+   "cls": "NEITHER",
+   "diag": "node id not resolved",
+   "holding_populated_now": false,
+   "holding_source_now": "",
+   "obs_head": "These cases were decided on May 17, 1954. The opinions of that date, declaring the fundamental principle that racial dis"
+  },
+  {
+   "query_id": "B018",
+   "kind": "SEED",
+   "node_id": "AMBIG_TITLE:347_0483-01|349_0294-01",
+   "cls": "NEITHER",
+   "diag": "node id not resolved",
+   "holding_populated_now": false,
+   "holding_source_now": "",
+   "obs_head": "inding is rejected. We conclude that in the field of public education the doctrine of \u201cseparate but equal\u201d has no place."
+  },
+  {
+   "query_id": "B018",
+   "kind": "SEED",
+   "node_id": "AMBIG_TITLE:347_0483-01|349_0294-01",
+   "cls": "NEITHER",
+   "diag": "node id not resolved",
+   "holding_populated_now": false,
+   "holding_source_now": "",
+   "obs_head": "These cases were decided on May 17, 1954. The opinions of that date, declaring the fundamental principle that racial dis"
+  },
+  {
+   "query_id": "B030",
+   "kind": "SEED",
+   "node_id": "AMBIG_TITLE:232_0383-01|245_0618-01",
+   "cls": "NEITHER",
+   "diag": "node id not resolved",
+   "holding_populated_now": false,
+   "holding_source_now": "",
+   "obs_head": "Under the Fourth Amendment Federal courts and officers are under such limitations and restraints in the exercise of thei"
+  }
+ ],
+ "NEITHER/prefix of current holding (different truncation)": [
+  {
+   "query_id": "D001",
+   "kind": "NODE",
+   "node_id": "163_0537-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current holding (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "The statute of Louisiana, acts of 1890, No. 111, requiring railway companies carrying passengers in their coaches inthat"
+  },
+  {
+   "query_id": "D001",
+   "kind": "REL",
+   "node_id": "305_0337-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current holding (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "Me. Chief Justice Hughes delivered the opinion of the Court. Petitioner Lloyd Gaines, a negro, was refused admission to "
+  },
+  {
+   "query_id": "D001",
+   "kind": "REL",
+   "node_id": "245_0060-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current holding (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "A city ordinance which forbids colored persons to occupy houses in blocks where the greater number of houses are occupie"
+  },
+  {
+   "query_id": "D001",
+   "kind": "REL",
+   "node_id": "109_0003-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current holding (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "Mr. Justice Bradley delivered the opinion of the court. After stating the facts in the above language he continued: It i"
+  },
+  {
+   "query_id": "D001",
+   "kind": "REL",
+   "node_id": "83_0036-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current holding (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "Mr. Justice MILLER, now, April 14th, 1873, delivered the opinion of the court. These cases are brought here by .writs of"
+  }
+ ],
+ "NEITHER/no match found": [
+  {
+   "query_id": "D001",
+   "kind": "OVR",
+   "node_id": "347_0483-01",
+   "cls": "NEITHER",
+   "diag": "no match found",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "to this finding is rejected. We conclude that in the field of public education the doctrine of \u201cseparate but equal\u201d has "
+  },
+  {
+   "query_id": "D001",
+   "kind": "REL",
+   "node_id": "339_0629-01",
+   "cls": "NEITHER",
+   "diag": "no match found",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "gregation. See supra, p. 631. We hold that the Equal Protection Clause of the Fourteenth Amendment requires that petitio"
+  },
+  {
+   "query_id": "D001",
+   "kind": "REL",
+   "node_id": "331_0549-01",
+   "cls": "NEITHER",
+   "diag": "no match found",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "etween applying the policy or the rule is very thin. They work, within their respective and technically distinct areas, "
+  },
+  {
+   "query_id": "D001",
+   "kind": "REL",
+   "node_id": "60_0393-02",
+   "cls": "NEITHER",
+   "diag": "no match found",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "her pursuing its legislation, we find that in the same statute passed in 1774, which prohibited the further importation "
+  },
+  {
+   "query_id": "D002",
+   "kind": "REL",
+   "node_id": "300_0379-01",
+   "cls": "NEITHER",
+   "diag": "no match found",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER2_OPINION_REGEX",
+   "obs_head": "for the legislative judgment. Our conclusion is that the case of Adkins v. Children\u2019s Hospital, supra, should be, and it"
+  }
+ ],
+ "NEITHER/prefix of current text fallback (different truncation)": [
+  {
+   "query_id": "D003",
+   "kind": "NODE",
+   "node_id": "194_0194-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current text fallback (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "This is a petition for a writ of mandamus, commanding the judge of the District Court of the United States for the North"
+  },
+  {
+   "query_id": "D003",
+   "kind": "NODE",
+   "node_id": "176_0459-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current text fallback (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "after stating the facts, delivered the opinion of the court. The question here arising in regard to the correctness of t"
+  },
+  {
+   "query_id": "D003",
+   "kind": "NODE",
+   "node_id": "186_0193-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current text fallback (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "By section one of the act of May 6, 1882, 22 Stat. 58. c. 126, it was provided that from and after the expiration of nin"
+  },
+  {
+   "query_id": "D003",
+   "kind": "NODE",
+   "node_id": "193_0065-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current text fallback (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "Me. Justice Holmes These are appeals from judgments \u00f3f the United States District Court confirming decisions of a commis"
+  },
+  {
+   "query_id": "D003",
+   "kind": "NODE",
+   "node_id": "193_0517-01",
+   "cls": "NEITHER",
+   "diag": "prefix of current text fallback (different truncation)",
+   "holding_populated_now": true,
+   "holding_source_now": "TIER1_HEADNOTE_SYLLABUS",
+   "obs_head": "after making the foregoing statement, delivered the opinion of the court. The- contention of the appellants that their r"
+  }
+ ],
+ "AMBIGUOUS": [
+  {
+   "query_id": "D064",
+   "kind": "REL",
+   "node_id": "69_0328-01",
+   "cls": "AMBIGUOUS",
+   "diag": "",
+   "holding_populated_now": false,
+   "holding_source_now": "TIER3_RAW_PREAMBLE_FALLBACK",
+   "obs_head": "Harvey v. Tyler"
+  }
+ ]
+}

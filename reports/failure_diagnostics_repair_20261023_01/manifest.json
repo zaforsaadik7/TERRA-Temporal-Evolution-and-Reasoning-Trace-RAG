@@ -1,0 +1,103 @@
+{
+  "scope": "CODE_ONLY_DIAGNOSTICS_AND_NAMED_SYNTHETIC_TESTS",
+  "execution_authorized": false,
+  "sources": [
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_production.py",
+      "size_bytes": 19176,
+      "sha256": "f0012ff41a4e5e2a29800364cb2a370051e54e21e3e387372c5ddef673e61dc8"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_authentic.py",
+      "size_bytes": 9762,
+      "sha256": "e9a47b47508008cc0b3c0e3732fb4287474bbdc127753312685b56fdd58aa9e6"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_diagnostics.py",
+      "size_bytes": 4074,
+      "sha256": "f0a86344d7eeb1988bcbf6a037def58db780f66cdaa7774ed7c09850e9c2a812"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_smoke_diagnostics_synthetic.py",
+      "size_bytes": 9882,
+      "sha256": "169ee32e26a85c33b4248727a52ade2768d7e3e019d3e5ec9c1682866f74acdd"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\IMPLEMENTATION_AND_TEST_REPORT.md",
+      "size_bytes": 4448,
+      "sha256": "222f08b2ece89bf674aea5b368da63c1633e85246f20fd3d565ae43b669dc425"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\offline_smoke_authentic.py.before",
+      "size_bytes": 8855,
+      "sha256": "ea95eac3fc0c3c3eef3c1a07371ca7441621551928054279075e0eb8f3402648"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\offline_smoke_authentic.py.final",
+      "size_bytes": 9762,
+      "sha256": "e9a47b47508008cc0b3c0e3732fb4287474bbdc127753312685b56fdd58aa9e6"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\offline_smoke_diagnostics.py.final",
+      "size_bytes": 4074,
+      "sha256": "f0a86344d7eeb1988bcbf6a037def58db780f66cdaa7774ed7c09850e9c2a812"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\offline_smoke_production.py.before",
+      "size_bytes": 18407,
+      "sha256": "21cabe3090886563edfa4f4b24816604b854d89d51360ba9b86171fc369f1cda"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\offline_smoke_production.py.final",
+      "size_bytes": 19176,
+      "sha256": "f0012ff41a4e5e2a29800364cb2a370051e54e21e3e387372c5ddef673e61dc8"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\preservation_checks.json",
+      "size_bytes": 137,
+      "sha256": "fbc835b8cada21a578b4c45b0ffa53ce7dbbc96d486a756138d1d31ad14af743"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\run_named_synthetic.py",
+      "size_bytes": 1538,
+      "sha256": "c1c7d61af35f742110bce7a048ec09f4231b5635eeb6aa508f103b534fc3313a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\SCOPE.md",
+      "size_bytes": 907,
+      "sha256": "69e7e816f670617738bcbd6d2410cccf554983753dc412757ff76f1ecd1cdf82"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\seal_package.py",
+      "size_bytes": 2383,
+      "sha256": "26f2b8568ac744f24433b835c1281d4c125b6551d7387ca8ff813b1c746221c4"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\source.diff",
+      "size_bytes": 24414,
+      "sha256": "9b4d583b733a4f5a46333c6e97e9c2f42b0ea67fa33a676412f928057f75e15d"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\STATUS.incoming.json",
+      "size_bytes": 5914,
+      "sha256": "2b8c4b48bde7d219dd4c151963d55ae9020fb55ea443cdcb6ec81d057af5a048"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\synthetic_console.log",
+      "size_bytes": 2028,
+      "sha256": "b797631c2131a4b3452528dc627db877ce0faa7cfda8822f1074921e72e08b2c"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\test_offline_smoke_diagnostics_synthetic.py.final",
+      "size_bytes": 9882,
+      "sha256": "169ee32e26a85c33b4248727a52ade2768d7e3e019d3e5ec9c1682866f74acdd"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\failure_diagnostics_repair_20261023_01\\TEST_RESULT.json",
+      "size_bytes": 1763,
+      "sha256": "ff5374e4dc9c15f6ba97866c2472903a54c1052e33908b7ac9c5c1ebbf13071a"
+    }
+  ]
+}

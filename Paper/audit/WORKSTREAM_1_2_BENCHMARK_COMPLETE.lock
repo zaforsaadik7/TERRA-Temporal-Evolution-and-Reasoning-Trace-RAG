@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-09-06T19:01:30.000000Z",
+  "workstream": "1.2_COMPARATIVE_BASELINES_EVALUATION",
+  "benchmark_dataset": "terra_350_benchmark.json",
+  "evaluation_corpus": "dataset_20k_cap (20,000 legal opinions, 145,363 citation edges)",
+  "total_queries_completed": 350,
+  "total_evaluations_completed": 1750,
+  "status": "ALL_4_CATEGORIES_CLOSED_AND_CERTIFIED",
+  "tier_1_checks_status": "ALL_6_CHECKS_PASSED_ZERO_VIOLATIONS",
+  "reconciliation_parity": "EXACT_1750_EQUALS_1658_G_PLUS_92_S",
+  "category_breakdown": {
+    "A_Factual": { "queries": 100, "evaluations": 500, "lock": "AMENDMENT_H_VERIFIED.lock" },
+    "B_Evolutionary": { "queries": 100, "evaluations": 500, "lock": "AMENDMENT_H_VERIFIED.lock" },
+    "C_Negative": { "queries": 75, "evaluations": 375, "lock": "CATEGORY_C_VERIFIED.lock" },
+    "D_Adversarial": { "queries": 75, "evaluations": 375, "lock": "CATEGORY_D_VERIFIED.lock" }
+  },
+  "benchmark_summary": {
+    "1_Direct_LLM": {
+      "total_evaluations": 350,
+      "refusal_count": 0,
+      "refusal_rate_pct": 0.0,
+      "overall_faithfulness": 0.7921,
+      "non_refusal_faithfulness": 0.7921,
+      "overall_relevance": 0.9379,
+      "mean_rouge_l_cat_ab": 0.4117,
+      "mean_total_ms": 6006.4,
+      "mean_gen_ms": 6006.4
+    },
+    "2_Flat_Vector_RAG": {
+      "total_evaluations": 350,
+      "refusal_count": 184,
+      "refusal_rate_pct": 52.6,
+      "overall_faithfulness": 0.7836,
+      "non_refusal_faithfulness": 0.5437,
+      "overall_relevance": 0.7079,
+      "mean_rouge_l_cat_ab": 0.2831,
+      "mean_total_ms": 4805.5,
+      "mean_gen_ms": 4448.5
+    },
+    "3_GraphRAG_Adapted": {
+      "total_evaluations": 350,
+      "refusal_count": 173,
+      "refusal_rate_pct": 49.4,
+      "overall_faithfulness": 0.7857,
+      "non_refusal_faithfulness": 0.5819,
+      "overall_relevance": 0.7236,
+      "mean_rouge_l_cat_ab": 0.2748,
+      "mean_total_ms": 4956.3,
+      "mean_gen_ms": 4621.4
+    },
+    "4_HippoRAG_Adapted": {
+      "total_evaluations": 350,
+      "refusal_count": 165,
+      "refusal_rate_pct": 47.1,
+      "overall_faithfulness": 0.8307,
+      "non_refusal_faithfulness": 0.6851,
+      "overall_relevance": 0.7907,
+      "mean_rouge_l_cat_ab": 0.3076,
+      "mean_total_ms": 4482.4,
+      "mean_gen_ms": 4416.2
+    },
+    "5_Full_TERRA": {
+      "total_evaluations": 350,
+      "refusal_count": 115,
+      "refusal_rate_pct": 32.9,
+      "overall_faithfulness": 0.825,
+      "non_refusal_faithfulness": 0.7394,
+      "overall_relevance": 0.9379,
+      "mean_rouge_l_cat_ab": 0.4138,
+      "mean_total_ms": 9366.8,
+      "mean_gen_ms": 4976.2
+    }
+  }
+}

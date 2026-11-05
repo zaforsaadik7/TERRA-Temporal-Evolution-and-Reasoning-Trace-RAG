@@ -1,0 +1,325 @@
+{
+  "object": "OBJ08",
+  "historical_label": "tab:rouge_tradeoff",
+  "historical_source": "TERRA_EDITORIAL_RESTART_V2/phase3/batch02/applied/snapshot_pre/main.tex",
+  "earlier_explicit_approval_gap": "TERRA_EDITORIAL_RESTART_V2/phase1_codex_20261008/peer_review_addendum_01/CODEX_RESPONSE.md",
+  "current_cell_check": [
+    {
+      "macro": "DirectLLMCatBMeanWords",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 157
+        },
+        {
+          "file": "main.tex",
+          "line": 408
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "DirectLLMCatBRougeFOne",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 151
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "DirectLLMCatBRougePrecision",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 145
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "DirectLLMCatBRougeRecall",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 139
+        },
+        {
+          "file": "main.tex",
+          "line": 408
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "FlatRAGCatBMeanWords",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 156
+        },
+        {
+          "file": "main.tex",
+          "line": 409
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "FlatRAGCatBRougeFOne",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 150
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "FlatRAGCatBRougePrecision",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 144
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "FlatRAGCatBRougeRecall",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 138
+        },
+        {
+          "file": "main.tex",
+          "line": 409
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "GraphRAGCatBMeanWords",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 155
+        },
+        {
+          "file": "main.tex",
+          "line": 410
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "GraphRAGCatBRougeFOne",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 149
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "GraphRAGCatBRougePrecision",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 143
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "GraphRAGCatBRougeRecall",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 137
+        },
+        {
+          "file": "main.tex",
+          "line": 410
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "HippoRAGCatBMeanWords",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 154
+        },
+        {
+          "file": "main.tex",
+          "line": 411
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "HippoRAGCatBRougeFOne",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 148
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "HippoRAGCatBRougePrecision",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 142
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "HippoRAGCatBRougeRecall",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 136
+        },
+        {
+          "file": "main.tex",
+          "line": 411
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "TerraCatBMeanWords",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 153
+        },
+        {
+          "file": "main.tex",
+          "line": 412
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "TerraCatBRougeFOne",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 147
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "TerraCatBRougePrecision",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 141
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    },
+    {
+      "macro": "TerraCatBRougeRecall",
+      "current_locations": [
+        {
+          "file": "generated_stats.tex",
+          "line": 135
+        },
+        {
+          "file": "main.tex",
+          "line": 412
+        },
+        {
+          "file": "main.tex",
+          "line": 423
+        }
+      ],
+      "retained": true
+    }
+  ],
+  "system_metric_cells_retained": 20,
+  "source_reference_length_70_8_retained": true,
+  "unrendered_original_self_comparison_values": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "representation": "metric/mean-word information moved into prose and CatB performance table",
+  "item_specific_removal_authorization": "USER_RATIFIED_20261026",
+  "scope": "No lost system metric identified; omission of self-comparison row and table form needs ratification or restoration decision. No manuscript changed.",
+  "decision_options": [
+    "Ratify current prose/table representation with omission of tautological self-comparison row",
+    "Request readable supplementary restoration as separately reviewed manuscript patch"
+  ],
+  "scientific_final_certification_owner": "I11",
+  "I0_closure_blocker": false,
+  "scientific_scope": "20system values retained; original three1.000reference-self-comparison values intentionally omitted by approved disposition. Not a claim of literal table identity."
+}

@@ -1,0 +1,77 @@
+--- 
++++ 
+@@ -20,6 +20,14 @@
+ #2}}
+ \providecommand{\BIBdecl}{\relax}
+ \BIBdecl
++
++\bibitem{yalavarthi2026opensourcereproductionexplainabilityanalysis}
++S.~V. Yalavarthi, ``Open-source reproduction and explainability analysis of
++  corrective retrieval augmented generation,'' 2026.
++
++\bibitem{hashmi2026adaptivequeryroutingtierbased}
++A.~Hashmi, ``Adaptive query routing: A tier-based framework for hybrid
++  retrieval across financial, legal, and medical documents,'' 2026.
+ 
+ \bibitem{lewis2020retrieval}
+ P.~Lewis, E.~Perez, A.~Piktus, F.~Petroni, V.~Karpukhin, N.~Goyal,
+@@ -107,24 +115,36 @@
+   the Association for Computational Linguistics: NAACL 2025}, 2025, pp.
+   7913--7928.
+ 
+-\bibitem{hashmi2026adaptivequeryroutingtierbased}
+-A.~Hashmi, ``Adaptive query routing: A tier-based framework for hybrid
+-  retrieval across financial, legal, and medical documents,'' 2026.
++\bibitem{guha2023legalbench}
++N.~Guha, J.~Nyarko, D.~Ho, C.~R{\'e} \emph{et~al.}, ``{LegalBench}: A
++  collaboratively built benchmark for measuring legal reasoning in large
++  language models,'' in \emph{Advances in Neural Information Processing Systems
++  36 (NeurIPS 2023), Datasets and Benchmarks Track}, 2023, pp.
++  44\,123--44\,279.
+ 
+-\bibitem{yalavarthi2026opensourcereproductionexplainabilityanalysis}
+-S.~V. Yalavarthi, ``Open-source reproduction and explainability analysis of
+-  corrective retrieval augmented generation,'' 2026.
++\bibitem{katz2017general}
++D.~M. Katz, M.~J. Bommarito~II, and J.~Blackman, ``A general approach for
++  predicting the behavior of the {Supreme Court of the United States},''
++  \emph{PLOS ONE}, vol.~12, no.~4, p. e0174698, 2017.
++
++\bibitem{chalkidis2020legalbert}
++I.~Chalkidis, M.~Fergadiotis, P.~Malakasiotis, N.~Aletras, and
++  I.~Androutsopoulos, ``{LEGAL}-{BERT}: The muppets straight out of law
++  school,'' in \emph{Findings of the Association for Computational Linguistics:
++  EMNLP 2020}.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association for
++  Computational Linguistics, 2020, pp. 2898--2904.
++
++\bibitem{magesh2025hallucination}
++V.~Magesh, F.~Surani, M.~Dahl, M.~Suzgun, C.~D. Manning, and D.~E. Ho,
++  ``Hallucination-free? assessing the reliability of leading {AI} legal
++  research tools,'' \emph{Journal of Empirical Legal Studies}, vol.~22, no.~2,
++  pp. 216--242, 2025.
+ 
+ \bibitem{putta2026casefactsbenchmarklegalfactchecking}
+ A.~R. Putta, J.~Devasier, and C.~Li, ``Casefacts: A benchmark for legal
+   fact-checking and precedent retrieval,'' in \emph{Proceedings of the 64th
+   Annual Meeting of the Association for Computational Linguistics (ACL)}, 2026,
+   pp. 17\,246--17\,265.
+-
+-\bibitem{bernal2024hipporag}
+-B.~J. Guti{\'e}rrez, Y.~Shu, Y.~Gu, M.~Yasunaga, and Y.~Su, ``Hipporag:
+-  Neurobiologically inspired long-term memory for large language models,'' in
+-  \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2024.
+ 
+ \bibitem{cushman2021eyecite}
+ J.~Cushman, M.~Dahl, and M.~Lissner, ``eyecite: A tool for parsing legal
+@@ -147,6 +167,11 @@
+   {ELECTRA}-style pre-training with gradient-disentangled embedding sharing,''
+   in \emph{Proceedings of the International Conference on Learning
+   Representations (ICLR)}, 2023.
++
++\bibitem{bernal2024hipporag}
++B.~J. Guti{\'e}rrez, Y.~Shu, Y.~Gu, M.~Yasunaga, and Y.~Su, ``Hipporag:
++  Neurobiologically inspired long-term memory for large language models,'' in
++  \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2024.
+ 
+ \bibitem{zheng2023judging}
+ L.~Zheng, W.-L. Chiang, Y.~Sheng, S.~Zhuang, Z.~Wu, Y.~Zhuang, Z.~Lin, Z.~Li,

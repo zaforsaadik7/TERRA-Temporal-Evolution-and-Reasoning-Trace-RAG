@@ -1,0 +1,163 @@
+{
+  "objects": [
+    {
+      "id": "OBJ01",
+      "original_label": "fig:system_architecture",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ02",
+      "original_label": "tab:corpus_stats",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ03",
+      "original_label": "tab:graph_metrics",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ04",
+      "original_label": "fig:hub_centrality",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ05",
+      "original_label": "tab:run_provenance",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ06",
+      "original_label": "tab:ablation",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ07",
+      "original_label": "tab:cat_b_performance",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ08",
+      "original_label": "tab:rouge_tradeoff",
+      "label_still_present": false,
+      "disposition": "APPROVED_OBJ08_PROSE_TABLE_III"
+    },
+    {
+      "id": "OBJ09",
+      "original_label": "tab:overall_summary",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ10",
+      "original_label": "fig:safety_rejection",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ11",
+      "original_label": "tab:latency_percentiles",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ12",
+      "original_label": "tab:power_analysis",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ13",
+      "original_label": "tab:baseline_specifications",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ14",
+      "original_label": "tab:casefacts_eval",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ15",
+      "original_label": "tab:citation_eval",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ16",
+      "original_label": "tab:clerc_eval",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ17",
+      "original_label": "tab:computational_budget",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ18",
+      "original_label": "tab:full_fdr_family",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ19",
+      "original_label": "tab:obscure_overruled_eval",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ20",
+      "original_label": "tab:refusal_breakdown",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ21",
+      "original_label": "tab:retrieval_eval",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ22",
+      "original_label": "tab:router_eval",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ23",
+      "original_label": "tab:sensitivity_raw_vs_clamped",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ24",
+      "original_label": "tab:system_comparison",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ25",
+      "original_label": "tab:temporal_leakage_probe",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    },
+    {
+      "id": "OBJ26",
+      "original_label": "tab:temporal-update-stability",
+      "label_still_present": true,
+      "disposition": "CURRENT_LABEL_PRESENT"
+    }
+  ],
+  "ratification": "reviewer_I0_20261026_03/closure_20261026_01/OBJ08_FINAL_DISPOSITION.json",
+  "new_tables": "ENVIRONMENT_OBJECT_INVENTORY.json",
+  "limits": "Label survival verifies presence, not cell correctness or readability; those are separately reviewed."
+}

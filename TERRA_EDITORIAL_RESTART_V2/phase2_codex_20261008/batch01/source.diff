@@ -1,0 +1,104 @@
+--- baseline/main.tex
++++ working/main.tex
+@@ -116,7 +116,7 @@
+ 
+ Recent work addresses these bottlenecks in silos. Graph-based retrievers organize facts chronologically but lack the procedural logic to guide multi-hop generation; retrieval of intermediate reasoning traces improves deduction but is temporally blind and mostly confined to mathematics or coding; and corrective Agentic RAG frameworks rely on retrieval evaluators that may not capture conceptual relevance, as a SHAP-based study of the CRAG T5 evaluator found it relies mainly on named-entity alignment rather than semantic similarity \cite{yalavarthi2026opensourcereproductionexplainabilityanalysis}. Many hybrid systems route among a small fixed set of channels, while adaptive multi-strategy routing is emerging \cite{hashmi2026adaptivequeryroutingtierbased}.
+ 
+-We therefore introduce a dual-phase GraphRAG architecture for evolving, knowledge-intensive domains (traversal stability under temporal snapshot expansion is evaluated in Section~\ref{subsec:temporal-update-stability}). All heavy computation is offline, building a dual-index corpus that cross-links an Event Evolution Graph (EEG), which encodes precedent relationships across \CorpusTotalOpinions\ judicial decisions and \CorpusPrecedentEdges\ directed citation edges, with a node-level procedural trace scaffold, a fixed five-step template instantiated per case. Online, a small language model acts as a Traffic Cop router classifying each query as EASY or HARD, selecting a fast path or citation-graph traversal, which yields a bimodal execution profile (gross median \TerraFastPathMedianSeconds~s on Category~A factual lookups vs.\ \TerraHardPathMedianSeconds~s on Category~B multi-hop chains). Before generation, an LLM-prompted entailment grader decides whether the retrieved evidence suffices; its accuracy was not independently validated.
++We therefore introduce a dual-phase GraphRAG architecture for evolving, knowledge-intensive domains (traversal stability under temporal snapshot expansion is evaluated in Section~\ref{subsec:temporal-update-stability}). Offline corpus construction builds a dual-index corpus that cross-links an Event Evolution Graph (EEG), which encodes precedent relationships across \CorpusTotalOpinions\ judicial decisions and \CorpusPrecedentEdges\ directed citation edges, with a node-level procedural trace scaffold, a fixed five-step template instantiated per case. Online, a small language model acts as a Traffic Cop router classifying each query as EASY or HARD, selecting anchor retrieval without graph expansion for EASY queries or citation-graph traversal for HARD queries, which yields a bimodal execution profile (gross median \TerraFastPathMedianSeconds~s on Category~A factual lookups vs.\ \TerraHardPathMedianSeconds~s on Category~B multi-hop chains). Before generation, an LLM-prompted entailment grader decides whether the retrieved evidence suffices; its accuracy was not independently validated.
+ 
+ We compare TERRA with four baselines, including Direct LLM and Flat Vector RAG, on a \numUniqueQueries-query benchmark with a 35-query pilot ablation. We did not test attention dilution or context-length effects directly, and TERRA's mean retrieved context is longer than the retrieval baselines' (about 18{,}400 versus 2{,}900--4{,}100 characters). In a 50-query temporal leakage probe, TERRA did not leak less than Flat Vector RAG under default prompting (the preregistered hypothesis $H_1$ is not supported, and Flat RAG refused 23 of 50 queries) but gave more historically correct answers (\TerraGatedHlcrA{} versus \FlatRagHlcrA{}). The work is an experimental research framework for context fidelity in temporal legal AI on historical SCOTUS jurisprudence.
+ 
+@@ -142,13 +142,13 @@
+ \section{System Architecture and Methodology}
+ \label{sec:methodology}
+ 
+-TERRA (Temporal-Evolution and Reasoning-Trace RAG) is designed as a two-phase, closed-loop GraphRAG architecture for temporal legal reasoning on historical common-law jurisprudence. The core engineering philosophy strictly separates offline corpus ingestion and knowledge structure construction from online query routing and inference. This separation ensures that all computationally intensive graph traversals, citation link extractions, and reasoning trace generations are performed offline, maintaining responsive online inference with a bimodal latency profile (median \TerraFastPathMedianSeconds~s on factual lookups vs. \TerraHardPathMedianSeconds~s on multi-hop citation chains; Figure~\ref{fig:system_architecture}).
++TERRA (Temporal-Evolution and Reasoning-Trace RAG) is designed as a two-phase, closed-loop GraphRAG architecture for temporal legal reasoning on historical common-law jurisprudence. The core engineering philosophy strictly separates offline corpus ingestion and knowledge structure construction from online query routing and inference. Citation extraction, procedural-scaffold construction and indexing are performed offline; retrieval, HARD-route graph traversal, entailment grading and generation are online operations. The evaluated Category~A and Category~B queries have different latency profiles (median \TerraFastPathMedianSeconds~s on factual lookups vs. \TerraHardPathMedianSeconds~s on multi-hop citation chains; Figure~\ref{fig:system_architecture}).
+ 
+ 
+ \begin{figure*}[t]
+     \centering
+     \resizebox{0.98\textwidth}{!}{\input{figure_1_system_architecture}}
+-    \caption{TERRA two-phase architecture. Phase 1 (offline) constructs the Event Evolution Graph (EEG) and ChromaDB vector index from the \CorpusTotalOpinions-opinion authentic SCOTUS citation corpus. Phase 2 (online) routes user queries through a Traffic Cop Router with an optional proximity flag, performs BFS citation-graph traversal, validates context via NLI entailment, and conditionally generates grounded answers or triggers a safety refusal.}
++    \caption{TERRA two-phase architecture over the \CorpusTotalOpinions-opinion corpus. Offline construction builds the EEG from extracted \texttt{CITES} links and curated \texttt{OVERRULES} relations, and indexes deterministic five-step procedural scaffolds with opinion snippets in ChromaDB. Online, EASY queries retrieve anchor evidence without graph expansion; HARD queries additionally traverse the EEG. Retrieved evidence is checked before generation, with refusal on empty context or failed evidence checks.}
+     \label{fig:system_architecture}
+ \end{figure*}
+ 
+@@ -577,7 +577,7 @@
+ \subsection{Direct Evidence Retrieval Quality and Precedent-Chain Coverage}
+ \label{subsec:retrieval-quality}
+ 
+-Do downstream generative results reflect better evidence retrieval, or only the generator's ability to synthesize plausible analyses? Because TERRA's expansion uses breadth $k=2$ and depth $d=2$ while Category~B arcs span 3 to 5 nodes (2 to 4 hops), we evaluate retrieval as a function of chain length. To avoid conflating single-point lookups (routed through the parametric Fast Path) or unanswerable probes, we score raw evidence retrieval on the $N=\CatBRetrievalQueries$ Category~B trajectories ($\CatBGoldPrecedents$ gold landmark precedents) before generation. The four systems return heterogeneous representations (ranked chunks, unranked community reports, unranked PPR clusters, and a 2-hop directed EEG subgraph), so ranked-list metrics such as MRR or nDCG cannot be applied uniformly; we report deterministic dual-resolution entity recall (CAP Node ID and canonical title) and full-trajectory recovery in Table~\ref{tab:retrieval_eval}, computed on the stored \texttt{context\_full} fields of the canonical v2 file (SHA256 prefix \texttt{95e775e2}) that the generator actually received.
++Do downstream generative results reflect better evidence retrieval, or only the generator's ability to synthesize plausible analyses? Because TERRA's expansion uses breadth $k=2$ and depth $d=2$ while Category~B arcs span 3 to 5 nodes (2 to 4 hops), we evaluate retrieval as a function of chain length. To avoid conflating single-point lookups (routed through anchor retrieval and entailment grading without graph expansion) or unanswerable probes, we score raw evidence retrieval on the $N=\CatBRetrievalQueries$ Category~B trajectories ($\CatBGoldPrecedents$ gold landmark precedents) before generation. The four systems return heterogeneous representations (ranked chunks, unranked community reports, unranked PPR clusters, and a 2-hop directed EEG subgraph), so ranked-list metrics such as MRR or nDCG cannot be applied uniformly; we report deterministic dual-resolution entity recall (CAP Node ID and canonical title) and full-trajectory recovery in Table~\ref{tab:retrieval_eval}, computed on the stored \texttt{context\_full} fields of the canonical v2 file (SHA256 prefix \texttt{95e775e2}) that the generator actually received.
+ 
+ \input{tables/table_retrieval_eval}
+ 
+--- baseline/figure_1_system_architecture.tex
++++ working/figure_1_system_architecture.tex
+@@ -110,15 +110,15 @@
+     };
+ 
+     \node (classifier) [processCard, above right=0.4cm and 1.2cm of parser] {
+-        \textbf{\small Edge Relation Classifier}\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Precedent Flow Analyzer\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Constructs: Directed \textbf{CITES}
++        \textbf{\small Edge Construction}\\
++        \fontsize{6.5pt}{7.5pt}\selectfont Extracted \textbf{CITES} Links\\
++        \fontsize{6.5pt}{7.5pt}\selectfont Curated \textbf{OVERRULES} Relations
+     };
+ 
+     \node (generator) [processCard, below right=0.4cm and 1.2cm of parser] {
+         \textbf{\small Procedural Trace Generator}\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Structured Trace Synthesis\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Procedural Reasoning Traces ($\le 150$w)
++        \fontsize{6.5pt}{7.5pt}\selectfont Deterministic Procedural Substrate\\
++        \fontsize{6.5pt}{7.5pt}\selectfont Fixed Five-Step Scaffold
+     };
+ 
+     \node (eegDB) [dbCard, right=1.2cm of classifier] {
+@@ -163,13 +163,13 @@
+     \node (router) [decisionCard, right=0.8cm of userQuery] {
+         \textbf{\small Traffic Cop Router}\\
+         \fontsize{6.5pt}{7.5pt}\selectfont Intent \& Complexity Routing\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Title Match + L2 Pre-Filter
+-    };
+-
+-    % Fast Direct LLM Path
++        \fontsize{6.5pt}{7.5pt}\selectfont Structured EASY / HARD Decision
++    };
++
++    % Grounded EASY path: anchor retrieval, then shared evidence check
+     \node (fastPath) [pillPass, below=1cm of router] {
+-        \textbf{\small Fast Direct Path (EASY)}\\
+-        \fontsize{6.5pt}{7.5pt}\selectfont Direct Generation (No RAG)
++        \textbf{\small Grounded Fast Path (EASY)}\\
++        \fontsize{6.5pt}{7.5pt}\selectfont Anchor Retrieval (No Graph Expansion)
+     };
+ 
+     % ChromaDB Vector Retrieval
+@@ -217,7 +217,7 @@
+     % Connections Phase 2
+     \path [line] (userQuery) -- (router);
+     \path [line] (router) -- node[left, font=\tiny\bfseries, color=AccentGreen] {EASY} (fastPath);
+-    \path [line] (router) -- node[above, font=\tiny\bfseries] {HARD / RAG} (retrieval);
++    \path [line] (router) -- node[above, font=\tiny\bfseries] {HARD} (retrieval);
+     \path [line] (retrieval) -- (bfs);
+     \path [line] (bfs) -- (grader);
+ 
+@@ -227,8 +227,8 @@
+     \path [line] (expansion) -| (bfs);
+     \path [line] (grader) -- node[right, font=\tiny\bfseries, color=AccentRed] {Failed $2\times$} (refusal);
+     
+-    % Re-routed Fast Path underneath the diagram to avoid clipping elements
+-    \path [line] (fastPath.south) -- ++(0,-0.6) -| (generatorAns.south);
++    % EASY retrieval feeds the shared grader, never the generator directly.
++    \path [line] (fastPath.east) -- (fastPath.east -| grader.west) -- (grader.west);
+ 
+     % Cross-Phase Offline -> Online Connections (Anchored safely)
+     \path [dashedLine] (eegDB.south) -- node[right, font=\footnotesize\itshape, color=Phase1Border] {Graph BFS} (bfs.north);
+@@ -242,4 +242,4 @@
+                at (fitPhase2.north west) {\hspace{4pt}PHASE 2: Online Inference Engine \& Safety Firewall};
+     \end{scope}
+ 
+-\end{tikzpicture}+\end{tikzpicture}

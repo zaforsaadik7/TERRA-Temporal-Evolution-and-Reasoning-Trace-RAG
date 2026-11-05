@@ -1,0 +1,232 @@
+scan_id,source_line,trigger,context,classification(observation/inference/hypothesis/intention),permissible_wording,status
+C0001,100,significantly,"fulness ($\TerraAnswerOnlyFaithfulnessMean$, computed on differing answered subsets), and significantly outperforms all three retrieval baselines on Category~B multi-hop reasoning ($\Delta$ fro",,,OPEN
+C0002,100,significantly,"erraVsGraphRAGDelta$ [GraphRAG]; FDR $q<0.05$), although a no-retrieval Direct LLM scores significantly higher on Category~B ($\Delta=\CatBTerraVsDirectLLMDelta$, $q=\CatBTerraVsDirectLLMAdjQ$)",,,OPEN
+C0003,100,significantly,"ll TERRA, but TERRA without curated overruling labels drops to \ObscUnlabeledSafePct, not significantly different from flat retrieval ($p\,\ObscPrimaryMcNemarPRel$); safety depends on curated a",,,OPEN
+C0004,109,strict,"s---the fidelity of the retrieved context is not merely an optimization preference, but a strict operational requirement. As enterprise applications scale, the early paradigm of naive ``",,,OPEN
+C0005,109,proven,pipelines characterized by static vector databases and fixed-length document chunking has proven structurally inadequate.,,,OPEN
+C0006,111,fundamental,The fundamental bottleneck in modern RAG systems arises when navigating complex data landscapes character,,,OPEN
+C0007,111,inevitably,"asoning demands. Real-world data evolves dynamically; consequently, static vector indices inevitably accumulate conflicting, time-stamped versions of the same fact. When queried, standard re",,,OPEN
+C0008,111,proving," retrieve fragmented textual snippets that sever precedential and doctrinal dependencies, proving entirely insufficient for tasks that require deep, multi-hop reasoning.",,,OPEN
+C0009,111,entirely,"e fragmented textual snippets that sever precedential and doctrinal dependencies, proving entirely insufficient for tasks that require deep, multi-hop reasoning.",,,OPEN
+C0010,113,critical,"cent advancements have attempted to address these bottlenecks in isolated silos, exposing critical failure modes. While structural graph-based retrievers organize facts chronologically, th",,,OPEN
+C0011,113,significantly,"easoning. Conversely, prior paradigms retrieving intermediate structured reasoning traces significantly enhance logical deduction but remain temporally blind and have been primarily restricted ",,,OPEN
+C0012,113,critically,"d have been primarily restricted to quantitative domains like mathematics or coding. More critically, current Agentic RAG frameworks rely heavily on corrective evaluators that fail fundament",,,OPEN
+C0013,113,fundamentally,"ritically, current Agentic RAG frameworks rely heavily on corrective evaluators that fail fundamentally on conceptual tasks. Mathematical explainability analyses, such as SHAP, have proven that",,,OPEN
+C0014,113,proven,"ndamentally on conceptual tasks. Mathematical explainability analyses, such as SHAP, have proven that standard evaluators act merely as superficial named entity alignment detectors, fail",,,OPEN
+C0015,117,rigorously,"The proposed framework was rigorously evaluated against comparative baselines, including Direct LLM generation and Flat Vector ",,,OPEN
+C0016,117,significantly,d multi-perspective reasoning benchmarks. Experimental results demonstrate that the model significantly mitigates the attention dilution and ``context cliff'' limitations inherent in processing,,,OPEN
+C0017,117,seamlessly," ``context cliff'' limitations inherent in processing overly broad retrieved contexts. By seamlessly aligning chronological facts with procedural reasoning, the model substantially reduces t",,,OPEN
+C0018,135,significantly,"framework, establishing that retrieving structured reasoning sub-cases and decision trees significantly mitigates logical biases compared to unstructured text retrieval. The broader transition ",,,OPEN
+C0019,135,rigorous," to inform subsequent search actions. In parallel, the legal AI community has established rigorous evaluation benchmarks to measure procedural reasoning capabilities: CaseHOLD \cite{zheng2",,,OPEN
+C0020,135,confirm,ark (CLERC) \cite{hou2024clerc} measures multi-step precedent retrieval. These benchmarks confirm that standard lexical or dense retrievers frequently retrieve irrelevant or superseded au,,,OPEN
+C0021,137,entirely,"es and temporal data, the successful integration of this multi-faceted information relies entirely on the ``connective tissue'' of the RAG pipeline: query routers and autonomous evaluators",,,OPEN
+C0022,137,critically,"oting that pure vector similarity frequently fails to capture structural navigation. More critically, the evaluation mechanisms governing these routers are fundamentally flawed. Yalavarthi \",,,OPEN
+C0023,137,fundamentally,"ctural navigation. More critically, the evaluation mechanisms governing these routers are fundamentally flawed. Yalavarthi \cite{yalavarthi2026opensourcereproductionexplainabilityanalysis} cond",,,OPEN
+C0024,137,proving,"ability analysis on the widely adopted Corrective RAG (CRAG) architecture, mathematically proving that its standard T5-based evaluator functions purely as a named entity alignment detecto",,,OPEN
+C0025,137,critical,ailing to recognize when a fact has been logically overturned. These findings highlight a critical architectural gap: current systems lack the genuine Natural Language Inference (NLI) capa,,,OPEN
+C0026,146,strictly,l legal reasoning on historical common-law jurisprudence. The core engineering philosophy strictly separates offline corpus ingestion and knowledge structure construction from online query,,,OPEN
+C0027,160,eliminate,"repositories. Under 17 U.S.C. \S~105, all federal judicial opinions are public domain. To eliminate non-precedential noise while preserving doctrinal completeness, opinions were filtered un",,,OPEN
+C0028,160,strictly,"mary dispositions, and docket records, subject to audit verification). However, filtering strictly by character length induces corpus length-filtering bias: it excludes \IssueTwentyInterme",,,OPEN
+C0029,163,strictly,ttt{eyecite} library~\cite{cushman2021eyecite}. We emphasize that \texttt{eyecite} serves strictly as a token-level citation extraction and reporter normalization utility; it establishes c,,,OPEN
+C0030,163,strictly, and \IssueTwentyOneOverrulesEdges\ \texttt{OVERRULES} relations). Precedential citations strictly maintain forward chronological validity at calendar-year granularity with zero cross-year,,,OPEN
+C0031,163,confirms," audit across 14 decades ($N=\IssueTwentyOneAuditSampleN$, seed \IssueTwentyOneAuditSeed) confirms verbatim citation presence in \IssueTwentyOneAuditCitationPresentPct\ of sampled edges (9",,,OPEN
+C0032,172,strictly,"k seeds) at pinned temperature $T=0.0$. Traces were constrained to a 150-word ceiling and strictly followed a five-point doctrinal schema: (1) core constitutional question, (2) governing c",,,OPEN
+C0033,173,completely,"uralPct):} When scaling to the substantive \CorpusTotalOpinions-case retrieval corpus, to completely eliminate generative hallucination risk from the retrieval index, all \TraceProceduralCou",,,OPEN
+C0034,173,eliminate,"When scaling to the substantive \CorpusTotalOpinions-case retrieval corpus, to completely eliminate generative hallucination risk from the retrieval index, all \TraceProceduralCount\ opinio",,,OPEN
+C0035,187,Forensic,"ayer, we executed an exhaustive empirical audit across all \TraceTotalNodes\ index nodes. Forensic substring verification against raw CAP casebody JSON files confirms an aggregate span gro",,,OPEN
+C0036,187,confirms,alNodes\ index nodes. Forensic substring verification against raw CAP casebody JSON files confirms an aggregate span grounding rate of \TraceSpanGroundingRate\ (\TraceSpanGroundingCount\ e,,,OPEN
+C0037,187,decisively,"ding rate of \TraceSpanGroundingRate\ (\TraceSpanGroundingCount\ exact verbatim matches), decisively surpassing the pre-registered $\ge \TraceSpanGroundingThreshold$ acceptance floor (expect",,,OPEN
+C0038,187,confirmed,procedural majority ($N=\TraceStratifiedProcCount$ across all seven subject categories)---confirmed \TracePopWeightedAnachronismFreePct\ population-weighted temporal integrity (zero cited p,,,OPEN
+C0039,203,eliminating,onRouterLatencySlowdownFactor\times$ operational speedup (Table~\ref{tab:ablation}) while eliminating context bloat from tangential citing precedents. As evaluated standalone in Section~\ref{,,,OPEN
+C0040,213,Crucially," Crucially, embedding distance does not prove legal validity or domain membership; rather, it functi",,,OPEN
+C0041,213,prove," Crucially, embedding distance does not prove legal validity or domain membership; rather, it functions strictly as an optional coarse ",,,OPEN
+C0042,213,strictly,"bedding distance does not prove legal validity or domain membership; rather, it functions strictly as an optional coarse pre-filter to conserve retrieval and grading compute on obvious out",,,OPEN
+C0043,222,Crucially,"ning trace vectors matching $q$, establishing initial entry seed nodes $V_{\text{seed}}$. Crucially, vector retrieval over procedural traces is deployed strictly as a coarse seed discovery ",,,OPEN
+C0044,222,strictly,"d nodes $V_{\text{seed}}$. Crucially, vector retrieval over procedural traces is deployed strictly as a coarse seed discovery mechanism rather than the terminal evidence substrate. Downstr",,,OPEN
+C0045,223,First," \item \textbf{BFS Traversal with Hub Capping:} Starting from $V_{\text{seed}}$, Breadth-First Search (BFS) traverses the EEG up to depth $d=2$ across both predecessors and successors:",,,OPEN
+C0046,233,confirming,"ty rejection to collapse from \AblationFullCatDSafetyRate\ to \AblationTwoCatDSafetyRate, confirming that the gate is the operative safety mechanism. False-non-entailment errors (insufficien",,,OPEN
+C0047,242,strict,"phRAG, data leakage represents a major methodological failure mode. TERRA implements four strict safeguards:",,,OPEN
+C0048,244,strictly,rudence. Directed EEG edges enforce chronological integrity: forward \texttt{CITES} edges strictly require $t(v_{\text{cite}}) \ge t(v_{\text{cited}})$. Retrospective invalidations are eva,,,OPEN
+C0049,245,strictly,"ination Isolation:} Benchmark test queries, evaluation rubrics, and reference answers are strictly segregated from the retrieval index. ChromaDB contains exclusively authentic opinion text",,,OPEN
+C0050,246,strictly,"ary gating provide initial coarse filtering, while downstream NLI entailment verification strictly suppresses non-entailed retrieved subgraphs before answer synthesis.",,,OPEN
+C0051,247,strict," encode extensive post-training parametric knowledge, historical legal reasoning requires strict fidelity to jurisprudence as of a specific temporal horizon $T$. To prevent temporal para",,,OPEN
+C0052,247,First,"cedents into historical evaluations---TERRA implements a dual-layer containment firewall. First, graph traversals and retrieved opinion corpora are strictly bounded by provenance timest",,,OPEN
+C0053,247,strictly,"ual-layer containment firewall. First, graph traversals and retrieved opinion corpora are strictly bounded by provenance timestamps ($\text{KnowledgeProvenance} \le T$), ensuring that retr",,,OPEN
+C0054,261,strict,nerated by \texttt{databricks-meta-llama-3-3-70b-instruct}~\cite{dubey2024llama3} under a strict grounding instruction. Generation temperature is pinned to:,,,OPEN
+C0055,280,First,"es, \IssueTwentyTwoCivilRightsCorpus\ opinions, \IssueTwentyTwoCivilRightsCorpusPct), and First Amendment (\IssueTwentyTwoFirstAmendmentPhrases\ phrases, \IssueTwentyTwoFirstAmendmentCo",,,OPEN
+C0056,282,strictly,"eralConstitutionalCorpusPct), functions as an unkeyed residual fallback category assigned strictly when an opinion contains zero substantive keyword hits across all six explicit lexicons. ",,,OPEN
+C0057,282,never,ive domains are resolved deterministically by documented dictionary insertion order; ties never assign the residual fallback category. In addition to mutually exclusive primary domain p,,,OPEN
+C0058,284,strictly,"d independent automated adjudicator, Judge~C (\IssueTwentyTwoAdjudicatorModel), evaluated strictly blinded to the assigned taxonomy and prior evaluator votes, with strictly zero endpoint o",,,OPEN
+C0059,284,strictly,"del), evaluated strictly blinded to the assigned taxonomy and prior evaluator votes, with strictly zero endpoint overlap with Judge~B (\IssueTwentyTwoAdjudicatorOverlapCount/\IssueTwentyTw",,,OPEN
+C0060,284,strict,"TwentyTwoTotalSampleN-case audit, the taxonomy exhibits \IssueTwentyTwoStrictCoherentPct\ strict coherence (\IssueTwentyTwoStrictCoherentCount/\IssueTwentyTwoTotalSampleN), \IssueTwentyT",,,OPEN
+C0061,301,First,"First Amendment & \CorpusFirstAmendmentOpinions & Free Speech, Press, Exercise, Establishment C",,,OPEN
+C0062,314,confirming,"stComponentSize\ out of \CorpusTotalOpinions\ nodes (\CorpusLargestWccPercent\ coverage), confirming robust macro-level graph connectivity and ensuring that multi-hop retrieval paths remain ",,,OPEN
+C0063,314,robust,"Size\ out of \CorpusTotalOpinions\ nodes (\CorpusLargestWccPercent\ coverage), confirming robust macro-level graph connectivity and ensuring that multi-hop retrieval paths remain navigab",,,OPEN
+C0064,340,confirms,nent demonstrates compact topological reachability across federal appellate history. This confirms that setting the BFS graph traversal depth to $d=2$ in Phase 2 effectively captures dense,,,OPEN
+C0065,358,critical,"extit{Nebbia v. New York} (degree 211), and \textit{Fay v. Noia} (degree 204) function as critical statutory and constitutional cross-roads linking disparate doctrinal lines across the his",,,OPEN
+C0066,364,rigorously,"To rigorously assess TERRA's performance in legal temporal reasoning and safety firewalling, we establi",,,OPEN
+C0067,368,unique,The evaluation suite comprises an expanded benchmark of \numUniqueQueries\ unique queries evaluated across \numComparativePipelines\ comparative pipelines (\numTotalEvals\,,,OPEN
+C0068,368,unique,"for execution dates and model identifiers), alongside a foundational $N=\numPilotQueries$ unique-query pilot ablation set (\numPilotRepeatedRuns\ repeated stability trials per query, \nu",,,OPEN
+C0069,368,robustness,"designed to isolate factual accuracy, multi-hop reasoning, domain safety, and adversarial robustness. Temperature $T{=}0.0$ was used throughout, but does not guarantee identical outputs acro",,,OPEN
+C0070,368,guarantee,"fety, and adversarial robustness. Temperature $T{=}0.0$ was used throughout, but does not guarantee identical outputs across runs (see Section~\ref{subsec:limitations} and Table~\ref{tab:ru",,,OPEN
+C0071,372,strict,"lling SCOTUS precedent exists for these inquiries, the ground-truth system requirement is strict safety refusal.",,,OPEN
+C0072,376,First,"blic-law precedent trajectories (20 queries each across Civil Rights, Criminal Procedure, First Amendment, Commerce Clause, and Administrative Law; \IssueTwentyFiveCatBConstitutionalPub",,,OPEN
+C0073,385,never,"n Graph not used in Category~D (forty-seven edges); three edges whose overruling opinions never mention the target case were excluded as corrupted, and the thirty lowest-in-degree pairs",,,OPEN
+C0074,399,eliminate,al critic'' persona. The judge model is explicitly decoupled from the inference models to eliminate circular self-evaluation bias.,,,OPEN
+C0075,401,certification,"ources (Cornell LII, Oyez, CRS \textit{Constitution Annotated}) without independent legal certification. ROUGE-L is strictly supplementary: exact n-gram matching cannot distinguish active doctr",,,OPEN
+C0076,401,strictly, CRS \textit{Constitution Annotated}) without independent legal certification. ROUGE-L is strictly supplementary: exact n-gram matching cannot distinguish active doctrine from overruled pr,,,OPEN
+C0077,401,confirms,ge--ROUGE correlation ($r = \JudgePearsonR$; Section~\ref{subsec:validation-methodology}) confirms that lexical matching captures only a fraction of legal semantic correctness; primary con,,,OPEN
+C0078,402,Robustness, \item \textbf{Safety Rejection and Multi-Class Robustness Rate (\%):} Percentage of out-of-domain (Category C) and adversarial deception (Category ,,,OPEN
+C0079,408,rigorous,"To satisfy the rigorous methodological standards required for temporal judicial AI research, the evaluation proto",,,OPEN
+C0080,422,guarantee,does not guarantee identical outputs on Databricks Model Serving endpoints.,,,OPEN
+C0081,467,certification, Category~D certification & 20 Sept.\ 2026\newline (file last modified) &,,,OPEN
+C0082,497,rigorously,"To rigorously evaluate TERRA GraphRAG, we adopt an ablation-first empirical methodology. Rather than pr",,,OPEN
+C0083,497,first,"To rigorously evaluate TERRA GraphRAG, we adopt an ablation-first empirical methodology. Rather than presenting aggregated metrics that obscure internal co",,,OPEN
+C0084,497,first,"y. Rather than presenting aggregated metrics that obscure internal component dynamics, we first dissect the architecture into its constituent mechanisms to isolate the empirical contrib",,,OPEN
+C0085,502,unique,"nd Category D safety as $\AblationFullCatDSafetyRate$ on $n=\IssueTwentyFourDevCatDCount$ unique adversarial traps, 25 run observations). This configuration isolates architectural drops ",,,OPEN
+C0086,522,confirm,The ablation results confirm three fundamental architectural insights:,,,OPEN
+C0087,522,fundamental,The ablation results confirm three fundamental architectural insights:,,,OPEN
+C0088,525,Critical, \item \textbf{Critical Function of the NLI Smart Grader:} Disabling the semantic entailment gate (Ablation 2) re,,,OPEN
+C0089,526,eliminates,"e the forced hard path enforces BFS graph traversal for every query without exception, it eliminates any residual router misclassification of borderline evolutionary queries, yielding a mino",,,OPEN
+C0090,526,critical,"ted configuration disadvantageous for latency-sensitive applications. The router provides critical operational triage, enabling fast sub-two-second execution on direct factual inquiries wh",,,OPEN
+C0091,557,significantly,"\noindent\textbf{Contextualizing the Direct LLM Comparison.} Against Direct LLM, TERRA is significantly better on Category~A ($\CatATerraVsDirectLLMDelta$, $q=\CatATerraVsDirectLLMAdjQ$) and on",,,OPEN
+C0092,557,significantly,"LMBootCILow$, $\CombinedTerraVsDirectLLMBootCIHigh$], $q=\CombinedTerraVsDirectLLMAdjQ$), significantly worse on Category~B ($\CatBTerraVsDirectLLMDelta$, $q=\CatBTerraVsDirectLLMAdjQ$) and, af",,,OPEN
+C0093,557,certified,"se on Category~B ($\CatBTerraVsDirectLLMDelta$, $q=\CatBTerraVsDirectLLMAdjQ$) and, after certified-safety clamping, on Category~D ($\CatDTerraVsDirectLLMDelta$, $q=\CatDTerraVsDirectLLMAdj",,,OPEN
+C0094,584,Crucially,"Crucially, evaluating lexical alignment exposes the inadequacy of surface n-gram metrics like ROUGE",,,OPEN
+C0095,584,Crucially,"nsweredRougeRecall; its lower all-query value reflects 16 safety refusals scored as zero. Crucially, n-gram overlap cannot distinguish valid modern doctrine from overruled precedent: ROUGE-",,,OPEN
+C0096,589,unique,umUniqueQueries-query benchmark ($N=\numTotalEvals$ evaluations across \numUniqueQueries\ unique queries $\times$ \numComparativePipelines\ comparative pipelines).,,,OPEN
+C0097,592,Unique,"Benchmark Performance Breakdown ($N=\numTotalEvals$ Evaluations Across \numUniqueQueries\ Unique Queries $\times$ \numComparativePipelines\ Comparative Pipelines, with 95\% Bootstrap CIs",,,OPEN
+C0098,626,perfect,extbf{Dual-Metric Faithfulness Leadership:} Distinguishing overall faithfulness (awarding perfect scores to epistemic refusals) from answer-only faithfulness (evaluating generated legal a,,,OPEN
+C0099,626,critical,"istemic refusals) from answer-only faithfulness (evaluating generated legal arguments) is critical. TERRA attains the highest overall faithfulness ($\TerraOverallFaithfulnessMean$, 95\% CI",,,OPEN
+C0100,627,significantly,"ulti-decade precedent trajectories, TERRA achieves $\TerraCatBFaithfulness$ faithfulness, significantly outperforming all evaluated retrieval baselines: HippoRAG ($\HippoRAGCatBFaithfulness$, $",,,OPEN
+C0101,628,significantly,"ness$, Flat $\FlatRAGCatAFaithfulness$ and Direct LLM $\DirectLLMCatAFaithfulness$; it is significantly higher than Direct ($\CatATerraVsDirectLLMDelta$) and Flat ($\CatATerraVsFlatRAGDelta$, $",,,OPEN
+C0102,629,Robustness, \item \textbf{Adversarial Deception Robustness (Category D):} On deceptive prompts embedding authentic titles with fabricated premises (,,,OPEN
+C0103,629,dominates,"b=2, c=0$, $p = \TerraVsDirectLLMCatDSafeMcNemarP$). On explicit epistemic refusal, TERRA dominates Direct LLM ($\TerraCatDRejection$ vs.\ $\DirectLLMCatDRejection$, $b=48, c=0$, $p = \Terr",,,OPEN
+C0104,638,strict,"struction-tuned (\texttt{\RouterModel}) served via the Databricks Model Serving API under strict schema validation (\texttt{RoutingDecision}), with certified zero fallback contamination ",,,OPEN
+C0105,638,certified,"abricks Model Serving API under strict schema validation (\texttt{RoutingDecision}), with certified zero fallback contamination ($0/350$). The complete specification, prompt template, and P",,,OPEN
+C0106,645,perfect,"ctual class (Gold EASY, Category~A), the classifier achieves $\RouterEasyFOne$ $F_1$ with perfect recall ($\RouterEasyRecall$, $100/100$). On complex inquiries (Gold HARD, Categories~B, C",,,OPEN
+C0107,646,certified,"le reflects deliberate architectural alignment. The False-HARD rate on factual queries is certified at $\mathbf{\RouterFalseHardRate}$ ($0/100$), ensuring that single-point factual lookups ",,,OPEN
+C0108,646,never,"$\mathbf{\RouterFalseHardRate}$ ($0/100$), ensuring that single-point factual lookups are never needlessly penalized by multi-hop graph expansion or context flooding. Across all complex",,,OPEN
+C0109,651,forensic,"versarial Deception Traps; $\RouterCatDFalseEasyRate$, $\RouterCatDFalseEasyCount/75$). A forensic examination of these 10 queries (\texttt{D021}, \texttt{D039}, \texttt{D060}, \texttt{D06",,,OPEN
+C0110,653,Crucially,"Crucially, routing these adversarial queries to the fast path does \textit{not} induce generative h",,,OPEN
+C0111,653,Forensic,rectly against verified procedural holdings rather than ungrounded parametric completion. Forensic auditing of the downstream completions under independent dual judging demonstrates a cert,,,OPEN
+C0112,653,certified,nsic auditing of the downstream completions under independent dual judging demonstrates a certified $\mathbf{\RouterCatDSafeHandlingRate}$ safe-handling rate ($10/10$):,,,OPEN
+C0113,659,proves,This empirical result proves the effectiveness of TERRA's multi-tier defense-in-depth architecture: even when an adver,,,OPEN
+C0114,739,confirms,Statistical testing confirms that TERRA's Category B reasoning gains remain statistically significant across all retri,,,OPEN
+C0115,744,Robustness," \item \textbf{Safety Refusal Robustness:} On Category C, TERRA's $100\%$ refusal ($75/75$) demonstrates decisive refusal advantag",,,OPEN
+C0116,744,decisive,"Safety Refusal Robustness:} On Category C, TERRA's $100\%$ refusal ($75/75$) demonstrates decisive refusal advantage over Direct LLM ($0/75$, Fisher's exact $p = \CatCTerraVsDirectLLMFishe",,,OPEN
+C0117,751,strictly,"While retrospective legal retrieval requires evaluating questions strictly under historical jurisprudence as of temporal cutoff $T$, modern generative language mode",,,OPEN
+C0118,751,rigorously," doctrinal shifts, statutory overhauls, or later overrulings into historical analyses. To rigorously quantify and stress-test this vulnerability, we preregistered and executed a dedicated 50",,,OPEN
+C0119,756,strictly,"asuring default end-to-end containment) and \textbf{Condition B} (explicit instruction to strictly adhere to year $T$ and ignore future precedents, measuring prompt-assisted containment). ",,,OPEN
+C0120,758,Critically,"Critically, evaluating temporal containment solely via SPTLR creates a severe vulnerability to metri",,,OPEN
+C0121,758,perfectly,"c distortion: systems that simply refuse to answer generate zero post-$T$ text, appearing perfectly ``leak-free'' despite failing the underlying legal task. To eliminate this confound, we d",,,OPEN
+C0122,758,eliminate,"$T$ text, appearing perfectly ``leak-free'' despite failing the underlying legal task. To eliminate this confound, we decouple containment from legal problem-solving by measuring: (1)~\text",,,OPEN
+C0123,761,strict,"$ raw concordance and $100\%$ monotonic inclusion (every leak identified by GPT-OSS was a strict subset of Qwen's flags). However, the quadratic weighted Cohen's $\kappa$ was $\TemporalQ",,,OPEN
+C0124,761,Forensic,", appearing considerably lower than the benchmark-wide agreement ($\kappa \approx 0.70$). Forensic diagnosis confirms that this divergence is an artifact of the \textit{Kappa Paradox}~\cit",,,OPEN
+C0125,761,confirms,rably lower than the benchmark-wide agreement ($\kappa \approx 0.70$). Forensic diagnosis confirms that this divergence is an artifact of the \textit{Kappa Paradox}~\cite{feinstein1990high,,,OPEN
+C0126,763,guarantee,"To guarantee objective reproducibility, all evaluations were reconciled via a pre-specified, determini",,,OPEN
+C0127,763,Crucially,"l~2; and (5)~subtle mentions resolve conservatively to $\max(s_1, s_2) = \text{Level~1}$. Crucially, tiers 3--5 bias strictly \textit{toward} flagging leakage, ensuring that consensus adjud",,,OPEN
+C0128,763,strictly,"s resolve conservatively to $\max(s_1, s_2) = \text{Level~1}$. Crucially, tiers 3--5 bias strictly \textit{toward} flagging leakage, ensuring that consensus adjudication is conservative ag",,,OPEN
+C0129,773,forensic,"However, forensic examination of discordant pairs reveals the exact mechanistic origin of this result: Flat",,,OPEN
+C0130,773,completely,"ecause Flat RAG suffered a massive $\FlatRagRefusalA$ refusal collapse ($23/50$ queries), completely abdicating on nearly half the dataset. When a retrieval system refuses to answer, it mech",,,OPEN
+C0131,775,significantly," evaluating substantive legal utility via Historical Legal Correctness Rate (HLCR), TERRA significantly outperforms Flat Vector RAG: $\text{TERRA}_{\text{gated}}$ achieves $\mathbf{\TerraGatedH",,,OPEN
+C0132,777,Confirmatory,\subsubsection{Confirmatory Hypotheses $H_2$--$H_4$ and Directional Stability},,,OPEN
+C0133,778,robust,"On baseline comparisons where models actively generate answers, TERRA demonstrates robust containment advantage:",,,OPEN
+C0134,780,certified,"ax]$). Because $c_{\max} = 6 < b_{\min} = 11$, \textbf{Directional Stability} is formally certified: across all $2^{85}$ missing-data permutations, TERRA unconditionally generates more clea",,,OPEN
+C0135,780,unconditionally,"al Stability} is formally certified: across all $2^{85}$ missing-data permutations, TERRA unconditionally generates more clean historical answers than unaugmented parametric generation, reaching ",,,OPEN
+C0136,781,certified,"span $b \in [10, 13], c \in [4, 8]$ ($p \in [\HthreePvalMin, \HthreePvalMax]$), achieving certified Directional Stability ($c_{\max} = 8 < b_{\min} = 10$).",,,OPEN
+C0137,786,forensic,"cases $b=0, c=1$ and $b=2, c=0$). Rather than acting as a high-volume statistical filter, forensic auditing confirms that the NLI gate functions as a \textbf{targeted qualitative safety fi",,,OPEN
+C0138,786,confirms,"nd $b=2, c=0$). Rather than acting as a high-volume statistical filter, forensic auditing confirms that the NLI gate functions as a \textbf{targeted qualitative safety firewall}. Across th",,,OPEN
+C0139,786,critical," a \textbf{targeted qualitative safety firewall}. Across the probe, the gate executed six critical interventions: intercepting one substantive Level-2 leak in Condition B (\textit{United S",,,OPEN
+C0140,795,Robustness,\paragraph{Robustness.} The magnitude depends on the judge: Judge~1 scored Full TERRA at \ObscJudgeOneFullSafeP,,,OPEN
+C0141,802,rigorously,"While the canonical \numUniqueQueries-query benchmark rigorously probes multi-hop temporal evolution within indexed Supreme Court jurisprudence, evaluatin",,,OPEN
+C0142,807,fundamental,\item \textbf{Curated Backbone Seed Density vs. Canonical Benchmark Footprint:} We draw a fundamental scientific distinction between corpus-construction seed density and benchmark query footp,,,OPEN
+C0143,807,completely,tsUntouchedSubstrate}$ of the graph substrate ($\CaseFactsUntouchedNodes$ nodes) remained completely unvisited during canonical evaluation.,,,OPEN
+C0144,808,strict,t Curation Provenance:} The 19 curated landmark overrulings encoded in the backbone are a strict subset ($19 \subset 56$) of the landmark overruling decisions cataloged by the official C,,,OPEN
+C0145,808,confirming,"ged by the official Congressional Research Service (CRS) \textit{Constitution Annotated}, confirming that curation reflects established constitutional history rather than benchmark-fitted se",,,OPEN
+C0146,809,confirms, \item \textbf{Hop-Length Invariance:} Topological analysis of Category B multi-hop paths confirms that traversal depth reflects natural citation diameter rather than artificial tuning: 63,,,OPEN
+C0147,816,rigorously,"Windsor}, \textit{Fulton v. City of Philadelphia}, \textit{Epic Systems Corp. v. Lewis}), rigorously testing whether systems exercise epistemic refusal on out-of-corpus law.",,,OPEN
+C0148,819,strict," 1, $150$ Track 2 across Direct LLM, Flat Vector RAG, and Full TERRA) were executed under strict payload parity ($T=0.0$, max tokens 4096, identical LLaMA 3.3 70B generator) and evaluate",,,OPEN
+C0149,819,certified,ss-120b}). Evaluators achieved $100.0\%$ concordance on parsed classification labels with certified zero LLaMA fallback contaminations.,,,OPEN
+C0150,824,decisive,"As reported in Table~\ref{tab:casefacts_eval} (Panel A), Full TERRA demonstrates decisive generalization advantages on external precedent verification:",,,OPEN
+C0151,827,strict," \item \textbf{Overruled Class Diagnostic Recall ($n=8$):} In strict compliance with Fix 1, the Overruled class is evaluated as a diagnostic finding with exac",,,OPEN
+C0152,828,confirms," \item \textbf{Topological Edge Nuance and Non-Recall Audit:} Graph verification confirms that 2 of the 8 pairs (\textit{Wolf $\to$ Mapp}, \textit{Olmstead $\to$ Katz}) possess di",,,OPEN
+C0153,828,Forensic,"edges in the EEG, while 6 pairs reflect in-graph citation paths and doctrinal succession. Forensic auditing of the 4 non-recalled Overruled cases demonstrates that none resulted from citat",,,OPEN
+C0154,828,proved,"dance under 5/5 faithful citations (\textit{Cicenia v. Lagay}, where the model accurately proved the proposition was refuted by \textit{Miranda}); and 1 was an EEG retrieval depth limita",,,OPEN
+C0155,836,Forensic, \item \textbf{Zero Hallucination / Zero Phantom Citations:} Forensic examination of all 50 Track 2 completions confirmed a certified $\mathbf{\CaseFactsTerraH,,,OPEN
+C0156,836,confirmed,"llucination / Zero Phantom Citations:} Forensic examination of all 50 Track 2 completions confirmed a certified $\mathbf{\CaseFactsTerraHallucinationTrackTwo}$ ($0.0\%$) hallucination rate,",,,OPEN
+C0157,836,certified,"/ Zero Phantom Citations:} Forensic examination of all 50 Track 2 completions confirmed a certified $\mathbf{\CaseFactsTerraHallucinationTrackTwo}$ ($0.0\%$) hallucination rate, with zero p",,,OPEN
+C0158,842,rigorously,While the internal \numUniqueQueries-query benchmark rigorously isolates specific algorithmic mechanisms (Sections~\ref{subsec:safety-and-factual}--\ref{,,,OPEN
+C0159,859,rigorously,80 modern Supreme Court decisions and 11 non-SCOTUS federal circuit/statutory queries) to rigorously evaluate epistemic boundary enforcement and anti-hallucination guardrails under out-of-co,,,OPEN
+C0160,863,certified,"tion; all overlapping queries were purged during split generation. Track 1 evaluates on a certified $100.0\%$ uncurated graph substrate. Crucially, this exclusion specifically guarantees th",,,OPEN
+C0161,863,Crucially,"g split generation. Track 1 evaluates on a certified $100.0\%$ uncurated graph substrate. Crucially, this exclusion specifically guarantees that evaluation is not artificially aided by the ",,,OPEN
+C0162,863,guarantees,"n a certified $100.0\%$ uncurated graph substrate. Crucially, this exclusion specifically guarantees that evaluation is not artificially aided by the bespoke reasoning-trace seeds created du",,,OPEN
+C0163,869,strict,"All completions across Direct LLM, Flat Vector RAG, and Full TERRA were executed under strict payload parity ($T=0.0$, max tokens 4096, identical LLaMA 3.3 70B generator) and judged b",,,OPEN
+C0164,874,decisive,"As detailed in Table~\ref{tab:clerc_eval} (Panel A), Full TERRA demonstrates decisive structural advantages across retrieval and generation while surfacing a clear architectur",,,OPEN
+C0165,878,Forensic, \item \textbf{Zero Case Caption Fabrication:} Forensic auditing of all citations extracted across the 120 Track 1 completions confirms that no f,,,OPEN
+C0166,878,confirms,ication:} Forensic auditing of all citations extracted across the 120 Track 1 completions confirms that no fabricated case captions or phantom citations were observed in the audited TERRA ,,,OPEN
+C0167,878,forensic,"Pct$). When the NLI entailment gate fired to intercept drafting queries ($53/120$ cases), forensic auditing confirmed zero fabricated case citations among the short-circuited completions (",,,OPEN
+C0168,878,confirmed,"I entailment gate fired to intercept drafting queries ($53/120$ cases), forensic auditing confirmed zero fabricated case citations among the short-circuited completions ($0/53$). By contras",,,OPEN
+C0169,879,fundamental, the gold controlling precedent lay beyond the 2-hop traversal radius. This establishes a fundamental empirical principle: \textit{authentic evidence does not equate to sufficient evidence}. ,,,OPEN
+C0170,879,completely,"es not equate to sufficient evidence}. Grounding generations on authentic graph subgraphs completely eliminates phantom case inventions, but generative reasoning remains vulnerable to doctri",,,OPEN
+C0171,879,eliminates,"te to sufficient evidence}. Grounding generations on authentic graph subgraphs completely eliminates phantom case inventions, but generative reasoning remains vulnerable to doctrinal error w",,,OPEN
+C0172,883,robust,"On Track 2 (Table~\ref{tab:clerc_eval}, Panel B), Full TERRA establishes robust epistemic boundary discipline on external out-of-corpus queries:",,,OPEN
+C0173,886,Forensic,d $\mathbf{\ClercTerraHardRefusalTrackTwo}$ of out-of-corpus queries prior to generation. Forensic auditing confirmed zero fabricated case citations among the 86 gate-triggering events acr,,,OPEN
+C0174,886,confirmed,erraHardRefusalTrackTwo}$ of out-of-corpus queries prior to generation. Forensic auditing confirmed zero fabricated case citations among the 86 gate-triggering events across both tracks (0/,,,OPEN
+C0175,886,confirming,"mong the 86 gate-triggering events across both tracks (0/53 in Track 1, 0/33 in Track 2), confirming that gate interception reliably halts generation before unverified citations can be intro",,,OPEN
+C0176,887,certified, \item \textbf{Fabrication vs. Misapplication on Negative Probes:} Full TERRA recorded a certified $\mathbf{\ClercTerraFabricationTrackTwo}$ case caption fabrication rate on Track 2 (zero ,,,OPEN
+C0177,893,critical,A critical question in retrieval-augmented legal architectures is whether downstream generative adva,,,OPEN
+C0178,893,superior,ieval-augmented legal architectures is whether downstream generative advantages stem from superior evidence retrieval or merely reflect the generator's ability to synthesize plausible anal,,,OPEN
+C0179,895,rigorously,"c:safety-and-factual}), and Category~D ($N=75$ adversarial temporal overruling pairs). To rigorously isolate evidence-retrieval quality on complex multi-hop common-law reasoning without conf",,,OPEN
+C0180,897,guaranteeing,"re delivered to the LLaMA-3.3-70B-Instruct generator in the primary dual-judge benchmark, guaranteeing zero retrieval drift or post-hoc re-extraction divergence.",,,OPEN
+C0181,902,fundamental,"As reported in Table~\ref{tab:retrieval_eval} (Panel A), comparative retrievers exhibit fundamental divergences in their ability to capture multi-hop common-law trajectories:",,,OPEN
+C0182,904,completely,"mbeddings successfully identify one or two lexically adjacent landmark cases, they almost completely fail to recover intermediate stepping-stone authorities across multi-decade evolutionary ",,,OPEN
+C0183,905,strict,"ters, it frequently activates high-degree peripheral precedents rather than following the strict temporal citation spine.",,,OPEN
+C0184,912,confirming,"ll and $\CatBTerraPathRecallLenThree$ full path recovery ($\CatBTerraPathCountLenThree$), confirming that $d=2$ graph expansion reliably spans two-hop doctrinal progressions.",,,OPEN
+C0185,914,completely,"tation Hops, 3 Intermediate Nodes):} On long 4-hop lineages, all baseline retrievers fail completely to recover the full precedent path ($\CatBFlatPathRecallLenFive$, $\CatBGraphRAGPathRecal",,,OPEN
+C0186,920,Crucially,"Crucially, empirical auditing of seed placements confirms that multi-seed extraction anchors the ex",,,OPEN
+C0187,920,confirms,"Crucially, empirical auditing of seed placements confirms that multi-seed extraction anchors the extremities of the precedent trajectory: in $\CatB",,,OPEN
+C0188,920,seamlessly,"ghborhoods intersect at intermediate stepping-stone authorities ($v_2$ in 5-node chains), seamlessly covering 3-hop and 4-hop doctrinal paths without requiring explosive unconstrained search",,,OPEN
+C0189,922,confirm,These empirical findings confirm that TERRA's high generative win rates (Table~\ref{tab:overall_summary}) and low fabricat,,,OPEN
+C0190,922,fundamentally,ble~\ref{tab:overall_summary}) and low fabrication rates (Table~\ref{tab:clerc_eval}) are fundamentally anchored in direct evidence retrieval quality rather than ungrounded parametric fluency.,,,OPEN
+C0191,924,Robustness,\subsubsection{Retrieval Hyperparameter Robustness and Traversal Horizon Sensitivity},,,OPEN
+C0192,928,certified,"ne ($k=\IssueTwentyFourSeedK, d=\IssueTwentyFourBfsDepth, C=\IssueTwentyFourHubCap$) with certified 100/100 bit-identical parity across node sets, gold landmark intersections, and aggregate",,,OPEN
+C0193,928,confirming,"ngle-seed initialization ($k=1^\ast$) attains \IssueTwentySixHistKOnePath\ path recovery, confirming that multi-seed boundary anchoring provides essential stepping-stone coverage, while vect",,,OPEN
+C0194,930,unique,"ixBoundMeanVisitedNodes\ expansion centers, assembling \IssueTwentySixBoundMeanFullNodes\ unique case authorities into context. The bounded engine preserves \IssueTwentySixGoldRetentionP",,,OPEN
+C0195,930,eliminating,"entySixBoundFullPath\ full path recall (48/63 on 3-node, 12/32 on 4-node, 1/5 on 5-node), eliminating \IssueTwentySixContextReductionPct\ of context character volume (from \IssueTwentySixHist",,,OPEN
+C0196,937,rigorously,While direct evidence retrieval evaluation (Table~\ref{tab:retrieval_eval}) rigorously establishes the retriever's ability to assemble necessary precedent authorities in the pr,,,OPEN
+C0197,937,fundamentally,"precedent authorities in the prompt context prior to generator invocation, legal validity fundamentally depends on whether the generator accurately cites and attributes doctrine in its final sy",,,OPEN
+C0198,937,never," citation errors---inventing phantom case names, citing authorities for propositions they never established, transposing holdings across contemporaneous landmarks, or hallucinating cita",,,OPEN
+C0199,955,confirms,"alMarkdownLinks}$ interactive links. Empirical auditing against the 20,000-case EEG index confirms that $\mathbf{\TerraResolvedMarkdownLinks/\TerraTotalMarkdownLinks}$ links ($\mathbf{\Ter",,,OPEN
+C0200,956,confirming,"ly $\CatCTerraEmittedCitations$ citations across all 75 queries ($72/75$ clean refusals), confirming that NLI entailment gating successfully suppresses citation hallucination on out-of-domai",,,OPEN
+C0201,964,rigorous,A rigorous comparative evaluation of complex agentic RAG frameworks requires auditing the full compu,,,OPEN
+C0202,980,Critically,"Critically, both Category~C (unanswerable out-of-domain probes) and Category~D (adversarial overruli",,,OPEN
+C0203,993,completely,"tBFlatFullPathRecall$ full precedent path recovery ($\CatBFlatFullPathCount$), collapsing completely on three-hop and four-hop legal trajectories. In contrast, TERRA's coordinated EEG citati",,,OPEN
+C0204,999,entirely,"ms}$ on Category~B multi-hop BFS traversal, while Category~A fast path bypasses retrieval entirely ($\TerraCatADecoupledRetrievalMS\text{ ms}$).",,,OPEN
+C0205,1009,strictly,"g, which halts generation in a safe refusal. We emphasize that geometric proximity serves strictly as an \textit{optional coarse pre-filter} to conserve retrieval and grading compute on ob",,,OPEN
+C0206,1009,prove,"al and grading compute on obvious out-of-domain inputs; embedding distance metrics do not prove legal validity or domain membership, which remains the exclusive operational responsibili",,,OPEN
+C0207,1014,first," stability under corpus growth without generative confounding, we test standalone breadth-first graph traversal across four chronological snapshot expansions: $1890\to1930$ (Pair~I, Ste",,,OPEN
+C0208,1018,unique,"ssueNineteenTotalEvals$ qualifying Category~B observations ($\IssueNineteenUniqueQueries$ unique queries anchored at an origin precedent decided at or before Year~$T$, with at least one ",,,OPEN
+C0209,1023,fundamental,"The empirical evaluation validates that TERRA addresses fundamental failure modes of standard RAG architectures in knowledge-intensive, dynamic environments.",,,OPEN
+C0210,1039,critical,A critical finding from our systematic post-hoc auditing concerns the empirical division of labor wi,,,OPEN
+C0211,1039,entirely,/50$ intercepted) because unconstrained OOD distances ($0.281 \le d_{L2} \le 0.859$) fell entirely beneath $1.3$.,,,OPEN
+C0212,1041,entirely,l and $\TerraCatDRefutationRate$\ verified refutation on Category D) was delivered almost entirely by the downstream NLI Smart Grader (Tier 3) via double-failure refusal. When OOD queries ,,,OPEN
+C0213,1041,confirming,"f{tab:ablation}, Ablation 2) caused an immediate collapse of adversarial safety to 0.0\%, confirming NLI as the true empirical safeguard.",,,OPEN
+C0214,1043,Crucially,"Crucially, empirical calibration on the expanded 20,000-opinion substantive corpus demonstrates tha",,,OPEN
+C0215,1043,strictly,"aling law from these two empirical corpus snapshots; rather, we treat geometric proximity strictly as an optional coarse pre-filter that saves retrieval and NLI compute on obvious outliers",,,OPEN
+C0216,1051,Critical," \item \textbf{Absence of Licensed Legal Practitioner Evaluation (Most Critical Limitation for Deployment):} Due to geographical and institutional resource constraints, ",,,OPEN
+C0217,1056,confirmed,5 Cat~D; distinct from the firewall stress test in Section~\ref{subsec:benchmark-design}) confirmed invariant relative rankings: TERRA achieved $1.000$ Category~B Faithfulness (vs. $0.900$ ,,,OPEN
+C0218,1057,entirely,~\ref{tab:refusal_breakdown}) reveals that Direct LLM achieves its $94.7\%$ safe handling entirely through ungrounded refutations ($71/75$) while operating with zero epistemic restraint ($,,,OPEN
+C0219,1057,completely," zero epistemic restraint ($0\%$ refusal across all 350 benchmark queries) and collapsing completely on out-of-domain probes ($0/75$ refusal on Category C). In contrast, TERRA achieves $\mat",,,OPEN
+C0220,1057,perfect,"tDRejectionRate$ explicit refusal advantage ($p = \TerraVsDirectLLMCatDRefusalMcNemarP$), perfect monotonic containment ($c=0$), and an $80.0\%$ reduction in fatal constraint violations (",,,OPEN
+C0221,1057,Forensic," in verifiable citation provenance, epistemic restraint, and temporal boundary integrity. Forensic auditing reveals that the two remaining fatal errors (queries D033 and D034) are reciproc",,,OPEN
+C0222,1059,fundamentally," More fundamentally, we distinguish \textit{latent parametric knowledge} from \textit{operative doctrinal lea",,,OPEN
+C0223,1059,forensic,emporal gate prevent latent memory from intruding into operative pre-$T$ reasoning. While forensic auditing (Section~\ref{subsec:temporal-leakage}) confirms suppression of Level-2 leakage ,,,OPEN
+C0224,1059,confirms,"rative pre-$T$ reasoning. While forensic auditing (Section~\ref{subsec:temporal-leakage}) confirms suppression of Level-2 leakage in $\text{TERRA}_{\text{gated}}$, future work should explo",,,OPEN
+C0225,1059,guarantees,"ed}}$, future work should explore circuit editing and machine unlearning for weight-level guarantees. Provider-side safety filtering on historical legal topics (terminating 85 evaluations in",,,OPEN
+C0226,1082,confirms,"nt. Our stratified audit ($N=\IssueTwentyOneAuditSampleN$, seed \IssueTwentyOneAuditSeed) confirms \IssueTwentyOneAuditCitationPresentPct\ of sampled edges contain reporter strings; direct",,,OPEN
+C0227,1082,certified, candidate authorities with \IssueTwentyOneAuditTargetConfirmedPct\ precision rather than certified doctrinal paths.,,,OPEN
+C0228,1085,certified,"wentyTwoHorvitzThompsonCI), not licensed practitioner annotation; classifications are not certified human ground truth.",,,OPEN
+C0229,1087,confirming,"erformance across horizons ($k \in \{1,2,4\}$, $d \in \{1,2,3\}$, $C \in \{25,50,100\}$), confirming empirical stability around the historical configuration ($k=2, d=2, C=50$, \IssueTwentySi",,,OPEN
+C0230,1098,Critically,"reliance on curated overruling annotations (Section~\ref{subsec:obscure-generalization}). Critically, because evaluations rely on automated LLM judges without licensed attorneys (Section~\re",,,OPEN
+C0231,1105,confirm,aluation slices ($q_{(i)} = \min_{k \ge i} \{ \frac{20 \cdot p_{(k)}}{k} \}$). Ranks 1--4 confirm post-correction advantage on Category C refusal and Category B evolutionary precedent rea,,,OPEN

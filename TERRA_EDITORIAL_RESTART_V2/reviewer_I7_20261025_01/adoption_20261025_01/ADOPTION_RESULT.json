@@ -1,0 +1,46 @@
+{
+  "status": "PASS_REVIEWED_11_FILE_WORKING_ADOPTION_AND_FRESH_BUILD",
+  "implementation_self_verification": true,
+  "changed_files": [
+    "main.tex",
+    "supplement_limitations.tex",
+    "supplement_tables/table_baseline_specifications.tex",
+    "supplement_tables/table_run_provenance.tex",
+    "supplement_tables/table_sensitivity_raw_vs_clamped.tex",
+    "supplement_tables/table_system_comparison.tex",
+    "tables/table_casefacts_eval.tex",
+    "tables/table_citation_eval.tex",
+    "tables/table_clerc_eval.tex",
+    "tables/table_computational_budget.tex",
+    "TERRA_SUPPLEMENT.tex"
+  ],
+  "unchanged_files": 35,
+  "working46files_equal_accepted_candidate": true,
+  "peer_report_sha256": "b0a58740b6e8ef3f3e653b37c6b14666c6079c5a828a90bdc4a684081f231586",
+  "build": {
+    "main": {
+      "pages": 25,
+      "sha256": "52211c53a6ea9e1e1ca82d741c30d253d52d5a3a9527491fb7c9e7c5629a844e",
+      "all_pages_pixel_text_link_identical_to_peer_reviewed_candidate": true,
+      "overfull": 0,
+      "undefined_references_citations": 0,
+      "duplicate_labels": 0,
+      "question_marks": false,
+      "underfull": 69,
+      "font_warnings": 427
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 18,
+      "sha256": "24618b65ea12ea6089fb9ee4c39095491dbc84c3092184175128bf525542c5e3",
+      "all_pages_pixel_text_link_identical_to_peer_reviewed_candidate": true,
+      "overfull": 0,
+      "undefined_references_citations": 0,
+      "duplicate_labels": 0,
+      "question_marks": false,
+      "underfull": 211,
+      "font_warnings": 0
+    }
+  },
+  "new_api_model_calls": 0,
+  "canonical_promotion": false
+}

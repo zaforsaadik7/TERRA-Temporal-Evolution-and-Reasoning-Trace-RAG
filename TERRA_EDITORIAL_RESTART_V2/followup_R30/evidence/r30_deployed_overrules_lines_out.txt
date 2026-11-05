@@ -1,0 +1,16 @@
+TERRA rows=350 lines=33 rows_with_lines=32 distinct_pairs=11
+  319_0624-01->310_0586-01 x7 status=CONSISTENT: 
+  347_0483-01->163_0537-01 x5 status=CONSISTENT: 
+  372_0335-01->316_0455-01 x4 status=CONSISTENT: 
+  312_0100-01->247_0251-01 x4 status=CONSISTENT: 
+  367_0643-01->338_0025-01 x3 status=CONSISTENT: 
+  413_0015-01->354_0476-01 x3 status=CONSISTENT: 
+  389_0347-01->277_0438-01 x2 status=CONSISTENT: 
+  379_0184-01->106_0583-01 x2 status=CONSISTENT: 
+  437_0001-01->354_0298-01 x1 status=CONSISTENT: 
+  300_0379-01->261_0525-01 x1 status=CONSISTENT: 
+  378_0001-01->211_0078-01 x1 status=CONSISTENT: 
+415_0651-01->394_0759-01: overruler in []; wrong target in ['B082', 'B092', 'B097']; both=[]; overruler out-degree=35 in-degree=40
+403_0088-01->342_0519-01: overruler in ['B005', 'B006', 'D015', 'D043', 'D049', 'D063']; wrong target in []; both=[]; overruler out-degree=23 in-degree=13
+411_0345-01->172_0269-01: overruler in ['A022']; wrong target in []; both=[]; overruler out-degree=13 in-degree=1
+contexts >= 59,000 chars: 0

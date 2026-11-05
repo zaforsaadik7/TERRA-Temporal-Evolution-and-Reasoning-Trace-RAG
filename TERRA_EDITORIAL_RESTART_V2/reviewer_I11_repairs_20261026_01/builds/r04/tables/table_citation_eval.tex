@@ -1,0 +1,18 @@
+\begin{table*}[!t]
+\caption{Citation attribution (Panel A) on 100 Category Bcompletions (342 gold authorities).}
+\label{tab:citation_eval}
+\centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccccc}
+\toprule
+Pipeline & Macro recall & Entity precision & Judge-weighted support & Citation F1 & Full-path count \\
+\midrule
+Direct LLM & \CatBDirectMacroCitationRecall & \CatBDirectEntityCitationPrecision & \CatBDirectDoctrinalCitationPrecision & \CatBDirectCitationFOne & \CatBDirectFullPathCitationCount \\
+Flat RAG & \CatBFlatMacroCitationRecall & \CatBFlatEntityCitationPrecision & \CatBFlatDoctrinalCitationPrecision & \CatBFlatCitationFOne & \CatBFlatFullPathCitationCount \\
+GraphRAG & \CatBGraphRAGMacroCitationRecall & \CatBGraphRAGEntityCitationPrecision & \CatBGraphRAGDoctrinalCitationPrecision & \CatBGraphRAGCitationFOne & \CatBGraphRAGFullPathCitationCount \\
+HippoRAG & \CatBHippoRAGMacroCitationRecall & \CatBHippoRAGEntityCitationPrecision & \CatBHippoRAGDoctrinalCitationPrecision & \CatBHippoRAGCitationFOne & \CatBHippoRAGFullPathCitationCount \\
+TERRA & \CatBTerraMacroCitationRecall & \CatBTerraEntityCitationPrecision & \CatBTerraDoctrinalCitationPrecision & \CatBTerraCitationFOne & \CatBTerraFullPathCitationCount \\
+\bottomrule
+\end{tabular}
+\endgroup\par\vspace{2pt}
+\raggedright\footnotesize Panel A shown above; Panel B full hyperlink/Category C audit is in the detailed supplement. Entity existence is not doctrinal correctness; judge-weighted support is not independent legal certification. TERRA 660/664 links pass the permissive resolver, with 97.44\%title fidelity. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:citation_eval}.
+\end{table*}

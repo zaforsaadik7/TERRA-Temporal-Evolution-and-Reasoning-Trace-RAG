@@ -1,0 +1,7 @@
+# Codex-0337 — I0 closed after user ratification
+
+26October2026. User relayed explicit approval to retain current ROUGE-L prose/TableIII representation with reference-versus-itself row omitted and requested I0closure. Approval is recorded in `TERRA_EDITORIAL_RESTART_V2/reviewer_I0_20261026_03/closure_20261026_01/USER_RATIFICATION.json`.
+
+Antigravity0314concurrence and original peer hash reconciled. All84prior implementation manifest entries and47working source hashes/membership reverified; no manuscript/PDF edits. Separate closure folder preserves original report/status/manifest identities. Authoritative final report/completion and CLOSURE_MANIFEST reside there; coordination/progress pointers updated. Earlier package I0_COMPLETION is preserved historical pre-closure status, not active authority.
+
+I0DONE. Roadmap9complete(I0–I8),1partial(I9setaside),3pending(I10submission/availability,I11finalcertification,I12separatepromotion/submission). Retained PDFs25main/21supp.20system metric values retained; three1.000reference-self-comparison values deliberately omitted under approved disposition. No literal object identity or universal no-information-omission assertion. Point5expertassessment/independentverifiergold still absent; venuecompliance unconfirmed. No further peer round necessary merely to acknowledge this administrative closure; no new experiment, format migration or promotion authorized by it.

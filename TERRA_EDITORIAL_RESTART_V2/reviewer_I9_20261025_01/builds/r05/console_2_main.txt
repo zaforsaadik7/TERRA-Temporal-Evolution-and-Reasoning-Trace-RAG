@@ -1,0 +1,402 @@
+note: Running TeX ...
+note: downloading ts1-lmr10.tfm
+note: downloading ec-lmr7.tfm
+note: downloading ec-lmtk10.tfm
+note: downloading ec-lmri7.tfm
+note: downloading ec-lmbx7.tfm
+note: Writing `main.log` (39.28515625 KiB)
+Fontconfig error: Cannot load default config file: No such file: (null)
+warning: algorithm.sty:11: 
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+warning: anyfontsize.sty:3: 
+Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
+warning: anyfontsize.sty:3: Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
+warning: main.tex:33: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:38: Underfull \hbox (badness 1383) in paragraph at lines 37--38
+warning: main.tex:44: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:55: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:78: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:81: Underfull \hbox (badness 1546) in paragraph at lines 80--81
+warning: main.tex:81: Underfull \hbox (badness 2088) in paragraph at lines 80--81
+warning: main.tex:81: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:89: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:102: Underfull \hbox (badness 10000) in paragraph at lines 100--102
+warning: main.tex:102: Underfull \hbox (badness 2753) in paragraph at lines 100--102
+warning: main.tex:120: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:138: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:152: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:167: Underfull \hbox (badness 1137) in paragraph at lines 166--167
+warning: main.tex:176: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:178: Underfull \hbox (badness 1152) in paragraph at lines 177--178
+warning: main.tex:200: Underfull \hbox (badness 10000) in paragraph at lines 200--200
+warning: main.tex:200: Underfull \hbox (badness 2080) in paragraph at lines 200--200
+warning: main.tex:200: Underfull \hbox (badness 10000) in paragraph at lines 200--200
+warning: main.tex:200: Underfull \hbox (badness 1466) in paragraph at lines 200--200
+warning: main.tex:200: Underfull \hbox (badness 10000) in paragraph at lines 200--200
+warning: main.tex:200: Underfull \hbox (badness 10000) in paragraph at lines 200--200
+error: main.tex:200: Missing \endgroup inserted
+error: something bad happened inside XeTeX; its output follows:
+
+===============================================================================
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (sn-jnl.cls
+Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
+nal articles
+(article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(fleqn.clo) (size10.clo)) (geometry.sty (keyval.sty) (ifvtex.sty (iftex.sty)))
+(cuted.sty) (rotating.sty (graphicx.sty (graphics.sty (trig.sty) (graphics.cfg)
+(xetex.def))) (ifthen.sty)) (threeparttable.sty) (appendix.sty) (hyperref.sty
+(ltxcmds.sty) (pdftexcmds.sty (infwarerr.sty)) (kvsetkeys.sty)
+(kvdefinekeys.sty) (pdfescape.sty) (hycolor.sty) (letltxmacro.sty) (auxhook.sty
+) (kvoptions.sty) (pd1enc.def) (intcalc.sty) (etexcmds.sty) (puenc.def)
+(url.sty) (bitset.sty (bigintcalc.sty)) (atbegshi-ltx.sty)) (hxetex.def
+(stringenc.sty) (rerunfilecheck.sty (atveryend-ltx.sty) (uniquecounter.sty)))
+(wrapfig.sty) (amsthm.sty) (fix-cm.sty (ts1enc.def)) (natbib.sty)) (fontenc.sty
+(t1lmr.fd)) (booktabs.sty) (multirow.sty) (array.sty) (longtable.sty)
+(amsmath.sty
+For additional information on amsmath, use the `?' option.
+(amstext.sty (amsgen.sty)) (amsbsy.sty) (amsopn.sty)) (amssymb.sty
+(amsfonts.sty)) (algorithm.sty (float.sty)) (algpseudocode.sty
+(algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (xr.sty) (textcomp.sty) (xcolor.sty (color.cfg)) (comment.sty
+Excluding comment 'comment') (csquotes.sty (etoolbox.sty) (csquotes.def)
+(csquotes.cfg)) (anyfontsize.sty) (microtype.sty (microtype-xetex.def)
+(microtype.cfg)) (tikz.sty (pgf.sty (pgfrcs.sty (pgfutil-common.tex
+(pgfutil-common-lists.tex)) (pgfutil-latex.def) (pgfrcs.code.tex
+(pgf.revision.tex))) (pgfcore.sty (pgfsys.sty (pgfsys.code.tex
+(pgfkeys.code.tex (pgfkeysfiltered.code.tex)) (pgf.cfg) (pgfsys-xetex.def
+(pgfsys-dvipdfmx.def (pgfsys-common-pdf.def)))) (pgfsyssoftpath.code.tex)
+(pgfsysprotocol.code.tex)) (pgfcore.code.tex (pgfmath.code.tex
+(pgfmathcalc.code.tex (pgfmathutil.code.tex) (pgfmathparser.code.tex)
+(pgfmathfunctions.code.tex (pgfmathfunctions.basic.code.tex)
+(pgfmathfunctions.trigonometric.code.tex) (pgfmathfunctions.random.code.tex)
+(pgfmathfunctions.comparison.code.tex) (pgfmathfunctions.base.code.tex)
+(pgfmathfunctions.round.code.tex) (pgfmathfunctions.misc.code.tex)
+(pgfmathfunctions.integerarithmetics.code.tex))) (pgfmathfloat.code.tex))
+(pgfint.code.tex) (pgfcorepoints.code.tex) (pgfcorepathconstruct.code.tex)
+(pgfcorepathusage.code.tex) (pgfcorescopes.code.tex)
+(pgfcoregraphicstate.code.tex) (pgfcoretransformations.code.tex)
+(pgfcorequick.code.tex) (pgfcoreobjects.code.tex)
+(pgfcorepathprocessing.code.tex) (pgfcorearrows.code.tex)
+(pgfcoreshade.code.tex) (pgfcoreimage.code.tex (pgfcoreexternal.code.tex))
+(pgfcorelayers.code.tex) (pgfcoretransparency.code.tex)
+(pgfcorepatterns.code.tex) (pgfcorerdf.code.tex))) (pgfmoduleshapes.code.tex)
+(pgfmoduleplot.code.tex) (pgfcomp-version-0-65.sty) (pgfcomp-version-1-18.sty))
+ (pgffor.sty (pgfkeys.sty (pgfkeys.code.tex)) (pgfmath.sty (pgfmath.code.tex))
+(pgffor.code.tex (pgfmath.code.tex))) (tikz.code.tex
+(pgflibraryplothandlers.code.tex) (pgfmodulematrix.code.tex)
+(tikzlibrarytopaths.code.tex))) (pgfplots.sty (pgfplots.revision.tex)
+(pgfplots.code.tex (pgfplotscore.code.tex (pgfplotssysgeneric.code.tex))
+(pgfplotslibrary.code.tex) (pgfplotsoldpgfsupp_loader.code.tex
+(pgflibraryfpu.code.tex)) (pgfplotsutil.code.tex
+(pgfplotsliststructure.code.tex) (pgfplotsliststructureext.code.tex)
+(pgfplotsarray.code.tex) (pgfplotsmatrix.code.tex)
+(pgfplotstableshared.code.tex) (pgfplotsdeque.code.tex)
+(pgfplotsbinary.code.tex (pgfplotsbinary.data.code.tex))
+(pgfplotsutil.verb.code.tex) (pgflibrarypgfplots.surfshading.code.tex
+(pgflibrarypgfplots.surfshading.pgfsys-xetex.def
+(pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def))))
+(pgfplotscolormap.code.tex (pgfplotscolor.code.tex))
+(pgfplotsstackedplots.code.tex) (pgfplotsplothandlers.code.tex
+(pgfplotsmeshplothandler.code.tex (pgfplotsmeshplotimage.code.tex)))
+(pgfplots.scaling.code.tex) (pgfplotscoordprocessing.code.tex)
+(pgfplots.errorbars.code.tex) (pgfplots.markers.code.tex)
+(pgfplotsticks.code.tex) (pgfplots.paths.code.tex)
+(tikzlibrarydecorations.code.tex (pgfmoduledecorations.code.tex))
+(tikzlibrarydecorations.pathmorphing.code.tex
+(pgflibrarydecorations.pathmorphing.code.tex))
+(tikzlibrarydecorations.pathreplacing.code.tex
+(pgflibrarydecorations.pathreplacing.code.tex))
+(tikzlibrarypgfplots.contourlua.code.tex)) (tikzlibraryplotmarks.code.tex
+(pgflibraryplotmarks.code.tex))) (pgflibraryarrows.meta.code.tex)
+(tikzlibrarypositioning.code.tex) (tikzlibraryshapes.geometric.code.tex
+(pgflibraryshapes.geometric.code.tex)) (tikzlibraryshadows.code.tex
+(tikzlibraryfadings.code.tex (pgflibraryfadings.code.tex)))
+(tikzlibraryfit.code.tex) (tikzlibrarycalc.code.tex)
+(tikzlibrarybackgrounds.code.tex) (generated_stats) (generated_obscure_stats)
+(generated_corpus_stats_20k) (phase3_corrections) (phase3_corrections_b2)
+(phase3_corrections_b3) (phase3_corrections_b6) (l3backend-xetex.def)
+No file main.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(nameref.sty (refcount.sty) (gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(mt-cmr.cfg)
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.14).
+
+(umsa.fd) (mt-msa.cfg) (umsb.fd) (mt-msb.cfg)
+Underfull \vbox (badness 10000) has occurred while \output is active [1]
+
+Package natbib Warning: Citation `yalavarthi2026opensourcereproductionexplainab
+ilityanalysis' on page 2 undefined on input line 35.
+
+
+Package natbib Warning: Citation `hashmi2026adaptivequeryroutingtierbased' on p
+age 2 undefined on input line 35.
+
+
+LaTeX Warning: Reference `subsec:temporal-update-stability' on page 2 undefined
+ on input line 37.
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 37--38
+[]\T1/lmr/m/n/10.03749 We there-fore intro-duce a dual-phase GraphRAG archi-tec
+-ture for evolv-ing,
+
+LaTeX Warning: Reference `subsec:matched-comparison' on page 2 undefined on inp
+ut line 39.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [2]
+
+LaTeX Warning: Reference `subsec:computational-budget' on page 3 undefined on i
+nput line 44.
+
+
+LaTeX Warning: Reference `subsec:firewall-analysis' on page 3 undefined on inpu
+t line 44.
+
+
+LaTeX Warning: Reference `subsec:limitations' on page 3 undefined on input line
+ 47.
+
+
+Package natbib Warning: Citation `lewis2020retrieval' on page 3 undefined on in
+put line 52.
+
+
+Package natbib Warning: Citation `guu2020realm' on page 3 undefined on input li
+ne 52.
+
+
+Package natbib Warning: Citation `edge2024graphrag' on page 3 undefined on inpu
+t line 52.
+
+
+Package natbib Warning: Citation `sun2024thinkongraph' on page 3 undefined on i
+nput line 52.
+
+
+Package natbib Warning: Citation `liu2026raglearningunderstandinglimits' on pag
+e 3 undefined on input line 52.
+
+
+Package natbib Warning: Citation `zhang2025respectingtemporalcausalconsistencye
+ntityevent' on page 3 undefined on input line 52.
+
+
+Package natbib Warning: Citation `zhu2025rightanswerrighttime' on page 3 undefi
+ned on input line 52.
+
+
+Package natbib Warning: Citation `chen2026legalgraphrag' on page 3 undefined on
+ input line 52.
+
+
+Package natbib Warning: Citation `demartim2025satgraphrag' on page 3 undefined 
+on input line 52.
+
+
+Package natbib Warning: Citation `li2025cotragintegratingchainthought' on page 
+3 undefined on input line 54.
+
+
+Package natbib Warning: Citation `lin2025comprehensivesurveyreinforcementlearni
+ngbased' on page 3 undefined on input line 54.
+
+
+Package natbib Warning: Citation `liang2025reasoningrag12' on page 3 undefined 
+on input line 54.
+
+
+Package natbib Warning: Citation `zheng2021casehold' on page 3 undefined on inp
+ut line 54.
+
+
+Package natbib Warning: Citation `hou2024clerc' on page 3 undefined on input li
+ne 54.
+
+
+Package natbib Warning: Citation `guha2023legalbench' on page 3 undefined on in
+put line 54.
+
+
+Package natbib Warning: Citation `katz2017general' on page 3 undefined on input
+ line 54.
+
+
+Package natbib Warning: Citation `chalkidis2020legalbert' on page 3 undefined o
+n input line 54.
+
+
+Package natbib Warning: Citation `magesh2025hallucination' on page 3 undefined 
+on input line 54.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [3]
+
+Package natbib Warning: Citation `hashmi2026adaptivequeryroutingtierbased' on p
+age 4 undefined on input line 56.
+
+
+Package natbib Warning: Citation `yalavarthi2026opensourcereproductionexplainab
+ilityanalysis' on page 4 undefined on input line 56.
+
+
+Package natbib Warning: Citation `putta2026casefactsbenchmarklegalfactchecking'
+ on page 4 undefined on input line 56.
+
+
+LaTeX Warning: Reference `fig:system_architecture' on page 4 undefined on input
+ line 63.
+
+(figure_1_system_architecture (t1lmtt.fd))
+Underfull \vbox (badness 10000) has occurred while \output is active [4]
+
+Package natbib Warning: Citation `cushman2021eyecite' on page 5 undefined on in
+put line 80.
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 80--81
+\T1/lmr/m/n/10.03749 normalization util-ity that estab-lishes cita-tion exis-te
+nce ($\OML/cmm/m/it/10.03749 A [] B$\T1/lmr/m/n/10.03749 ) with-
+
+Underfull \hbox (badness 2088) in paragraph at lines 80--81
+\T1/lmr/m/n/10.03749 out infer-ring prece-den-tial treat-ment or approval; stri
+ngs are nor-mal-ized via
+
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+
+LaTeX Warning: Reference `subsec:matched-comparison' on page 6 undefined on inp
+ut line 82.
+
+
+LaTeX Warning: Reference `subsec:benchmark-design' on page 6 undefined on input
+ line 82.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
+
+Package natbib Warning: Citation `reimers2019sentencetransformers' on page 7 un
+defined on input line 101.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+\T1/lmr/m/n/10.03749 All 20,000 doc-u-ments are embed-ded with Sentence-Transfo
+rmers
+
+Underfull \hbox (badness 2753) in paragraph at lines 100--102
+\T1/lmr/m/n/10.03749 in a local Chro-maDB \T1/lmtt/m/n/10.03749 PersistentClien
+t \T1/lmr/m/n/10.03749 (\T1/lmtt/m/n/10.03749 dataset_20k_cap/vector_db_20k\T1/
+lmr/m/n/10.03749 ),
+
+LaTeX Warning: Reference `tab:ablation' on page 7 undefined on input line 119.
+
+
+LaTeX Warning: Reference `subsec:router-standalone-eval' on page 7 undefined on
+ input line 119.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [7]
+
+LaTeX Warning: Reference `tab:computational_budget' on page 8 undefined on inpu
+t line 130.
+
+
+LaTeX Warning: Reference `subsec:firewall-analysis' on page 8 undefined on inpu
+t line 131.
+
+
+LaTeX Warning: Reference `subsec:retrieval-quality' on page 8 undefined on inpu
+t line 137.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [8]
+
+Package natbib Warning: Citation `dubey2024llama3' on page 9 undefined on input
+ line 146.
+
+
+Package natbib Warning: Citation `he2023debertav3' on page 9 undefined on input
+ line 146.
+
+
+LaTeX Warning: Reference `tab:ablation' on page 9 undefined on input line 146.
+
+
+LaTeX Warning: Reference `subsec:limitations' on page 9 undefined on input line
+ 146.
+
+
+LaTeX Warning: Reference `subsec:phase1-ingestion' on page 9 undefined on input
+ line 150.
+
+
+LaTeX Warning: Reference `subsec:temporal-leakage' on page 9 undefined on input
+ line 150.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [9]
+
+LaTeX Warning: Reference `subsec:citation-correctness' on page 10 undefined on 
+input line 154.
+
+
+LaTeX Warning: Reference `tab:citation_eval' on page 10 undefined on input line
+ 154.
+
+
+Package natbib Warning: Citation `dubey2024llama3' on page 10 undefined on inpu
+t line 157.
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 166--167
+\T1/lmr/m/n/10.03749 The pro-to-type is writ-ten in Python 3.11 using \T1/lmtt/
+m/n/10.03749 openai\T1/lmr/m/n/10.03749 , \T1/lmtt/m/n/10.03749 chromadb\T1/lmr
+/m/n/10.03749 , \T1/lmtt/m/n/10.03749 networkx
+
+LaTeX Warning: Reference `tab:corpus_stats' on page 10 undefined on input line 
+175.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [10]
+Underfull \hbox (badness 1152) in paragraph at lines 177--178
+\T1/lmr/m/n/10.03749 sam-ple of $\OML/cmm/m/it/10.03749 N \OT1/cmr/m/n/10.03749
+ = 210$ \T1/lmr/m/n/10.03749 opin-ions (140 base-line and 70 edge cases: 20 tie
+s, 30
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\T1/lmr/bx/n/8.03 Substantive Cov-er-age
+
+Underfull \hbox (badness 2080) in paragraph at lines 200--200
+[]|\T1/lmr/m/n/8.03 Regulatory Agen-cies, Fed-eral
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\T1/lmr/m/n/8.03 Interstate Com-merce, Eco-
+
+Underfull \hbox (badness 1466) in paragraph at lines 200--200
+[]|\T1/lmr/m/n/8.03 Free Speech, Press, Exer-cise,
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\T1/lmr/m/n/8.03 Directed Prece-dent Links
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T1/lmr/m/n/8.03 (94.5% Direct Pre-ci-sion, 0
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.200 }
+       
+Output written on main.xdv (10 pages, 95556 bytes).
+Transcript written on main.log.
+===============================================================================
+error: the XeTeX engine had an unrecoverable error
+caused by: halted on potentially-recoverable error as specified

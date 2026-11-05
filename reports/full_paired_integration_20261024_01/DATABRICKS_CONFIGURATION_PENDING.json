@@ -1,0 +1,26 @@
+{
+  "status": "NON_EXECUTABLE_ACCOUNT_DETAILS_DEFERRED_BY_USER_TO_STEP_3",
+  "live_admitted": false,
+  "workspace_origin": null,
+  "cloud": null,
+  "region": null,
+  "workspace_tier": null,
+  "deployment_mode": null,
+  "billing_currency": null,
+  "effective_price_date": null,
+  "fixed_hosting_charges": null,
+  "available_credits": null,
+  "approved_smoke_spend": null,
+  "approved_study_spend": null,
+  "role_proposals": {
+    "router": {"model_family": "google/gemma-3-12b-it", "candidate_endpoint": "databricks-gemma-3-12b", "confirmed_endpoint": null, "accepted_response_models": null},
+    "generator": {"model_family": "meta-llama/Llama-3.3-70B-Instruct", "candidate_endpoint": "databricks-meta-llama-3-3-70b-instruct", "confirmed_endpoint": null, "accepted_response_models": null},
+    "verifier": {"model_family": "meta-llama/Llama-3.3-70B-Instruct", "candidate_endpoint": "databricks-meta-llama-3-3-70b-instruct", "confirmed_endpoint": null, "accepted_response_models": null},
+    "judge1": {"model_family": "Qwen/Qwen3-Next-80B-A3B-Instruct", "candidate_endpoint": "databricks-qwen3-next-80b-a3b-instruct", "confirmed_endpoint": null, "accepted_response_models": null},
+    "judge2": {"model_family": "openai/gpt-oss-120b", "candidate_endpoint": "databricks-gpt-oss-120b", "confirmed_endpoint": null, "accepted_response_models": null}
+  },
+  "required_per_endpoint_before_live_freeze": ["confirmed availability and served identity", "context and request-byte limits", "input/output minute and hourly request quotas", "max output and reasoning settings", "reasoning included in completion billing confirmation", "effective input/output price and units"],
+  "logical_call_envelope": {"study_queries": 350, "router": 350, "verifier": 700, "generator": 700, "judge1": 700, "judge2": 700, "maximum_total_before_smoke": 3150, "automatic_retries": 0},
+  "smoke_proposal_not_authorized": {"paired_queries": 2, "maximum_logical_calls": 18, "separate_budget_required": true},
+  "credential_handling": "No credential belongs in this file. Notify user before a separately authorized local credential setup."
+}

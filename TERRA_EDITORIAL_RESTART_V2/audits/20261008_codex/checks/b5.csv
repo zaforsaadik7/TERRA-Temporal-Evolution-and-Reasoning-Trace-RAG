@@ -1,0 +1,8 @@
+fact_id,location,printed,result,note
+B5-F01,"B5-6, B5-7",v2 file sha256 prefix 95e775e2,VERIFIED,
+B5-F02,B5-1,"gross medians: Category A 5.83 s, Category B 17.94 s (not fast/hard route populations)",VERIFIED,
+B5-F03,B5-3,fast route median 5.46 s (n=110); hard 14.07 s (n=240),VERIFIED,
+B5-F04,"B5-3, B5-4","pilot macros: full config median 1.38 s, 4.90x (pilot-internal; labelled only, not recomputed)",VERIFIED,macro value only; no pilot raw data re-run
+B5-F05,B5-5,"chains 63/32/5 nodes (2/3/4 hops); TERRA full recovery 49/63=77.8%, 16/32=50.0%, 1/5=20.0%",VERIFIED,
+B5-F06,"B5-7, B5-8","best per column: Entity=Direct, Doctrinal=Flat, F1=Flat, Macro/Micro=Terra; TERRA lowest Entity CP",VERIFIED,
+B5-F07,B5-7,baseline Entity CP range printed from macros: GraphRAG (lowest baseline) to Direct (highest),VERIFIED,

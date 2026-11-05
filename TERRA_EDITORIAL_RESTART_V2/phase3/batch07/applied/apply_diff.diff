@@ -1,0 +1,200 @@
+--- a/ref.bib
++++ b/ref.bib
+@@ -1,19 +1,19 @@
+-@misc{zhang2025respectingtemporalcausalconsistencyentityevent,
+-      title={Respecting Temporal-Causal Consistency: Entity-Event Knowledge Graphs for Retrieval-Augmented Generation}, 
++@inproceedings{zhang2025respectingtemporalcausalconsistencyentityevent,
++      title={Respecting Temporal-Causal Consistency: Entity-Event Knowledge Graph for Retrieval-Augmented Generation},
+       author={Ze Yu Zhang and Zitao Li and Yaliang Li and Bolin Ding and Bryan Kian Hsiang Low},
+-      year={2025},
+-      eprint={2506.05939},
+-      archivePrefix={arXiv},
+-      primaryClass={cs.IR},
+-}
+-
+-@misc{liu2026raglearningunderstandinglimits,
+-      title={RAG or Learning? Understanding the Limits of LLM Adaptation under Continuous Knowledge Drift in the Real World}, 
++      booktitle={Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
++      pages={2017--2054},
++      year={2026},
++      doi={10.18653/v1/2026.eacl-long.90}
++}
++
++@inproceedings{liu2026raglearningunderstandinglimits,
++      title={RAG or Learning? Understanding the Limits of LLM Adaptation under Continuous Knowledge Drift in the Real World},
+       author={Hanbing Liu and Lang Cao and Yang Li},
+-      year={2026},
+-      eprint={2604.05096},
+-      archivePrefix={arXiv},
+-      primaryClass={cs.CL},
++      booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
++      pages={11234--11252},
++      year={2026},
++      doi={10.18653/v1/2026.findings-acl.546}
+ }
+ 
+ @misc{zhu2025rightanswerrighttime,
+@@ -25,22 +25,22 @@
+       primaryClass={cs.IR},
+ }
+ 
+-@misc{li2025cotragintegratingchainthought,
+-      title={CoT-RAG: Integrating Chain of Thought and Retrieval-Augmented Generation to Enhance Reasoning in Large Language Models}, 
++@inproceedings{li2025cotragintegratingchainthought,
++      title={CoT-RAG: Integrating Chain of Thought and Retrieval-Augmented Generation to Enhance Reasoning in Large Language Models},
+       author={Feiyang Li and Peng Fang and Zhan Shi and Arijit Khan and Fang Wang and Weihao Wang and Xin Zhang and Yongjian Cui},
+-      year={2025},
+-      eprint={2504.13534},
+-      archivePrefix={arXiv},
+-      primaryClass={cs.CL},
+-}
+-
+-@misc{liang2025reasoningrag12,
+-      title={Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic Retrieval-Augmented Generation for Industry Challenges}, 
++      booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
++      pages={3119--3171},
++      year={2025},
++      doi={10.18653/v1/2025.findings-emnlp.168}
++}
++
++@inproceedings{liang2025reasoningrag12,
++      title={Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic Retrieval-Augmented Generation for Industry Challenges},
+       author={Jintao Liang and Gang Su and Huifeng Lin and You Wu and Rui Zhao and Ziyue Li},
+-      year={2025},
+-      eprint={2506.10408},
+-      archivePrefix={arXiv},
+-      primaryClass={cs.AI},
++      booktitle={Findings of the Association for Computational Linguistics: IJCNLP-AACL 2025},
++      pages={1954--1966},
++      year={2025},
++      doi={10.18653/v1/2025.findings-ijcnlp.122}
+ }
+ 
+ @misc{lin2025comprehensivesurveyreinforcementlearningbased,
+@@ -91,7 +91,7 @@
+ 
+ @misc{edge2024graphrag,
+       title={From Local to Global: A Graph RAG Approach to Query-Focused Summarization}, 
+-      author={Darren Edge and Ha Trinh and Newman Cheng and Joshua Bradley and Alex Chao and Apurva Mody and Steven Truitt and Jonathan Larson},
++      author={Darren Edge and Ha Trinh and Newman Cheng and Joshua Bradley and Alex Chao and Apurva Mody and Steven Truitt and Dasha Metropolitansky and Robert Osazuwa Ness and Jonathan Larson},
+       year={2024},
+       eprint={2404.16130},
+       archivePrefix={arXiv},
+@@ -99,8 +99,8 @@
+ }
+ 
+ @inproceedings{sun2024thinkongraph,
+-      title={Think-on-Graph: Deep Reasoning on Knowledge Graphs with Large Language Models},
+-      author={Jiashuo Sun and Chengjin Xu and Lixin Su and Zhengren Dai and Yan Zhang and Xinhua Zhang},
++      title={Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph},
++      author={Jiashuo Sun and Chengjin Xu and Lumingyuan Tang and Saizhuo Wang and Chen Lin and Yeyun Gong and Lionel Ni and Heung-Yeung Shum and Jian Guo},
+       booktitle={Proceedings of the International Conference on Learning Representations (ICLR)},
+       year={2024},
+ }
+@@ -108,7 +108,7 @@
+ @inproceedings{zheng2023judging,
+       title={Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena},
+       author={Lianmin Zheng and Wei-Lin Chiang and Ying Sheng and Siyuan Zhuang and Zhanghao Wu and Yonghao Zhuang and Zi Lin and Zhuohan Li and Dacheng Li and Eric P. Xing and Hao Zhang and Joseph E. Gonzalez and Ion Stoica},
+-      booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
++      booktitle={Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
+       year={2023},
+ }
+ 
+@@ -131,23 +131,21 @@
+ 
+ @inproceedings{asai2024selfrag,
+       title={Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection},
+-      author={Akari Asai and Sewon Min and Zexuan Zhong and Danqi Chen},
++      author={Akari Asai and Zeqiu Wu and Yizhong Wang and Avi Sil and Hannaneh Hajishirzi},
+       booktitle={Proceedings of the International Conference on Learning Representations (ICLR)},
+       year={2024}
+ }
+ 
+-@misc{bernal2024hipporag,
+-      title={HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models}, 
+-      author={Bernal Jimenez Gutierrez and Yiheng Shu and Yu Gu and Michihiro Yasunaga and Yu Su},
+-      year={2024},
+-      eprint={2405.14831},
+-      archivePrefix={arXiv},
+-      primaryClass={cs.CL}
++@inproceedings{bernal2024hipporag,
++      title={HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models},
++      author={Bernal Jim{\'e}nez Guti{\'e}rrez and Yiheng Shu and Yu Gu and Michihiro Yasunaga and Yu Su},
++      booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
++      year={2024}
+ }
+ 
+ @article{hoenig2001abuse,
+   author = {Hoenig, John M. and Heisey, Dennis M.},
+-  title = {The Abuse of Power: The Pervasive Fallacy of Analyzing Statistical Power for Data Analysis},
++  title = {The Abuse of Power: The Pervasive Fallacy of Power Calculations for Data Analysis},
+   journal = {The American Statistician},
+   volume = {55},
+   number = {1},
+@@ -160,6 +158,7 @@
+   title={LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning},
+   author={Chen, Zerui and Zhang, Qinggang and Xiang, Zhishang and Wei, Zhimin and Gao, Linfeng and Huang, Xiao and Zhang, Zhihong and Su, Jinsong},
+   booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
++  pages={37455--37484},
+   year={2026},
+   doi={10.18653/v1/2026.acl-long.1738}
+ }
+@@ -188,10 +187,10 @@
+ }
+ 
+ @inproceedings{hou2024clerc,
+-  title={{CLERC}: A Dataset for Legal Case Retrieval and Retrieval-Augmented Analysis Generation},
++  title={{CLERC}: A Dataset for {U.S.} Legal Case Retrieval and Retrieval-Augmented Analysis Generation},
+   author={Hou, Abe Bohan and Weller, Orion and Qin, Guanghui and Yang, Eugene and Lawrie, Dawn and Holzenberger, Nils and Blair-Stanek, Andrew and Van Durme, Benjamin},
+   booktitle={Findings of the Association for Computational Linguistics: NAACL 2025},
+-  pages={4930--4958},
++  pages={7913--7928},
+   year={2025}
+ }
+ 
+--- a/main.tex
++++ b/main.tex
+@@ -134,11 +134,11 @@
+ 
+ \section{Related Work}
+ \label{sec:related-work}
+-The foundational paradigm of Retrieval-Augmented Generation (RAG) \cite{lewis2020retrieval, guu2020realm} decoupled parametric LLM memory from external knowledge bases. However, standard RAG suffers from severe vulnerabilities when managing continuous knowledge drift and multi-step reasoning. To structure retrieved evidence, recent work has pivoted toward graph-based architectures. Microsoft Research introduced GraphRAG \cite{edge2024graphrag}, which constructs hierarchical entity-relation communities for global query summarization. Similarly, Sun et al. \cite{sun2024thinkongraph} developed Think-on-Graph (ToG) to execute iterative LLM-guided reasoning over knowledge graphs. In temporal domains, Liu and Cao \cite{liu2026raglearningunderstandinglimits} introduced Chronos to track dynamic events in an Event Evolution Graph (EEG), Zhang et al. \cite{zhang2025respectingtemporalcausalconsistencyentityevent} proposed E2RAG to preserve temporal-causal consistency across entity-event subgraphs, and Zhu et al. \cite{zhu2025rightanswerrighttime} developed STAR-RAG for time-sensitive rule graph summarization. Within the legal domain, recent architectures have explored structured representations: Chen et al.~\cite{chen2026legalgraphrag} proposed LegalGraphRAG, deploying multi-agent reasoning over a tripartite legal knowledge graph (ontology, fact, and rule layers) for statutory civil and criminal law, while de Martim~\cite{demartim2025satgraphrag} introduced SAT-Graph RAG to trace diachronic statutory norm versions across formal constitutional amendments. However, these systems model codified statutory rules or formal legislative amendment events; in contrast, common-law judicial systems require tracking the longitudinal evolution of precedent across citation networks, where earlier decisions remain presumptive authority unless explicitly distinguished, limited, or overruled. Furthermore, static graph models retrieve structural summaries but lack the procedural logic required to execute multi-hop reasoning over evolving precedents.
+-
+-To bridge this gap in procedural logic, recent research has explored augmenting retrieval with intermediate reasoning trajectories rather than static factual snippets alone. Li et al. \cite{li2025cotragintegratingchainthought} demonstrated this through the CoT-RAG framework, establishing that retrieving structured reasoning sub-cases and decision trees significantly mitigates logical biases compared to unstructured text retrieval. The broader transition toward System 2 agentic reasoning has been mapped by Lin et al. \cite{lin2025comprehensivesurveyreinforcementlearningbased} and Liang et al. \cite{liang2025reasoningrag12}, who detail multi-stage pipelines where autonomous agents dynamically identify knowledge gaps and generate intermediate reasoning traces to inform subsequent search actions. In parallel, the legal AI community has established rigorous evaluation benchmarks to measure procedural reasoning capabilities: CaseHOLD \cite{zheng2021casehold} evaluates judicial holding identification, while the Common Law Case Law Retrieval Benchmark (CLERC) \cite{hou2024clerc} measures multi-step precedent retrieval. These benchmarks confirm that standard lexical or dense retrievers frequently retrieve irrelevant or superseded authority unless procedural reasoning context is explicitly preserved. However, existing trace-retrieval frameworks have been predominantly evaluated on quantitative domains or static statutory collections, leaving them largely untested in longitudinal common-law environments where precedent evolution alters substantive legal authority over time.
+-
+-Beyond the challenge of retrieving complex reasoning traces and temporal data, the successful integration of this multi-faceted information relies entirely on the ``connective tissue'' of the RAG pipeline: query routers and autonomous evaluators. Hashmi \cite{hashmi2026adaptivequeryroutingtierbased} highlighted the rigidity of standard single-channel retrieval, introducing an Adaptive Hybrid Retrieval framework to route queries dynamically, noting that pure vector similarity frequently fails to capture structural navigation. More critically, the evaluation mechanisms governing these routers are fundamentally flawed. Yalavarthi \cite{yalavarthi2026opensourcereproductionexplainabilityanalysis} conducted a SHAP explainability analysis on the widely adopted Corrective RAG (CRAG) architecture, mathematically proving that its standard T5-based evaluator functions purely as a named entity alignment detector. Consequently, the CRAG evaluator misclassified $88.3\%$ of conceptual science tasks as ambiguous and achieved only $5.0\%$ accuracy on non-entity queries. The real-world consequences of these shallow heuristics were exposed by Putta et al. \cite{putta2026casefactsbenchmarklegalfactchecking} via the CaseFacts benchmark, which demonstrated that augmenting models with unrestricted web search actively degrades performance in legal fact-checking compared to closed-book baselines. Because standard retrievers rely on lexical matching, they flood the context window with noisy, overruled precedents, failing to recognize when a fact has been logically overturned. These findings highlight a critical architectural gap: current systems lack the genuine Natural Language Inference (NLI) capabilities required for true semantic entailment.
++The foundational paradigm of Retrieval-Augmented Generation (RAG) \cite{lewis2020retrieval, guu2020realm} decoupled parametric LLM memory from external knowledge bases. However, standard RAG suffers from severe vulnerabilities when managing continuous knowledge drift and multi-step reasoning. To structure retrieved evidence, recent work has pivoted toward graph-based architectures. Microsoft Research introduced GraphRAG \cite{edge2024graphrag}, which constructs hierarchical entity-relation communities for global query summarization. Similarly, Sun et al. \cite{sun2024thinkongraph} developed Think-on-Graph (ToG) to execute iterative LLM-guided reasoning over knowledge graphs. In temporal domains, Liu and Cao \cite{liu2026raglearningunderstandinglimits} introduced a continuous-knowledge-drift benchmark and Chronos, a time-aware retrieval method that organizes evidence into an Event Evolution Graph (EEG), Zhang et al. \cite{zhang2025respectingtemporalcausalconsistencyentityevent} proposed E2RAG to preserve temporal-causal consistency across entity-event subgraphs, and Zhu et al. \cite{zhu2025rightanswerrighttime} developed STAR-RAG for time-sensitive rule graph summarization. Within the legal domain, recent architectures have explored structured representations: Chen et al.~\cite{chen2026legalgraphrag} proposed LegalGraphRAG, deploying a Researcher, Auditor and Adjudicator multi-agent system over a hierarchical legal graph that organizes legal sources by abstraction level, while de Martim~\cite{demartim2025satgraphrag} introduced SAT-Graph RAG to trace diachronic statutory norm versions across formal constitutional amendments. However, these systems organize legal sources by abstraction level or model formal legislative amendment events; common-law judicial systems additionally require tracking the longitudinal evolution of precedent across citation networks, where earlier decisions remain presumptive authority unless explicitly distinguished, limited, or overruled. Furthermore, static graph models retrieve structural summaries but lack the procedural logic required to execute multi-hop reasoning over evolving precedents.
++
++To bridge this gap in procedural logic, recent research has explored augmenting retrieval with intermediate reasoning trajectories rather than static factual snippets alone. Li et al. \cite{li2025cotragintegratingchainthought} demonstrated this through the CoT-RAG framework, which combines knowledge-graph-guided chain-of-thought generation with retrieval and reports gains of $4.0\%$ to $44.3\%$ across nine public reasoning datasets. The broader transition toward System 2 agentic reasoning has been mapped by Lin et al. \cite{lin2025comprehensivesurveyreinforcementlearningbased} and Liang et al. \cite{liang2025reasoningrag12}, who detail multi-stage pipelines where autonomous agents dynamically identify knowledge gaps and generate intermediate reasoning traces to inform subsequent search actions. In parallel, the legal AI community has established rigorous evaluation benchmarks to measure procedural reasoning capabilities: CaseHOLD \cite{zheng2021casehold} evaluates judicial holding identification, while CLERC \cite{hou2024clerc}, a dataset for U.S. legal case retrieval and retrieval-augmented analysis generation, evaluates case retrieval and analysis drafting. As we read them, neither benchmark specifically targets superseded or overruled authority, which is the gap that TERRA's evaluation addresses. However, existing trace-retrieval frameworks have been predominantly evaluated on quantitative domains or static statutory collections, leaving them largely untested in longitudinal common-law environments where precedent evolution alters substantive legal authority over time.
++
++Beyond the challenge of retrieving complex reasoning traces and temporal data, the successful integration of this multi-faceted information relies entirely on the ``connective tissue'' of the RAG pipeline: query routers and autonomous evaluators. Hashmi \cite{hashmi2026adaptivequeryroutingtierbased} highlighted the rigidity of standard single-channel retrieval, introducing an Adaptive Hybrid Retrieval framework to route queries dynamically, noting that pure vector similarity frequently fails to capture structural navigation. More critically, the evaluation mechanisms governing these routers are themselves open to question. Yalavarthi \cite{yalavarthi2026opensourcereproductionexplainabilityanalysis} conducted a SHAP explainability analysis of the T5-based retrieval evaluator in the widely adopted Corrective RAG (CRAG) architecture, finding that it prioritizes named-entity matching over semantic understanding and shows domain-transfer limitations on scientific questions. The real-world consequences of these shallow heuristics were exposed by Putta et al. \cite{putta2026casefactsbenchmarklegalfactchecking} via the CaseFacts benchmark, which demonstrated that augmenting models with unrestricted web search actively degrades performance in legal fact-checking compared to closed-book baselines. Because standard retrievers rely on lexical matching, they flood the context window with noisy, overruled precedents, failing to recognize when a fact has been logically overturned. These findings highlight a critical architectural gap: current systems lack the genuine Natural Language Inference (NLI) capabilities required for true semantic entailment.
+ 
+ Ultimately, a comprehensive review of this literature reveals that addressing these vulnerabilities in isolation is insufficient; no prior architecture unifies temporal precedent management, node-level procedural reasoning trace retrieval, and semantic-entailment evaluation into a single, cohesive pipeline. Graph models track chronological topology but lack procedural reasoning logic; trace models enhance reasoning but lack temporal awareness; and current routers rely on superficial keyword-matching that triggers catastrophic failure in high-stakes domains. The proposed architecture directly addresses this convergence gap, as summarized in the comprehensive architectural and doctrinal feature comparison of Table~\ref{tab:system_comparison}. By cross-linking a temporal Event Evolution Graph with a node-level procedural reasoning trace database, it ensures that structural precedent topology (what happened and when) and operative judicial analysis (issue, test, and holding) are retrieved as a semantically aligned pair. Furthermore, it replaces flawed entity-alignment evaluators with an autonomous NLI entailment grader and utilizes a continuous three-way Traffic Cop router to dynamically balance textual, graphical, and procedural data. This design establishes a dual-phase framework capable of addressing continuous knowledge drift (empirically examined under incremental corpus snapshot expansions in Section~\ref{subsec:temporal-update-stability}) and multi-hop reasoning without requiring continuous foundational model retraining.
+ 
+@@ -400,7 +400,7 @@
+ \label{subsec:eval-metrics}
+ System performance is evaluated across five quantitative dimensions:
+ \begin{itemize}
+-    \item \textbf{Faithfulness ($0.0$--$1.0$):} Evaluated via an LLM-as-a-judge framework \cite{roig2026scalablereliableevaluationai} using \texttt{databricks-meta-llama-3-3-70b-instruct} operating with an adversarial ``skeptical critic'' persona. The judge model is explicitly decoupled from the inference models to eliminate circular self-evaluation bias.
++    \item \textbf{Faithfulness ($0.0$--$1.0$):} Evaluated via an LLM-as-a-judge framework \cite{zheng2023judging} using \texttt{databricks-meta-llama-3-3-70b-instruct} operating with an adversarial ``skeptical critic'' persona. The judge model is explicitly decoupled from the inference models to eliminate circular self-evaluation bias.
+     \item \textbf{Relevance ($0.0$--$1.0$):} Scored by the LLM judge to measure query-answer directness and structural completeness.
+     \item \textbf{ROUGE-L F1 and Recall (Supplementary):} Computed for Categories A and B against researcher-constructed ground-truth reference answers via deterministic tokenized LCS matching, providing an LLM-independent supplementary lexical alignment metric. Ground-truth doctrinal claims and reference holdings were cross-referenced against standard public legal reference sources (Cornell LII, Oyez, CRS \textit{Constitution Annotated}) without independent legal certification. ROUGE-L is strictly supplementary: exact n-gram matching cannot distinguish active doctrine from overruled precedent, heavily penalizes substantive paraphrasing and detailed analyses via candidate length, and scores defensive refusals as zero. The modest judge--ROUGE correlation ($r = \JudgePearsonR$; Section~\ref{subsec:validation-methodology}) confirms that lexical matching captures only a fraction of legal semantic correctness; primary conclusions are grounded in dual-judge Faithfulness, citation graph recovery, and adversarial safety rates.
+     \item \textbf{Safety Rejection and Multi-Class Robustness Rate (\%):} Percentage of out-of-domain (Category C) and adversarial deception (Category D) queries correctly neutralized. For Category D, metrics are formally decoupled into: Explicit Safety Refusal Rate ($R_{\text{ref}}$, declining to affirm the invalid prompt), Verified Substantive Refutation Rate ($R_{\text{refut}}$, actively refuting the false premise without fatal error), Total Safe Handling Rate ($R_{\text{safe}} = R_{\text{ref}} \cup R_{\text{refut}}$), Fatal Error Rate ($R_{\text{fatal}}$, credulously validating false or overruled doctrine), and Uncommitted Hedge Rate ($R_{\text{hedge}}$, equivocal non-refusal non-answers).
+@@ -842,7 +842,7 @@
+ \subsection{Standardized External Benchmark Evaluation on CLERC (NAACL 2025)}
+ \label{subsec:clerc-generalization}
+ 
+-While the internal \numUniqueQueries-query benchmark rigorously isolates specific algorithmic mechanisms (Sections~\ref{subsec:safety-and-factual}--\ref{subsec:ablation-study}) and CaseFacts establishes external fact-checking and overruling recognition (Section~\ref{subsec:casefacts-generalization}), evaluating on researcher-crafted queries leaves open whether the architecture generalizes to standardized legal retrieval and generative drafting benchmarks designed by independent natural language processing teams. To address this question, we evaluate TERRA on a stratified sample of \textbf{CLERC} (\textit{Case Law Evaluation and Retrieval Corpus}; Findings of NAACL 2025) \cite{hou2024clerc}, a standardized legal benchmark constructed by Johns Hopkins University and collaborating institutions.
++While the internal \numUniqueQueries-query benchmark rigorously isolates specific algorithmic mechanisms (Sections~\ref{subsec:safety-and-factual}--\ref{subsec:ablation-study}) and CaseFacts establishes external fact-checking and overruling recognition (Section~\ref{subsec:casefacts-generalization}), evaluating on researcher-crafted queries leaves open whether the architecture generalizes to standardized legal retrieval and generative drafting benchmarks designed by independent natural language processing teams. To address this question, we evaluate TERRA on a stratified sample of \textbf{CLERC} (Findings of NAACL 2025) \cite{hou2024clerc}, a standardized legal benchmark constructed by Johns Hopkins University and collaborating institutions.
+ 
+ \subsubsection{Four-Layer Scientific Evaluation Architecture}
+ \label{subsubsec:four-layer-eval}
+@@ -1092,7 +1092,7 @@
+ \section{Conclusion}
+ \label{sec:conclusion}
+ 
+-This paper introduced TERRA, an experimental dual-phase GraphRAG architecture addressing knowledge drift and multi-step legal reasoning on historical SCOTUS jurisprudence (\CorpusTemporalSpan). Structuring \CorpusTotalOpinions\ authentic decisions (\CorpusPrecedentEdges\ citation edges) with procedural reasoning traces, TERRA enables inference via Traffic Cop routing, BFS traversal, and an NLI grader evaluating retrieved evidence. Benchmarking across \numUniqueQueries\ queries (\numTotalEvals\ evaluations) shows higher Category~B multi-hop faithfulness than Flat Vector RAG, HippoRAG, and GraphRAG ($\Delta$ from $\CatBTerraVsHippoRAGDelta$ to $\CatBTerraVsGraphRAGDelta$; $q<0.05$), though not over Direct LLM ($\CatBTerraVsDirectLLMDelta$); higher overall faithfulness ($\TerraOverallFaithfulnessMean$ vs.\ $\HippoRAGOverallFaithfulnessMean$, overlapping CIs; $\TerraAnswerOnlyFaithfulnessMean$); and $\TerraCatDSafeHandlingRate$ adversarial safe handling ($\TerraCatDRejection$ refusals, \TerraCatDRefutations\ refutations). Constraints include \TerraCatDFatalErrors\ fatal errors, false refusals on \TerraCatAFalseRefusals\ Category~A and \TerraCatBFalseRefusals\ Category~B queries, and reliance on curated overruling annotations (Section~\ref{subsec:obscure-generalization}). Critically, because evaluations rely on automated LLM judges without licensed attorneys (Section~\ref{subsec:limitations}), human expert review remains an essential prerequisite for deployment. Citation graphs grounded with procedural traces preserve longitudinal stability (Section~\ref{subsec:temporal-update-stability}) \cite{edge2024graphrag, sun2024thinkongraph, zheng2023judging}.
++This paper introduced TERRA, an experimental dual-phase GraphRAG architecture addressing knowledge drift and multi-step legal reasoning on historical SCOTUS jurisprudence (\CorpusTemporalSpan). Structuring \CorpusTotalOpinions\ authentic decisions (\CorpusPrecedentEdges\ citation edges) with procedural reasoning traces, TERRA enables inference via Traffic Cop routing, BFS traversal, and an NLI grader evaluating retrieved evidence. Benchmarking across \numUniqueQueries\ queries (\numTotalEvals\ evaluations) shows higher Category~B multi-hop faithfulness than Flat Vector RAG, HippoRAG, and GraphRAG ($\Delta$ from $\CatBTerraVsHippoRAGDelta$ to $\CatBTerraVsGraphRAGDelta$; $q<0.05$), though not over Direct LLM ($\CatBTerraVsDirectLLMDelta$); higher overall faithfulness ($\TerraOverallFaithfulnessMean$ vs.\ $\HippoRAGOverallFaithfulnessMean$, overlapping CIs; $\TerraAnswerOnlyFaithfulnessMean$); and $\TerraCatDSafeHandlingRate$ adversarial safe handling ($\TerraCatDRejection$ refusals, \TerraCatDRefutations\ refutations). Constraints include \TerraCatDFatalErrors\ fatal errors, false refusals on \TerraCatAFalseRefusals\ Category~A and \TerraCatBFalseRefusals\ Category~B queries, and reliance on curated overruling annotations (Section~\ref{subsec:obscure-generalization}). Critically, because evaluations rely on automated LLM judges without licensed attorneys (Section~\ref{subsec:limitations}), human expert review remains an essential prerequisite for deployment. Citation graphs grounded with procedural traces preserve longitudinal stability (Section~\ref{subsec:temporal-update-stability}).
+ 
+ %\newpage
+ \appendices

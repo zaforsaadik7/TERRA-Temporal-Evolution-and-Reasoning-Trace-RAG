@@ -1,0 +1,342 @@
+{
+  "matched": {
+    "ALL": {
+      "H": {
+        "assigned": 350,
+        "operational_verifier_refusals": {
+          "numerator": 172,
+          "denominator": 350,
+          "fraction": 0.49142857142857144
+        },
+        "generator_invocation": {
+          "numerator": 178,
+          "denominator": 350,
+          "fraction": 0.5085714285714286
+        },
+        "judge_concordance_status_counts": {
+          "full_substantive": 77,
+          "unclassifiable": 164,
+          "explicit_abstention": 105,
+          "partial_or_mixed": 4
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 77,
+          "denominator": 350,
+          "fraction": 0.22
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 204,
+          "denominator": 350,
+          "fraction": 0.5828571428571429
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      },
+      "T": {
+        "assigned": 350,
+        "operational_verifier_refusals": {
+          "numerator": 272,
+          "denominator": 350,
+          "fraction": 0.7771428571428571
+        },
+        "generator_invocation": {
+          "numerator": 78,
+          "denominator": 350,
+          "fraction": 0.22285714285714286
+        },
+        "judge_concordance_status_counts": {
+          "full_substantive": 29,
+          "unclassifiable": 116,
+          "explicit_abstention": 201,
+          "partial_or_mixed": 2,
+          "premise_refutation": 2
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 29,
+          "denominator": 350,
+          "fraction": 0.08285714285714285
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 129,
+          "denominator": 350,
+          "fraction": 0.36857142857142855
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      }
+    },
+    "A": {
+      "H": {
+        "assigned": 100,
+        "operational_verifier_refusals": {
+          "numerator": 47,
+          "denominator": 100,
+          "fraction": 0.47
+        },
+        "generator_invocation": {
+          "numerator": 53,
+          "denominator": 100,
+          "fraction": 0.53
+        },
+        "judge_concordance_status_counts": {
+          "full_substantive": 46,
+          "unclassifiable": 34,
+          "explicit_abstention": 19,
+          "partial_or_mixed": 1
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 46,
+          "denominator": 100,
+          "fraction": 0.46
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 78,
+          "denominator": 100,
+          "fraction": 0.78
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      },
+      "T": {
+        "assigned": 100,
+        "operational_verifier_refusals": {
+          "numerator": 74,
+          "denominator": 100,
+          "fraction": 0.74
+        },
+        "generator_invocation": {
+          "numerator": 26,
+          "denominator": 100,
+          "fraction": 0.26
+        },
+        "judge_concordance_status_counts": {
+          "full_substantive": 22,
+          "unclassifiable": 39,
+          "explicit_abstention": 39
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 22,
+          "denominator": 100,
+          "fraction": 0.22
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 60,
+          "denominator": 100,
+          "fraction": 0.6
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      }
+    },
+    "B": {
+      "H": {
+        "assigned": 100,
+        "operational_verifier_refusals": {
+          "numerator": 4,
+          "denominator": 100,
+          "fraction": 0.04
+        },
+        "generator_invocation": {
+          "numerator": 96,
+          "denominator": 100,
+          "fraction": 0.96
+        },
+        "judge_concordance_status_counts": {
+          "partial_or_mixed": 3,
+          "unclassifiable": 73,
+          "full_substantive": 20,
+          "explicit_abstention": 4
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 20,
+          "denominator": 100,
+          "fraction": 0.2
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 73,
+          "denominator": 100,
+          "fraction": 0.73
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      },
+      "T": {
+        "assigned": 100,
+        "operational_verifier_refusals": {
+          "numerator": 69,
+          "denominator": 100,
+          "fraction": 0.69
+        },
+        "generator_invocation": {
+          "numerator": 31,
+          "denominator": 100,
+          "fraction": 0.31
+        },
+        "judge_concordance_status_counts": {
+          "explicit_abstention": 65,
+          "unclassifiable": 32,
+          "partial_or_mixed": 2,
+          "full_substantive": 1
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 1,
+          "denominator": 100,
+          "fraction": 0.01
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 23,
+          "denominator": 100,
+          "fraction": 0.23
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      }
+    },
+    "C": {
+      "H": {
+        "assigned": 75,
+        "operational_verifier_refusals": {
+          "numerator": 75,
+          "denominator": 75,
+          "fraction": 1.0
+        },
+        "generator_invocation": {
+          "numerator": 0,
+          "denominator": 75,
+          "fraction": 0.0
+        },
+        "judge_concordance_status_counts": {
+          "explicit_abstention": 66,
+          "unclassifiable": 9
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 0,
+          "denominator": 75,
+          "fraction": 0.0
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 8,
+          "denominator": 75,
+          "fraction": 0.10666666666666667
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      },
+      "T": {
+        "assigned": 75,
+        "operational_verifier_refusals": {
+          "numerator": 75,
+          "denominator": 75,
+          "fraction": 1.0
+        },
+        "generator_invocation": {
+          "numerator": 0,
+          "denominator": 75,
+          "fraction": 0.0
+        },
+        "judge_concordance_status_counts": {
+          "explicit_abstention": 68,
+          "unclassifiable": 7
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 0,
+          "denominator": 75,
+          "fraction": 0.0
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 7,
+          "denominator": 75,
+          "fraction": 0.09333333333333334
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      }
+    },
+    "D": {
+      "H": {
+        "assigned": 75,
+        "operational_verifier_refusals": {
+          "numerator": 46,
+          "denominator": 75,
+          "fraction": 0.6133333333333333
+        },
+        "generator_invocation": {
+          "numerator": 29,
+          "denominator": 75,
+          "fraction": 0.38666666666666666
+        },
+        "judge_concordance_status_counts": {
+          "unclassifiable": 48,
+          "explicit_abstention": 16,
+          "full_substantive": 11
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 11,
+          "denominator": 75,
+          "fraction": 0.14666666666666667
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 45,
+          "denominator": 75,
+          "fraction": 0.6
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      },
+      "T": {
+        "assigned": 75,
+        "operational_verifier_refusals": {
+          "numerator": 54,
+          "denominator": 75,
+          "fraction": 0.72
+        },
+        "generator_invocation": {
+          "numerator": 21,
+          "denominator": 75,
+          "fraction": 0.28
+        },
+        "judge_concordance_status_counts": {
+          "unclassifiable": 38,
+          "explicit_abstention": 29,
+          "full_substantive": 6,
+          "premise_refutation": 2
+        },
+        "both_judges_substantive_proxy": {
+          "numerator": 6,
+          "denominator": 75,
+          "fraction": 0.08
+        },
+        "at_least_one_judge_substantive_proxy": {
+          "numerator": 39,
+          "denominator": 75,
+          "fraction": 0.52
+        },
+        "strict_substantive_coverage": null,
+        "validated_supported_answer_yield": null,
+        "conditional_legal_error": null,
+        "not_estimable_reason": "Stored judges and pipeline events are not independent semantic/legal reference labels."
+      }
+    }
+  },
+  "scope": "fixed-benchmark descriptive pipeline events and named judge proxies; no legal accuracy or new primary endpoint",
+  "failures": 0,
+  "unknown_support_references": 700
+}

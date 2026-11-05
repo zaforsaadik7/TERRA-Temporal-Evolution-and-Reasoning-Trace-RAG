@@ -1,0 +1,1689 @@
+{
+  "schema_version": 1,
+  "status": "EVIDENCE_QUALIFIED_INVENTORY_NOT_EXECUTION_CERTIFICATION",
+  "records": [
+    {
+      "id": "E01",
+      "name": "Historical primary TERRA",
+      "population": {
+        "value": {
+          "queries": 350,
+          "categories": [
+            100,
+            100,
+            75,
+            75
+          ]
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "artifacts": [
+        "data/terra_canonical_v2_eval.json",
+        "TERRA_EDITORIAL_RESTART_V2/experiment_provenance_20261012_01/PROVENANCE_REPORT.md",
+        "TERRA_EDITORIAL_RESTART_V2/experiment_provenance_20261012_01/EVIDENCE_RESPONSE_REVIEW_01.md"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": {
+          "reported_router": "gemma-3-12b",
+          "reported_generator_verifier": "llama-3.3-70b-instruct",
+          "reported_temperature": 0.0,
+          "historical_temperature_linkage": null
+        },
+        "evidence_kind": "RECORDED_OR_SOURCE_DESCRIBED",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": {
+        "sept6_baseline_rejudged": 1400,
+        "issue6_deployed": 350
+      },
+      "retained_uncertainty": [
+        "350 issue6_deployed rows; output identity authenticated only as present bytes.",
+        "Historical code/graph/index linkage unavailable; later code describes capabilities only."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E02",
+      "name": "Historical comparative baselines",
+      "population": {
+        "value": {
+          "source_queries": 350,
+          "arms": 4,
+          "arm_records": 1400
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "artifacts": [
+        "data/terra_canonical_v2_eval.json",
+        "terra_baselines_eval_raw.json"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": {
+          "reported_generator": "llama-3.3-70b-instruct"
+        },
+        "evidence_kind": "RECORDED_OR_SOURCE_DESCRIBED",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": {
+        "sept6_baseline_rejudged": 1400,
+        "issue6_deployed": 350
+      },
+      "retained_uncertainty": [
+        "Baseline adaptations/configuration descriptions do not establish historical graph/index/code identity.",
+        "Do not infer GraphRAG community algorithm or HippoRAG implementation from method names."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E03",
+      "name": "Canonical dual-judge scoring and derived calibration/statistics",
+      "population": {
+        "value": {
+          "arm_records": 1750
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "artifacts": [
+        "data/terra_canonical_v2_eval.json",
+        "eval_terra.py",
+        "TERRA_EDITORIAL_RESTART_V2/working/src/generated_stats.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": {
+          "recorded_fields": [
+            "faithfulness_qwen",
+            "faithfulness_gpt",
+            "raw_judge_scores"
+          ]
+        },
+        "evidence_kind": "RECORDED_OR_SOURCE_DESCRIBED",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "ROUGE/faithfulness correlation and paired tests are derived views of canonical records, not new executions.",
+        "Compatible evaluator source is not automatically the historical evaluator hash."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E04",
+      "name": "Fresh prospective matched H/T study",
+      "population": {
+        "value": {
+          "queries": 350,
+          "arm_outcomes": 700,
+          "settled_calls": 2706
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "reports/matched_study_r03_20261025_01/manifest.json",
+        "limit": null
+      },
+      "artifacts": [
+        "reports/matched_study_r03_20261025_01/manifest.json",
+        "reports/matched_study_r03_20261025_01/postrun/AUDIT_RESULT.json",
+        "reports/matched_study_r03_20261025_01/FINAL_VERIFICATION.json",
+        "reports/matched_study_r03_20261025_01/FINAL_REPORT.md",
+        "TERRA_EDITORIAL_RESTART_V2/working/src/supplement_matched_comparison.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/matched_comparison_main.tex",
+      "historical_code_linkage": {
+        "value": {
+          "frozen_file_manifest": "reports/matched_study_r03_20261025_01/manifest.json"
+        },
+        "evidence_kind": "RECORDED_LINKAGE",
+        "source": "reports/matched_study_r03_20261025_01/manifest.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": {
+          "nodes": 20000,
+          "edges": 145363,
+          "CITES": 145310,
+          "OVERRULES": 53,
+          "authority": "frozen study inputs, not historical attribution"
+        },
+        "evidence_kind": "RECORDED_IDENTITY",
+        "source": "reports/matched_study_r03_20261025_01/manifest.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": {
+          "embedding": "all-MiniLM-L6-v2",
+          "authority": "frozen study manifest; no new database reads"
+        },
+        "evidence_kind": "RECORDED_IDENTITY",
+        "source": "reports/matched_study_r03_20261025_01/manifest.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": {
+          "evidence_tokens": 6000,
+          "generator_verifier_prompt_tokens": 7000,
+          "judge_input_tokens": 15000,
+          "generator_output_tokens": 4096,
+          "tokenization": "frozen role-specific tokenizer/template assets; not tiktoken/o200k",
+          "H": "dense100+BM25_100 RRF60",
+          "T": "2seeds; EASY depth0/2nodes, HARD depth2/40nodes;75/25 directional budgets"
+        },
+        "evidence_kind": "RECORD_OR_SCOPED_DESCRIPTION",
+        "source": "reports/matched_study_r03_20261025_01/manifest.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": {
+          "router": "gemma-3-12b-it-060225",
+          "verifier_generator": "meta-llama-3.3-70b-instruct-121024",
+          "judge1": "qwen3-next-instruct-091725",
+          "judge2": "gpt-oss-120b-080525",
+          "generation_temperature": 0
+        },
+        "evidence_kind": "RECORDED_OR_SOURCE_DESCRIBED",
+        "source": "reports/matched_study_r03_20261025_01/manifest.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": "2026-10-25 run records; exact packet/journal timestamps in pinned manifest",
+        "evidence_kind": "RECORDED_NOT_INDEPENDENTLY_TIMESTAMP_AUTHENTICATED",
+        "source": "reports/matched_study_r03_20261025_01/manifest.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Separate from historical results and failed83-pair attempt.",
+        "Observed endpoint identifiers do not certify weights/server templates; Gemma upstream receipt caveat retained."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E05",
+      "name": "Historical pilot ablation",
+      "population": {
+        "value": {
+          "queries": 35,
+          "arms": 4,
+          "repeats": 5,
+          "stored_observations": 700,
+          "judge_correlation_subset_observations": 525
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "terra_true_ablation_pilot_raw.json",
+        "limit": null
+      },
+      "artifacts": [
+        "terra_true_ablation_pilot_raw.json",
+        "TERRA_EDITORIAL_RESTART_V2/experiment_provenance_20261012_01/EVIDENCE_RESPONSE_REVIEW_01.md",
+        "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "terra_true_ablation_pilot_raw.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "terra_true_ablation_pilot_raw.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "terra_true_ablation_pilot_raw.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "terra_true_ablation_pilot_raw.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": {
+          "single_judge_reported": "llama-3.3-70b-instruct"
+        },
+        "evidence_kind": "RECORDED_OR_SOURCE_DESCRIBED",
+        "source": "terra_true_ablation_pilot_raw.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "terra_true_ablation_pilot_raw.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "700-observation ablation and525-run three-pipeline correlation are distinct populations.",
+        "Large raw file rehashed; existing reviewed schema findings reused, not loaded/re-evaluated.",
+        "No authenticated historical graph/code/index/date linkage."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E06",
+      "name": "Canonical stored-context target matching",
+      "population": {
+        "value": {
+          "category_B_queries": 100,
+          "complete_target_sets": 66
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "artifacts": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "data/terra_canonical_v2_eval.json",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/I1B_REPORT.md"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_retrieval_eval.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "ID/title matcher target-set completeness does not validate ordered connected paths or legal correctness.",
+        "66/62/61 are distinct artifacts; do not infer historical engine identity or byte-identical replay.",
+        "Contemporary bounded diagnostic remains distinct from recorded September execution."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E07",
+      "name": "Legacy stored-context/sensitivity target matching",
+      "population": {
+        "value": {
+          "category_B_queries": 100,
+          "complete_target_sets": 62
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "artifacts": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "data/issue26_hyperparameter_sensitivity.json",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/I1B_REPORT.md"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_retrieval_eval.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "ID/title matcher target-set completeness does not validate ordered connected paths or legal correctness.",
+        "66/62/61 are distinct artifacts; do not infer historical engine identity or byte-identical replay.",
+        "Contemporary bounded diagnostic remains distinct from recorded September execution."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E08",
+      "name": "Separate bounded traversal diagnostic",
+      "population": {
+        "value": {
+          "category_B_queries": 100,
+          "complete_target_sets": 61
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "artifacts": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/I1B_REPORT.md",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/I1B_REPORT.md"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_retrieval_eval.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1b_20261008/stored_context_recount.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "ID/title matcher target-set completeness does not validate ordered connected paths or legal correctness.",
+        "66/62/61 are distinct artifacts; do not infer historical engine identity or byte-identical replay.",
+        "Contemporary bounded diagnostic remains distinct from recorded September execution."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E09",
+      "name": "Obscure overruling suite",
+      "population": {
+        "value": {
+          "questions": 30,
+          "arms": 4,
+          "records": 120
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/obscure_raw_responses.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/obscure_raw_responses.json",
+        "issue18_bundle/scripts_pipeline/ask_terra.py",
+        "TERRA_EDITORIAL_RESTART_V2/experiment_provenance_20261012_01/EVIDENCE_RESPONSE_REVIEW_01.md"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_obscure_overruled_eval.tex",
+      "historical_code_linkage": {
+        "value": {
+          "recorded_and_recovered_sha256": "430fc1b3fd1ce7ed156a711d8e489abe814699c12e1a44c207a3bce7dac788cd"
+        },
+        "evidence_kind": "RECORDED_LINKAGE",
+        "source": "scratch/obscure_raw_responses.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/obscure_raw_responses.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": {
+          "recorded_fingerprint": "per-row _chroma_fingerprint; values extracted in metadata ledger"
+        },
+        "evidence_kind": "RECORDED_IDENTITY",
+        "source": "scratch/obscure_raw_responses.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": {
+          "recorded_temperature": 0,
+          "recorded_max_tokens": 4096,
+          "seeding": "recorded oracle/case-seeding policies; not generic dense-only retrieval"
+        },
+        "evidence_kind": "RECORD_OR_SCOPED_DESCRIPTION",
+        "source": "scratch/obscure_raw_responses.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": {
+          "identifier_semantics": "raw fields plus logging-path review"
+        },
+        "evidence_kind": "RECORDED_OR_SOURCE_DESCRIBED",
+        "source": "scratch/obscure_raw_responses.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/obscure_raw_responses.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": {
+        "records": 120
+      },
+      "retained_uncertainty": [
+        "Recovered code hash binds recorded source, not all dependencies.",
+        "Returned versus requested model logging paths differ; no backend-weight invariance claim."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E10",
+      "name": "Famous D1 contrast",
+      "population": {
+        "value": {
+          "questions": 19,
+          "arms": 4,
+          "records": 76
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/famous_d1_raw_responses.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/famous_d1_raw_responses.json",
+        "issue18_bundle/scripts_pipeline/ask_terra.py",
+        "TERRA_EDITORIAL_RESTART_V2/experiment_provenance_20261012_01/EVIDENCE_RESPONSE_REVIEW_01.md"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_obscure_overruled_eval.tex",
+      "historical_code_linkage": {
+        "value": {
+          "recorded_and_recovered_sha256": "430fc1b3fd1ce7ed156a711d8e489abe814699c12e1a44c207a3bce7dac788cd"
+        },
+        "evidence_kind": "RECORDED_LINKAGE",
+        "source": "scratch/famous_d1_raw_responses.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/famous_d1_raw_responses.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": {
+          "recorded_fingerprint": "per-row _chroma_fingerprint; values extracted in metadata ledger"
+        },
+        "evidence_kind": "RECORDED_IDENTITY",
+        "source": "scratch/famous_d1_raw_responses.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": {
+          "recorded_temperature": 0,
+          "recorded_max_tokens": 4096,
+          "seeding": "recorded oracle/case-seeding policies; not generic dense-only retrieval"
+        },
+        "evidence_kind": "RECORD_OR_SCOPED_DESCRIPTION",
+        "source": "scratch/famous_d1_raw_responses.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": {
+          "identifier_semantics": "raw fields plus logging-path review"
+        },
+        "evidence_kind": "RECORDED_OR_SOURCE_DESCRIBED",
+        "source": "scratch/famous_d1_raw_responses.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/famous_d1_raw_responses.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": {
+        "records": 76
+      },
+      "retained_uncertainty": [
+        "Recovered code hash binds recorded source, not all dependencies.",
+        "Returned versus requested model logging paths differ; no backend-weight invariance claim."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E11",
+      "name": "CaseFacts external suite",
+      "population": {
+        "value": {
+          "source_questions": 170,
+          "positive_questions": 120,
+          "negative_questions": 50,
+          "arm_records": 510
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/casefacts_120_eval_raw.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/casefacts_120_eval_raw.json",
+        "scratch/casefacts_50_refusal_eval_raw.json",
+        "scripts/compute_casefacts_metrics.py"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_casefacts_eval.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/casefacts_120_eval_raw.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/casefacts_120_eval_raw.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/casefacts_120_eval_raw.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/casefacts_120_eval_raw.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/casefacts_120_eval_raw.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/casefacts_120_eval_raw.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": {
+        "scratch/casefacts_120_eval_raw.json": 360,
+        "scratch/casefacts_50_refusal_eval_raw.json": 150
+      },
+      "retained_uncertainty": [
+        "Analysis-script compatibility does not establish inference code/graph/index linkage.",
+        "170questions is not170arm outputs; three arms produce510records.",
+        "Judge and generation fields must retain dataset-specific schemas."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E12",
+      "name": "CLERC external suite",
+      "population": {
+        "value": {
+          "source_questions": 170,
+          "positive_questions": 120,
+          "negative_questions": 50,
+          "arm_records": 510
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/clerc_120_eval_raw.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/clerc_120_eval_raw.json",
+        "scratch/clerc_50_refusal_eval_raw.json",
+        "scripts/compute_clerc_metrics.py"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_clerc_eval.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/clerc_120_eval_raw.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/clerc_120_eval_raw.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/clerc_120_eval_raw.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/clerc_120_eval_raw.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/clerc_120_eval_raw.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/clerc_120_eval_raw.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": {
+        "scratch/clerc_120_eval_raw.json": 360,
+        "scratch/clerc_50_refusal_eval_raw.json": 150
+      },
+      "retained_uncertainty": [
+        "Analysis-script compatibility does not establish inference code/graph/index linkage.",
+        "170questions is not170arm outputs; three arms produce510records.",
+        "Judge and generation fields must retain dataset-specific schemas."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E13",
+      "name": "Temporal leakage probe",
+      "population": {
+        "value": {
+          "assigned_arm_condition_records": 400,
+          "complete_dual_judge": 315,
+          "missing_GPT_OSS": 85
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "data/temporal_leakage_dual_judged.json",
+        "limit": null
+      },
+      "artifacts": [
+        "data/temporal_leakage_dual_judged.json",
+        "data/temporal_leakage_preflight_manifest.json"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/temporal_leakage_dual_judged.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/temporal_leakage_dual_judged.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/temporal_leakage_dual_judged.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/temporal_leakage_dual_judged.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/temporal_leakage_dual_judged.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/temporal_leakage_dual_judged.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Payload hashes establish prompt/context/candidate identity, not generating graph/code identity.",
+        "Missing scores retained; no manual validation claim or new score computation."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E14",
+      "name": "Contemporary distance-only calibration diagnostic",
+      "population": {
+        "value": {
+          "benchmark_queries": 350,
+          "in_domain_A_B": 200,
+          "out_of_context_C": 75,
+          "index_cases": 20000
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "limit": null
+      },
+      "artifacts": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/EXECUTION_AND_SELF_AUDIT_REPORT.md"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_computational_budget.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": {
+          "metric": "raw squared L2",
+          "flag_boundary": ">=1.30",
+          "AUROC": 0.9901333333333333
+        },
+        "evidence_kind": "RECORD_OR_SCOPED_DESCRIPTION",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": "2026-10-08 diagnostic run; exact report records retained",
+        "evidence_kind": "RECORDED_NOT_INDEPENDENTLY_TIMESTAMP_AUTHENTICATED",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/addendum_01/runs/run_1791435903_17576_69cd01c5/contemporary_distance_diagnostic_1791435903_17576_69cd01c5.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Distance-only benchmark query-text embedding, not20k labeled outcome samples.",
+        "No Title Match or deployed formatting tested; historical calibration origin unresolved.",
+        "Canonical no-pre-retrieval-termination claim is retained, not established by this diagnostic."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E15",
+      "name": "Canonical route/category latency and modelled cost",
+      "population": {
+        "value": {
+          "queries": 350,
+          "EASY": 110,
+          "HARD": 240
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "limit": null
+      },
+      "artifacts": [
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/per_query_latency_ledger.csv"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/tables/table_computational_budget.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I1c_20261008/export_approved_01/latency_percentiles_summary.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Derived gross/net timers and category/route populations are distinct.",
+        "Modelled price estimates are not invoices; do not pool with paced prospective-study wall times."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E16",
+      "name": "Temporal update topology stability diagnostic",
+      "population": {
+        "value": {
+          "unique_queries": 82,
+          "pair_observations": 106
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/issue19_temporal_update_results.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/issue19_temporal_update_results.json",
+        "scratch/issue19_prereg.json",
+        "scripts/run_issue19_temporal_update_experiment.py"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/supplement_tables/table_temporal_update_stability.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue19_temporal_update_results.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": {
+          "recorded_active_sha256": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad"
+        },
+        "evidence_kind": "RECORDED_IDENTITY",
+        "source": "scratch/issue19_temporal_update_results.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue19_temporal_update_results.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue19_temporal_update_results.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue19_temporal_update_results.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": "2026-09-23T15:04:40.722369+00:00 recorded metadata",
+        "evidence_kind": "RECORDED_NOT_INDEPENDENTLY_TIMESTAMP_AUTHENTICATED",
+        "source": "scratch/issue19_temporal_update_results.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Recorded timestamp and hashes are not independently authenticated time.",
+        "BFS topology stability does not validate streaming vector updates."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E17",
+      "name": "Corpus/topology, citation precision and overruling audits",
+      "population": {
+        "value": {
+          "corpus_nodes": 20000
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+        "limit": null
+      },
+      "artifacts": [
+        "dataset_20k_cap/terra_eeg_index_20k.json",
+        "data/issue21_preflight.json",
+        "data/issue21_citation_precision_audit.json",
+        "TERRA_EDITORIAL_RESTART_V2/working/src/generated_corpus_stats_20k.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": {
+          "original_artifact_edges": 145366,
+          "CITES": 145310,
+          "OVERRULES": 56
+        },
+        "evidence_kind": "RECORDED_IDENTITY",
+        "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "dataset_20k_cap/terra_eeg_index_20k.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Currently identifiable original graph is145366directed edges, including56OVERRULES; not automatically the graph of every historical run.",
+        "Diameter/path analysis concerns undirected largest WCC; edge audit is not doctrinal validation."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E18",
+      "name": "Doctrinal taxonomy audit",
+      "population": {
+        "value": {
+          "corpus_nodes": 20000
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "data/issue22_preflight.json",
+        "limit": null
+      },
+      "artifacts": [
+        "data/issue22_preflight.json",
+        "data/issue22_taxonomy_audit.json",
+        "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue22_preflight.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue22_preflight.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue22_preflight.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue22_preflight.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue22_preflight.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue22_preflight.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Rule-based categories and automated adjudication are not expert legal ground truth.",
+        "Exact audit sample/weighting/settings remain bound to raw audit and frozen macros."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E19",
+      "name": "Procedural scaffold/span grounding/critic audit",
+      "population": {
+        "value": {
+          "evaluated_index_cases": 20000
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/reasoning_trace_audit_summary.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/reasoning_trace_audit_summary.json",
+        "scripts/ingest_20k_eeg_and_vector_db.py",
+        "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/reasoning_trace_audit_summary.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/reasoning_trace_audit_summary.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/reasoning_trace_audit_summary.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/reasoning_trace_audit_summary.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/reasoning_trace_audit_summary.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/reasoning_trace_audit_summary.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Generic five-step template differs from curated prototype audit population.",
+        "Scaffolds do not extract case-specific reasoning; extraction, metadata and citation graph are separate.",
+        "Raw summary identity does not authenticate original audit runner dependencies."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E20",
+      "name": "Historical Category D certification",
+      "population": {
+        "value": {
+          "queries": 75
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/category_d_rubric_summary_v2.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/category_d_rubric_summary_v2.json",
+        "scripts/certify_category_d_issue6.py",
+        "data/terra_canonical_v2_eval.json"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/category_d_rubric_summary_v2.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/category_d_rubric_summary_v2.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/category_d_rubric_summary_v2.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/category_d_rubric_summary_v2.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/category_d_rubric_summary_v2.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/category_d_rubric_summary_v2.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "46system-flagged refusals and48rubric refusals have different definitions.",
+        "Certification script is current source evidence; nonexpert/automated labels are not legal validation."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E21",
+      "name": "Standalone router evaluation",
+      "population": {
+        "value": {
+          "queries": 350
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/router_evaluation_summary.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/router_evaluation_summary.json",
+        "scratch/compute_router_metrics.py",
+        "data/terra_canonical_v2_eval.json"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/supplement_tables/table_router_eval.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/router_evaluation_summary.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/router_evaluation_summary.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/router_evaluation_summary.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/router_evaluation_summary.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/router_evaluation_summary.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/router_evaluation_summary.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Summary draws from stored routing records; not a fresh independent router run.",
+        "Summary model/platform/metric prose is not independently authenticated hardware or historical execution configuration."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E22",
+      "name": "15-query alternative-generator sensitivity",
+      "population": {
+        "value": {
+          "queries": 15,
+          "category_B": 10,
+          "category_D": 5
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/sensitivity_results.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/sensitivity_results.json",
+        "scratch/sensitivity_check.py"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/supplement_limitations.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/sensitivity_results.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/sensitivity_results.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/sensitivity_results.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/sensitivity_results.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/sensitivity_results.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/sensitivity_results.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Separate from graph-traversal hyperparameter sensitivity and firewall stress cohort.",
+        "Reported Qwen alternative-generation setting is not a backend weight certificate."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E23",
+      "name": "Verifier challenge/stress diagnostics",
+      "population": {
+        "value": {
+          "sample_scope": "task-specific model/challenge records; not full canonical population"
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "scratch/issue2_nli_validation_results.json",
+        "limit": null
+      },
+      "artifacts": [
+        "scratch/issue2_nli_validation_results.json",
+        "scratch/issue2_spotcheck_audit_results.json"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue2_nli_validation_results.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue2_nli_validation_results.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue2_nli_validation_results.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue2_nli_validation_results.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue2_nli_validation_results.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "scratch/issue2_nli_validation_results.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Diagnostic labels and challenge outcomes are not an expert-labelled verifier confusion matrix.",
+        "Do not conflate stress prompts with alternative-generator15-query cohort."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E24",
+      "name": "Development isolation and parameter-audit evidence",
+      "population": {
+        "value": {
+          "scope": "recorded independent development-suite audit"
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "data/issue24_preflight.json",
+        "limit": null
+      },
+      "artifacts": [
+        "data/issue24_preflight.json"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue24_preflight.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue24_preflight.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue24_preflight.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue24_preflight.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue24_preflight.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/issue24_preflight.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Recorded timestamp/check assertions do not independently prove preregistration chronology.",
+        "Threshold50 and directional75/25 coexist; do not invent a config conflict."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E25",
+      "name": "Exploratory author assessment",
+      "population": {
+        "value": {
+          "scope": "two nonexpert authors; original and amended phases kept distinct"
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+        "limit": null
+      },
+      "artifacts": [
+        "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Assessment package/disclosures are governed by I6; present matrix is a cross-reference, not a new validation.",
+        "AI assistance, source-correction limits, reconciliation exposure and absent expert validation remain disclosed."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    },
+    {
+      "id": "E26",
+      "name": "Raw versus clamped canonical score sensitivity",
+      "population": {
+        "value": {
+          "canonical_arm_records": 1750
+        },
+        "evidence_kind": "RECORDED_OR_ACCEPTED_ANALYSIS",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "artifacts": [
+        "data/terra_canonical_v2_eval.json",
+        "TERRA_EDITORIAL_RESTART_V2/working/src/supplement_tables/table_sensitivity_raw_vs_clamped.tex"
+      ],
+      "active_source": "TERRA_EDITORIAL_RESTART_V2/working/src/supplement_tables/table_sensitivity_raw_vs_clamped.tex",
+      "historical_code_linkage": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Compatible later source is not an executed historical commit"
+      },
+      "graph": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Original/corrected graph attribution is not inferred from current code"
+      },
+      "vector_index_embedding": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "retrieval_serialization_budgets": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": null
+      },
+      "model_settings": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Requested/returned identifiers do not certify weights"
+      },
+      "time": {
+        "value": null,
+        "evidence_kind": "UNAVAILABLE",
+        "source": "data/terra_canonical_v2_eval.json",
+        "limit": "Filesystem modification time is not execution time"
+      },
+      "observed_record_counts": null,
+      "retained_uncertainty": [
+        "Derived scoring comparison, not a new provider experiment.",
+        "Original raw scores and correction macros remain frozen; no scoring rerun here."
+      ],
+      "disposition": "RETAIN_EVIDENCE_AND_DISCLOSE_LIMITS"
+    }
+  ]
+}

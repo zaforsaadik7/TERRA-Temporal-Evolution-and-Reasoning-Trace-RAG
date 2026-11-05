@@ -1,0 +1,54 @@
+% CLERC STANDARDIZED EXTERNAL BENCHMARK EVALUATION (TABLE XIV)
+\begingroup\fontsize{9}{11}\selectfont
+\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.12}
+\renewcommand{\theHtable}{tab:clerc_eval-part1}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.25\linewidth}*{3}{>{\raggedright\arraybackslash}p{\dimexpr .233\linewidth-2\tabcolsep\relax}}@{}}
+\caption{Standardized External Benchmark Evaluation on a Stratified Sample of CLERC (Track 1, $N=120$) and TERRA-Specific Out-of-Corpus Refusal Stress Test (Track 2, $N=50$). Evaluated under strict payload parity ($T=0.0$, 4096 tokens, LLaMA 3.3 70B) with two model-distinct non-LLaMA judges (\texttt{qwen3-next-80b-a3b} and \texttt{gpt-oss-120b}, certified zero fallback contaminations). Citation metrics evaluate exact historical reporter matches parsed deterministically via \texttt{eyecite}, reporting Citation $F_1$ along with component Citation Precision (CP) and Citation Recall (CR). Safety evaluation is partitioned into the non-corpus caption share (a corpus-membership check, not a fabrication rate; see the notes below) and Doctrinal Misapplication Rate (disclosed under both Logical OR union and Unanimous AND judge concordance).}\label{tab:clerc_eval}\\
+\multicolumn{4}{>{\raggedright\arraybackslash}p{.94\linewidth}}{\textbf{Panel A: Track 1 Standardized CLERC Sample: Precedent Retrieval \& Drafting ($N=120$: 60 Direct Citation, 60 Indirect Synthesis)}}\\\midrule
+\textbf{Pipeline} & Direct LLM (No RAG) & Flat Vector RAG & \textbf{Full TERRA (Gated Live)}\\\midrule
+\endfirsthead
+\multicolumn{4}{l}{\textit{Table \thetable\ continued.}}\\
+\multicolumn{4}{>{\raggedright\arraybackslash}p{.94\linewidth}}{\textbf{Panel A: Track 1 Standardized CLERC Sample: Precedent Retrieval \& Drafting ($N=120$: 60 Direct Citation, 60 Indirect Synthesis)}}\\\midrule
+\textbf{Pipeline} & Direct LLM (No RAG) & Flat Vector RAG & \textbf{Full TERRA (Gated Live)}\\\midrule
+\endhead
+\textbf{R@1} $\uparrow$ & --- & $\ClercFlatRecallOne$ & $\mathbf{\ClercTerraRecallOne}^*$\\
+\textbf{R@5} $\uparrow$ & --- & $\ClercFlatRecallFive$ & $\mathbf{\ClercTerraRecallFive}$\\
+\textbf{R@10} $\uparrow$ & --- & $\ClercFlatRecallTen$ & $\mathbf{\ClercTerraRecallTen}$\\
+\textbf{MRR@10} $\uparrow$ & --- & $\ClercFlatMRR$ & $\mathbf{\ClercTerraMRR}$\\
+\textbf{nDCG@10} $\uparrow$ & --- & $\ClercFlatNDCG$ & $\mathbf{\ClercTerraNDCG}$\\
+\textbf{ROUGE-L} $\uparrow$ & $\mathbf{\ClercDirectRougeL}$ & $\ClercFlatRougeL$ & $\ClercTerraRougeL^{**}$\\
+\textbf{BLEU-4} $\uparrow$ & $\ClercDirectBleu$ & $\ClercFlatBleu$ & $\mathbf{\ClercTerraBleu}$\\
+\textbf{Cite $F_1$ [CP/CR]} $\uparrow$ & $\mathbf{\ClercDirectCiteFOne}$ & $\ClercFlatCiteFOne$ & $\ClercTerraCiteFOne$\\
+\textbf{Sound.} $\uparrow$ & $\mathbf{\ClercDirectSoundness}$ & $\ClercFlatSoundness$ & $\ClercTerraSoundness$\\
+\textbf{Non-corpus captions} $\downarrow$ & $\ClercDirectFabricationTrackOne$ & $15.0\%$ & $15.3\%$\\
+\textbf{Misapplication [OR / AND]} $\downarrow$ & $\ClercDirectMisapplicationTrackOne$ & $\ClercFlatMisapplicationTrackOne$ & $\mathbf{\ClercTerraMisapplicationTrackOne}$\\
+\bottomrule\end{longtable}
+\addtocounter{table}{-1}
+\renewcommand{\theHtable}{tab:clerc_eval-part2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.25\linewidth}*{3}{>{\raggedright\arraybackslash}p{\dimexpr .233\linewidth-2\tabcolsep\relax}}@{}}
+\caption*{Table \thetable\ continued.}\\
+\multicolumn{4}{>{\raggedright\arraybackslash}p{.94\linewidth}}{\textbf{Panel B: Track 2 TERRA-Specific Out-of-Corpus Refusal \& Safety Stress Test ($N=50$: 39 Post-1980 Decisions, 11 Statutory/Circuit Probes)}}\\\midrule
+\textbf{Pipeline} & Direct LLM (No RAG) & Flat Vector RAG & \textbf{Full TERRA (Gated Live)}\\\midrule
+\endfirsthead
+\multicolumn{4}{l}{\textit{Table \thetable\ continued.}}\\
+\multicolumn{4}{>{\raggedright\arraybackslash}p{.94\linewidth}}{\textbf{Panel B: Track 2 TERRA-Specific Out-of-Corpus Refusal \& Safety Stress Test ($N=50$: 39 Post-1980 Decisions, 11 Statutory/Circuit Probes)}}\\\midrule
+\textbf{Pipeline} & Direct LLM (No RAG) & Flat Vector RAG & \textbf{Full TERRA (Gated Live)}\\\midrule
+\endhead
+\textbf{Total Out-of-Corpus Refusal} & $\ClercDirectRefusalTrackTwo$ & $\ClercFlatRefusalTrackTwo$ & $\mathbf{\ClercTerraRefusalTrackTwo}$\\
+\textbf{Hard NLI Gate Refusal} & 0/50 (0.0\%) & 0/50 (0.0\%) & $\mathbf{\ClercTerraHardRefusalTrackTwo}$\\
+\textbf{Disclosed Reasoning$^\dagger$} & $\ClercDirectDisclosedTrackTwo$ & $\ClercFlatDisclosedTrackTwo$ & $\mathbf{\ClercTerraDisclosedTrackTwo}$\\
+\textbf{Non-corpus captions $\downarrow$} & $\ClercDirectFabricationTrackTwo$ & $11.5\%$ & $8.7\%$\\
+\textbf{Misapplication [OR / AND] $\downarrow$} & $\ClercDirectMisapplicationTrackTwo$ & $\ClercFlatMisapplicationTrackTwo$ & $\mathbf{\ClercTerraMisapplicationTrackTwo}$\\
+\bottomrule\end{longtable}
+
+
+\raggedright \fontsize{8.5}{10.5}\selectfont \textbf{Notes:} Evaluated across 510 total completions (360 Track 1, 150 Track 2) judged by two model-distinct non-LLaMA models (\texttt{qwen3-next-80b-a3b-instruct} and \texttt{gpt-oss-120b}) with certified zero LLaMA fallback contaminations.
+$^*$Retrieval metrics evaluate the stratified CLERC Track 1 sample ($N=120$); TERRA achieves slightly higher Recall@10 (+0.8 percentage points) and nDCG@10 (+0.003) than Flat Vector RAG.
+$^{**}$Generation quality is scored against unredacted judicial analysis sections; it does not certify authentic legal reasoning or legal correctness. Citation metrics parsed via \texttt{eyecite} report Citation $F_1$ alongside component Citation Precision (CP) and Citation Recall (CR).
+$^\dagger$Disclosed Reasoning denotes completions that explicitly identify the query as requiring authorities outside the 1850--1980 historical precedent corpus and ground claims exclusively in validated historical doctrine without fabricating modern precedents.
+Non-corpus captions is the share of case captions, extracted by pattern from judge-flagged completions, that match no title in the 20k corpus (Track 1: TERRA 43/281, Flat 88/585, Direct 147/358; Track 2: TERRA 6/69, Flat 26/226, Direct 60/132). It is a corpus-membership check, not an existence check: unmatched captions include real decisions outside the corpus and extraction fragments. An earlier recorded fabrication value of 0.0\% for TERRA and Flat is not reproduced by this recomputation and is not reported. Doctrinal Misapplication Rate is the judges' flag for doctrinal misapplication or hallucination, computed over all $N$ completions of each pipeline (gate-refused completions are not flagged; among TERRA's 67 generated Track 1 completions the rates are $\ClercTerraMisappGenOr$ under OR and $\ClercTerraMisappGenAnd$ under AND), reported under both Logical OR (conservative union) and Unanimous AND (dual-judge consensus). Citation $F_1$ is computed from micro-pooled CP and CR.
+\endgroup
+
+
+
+

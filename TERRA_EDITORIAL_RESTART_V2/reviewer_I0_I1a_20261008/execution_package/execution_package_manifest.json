@@ -1,0 +1,62 @@
+{
+  "package_name": "TERRA_I0_I1a_Contemporary_Diagnostic_Execution_Package",
+  "frozen_timestamp_utc": "2026-10-08 03:22:52Z",
+  "workspace_root": "F:/TERRA -Copy",
+  "python_executable_pinned": {
+    "path": "C:/Users/zafor/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+    "sha256": "3adbbf2af609e206e3ca18cd55fc7c4b52f5c8bb8218dd99fd5a9e50d7a193cd",
+    "version": "3.14.3"
+  },
+  "runtime_library_pins": {
+    "chromadb": "1.5.9",
+    "numpy": "2.5.1",
+    "onnxruntime": "1.27.0"
+  },
+  "protected_data_inputs": {
+    "terra_350_benchmark.json": {
+      "path": "terra_350_benchmark.json",
+      "sha256": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3"
+    },
+    "terra_175_benchmark.json": {
+      "path": "terra_175_benchmark.json",
+      "sha256": "8a474d2fac1d72d32feda410971332e49ffb6f294c58c49b8c892802f70b5305"
+    },
+    "chroma_sqlite3": {
+      "path": "dataset_20k_cap/vector_db_20k/chroma.sqlite3",
+      "sha256": "3ee12a495b1ccf8320bc7d6fdbd08f180b2a87865713cee387ac2fb481fa30d6"
+    },
+    "snapshot_manifest": {
+      "path": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/pre_run_snapshot_20k/snapshot_manifest.json",
+      "sha256": "c3f60ad0df863787a123616ea1cc35106ac8f5494890a442ee586801eda981c2"
+    }
+  },
+  "frozen_execution_command": "C:\\Users\\zafor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe scripts/run_diagnostic_harness.py --execute-diagnostic --enforced-offline-condition TERRA_Offline_Diagnostic",
+  "working_directory": "F:\\TERRA -Copy",
+  "package_files": {
+    "audit_i1a_contemporary_gate_calibration.py": {
+      "source_path": "scripts/audit_i1a_contemporary_gate_calibration.py",
+      "size_bytes": 62968,
+      "sha256": "c37ddaa72ab5c410d43756af40d27003b446f0ad19ea182454ec0f097e67094d"
+    },
+    "run_diagnostic_harness.py": {
+      "source_path": "scripts/run_diagnostic_harness.py",
+      "size_bytes": 78073,
+      "sha256": "b7f59c413178a3e1006156897e0b7671fd36bc2a89aed3b1589e90f7def6ce25"
+    },
+    "test_audit_i1a_mocked_safeguards.py": {
+      "source_path": "scripts/test_audit_i1a_mocked_safeguards.py",
+      "size_bytes": 61552,
+      "sha256": "ecd894be95c57ecf509947a568cb3c1ab543cf6595d28685b2db0c3e51852aeb"
+    },
+    "test_run_diagnostic_harness.py": {
+      "source_path": "scripts/test_run_diagnostic_harness.py",
+      "size_bytes": 69151,
+      "sha256": "d32f5dd6ef9f96c07d1e7fb3dbf1b26a960bb02754d7393299fa03ff427817dc"
+    },
+    "diagnostic_7cd926_to_c37dda_exact.diff": {
+      "source_path": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/evidence/diagnostic_7cd926_to_c37dda_exact.diff",
+      "size_bytes": 4678,
+      "sha256": "b3e1126d5be419ead4513f72533de2b9dae3da837b3566833c07a426f63c282a"
+    }
+  }
+}

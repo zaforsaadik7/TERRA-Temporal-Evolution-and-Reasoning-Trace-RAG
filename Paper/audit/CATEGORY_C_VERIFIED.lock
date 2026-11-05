@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-09-05T21:29:44.251967Z",
+  "category_c_status": "OFFICIALLY_CLOSED_AND_CERTIFIED",
+  "total_queries_completed": 75,
+  "total_evaluations_completed": 375,
+  "total_benchmark_records": 1375,
+  "alarm_2_safety_breach_count": 0,
+  "alarm_2_status": "ZERO_BREACHES_VERIFIED",
+  "short_circuits_count": 52,
+  "generator_refusals_count": 23,
+  "reconciliation_parity": "EXACT_1375_EQUALS_G_PLUS_S",
+  "summary": {
+    "1_Direct_LLM": {
+      "n_queries": 75,
+      "refusals": 0,
+      "refusal_rate": 0.0,
+      "overall_faithfulness": 0.69,
+      "answer_only_faithfulness": 0.69,
+      "mean_total_ms": 5922.4,
+      "mean_gen_ms": 5922.4
+    },
+    "2_Flat_Vector_RAG": {
+      "n_queries": 75,
+      "refusals": 74,
+      "refusal_rate": 98.7,
+      "overall_faithfulness": 0.9867,
+      "answer_only_faithfulness": 0.0,
+      "mean_total_ms": 2746.2,
+      "mean_gen_ms": 2448.4
+    },
+    "3_GraphRAG_Adapted": {
+      "n_queries": 75,
+      "refusals": 75,
+      "refusal_rate": 100.0,
+      "overall_faithfulness": 0.9867,
+      "answer_only_faithfulness": null,
+      "mean_total_ms": 2637.8,
+      "mean_gen_ms": 2267.4
+    },
+    "4_HippoRAG_Adapted": {
+      "n_queries": 75,
+      "refusals": 74,
+      "refusal_rate": 98.7,
+      "overall_faithfulness": 0.9867,
+      "answer_only_faithfulness": 1.0,
+      "mean_total_ms": 2500.9,
+      "mean_gen_ms": 2292.3
+    },
+    "5_Full_TERRA": {
+      "n_queries": 75,
+      "refusals": 75,
+      "refusal_rate": 100.0,
+      "overall_faithfulness": 1.0,
+      "answer_only_faithfulness": null,
+      "mean_total_ms": 5780.4,
+      "mean_gen_ms": 615.3
+    }
+  }
+}

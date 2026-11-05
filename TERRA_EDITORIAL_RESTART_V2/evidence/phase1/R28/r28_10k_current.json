@@ -1,0 +1,20 @@
+{
+ "input": "/mnt/user-data/uploads/TERRA -Copy/dataset_10k_cap/terra_eeg_index_10k.json",
+ "sha256": "a6da204eadcd0d39ecb61354bb256668ef6dedc385c265e917bfb90c2eb97901",
+ "load": {
+  "edges_listed": 48599,
+  "self_loops": 0,
+  "edges_missing_endpoint": 0,
+  "unique_directed_edges": 37918
+ },
+ "nodes": 10009,
+ "M1_M2_undirected_largest_wcc": {
+  "n_wcc": 1968,
+  "largest_wcc_size": 7983,
+  "diameter": 15,
+  "sum_dist": 300321684.0,
+  "ordered_pairs": 63720306,
+  "aspl": 4.7131236940387575,
+  "seconds": 10.8
+ }
+}

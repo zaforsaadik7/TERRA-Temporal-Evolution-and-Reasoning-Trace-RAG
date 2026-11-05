@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-22",
+  "scope": "CODE_ONLY_SELF_VERIFIED_NOT_LIVE_ADMISSION",
+  "files": [
+    {
+      "path": "scripts/matched_baseline/offline_smoke_config.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\offline_smoke_config.py.final",
+      "size_bytes": 5407,
+      "sha256": "702efe07cb3a55fa2babe177f3da46614b9f924aed3774ed92b80d1303887e77"
+    },
+    {
+      "path": "scripts/matched_baseline/offline_smoke_runner.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\offline_smoke_runner.py.final",
+      "size_bytes": 10331,
+      "sha256": "f1f7a6adc7ca4568bed65d87e05ff4aace16b8a3093929d6946893267e4f26a0"
+    },
+    {
+      "path": "scripts/matched_baseline/offline_smoke_production.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\offline_smoke_production.py.final",
+      "size_bytes": 17580,
+      "sha256": "94a35c01e5a01c0707a850136ed1333eb793cd5c323a4deccb28165f0c8b1481"
+    },
+    {
+      "path": "scripts/matched_baseline/offline_smoke_boundary.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\offline_smoke_boundary.py.final",
+      "size_bytes": 5930,
+      "sha256": "f55cbab06745b862dc5e2719833934b97d0323a4df69156c6363dc1640beef55"
+    },
+    {
+      "path": "scripts/matched_baseline/offline_smoke_windows_backend.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\offline_smoke_windows_backend.py.final",
+      "size_bytes": 4280,
+      "sha256": "674cd9bf0f5313564293a40a43d4b654213cf2014a61ca8951c8fee63cee164e"
+    },
+    {
+      "path": "scripts/matched_baseline/offline_smoke_executor.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\offline_smoke_executor.py.final",
+      "size_bytes": 5301,
+      "sha256": "2516edfac2e30158c8355a026c5d4060895dea89e1eff0ddf460e5cf5228f84e"
+    },
+    {
+      "path": "scripts/matched_baseline/offline_smoke_windows_boundary.ps1",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\offline_smoke_windows_boundary.ps1.final",
+      "size_bytes": 6638,
+      "sha256": "eed805a926678b50126362a3ff0df8462c380b5fbed9e465f517cc792f16072b"
+    },
+    {
+      "path": "tests/test_offline_smoke_boundary_synthetic.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\test_offline_smoke_boundary_synthetic.py.final",
+      "size_bytes": 6375,
+      "sha256": "7e15bfa2919ac92de51c63c7c7c8a391952ecb64108963ec652e59c5e7b5160f"
+    },
+    {
+      "path": "tests/test_offline_smoke_windows_backend_synthetic.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\test_offline_smoke_windows_backend_synthetic.py.final",
+      "size_bytes": 9103,
+      "sha256": "70547c781e2d86c99ecf8ac9e07b11bad10f957bee4caec3c5e46b695b865893"
+    },
+    {
+      "path": "tests/test_offline_smoke_runner_synthetic.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\test_offline_smoke_runner_synthetic.py.final",
+      "size_bytes": 28980,
+      "sha256": "72dd4bbc6d6783de8e0c0f285b477af303ab47e050d94af3a631ec5a7569c4b4"
+    },
+    {
+      "path": "tests/test_offline_smoke_config_synthetic.py",
+      "checkpoint": "reports\\runtime_image_policy_20261022_01\\test_offline_smoke_config_synthetic.py.final",
+      "size_bytes": 3480,
+      "sha256": "1257a9a1ee3888c93408bb98e5c0da953f5452bd043211814dd686635b8d6d68"
+    }
+  ]
+}

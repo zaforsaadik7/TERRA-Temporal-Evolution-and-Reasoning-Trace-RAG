@@ -1,0 +1,31 @@
+[
+  {
+    "files": [
+      "main.tex",
+      "TERRA_SUPPLEMENT.tex"
+    ],
+    "change": "xr-hyper preserves actual external-PDF destinations; import supplement main aux after macro definitions",
+    "basis": "Actual baseline has9unresolved supplement named targets and main S9 link collides with main table.9; final GoToR targets all checked. No class/template or pagination changes."
+  },
+  {
+    "files": [
+      "main.tex"
+    ],
+    "change": "All calls used -> The reported protocol specifies",
+    "basis": "Distinguish source-described settings from unauthenticated historical execution."
+  },
+  {
+    "files": [
+      "figure_1_system_architecture.tex"
+    ],
+    "change": "Pure Substantive Opinion Precedents -> Length-Filtered Opinion Corpus",
+    "basis": "Existing main corpus paragraph describes length filtering and its omissions; purity is not established."
+  },
+  {
+    "files": [
+      "supplement_tables/table_run_provenance.tex"
+    ],
+    "change": "Ragged-right cells, explicit arm-row/query units and repeated continuation header",
+    "basis": "Actual render showed justification gaps, broken outputs words and continuation without header. No data values removed."
+  }
+]

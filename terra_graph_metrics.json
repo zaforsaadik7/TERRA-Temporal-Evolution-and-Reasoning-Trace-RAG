@@ -1,0 +1,159 @@
+{
+  "basic_stats": {
+    "total_nodes": 10009,
+    "curated_nodes": 10009,
+    "synthetic_nodes": 0,
+    "total_edges": 37918,
+    "density": 0.000379
+  },
+  "degree_distribution": {
+    "mean_degree": 7.577,
+    "max_degree": 124,
+    "min_degree": 0,
+    "mean_in_degree": 3.788,
+    "max_in_degree": 121,
+    "mean_out_degree": 3.788,
+    "max_out_degree": 96
+  },
+  "top_hubs": [
+    {
+      "case_id": "230_0352-01",
+      "title": "Simpson v. Shepard",
+      "total_degree": 124,
+      "is_curated": true
+    },
+    {
+      "case_id": "116_0616-01",
+      "title": "Boyd v. United States",
+      "total_degree": 121,
+      "is_curated": true
+    },
+    {
+      "case_id": "285_0022-01",
+      "title": "Crowell v. Benson",
+      "total_degree": 106,
+      "is_curated": true
+    },
+    {
+      "case_id": "335_0632-01",
+      "title": "Commissioner v. Estate of Church",
+      "total_degree": 106,
+      "is_curated": true
+    },
+    {
+      "case_id": "341_0123-01",
+      "title": "Joint Anti-Fascist Refugee Committee v. McGrath",
+      "total_degree": 101,
+      "is_curated": true
+    },
+    {
+      "case_id": "310_0150-01",
+      "title": "United States v. Socony-Vacuum Oil Co.",
+      "total_degree": 100,
+      "is_curated": true
+    },
+    {
+      "case_id": "367_0001-01",
+      "title": "Communist Party v. Subversive Activities Control Board",
+      "total_degree": 96,
+      "is_curated": true
+    },
+    {
+      "case_id": "301_0001-01",
+      "title": "National Labor Relations Board v. Jones & Laughlin Steel Corp.",
+      "total_degree": 96,
+      "is_curated": true
+    },
+    {
+      "case_id": "325_0091-01",
+      "title": "Screws v. United States",
+      "total_degree": 93,
+      "is_curated": true
+    },
+    {
+      "case_id": "341_0494-01",
+      "title": "Dennis v. United States",
+      "total_degree": 92,
+      "is_curated": true
+    }
+  ],
+  "clustering": {
+    "avg_clustering_coefficient": 0.1634
+  },
+  "connected_components": {
+    "num_weakly_connected": 1968,
+    "largest_wcc_size": 7983,
+    "largest_wcc_coverage_pct": 79.8,
+    "num_strongly_connected": 9993,
+    "largest_scc_size": 14
+  },
+  "path_analysis": {
+    "diameter": 15,
+    "avg_shortest_path_length": 4.713
+  },
+  "betweenness_centrality_top10": [
+    {
+      "case_id": "285_0022-01",
+      "title": "Crowell v. Benson",
+      "betweenness": 0.0034,
+      "is_curated": true
+    },
+    {
+      "case_id": "321_0414-01",
+      "title": "Yakus v. United States",
+      "betweenness": 0.0029,
+      "is_curated": true
+    },
+    {
+      "case_id": "230_0352-01",
+      "title": "Simpson v. Shepard",
+      "betweenness": 0.0028,
+      "is_curated": true
+    },
+    {
+      "case_id": "310_0150-01",
+      "title": "United States v. Socony-Vacuum Oil Co.",
+      "betweenness": 0.0027,
+      "is_curated": true
+    },
+    {
+      "case_id": "311_0377-01",
+      "title": "United States v. Appalachian Electric Power Co.",
+      "betweenness": 0.0026,
+      "is_curated": true
+    },
+    {
+      "case_id": "330_0258-01",
+      "title": "United States v. United Mine Workers of America",
+      "betweenness": 0.0026,
+      "is_curated": true
+    },
+    {
+      "case_id": "312_0100-01",
+      "title": "United States v. Darby",
+      "betweenness": 0.0025,
+      "is_curated": true
+    },
+    {
+      "case_id": "335_0632-01",
+      "title": "Commissioner v. Estate of Church",
+      "betweenness": 0.0023,
+      "is_curated": true
+    },
+    {
+      "case_id": "341_0123-01",
+      "title": "Joint Anti-Fascist Refugee Committee v. McGrath",
+      "betweenness": 0.0021,
+      "is_curated": true
+    },
+    {
+      "case_id": "341_0494-01",
+      "title": "Dennis v. United States",
+      "betweenness": 0.0021,
+      "is_curated": true
+    }
+  ],
+  "edge_relation_distribution": {
+    "CITES": 37918
+  }
+}

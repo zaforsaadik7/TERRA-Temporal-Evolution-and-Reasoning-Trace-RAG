@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-074",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "As-of Year: 1980",
+  "disposition": "HOLD_REORDERED_QUOTATION_AND_POST_CUTOFF_LISTING",
+  "attribution_finding": "National League of Cities majority; submitted final clause is from preceding sentence, not subsequent continuation.",
+  "fidelity_finding": "Holding fragments correspond, but the federal-system sentence precedes the We-hold sentence in source; composite reverses order. Opening inserts 'that,' and brackets T despite moving the prior sentence.",
+  "pinpoint_finding": "Holding and federal-system sentence on852;851–852 range adequate.",
+  "scope_and_cutoff_finding": "1976 holding is historically within1980 cutoff; scope is challenged FLSA wage/hour amendments and traditional governmental functions. Garcia1985 listed in M is post1980 cutoff; correctly relevant to later overruling, not contemporaneous support. Later overruling must not be used to erase the historical1980 rule.",
+  "evidence": [
+    "sources/USREPORTS-426-833.txt:737–754",
+    "sources/USREPORTS-469-528.txt:127–130,1122–1132"
+  ],
+  "proposed_action_not_applied": "Preserve source order or label separate quotations/paraphrase; keep historical cutoff and later-overruling comparison distinct.",
+  "unresolved_questions": [],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "National League of Cities v. Usery, 426 U.S. 833 (1976) — https://supreme.justia.com/cases/federal/us/426/833/\n[cite: 3]\nGarcia v. San Antonio Metropolitan Transit Authority, 469 U.S. 528 (1985) — https://supreme.justia.com/cases/federal/us/469/528/\n[cite: 1]",
+  "ledger_excerpt": "From National League of Cities v. Usery, 426 U.S. 833, 851–852 (1976):\n\"We hold that, insofar as the challenged amendments operate to directly displace the States' freedom to structure integral operations in areas of traditional governmental functions, they are not within the authority granted Congress by Art. I, § 8, cl. 3... [T]his exercise of congressional authority does not comport with the federal system of government embodied in the Constitution.\""
+}
+

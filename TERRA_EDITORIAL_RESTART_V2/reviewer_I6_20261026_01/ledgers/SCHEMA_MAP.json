@@ -1,0 +1,6 @@
+{
+  "matched_result": "/arms/{H,T}/answer,composite,judges,verifier; result fields are not raw verifier inputs",
+  "requests": "events.jsonl HTTP_REQUEST.raw; UTF-8 hash verified against event and calls reservation",
+  "historical": "canonical-v2 /query_id,/pipeline,/safety_rejected,/answer_full; flag alone is not semantic status",
+  "authors": "original/reconciled CSV labels unchanged; private key map for cohort/overlap only"
+}

@@ -1,0 +1,53 @@
+\par\begingroup
+  
+  \small
+  
+  
+  \begin{longtable}{@{}p{3.8cm}p{2.2cm}p{5.2cm}p{1.4cm}@{}}
+\caption{Evaluation Block Provenance. Dates are from file timestamps or
+           logged runner headers; ``date not recorded'' means no timestamp
+           was found in the source files.}\label{tab:run_provenance}\\
+    \toprule
+    \textbf{Block} & \textbf{Date (source)} & \textbf{Models} & \textbf{$N$} \\
+    \midrule
+    Baseline generations & 5--6 Sept.\ 2026\newline (file mtime) &
+      Gen: \texttt{llama-3.3-70b-instruct}; no router/NLI &
+      1,400 \\
+    \addlinespace
+    Deployed TERRA run & 14 Sept.\ 2026\newline (file mtime) &
+      Router: \texttt{gemma-3-12b}; NLI + gen: \texttt{llama-3.3-70b-instruct} &
+      350 \\
+    \addlinespace
+    Dual-judge scoring & 14 Sept.\ 2026\newline (file mtime) &
+      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} &
+      1,750 \\
+    \addlinespace
+    Pilot ablation (Table~\ref{main-tab:ablation}) & date not recorded &
+      Single judge: \texttt{llama-3.3-70b-instruct} (recorded endpoint) & 35 \\
+    \addlinespace
+    Temporal leakage probe & 17 Sept.\ 2026\newline (file mtime) &
+      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 400 \\
+    \addlinespace
+    Category~D certification & 20 Sept.\ 2026\newline (file last modified) &
+      Semantic verifier: \texttt{llama-3.3-70b-instruct} & 75 \\
+    \addlinespace
+    CaseFacts eval & 18 Sept.\ 2026\newline (file mtime) &
+      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 \\
+    \addlinespace
+    CLERC eval & 18 Sept.\ 2026\newline (file mtime) &
+      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 \\
+    \addlinespace
+    Obscure suite & 19--20 Sept.\ 2026\newline (file mtime) &
+      Gen: \texttt{llama-3.3-70b-instruct}; J1/J2 as above &
+      120 \\
+    \addlinespace
+    Famous D1 contrast & 19--20 Sept.\ 2026\newline (file mtime) &
+      Gen: \texttt{llama-3.3-70b-instruct}; J1/J2 as above &
+      76 \\
+    \addlinespace
+    Prospective hybrid comparison & 25 Oct.\ 2026\newline (run records) &
+      Router: Gemma 3 12B; verifier/gen: Llama 3.3 70B; judges: Qwen3-Next and GPT-OSS & 350 pairs \\
+    \bottomrule
+  \end{longtable}
+\footnotesize\raggedright\textbf{Notes:} $N$ denotes the population described in each row, not a uniform count of model calls. The 35-query ablation has 700 stored observations (four arms, five repeats); CaseFacts and CLERC each have 170 source questions and 510 stored arm-level observations (three arms). Obscure/famous engine hashes match a preserved source file (\texttt{430fc1b3...}), and index fingerprints are recorded. Primary, pilot, CaseFacts and CLERC records lack equivalent historical code/graph/index linkage. Temporal-probe hashes identify prompt/context/candidate payloads. The separate temporal-update file records 106 pair observations from 82 unique queries, a timestamp and active-graph/subgraph hashes; the timestamp is a recorded value, not independently authenticated time. File modification dates elsewhere are not execution dates. The prospective comparison uses separate frozen graph/code inputs and a shared pipeline; details and observed model identifiers are recorded with Section~\ref{supp:matched-comparison}. It does not recover historical configuration identities.
+\par\endgroup

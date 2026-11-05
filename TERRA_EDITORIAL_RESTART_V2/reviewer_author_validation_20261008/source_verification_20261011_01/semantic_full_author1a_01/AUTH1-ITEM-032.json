@@ -1,0 +1,20 @@
+{
+  "id": "AUTH1-ITEM-032",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "The Daniel Ball, 77 U.S. (10 Wall.) 557 (1870) — https://supreme.justia.com/cases/federal/us/77/557/\n[cite: 1]\nThe Montello, 87 U.S. (20 Wall.) 430 (1874) — https://supreme.justia.com/cases/federal/us/87/430/\n[cite: 2]",
+  "original_excerpt": "From The Daniel Ball, 77 U.S. (10 Wall.) 557, 563 (1870):\n\"Those rivers must be regarded as public navigable rivers in law which are navigable in fact. And they are navigable in fact when they are used, or are susceptible of being used, in their ordinary condition, as highways for commerce, over which trade and travel are or may be conducted in the customary modes of trade and travel on water. And they constitute navigable waters of the United States within the meaning of the acts of Congress, in contradistinction from the navigable waters of the States, when they form in their ordinary condition by themselves, or by uniting with other waters, a continued highway over which commerce is or may be carried on with other States or foreign countries in the customary modes in which such commerce is conducted by water.\"   \nFrom The Montello, 87 U.S. (20 Wall.) 430, 439, 441–442 (1874):\nThe Supreme Court reaffirmed the two-part test of The Daniel Ball, holding that navigability in fact for useful commerce satisfies the first inquiry, but the stream must also form an unbroken water link connecting to interstate or foreign commerce to constitute navigable waters of the United States.",
+  "disposition": "SUPPORTED_CORE_MONTELLO_SCOPE_CORRECTION_REQUIRED",
+  "attribution": "Daniel Ball and 1874 Montello majority opinions",
+  "fidelity": "Daniel Ball quote corresponds. Montello's continued interstate highway supports core paraphrase; 'unbroken water link' risks imposing vessel continuity that the opinion rejects.",
+  "pinpoint": "Daniel Ball 563; Montello 439–443, including Durham boats/portages 440–441.",
+  "scope_note": "Use continued highway by itself or connection with other waters; no requirement for unobstructed steam/sail vessel passage.",
+  "previous_record_verification": "semantic_followup_02 scope finding independently reconfirmed; no repair applied.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-77-557.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-87-430.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

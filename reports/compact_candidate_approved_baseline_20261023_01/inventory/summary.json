@@ -1,0 +1,93 @@
+{
+  "scope": "FILESYSTEM_ONLY_TWO_PASS_NO_IMPORT_OR_MODEL_LOAD",
+  "external_import_roots": [
+    "abc",
+    "argparse",
+    "base64",
+    "chromadb",
+    "contextlib",
+    "copy",
+    "ctypes",
+    "dataclasses",
+    "datetime",
+    "enum",
+    "hashlib",
+    "inspect",
+    "jinja2",
+    "json",
+    "lzma",
+    "math",
+    "numpy",
+    "onnxruntime",
+    "os",
+    "pathlib",
+    "re",
+    "secrets",
+    "shutil",
+    "socket",
+    "sqlite3",
+    "stat",
+    "subprocess",
+    "sys",
+    "time",
+    "tokenizers",
+    "types",
+    "typing",
+    "uuid"
+  ],
+  "groups": {
+    "repository_code": {
+      "files": 30,
+      "bytes": 440534
+    },
+    "repository_auxiliary": {
+      "files": 44,
+      "bytes": 999952
+    },
+    "out_of_band_anchor": {
+      "files": 1,
+      "bytes": 282
+    },
+    "boundary_script": {
+      "files": 1,
+      "bytes": 6638
+    },
+    "assets_and_runtime_targets": {
+      "files": 23,
+      "bytes": 114183144
+    },
+    "store": {
+      "files": 11,
+      "bytes": 432097888
+    },
+    "cache": {
+      "files": 7,
+      "bytes": 174510889
+    },
+    "venv_configuration": {
+      "files": 1,
+      "bytes": 298
+    },
+    "venv_installed_environment": {
+      "files": 29306,
+      "bytes": 923153657
+    },
+    "base_runtime_root": {
+      "files": 8,
+      "bytes": 7271173
+    },
+    "base_runtime_dlls": {
+      "files": 31,
+      "bytes": 15159984
+    },
+    "base_standard_library": {
+      "files": 1092,
+      "bytes": 22873017
+    }
+  },
+  "limits": [
+    "Observed trees are stable, not locked.",
+    "Installed environment inventory is conservative, not proof of complete OS dynamic-load closure.",
+    "Entry anchor is inventoried separately, not a constituent of its own packet."
+  ]
+}

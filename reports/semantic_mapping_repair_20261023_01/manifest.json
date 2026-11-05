@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-23",
+  "scope": "APPROVED_SEMANTIC_REPAIR_AND_NAMED_SYNTHETIC_TESTS_ONLY",
+  "execution_authorized": false,
+  "sources": [
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_bindings.py",
+      "size_bytes": 8019,
+      "sha256": "9842908761c65e1c09f1b62ad4a074001290dea2ad656447349c489e4fad02e1"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_smoke_production.py",
+      "size_bytes": 18407,
+      "sha256": "21cabe3090886563edfa4f4b24816604b854d89d51360ba9b86171fc369f1cda"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_smoke_semantic_mapping_synthetic.py",
+      "size_bytes": 7237,
+      "sha256": "a7b3ec39269cf227dd3e907b60fbe35bdf62d4aa270c4f89e1354caee501f998"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\assembly_checks.json",
+      "size_bytes": 1714,
+      "sha256": "8fad1f39edeb54df4afc36744cc43f4f2cdd2b1ce7cd246e0c018b6df88b4262"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\build_repaired_draft.py",
+      "size_bytes": 4191,
+      "sha256": "24c8bde6f0e6e263e9fdb20dd8d1527ac4296fb1bed239ab56c35e4e8dccdd46"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\offline_smoke_bindings.py.before",
+      "size_bytes": 5878,
+      "sha256": "3ce2e67098a78da9a073cd648ebed386384a3da907d6b7c998445cd8379cc0ed"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\offline_smoke_bindings.py.final",
+      "size_bytes": 8019,
+      "sha256": "9842908761c65e1c09f1b62ad4a074001290dea2ad656447349c489e4fad02e1"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\offline_smoke_production.py.before",
+      "size_bytes": 17882,
+      "sha256": "12178377327d4288a10007a3ca0dd09ef85f416ee9ef29aed803f73b75484a9a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\offline_smoke_production.py.final",
+      "size_bytes": 18407,
+      "sha256": "21cabe3090886563edfa4f4b24816604b854d89d51360ba9b86171fc369f1cda"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\production_shape.REPAIRED_UNAPPROVED.json",
+      "size_bytes": 17946,
+      "sha256": "28c408e7caa501c7c580a2b219d7e71c77dbbfa6bdc1a265a423c2a9e56e9cdd"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\REPAIR_AND_TEST_REPORT.md",
+      "size_bytes": 5183,
+      "sha256": "d82843a59b0665918a73bfd6b42eb531d7078b97f2cb45afcd9993e4eee3349e"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\repository_code.repaired.json",
+      "size_bytes": 6608,
+      "sha256": "9a88cfc245ecdc30a9b9bfe97e732ac74a51bbccd1ec313614ecff33c41637d5"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\snapshot_manifest.repaired.json",
+      "size_bytes": 2653,
+      "sha256": "c8e0d6d9f17d4a19cf4fbab581754e6638decb1e436cf0af6ab381b17869b3ce"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\source.diff",
+      "size_bytes": 12610,
+      "sha256": "744dd653cd38af2c6e6a9a4e6b49cd142c768c25aa094a65d8dc84fa2585a48f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\STATUS.incoming.json",
+      "size_bytes": 5105,
+      "sha256": "083c609260f9ad1f4370ec56303c0fc359bfe352c29ea21f18289b4140fd6d50"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\test_offline_smoke_bindings_synthetic.py.before",
+      "size_bytes": 5788,
+      "sha256": "65cf19c46693b511e896d4fcd762d1cfba5312922c874eba718319766be21a9b"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\semantic_mapping_repair_20261023_01\\test_offline_smoke_semantic_mapping_synthetic.py.final",
+      "size_bytes": 7237,
+      "sha256": "a7b3ec39269cf227dd3e907b60fbe35bdf62d4aa270c4f89e1354caee501f998"
+    }
+  ]
+}

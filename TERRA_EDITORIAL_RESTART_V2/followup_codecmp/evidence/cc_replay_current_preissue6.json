@@ -1,0 +1,2191 @@
+{
+ "code": "ask_terra.py",
+ "code_sha256": "0cca5cf440a1299853c37899647465b5f1f843803898e630d8d5402a3d9fffbb",
+ "graph": "dataset_20k_cap/terra_eeg_index_20k_pre_issue6_backup.json",
+ "graph_sha256": "012c999babb853e5d8f24caec353afe8303b8edd517965a6430957c26a6653bb",
+ "eval_sha256": "95e775e29c3a0d95f3cb35aa9d50a5f030d04b51d3f2175848db2f2b57aad507",
+ "rows": {
+  "B001": {
+   "seeds": [
+    "347_0483-01",
+    "349_0294-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 82,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 83,
+   "rep_div": "- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: 347_0483-01) [CITES] earlier precedent 'Plessy v. Ferguson' (Case ID: 163_0537-01, Date: 1896-05-18).",
+   "dep_div": "- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: 347_0483-01) [OVERRULES / REPUDIATES] earlier precedent 'Plessy v. Ferguson' (Case ID: 163_0537-01, Date: 1896-05-18)."
+  },
+  "B002": {
+   "seeds": [
+    "88_0162-01",
+    "339_0629-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 81,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B003": {
+   "seeds": [
+    "402_0001-01",
+    "334_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 87,
+   "skeleton_exact": true,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B004": {
+   "seeds": [
+    "402_0001-01",
+    "245_0060-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 85,
+   "skeleton_exact": false,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B005": {
+   "seeds": [
+    "77_0273-01",
+    "83_0036-01",
+    "402_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 71,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B006": {
+   "seeds": [
+    "77_0273-01",
+    "83_0036-01",
+    "391_0430-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 74,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B007": {
+   "seeds": [
+    "358_0001-01",
+    "402_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B008": {
+   "seeds": [
+    "358_0001-01",
+    "388_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 85,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B009": {
+   "seeds": [
+    "339_0637-01",
+    "402_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 78,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B010": {
+   "seeds": [
+    "339_0637-01",
+    "391_0430-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 77,
+   "skeleton_exact": true,
+   "skeleton_lines": 89,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B011": {
+   "seeds": [
+    "339_0637-01",
+    "388_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B012": {
+   "seeds": [
+    "339_0637-01",
+    "358_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 74,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B013": {
+   "seeds": [
+    "402_0001-01",
+    "339_0629-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B014": {
+   "seeds": [
+    "391_0430-01",
+    "339_0629-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B015": {
+   "seeds": [
+    "339_0629-01",
+    "388_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B016": {
+   "seeds": [
+    "358_0001-01",
+    "339_0629-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 78,
+   "skeleton_exact": false,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B017": {
+   "seeds": [
+    "391_0430-01",
+    "334_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 86,
+   "skeleton_exact": true,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B018": {
+   "seeds": [
+    "347_0483-01",
+    "349_0294-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 82,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 83,
+   "rep_div": "- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: 347_0483-01) [CITES] earlier precedent 'Plessy v. Ferguson' (Case ID: 163_0537-01, Date: 1896-05-18).",
+   "dep_div": "- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: 347_0483-01) [OVERRULES / REPUDIATES] earlier precedent 'Plessy v. Ferguson' (Case ID: 163_0537-01, Date: 1896-05-18)."
+  },
+  "B019": {
+   "seeds": [
+    "402_0001-01",
+    "305_0337-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 84,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B020": {
+   "seeds": [
+    "391_0430-01",
+    "305_0337-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B021": {
+   "seeds": [
+    "392_0001-01",
+    "378_0478-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 88,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B022": {
+   "seeds": [
+    "372_0335-01"
+   ],
+   "exact": false,
+   "rep_lines": 100,
+   "rep_lines_present": 95,
+   "skeleton_exact": true,
+   "skeleton_lines": 99,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B023": {
+   "seeds": [
+    "316_0455-01",
+    "392_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 84,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": 22,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [CITES] this precedent (Case ID: 316_0455-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [OVERRULES / REPUDIATES] this precedent (Case ID: 316_0455-01)."
+  },
+  "B024": {
+   "seeds": [
+    "392_0001-01",
+    "304_0458-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 91,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B025": {
+   "seeds": [
+    "389_0347-01",
+    "304_0458-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 88,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B026": {
+   "seeds": [
+    "304_0458-01",
+    "338_0025-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 94,
+   "skeleton_exact": true,
+   "skeleton_lines": 97,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B027": {
+   "seeds": [
+    "277_0438-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 87,
+   "skeleton_exact": false,
+   "skeleton_lines": 98,
+   "first_divergence": 42,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Katz v. United States' (Case ID: 389_0347-01, Date: 1967-12-18) [CITES] this precedent (Case ID: 277_0438-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Katz v. United States' (Case ID: 389_0347-01, Date: 1967-12-18) [OVERRULES / REPUDIATES] this precedent (Case ID: 277_0438-01)."
+  },
+  "B028": {
+   "seeds": [
+    "255_0298-01",
+    "378_0478-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 81,
+   "skeleton_exact": true,
+   "skeleton_lines": 97,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B029": {
+   "seeds": [
+    "255_0298-01",
+    "316_0455-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 82,
+   "skeleton_exact": false,
+   "skeleton_lines": 96,
+   "first_divergence": 88,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [CITES] this precedent (Case ID: 316_0455-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [OVERRULES / REPUDIATES] this precedent (Case ID: 316_0455-01)."
+  },
+  "B030": {
+   "seeds": [
+    "232_0383-01",
+    "245_0618-01"
+   ],
+   "exact": false,
+   "rep_lines": 100,
+   "rep_lines_present": 86,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B031": {
+   "seeds": [
+    "392_0001-01",
+    "199_0372-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 91,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B032": {
+   "seeds": [
+    "389_0347-01",
+    "199_0372-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 87,
+   "skeleton_exact": false,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B033": {
+   "seeds": [
+    "199_0372-01",
+    "378_0478-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 76,
+   "skeleton_exact": false,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B034": {
+   "seeds": [
+    "372_0335-01"
+   ],
+   "exact": false,
+   "rep_lines": 100,
+   "rep_lines_present": 95,
+   "skeleton_exact": true,
+   "skeleton_lines": 99,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B035": {
+   "seeds": [
+    "199_0372-01",
+    "338_0025-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 80,
+   "skeleton_exact": false,
+   "skeleton_lines": 96,
+   "first_divergence": 64,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Mapp v. Ohio' (Case ID: 367_0643-01, Date: 1961-06-19) [CITES] this precedent (Case ID: 338_0025-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Mapp v. Ohio' (Case ID: 367_0643-01, Date: 1961-06-19) [OVERRULES / REPUDIATES] this precedent (Case ID: 338_0025-01)."
+  },
+  "B036": {
+   "seeds": [
+    "389_0347-01",
+    "384_0436-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 88,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B037": {
+   "seeds": [
+    "389_0347-01",
+    "378_0478-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 85,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B038": {
+   "seeds": [
+    "378_0478-01",
+    "367_0643-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 89,
+   "skeleton_exact": true,
+   "skeleton_lines": 97,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B039": {
+   "seeds": [
+    "338_0025-01",
+    "378_0478-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 79,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": 50,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Mapp v. Ohio' (Case ID: 367_0643-01, Date: 1961-06-19) [CITES] this precedent (Case ID: 338_0025-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Mapp v. Ohio' (Case ID: 367_0643-01, Date: 1961-06-19) [OVERRULES / REPUDIATES] this precedent (Case ID: 338_0025-01)."
+  },
+  "B040": {
+   "seeds": [
+    "316_0455-01",
+    "378_0478-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 79,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": 22,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [CITES] this precedent (Case ID: 316_0455-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [OVERRULES / REPUDIATES] this precedent (Case ID: 316_0455-01)."
+  },
+  "B041": {
+   "seeds": [
+    "249_0211-01",
+    "319_0624-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 82,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 94,
+   "rep_div": "- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: 319_0624-01) [CITES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03).",
+   "dep_div": "- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: 319_0624-01) [OVERRULES / REPUDIATES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03)."
+  },
+  "B042": {
+   "seeds": [
+    "376_0254-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 91,
+   "skeleton_exact": true,
+   "skeleton_lines": 96,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B043": {
+   "seeds": [
+    "403_0015-01",
+    "360_0240-01",
+    "357_0449-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 84,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B044": {
+   "seeds": [
+    "354_0476-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 88,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": 32,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Miller v. California' (Case ID: 413_0015-01, Date: 1973-06-21) [CITES] this precedent (Case ID: 354_0476-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Miller v. California' (Case ID: 413_0015-01, Date: 1973-06-21) [OVERRULES / REPUDIATES] this precedent (Case ID: 354_0476-01)."
+  },
+  "B045": {
+   "seeds": [
+    "403_0015-01",
+    "343_0250-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 81,
+   "skeleton_exact": true,
+   "skeleton_lines": 95,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B046": {
+   "seeds": [
+    "393_0503-01",
+    "154_0584-02",
+    "343_0250-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 81,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B047": {
+   "seeds": [
+    "339_0162-01",
+    "341_0494-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 89,
+   "skeleton_exact": true,
+   "skeleton_lines": 95,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B048": {
+   "seeds": [
+    "339_0162-01",
+    "341_0494-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 89,
+   "skeleton_exact": true,
+   "skeleton_lines": 95,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B049": {
+   "seeds": [
+    "319_0624-01",
+    "376_0254-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 80,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 78,
+   "rep_div": "- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: 319_0624-01) [CITES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03).",
+   "dep_div": "- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: 319_0624-01) [OVERRULES / REPUDIATES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03)."
+  },
+  "B050": {
+   "seeds": [
+    "403_0015-01",
+    "319_0105-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 87,
+   "skeleton_exact": true,
+   "skeleton_lines": 95,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B051": {
+   "seeds": [
+    "319_0105-01",
+    "395_0444-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 86,
+   "skeleton_exact": true,
+   "skeleton_lines": 97,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B052": {
+   "seeds": [
+    "360_0240-01",
+    "357_0449-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 85,
+   "skeleton_exact": false,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B053": {
+   "seeds": [
+    "319_0624-01",
+    "315_0568-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 81,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 78,
+   "rep_div": "- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: 319_0624-01) [CITES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03).",
+   "dep_div": "- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: 319_0624-01) [OVERRULES / REPUDIATES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03)."
+  },
+  "B054": {
+   "seeds": [
+    "310_0586-01",
+    "354_0298-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 79,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 29,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'West Virginia State Board of Education v. Barnette' (Case ID: 319_0624-01, Date: 1943-06-14) [CITES] this precedent (Case ID: 310_0586-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'West Virginia State Board of Education v. Barnette' (Case ID: 319_0624-01, Date: 1943-06-14) [OVERRULES / REPUDIATES] this precedent (Case ID: 310_0586-01"
+  },
+  "B055": {
+   "seeds": [
+    "310_0586-01",
+    "319_0105-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 83,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 29,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'West Virginia State Board of Education v. Barnette' (Case ID: 319_0624-01, Date: 1943-06-14) [CITES] this precedent (Case ID: 310_0586-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'West Virginia State Board of Education v. Barnette' (Case ID: 319_0624-01, Date: 1943-06-14) [OVERRULES / REPUDIATES] this precedent (Case ID: 310_0586-01"
+  },
+  "B056": {
+   "seeds": [
+    "395_0444-01",
+    "310_0296-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 86,
+   "skeleton_exact": true,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B057": {
+   "seeds": [
+    "354_0476-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 88,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": 32,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Miller v. California' (Case ID: 413_0015-01, Date: 1973-06-21) [CITES] this precedent (Case ID: 354_0476-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Miller v. California' (Case ID: 413_0015-01, Date: 1973-06-21) [OVERRULES / REPUDIATES] this precedent (Case ID: 354_0476-01)."
+  },
+  "B058": {
+   "seeds": [
+    "319_0624-01",
+    "310_0296-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 80,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 78,
+   "rep_div": "- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: 319_0624-01) [CITES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03).",
+   "dep_div": "- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: 319_0624-01) [OVERRULES / REPUDIATES] earlier precedent 'Minersville School District v. Gobitis' (Case ID: 310_0586-01, Date: 1940-06-03)."
+  },
+  "B059": {
+   "seeds": [
+    "393_0503-01",
+    "299_0353-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 80,
+   "skeleton_exact": true,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B060": {
+   "seeds": [
+    "354_0476-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 88,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": 32,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Miller v. California' (Case ID: 413_0015-01, Date: 1973-06-21) [CITES] this precedent (Case ID: 354_0476-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Miller v. California' (Case ID: 413_0015-01, Date: 1973-06-21) [OVERRULES / REPUDIATES] this precedent (Case ID: 354_0476-01)."
+  },
+  "B061": {
+   "seeds": [
+    "166_0290-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 87,
+   "skeleton_exact": false,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B062": {
+   "seeds": [
+    "101_0639-01",
+    "166_0290-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 88,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B063": {
+   "seeds": [
+    "94_0113-01",
+    "317_0111-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B064": {
+   "seeds": [
+    "289_0224-01",
+    "312_0100-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 88,
+   "skeleton_exact": true,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B065": {
+   "seeds": [
+    "301_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 87,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B066": {
+   "seeds": [
+    "295_0495-01",
+    "94_0113-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 79,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B067": {
+   "seeds": [
+    "247_0251-01",
+    "94_0113-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 78,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": 19,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [CITES] this precedent (Case ID: 247_0251-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [OVERRULES / REPUDIATES] this precedent (Case ID: 247_0251-01)."
+  },
+  "B068": {
+   "seeds": [
+    "101_0639-01",
+    "234_0342-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 80,
+   "skeleton_exact": false,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B069": {
+   "seeds": [
+    "196_0375-01",
+    "276_0311-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 86,
+   "skeleton_exact": true,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B070": {
+   "seeds": [
+    "166_0290-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 87,
+   "skeleton_exact": false,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B071": {
+   "seeds": [
+    "156_0001-01",
+    "94_0113-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 76,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B072": {
+   "seeds": [
+    "82_0232-01",
+    "82_0284-01",
+    "298_0238-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 81,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B073": {
+   "seeds": [
+    "76_0579-01",
+    "317_0111-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B074": {
+   "seeds": [
+    "53_0299-01",
+    "289_0224-01",
+    "312_0100-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 89,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B075": {
+   "seeds": [
+    "53_0299-01",
+    "166_0290-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 90,
+   "skeleton_exact": true,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B076": {
+   "seeds": [
+    "301_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 87,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B077": {
+   "seeds": [
+    "247_0251-01",
+    "301_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 80,
+   "skeleton_exact": false,
+   "skeleton_lines": 92,
+   "first_divergence": 19,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [CITES] this precedent (Case ID: 247_0251-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [OVERRULES / REPUDIATES] this precedent (Case ID: 247_0251-01)."
+  },
+  "B078": {
+   "seeds": [
+    "247_0251-01",
+    "295_0495-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 80,
+   "skeleton_exact": false,
+   "skeleton_lines": 94,
+   "first_divergence": 19,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [CITES] this precedent (Case ID: 247_0251-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [OVERRULES / REPUDIATES] this precedent (Case ID: 247_0251-01)."
+  },
+  "B079": {
+   "seeds": [
+    "298_0238-01",
+    "188_0321-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 81,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B080": {
+   "seeds": [
+    "295_0495-01",
+    "188_0321-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 78,
+   "skeleton_exact": false,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B081": {
+   "seeds": [
+    "327_0001-01",
+    "401_0402-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B082": {
+   "seeds": [
+    "332_0194-01",
+    "318_0080-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B083": {
+   "seeds": [
+    "190_0160-01",
+    "401_0402-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 77,
+   "skeleton_exact": false,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B084": {
+   "seeds": [
+    "295_0602-01",
+    "190_0160-01"
+   ],
+   "exact": false,
+   "rep_lines": 91,
+   "rep_lines_present": 78,
+   "skeleton_exact": true,
+   "skeleton_lines": 87,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B085": {
+   "seeds": [
+    "321_0414-01",
+    "401_0402-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 86,
+   "skeleton_exact": true,
+   "skeleton_lines": 94,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B086": {
+   "seeds": [
+    "295_0602-01",
+    "327_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B087": {
+   "seeds": [
+    "81_0531-01",
+    "113_0476-01",
+    "295_0495-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 81,
+   "skeleton_exact": false,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B088": {
+   "seeds": [
+    "276_0394-01",
+    "401_0402-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 74,
+   "skeleton_exact": false,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B089": {
+   "seeds": [
+    "276_0394-01",
+    "298_0038-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 76,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B090": {
+   "seeds": [
+    "222_0541-01",
+    "401_0402-01"
+   ],
+   "exact": false,
+   "rep_lines": 91,
+   "rep_lines_present": 77,
+   "skeleton_exact": true,
+   "skeleton_lines": 88,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B091": {
+   "seeds": [
+    "222_0541-01",
+    "340_0474-01"
+   ],
+   "exact": false,
+   "rep_lines": 92,
+   "rep_lines_present": 84,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B092": {
+   "seeds": [
+    "222_0541-01",
+    "332_0194-01"
+   ],
+   "exact": false,
+   "rep_lines": 92,
+   "rep_lines_present": 81,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B093": {
+   "seeds": [
+    "220_0506-01",
+    "340_0474-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B094": {
+   "seeds": [
+    "293_0388-01",
+    "190_0160-01"
+   ],
+   "exact": false,
+   "rep_lines": 94,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B095": {
+   "seeds": [
+    "143_0649-01",
+    "295_0602-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 80,
+   "skeleton_exact": false,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B096": {
+   "seeds": [
+    "340_0474-01",
+    "435_0519-01"
+   ],
+   "exact": false,
+   "rep_lines": 92,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 90,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B097": {
+   "seeds": [
+    "332_0194-01",
+    "401_0402-01",
+    "318_0080-01"
+   ],
+   "exact": false,
+   "rep_lines": 92,
+   "rep_lines_present": 77,
+   "skeleton_exact": true,
+   "skeleton_lines": 89,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B098": {
+   "seeds": [
+    "81_0531-01",
+    "113_0476-01",
+    "298_0468-01",
+    "304_0001-01",
+    "401_0402-01"
+   ],
+   "exact": false,
+   "rep_lines": 90,
+   "rep_lines_present": 78,
+   "skeleton_exact": true,
+   "skeleton_lines": 85,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B099": {
+   "seeds": [
+    "298_0038-01",
+    "401_0402-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 78,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "B100": {
+   "seeds": [
+    "298_0038-01",
+    "340_0474-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "C047": {
+   "seeds": [
+    "194_0194-01"
+   ],
+   "exact": false,
+   "rep_lines": 91,
+   "rep_lines_present": 86,
+   "skeleton_exact": false,
+   "skeleton_lines": 84,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D001": {
+   "seeds": [
+    "163_0537-01"
+   ],
+   "exact": false,
+   "rep_lines": 55,
+   "rep_lines_present": 46,
+   "skeleton_exact": false,
+   "skeleton_lines": 54,
+   "first_divergence": 24,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Brown v. Board of Education' (Case ID: 347_0483-01, Date: 1954-05-17) [CITES] this precedent (Case ID: 163_0537-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Brown v. Board of Education' (Case ID: 347_0483-01, Date: 1954-05-17) [OVERRULES / REPUDIATES] this precedent (Case ID: 163_0537-01)."
+  },
+  "D002": {
+   "seeds": [
+    "198_0045-01"
+   ],
+   "exact": false,
+   "rep_lines": 62,
+   "rep_lines_present": 51,
+   "skeleton_exact": true,
+   "skeleton_lines": 61,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D003": {
+   "seeds": [
+    "194_0194-01",
+    "60_0393-02"
+   ],
+   "exact": false,
+   "rep_lines": 90,
+   "rep_lines_present": 77,
+   "skeleton_exact": true,
+   "skeleton_lines": 83,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D004": {
+   "seeds": [
+    "247_0251-01"
+   ],
+   "exact": false,
+   "rep_lines": 62,
+   "rep_lines_present": 51,
+   "skeleton_exact": false,
+   "skeleton_lines": 61,
+   "first_divergence": 19,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [CITES] this precedent (Case ID: 247_0251-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'United States v. Darby' (Case ID: 312_0100-01, Date: 1941-02-03) [OVERRULES / REPUDIATES] this precedent (Case ID: 247_0251-01)."
+  },
+  "D005": {
+   "seeds": [
+    "261_0525-01"
+   ],
+   "exact": false,
+   "rep_lines": 67,
+   "rep_lines_present": 54,
+   "skeleton_exact": false,
+   "skeleton_lines": 66,
+   "first_divergence": 19,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'West Coast Hotel Co. v. Parrish' (Case ID: 300_0379-01, Date: 1937-03-29) [CITES] this precedent (Case ID: 261_0525-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'West Coast Hotel Co. v. Parrish' (Case ID: 300_0379-01, Date: 1937-03-29) [OVERRULES / REPUDIATES] this precedent (Case ID: 261_0525-01)."
+  },
+  "D006": {
+   "seeds": [
+    "310_0586-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 62,
+   "skeleton_exact": false,
+   "skeleton_lines": 89,
+   "first_divergence": 29,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'West Virginia State Board of Education v. Barnette' (Case ID: 319_0624-01, Date: 1943-06-14) [CITES] this precedent (Case ID: 310_0586-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'West Virginia State Board of Education v. Barnette' (Case ID: 319_0624-01, Date: 1943-06-14) [OVERRULES / REPUDIATES] this precedent (Case ID: 310_0586-01"
+  },
+  "D007": {
+   "seeds": [
+    "83_0001-01",
+    "208_0161-01"
+   ],
+   "exact": false,
+   "rep_lines": 91,
+   "rep_lines_present": 68,
+   "skeleton_exact": false,
+   "skeleton_lines": 85,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D008": {
+   "seeds": [
+    "236_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 56,
+   "rep_lines_present": 44,
+   "skeleton_exact": true,
+   "skeleton_lines": 55,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D009": {
+   "seeds": [
+    "156_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 54,
+   "rep_lines_present": 44,
+   "skeleton_exact": true,
+   "skeleton_lines": 53,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D010": {
+   "seeds": [
+    "298_0238-01"
+   ],
+   "exact": false,
+   "rep_lines": 59,
+   "rep_lines_present": 50,
+   "skeleton_exact": true,
+   "skeleton_lines": 58,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D011": {
+   "seeds": [
+    "75_0603-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 77,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D012": {
+   "seeds": [
+    "319_0432-01",
+    "323_0214-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 84,
+   "skeleton_exact": true,
+   "skeleton_lines": 88,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D013": {
+   "seeds": [
+    "338_0025-01"
+   ],
+   "exact": false,
+   "rep_lines": 86,
+   "rep_lines_present": 73,
+   "skeleton_exact": false,
+   "skeleton_lines": 85,
+   "first_divergence": 50,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Mapp v. Ohio' (Case ID: 367_0643-01, Date: 1961-06-19) [CITES] this precedent (Case ID: 338_0025-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Mapp v. Ohio' (Case ID: 367_0643-01, Date: 1961-06-19) [OVERRULES / REPUDIATES] this precedent (Case ID: 338_0025-01)."
+  },
+  "D014": {
+   "seeds": [
+    "316_0455-01"
+   ],
+   "exact": false,
+   "rep_lines": 84,
+   "rep_lines_present": 71,
+   "skeleton_exact": false,
+   "skeleton_lines": 83,
+   "first_divergence": 22,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [CITES] this precedent (Case ID: 316_0455-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Gideon v. Wainwright' (Case ID: 372_0335-01, Date: 1963-03-18) [OVERRULES / REPUDIATES] this precedent (Case ID: 316_0455-01)."
+  },
+  "D015": {
+   "seeds": [
+    "211_0078-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 72,
+   "skeleton_exact": false,
+   "skeleton_lines": 98,
+   "first_divergence": 21,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Malloy v. Hogan' (Case ID: 378_0001-01, Date: 1964-06-15) [CITES] this precedent (Case ID: 211_0078-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Malloy v. Hogan' (Case ID: 378_0001-01, Date: 1964-06-15) [OVERRULES / REPUDIATES] this precedent (Case ID: 211_0078-01)."
+  },
+  "D016": {
+   "seeds": [
+    "277_0438-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 82,
+   "skeleton_exact": false,
+   "skeleton_lines": 98,
+   "first_divergence": 42,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Katz v. United States' (Case ID: 389_0347-01, Date: 1967-12-18) [CITES] this precedent (Case ID: 277_0438-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Katz v. United States' (Case ID: 389_0347-01, Date: 1967-12-18) [OVERRULES / REPUDIATES] this precedent (Case ID: 277_0438-01)."
+  },
+  "D017": {
+   "seeds": [
+    "106_0583-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 81,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": 3,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'McLaughlin v. Florida' (Case ID: 379_0184-01, Date: 1964-12-07) [CITES] this precedent (Case ID: 106_0583-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'McLaughlin v. Florida' (Case ID: 379_0184-01, Date: 1964-12-07) [OVERRULES / REPUDIATES] this precedent (Case ID: 106_0583-01)."
+  },
+  "D018": {
+   "seeds": [
+    "277_0350-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 79,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D019": {
+   "seeds": [
+    "273_0418-01"
+   ],
+   "exact": false,
+   "rep_lines": 50,
+   "rep_lines_present": 44,
+   "skeleton_exact": true,
+   "skeleton_lines": 49,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D020": {
+   "seeds": [
+    "378_0478-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 74,
+   "skeleton_exact": false,
+   "skeleton_lines": 97,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D022": {
+   "seeds": [
+    "392_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 90,
+   "rep_lines_present": 84,
+   "skeleton_exact": true,
+   "skeleton_lines": 89,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D023": {
+   "seeds": [
+    "384_0436-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 95,
+   "skeleton_exact": true,
+   "skeleton_lines": 98,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D024": {
+   "seeds": [
+    "388_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 61,
+   "rep_lines_present": 54,
+   "skeleton_exact": true,
+   "skeleton_lines": 60,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D025": {
+   "seeds": [
+    "381_0479-01"
+   ],
+   "exact": false,
+   "rep_lines": 93,
+   "rep_lines_present": 85,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D026": {
+   "seeds": [
+    "388_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 61,
+   "rep_lines_present": 54,
+   "skeleton_exact": true,
+   "skeleton_lines": 60,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D028": {
+   "seeds": [
+    "249_0047-01"
+   ],
+   "exact": false,
+   "rep_lines": 75,
+   "rep_lines_present": 62,
+   "skeleton_exact": true,
+   "skeleton_lines": 74,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D029": {
+   "seeds": [
+    "395_0444-01"
+   ],
+   "exact": false,
+   "rep_lines": 54,
+   "rep_lines_present": 46,
+   "skeleton_exact": true,
+   "skeleton_lines": 53,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D030": {
+   "seeds": [
+    "249_0047-01"
+   ],
+   "exact": false,
+   "rep_lines": 75,
+   "rep_lines_present": 62,
+   "skeleton_exact": true,
+   "skeleton_lines": 74,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D031": {
+   "seeds": [
+    "156_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 54,
+   "rep_lines_present": 44,
+   "skeleton_exact": true,
+   "skeleton_lines": 53,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D032": {
+   "seeds": [
+    "317_0111-01"
+   ],
+   "exact": false,
+   "rep_lines": 63,
+   "rep_lines_present": 55,
+   "skeleton_exact": true,
+   "skeleton_lines": 62,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D033": {
+   "seeds": [
+    "377_0665-01"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 95,
+   "skeleton_exact": false,
+   "skeleton_lines": 98,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D034": {
+   "seeds": [
+    "369_0186-01"
+   ],
+   "exact": false,
+   "rep_lines": 98,
+   "rep_lines_present": 94,
+   "skeleton_exact": true,
+   "skeleton_lines": 97,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D035": {
+   "seeds": [
+    "343_0579-01"
+   ],
+   "exact": false,
+   "rep_lines": 55,
+   "rep_lines_present": 50,
+   "skeleton_exact": true,
+   "skeleton_lines": 54,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D036": {
+   "seeds": [
+    "189_0199-01",
+    "235_0231-01",
+    "418_0683-01"
+   ],
+   "exact": false,
+   "rep_lines": 91,
+   "rep_lines_present": 82,
+   "skeleton_exact": true,
+   "skeleton_lines": 86,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D037": {
+   "seeds": [
+    "347_0483-01",
+    "349_0294-01"
+   ],
+   "exact": false,
+   "rep_lines": 97,
+   "rep_lines_present": 79,
+   "skeleton_exact": false,
+   "skeleton_lines": 95,
+   "first_divergence": 83,
+   "rep_div": "- LOGICAL RELATION / CITED PRECEDENT: This case (Case ID: 347_0483-01) [CITES] earlier precedent 'Plessy v. Ferguson' (Case ID: 163_0537-01, Date: 1896-05-18).",
+   "dep_div": "- LOGICAL RELATION / OVERRULED DOCTRINE: This case (Case ID: 347_0483-01) [OVERRULES / REPUDIATES] earlier precedent 'Plessy v. Ferguson' (Case ID: 163_0537-01, Date: 1896-05-18)."
+  },
+  "D038": {
+   "seeds": [
+    "198_0045-01"
+   ],
+   "exact": false,
+   "rep_lines": 62,
+   "rep_lines_present": 51,
+   "skeleton_exact": true,
+   "skeleton_lines": 61,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D040": {
+   "seeds": [
+    "62_0506-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 74,
+   "skeleton_exact": false,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D041": {
+   "seeds": [
+    "71_0002-02"
+   ],
+   "exact": false,
+   "rep_lines": 62,
+   "rep_lines_present": 56,
+   "skeleton_exact": true,
+   "skeleton_lines": 61,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D042": {
+   "seeds": [
+    "75_0603-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 77,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D043": {
+   "seeds": [
+    "77_0273-01",
+    "83_0036-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 64,
+   "skeleton_exact": false,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D045": {
+   "seeds": [
+    "88_0162-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 85,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D046": {
+   "seeds": [
+    "92_0542-01"
+   ],
+   "exact": false,
+   "rep_lines": 71,
+   "rep_lines_present": 57,
+   "skeleton_exact": true,
+   "skeleton_lines": 70,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D047": {
+   "seeds": [
+    "94_0113-01"
+   ],
+   "exact": false,
+   "rep_lines": 78,
+   "rep_lines_present": 67,
+   "skeleton_exact": true,
+   "skeleton_lines": 77,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D048": {
+   "seeds": [
+    "106_0583-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 81,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": 3,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'McLaughlin v. Florida' (Case ID: 379_0184-01, Date: 1964-12-07) [CITES] this precedent (Case ID: 106_0583-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'McLaughlin v. Florida' (Case ID: 379_0184-01, Date: 1964-12-07) [OVERRULES / REPUDIATES] this precedent (Case ID: 106_0583-01)."
+  },
+  "D049": {
+   "seeds": [
+    "109_0003-01"
+   ],
+   "exact": false,
+   "rep_lines": 59,
+   "rep_lines_present": 49,
+   "skeleton_exact": true,
+   "skeleton_lines": 58,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D050": {
+   "seeds": [
+    "118_0394-01"
+   ],
+   "exact": false,
+   "rep_lines": 92,
+   "rep_lines_present": 85,
+   "skeleton_exact": true,
+   "skeleton_lines": 88,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D054": {
+   "seeds": [
+    "129_0206-01",
+    "157_0429-01",
+    "158_0601-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 88,
+   "skeleton_exact": true,
+   "skeleton_lines": 92,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D057": {
+   "seeds": [
+    "198_0045-01"
+   ],
+   "exact": false,
+   "rep_lines": 62,
+   "rep_lines_present": 51,
+   "skeleton_exact": true,
+   "skeleton_lines": 61,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D058": {
+   "seeds": [
+    "92_0542-01"
+   ],
+   "exact": false,
+   "rep_lines": 71,
+   "rep_lines_present": 57,
+   "skeleton_exact": true,
+   "skeleton_lines": 70,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D059": {
+   "seeds": [
+    "83_0130-01"
+   ],
+   "exact": false,
+   "rep_lines": 95,
+   "rep_lines_present": 83,
+   "skeleton_exact": true,
+   "skeleton_lines": 91,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D061": {
+   "seeds": [
+    "292_0443-01"
+   ],
+   "exact": false,
+   "rep_lines": 88,
+   "rep_lines_present": 78,
+   "skeleton_exact": true,
+   "skeleton_lines": 81,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D063": {
+   "seeds": [
+    "109_0003-01"
+   ],
+   "exact": false,
+   "rep_lines": 59,
+   "rep_lines_present": 49,
+   "skeleton_exact": true,
+   "skeleton_lines": 58,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D064": {
+   "seeds": [
+    "130_0581-01"
+   ],
+   "exact": false,
+   "rep_lines": 96,
+   "rep_lines_present": 84,
+   "skeleton_exact": false,
+   "skeleton_lines": 93,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D065": {
+   "seeds": [
+    "149_0698-02"
+   ],
+   "exact": false,
+   "rep_lines": 99,
+   "rep_lines_present": 85,
+   "skeleton_exact": false,
+   "skeleton_lines": 98,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D066": {
+   "seeds": [
+    "163_0537-01"
+   ],
+   "exact": false,
+   "rep_lines": 55,
+   "rep_lines_present": 46,
+   "skeleton_exact": false,
+   "skeleton_lines": 54,
+   "first_divergence": 24,
+   "rep_div": "- CHRONOLOGICAL FLOW / CITING SUCCESSOR: 'Brown v. Board of Education' (Case ID: 347_0483-01, Date: 1954-05-17) [CITES] this precedent (Case ID: 163_0537-01).",
+   "dep_div": "- CHRONOLOGICAL FLOW / OVERRULING SUCCESSOR: 'Brown v. Board of Education' (Case ID: 347_0483-01, Date: 1954-05-17) [OVERRULES / REPUDIATES] this precedent (Case ID: 163_0537-01)."
+  },
+  "D067": {
+   "seeds": [
+    "156_0001-01"
+   ],
+   "exact": false,
+   "rep_lines": 54,
+   "rep_lines_present": 44,
+   "skeleton_exact": true,
+   "skeleton_lines": 53,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D071": {
+   "seeds": [
+    "198_0045-01"
+   ],
+   "exact": false,
+   "rep_lines": 62,
+   "rep_lines_present": 51,
+   "skeleton_exact": true,
+   "skeleton_lines": 61,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  },
+  "D075": {
+   "seeds": [
+    "158_0564-01"
+   ],
+   "exact": false,
+   "rep_lines": 80,
+   "rep_lines_present": 71,
+   "skeleton_exact": true,
+   "skeleton_lines": 79,
+   "first_divergence": null,
+   "rep_div": null,
+   "dep_div": null
+  }
+ },
+ "summary": {
+  "hard_rows_with_graph_context": 159,
+  "exact_reproductions": 0,
+  "skeleton_exact": 98,
+  "all_lines_present": 0
+ }
+}

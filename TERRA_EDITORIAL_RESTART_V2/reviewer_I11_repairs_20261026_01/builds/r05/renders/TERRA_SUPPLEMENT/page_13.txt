@@ -1,0 +1,29 @@
+Table S9 continued: evaluation block provenance
+Block
+Date
+(source)
+Models
+N (unit)
+Temporal-update topology 23 Sept. 2026
+(recorded
+timestamp)
+BFS stability; 106 pair observations,
+not generated answers
+82
+queries
+Corpus / taxonomy audits historical dates
+unverified
+Original graph properties and
+automated classification audits; no
+blanket historical run linkage
+20,000
+nodes
+Notes: N denotes the population described in each row, not a uniform count of model calls. The 35-query ablation has 700 stored observations (four arms, five repeats); CaseFacts and CLERC each have
+170 source questions and 510 stored arm-level observations (three arms). Obscure/famous engine hashes match a preserved source file (430fc1b3...), and index fingerprints are recorded. Primary, pilot,
+CaseFacts and CLERC records lack equivalent historical code/graph/index linkage. Temporal-probe hashes identify prompt/context/candidate payloads. The separate temporal-update file records 106
+pair observations from 82 unique queries, a timestamp and active-graph/subgraph hashes; the timestamp is a recorded value, not independently authenticated time. File modification dates elsewhere are
+not execution dates. In the recovered source, degree greater than 50 activates hub handling with directional budgets of 75 incoming and 25 outgoing neighbors; these are simultaneous controls, not
+conflicting cap versions. Current source does not authenticate historical settings. Recorded generator identifiers also reflect different logging paths (requested model arguments versus returned identifiers),
+not proof of identical backend weights. The prospective comparison uses separate frozen graph/code inputs and a shared pipeline; details and observed model identifiers are recorded with Section S3. It
+does not recover historical configuration identities.
+S13

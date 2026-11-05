@@ -1,0 +1,109 @@
+time for Category A and the single-shot baselines, but
+for Categories B–D they leave an unattributed remainder
+of unestablished cause (mean 2, 211.6 ms, 262.0 ms and
+2, 920.3 ms), so the columns do not reconcile exactly.
+Routing averages 1, 565.5 ms (995.3 ms on A, 1, 124.2 ms
+on B). Retrieval averages 288.5 ms (353.4, 293.9, 249.9 and
+233.2 ms on A–D); the Category A fast path does not
+bypass retrieval. Grading averages 5, 304.2 ms (4, 562.8,
+9, 367.2, 33.2 and 6, 146.1 ms); Category C’s low mean
+reflects 74 of 75 empty contexts (mean 508 characters)
+and grading under 1 ms, while Category D contexts are
+longer (mean 25, 928 characters, none above the 60,000-
+character clamp). Generation averages 5, 822.0 ms overall
+and 13, 300.9 ms on Category B; Category C’s 0.0 ms
+reflects that no Category C query reached the generator.
+4) Tier 2 Distance-Only Domain-Flag Calibration:
+Panel B evaluates the distance-only domain flag over
+τ ∈[0.90, 1.40] on the 20,000-case index against N = 200
+in-domain queries (Categories A and B) and N = 75
+out-of-domain probes (Category C). The isolated filter
+separates well (AUROC 0.9901). Aggressive thresholds
+(τ ≤1.10) flag out-of-domain query distances at high
+rates (96.00% at τ
+= 0.90) but also flag in-domain
+inquiries (4.50%, 9/200); at τ = 1.25 and 1.30 in-domain
+distance false positives fall to zero (0.00%, 0/200). At the
+configured τ = 1.30 the offline calibration flags 54.67%
+(41/75) of the out-of-domain probes by distance alone, and
+the remaining 45.33% (34/75) fall below the threshold. In
+the canonical run no query was terminated before retrieval,
+and all 75 Category C queries were refused downstream,
+74 on an empty context with grading under 1 ms. The
+historical helper supplies a coarse domain flag to the
+router; this calibration does not measure a mechanical pre-
+retrieval rejection or compute saving. Embedding distance
+does not prove legal validity or domain membership.
+O. Benchmark-Graph Traversal Stability Under Temporal
+Snapshot Expansion
+To test traversal stability under corpus growth without
+generative confounding, we run standalone breadth-first
+traversal over four snapshot expansions: 1890 →1930
+(Step N = 40 yr), 1930 →1950 (20 yr), 1950 →1970
+(20 yr) and 1970 →1980 (10 yr). Over N = 106 qualifying
+Category B observations (82 unique queries anchored at an
+origin decided at or before T, with at least one later gold
+authority in (T, T +N]), BFS traversal (k = 2, d = 2) was
+run on G≤T and G≤T +N seeded by the origin precedent
+s = q[target_nodes][0]. Grand pooled recall moved from
+0.35 ± 0.13 to 0.38 ± 0.14 (∆Recall = 0.03 ± 0.16), with
+90.6% of queries showing ∆Recall ≥0, a Discovery
+Rate on newly eligible authorities of 0.12, and median
+traversal latency under one millisecond (< 0.01 ms; mean
+0.15±0.18 ms); by snapshot pair, ∆Recall is −0.10±0.25
+(1890 →1930), 0.01 ± 0.15 (1930 →1950), 0.08 ± 0.14
+(1950 →1970) and −0.00 ± 0.10 (1970 →1980), and the
+full per-snapshot table is in the supplementary material.
+Three boundaries apply: absolute recall includes the depth-
+0 seed (while ∆Recall is invariant to that offset); negative
+shifts stem from degree caps when expanding nodes
+become hubs; and the experiment evaluates topology over
+generic CITES edges on NetworkX DiGraphs, decoupled
+from vector retrieval (Section VII-C) and from live index
+upsert, which remains future work.
+VII. Discussion
+The historical evaluation indicates gains in Category B
+target coverage and out-of-domain refusal, with weak-
+nesses against Direct LLM and on obscure precedents with-
+out curated labels. The prospective hybrid comparison
+instead measures a shared gated pipeline: higher T faith-
+fulness coincides with 69/100 versus 4/100 Category B
+verifier refusals, so it does not establish better answer
+coverage or legal correctness.
+A. Architectural Differentiation and System Scope
+Compared with Microsoft Research’s GraphRAG [5],
+which builds static hierarchical entity-relation communi-
+ties for dataset summarization, TERRA models precedent
+evolution through dated citation edges (CITES) and typed
+OVERRULES edges imported from CRS annotations (56
+tagged, 3 of them found mis-resolved on audit; the 19
+Category D queries cover 9 distinct edges; Section III-A),
+together with node-level generic procedural scaffolds; live
+updates are untested. The NLI Smart Grader is designed
+to reduce unsupported generations, although residual
+errors remain [27], [30]. The offline pipeline indexes full-
+docket Supreme Court jurisprudence (1850–1980) as a
+high-distractor graph, while the evaluated online task is
+longitudinal precedent tracking, temporal drift, and safety
+over constitutional and federal public-law doctrine. Three
+design choices distinguish TERRA, examined only in a
+35-query pilot ablation. First, domain-boundary safety
+pairs lexical anchoring with downstream NLI gating and
+an optional, scale-dependent geometric proximity flag
+that terminated no query in the canonical run; 74 of
+75 Category C refusals followed empty retrieval. Second,
+entailment-gated generation favours refusal over unsup-
+ported answers (16 of 100 Category B queries falsely
+refused), qualified by the 94.5% citation-extraction preci-
+sion of the underlying graph. Third, chronological CITES
+edges alongside typed OVERRULES relations let TERRA
+model precedent shifts only where curated annotations
+exist.
+B. Empirical Analysis of Firewall Component Contribu-
+tions and Scale Dynamics
+The domain helper combines an indexed-title match
+with a strict distance-below-1.30 condition; the distance-
+only diagnostic flags the complementary boundary. A pre-
+liminary 50-query Category C audit on the initial 10,009-
+opinion index flagged 0/50 queries by distance (reported
+range 0.281–0.859, units unverified). Safety in Table IV

@@ -1,0 +1,110 @@
+[
+  {
+    "file": "main.tex",
+    "label": "tab:corpus_stats",
+    "columns": 3,
+    "landscape_in_same_document": false,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "TERRA Event Evolution Graph (EEG) Corpus Statistics and Doctrinal Taxonomy."
+  },
+  {
+    "file": "main.tex",
+    "label": "tab:ablation",
+    "columns": 5,
+    "landscape_in_same_document": false,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Component-Level Ablation Analysis Across \\numPilotQueries\\ Benchmark Queries ($N=\\numPilotRepeatedRuns$ Repeated Runs, \\numPilotEvals\\ Evaluations)."
+  },
+  {
+    "file": "main.tex",
+    "label": "tab:cat_b_performance",
+    "columns": 5,
+    "landscape_in_same_document": false,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Category B Multi-Hop Evolutionary Performance and Pairwise Win Rates ($N=\\CatBTotalPairs$ Paired Evaluations)."
+  },
+  {
+    "file": "main.tex",
+    "label": "tab:overall_summary",
+    "columns": 8,
+    "landscape_in_same_document": true,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Comprehensive Benchmark Performance Breakdown ($N=\\numTotalEvals$ Evaluations Across \\numUniqueQueries\\ Unique Queries $\\times$ \\numComparativePipelines\\ Comparative Pipelines, with 95\\% Bootstrap CIs)."
+  },
+  {
+    "file": "main.tex",
+    "label": "tab:power_analysis",
+    "columns": 6,
+    "landscape_in_same_document": false,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Statistical Significance, Benjamini-Hochberg FDR Control ($M=20$ Family), and Exact Paired Outcomes Across Paired Evaluations."
+  },
+  {
+    "file": "tables/table_refusal_breakdown.tex",
+    "label": "tab:refusal_breakdown",
+    "columns": 6,
+    "landscape_in_same_document": false,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Comprehensive Per-Category Epistemic and Safety Refusal Breakdown Across All 350 Benchmark Queries ($N=1,750$ Evaluations), Alongside Audited Category D Adversarial Deception Multi-Class Robustness Breakdown ($N=75$ Queries)."
+  },
+  {
+    "file": "tables/table_obscure_overruled_eval.tex",
+    "label": "tab:obscure_overruled_eval",
+    "columns": 7,
+    "landscape_in_same_document": true,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Obscure Overruled Precedent Benchmark Evaluation ($N=\\ObscCohortSize$ Obscure Decisions, $N=\\ObscKappaCleanEvals$ Completion Instances) and Cross-Suite Descriptive Contrast with Famous Landmark Decisions ($N=\\ObscFamousCohortSize$ Category D Precedent Queries). Evaluated under strict payload parity with two distinct LLM judges (\\texttt{qwen3-next} and \\texttt{gpt-oss}, $\\kappa = \\ObscKappa$; unverified quotes flagged: \\ObscQwenUnverifiedQuotes{} and \\ObscGptOssUnverifiedQuotes{}). Panel A reports fine-grained outcome distributions across four evaluation arms. Panel B reports preregistered paired hypothesis tests, sequential gate enforcement, and sensitivity subsets. Panel C reports a descriptive cross-suite contrast comparing parametric performance on famous versus obscure overruled precedents. Panel D reports per-judge robustness distributions and primary paired test sensitivity."
+  },
+  {
+    "file": "tables/table_casefacts_eval.tex",
+    "label": "tab:casefacts_eval",
+    "columns": 9,
+    "landscape_in_same_document": true,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "CaseFacts External Benchmark Evaluation Across In-Corpus Precedent Verification (Track 1, $N=120$) and Modern Out-of-Corpus Refusal Control (Track 2, $N=50$). Evaluated under strict payload parity ($T=0.0$, 4096 tokens, LLaMA 3.3 70B) with two model-distinct non-LLaMA judges (\\texttt{qwen3-next-80b-a3b} and \\texttt{gpt-oss-120b}, 100.0\\% concordance on parsed labels, zero fallback contaminations). Overruled class performance is reported strictly as a qualitative diagnostic finding with exact Clopper-Pearson 95\\% confidence intervals (Fix 1). Anti-circularity audit confirms that only 34/20,000 nodes (0.1700\\%) received curated reasoning traces during graph construction, while the benchmark touches 284/20,000 nodes (1.4200\\%), leaving 98.58\\% of the graph substrate unvisited."
+  },
+  {
+    "file": "tables/table_clerc_eval.tex",
+    "label": "tab:clerc_eval",
+    "columns": 12,
+    "landscape_in_same_document": true,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Standardized External Benchmark Evaluation on a Stratified Sample of CLERC (Track 1, $N=120$) and TERRA-Specific Out-of-Corpus Refusal Stress Test (Track 2, $N=50$). Evaluated under strict payload parity ($T=0.0$, 4096 tokens, LLaMA 3.3 70B) with two model-distinct non-LLaMA judges (\\texttt{qwen3-next-80b-a3b} and \\texttt{gpt-oss-120b}, certified zero fallback contaminations). Citation metrics evaluate exact historical reporter matches parsed deterministically via \\texttt{eyecite}, reporting Citation $F_1$ along with component Citation Precision (CP) and Citation Recall (CR). Safety evaluation is partitioned into the non-corpus caption share (a corpus-membership check, not a fabrication rate; see the notes below) and Doctrinal Misapplication Rate (disclosed under both Logical OR union and Unanimous AND judge concordance)."
+  },
+  {
+    "file": "tables/table_retrieval_eval.tex",
+    "label": "tab:retrieval_eval",
+    "columns": 6,
+    "landscape_in_same_document": false,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Direct Evidence Retrieval Quality, Chain-Length Recovery, and Hyperparameter Robustness Grids on Category B ($N=\\CatBRetrievalQueries$ Queries, $\\CatBGoldPrecedents$ Gold Landmark Precedents). Evaluated decoupled from the generator on retrieved context subgraphs delivered prior to generator invocation. Panel A reports overall precedent recovery across comparative retrievers. Panel B disaggregates precedent discovery by evolutionary chain length (3, 4, and 5 nodes; spanning 2, 3, and 4 citation hops). Panel C reports traversal sensitivity conditional on anchors frozen from older stored contexts: Section 1 uses the legacy unconstrained engine (62/100 complete recoveries), distinct from the canonical-v2 results in Panels A/B (66/100); Section 2 is a separate bounded operational diagnostic (35k-character / 40-node limits)."
+  },
+  {
+    "file": "tables/table_citation_eval.tex",
+    "label": "tab:citation_eval",
+    "columns": 8,
+    "landscape_in_same_document": true,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Generative Citation Correctness, Doctrinal Support, and Interactive Hyperlink Provenance Across Comparative Pipelines on Category B ($N=\\CatBRetrievalQueries$ Queries, $\\CatBGoldPrecedents$ Gold Landmark Precedents) and the Canonical \\numUniqueQueries-Query Benchmark Suite. Evaluates end-to-end citation fidelity directly in the synthesized completions. Panel A reports precedent citation recall, entity existence precision ($\\text{CP}_{\\text{entity}}$), judge-weighted doctrinal support precision ($\\text{CP}_{\\text{doctrinal}}$), and full-chain citation recovery on Category B. Panel B reports interactive relative markdown hyperlink attribution and piecewise epistemic negative containment across the 350-benchmark suite."
+  },
+  {
+    "file": "tables/table_computational_budget.tex",
+    "label": "tab:computational_budget",
+    "columns": 12,
+    "landscape_in_same_document": true,
+    "font_points": 9,
+    "all_cells_preserved": "Original cell body retained except multicolumn wrapping format",
+    "caption": "Computational Budget Profiling, Sequential Pipeline Invocations, Stage Latency Breakdown, and Geometric Gate Calibration ($N=\\numUniqueQueries$ Benchmark Queries Across \\numComparativePipelines\\ Comparative Architectures). Panel A reports total operations per query, active 70B generator calls, end-to-end and stage latencies (wall-clock ms), effective prompt/completion tokens, and modelled pipeline financial costs (token estimates at list prices, not metered). Panel B provides an \\textit{ex-post} diagnostic evaluation of the distance-only squared-L2 ROC diagnostic ($\\text{AUROC} = \\TerraGateIsolatedAUROC$) across the 20,000-case index; the operational threshold $\\tau=\\IssueTwentyFourDistThreshold$ was frozen prior to benchmark construction and evaluation."
+  }
+]

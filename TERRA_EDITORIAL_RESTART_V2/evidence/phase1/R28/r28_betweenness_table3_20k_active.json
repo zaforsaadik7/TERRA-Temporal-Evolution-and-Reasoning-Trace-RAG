@@ -1,0 +1,200 @@
+{
+ "tag": "20k_active",
+ "nodes": 20000,
+ "unique_edges": 145366,
+ "density": 0.00036343317165858294,
+ "mean_undirected_degree": 14.5357,
+ "max_degree": 276,
+ "max_degree_case": "Simpson v. Shepard",
+ "top_degree": [
+  {
+   "id": "230_0352-01",
+   "title": "Simpson v. Shepard",
+   "value": 276.0,
+   "degree": 276
+  },
+  {
+   "id": "369_0186-01",
+   "title": "Baker v. Carr",
+   "value": 245.0,
+   "degree": 245
+  },
+  {
+   "id": "285_0022-01",
+   "title": "Crowell v. Benson",
+   "value": 213.0,
+   "degree": 213
+  },
+  {
+   "id": "291_0502-01",
+   "title": "Nebbia v. New York",
+   "value": 211.0,
+   "degree": 211
+  },
+  {
+   "id": "372_0391-01",
+   "title": "Fay v. Noia",
+   "value": 204.0,
+   "degree": 204
+  },
+  {
+   "id": "297_0288-01",
+   "title": "Ashwander v. Tennessee Valley Authority",
+   "value": 199.0,
+   "degree": 199
+  },
+  {
+   "id": "347_0340-01",
+   "title": "Miller Bros. v. Maryland",
+   "value": 193.0,
+   "degree": 193
+  },
+  {
+   "id": "341_0123-01",
+   "title": "Joint Anti-Fascist Refugee Committee v. McGrath",
+   "value": 189.0,
+   "degree": 189
+  },
+  {
+   "id": "335_0632-01",
+   "title": "Commissioner v. Estate of Church",
+   "value": 187.0,
+   "degree": 187
+  },
+  {
+   "id": "384_0436-01",
+   "title": "Miranda v. Arizona",
+   "value": 183.0,
+   "degree": 183
+  }
+ ],
+ "avg_clustering_nx_style": 0.2046775894671646,
+ "largest_wcc": 18558,
+ "n_wcc": 1397,
+ "largest_scc": 2,
+ "n_scc": 19991,
+ "betweenness_undirected_top10": [
+  {
+   "id": "285_0022-01",
+   "title": "Crowell v. Benson",
+   "value": 0.0182,
+   "degree": 213
+  },
+  {
+   "id": "335_0632-01",
+   "title": "Commissioner v. Estate of Church",
+   "value": 0.0122,
+   "degree": 187
+  },
+  {
+   "id": "369_0186-01",
+   "title": "Baker v. Carr",
+   "value": 0.0103,
+   "degree": 245
+  },
+  {
+   "id": "285_0393-01",
+   "title": "Burnet v. Coronado Oil & Gas Co.",
+   "value": 0.0103,
+   "degree": 160
+  },
+  {
+   "id": "297_0288-01",
+   "title": "Ashwander v. Tennessee Valley Authority",
+   "value": 0.0102,
+   "degree": 199
+  },
+  {
+   "id": "370_0530-01",
+   "title": "Glidden Co. v. Zdanok",
+   "value": 0.0102,
+   "degree": 152
+  },
+  {
+   "id": "230_0352-01",
+   "title": "Simpson v. Shepard",
+   "value": 0.0088,
+   "degree": 276
+  },
+  {
+   "id": "223_0001-01",
+   "title": "Mondou v. New York, New Haven & Hartford Railroad",
+   "value": 0.0072,
+   "degree": 149
+  },
+  {
+   "id": "341_0123-01",
+   "title": "Joint Anti-Fascist Refugee Committee v. McGrath",
+   "value": 0.0067,
+   "degree": 189
+  },
+  {
+   "id": "372_0391-01",
+   "title": "Fay v. Noia",
+   "value": 0.0065,
+   "degree": 204
+  }
+ ],
+ "betweenness_directed_top10": [
+  {
+   "id": "230_0352-01",
+   "title": "Simpson v. Shepard",
+   "value": 0.0047,
+   "degree": 276
+  },
+  {
+   "id": "285_0022-01",
+   "title": "Crowell v. Benson",
+   "value": 0.0042,
+   "degree": 213
+  },
+  {
+   "id": "297_0288-01",
+   "title": "Ashwander v. Tennessee Valley Authority",
+   "value": 0.0036,
+   "degree": 199
+  },
+  {
+   "id": "300_0515-01",
+   "title": "Virginian Railway Co. v. System Federation No. 40",
+   "value": 0.0027,
+   "degree": 120
+  },
+  {
+   "id": "285_0393-01",
+   "title": "Burnet v. Coronado Oil & Gas Co.",
+   "value": 0.0025,
+   "degree": 160
+  },
+  {
+   "id": "257_0282-01",
+   "title": "Dahnke-Walker Milling Co. v. Bondurant",
+   "value": 0.0024,
+   "degree": 130
+  },
+  {
+   "id": "369_0186-01",
+   "title": "Baker v. Carr",
+   "value": 0.0023,
+   "degree": 245
+  },
+  {
+   "id": "335_0632-01",
+   "title": "Commissioner v. Estate of Church",
+   "value": 0.0023,
+   "degree": 187
+  },
+  {
+   "id": "209_0123-01",
+   "title": "Ex parte Young",
+   "value": 0.0021,
+   "degree": 167
+  },
+  {
+   "id": "341_0123-01",
+   "title": "Joint Anti-Fascist Refugee Committee v. McGrath",
+   "value": 0.002,
+   "degree": 189
+  }
+ ]
+}

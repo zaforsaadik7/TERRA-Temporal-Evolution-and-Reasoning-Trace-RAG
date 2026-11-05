@@ -1,0 +1,237 @@
+{
+  "scope": "Filesystem hashing only; identity is not historical execution authentication",
+  "artifacts": [
+    {
+      "path": "terra_350_benchmark.json",
+      "historical_recorded_sha256": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3",
+      "exists": true,
+      "sha256": "8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3",
+      "size_bytes": 352287,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "terra_baselines_eval_raw.json",
+      "historical_recorded_sha256": "54e4b34b7c435b612690409dbf59a066ea53c7bc99497dcd683af8e22cc40d63",
+      "exists": true,
+      "sha256": "54e4b34b7c435b612690409dbf59a066ea53c7bc99497dcd683af8e22cc40d63",
+      "size_bytes": 167324504,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "data/terra_canonical_v2_eval.json",
+      "historical_recorded_sha256": "95e775e29c3a0d95f3cb35aa9d50a5f030d04b51d3f2175848db2f2b57aad507",
+      "exists": true,
+      "sha256": "95e775e29c3a0d95f3cb35aa9d50a5f030d04b51d3f2175848db2f2b57aad507",
+      "size_bytes": 15156436,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "data/issue26_hyperparameter_sensitivity.json",
+      "historical_recorded_sha256": "6c85eeccf6fb98fee17672d467942e7cb74cb206d80d53dcad473c4eb6d54f07",
+      "exists": true,
+      "sha256": "6c85eeccf6fb98fee17672d467942e7cb74cb206d80d53dcad473c4eb6d54f07",
+      "size_bytes": 197534474,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "data/temporal_leakage_dual_judged.json",
+      "historical_recorded_sha256": "ae6726d970d10237cccd0b508031297f09c836987dc515973595e0754d842a22",
+      "exists": true,
+      "sha256": "ae6726d970d10237cccd0b508031297f09c836987dc515973595e0754d842a22",
+      "size_bytes": 15065872,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "configs/terra_config.json",
+      "historical_recorded_sha256": "1e03bdbedecb9b761b73921afcc8f1c7a172d9a46f14cd32afe550c61a92810a",
+      "exists": true,
+      "sha256": "1e03bdbedecb9b761b73921afcc8f1c7a172d9a46f14cd32afe550c61a92810a",
+      "size_bytes": 2461,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "ask_terra.py",
+      "historical_recorded_sha256": "0cca5cf440a1299853c37899647465b5f1f843803898e630d8d5402a3d9fffbb",
+      "exists": true,
+      "sha256": "0cca5cf440a1299853c37899647465b5f1f843803898e630d8d5402a3d9fffbb",
+      "size_bytes": 64075,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "eval_terra.py",
+      "historical_recorded_sha256": "a2353b24eeafe833ed87f0405bb847082b2d7dd12c1d39d3fda4872bb57b2260",
+      "exists": true,
+      "sha256": "a2353b24eeafe833ed87f0405bb847082b2d7dd12c1d39d3fda4872bb57b2260",
+      "size_bytes": 74433,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scripts/compute_casefacts_metrics.py",
+      "historical_recorded_sha256": "090cc2c6f448088bbbb755d227ecdbb42ac4c4c46078679cca4458884e1a4b3f",
+      "exists": true,
+      "sha256": "090cc2c6f448088bbbb755d227ecdbb42ac4c4c46078679cca4458884e1a4b3f",
+      "size_bytes": 9008,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scripts/compute_clerc_metrics.py",
+      "historical_recorded_sha256": "a7a1d450dc58bd01df65e7af2441bc0b5c71f7a3fa478d9d114a404fcc8dc447",
+      "exists": true,
+      "sha256": "a7a1d450dc58bd01df65e7af2441bc0b5c71f7a3fa478d9d114a404fcc8dc447",
+      "size_bytes": 21086,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scripts/certify_category_d_issue6.py",
+      "historical_recorded_sha256": "2576962490ff55da333789674725c8557ec3e7b0052c3d17412693ce10180ff8",
+      "exists": true,
+      "sha256": "2576962490ff55da333789674725c8557ec3e7b0052c3d17412693ce10180ff8",
+      "size_bytes": 18155,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "dataset_20k_cap/terra_eeg_index_20k.json",
+      "historical_recorded_sha256": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+      "exists": true,
+      "sha256": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+      "size_bytes": 109574119,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/category_d_rubric_summary_v2.json",
+      "historical_recorded_sha256": "2f4d0f7603df142febfaa7792683b2b840267025d7ace9ad9684f9d59b9f503f",
+      "exists": true,
+      "sha256": "2f4d0f7603df142febfaa7792683b2b840267025d7ace9ad9684f9d59b9f503f",
+      "size_bytes": 9207,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/terra_350_issue6_dual_judged.json",
+      "historical_recorded_sha256": "eb38918c7c1420cc3f6682dc72d49d77ae0e26e492d7714bac451cf2acbb952b",
+      "exists": true,
+      "sha256": "eb38918c7c1420cc3f6682dc72d49d77ae0e26e492d7714bac451cf2acbb952b",
+      "size_bytes": 10235812,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/clerc_120_eval_raw.json",
+      "historical_recorded_sha256": "449364eb81b181d680cf41fbe54df37dfa559952a74f74debae32b1ea2097813",
+      "exists": true,
+      "sha256": "449364eb81b181d680cf41fbe54df37dfa559952a74f74debae32b1ea2097813",
+      "size_bytes": 8714257,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/clerc_50_refusal_eval_raw.json",
+      "historical_recorded_sha256": "ec598d749873ba31bbf6d8dec19c218c421fffc38650172ac97089b18a546223",
+      "exists": true,
+      "sha256": "ec598d749873ba31bbf6d8dec19c218c421fffc38650172ac97089b18a546223",
+      "size_bytes": 3428714,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex",
+      "historical_recorded_sha256": "4a87b13d1d68207de458e8489fc6672ee7d75695ef2c1724f2bf416eb4f123ff",
+      "exists": true,
+      "sha256": "ccf16c8168a8fb429b21c74413f1cb86a0a392c01f4c71b5041fbd007616fba6",
+      "size_bytes": 155389,
+      "matches_prior_inventory": false
+    },
+    {
+      "path": "scratch/casefacts_120_eval_raw.json",
+      "historical_recorded_sha256": "c607d90e3b368dda992efab2dc04665862c59f699c5feb7be29b5c39724e86dd",
+      "exists": true,
+      "sha256": "c607d90e3b368dda992efab2dc04665862c59f699c5feb7be29b5c39724e86dd",
+      "size_bytes": 1775138,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/casefacts_50_refusal_eval_raw.json",
+      "historical_recorded_sha256": "093a6a9c4c86ced1421c1934a05f46c624c53540d4b5ec3c2277ee56b56eaed3",
+      "exists": true,
+      "sha256": "093a6a9c4c86ced1421c1934a05f46c624c53540d4b5ec3c2277ee56b56eaed3",
+      "size_bytes": 654001,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/obscure_raw_responses.json",
+      "historical_recorded_sha256": "00040bd566fa1081106ba73dbaf14b35ee9d456a6850904953e37472a63c3c9c",
+      "exists": true,
+      "sha256": "00040bd566fa1081106ba73dbaf14b35ee9d456a6850904953e37472a63c3c9c",
+      "size_bytes": 2652795,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/famous_d1_raw_responses.json",
+      "historical_recorded_sha256": "912c55bef3a085ae7cf3df9375a323c51181a7583d60f60a29dde7ac981aaaa3",
+      "exists": true,
+      "sha256": "912c55bef3a085ae7cf3df9375a323c51181a7583d60f60a29dde7ac981aaaa3",
+      "size_bytes": 1733160,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/issue19_temporal_update_results.json",
+      "historical_recorded_sha256": "9ee95e5ba44f47be78c32630895c9cf58388246f6ecb79e1bbeb6e0cbd7f3152",
+      "exists": true,
+      "sha256": "9ee95e5ba44f47be78c32630895c9cf58388246f6ecb79e1bbeb6e0cbd7f3152",
+      "size_bytes": 101774,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scratch/issue19_prereg.json",
+      "historical_recorded_sha256": "dc3aebe74611436ff4bb0a07d2d5450f07a0696c0d115b567e03e0f428496f94",
+      "exists": true,
+      "sha256": "dc3aebe74611436ff4bb0a07d2d5450f07a0696c0d115b567e03e0f428496f94",
+      "size_bytes": 410,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "terra_true_ablation_pilot_raw.json",
+      "historical_recorded_sha256": "67aef98f7670ff34e1fe9989290b50733addfe330c7fae7a00e8a490c5dacf15",
+      "exists": true,
+      "sha256": "67aef98f7670ff34e1fe9989290b50733addfe330c7fae7a00e8a490c5dacf15",
+      "size_bytes": 752851393,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scripts/run_obscure_overruled_inference.py",
+      "historical_recorded_sha256": "2da37ae2d8af0f44e5becf919be9ea5092033c0965317acc6aa14c3886f4d987",
+      "exists": true,
+      "sha256": "2da37ae2d8af0f44e5becf919be9ea5092033c0965317acc6aa14c3886f4d987",
+      "size_bytes": 42118,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scripts/run_issue19_temporal_update_experiment.py",
+      "historical_recorded_sha256": "a447b7f7d2ff6fd674b0d216f3ebbad40a7f827397ad63f17fe12d9d160c3e18",
+      "exists": true,
+      "sha256": "a447b7f7d2ff6fd674b0d216f3ebbad40a7f827397ad63f17fe12d9d160c3e18",
+      "size_bytes": 13388,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scripts/run_issue26_hyperparameter_sensitivity.py",
+      "historical_recorded_sha256": "5c45334176082201a044e23d3bba605ec19722749ea9fec8e397dca3ffb54b18",
+      "exists": true,
+      "sha256": "5c45334176082201a044e23d3bba605ec19722749ea9fec8e397dca3ffb54b18",
+      "size_bytes": 55821,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "scripts/ingest_20k_eeg_and_vector_db.py",
+      "historical_recorded_sha256": "a8ff98fa0dabd7fa15701d7b641122761409ce6947f5a126c9440e6c02922ba5",
+      "exists": true,
+      "sha256": "a8ff98fa0dabd7fa15701d7b641122761409ce6947f5a126c9440e6c02922ba5",
+      "size_bytes": 13378,
+      "matches_prior_inventory": true
+    },
+    {
+      "path": "data/temporal_leakage_preflight_manifest.json",
+      "historical_recorded_sha256": "4f1be2160a9fdcb654c7bdd3315e3d6866defcff4ce7afacd1599fafecf2ff76",
+      "exists": true,
+      "sha256": "4f1be2160a9fdcb654c7bdd3315e3d6866defcff4ce7afacd1599fafecf2ff76",
+      "size_bytes": 2375,
+      "matches_prior_inventory": true
+    }
+  ]
+}

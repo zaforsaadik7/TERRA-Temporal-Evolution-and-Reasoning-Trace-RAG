@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-055",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "As-of Year: 1970",
+  "disposition": "HOLD_QUOTATION_ATTRIBUTION",
+  "attribution_finding": "Sealy majority pp.354–357 contains the horizontal-instrumentality, vertical distinction and unlawful price-fixing discussion; final 'which was illegal per se' is reporter syllabus p.350, not a continuation of the quoted opinion.",
+  "fidelity_finding": "Genuine fragments are stitched with altered connective wording; 'territorial exclusivity ... connection' drops 'But its' without brackets. The final relative clause transfers syllabus wording into opinion text.",
+  "pinpoint_finding": "Supplied 352–354,357–358 omits p.356 containing the essential price-fixing connection; use 354–357 and separately identify syllabus 350 if retained.",
+  "scope_and_cutoff_finding": "Sealy's price-fixing-linked horizontal arrangements must not be broadened to every vertical license restraint. Burke (1967) and Sealy (1967) precede 1970 cutoff.",
+  "evidence": [
+    "sources/USREPORTS-388-350.txt:31–34,167–192,245–253,273–296"
+  ],
+  "proposed_action_not_applied": "Correct quotation boundaries and source labels; preserve and corroborate semantic_followup_02 rather than overwriting it.",
+  "unresolved_questions": [],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "United States v. Sealy, Inc., 388 U.S. 350 (1967) — https://supreme.justia.com/cases/federal/us/388/350/\n[cite: 2]",
+  "ledger_excerpt": "From United States v. Sealy, Inc., 388 U.S. 350, 352–354, 357–358 (1967):\n\"Sealy, Inc., is an instrumentality of the licensees for purposes of the horizontal territorial allocation. It is not the principal. Accordingly, this case is to be distinguished from White Motor Co. v. United States... which involved a vertical territorial limitation... In the present case, we are also faced with an 'aggregation of trade restraints.'... territorial exclusivity... connection with the unlawful price-fixing is enough to require that it be condemned as an unlawful restraint... which was illegal per se.\""
+}
+

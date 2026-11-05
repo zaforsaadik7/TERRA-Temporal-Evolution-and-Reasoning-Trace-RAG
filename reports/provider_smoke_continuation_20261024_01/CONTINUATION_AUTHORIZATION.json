@@ -1,0 +1,26 @@
+{
+  "status": "APPROVED_BY_USER",
+  "scope": "FOUR_UNUSED_ROLES_NO_ROUTER_RETRY",
+  "human_message": "okay, you don't need to report back these types of things just continue with it",
+  "authorization_local_date": "2026-10-24",
+  "source_manifest_sha256": "4e759ef81ea20ae72bd842f14a35a77f7b901d724f0bad25d47b4c5cabfaccca",
+  "cap_nanodollars": 1000000000,
+  "maximum_new_calls": 4,
+  "maximum_cumulative_calls": 5,
+  "prior_evidence": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\provider_compatibility_smoke_20261024_01\\attempt\\terminal.json",
+      "sha256": "6aaabc2c9ae93b2bcf7662c34c04b2cf8044c6d2890f8aa522f90dd974f57f1e"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\provider_compatibility_smoke_20261024_01\\attempt\\calls.jsonl",
+      "sha256": "e0ef445c6d30740388969ba2d9b097566ffd6c84c41a72c16f1a669d87e660c8"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\provider_compatibility_smoke_20261024_01\\attempt\\events.jsonl",
+      "sha256": "e37218965c905732b020eb6df116a753c74166e12c93738da4b99c9b2ec1c291"
+    }
+  ],
+  "original_pricing_and_timeout_assumptions_retained": true,
+  "interpretation": "Continue only unsent roles; no replay/router/network retry; no full study; shared original $1 cap."
+}

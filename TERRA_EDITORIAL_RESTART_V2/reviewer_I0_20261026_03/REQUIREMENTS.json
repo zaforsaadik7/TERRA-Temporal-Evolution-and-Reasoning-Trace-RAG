@@ -1,0 +1,142 @@
+[
+  {
+    "id": "REV1A",
+    "requirement": "distance calibration",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I1",
+    "status": "ADDRESSED_WITH_SCOPE_LIMITATION",
+    "disposition": "I1a current diagnostic reproduces threshold grid; original summary figures untraced and removed.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/EXECUTION_AND_SELF_AUDIT_REPORT.md"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV1B",
+    "requirement": "66/62 chain and reproduction",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I1",
+    "status": "ADDRESSED_WITH_SCOPE_LIMITATION",
+    "disposition": "Different stored historical/canonical outcomes separated; exact historical lineage unavailable.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/EXECUTION_AND_SELF_AUDIT_REPORT.md"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV2A",
+    "requirement": "Figure1 and implementation account",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I2",
+    "status": "ADDRESSED_WITH_SCOPE_LIMITATION",
+    "disposition": "Current source and architecture reconciled; unavailable historical code/index linkage disclosed.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I2_20261025_01/I2_COMPLETION.json"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV2B",
+    "requirement": "per-experiment graph/code/configuration",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I2",
+    "status": "ADDRESSED_WITH_SCOPE_LIMITATION",
+    "disposition": "26 experiment blocks recorded with explicit unknowns.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I2_20261025_01/I2_COMPLETION.json"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV3",
+    "requirement": "fair paired comparison",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I5",
+    "status": "RESOLVED_VERIFIED",
+    "disposition": "350 paired queries completed and audited; refusal disparity and design limits retained.",
+    "evidence": [
+      "reports/matched_study_r03_20261025_01/FINAL_REPORT.md"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": null,
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV4",
+    "requirement": "reasoning-trace novelty/title",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I3",
+    "status": "RESOLVED_VERIFIED",
+    "disposition": "Approved proper-name and generic scaffold framing, not case-specific reasoning.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/working/src/main.tex"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": null,
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV5A",
+    "requirement": "useful-answer/coverage/error reporting",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I6",
+    "status": "ADDRESSED_WITH_SCOPE_LIMITATION",
+    "disposition": "Operational and judge proxies only; strict legal correctness unestimated.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I6_20261026_01/I6_COMPLETION.json"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV5B",
+    "requirement": "independent verifier error rates",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I6",
+    "status": "PARTIAL",
+    "disposition": "No independent sufficiency references; rates not estimated.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I6_20261026_01/I6_COMPLETION.json"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV5C",
+    "requirement": "blinded legal-expert assessment",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I6",
+    "status": "PARTIAL",
+    "disposition": "Unavailable, author and automated checks cannot substitute; no request for experts.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I6_20261026_01/I6_COMPLETION.json"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  },
+  {
+    "id": "REV5D",
+    "requirement": "reliability scope under external weakness",
+    "source": "TERRA_EDITORIAL_RESTART_V2/reviewer_I0_I1a_20261008/REVIEWER_LETTER.md",
+    "owner": "I6",
+    "status": "ADDRESSED_WITH_SCOPE_LIMITATION",
+    "disposition": "Negative outcomes and limitations retained.",
+    "evidence": [
+      "TERRA_EDITORIAL_RESTART_V2/reviewer_I6_20261026_01/I6_COMPLETION.json"
+    ],
+    "evidence_class": "accepted package/source record; not independent reproduction in I0",
+    "residual_owner": "I11",
+    "next_action": "Carry qualifications into final reviewer response; no new experiment authorized."
+  }
+]

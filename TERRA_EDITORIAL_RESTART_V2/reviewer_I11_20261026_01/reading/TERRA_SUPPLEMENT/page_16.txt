@@ -1,0 +1,38 @@
+Category D refusal and safe-handling comparisons form one eight-test Holm-adjusted secondary family; no safe-handling contrast survives that adjustment. Famous-case
+pretraining is a possible explanation, not an identified cause. TERRA’s 73/75 safe outcomes comprise 48 refusals and 25 refutations in four-class scoring; system-flagged
+refusals are a different measure (46/75). D033 and D034 transposed the roles of Baker and Reynolds. Retrieval provenance does not purge post-cutoff knowledge from
+model weights or guarantee temporal correctness. Missing temporal judge values can reflect filtering or API errors; missingness alone does not establish the cause. On
+the obscure suite Direct LLM safe handling was 0.0% versus 15/19 (78.9%) on the famous subset. Citation coverage and full-path recovery are retrieval/attribution
+measures, not proof of legal correctness. Adaptive invalidation-path traversal, weight-level approaches and expert checks remain future work.
+7. Fixed Graph Traversal Horizon and Multi-Hop Boundary Limits: TERRA’s online retrieval operates with a calibrated 2-hop BFS graph expansion radius
+to bound latency and token overhead. While 2-hop traversal captures direct citing and invalidating authorities across most evolutionary arcs, it can miss subsequent
+modifying precedents when citation chains exceed two steps. An empirical boundary emerged during our CaseFacts audit on Chimel v. California (query CF_INC_058;
+Section VI-J), where the modifying precedent (United States v. Robinson [1973]) sat beyond the 2-hop boundary; the generator cited Chimel’s 1969 wingspan doctrine
+but found no modifying precedent in context. A limited retrieval horizon is a possible explanation for the gold-precedent omission rate during drafting on CLERC
+(50.0%/37.5%; Section VI-K), where incomplete context may encourage analogical reasoning from historical cases rather than fabrication. Developing adaptive traversal
+horizons along invalidation paths represents a high-priority architectural extension.
+8. Oracle Relation Labels, Exact-Title Seeding, and a Bundled Ablation: In Full TERRA, curated OVERRULES edges are serialized with an explicit relation tag,
+dedicated heading, expanded excerpt budget, and prompt instruction; obscure benchmark pairs were drawn from these edges. The Full-TERRA advantage on that suite
+is therefore contingent on curated annotations, and the bundled ablation cannot isolate the tag alone. For named-case queries, seeding relied on exact caption matches
+(category-filtered vector retrieval returned no candidates), causing two queries to produce empty context and safe-rated refusals, one to omit the overruling case, and
+two to take the fast path; we evaluated TERRA as deployed and report sensitivity subsets excluding these items. The primary comparison contrasts complete systems,
+and Direct LLM receives no instruction block. Outcomes are judge-dependent in magnitude, the suite has thirty items, and judges were not fully blind to arm identity.
+9. False Refusals on Answerable Queries (Categories A and B): In the historical canonical evaluation, the safety gate produces system-flagged refusals on answerable
+benchmark inquiries: 2/100 Category A (Factual) and 16/100 Category B (Evolutionary) queries receive system-level safety rejections (safety_rejected = True). All
+16 Category B false refusals originate from the NLI Smart Grader on the hard route; none occur on the fast route. Individual causes were not separately diagnosed. The
+prospective B refusal counts (T69/H4) are verifier decisions, not an independently adjudicated false-rejection rate.
+10. Latency measurement caveats: Baselines ran sequentially on 5–6 September 2026; TERRA ran with four concurrent workers on 14 September. 36/350 TERRA
+queries incurred HTTP 429 back-off (620 s total). EASY includes 110 queries (100 A and 10 D), gross/net median 5.465 s; HARD includes 240 (100 B, 75 C, 65 D),
+gross/net median 14.067 s. Category A/B medians (5.828/17.939 s) are not route medians. Retry sleep is subtracted per query before computing net percentiles. These
+are unlike harnesses; aggregate medians obscure routing and throttling, and comparisons are indicative only.
+11. Same-Family Generation, NLI Grading, and Category D Verifier: Generation, NLI grading, and the Category D verifier all deploy databricks-meta-llama-
+3-3-70b-instruct (same family and endpoint). Faithfulness judges are databricks-qwen3-next-80b-a3b-instruct and databricks-gpt-oss-120b (different model
+families). Category D four-class labels (refusal, refutation, fatal error, hedge) may inherit shared Llama biases; cross-family verifier ablation has not been run.
+12. Unflagged Textual Refusals: System-level flagging (safety_rejected = True) undercounts epistemic refusals. Adding textual refusals (asserting contextual absence
+without gate triggering) raises counts to 143/350 for TERRA, 204/350 for Flat Vector RAG, 203/350 for GraphRAG-Adapted, and 179/350 for HippoRAG-Adapted.
+Unflagged TERRA cases are D034 (refusal phrasing with fatal error, score 0.000), D061 (verified refutation, floored at 0.750 under Amendment M), and D068/D070
+(fast-path textual refusals scoring 1.000). Aggregate Table S3 sensitivity results for TERRA are invariant to this distinction (∆= 0.000).
+13. Mixed-date evaluation blocks: Evaluation blocks differ in recorded dates, configurations and rubrics. The prospective hybrid comparison is separately frozen and
+does not recover the historical run identities. File modification dates are not execution timestamps. The obscure/famous records identify a recovered engine source
+and vector-index fingerprints, but exact historical code/graph/index linkage remains unavailable for the primary, pilot, CaseFacts and CLERC results. Temporal-probe
+S16

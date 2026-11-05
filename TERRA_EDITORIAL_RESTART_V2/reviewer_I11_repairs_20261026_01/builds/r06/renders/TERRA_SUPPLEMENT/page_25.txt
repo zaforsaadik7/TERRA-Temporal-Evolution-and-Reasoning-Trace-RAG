@@ -1,0 +1,64 @@
+S9
+Full detail for main Table VI
+Statistical Significance, Benjamini-Hochberg FDR Control (M = 20 Family), and Exact Paired Outcomes Across Paired Evaluations.
+Comparison
+Mean Delta [95% CI] Cohen’s dz
+Wilcoxon p
+FDR q
+Paired (n+/n0/n−)
+TERRA vs. Direct LLM (Cat B)
+−0.081 [−0.139, −0.021]
+−0.275
+0.0009
+0.0023
+27/18/55
+TERRA vs. Direct LLM (Combined A+B) +0.173 [+0.114, +0.233]
+0.401
+4.73 × 10−8
+3.15 × 10−7
+98/43/59
+TERRA vs. Direct LLM (Cat C Refusal)†
++100.0% Diff.
+—
+2.15 × 10−44 4.31 × 10−43
+75/75 vs. 0/75
+TERRA vs. Flat RAG (Cat B)
++0.070 [−0.015, +0.151]
+0.166
+0.0032
+0.0063
+67/18/15
+TERRA vs. Flat RAG (Combined A+B)
++0.078 [+0.025, +0.129]
+0.207
+0.0006
+0.0016
+87/91/22
+TERRA vs. GraphRAG (Cat B)
++0.119 [+0.045, +0.191]
+0.318
+3.94 × 10−6
+1.97 × 10−5
+73/16/11
+TERRA vs. GraphRAG (Combined A+B) +0.086 [+0.039, +0.131]
+0.257
+1.02 × 10−5
+4.08 × 10−5
+91/91/18
+TERRA vs. HippoRAG (Cat B)
++0.066 [+0.004, +0.130]
+0.207
+0.0068
+0.0124
+51/26/23
+TERRA vs. HippoRAG (Combined A+B)
++0.049 [+0.009, +0.089]
+0.170
+0.0028
+0.0063
+61/112/27
+†Evaluated via Fisher’s Exact Test on Out-of-Context safety refusal (75/75 vs. 0/75, complete empirical separation). Paired outcomes report TERRA wins (n+), ties (n0), and losses (n−); Category C
+reports contingency refusal counts (75/75 vs. 0/75). FDR correction was applied jointly across the complete pre-specified family of M = 20 hypothesis tests (4 comparative baselines × 5 evaluation slices:
+Categories A, B, C, D, and Combined A+B); primary multi-hop evolutionary and safety comparisons are reported above. The complete 20-test family with sorted p-values and exact paired outcomes is
+provided as supplementary material for independent verification.
+S25

@@ -1,0 +1,25 @@
+% PHASE 8 COMPACT OBSCURE-OVERRULED SUMMARY
+% Full four-panel preregistered audit is preserved in Supplementary Table S3.
+\begin{table*}[!t]
+\caption{Compact Obscure Overruled-Precedent Safety Summary ($N=\ObscCohortSize$ obscure decisions). The full four-arm, gate, sensitivity, cross-suite, and per-judge audit is preserved in Supplementary Table~S3.}
+\label{tab:obscure_overruled_eval}
+\centering
+\renewcommand{\arraystretch}{0.92}
+\resizebox{\ObscTableScale\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Pipeline} & \textbf{Safe Rate ($k/N$, \% [CI])} $\uparrow$ & $\mathbf{R_{\text{ref}}}$ $\uparrow$ & $\mathbf{R_{\text{refut}}}$ $\uparrow$ & \textbf{Fatal-Affirmed} $\downarrow$ & \textbf{Fatal-Unwarned} $\downarrow$ & $\mathbf{R_{\text{hedge}}}$ \\
+\midrule
+Direct LLM (No RAG) & \ObscDirectSafeSummary & \ObscDirectRRef & \ObscDirectRRefut & \ObscDirectFatalAff & \ObscDirectFatalUnw & \ObscDirectRHedge \\
+Flat Vector RAG & \ObscFlatSafeSummary & \ObscFlatRRef & \ObscFlatRRefut & \ObscFlatFatalAff & \ObscFlatFatalUnw & \ObscFlatRHedge \\
+TERRA-Unlabeled & \ObscUnlabeledSafeSummary & \ObscUnlabeledRRef & \ObscUnlabeledRRefut & \ObscUnlabeledFatalAff & \ObscUnlabeledFatalUnw & \ObscUnlabeledRHedge \\
+\textbf{Full TERRA} & \textbf{\ObscFullSafeSummary} & \textbf{\ObscFullRRef} & \textbf{\ObscFullRRefut} & \textbf{\ObscFullFatalAff} & \textbf{\ObscFullFatalUnw} & \textbf{\ObscFullRHedge} \\
+\midrule
+\multicolumn{7}{l}{\textit{Preregistered primary contrast: TERRA-Unlabeled vs. Flat Vector RAG}} \\
+Primary discordant pairs $(b,c)$ & \multicolumn{2}{c}{$b=\ObscPrimaryDiscordantB$} & \multicolumn{2}{c}{$c=\ObscPrimaryDiscordantC$} & $p\,\ObscPrimaryMcNemarPRel$ & \ObscPrimaryGate \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{1mm}
+\raggedright \scriptsize \textbf{Notes:} Safe outcomes combine affirmative recognition of overruling and correct substantive refutation. The preregistered primary contrast is non-significant; all secondary, sensitivity, cross-suite, and per-judge results remain available without reduction in Supplementary Table~S3.
+\end{table*}

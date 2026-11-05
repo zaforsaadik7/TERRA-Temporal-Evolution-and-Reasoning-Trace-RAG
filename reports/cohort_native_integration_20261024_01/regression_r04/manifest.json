@@ -1,0 +1,166 @@
+{
+  "sources": [
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_native.py",
+      "size_bytes": 8949,
+      "sha256": "fd806c6f858d1c3eb0671a07754892ac62f321ea09aea4e674a6c2d9143b6d8e"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_attempt.py",
+      "size_bytes": 10088,
+      "sha256": "abc27b90a8b94fe1eb413670b2f576d924baba58b5ee56c5fb0af9860c63e2ff"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_packet.py",
+      "size_bytes": 6828,
+      "sha256": "35006d6a043b9d60758a08155983f40a0818e3712b15debaa1637dd37386a506"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_filesystem.py",
+      "size_bytes": 5927,
+      "sha256": "056bdff30b6fc11d8f1839ace5cf56a6ee3a739ba219e1df79ffd5862106bf4b"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_production.py",
+      "size_bytes": 16781,
+      "sha256": "59f3098e6a379b3d19cfbe0a966f1193f4a42530a76c64a76a61ea98f2eb6899"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_entry.py",
+      "size_bytes": 662,
+      "sha256": "26431fd18b3719d97561d502969004df305a669f5b98725661aad231632c63cf"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_anchor.py",
+      "size_bytes": 278,
+      "sha256": "a7ea6063f42a45035aa36feb95133c68878ef743bd53c1738e3771c70041f911"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\offline_cohort_windows_boundary.ps1",
+      "size_bytes": 6663,
+      "sha256": "059f1f11fbcc41f52ff3e22889312ba297096138f6f61e8967b8b4754745f19f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\scripts\\matched_baseline\\launch_offline_cohort_user.ps1",
+      "size_bytes": 10829,
+      "sha256": "76c1da8cb21511571d5d0448b45869e6c8839532bf1d31dc5af8d01c4b5b8599"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_cohort_native_synthetic.py",
+      "size_bytes": 5552,
+      "sha256": "dacaae06ba5addecf730a27b94048ea9d01582323109dfb04b23a47fee9d76b1"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_cohort_attempt_synthetic.py",
+      "size_bytes": 6364,
+      "sha256": "66cc3b3a79d893744a4ffbefd8ca373b1c9b3e1d0e527d49129384962dfeda2d"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_cohort_packet_synthetic.py",
+      "size_bytes": 7197,
+      "sha256": "de9332fe14a21e14ade6e7ce4645dbd4ba6117d90b0a0b3c5f1bf26714650f5b"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_cohort_user_launcher_synthetic.py",
+      "size_bytes": 4149,
+      "sha256": "b83d037b15d6e03c9db7d15d2dea917b3d13da69ce1f22a7c506edb737b82eba"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\tests\\test_offline_cohort_production_synthetic.py",
+      "size_bytes": 9439,
+      "sha256": "af29d4165695dfd3c80196e716921ea98ee727fb3caac9d6b1681a02a1bf2a44"
+    }
+  ],
+  "files": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\CORRECTION.md",
+      "size_bytes": 653,
+      "sha256": "3b5c7423fc7cc73d667da244aaee2cd95266990489150cd8131ff6a820d99ad9"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\launch_offline_cohort_user.ps1.final",
+      "size_bytes": 10829,
+      "sha256": "76c1da8cb21511571d5d0448b45869e6c8839532bf1d31dc5af8d01c4b5b8599"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\named_tests.log",
+      "size_bytes": 162704,
+      "sha256": "f955e65736729e8134db6683c01c44848c757b87a6ad39b9e401520825bcf21a"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_anchor.py.final",
+      "size_bytes": 278,
+      "sha256": "a7ea6063f42a45035aa36feb95133c68878ef743bd53c1738e3771c70041f911"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_attempt.py.final",
+      "size_bytes": 10088,
+      "sha256": "abc27b90a8b94fe1eb413670b2f576d924baba58b5ee56c5fb0af9860c63e2ff"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_entry.py.final",
+      "size_bytes": 662,
+      "sha256": "26431fd18b3719d97561d502969004df305a669f5b98725661aad231632c63cf"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_filesystem.py.final",
+      "size_bytes": 5927,
+      "sha256": "056bdff30b6fc11d8f1839ace5cf56a6ee3a739ba219e1df79ffd5862106bf4b"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_native.py.final",
+      "size_bytes": 8949,
+      "sha256": "fd806c6f858d1c3eb0671a07754892ac62f321ea09aea4e674a6c2d9143b6d8e"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_packet.py.final",
+      "size_bytes": 6828,
+      "sha256": "35006d6a043b9d60758a08155983f40a0818e3712b15debaa1637dd37386a506"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_production.py.final",
+      "size_bytes": 16781,
+      "sha256": "59f3098e6a379b3d19cfbe0a966f1193f4a42530a76c64a76a61ea98f2eb6899"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\offline_cohort_windows_boundary.ps1.final",
+      "size_bytes": 6663,
+      "sha256": "059f1f11fbcc41f52ff3e22889312ba297096138f6f61e8967b8b4754745f19f"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\test_offline_cohort_attempt_synthetic.py.final",
+      "size_bytes": 6364,
+      "sha256": "66cc3b3a79d893744a4ffbefd8ca373b1c9b3e1d0e527d49129384962dfeda2d"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\test_offline_cohort_native_synthetic.py.final",
+      "size_bytes": 5552,
+      "sha256": "dacaae06ba5addecf730a27b94048ea9d01582323109dfb04b23a47fee9d76b1"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\test_offline_cohort_packet_synthetic.py.final",
+      "size_bytes": 7197,
+      "sha256": "de9332fe14a21e14ade6e7ce4645dbd4ba6117d90b0a0b3c5f1bf26714650f5b"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\test_offline_cohort_production_synthetic.py.final",
+      "size_bytes": 9439,
+      "sha256": "af29d4165695dfd3c80196e716921ea98ee727fb3caac9d6b1681a02a1bf2a44"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\test_offline_cohort_user_launcher_synthetic.py.final",
+      "size_bytes": 4149,
+      "sha256": "b83d037b15d6e03c9db7d15d2dea917b3d13da69ce1f22a7c506edb737b82eba"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\TEST_RESULT.json",
+      "size_bytes": 2786,
+      "sha256": "cfe44c7997d1d62af30d96ef95d07d05b9413eed2e964d241a323a7256cf9023"
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\cohort_native_integration_20261024_01\\regression_r04\\verify_checkpoint.py",
+      "size_bytes": 2802,
+      "sha256": "4985237002017a9ae437230be70b19603088c8ef03ddcd2ec443a3140f035ef1"
+    }
+  ]
+}

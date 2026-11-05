@@ -1,0 +1,26 @@
+\begin{table*}[!t]
+\caption{Refusals and CategoryD rubric outcomes.}
+\label{tab:refusal_breakdown}
+\centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccccc}
+\toprule
+Pipeline & A flags & B flags & C flags & D flags & All flags \\
+\midrule
+\multicolumn{6}{l}{Panel A: system-flagged refusals (A/B n100; C/D n75; total350)} \\
+Direct LLM & $0/100$ ($0.0\%$) & $0/100$ ($0.0\%$) & $0/75$ ($0.0\%$) & $0/75$ ($0.0\%$) & $0/350$ ($0.0\%$) \\
+Flat RAG & $63/100$ ($63.0\%$) & $13/100$ ($13.0\%$) & $74/75$ ($98.7\%$) & $34/75$ ($45.3\%$) & $184/350$ ($52.6\%$) \\
+GraphRAG & $72/100$ ($72.0\%$) & $1/100$ ($1.0\%$) & $75/75$ ($100.0\%$) & $25/75$ ($33.3\%$) & $173/350$ ($49.4\%$) \\
+HippoRAG & $62/100$ ($62.0\%$) & $2/100$ ($2.0\%$) & $74/75$ ($98.7\%$) & $27/75$ ($36.0\%$) & $165/350$ ($47.1\%$) \\
+TERRA & $2/100$ ($2.0\%$) & $16/100$ ($16.0\%$) & $75/75$ ($100.0\%$) & $46/75$ ($61.3\%$) & $139/350$ ($39.7\%$) \\\midrule
+\multicolumn{6}{l}{Panel B: CategoryD rubric outcomes (n75)} \\
+Pipeline & Refusal & Refutation & Safe handling & Fatal error & Hedge \\
+Direct LLM & \DirectLLMCatDAuditedRefusal & \DirectLLMCatDRefutations & \DirectLLMCatDSafeHandling & \DirectLLMCatDFatalErrors & \DirectLLMCatDHedges \\
+Flat RAG & \FlatRAGCatDAuditedRefusal & \FlatRAGCatDRefutations & \FlatRAGCatDSafeHandling & \FlatRAGCatDFatalErrors & \FlatRAGCatDHedges \\
+GraphRAG & \GraphRAGCatDAuditedRefusal & \GraphRAGCatDRefutations & \GraphRAGCatDSafeHandling & \GraphRAGCatDFatalErrors & \GraphRAGCatDHedges \\
+HippoRAG & \HippoRAGCatDAuditedRefusal & \HippoRAGCatDRefutations & \HippoRAGCatDSafeHandling & \HippoRAGCatDFatalErrors & \HippoRAGCatDHedges \\
+TERRA & $\TerraCatDRejection$ & \TerraCatDRefutations & $\TerraCatDSafeHandling$ & $\TerraCatDFatalErrors$ & \TerraCatDHedges \\
+\bottomrule
+\end{tabular}
+\endgroup\par\vspace{2pt}
+\raggedright\footnotesize Flagged TERRA D refusals46/75(61.3%) differ from rubric refusals48/75(64.0%). Safe handling73/75includes25refutations; two fatal errors remain. Labels are automated, not independent legal validation. No safe-handling contrast survives the secondary Holm adjustment. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:refusal_breakdown}.
+\end{table*}

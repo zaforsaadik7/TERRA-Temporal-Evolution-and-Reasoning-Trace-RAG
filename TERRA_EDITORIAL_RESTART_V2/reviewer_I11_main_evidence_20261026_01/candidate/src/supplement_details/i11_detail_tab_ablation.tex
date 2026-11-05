@@ -1,0 +1,17 @@
+\clearpage
+\section{Full detail for main Table~\ref{main-tab:ablation}}
+\label{detail-tab:ablation}
+Component-Level Ablation Analysis Across \numPilotQueries\ Benchmark Queries ($N=\numPilotRepeatedRuns$ Repeated Runs, \numPilotEvals\ Evaluations).\par\medskip
+\noindent\resizebox{0.98\linewidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Architecture Configuration} & \textbf{Cat B Faith.} & \textbf{Cat D Safety} & \textbf{Cat A False Ref.} & \textbf{Latency (Cat A)} \\
+\midrule
+\textbf{Full TERRA (Router + EEG + NLI)} & $\mathbf{\AblationFullCatBFaithfulness}$ & $\mathbf{\AblationFullCatDSafetyRate}$ & $\mathbf{\AblationFullCatAFalseRefusalCount}$ & $\mathbf{\AblationFullLatencyMedianSeconds\text{ s}}$ \\
+Ablation 1: w/o EEG Traversal (Vector Documents Only) & $\AblationOneCatBFaithfulness$ & $\AblationOneCatDSafetyRate$ & $\AblationOneCatAFalseRefusalCount$ & $\AblationOneLatencyMedianSeconds\text{ s}$ \\
+Ablation 2: w/o NLI Smart Grader (No Verification Gate) & $\AblationTwoCatBFaithfulness$ & $\AblationTwoCatDSafetyRate$ & $\AblationTwoCatAFalseRefusalCount$ & $\AblationTwoLatencyMedianSeconds\text{ s}$ \\
+Ablation 3: w/o Traffic Cop Router (Forced Hard Path) & $\AblationThreeCatBFaithfulness$ & $\mathbf{\AblationThreeCatDSafetyRate}$ & $\AblationThreeCatAFalseRefusalCount$ ($\AblationThreeCatAFalseRefusalRate$) & $\AblationThreeLatencyMedianSeconds\text{ s}$ \\
+\bottomrule
+\end{tabular}
+}\par\medskip
+\noindent 

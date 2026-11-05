@@ -1,0 +1,46 @@
+[
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "TERRA_SUPPLEMENT.tex"
+    ],
+    "exit": 0,
+    "seconds": 4.025
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "main.tex"
+    ],
+    "exit": 0,
+    "seconds": 6.511
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "TERRA_SUPPLEMENT.tex"
+    ],
+    "exit": 0,
+    "seconds": 1.234
+  },
+  {
+    "command": [
+      "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+      "-C",
+      "-k",
+      "--keep-logs",
+      "main.tex"
+    ],
+    "exit": 0,
+    "seconds": 3.574
+  }
+]

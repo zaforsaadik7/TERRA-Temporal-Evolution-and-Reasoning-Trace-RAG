@@ -1,0 +1,23 @@
+{
+  "source": "Recorded earlier successful named unittest tool execution before native study freeze",
+  "fixture_tests_passed": 4,
+  "coverage": [
+    "null exclusion and assigned-cohort bounds",
+    "manifest order/omission protection",
+    "all-null no invented estimate",
+    "judge/composite mismatch rejection"
+  ],
+  "pinned_before_study": [
+    {
+      "path": "F:\\TERRA -Copy\\reports\\matched_study_r03_20261025_01\\analyze_audited_results.py",
+      "sha256": "7dc34dee6d4eaa43cbcae2ab0d984753293c74f4f076247012db8e99fdb7df97",
+      "size_bytes": 4462
+    },
+    {
+      "path": "F:\\TERRA -Copy\\reports\\matched_study_r03_20261025_01\\test_analysis_fixtures.py",
+      "sha256": "6bf33a4c1bfb0857a2597e721532bdabeb92e8cc8e1e062134ab1c43d2990aab",
+      "size_bytes": 1632
+    }
+  ],
+  "tests_repeated_during_study": false
+}

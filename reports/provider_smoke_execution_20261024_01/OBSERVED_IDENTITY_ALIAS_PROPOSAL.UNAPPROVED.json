@@ -1,0 +1,13 @@
+{
+  "status": "UNAPPROVED_NO_EXECUTION_AUTHORITY",
+  "role": "router",
+  "requested_endpoint": "databricks-gemma-3-12b",
+  "metadata_foundation_name": "system.ai.gemma-3-12b-it",
+  "observed_response_model": "gemma-3-12b-it-060225",
+  "evidence_response_sha256": "e4bee916a3e85f8c45bc0095896d3729fcd24bb9e5cd8e63e233bd7a90a81ab5",
+  "proposed_change": "Consider adding this exact observed response descriptor to a separately reviewed future router identity mapping; keep metadata and returned response identity distinct.",
+  "exact_backend_weights_verified": false,
+  "tokenizer_equivalence_verified": false,
+  "existing_allowlist_modified": false,
+  "new_attempt_authorized": false
+}

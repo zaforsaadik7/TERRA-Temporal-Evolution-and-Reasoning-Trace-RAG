@@ -1,0 +1,109 @@
+{
+  "engine": "Tectonic0.17.0/XeTeX/cache-only",
+  "execution": [
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "TERRA_SUPPLEMENT.tex"
+      ],
+      "cwd": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I10_20261026_01\\build\\r01",
+      "exit": 0,
+      "seconds": 1.763
+    },
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "main.tex"
+      ],
+      "cwd": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I10_20261026_01\\build\\r01",
+      "exit": 0,
+      "seconds": 5.296
+    },
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "TERRA_SUPPLEMENT.tex"
+      ],
+      "cwd": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I10_20261026_01\\build\\r01",
+      "exit": 0,
+      "seconds": 1.306
+    },
+    {
+      "command": [
+        "F:\\TERRA -Copy\\scratch\\tectonic\\tectonic.exe",
+        "-C",
+        "-k",
+        "--keep-logs",
+        "main.tex"
+      ],
+      "cwd": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I10_20261026_01\\build\\r01",
+      "exit": 0,
+      "seconds": 3.322
+    }
+  ],
+  "documents": {
+    "main": {
+      "pages": 25,
+      "sha256": "c932899b686723031f6c038801f9d21b194f739e3468e3ae9be7108778be8f40",
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "Unifying Event Evolution Graphs and Generic Procedural Scaffolds via Semantic Entailment: A Dual-Phase Architecture for Judicial GraphRAG",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "xdvipdfmx (0.1)",
+        "creationDate": "D:20261026034058-00'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      },
+      "identity_pattern_matches": 0,
+      "embedded_files": 0,
+      "overfull": 0,
+      "undefined": 0,
+      "duplicate": 0,
+      "underfull": 69,
+      "font_warnings": 427,
+      "question_marks": false,
+      "rendered_abstract": "Retrieval-Augmented Generation (RAG) for his-\ntorical law must retrieve connected authorities without treating\noverruled doctrine as current law. We introduce TERRA,\nan experimental GraphRAG pipeline combining an Event\nEvolution Graph over 20,000 Supreme Court opinions, generic\nfive-step procedural scaffolds, EASY/HARD routing and LLM-\nprompted evidence checking. Its scaffolds are not case-specific\njudicial reasoning. A historical 350-query, five-system eval-\nuation uses two non-Llama judges and paired tests with\nBenjamini\u2013Hochberg correction. TERRA\u2019s Category B faith-\nfulness exceeds the retrieval baselines but remains below Direct\nLLM; its overall and answer-only scores describe different\nrefusal and answered subsets. Adversarial safe handling is\n97.3%, with 2/75 (2.7%) fatal errors and false refusals on 2\nCategory A and 16 Category B queries. The obscure-precedent\nadvantage depends on curated overruling annotations. A sep-\narate prospective comparison evaluates graph retrieval (T)\nagainst dense\u2013BM25 retrieval (H) on the same 350 queries with\nshared evidence budgets, verification, generation and judges.\nOn 100 Category B pairs, mean evidence faithfulness is 0.76400\nfor T and 0.49515 for H (paired difference 0.26885; bootstrap\n95% CI [0.16035, 0.37205]; randomization p \u22480.000010). T\ntriggers 69/100 verifier refusals versus H\u2019s 4/100: the gain\nconcerns the gated pipeline, not demonstrated answer coverage\nor legal correctness. External and temporal evaluations remain\nmixed. Historical configuration gaps, annotation dependence\nand absent licensed-practitioner validation restrict the findings\nto an experimental research framework.",
+      "abstract_words_whitespace": 221,
+      "abstract_words_hyphen_compounds": 236,
+      "abstract_150_250_whitespace": true
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 21,
+      "sha256": "dac9deb1483d52b25fe7b3a044888eda01422813b42f50c017acb6fbb5f443c4",
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "xdvipdfmx (0.1)",
+        "creationDate": "D:20261026034056-00'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      },
+      "identity_pattern_matches": 0,
+      "embedded_files": 0,
+      "overfull": 0,
+      "undefined": 0,
+      "duplicate": 0,
+      "underfull": 199,
+      "font_warnings": 0,
+      "question_marks": false
+    }
+  }
+}

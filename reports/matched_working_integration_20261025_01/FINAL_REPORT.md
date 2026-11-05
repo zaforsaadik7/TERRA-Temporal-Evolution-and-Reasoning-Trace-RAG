@@ -1,0 +1,15 @@
+# Matched comparison: final working integration complete
+
+Codex implementation self-verification, 25 October 2026. User authorized completion of the three reviewed formatting fixes and rebuild. **DONE for this bounded matched-comparison integration task.**
+
+The working source now incorporates the exact reviewed equation (1) and equation (2) wraps and conclusion capitalization correction. Only `working/src/main.tex` changed; all other 45 files remain byte-identical. Full 46-file before/after snapshots, manifests and the three-region normalized diff are preserved here. Antigravity-0300 was reconciled against the actual accepted Step 6 artifacts before mutation. Its broad publication-ready assessment is not adopted as certification of the overall submission plan.
+
+A fresh build copied the updated working sources into an isolated empty build directory. Four Tectonic 0.17.0 cache-only passes (supplement/main/supplement/main) exited zero. Main is **25 pages including references**, separate supplement **18 pages**. Both have zero overfull boxes, undefined references/citations, duplicate labels or visible ?? markers. Underfull warnings remain 76/209, as in the reviewed PDFs; they were not hidden. Every one of the 43 rendered pages, its extracted text and link records matches the peer-reviewed Step 6 PDFs. PDF byte hashes differ, so rendered/text/link equivalence is stated explicitly instead of claiming byte identity. Page 5 was also visually reopened after integration.
+
+The historical 660-row study manifest is preserved, not rewritten: 659 rows remain unchanged and its one current-working-main row now has the exact user-approved transition recorded in AUDIT_RESULT.json. All sealed before/after study snapshots and raw numerical outputs remain intact. Step 6 evidence is likewise preserved. This does not invalidate the historical seal; it documents the subsequent source generation rather than presenting that seal as the current working manifest.
+
+A preflight helper initially compared unified-diff filename headers with different labels and stopped before snapshots or writes. The header-normalized comparison then confirmed identical three-region content; the original helper is preserved. There was no failed manuscript edit or paid operation.
+
+**Completion:** matched study, analysis, working manuscript integration, reviewed PDF checks and final formatting application/rebuild are now complete. No additional API/model calls, statistics changes, canonical promotion, journal submission or author changes occurred. The broader I0–I12 plan remains as previously qualified; this checkpoint does not close all of I7 or I9 or certify unavailable expert validation or journal-specific format compliance.
+
+Deliverables: output/pdf/main.pdf and output/pdf/TERRA_SUPPLEMENT.pdf. Current editable sources remain TERRA_EDITORIAL_RESTART_V2/working/src/. Exact rebuild input is working_after/; compiler products are in build/. AUDIT_RESULT.json, execution.json, source.diff and manifest.json record the evidence. Canonical release/submission still requires separate user approval.

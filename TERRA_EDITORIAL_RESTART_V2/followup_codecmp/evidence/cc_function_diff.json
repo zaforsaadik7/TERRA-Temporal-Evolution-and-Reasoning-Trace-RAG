@@ -1,0 +1,65 @@
+{
+ "files": {
+  "ask_terra_pre_issue13_backup.py": "4cfe323fe3aa954001ada8748a7ce5196ef13db48a9d4e96f55fc422af144b4f",
+  "ask_terra_pre_dual_budget_backup.py": "b82f29a72ca1d47185b20855d5e09ee5a30069d38e5355d5878ffc68531b67a6",
+  "ask_terra.py": "8ef740ea57752f779831e37f9d12cf7008aba52a4a076a5cb47e7cbc9586d173"
+ },
+ "functions": {
+  "CleanResponse": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "CleanResponseOpenAI": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "GradeDecision": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "RoutingDecision": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "clean_case_snippet": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "absent",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "added"
+  },
+  "clean_json_text": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "extract_graph_context": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "changed",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "changed"
+  },
+  "extract_text_from_message_content": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "generate_content_with_retry": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "changed"
+  },
+  "generate_content_with_retry_openai": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "is_query_in_domain": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  },
+  "smart_grader": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "changed"
+  },
+  "terra_inference_engine": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "changed"
+  },
+  "traffic_cop_router": {
+   "ask_terra_pre_issue13_backup.py -> ask_terra_pre_dual_budget_backup.py": "identical",
+   "ask_terra_pre_dual_budget_backup.py -> ask_terra.py": "identical"
+  }
+ }
+}

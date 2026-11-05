@@ -1,0 +1,550 @@
+--- baseline/main.tex
++++ candidate/main.tex
+@@ -14,6 +14,7 @@
+ \usepackage{longtable}
+ \usepackage{amsmath,amssymb,amsfonts} %Mathematical Symbol,Equation
+ \usepackage{algorithm,algpseudocode}
++\usepackage{xr}
+ \usepackage{hyperref}
+ \hypersetup{
+     colorlinks=true,
+@@ -80,6 +81,7 @@
+ \input{phase3_corrections_b3} % Phase 3 Batch 03 overrides (R13; Table XXI, section VII-M)
+ \input{phase3_corrections_b6} % Phase 3 Batch 06 overrides (R09; CaseFacts, CLERC)
+ 
++\externaldocument[supp-]{TERRA_SUPPLEMENT}
+ \begin{document}
+ 
+ % Header settings
+@@ -347,7 +349,11 @@
+     \item \textbf{Hyperparameter Freezing and Benchmark Isolation:} retrieval and graph parameters ($k=\IssueTwentyFourSeedK$, $d=\IssueTwentyFourBfsDepth$, hub cap $\IssueTwentyFourHubCap$, $\tau=\IssueTwentyFourDistThreshold$) were frozen before benchmark construction on the basis of topological constraints and feasibility testing on an independent $N=\IssueTwentyFourDevQueryCount$-query pilot (\IssueTwentyFourDevDate; \IssueTwentyFourDevTotalEvals\ run records over \IssueTwentyFourDevPipelineCount\ pipelines and \IssueTwentyFourDevRunCount\ stability runs). An automated audit verifies chronological precedence, zero query ID and prompt-text overlap (\IssueTwentyFourOverlapPct), and no query-text or reference-answer contamination in ChromaDB across all \IssueTwentyFourTestQueryCount\ queries.
+ \end{enumerate}
+ 
+-\enlargethispage{6\baselineskip}
++\subsection{Exploratory Author Assessment}
++\label{subsec:author-assessment}
++As an exploratory assessment, two project authors, neither legally trained nor licensed to practise law, reviewed 76 assigned response instances each with AI assistance. Author 1 drafted assessments and used AI for source finding, interpretation, checking and rewriting; Author 2 reviewed and amended AI-proposed ratings and rationales. Original ratings were recorded before access to the other author's ratings; reconciliation subsequently incorporated shared ratings and source-audit feedback. The sample includes repeated questions and overlapping response instances, so the assignments are not 152 independent queries. These assessments are descriptive, not independent legal-expert validation or population estimates.
++Definitions and original-versus-reconciled descriptive summaries are reported in the supplementary material.
++
+ \subsection{Data and Code Availability}
+ \label{subsec:data-code-availability}
+ \label{subsec:reproducibility}
+@@ -656,7 +662,7 @@
+ 
+ We state the essential limitations here; narrower caveats are noted where the corresponding results are reported.
+ \begin{enumerate}
+-    \item \textbf{No licensed-practitioner evaluation.} All faithfulness and safety scores come from automated LLM judges and ROUGE-L against researcher-constructed references, and cannot replicate practitioner judgment of legal correctness, temporal consistency or citation validity; $880$ of the $1{,}750$ canonical evaluations ($50.3\%$) score exactly $1.0$, which limits discrimination among high-scoring systems. The NLI Smart Grader has no labelled validation set, so its false-non-entailment rate is unquantified beyond ablation evidence, and the author spot-check in Section~\ref{subsec:obscure-generalization} is a single non-expert review. Expert evaluation is a prerequisite for deployment.
++    \item \textbf{No licensed-practitioner evaluation.} All faithfulness and safety scores come from automated LLM judges and ROUGE-L against researcher-constructed references, and cannot replicate practitioner judgment of legal correctness, temporal consistency or citation validity; $880$ of the $1{,}750$ canonical evaluations ($50.3\%$) score exactly $1.0$, which limits discrimination among high-scoring systems. The NLI Smart Grader has no labelled validation set, so its false-non-entailment rate is unquantified beyond ablation evidence, and the author spot-check in Section~\ref{subsec:obscure-generalization} is a single non-expert review. The additional two-author assessment was AI-assisted and non-expert; its reconciled ratings were not blinded and do not establish legal correctness or verifier error rates. Expert evaluation is a prerequisite for deployment.
+     \item \textbf{Shared model family.} Generation, NLI grading and the Category~D verifier, which produces the refusal, refutation, fatal-error and hedge labels, all use \texttt{databricks-meta-llama-3-3-70b-instruct}, whereas the two faithfulness judges are from other families; Category~D labels may therefore inherit shared Llama biases, and a cross-family verifier ablation has not been run.
+     \item \textbf{Safety depends on curated labels.} Full TERRA's advantage on obscure overruled precedents is contingent on curated \texttt{OVERRULES} annotations, which carry a relation tag and a larger excerpt budget, and the obscure pairs were drawn from these edges; the bundled ablation cannot isolate the tag, the suite has thirty items, and judges were not fully blind to arm identity. Three of the 56 tagged edges were also found mis-resolved on audit (Section~\ref{subsec:phase1-ingestion}); none was serialised in a deployed context, but indirect effects are not excluded.
+ \end{enumerate}
+--- baseline/supplement_assessment.tex
++++ candidate/supplement_assessment.tex
+@@ -0,0 +1,13 @@
++As an exploratory assessment, two project authors, neither legally trained nor licensed to practise law, reviewed 76 assigned response instances each with AI assistance. Author 1 drafted assessments and used AI for source finding, interpretation, checking and rewriting; Author 2 reviewed and amended AI-proposed ratings and rationales. Original ratings were recorded before access to the other author's ratings; reconciliation subsequently incorporated shared ratings and source-audit feedback. The sample includes repeated questions and overlapping response instances, so the assignments are not 152 independent queries. These assessments are descriptive, not independent legal-expert validation or population estimates.
++
++Each author assessed 76 assigned rows. Non-refusal coverage includes substantive and mixed refusal/substantive responses. Supported-answer yield counts non-refusal rows rated supported divided by all assigned rows. Contradicted among non-refusals divides contradicted rows by substantive-plus-mixed rows. These are descriptive proxies, not verified legal-correctness measures. Supported ratings can reflect a correct central answer despite subsidiary errors. Uncertain ratings remain separate.
++
++\begin{center}\small
++\begin{tabular}{lrrrr}\toprule
++Measure & Author 1 original & Author 1 reconciled & Author 2 original & Author 2 reconciled \\\midrule
++Non-refusal coverage & 62/76 (81.6\%) & 62/76 (81.6\%) & 65/76 (85.5\%) & 65/76 (85.5\%) \\
++Supported-answer yield & 43/76 (56.6\%) & 40/76 (52.6\%) & 47/76 (61.8\%) & 47/76 (61.8\%) \\
++Contradicted among non-refusals & 19/62 (30.6\%) & 22/62 (35.5\%) & 12/65 (18.5\%) & 12/65 (18.5\%) \\\bottomrule
++\end{tabular}\end{center}
++
++Author 2 rated six non-refusals uncertain; Author 1 rated none uncertain. Reconciled values apply only author-confirmed amendments. Author-specific aggregates must not be compared as system-performance estimates or pooled as independent observations. No pipeline-specific analysis, paired agreement, confidence intervals, weighting or verifier confusion matrix is reported. Supporting-text corrections were excluded from the completed ratings-only analysis; source attribution and rationale completeness are not certified by this table.
+--- baseline/supplement_latency_corrections.tex
++++ candidate/supplement_latency_corrections.tex
+@@ -0,0 +1,37 @@
++% Supplement-only overrides from audited export_approved_01.
++% Milliseconds; linear percentiles; sample SD ddof=1; decimal half-up rounding to 2 places.
++\renewcommand{\TerraFastPathLatencyPTwentyFiveMs}{4065.30}
++\renewcommand{\TerraFastPathLatencyMedianMs}{5464.96}
++\renewcommand{\TerraFastPathLatencyPSeventyFiveMs}{15955.80}
++\renewcommand{\TerraFastPathLatencyPNinetyFiveMs}{18773.82}
++\renewcommand{\TerraFastPathLatencyMeanAndStdMs}{9154.17 \pm 8043.42}
++\renewcommand{\TerraHardPathLatencyPTwentyFiveMs}{3636.39}
++\renewcommand{\TerraHardPathLatencyMedianMs}{14067.48}
++\renewcommand{\TerraHardPathLatencyPSeventyFiveMs}{20002.50}
++\renewcommand{\TerraHardPathLatencyPNinetyFiveMs}{51093.50}
++\renewcommand{\TerraHardPathLatencyMeanAndStdMs}{16649.71 \pm 16485.95}
++\renewcommand{\TerraFastPathNetLatencyPTwentyFiveMs}{4065.30}
++\renewcommand{\TerraFastPathNetLatencyMedianMs}{5464.96}
++\renewcommand{\TerraFastPathNetLatencyPSeventyFiveMs}{7279.80}
++\renewcommand{\TerraFastPathNetLatencyPNinetyFiveMs}{17907.36}
++\renewcommand{\TerraFastPathNetLatencyMeanAndStdMs}{7335.99 \pm 5701.29}
++\renewcommand{\TerraHardPathNetLatencyPTwentyFiveMs}{3636.39}
++\renewcommand{\TerraHardPathNetLatencyMedianMs}{14067.48}
++\renewcommand{\TerraHardPathNetLatencyPSeventyFiveMs}{18738.47}
++\renewcommand{\TerraHardPathNetLatencyPNinetyFiveMs}{44397.45}
++\renewcommand{\TerraHardPathNetLatencyMeanAndStdMs}{14899.71 \pm 14076.02}
++\renewcommand{\TerraLatencyPTwentyFiveMs}{3922.88}
++\renewcommand{\TerraLatencyMedianMs}{9185.07}
++\renewcommand{\TerraLatencyPSeventyFiveMs}{17334.36}
++\renewcommand{\TerraLatencyPNinetyFiveMs}{45837.21}
++\renewcommand{\TerraLatencyMeanAndStdMs}{14293.97 \pm 14780.80}
++\renewcommand{\TerraCatALatencyPTwentyFiveMs}{4143.46}
++\renewcommand{\TerraCatALatencyMedianMs}{5828.08}
++\renewcommand{\TerraCatALatencyPNinetyFiveMs}{19000.21}
++\renewcommand{\TerraCatALatencyMeanAndStdMs}{9609.67 \pm 8294.57}
++\renewcommand{\TerraCatBLatencyPTwentyFiveMs}{14982.89}
++\renewcommand{\TerraCatBLatencyMedianMs}{17938.50}
++\renewcommand{\TerraCatBLatencyPNinetyFiveMs}{59988.93}
++\renewcommand{\TerraCatBLatencyMeanAndStdMs}{26298.01 \pm 17548.51}
++\renewcommand{\TerraNetLatencyMedianMs}{7744.47}
++\renewcommand{\TerraNetLatencyPNinetyFiveMs}{38729.13}
+--- baseline/supplement_limitations.tex
++++ candidate/supplement_limitations.tex
+@@ -0,0 +1,42 @@
++\item \textbf{Absence of Licensed Legal Practitioner Evaluation (Most Critical Limitation for Deployment):} Due to geographical and institutional resource constraints, this study did not include evaluation by licensed legal practitioners. All faithfulness and safety assessments rely on automated LLM-as-a-judge scoring (Section~\ref{main-subsec:eval-metrics}) and continuous lexical metrics (ROUGE-L) evaluated against researcher-constructed reference answers cross-referenced against public legal reference sources (Cornell LII, Oyez, CRS Constitution Annotated). While the adversarial critic persona exhibits a modest, statistically significant correlation with reference lexical grounding (Pearson $r = \JudgePearsonR, p = \JudgePearsonP$), automated scoring cannot replicate practitioner judgment on subtle constitutional doctrine. Specifically, practitioners would assess legal correctness, temporal consistency, citation validity, and hallucination behavior beyond continuous metrics. Furthermore, lacking an independent labeled validation set for the NLI Smart Grader (Section~\ref{main-subsubsec:terra-nli-grader}), the false-non-entailment rate remains empirically unquantified beyond ablation evidence. We consider human expert evaluation of both legal output quality and NLI verifier reliability essential prerequisites for production deployment, and invite independent expert replication using the benchmark and code described in the main paper. The author spot-check described in Section~\ref{main-subsec:obscure-generalization} is a single non-expert review of a stratified sample and does not substitute for licensed practitioner review. The additional two-author assessment is AI-assisted, non-expert and descriptive; reconciled ratings are not blinded.
++
++\item \textbf{Metric Disentanglement and Refusal-Volume Masking:} Evaluating complex RAG pipelines solely via aggregate faithfulness induces severe metric distortion: systems with high epistemic refusal volume receive top marks for non-committal answers on unanswerable queries, masking generative weaknesses. Under our dual-judge protocol, TERRA has the highest overall ($\TerraOverallFaithfulnessMean$ vs.\ $\HippoRAGOverallFaithfulnessMean$; intervals overlap) and answer-only faithfulness ($\TerraAnswerOnlyFaithfulnessMean$ vs.\ $\HippoRAGAnswerOnlyFaithfulnessMean$) with fewer flagged refusals ($\TerraFlaggedRefusals$ vs.\ $\HippoFlaggedRefusals$), but answer-only scores are conditional on different answered subsets. On multi-hop reasoning TERRA leads HippoRAG by $\CatBTerraVsHippoRAGDelta$ ($q=\CatBTerraVsHippoRAGAdjQ$). Future benchmark protocols must mandate disentangled reporting of refusal rates alongside answer-only faithfulness.
++
++\item \textbf{Evaluation rubric resolution and ceiling compression:} Coarse scales can obscure doctrinal differences. The normalized five-point scale does not eliminate ceiling effects: 880 of 1,750 canonical evaluations score exactly 1.0 (50.3\%). Automated rubric scores are not legal ground truth.
++
++\item \textbf{Jurisdictional and Temporal Corpus Boundaries:} The pre-built Event Evolution Graph is anchored in \CorpusTotalOpinions\ authentic substantive U.S. Supreme Court opinions spanning \CorpusTemporalSpan, encompassing seven doctrinal domains of federal jurisprudence (Table~\ref{main-tab:corpus_stats}). Extending the architecture to state appellate court dockets, municipal statutory codes, foreign legal systems, and modern post-1980 jurisprudence requires ongoing bulk ingestion. Furthermore, while Section~\ref{main-subsec:temporal-update-stability} empirically demonstrates graph traversal stability across temporal snapshot expansions ($T \to T+N$), live vector index insertion and streaming graph maintenance remain unaddressed engineering extensions.
++
++\item \label{item:hosted-api-determinism}\textbf{Hosted API Output Variability at $T=0.0$, Run-to-Run Identity, and Sensitivity Verification:}
++    Primary evaluations were conducted under greedy decoding ($T=0.0$) using \texttt{databricks-meta-llama-3-3-70b-instruct} and \texttt{databricks-gemma-3-12b}. While setting $T=0.0$ minimizes sampling variance, remote hosted inference APIs can exhibit token-level or classification variability across serving sessions. Across benchmark evaluations, query \texttt{D066} exhibited an empirical classification shift (EASY $\to$ HARD), consistent with numerical or serving-level variability in hosted inference; the precise backend cause cannot be isolated from available logs. Comparing two 14-September TERRA executions across the 350-query benchmark suite, exact string-identical generated answers occurred on \TerraIdenticalAnswerFraction\ of queries overall (206/350), with pronounced category divergence: \TerraIdenticalAnswerCatA\ on Category~A (95/100) and \TerraIdenticalAnswerCatC\ on Category~C (62/75), versus \TerraIdenticalAnswerCatD\ on Category~D (39/75) and \TerraIdenticalAnswerCatB\ on Category~B (10/100). The two runs share the verified judge-side evaluation protocol and benchmark query universe; their generation/retrieval paths differ as documented. Both runs were evaluated under the standardized dual-judge protocol (\texttt{databricks-qwen3-next-80b-a3b-instruct} and \texttt{databricks-gpt-oss-120b}) using the frozen RAG prompt template (SHA256: \texttt{6d18fc14\dots}) and normalized Likert rubric. Sensitivity verification on an 80B model (\texttt{databricks-qwen3-next-80b-a3b-instruct}) across a separate 15-query subset (10 Cat~B, 5 Cat~D; distinct from the firewall stress test in Section~\ref{main-subsec:benchmark-design}) confirmed invariant relative rankings: TERRA achieved $1.000$ Category~B Faithfulness (vs. $0.900$ Flat RAG, $0.800$ Direct LLM) and $100\%$ Category~D safety rejection (vs. $40\%$ Flat RAG, $0\%$ Direct LLM). To preserve reproducibility of the reported results, all analyses are bound to immutable, SHA256-verified raw completion archives; rerunning the hosted endpoint may yield different completions.
++
++\item \textbf{Parametric knowledge and temporal containment:} Direct LLM scored higher than TERRA on Category D continuous faithfulness ($\Delta=-0.200$, $p=3.8\times10^{-5}$, $q=1.27\times10^{-4}$; main FDR table, Rank 6) and Category B ($\CatBTerraVsDirectLLMDelta$, $q=\CatBTerraVsDirectLLMAdjQ$). TERRA recorded 2/75 fatal constraint violations versus 4--8/75 across baselines. Category D refusal and safe-handling comparisons form one eight-test Holm-adjusted secondary family; no safe-handling contrast survives that adjustment. Famous-case pretraining is a possible explanation, not an identified cause. TERRA's 73/75 safe outcomes comprise 48 refusals and 25 refutations in four-class scoring; system-flagged refusals are a different measure (46/75). D033 and D034 transposed the roles of Baker and Reynolds. Retrieval provenance does not purge post-cutoff knowledge from model weights or guarantee temporal correctness. Missing temporal judge values can reflect filtering or API errors; missingness alone does not establish the cause. On the obscure suite Direct LLM safe handling was \ObscDirectSafePct\ versus \ObscCrossDirectFamousSafe\ on the famous subset. Citation coverage and full-path recovery are retrieval/attribution measures, not proof of legal correctness. Adaptive invalidation-path traversal, weight-level approaches and expert checks remain future work.
++
++\item \textbf{Fixed Graph Traversal Horizon and Multi-Hop Boundary Limits:} TERRA's online retrieval operates with a calibrated 2-hop BFS graph expansion radius to bound latency and token overhead. While 2-hop traversal captures direct citing and invalidating authorities across most evolutionary arcs, it can miss subsequent modifying precedents when citation chains exceed two steps. An empirical boundary emerged during our CaseFacts audit on \textit{Chimel v. California} (query \texttt{CF\_INC\_058}; Section~\ref{main-subsec:casefacts-generalization}), where the modifying precedent (\textit{United States v. Robinson} [1973]) sat beyond the 2-hop boundary; the generator cited \textit{Chimel}'s 1969 wingspan doctrine but found no modifying precedent in context. A limited retrieval horizon is a possible explanation for the gold-precedent omission rate during drafting on CLERC ($\ClercTerraMisapplicationTrackOne$; Section~\ref{main-subsec:clerc-generalization}), where incomplete context may encourage analogical reasoning from historical cases rather than fabrication. Developing adaptive traversal horizons along invalidation paths represents a high-priority architectural extension.
++
++\item \textbf{Oracle Relation Labels, Exact-Title Seeding, and a Bundled Ablation:} In Full TERRA, curated \texttt{OVERRULES} edges are serialized with an explicit relation tag, dedicated heading, expanded excerpt budget, and prompt instruction; obscure benchmark pairs were drawn from these edges. The Full-TERRA advantage on that suite is therefore contingent on curated annotations, and the bundled ablation cannot isolate the tag alone. For named-case queries, seeding relied on exact caption matches (category-filtered vector retrieval returned no candidates), causing two queries to produce empty context and safe-rated refusals, one to omit the overruling case, and two to take the fast path; we evaluated TERRA as deployed and report sensitivity subsets excluding these items. The primary comparison contrasts complete systems, and Direct LLM receives no instruction block. Outcomes are judge-dependent in magnitude, the suite has thirty items, and judges were not fully blind to arm identity.
++
++\item \label{item:falserefusal}\textbf{False Refusals on Answerable Queries (Categories A and B):}
++The safety gate produces false refusals on non-adversarial inquiries: \TerraCatAFalseRefusals/100 Category~A (Factual) and \TerraCatBFalseRefusals/100 Category~B (Evolutionary) queries receive system-level safety rejections (\texttt{safety\_rejected = True}). All \TerraCatBFalseRefusals\ Category~B false refusals originate from the NLI Smart Grader on the hard route; none occur on the fast route. Individual causes were not separately diagnosed.
++
++\item \textbf{Latency measurement caveats:} Baselines ran sequentially on 5--6 September 2026; TERRA ran with four concurrent workers on 14 September. \TerraThrottledRows/350 TERRA queries incurred HTTP 429 back-off (\TerraThrottleSleepSeconds\,s total). EASY includes 110 queries (100 A and 10 D), gross/net median 5.465 s; HARD includes 240 (100 B, 75 C, 65 D), gross/net median 14.067 s. Category A/B medians (5.828/17.939 s) are not route medians. Retry sleep is subtracted per query before computing net percentiles. These are unlike harnesses; aggregate medians obscure routing and throttling, and comparisons are indicative only.
++
++\item \label{item:samefamily}\textbf{Same-Family Generation, NLI Grading, and Category~D Verifier:}
++Generation, NLI grading, and the Category~D verifier all deploy \texttt{databricks-\allowbreak meta-\allowbreak llama-\allowbreak 3-3-70b-\allowbreak instruct} (same family and endpoint). Faithfulness judges are \texttt{databricks-\allowbreak qwen3-next-\allowbreak 80b-a3b-\allowbreak instruct} and \texttt{databricks-\allowbreak gpt-oss-120b} (different model families). Category~D four-class labels (refusal, refutation, fatal error, hedge) may inherit shared Llama biases; cross-family verifier ablation has not been run.
++
++\item \textbf{Unflagged Textual Refusals:}
++System-level flagging (\texttt{safety\_rejected = True}) undercounts epistemic refusals. Adding textual refusals (asserting contextual absence without gate triggering) raises counts to \TerraEpistemicRefusals/350 for TERRA, \FlatEpistemicRefusals/350 for Flat Vector RAG, \GraphEpistemicRefusals/350 for GraphRAG-Adapted, and \HippoEpistemicRefusals/350 for HippoRAG-Adapted. Unflagged TERRA cases are D034 (refusal phrasing with fatal error, score 0.000), D061 (verified refutation, floored at \AmendmentMFloorScore\ under Amendment~M), and D068/D070 (fast-path textual refusals scoring 1.000). Aggregate Table~\ref{tab:sensitivity_raw_vs_clamped} sensitivity results for TERRA are invariant to this distinction ($\Delta = 0.000$).
++
++\item \textbf{Mixed-date evaluation blocks:} Blocks differ in timing, configurations and rubrics. File modification dates are not execution timestamps. The pilot ablation's earlier single judge is unidentified; temporal, CaseFacts, CLERC and obscure-suite records identify Qwen and GPT-OSS judges. Their task-specific scores are not directly comparable with canonical faithfulness scores. Exact historical execution code is not preserved, and Category B/D context excerpts show different assembly settings without establishing different execution dates. See Table~\ref{tab:run_provenance}.
++
++\item \textbf{Corpus Length-Filtering Bias and Concise Landmark Exclusion:}
++Filtering by length ($\ge 4{,}000$ characters) purges noise: across \IssueTwentyTotalVolumesScanned\ volumes (\IssueTwentyTotalDecisionsScanned\ cases), \IssueTwentySubFiveHundredCharCount\ records are $<500$ characters (\IssueTwentySubFiveHundredCharPct, procedural orders/dockets). However, equating length with authority induces bias: it excludes \IssueTwentyIntermediateExcludedCount\ decisions ($500$--$3{,}999$ characters, \IssueTwentyIntermediateExcludedPct), with \IssueTwentyIntermediatePageRankGeNinetyNineFive\ in the top $0.5\%$ of CAP PageRank authority. Deterministic audit of 63 landmarks reveals \IssueTwentyLandmarksExcludedByLength\ (\IssueTwentyLandmarksExcludedByLengthPct) were purged, including procedural standards (\textit{Haines}, \IssueTwentyHainesCharCount\ chars, \IssueTwentyHainesCAPPRPercentile th percentile; \textit{Diebold}, \IssueTwentyDieboldCharCount\ chars, \IssueTwentyDieboldCAPPRPercentile th percentile), competency (\textit{Dusky}, \IssueTwentyDuskyCharCount\ chars, \IssueTwentyDuskyCAPPRPercentile th percentile), tax milestones (\textit{Lucas v. Earl}, \IssueTwentyLucasCharCount\ chars), and desegregation orders (\textit{Sipuel}, \IssueTwentySipuelCharCount\ chars; \textit{Gayle}, \IssueTwentyGayleCharCount\ chars). \textit{Bolling v. Sharpe} (\IssueTwentyBollingCharCount\ chars) met the threshold but was omitted in subsampling. Future graphs should replace static floors with citation retention.
++
++\item \textbf{Citation Extraction Precision, Same-Year Chronology, and Provenance Uncertainty:}
++Automated citation extraction via \texttt{eyecite} establishes citation existence rather than doctrinal endorsement. Our stratified audit ($N=\IssueTwentyOneAuditSampleN$, seed \IssueTwentyOneAuditSeed) confirms \IssueTwentyOneAuditCitationPresentPct\ of sampled edges contain reporter strings; direct precedential reliance is verified in \IssueTwentyOneAuditTargetConfirmedPct\ (95\% CI: \IssueTwentyOneAuditTargetConfirmedCI), with \IssueTwentyOneAuditQuotationPct\ in quotations. Furthermore, \IssueTwentyOneSameYearEdges\ edges (\IssueTwentyOneSameYearEdgesPct) connect same-year opinions, with \IssueTwentyOneIntraYearReversals\ intra-year date reversals from publication artifacts and zero cross-year forward violations. The legacy claim of ``$99.91\%$ chronological validity / $0.09\%$ noise'' in earlier working drafts was untraceable to repository artifacts, mandating this audit. Citation trails provide candidate authorities with \IssueTwentyOneAuditTargetConfirmedPct\ precision rather than certified doctrinal paths.
++
++\item \textbf{Rule-Based Doctrinal Taxonomy, Lexical Polysemy, Truncation, and Residual Fallback Bias:}
++The seven-domain classification is generated by a deterministic \IssueTwentyTwoTotalLexiconPhrases-phrase rule-based lexicon over truncated texts ($\le \IssueTwentyTwoTextTruncationChars$ characters), inducing four limitations: (1)~\textit{Lexical polysemy}: Keyword matching without contextual disambiguation risks misclassification when terms appear in procedural dicta or dissenting quotes. (2)~\textit{Truncation artifacts}: Truncating texts to \IssueTwentyTwoTextTruncationChars\ characters restricts matching to introductory syllabi, occasionally missing dispositive holdings. (3)~\textit{Residual fallback bias}: The \texttt{general\_constitutional\_statutory} category acts as an unkeyed fallback for \IssueTwentyTwoGeneralConstitutionalCorpus\ decisions (\IssueTwentyTwoGeneralConstitutionalCorpusPct) lacking substantive keywords, functioning as a catch-all with \IssueTwentyTwoGeneralConstitutionalBaselineAcc\ baseline precision despite \IssueTwentyTwoFallbackValidityPct\ validity as a residual class. (4)~\textit{Absence of human expert annotation}: Taxonomy validation relies on dual automated evaluators (IEA \IssueTwentyTwoIEARawAgreement, Cohen's $\kappa=\IssueTwentyTwoIEACohensKappa$) and a blinded automated adjudicator (\IssueTwentyTwoHorvitzThompsonAccuracy\ weighted accuracy, 95\% CI: \IssueTwentyTwoHorvitzThompsonCI), not licensed practitioner annotation; classifications are not certified human ground truth.
++
++\item \textbf{A Priori Hyperparameter Selection and Sensitivity Analysis Scope:} Core retrieval and graph expansion parameters ($k=\IssueTwentyFourSeedK$, depth $d=\IssueTwentyFourBfsDepth$, hub cap $\IssueTwentyFourHubCap$, geometric threshold $\tau=\IssueTwentyFourDistThreshold$) were fixed prior to benchmark construction and evaluation based on topological network constraints and preliminary feasibility testing on an independent \IssueTwentyFourDevQueryCount-query development suite (\IssueTwentyFourDevDate). The development audit does not establish global optimality or exclude all contamination. Empirical sensitivity sweeps across \IssueTwentySixConfigCount\ configurations (Section~\ref{main-subsec:retrieval-quality}, Table~\ref{main-tab:retrieval_eval} Panel~C) profile performance across horizons ($k \in \{1,2,4\}$, $d \in \{1,2,3\}$, $C \in \{25,50,100\}$), describing the older stored-context configuration, not exact reproduction of canonical-v2 ($k=2, d=2, C=50$, \IssueTwentySixHistMacro\ macro recall, \IssueTwentySixHistFullPath\ full path recall) while quantifying the coverage-efficiency trade-off under bounded operational caps (\IssueTwentySixGoldRetentionPct\ landmark retention, \IssueTwentySixContextReductionPct\ context reduction). Canonical-v2 recovers 66/100 complete targets, older stored contexts 62/100 and the separate bounded engine 61/100; these are distinct records and configurations.
++
++\item \textbf{Task-Corpus Domain Asymmetry and Private-Law Generalizability Scope:} A core methodological boundary is the intentional asymmetry between corpus composition and benchmark task scope. While the indexed repository reflects the complete 20,000-case docket spanning seven domains (\IssueTwentyFiveCorpusCombinedPrivateStatutoryPct\ private and general statutory law), the evaluated multi-hop reasoning benchmark (Category~B) evaluates constitutional and public-law precedent exclusively (\IssueTwentyFiveCatBConstitutionalPublicPct\ across five public-law domains; zero private-law chains). While the evaluation demonstrates TERRA's measured performance on the evaluated constitutional citation chains across a dense background network containing \CorpusPrivateLawOpinions\ private-law distractors, the system's performance on complex multi-hop statutory or patent reasoning remains unvalidated. Multi-hop evolutionary retrieval over complex commercial codes and specialized regulatory dockets constitutes an important open frontier for future domain-specific evaluation.
+--- baseline/TERRA_SUPPLEMENT.tex
++++ candidate/TERRA_SUPPLEMENT.tex
+@@ -0,0 +1,66 @@
++\documentclass[10pt]{article}
++\usepackage[a4paper,landscape,margin=15mm]{geometry}
++\usepackage{booktabs,multirow,array,longtable,amsmath,amssymb,graphicx,textcomp,xcolor}
++\usepackage{cite}
++\usepackage{xr}
++\usepackage{hyperref}
++\externaldocument[main-]{main}
++\renewcommand{\thetable}{S\arabic{table}}
++\renewcommand{\thesection}{S\arabic{section}}
++\renewcommand{\thepage}{S\arabic{page}}
++\setlength{\tabcolsep}{3pt}
++\input{generated_stats}
++\input{generated_obscure_stats}
++\input{generated_corpus_stats_20k}
++\input{phase3_corrections}
++\input{phase3_corrections_b2}
++\input{phase3_corrections_b3}
++\input{phase3_corrections_b6}
++\input{supplement_latency_corrections}
++\begin{document}
++\section*{TERRA supplementary material}
++This reconstructed supplement preserves the ten mapped table objects and eighteen limitation themes. Historical result blocks remain distinct; the corrected graph derivative is not substituted for the original evaluated graph. The main paper and this supplement have separate numbering.
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_full_fdr_family}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_baseline_specifications}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_sensitivity_raw_vs_clamped}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_temporal_update_stability}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_system_comparison}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_router_eval}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_temporal_leakage_probe}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_graph_metrics}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_run_provenance}
++\endgroup
++\clearpage
++\begingroup\small
++\input{supplement_tables/table_latency_percentiles}
++\endgroup
++\clearpage\section{Detailed limitations}\begin{enumerate}\input{supplement_limitations}\end{enumerate}
++\section{Exploratory AI-assisted author assessment}\input{supplement_assessment}
++\bibliographystyle{IEEEtran}\bibliography{ref}
++\end{document}
+--- baseline/supplement_tables\table_baseline_specifications.tex
++++ candidate/supplement_tables\table_baseline_specifications.tex
+@@ -0,0 +1,24 @@
++% BASELINE SPECIFICATION AND FAIRNESS AUDIT TABLE (ISSUE #23)
++\par\begingroup
++
++
++
++\begingroup
++\renewcommand{\arraystretch}{0.85}
++\begin{longtable}{p{2.6cm}p{3.8cm}p{3.8cm}p{3.2cm}p{2.6cm}p{3.6cm}}
++\caption{Comparative Baseline Adaptation Rigor and Architectural Parameter Configurations.}\label{tab:baseline_specifications}\\
++\toprule
++\textbf{Pipeline} & \textbf{Graph Topology \& Representation} & \textbf{Retrieval Algorithm \& Parameters} & \textbf{Generator \& Settings} & \textbf{Context Ceiling} & \textbf{Refusal \& Safety Treatment} \\
++\midrule
++\textbf{1. Direct LLM} & None (pure parametric memory) & None ($k=0$) & LLaMA 3.3 70B ($T=0.0$, 4k tok) & 0 chars & Unconstrained completion \\
++\textbf{2. Flat Vector RAG} & None (unstructured text embeddings) & ChromaDB semantic similarity ($n=2$ traces) & LLaMA 3.3 70B ($T=0.0$, 4k tok) & $\approx$3,200 chars max & Direct generation from retrieved context \\
++\textbf{3. GraphRAG-Adapted (Louvain)} & Undirected citation network (145,353 edges; NetworkX Louvain modularity) & Local 1-hop expansion ($k=5$ seeds; 3 in / 3 out edges; 400 char extracts) & LLaMA 3.3 70B ($T=0.0$, 4k tok) & $\approx$5,500 chars max & Community-informed synthesis; fallback to epistemic disclaimer \\
++\textbf{4. HippoRAG-Adapted} & Symmetric bipartite citation matrix (290,706 non-zeros; open-walk diffusion) & Personalized PageRank power iteration ($\alpha=0.85$, tol=$10^{-6}$, max 50 iter, $k=5$ opinions; 400 char extracts) & LLaMA 3.3 70B ($T=0.0$, 4k tok) & $\approx$3,500 chars max & Associative memory synthesis; fallback to heuristic hedges \\
++\midrule
++\textbf{5. Full TERRA} & \textbf{Directed chronological EEG} (145,366 active edges: 145,310 \texttt{CITES} + 56 \texttt{OVERRULES}; 20k nodes) & \textbf{BFS traversal} ($k=2$ seeds, depth $d=2$, hub cap 50, generic procedural scaffold injection; no retrieval distance cutoff) & LLaMA 3.3 70B ($T=0.0$, 4k tok) & \textbf{60,000 chars hard ceiling} ($18.8\times$ vs.\ Flat) & \textbf{Traffic Cop router + NLI Smart Grader} (calibrated epistemic refusal / refutation) \\
++\bottomrule
++\end{longtable}
++\endgroup
++\vspace{0.5mm}
++\raggedright \footnotesize \textbf{Notes:} Shared: Harvard CAP corpus, Meta LLaMA 3.3 70B ($T=0.0$, max tokens 4k). Divergences: GraphRAG undirected Louvain ($Q=0.6110$); HippoRAG symmetric PPR diffusion; TERRA directed EEG. Context limits in code are character-based string operations (\texttt{[:N]}); TERRA's 60,000-char ceiling provides an intentional $18.8\times$ context volume asymmetry over Flat RAG.
++\par\endgroup
+--- baseline/supplement_tables\table_full_fdr_family.tex
++++ candidate/supplement_tables\table_full_fdr_family.tex
+@@ -0,0 +1,36 @@
++% AUTO-GENERATED COMPLETE FDR FAMILY TABLE (M=20 PRE-SPECIFIED HYPOTHESIS TESTS)
++\par\begingroup
++
++
++
++\renewcommand{\arraystretch}{1.05}
++\begin{longtable}{p{0.9cm}p{2.2cm}p{2.1cm}p{2cm}p{2.6cm}p{1.3cm}p{1.9cm}p{1.9cm}p{2.3cm}p{2cm}}
++\caption{Complete Pre-Specified Benjamini-Hochberg False Discovery Rate (FDR) Hypothesis Testing Family ($M=20$ Tests Across 4 Baselines $\times$ 5 Evaluation Slices).}\label{tab:full_fdr_family}\\
++\toprule
++\textbf{Rank ($i$)} & \textbf{Comparative Baseline} & \textbf{Evaluation Slice} & \textbf{Statistical Test} & \textbf{Mean $\Delta$ [95\% CI]} & \textbf{Cohen's $d_z$} & \textbf{Raw $p$-value} & \textbf{FDR $q$-value} & \textbf{Paired ($n^+/n^0/n^-$)} & \textbf{Significance ($\alpha=0.05$)} \\
++\midrule\endhead
++1 & Direct LLM (No RAG) & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +100.0\% Diff. & --- & $\ensuremath{2.15 \times 10^{-44}}$ & $\ensuremath{4.31 \times 10^{-43}}$ & $75/75 \text{ vs. } 0/75$ & \textbf{Yes (TERRA)} \\
++2 & Direct LLM (No RAG) & Category A (Factual) & Wilcoxon Signed-Rank & $+0.427$ \ensuremath{[+0.350, +0.501]} & $1.081$ & $\ensuremath{1.93 \times 10^{-12}}$ & $\ensuremath{1.93 \times 10^{-11}}$ & $71/25/4$ & \textbf{Yes (TERRA)} \\
++3 & Direct LLM (No RAG) & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.173$ \ensuremath{[+0.114, +0.233]} & $0.401$ & $\ensuremath{4.73 \times 10^{-8}}$ & $\ensuremath{3.15 \times 10^{-7}}$ & $98/43/59$ & \textbf{Yes (TERRA)} \\
++4 & GraphRAG-Adapted & Category B (Evolutionary) & Wilcoxon Signed-Rank & $+0.119$ \ensuremath{[+0.045, +0.191]} & $0.318$ & $\ensuremath{3.94 \times 10^{-6}}$ & $\ensuremath{1.97 \times 10^{-5}}$ & $73/16/11$ & \textbf{Yes (TERRA)} \\
++5 & GraphRAG-Adapted & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.086$ \ensuremath{[+0.039, +0.131]} & $0.257$ & $\ensuremath{1.02 \times 10^{-5}}$ & $\ensuremath{4.08 \times 10^{-5}}$ & $91/91/18$ & \textbf{Yes (TERRA)} \\
++6 & Direct LLM (No RAG) & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $-0.200$ \ensuremath{[-0.287, -0.117]} & $-0.529$ & $\ensuremath{3.81 \times 10^{-5}}$ & $\ensuremath{1.27 \times 10^{-4}}$ & $9/30/36$ & \textbf{Yes (Baseline)} \\
++7 & Flat Vector RAG & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.078$ \ensuremath{[+0.025, +0.129]} & $0.207$ & $0.0006$ & $0.0016$ & $87/91/22$ & \textbf{Yes (TERRA)} \\
++8 & Direct LLM (No RAG) & Category B (Evolutionary) & Wilcoxon Signed-Rank & $-0.081$ \ensuremath{[-0.139, -0.021]} & $-0.275$ & $0.0009$ & $0.0023$ & $27/18/55$ & \textbf{Yes (Baseline)} \\
++9 & HippoRAG-Adapted & Combined In-Domain (A+B) & Wilcoxon Signed-Rank & $+0.049$ \ensuremath{[+0.009, +0.089]} & $0.170$ & $0.0028$ & $0.0063$ & $61/112/27$ & \textbf{Yes (TERRA)} \\
++10 & Flat Vector RAG & Category B (Evolutionary) & Wilcoxon Signed-Rank & $+0.070$ \ensuremath{[-0.015, +0.151]} & $0.166$ & $0.0032$ & $0.0063$ & $67/18/15$ & \textbf{Yes (TERRA)} \\
++11 & HippoRAG-Adapted & Category B (Evolutionary) & Wilcoxon Signed-Rank & $+0.066$ \ensuremath{[+0.004, +0.130]} & $0.207$ & $0.0068$ & $0.0124$ & $51/26/23$ & \textbf{Yes (TERRA)} \\
++12 & Flat Vector RAG & Category A (Factual) & Wilcoxon Signed-Rank & $+0.086$ \ensuremath{[+0.025, +0.151]} & $0.261$ & $0.0114$ & $0.0189$ & $20/73/7$ & \textbf{Yes (TERRA)} \\
++13 & GraphRAG-Adapted & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $+0.115$ \ensuremath{[+0.017, +0.212]} & $0.265$ & $0.0454$ & $0.0699$ & $36/20/19$ & No \\
++14 & GraphRAG-Adapted & Category A (Factual) & Wilcoxon Signed-Rank & $+0.052$ \ensuremath{[-0.004, +0.107]} & $0.183$ & $0.0818$ & $0.1169$ & $18/75/7$ & No \\
++15 & HippoRAG-Adapted & Category A (Factual) & Wilcoxon Signed-Rank & $+0.031$ \ensuremath{[-0.018, +0.080]} & $0.126$ & $0.2898$ & $0.3865$ & $10/86/4$ & No \\
++16 & Flat Vector RAG & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $-0.030$ \ensuremath{[-0.120, +0.060]} & $-0.075$ & $0.5109$ & $0.6386$ & $21/30/24$ & No \\
++17 & HippoRAG-Adapted & Category D (Adversarial Faithfulness) & Wilcoxon Signed-Rank & $-0.033$ \ensuremath{[-0.120, +0.052]} & $-0.089$ & $0.5509$ & $0.6481$ & $24/25/26$ & No \\
++18 & Flat Vector RAG & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +1.3\% Diff. & --- & $1.0000$ & $1.0000$ & $75/75 \text{ vs. } 74/75$ & No \\
++19 & GraphRAG-Adapted & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +0.0\% Diff. & --- & $1.0000$ & $1.0000$ & $75/75 \text{ vs. } 75/75$ & No \\
++20 & HippoRAG-Adapted & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +1.3\% Diff. & --- & $1.0000$ & $1.0000$ & $75/75 \text{ vs. } 74/75$ & No \\
++\bottomrule
++\end{longtable}
++\vspace{1mm}
++\raggedright \footnotesize \textbf{Notes:} Ranks $i \in \{1, \dots, 20\}$ reflect ascending raw $p$-value ordering. FDR adjusted $q$-values are computed via the standard Benjamini-Hochberg step-up procedure: $q_{(i)} = \min_{k \ge i} \{ \frac{20 \cdot p_{(k)}}{k} \}$. Tests with $q < 0.05$ are deemed statistically significant. Following Hoenig and Heisey (2001) \cite{hoenig2001abuse}, retrospective post-hoc power is omitted as an uninformative monotonic transformation of $p$-values; instead, exact paired outcome counts ($n^+ / n^0 / n^-$: TERRA wins, ties, losses) are reported for Wilcoxon continuous tests alongside contingency counts for Fisher's exact tests. For prospective study design ($\alpha=0.05$, two-sided, $80\%$ target power), standardized paired-mean MDES approximations are $d_z = 0.283$ at $N=100$ and $d_z = 0.200$ at $N=200$ ($d_z = 0.328$ for continuous Category D at $N=75$); discrete Fisher/McNemar comparisons are evaluated via exact $p$-values without continuous MDES claims. The sign of $\Delta$ and the significance column identify the direction of each comparison; these observational contrasts do not isolate an architectural cause. Category D continuous faithfulness comparisons occupy ranks 6, 13, 16 and 17, and are distinct from the eight-test Holm-adjusted secondary family of discrete refusals and safe handling in the main paper. Confidence intervals in rows 2, 6 and 12--17 retain historical bootstrap values whose original resampling settings could not be verified; these intervals are not independently reproduced.
++\par\endgroup
+--- baseline/supplement_tables\table_graph_metrics.tex
++++ candidate/supplement_tables\table_graph_metrics.tex
+@@ -0,0 +1,22 @@
++\par\begingroup
++
++
++
++\begin{longtable}{lc}
++\caption{Event Evolution Graph Topological Properties. Diameter and mean shortest path use the undirected largest weakly connected component of the original active 20k graph; results are not attributed to the corrected derivative.}\label{tab:graph_metrics}\\
++\toprule
++\textbf{Metric} & \textbf{Value} \\
++\midrule
++Total Nodes ($|V|$) & \CorpusTotalOpinions \\
++Total Edges ($|E|$) & \CorpusPrecedentEdges \\
++Graph Density ($\rho$) & \CorpusGraphDensity \\
++Mean Node Degree ($\bar{k}$) & \CorpusMeanNodeDegree \\
++Maximum Degree (\CorpusMaxDegreeCase) & \CorpusMaxDegree \\
++Average Clustering Coefficient ($C$) & \CorpusAverageClustering \\
++Graph Diameter ($d_{\text{max}}$) & \CorpusGraphDiameter\ hops \\
++Average Shortest Path Length ($L$) & \CorpusAvgShortestPath\ hops \\
++Largest Weakly Connected Component (WCC) & \CorpusLargestComponentSize\ (\CorpusLargestWccPercent) \\
++Largest Strongly Connected Component (SCC) & \CorpusLargestSccSize \\
++\bottomrule
++\end{longtable}
++\par\endgroup
+--- baseline/supplement_tables\table_latency_percentiles.tex
++++ candidate/supplement_tables\table_latency_percentiles.tex
+@@ -0,0 +1,35 @@
++\par\begingroup
++
++
++
++\begin{longtable}{lrrrrr}
++\caption{Pipeline Execution Latency Percentiles (Milliseconds). Panel~A: Gross wall-clock time (end-to-end including any server-imposed retry sleep). Panel~B: Net time (retry sleep subtracted). TERRA fast route ($N=110$): 100 Category~A queries plus 10 Category~D queries routed EASY by the traffic-cop; the EASY route records anchor retrieval and evidence grading without graph traversal; generation occurs only where permitted. TERRA hard route ($N=240$): 100 Category~B + 75 Category~C + 65 Category~D queries; HARD records retrieval/graph expansion and evidence checking; generation occurs only where permitted. Baselines ran sequentially (5--6 Sept.); TERRA ran with four concurrent workers (14 Sept.), so comparisons are indicative only. Forced-hard-path latency (Ablation~3) is in Table~\ref{main-tab:ablation} (median $\AblationThreeLatencyMedianSeconds$~s).}\label{tab:latency_percentiles}\\
++\toprule
++\textbf{Execution Path} & \textbf{p25} & \textbf{Median} & \textbf{p75} & \textbf{p95} & \textbf{Mean $\pm$ sample SD} \\
++\midrule
++\multicolumn{6}{p{22cm}}{\textit{Panel A: Gross latency (ms)}} \\
++\midrule
++Direct LLM (No RAG) & $\DirectLLMLatencyPTwentyFiveMs$ & $\DirectLLMLatencyMedianMs$ & $\DirectLLMLatencyPSeventyFiveMs$ & $\DirectLLMLatencyPNinetyFiveMs$ & $\DirectLLMLatencyMeanAndStdMs$ \\
++Flat Vector RAG & $\FlatRAGLatencyPTwentyFiveMs$ & $\FlatRAGLatencyMedianMs$ & $\FlatRAGLatencyPSeventyFiveMs$ & $\FlatRAGLatencyPNinetyFiveMs$ & $\FlatRAGLatencyMeanAndStdMs$ \\
++GraphRAG-Adapted & $\GraphRAGLatencyPTwentyFiveMs$ & $\GraphRAGLatencyMedianMs$ & $\GraphRAGLatencyPSeventyFiveMs$ & $\GraphRAGLatencyPNinetyFiveMs$ & $\GraphRAGLatencyMeanAndStdMs$ \\
++HippoRAG-Adapted & $\HippoRAGLatencyPTwentyFiveMs$ & $\mathbf{\HippoRAGLatencyMedianMs}$ & $\HippoRAGLatencyPSeventyFiveMs$ & $\mathbf{\HippoRAGLatencyPNinetyFiveMs}$ & $\HippoRAGLatencyMeanAndStdMs$ \\
++\textbf{TERRA Overall} & $\TerraLatencyPTwentyFiveMs$ & $\TerraLatencyMedianMs$ & $\TerraLatencyPSeventyFiveMs$ & $\TerraLatencyPNinetyFiveMs$ & $\TerraLatencyMeanAndStdMs$ \\
++\midrule
++TERRA Fast Route ($N=110$; Cat A + 10$\times$Cat D) & $\TerraFastPathLatencyPTwentyFiveMs$ & $\TerraFastPathLatencyMedianMs$ & $\TerraFastPathLatencyPSeventyFiveMs$ & $\TerraFastPathLatencyPNinetyFiveMs$ & $\TerraFastPathLatencyMeanAndStdMs$ \\
++TERRA Hard Route ($N=240$; Cat B + C + 65$\times$Cat D) & $\TerraHardPathLatencyPTwentyFiveMs$ & $\TerraHardPathLatencyMedianMs$ & $\TerraHardPathLatencyPSeventyFiveMs$ & $\TerraHardPathLatencyPNinetyFiveMs$ & $\TerraHardPathLatencyMeanAndStdMs$ \\
++\midrule
++\multicolumn{6}{p{22cm}}{\textit{Panel B: Net latency, retry sleep subtracted (ms; recorded retry sleep subtracted per row)}} \\
++\midrule
++\textbf{TERRA Overall (net)} & --- & $\TerraNetLatencyMedianMs$ & --- & $\TerraNetLatencyPNinetyFiveMs$ & --- \\
++TERRA Fast Route (net, $N=110$) & $\TerraFastPathNetLatencyPTwentyFiveMs$ & $\TerraFastPathNetLatencyMedianMs$ & $\TerraFastPathNetLatencyPSeventyFiveMs$ & $\TerraFastPathNetLatencyPNinetyFiveMs$ & $\TerraFastPathNetLatencyMeanAndStdMs$ \\
++TERRA Hard Route (net, $N=240$) & $\TerraHardPathNetLatencyPTwentyFiveMs$ & $\TerraHardPathNetLatencyMedianMs$ & $\TerraHardPathNetLatencyPSeventyFiveMs$ & $\TerraHardPathNetLatencyPNinetyFiveMs$ & $\TerraHardPathNetLatencyMeanAndStdMs$ \\
++\midrule
++\multicolumn{6}{p{22cm}}{\textit{Secondary block: Category-level TERRA gross latency (ms)}} \\
++\midrule
++TERRA Category A & $\TerraCatALatencyPTwentyFiveMs$ & $\TerraCatALatencyMedianMs$ & --- & $\TerraCatALatencyPNinetyFiveMs$ & $\TerraCatALatencyMeanAndStdMs$\textsuperscript{a} \\
++TERRA Category B & $\TerraCatBLatencyPTwentyFiveMs$ & $\TerraCatBLatencyMedianMs$ & --- & $\TerraCatBLatencyPNinetyFiveMs$ & $\TerraCatBLatencyMeanAndStdMs$\textsuperscript{a} \\
++\bottomrule
++\end{longtable}
++\vspace{1pt}
++{\footnotesize \textsuperscript{a}~Category-level gross latency across all Category~A ($N=100$) and Category~B ($N=100$) queries; p75 omitted to limit column width.}
++\par\endgroup
+--- baseline/supplement_tables\table_router_eval.tex
++++ candidate/supplement_tables\table_router_eval.tex
+@@ -0,0 +1,35 @@
++% TABLE X: TRAFFIC COP ROUTER STANDALONE CLASSIFIER EVALUATION & DEFENSE-IN-DEPTH ROUTING ANALYSIS
++\par\begingroup
++
++
++
++\begin{longtable}{p{6cm}p{2.4cm}p{2.5cm}p{2.5cm}p{2.5cm}p{2.5cm}p{3cm}}
++\caption{Standalone Traffic Cop Query Intent Classifier Evaluation Across Canonical Benchmark Queries ($N=\RouterTotalQueries$), and Category-Disaggregated Routing Behavior with Downstream Defense-in-Depth Outcomes. Evaluated with Google Gemma 3 12B Instruction-tuned (\texttt{\RouterModel}) at $T=0.0$ under structured Pydantic schema validation (\texttt{RoutingDecision}). Panel A reports the $2 \times 2$ standalone binary confusion matrix (EASY: single-point factual lookup; HARD: multi-hop evolutionary, out-of-domain, or adversarial query), classification metrics, and inference latency percentiles. Panel B disaggregates routing decisions across benchmark categories (A, B, C, D) with a self-verifying total row ($110 + 240 = 350$), confirming that overall benchmark safe handling reaches \RouterOverallSafeHandlingRate\ (348/350), with 100.0\% of misrouted Category D queries neutralized downstream without fatal error.}\label{tab:router_eval}\\
++\toprule
++\multicolumn{7}{c}{\textbf{Panel A: Standalone Query Complexity Binary Classification Performance ($N=\RouterTotalQueries$)}} \\
++\midrule
++\textbf{Gold Category / Split} & \textbf{Total ($N$)} & \textbf{Pred. EASY} & \textbf{Pred. HARD} & \textbf{Precision $\uparrow$} & \textbf{Recall $\uparrow$} & \textbf{$F_1$ Score $\uparrow$} \\
++\midrule
++Gold EASY (Category A: Factual) & 100 & 100 & 0 & \RouterEasyPrecision & \RouterEasyRecall & \RouterEasyFOne \\
++Gold HARD (Categories B, C, D: Complex) & 250 & 10 & 240 & \RouterHardPrecision & \RouterHardRecall & \RouterHardFOne \\
++\midrule
++\textbf{Macro-Averaged / Overall Summary} & \textbf{\RouterTotalQueries} & \textbf{110} & \textbf{240} & \textbf{\RouterMacroPrecision} & \textbf{\RouterMacroRecall} & \textbf{\RouterMacroFOne} \\
++\midrule[\heavyrulewidth]
++\multicolumn{7}{c}{\textbf{Panel B: Category-Disaggregated Routing Behavior and Downstream Defense-in-Depth Safety}} \\
++\midrule
++\textbf{Benchmark Category} & \textbf{Gold Intent} & \textbf{Total ($N$)} & \textbf{Pred. EASY} & \textbf{Pred. HARD} & \textbf{False Route Rate} & \textbf{Safe Handling Rate} \\
++\midrule
++Category A (Single-Point Factual) & EASY & 100 & 100 & 0 & \RouterFalseHardRate & 100.0\% (100/100) \\
++Category B (Multi-Hop Evolutionary) & HARD & 100 & 0 & 100 & 0.00\% & 100.0\% (100/100) \\
++Category C (Out-of-Context Negative) & HARD & 75 & 0 & 75 & 0.00\% & 100.0\% (75/75) \\
++Category D (Adversarial Deception) & HARD & 75 & \RouterCatDFalseEasyCount & 65 & \RouterCatDFalseEasyRate & 97.3\% (73/75)$^\dagger$ \\
++\midrule
++\textbf{Total / Overall} & \textbf{MIX} & \textbf{350} & \textbf{110} & \textbf{240} & \textbf{\RouterOverallErrorRate} & \textbf{\RouterOverallSafeHandlingRate} (\textbf{348/350})$^*$ \\
++\bottomrule
++\end{longtable}
++\vspace{1mm}
++\raggedright \footnotesize \textbf{Notes:} Evaluated on all $N=350$ canonical benchmark queries executed deterministically at $T=0.0$ using Google Gemma 3 12B Instruction-tuned (\texttt{\RouterModel}) served via Databricks Model Serving API.
++Overall classifier accuracy is $\RouterAccuracy$ ($\RouterCorrectCount$) with an overall routing error rate of $\RouterOverallErrorRate$ (10/350). The router achieves zero False-HARD misclassifications ($\RouterFalseHardRate$, 0/100 on Category A), ensuring that factual lookups are never needlessly penalized with heavy graph expansion. Across all complex queries (Categories B, C, D), the False-EASY rate is $\RouterFalseEasyRate$ (10/250), with zero false-EASY routes on Categories B and C. Standalone router latency: Min = 601.9~ms, Median = \RouterLatencyMedianMs~ms, Mean = \RouterLatencyMeanMs~ms, p90 = 2,043.8~ms, Max = 15,370.2~ms.
++$^\dagger$On Category D, 73/75 queries ($97.3\%$) achieved safe handling: 48 explicit refusals and 25 substantive refutations under the multi-class scoring (distinct from 46 system-flagged refusals), with the only two errors being reciprocal procedural misattributions between \textit{Baker} and \textit{Reynolds} (D033/D034; Section~\ref{main-subsec:safety-and-factual}).
++$^*$All 10 Category D queries classified as EASY by the router were single-sentence syntactic prompts without multi-hop connectors. In the canonical run these queries took the fast route, which still recorded retrieval and NLI grading, and all 10 (\RouterCatDSafeHandlingRate, 10/10) were safely handled: 8 resulted in grader-triggered safety refusals and 2 in unflagged textual refusals, with zero fatal hallucinations ($0/10$, $0.0\%$); with $n=10$ this is a small-sample observation.
++\par\endgroup
+--- baseline/supplement_tables\table_run_provenance.tex
++++ candidate/supplement_tables\table_run_provenance.tex
+@@ -0,0 +1,49 @@
++\par\begingroup
++  
++  \small
++  
++  
++  \begin{longtable}{@{}p{3.8cm}p{2.2cm}p{5.2cm}p{1.4cm}@{}}
++\caption{Evaluation Block Provenance. Dates are from file timestamps or
++           logged runner headers; ``date not recorded'' means no timestamp
++           was found in the source files.}\label{tab:run_provenance}\\
++    \toprule
++    \textbf{Block} & \textbf{Date (source)} & \textbf{Models} & \textbf{$N$} \\
++    \midrule
++    Baseline generations & 5--6 Sept.\ 2026\newline (file mtime) &
++      Gen: \texttt{llama-3.3-70b-instruct}; no router/NLI &
++      1,400 \\
++    \addlinespace
++    Deployed TERRA run & 14 Sept.\ 2026\newline (file mtime) &
++      Router: \texttt{gemma-3-12b}; NLI + gen: \texttt{llama-3.3-70b-instruct} &
++      350 \\
++    \addlinespace
++    Dual-judge scoring & 14 Sept.\ 2026\newline (file mtime) &
++      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} &
++      1,750 \\
++    \addlinespace
++    Pilot ablation (Table~\ref{main-tab:ablation}) & date not recorded &
++      date not recorded & 35 \\
++    \addlinespace
++    Temporal leakage probe & 17 Sept.\ 2026\newline (file mtime) &
++      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 400 \\
++    \addlinespace
++    Category~D certification & 20 Sept.\ 2026\newline (file last modified) &
++      Semantic verifier: \texttt{llama-3.3-70b-instruct} & 75 \\
++    \addlinespace
++    CaseFacts eval & 18 Sept.\ 2026\newline (file mtime) &
++      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 \\
++    \addlinespace
++    CLERC eval & 18 Sept.\ 2026\newline (file mtime) &
++      J1: \texttt{qwen3-next-80b}; J2: \texttt{gpt-oss-120b} & 170 \\
++    \addlinespace
++    Obscure suite & 19--20 Sept.\ 2026\newline (file mtime) &
++      Gen: \texttt{llama-3.3-70b-instruct}; J1/J2 as above &
++      120 \\
++    \addlinespace
++    Famous D1 contrast & 19--20 Sept.\ 2026\newline (file mtime) &
++      Gen: \texttt{llama-3.3-70b-instruct}; J1/J2 as above &
++      76 \\
++    \bottomrule
++  \end{longtable}
++\par\endgroup
+--- baseline/supplement_tables\table_sensitivity_raw_vs_clamped.tex
++++ candidate/supplement_tables\table_sensitivity_raw_vs_clamped.tex
+@@ -0,0 +1,20 @@
++% AUTO-GENERATED SENSITIVITY TABLE: CLAMPED VS RAW FAITHFULNESS (V2 LEGACY-COMPATIBLE CLAMP)
++\par\begingroup
++
++
++
++\begin{longtable}{p{4.4cm}p{3cm}p{3cm}p{3cm}p{3cm}p{3cm}p{3cm}}
++\caption{Sensitivity Analysis: Certified Clamped Faithfulness vs. Pre-Clamp Raw Judge Scores Across All 350 Benchmark Queries ($N=1,750$ Evaluations) Under the Canonical V2 Dual-Judge Protocol.}\label{tab:sensitivity_raw_vs_clamped}\\
++\toprule
++\textbf{Pipeline} & \textbf{Overall (Clamped)} & \textbf{Overall (Raw)} & \textbf{Delta} & \textbf{Answer-Only (Clamped)} & \textbf{Answer-Only (Raw)} & \textbf{Delta} \\
++\midrule
++DirectLLM & 0.5339 & 0.5257 & +0.82\% & 0.5339 & 0.5257 & +0.82\% \\
++FlatRAG & 0.6800 & 0.6511 & +2.89\% & 0.3449 & 0.2914 & +5.35\% \\
++GraphRAG & 0.6668 & 0.6193 & +4.75\% & 0.3482 & 0.2556 & +9.25\% \\
++HippoRAG & 0.6946 & 0.6704 & +2.43\% & 0.4311 & 0.3919 & +3.92\% \\
++Terra & 0.7357 & 0.6950 & +4.07\% & 0.6197 & 0.5865 & +3.32\% \\
++\bottomrule
++\end{longtable}
++\vspace{1mm}
++\raggedright \footnotesize \textit{Note:} Clamped scores mirror the legacy semantic verifier rule (Amendments~K, L, and M): Category~D refusals without fatal errors and verified refutations are protected at $\ge 0.75$, while affirmed fatal errors are forced to $0.00$. All other queries remain at raw dual-judge consensus scores. The headline faithfulness values elsewhere in this paper are the raw (pre-clamp) dual-judge means. $\Delta$ values reflect absolute percentage-point differences ($\text{Clamped} - \text{Raw}$).
++\par\endgroup
+--- baseline/supplement_tables\table_system_comparison.tex
++++ candidate/supplement_tables\table_system_comparison.tex
+@@ -0,0 +1,26 @@
++% ARCHITECTURAL AND DOCTRINAL FEATURE COMPARISON TABLE
++\par\begingroup
++
++
++
++\begin{longtable}{p{2.5cm}p{3.5cm}p{3.8cm}p{3.8cm}p{3.8cm}p{3.2cm}}
++\caption{Architectural and Doctrinal Feature Comparison of Retrieval-Augmented Generation Paradigms Across General and Legal Domains.}\label{tab:system_comparison}\\
++\toprule
++\textbf{Architecture} & \textbf{Knowledge Substrate} & \textbf{Temporal Dynamics} & \textbf{Evidence Granularity} & \textbf{Verification Mechanism} & \textbf{Target Domain \& Scale} \\
++\midrule
++Flat Vector RAG \cite{lewis2020retrieval} & Dense semantic vector embeddings of text chunks & Static / time-agnostic (similarity retrieval without temporal ordering) & Unstructured top-$k$ document chunks & None (uncalibrated direct generation) & General open-domain text corpora \\
++\addlinespace
++GraphRAG \cite{edge2024graphrag} & Hierarchical entity-relation knowledge graph & Static community clustering (hierarchical Leiden partitioning) & Pre-computed community summaries & None (unverified hierarchical generation) & General query-focused summarization \\
++\addlinespace
++HippoRAG \cite{bernal2024hipporag} & OpenIE associative graph with Personalized PageRank & Static entity co-occurrence edges (time-invariant activation) & Entity-linked passage subgraphs & None (heuristic graph activation without entailment gate) & Multi-hop open-domain QA (2Wiki, MuSiQue) \\
++\addlinespace
++LegalGraphRAG \cite{chen2026legalgraphrag} & Tripartite legal knowledge graph (ontology, fact, and rule layers) & Static statutory linkages across codified articles & Multi-agent structured reasoning trajectories & Multi-agent self-reflection and peer review & Chinese statutory civil and criminal law \\
++\addlinespace
++SAT-Graph RAG \cite{demartim2025satgraphrag} & Ontology-driven normative knowledge graph & Diachronic statutory amendment transitions across formal revisions & Version-delta statutory norm texts & Propositional SAT solver checking logical consistency & Brazilian constitutional and statutory norms \\
++\midrule
++\textbf{TERRA (Proposed)} & \textbf{Directed common-law citation evolution graph} & \textbf{Longitudinal precedent evolution ($t_{\text{citing}} \ge t_{\text{cited}}$) with curated invalidation} & \textbf{Node-level generic five-step procedural scaffolds (not case-specific issue, test, and holding analyses)} & \textbf{Autonomous NLI semantic entailment gate with calibrated refusal modes} & \textbf{\CorpusTotalOpinions\ U.S. Supreme Court opinions (\CorpusTemporalSpan)} \\
++\bottomrule
++\end{longtable}
++\vspace{1mm}
++\raggedright \footnotesize \textbf{Notes:} Feature comparison distinguishing TERRA from generic RAG baselines and contemporary legal GraphRAG architectures. Whereas LegalGraphRAG \cite{chen2026legalgraphrag} and SAT-Graph RAG \cite{demartim2025satgraphrag} model codified statutory provisions and formal legislative amendment events, TERRA is specialized for longitudinal common-law precedent, where judicial authority evolves continuously through citation networks and earlier precedents remain presumptive law unless explicitly modified or overruled. Furthermore, TERRA couples graph topology directly with generic procedural scaffolds and an autonomous natural language inference (NLI) entailment gate to suppress hallucinated endorsements of superseded doctrine.
++\par\endgroup
+--- baseline/supplement_tables\table_temporal_leakage_probe.tex
++++ candidate/supplement_tables\table_temporal_leakage_probe.tex
+@@ -0,0 +1,43 @@
++% TEMPORAL PARAMETRIC LEAKAGE PROBE EVALUATION TABLE (TABLE XII)
++\par\begingroup
++
++
++
++\begin{longtable}{p{4.8cm}p{2.6cm}p{2.8cm}p{2.8cm}p{3cm}p{3cm}p{3cm}}
++\caption{Temporal Parametric Leakage Stress Test ($N=50$ historical queries across five SCOTUS temporal cutoffs $T=1890$ to $1980$). Panel A reports complete-case and missingness-bounded sensitivity intervals $[SPTLR_{\text{lower}}, SPTLR_{\text{upper}}]$ for Level 2 Substantive Leakage, alongside Refusal Rates and consensus Historical Legal Correctness Rates (HLCR). Panel B provides full discordant-pair $(b, c)$ transparency across complete cases ($N_{\text{cc}}$) and bounded missing-data envelopes ($N=50$) under exact McNemar testing.}\label{tab:temporal_leakage_probe}\\
++\toprule
++\multicolumn{7}{c}{\textbf{Panel A: Empirical Performance Across Prompting Regimes ($N=50$ Queries $\times$ 4 Pipelines = 400 Evaluations)}} \\
++\midrule
++& \multicolumn{3}{c}{\textbf{Condition A (Default Task Prompt)}} & \multicolumn{3}{c}{\textbf{Condition B (Explicit Temporal Instruction)}} \\
++\cmidrule(lr){2-4} \cmidrule(lr){5-7}
++\textbf{Pipeline} & \textbf{SPTLR Bound} $\downarrow$ & \textbf{Refusal Rate} & \textbf{HLCR} $\uparrow$ & \textbf{SPTLR Bound} $\downarrow$ & \textbf{Refusal Rate} & \textbf{HLCR} $\uparrow$ \\
++\midrule
++Direct LLM (No RAG) & $\DirectLlmSptlrA$ & $\DirectLlmRefusalA$ & $\DirectLlmHlcrA$ & $\DirectLlmSptlrB$ & $\DirectLlmRefusalB$ & $\DirectLlmHlcrB$ \\
++Flat Vector RAG & $\FlatRagSptlrA^\dagger$ & $\mathbf{\FlatRagRefusalA}$ & $\FlatRagHlcrA$ & $\FlatRagSptlrB$ & $\FlatRagRefusalB$ & $\FlatRagHlcrB$ \\
++\midrule
++$\text{TERRA}_{\text{ungated}}$ ($L_{\text{gen}}$) & $\TerraUngatedSptlrA$ & $\TerraUngatedRefusalA$ & $\mathbf{\TerraUngatedHlcrA}$ & $\TerraUngatedSptlrB$ & $\TerraUngatedRefusalB$ & $\mathbf{\TerraUngatedHlcrB}$ \\
++$\textbf{TERRA}_{\textbf{gated}}$ ($L_{\textbf{final}}$) & $\mathbf{\TerraGatedSptlrA}^*$ & $\TerraGatedRefusalA$ & $\mathbf{\TerraGatedHlcrA}^{**}$ & $\mathbf{\TerraGatedSptlrB}^*$ & $\TerraGatedRefusalB$ & $\mathbf{\TerraGatedHlcrB}$ \\
++\midrule
++\textbf{NGLIR (Interception Rate)} & \multicolumn{3}{c}{$[0.0\%, 20.0\%]$} & \multicolumn{3}{c}{$\NglirRange^\ddagger$} \\
++\midrule[\heavyrulewidth]
++\multicolumn{7}{c}{\textbf{Panel B: Exploratory Paired Contrasts, Complete Cases ($N_{\text{cc}}$), and Full $N=50$ Sensitivity Bounds}} \\
++\midrule
++\textbf{Hypothesis \& Contrast} & \textbf{Target Metric} & \textbf{Complete Cases ($N_{\text{cc}}$)} & \textbf{Full $N=50$ Sensitivity Bounds} & \textbf{Exact McNemar $p$-value} & \textbf{Directional Stability} & \textbf{Empirical Conclusion} \\
++\midrule
++$H_1$: TERRA vs Flat RAG (Cond A) & SPTLR (Leakage) & $\HoneSptlrDiscordantCompleteCases$ & $\HoneSptlrDiscordantBounds$ & $p = \HoneSptlrPval^\S$ (one-sided) & No ($c > b$) & Not Supported (Refusal Confound) \\
++$H_1$ Companion: TERRA vs Flat RAG & HLCR (Grounding) & $N=50: b=20, c=1$ & $b=20, c=1$ & $p = {\HoneHlcrPvalFormatted}^{**}$ & Yes ($b \gg c$) & $+38.0\%$ automated HLCR label difference \\
++$H_2$: TERRA vs Direct LLM (Cond A) & SPTLR (Leakage) & $\HtwoDiscordantCompleteCases$ & $\HtwoDiscordantBounds$ & $p \in [\HtwoPvalMin, \HtwoPvalMax]$ (one-sided) & Yes ($c_{\max} < b_{\min}$) & \textbf{Directionally Stable} (Clean Dominance) \\
++$H_3$: TERRA vs Flat RAG (Cond B) & SPTLR (Leakage) & $\HthreeDiscordantCompleteCases$ & $\HthreeDiscordantBounds$ & $p \in [\HthreePvalMin, \HthreePvalMax]$ (one-sided) & Yes ($c_{\max} < b_{\min}$) & \textbf{Directionally Stable} (Clean Dominance) \\
++$H_4$: TERRA vs Direct LLM (Cond B) & SPTLR (Leakage) & $\HfourDiscordantCompleteCases$ & $\HfourDiscordantBounds$ & $p \in [\HfourPvalMin, \HfourPvalMax]$ (one-sided) & Yes ($c_{\max} < b_{\min}$) & \textbf{Directionally Stable} (Clean Dominance) \\
++$H_5$: Gated vs Ungated (Cond A) & Gate Interception & $\HfiveDiscordantCompleteCases$ & $b \in [0, 2], c \in [1, 1]$ & Underpowered ($N=50$) & Inconclusive & Targeted Qualitative Safety \\
++$H_6$: Gated vs Ungated (Cond B) & Gate Interception & $\HsixDiscordantCompleteCases$ & $b \in [2, 5], c \in [0, 4]$ & Underpowered ($N=50$) & Inconclusive & Intercepts TLP-10 + 5 Hallucinations \\
++\bottomrule
++\end{longtable}
++\vspace{1mm}
++\raggedright \footnotesize \textbf{Notes:} Evaluated across 400 response instances dual-judged by \texttt{qwen3-next-80b} and \texttt{gpt-oss-120b} ($\kappa = \TemporalQwk$, raw concordance $\TemporalRawConcordance$, monotonic inclusion $\TemporalMonotonicInclusion$ across $N=\TemporalValidPairs$ complete pairs; remaining $\TemporalMissingEvaluations$ missing values bounded via sensitivity intervals). $b$ denotes pairs where TERRA is clean while the baseline leaks; $c$ denotes pairs where TERRA leaks while the baseline is clean. Complete cases ($N_{\text{cc}}$) reflect pairs where both judges successfully evaluated both pipelines under the 5-tier consensus cascade. The reported full $N=50$ sensitivity envelopes add extreme missing-pair contributions $(\Delta b, \Delta c)$ under assumed binary assignments, not observed outcomes ($b = b_{\text{cc}} + \Delta b, c = c_{\text{cc}} + \Delta c$).
++$^*$Directional stability ($c_{\max} < b_{\min}$) shown by the reported extreme envelopes; these bounds do not identify the missing outcomes or certify legal correctness.
++$^{**}$Difference in automated historical-correctness labels (not expert-validated legal correctness) ($p = \HoneHlcrPvalFormatted$ via two-sided exact McNemar test; $b=20, c=1$).
++$^\dagger$Flat Vector RAG Condition A leakage is mechanically suppressed by its severe $\FlatRagRefusalA$ refusal rate ($23/50$ safe refusals), which eliminates answering opportunities.
++$^\S$For $H_1$, testing directional superiority ($H_a: b > c$) yields $p = 1.0000$ (complete-case two-sided $p = 0.2500$ at $N_{\text{cc}}=36$; two-sided $p = 0.0625$ if missing records are zero-imputed at $N=50$), confirming that Flat RAG produced zero leaks on queries where TERRA answered cleanly ($b_{\text{cc}}=0$) alongside a high refusal rate; this does not isolate refusal as the causal explanation.
++$^\ddagger$NGLIR evaluated on denominator $D=\NglirDenominatorQwen$ under Qwen ($\NglirQwen$) and $D=\NglirDenominatorConsensus$ under consensus ($\NglirConsensus$). Independent legal-expert validation of temporal false-negative detection was not performed. The exploratory AI-assisted author assessment is reported separately and does not estimate this rate.
++\par\endgroup
+--- baseline/supplement_tables\table_temporal_update_stability.tex
++++ candidate/supplement_tables\table_temporal_update_stability.tex
+@@ -0,0 +1,20 @@
++% Auto-generated by scripts/compute_issue19_metrics.py
++% Issue #19: Benchmark-Graph Traversal Stability Under Temporal Snapshot Expansion
++\par\begingroup
++
++
++
++\begin{longtable}{p{3cm}p{2cm}p{2cm}p{3.2cm}p{3.2cm}p{3cm}p{3cm}p{3cm}}
++\caption{Retrieval stability across temporal snapshot expansions on Category~B precedent chains ($N=\IssueNineteenTotalEvals$ query-pair observations). Evaluates standalone BFS citation traversal seeded by benchmark origin precedents ($s = q[\texttt{target\_nodes}][0]$) traversing all available directed graph edges (generic \texttt{CITES}); strictly decoupled from end-to-end vector retrieval and live index upsert. Latency reflects in-memory NetworkX traversal (grand median $\IssueNineteenBFSLatencyMedianMs$~ms, mean $0.15 \pm 0.18$~ms; 54/106 queries complete in $1$--$3\,\mu\text{s}$ while 52/106 expand denser neighborhoods in $0.1$--$0.6$~ms).}\label{tab:temporal-update-stability}\\
++\toprule
++Snapshot Pair & Step $N$ & $N_q$ & Recall@$T$ ($\mu \pm \sigma$) & Recall@$T{+}N$ ($\mu \pm \sigma$) & $\Delta$Recall ($\mu \pm \sigma$) & Discovery Rate ($\mu$) & BFS Latency@$T{+}N$ (ms, med) \\
++\midrule
++1890$\to$1930 & 40 yr & \IssueNineteenPairINq & \IssueNineteenPairIRecallTMeanStd & \IssueNineteenPairIRecallTNMeanStd & \IssueNineteenPairIDeltaRecallMeanStd & \IssueNineteenPairIDiscoveryRate & \IssueNineteenPairIBFSLatency \\
++1930$\to$1950 & 20 yr & \IssueNineteenPairIINq & \IssueNineteenPairIIRecallTMeanStd & \IssueNineteenPairIIRecallTNMeanStd & \IssueNineteenPairIIDeltaRecallMeanStd & \IssueNineteenPairIIDiscoveryRate & \IssueNineteenPairIIBFSLatency \\
++1950$\to$1970 & 20 yr & \IssueNineteenPairIIINq & \IssueNineteenPairIIIRecallTMeanStd & \IssueNineteenPairIIIRecallTNMeanStd & \IssueNineteenPairIIIDeltaRecallMeanStd & \IssueNineteenPairIIIDiscoveryRate & \IssueNineteenPairIIIBFSLatency \\
++1970$\to$1980 & 10 yr & \IssueNineteenPairIVNq & \IssueNineteenPairIVRecallTMeanStd & \IssueNineteenPairIVRecallTNMeanStd & \IssueNineteenPairIVDeltaRecallMeanStd & \IssueNineteenPairIVDiscoveryRate & \IssueNineteenPairIVBFSLatency \\
++\midrule
++\textbf{Overall} & --- & \IssueNineteenTotalEvals & \IssueNineteenOverallRecallTMeanStd & \IssueNineteenOverallRecallTNMeanStd & \IssueNineteenOverallDeltaRecallMeanStd & \IssueNineteenDiscoveryRateMean & \IssueNineteenBFSLatencyMedianMs \\
++\bottomrule
++\end{longtable}
++\par\endgroup

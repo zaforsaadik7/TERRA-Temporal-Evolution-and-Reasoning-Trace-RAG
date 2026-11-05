@@ -1,0 +1,59 @@
+================================================================================
+FULL OBSCURE GENERATION STAGE SUMMARY (TASK B3)
+================================================================================
+Total Cached Records: 120 (Expected: 120 across 30 queries x 4 arms)
+--------------------------------------------------------------------------------
+1. RECORDS PER ARM:
+  1_Direct_LLM            :  30 records (Expected: 30) [PASS]
+  2_Flat_Vector_RAG       :  30 records (Expected: 30) [PASS]
+  3_Full_TERRA            :  30 records (Expected: 30) [PASS]
+  4_TERRA_Unlabeled       :  30 records (Expected: 30) [PASS]
+--------------------------------------------------------------------------------
+2. ROUTE DISTRIBUTION FOR ARM 3 (Full TERRA):
+  EASY                    :   2 (  6.7%)
+  HARD                    :  28 ( 93.3%)
+--------------------------------------------------------------------------------
+3. ITEMS WITH context_empty (TRUE):
+  1_Direct_LLM            :  30 items ['OBS_001', 'OBS_002', 'OBS_003', 'OBS_004', 'OBS_005', 'OBS_006', 'OBS_007', 'OBS_008', 'OBS_009', 'OBS_010', 'OBS_011', 'OBS_012', 'OBS_013', 'OBS_014', 'OBS_015', 'OBS_016', 'OBS_017', 'OBS_018', 'OBS_019', 'OBS_020', 'OBS_021', 'OBS_022', 'OBS_023', 'OBS_024', 'OBS_025', 'OBS_026', 'OBS_027', 'OBS_028', 'OBS_029', 'OBS_030']
+  2_Flat_Vector_RAG       :   0 items []
+  3_Full_TERRA            :   2 items ['OBS_006', 'OBS_028']
+  4_TERRA_Unlabeled       :   2 items ['OBS_006', 'OBS_028']
+--------------------------------------------------------------------------------
+4. ITEMS WITH overruler_in_context (FALSE):
+  1_Direct_LLM            :  30 items
+  2_Flat_Vector_RAG       :  21 items
+  3_Full_TERRA            :   5 items
+  4_TERRA_Unlabeled       :   5 items
+--------------------------------------------------------------------------------
+5. SEED SOURCE DISTRIBUTION PER ARM:
+  1_Direct_LLM            : none: 30
+  2_Flat_Vector_RAG       : vector: 30
+  3_Full_TERRA            : exact_title: 26, none: 4
+  4_TERRA_Unlabeled       : exact_title: 26, none: 4
+--------------------------------------------------------------------------------
+6. GENERATION MODEL REQUESTED EQUALITY:
+  Equal Across All Arms: PASS
+--------------------------------------------------------------------------------
+7. CONTAMINATION & DEGRADATION AUDIT:
+  _router_fallback_contaminated items: 0 []
+  _model_degraded items:                54 ['OBS_001 [3_Full_TERRA]', 'OBS_001 [4_TERRA_Unlabeled]', 'OBS_002 [3_Full_TERRA]', 'OBS_002 [4_TERRA_Unlabeled]', 'OBS_003 [3_Full_TERRA]', 'OBS_003 [4_TERRA_Unlabeled]', 'OBS_004 [3_Full_TERRA]', 'OBS_004 [4_TERRA_Unlabeled]', 'OBS_005 [3_Full_TERRA]', 'OBS_005 [4_TERRA_Unlabeled]', 'OBS_007 [3_Full_TERRA]', 'OBS_007 [4_TERRA_Unlabeled]', 'OBS_008 [3_Full_TERRA]', 'OBS_008 [4_TERRA_Unlabeled]', 'OBS_009 [3_Full_TERRA]', 'OBS_009 [4_TERRA_Unlabeled]', 'OBS_010 [3_Full_TERRA]', 'OBS_010 [4_TERRA_Unlabeled]', 'OBS_011 [3_Full_TERRA]', 'OBS_011 [4_TERRA_Unlabeled]', 'OBS_012 [3_Full_TERRA]', 'OBS_012 [4_TERRA_Unlabeled]', 'OBS_013 [3_Full_TERRA]', 'OBS_013 [4_TERRA_Unlabeled]', 'OBS_014 [3_Full_TERRA]', 'OBS_014 [4_TERRA_Unlabeled]', 'OBS_015 [3_Full_TERRA]', 'OBS_015 [4_TERRA_Unlabeled]', 'OBS_016 [3_Full_TERRA]', 'OBS_016 [4_TERRA_Unlabeled]', 'OBS_017 [3_Full_TERRA]', 'OBS_017 [4_TERRA_Unlabeled]', 'OBS_018 [3_Full_TERRA]', 'OBS_018 [4_TERRA_Unlabeled]', 'OBS_019 [3_Full_TERRA]', 'OBS_019 [4_TERRA_Unlabeled]', 'OBS_020 [3_Full_TERRA]', 'OBS_020 [4_TERRA_Unlabeled]', 'OBS_022 [3_Full_TERRA]', 'OBS_022 [4_TERRA_Unlabeled]', 'OBS_023 [3_Full_TERRA]', 'OBS_023 [4_TERRA_Unlabeled]', 'OBS_024 [3_Full_TERRA]', 'OBS_024 [4_TERRA_Unlabeled]', 'OBS_025 [3_Full_TERRA]', 'OBS_025 [4_TERRA_Unlabeled]', 'OBS_026 [3_Full_TERRA]', 'OBS_026 [4_TERRA_Unlabeled]', 'OBS_027 [3_Full_TERRA]', 'OBS_027 [4_TERRA_Unlabeled]', 'OBS_029 [3_Full_TERRA]', 'OBS_029 [4_TERRA_Unlabeled]', 'OBS_030 [3_Full_TERRA]', 'OBS_030 [4_TERRA_Unlabeled]']
+--------------------------------------------------------------------------------
+8. REFUSALS PER ARM:
+  1_Direct_LLM            :   0 refusals
+  2_Flat_Vector_RAG       :   0 refusals
+  3_Full_TERRA            :   3 refusals
+  4_TERRA_Unlabeled       :   3 refusals
+--------------------------------------------------------------------------------
+9. OUTBOUND MODEL CALL COUNTS (Hard Cap <= 700):
+  generation              :  114 calls
+  grader/NLI              :   58 calls
+  judge                   :    0 calls
+  router                  :   30 calls
+  Total Outbound Calls:     202 calls (<= 700: PASS)
+  Logged Telemetry Rows:    502 rows
+--------------------------------------------------------------------------------
+10. TOTAL ELAPSED TIME:
+  Summed Execution Time:   1082.19 seconds (18.04 minutes)
+================================================================================
+STATUS: FULL OBSCURE GENERATION STAGE COMPLETED CLEANLY
+================================================================================

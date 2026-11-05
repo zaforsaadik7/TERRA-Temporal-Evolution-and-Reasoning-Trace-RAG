@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-26",
+  "status": "PREPARATION_COMPLETE_BLOCKED",
+  "I10_complete": false,
+  "local_preparation_complete": true,
+  "ready_for_submission": false,
+  "peer_output_review": "PENDING",
+  "remaining": [
+    {
+      "id": "OPEN-AUTHORS",
+      "owner": "authors",
+      "item": "Confirm target/article type, exact author/order/affiliation/corresponding details, declarations, prior dissemination/concurrent submission and final approval",
+      "reference": "private/AUTHOR_DECISIONS.md"
+    },
+    {
+      "id": "OPEN-AI",
+      "owner": "authors",
+      "item": "Confirm substantive AI-use inventory and disclosure; draft not inserted as a confirmed Methods declaration"
+    },
+    {
+      "id": "OPEN-ACCESS",
+      "owner": "authors/I10",
+      "item": "Establish reviewer access to actual current supporting data/code; public homepage is not full versioned access proof"
+    },
+    {
+      "id": "OPEN-RIGHTS",
+      "owner": "authors/I10",
+      "item": "Resolve component licenses/rights and assessor-data sharing/ethics/consent basis; originals and rawlogs remain excluded"
+    },
+    {
+      "id": "OPEN-I9",
+      "owner": "I9/authors",
+      "item": "7keywords and numeric citations differ from candidate journal instructions; no format waiver or Springer conversion assumed"
+    },
+    {
+      "id": "OPEN-PLACEMENT",
+      "owner": "authors/I10/I12",
+      "item": "Final portal declaration/file placement unverified; no submission opened"
+    },
+    {
+      "id": "OPEN-PEER",
+      "owner": "Antigravity via user relay",
+      "item": "Actual produced-package review required; plan0315does not certify output"
+    }
+  ],
+  "roadmap_counts": {
+    "complete": 9,
+    "partial": 1,
+    "pending": 3
+  },
+  "active_working_unchanged": true,
+  "I9_restart": false
+}

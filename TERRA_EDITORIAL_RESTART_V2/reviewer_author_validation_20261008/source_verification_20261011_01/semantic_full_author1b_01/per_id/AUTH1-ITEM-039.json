@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "assessment_id": "AUTH1-ITEM-039",
+  "author": 1,
+  "audit_date": "2026-10-11",
+  "audited_field": "Column N",
+  "as_of_cutoff_year": "N/A",
+  "disposition": "SOURCE_EXCEPTION_BOUNDED_SUPPORT",
+  "attribution_finding": "Scientific explanatory note, not a legal quotation. Clausius (1865) is a historical baseline rather than a verified passage.",
+  "fidelity_finding": "Nondecreasing entropy for an isolated system is supported at the stated general level by NIST. Zero heat transfer alone does not define isolation.",
+  "pinpoint_finding": "No Clausius page, edition or primary passage supplied.",
+  "scope_and_cutoff_finding": "Isolated-system assumption matters; avoid saying no law can ever concern entropy. Narrow legal N/A to the question's scientific formulation.",
+  "evidence": [
+    "https://www.nist.gov/publications/remarks-irreversible-processes-and-entropy-increase"
+  ],
+  "proposed_action_not_applied": "Retain nonlegal classification; identify a scientific source and qualify isolation.",
+  "unresolved_questions": [
+    "Clausius book/edition/year attribution not independently checked; no exhaustive proof of absence of legal authorities."
+  ],
+  "prior_repair_status": "No repair performed in this audit",
+  "ratings_reviewed": false,
+  "expert_legal_validation": false,
+  "applicability_proven_by_text_match": false,
+  "ledger_source": "None (No controlling primary legal authorities exist governing thermodynamics or the mathematical formulation of entropy).\nScientific baseline: Rudolf Clausius, The Mechanical Theory of Heat (1865); Second Law of Thermodynamics.",
+  "ledger_excerpt": "Legal sources: Not applicable (no statutory, constitutional, or judicial authorities govern thermodynamic entropy).\nScientific definition: In thermodynamics, for an isolated system where heat transfer is zero, the Second Law establishes that the total entropy change cannot decrease over time: $\\Delta S \\ge 0$ (or in differential form, $dS \\ge 0$, where equality holds for reversible processes and strict inequality holds for irreversible processes)."
+}
+

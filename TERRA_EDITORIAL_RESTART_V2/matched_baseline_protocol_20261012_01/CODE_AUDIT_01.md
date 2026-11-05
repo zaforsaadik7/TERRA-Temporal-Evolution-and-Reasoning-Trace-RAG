@@ -1,0 +1,35 @@
+# Code-only harness audit 01
+
+Codex, 12 October 2026. Verdict: CORRECTIONS REQUIRED. This is a code audit, not study execution permission. Read all seven package modules and synthetic tests, reran only the standard-library synthetic suite using venv python -B, and performed a synthetic empty-prompt budget probe. No external provider/store/model/data/credential access, download or benchmark execution. Production source not edited.
+
+## Verified test result and negative probe
+
+`venv/Scripts/python.exe -B tests/test_matched_baseline_synthetic.py`: 11 tests, OK, 0.395s. This is real but limited coverage, not certification of the complete harness. Synthetic `CommonSerializer(MockBpeTokenizer(), max_prompt_tokens=1).serialize_prompt('system','query',[])` returned 89 prompt tokens with no exception: budget enforcement fails even with zero evidence. Tests currently do not cover this negative case.
+
+## Blocking findings
+
+1. **Live guard is ineffective.** MatchedHarness only raises when router_fn is not callable and live_mode_authorized is false. Ordinary real API functions are callable and pass. The flag is never checked at dispatch. ProductionTokenizer always raising does not protect dispatch through a mock serializer. Enforce explicit synthetic versus production adapter separation and fail closed on any production callback in code-only mode; test forbidden providers never get invoked. A user-set boolean is not a complete approved-run manifest.
+2. **Evidence budget bypass between stages.** Serializer returns retained count, not exact retained IDs/units. Verifier and judges receive original untruncated evidence_items, while generator receives the packed subset. This can approve/score evidence the answer generator never saw. Return an immutable packed-evidence object and use its exact evidence payload across verifier/generator/judges (except declared rubric/reference additions); save hashes. Log every dropped ID. Reject base query/instructions over budget. output_token_reservation is stored but unused; no provider-window check. Draft 6000 is evidence ceiling, current implementation treats it as entire prompt ceiling; reconcile explicitly, without hidden change.
+3. **Invented refusal scoring and gold-conditioned flag.** Any verifier rejection gets score 1 if QueryInput.overruled_known else 0. Overruled does not mean unanswerable, and no such rubric was approved. This bypasses judges and can distort Category B mean. Remove that automatic rule; score refusals/final outputs under the prospectively accepted rubric, without exposing hidden gold flags to operational paths. The test currently blesses the defect. Explicit refusal output and reason must be retained for scoring. Non-refusal generated text may itself be a refusal/refutation; currently is_refusal is always false after generator. Freeze classification rules and test them.
+4. **The supplied traversal is not reviewed TERRA.** TerraRetriever only performs outgoing adjacency sorted by ID, defaults to ten nodes, ignores relation semantics and dates, incoming traversal and the recovered 50/75/25/40-node/35000-character controls. Hybrid defaults to 30 BM25 candidates and final ten, not proposed 100/100 fusion and token-budget packing. Either implement the agreed controlled adapters or explicitly propose a different study; don't call this complete TERRA/hybrid comparison. Query-only purity currently exists as an input signature, not tested provenance of seed creation.
+5. **Orchestration is incomplete.** run_pair accepts preselected evidence; router result is only recorded and does not select retrieval policy. Arm H always runs before T, no prospective randomization/interleaving. Router exception escapes result accounting, invalid route labels accepted. All arm exceptions become api_error, including configuration/programming/parity errors which must instead stop execution. No outcome typing separating transport/configuration/parse/refusal/refutation/substantive outputs. Model identifiers, timings, attempts, hashes, run manifests and spend controls absent. No actual retrieval-to-score lifecycle.
+6. **Persistence/resume claims unsupported.** No output writer, exclusive run directory, atomic persistence, run lock, immutable manifest, per-attempt call ledger or resume code exists. No resume/collision tests. Do not claim atomic resume or safe replay. Ambiguous crash-after-paid-call must stop/manual reconcile, not silently duplicate billing.
+7. **Statistical missingness invalid.** Bounds count api_error pairs only; a pair with diff=None and no api_error is omitted from numerator but treated as zero at full denominator. All missing pairs must contribute prespecified bounds. No finite/range checks, duplicate-ID/category cohort validation, or recomputation of diff from arm scores. Empty valid data return mean/CI=0 and p=1, presenting no evidence as a null result; use explicit unavailable status. Validate bootstrap/test parameters, score range and exact primary estimand. Preserve available component scores for tighter missingness bounds if predeclared. Sign-flip validity requires exchangeability/symmetry assumptions, not merely mean=0.
+
+## Other repairs and tests
+
+RRF double-counts duplicate IDs within a ranking; reject/deduplicate per frozen rule and validate k/top_n. BM25 k1/b and corpus types need validation and stronger unequal-length, repeated-term, empty-corpus and reference-oracle fixtures. Serializer accepts missing IDs, uncontrolled relation_context and inconsistent aliases; information parity must use a validated evidence schema. `Tuple` is referenced but not imported in common_serializer; Python 3.14 deferred annotations can hide a portability/introspection failure. Mock regex tokenizer is synthetic, not an emulation validated against Llama BPE; label accordingly. ProductionTokenizer is intentionally a placeholder and can remain blocked during code-only work, but cannot be described as a complete production adapter.
+
+## Exact inspected hashes
+
+- bm25_engine.py: 75e744659137fd02b5eaa99f8306e37caa35ea0c564d62ea6b759e38888eae43
+- common_serializer.py: 05fdaa5843008dc332e6290097ea9fb4f2720342398e3d13e63369104197ffdc
+- hybrid_retriever.py: aac5f4c65355a03b97b40511dac92d17da2db602a7437a5884157037d4c1858b
+- matched_harness.py: 18c575a73b6c101f301224b55fdc4a3cb5c4af59661b1fca2789738e262541d9
+- scoring_analyzer.py: 487c206045cafaeaeb186bfa9285eeaee072e3b0517fee787cba1ef3c49ecf3f
+- terra_retriever.py: aecc9c2cbe831276b17b1a58cd6b0f31e7b0de951a372edb68291d659a4be497
+- tests: 479873839045507cacb6946519100b41064d962525d13e77e32df6b40460e024
+
+## Next bounded revision
+
+Antigravity preserves this exact checkpoint before coding. First correct dispatch safety, packed evidence and scoring; then align retrieval adapters and implement true synthetic lifecycle/persistence/statistical controls. Return exact hashes, complete diff, test output tied to interpreter/artifacts, and explicit placeholder list. No external calls, corpus/index queries, tokenizer acquisition, installation or secrets. No preflight gate opens on 11 passing tests.

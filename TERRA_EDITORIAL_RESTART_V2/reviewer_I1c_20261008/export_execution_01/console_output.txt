@@ -1,0 +1,24 @@
+================================================================================
+VERIFY ROUTE & CATEGORY LATENCY (I1c)
+================================================================================
+Input file:     F:\TERRA -Copy\data\terra_canonical_v2_eval.json
+Output dir:     F:\TERRA -Copy\TERRA_EDITORIAL_RESTART_V2\reviewer_I1c_20261008\export_approved_01
+Expected hash:  95e775e29c3a0d95f3cb35aa9d50a5f030d04b51d3f2175848db2f2b57aad507
+
+[SUCCESS] Verification complete. Cohort summary counts:
+  ALL_gross   : N=350 median=9185.07 ms
+  ALL_net     : N=350 median=7744.465 ms
+  EASY_gross  : N=110 median=5464.955 ms
+  EASY_net    : N=110 median=5464.955 ms
+  HARD_gross  : N=240 median=14067.48 ms
+  HARD_net    : N=240 median=14067.48 ms
+  CatA_gross  : N=100 median=5828.08 ms
+  CatA_net    : N=100 median=5728.84 ms
+  CatB_gross  : N=100 median=17938.505 ms
+  CatB_net    : N=100 median=17938.505 ms
+  CatC_gross  : N=75  median=2212.53 ms
+  CatC_net    : N=75  median=2212.53 ms
+  CatD_gross  : N=75  median=10144.64 ms
+  CatD_net    : N=75  median=10144.64 ms
+
+[RECORD] Completion record written to: F:\TERRA -Copy\TERRA_EDITORIAL_RESTART_V2\reviewer_I1c_20261008\export_approved_01\completion_record.json

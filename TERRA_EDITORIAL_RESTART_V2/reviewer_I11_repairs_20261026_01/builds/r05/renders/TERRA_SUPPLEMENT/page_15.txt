@@ -1,0 +1,42 @@
+S1
+Detailed limitations
+1. Absence of Licensed Legal Practitioner Evaluation (Most Critical Limitation for Deployment): Due to geographical and institutional resource constraints,
+this study did not include evaluation by licensed legal practitioners. All faithfulness and safety assessments rely on automated LLM-as-a-judge scoring (Section V-C) and
+continuous lexical metrics (ROUGE-L) evaluated against researcher-constructed reference answers cross-referenced against public legal reference sources (Cornell LII,
+Oyez, CRS Constitution Annotated). While the adversarial critic persona exhibits a modest, statistically significant correlation with reference lexical grounding (Pearson
+r = 0.555, p =
+1
+10001 ≈9.999 × 10−5), automated scoring cannot replicate practitioner judgment on subtle constitutional doctrine. Specifically, practitioners would assess
+legal correctness, temporal consistency, citation validity, and hallucination behavior beyond continuous metrics. Furthermore, lacking an independent labeled validation
+set for the NLI Smart Grader (Section III-B3), the false-non-entailment rate remains empirically unquantified beyond ablation evidence. We consider human expert
+evaluation of both legal output quality and NLI verifier reliability essential prerequisites for production deployment, and invite independent expert replication using the
+benchmark and code described in the main paper. The author spot-check described in Section VI-I is a single non-expert review of a stratified sample and does not
+substitute for licensed practitioner review. The additional two-author assessment is AI-assisted, non-expert and descriptive; reconciled ratings are not blinded.
+2. Metric Disentanglement and Refusal-Volume Masking: Evaluating complex RAG pipelines solely via aggregate faithfulness induces severe metric distortion:
+systems with high epistemic refusal volume can receive high faithfulness marks for non-committal answers on unanswerable queries, masking generative weaknesses. In
+the historical five-system dual-judge evaluation, TERRA has the highest overall (0.695 vs. 0.670; intervals overlap) and answer-only faithfulness (0.586 vs. 0.392) with
+fewer flagged refusals (139 vs. 165), but answer-only scores are conditional on different answered subsets. On multi-hop reasoning TERRA leads HippoRAG by +0.066
+(q = 0.0124). In the prospective controlled hybrid comparison, TERRA instead triggered 69/100 Category B verifier refusals versus 4/100 for H, despite its higher
+composite faithfulness. Neither score certifies useful-answer coverage or legal correctness. Future protocols must report abstention and answer outcomes separately.
+3. Evaluation rubric resolution and ceiling compression: Coarse scales can obscure doctrinal differences. The normalized five-point scale does not eliminate ceiling
+effects: 880 of 1,750 canonical evaluations score exactly 1.0 (50.3%). Automated rubric scores are not legal ground truth.
+4. Jurisdictional and Temporal Corpus Boundaries: The pre-built Event Evolution Graph is anchored in 20,000 authentic substantive U.S. Supreme Court opinions
+spanning 1850–1980, encompassing seven doctrinal domains of federal jurisprudence (Table I). Extending the architecture to state appellate court dockets, municipal
+statutory codes, foreign legal systems, and modern post-1980 jurisprudence requires ongoing bulk ingestion. Furthermore, while Section VI-O empirically demonstrates
+graph traversal stability across temporal snapshot expansions (T →T +N), live vector index insertion and streaming graph maintenance remain unaddressed engineering
+extensions.
+5. Hosted API Output Variability at T = 0.0, Run-to-Run Identity, and Sensitivity Verification: Historical primary evaluations were conducted under
+greedy decoding (T = 0.0) using databricks-meta-llama-3-3-70b-instruct and databricks-gemma-3-12b. While setting T = 0.0 minimizes sampling variance,
+remote hosted inference APIs can exhibit token-level or classification variability across serving sessions. Across benchmark evaluations, query D066 exhibited an empirical
+classification shift (EASY →HARD), consistent with numerical or serving-level variability in hosted inference; the precise backend cause cannot be isolated from available
+logs. Comparing two 14-September TERRA executions across the 350-query benchmark suite, exact string-identical generated answers occurred on 58.9% of queries overall
+(206/350), with pronounced category divergence: 95.0% on Category A (95/100) and 82.7% on Category C (62/75), versus 52.0% on Category D (39/75) and 10.0% on
+Category B (10/100). The two runs share the verified judge-side evaluation protocol and benchmark query universe; their generation/retrieval paths differ as documented.
+Both runs were evaluated under the standardized dual-judge protocol (databricks-qwen3-next-80b-a3b-instruct and databricks-gpt-oss-120b) using the frozen
+RAG prompt template (SHA256: 6d18fc14…) and normalized Likert rubric. Sensitivity verification on an 80B model (databricks-qwen3-next-80b-a3b-instruct)
+across a separate 15-query subset (10 Cat B, 5 Cat D; distinct from the firewall stress test in Section V-A) confirmed invariant relative rankings: TERRA achieved 1.000
+Category B Faithfulness (vs. 0.900 Flat RAG, 0.800 Direct LLM) and 100% Category D safety rejection (vs. 40% Flat RAG, 0% Direct LLM). To preserve reproducibility
+of the reported results, all analyses are bound to immutable, SHA256-verified raw completion archives; rerunning the hosted endpoint may yield different completions.
+6. Parametric knowledge and temporal containment: Direct LLM scored higher than TERRA on Category D continuous faithfulness (∆= −0.200, p = 3.8 × 10−5,
+q = 1.27 × 10−4; main FDR table, Rank 6) and Category B (−0.081, q = 0.0023). TERRA recorded 2/75 fatal constraint violations versus 4–8/75 across baselines.
+S15

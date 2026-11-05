@@ -1,0 +1,26 @@
+S5
+Full detail for main Table II
+Component-Level Ablation Analysis Across 35 Benchmark Queries (N = 5 Repeated Runs, 700 Evaluations).
+Architecture Configuration
+Cat B Faith. Cat D Safety Cat A False Ref. Latency (Cat A)
+Full TERRA (Router + EEG + NLI)
+0.815
+100.0%
+0/10
+1.38 s
+Ablation 1: w/o EEG Traversal (Vector Documents Only)
+0.675
+100.0%
+0/10
+1.80 s
+Ablation 2: w/o NLI Smart Grader (No Verification Gate)
+0.780
+0.0%
+0/10
+1.43 s
+Ablation 3: w/o Traﬀic Cop Router (Forced Hard Path)
+0.840
+100.0%
+2/10 (20.0%)
+6.75 s
+S21

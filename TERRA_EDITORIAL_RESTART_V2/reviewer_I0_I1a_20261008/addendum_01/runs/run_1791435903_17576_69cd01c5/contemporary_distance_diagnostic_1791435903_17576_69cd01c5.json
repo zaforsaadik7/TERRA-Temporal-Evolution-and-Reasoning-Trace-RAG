@@ -1,0 +1,4144 @@
+{
+  "status": "SUCCESS",
+  "run_id": "1791435903_17576_69cd01c5",
+  "timestamp_utc": "2026-10-08 05:05:03 UTC",
+  "script": {
+    "path": "F:\\TERRA -Copy\\scripts\\audit_i1a_contemporary_gate_calibration.py",
+    "sha256": "c37ddaa72ab5c410d43756af40d27003b446f0ad19ea182454ec0f097e67094d"
+  },
+  "enforced_offline_condition": "TERRA_Offline_Diagnostic",
+  "offline_execution_environment": {
+    "enforced_offline_condition": "TERRA_Offline_Diagnostic",
+    "python_network_interception_active": true,
+    "chroma_telemetry_disabled": true,
+    "transformers_offline_set": true,
+    "negative_control_passed": true,
+    "network_guards_uninstalled": true,
+    "layering_declaration": "In-process Python socket/HTTP patches operate as Layer 2 defense-in-depth. Layer 1 is the declared external operating condition ('TERRA_Offline_Diagnostic')."
+  },
+  "provenance_disclaimer": "CRITICAL PROVENANCE NOTICE: Even an EXACT_CONCORDANCE outcome demonstrates solely that the contemporary vector store snapshot, current ONNX model weights, and contemporary runtime software library reproduce the saved budget grid. It does NOT prove historical run provenance or establish that the preserved dataset_20k_cap snapshot was the exact historical execution environment from which the paper tables were generated.",
+  "stages_completed": [
+    "stage_1_network_negative_control",
+    "stage_2_path_isolation_verified",
+    "stage_3_preflight_assets_verified",
+    "stage_4_snapshot_copied_and_verified",
+    "stage_5_pre_schema_extracted",
+    "stage_6_cohorts_validated",
+    "stage_7_benchmark_350_queried",
+    "stage_8_benchmark_175_queried",
+    "stage_9_concordance_evaluated",
+    "stage_10_metadata_finalized"
+  ],
+  "errors": [],
+  "integrity_checks": {
+    "source_db_invariant": true,
+    "benchmark_350_invariant": true,
+    "benchmark_175_invariant": true,
+    "saved_summary_invariant": true,
+    "onnx_cache_invariant": true,
+    "all_integrity_passed": true
+  },
+  "metadata": {
+    "title": "Contemporary Vector Distance Diagnostic on Preserved Local Index",
+    "date": "2026-10-08 05:05:03 UTC",
+    "runtime_environment": {
+      "python_version": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+      "chromadb_version": "1.5.9",
+      "numpy_version": "2.5.1",
+      "onnxruntime_version": "1.27.0",
+      "approved_onnx_manifest": {
+        "config.json": {
+          "size": 650,
+          "sha256": "b567c7d5a55b636c95186aaf993f9a8920842b7e05a9e703e68b23cab2c3a670"
+        },
+        "model.onnx": {
+          "size": 90387606,
+          "sha256": "4f148ba8ae9c2c7fbee4af2b132db8d06c6a6545b47fc83bbb98c3d22b8393e6"
+        },
+        "special_tokens_map.json": {
+          "size": 125,
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+        },
+        "tokenizer.json": {
+          "size": 711661,
+          "sha256": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0"
+        },
+        "tokenizer_config.json": {
+          "size": 518,
+          "sha256": "7702051bbc4953b94d47fa1d61b42ed4cbb3c71b501a8dd7183a823f8bea1f20"
+        },
+        "vocab.txt": {
+          "size": 231508,
+          "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+        }
+      }
+    },
+    "active_collection_config": {
+      "collection_id": "ddbef555-75e4-4c90-8d10-97b4eb239998",
+      "collection_name": "thinking_traces",
+      "dimension": 384,
+      "active_space_metric": "l2",
+      "hnsw_config": {
+        "ef_construction": 100,
+        "max_neighbors": 16,
+        "ef_search": 100,
+        "num_threads": 12,
+        "batch_size": 100,
+        "sync_threshold": 1000,
+        "resize_factor": 1.2
+      },
+      "search_semantics": "Approximate Nearest Neighbor (ANN) search via HNSWlib space='l2' (squared Euclidean distance) as configured in collection schema; no unit-normalization assumption asserted on stored vectors",
+      "schema_migrated_during_query": false,
+      "pre_connection_schema": {
+        "defaults": {
+          "string": {
+            "fts_index": {
+              "enabled": false,
+              "config": {}
+            },
+            "string_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          },
+          "float_list": {
+            "vector_index": {
+              "enabled": false,
+              "config": {
+                "space": "l2",
+                "embedding_function": {
+                  "type": "known",
+                  "name": "default",
+                  "config": {}
+                },
+                "hnsw": {
+                  "ef_construction": 100,
+                  "max_neighbors": 16,
+                  "ef_search": 100,
+                  "num_threads": 12,
+                  "batch_size": 100,
+                  "sync_threshold": 1000,
+                  "resize_factor": 1.2
+                }
+              }
+            }
+          },
+          "sparse_vector": {
+            "sparse_vector_index": {
+              "enabled": false,
+              "config": {
+                "embedding_function": {
+                  "type": "unknown"
+                },
+                "bm25": false
+              }
+            }
+          },
+          "int": {
+            "int_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          },
+          "float": {
+            "float_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          },
+          "bool": {
+            "bool_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          }
+        },
+        "keys": {
+          "#embedding": {
+            "float_list": {
+              "vector_index": {
+                "enabled": true,
+                "config": {
+                  "space": "l2",
+                  "embedding_function": {
+                    "type": "known",
+                    "name": "default",
+                    "config": {}
+                  },
+                  "source_key": "#document",
+                  "hnsw": {
+                    "ef_construction": 100,
+                    "max_neighbors": 16,
+                    "ef_search": 100,
+                    "num_threads": 12,
+                    "batch_size": 100,
+                    "sync_threshold": 1000,
+                    "resize_factor": 1.2
+                  }
+                }
+              }
+            }
+          },
+          "#document": {
+            "string": {
+              "fts_index": {
+                "enabled": true,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": false,
+                "config": {}
+              }
+            }
+          },
+          "title": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "char_count": {
+            "int": {
+              "int_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "category": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "node_id": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "doctrinal_tags": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "primary_domain": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "date": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          }
+        }
+      },
+      "post_query_schema": {
+        "defaults": {
+          "string": {
+            "fts_index": {
+              "enabled": false,
+              "config": {}
+            },
+            "string_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          },
+          "float_list": {
+            "vector_index": {
+              "enabled": false,
+              "config": {
+                "space": "l2",
+                "embedding_function": {
+                  "type": "known",
+                  "name": "default",
+                  "config": {}
+                },
+                "hnsw": {
+                  "ef_construction": 100,
+                  "max_neighbors": 16,
+                  "ef_search": 100,
+                  "num_threads": 12,
+                  "batch_size": 100,
+                  "sync_threshold": 1000,
+                  "resize_factor": 1.2
+                }
+              }
+            }
+          },
+          "sparse_vector": {
+            "sparse_vector_index": {
+              "enabled": false,
+              "config": {
+                "embedding_function": {
+                  "type": "unknown"
+                },
+                "bm25": false
+              }
+            }
+          },
+          "int": {
+            "int_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          },
+          "float": {
+            "float_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          },
+          "bool": {
+            "bool_inverted_index": {
+              "enabled": true,
+              "config": {}
+            }
+          }
+        },
+        "keys": {
+          "#embedding": {
+            "float_list": {
+              "vector_index": {
+                "enabled": true,
+                "config": {
+                  "space": "l2",
+                  "embedding_function": {
+                    "type": "known",
+                    "name": "default",
+                    "config": {}
+                  },
+                  "source_key": "#document",
+                  "hnsw": {
+                    "ef_construction": 100,
+                    "max_neighbors": 16,
+                    "ef_search": 100,
+                    "num_threads": 12,
+                    "batch_size": 100,
+                    "sync_threshold": 1000,
+                    "resize_factor": 1.2
+                  }
+                }
+              }
+            }
+          },
+          "#document": {
+            "string": {
+              "fts_index": {
+                "enabled": true,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": false,
+                "config": {}
+              }
+            }
+          },
+          "title": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "char_count": {
+            "int": {
+              "int_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "category": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "node_id": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "doctrinal_tags": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "primary_domain": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          },
+          "date": {
+            "string": {
+              "fts_index": {
+                "enabled": false,
+                "config": {}
+              },
+              "string_inverted_index": {
+                "enabled": true,
+                "config": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "embedding_function_delegate": {
+      "class": "DefaultEmbeddingFunction",
+      "module": "chromadb.api.types",
+      "qualname": "DefaultEmbeddingFunction",
+      "name": "default",
+      "is_default_embedding_function": true,
+      "is_concrete_onnx_minilm": false,
+      "is_mock_override": false,
+      "installed_onnx_class": "ONNXMiniLM_L6_V2",
+      "installed_onnx_module": "chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2",
+      "delegates_to_onnx_minilm": true,
+      "verified_cache_dir": "C:\\Users\\zafor\\.cache\\chroma\\onnx_models\\all-MiniLM-L6-v2\\onnx"
+    },
+    "source_quiescence_metadata": {
+      "wal_present": false,
+      "shm_present": false,
+      "quiescence_check_epoch": 1791435904.3872874
+    },
+    "historical_auroc_reference": {
+      "source_script": "scripts/compute_budget_and_gate_metrics.py",
+      "reference_sha256": "ad6f26e858c79693e13163ccd77446bd77af7af21cb0552b262c68be6b04b5ca",
+      "measured_sha256": "ad6f26e858c79693e13163ccd77446bd77af7af21cb0552b262c68be6b04b5ca",
+      "algorithm": "Mann-Whitney U pairwise concordance with 0.5 ties"
+    }
+  },
+  "concordance": {
+    "diagnostic_auroc": 0.9901333333333333,
+    "saved_auroc": 0.9901333333333333,
+    "auroc_difference": 0.0,
+    "grid_mismatch_count": 0,
+    "grid_mismatches": [],
+    "concordance_classification": "EXACT_CONCORDANCE",
+    "provenance_policy": "No concordance outcome authenticates historical provenance or authorizes manuscript replacement. Even an EXACT_CONCORDANCE result demonstrates solely that the current vector store snapshot, current model weights, and contemporary runtime library reproduce the saved budget grid."
+  },
+  "distribution_summary_benchmark_350": {
+    "in_domain_200_raw_squared": {
+      "count": 200,
+      "min": 0.3427095115184784,
+      "p25": 0.6465869843959808,
+      "median": 0.7212456464767456,
+      "p75": 0.7840825468301773,
+      "p90": 0.8301658987998962,
+      "max": 1.24428129196167,
+      "mean": 0.7119980831444264,
+      "std": 0.12166115955046286
+    },
+    "in_domain_200_euclidean_sqrt": {
+      "count": 200,
+      "min": 0.5854139659407507,
+      "p25": 0.804106118889297,
+      "median": 0.8492617783785045,
+      "p75": 0.8854842516535633,
+      "p90": 0.9111343916503706,
+      "max": 1.1154735729553031,
+      "mean": 0.8406276565354841,
+      "std": 0.07309737486453523
+    },
+    "ood_75_raw_squared": {
+      "count": 75,
+      "min": 0.7932654619216919,
+      "p25": 1.0461819767951965,
+      "median": 1.3385497331619263,
+      "p75": 1.5561881065368652,
+      "p90": 1.6349904537200928,
+      "max": 1.7270317077636719,
+      "mean": 1.305688772201538,
+      "std": 0.25783615262098963
+    },
+    "ood_75_euclidean_sqrt": {
+      "count": 75,
+      "min": 0.8906545132214241,
+      "p25": 1.0228290471295685,
+      "median": 1.156957100830418,
+      "p75": 1.2474726257740842,
+      "p90": 1.2786674476399795,
+      "max": 1.314165783972354,
+      "mean": 1.1368808507197137,
+      "std": 0.11485078784387061
+    },
+    "adv_75_raw_squared": {
+      "count": 75,
+      "min": 0.4222530126571655,
+      "p25": 0.6368815004825592,
+      "median": 0.7489737272262573,
+      "p75": 0.8112308084964752,
+      "p90": 0.8676666140556336,
+      "max": 0.9417020082473755,
+      "mean": 0.7276939809322357,
+      "std": 0.11464965876208633
+    },
+    "adv_75_euclidean_sqrt": {
+      "count": 75,
+      "min": 0.6498099819617774,
+      "p25": 0.7980482551664945,
+      "median": 0.8654326820881317,
+      "p75": 0.9006832043899458,
+      "p90": 0.9314856339765322,
+      "max": 0.9704133182553584,
+      "mean": 0.8502334620928839,
+      "std": 0.06926067332754174
+    }
+  },
+  "calibration_grid_benchmark_350": {
+    "0.90": {
+      "tau_raw_squared": 0.9,
+      "n_in": 200,
+      "fp_count": 9,
+      "fpr_pct": 4.5,
+      "n_ood": 75,
+      "tp_count": 72,
+      "tpr_pct": 96.0,
+      "fn_count": 3,
+      "fnr_pct": 4.0
+    },
+    "1.00": {
+      "tau_raw_squared": 1.0,
+      "n_in": 200,
+      "fp_count": 2,
+      "fpr_pct": 1.0,
+      "n_ood": 75,
+      "tp_count": 62,
+      "tpr_pct": 82.66666666666667,
+      "fn_count": 13,
+      "fnr_pct": 17.333333333333336
+    },
+    "1.10": {
+      "tau_raw_squared": 1.1,
+      "n_in": 200,
+      "fp_count": 1,
+      "fpr_pct": 0.5,
+      "n_ood": 75,
+      "tp_count": 54,
+      "tpr_pct": 72.0,
+      "fn_count": 21,
+      "fnr_pct": 28.000000000000004
+    },
+    "1.20": {
+      "tau_raw_squared": 1.2,
+      "n_in": 200,
+      "fp_count": 1,
+      "fpr_pct": 0.5,
+      "n_ood": 75,
+      "tp_count": 47,
+      "tpr_pct": 62.66666666666667,
+      "fn_count": 28,
+      "fnr_pct": 37.333333333333336
+    },
+    "1.25": {
+      "tau_raw_squared": 1.25,
+      "n_in": 200,
+      "fp_count": 0,
+      "fpr_pct": 0.0,
+      "n_ood": 75,
+      "tp_count": 44,
+      "tpr_pct": 58.666666666666664,
+      "fn_count": 31,
+      "fnr_pct": 41.333333333333336
+    },
+    "1.30": {
+      "tau_raw_squared": 1.3,
+      "n_in": 200,
+      "fp_count": 0,
+      "fpr_pct": 0.0,
+      "n_ood": 75,
+      "tp_count": 41,
+      "tpr_pct": 54.666666666666664,
+      "fn_count": 34,
+      "fnr_pct": 45.33333333333333
+    },
+    "1.35": {
+      "tau_raw_squared": 1.35,
+      "n_in": 200,
+      "fp_count": 0,
+      "fpr_pct": 0.0,
+      "n_ood": 75,
+      "tp_count": 35,
+      "tpr_pct": 46.666666666666664,
+      "fn_count": 40,
+      "fnr_pct": 53.333333333333336
+    },
+    "1.40": {
+      "tau_raw_squared": 1.4,
+      "n_in": 200,
+      "fp_count": 0,
+      "fpr_pct": 0.0,
+      "n_ood": 75,
+      "tp_count": 32,
+      "tpr_pct": 42.66666666666667,
+      "fn_count": 43,
+      "fnr_pct": 57.333333333333336
+    }
+  },
+  "legacy_sample20_diagnostic": {
+    "sample_in_20_raw_squared": {
+      "count": 20,
+      "min": 0.4465731978416443,
+      "p25": 0.600326806306839,
+      "median": 0.662559986114502,
+      "p75": 0.8549892157316208,
+      "p90": 0.9396582961082461,
+      "max": 1.131432056427002,
+      "mean": 0.7163915231823921,
+      "std": 0.19124627365336402
+    },
+    "sample_in_20_euclidean_sqrt": {
+      "count": 20,
+      "min": 0.6682613245143282,
+      "p25": 0.7745814986284234,
+      "median": 0.813977443342395,
+      "p75": 0.9246366644465623,
+      "p90": 0.9690048424754706,
+      "max": 1.0636879506824368,
+      "mean": 0.8390909502117074,
+      "std": 0.11098603720831828
+    },
+    "sample_out_20_raw_squared": {
+      "count": 20,
+      "min": 0.3593091070652008,
+      "p25": 0.751762330532074,
+      "median": 0.874289482831955,
+      "p75": 1.3587219715118408,
+      "p90": 1.5456441760063173,
+      "max": 1.7291595935821533,
+      "mean": 1.0048248931765555,
+      "std": 0.3678170044384007
+    },
+    "sample_out_20_euclidean_sqrt": {
+      "count": 20,
+      "min": 0.5994239793878794,
+      "p25": 0.8670199522562483,
+      "median": 0.9347687336464967,
+      "p75": 1.165613564775534,
+      "p90": 1.2432013702747482,
+      "max": 1.3149751304044321,
+      "mean": 0.9857068367440818,
+      "std": 0.18222767400296783
+    }
+  },
+  "verification_manifests": {
+    "original_vector_db_pre_manifest": {
+      "chroma.sqlite3": {
+        "size": 362885120,
+        "sha256": "3ee12a495b1ccf8320bc7d6fdbd08f180b2a87865713cee387ac2fb481fa30d6"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "4f7cabaecd21a63e1d2666b2c310daa291b8631ce5c92d2402924bb61847eb89"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/header.bin": {
+        "size": 100,
+        "sha256": "d3ef0ceb415967ba1e746e18619a03b776e4d1621ef378e01f19a6e6e8b80025"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/index_metadata.pickle": {
+        "size": 834016,
+        "sha256": "62815c3a42fad2de16496d084ea4f36bf376d764f0a167698f3d11b6f4e27688"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/length.bin": {
+        "size": 80000,
+        "sha256": "5ceec8a5b0134c1c5d3edee565f5510aa11aa7d3fe1402c9c2d98df4c0646b06"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/link_lists.bin": {
+        "size": 171800,
+        "sha256": "1eae585b54e6238865380cd400f9b15a8a9e231e11b82eae752e54f96bdaf917"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "b04358ad83b8f518537e11705fb693a67c6e6d9dc0a865388694ba926642e894"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/header.bin": {
+        "size": 100,
+        "sha256": "4047ec8a91bf3f0f1c25160590ac91d703e8b1f68180507b7638311c64a57ea0"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/index_metadata.pickle": {
+        "size": 834952,
+        "sha256": "ddc80bf009a88a6f1af41538e026f23d5cbc7095412c6e44836a987c241d7c3f"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/length.bin": {
+        "size": 80000,
+        "sha256": "5f5f073b34bfa64a0285291ab4e14f729b9b8a3c715583707c4a8f2c52454884"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/link_lists.bin": {
+        "size": 171800,
+        "sha256": "a96df0151c0938f5cda23e4a2ec2ebe3bf202036c039e9a378305467517129db"
+      }
+    },
+    "original_vector_db_post_manifest": {
+      "chroma.sqlite3": {
+        "size": 362885120,
+        "sha256": "3ee12a495b1ccf8320bc7d6fdbd08f180b2a87865713cee387ac2fb481fa30d6"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "4f7cabaecd21a63e1d2666b2c310daa291b8631ce5c92d2402924bb61847eb89"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/header.bin": {
+        "size": 100,
+        "sha256": "d3ef0ceb415967ba1e746e18619a03b776e4d1621ef378e01f19a6e6e8b80025"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/index_metadata.pickle": {
+        "size": 834016,
+        "sha256": "62815c3a42fad2de16496d084ea4f36bf376d764f0a167698f3d11b6f4e27688"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/length.bin": {
+        "size": 80000,
+        "sha256": "5ceec8a5b0134c1c5d3edee565f5510aa11aa7d3fe1402c9c2d98df4c0646b06"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/link_lists.bin": {
+        "size": 171800,
+        "sha256": "1eae585b54e6238865380cd400f9b15a8a9e231e11b82eae752e54f96bdaf917"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "b04358ad83b8f518537e11705fb693a67c6e6d9dc0a865388694ba926642e894"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/header.bin": {
+        "size": 100,
+        "sha256": "4047ec8a91bf3f0f1c25160590ac91d703e8b1f68180507b7638311c64a57ea0"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/index_metadata.pickle": {
+        "size": 834952,
+        "sha256": "ddc80bf009a88a6f1af41538e026f23d5cbc7095412c6e44836a987c241d7c3f"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/length.bin": {
+        "size": 80000,
+        "sha256": "5f5f073b34bfa64a0285291ab4e14f729b9b8a3c715583707c4a8f2c52454884"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/link_lists.bin": {
+        "size": 171800,
+        "sha256": "a96df0151c0938f5cda23e4a2ec2ebe3bf202036c039e9a378305467517129db"
+      }
+    },
+    "copied_vector_db_initial_manifest": {
+      "chroma.sqlite3": {
+        "size": 362885120,
+        "sha256": "3ee12a495b1ccf8320bc7d6fdbd08f180b2a87865713cee387ac2fb481fa30d6"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "4f7cabaecd21a63e1d2666b2c310daa291b8631ce5c92d2402924bb61847eb89"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/header.bin": {
+        "size": 100,
+        "sha256": "d3ef0ceb415967ba1e746e18619a03b776e4d1621ef378e01f19a6e6e8b80025"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/index_metadata.pickle": {
+        "size": 834016,
+        "sha256": "62815c3a42fad2de16496d084ea4f36bf376d764f0a167698f3d11b6f4e27688"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/length.bin": {
+        "size": 80000,
+        "sha256": "5ceec8a5b0134c1c5d3edee565f5510aa11aa7d3fe1402c9c2d98df4c0646b06"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/link_lists.bin": {
+        "size": 171800,
+        "sha256": "1eae585b54e6238865380cd400f9b15a8a9e231e11b82eae752e54f96bdaf917"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "b04358ad83b8f518537e11705fb693a67c6e6d9dc0a865388694ba926642e894"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/header.bin": {
+        "size": 100,
+        "sha256": "4047ec8a91bf3f0f1c25160590ac91d703e8b1f68180507b7638311c64a57ea0"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/index_metadata.pickle": {
+        "size": 834952,
+        "sha256": "ddc80bf009a88a6f1af41538e026f23d5cbc7095412c6e44836a987c241d7c3f"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/length.bin": {
+        "size": 80000,
+        "sha256": "5f5f073b34bfa64a0285291ab4e14f729b9b8a3c715583707c4a8f2c52454884"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/link_lists.bin": {
+        "size": 171800,
+        "sha256": "a96df0151c0938f5cda23e4a2ec2ebe3bf202036c039e9a378305467517129db"
+      }
+    },
+    "disposable_store_post_manifest": {
+      "chroma.sqlite3": {
+        "size": 362885120,
+        "sha256": "05c4e8582e2e17282e0c8b5bf965acd4b36a7e8446d2eadfefbb349f5af7c215"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "4f7cabaecd21a63e1d2666b2c310daa291b8631ce5c92d2402924bb61847eb89"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/header.bin": {
+        "size": 100,
+        "sha256": "d3ef0ceb415967ba1e746e18619a03b776e4d1621ef378e01f19a6e6e8b80025"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/index_metadata.pickle": {
+        "size": 834016,
+        "sha256": "62815c3a42fad2de16496d084ea4f36bf376d764f0a167698f3d11b6f4e27688"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/length.bin": {
+        "size": 80000,
+        "sha256": "5ceec8a5b0134c1c5d3edee565f5510aa11aa7d3fe1402c9c2d98df4c0646b06"
+      },
+      "282cb51e-ff2d-499b-8b6a-bd24123bb584/link_lists.bin": {
+        "size": 171800,
+        "sha256": "1eae585b54e6238865380cd400f9b15a8a9e231e11b82eae752e54f96bdaf917"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/data_level0.bin": {
+        "size": 33520000,
+        "sha256": "b04358ad83b8f518537e11705fb693a67c6e6d9dc0a865388694ba926642e894"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/header.bin": {
+        "size": 100,
+        "sha256": "4047ec8a91bf3f0f1c25160590ac91d703e8b1f68180507b7638311c64a57ea0"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/index_metadata.pickle": {
+        "size": 834952,
+        "sha256": "ddc80bf009a88a6f1af41538e026f23d5cbc7095412c6e44836a987c241d7c3f"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/length.bin": {
+        "size": 80000,
+        "sha256": "5f5f073b34bfa64a0285291ab4e14f729b9b8a3c715583707c4a8f2c52454884"
+      },
+      "59ddb27e-f5cf-4fe4-a803-a8686d117b66/link_lists.bin": {
+        "size": 171800,
+        "sha256": "a96df0151c0938f5cda23e4a2ec2ebe3bf202036c039e9a378305467517129db"
+      }
+    },
+    "disposable_copy_changes_permitted": true,
+    "original_store_integrity": "strictly invariant (100% bit-identical)",
+    "onnx_cache_pre_manifest": {
+      "config.json": {
+        "size": 650,
+        "sha256": "b567c7d5a55b636c95186aaf993f9a8920842b7e05a9e703e68b23cab2c3a670"
+      },
+      "model.onnx": {
+        "size": 90387606,
+        "sha256": "4f148ba8ae9c2c7fbee4af2b132db8d06c6a6545b47fc83bbb98c3d22b8393e6"
+      },
+      "special_tokens_map.json": {
+        "size": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+      },
+      "tokenizer.json": {
+        "size": 711661,
+        "sha256": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0"
+      },
+      "tokenizer_config.json": {
+        "size": 518,
+        "sha256": "7702051bbc4953b94d47fa1d61b42ed4cbb3c71b501a8dd7183a823f8bea1f20"
+      },
+      "vocab.txt": {
+        "size": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      }
+    },
+    "onnx_cache_post_manifest": {
+      "config.json": {
+        "size": 650,
+        "sha256": "b567c7d5a55b636c95186aaf993f9a8920842b7e05a9e703e68b23cab2c3a670"
+      },
+      "model.onnx": {
+        "size": 90387606,
+        "sha256": "4f148ba8ae9c2c7fbee4af2b132db8d06c6a6545b47fc83bbb98c3d22b8393e6"
+      },
+      "special_tokens_map.json": {
+        "size": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+      },
+      "tokenizer.json": {
+        "size": 711661,
+        "sha256": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0"
+      },
+      "tokenizer_config.json": {
+        "size": 518,
+        "sha256": "7702051bbc4953b94d47fa1d61b42ed4cbb3c71b501a8dd7183a823f8bea1f20"
+      },
+      "vocab.txt": {
+        "size": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      }
+    },
+    "analysis_copy_path": "F:\\TERRA -Copy\\scratch\\diagnostics\\run_1791435903_17576_69cd01c5\\vector_db_20k"
+  },
+  "query_ledger_350": [
+    {
+      "query_id": "A001",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.559810221195221,
+      "distance_euclidean_sqrt": 0.7482046653123869,
+      "nearest_node_id": "233_0331-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A002",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6383494138717651,
+      "distance_euclidean_sqrt": 0.798967717665592,
+      "nearest_node_id": "174_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A003",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.651164174079895,
+      "distance_euclidean_sqrt": 0.8069474419563488,
+      "nearest_node_id": "306_0451-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A004",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5057904720306396,
+      "distance_euclidean_sqrt": 0.7111894768840717,
+      "nearest_node_id": "288_0178-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A005",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.9063223600387573,
+      "distance_euclidean_sqrt": 0.9520096428286624,
+      "nearest_node_id": "113_0243-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A006",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.564027726650238,
+      "distance_euclidean_sqrt": 0.7510177938306376,
+      "nearest_node_id": "244_0522-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A007",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5234385132789612,
+      "distance_euclidean_sqrt": 0.7234905066958109,
+      "nearest_node_id": "229_0026-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A008",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.4871957302093506,
+      "distance_euclidean_sqrt": 0.6979940760560583,
+      "nearest_node_id": "439_1348-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A009",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7092308402061462,
+      "distance_euclidean_sqrt": 0.842158441272274,
+      "nearest_node_id": "217_0413-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A010",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5935726761817932,
+      "distance_euclidean_sqrt": 0.7704366788917784,
+      "nearest_node_id": "116_0048-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A011",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7341183423995972,
+      "distance_euclidean_sqrt": 0.8568070625290137,
+      "nearest_node_id": "177_0584-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A012",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7050380706787109,
+      "distance_euclidean_sqrt": 0.8396654516405394,
+      "nearest_node_id": "177_0190-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A013",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.721720814704895,
+      "distance_euclidean_sqrt": 0.8495415320659109,
+      "nearest_node_id": "141_0201-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A014",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7202626466751099,
+      "distance_euclidean_sqrt": 0.8486828893497912,
+      "nearest_node_id": "228_0516-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A015",
+      "category": "A_Factual",
+      "distance_raw_squared": 1.0566167831420898,
+      "distance_euclidean_sqrt": 1.02791866562588,
+      "nearest_node_id": "101_0256-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A016",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6132735013961792,
+      "distance_euclidean_sqrt": 0.7831178081209615,
+      "nearest_node_id": "370_0940-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A017",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.700944185256958,
+      "distance_euclidean_sqrt": 0.83722409500501,
+      "nearest_node_id": "240_0652-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A018",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7071768045425415,
+      "distance_euclidean_sqrt": 0.8409380503595622,
+      "nearest_node_id": "112_0670-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A019",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.509941816329956,
+      "distance_euclidean_sqrt": 0.7141021049751611,
+      "nearest_node_id": "69_0219-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A020",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.677625298500061,
+      "distance_euclidean_sqrt": 0.8231799915571691,
+      "nearest_node_id": "226_0520-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A021",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6025718450546265,
+      "distance_euclidean_sqrt": 0.7762550129014475,
+      "nearest_node_id": "430_0073-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A022",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7372297048568726,
+      "distance_euclidean_sqrt": 0.8586208155273622,
+      "nearest_node_id": "411_0345-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A023",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.764798641204834,
+      "distance_euclidean_sqrt": 0.8745276674896192,
+      "nearest_node_id": "425_0564-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A024",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.9997420907020569,
+      "distance_euclidean_sqrt": 0.9998710370353053,
+      "nearest_node_id": "301_0158-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A025",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6713277697563171,
+      "distance_euclidean_sqrt": 0.8193459402208063,
+      "nearest_node_id": "340_0159-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A026",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7012946009635925,
+      "distance_euclidean_sqrt": 0.8374333412060881,
+      "nearest_node_id": "121_0484-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A027",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.9967250823974609,
+      "distance_euclidean_sqrt": 0.9983611983633283,
+      "nearest_node_id": "149_0122-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A028",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6382724046707153,
+      "distance_euclidean_sqrt": 0.7989195232754769,
+      "nearest_node_id": "395_0213-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A029",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6672785878181458,
+      "distance_euclidean_sqrt": 0.816871218625155,
+      "nearest_node_id": "241_0379-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A030",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8500075936317444,
+      "distance_euclidean_sqrt": 0.9219585639451181,
+      "nearest_node_id": "246_0547-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A031",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7933578491210938,
+      "distance_euclidean_sqrt": 0.8907063764906445,
+      "nearest_node_id": "196_0611-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A032",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7323477268218994,
+      "distance_euclidean_sqrt": 0.8557731748669734,
+      "nearest_node_id": "267_0122-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A033",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7917176485061646,
+      "distance_euclidean_sqrt": 0.8897851698618968,
+      "nearest_node_id": "419_0974-02",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A034",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7376658916473389,
+      "distance_euclidean_sqrt": 0.8588747822862998,
+      "nearest_node_id": "384_0780-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A035",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.48223939538002014,
+      "distance_euclidean_sqrt": 0.6944345868258724,
+      "nearest_node_id": "359_0180-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A036",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6600097417831421,
+      "distance_euclidean_sqrt": 0.8124098360945307,
+      "nearest_node_id": "265_0257-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A037",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7197384238243103,
+      "distance_euclidean_sqrt": 0.8483739881822817,
+      "nearest_node_id": "308_0147-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A038",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.49284666776657104,
+      "distance_euclidean_sqrt": 0.7020303894893518,
+      "nearest_node_id": "393_0268-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A039",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7972662448883057,
+      "distance_euclidean_sqrt": 0.8928976676463578,
+      "nearest_node_id": "231_0654-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A040",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.3545999228954315,
+      "distance_euclidean_sqrt": 0.595482932497172,
+      "nearest_node_id": "220_0277-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A041",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.555645763874054,
+      "distance_euclidean_sqrt": 0.7454165036233461,
+      "nearest_node_id": "408_0665-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A042",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.9426298141479492,
+      "distance_euclidean_sqrt": 0.9708912473330621,
+      "nearest_node_id": "223_0365-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A043",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8803070187568665,
+      "distance_euclidean_sqrt": 0.9382467792414032,
+      "nearest_node_id": "404_1049-05",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A044",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6108191609382629,
+      "distance_euclidean_sqrt": 0.7815492057050938,
+      "nearest_node_id": "397_0031-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A045",
+      "category": "A_Factual",
+      "distance_raw_squared": 1.24428129196167,
+      "distance_euclidean_sqrt": 1.1154735729553031,
+      "nearest_node_id": "437_0634-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A046",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5312215685844421,
+      "distance_euclidean_sqrt": 0.7288494828045378,
+      "nearest_node_id": "106_0095-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A047",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.48473912477493286,
+      "distance_euclidean_sqrt": 0.6962320911699869,
+      "nearest_node_id": "204_0426-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A048",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8100256323814392,
+      "distance_euclidean_sqrt": 0.9000142400992549,
+      "nearest_node_id": "411_0655-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A049",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5049277544021606,
+      "distance_euclidean_sqrt": 0.7105826865341996,
+      "nearest_node_id": "322_0202-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A050",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6799932718276978,
+      "distance_euclidean_sqrt": 0.8246170455597542,
+      "nearest_node_id": "340_0179-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A051",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8814334869384766,
+      "distance_euclidean_sqrt": 0.9388468921706439,
+      "nearest_node_id": "238_0062-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A052",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.3427095115184784,
+      "distance_euclidean_sqrt": 0.5854139659407507,
+      "nearest_node_id": "303_0054-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A053",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.4292105436325073,
+      "distance_euclidean_sqrt": 0.6551416210503705,
+      "nearest_node_id": "215_0216-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A054",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8723480701446533,
+      "distance_euclidean_sqrt": 0.9339957548857775,
+      "nearest_node_id": "226_0551-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A055",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6335824131965637,
+      "distance_euclidean_sqrt": 0.7959789024820719,
+      "nearest_node_id": "279_0245-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A056",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6478224396705627,
+      "distance_euclidean_sqrt": 0.8048741762974898,
+      "nearest_node_id": "366_0683-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A057",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.9058600068092346,
+      "distance_euclidean_sqrt": 0.9517667817323919,
+      "nearest_node_id": "362_0274-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A058",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5869901180267334,
+      "distance_euclidean_sqrt": 0.7661528033145434,
+      "nearest_node_id": "297_0650-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A059",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6299829483032227,
+      "distance_euclidean_sqrt": 0.7937146516873823,
+      "nearest_node_id": "350_0270-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A060",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7597743272781372,
+      "distance_euclidean_sqrt": 0.8716503469156295,
+      "nearest_node_id": "252_0331-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A061",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6647936701774597,
+      "distance_euclidean_sqrt": 0.815348802769379,
+      "nearest_node_id": "160_0546-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A062",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7262428998947144,
+      "distance_euclidean_sqrt": 0.8521988617070047,
+      "nearest_node_id": "122_0450-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A063",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.652073085308075,
+      "distance_euclidean_sqrt": 0.8075104242720802,
+      "nearest_node_id": "234_0725-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A064",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7099305391311646,
+      "distance_euclidean_sqrt": 0.8425737588669401,
+      "nearest_node_id": "270_0565-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A065",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5693267583847046,
+      "distance_euclidean_sqrt": 0.754537446641785,
+      "nearest_node_id": "144_0640-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A066",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6449779272079468,
+      "distance_euclidean_sqrt": 0.8031051781727888,
+      "nearest_node_id": "237_0208-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A067",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.4909515678882599,
+      "distance_euclidean_sqrt": 0.7006793616828313,
+      "nearest_node_id": "157_0342-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A068",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6196767091751099,
+      "distance_euclidean_sqrt": 0.7871954707536812,
+      "nearest_node_id": "352_0029-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A069",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.975536048412323,
+      "distance_euclidean_sqrt": 0.9876922842729526,
+      "nearest_node_id": "188_0400-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A070",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7645535469055176,
+      "distance_euclidean_sqrt": 0.8743875267325796,
+      "nearest_node_id": "216_0559-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A071",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6022977828979492,
+      "distance_euclidean_sqrt": 0.7760784643951597,
+      "nearest_node_id": "338_0366-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A072",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7937541604042053,
+      "distance_euclidean_sqrt": 0.8909288189323574,
+      "nearest_node_id": "194_0154-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A073",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7745624780654907,
+      "distance_euclidean_sqrt": 0.8800923122408755,
+      "nearest_node_id": "246_0199-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A074",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.663585901260376,
+      "distance_euclidean_sqrt": 0.8146078205249296,
+      "nearest_node_id": "318_0350-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A075",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7058472037315369,
+      "distance_euclidean_sqrt": 0.8401471321926517,
+      "nearest_node_id": "222_0473-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A076",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.4971773624420166,
+      "distance_euclidean_sqrt": 0.7051080501894845,
+      "nearest_node_id": "93_0242-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A077",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7620072960853577,
+      "distance_euclidean_sqrt": 0.8729302927985474,
+      "nearest_node_id": "228_0204-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A078",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8507740497589111,
+      "distance_euclidean_sqrt": 0.9223741376247011,
+      "nearest_node_id": "150_0054-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A079",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5058422684669495,
+      "distance_euclidean_sqrt": 0.7112258913080636,
+      "nearest_node_id": "85_0648-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A080",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6548017263412476,
+      "distance_euclidean_sqrt": 0.8091981996651053,
+      "nearest_node_id": "120_0206-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A081",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6572082042694092,
+      "distance_euclidean_sqrt": 0.8106837880884317,
+      "nearest_node_id": "271_0228-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A082",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5753425359725952,
+      "distance_euclidean_sqrt": 0.7585133723096747,
+      "nearest_node_id": "81_0314-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A083",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7863102555274963,
+      "distance_euclidean_sqrt": 0.8867413690177629,
+      "nearest_node_id": "106_0586-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A084",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7453247904777527,
+      "distance_euclidean_sqrt": 0.8633219506521033,
+      "nearest_node_id": "373_0709-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A085",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5360149145126343,
+      "distance_euclidean_sqrt": 0.732130394473986,
+      "nearest_node_id": "215_0546-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A086",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6881235837936401,
+      "distance_euclidean_sqrt": 0.8295321475347656,
+      "nearest_node_id": "164_0325-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A087",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.9957489967346191,
+      "distance_euclidean_sqrt": 0.9978722346746697,
+      "nearest_node_id": "343_0205-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A088",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8232670426368713,
+      "distance_euclidean_sqrt": 0.9073406431086791,
+      "nearest_node_id": "279_0716-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A089",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8253348469734192,
+      "distance_euclidean_sqrt": 0.9084794147218852,
+      "nearest_node_id": "395_0147-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A090",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7836403846740723,
+      "distance_euclidean_sqrt": 0.8852346494992569,
+      "nearest_node_id": "82_0649-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A091",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.687457799911499,
+      "distance_euclidean_sqrt": 0.8291307495874816,
+      "nearest_node_id": "275_0347-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A092",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5758594274520874,
+      "distance_euclidean_sqrt": 0.7588540224918673,
+      "nearest_node_id": "80_0251-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A093",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6076231598854065,
+      "distance_euclidean_sqrt": 0.7795018665054027,
+      "nearest_node_id": "118_0127-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A094",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8381461501121521,
+      "distance_euclidean_sqrt": 0.9155032223384865,
+      "nearest_node_id": "95_0434-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A095",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.8050751686096191,
+      "distance_euclidean_sqrt": 0.8972598110968858,
+      "nearest_node_id": "319_0423-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A096",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5724402666091919,
+      "distance_euclidean_sqrt": 0.7565978235556801,
+      "nearest_node_id": "285_0182-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A097",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5496433973312378,
+      "distance_euclidean_sqrt": 0.7413793882562677,
+      "nearest_node_id": "335_0303-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A098",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.5510475039482117,
+      "distance_euclidean_sqrt": 0.742325739785582,
+      "nearest_node_id": "248_0178-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A099",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.6742636561393738,
+      "distance_euclidean_sqrt": 0.8211355893756973,
+      "nearest_node_id": "122_0478-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "A100",
+      "category": "A_Factual",
+      "distance_raw_squared": 0.7148167490959167,
+      "distance_euclidean_sqrt": 0.845468360789401,
+      "nearest_node_id": "205_0403-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B001",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6670703887939453,
+      "distance_euclidean_sqrt": 0.8167437718121549,
+      "nearest_node_id": "88_0162-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B002",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7868014574050903,
+      "distance_euclidean_sqrt": 0.8870182959810301,
+      "nearest_node_id": "88_0162-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B003",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7363980412483215,
+      "distance_euclidean_sqrt": 0.858136376835478,
+      "nearest_node_id": "402_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B004",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7796046137809753,
+      "distance_euclidean_sqrt": 0.8829522148910298,
+      "nearest_node_id": "106_0391-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B005",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.533943772315979,
+      "distance_euclidean_sqrt": 0.7307145628191483,
+      "nearest_node_id": "83_0036-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B006",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6105631589889526,
+      "distance_euclidean_sqrt": 0.781385410017971,
+      "nearest_node_id": "83_0036-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B007",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7597520351409912,
+      "distance_euclidean_sqrt": 0.8716375595056647,
+      "nearest_node_id": "402_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B008",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.786946177482605,
+      "distance_euclidean_sqrt": 0.8870998689452079,
+      "nearest_node_id": "148_0107-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B009",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.5801794528961182,
+      "distance_euclidean_sqrt": 0.7616951180729191,
+      "nearest_node_id": "339_0637-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B010",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.5414838194847107,
+      "distance_euclidean_sqrt": 0.7358558415102178,
+      "nearest_node_id": "339_0637-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B011",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6311497092247009,
+      "distance_euclidean_sqrt": 0.7944493119291507,
+      "nearest_node_id": "339_0637-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B012",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6173719167709351,
+      "distance_euclidean_sqrt": 0.7857301806415069,
+      "nearest_node_id": "339_0637-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B013",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6799640655517578,
+      "distance_euclidean_sqrt": 0.824599336376011,
+      "nearest_node_id": "339_0629-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B014",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6942710280418396,
+      "distance_euclidean_sqrt": 0.8332292769951375,
+      "nearest_node_id": "339_0629-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B015",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7494264245033264,
+      "distance_euclidean_sqrt": 0.865694186478878,
+      "nearest_node_id": "339_0629-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B016",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7627776861190796,
+      "distance_euclidean_sqrt": 0.8733714479641979,
+      "nearest_node_id": "339_0629-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B017",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8313401341438293,
+      "distance_euclidean_sqrt": 0.9117785554309935,
+      "nearest_node_id": "421_0349-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B018",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.789191484451294,
+      "distance_euclidean_sqrt": 0.8883644997698265,
+      "nearest_node_id": "349_0294-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B019",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.5608227252960205,
+      "distance_euclidean_sqrt": 0.7488809820632518,
+      "nearest_node_id": "305_0337-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B020",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.4988715946674347,
+      "distance_euclidean_sqrt": 0.7063084274362261,
+      "nearest_node_id": "305_0337-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B021",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6212838888168335,
+      "distance_euclidean_sqrt": 0.7882156359885495,
+      "nearest_node_id": "384_0719-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B022",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7661752700805664,
+      "distance_euclidean_sqrt": 0.8753143835677364,
+      "nearest_node_id": "372_0335-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B023",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7537562251091003,
+      "distance_euclidean_sqrt": 0.8681913528186631,
+      "nearest_node_id": "316_0455-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B024",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7636972665786743,
+      "distance_euclidean_sqrt": 0.873897743777082,
+      "nearest_node_id": "304_0458-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B025",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7468812465667725,
+      "distance_euclidean_sqrt": 0.8642229148586448,
+      "nearest_node_id": "304_0458-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B026",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8082671761512756,
+      "distance_euclidean_sqrt": 0.8990368046700178,
+      "nearest_node_id": "304_0458-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B027",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6993193626403809,
+      "distance_euclidean_sqrt": 0.8362531689867494,
+      "nearest_node_id": "384_0719-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B028",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7357129454612732,
+      "distance_euclidean_sqrt": 0.8577371074293528,
+      "nearest_node_id": "255_0298-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B029",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6715805530548096,
+      "distance_euclidean_sqrt": 0.8195001849022424,
+      "nearest_node_id": "255_0298-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B030",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8190879821777344,
+      "distance_euclidean_sqrt": 0.9050347961143452,
+      "nearest_node_id": "316_0455-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B031",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7332369089126587,
+      "distance_euclidean_sqrt": 0.8562925369946061,
+      "nearest_node_id": "163_0081-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B032",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6709149479866028,
+      "distance_euclidean_sqrt": 0.8190939799477241,
+      "nearest_node_id": "163_0081-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B033",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.704559326171875,
+      "distance_euclidean_sqrt": 0.8393803227213961,
+      "nearest_node_id": "163_0081-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B034",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7207704782485962,
+      "distance_euclidean_sqrt": 0.8489820246910981,
+      "nearest_node_id": "163_0081-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B035",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7104572653770447,
+      "distance_euclidean_sqrt": 0.8428862707252056,
+      "nearest_node_id": "163_0081-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B036",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.532529354095459,
+      "distance_euclidean_sqrt": 0.7297460887839406,
+      "nearest_node_id": "384_0436-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B037",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6423813104629517,
+      "distance_euclidean_sqrt": 0.8014869371754924,
+      "nearest_node_id": "384_0719-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B038",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7051137685775757,
+      "distance_euclidean_sqrt": 0.8397105266564042,
+      "nearest_node_id": "367_0643-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B039",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.756531834602356,
+      "distance_euclidean_sqrt": 0.869788384954844,
+      "nearest_node_id": "384_0719-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B040",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7792305946350098,
+      "distance_euclidean_sqrt": 0.8827403891490463,
+      "nearest_node_id": "384_0719-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B041",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8300818204879761,
+      "distance_euclidean_sqrt": 0.9110882616343907,
+      "nearest_node_id": "319_0624-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B042",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.745479941368103,
+      "distance_euclidean_sqrt": 0.8634118028890403,
+      "nearest_node_id": "403_0713-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B043",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6336178779602051,
+      "distance_euclidean_sqrt": 0.7960011796223704,
+      "nearest_node_id": "357_0449-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B044",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8330889344215393,
+      "distance_euclidean_sqrt": 0.9127370565620415,
+      "nearest_node_id": "181_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B045",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7385468482971191,
+      "distance_euclidean_sqrt": 0.8593874843730964,
+      "nearest_node_id": "181_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B046",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7923216819763184,
+      "distance_euclidean_sqrt": 0.89012453172369,
+      "nearest_node_id": "181_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B047",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7864952087402344,
+      "distance_euclidean_sqrt": 0.8868456510240293,
+      "nearest_node_id": "403_0713-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B048",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7471261024475098,
+      "distance_euclidean_sqrt": 0.8643645657056459,
+      "nearest_node_id": "393_0503-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B049",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.755836009979248,
+      "distance_euclidean_sqrt": 0.8693882964356306,
+      "nearest_node_id": "319_0624-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B050",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7436009645462036,
+      "distance_euclidean_sqrt": 0.862323004764574,
+      "nearest_node_id": "181_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B051",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7700110673904419,
+      "distance_euclidean_sqrt": 0.8775027449475254,
+      "nearest_node_id": "181_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B052",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8282716274261475,
+      "distance_euclidean_sqrt": 0.910094295898039,
+      "nearest_node_id": "181_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B053",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.83437579870224,
+      "distance_euclidean_sqrt": 0.9134417325162235,
+      "nearest_node_id": "168_0262-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B054",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.80915367603302,
+      "distance_euclidean_sqrt": 0.89952969713791,
+      "nearest_node_id": "157_0675-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B055",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7871633768081665,
+      "distance_euclidean_sqrt": 0.8872222815102011,
+      "nearest_node_id": "157_0675-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B056",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7910810708999634,
+      "distance_euclidean_sqrt": 0.8894273837137934,
+      "nearest_node_id": "181_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B057",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8297923803329468,
+      "distance_euclidean_sqrt": 0.9109294046922334,
+      "nearest_node_id": "403_0713-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B058",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7976739406585693,
+      "distance_euclidean_sqrt": 0.8931259377369853,
+      "nearest_node_id": "310_0296-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B059",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8309226036071777,
+      "distance_euclidean_sqrt": 0.9115495617941889,
+      "nearest_node_id": "299_0353-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B060",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7933828234672546,
+      "distance_euclidean_sqrt": 0.8907203957849257,
+      "nearest_node_id": "299_0353-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B061",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6786538362503052,
+      "distance_euclidean_sqrt": 0.8238044890933195,
+      "nearest_node_id": "383_0576-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B062",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6847755312919617,
+      "distance_euclidean_sqrt": 0.8275116502454583,
+      "nearest_node_id": "162_0197-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B063",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7223277688026428,
+      "distance_euclidean_sqrt": 0.8498986814924723,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B064",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6966087222099304,
+      "distance_euclidean_sqrt": 0.8346308898009529,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B065",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6792799234390259,
+      "distance_euclidean_sqrt": 0.8241843989296485,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B066",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7522538304328918,
+      "distance_euclidean_sqrt": 0.8673256772590627,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B067",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7701737880706787,
+      "distance_euclidean_sqrt": 0.8775954580959718,
+      "nearest_node_id": "59_0380-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B068",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6881923079490662,
+      "distance_euclidean_sqrt": 0.8295735699436586,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B069",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6927031874656677,
+      "distance_euclidean_sqrt": 0.8322879234169314,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B070",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6935420632362366,
+      "distance_euclidean_sqrt": 0.8327917286070009,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B071",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.679581344127655,
+      "distance_euclidean_sqrt": 0.82436723863073,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B072",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6471233367919922,
+      "distance_euclidean_sqrt": 0.8044397657947997,
+      "nearest_node_id": "82_0284-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B073",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7710352540016174,
+      "distance_euclidean_sqrt": 0.8780861313115117,
+      "nearest_node_id": "160_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B074",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7648148536682129,
+      "distance_euclidean_sqrt": 0.8745369367089151,
+      "nearest_node_id": "53_0299-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B075",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7234851717948914,
+      "distance_euclidean_sqrt": 0.8505793154050311,
+      "nearest_node_id": "249_0557-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B076",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7464368939399719,
+      "distance_euclidean_sqrt": 0.8639657944270548,
+      "nearest_node_id": "154_0447-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B077",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.821698784828186,
+      "distance_euclidean_sqrt": 0.906476025512085,
+      "nearest_node_id": "234_0399-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B078",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7826020121574402,
+      "distance_euclidean_sqrt": 0.8846479594490908,
+      "nearest_node_id": "234_0399-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B079",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7582555413246155,
+      "distance_euclidean_sqrt": 0.8707786982492254,
+      "nearest_node_id": "298_0238-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B080",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7824902534484863,
+      "distance_euclidean_sqrt": 0.8845847915539168,
+      "nearest_node_id": "295_0495-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B081",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8903892040252686,
+      "distance_euclidean_sqrt": 0.9436043683797085,
+      "nearest_node_id": "242_0568-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B082",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6519898176193237,
+      "distance_euclidean_sqrt": 0.8074588643511964,
+      "nearest_node_id": "192_0470-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B083",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8281801342964172,
+      "distance_euclidean_sqrt": 0.9100440287680686,
+      "nearest_node_id": "73_0247-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B084",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7789823412895203,
+      "distance_euclidean_sqrt": 0.882599762797113,
+      "nearest_node_id": "52_0529-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B085",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8097007274627686,
+      "distance_euclidean_sqrt": 0.8998337221191305,
+      "nearest_node_id": "194_0553-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B086",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7823246717453003,
+      "distance_euclidean_sqrt": 0.8844911937070375,
+      "nearest_node_id": "295_0602-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B087",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.719951331615448,
+      "distance_euclidean_sqrt": 0.8484994588185947,
+      "nearest_node_id": "127_0063-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B088",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7794950604438782,
+      "distance_euclidean_sqrt": 0.8828901746218938,
+      "nearest_node_id": "209_0101-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B089",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7684036493301392,
+      "distance_euclidean_sqrt": 0.8765863615925924,
+      "nearest_node_id": "234_0117-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B090",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.720136821269989,
+      "distance_euclidean_sqrt": 0.8486087563005634,
+      "nearest_node_id": "100_0595-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B091",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6854941248893738,
+      "distance_euclidean_sqrt": 0.8279457258114047,
+      "nearest_node_id": "168_0505-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B092",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.660881519317627,
+      "distance_euclidean_sqrt": 0.8129461970620362,
+      "nearest_node_id": "215_0216-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B093",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8262963891029358,
+      "distance_euclidean_sqrt": 0.9090084648136869,
+      "nearest_node_id": "369_0438-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B094",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7485967874526978,
+      "distance_euclidean_sqrt": 0.8652148793523478,
+      "nearest_node_id": "293_0388-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B095",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7528961896896362,
+      "distance_euclidean_sqrt": 0.8676959085357244,
+      "nearest_node_id": "96_0037-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B096",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.6808362007141113,
+      "distance_euclidean_sqrt": 0.825127990504571,
+      "nearest_node_id": "435_0519-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B097",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7568112015724182,
+      "distance_euclidean_sqrt": 0.8699489649240455,
+      "nearest_node_id": "332_0194-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B098",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7854090332984924,
+      "distance_euclidean_sqrt": 0.8862330581164823,
+      "nearest_node_id": "209_0101-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B099",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.7782933712005615,
+      "distance_euclidean_sqrt": 0.8822093692545787,
+      "nearest_node_id": "110_0146-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "B100",
+      "category": "B_Evolutionary",
+      "distance_raw_squared": 0.8087081909179688,
+      "distance_euclidean_sqrt": 0.8992820419189792,
+      "nearest_node_id": "263_0435-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C001",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.3277256488800049,
+      "distance_euclidean_sqrt": 1.1522697812925604,
+      "nearest_node_id": "185_0403-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C002",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5552074909210205,
+      "distance_euclidean_sqrt": 1.247079584838522,
+      "nearest_node_id": "105_0659-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C003",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6346464157104492,
+      "distance_euclidean_sqrt": 1.2785329153801435,
+      "nearest_node_id": "208_0274-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C004",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5139586925506592,
+      "distance_euclidean_sqrt": 1.230430287562306,
+      "nearest_node_id": "91_0021-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C005",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6692779064178467,
+      "distance_euclidean_sqrt": 1.2920053817294441,
+      "nearest_node_id": "95_0242-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C006",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5662422180175781,
+      "distance_euclidean_sqrt": 1.2514959920101933,
+      "nearest_node_id": "145_0192-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C007",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6627328395843506,
+      "distance_euclidean_sqrt": 1.2894699839796002,
+      "nearest_node_id": "155_0311-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C008",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.55716872215271,
+      "distance_euclidean_sqrt": 1.2478656667096462,
+      "nearest_node_id": "185_0112-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C009",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.4518524408340454,
+      "distance_euclidean_sqrt": 1.2049283965589181,
+      "nearest_node_id": "159_0465-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C010",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6352198123931885,
+      "distance_euclidean_sqrt": 1.2787571358132037,
+      "nearest_node_id": "156_0391-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C011",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.559038519859314,
+      "distance_euclidean_sqrt": 1.2486146402550764,
+      "nearest_node_id": "263_0100-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C012",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.3691625595092773,
+      "distance_euclidean_sqrt": 1.1701121995386927,
+      "nearest_node_id": "86_0125-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C013",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5060898065567017,
+      "distance_euclidean_sqrt": 1.2272285062516686,
+      "nearest_node_id": "234_0548-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C014",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.7270317077636719,
+      "distance_euclidean_sqrt": 1.314165783972354,
+      "nearest_node_id": "151_0362-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C015",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.7087867259979248,
+      "distance_euclidean_sqrt": 1.307205693836255,
+      "nearest_node_id": "159_0317-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C016",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9788393378257751,
+      "distance_euclidean_sqrt": 0.9893630970608188,
+      "nearest_node_id": "303_0068-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C017",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.2088007926940918,
+      "distance_euclidean_sqrt": 1.0994547706450193,
+      "nearest_node_id": "413_0376-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C018",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.008414626121521,
+      "distance_euclidean_sqrt": 1.0041984993623128,
+      "nearest_node_id": "341_0123-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C019",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9399783611297607,
+      "distance_euclidean_sqrt": 0.9695248120237876,
+      "nearest_node_id": "165_0379-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C020",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9342595338821411,
+      "distance_euclidean_sqrt": 0.966571018540356,
+      "nearest_node_id": "130_0291-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C021",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9302539229393005,
+      "distance_euclidean_sqrt": 0.9644967200251645,
+      "nearest_node_id": "238_0254-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C022",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9965004920959473,
+      "distance_euclidean_sqrt": 0.9982487125440971,
+      "nearest_node_id": "253_0350-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C023",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.1006945371627808,
+      "distance_euclidean_sqrt": 1.0491399035223,
+      "nearest_node_id": "188_0626-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C024",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.8949005603790283,
+      "distance_euclidean_sqrt": 0.9459918394886017,
+      "nearest_node_id": "168_0104-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C025",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9634591937065125,
+      "distance_euclidean_sqrt": 0.9815595721638664,
+      "nearest_node_id": "189_0086-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C026",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9606150984764099,
+      "distance_euclidean_sqrt": 0.9801097379765237,
+      "nearest_node_id": "117_0241-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C027",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.1072977781295776,
+      "distance_euclidean_sqrt": 1.052282176096116,
+      "nearest_node_id": "382_0136-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C028",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.7932654619216919,
+      "distance_euclidean_sqrt": 0.8906545132214241,
+      "nearest_node_id": "376_0612-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C029",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9269142746925354,
+      "distance_euclidean_sqrt": 0.9627638727603646,
+      "nearest_node_id": "75_0015-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C030",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.1428325176239014,
+      "distance_euclidean_sqrt": 1.069033450189423,
+      "nearest_node_id": "350_0422-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C031",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.034873366355896,
+      "distance_euclidean_sqrt": 1.017287258524305,
+      "nearest_node_id": "447_0255-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C032",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.1380400657653809,
+      "distance_euclidean_sqrt": 1.0667896070760068,
+      "nearest_node_id": "310_0344-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C033",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9820718169212341,
+      "distance_euclidean_sqrt": 0.9909953667506394,
+      "nearest_node_id": "329_0531-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C034",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.0020427703857422,
+      "distance_euclidean_sqrt": 1.0010208641111045,
+      "nearest_node_id": "417_0369-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C035",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.0291718244552612,
+      "distance_euclidean_sqrt": 1.0144810616543125,
+      "nearest_node_id": "409_0205-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C036",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.0226185321807861,
+      "distance_euclidean_sqrt": 1.0112460295006285,
+      "nearest_node_id": "142_0664-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C037",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.0495539903640747,
+      "distance_euclidean_sqrt": 1.0244774230621554,
+      "nearest_node_id": "263_0361-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C038",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.2331697940826416,
+      "distance_euclidean_sqrt": 1.1104817846694477,
+      "nearest_node_id": "242_0526-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C039",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.9913365840911865,
+      "distance_euclidean_sqrt": 0.9956588693378805,
+      "nearest_node_id": "261_0374-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C040",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.2789230346679688,
+      "distance_euclidean_sqrt": 1.1308947938106217,
+      "nearest_node_id": "431_0494-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C041",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.0428099632263184,
+      "distance_euclidean_sqrt": 1.0211806711969817,
+      "nearest_node_id": "437_0617-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C042",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.2309473752975464,
+      "distance_euclidean_sqrt": 1.1094806781992854,
+      "nearest_node_id": "242_0526-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C043",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.0913147926330566,
+      "distance_euclidean_sqrt": 1.0446601325948341,
+      "nearest_node_id": "299_0059-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C044",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 0.8475180864334106,
+      "distance_euclidean_sqrt": 0.9206074551259134,
+      "nearest_node_id": "436_0499-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C045",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.182364583015442,
+      "distance_euclidean_sqrt": 1.0873658919680358,
+      "nearest_node_id": "369_0643-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C046",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6493607759475708,
+      "distance_euclidean_sqrt": 1.2842744161383777,
+      "nearest_node_id": "358_0283-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C047",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5685540437698364,
+      "distance_euclidean_sqrt": 1.252419276348714,
+      "nearest_node_id": "294_0317-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C048",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.508154034614563,
+      "distance_euclidean_sqrt": 1.2280692303834353,
+      "nearest_node_id": "434_0949-05",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C049",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.637795329093933,
+      "distance_euclidean_sqrt": 1.2797637786302334,
+      "nearest_node_id": "243_0502-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C050",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6310415267944336,
+      "distance_euclidean_sqrt": 1.2771223617157572,
+      "nearest_node_id": "185_0403-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C051",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5102393627166748,
+      "distance_euclidean_sqrt": 1.2289179641931656,
+      "nearest_node_id": "365_0293-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C052",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6162748336791992,
+      "distance_euclidean_sqrt": 1.2713279803729638,
+      "nearest_node_id": "341_0494-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C053",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5363233089447021,
+      "distance_euclidean_sqrt": 1.239485098314902,
+      "nearest_node_id": "440_0410-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C054",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.6495660543441772,
+      "distance_euclidean_sqrt": 1.2843543336416852,
+      "nearest_node_id": "284_0239-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C055",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.4221478700637817,
+      "distance_euclidean_sqrt": 1.1925384145023512,
+      "nearest_node_id": "318_0643-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C056",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.328026533126831,
+      "distance_euclidean_sqrt": 1.1524003354419987,
+      "nearest_node_id": "363_0166-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C057",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5755445957183838,
+      "distance_euclidean_sqrt": 1.255206993176179,
+      "nearest_node_id": "86_0073-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C058",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5576496124267578,
+      "distance_euclidean_sqrt": 1.248058336948541,
+      "nearest_node_id": "199_0325-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C059",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5959813594818115,
+      "distance_euclidean_sqrt": 1.2633215582272834,
+      "nearest_node_id": "405_0313-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C060",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.5603283643722534,
+      "distance_euclidean_sqrt": 1.2491310437148913,
+      "nearest_node_id": "60_0224-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C061",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.3401683568954468,
+      "distance_euclidean_sqrt": 1.1576564070981712,
+      "nearest_node_id": "300_0216-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C062",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.1400611400604248,
+      "distance_euclidean_sqrt": 1.06773645627581,
+      "nearest_node_id": "383_0272-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C063",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.3406593799591064,
+      "distance_euclidean_sqrt": 1.1578684640144175,
+      "nearest_node_id": "280_0197-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C064",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.4670875072479248,
+      "distance_euclidean_sqrt": 1.211233878013625,
+      "nearest_node_id": "305_0357-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C065",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.3385497331619263,
+      "distance_euclidean_sqrt": 1.156957100830418,
+      "nearest_node_id": "369_0672-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C066",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.4058774709701538,
+      "distance_euclidean_sqrt": 1.1856970401287816,
+      "nearest_node_id": "304_0282-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C067",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.1701924800872803,
+      "distance_euclidean_sqrt": 1.081754352931977,
+      "nearest_node_id": "268_0536-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C068",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.3858716487884521,
+      "distance_euclidean_sqrt": 1.177230499430104,
+      "nearest_node_id": "336_0410-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C069",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.3661823272705078,
+      "distance_euclidean_sqrt": 1.16883802439453,
+      "nearest_node_id": "305_0357-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C070",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.4363821744918823,
+      "distance_euclidean_sqrt": 1.1984916247066069,
+      "nearest_node_id": "260_0512-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C071",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.434644103050232,
+      "distance_euclidean_sqrt": 1.1977662973427796,
+      "nearest_node_id": "364_0122-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C072",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.2710692882537842,
+      "distance_euclidean_sqrt": 1.1274170870861344,
+      "nearest_node_id": "320_0344-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C073",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.4250165224075317,
+      "distance_euclidean_sqrt": 1.193740559086241,
+      "nearest_node_id": "87_0655-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C074",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.2684054374694824,
+      "distance_euclidean_sqrt": 1.1262350720295842,
+      "nearest_node_id": "338_0096-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "C075",
+      "category": "C_OutOfContext",
+      "distance_raw_squared": 1.301578164100647,
+      "distance_euclidean_sqrt": 1.1408672859279676,
+      "nearest_node_id": "348_0434-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D001",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.45972394943237305,
+      "distance_euclidean_sqrt": 0.6780294605932496,
+      "nearest_node_id": "163_0537-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D002",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8241822123527527,
+      "distance_euclidean_sqrt": 0.9078448173298962,
+      "nearest_node_id": "320_0293-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D003",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8720011115074158,
+      "distance_euclidean_sqrt": 0.9338099975409428,
+      "nearest_node_id": "112_0094-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D004",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8471230864524841,
+      "distance_euclidean_sqrt": 0.9203928978716014,
+      "nearest_node_id": "312_0100-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D005",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7779446244239807,
+      "distance_euclidean_sqrt": 0.8820116917728362,
+      "nearest_node_id": "261_0525-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D006",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7245988845825195,
+      "distance_euclidean_sqrt": 0.8512337426245036,
+      "nearest_node_id": "310_0586-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D007",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8652441501617432,
+      "distance_euclidean_sqrt": 0.9301850085664374,
+      "nearest_node_id": "233_0685-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D008",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7568070888519287,
+      "distance_euclidean_sqrt": 0.8699466011497078,
+      "nearest_node_id": "336_0245-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D009",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7966260313987732,
+      "distance_euclidean_sqrt": 0.8925390923644595,
+      "nearest_node_id": "250_0459-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D010",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6318550109863281,
+      "distance_euclidean_sqrt": 0.7948930814809801,
+      "nearest_node_id": "298_0238-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D011",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7298929691314697,
+      "distance_euclidean_sqrt": 0.8543377371575422,
+      "nearest_node_id": "75_0603-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D012",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6103114485740662,
+      "distance_euclidean_sqrt": 0.7812243266655655,
+      "nearest_node_id": "323_0214-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D013",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.4222530126571655,
+      "distance_euclidean_sqrt": 0.6498099819617774,
+      "nearest_node_id": "338_0025-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D014",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6723052859306335,
+      "distance_euclidean_sqrt": 0.8199422454847863,
+      "nearest_node_id": "316_0455-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D015",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.705724835395813,
+      "distance_euclidean_sqrt": 0.8400743034969067,
+      "nearest_node_id": "211_0078-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D016",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7991812229156494,
+      "distance_euclidean_sqrt": 0.8939693635218432,
+      "nearest_node_id": "277_0438-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D017",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7056378722190857,
+      "distance_euclidean_sqrt": 0.8400225426850673,
+      "nearest_node_id": "106_0583-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D018",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6239873766899109,
+      "distance_euclidean_sqrt": 0.7899287162079316,
+      "nearest_node_id": "277_0350-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D019",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7618356943130493,
+      "distance_euclidean_sqrt": 0.8728319966139242,
+      "nearest_node_id": "273_0418-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D020",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.5807898044586182,
+      "distance_euclidean_sqrt": 0.7620956662116759,
+      "nearest_node_id": "378_0478-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D021",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6008880138397217,
+      "distance_euclidean_sqrt": 0.7751696677758501,
+      "nearest_node_id": "367_0643-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D022",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6007787585258484,
+      "distance_euclidean_sqrt": 0.7750991927010686,
+      "nearest_node_id": "392_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D023",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.4652518630027771,
+      "distance_euclidean_sqrt": 0.6820937347628822,
+      "nearest_node_id": "384_0436-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D024",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8304861783981323,
+      "distance_euclidean_sqrt": 0.9113101439126705,
+      "nearest_node_id": "377_0350-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D025",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8015588521957397,
+      "distance_euclidean_sqrt": 0.8952981917750866,
+      "nearest_node_id": "218_0400-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D026",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7565768361091614,
+      "distance_euclidean_sqrt": 0.8698142537974193,
+      "nearest_node_id": "388_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D027",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8098662495613098,
+      "distance_euclidean_sqrt": 0.8999256911330568,
+      "nearest_node_id": "390_0727-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D028",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7667140960693359,
+      "distance_euclidean_sqrt": 0.8756221194495579,
+      "nearest_node_id": "441_0153-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D029",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8125953674316406,
+      "distance_euclidean_sqrt": 0.9014407176468349,
+      "nearest_node_id": "395_0444-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D030",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8782814741134644,
+      "distance_euclidean_sqrt": 0.9371667269560227,
+      "nearest_node_id": "414_0105-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D031",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7067992687225342,
+      "distance_euclidean_sqrt": 0.8407135473646979,
+      "nearest_node_id": "314_0534-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D032",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7327103614807129,
+      "distance_euclidean_sqrt": 0.8559850240983851,
+      "nearest_node_id": "370_0405-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D033",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6273524761199951,
+      "distance_euclidean_sqrt": 0.7920558541668605,
+      "nearest_node_id": "377_0665-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D034",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.9178708791732788,
+      "distance_euclidean_sqrt": 0.9580557808255628,
+      "nearest_node_id": "369_0186-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D035",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7748956084251404,
+      "distance_euclidean_sqrt": 0.8802815506558912,
+      "nearest_node_id": "366_0259-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D036",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8205394148826599,
+      "distance_euclidean_sqrt": 0.9058363068914052,
+      "nearest_node_id": "418_0683-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D037",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6006531119346619,
+      "distance_euclidean_sqrt": 0.7750181365198249,
+      "nearest_node_id": "349_0294-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D038",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7777799963951111,
+      "distance_euclidean_sqrt": 0.8819183615250966,
+      "nearest_node_id": "198_0045-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D039",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7053640484809875,
+      "distance_euclidean_sqrt": 0.8398595409239497,
+      "nearest_node_id": "60_0393-02",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D040",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.4863206446170807,
+      "distance_euclidean_sqrt": 0.697366936853964,
+      "nearest_node_id": "62_0506-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D041",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8692815899848938,
+      "distance_euclidean_sqrt": 0.932352717583262,
+      "nearest_node_id": "361_0281-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D042",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7555128931999207,
+      "distance_euclidean_sqrt": 0.8692024466140904,
+      "nearest_node_id": "75_0603-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D043",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6910253167152405,
+      "distance_euclidean_sqrt": 0.8312793253264756,
+      "nearest_node_id": "111_0746-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D044",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7634240388870239,
+      "distance_euclidean_sqrt": 0.873741402754284,
+      "nearest_node_id": "404_0282-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D045",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.5828372836112976,
+      "distance_euclidean_sqrt": 0.7634378059876898,
+      "nearest_node_id": "88_0162-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D046",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7648091316223145,
+      "distance_euclidean_sqrt": 0.8745336652309701,
+      "nearest_node_id": "92_0542-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D047",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.693322479724884,
+      "distance_euclidean_sqrt": 0.8326598823798851,
+      "nearest_node_id": "227_0504-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D048",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6379906535148621,
+      "distance_euclidean_sqrt": 0.7987431711851201,
+      "nearest_node_id": "425_0840-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D049",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.829226016998291,
+      "distance_euclidean_sqrt": 0.9106184804836167,
+      "nearest_node_id": "393_0544-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D050",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7102822661399841,
+      "distance_euclidean_sqrt": 0.8427824548126189,
+      "nearest_node_id": "118_0394-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D051",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6994272470474243,
+      "distance_euclidean_sqrt": 0.8363176711318638,
+      "nearest_node_id": "321_0403-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D052",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7314960360527039,
+      "distance_euclidean_sqrt": 0.8552754153211138,
+      "nearest_node_id": "254_0038-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D053",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8371725082397461,
+      "distance_euclidean_sqrt": 0.9149713155283864,
+      "nearest_node_id": "156_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D054",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7489737272262573,
+      "distance_euclidean_sqrt": 0.8654326820881317,
+      "nearest_node_id": "157_0429-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D055",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.9417020082473755,
+      "distance_euclidean_sqrt": 0.9704133182553584,
+      "nearest_node_id": "106_0124-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D056",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6710062026977539,
+      "distance_euclidean_sqrt": 0.8191496827184601,
+      "nearest_node_id": "171_0505-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D057",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.808208703994751,
+      "distance_euclidean_sqrt": 0.8990042847477152,
+      "nearest_node_id": "198_0045-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D058",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8301095366477966,
+      "distance_euclidean_sqrt": 0.9111034719765898,
+      "nearest_node_id": "92_0542-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D059",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7869735956192017,
+      "distance_euclidean_sqrt": 0.8871153226154994,
+      "nearest_node_id": "83_0130-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D060",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.5707115530967712,
+      "distance_euclidean_sqrt": 0.7554545341029937,
+      "nearest_node_id": "88_0162-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D061",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.9013151526451111,
+      "distance_euclidean_sqrt": 0.9493761913199167,
+      "nearest_node_id": "137_0496-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D062",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.706031084060669,
+      "distance_euclidean_sqrt": 0.8402565584752486,
+      "nearest_node_id": "106_0583-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D063",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.9197227954864502,
+      "distance_euclidean_sqrt": 0.9590217909341008,
+      "nearest_node_id": "97_0013-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D064",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7220457792282104,
+      "distance_euclidean_sqrt": 0.849732769303509,
+      "nearest_node_id": "130_0581-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D065",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6357723474502563,
+      "distance_euclidean_sqrt": 0.7973533391478689,
+      "nearest_node_id": "339_0033-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D066",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.605298638343811,
+      "distance_euclidean_sqrt": 0.7780094076190924,
+      "nearest_node_id": "163_0537-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D067",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8476181030273438,
+      "distance_euclidean_sqrt": 0.9206617745010074,
+      "nearest_node_id": "370_0405-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D068",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8348047137260437,
+      "distance_euclidean_sqrt": 0.9136764819814746,
+      "nearest_node_id": "188_0321-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D069",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7835986614227295,
+      "distance_euclidean_sqrt": 0.8852110829755406,
+      "nearest_node_id": "197_0011-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D070",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6393230557441711,
+      "distance_euclidean_sqrt": 0.7995767979025974,
+      "nearest_node_id": "195_0027-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D071",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.6025995016098022,
+      "distance_euclidean_sqrt": 0.7762728267882383,
+      "nearest_node_id": "198_0045-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D072",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.577323317527771,
+      "distance_euclidean_sqrt": 0.7598179502537242,
+      "nearest_node_id": "208_0412-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D073",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.8934935927391052,
+      "distance_euclidean_sqrt": 0.9452479001505929,
+      "nearest_node_id": "245_0366-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D074",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.7712194919586182,
+      "distance_euclidean_sqrt": 0.8781910338637136,
+      "nearest_node_id": "274_0200-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "query_id": "D075",
+      "category": "D_Adversarial",
+      "distance_raw_squared": 0.5720803737640381,
+      "distance_euclidean_sqrt": 0.7563599498678113,
+      "nearest_node_id": "167_0479-01",
+      "anomaly_flag": "none"
+    }
+  ],
+  "legacy_sample20_query_ledger": [
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A01",
+      "source_field": "id",
+      "query_sha256": "cb80678bbba11ef783bd85b1f4e7b3cd180b29c2c4b625453c349c0245f9ccdb",
+      "distance_raw_squared": 0.616833508014679,
+      "distance_euclidean_sqrt": 0.7853874890871887,
+      "nearest_node_id": "163_0537-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A02",
+      "source_field": "id",
+      "query_sha256": "59d7396b2e4d0f5adb3f1ef6eef5bbbb4e46f6bad9c3d7077acdb6f9acf33cc4",
+      "distance_raw_squared": 0.6365702152252197,
+      "distance_euclidean_sqrt": 0.7978535048649092,
+      "nearest_node_id": "163_0537-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A03",
+      "source_field": "id",
+      "query_sha256": "7602d848515843be0d123aa1b8a189cdc4edb8e52f863e497e81ce194a8ff07c",
+      "distance_raw_squared": 0.45655426383018494,
+      "distance_euclidean_sqrt": 0.6756879929599052,
+      "nearest_node_id": "349_0294-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A04",
+      "source_field": "id",
+      "query_sha256": "d1164cf557be2fed5318848cc3fc1a4c093faa0f37ab576b6db01c44c1ae2668",
+      "distance_raw_squared": 0.7142238616943359,
+      "distance_euclidean_sqrt": 0.8451176614497746,
+      "nearest_node_id": "238_0264-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A05",
+      "source_field": "id",
+      "query_sha256": "6f13759095542e154452b9a3dc5be1a5b7c5d241f687ee608e8ce16a53f457fb",
+      "distance_raw_squared": 0.6611903309822083,
+      "distance_euclidean_sqrt": 0.8131361085219425,
+      "nearest_node_id": "349_0294-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A06",
+      "source_field": "id",
+      "query_sha256": "cb036c6fa297a9450132e895a99ba11b730726b45bbbcd470e5b805021bb443c",
+      "distance_raw_squared": 0.6690708994865417,
+      "distance_euclidean_sqrt": 0.8179675418294675,
+      "nearest_node_id": "60_0393-02",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A07",
+      "source_field": "id",
+      "query_sha256": "e20c3a04afb2057c96abb6ca7294c600068034fc2e6d381d9e966599bfcabf39",
+      "distance_raw_squared": 1.131432056427002,
+      "distance_euclidean_sqrt": 1.0636879506824368,
+      "nearest_node_id": "141_0419-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A08",
+      "source_field": "id",
+      "query_sha256": "d599a4941f87f821438d30eed748dc1832c09976ce96301744dc40a6bd8d7aed",
+      "distance_raw_squared": 0.4765191078186035,
+      "distance_euclidean_sqrt": 0.6903036345106431,
+      "nearest_node_id": "347_0483-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A09",
+      "source_field": "id",
+      "query_sha256": "29c05809b2c42634f7da4b28e9b30947f9f4fc086bd99e174dadb778aba247b7",
+      "distance_raw_squared": 0.9221034049987793,
+      "distance_euclidean_sqrt": 0.9602621543093216,
+      "nearest_node_id": "312_0600-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_A10",
+      "source_field": "id",
+      "query_sha256": "d7e7022dedcb77abe48094139f70b6ffa4eb9b4b273e24b507e6dc1117b9fdcd",
+      "distance_raw_squared": 0.8485363721847534,
+      "distance_euclidean_sqrt": 0.9211603401062995,
+      "nearest_node_id": "402_0962-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B01",
+      "source_field": "id",
+      "query_sha256": "2b10785fc6e0ab3a2f696de67dc88321156c3c901338cd24844ecde0e09daee6",
+      "distance_raw_squared": 0.4465731978416443,
+      "distance_euclidean_sqrt": 0.6682613245143282,
+      "nearest_node_id": "349_0294-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B02",
+      "source_field": "id",
+      "query_sha256": "51d6d5d6544c315e372c708f0552d597cb3b8a8619d2ea9aa80fc1a2abde3423",
+      "distance_raw_squared": 1.0976523160934448,
+      "distance_euclidean_sqrt": 1.0476890359708098,
+      "nearest_node_id": "84_0586-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B03",
+      "source_field": "id",
+      "query_sha256": "6e33f5775ffe48e6f8e73797b75c3e0c5d356845435e10f7ff8afa6f3a48da09",
+      "distance_raw_squared": 0.5398943424224854,
+      "distance_euclidean_sqrt": 0.7347750284423697,
+      "nearest_node_id": "347_0483-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B04",
+      "source_field": "id",
+      "query_sha256": "9f4c8c5e1ebd47c244a9ca12103d6079c25ec19e398cecc79f02993302bfc784",
+      "distance_raw_squared": 0.6639296412467957,
+      "distance_euclidean_sqrt": 0.8148187781628475,
+      "nearest_node_id": "109_0003-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B05",
+      "source_field": "id",
+      "query_sha256": "9c8980abc300f1aa825473520470f9cc81b7e2cd2da00a32155a1e0488ac003d",
+      "distance_raw_squared": 0.5508067011833191,
+      "distance_euclidean_sqrt": 0.7421635272521273,
+      "nearest_node_id": "347_0483-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B06",
+      "source_field": "id",
+      "query_sha256": "05224442dc1b46e882eaa29a015afdb47ee62b4bab44d59a6862949b24c1df9d",
+      "distance_raw_squared": 0.8317216038703918,
+      "distance_euclidean_sqrt": 0.9119877213375144,
+      "nearest_node_id": "432_0404-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B07",
+      "source_field": "id",
+      "query_sha256": "efa372de32fb81f8080c80948eb1e6eaa440ba868901ede0cbad1cbe63bfd746",
+      "distance_raw_squared": 0.6474646329879761,
+      "distance_euclidean_sqrt": 0.8046518706794734,
+      "nearest_node_id": "358_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B08",
+      "source_field": "id",
+      "query_sha256": "c8e4d700b4572b3e4c868f2ca807d2ba860842b9a37542ddf89176d0a5993702",
+      "distance_raw_squared": 0.8743477463722229,
+      "distance_euclidean_sqrt": 0.9350656374673507,
+      "nearest_node_id": "339_0629-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B09",
+      "source_field": "id",
+      "query_sha256": "a2308b205650bff14b78a48ce7033c316af4a0fab1a7aea24095b903d0168c81",
+      "distance_raw_squared": 0.8815245628356934,
+      "distance_euclidean_sqrt": 0.9388953950444604,
+      "nearest_node_id": "266_0497-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_in_20",
+      "query_id": "S1_B10",
+      "source_field": "id",
+      "query_sha256": "7cac6941ff03d1e0b534ba838644911b153bb3d83a546d440c45aa31dbb1cd6d",
+      "distance_raw_squared": 0.6608816981315613,
+      "distance_euclidean_sqrt": 0.8129463070409763,
+      "nearest_node_id": "347_0483-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C01",
+      "source_field": "id",
+      "query_sha256": "20f9528d68cd06a67d22186695e9ba45592c453c48a4ada7c7c977eb67aff4fb",
+      "distance_raw_squared": 0.3593091070652008,
+      "distance_euclidean_sqrt": 0.5994239793878794,
+      "nearest_node_id": "384_0436-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C02",
+      "source_field": "id",
+      "query_sha256": "91907b40567a08ba0c64ff89ff8df21840298709aaeb5fe687abbcc156237898",
+      "distance_raw_squared": 0.6947881579399109,
+      "distance_euclidean_sqrt": 0.8335395359189094,
+      "nearest_node_id": "410_0113-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C03",
+      "source_field": "id",
+      "query_sha256": "48c1739f34ee13903b2e179e7aa2109486b762dda15e0260eae4cb8bb7a835c8",
+      "distance_raw_squared": 0.7157633304595947,
+      "distance_euclidean_sqrt": 0.8460279726224156,
+      "nearest_node_id": "74_0347-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C04",
+      "source_field": "id",
+      "query_sha256": "d18cffca32c647eb0e00c1722ae688c8ac0e89aa3b86659820b8fae36337b50b",
+      "distance_raw_squared": 0.649936318397522,
+      "distance_euclidean_sqrt": 0.8061862802091846,
+      "nearest_node_id": "390_0727-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C05",
+      "source_field": "id",
+      "query_sha256": "dcb682fdf8f07435ae4bfc575179d1cbe540702d130bc5c63d4b0864c4f960e7",
+      "distance_raw_squared": 0.8001789450645447,
+      "distance_euclidean_sqrt": 0.8945272187387842,
+      "nearest_node_id": "422_0066-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C06",
+      "source_field": "id",
+      "query_sha256": "3718dc0daaf3eed7141af2e9bcce9e32c4e50b3cfe6a116251ff4666acb97877",
+      "distance_raw_squared": 0.9472429752349854,
+      "distance_euclidean_sqrt": 0.9732640829882634,
+      "nearest_node_id": "155_0303-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C07",
+      "source_field": "id",
+      "query_sha256": "abdb243e94ed6b4aab5b860bfb53e460c15b5c45b89e383b021e19e83c40319f",
+      "distance_raw_squared": 0.7992709875106812,
+      "distance_euclidean_sqrt": 0.8940195677448459,
+      "nearest_node_id": "383_0001-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C08",
+      "source_field": "id",
+      "query_sha256": "216168d8d5dca4ff1bd2092b0de385a3e4a736e1e135e73cc34fb6d4d0a20eb8",
+      "distance_raw_squared": 1.3476612567901611,
+      "distance_euclidean_sqrt": 1.1608881327630847,
+      "nearest_node_id": "405_0015-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C09",
+      "source_field": "id",
+      "query_sha256": "13f8db27d46ac4f2b8fb4e561c45bcd196b54250d356f25696c71585293be578",
+      "distance_raw_squared": 1.7291595935821533,
+      "distance_euclidean_sqrt": 1.3149751304044321,
+      "nearest_node_id": "409_0488-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S1_C10",
+      "source_field": "id",
+      "query_sha256": "e06813bf837198124072bdd4f5b1886f447b1f84927f19b028fef0f55b9c54c4",
+      "distance_raw_squared": 1.4730929136276245,
+      "distance_euclidean_sqrt": 1.2137103911673595,
+      "nearest_node_id": "315_0289-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C11",
+      "source_field": "id",
+      "query_sha256": "17fed05cf922a5cb174ca59745e36647f7f9ade35175a67f2ec33cadc82ef239",
+      "distance_raw_squared": 0.7788397073745728,
+      "distance_euclidean_sqrt": 0.8825189558160056,
+      "nearest_node_id": "350_0422-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C12",
+      "source_field": "id",
+      "query_sha256": "705c8366f7eb988e28edbcd5fb679a0a0c5f6b7d5637e9afeb4c51f943d5b916",
+      "distance_raw_squared": 0.7331476211547852,
+      "distance_euclidean_sqrt": 0.8562403991606476,
+      "nearest_node_id": "404_0097-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C13",
+      "source_field": "id",
+      "query_sha256": "84c6891599a463b973331cd70cdbb7f325e40bc4038c772b0b6e333828be2e20",
+      "distance_raw_squared": 0.9159637093544006,
+      "distance_euclidean_sqrt": 0.9570599298656279,
+      "nearest_node_id": "298_0553-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C14",
+      "source_field": "id",
+      "query_sha256": "0d307411697bea84b9ca3c640469dfc7d868d65ea918d6eb283d3876cf3a2baf",
+      "distance_raw_squared": 0.9910755157470703,
+      "distance_euclidean_sqrt": 0.9955277573965833,
+      "nearest_node_id": "313_0387-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C15",
+      "source_field": "id",
+      "query_sha256": "8d928e78e8a8fa3c535e14d79e5b353828fcdfe01c053ed1c09388941f728813",
+      "distance_raw_squared": 0.7579672336578369,
+      "distance_euclidean_sqrt": 0.8706131366214485,
+      "nearest_node_id": "389_0902-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C16",
+      "source_field": "id",
+      "query_sha256": "61a5c9632e5eb2b13c2eccf910a596b4913be69a3e598758729c244472e9605a",
+      "distance_raw_squared": 0.8326152563095093,
+      "distance_euclidean_sqrt": 0.9124775374273656,
+      "nearest_node_id": "101_0384-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C17",
+      "source_field": "id",
+      "query_sha256": "2f9d6b9d8ade954ee5276f4298e5e76c7a95107222d0a96b0873afcaab6cdc41",
+      "distance_raw_squared": 1.02215576171875,
+      "distance_euclidean_sqrt": 1.0110171916039559,
+      "nearest_node_id": "283_0420-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C18",
+      "source_field": "id",
+      "query_sha256": "e59a2ca5c6cc0860cccef5cfd2d85cc96a3339cba459a944616c1df3573cf0bd",
+      "distance_raw_squared": 1.618923306465149,
+      "distance_euclidean_sqrt": 1.2723691706675186,
+      "nearest_node_id": "286_0437-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C19",
+      "source_field": "id",
+      "query_sha256": "216179bb728e1f251c1a6da0e1648fb31dbe271205351973149587ba3ab2112f",
+      "distance_raw_squared": 1.3919041156768799,
+      "distance_euclidean_sqrt": 1.179789860812882,
+      "nearest_node_id": "73_0611-01",
+      "anomaly_flag": "none"
+    },
+    {
+      "cohort": "sample_out_20",
+      "query_id": "S2_C20",
+      "source_field": "id",
+      "query_sha256": "54114f6b5b8fbfe5218a179602ec2a9e0fc83d0711ad3a17d31e4e625005f487",
+      "distance_raw_squared": 1.5375020503997803,
+      "distance_euclidean_sqrt": 1.2399605035644403,
+      "nearest_node_id": "446_0156-01",
+      "anomaly_flag": "none"
+    }
+  ]
+}

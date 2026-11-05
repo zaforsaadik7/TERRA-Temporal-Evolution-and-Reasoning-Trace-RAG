@@ -1,0 +1,111 @@
+S14
+Full detail for main Table XI
+Generative Citation Correctness, Doctrinal Support, and Interactive Hyperlink Provenance Across Comparative Pipelines on Category B (N = 100 Queries, 342 Gold Landmark
+Precedents) and the Canonical 350-Query Benchmark Suite. Evaluates end-to-end citation fidelity directly in the synthesized completions. Panel A reports precedent citation
+recall, entity existence precision (CPentity), judge-weighted doctrinal support precision (CPdoctrinal), and full-chain citation recovery on Category B. Panel B reports interactive
+relative markdown hyperlink attribution and piecewise epistemic negative containment across the 350-benchmark suite.
+Panel A: Category B Multi-Hop Precedent Citation Performance (N = 100 Queries, 342 Gold Precedents)
+Pipeline Architecture
+Macro CR ↑
+Micro CR ↑
+Entity CP ↑
+Doctrinal CP ↑
+Citation F1 ↑
+Full Paths Cited
+Path Citation Lift
+Direct LLM (meta-llama-3-3-70b)
+43.55%
+42.40%
+90.27%
+7.08%
+12.17%
+1/100
+Baseline (1.00×)
+Flat Vector RAG (ChromaDB)
+41.88%
+40.94%
+90.05%
+14.15%
+21.15%
+2/100
+2.00× vs. Direct
+GraphRAG-Adapted (Modularity)
+41.10%
+40.06%
+89.10%
+6.29%
+10.91%
+0/100
+0.00× vs. Direct
+HippoRAG-Adapted (PPR)
+43.88%
+42.69%
+89.45%
+9.06%
+15.02%
+4/100
+4.00× vs. Direct
+Full TERRA (2-Hop EEG GraphRAG)
+57.85%
+55.56%
+74.25%
+9.30%
+16.02%
+23/100
+23.00× vs. Direct (5.75× vs. Hippo)
+Panel B: Dynamic Interactive Hyperlink Attribution & Epistemic Negative Containment (Full 350-Benchmark Suite)
+Pipeline Architecture
+Interactive Links Emitted Link Resolution Rate ↑Semantic Node Fidelity ↑Broken / Padding Links Cat C Citations ↓Cat C Clean Refusals ↑
+Cat C Precision ↑
+Direct LLM (meta-llama-3-3-70b)
+0
+N/A
+N/A
+0
+7
+71/75
+94.67%
+Flat Vector RAG (ChromaDB)
+0
+N/A
+N/A
+0
+102
+9/75
+12.00%
+GraphRAG-Adapted (Modularity)
+0
+N/A
+N/A
+0
+5
+72/75
+96.00%
+HippoRAG-Adapted (PPR)
+0
+N/A
+N/A
+0
+21
+65/75
+86.67%
+Full TERRA (2-Hop EEG GraphRAG)
+664
+99.40%
+97.44%
+4†
+0
+75/75
+100.00%
+Notes: Evaluates citation correctness and explainable AI attribution directly in the final generated text across the canonical 350-benchmark suite (1,750 comparative
+completions). Macro CR measures the average per-query recall of gold precedent milestones in Category B (N = 100, 342 total gold precedents); Micro CR evaluates
+aggregate milestone citation. Entity CP (CPentity) evaluates whether emitted citations resolve to authentic judicial opinions in the 20,000-case EEG index. Full TERRA has
+the lowest Entity CP (74.25% versus 89.10%–90.27% for the baselines). Doctrinal CP (CPdoctrinal) evaluates whether emitted citations are grounded in the retrieved context
+or gold targets, weighted by the judge faithfulness score (Faithfulness ∈[0.0, 1.0]; canonical v2 evaluation file, SHA256 prefix 95e775e2); it is a judge-weighted measure, not
+an NLI entailment test, and penalizes holding misattributions (e.g., transposing Baker and Reynolds in D033/D034). Full Paths Cited reports the number of queries where
+100% of the gold precedent chain was cited in the generated answer. On Category C unanswerable probes (N = 75, |Tq| = 0), precision is defined via the piecewise rule:
+CP(q) = 1.00 if | ˆCq| = 0 (correct null emission / safe epistemic silence), and CP(q) = 0.00 if | ˆCq| > 0 (hallucinatory emission), eliminating 0/0 division. †The 4 TERRA links
+that fail the link validator (canonical run) comprise three page-padding errors in identifiers of in-corpus cases (e.g. 301_001-01 for 301_0001-01) and one bare /case/118
+path. The validator accepts a link when its identifier exists in the index or its caption matches an indexed title or alias; 644 of 664 links have an existing identifier as written.
+All 4 baselines emit zero interactive markdown links.
+S32

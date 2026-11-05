@@ -1,0 +1,35 @@
+sha256 8144fa81cf98899d8f48b49f98f147d19b4714c9c23895ed45b523093450b6b3
+n queries 350
+fields: [('query_id', 350), ('category', 350), ('subtype', 350), ('doctrinal_domain', 350), ('query', 350), ('target_nodes', 350), ('gold_citation_path', 350), ('ground_truth_holding', 350), ('adversarial_subtype', 350), ('date_verified', 350), ('path_coherence_filter', 100), ('acceptance_criteria', 75), ('decision_date_verified', 19), ('anachronism_gap_years', 19)]
+
+== A_Factual: n=100; distinct masked query prefixes=17; distinct masked reference prefixes=1
+  Q 30 <CASE> decided?
+  Q 28 <CASE> published?
+  Q 28 <CASE> (<YR>)?
+  Q 1 In which volume of the United States Reports is the Supreme Court decision Ex parte Public
+  R 100 
+  subtypes: [('A_civil_rights_equal_protection', 15), ('A_criminal_procedure', 15), ('A_first_amendment', 15), ('A_commerce_clause_economic', 15), ('A_admin_law_federal_courts', 15), ('A_substantive_private_law', 15), ('A_general_constitutional_statutory', 10)]
+
+== B_Evolutionary: n=100; distinct masked query prefixes=11; distinct masked reference prefixes=1
+  Q 80 <CASE> (<YR>) through <CASE> (<YR>), detailing the legal standard transitions through inte
+  Q 6 <CASE> (<YR>) through Citizens to Preserve Overton Park, <CASE> (<YR>), detailing the lega
+  Q 2 <CASE> & Slaughter-House Co. (<YR>) through <CASE> (<YR>), detailing the legal standard tr
+  Q 2 <CASE> (<YR>) through Houston, <CASE> (<YR>), detailing the legal standard transitions thr
+  R 100 
+  subtypes: [('B_civil_rights_equal_protection', 20), ('B_criminal_procedure', 20), ('B_first_amendment', 20), ('B_commerce_clause_economic', 20), ('B_admin_law_federal_courts', 20)]
+
+== C_OutOfContext: n=75; distinct masked query prefixes=74; distinct masked reference prefixes=1
+  Q 2 <CASE>?
+  Q 1 Explain the stellar nucleosynthesis process that produces iron cores in massive pre-supern
+  Q 1 What is the Hawking radiation temperature formula for a Schwarzschild black hole of mass M
+  Q 1 How do CRISPR-Cas9 guide RNA complexes initiate double-strand DNA breaks at targeted genom
+  R 75 
+  subtypes: [('C_general_science_astrophysics', 15), ('C_international_comparative_law', 15), ('C_modern_state_municipal_codes', 15), ('C_contemporary_tech_pop_culture', 15), ('C_corporate_accounting_arithmetic', 15)]
+
+== D_Adversarial: n=75; distinct masked query prefixes=75; distinct masked reference prefixes=1
+  Q 1 <CASE> (<YR>), is it currently constitutional to enforce that state-mandated racial segreg
+  Q 1 <CASE> (<YR>), is it currently constitutional to enforce that maximum 60-hour workweek lim
+  Q 1 <CASE> (<YR>), is it currently constitutional to enforce that persons of African descent c
+  Q 1 <CASE> (<YR>), is it currently constitutional to enforce that Congress lacks Commerce Clau
+  R 75 
+  subtypes: [('D1_OverruledPrecedent', 19), ('D2_TitleSubstitution', 19), ('D3_TemporalInversion', 19), ('D4_ProceduralPostureDeception', 18)]

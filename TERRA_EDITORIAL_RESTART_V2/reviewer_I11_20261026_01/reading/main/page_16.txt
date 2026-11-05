@@ -1,0 +1,232 @@
+TABLE VII
+Obscure Overruled Precedent Benchmark Evaluation (N = 30 Obscure Decisions, N = 120 Completion Instances) and Cross-Suite
+Descriptive Contrast with Famous Landmark Decisions (N = 19 Category D Precedent Queries). Evaluated under strict payload parity
+with two distinct LLM judges (qwen3-next and gpt-oss, κ = 0.5746; unverified quotes flagged: 16 and 26). Panel A reports fine-grained
+outcome distributions across four evaluation arms. Panel B reports preregistered paired hypothesis tests, sequential gate enforcement, and
+sensitivity subsets. Panel C reports a descriptive cross-suite contrast comparing parametric performance on famous versus obscure
+overruled precedents. Panel D reports per-judge robustness distributions and primary paired test sensitivity.
+Panel A: Empirical Outcome Distribution Across Evaluation Arms (N = 30 Obscure Precedent Queries)
+Pipeline
+Safe Rate (k/N, % [CI]) ↑
+Rref ↑
+Rrefut ↑
+Fatal-Aﬀirmed ↓
+Fatal-Unwarned ↓
+Rhedge
+Direct LLM (No RAG)
+0/30 (0.0%, [0.0000, 0.1157])
+0
+0
+9
+15
+6
+Flat Vector RAG
+6/30 (20.0%, [0.0771, 0.3857])
+1
+5
+1
+21
+2
+TERRA-Unlabeled
+8/30 (26.7%, [0.1228, 0.4589])
+4
+4
+7
+11
+4
+Full TERRA
+19/30 (63.3%, [0.4386, 0.8007])
+4
+15
+0
+2
+9
+Panel B: Preregistered Paired Hypothesis Tests, Gate Status, and Sensitivity Subsets
+Hypothesis Contrast / Stratum
+Theoretical Scope / Mechanism
+b
+c
+Exact McNemar p
+Gate Status / Robustness Conclusion
+Preregistered Primary Test (Confirmatory Gate)
+Primary: TERRA-Unlabeled vs. Flat Vector RAG
+Unlabeled Mechanism Lift
+5
+3
+p = 0.726562
+CLOSED (Primary Not Rejected)
+Preregistered Secondary Tests (Descriptive / Unconfirmed Gate)
+Secondary: Full TERRA vs. TERRA-Unlabeled
+Graph Label Contribution
+11
+0
+p < 0.001
+CLOSED (Descriptive Only)
+Secondary: Full TERRA vs. Flat Vector RAG
+End-to-End System Lift
+13
+0
+p < 0.001
+CLOSED (Descriptive Only)
+Secondary: TERRA-Unlabeled vs. Direct LLM
+Retrieval Grounding vs. Parametric
+8
+0
+p = 0.007812
+CLOSED (Descriptive Only)
+Secondary: Flat Vector RAG vs. Direct LLM
+Baseline Retrieval vs. Parametric
+6
+0
+p = 0.031250
+CLOSED (Descriptive Only)
+Sensitivity Subsets (TERRA-Unlabeled vs. Flat Vector RAG Across Context and Subgraph Conditions)
+Empty Context Excluded (N = 28)
+Context Non-Empty Conditioning
+3
+3
+p = 1.000000
+No Significant Difference (p = 1.000000)
+Overruler Missing Excluded (N = 25)
+Overruler in Context Conditioning
+2
+3
+p = 1.000000
+No Significant Difference (p = 1.000000)
+Explicit Overruling Only (N = 12)
+Strict Explicit Overruling Language
+3
+2
+p = 1.000000
+No Significant Difference (p = 1.000000)
+Panel C: Descriptive Cross-Suite Contrast (Famous Landmark vs. Obscure Precedents)
+Pipeline
+Famous Safe (N = 19)
+Obscure Safe (N = 30)
+Risk Diff. (∆)
+Newcombe CI
+Fisher’s Exact p
+Odds Ratio (OR)
+Direct LLM (No RAG)
+15/19 (78.9%)
+0/30 (0.0%)
++79.0%
+[+53.9%, +91.5%]
+p = 2.46 × 10−9
+210.11∗
+Flat Vector RAG
+10/19 (52.6%)
+6/30 (20.0%)
++32.6%
+[+5.5%, +55.2%]
+p = 0.028
+4.44
+TERRA-Unlabeled
+15/19 (78.9%)
+8/30 (26.7%)
++52.3%
+[+23.8%, +70.0%]
+p = 4.68 × 10−4
+10.31
+Full TERRA
+14/19 (73.7%)
+19/30 (63.3%)
++10.3%
+[−16.6%, +33.3%]
+p = 0.541
+1.62
+Panel D: Per-Judge Robustness Breakdown and Primary McNemar Sensitivity
+Pipeline
+Judge One (Qwen)
+Judge Two (GPT-OSS)
+Consensus (Combined)
+Safe (k/N)
+Safe (%)
+Safe (k/N)
+Safe (%)
+Safe (k/N)
+Safe (%)
+Direct LLM (No RAG)
+6/30
+20.0%
+0/30
+0.0%
+0/30
+0.0%
+Flat Vector RAG
+7/30
+23.3%
+9/30
+30.0%
+6/30
+20.0%
+TERRA-Unlabeled
+14/30
+46.7%
+8/30
+26.7%
+8/30
+26.7%
+Full TERRA
+28/30
+93.3%
+19/30
+63.3%
+19/30
+63.3%
+Primary McNemar p
+p = 0.092285 (b = 10, c = 3)
+p = 1.000000 (b = 3, c = 4)
+p = 0.726562 (b = 5, c = 3)
+Notes: Evaluated across 120 completion instances (N = 30 obscure overruled queries across evaluated pipelines) dual-judged by
+independent models (qwen3-next and gpt-oss, κ = 0.5746, unverified quote hallucinations: 16 and 26). Safe completions comprise Rref
+(aﬀirmative recognition that precedent was overruled) and Rrefut (correct substantive refutation of query proposition under modern
+doctrine). Unsafe completions comprise Fatal-Aﬀirmed (active endorsement of overruled holding) and Fatal-Unwarned (silent reliance
+without caveat). Rhedge denotes non-committal or generic procedural disclaimers. Panel B reports preregistered primary and secondary
+paired hypothesis tests under exact McNemar testing with two-sided p-values. Per the preregistered sequential gate, because the primary
+test (TERRA-Unlabeled vs. Flat Vector RAG) is not rejected (p = 0.726562), the secondary confirmatory gates remain strictly CLOSED;
+secondary contrasts are descriptive only. Sensitivity subsets exclude queries with empty context (N = 28), missing overruler in context
+(N = 25), or non-explicit overruling holdings (N = 12). Panel C presents a descriptive cross-suite contrast between famous landmark
+precedents (N = 19) and obscure precedents (N = 30). Risk differences report two-sample difference in safe proportions with Newcombe
+hybrid score confidence intervals; p-values computed via two-sided Fisher’s exact test. Odds ratios reflect ratio of safe to unsafe odds
+between famous and obscure suites. Panel D details per-judge robustness, showing non-significance under each evaluator, which at this
+low power is not evidence of equivalence (p = 0.092285 under Judge One and p = 1.000000 under Judge Two). ∗Haldane-Anscombe
+zero-cell continuity correction applied.
+e) Cross-suite contrast (descriptive).: Full TERRA’s
+safe handling was 19/30 (63.3%) on obscure precedents
+versus 14/19 (73.7%) on the famous subset (risk difference
++10.3%, 95% CI [−16.6%, +33.3%]); Direct LLM and
+TERRA-Unlabeled fell from 15/19 (78.9%) and 15/19
+(78.9%) to 0/30 (0.0%) and 8/30 (26.7%). With N = 19
+and N
+= 30 these contrasts are descriptive; a non-
+significant difference does not establish invariance. The
+famous-subset rates use a stricter dual-judge rubric on
+nineteen items and are not comparable to the 97.3% safe-
+handling rate of Table V.
+f) Reliability.: Inter-judge agreement was Cohen’s
+κ = 0.5746 over 120 judgments; evidence quotes could not
+be verified verbatim for 16 (Judge 1) and 26 (Judge 2)
+judgments, with labels retained. Judges were not fully
+blind to arm identity because some answers reproduce
+the relation tag or carry case hyperlinks, and no licensed
+practitioner reviewed the labels (Limitation 1). A blinded
+spot-check by one author (not a licensed practitioner) of
+30 items stratified by judge disagreement, primary-test
+discordance and random selection matched the combined
+class on 16 of 16 items where the judges agreed but on
+only 4 of 14 where they disagreed. All 10 combined-class
+mismatches rated the answer safer than the severity rule
+did (Full TERRA 4, Flat Vector RAG 5, Direct LLM
+1, TERRA-Unlabeled 0), so the rule was more severe on
+those mismatches, but not uniformly across arms, which
+may affect arm contrasts; the check is not a validation of
+either judge.
+J. External
+Benchmark
+Generalization
+and
+Anti-
+Circularity Audit (CaseFacts)
+Evaluating only on researcher-constructed queries risks
+circular alignment or benchmark overfitting, so we also

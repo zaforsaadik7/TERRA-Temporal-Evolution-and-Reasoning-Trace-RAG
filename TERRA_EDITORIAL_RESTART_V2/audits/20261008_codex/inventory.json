@@ -1,0 +1,207 @@
+{
+  "main": {
+    "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\working\\build_test\\main.pdf",
+    "sha256": "abe24280f0f43c81aeda4c67cd5d164d15c37c3e8b01ad587f80e78b5e285411",
+    "pages": 24,
+    "question_mark_pages": []
+  },
+  "supplement": {
+    "path": "F:\\TERRA -Copy\\TERRA_EDITORIAL_RESTART_V2\\working\\TERRA_supplementary_removed_material.pdf",
+    "sha256": "9dcb2d41acf53fc7eb77f0ba57b89dfb62798cc80599458a3a621a14a4937e89",
+    "pages": 6,
+    "question_mark_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "batches": {
+    "2": {
+      "files": 33,
+      "snapshots": 1,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch02\\proposal\\batch02.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch02\\rev1\\batch02_rev1.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch02\\applied\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "3": {
+      "files": 29,
+      "snapshots": 1,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch03\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch03\\proposal\\batch03.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch03\\applied\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "4": {
+      "files": 10,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch04\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch04\\proposal\\batch04.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch04\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "5": {
+      "files": 10,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch05\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch05\\proposal\\batch05.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch05\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "6": {
+      "files": 12,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch06\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch06\\proposal\\batch06.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch06\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "7": {
+      "files": 12,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch07\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch07\\proposal\\batch07.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch07\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "8": {
+      "files": 13,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch08\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch08\\proposal\\batch08.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch08\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "9": {
+      "files": 14,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch09\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch09\\proposal\\batch09.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch09\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "10": {
+      "files": 14,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch10\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch10\\proposal\\batch10.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch10\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "11": {
+      "files": 14,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch11\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch11\\proposal\\batch11.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch11\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "12": {
+      "files": 13,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch12\\applied\\apply_diff.diff",
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch12\\proposal\\batch12.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch12\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "13": {
+      "files": 7,
+      "snapshots": 0,
+      "diffs": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch13\\applied\\apply_diff.diff"
+      ],
+      "hash_manifests": [
+        "TERRA_EDITORIAL_RESTART_V2\\phase3\\batch13\\EXPECTED_POST_HASHES.sha256"
+      ]
+    },
+    "14": {
+      "files": 1,
+      "snapshots": 0,
+      "diffs": [],
+      "hash_manifests": []
+    },
+    "15": {
+      "exists": false
+    },
+    "16": {
+      "exists": false
+    },
+    "17": {
+      "exists": false
+    },
+    "18": {
+      "exists": false
+    },
+    "19": {
+      "exists": false
+    },
+    "20": {
+      "exists": false
+    },
+    "21": {
+      "exists": false
+    },
+    "22": {
+      "exists": false
+    },
+    "23": {
+      "exists": false
+    },
+    "24": {
+      "exists": false
+    },
+    "25": {
+      "exists": false
+    },
+    "26": {
+      "exists": false
+    },
+    "27": {
+      "exists": false
+    },
+    "28": {
+      "exists": false
+    },
+    "29": {
+      "files": 1,
+      "snapshots": 0,
+      "diffs": [],
+      "hash_manifests": []
+    }
+  }
+}

@@ -1,0 +1,720 @@
+--- reports/antigravity_stage3d_resume_20261014_02/offline_preflight.py
++++ scripts/matched_baseline/offline_preflight.py
+@@ -621,7 +621,12 @@
+     Guarantees strict separation from run-time generated artifacts:
+     existing protected inputs are logged to 'protected_input_inventory.json',
+     leaving 'run_dir_manifest.sha256' strictly scoped to files produced within the run directory.
++    Dynamically enumerates executed codebase modules, tokenizer manifests/assets,
++    graph archive/provenance/manifest, benchmark files, ONNX cache assets, and interpreter.
++    Does not enforce an artificial fixed file count.
+     """
++
++    TOKENIZER_SUBDIRS = ["generator", "router", "judge1", "judge2"]
+ 
+     @staticmethod
+     def hash_file_sha256(path: Path) -> str:
+@@ -643,151 +648,106 @@
+     ) -> Dict[str, Any]:
+         """
+         Discovers, hashes, and records immutable/protected inputs into a structured ledger.
+-        Preserves provenance caveats and distinguishes canonical from staged assets.
++        Returns a dictionary containing summary metadata and dynamically enumerated items.
+         """
++        ws = Path(workspace_root)
+         items: List[Dict[str, Any]] = []
+-
+-        def add_entry(cat: str, file_path: Path, prov: str, note: Optional[str] = None) -> None:
+-            if not file_path.exists() or not file_path.is_file():
++        seen_paths: Set[str] = set()
++
++        def _record_file(f_path: Path, role: str, note: Optional[str] = None) -> None:
++            if not f_path.exists() or not f_path.is_file():
+                 return
+             try:
+-                rel = str(file_path.relative_to(workspace_root)).replace("\\", "/")
++                resolved_key = str(f_path.resolve())
++            except Exception:
++                resolved_key = str(f_path)
++            if resolved_key in seen_paths:
++                return
++            seen_paths.add(resolved_key)
++
++            try:
++                rel_p = str(f_path.relative_to(ws)).replace("\\", "/")
+             except ValueError:
+-                rel = str(file_path).replace("\\", "/")
+-            entry = {
+-                "category": cat,
+-                "relative_path": rel,
+-                "size_bytes": file_path.stat().st_size,
+-                "sha256": cls.hash_file_sha256(file_path),
+-                "provenance_status": prov,
++                rel_p = str(f_path).replace("\\", "/")
++
++            entry: Dict[str, Any] = {
++                "role": role,
++                "relative_path": rel_p,
++                "size_bytes": f_path.stat().st_size,
++                "sha256": cls.hash_file_sha256(f_path),
+             }
+             if note:
+                 entry["provenance_note"] = note
+             items.append(entry)
+ 
+-        # 1. Benchmarks
++        # 1. Benchmark file(s)
+         bench_candidates = [
+             benchmark_path,
+-            workspace_root / "data" / "obscure_overruled_benchmark.json",
+-            workspace_root / "data" / "obscure_benchmark_30_queries.json",
+-            workspace_root / "data" / "complete_obscure_overruled_benchmark_350.json",
++            ws / "terra_350_benchmark.json",
++            ws / "data" / "obscure_overruled_benchmark.json",
++            ws / "data" / "obscure_benchmark_30_queries.json",
++            ws / "data" / "complete_obscure_overruled_benchmark_350.json",
+         ]
+-        seen_bench = set()
+         for bp in bench_candidates:
+-            if bp and bp.exists() and bp.is_file() and bp not in seen_bench:
+-                seen_bench.add(bp)
+-                add_entry(
+-                    cat="benchmark_dataset",
+-                    file_path=bp,
+-                    prov="BENCHMARK_OBSCURE_LEAKAGE_AUDITED",
+-                    note="Zero-leakage audited 30-query obscure overruled benchmark dataset."
+-                )
+-
+-        # 2. Public Canonical Tokenizer Assets
+-        tok_root = tokenizer_base_dir or (workspace_root / "assets" / "tokenizers")
+-        if tok_root.exists() and tok_root.is_dir():
+-            manifest_p = tok_root / "tokenizer_manifest.sha256"
+-            if manifest_p.exists():
+-                add_entry(
+-                    cat="public_tokenizer_manifest",
+-                    file_path=manifest_p,
+-                    prov="VERIFIED_CANONICAL",
+-                    note="Audited canonical public tokenizer SHA-256 manifest."
+-                )
+-            for role in ["judge1", "judge2"]:
+-                role_dir = tok_root / role
+-                if role_dir.exists() and role_dir.is_dir():
+-                    for f in sorted(role_dir.iterdir()):
+-                        if f.is_file():
+-                            add_entry(
+-                                cat=f"public_tokenizer_asset_{role}",
+-                                file_path=f,
+-                                prov="VERIFIED_CANONICAL",
+-                                note=f"Canonical public tokenizer asset for {role}."
+-                            )
+-
+-        # 3. Gated Recovery Staged Tokenizers (if present)
+-        staged_manifest_p = workspace_root / "tmp" / "gated_recovery_stage_20261014_final" / "gated_tokenizer_manifest.sha256"
+-        if staged_manifest_p.exists():
+-            add_entry(
+-                cat="staged_gated_manifest",
+-                file_path=staged_manifest_p,
+-                prov="AUDITED_RECOVERY_STAGE",
+-                note="Audited SHA-256 manifest for recovery stage 20261014_final."
+-            )
+-        staged_dir = workspace_root / "tmp" / "gated_recovery_stage_20261014_final"
+-        if staged_dir.exists() and staged_dir.is_dir():
+-            gen_dir = staged_dir / "generator"
+-            if gen_dir.exists() and gen_dir.is_dir():
+-                for f in sorted(gen_dir.iterdir()):
+-                    if f.is_file():
+-                        add_entry(
+-                            cat="staged_gated_asset_generator",
+-                            file_path=f,
+-                            prov="STAGED_AUDITED_OFFLINE_COPY",
+-                            note="Staged offline copy for meta-llama/Llama-3.3-70B-Instruct."
+-                        )
+-            router_dir = staged_dir / "router"
+-            if router_dir.exists() and router_dir.is_dir():
+-                for f in sorted(router_dir.iterdir()):
+-                    if f.is_file():
+-                        if f.name == "tokenizer.json":
+-                            add_entry(
+-                                cat="staged_gated_asset_router",
+-                                file_path=f,
+-                                prov="STAGED_AUDITED_RETAINED_WITH_PROVENANCE_CAVEAT",
+-                                note="Gemma 3 tokenizer.json retained from earlier run; valid structure/hash but lacks independent official digest."
+-                            )
+-                        else:
+-                            add_entry(
+-                                cat="staged_gated_asset_router",
+-                                file_path=f,
+-                                prov="STAGED_AUDITED_RECOVERY_DOWNLOAD",
+-                                note="Gemma 3 configuration asset downloaded during bounded Phase 2 acquisition."
+-                            )
+-
+-        # 4. Graph archive / catalog
+-        graph_candidates = [
+-            graph_archive,
+-            workspace_root / "data" / "scotus_citations.json.xz",
+-            workspace_root / "data" / "landmark_scotus_catalog.json",
++            if bp and Path(bp).exists() and Path(bp).is_file():
++                _record_file(Path(bp), "benchmark_data")
++
++        # 2. Graph archive, provenance, and graph manifest
++        if graph_archive:
++            g_path = Path(graph_archive)
++            _record_file(g_path, "graph_archive")
++            prov_p = g_path.parent / "terra_eeg_index_20k_r30corr_v1.provenance.json"
++            _record_file(prov_p, "graph_provenance")
++            man_p = g_path.parent / "manifest.sha256"
++            _record_file(man_p, "graph_manifest")
++        else:
++            default_graph = ws / "TERRA_EDITORIAL_RESTART_V2" / "derived_graphs" / "r30corr_v1" / "terra_eeg_index_20k_r30corr_v1.json.xz"
++            if default_graph.exists():
++                _record_file(default_graph, "graph_archive")
++                _record_file(default_graph.parent / "terra_eeg_index_20k_r30corr_v1.provenance.json", "graph_provenance")
++                _record_file(default_graph.parent / "manifest.sha256", "graph_manifest")
++
++        # 3. Executed Codebase Modules
++        code_files = [
++            ws / "scripts" / "matched_baseline" / "fast_tokenizer_adapter.py",
++            ws / "scripts" / "matched_baseline" / "offline_preflight.py",
++            ws / "scripts" / "matched_baseline" / "common_serializer.py",
++            ws / "scripts" / "matched_baseline" / "bm25_engine.py",
++            ws / "scripts" / "matched_baseline" / "hybrid_retriever.py",
++            ws / "scripts" / "matched_baseline" / "terra_retriever.py",
++            ws / "scripts" / "matched_baseline" / "validate_staged_gated_tokenizers.py",
+         ]
+-        seen_graph = set()
+-        for gp in graph_candidates:
+-            if gp and gp.exists() and gp.is_file() and gp not in seen_graph:
+-                seen_graph.add(gp)
+-                add_entry(
+-                    cat="graph_archive",
+-                    file_path=gp,
+-                    prov="PROTECTED_REFERENCE_DATA",
+-                    note="Citation graph or landmark opinion catalog."
+-                )
+-
+-        # 5. Core Codebase Modules
+-        code_modules = [
+-            workspace_root / "scripts" / "matched_baseline" / "offline_preflight.py",
+-            workspace_root / "scripts" / "matched_baseline" / "fast_tokenizer_adapter.py",
+-            workspace_root / "scripts" / "matched_baseline" / "validate_staged_gated_tokenizers.py",
+-            workspace_root / "scripts" / "matched_baseline" / "common_serializer.py",
+-            workspace_root / "scripts" / "matched_baseline" / "terra_retriever.py",
+-            workspace_root / "scripts" / "matched_baseline" / "hybrid_retriever.py",
+-            workspace_root / "scripts" / "matched_baseline" / "bm25_engine.py",
+-        ]
+-        for cp in code_modules:
+-            if cp.exists() and cp.is_file():
+-                add_entry(
+-                    cat="immutable_codebase_module",
+-                    file_path=cp,
+-                    prov="IMMUTABLE_SOURCE_PIN",
+-                    note="Preflight diagnostic codebase module."
+-                )
++        for cf in code_files:
++            _record_file(cf, "code_module")
++
++        # 4. Tokenizer assets and manifests
++        tok_base = Path(tokenizer_base_dir) if tokenizer_base_dir else ws / "assets" / "tokenizers"
++        if tok_base.exists() and tok_base.is_dir():
++            _record_file(tok_base / "tokenizer_manifest.sha256", "public_tokenizer_manifest")
++            _record_file(tok_base / "gated_tokenizer_manifest.v1.sha256", "gated_tokenizer_manifest")
++            for subdir in cls.TOKENIZER_SUBDIRS:
++                s_dir = tok_base / subdir
++                if s_dir.exists() and s_dir.is_dir():
++                    for root, _, files in os.walk(s_dir):
++                        for f in sorted(files):
++                            _record_file(Path(root) / f, f"tokenizer_asset_{subdir}")
++
++        # 5. Local ONNX cache assets
++        if onnx_cache_dir and Path(onnx_cache_dir).exists() and Path(onnx_cache_dir).is_dir():
++            for root, _, files in os.walk(Path(onnx_cache_dir)):
++                for f in sorted(files):
++                    _record_file(Path(root) / f, "onnx_cache_asset")
++
++        # 6. Python interpreter binary
++        py_exe = Path(sys.executable)
++        _record_file(py_exe, "python_interpreter")
+ 
+         items.sort(key=lambda x: x["relative_path"])
+ 
+         return {
+             "inventory_format_version": "1.0",
+             "timestamp_utc": time.strftime("%Y-%m-%d %H:%M:%SZ", time.gmtime()),
+-            "workspace_root": str(workspace_root),
++            "workspace_root": str(ws),
+             "protected_item_count": len(items),
+             "protected_inputs": items,
+         }
+@@ -1114,15 +1074,13 @@
+ 
+ class StreamingGraphArchiveLoader:
+     """
+-    Loads authentic legal citation graph from compressed .json.xz archive via in-memory streaming.
+-    Enforces:
+-    - Path validation and .json.xz extension check.
+-    - Memory and byte-stream safety limits (max 250 MB uncompressed text, max 25,000 nodes).
+-    - Streaming lzma.open read in text mode without extracting files to disk.
+-    - Graph schema validation via GraphSchemaAuditor.
++    Stage 3D streaming graph archive loader.
++    Reuses and delegates to audited BoundedMemoryGraphLoader to ensure
++    byte/memory ceilings, end-of-stream verification, duplicate JSON key rejection,
++    and graph schema auditing against GraphSchemaAuditor.
+     """
+ 
+-    MAX_UNCOMPRESSED_BYTES = 250 * 1024 * 1024  # 250 MB
++    MAX_UNCOMPRESSED_BYTES = 250 * 1024 * 1024  # 250 MB ceiling
+     MAX_NODES = 25000
+ 
+     @classmethod
+@@ -1131,150 +1089,22 @@
+         archive_path: Path,
+         max_bytes: int = MAX_UNCOMPRESSED_BYTES,
+         max_nodes: int = MAX_NODES,
++        decoder_memlimit: Optional[int] = 128 * 1024 * 1024,
++        allow_uncompressed_test_mode: bool = False,
++        **kwargs,
+     ) -> Tuple[Dict[str, Dict[str, Any]], List[Dict[str, Any]], Dict[str, Any]]:
+-        """
+-        Streamingly decompress and validate graph archive (.json.xz).
+-        Returns (nodes_data, edges_data, schema_report).
+-        """
+-        p = Path(archive_path)
+-        if not p.exists():
+-            raise IntegrityCheckError(f"Graph archive file does not exist: {p}")
+-        if not p.is_file():
+-            raise IntegrityCheckError(f"Graph archive path is not a regular file: {p}")
+-        if not p.name.endswith(".json.xz"):
+-            raise IntegrityCheckError(f"Graph archive must have '.json.xz' extension: {p.name}")
+-
+-        try:
+-            with lzma.open(p, mode="rt", encoding="utf-8") as fp:
+-                content = fp.read(max_bytes + 1)
+-                if len(content) > max_bytes:
+-                    raise IntegrityCheckError(
+-                        f"Uncompressed graph size exceeds maximum safety limit ({max_bytes} bytes)."
+-                    )
+-                raw_graph = json.loads(content)
+-        except Exception as e:
+-            if isinstance(e, IntegrityCheckError):
+-                raise
+-            raise IntegrityCheckError(f"Failed to decompress and parse graph archive '{p}': {e}")
+-
+-        if not isinstance(raw_graph, dict):
+-            raise IntegrityCheckError("Decompressed graph root must be a JSON object")
+-
+-        nodes = raw_graph.get("nodes", {})
+-        edges = raw_graph.get("edges", [])
+-
+-        if not isinstance(nodes, dict):
+-            raise IntegrityCheckError(f"Graph 'nodes' must be a dictionary, got {type(nodes).__name__}")
+-        if not isinstance(edges, list):
+-            raise IntegrityCheckError(f"Graph 'edges' must be a list, got {type(edges).__name__}")
+-
++        nodes, edges, schema_report = BoundedMemoryGraphLoader.load_graph_archive(
++            archive_path=archive_path,
++            max_decompressed_bytes=max_bytes,
++            decoder_memlimit=decoder_memlimit,
++            allow_uncompressed_test_mode=allow_uncompressed_test_mode,
++            **kwargs,
++        )
+         if len(nodes) > max_nodes:
+             raise IntegrityCheckError(
+                 f"Graph node count ({len(nodes)}) exceeds maximum safety limit ({max_nodes})."
+             )
+-
+-        # Audit schema
+-        schema_report = GraphSchemaAuditor.audit_graph_data(nodes, edges)
+-        if not schema_report["schema_valid"]:
+-            raise IntegrityCheckError(
+-                f"Graph schema audit failed: {schema_report.get('dangling_edges_count')} dangling edges, "
+-                f"{schema_report.get('unsupported_relations_count')} unsupported relations."
+-            )
+-
+         return nodes, edges, schema_report
+-
+-
+-# =============================================================================
+-# 4a-3. Protected Inventory Auditor (Stage 3D)
+-# =============================================================================
+-
+-class ProtectedInventoryAuditor:
+-    """
+-    Dynamically discovers, validates, and hashes all protected input artifacts.
+-    Keeps existing protected inputs strictly separate from evidence-generated output run artifacts.
+-    """
+-
+-    TOKENIZER_SUBDIRS = ["generator", "router", "judge1", "judge2"]
+-
+-    @classmethod
+-    def collect_protected_inventory(
+-        cls,
+-        workspace_root: Path,
+-        graph_archive: Optional[Path] = None,
+-        benchmark_path: Optional[Path] = None,
+-        tokenizer_base_dir: Optional[Path] = None,
+-        onnx_cache_dir: Optional[Path] = None,
+-    ) -> Dict[str, Dict[str, Any]]:
+-        """
+-        Dynamically enumerate existing protected input files and record their SHA256 digests.
+-        """
+-        ws = Path(workspace_root)
+-        inventory: Dict[str, Dict[str, Any]] = {}
+-
+-        def _record_file(f_path: Path, role: str) -> None:
+-            if f_path.exists() and f_path.is_file():
+-                h = hashlib.sha256()
+-                with open(f_path, "rb") as fp:
+-                    while chunk := fp.read(65536):
+-                        h.update(chunk)
+-                try:
+-                    rel_p = str(f_path.relative_to(ws)).replace("\\", "/")
+-                except ValueError:
+-                    rel_p = str(f_path).replace("\\", "/")
+-                inventory[rel_p] = {
+-                    "role": role,
+-                    "sha256": h.hexdigest(),
+-                    "size_bytes": f_path.stat().st_size,
+-                }
+-
+-        # 1. Benchmark file
+-        b_path = Path(benchmark_path) if benchmark_path else ws / "terra_350_benchmark.json"
+-        _record_file(b_path, "benchmark_data")
+-
+-        # 2. Graph archive, provenance, and graph manifest
+-        if graph_archive:
+-            g_path = Path(graph_archive)
+-            _record_file(g_path, "graph_archive")
+-            prov_p = g_path.parent / "terra_eeg_index_20k_r30corr_v1.provenance.json"
+-            _record_file(prov_p, "graph_provenance")
+-            man_p = g_path.parent / "manifest.sha256"
+-            _record_file(man_p, "graph_manifest")
+-
+-        # 3. Code modules
+-        code_files = [
+-            ws / "scripts" / "matched_baseline" / "fast_tokenizer_adapter.py",
+-            ws / "scripts" / "matched_baseline" / "offline_preflight.py",
+-            ws / "scripts" / "matched_baseline" / "common_serializer.py",
+-            ws / "scripts" / "matched_baseline" / "bm25_engine.py",
+-            ws / "scripts" / "matched_baseline" / "hybrid_retriever.py",
+-            ws / "scripts" / "matched_baseline" / "terra_retriever.py",
+-        ]
+-        for cf in code_files:
+-            _record_file(cf, "code_module")
+-
+-        # 4. Tokenizer assets and manifests
+-        tok_base = Path(tokenizer_base_dir) if tokenizer_base_dir else ws / "assets" / "tokenizers"
+-        if tok_base.exists():
+-            _record_file(tok_base / "tokenizer_manifest.sha256", "public_tokenizer_manifest")
+-            _record_file(tok_base / "gated_tokenizer_manifest.v1.sha256", "gated_tokenizer_manifest")
+-            for subdir in cls.TOKENIZER_SUBDIRS:
+-                s_dir = tok_base / subdir
+-                if s_dir.exists():
+-                    for root, _, files in os.walk(s_dir):
+-                        for f in sorted(files):
+-                            _record_file(Path(root) / f, f"tokenizer_asset_{subdir}")
+-
+-        # 5. Local ONNX cache assets
+-        if onnx_cache_dir and Path(onnx_cache_dir).exists():
+-            for root, _, files in os.walk(Path(onnx_cache_dir)):
+-                for f in sorted(files):
+-                    _record_file(Path(root) / f, "onnx_cache_asset")
+-
+-        # 6. Python interpreter binary
+-        py_exe = Path(sys.executable)
+-        _record_file(py_exe, "python_interpreter")
+-
+-        return inventory
+ 
+ 
+ # =============================================================================
+@@ -2323,6 +2153,11 @@
+         is_synthetic_mock: bool = True,
+         pricing_schedule: Optional[Dict[str, Dict[str, float]]] = None,
+         tokenizer: Optional[TokenizerInterface] = None,
++        benchmark_path: Optional[Path] = None,
++        tokenizer_base_dir: Optional[Path] = None,
++        workspace_root: Optional[Path] = None,
++        chroma_client_factory: Optional[Callable[[Path], Any]] = None,
++        sqlite_connect_fn: Optional[Callable[..., Any]] = None,
+     ):
+         self.base_output_dir = base_output_dir
+         self.source_chroma_dir = source_chroma_dir
+@@ -2332,6 +2167,11 @@
+         self.tokenizer = tokenizer
+         self.is_synthetic_mock = is_synthetic_mock
+         self.pricing_schedule = pricing_schedule
++        self.benchmark_path = benchmark_path
++        self.tokenizer_base_dir = tokenizer_base_dir
++        self.workspace_root = workspace_root or Path.cwd()
++        self.chroma_client_factory = chroma_client_factory
++        self.sqlite_connect_fn = sqlite_connect_fn
+ 
+         if role_configs is not None:
+             self.role_configs = role_configs
+@@ -2348,6 +2188,10 @@
+             labeled_to_check.append(("onnx_cache", self.onnx_cache_dir))
+         if self.graph_archive_path:
+             labeled_to_check.append(("graph_archive", self.graph_archive_path))
++        if self.benchmark_path:
++            labeled_to_check.append(("benchmark", self.benchmark_path))
++        if self.tokenizer_base_dir:
++            labeled_to_check.append(("tokenizer_base", self.tokenizer_base_dir))
+ 
+         IntegrityLifecycleManager.validate_directory_separation(labeled_to_check)
+ 
+@@ -2383,6 +2227,8 @@
+         mock_dense_rankings: Optional[Dict[str, List[str]]] = None,
+         expected_corpus_count: Optional[int] = None,
+         expected_query_count: Optional[int] = None,
++        benchmark_path: Optional[Path] = None,
++        disposable_reader: Optional[ChromaDisposableReader] = None,
+     ) -> PreflightSummary:
+         """Execute full offline preflight workflow with guaranteed finalization."""
+         start_time = time.time()
+@@ -2409,6 +2255,20 @@
+             # -------------------------------------------------------------
+             # Stage 1: Offline Prerequisites & Truthful Production Blocking
+             # -------------------------------------------------------------
++            # Audit and record immutable protected inventory in workspace
++            try:
++                protected_inv = ProtectedInventoryAuditor.collect_protected_inventory(
++                    workspace_root=self.workspace_root,
++                    graph_archive=self.graph_archive_path,
++                    benchmark_path=self.benchmark_path or benchmark_path,
++                    tokenizer_base_dir=self.tokenizer_base_dir,
++                    onnx_cache_dir=self.onnx_cache_dir,
++                    source_chroma_dir=self.source_chroma_dir,
++                )
++                self._save_exclusive_json("protected_input_inventory.json", protected_inv)
++            except Exception as pe:
++                failure_reasons.append(f"Protected inventory audit error: {str(pe)}")
++
+             guard_reasons = NoDownloadGuard.verify_offline_conditions(
+                 enforced_offline_arg=self.enforced_offline_arg,
+                 onnx_cache_dir=self.onnx_cache_dir,
+@@ -2421,7 +2281,10 @@
+                 block_reasons.append(
+                     "Production source ChromaDB directory, authentic adapters, and models "
+                     "not yet implemented. Authentic store access and copy unconditionally BLOCKED "
+-                    "under Gate B governance until Gate C authorization."
++                    "under Gate B governance until Gate C authorization: human user approval "
++                    "for code-only integration (Codex-0154) authorizes adapter implementation and "
++                    "synthetic tests, but does not grant Gate C real-data execution authorization. "
++                    "CLI flags cannot substitute for explicit dated human authorization."
+                 )
+                 if any([mock_dense_corpus, mock_sparse_corpus, mock_graph_nodes, mock_graph_edges, mock_queries, mock_dense_rankings]):
+                     block_reasons.append("Mock fixtures and synthetic inputs are strictly rejected in production mode.")
+@@ -2471,26 +2334,38 @@
+                         "chroma_isolation_receipt.json",
+                         asdict(isolation_receipt),
+                     )
+-                else:
++                    if disposable_reader is None:
++                        disposable_reader = ChromaDisposableReader(
++                            receipt=isolation_receipt,
++                            disposable_dir=disposable_dir,
++                            expected_source_dir=self.source_chroma_dir,
++                            client_factory=self.chroma_client_factory,
++                            sqlite_connect_fn=self.sqlite_connect_fn,
++                        )
++                elif disposable_reader is None:
+                     block_reasons.append("No source Chroma directory provided for store protection test.")
+ 
+                 # -------------------------------------------------------------
+                 # Stage 3: Corpus Parity Audit & Set Agreement
+                 # -------------------------------------------------------------
+-                dense_docs = mock_dense_corpus or {}
+-                sparse_docs = mock_sparse_corpus or {}
+-                nodes_data = mock_graph_nodes or {}
+-                edges_data = mock_graph_edges or []
++                if mock_dense_corpus is not None or mock_sparse_corpus is not None:
++                    dense_docs = mock_dense_corpus or {}
++                    sparse_docs = mock_sparse_corpus or {}
++                elif disposable_reader:
++                    try:
++                        dense_docs = disposable_reader.extract_layer1_corpus(expected_count=expected_corpus_count)
++                        sparse_docs = dense_docs
++                    except Exception as de:
++                        failure_reasons.append(f"Disposable reader Layer 1 extraction error: {str(de)}")
++                        dense_docs = {}
++                        sparse_docs = {}
++                else:
++                    dense_docs = {}
++                    sparse_docs = {}
+ 
+                 if not dense_docs or not sparse_docs:
+                     block_reasons.append("Corpus documents not provided for parity audit.")
+                 else:
+-                    # Check corpus/graph ID set agreement (Finding 1)
+-                    if nodes_data and (set(dense_docs.keys()) != set(nodes_data.keys())):
+-                        failure_reasons.append(
+-                            f"Corpus and graph node ID sets mismatch: {len(dense_docs)} dense docs != {len(nodes_data)} graph nodes."
+-                        )
+-
+                     parity_report = CorpusParityAuditor.audit_corpus_parity(
+                         dense_docs, sparse_docs, expected_total_count=expected_corpus_count
+                     )
+@@ -2502,28 +2377,76 @@
+                 # -------------------------------------------------------------
+                 # Stage 4: Authentic Graph Schema Audit
+                 # -------------------------------------------------------------
+-                if not nodes_data:
+-                    block_reasons.append("Graph nodes collection not provided for schema audit.")
++                if self.graph_archive_path and not mock_graph_nodes:
++                    try:
++                        nodes_data, edges_data, graph_report = BoundedMemoryGraphLoader.load_graph_archive(
++                            self.graph_archive_path,
++                            allow_uncompressed_test_mode=self.is_synthetic_mock,
++                        )
++                        self._save_exclusive_json("graph_schema_report.json", graph_report)
++                        graph_passed = graph_report.get("schema_valid", False)
++                        if not graph_passed:
++                            failure_reasons.append(
++                                f"Graph schema audit failed: dangling edges ({graph_report.get('dangling_edges_count')}) "
++                                f"or unsupported relations ({graph_report.get('unsupported_relations_count')})."
++                            )
++                    except Exception as ge:
++                        failure_reasons.append(f"Graph archive loading error: {str(ge)}")
++                        nodes_data = {}
++                        edges_data = []
+                 else:
+-                    graph_report = GraphSchemaAuditor.audit_graph_data(nodes_data, edges_data)
+-                    self._save_exclusive_json("graph_schema_report.json", graph_report)
+-                    graph_passed = graph_report["schema_valid"]
+-                    if not graph_passed:
+-                        failure_reasons.append(
+-                            f"Graph schema audit failed: dangling edges ({graph_report.get('dangling_edges_count')}) "
+-                            f"or unsupported relations ({graph_report.get('unsupported_relations_count')})."
+-                        )
++                    nodes_data = mock_graph_nodes or {}
++                    edges_data = mock_graph_edges or []
++                    if not nodes_data:
++                        block_reasons.append("Graph nodes collection not provided for schema audit.")
++                    else:
++                        graph_report = GraphSchemaAuditor.audit_graph_data(nodes_data, edges_data)
++                        self._save_exclusive_json("graph_schema_report.json", graph_report)
++                        graph_passed = graph_report["schema_valid"]
++                        if not graph_passed:
++                            failure_reasons.append(
++                                f"Graph schema audit failed: dangling edges ({graph_report.get('dangling_edges_count')}) "
++                                f"or unsupported relations ({graph_report.get('unsupported_relations_count')})."
++                            )
++
++                # Check corpus/graph ID set agreement (Finding 1)
++                if dense_docs and nodes_data and (set(dense_docs.keys()) != set(nodes_data.keys())):
++                    failure_reasons.append(
++                        f"Corpus and graph node ID sets mismatch: {len(dense_docs)} dense docs != {len(nodes_data)} graph nodes."
++                    )
+ 
+                 # -------------------------------------------------------------
+                 # Stage 5: Dual-Arm & Dual-Route Feasibility Simulation
+                 # -------------------------------------------------------------
+-                queries = mock_queries or []
++                active_bench = benchmark_path or self.benchmark_path
++                if active_bench and not mock_queries:
++                    try:
++                        bench_records = BenchmarkSchemaAdapter.validate_and_load(
++                            active_bench,
++                            expected_total=expected_query_count,
++                        )
++                        queries = BenchmarkSchemaAdapter.extract_retrieval_queries(bench_records)
++                    except Exception as be:
++                        failure_reasons.append(f"Benchmark schema error: {str(be)}")
++                        queries = []
++                else:
++                    queries = mock_queries or []
++
+                 total_queries = len(queries)
+ 
+                 # Reject duplicate query IDs in cohort (Finding 1)
+                 q_ids = [q[0] for q in queries]
+                 if len(q_ids) != len(set(q_ids)):
+                     failure_reasons.append(f"Duplicate query IDs detected in evaluation cohort: {len(q_ids)} total vs {len(set(q_ids))} unique.")
++
++                # If disposable reader provided and rankings missing, query native L2
++                if disposable_reader and not mock_dense_rankings and queries:
++                    try:
++                        q_texts = [q[1] for q in queries]
++                        batch_rankings = disposable_reader.query_dense_candidates(q_texts, top_k=100)
++                        mock_dense_rankings = {queries[i][0]: batch_rankings[i] for i in range(len(queries))}
++                    except Exception as qe:
++                        failure_reasons.append(f"Dense candidate retrieval error: {str(qe)}")
+ 
+                 if total_queries == 0:
+                     block_reasons.append("No queries provided for feasibility simulation.")
+@@ -2563,35 +2486,37 @@
+                         # Arm H: Hybrid BM25 + dense RRF
+                         arm_h_candidates = hybrid_retriever.retrieve(q_text, dense_ranking, top_k_bm25=100, final_top_n=100) if hybrid_retriever else []
+ 
+-                        # Arm T: TerraRetriever (EASY: 0-hop, HARD: depth-2)
+-                        arm_t_easy = terra_retriever.retrieve(seed_ids, top_n=2, max_depth_override=0) if terra_retriever else []
+-                        arm_t_hard = terra_retriever.retrieve(seed_ids, top_n=40, max_depth_override=2) if terra_retriever else []
++                        # Arm T: TerraRetriever (Hypothetical 0-hop and Hypothetical depth-2)
++                        arm_t_0hop = terra_retriever.retrieve(seed_ids, top_n=2, max_depth_override=0) if terra_retriever else []
++                        arm_t_depth2 = terra_retriever.retrieve(seed_ids, top_n=40, max_depth_override=2) if terra_retriever else []
+ 
+                         # Formatted structural character accounting matching TerraRetriever
+-                        chars_easy = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_easy)) + (7 * (len(arm_t_easy) - 1) if arm_t_easy else 0)
+-                        chars_hard = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_hard)) + (7 * (len(arm_t_hard) - 1) if arm_t_hard else 0)
+-
+-                        m_easy = simulator.simulate_query(
++                        # Separator literal '\n---\n' is strictly 5 characters
++                        SEPARATOR_LEN = 5
++                        chars_0hop = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_0hop)) + (SEPARATOR_LEN * (len(arm_t_0hop) - 1) if arm_t_0hop else 0)
++                        chars_depth2 = sum(len(format_evidence_item(EvidenceItem(c["case_id"], c["title"], c["decision_date"], c["holding"], c.get("thinking_trace",""), c.get("snippet",""), c.get("relation_context")), idx+1)) for idx, c in enumerate(arm_t_depth2)) + (SEPARATOR_LEN * (len(arm_t_depth2) - 1) if arm_t_depth2 else 0)
++
++                        m_0hop = simulator.simulate_query(
+                             query_id=q_id,
+                             query_text=q_text,
+-                            route_name="EASY",
++                            route_name="hypothetical_envelope_0hop",
+                             arm_h_candidates=arm_h_candidates,
+-                            arm_t_candidates=arm_t_easy,
+-                            arm_t_structural_chars=chars_easy,
++                            arm_t_candidates=arm_t_0hop,
++                            arm_t_structural_chars=chars_0hop,
+                         )
+-                        query_metrics_list.append(m_easy)
+-
+-                        m_hard = simulator.simulate_query(
++                        query_metrics_list.append(m_0hop)
++
++                        m_depth2 = simulator.simulate_query(
+                             query_id=q_id,
+                             query_text=q_text,
+-                            route_name="HARD",
++                            route_name="hypothetical_envelope_depth2",
+                             arm_h_candidates=arm_h_candidates,
+-                            arm_t_candidates=arm_t_hard,
+-                            arm_t_structural_chars=chars_hard,
++                            arm_t_candidates=arm_t_depth2,
++                            arm_t_structural_chars=chars_depth2,
+                         )
+-                        query_metrics_list.append(m_hard)
+-
+-                        if not (m_easy.all_roles_passed and m_hard.all_roles_passed):
++                        query_metrics_list.append(m_depth2)
++
++                        if not (m_0hop.all_roles_passed and m_depth2.all_roles_passed):
+                             all_fit = False
+ 
+                     envelopes_passed = all_fit and (total_queries > 0)
+@@ -2882,7 +2807,10 @@
+     parser.add_argument("--onnx-cache-dir", type=str, default=None, help="Path to local ONNX cache directory")
+     parser.add_argument("--enforced-offline-condition", type=str, default=None, help="Offline declaration tag")
+     parser.add_argument("--graph-archive", type=str, default=None, help="Path to graph archive (.json.xz)")
++    parser.add_argument("--benchmark-path", type=str, default=None, help="Path to benchmark JSON (e.g. terra_350_benchmark.json)")
++    parser.add_argument("--tokenizer-base-dir", type=str, default=None, help="Path to tokenizer base directory")
+     parser.add_argument("--production", action="store_true", default=False, help="Run in production mode (requires real stores)")
++    parser.add_argument("--execute-authorized-real-preflight", action="store_true", default=False, help="Explicit flag (requires Gate C authorization)")
+ 
+     args = parser.parse_args()
+ 
+@@ -2892,6 +2820,8 @@
+         onnx_cache_dir=Path(args.onnx_cache_dir) if args.onnx_cache_dir else None,
+         enforced_offline_arg=args.enforced_offline_condition,
+         graph_archive_path=Path(args.graph_archive) if args.graph_archive else None,
++        benchmark_path=Path(args.benchmark_path) if args.benchmark_path else None,
++        tokenizer_base_dir=Path(args.tokenizer_base_dir) if args.tokenizer_base_dir else None,
+         is_synthetic_mock=not args.production,
+     )
+ 

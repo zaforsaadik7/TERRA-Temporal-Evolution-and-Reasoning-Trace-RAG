@@ -1,0 +1,3172 @@
+{
+  "101_0647-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the patent doctrine of equivalents, a core issue of intellectual property law, which falls under substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "101_0231-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The case resolves issues of contract interpretation, mortgage enforcement, and the Statute of Frauds concerning land sales, which are core matters of substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "103_0783-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a private dispute over agency authority and bank liability, falling under contract/agency law rather than constitutional or criminal matters.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "100_0699-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "general_constitutional_statutory",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over a bank's liability for loss of a special deposit, applying bailment and corporate ultra vires principles, which are core private law issues, while also interpreting federal banking statutes.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "102_0278-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": "FALSE_RESIDUAL",
+    "rationale": "The Court interprets a state constitutional provision limiting municipal debt, concluding that bonds issued in excess of the constitutional cap are void, which is a general constitutional\u2011statutory issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "108_0342-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over a freight contract and liability under admiralty law, which falls under substantive private law concerning contracts and maritime commerce.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "108_0012-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a procedural dispute over appellate review of district court findings and the requirement of a special verdict under territorial statutes, which is a federal court procedural doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "120_0103-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion addresses whether a state statute is unconstitutional, focusing on state constitutional law and statutory interpretation, without involving federal questions or other specialized doctrines.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "121_0121-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets Connecticut statutes and municipal constitutional limits on a town's power to contract, focusing on statutory notice requirements and the town's authority, which falls under general constitutional and statutory law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "120_0225-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a federal circuit court had jurisdiction over a suit by an assignee, interpreting a statutory jurisdictional limitation and citizenship requirement, which is a general constitutional and statutory jurisdiction issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "122_0097-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "PARTIAL",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses a maritime collision, negligence, and limitation of liability, which are core issues of substantive private (tort) law, while also involving federal court procedures for limited liability.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "129_0233-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over tariff classification and protest procedures under federal customs statutes, a matter of administrative law adjudicated by a federal court.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "131_0036-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The case interprets the 1887 statute granting district courts and the Court of Claims jurisdiction over claims against the United States, focusing on sovereign immunity and jurisdictional limits.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "137_0056-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a patent infringement dispute by determining that the claimed improvement lacks invention, which falls under substantive private law (intellectual property).",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "134_0467-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a state statute allowing a commission to fix railroad rates constitutes an unlawful taking without due process, implicating state constitutional due\u2011process and legislative authority over economic regulation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "137_0556-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "FALSE_RESIDUAL",
+    "rationale": "The opinion resolves disputes over deed validity, acknowledgment, recording, and laches\u2014core issues of real property and contract rights, placing it squarely within substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "140_0545-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion centers on Congress's authority under the Commerce Clause to regulate interstate shipment of intoxicating liquors and its interaction with state police powers, affirming the constitutionality of the 1890 act.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "148_0293-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion addresses a dispute over the reformation of a deed caused by mistake, a classic property/contract issue within substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "151_0179-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "FALSE_RESIDUAL",
+    "rationale": "The Court interprets Rev. Stat. \u00a7\u202f1986 to limit commissioner fees to instances where a criminal case (arrest or examination) actually occurs, a core issue of criminal procedure.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "154_0593-02_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses liability and contributory negligence in a maritime tow accident, which falls under tort law, a core area of substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "146_0056-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether the Supreme Court has jurisdiction to hear a writ of error under the 1891 Act, focusing on statutory interpretation of appellate jurisdiction, which is a core federal courts administrative law issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "153_0078-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the requirement that arrest warrants must specifically name or describe the person, a core principle of criminal procedure, and addresses liability for false imprisonment.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "155_0685-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on the procedural question of appellate jurisdiction over a judge's chambers order in a habeas corpus proceeding, which is a criminal procedure issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "158_0271-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a personal\u2011injury tort claim against a railroad, focusing on evidence rules and procedural waivers, which falls under substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "161_0519-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "criminal_procedure"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on whether Connecticut's statute prohibiting the transport of lawfully killed game birds outside the state violates the U.S. Constitution's Commerce Clause, making it a commerce\u2011clause economic issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "155_0141-02_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "PARTIAL",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion concerns the validity and infringement of patents, which is a matter of substantive private law (intellectual property).",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "163_0289-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "FAIL",
+    "coherence": "PARTIAL",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a private contract/insurance dispute over the enforceability of an endowment certificate, which falls under substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "172_0557-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion adjudicates whether a Missouri insurance statute infringes the Fourteenth Amendment's equal protection and due\u2011process guarantees, focusing on corporate citizenship and state regulation of insurance contracts.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "165_0518-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves procedural questions about the scope of appeals from interlocutory injunctions in patent cases and the appellate court's authority to decide merits and dismiss the bill, which is a matter of federal court procedure under statutory law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "153_0689-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the Supreme Court's jurisdiction to review state court judgments, requiring a federal question, which is a matter of constitutional and statutory appellate jurisdiction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "173_0684-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses a state railroad regulation challenged under the Fourteenth Amendment's due\u2011process and equal\u2011protection clauses, making it a constitutional\u2011statutory issue, with secondary discussion of commerce\u2011clause implications.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "176_0097-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion concerns the adequacy of evidence for condemning a captured vessel under prize law, a matter governed by federal admiralty jurisdiction rather than constitutional or criminal doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "161_0639-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on whether a federal commissioner performed his duties in good faith to enforce criminal law, implicating the standards for lawful issuance of warrants and compensation under a criminal procedure statute.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "176_0317-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion holds that \u00a7720 of the Revised Statutes bars federal courts from granting injunctions to stay state court actions, a procedural limitation on federal court jurisdiction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "175_0626-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on whether an Illinois tax on a bridge that spans the Mississippi River constitutes an unconstitutional burden on interstate commerce, making the commerce\u2011clause analysis the primary doctrinal focus.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "178_0353-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over a release and settlement payment, focusing on contract principles of consideration and the enforceability of a partial payment in satisfaction of a liquidated debt.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "176_0559-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves the private law question of stockholder liability under state constitutional and statutory provisions, classifying it as a substantive corporate law issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "186_0168-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion concerns the jurisdiction and procedural authority of a federal customs collector and the limits of administrative review, placing it squarely within federal administrative law and court jurisdiction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "176_0498-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the enforceability of a contractual waiver of liability by a common carrier, a classic tort/contract issue within private law, while also implicating economic regulation of carriers.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "179_0100-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "FAIL",
+    "coherence": "PARTIAL",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion concerns a charter\u2011party dispute over demurrage and lien rights, which is a maritime contract issue falling under substantive private law, though the text shows lexical anomalies and only partial narrative coherence.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "191_0115-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves the scope of appellate jurisdiction under the Bankruptcy Act, interpreting statutory provisions governing appeals from bankruptcy courts, which is a matter of federal court procedural and administrative law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "194_0324-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the appellate court's authority to review contempt orders, focusing on the inherent power of federal courts and statutory limits, which is a procedural matter concerning federal court jurisdiction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "205_0135-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion addresses the constitutionality of a federal statute authorizing assessments for street openings, interpreting it to avoid an unconstitutional taking, which places the case squarely within general constitutional statutory doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "203_0192-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the federal court's authority to issue a writ of habeas corpus to release a state detainee, focusing on procedural limits and jurisdiction, which is central to criminal procedure doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "204_0359-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on a Fourteenth Amendment challenge to a state police\u2011power statute, assessing due\u2011process and equal\u2011protection claims, making civil\u2011rights equal\u2011protection the dominant doctrinal category.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "206_0158-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the interpretation and application of the National Banking Act to determine directors' statutory liability, a matter of federal statutory law rather than constitutional or criminal doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "214_0161-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the Texas statute of limitations and its effect on a vendor's lien and foreclosure, which is a matter of substantive private law concerning property and contracts.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "206_0428-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets the Interstate Commerce Act and the role of the ICC, addressing the court's equitable jurisdiction over unreasonable railroad rates, which is core administrative law within the federal courts.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "214_0091-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves challenges to state building\u2011height statutes under the Fourteenth Amendment's equal protection and due process clauses, making civil\u2011rights equal\u2011protection the primary doctrinal focus.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "226_0217-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a Fourteenth Amendment due\u2011process and equal\u2011protection challenge to a Mississippi statute regulating common carriers, making it a general constitutional statutory issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "229_0114-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion resolves an employer\u2011liability tort claim under the Employers' Liability Act, focusing on contributory negligence and duty of care, while also upholding the statute\u2019s constitutional validity.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "236_0165-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the interpretation and application of the federal Anti\u2011Trust Act (Sherman Act) to an alleged illegal combination affecting interstate commerce, making it a commerce\u2011clause economic doctrine with ancillary statutory and contract law issues.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "216_0001-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion holds that Kansas's fee on Western Union is an unconstitutional burden on interstate commerce, invoking the Commerce Clause and due\u2011process limits on state taxation of out\u2011of\u2011state corporations.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "236_0531-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the validity of a federal conspiracy indictment and the requirement of overt acts under \u00a7\u202f37 of the Criminal Code, which are core issues of criminal procedure and statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "240_0457-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a challenge to a municipal ordinance under the Contract Clause and the Due Process/Equal Protection guarantees of the Fourteenth Amendment, making it a general constitutional statutory issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "243_0269-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a state\u2019s attachment of a non\u2011resident\u2019s bank deposits to satisfy alimony violates the Fourteenth Amendment due process, a core constitutional question.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "245_0292-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses whether a state tax on export sales constitutes an unconstitutional regulation of foreign commerce under the Commerce Clause, making commerce clause doctrine the primary issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "231_0358-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "criminal_procedure",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets the Tariff Act's definition of \"introduce into the commerce of the United States\" and upholds forfeiture of goods, focusing on federal regulation of interstate and international commerce.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "246_0439-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "substantive_private_law"
+    ],
+    "residual_validity": "FALSE_RESIDUAL",
+    "rationale": "The opinion resolves a dispute over a carrier's contractual limitation of liability filed with the ICC, implicating federal regulation of interstate commerce and the Commerce Clause, while also touching on contract law and administrative filing requirements.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "231_0348-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion resolves a jurisdictional dispute over whether a Circuit Court of Appeals decision in a trademark case is reviewable by the Supreme Court via appeal or certiorari, interpreting statutory provisions of the Judicial Code.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "249_0012-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over mining claim ownership, priority, and extralateral rights, which are core issues of property law within substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "252_0348-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets and upholds a federal statute (the Seamen\u2019s Act) and its constitutionality under Congress\u2019s commerce power, making it a general constitutional\u2011statutory issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "250_0473-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a procedural dispute over the right to a voluntary nonsuit under the federal Conformity Act, a statute governing practice in federal courts, placing it squarely within federal court procedural/admin law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "250_0607-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on a state-imposed maximum passenger fare and whether it unlawfully interferes with an interstate carrier's economic activity, implicating the Commerce Clause and due\u2011process limits on state regulation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "239_0134-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The Court dismissed the writ for lack of jurisdiction because the state court\u2019s decision rested on an independent and adequate state ground\u2014failure to exhaust administrative remedies\u2014thereby avoiding resolution of the federal constitutional claims, a classic application of the adequate and independent state ground doctrine in federal judicial review.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "256_0658-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion addresses whether a state tax assessment scheme violates the Fourteenth Amendment's Equal Protection and Due Process clauses, affirming the statute's constitutionality.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "257_0506-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the Treasury Secretary's authority to require a special license and extra compensation for customs officers, interpreting statutory and regulatory limits, which is quintessential administrative law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "257_0533-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on a Fourteenth Amendment due\u2011process and equal\u2011protection challenge to a Louisiana statute governing service on foreign corporations, making equal\u2011protection doctrine the primary issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "258_0341-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses negligence and joint liability between a vessel owner and a canal company, which is a classic tort dispute under substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "261_0267-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on a 14th Amendment challenge asserting that the city's fare ordinance is confiscatory, violating due process and equal protection.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "259_0001-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion addresses negligence, unseaworthiness, and contractual exemption clauses in a maritime towing dispute, which are matters of tort and contract within substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "255_0455-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case interprets the federal Safety Appliance Act, a statutory scheme regulating interstate rail commerce, and clarifies the scope of liability under that statute, making it a statutory interpretation case rooted in federal regulatory law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "250_0014-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the statutory interpretation of the General Railroad Right of Way Act of 1875 and whether it permits appropriation of timber remnants ('tie slash') beyond the narrow purpose of railroad construction, making it a matter of statutory construction under federal law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "259_0419-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on interstate water rights under the Constitution\u2019s implied principles of state equality and equitable apportionment, establishing a foundational doctrine for resolving disputes between states over shared natural resources without statutory or treaty basis.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "267_0228-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over immigration statutes, entry, and deportation limits while invoking Fifth Amendment due process, placing it squarely in constitutional\u2011statutory doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "264_0079-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether a state may compel a railroad to continue unprofitable operations, implicating the Commerce Clause and due process protections under the Fourteenth Amendment, with the Court holding that forced operation at a loss constitutes an unconstitutional taking of property.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "264_0090-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether a foreign state-owned vessel engaged in commercial activity is immune from admiralty jurisdiction in U.S. federal courts, a question of sovereign immunity and federal court jurisdiction under admiralty law, not substantive private rights or constitutional protections.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "266_0113-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the proper judicial role in habeas corpus proceedings involving administrative immigration decisions, emphasizing deference to agency expertise and procedural compliance with statutory appeal rights under federal administrative law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "268_0633-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a statutory limitation question under the Interstate Commerce Act and the Transportation Act, holding that retroactive revival of a time\u2011barred claim violates the Fifth Amendment due process clause.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "267_0359-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether a state utility commission\u2019s rate-setting order deprived a company of property without due process under the Fourteenth Amendment, establishing a constitutional limit on administrative rate regulation, not merely an administrative or commercial dispute.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "271_0170-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a foreign exchange gain from repaying a loan is taxable income under the Revenue Act, a matter of federal tax administration and statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "274_0410-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a statutory duty to issue revenue warrants is ministerial and enforceable by mandamus, focusing on administrative authority and statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "277_0438-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "Olmstead addresses the admissibility of wire\u2011tapped evidence under the Fourth and Fifth Amendments, a core issue of criminal procedure and constitutional search\u2011seizure law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "273_0103-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "criminal_procedure"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses judicial review of an immigration deportation order, focusing on due\u2011process and Fifth Amendment self\u2011incrimination issues within the administrative framework, making administrative law the primary doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "280_0001-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion resolves a dispute over a charitable trust and fiduciary control of ecclesiastical property, which falls under private law of trusts and property.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "280_0072-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses insurance subrogation and negligence liability, which are core issues of substantive private law (tort/contract).",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "280_0049-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a federal agency (the Farm Loan Board) may levy an assessment and whether a receiver may sue to enforce stockholder liability under the Federal Farm Loan Act, a matter of statutory interpretation and administrative authority.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "280_0117-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the Fourteenth Amendment equal\u2011protection challenge to a state statute limiting tort recovery for gratuitous automobile passengers, making equal\u2011protection the central doctrinal issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "285_0154-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion concerns a dispute over title to bonds and accounting of funds in a bankruptcy proceeding, which falls under substantive private law (trust and property rights) with a secondary aspect of federal court administration.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "287_0170-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a private admiralty dispute over damages and demurrage, a substantive tort/contract matter, rather than a constitutional or criminal issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "283_0025-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the meaning of a federal criminal statute (the Motor Vehicle Theft Act) and whether it covers aircraft, focusing on statutory interpretation rather than procedural or constitutional issues.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "289_0172-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the constitutionality of a tax statute that taxes grantor trust income under the Fifth Amendment, making it a general constitutional\u2011statutory issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "271_0310-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the interpretation of statutory obligations under the Federal Control Act and standard contracts issued by a federal administrative agency (Director General of Railroads), determining liability for tax payments during and after federal control of railroads \u2014 a quintessential administrative law dispute involving statutory construction and federal agency authority.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "290_0551-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a private contract dispute over war risk insurance benefits, focusing on whether the plaintiff proved total permanent disability under the policy.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "290_0576-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets the Interstate Commerce Act's limits on carrier notice periods, a federal economic regulation under the Commerce Clause, making commerce_clause_economic the primary doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "292_0216-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over marriage validity, divorce, dower, and alimony\u2014core issues of family law, a subset of substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "281_0331-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case challenges a state insurance rate\u2011reduction statute on due process and equal\u2011protection grounds, making equal\u2011protection doctrine the central issue, with secondary relevance to administrative law and constitutional statutory review.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "294_0550-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on a Fourteenth Amendment equal\u2011protection challenge to a Kentucky gross\u2011sales tax, making equal\u2011protection the dominant doctrinal issue, with ancillary constitutional and commerce\u2011clause considerations.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "296_0093-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets a federal revenue statute and the Internal Revenue Service's authority over trust distributions, placing it squarely within federal administrative tax law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "299_0445-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves the scope of a bankruptcy statute\u2019s limitation on landlord indemnity claims and addresses its Fifth Amendment constitutionality, placing it within general constitutional statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "297_0001-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on the constitutionality of the Agricultural Adjustment Act's tax and regulatory scheme under the Commerce Clause, making economic regulation the primary issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "304_0061-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a state utility\u2011regulation order can apply to activities that are part of interstate commerce, invoking the Commerce Clause as the controlling constitutional doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "314_0488-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on the intersection of patent rights and antitrust law, assessing whether a patent monopoly can be used to restrain competition under the Clayton Act, an economic regulation issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "315_0437-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion adjudicates the constitutionality of a state order restricting peaceful picketing, invoking the First Amendment free\u2011speech protections and due\u2011process analysis.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "312_0342-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure"
+    ],
+    "residual_validity": null,
+    "rationale": "The case interprets a criminal statute defining the prohibited 'use' of a falsely obtained passport and addresses evidentiary issues, fitting statutory interpretation within a criminal context.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "314_0498-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on whether the gas company's activities constitute interstate commerce subject to the Natural Gas Act and the Commerce Clause, making it an economic commerce\u2011clause dispute.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "319_0001-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses a challenge to an ICC rate order under the Interstate Commerce Act, focusing on administrative review and federal court jurisdiction over agency actions.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "307_0066-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on a state price\u2011fixing prohibition affecting copyrighted works, raising a challenge under the Commerce Clause and antitrust principles as the primary constitutional issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "300_0041-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case interprets a federal criminal statute (12 U.S.C. \u00a7 592) prohibiting false entries in bank records with fraudulent intent, focusing on statutory construction and application rather than constitutional or procedural rights, making general constitutional/statutory the primary domain.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "327_0645-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets the Federal Employers' Liability Act, a federal tort statute governing private injury claims against railroad employers, making it a substantive private law issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "323_0516-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on whether a Texas statute imposes a prior restraint on speech and assembly, invoking the First Amendment and Fourteenth Amendment due process/equal protection doctrines.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "332_0319-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses violations of the Sherman Antitrust Act (Section\u202f1) concerning restraint of trade, which is a classic commerce\u2011clause economic antitrust matter.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "320_0356-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the statutory limitation period in the Interstate Commerce Act, a federal regulation of interstate carriers, placing it squarely within commerce\u2011clause economic doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "325_0091-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the willful deprivation of constitutional rights under color of state law, specifically the Fourteenth Amendment\u2019s due process protection against unlawful killing by law enforcement, making civil rights enforcement the primary doctrine, with criminal procedure and statutory interpretation as secondary elements.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "329_0324-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the National Labor Relations Board\u2019s procedural authority in overseeing consent elections under the National Labor Relations Act, specifically whether the Board may refuse to entertain post-election challenges to voter eligibility when the parties agreed to binding administrative procedures \u2014 a quintessential administrative law issue involving agency deference and procedural finality.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "337_0656-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the NLRB's adjudication of alleged unfair labor practices under the Wagner Act and the Court's review of the Board's order, situating it squarely within federal administrative law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "332_0539-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the sufficiency of evidence and procedural issues in a conspiracy conviction under the Criminal Code, including whether a single indictment improperly grouped multiple conspiracies \u2014 a core criminal procedure concern, with incidental economic regulation under the Emergency Price Control Act.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "340_0593-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets the Federal Food, Drug, and Cosmetic Act and agency\u2011promulgated standards to determine misbranding, a classic issue of federal administrative law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "333_0018-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on statutory interpretation of the Federal Escape Act regarding when a sentence for escape begins to run, a core issue of criminal sentencing procedure under federal law, with secondary constitutional implications in the application of strict construction principles to criminal statutes.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "337_0530-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the application of federal procedural rules versus state statutes of limitations in diversity jurisdiction, directly engaging the Erie doctrine and the boundary between federal procedure and state substantive law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "346_0537-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case concerns alleged violations of the Clayton Act and antitrust conspiracy affecting interstate commerce, placing it squarely within commerce\u2011clause economic doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "340_0602-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case directly addresses the validity of a state tax on a foreign corporation engaged exclusively in interstate commerce, invoking the Commerce Clause to strike down the tax as an unconstitutional burden on interstate commerce, making it a quintessential commerce clause economic case.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "345_0427-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the interpretation of a private war-risk insurance contract in admiralty law, determining liability for vessel loss under contractual terms, which falls squarely under substantive private law; the connection to federal charter and military operations provides contextual economic/commerce implications but does not elevate the core issue to constitutional or statutory interpretation.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "348_0037-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection",
+      "first_amendment"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The Court addressed whether dismissing an appeal for failure to post a supersedeas bond violated Due Process or Equal Protection under the Fourteenth Amendment, making constitutional procedural safeguards the central issue, with incidental implications for civil rights and free association.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "346_0209-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether the statute of limitations bars a criminal indictment for fraudulently obtaining naturalization, involving application of the Wartime Suspension of Limitations Act and criminal procedural time limits, making criminal procedure the primary domain.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "358_0202-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a challenge to Tennessee's bus segregation statutes, invoking the Fourteenth Amendment's Equal Protection Clause to protect the plaintiff's right to nondiscriminatory public transportation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "350_0179-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the statutory authority of the INS to subpoena a naturalized citizen in a denaturalization investigation, a matter of federal administrative law and statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "353_0151-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the Interstate Commerce Commission's statutory authority and jurisdiction under the Interstate Commerce Act, a classic administrative law dispute, with ancillary issues of commerce regulation and statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "351_0470-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a constitutional challenge to a statutory provision of the UCMJ, assessing whether it violates the Sixth Amendment and Article III rights, thus centering on general constitutional and statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "349_0190-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether petitioner\u2019s refusal to answer questions about political associations, grounded in First Amendment protections of free speech and association, sufficed to invoke constitutional privilege, with the Court emphasizing the interplay between compelled disclosure and fundamental rights.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "362_0458-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses antitrust statutes (Sherman, Clayton, Capper\u2011Volstead) and their application to interstate commerce, making the core doctrine an economic regulation under the Commerce Clause.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "359_0029-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the statutory interpretation of bankruptcy wage\u2011priority provisions, a core issue of private debtor\u2011creditor law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "364_0001-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The case concerns the ICC's decision on motor carrier permits, an administrative agency action reviewed by the federal courts, making administrative law the primary doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "364_0454-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on whether state-sanctioned segregation in a terminal restaurant violates the Commerce Clause by burdening interstate travelers, making the commerce clause the primary doctrinal focus.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "375_0384-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the timing of an appeal under Rule 73(a) of the Federal Rules of Civil Procedure, focusing on procedural requirements for post\u2011trial motions and appeal deadlines, which falls within federal court procedural law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "377_0568-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion adjudicates the constitutionality of a state tax on interstate sales, focusing on the Commerce Clause and its economic implications, making commerce\u2011clause economic doctrine the primary classification.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "378_0441-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the application of \u00a77 of the Clayton Act to an inter\u2011industry merger, a classic antitrust issue rooted in the regulation of interstate commerce.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "382_0237-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets the Interstate Commerce Act and the ICC's definition of \"connecting line,\" a classic federal administrative law dispute concerning economic regulation of interstate commerce.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "383_0234-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the Fifth Amendment privilege against self\u2011incrimination and the validity of a waiver of immunity before a grand jury, which are central criminal procedure issues.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "392_0273-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the Fifth Amendment privilege against self\u2011incrimination and its application to police officers, a core criminal procedure doctrine.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "391_0392-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over treaty\u2011based fishing rights of a Native American tribe and the constitutionality of state conservation regulations, which is a matter of federal treaty and constitutional law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "398_0144-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses a \u00a71983 claim alleging racial discrimination in public accommodations, implicating the Equal Protection Clause of the Fourteenth Amendment.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "399_0042-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a Fourth Amendment search\u2011and\u2011seizure question concerning warrantless vehicle searches, which is a core criminal procedure issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "398_0275-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on an Equal Protection challenge to a state welfare payment scheme, making equal protection the dominant doctrinal issue, with statutory and administrative aspects as secondary concerns.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "393_0385-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on whether a city charter amendment violates the Equal Protection Clause by impeding enforcement of a fair housing ordinance, making civil\u2011rights equal\u2011protection doctrine the primary issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "400_1014-02_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "Weintraub v. United States concerns the criminal prosecution of tax evasion, implicating procedural aspects of criminal law rather than substantive private or constitutional rights.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "400_0379-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets Section\u202f5 of the Voting Rights Act, addressing preclearance of voting changes, which is a core civil\u2011rights/equal\u2011protection issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "404_0157-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case interprets the National Labor Relations Act and reviews an NLRB order, placing it squarely within federal administrative law and court adjudication of labor statutes.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "405_1006-02_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The excerpt concerns the Supreme Court's procedural authority to vacate and remand a case due to a change in the Solicitor General's position, which is a matter of federal court administration rather than substantive or constitutional law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "401_0154-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion centers on First Amendment vagueness and overbreadth challenges to bar admission questionnaires, making free\u2011speech doctrine the primary issue while also addressing the validity of statutes and procedural rules.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "410_0679-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the constitutionality of voter residency and registration requirements, a classic equal\u2011protection voting\u2011rights issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "411_0564-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion concerns a state law prohibiting corporations from employing optometrists, raising a challenge under the Commerce Clause's regulation of economic activity.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "399_0235-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on an equal\u2011protection challenge to the practice of imprisoning indigent defendants beyond the statutory maximum for inability to pay fines, implicating civil\u2011rights doctrine while also touching criminal procedure and constitutional statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "418_0264-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on whether state libel judgments against a union's speech are compatible with the First Amendment protection of speech in labor disputes.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "408_0564-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "first_amendment"
+    ],
+    "residual_validity": null,
+    "rationale": "The case primarily addresses procedural due process under the Fourteenth Amendment, a general constitutional issue, with a secondary claim concerning the First Amendment free\u2011speech right.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "418_0949-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "FAIL",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the First Amendment limits on state obscenity bans, making First Amendment the primary doctrinal category, with constitutional statutory interpretation as a secondary concern.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "415_0036-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether an employee\u2019s statutory right under Title VII of the Civil Rights Act of 1964 to a de novo federal court trial for racial discrimination is waived by prior arbitration under a collective-bargaining agreement, directly implicating civil rights enforcement and equal protection under federal statute.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "415_0303-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether a state statute requiring a double appeal bond for indigent litigants violates the Equal Protection Clause by effectively denying access to appellate review based on wealth, a classic equal protection concern under decisions like Griffin v. Illinois and Lindsey v. Normet.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "417_0628-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The Court evaluated whether the Social Security Act\u2019s distinction based on illegitimacy violated equal protection by subjecting children to disparate treatment based on a status beyond their control, squarely implicating constitutional scrutiny of suspect classifications.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "419_0983-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "Spady v. Mount Vernon Housing Authority involved claims of discriminatory housing practices by a public housing authority, implicating equal protection under the Fourteenth Amendment, though certiorari was denied, the underlying dispute centered on alleged racial discrimination in housing access.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "420_0031-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the retroactive application of a Sixth Amendment jury selection standard established in Taylor v. Louisiana, directly implicating procedural rights in criminal trials and the fairness of jury composition under due process.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "420_0377-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the jurisdictional authority of a Court of Appeals to review a pretrial dismissal of a criminal indictment, a procedural question rooted in the Double Jeopardy Clause and the limits of appellate review in criminal cases under 18 U.S.C. \u00a7 3731.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "421_0001-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case interprets the longstanding maritime common law duty of maintenance and cure owed by shipowners to injured seamen, a core doctrine of substantive private law in admiralty jurisprudence.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "420_0671-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the scienter requirement for conspiracy under 18 U.S.C. \u00a7 371 in relation to assault on a federal officer, interpreting statutory elements and jury instructions \u2014 core issues of criminal procedure.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "429_0288-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on the validity and statutory authority of USDA regulations under the Food Stamp Act, raising administrative law questions about agency rulemaking and constitutional challenges to those regulations.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "429_0028-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the admissibility of a confession made after a plea bargain, focusing on voluntariness and Fifth Amendment protections, which are core issues of criminal procedure.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "426_0794-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "civil_rights_equal_protection",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on whether Maryland's scrap\u2011cycle statute unduly burdens interstate commerce, making the Commerce Clause the dominant doctrinal focus, while the equal\u2011protection claim is addressed secondarily.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "425_0820-01_blinded_eval": {
+    "primary_domain": "civil_rights_equal_protection",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on Title VII discrimination claims and the statutory exhaustion requirement of \u00a7\u202f717, placing it squarely within civil\u2011rights employment law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "432_0046-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the SEC's statutory authority and discretion under the Investment Company Act of 1940 to approve a merger, making it an administrative law matter concerning federal agency action.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "433_0186-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the Due Process limits on quasi in rem jurisdiction over nonresident defendants, a constitutional question about statutory jurisdictional schemes.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "421_0658-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "criminal_procedure",
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the liability of a corporate officer under a federal administrative statute (FDCA) for failing to prevent adulteration, affirming strict liability under agency enforcement authority, which is a hallmark of federal administrative law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "434_1080-08_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "Ratchford v. Gay Lib addresses the university's denial of recognition to a student organization, raising the First Amendment issue of freedom of speech and association, making it a primary First Amendment case.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "435_0765-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "civil_rights_equal_protection"
+    ],
+    "residual_validity": null,
+    "rationale": "The case addresses whether a state statute restricting corporate political expenditures violates the First Amendment's free speech protections, making First Amendment doctrine the central issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "437_0054-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the Double Jeopardy Clause's application to a mid\u2011trial evidentiary ruling and a subsequent acquittal, which is a core criminal procedure issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "50_0479-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a land\u2011title dispute by applying rules of evidence to interpret a deed, which is a classic substantive private property issue.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "441_0434-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on whether a state may impose a nondiscriminatory ad valorem tax on foreign-owned containers under the Commerce Clause, making it an economic commerce\u2011clause dispute.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "50_0619-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets a federal revenue statute on customs duties and the collector's authority, placing it squarely within federal administrative law and court review of statutory implementation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "435_0829-01_blinded_eval": {
+    "primary_domain": "first_amendment",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory",
+      "criminal_procedure"
+    ],
+    "residual_validity": null,
+    "rationale": "The case centers on the conflict between a state law criminalizing disclosure of confidential judicial proceedings and the First Amendment protection of press freedom.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "57_0571-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion resolves a dispute over mortgage foreclosure and the equity of redemption, which is a core issue of private property law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "54_0429-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": "FALSE_RESIDUAL",
+    "rationale": "The opinion resolves a dispute over whether a later federal statute implicitly repeals an earlier one and whether that repeal bars a pending civil action for statutory penalties, a classic issue of statutory interpretation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "445_0055-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a prior conviction obtained without counsel can serve as the statutory predicate for a firearm possession charge, focusing on procedural rights under the Sixth Amendment and the application of a criminal statute.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "62_0372-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a maritime collision dispute, focusing on fault and liability, which is a substantive private law (tort) issue under admiralty jurisdiction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "60_0355-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves the meaning of a federal pension statute and the entitlement of descendants, which is a matter of statutory interpretation under general constitutional/statutory law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "64_0481-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves an appeal jurisdiction issue in an admiralty case, focusing on the $2,000 amount-in-controversy threshold, which is a procedural matter of federal court jurisdiction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "67_0590-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a tort claim against a municipal corporation for negligent maintenance of a bridge and the admissibility of evidence on the plaintiff's business loss, which falls under substantive private law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "70_0257-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves an admiralty dispute over liability for a vessel collision, focusing on substantive private law principles of tort and maritime liability, with procedural discussion of libel in rem and court amendments.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "73_0385-01_blinded_eval": {
+    "primary_domain": "criminal_procedure",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a federal clerk qualifies as an officer under criminal statutes for embezzlement, focusing on statutory interpretation and criminal liability.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "72_0566-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion resolves a civil tort claim against a city for negligence and applies estoppel/res judicata principles, fitting substantive private law with an admiralty procedural aspect.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "74_0386-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The opinion resolves a dispute over an insurance contract's time\u2011limit clause, interpreting it as a permissible contractual term distinct from statutory limitations, which is a matter of private contract/substantive law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 1
+  },
+  "71_0535-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion centers on the Contract Clause of the U.S. Constitution, holding that a municipal tax power granted to satisfy bond obligations constitutes a contract that cannot be impaired by later legislation.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "59_0253-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on equitable distribution of an intestate estate, jurisdiction over out-of-state defendants who voluntarily appeared, and enforcement of a state chancery decree across state lines \u2014 all core issues of private law governing property, trusts, and equitable remedies.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "73_0166-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the statutory authority of a county to levy a tax to satisfy a judgment, interpreting state statutes and constitutional limits on county powers.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "75_0533-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves whether a tax on state bank notes is a direct tax requiring apportionment, interpreting constitutional tax provisions rather than substantive private law or criminal procedure.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "78_0238-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a maritime collision dispute by applying established duties of vessels and assigning liability, which falls under tort-based substantive private law rather than constitutional or criminal matters.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "85_0604-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": null,
+    "rationale": "The opinion addresses the recovery of funds paid on an altered check and the bank's liability, which falls under substantive private law governing negotiable instruments and contracts.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "88_0041-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets the 1867 removal statute and holds that a suit must be pending for trial at the time of removal, affirming procedural limits on federal court jurisdiction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "85_0642-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion interprets federal Internal Revenue statutes governing assessor authority and tax reassessment procedures, placing it squarely within federal administrative law.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 2
+  },
+  "83_0644-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether municipal bonds issued under a statutory scheme were valid despite procedural irregularities, turning on statutory interpretation and the limits of legislative delegation \u2014 core concerns of general constitutional and statutory law, not private law or constitutional rights.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "81_0012-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on whether the Supreme Court has jurisdiction under \u00a725 of the Judiciary Act to review a state court\u2019s application of a state constitutional provision voiding slave-sale contracts, raising federal questions about the scope of federal appellate jurisdiction over state constitutional rulings.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "89_0042-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on equitable pleading rules regarding joinder of parties and standing in a private property dispute, specifically whether a bill in chancery may proceed when some plaintiffs lack alleged interest \u2014 a core issue of substantive private law in equity jurisprudence.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "90_0420-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "substantive_private_law"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the jurisdictional threshold for appellate review of equity decrees, specifically whether a 1853 order constituted a 'final decree' under federal statute, making it a procedural/administrative question of federal court authority rather than substantive private law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "90_0486-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the interpretation of a trust deed and the applicability of the rule in Shelley\u2019s case to equitable estates, a classic issue in property and trust law under substantive private law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "91_0021-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on procedural jurisdictional authority of federal courts in rem proceedings under the Confiscation Act, including amendment of writs, validity of decrees, and judicial power to correct errors \u2014 classic administrative and procedural federal court matters.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "95_0661-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the interpretation of federal tax statutes and internal\u2011revenue regulations concerning bonded warehouses and collector commissions, which is quintessential administrative law before the federal courts.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "93_0460-01_blinded_eval": {
+    "primary_domain": "general_constitutional_statutory",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "admin_law_federal_courts"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the statutory limits of patent reissue under federal patent law, determining whether a reissued patent materially enlarges the scope of the original invention\u2014an issue of statutory interpretation and administrative authority under patent statutes, not constitutional or private law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "96_0131-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic",
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over customs duty classification under the tariff statutes, interpreting the similitude clause, which is a matter of federal administrative law and statutory construction.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "99_0393-01_blinded_eval": {
+    "primary_domain": "admin_law_federal_courts",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a dispute over the assessment and collection of internal\u2011revenue tax on distilled spirits, focusing on statutory tax administration and the Commissioner\u2019s lien and distraint powers.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "97_0501-01_blinded_eval": {
+    "primary_domain": "commerce_clause_economic",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "general_constitutional_statutory"
+    ],
+    "residual_validity": null,
+    "rationale": "The opinion resolves a conflict between a federal patent right and a state safety regulation, invoking the Commerce Clause and federal preemption of state law over patented goods.",
+    "judge_b_model": "databricks-gpt-oss-120b",
+    "cache_hit": true,
+    "fallback_used": false,
+    "judge_error": false,
+    "retries": 0
+  },
+  "93_0575-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [
+      "commerce_clause_economic"
+    ],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on bailment law and the rights and duties of bailees (including common carriers) in relation to true owners versus bailors, a core doctrine of private law governing property and contractual obligations.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  },
+  "95_0023-01_blinded_eval": {
+    "primary_domain": "substantive_private_law",
+    "lexical_authenticity": "PASS",
+    "coherence": "COHERENT",
+    "secondary_domains": [],
+    "residual_validity": "VALID_RESIDUAL",
+    "rationale": "The case centers on the contractual interpretation of an insurance policy clause under maritime contract law, applying principles of contractual construction informed by surrounding circumstances, which falls squarely within substantive private law.",
+    "judge_b_model": "databricks-qwen3-next-80b-a3b-instruct",
+    "cache_hit": true,
+    "fallback_used": true,
+    "judge_error": false,
+    "retries": 3
+  }
+}

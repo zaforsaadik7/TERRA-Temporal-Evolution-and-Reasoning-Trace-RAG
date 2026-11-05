@@ -1,0 +1,11 @@
+fact_id,location,printed,result,note
+B6-F01,B6-1,"Supported+Refuted macro: TERRA 53.16 < Flat 55.72, > Direct 51.59",VERIFIED,
+B6-F02,B6-1,"TERRA Supported F1 lowest (65.69 vs 67.11, 66.67); Refuted below Flat (40.62 < 44.78); the macro gain is the Overruled class (57.14 vs 33.33/36.36)",VERIFIED,
+B6-F03,"B6-1, table","accuracy (OOC = error): TERRA 62/120, Flat 64/120, Direct 64/120; equals the printed ""Micro-F1"" macros",VERIFIED,
+B6-F04,B6-1,"Overruled 4/8 CI [15.7, 84.3] and 2/8 CI [3.2, 65.1] overlap",VERIFIED,
+B6-F05,B6-1,"judge concordance 120/120 per pipeline and parsed label = qwen judge label 120/120 (the label is extracted, not an independent judgement)",VERIFIED,
+B6-F06,B6-2,"TERRA CLERC: 120 completions, 67 generated, 53 gate-refused; OR 60 (50.0% of 120, 89.6% of 67), AND 45 (37.5%, 67.2%); no flags among gate-refused",VERIFIED,
+B6-F07,B6-2,hits@10: TERRA 13/120 vs Flat 12/120,VERIFIED,
+B6-F08,B6-2,"Citation F1 printed: Direct 4.7% > TERRA 3.5% > Flat 1.8%; soundness TERRA 1.98 lowest (Flat 2.34, Direct 2.84)",VERIFIED,
+B6-F09,B6-3 table bolding,CLERC: ROUGE-L best Direct (6.52 vs TERRA 6.50); BLEU best TERRA (1.10),VERIFIED,
+B6-F10,B6-2,"Fabrication values (0.0%, 41.1%, 45.5%, 84.7/15.3%) are literals; NOT recomputed (eyecite unavailable); the edit discloses this",VERIFIED,disclosure only; Phase 1 R09-11

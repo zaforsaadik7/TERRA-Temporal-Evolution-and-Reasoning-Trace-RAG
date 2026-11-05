@@ -1,0 +1,21 @@
+{
+  "id": "AUTH1-ITEM-017",
+  "author": 1,
+  "column": "N",
+  "original_source_field": "Miranda v. Arizona, 384 U.S. 436 (1966) — https://supreme.justia.com/cases/federal/us/384/436/\nMathis v. United States, 391 U.S. 1 (1968) — https://supreme.justia.com/cases/federal/us/391/1/\n[cite: 1, 3]\nOrozco v. Texas, 394 U.S. 324 (1969) — https://supreme.justia.com/cases/federal/us/394/324/\n[cite: 2, 4]",
+  "original_excerpt": "From Miranda v. Arizona, 384 U.S. 436, 444, 467–473 (1966):\n\"Prior to any questioning, the person must be warned that he has a right to remain silent, that any statement he does make may be used as evidence against him, and that he has a right to the presence of an attorney, either retained or appointed. The defendant may waive effectuation of these rights, provided the waiver is made voluntarily, knowingly and intelligently.\"\nFrom Mathis v. United States, 391 U.S. 1, 4–5 (1968):\nHolding that Miranda warnings are an absolute prerequisite whenever an individual is in custody and subjected to interrogation, even during routine tax investigations or where the custody stems from an unrelated offense.   \nFrom Orozco v. Texas, 394 U.S. 324, 326–327 (1969):\nReaffirming that Miranda warnings are mandatory whenever a person is in custody or otherwise deprived of their freedom of action in any significant way, including questioning occurring outside the police station.",
+  "disposition": "SUPPORTED_CORE_PARAPHRASE_SCOPE_QUALIFICATION",
+  "attribution": "Miranda, Mathis and Orozco majority opinions",
+  "fidelity": "Miranda quote corresponds. Mathis rejects tax-investigation/unrelated-custody exceptions on these facts; Orozco applies warnings to custodial bedroom questioning. 'Absolute prerequisite whenever' is broader than a case-specific paraphrase.",
+  "pinpoint": "Miranda 444, 467–473; Mathis 4–5; Orozco 326–327.",
+  "scope_note": "Qualify categorical language with custodial interrogation and Miranda's recognition of fully effective alternatives; not a rule for every interview.",
+  "previous_record_verification": "No previous in-scope closure relied on.",
+  "source_availability": "PRESERVED_SOURCE_AVAILABLE",
+  "evidence_paths": [
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-384-436.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-391-1.txt",
+    "TERRA_EDITORIAL_RESTART_V2/reviewer_author_validation_20261008/source_verification_20261011_01/sources/USREPORTS-394-324.txt"
+  ],
+  "ratings_certified": false,
+  "workbook_changes_made": false
+}

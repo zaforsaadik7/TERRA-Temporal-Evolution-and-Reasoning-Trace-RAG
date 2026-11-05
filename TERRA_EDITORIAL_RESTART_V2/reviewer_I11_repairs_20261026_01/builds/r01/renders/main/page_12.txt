@@ -1,0 +1,133 @@
+TABLE II
+Pilot component ablation: 35 queries, five repeats (700 observations).
+Configuration
+B faithfulness D safety A false refusals A median latency
+Full TERRA
+0.815
+100.0%
+0/10
+1.38 s
+Without graph traversal
+0.675
+100.0%
+0/10
+1.80 s
+Without verification
+0.780
+0.0%
+0/10
+1.43 s
+Forced HARD route
+0.840
+100.0%
+2/10 (20.0%)
+6.75 s
+Pilot, not the primary350-query run; CategoryD has five unique traps. Values are descriptive and the recorded pilot used a single judge.
+Full cells, methods and notes: Supplement Section S5.
+TABLE III
+Historical CategoryB performance (100 paired queries).
+Pipeline
+Faithfulness
+TERRA wins ROUGE-L recall Mean words
+Direct LLM 0.335 ± 0.166
+27.0%†
+0.546
+612
+Flat RAG
+0.184 ± 0.366
+67.0%
+0.500
+481
+GraphRAG
+0.135 ± 0.300
+73.0%
+0.523
+477
+HippoRAG
+0.188 ± 0.232
+51.0%
+0.536
+470
+TERRA
+0.254 ± 0.226
+—
+0.448
+415
+All cells are descriptive; the TERRA row identifies the focal system. Win rates are TERRA-versus-row outcomes. Direct LLM comparison
+has27wins,18ties,55losses. Length is not a quality direction. Full cells, methods and notes: Supplement Section S6.
+evidence budget, verifier, generator and two evidence-
+faithfulness judges. This is a controlled implementation
+comparison, separate from the historical multi-baseline
+evaluation above. Among the 100 assessable Category B
+pairs out of 100 assigned, the T-minus-H composite
+difference was 0.26885 (paired percentile-bootstrap 95%
+CI [0.16035, 0.37205]; two-sided paired randomization p =
+0.000010). T produced 69/100 verifier-triggered refusals
+on Category B versus 4/100 for H; this coverage tradeoff
+prevents interpreting the faithfulness difference as better
+answer coverage or legal correctness. Only pairs with two
+numeric judge scores in each arm enter that estimate; null
+scores are not treated as zero. Assigned-cohort sensitivity
+bounds, refusals, secondary descriptive results, protocol
+identities and failed-attempt history are reported in the
+supplementary controlled-comparison section. Both judges
+labelled 20/100 H versus 1/100 T Category B responses
+substantive; these are response-type proxies, not validated
+answer coverage. Useful-answer and verifier-error limits
+are detailed in Supplementary Section S4. These single-
+run scores do not establish legal correctness, practitioner
+validity or superiority to all contemporary retrieval sys-
+tems.
+D. Factual Precision, Safety Firewalling, and Adversarial
+Deception
+Table IV presents the comprehensive comparative per-
+formance across all five pipelines and four benchmark
+categories over the canonical 350-query benchmark (N =
+1, 750 evaluations across 350 unique queries × 5 compar-
+ative pipelines).
+Faithfulness. Historical overall faithfulness (which can
+assign high scores to epistemic refusals) and answer-
+only faithfulness (generated arguments only) must be
+Category C (OOD)
+Category D (Adversarial)
+0
+50
+100
+0%
+0%
+98.7%
+45.3%
+100%
+33.3%
+98.7%
+36%
+100%
+61.3%
+Safety Refusal Rate (%)
+Direct LLM
+Flat Vector RAG
+GraphRAG-Adapted
+HippoRAG-Adapted
+TERRA GraphRAG
+Fig. 3.
+Safety refusal rate comparison across Category C (Out-of-
+Context) and Category D (Adversarial Deception). Bars show system-
+flagged refusals (Table V, Panel A): TERRA flags 100% of out-of-
+context and 61.3% (46/75) of adversarial queries; Direct LLM flags
+none.
+read together. TERRA has the highest overall faithful-
+ness (0.695, 95% CI [0.654, 0.735]), ahead of HippoRAG-
+Adapted (0.670, [0.627, 0.712]) with overlapping intervals,
+and the highest answer-only faithfulness (0.586 vs. 0.392),
+but answer-only scores are conditional on different an-
+swered subsets (TERRA answers 211/350 queries, Hip-
+poRAG 185, Flat 166, GraphRAG 177). Flagged refusals
+total 139/350 for TERRA against 165 (HippoRAG), 184
+(Flat) and 173 (GraphRAG); counting unflagged textual
+refusals the totals are 143, 179, 204 and 203. Clamping
+Category D refusals and verified refutations to at least
+0.75 (Amendments K–M) would raise overall faithfulness
+by 0.82 to 4.75 points across pipelines (TERRA 0.6950
+raw, 0.7357 clamped) and answer-only faithfulness by
+0.82 to 9.25 points; the headline values in this paper are
+the raw dual-judge means, and the per-pipeline compar-

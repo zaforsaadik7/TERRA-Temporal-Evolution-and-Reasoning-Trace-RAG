@@ -1,0 +1,47 @@
+{
+ "historical_edges": 145363,
+ "historical_unique": 145363,
+ "historical_relations": {
+  "CITES": 145363
+ },
+ "active_edges": 145366,
+ "active_unique": 145366,
+ "active_relations": {
+  "CITES": 145310,
+  "OVERRULES": 56
+ },
+ "header_total_edges_active": 145363,
+ "added": 3,
+ "removed": 0,
+ "retyped": 53,
+ "retyped_transitions": {
+  "CITES->OVERRULES": 53
+ },
+ "added_relations": {
+  "OVERRULES": 3
+ },
+ "added_list": [
+  {
+   "source": "415_0651-01",
+   "target": "394_0759-01",
+   "relation": "OVERRULES",
+   "src_title": "Edelman v. Jordan",
+   "tgt_title": "National Labor Relations Board v. Wyman-Gordon Co."
+  },
+  {
+   "source": "403_0088-01",
+   "target": "342_0519-01",
+   "relation": "OVERRULES",
+   "src_title": "Griffin v. Breckenridge",
+   "tgt_title": "Frisbie v. Collins"
+  },
+  {
+   "source": "411_0345-01",
+   "target": "172_0269-01",
+   "relation": "OVERRULES",
+   "src_title": "Hensley v. Municipal Court",
+   "tgt_title": "Norwood v. Baker"
+  }
+ ],
+ "nodes_equal": true
+}

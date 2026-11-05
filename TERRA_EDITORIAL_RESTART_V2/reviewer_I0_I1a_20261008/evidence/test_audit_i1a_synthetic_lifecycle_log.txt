@@ -1,0 +1,613 @@
+
+[CRITICAL ERROR] Execution failed at stage: Simulated disk full during copy
+
+[CRITICAL ERROR] Execution failed at stage: Simulated HNSW index query fault
+
+[CRITICAL ERROR] Execution failed at stage: Original database files changed during copy operation!
+CRITICAL REPORT FAILURE: Simulated permission denied on report file
+CRITICAL: Primary report serialization failed. Terminal record:
+{
+  "critical_event": "REPORT_SERIALIZATION_FAILED",
+  "status": "FAILED",
+  "error": "Simulated permission denied on report file",
+  "target_path": "C:\\Users\\zafor\\AppData\\Local\\Temp\\tmpw20kr3u1\\workspace\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I0_I1a_20261008\\addendum_01\\runs\\run_1791421909_23496_f833acc9\\contemporary_distance_diagnostic_1791421909_23496_f833acc9.json"
+}
+CRITICAL: Failed to write or verify final report:
+{
+  "critical_event": "REPORT_SERIALIZATION_FAILED",
+  "run_id": "run_123",
+  "target_path": "C:\\Users\\zafor\\AppData\\Local\\Temp\\tmpfj6wcycx\\sub\\report.json",
+  "error_type": "FileExistsError",
+  "error_message": "[Errno 17] File exists: 'C:\\\\Users\\\\zafor\\\\AppData\\\\Local\\\\Temp\\\\tmpfj6wcycx\\\\sub\\\\report.json'",
+  "state_status": "SUCCESS"
+}
+
+[CRITICAL ERROR] Execution failed at stage: ONNX asset config.json SHA256 mismatch: 26f9f0131586f373dec69408b2f86a9659672f7dc29ed4af8ce0e94cbcff61bf != 5e4d597abea6e84fdd99b0b709b6943d7da2da345521d541cdb85a9c67339154
+
+[CRITICAL ERROR] Execution failed at stage: Missing Benchmark 350: C:\Users\zafor\AppData\Local\Temp\tmpybc9v53w\nonexistent_workspace\terra_350_benchmark.json
+
+[CRITICAL ERROR] Execution failed at stage: Threshold '0.90' missing required integer field 'fp' in saved grid.
+
+[CRITICAL ERROR] Execution failed at stage: Security violation: Collection embedding function '<class '__main__.test_17_impostor_embedding_function_rejection.<locals>.ImpostorDefaultEF'>' (module: '__main__', name: 'default') is not a genuine installed DefaultEmbeddingFunction or ONNXMiniLM_L6_V2 instance.
+CRITICAL CLEANUP FAILURE: Simulated network guard uninstallation or environment restoration failure
+CRITICAL: Failed to write or verify final report:
+{
+  "critical_event": "REPORT_SERIALIZATION_FAILED",
+  "run_id": "sentinel_collision_run_12345",
+  "target_path": "C:\\Users\\zafor\\AppData\\Local\\Temp\\tmp58r3hkxw\\workspace\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I0_I1a_20261008\\addendum_01\\runs\\run_sentinel_collision_run_12345\\contemporary_distance_diagnostic_sentinel_collision_run_12345.json",
+  "error_type": "FileExistsError",
+  "error_message": "[Errno 17] File exists: 'C:\\\\Users\\\\zafor\\\\AppData\\\\Local\\\\Temp\\\\tmp58r3hkxw\\\\workspace\\\\TERRA_EDITORIAL_RESTART_V2\\\\reviewer_I0_I1a_20261008\\\\addendum_01\\\\runs\\\\run_sentinel_collision_run_12345\\\\contemporary_distance_diagnostic_sentinel_collision_run_12345.json'",
+  "state_status": "SUCCESS"
+}
+CRITICAL REPORT FAILURE: Report serialization and read-back failed: [Errno 17] File exists: 'C:\\Users\\zafor\\AppData\\Local\\Temp\\tmp58r3hkxw\\workspace\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I0_I1a_20261008\\addendum_01\\runs\\run_sentinel_collision_run_12345\\contemporary_distance_diagnostic_sentinel_collision_run_12345.json'
+CRITICAL: Primary report serialization failed. Terminal record:
+{
+  "critical_event": "REPORT_SERIALIZATION_FAILED",
+  "status": "FAILED",
+  "error": "Report serialization and read-back failed: [Errno 17] File exists: 'C:\\\\Users\\\\zafor\\\\AppData\\\\Local\\\\Temp\\\\tmp58r3hkxw\\\\workspace\\\\TERRA_EDITORIAL_RESTART_V2\\\\reviewer_I0_I1a_20261008\\\\addendum_01\\\\runs\\\\run_sentinel_collision_run_12345\\\\contemporary_distance_diagnostic_sentinel_collision_run_12345.json'",
+  "target_path": "C:\\Users\\zafor\\AppData\\Local\\Temp\\tmp58r3hkxw\\workspace\\TERRA_EDITORIAL_RESTART_V2\\reviewer_I0_I1a_20261008\\addendum_01\\runs\\run_sentinel_collision_run_12345\\contemporary_distance_diagnostic_sentinel_collision_run_12345.json"
+}
+
+[CRITICAL ERROR] Execution failed at stage: Simulated path rejection
+NOTE: Path validation did not succeed; skipping file report serialization.
+================================================================================
+EXECUTING FULLY ISOLATED SYNTHETIC LIFECYCLE TEST SUITE (CODEX-0017 / CODEX-0018 / CODEX-0019 / CODEX-0020)
+Status: 100% Synthetic Workspaces, Zero Inference, Zero Production DB Touches
+================================================================================
+
+[Test 1: Import Purity] Verifying that importing module has zero network side-effects...
+  PASS: Test 1: Import Purity (socket and urllib unpatched on import)
+
+[Test 2: Scoped Network Guards & Restoration] Testing fail-closed network blockers and clean restoration...
+  PASS: Test 2: Scoped Network Guards & Restoration (fail-closed negative controls passed; callables and env cleanly restored)
+
+[Test 3: Pre-Resolution Symlink Rejection] Testing pre-resolution symlink and reparse point checks...
+  SKIP: Test 3: Pre-Resolution Symlink Rejection (platform requires elevated privileges to create symlinks)
+
+[Test 4: Real ONNX _download Route Negative Control] Testing real ONNX downloader fails closed under active guards...
+  PASS: Test 4: Real ONNX _download Route Negative Control (real ONNX download route trapped and aborted)
+
+[Test 5: Synthetic Lifecycle Success] Running end-to-end production lifecycle on synthetic fixtures...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421908_23496_54828476)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: TEST_AIRGAPPED_CONTAINER
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmpi0og038q\workspace\scratch\diagnostics\run_1791421908_23496_54828476\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+  PASS: Benchmark 350 queried and all 350 results strictly validated.
+
+[Stage 8] Querying Legacy Benchmark 175 sample_in_20 and sample_out_20...
+  PASS: Legacy Benchmark 175 sample cohorts queried and validated.
+
+[Stage 9] Computing AUROC and evaluating concordance against saved summary...
+  PASS: Concordance evaluated. Classification: EXACT_CONCORDANCE (AUROC Diff: 0.00e+00)
+
+[Stage 10] Checking post-query SQLite schema and finalizing metadata...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpi0og038q\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421908_23496_54828476\contemporary_distance_diagnostic_1791421908_23496_54828476.json
+Final Outcome Status: SUCCESS
+================================================================================
+DIAGNOSTIC WORKFLOW COMPLETE (DISPOSABLE SNAPSHOT EVALUATED)
+================================================================================
+  PASS: Test 5: Synthetic Lifecycle Success (exit 0, status SUCCESS, guards and env strictly restored, zero leaks)
+
+[Test 6: Lifecycle Copy Failure Handling] Testing production lifecycle handling when snapshot copy fails...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421908_23496_c97e0f29)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpdmnwk0c2\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421908_23496_c97e0f29\contemporary_distance_diagnostic_1791421908_23496_c97e0f29.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (ALL ASSETS PRESERVED)
+================================================================================
+  PASS: Test 6: Lifecycle Copy Failure Handling (fail-closed on copy error: exit 1, status FAILED, guards restored)
+
+[Test 7: Lifecycle Query Exception Handling] Testing production lifecycle handling when Chroma query raises...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421909_23496_9c571b57)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmp0uztjnti\workspace\scratch\diagnostics\run_1791421909_23496_9c571b57\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmp0uztjnti\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421909_23496_9c571b57\contemporary_distance_diagnostic_1791421909_23496_9c571b57.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (ALL ASSETS PRESERVED)
+================================================================================
+  PASS: Test 7: Lifecycle Query Exception Handling (fail-closed on query exception: exit 1, status FAILED, guards restored)
+
+[Test 8: Source Mutation Detection] Testing production lifecycle 3-way manifest disparity catch...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421909_23496_9dda65d5)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpcwhieyv6\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421909_23496_9dda65d5\contemporary_distance_diagnostic_1791421909_23496_9dda65d5.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (INTEGRITY COMPROMISED OR UNVERIFIED)
+================================================================================
+  PASS: Test 8: Source Mutation Detection (source mutation caught by pre/post copy verification)
+
+[Test 9: Final Asset Hash Mismatch Detection] Testing final integrity check catches post-query file mutation...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421909_23496_bbf255fd)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmpqumvtc71\workspace\scratch\diagnostics\run_1791421909_23496_bbf255fd\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+  PASS: Benchmark 350 queried and all 350 results strictly validated.
+
+[Stage 8] Querying Legacy Benchmark 175 sample_in_20 and sample_out_20...
+  PASS: Legacy Benchmark 175 sample cohorts queried and validated.
+
+[Stage 9] Computing AUROC and evaluating concordance against saved summary...
+  PASS: Concordance evaluated. Classification: GRID_COUNT_DISCORDANCE_4_THRESHOLDS (AUROC Diff: 5.00e-01)
+
+[Stage 10] Checking post-query SQLite schema and finalizing metadata...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpqumvtc71\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421909_23496_bbf255fd\contemporary_distance_diagnostic_1791421909_23496_bbf255fd.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (INTEGRITY COMPROMISED OR UNVERIFIED)
+================================================================================
+  PASS: Test 9: Final Asset Hash Mismatch Detection (tampering caught by Stage 11 final integrity check)
+
+[Test 10: Lifecycle Report Serialization Failure] Testing lifecycle handling when report serialization fails...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421909_23496_f833acc9)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmpw20kr3u1\workspace\scratch\diagnostics\run_1791421909_23496_f833acc9\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+  PASS: Benchmark 350 queried and all 350 results strictly validated.
+
+[Stage 8] Querying Legacy Benchmark 175 sample_in_20 and sample_out_20...
+  PASS: Legacy Benchmark 175 sample cohorts queried and validated.
+
+[Stage 9] Computing AUROC and evaluating concordance against saved summary...
+  PASS: Concordance evaluated. Classification: EXACT_CONCORDANCE (AUROC Diff: 0.00e+00)
+
+[Stage 10] Checking post-query SQLite schema and finalizing metadata...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (ALL ASSETS PRESERVED)
+================================================================================
+  PASS: Test 10: Lifecycle Report Serialization Failure (lifecycle report write failure forces exit 1 and FAILED, guards restored)
+
+[Test 11: Report Exclusive Write & Full Read-Back] Testing report exclusive creation ('x') and full-payload read-back...
+  PASS: Test 11: Report Exclusive Write & Full Read-Back (exclusive creation enforced, read-back verified)
+
+[Test 12: Equal-Size Cache Hash Corruption] Testing preflight catches equal-size corrupted ONNX cache file...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421910_23496_f5752d46)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpcmsfnbpe\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421910_23496_f5752d46\contemporary_distance_diagnostic_1791421910_23496_f5752d46.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (INTEGRITY COMPROMISED OR UNVERIFIED)
+================================================================================
+  PASS: Test 12: Equal-Size Cache Hash Corruption (Stage 3 preflight caught equal-size corrupted cache file)
+
+[Test 13: Early Failure Safe Finalization (Inside Temp Tree)] Testing lifecycle early rejection without UnboundLocalError or leaks...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421910_23496_e9f12b11)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpybc9v53w\nonexistent_workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421910_23496_e9f12b11\contemporary_distance_diagnostic_1791421910_23496_e9f12b11.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (INTEGRITY COMPROMISED OR UNVERIFIED)
+================================================================================
+  PASS: Test 13: Early Failure Safe Finalization (Inside Temp Tree) (early rejection cleanly finalized; unmeasured source marked UNVERIFIED)
+
+[Test 14: Strict Saved-Grid Validation] Testing production lifecycle rejects missing or non-integer grid fields...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421910_23496_5970c888)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmpbttgk9op\workspace\scratch\diagnostics\run_1791421910_23496_5970c888\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+  PASS: Benchmark 350 queried and all 350 results strictly validated.
+
+[Stage 8] Querying Legacy Benchmark 175 sample_in_20 and sample_out_20...
+  PASS: Legacy Benchmark 175 sample cohorts queried and validated.
+
+[Stage 9] Computing AUROC and evaluating concordance against saved summary...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpbttgk9op\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421910_23496_5970c888\contemporary_distance_diagnostic_1791421910_23496_5970c888.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (ALL ASSETS PRESERVED)
+================================================================================
+  PASS: Test 14: Strict Saved-Grid Validation (non-integer grid field rejected by production validator)
+
+[Test 15: Granular Concordance & Deltas] Testing production lifecycle catches count discordance with signed deltas...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421910_23496_b0ee0a0f)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmptavh1o1_\workspace\scratch\diagnostics\run_1791421910_23496_b0ee0a0f\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+  PASS: Benchmark 350 queried and all 350 results strictly validated.
+
+[Stage 8] Querying Legacy Benchmark 175 sample_in_20 and sample_out_20...
+  PASS: Legacy Benchmark 175 sample cohorts queried and validated.
+
+[Stage 9] Computing AUROC and evaluating concordance against saved summary...
+  PASS: Concordance evaluated. Classification: GRID_COUNT_DISCORDANCE_1_THRESHOLDS (AUROC Diff: 0.00e+00)
+
+[Stage 10] Checking post-query SQLite schema and finalizing metadata...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmptavh1o1_\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421910_23496_b0ee0a0f\contemporary_distance_diagnostic_1791421910_23496_b0ee0a0f.json
+Final Outcome Status: SUCCESS
+================================================================================
+DIAGNOSTIC WORKFLOW COMPLETE (DISPOSABLE SNAPSHOT EVALUATED)
+================================================================================
+  PASS: Test 15: Granular Concordance & Deltas (count discordance and signed deltas tracked)
+
+[Test 16: Unified Result Validator Edge Conditions] Testing validator on positive, tiny negative, material negative, NaN...
+  PASS: Test 16: Unified Result Validator Edge Conditions (positive, tiny negative, material negative, whitespace, NaN verified)
+
+[Test 17: Impostor Embedding Function Rejection] Testing Stage 7 rejects impostor embedding function named 'default'...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421911_23496_1187769e)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmp0_peyevx\workspace\scratch\diagnostics\run_1791421911_23496_1187769e\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmp0_peyevx\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421911_23496_1187769e\contemporary_distance_diagnostic_1791421911_23496_1187769e.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (ALL ASSETS PRESERVED)
+================================================================================
+  PASS: Test 17: Impostor Embedding Function Rejection (arbitrary impostor named 'default' rejected by class check)
+
+[Test 18: Lifecycle Cleanup Failure Handling] Verifying cleanup failure results in status=FAILED, exit_code=1, and on-disk FAILED report...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421911_23496_8a7d752f)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmpf4hreo2e\workspace\scratch\diagnostics\run_1791421911_23496_8a7d752f\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+  PASS: Benchmark 350 queried and all 350 results strictly validated.
+
+[Stage 8] Querying Legacy Benchmark 175 sample_in_20 and sample_out_20...
+  PASS: Legacy Benchmark 175 sample cohorts queried and validated.
+
+[Stage 9] Computing AUROC and evaluating concordance against saved summary...
+  PASS: Concordance evaluated. Classification: EXACT_CONCORDANCE (AUROC Diff: 0.00e+00)
+
+[Stage 10] Checking post-query SQLite schema and finalizing metadata...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+
+[Final Report] Report serialized and verified at:
+  C:\Users\zafor\AppData\Local\Temp\tmpf4hreo2e\workspace\TERRA_EDITORIAL_RESTART_V2\reviewer_I0_I1a_20261008\addendum_01\runs\run_1791421911_23496_8a7d752f\contemporary_distance_diagnostic_1791421911_23496_8a7d752f.json
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (ALL ASSETS PRESERVED)
+================================================================================
+  PASS: Test 18: Lifecycle Cleanup Failure Handling (cleanup failure captured: status=FAILED, exit_code=1, disk report=FAILED)
+
+[Test 19: Sentinel Preservation On Report Collision] Verifying pre-existing sentinel report is preserved byte-identical when collision occurs...
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: sentinel_collision_run_12345)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+  PASS: Pre-resolution reparse checks and post-resolution isolation confirmed.
+
+[Stage 3] Preflight verification of benchmarks and ONNX cache manifest...
+  PASS: Benchmark 350, Benchmark 175, Saved Summary, and all ONNX cache assets verified.
+
+[Stage 4] Verifying source DB quiescence and creating isolated snapshot...
+  PASS: Disposable snapshot created at C:\Users\zafor\AppData\Local\Temp\tmp58r3hkxw\workspace\scratch\diagnostics\run_sentinel_collision_run_12345\vector_db_20k with 3-way manifest parity.
+
+[Stage 5] Extracting active SQLite schema before Chroma connection...
+  PASS: Active space confirmed as 'l2' (squared Euclidean).
+
+[Stage 6] Validating cohort definitions across benchmarks...
+  PASS: All Benchmark 350 and Benchmark 175 cohort definitions validated.
+
+[Stage 7] Verifying embedding function cache binding and querying Benchmark 350...
+  PASS: Benchmark 350 queried and all 350 results strictly validated.
+
+[Stage 8] Querying Legacy Benchmark 175 sample_in_20 and sample_out_20...
+  PASS: Legacy Benchmark 175 sample cohorts queried and validated.
+
+[Stage 9] Computing AUROC and evaluating concordance against saved summary...
+  PASS: Concordance evaluated. Classification: EXACT_CONCORDANCE (AUROC Diff: 0.00e+00)
+
+[Stage 10] Checking post-query SQLite schema and finalizing metadata...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (ALL ASSETS PRESERVED)
+================================================================================
+================================================================================
+CONTEMPORARY VECTOR DISTANCE DIAGNOSTIC (RUN ID: 1791421911_23496_504b309e)
+Status: Offline, Isolated, Disposable Snapshot Execution
+Declared Offline Condition: UNKNOWN_OR_UNCONFIRMED_ENVIRONMENT
+================================================================================
+
+[Stage 1] Executing fail-closed network negative controls...
+  PASS: Outbound network calls strictly blocked and verified.
+
+[Stage 2] Pre-resolution reparse point and symlink validation across parent trees...
+
+[Final Stage] Executing unconditional final integrity check on original assets...
+
+[Final Stage] Restoring network guards and process environment...
+Final Outcome Status: FAILED
+================================================================================
+DIAGNOSTIC WORKFLOW FAILED (INTEGRITY COMPROMISED OR UNVERIFIED)
+================================================================================
+  PASS: Test 19: Sentinel Preservation On Report Collision (sentinel preserved 100% byte-identical; exit 1, status FAILED, zero overwrite; rejected paths produce zero fallback)
+
+================================================================================
+TEST SUITE SUMMARY: 18 PASSED, 0 FAILED, 1 SKIPPED (TOTAL: 19)
+================================================================================

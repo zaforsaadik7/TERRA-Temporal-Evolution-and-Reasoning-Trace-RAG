@@ -1,0 +1,36 @@
+TERRA_SUPPLEMENT.aux TERRA_SUPPLEMENT.log TERRA_SUPPLEMENT.bbl TERRA_SUPPLEMENT.out TERRA_SUPPLEMENT.pdf TERRA_SUPPLEMENT.blg : TERRA_SUPPLEMENT.tex \
+  supplement_details/index.tex \
+  supplement_tables/table_temporal_leakage_probe.tex \
+  supplement_assessment.tex \
+  ref.bib \
+  supplement_latency_corrections.tex \
+  supplement_tables/table_sensitivity_raw_vs_clamped.tex \
+  supplement_tables/table_graph_metrics.tex \
+  generated_stats.tex \
+  supplement_tables/table_temporal_update_stability.tex \
+  supplement_tables/table_run_provenance.tex \
+  phase3_corrections_b2.tex \
+  supplement_tables/table_system_comparison.tex \
+  supplement_details/i11_detail_tab_citation_eval.tex \
+  supplement_details/i11_detail_tab_casefacts_eval.tex \
+  supplement_details/i11_detail_tab_refusal_breakdown.tex \
+  supplement_details/i11_detail_tab_ablation.tex \
+  phase3_corrections_b6.tex \
+  supplement_tables/table_full_fdr_family.tex \
+  supplement_utility_audit.tex \
+  supplement_details/i11_detail_tab_computational_budget.tex \
+  supplement_details/i11_detail_tab_power_analysis.tex \
+  generated_obscure_stats.tex \
+  supplement_matched_comparison.tex \
+  supplement_tables/table_router_eval.tex \
+  supplement_limitations.tex \
+  phase3_corrections.tex \
+  supplement_details/i11_detail_tab_retrieval_eval.tex \
+  supplement_details/i11_detail_tab_obscure_overruled_eval.tex \
+  supplement_tables/table_baseline_specifications.tex \
+  supplement_tables/table_latency_percentiles.tex \
+  supplement_details/i11_detail_tab_overall_summary.tex \
+  supplement_details/i11_detail_tab_clerc_eval.tex \
+  supplement_details/i11_detail_tab_cat_b_performance.tex \
+  generated_corpus_stats_20k.tex \
+  phase3_corrections_b3.tex

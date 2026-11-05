@@ -1,0 +1,207 @@
+% ==============================================================================
+% CANONICAL MACROS: OBSCURE OVERRULED PRECEDENT BENCHMARK EVALUATION (ISSUE #18)
+% ==============================================================================
+% Obscure Summary SHA256:     ad03589cd49b8af255125de6ec4a4aec5afc7226a6a2987243ee6c0546eca07c
+% Famous D1 Summary SHA256:   f6122145f013867c25ea513e43dea2a3c7792145df024cd8df6d42462879b9ae
+% Cross Suite Summary SHA256: 53c13a981a1d810570df2a04a7f3f9032ed9742d16d122ba1d40f64fa6fe3128
+% ==============================================================================
+
+\newcommand{\ObscTableColSpan}{7}
+\newcommand{\ObscDoubleColSpan}{2}
+\newcommand{\ObscTripleColSpan}{3}
+\newcommand{\ObscTableScale}{0.98}
+\newcommand{\ObscVerticalSpace}{1mm}
+
+\newcommand{\ObscCohortSize}{30}
+\newcommand{\ObscFamousCohortSize}{19}
+\newcommand{\ObscKappa}{0.5746}
+\newcommand{\ObscKappaCleanEvals}{120}
+\newcommand{\ObscQwenUnverifiedQuotes}{16}
+\newcommand{\ObscGptOssUnverifiedQuotes}{26}
+
+\newcommand{\ObscDirectSafeCount}{0}
+\newcommand{\ObscDirectSafePct}{0.0\%}
+\newcommand{\ObscDirectSafeCILow}{0.0000}
+\newcommand{\ObscDirectSafeCIHigh}{0.1157}
+\newcommand{\ObscDirectSafeCI}{\ensuremath{[0.0000, 0.1157]}}
+\newcommand{\ObscDirectSafeSummary}{0/30\ (0.0\%, \ensuremath{[0.0000, 0.1157]})}
+\newcommand{\ObscDirectRRef}{0}
+\newcommand{\ObscDirectRRefut}{0}
+\newcommand{\ObscDirectFatalAff}{9}
+\newcommand{\ObscDirectFatalUnw}{15}
+\newcommand{\ObscDirectRHedge}{6}
+\newcommand{\ObscDirectError}{0}
+
+\newcommand{\ObscFlatSafeCount}{6}
+\newcommand{\ObscFlatSafePct}{20.0\%}
+\newcommand{\ObscFlatSafeCILow}{0.0771}
+\newcommand{\ObscFlatSafeCIHigh}{0.3857}
+\newcommand{\ObscFlatSafeCI}{\ensuremath{[0.0771, 0.3857]}}
+\newcommand{\ObscFlatSafeSummary}{6/30\ (20.0\%, \ensuremath{[0.0771, 0.3857]})}
+\newcommand{\ObscFlatRRef}{1}
+\newcommand{\ObscFlatRRefut}{5}
+\newcommand{\ObscFlatFatalAff}{1}
+\newcommand{\ObscFlatFatalUnw}{21}
+\newcommand{\ObscFlatRHedge}{2}
+\newcommand{\ObscFlatError}{0}
+
+\newcommand{\ObscFullSafeCount}{19}
+\newcommand{\ObscFullSafePct}{63.3\%}
+\newcommand{\ObscFullSafeCILow}{0.4386}
+\newcommand{\ObscFullSafeCIHigh}{0.8007}
+\newcommand{\ObscFullSafeCI}{\ensuremath{[0.4386, 0.8007]}}
+\newcommand{\ObscFullSafeSummary}{19/30\ (63.3\%, \ensuremath{[0.4386, 0.8007]})}
+\newcommand{\ObscFullRRef}{4}
+\newcommand{\ObscFullRRefut}{15}
+\newcommand{\ObscFullFatalAff}{0}
+\newcommand{\ObscFullFatalUnw}{2}
+\newcommand{\ObscFullRHedge}{9}
+\newcommand{\ObscFullError}{0}
+
+\newcommand{\ObscUnlabeledSafeCount}{8}
+\newcommand{\ObscUnlabeledSafePct}{26.7\%}
+\newcommand{\ObscUnlabeledSafeCILow}{0.1228}
+\newcommand{\ObscUnlabeledSafeCIHigh}{0.4589}
+\newcommand{\ObscUnlabeledSafeCI}{\ensuremath{[0.1228, 0.4589]}}
+\newcommand{\ObscUnlabeledSafeSummary}{8/30\ (26.7\%, \ensuremath{[0.1228, 0.4589]})}
+\newcommand{\ObscUnlabeledRRef}{4}
+\newcommand{\ObscUnlabeledRRefut}{4}
+\newcommand{\ObscUnlabeledFatalAff}{7}
+\newcommand{\ObscUnlabeledFatalUnw}{11}
+\newcommand{\ObscUnlabeledRHedge}{4}
+\newcommand{\ObscUnlabeledError}{0}
+
+\newcommand{\ObscPrimaryDiscordantB}{5}
+\newcommand{\ObscPrimaryDiscordantC}{3}
+\newcommand{\ObscPrimaryMcNemarP}{0.726562}
+\newcommand{\ObscPrimaryMcNemarPRel}{= 0.726562}
+\newcommand{\ObscPrimaryFisherP}{0.761068}
+\newcommand{\ObscPrimaryFisherPRel}{= 0.761068}
+\newcommand{\ObscPrimaryGate}{CLOSED}
+
+\newcommand{\ObscSecFullVsUnlabeledB}{11}
+\newcommand{\ObscSecFullVsUnlabeledC}{0}
+\newcommand{\ObscSecFullVsUnlabeledP}{< 0.001}
+\newcommand{\ObscSecFullVsUnlabeledPRel}{< 0.001}
+\newcommand{\ObscSecFullVsUnlabeledGate}{CLOSED}
+\newcommand{\ObscSecFullVsFlatB}{13}
+\newcommand{\ObscSecFullVsFlatC}{0}
+\newcommand{\ObscSecFullVsFlatP}{< 0.001}
+\newcommand{\ObscSecFullVsFlatPRel}{< 0.001}
+\newcommand{\ObscSecFullVsFlatGate}{CLOSED}
+\newcommand{\ObscSecUnlabeledVsDirectB}{8}
+\newcommand{\ObscSecUnlabeledVsDirectC}{0}
+\newcommand{\ObscSecUnlabeledVsDirectP}{0.007812}
+\newcommand{\ObscSecUnlabeledVsDirectPRel}{= 0.007812}
+\newcommand{\ObscSecUnlabeledVsDirectGate}{CLOSED}
+\newcommand{\ObscSecFlatVsDirectB}{6}
+\newcommand{\ObscSecFlatVsDirectC}{0}
+\newcommand{\ObscSecFlatVsDirectP}{0.031250}
+\newcommand{\ObscSecFlatVsDirectPRel}{= 0.031250}
+\newcommand{\ObscSecFlatVsDirectGate}{CLOSED}
+
+\newcommand{\ObscSubsetEmptyContextN}{28}
+\newcommand{\ObscSubsetEmptyContextB}{3}
+\newcommand{\ObscSubsetEmptyContextC}{3}
+\newcommand{\ObscSubsetEmptyContextP}{1.000000}
+\newcommand{\ObscSubsetEmptyContextPRel}{= 1.000000}
+\newcommand{\ObscSubsetEmptyContextFullSafeCount}{17}
+\newcommand{\ObscSubsetEmptyContextFullSafePct}{60.7\%}
+\newcommand{\ObscSubsetOverrulerMissingN}{25}
+\newcommand{\ObscSubsetOverrulerMissingB}{2}
+\newcommand{\ObscSubsetOverrulerMissingC}{3}
+\newcommand{\ObscSubsetOverrulerMissingP}{1.000000}
+\newcommand{\ObscSubsetOverrulerMissingPRel}{= 1.000000}
+\newcommand{\ObscSubsetOverrulerMissingFullSafeCount}{16}
+\newcommand{\ObscSubsetOverrulerMissingFullSafePct}{64.0\%}
+\newcommand{\ObscSubsetExplicitOverruleN}{12}
+\newcommand{\ObscSubsetExplicitOverruleB}{3}
+\newcommand{\ObscSubsetExplicitOverruleC}{2}
+\newcommand{\ObscSubsetExplicitOverruleP}{1.000000}
+\newcommand{\ObscSubsetExplicitOverrulePRel}{= 1.000000}
+\newcommand{\ObscSubsetExplicitOverruleFullSafeCount}{10}
+\newcommand{\ObscSubsetExplicitOverruleFullSafePct}{83.3\%}
+
+\newcommand{\ObscCrossDirectFamousSafe}{15/19\ (78.9\%\!)}
+\newcommand{\ObscCrossDirectObscureSafe}{0/30\ (0.0\%\!)}
+\newcommand{\ObscCrossDirectRiskDiff}{+79.0\%}
+\newcommand{\ObscCrossDirectNewcombeCI}{\ensuremath{[+53.9\%, +91.5\%]}}
+\newcommand{\ObscCrossDirectFisherP}{\ensuremath{2.46 \times 10^{-9}}}
+\newcommand{\ObscCrossDirectFisherPRel}{= \ensuremath{2.46 \times 10^{-9}}}
+\newcommand{\ObscCrossDirectOddsRatio}{210.11$^*$}
+\newcommand{\ObscCrossFlatFamousSafe}{10/19\ (52.6\%\!)}
+\newcommand{\ObscCrossFlatObscureSafe}{6/30\ (20.0\%\!)}
+\newcommand{\ObscCrossFlatRiskDiff}{+32.6\%}
+\newcommand{\ObscCrossFlatNewcombeCI}{\ensuremath{[+5.5\%, +55.2\%]}}
+\newcommand{\ObscCrossFlatFisherP}{0.028}
+\newcommand{\ObscCrossFlatFisherPRel}{= 0.028}
+\newcommand{\ObscCrossFlatOddsRatio}{4.44}
+\newcommand{\ObscCrossFullFamousSafe}{14/19\ (73.7\%\!)}
+\newcommand{\ObscCrossFullObscureSafe}{19/30\ (63.3\%\!)}
+\newcommand{\ObscCrossFullRiskDiff}{+10.3\%}
+\newcommand{\ObscCrossFullNewcombeCI}{\ensuremath{[-16.6\%, +33.3\%]}}
+\newcommand{\ObscCrossFullFisherP}{0.541}
+\newcommand{\ObscCrossFullFisherPRel}{= 0.541}
+\newcommand{\ObscCrossFullOddsRatio}{1.62}
+\newcommand{\ObscCrossUnlabeledFamousSafe}{15/19\ (78.9\%\!)}
+\newcommand{\ObscCrossUnlabeledObscureSafe}{8/30\ (26.7\%\!)}
+\newcommand{\ObscCrossUnlabeledRiskDiff}{+52.3\%}
+\newcommand{\ObscCrossUnlabeledNewcombeCI}{\ensuremath{[+23.8\%, +70.0\%]}}
+\newcommand{\ObscCrossUnlabeledFisherP}{\ensuremath{4.68 \times 10^{-4}}}
+\newcommand{\ObscCrossUnlabeledFisherPRel}{= \ensuremath{4.68 \times 10^{-4}}}
+\newcommand{\ObscCrossUnlabeledOddsRatio}{10.31}
+
+\newcommand{\ObscJudgeOnePrimaryB}{10}
+\newcommand{\ObscJudgeOnePrimaryC}{3}
+\newcommand{\ObscJudgeOnePrimaryP}{0.092285}
+\newcommand{\ObscJudgeOnePrimaryPRel}{= 0.092285}
+\newcommand{\ObscJudgeOneDirectSafeCount}{6}
+\newcommand{\ObscJudgeOneDirectSafePct}{20.0\%}
+\newcommand{\ObscJudgeOneDirectSafeSummary}{6/30\ (20.0\%\!)}
+\newcommand{\ObscJudgeOneDirectSafeCI}{\ensuremath{[0.0771, 0.3857]}}
+\newcommand{\ObscJudgeOneFlatSafeCount}{7}
+\newcommand{\ObscJudgeOneFlatSafePct}{23.3\%}
+\newcommand{\ObscJudgeOneFlatSafeSummary}{7/30\ (23.3\%\!)}
+\newcommand{\ObscJudgeOneFlatSafeCI}{\ensuremath{[0.0993, 0.4228]}}
+\newcommand{\ObscJudgeOneFullSafeCount}{28}
+\newcommand{\ObscJudgeOneFullSafePct}{93.3\%}
+\newcommand{\ObscJudgeOneFullSafeSummary}{28/30\ (93.3\%\!)}
+\newcommand{\ObscJudgeOneFullSafeCI}{\ensuremath{[0.7793, 0.9918]}}
+\newcommand{\ObscJudgeOneUnlabeledSafeCount}{14}
+\newcommand{\ObscJudgeOneUnlabeledSafePct}{46.7\%}
+\newcommand{\ObscJudgeOneUnlabeledSafeSummary}{14/30\ (46.7\%\!)}
+\newcommand{\ObscJudgeOneUnlabeledSafeCI}{\ensuremath{[0.2834, 0.6567]}}
+\newcommand{\ObscJudgeTwoPrimaryB}{3}
+\newcommand{\ObscJudgeTwoPrimaryC}{4}
+\newcommand{\ObscJudgeTwoPrimaryP}{1.000000}
+\newcommand{\ObscJudgeTwoPrimaryPRel}{= 1.000000}
+\newcommand{\ObscJudgeTwoDirectSafeCount}{0}
+\newcommand{\ObscJudgeTwoDirectSafePct}{0.0\%}
+\newcommand{\ObscJudgeTwoDirectSafeSummary}{0/30\ (0.0\%\!)}
+\newcommand{\ObscJudgeTwoDirectSafeCI}{\ensuremath{[0.0000, 0.1157]}}
+\newcommand{\ObscJudgeTwoFlatSafeCount}{9}
+\newcommand{\ObscJudgeTwoFlatSafePct}{30.0\%}
+\newcommand{\ObscJudgeTwoFlatSafeSummary}{9/30\ (30.0\%\!)}
+\newcommand{\ObscJudgeTwoFlatSafeCI}{\ensuremath{[0.1473, 0.4940]}}
+\newcommand{\ObscJudgeTwoFullSafeCount}{19}
+\newcommand{\ObscJudgeTwoFullSafePct}{63.3\%}
+\newcommand{\ObscJudgeTwoFullSafeSummary}{19/30\ (63.3\%\!)}
+\newcommand{\ObscJudgeTwoFullSafeCI}{\ensuremath{[0.4386, 0.8007]}}
+\newcommand{\ObscJudgeTwoUnlabeledSafeCount}{8}
+\newcommand{\ObscJudgeTwoUnlabeledSafePct}{26.7\%}
+\newcommand{\ObscJudgeTwoUnlabeledSafeSummary}{8/30\ (26.7\%\!)}
+\newcommand{\ObscJudgeTwoUnlabeledSafeCI}{\ensuremath{[0.1228, 0.4589]}}
+% --- SPOT-CHECK EVALUATION MACROS ---
+\newcommand{\ObscSpotN}{30}
+\newcommand{\ObscSpotAgreeN}{16}
+\newcommand{\ObscSpotAgreeMatch}{16}
+\newcommand{\ObscSpotDisagreeN}{14}
+\newcommand{\ObscSpotDisagreeMatch}{4}
+\newcommand{\ObscSpotMatchJOne}{22}
+\newcommand{\ObscSpotMatchJTwo}{22}
+\newcommand{\ObscSpotMatchCombined}{20}
+\newcommand{\ObscSpotMismatchN}{10}
+\newcommand{\ObscSpotMismatchFull}{4}
+\newcommand{\ObscSpotMismatchFlat}{5}
+\newcommand{\ObscSpotMismatchDirect}{1}
+\newcommand{\ObscSpotMismatchUnlabeled}{0}

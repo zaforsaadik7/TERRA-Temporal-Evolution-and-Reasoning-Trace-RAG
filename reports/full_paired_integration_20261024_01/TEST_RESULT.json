@@ -1,0 +1,18 @@
+{
+  "command": "venv/Scripts/python.exe -B -m unittest tests.test_static_matched_study_synthetic tests.test_matched_budget_preview_synthetic tests.test_provider_run_control_synthetic tests.test_paired_prompt_workflow_synthetic tests.test_provider_accounting_synthetic tests.test_matched_baseline_synthetic",
+  "tests": 148,
+  "seconds": 24.96,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "exit_code": 0,
+  "breakdown": {
+    "full_study": 15,
+    "budget_preview": 6,
+    "run_controls": 30,
+    "paired_workflow": 25,
+    "accounting": 31,
+    "original_harness": 41
+  },
+  "scope": "Synthetic fixtures only.350-query3150-call stress stubs fsync; smaller and injected failure tests exercise ordinary barriers. No authentic inputs or network."
+}

@@ -1,0 +1,60 @@
+"""Synthetic Windows home resolution; no Chroma/model/store import or launch."""
+import hashlib
+import json
+import ntpath
+import os
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+from scripts.matched_baseline import offline_smoke_bindings as bindings
+from scripts.matched_baseline import offline_smoke_production as production
+from scripts.matched_baseline.offline_preflight import CleanChildEnvironmentBuilder
+from tests import test_offline_smoke_runner_synthetic as fixtures
+
+
+class ProfileEnvironmentTests(unittest.TestCase):
+    def test_old_clean_environment_reproduces_actual_home_failure(self):
+        with patch.dict(os.environ,{'SYSTEMROOT':'C:\\Windows'},clear=True), \
+             patch('os.path.expanduser',ntpath.expanduser):
+            with self.assertRaisesRegex(RuntimeError,'Could not determine home directory'):
+                Path.home()
+
+    def test_explicit_profile_survives_cleaner_and_import_like_home_expression(self):
+        env=bindings.windows_runtime_environment(system_directory='C:/Windows/System32',
+                                                 user_profile='C:/synthetic/profile')
+        cleaned=CleanChildEnvironmentBuilder.build(env)
+        with patch.dict(os.environ,cleaned,clear=True),patch('os.path.expanduser',ntpath.expanduser):
+            destination=Path.home()/'.cache'/'chroma'/'onnx_models'/'all-MiniLM-L6-v2'
+            self.assertEqual(destination,Path('C:/synthetic/profile/.cache/chroma/onnx_models/all-MiniLM-L6-v2'))
+        self.assertEqual(set(env),{'PATH','SYSTEMROOT','WINDIR','USERPROFILE'})
+        self.assertEqual(cleaned['HF_HUB_OFFLINE'],'1')
+
+    def test_binding_does_not_inherit_profile_or_credentials(self):
+        with patch.dict(os.environ,{'USERPROFILE':'C:/wrong','FAKE_API_KEY':'private'},clear=True):
+            env=bindings.windows_runtime_environment(system_directory='C:/Windows/System32',
+                                                     user_profile='C:/synthetic/profile')
+        self.assertEqual(env['USERPROFILE'],'C:/synthetic/profile')
+        self.assertNotIn('FAKE_API_KEY',env)
+
+    def test_invalid_profiles_rejected(self):
+        for value in (None,'','relative','C:/','C:/a/../b','C:/a:stream','%USERPROFILE%',
+                      'C:/bad\nprofile','\\\\server\\share\\profile'):
+            with self.subTest(value=value),self.assertRaises(ValueError):
+                bindings.validate_profile_environment({'USERPROFILE':value})
+
+    def test_real_decoder_rejects_missing_profile_and_accepts_binding(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            packet,_,_=fixtures.ProductionIntegrationTests().packet_fixture(Path(tmp))
+            packet['runtime_environment']={'SYSTEMROOT':'C:\\Windows'}
+            raw=json.dumps(packet).encode()
+            with self.assertRaisesRegex(ValueError,'USERPROFILE'):
+                production.decode_packet(raw,hashlib.sha256(raw).hexdigest())
+            packet['runtime_environment']=bindings.windows_runtime_environment(
+                system_directory='C:/Windows/System32',user_profile=str(Path(tmp)/'profile'))
+            raw=json.dumps(packet).encode()
+            decoded,_,_=production.decode_packet(raw,hashlib.sha256(raw).hexdigest())
+            self.assertEqual(decoded['runtime_environment'],packet['runtime_environment'])
+
+
+if __name__=='__main__':unittest.main()

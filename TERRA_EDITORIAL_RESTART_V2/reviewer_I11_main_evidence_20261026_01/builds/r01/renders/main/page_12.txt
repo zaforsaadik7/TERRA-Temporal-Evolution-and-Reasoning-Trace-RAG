@@ -1,0 +1,137 @@
+TABLE II
+Pilot component ablation: 35 queries, five repeats (700 observations).
+Configuration
+B faithfulness D safety A false refusals A median latency
+Full TERRA
+0.815
+100.0%
+0/10
+1.38 s
+Without graph traversal
+0.675
+100.0%
+0/10
+1.80 s
+Without verification
+0.780
+0.0%
+0/10
+1.43 s
+Forced HARD route
+0.840
+100.0%
+2/10 (20.0%)
+6.75 s
+Pilot, not the primary 350-query run; Category D has five unique traps. Values are descriptive and the recorded pilot used a single judge.
+Full cells, methods and notes: Supplement Section S5.
+TABLE III
+Historical CategoryB performance (100 paired queries).
+Pipeline
+Faithfulness
+TERRA wins ROUGE-L P ROUGE-L F1 ROUGE-L R Mean words
+Direct LLM 0.335 ± 0.166
+27.0%†
+0.064
+0.115
+0.546
+612
+Flat RAG
+0.184 ± 0.366
+67.0%
+0.096
+0.147
+0.500
+481
+GraphRAG
+0.135 ± 0.300
+73.0%
+0.083
+0.140
+0.523
+477
+HippoRAG
+0.188 ± 0.232
+51.0%
+0.085
+0.145
+0.536
+470
+TERRA
+0.254 ± 0.226
+—
+0.086
+0.123
+0.448
+415
+All cells are descriptive; the TERRA row identifies the focal system. Win rates are TERRA-versus-row outcomes. Direct LLM comparison
+has 27 wins,18 ties,55 losses. ROUGE-L uses tokenized LCS; P/R/F1 are macro means. Length is not a quality direction. Full cells,
+methods and notes: Supplement Section S6.
+C. Prospective controlled hybrid comparison
+A separate prospective study compared dense–BM25
+reciprocal-rank fusion (H) with two-seed citation-graph
+retrieval (T) on the same 350 queries. Both arms shared
+the query-only router, evidence formatter, 6,000-token
+evidence budget, verifier, generator and two evidence-
+faithfulness judges. This is a controlled implementation
+comparison, separate from the historical multi-baseline
+evaluation above. Among the 100 assessable Category B
+pairs out of 100 assigned, the T-minus-H composite
+difference was 0.26885 (paired percentile-bootstrap 95%
+CI [0.16035, 0.37205]; two-sided paired randomization p =
+0.000010). T produced 69/100 verifier-triggered refusals
+on Category B versus 4/100 for H; this coverage tradeoff
+prevents interpreting the faithfulness difference as better
+answer coverage or legal correctness. Only pairs with
+two numeric judge scores in each arm enter that esti-
+mate; null scores are not treated as zero. Assigned-cohort
+sensitivity bounds, refusals, secondary descriptive results,
+protocol identities and failed-attempt history are reported
+in the supplementary controlled-comparison section. Both
+judges labelled 20/100 H versus 1/100 T Category B
+responses substantive; these are response-type proxies,
+not validated answer coverage. Across all 350 assigned
+queries per arm, H/T verifier refusals were 172/272 and
+generator invocations 178/78; both judges called 77/29
+responses substantive, while response-type disagreement
+affected 164/116. On Category B, generator invocations
+were 96/31. Invocation and substantive-label counts are
+not validated correct-answer yield; independent legal-
+correctness and verifier-error rates remain unestimated.
+Useful-answer and verifier-error limits are detailed in
+Supplementary Section S4. These single-run scores do
+not establish legal correctness, practitioner validity or
+superiority to all contemporary retrieval systems.
+D. Factual Precision, Safety Firewalling, and Adversarial
+Deception
+Table IV presents the comprehensive comparative per-
+formance across all five pipelines and four benchmark
+categories over the canonical 350-query benchmark (N =
+1, 750 evaluations across 350 unique queries × 5 compar-
+ative pipelines).
+Category C (OOD)
+Category D (Adversarial)
+0
+50
+100
+0%
+0%
+98.7%
+45.3%
+100%
+33.3%
+98.7%
+36%
+100%
+61.3%
+System-flagged refusals (%)
+Direct LLM
+Flat Vector RAG
+GraphRAG-Adapted
+HippoRAG-Adapted
+TERRA GraphRAG
+Fig. 3.
+Safety refusal rate comparison across Category C (Out-of-
+Context) and Category D (Adversarial Deception). Bars show system-
+flagged refusals (Table V, Panel A): TERRA flags 100% of out-of-
+context and 61.3% (46/75) of adversarial queries; Direct LLM flags
+none.

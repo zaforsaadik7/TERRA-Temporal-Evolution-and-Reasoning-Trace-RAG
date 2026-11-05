@@ -1,0 +1,35 @@
+\par\begingroup
+
+
+
+\begin{longtable}{lrrrrr}
+\caption{Pipeline Execution Latency Percentiles (Milliseconds). Panel~A: Gross wall-clock time (end-to-end including any server-imposed retry sleep). Panel~B: Net time (retry sleep subtracted). TERRA fast route ($N=110$): 100 Category~A queries plus 10 Category~D queries routed EASY by the traffic-cop; the EASY route records anchor retrieval and evidence grading without graph traversal; generation occurs only where permitted. TERRA hard route ($N=240$): 100 Category~B + 75 Category~C + 65 Category~D queries; HARD records retrieval/graph expansion and evidence checking; generation occurs only where permitted. Baselines ran sequentially (5--6 Sept.); TERRA ran with four concurrent workers (14 Sept.), so comparisons are indicative only. Forced-hard-path latency (Ablation~3) is in Table~\ref{main-tab:ablation} (median $\AblationThreeLatencyMedianSeconds$~s).}\label{tab:latency_percentiles}\\
+\toprule
+\textbf{Execution Path} & \textbf{p25} & \textbf{Median} & \textbf{p75} & \textbf{p95} & \textbf{Mean $\pm$ sample SD} \\
+\midrule
+\multicolumn{6}{p{22cm}}{\textit{Panel A: Gross latency (ms)}} \\
+\midrule
+Direct LLM (No RAG) & $\DirectLLMLatencyPTwentyFiveMs$ & $\DirectLLMLatencyMedianMs$ & $\DirectLLMLatencyPSeventyFiveMs$ & $\DirectLLMLatencyPNinetyFiveMs$ & $\DirectLLMLatencyMeanAndStdMs$ \\
+Flat Vector RAG & $\FlatRAGLatencyPTwentyFiveMs$ & $\FlatRAGLatencyMedianMs$ & $\FlatRAGLatencyPSeventyFiveMs$ & $\FlatRAGLatencyPNinetyFiveMs$ & $\FlatRAGLatencyMeanAndStdMs$ \\
+GraphRAG-Adapted & $\GraphRAGLatencyPTwentyFiveMs$ & $\GraphRAGLatencyMedianMs$ & $\GraphRAGLatencyPSeventyFiveMs$ & $\GraphRAGLatencyPNinetyFiveMs$ & $\GraphRAGLatencyMeanAndStdMs$ \\
+HippoRAG-Adapted & $\HippoRAGLatencyPTwentyFiveMs$ & $\mathbf{\HippoRAGLatencyMedianMs}$ & $\HippoRAGLatencyPSeventyFiveMs$ & $\mathbf{\HippoRAGLatencyPNinetyFiveMs}$ & $\HippoRAGLatencyMeanAndStdMs$ \\
+\textbf{TERRA Overall} & $\TerraLatencyPTwentyFiveMs$ & $\TerraLatencyMedianMs$ & $\TerraLatencyPSeventyFiveMs$ & $\TerraLatencyPNinetyFiveMs$ & $\TerraLatencyMeanAndStdMs$ \\
+\midrule
+TERRA Fast Route ($N=110$; Cat A + 10$\times$Cat D) & $\TerraFastPathLatencyPTwentyFiveMs$ & $\TerraFastPathLatencyMedianMs$ & $\TerraFastPathLatencyPSeventyFiveMs$ & $\TerraFastPathLatencyPNinetyFiveMs$ & $\TerraFastPathLatencyMeanAndStdMs$ \\
+TERRA Hard Route ($N=240$; Cat B + C + 65$\times$Cat D) & $\TerraHardPathLatencyPTwentyFiveMs$ & $\TerraHardPathLatencyMedianMs$ & $\TerraHardPathLatencyPSeventyFiveMs$ & $\TerraHardPathLatencyPNinetyFiveMs$ & $\TerraHardPathLatencyMeanAndStdMs$ \\
+\midrule
+\multicolumn{6}{p{22cm}}{\textit{Panel B: Net latency, retry sleep subtracted (ms; recorded retry sleep subtracted per row)}} \\
+\midrule
+\textbf{TERRA Overall (net)} & --- & $\TerraNetLatencyMedianMs$ & --- & $\TerraNetLatencyPNinetyFiveMs$ & --- \\
+TERRA Fast Route (net, $N=110$) & $\TerraFastPathNetLatencyPTwentyFiveMs$ & $\TerraFastPathNetLatencyMedianMs$ & $\TerraFastPathNetLatencyPSeventyFiveMs$ & $\TerraFastPathNetLatencyPNinetyFiveMs$ & $\TerraFastPathNetLatencyMeanAndStdMs$ \\
+TERRA Hard Route (net, $N=240$) & $\TerraHardPathNetLatencyPTwentyFiveMs$ & $\TerraHardPathNetLatencyMedianMs$ & $\TerraHardPathNetLatencyPSeventyFiveMs$ & $\TerraHardPathNetLatencyPNinetyFiveMs$ & $\TerraHardPathNetLatencyMeanAndStdMs$ \\
+\midrule
+\multicolumn{6}{p{22cm}}{\textit{Secondary block: Category-level TERRA gross latency (ms)}} \\
+\midrule
+TERRA Category A & $\TerraCatALatencyPTwentyFiveMs$ & $\TerraCatALatencyMedianMs$ & --- & $\TerraCatALatencyPNinetyFiveMs$ & $\TerraCatALatencyMeanAndStdMs$\textsuperscript{a} \\
+TERRA Category B & $\TerraCatBLatencyPTwentyFiveMs$ & $\TerraCatBLatencyMedianMs$ & --- & $\TerraCatBLatencyPNinetyFiveMs$ & $\TerraCatBLatencyMeanAndStdMs$\textsuperscript{a} \\
+\bottomrule
+\end{longtable}
+\vspace{1pt}
+{\footnotesize \textsuperscript{a}~Category-level gross latency across all Category~A ($N=100$) and Category~B ($N=100$) queries; p75 omitted to limit column width.}
+\par\endgroup

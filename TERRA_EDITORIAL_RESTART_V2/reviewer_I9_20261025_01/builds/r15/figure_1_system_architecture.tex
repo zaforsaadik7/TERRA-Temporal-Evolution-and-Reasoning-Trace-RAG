@@ -1,0 +1,115 @@
+% Native-size Springer layout: no scale, resizebox, or transform shape.
+% Three 3.55 cm cards; explicit coordinates reserve separate arrow lanes.
+\definecolor{Phase1Border}{RGB}{41,128,185}
+\definecolor{Phase1Bg}{RGB}{240,244,248}
+\definecolor{Phase2Border}{RGB}{22,160,133}
+\definecolor{Phase2Bg}{RGB}{234,242,241}
+\definecolor{BoxBorder}{RGB}{52,73,94}
+\definecolor{BoxBg}{RGB}{255,255,255}
+\definecolor{TextMain}{RGB}{33,47,61}
+\definecolor{AccentGreen}{RGB}{39,174,96}
+\definecolor{AccentRed}{RGB}{192,57,43}
+\definecolor{AccentGold}{RGB}{214,137,16}
+\definecolor{DBColor}{RGB}{142,68,173}
+
+\begin{tikzpicture}[
+  font=\fontsize{8.5pt}{10pt}\selectfont, >=Stealth,
+  card/.style={rectangle,rounded corners=3pt,draw=BoxBorder,
+    fill=BoxBg,text=TextMain,line width=.6pt,align=center,
+    text width=3.27cm,minimum width=3.55cm,inner sep=4pt,
+    minimum height=1.42cm,outer sep=1pt},
+  database/.style={card,draw=DBColor,fill=DBColor!8},
+  decision/.style={card,draw=AccentGold,fill=AccentGold!9},
+  pass/.style={card,draw=AccentGreen,fill=AccentGreen!8},
+  refusal/.style={card,draw=AccentRed,fill=AccentRed!8},
+  line/.style={->,draw=TextMain!90,line width=.7pt},
+  data/.style={line,dashed,draw=Phase1Border},
+  tag/.style={fill=white,inner sep=2pt,align=center,
+    font=\fontsize{8.5pt}{10pt}\selectfont},
+  port/.style={circle,draw=Phase1Border,fill=white,inner sep=2pt,
+    font=\fontsize{8.5pt}{10pt}\selectfont\bfseries}
+]
+% PHASE 1: row one constructs citations; row two holds scaffold and stores.
+\node[card] (corpus) at (0,0) {\textbf{SCOTUS legal corpus}\\
+  20,000 authentic opinions\\(1850--1980)\\Length-filtered opinion precedents};
+\node[card] (parser) at (4.15,0) {\textbf{\texttt{eyecite} citation parser}\\
+  Normalizes citations with\\\texttt{cite.corrected\_\allowbreak{}citation()}\\
+  e.g., \textit{347 U.S. 483}};
+\node[card] (classifier) at (8.3,0) {\textbf{Edge construction}\\
+  Extracted \textbf{CITES} links\\Curated \textbf{OVERRULES} relations};
+\node[card] (scaffold) at (0,-2.25) {\textbf{Generic scaffold builder}\\
+  Deterministic procedural substrate\\Fixed five-step scaffold};
+\node[database] (vectorDB) at (4.15,-2.25) {\textbf{Vector database}\\
+  ChromaDB \texttt{PersistentClient}\\20,000 generic scaffolds};
+\node[database] (eegDB) at (8.3,-2.25) {\textbf{Event Evolution Graph}\\
+  NetworkX \texttt{DiGraph} EEG\\20,000 nodes\\\CorpusPrecedentEdges\ edges};
+\path[line] (corpus) -- (parser);
+\path[line] (parser) -- (classifier);
+\path[line] (classifier) -- (eegDB);
+% Dedicated inter-row lane: citation parsing also feeds scaffold construction.
+\path[line] (parser.south) -- (4.15,-1.15) -- (0,-1.15) -- (scaffold.north);
+\path[line] (scaffold) -- (vectorDB);
+% Paired ports replace long, crossing offline/online database wires.
+\node[port] (vOut) at (4.15,-3.35) {V};
+\node[port] (gOut) at (8.3,-3.35) {G};
+\path[data] (vectorDB) -- (vOut);
+\path[data] (eegDB) -- (gOut);
+
+% PHASE 2: route, retrieve, grade; retry returns to vector retrieval.
+\node[card] (query) at (0,-5.25) {\textbf{User legal query $q$}\\
+  e.g., \textit{How did Plessy evolve}\\\textit{to Brown v. Board?}};
+\node[decision] (router) at (4.15,-5.25) {\textbf{Traffic Cop router}\\
+  Intent \& complexity routing\\Structured EASY / HARD decision};
+\node[pass] (easy) at (8.3,-5.25) {\textbf{Grounded fast path}\\
+  EASY: anchor retrieval\\No graph expansion};
+\node[card] (retrieval) at (0,-7.65) {\textbf{Vector seed retrieval}\\
+  ChromaDB query\\Initially $n_{\mathrm{results}}=2$\\Top-$k$ document anchors};
+\node[card] (bfs) at (4.15,-7.65) {\textbf{BFS graph traversal}\\
+  NetworkX EEG, depth $d=2$\\Outgoing + incoming edges};
+\node[decision] (grader) at (8.3,-7.65) {\textbf{NLI Smart Grader}\\
+  Entailment verification\\\texttt{entails == True?}};
+\node[port] (vIn) at (-1.25,-6.45) {V};
+\node[port] (gIn) at (4.15,-6.45) {G};
+\path[data] (vIn) -- (-1.25,-6.65) -- (retrieval.north -| vIn) -- (retrieval.north);
+\path[data] (gIn) -- (bfs.north);
+\path[line] (query) -- (router);
+\path[line] (router) -- node[tag,above] {EASY} (easy);
+\path[line] (router.south) -- (4.15,-6.2) --
+  node[tag,above,pos=.55] {HARD} (0,-6.2) -- (retrieval.north);
+\path[line] (retrieval) -- (bfs);
+\path[line] (bfs) -- (grader);
+\path[line] (easy) -- (grader);
+
+\node[card] (retry) at (0,-10.15) {\textbf{Self-correction loop}\\
+  $n_{\mathrm{results}}\mathrel{+}=2$\\Requery, then repeat BFS\\
+  Two attempts total: initial + retry};
+\node[pass] (answer) at (8.3,-10.15) {\textbf{Grounded generator}\\
+  \texttt{Llama-\allowbreak{}3.3-\allowbreak{}70B-\allowbreak{}Instruct}\\$T=0.0$\\
+  Generated citation links\\(audited, imperfect)};
+\node[refusal] (refuse) at (4.15,-12.55) {\textbf{Safety refusal firewall}\\
+  Domain \& adversarial refusal\\Fixed refusal notice};
+\path[line] (grader) -- node[tag,right] {Yes} (answer);
+% Separate lower lanes distinguish first failure from exhausted attempts.
+\path[line] (grader.south west) -- (7.05,-8.95) --
+  node[tag,above,pos=.5] {No: first attempt} (0,-8.95) -- (retry.north);
+\path[line] (retry.west) -- (-2.02,-10.15) -- (-2.02,-7.65) -- (retrieval.west);
+\path[line] (grader.east) -- (10.25,-7.65) -- (10.25,-11.55) --
+  node[tag,above,pos=.6] {No: both attempts fail} (4.15,-11.55) -- (refuse.north);
+
+\node[align=left,anchor=north west,text width=11.65cm,
+  font=\fontsize{8.5pt}{10pt}\selectfont] (note) at (-1.77,-13.55) {
+  \textbf{Store interfaces:} matching V ports = vector query; matching G ports = graph BFS.\\
+  \textbf{Retry evidence:} current code requeries before BFS; historical run behavior is not established here.};
+\begin{scope}[on background layer]
+  \node[fit=(corpus)(parser)(classifier)(scaffold)(vectorDB)(eegDB)(vOut)(gOut),
+    inner xsep=5pt,inner ysep=7pt,fill=Phase1Bg,draw=Phase1Border,
+    rounded corners=4pt] (offline) {};
+  \node[anchor=south west,text=Phase1Border,font=\fontsize{9pt}{11pt}\selectfont\bfseries]
+    at (offline.north west) {PHASE 1: Offline ingestion \& knowledge graph construction};
+  \node[fit=(query)(router)(easy)(retrieval)(bfs)(grader)(retry)(answer)(refuse),
+    inner xsep=5pt,inner ysep=7pt,fill=Phase2Bg,draw=Phase2Border,
+    rounded corners=4pt] (online) {};
+  \node[anchor=south west,text=Phase2Border,font=\fontsize{9pt}{11pt}\selectfont\bfseries]
+    at (online.north west) {PHASE 2: Online inference engine \& safety firewall};
+\end{scope}
+\end{tikzpicture}

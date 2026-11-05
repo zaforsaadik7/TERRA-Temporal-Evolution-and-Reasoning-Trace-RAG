@@ -1,0 +1,27 @@
+\clearpage
+\section{Full detail for main Table~\ref{main-tab:power_analysis}}
+\label{detail-tab:power_analysis}
+Statistical Significance, Benjamini-Hochberg FDR Control ($M=20$ Family), and Exact Paired Outcomes Across Paired Evaluations.\par\medskip
+\noindent\resizebox{0.98\linewidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Comparison} & \textbf{Mean Delta [95\% CI]} & \textbf{Cohen's $d_z$} & \textbf{Wilcoxon $p$} & \textbf{FDR $q$} & \textbf{Paired ($n^+/n^0/n^-$)} \\
+\midrule
+TERRA vs. Direct LLM (Cat B) & $\CatBTerraVsDirectLLMDelta$ $\CatBTerraVsDirectLLMCI$ & $\CatBTerraVsDirectLLMDz$ & $\CatBTerraVsDirectLLMWilcoxonP$ & $\CatBTerraVsDirectLLMAdjQ$ & $\TerraVsDirectLLMCatBWins/\TerraVsDirectLLMCatBTies/\TerraVsDirectLLMCatBLosses$ \\
+TERRA vs. Direct LLM (Combined A+B) & $\CombinedTerraVsDirectLLMDelta$ $\CombinedTerraVsDirectLLMCI$ & $\CombinedTerraVsDirectLLMDz$ & $\CombinedTerraVsDirectLLMWilcoxonP$ & $\CombinedTerraVsDirectLLMAdjQ$ & $\TerraVsDirectLLMCombinedWins/\TerraVsDirectLLMCombinedTies/\TerraVsDirectLLMCombinedLosses$ \\
+TERRA vs. Direct LLM (Cat C Refusal)$^\dagger$ & $+100.0\%$ Diff. & --- & $\mathbf{\CatCTerraVsDirectLLMFisherP}$ & $\mathbf{\CatCTerraVsDirectLLMAdjQ}$ & $75/75 \text{ vs. } 0/75$ \\
+\midrule
+TERRA vs. Flat RAG (Cat B) & $\mathbf{\CatBTerraVsFlatRAGDelta}$ $\CatBTerraVsFlatRAGCI$ & $\mathbf{\CatBTerraVsFlatRAGDz}$ & $\mathbf{\CatBTerraVsFlatRAGWilcoxonP}$ & $\mathbf{\CatBTerraVsFlatRAGAdjQ}$ & $\TerraVsFlatRAGCatBWins/\TerraVsFlatRAGCatBTies/\TerraVsFlatRAGCatBLosses$ \\
+TERRA vs. Flat RAG (Combined A+B) & $\mathbf{\CombinedTerraVsFlatRAGDelta}$ $\CombinedTerraVsFlatRAGCI$ & $\CombinedTerraVsFlatRAGDz$ & $\mathbf{\CombinedTerraVsFlatRAGWilcoxonP}$ & $\mathbf{\CombinedTerraVsFlatRAGAdjQ}$ & $\TerraVsFlatRAGCombinedWins/\TerraVsFlatRAGCombinedTies/\TerraVsFlatRAGCombinedLosses$ \\
+\midrule
+TERRA vs. GraphRAG (Cat B) & $\mathbf{\CatBTerraVsGraphRAGDelta}$ $\CatBTerraVsGraphRAGCI$ & $\mathbf{\CatBTerraVsGraphRAGDz}$ & $\mathbf{\CatBTerraVsGraphRAGWilcoxonP}$ & $\mathbf{\CatBTerraVsGraphRAGAdjQ}$ & $\TerraVsGraphRAGCatBWins/\TerraVsGraphRAGCatBTies/\TerraVsGraphRAGCatBLosses$ \\
+TERRA vs. GraphRAG (Combined A+B) & $\mathbf{\CombinedTerraVsGraphRAGDelta}$ $\CombinedTerraVsGraphRAGCI$ & $\CombinedTerraVsGraphRAGDz$ & $\mathbf{\CombinedTerraVsGraphRAGWilcoxonP}$ & $\mathbf{\CombinedTerraVsGraphRAGAdjQ}$ & $\TerraVsGraphRAGCombinedWins/\TerraVsGraphRAGCombinedTies/\TerraVsGraphRAGCombinedLosses$ \\
+\midrule
+TERRA vs. HippoRAG (Cat B) & $\mathbf{\CatBTerraVsHippoRAGDelta}$ $\CatBTerraVsHippoRAGCI$ & $\mathbf{\CatBTerraVsHippoRAGDz}$ & $\mathbf{\CatBTerraVsHippoRAGWilcoxonP}$ & $\mathbf{\CatBTerraVsHippoRAGAdjQ}$ & $\TerraVsHippoRAGCatBWins/\TerraVsHippoRAGCatBTies/\TerraVsHippoRAGCatBLosses$ \\
+TERRA vs. HippoRAG (Combined A+B) & $\CombinedTerraVsHippoRAGDelta$ $\CombinedTerraVsHippoRAGCI$ & $\CombinedTerraVsHippoRAGDz$ & $\CombinedTerraVsHippoRAGWilcoxonP$ & $\CombinedTerraVsHippoRAGAdjQ$ & $\TerraVsHippoRAGCombinedWins/\TerraVsHippoRAGCombinedTies/\TerraVsHippoRAGCombinedLosses$ \\
+\bottomrule
+\end{tabular}
+}\par\medskip
+\noindent 
+\raggedright \footnotesize $^\dagger$Evaluated via Fisher's Exact Test on Out-of-Context safety refusal ($75/75$ vs. $0/75$, complete empirical separation). Paired outcomes report TERRA wins ($n^+$), ties ($n^0$), and losses ($n^-$); Category C reports contingency refusal counts ($75/75\text{ vs. }0/75$). FDR correction was applied jointly across the complete pre-specified family of $M=20$ hypothesis tests (4 comparative baselines $\times$ 5 evaluation slices: Categories A, B, C, D, and Combined A+B); primary multi-hop evolutionary and safety comparisons are reported above. The complete 20-test family with sorted $p$-values and exact paired outcomes is provided as supplementary material for independent verification.
+

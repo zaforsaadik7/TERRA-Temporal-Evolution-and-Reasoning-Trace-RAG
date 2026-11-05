@@ -1,0 +1,13 @@
+--- baseline/supplement_tables\table_full_fdr_family.tex
++++ revision/supplement_tables\table_full_fdr_family.tex
+@@ -7,6 +7,10 @@
+ \begin{longtable}{p{0.9cm}p{2.2cm}p{2.1cm}p{2cm}p{2.6cm}p{1.3cm}p{1.9cm}p{1.9cm}p{2.3cm}p{2cm}}
+ \caption{Complete Pre-Specified Benjamini-Hochberg False Discovery Rate (FDR) Hypothesis Testing Family ($M=20$ Tests Across 4 Baselines $\times$ 5 Evaluation Slices).}\label{tab:full_fdr_family}\\
+ \toprule
++\textbf{Rank ($i$)} & \textbf{Comparative Baseline} & \textbf{Evaluation Slice} & \textbf{Statistical Test} & \textbf{Mean $\Delta$ [95\% CI]} & \textbf{Cohen's $d_z$} & \textbf{Raw $p$-value} & \textbf{FDR $q$-value} & \textbf{Paired ($n^+/n^0/n^-$)} & \textbf{Significance ($\alpha=0.05$)} \\
++\midrule\endfirsthead
++\multicolumn{10}{l}{\footnotesize\textit{Table \thetable{} continued from previous page}} \\
++\midrule
+ \textbf{Rank ($i$)} & \textbf{Comparative Baseline} & \textbf{Evaluation Slice} & \textbf{Statistical Test} & \textbf{Mean $\Delta$ [95\% CI]} & \textbf{Cohen's $d_z$} & \textbf{Raw $p$-value} & \textbf{FDR $q$-value} & \textbf{Paired ($n^+/n^0/n^-$)} & \textbf{Significance ($\alpha=0.05$)} \\
+ \midrule\endhead
+ 1 & Direct LLM (No RAG) & Category C (Out-of-Context Refusal) & Fisher's Exact Test & +100.0\% Diff. & --- & $\ensuremath{2.15 \times 10^{-44}}$ & $\ensuremath{4.31 \times 10^{-43}}$ & $75/75 \text{ vs. } 0/75$ & \textbf{Yes (TERRA)} \\

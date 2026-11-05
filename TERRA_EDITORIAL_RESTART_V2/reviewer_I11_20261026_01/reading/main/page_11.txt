@@ -1,0 +1,201 @@
+(Sections VI-B and VI-D, Tables III and IV) instead
+uses the 100-query Category B suite (0.254) and the
+75-query Category D suite in a single run (T = 0.0),
+where TERRA has 48/75(64.0%) explicit refusals and
+33.3% verified refutations (25/75(33.3%)), for 97.3% safe
+handling (73/75(97.3%)); the two fatal errors (2/75(2.7%),
+D033 and D034) are procedural misattributions (Table V).
+Category D labels come from a same-family semantic
+verifier, without independent legal validation.
+TABLE II
+Component-Level Ablation Analysis Across 35 Benchmark Queries
+(N = 5 Repeated Runs, 700 Evaluations).
+Architecture Configuration
+Cat B Faith.
+Cat D Safety
+Cat A False Ref.
+Latency (Cat A)
+Full TERRA (Router + EEG + NLI)
+0.815
+100.0%
+0/10
+1.38 s
+Ablation 1: w/o EEG Traversal (Vector Documents Only)
+0.675
+100.0%
+0/10
+1.80 s
+Ablation 2: w/o NLI Smart Grader (No Verification Gate)
+0.780
+0.0%
+0/10
+1.43 s
+Ablation 3: w/o Traﬀic Cop Router (Forced Hard Path)
+0.840
+100.0%
+2/10 (20.0%)
+6.75 s
+Disabling EEG traversal (Ablation 1) lowers Category B
+faithfulness from 0.815 to 0.675 (relative reduction 17.2%),
+consistent with vector retrieval over scaffold-bearing opin-
+ion documents missing the chronological direction of
+precedent. Disabling the entailment gate (Ablation 2)
+lowers Category D safety rejection from 100.0% to 0.0%;
+the pilot has five unique Category D queries, one legacy
+judge and no tests, and counts refusals only, so the drop
+is consistent with, but does not establish, a protective
+role for the gate. Bypassing the router (Ablation 3)
+forces factual lookups through BFS expansion and grading,
+raising Category A pilot latency from 1.38 s to 6.75 s
+(4.90×) with 2/10 (20.0%) false refusals ; context pollution
+is a possible explanation, not a measured cause. Ablation 3
+reports marginally higher Category B faithfulness (0.840
+vs. 0.815), plausibly because forcing traversal removes
+residual router misclassification of borderline evolutionary
+queries, but the latency and false-refusal costs make it
+disadvantageous for latency-sensitive use. The full config-
+uration’s median on direct factual inquiries is 1.38 s in
+the pilot against 5.46 s for the fast route in the 350-query
+run (different size, date and endpoint load, so not directly
+comparable).
+B. Multi-Hop Evolutionary Reasoning and Pairwise Win
+Rates (Category B)
+Category B tracks constitutional doctrine across multi-
+decade precedent arcs (e.g., Plessy (1896), Gaines (1938),
+Sweatt (1950), Brown (1954)). Table III gives comparative
+performance and head-to-head win rates over 100 paired
+evaluations.
+TERRA’s Category B faithfulness exceeds Flat Vector
+RAG by +0.070 (paired Wilcoxon q
+=
+0.0063; the
+bootstrap CI of the mean difference, [−0.015, +0.151],
+includes zero while the Hodges–Lehmann median differ-
+ence, +0.125 [+0.062, +0.188], does not), HippoRAG by
++0.066 (q = 0.0124, dz = 0.207) and GraphRAG by
++0.119 (q = 1.97 × 10−5). TERRA wins 67, 73 and 51
+of 100 queries against Flat, GraphRAG and HippoRAG,
+with 18, 16 and 26 ties. A no-retrieval Direct LLM scores
+TABLE III
+Category B Multi-Hop Evolutionary Performance and Pairwise
+Win Rates (N = 100 Paired Evaluations).
+Pipeline
+Faithfulness
+TERRA Win Rate
+ROUGE-L Rec.
+Mean Words
+Direct LLM (No RAG)
+0.335 ± 0.166
+27.0%†
+0.546
+612
+Flat Vector RAG
+0.184 ± 0.366
+67.0%
+0.500
+481
+GraphRAG-Adapted
+0.135 ± 0.300
+73.0%
+0.523
+477
+HippoRAG-Adapted
+0.188 ± 0.232
+51.0%
+0.536
+470
+TERRA GraphRAG
+0.254 ± 0.226
+—
+0.448
+415
+Notes: Bold denotes top performance among retrieval-augmented
+(RAG) pipelines; Direct LLM (No RAG) serves as an ungrounded
+parametric baseline reference. †Against Direct LLM, head-to-head
+outcomes comprise 27 TERRA wins, 18 ties, and 55 losses,
+reflecting parametric fluency on generic summaries versus grounded
+citation depth.
+higher on Category B (0.335 vs. 0.254; ∆= −0.081,
+q = 0.0023; TERRA wins 27, ties 18, loses 55), consistent
+with dual judges rewarding fluent parametric summaries;
+TERRA’s advantage is grounded citation provenance
+(Section VI-M) and retrieval coverage, not raw judged
+faithfulness. Against Direct LLM, TERRA is significantly
+better on Category A (+0.427, q = 1.93 × 10−11) and on
+the combined in-domain slice (+0.173 [+0.114, +0.233],
+q = 3.15 × 10−7), and significantly worse on Category B
+(−0.081, q = 0.0023) and, after certified-safety clamping,
+on Category D (−0.048, q = 0.0177). The combined result
+is driven by Category A, where the non-Llama judges score
+down Direct LLM’s ungrounded answers (0.514, versus
+0.818 under the earlier single Llama judge).
+1) ROUGE-L
+Lexical
+Trade-off
+and
+Recall
+Disentanglement:
+ROUGE-L
+F1
+penalizes
+length
+through
+candidate-length
+precision
+(LCS/|cand|),
+and
+the
+reference
+holdings
+average
+70.8
+words
+(computed
+against
+researcher-constructed
+references,
+terra_350_benchmark.json,
+SHA256
+8144fa81...,
+by
+deterministic tokenized LCS; F1 is the mean of per-query
+F1, not the harmonic mean of the macro P and R).
+On Category B, Flat Vector RAG has the highest F1
+(0.147 vs. TERRA 0.123, HippoRAG 0.145, GraphRAG
+0.140,
+Direct
+LLM
+0.115)
+and
+precision
+(0.096
+vs.
+TERRA
+0.086,
+HippoRAG
+0.085,
+GraphRAG
+0.083,
+Direct
+LLM
+0.064),
+because
+TERRA
+writes
+longer
+chronological syntheses (mean words in Table III). On
+recall, TERRA’s firewall falsely refuses 16 Category B
+queries (scored zero), giving 0.448 against 0.500 (Flat),
+0.523 (GraphRAG), 0.536 (HippoRAG) and 0.546 (Direct
+LLM); on answered queries TERRA reaches 0.525 (mean
+490 words), comparable to Flat’s 0.527. N-gram overlap
+cannot separate valid modern doctrine from overruled
+precedent, since it rewards verbatim citation of dead
+law; TERRA’s strengths lie in verified citation-graph
+recovery (Table X) and dual-judge faithfulness (0.254,
+FDR q < 0.05).
+C. Prospective controlled hybrid comparison
+A separate prospective study compared dense–BM25
+reciprocal-rank fusion (H) with two-seed citation-graph
+retrieval (T) on the same 350 queries. Both arms shared
+the query-only router, evidence formatter, 6,000-token

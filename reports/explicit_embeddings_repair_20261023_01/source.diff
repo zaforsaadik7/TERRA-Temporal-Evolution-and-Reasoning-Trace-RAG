@@ -1,0 +1,119 @@
+--- offline_preflight.py.before
++++ offline_preflight.py.final
+@@ -2714,6 +2714,7 @@
+     COLLECTION_NAME = "thinking_traces"
+     EXPECTED_DIM = 384
+     EXPECTED_METRIC = "l2"
++    explicit_query_embeddings = False
+ 
+     def __init__(
+         self,
+@@ -2723,7 +2724,13 @@
+         client_factory: Optional[Callable[[Path], Any]] = None,
+         embedding_function: Optional[Any] = None,
+         sqlite_connect_fn: Optional[Callable[..., Any]] = None,
++        explicit_query_embeddings: bool = False,
+     ):
++        if type(explicit_query_embeddings) is not bool:
++            raise ConfigurationError("Explicit embedding mode must be Boolean")
++        if explicit_query_embeddings and not callable(getattr(embedding_function, "embed_query", None)):
++            raise ConfigurationError("Explicit embedding mode requires the reviewed query embedder")
++        self.explicit_query_embeddings = explicit_query_embeddings
+         self.receipt = receipt
+         self.expected_source_dir = expected_source_dir
+         self.disposable_dir = IntegrityLifecycleManager.validate_disposable_containment(
+@@ -3012,12 +3019,14 @@
+ 
+     def get_collection(self) -> Any:
+         """
+-        Retrieve target collection from client with verified offline embedding function binding.
+-        Ensures the collection uses our offline embedding function without downloading.
++        Retrieve the collection with either the reviewed offline embedder bound,
++        or an explicit None binding when query vectors are computed externally.
++        Explicit-vector mode never delegates embedding to the collection.
+         When an offline embedding function is supplied, requires explicit keyword support for
+         embedding_function (or **kwargs) and verifies compatibility via Signature.bind beforehand.
+         Rejects arbitrary positional parameter counts, positional-only parameters, or incompatible
+-        argument names with ConfigurationError before invocation without fallback to unbound collection.
++        argument names with ConfigurationError before invocation, without retry
++        or an implicit/default embedding-function fallback.
+         Invokes client.get_collection exactly once with keyword arguments; internal exceptions propagate.
+         """
+         if self._collection is None:
+@@ -3037,6 +3046,11 @@
+                 )
+ 
+             if self.embedding_function is not None:
++                # In explicit-vector mode Chroma must never resolve a persisted
++                # embedder. None is an intentional binding, not an omitted kwarg
++                # or a retry after a configuration failure. Query vectors below
++                # come exclusively from the reviewed offline embedder.
++                collection_embedding = None if self.explicit_query_embeddings else self.embedding_function
+                 # Require explicit embedding_function keyword support (or **kwargs), and use Signature.bind
+                 # with the exact intended name/embedding_function arguments before invocation.
+                 # Arbitrary positional-count heuristics, positional-only parameters, or unrelated parameters
+@@ -3044,7 +3058,7 @@
+                 try:
+                     sig.bind(
+                         name=self.COLLECTION_NAME,
+-                        embedding_function=self.embedding_function,
++                        embedding_function=collection_embedding,
+                     )
+                 except TypeError as exc:
+                     raise ConfigurationError(
+@@ -3056,7 +3070,7 @@
+                 # Invoke EXACTLY ONCE with the verified offline embedding function via keyword arguments
+                 self._collection = client.get_collection(
+                     name=self.COLLECTION_NAME,
+-                    embedding_function=self.embedding_function,
++                    embedding_function=collection_embedding,
+                 )
+             else:
+                 try:
+@@ -3080,7 +3094,8 @@
+         Validates output candidates, non-empty IDs, finite non-negative distances,
+         and deterministic tie-breaking. Rejects missing distances, fabricated zeros,
+         boolean distances, and candidates exceeding top_k.
+-        Uses query_texts embedded strictly via the bound offline embedding_function.
++        Uses the reviewed offline embedder, either bound to Chroma or invoked
++        explicitly before passing query_embeddings (never both query inputs).
+         """
+         self._revalidate_containment(pre_binding=not self._bound)
+         if not self._schema_validated:
+@@ -3099,10 +3114,23 @@
+ 
+         collection = self.get_collection()
+         query_kwargs: Dict[str, Any] = {
+-            "query_texts": query_texts,
+             "n_results": top_k,
+             "include": ["distances"],
+         }
++        if self.explicit_query_embeddings:
++            vectors = self.embedding_function.embed_query(input=query_texts)
++            if not isinstance(vectors, (list, np.ndarray)):
++                raise IntegrityCheckError("Explicit query embeddings must be a numeric batch")
++            try:
++                array = np.asarray(vectors)
++            except (TypeError, ValueError) as exc:
++                raise IntegrityCheckError("Malformed explicit query embedding batch") from exc
++            if (array.shape != (len(query_texts), self.EXPECTED_DIM)
++                    or array.dtype.kind not in "fi" or not np.isfinite(array).all()):
++                raise IntegrityCheckError("Explicit query embeddings require finite 384-dimensional rows")
++            query_kwargs["query_embeddings"] = array.tolist()
++        else:
++            query_kwargs["query_texts"] = query_texts
+ 
+         raw_res = collection.query(**query_kwargs)
+ 
+--- offline_smoke_authentic.py.before
++++ offline_smoke_authentic.py.final
+@@ -88,7 +88,8 @@
+             from chromadb.config import Settings
+             return chromadb.PersistentClient(path=str(path),
+                 settings=Settings(anonymized_telemetry=False))
+-        return ChromaDisposableReader(**arguments,client_factory=client)
++        return ChromaDisposableReader(**arguments,client_factory=client,
++                                      explicit_query_embeddings=True)
+     return {'check_path':Manager.check_symlink_and_reparse_containment,
+         'hash_graph':ProtectedInventoryAuditor.hash_file_sha256,
+         'validate_receipt':Manager.validate_disposable_containment,

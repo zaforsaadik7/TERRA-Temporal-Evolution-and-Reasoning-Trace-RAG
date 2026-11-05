@@ -1,0 +1,145 @@
+[
+  {
+    "id": "I11-F01",
+    "original_title": "Scientific disclosure extends below the physical bottom of main page12",
+    "resolution": "Removed physical page enlargement; complete disclosure now visibly fits",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F02",
+    "original_title": "Two CategoryA FDR q values disagree between main and complete-family table",
+    "resolution": "Aligned Category A FDR reporting with accepted complete 20-test family",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F03",
+    "original_title": "ROUGE explanation claims longer TERRA answers despite the displayed shorter mean",
+    "resolution": "Removed unsupported ROUGE length causal explanation",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F04",
+    "original_title": "Chain counts acquire a duplicate /100 and recall lifts have wrong units",
+    "resolution": "Corrected duplicate counts and percentage-point units",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F05",
+    "original_title": "Bold emphasis does not implement table notes",
+    "resolution": "Repaired misleading metric emphasis and notes",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F06",
+    "original_title": "Figure3 is cited as if it depicted the different rubric refusal measure",
+    "resolution": "Distinguished rubric refusal from system-flagged refusal",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F07",
+    "original_title": "Limitation7 mislabels CLERC doctrinal-misapplication rates as precedent omission",
+    "resolution": "Corrected CLERC misapplication endpoint and denominators",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F08",
+    "original_title": "Claimed prebenchmark hyperparameter freeze is not established by the qualified provenance records",
+    "resolution": "Qualified unauthenticated historical freeze chronology",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F09",
+    "original_title": "Essential main-paper tables and Figure1 are illegibly small at normal physical size",
+    "resolution": "Readable main summaries and diagrams; complete table cells preserved in supplement",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F10",
+    "original_title": "SAT-Graph mechanism and bibliography are incorrect",
+    "resolution": "Corrected SAT-Graph characterization and bibliography",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  },
+  {
+    "id": "I11-F11",
+    "original_title": "Redundant count formatting and a dangling conclusion value impair clarity",
+    "resolution": "Repaired duplicate percent strings, answer-only scope and aggregate safe-handling qualification",
+    "status": "IMPLEMENTED_SELF_VERIFIED_PEER_PENDING",
+    "evidence": [
+      "source.diff",
+      "TEST_RESULT.json",
+      "VISUAL_REVIEW.json",
+      "TABLE_VALUE_PRESERVATION_CHECK.json",
+      "builds/r06/BUILD_RESULT.json"
+    ]
+  }
+]

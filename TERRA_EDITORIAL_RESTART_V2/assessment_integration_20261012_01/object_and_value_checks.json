@@ -1,0 +1,18 @@
+{
+  "tables": [
+    "tab:baseline_specifications",
+    "tab:full_fdr_family",
+    "tab:graph_metrics",
+    "tab:latency_percentiles",
+    "tab:router_eval",
+    "tab:run_provenance",
+    "tab:sensitivity_raw_vs_clamped",
+    "tab:system_comparison",
+    "tab:temporal_leakage_probe",
+    "tab:temporal-update-stability"
+  ],
+  "limitation_entries": 18,
+  "latency_overrides_traced": 35,
+  "sample_sd": true,
+  "assessment_values": "matched approved report; no pipeline attribution"
+}

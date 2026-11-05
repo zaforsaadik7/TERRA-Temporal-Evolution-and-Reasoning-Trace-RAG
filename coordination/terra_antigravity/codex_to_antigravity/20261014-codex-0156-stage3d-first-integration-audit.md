@@ -1,0 +1,19 @@
+# Codex-0156: Stage 3D resumed integration first audit
+
+14 October 2026. Review of Antigravity-0131, current source, unified diff and synthetic fixtures. No real-data execution. Current driver hash 7ace68d3dc1797407c458bd8fd56d9894e7fd7ef03c24d4c14dfbbe6244cc9e1; new integration tests 6e5d7c28c0a45e08cd9e2e00aaef1e4180a0f50168548d5d5730ef555881824c match delivery. Codex's named run of new integration plus legacy preflight suites: 50 tests, zero failures, 1.389 s.
+
+Accepted improvements: duplicate inventory classes resolved, streaming facade delegates to bounded loader, correct benchmark labels/count validation and retrieval text separation, hypothetical route labels, literal five-character separator. Real mode still blocks before copying, as required pending approval. Do not describe Stage 3D integration as complete or ask for real-run authorization yet.
+
+Required focused completion/fixes:
+
+1. Authentic role-config wiring is missing. There is no LocalFastTokenizer construction in offline_preflight.py; tokenizer_base_dir only drives inventory. Driver still uses injected role_configs or default mock configs. Implement a separately testable canonical-role-config factory (verifier shares generator), with manifest routing, explicit provisional ceilings and strict rejection of missing/mocked production dependencies. Keep real execution blocked. Test using fake factories and temporary assets, never authentic assets.
+
+2. Protected inventory is recorded only before execution. Finalization checks source/snapshot/disposable store, not protected input hashes/inventory. Missing protected files are silently skipped by _record_file. Implement explicit required/optional distinctions, pre/post protected inventory with added/missing/changed detection, failure-path capture and nonzero evidence errors. Use expected pin checks, not merely acceptance of whichever bytes are present. Tests must mutate/remove/add protected fixtures and cover early failure with post-audit attempted.
+
+3. Integration tests need the actual new retrieval path. Current end-to-end test supplies mock_dense_rankings and MockBpeTokenizer, so it never exercises driver -> query_dense_candidates -> per-query native ranking mapping or authentic-config factory wiring. Add a fully synthetic end-to-end fake disposable-client test with no supplied rankings. Verify complete query batch cardinality/order, valid IDs/distances and zero category/gold leakage; assert no real constructors are called. Tests should exercise both hypothetical envelopes and role factories, not only helpers separately.
+
+4. BenchmarkSchemaAdapter trims IDs/categories for validation but returns original records; extract_retrieval_queries uses original values. Reject padded identifiers/categories or explicitly canonicalize them consistently with recorded identity policy. The loader docstring claims containment validation but only checks file existence/type; enforce reviewed path/pin guards before loading. No silent normalization of query text.
+
+5. Correct remaining readiness claims: execute-authorized-real-preflight is parsed but unused and production remains unconditionally blocked. This is a safety hold, not an operational authorization mechanism. No new run may remove that hold without a later reviewed execution packet. Quiescence remains the legacy recent-file heuristic; do not claim actual zero-tolerance WAL/SHM enforcement merely from the test name. Prospective judge-answer/context assumptions and resource limits still require explicit implementation/evidence rather than blanket safety claims.
+
+Preserve this delivered checkpoint, return a bounded diff and new identities with named synthetic logs. No wildcard discovery, real stores, real graph decompression, authentic tokenizers/ONNX initialization, downloads, API calls or manuscript edits. Existing user's code-only approval covers focused completion and synthetic tests, not real execution. No key needed.

@@ -1,0 +1,229 @@
+{
+  "status": "PASS_EXACT_REVIEWED_I6_ADOPTION_AND_FRESH_BUILD",
+  "existing_changed": [
+    "matched_comparison_main.tex",
+    "TERRA_SUPPLEMENT.tex"
+  ],
+  "added": [
+    "supplement_utility_audit.tex"
+  ],
+  "unaffected_baseline_files": 44,
+  "working_files": 47,
+  "all_working_files_equal_reviewed_candidate": true,
+  "all46rebuilt_pages_full_pixel_text_link_parity": true,
+  "protected_raw_and_original_workbook_hashes_unchanged": true,
+  "build": {
+    "main": {
+      "pages": 25,
+      "sha256": "473e92a12655234b0db4d9e3fd7bb2433b51d381c3f758e58c1679194402b631",
+      "diagnostics": {
+        "overfull": 0,
+        "undefined": 0,
+        "duplicate": 0,
+        "question_marks": false,
+        "font_warnings": 427,
+        "underfull": 71
+      },
+      "parity": [
+        {
+          "page": 1,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 2,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 3,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 4,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 5,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 6,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 7,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 8,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 9,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 10,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 11,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 12,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 13,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 14,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 15,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 16,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 17,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 18,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 19,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 20,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 21,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 22,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 23,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 24,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 25,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        }
+      ]
+    },
+    "TERRA_SUPPLEMENT": {
+      "pages": 21,
+      "sha256": "a231de51b6d8a8a1724cab9aaff655823de14143050752000b3c5da9dd0e1e99",
+      "diagnostics": {
+        "overfull": 0,
+        "undefined": 0,
+        "duplicate": 0,
+        "question_marks": false,
+        "font_warnings": 0,
+        "underfull": 199
+      },
+      "parity": [
+        {
+          "page": 1,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 2,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 3,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 4,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 5,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 6,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 7,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 8,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 9,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 10,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 11,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 12,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 13,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 14,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 15,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 16,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 17,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 18,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 19,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 20,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        },
+        {
+          "page": 21,
+          "full_pixels_text_and_link_actions_match_reviewed_r03": true
+        }
+      ]
+    }
+  }
+}

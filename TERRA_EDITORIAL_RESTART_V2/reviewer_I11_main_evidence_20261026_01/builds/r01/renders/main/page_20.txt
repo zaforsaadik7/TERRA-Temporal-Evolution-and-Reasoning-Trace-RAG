@@ -1,0 +1,116 @@
+TABLE X
+Retrieval recovery (Panel A): 100 CategoryBqueries,342 gold authorities.
+Pipeline
+Macro recall Micro recall Complete targets
+Count
+Flat RAG
+26.8%
+26.3%
+1.0%
+1/100
+GraphRAG
+35.7%
+35.1%
+9.0%
+9/100
+HippoRAG
+68.5%
+67.0%
+21.0%
+21/100
+TERRA
+88.9%
+88.3%
+66.0%
+66/100
+Panel A above uses canonical stored contexts; target-set matching does not certify connected paths. Panel B chain-length cells and Panel
+C all 22 sensitivity configurations are retained in the corresponding full-detail supplement. Canonical 66/100, legacy 62/100 and bounded
+61/100 are distinct. Five-node stratum n 5 is descriptive. Full cells, methods and notes: Supplement Section S13.
+not test causally whether TERRA’s results (Tables IV
+and IX) stem from retrieval quality; Direct LLM’s higher
+Category B faithfulness shows retrieval alone does not
+explain faithfulness.
+3) Retrieval Hyperparameter Robustness and Traversal
+Horizon Sensitivity: Supplement Section S13 (Panel C)
+evaluates 22 traversal configurations conditional on an-
+chors frozen from older stored Category B contexts. The
+legacy baseline (k = 2, d = 2, C = 50) matches those
+records’ node sets and gold intersections on 100/100
+queries (86.08% macro recall; 62.0% complete-target recov-
+ery), not the canonical-v2 result in the full table's Panels
+A/B (66/100). Truncating to d = 1 cuts full-path recovery
+to 51.0% (83.32% macro) and context from 1,342,598 to
+147,114 characters (latency 46.2 ms to 5.0 ms); d = 3
+adds modest recovery (68.0%, 68/100) at much larger
+context (8,919,253 characters, 310.2 ms). A hub cap of
+C = 25 restricts recovery (28.0%), while C = 100 nearly
+completes it (95.0%, 98.17% macro) at 7,444,457 charac-
+ters. Adaptive depth matches static d = 2 (86.33% macro,
+63.0% path), single-seed initialization (k = 1∗) reaches
+45.0% path recovery, and vector-seed expansion (k = 4∗)
+retrieves no seeds because of an active-index category
+filter (13.0%). In the separate bounded diagnostic (35,000
+structural characters, 40 traversed nodes, asymmetric hub
+budgets), traversal stops after a mean of 2.0 expansion
+centers and assembles 78.7 authorities; the bounded engine
+keeps 90.85% of gold landmarks (268/295) and 61.0% full-
+path recall (48/63 on 3-node, 12/32 on 4-node, 1/5 on
+5-node chains), cutting context by 97.0% (from 1,342,598
+to 40,161 characters) and offline latency by 28.9× (from
+46.2 ms to 1.6 ms).
+M. Generative Citation Correctness, Doctrinal Support,
+and Interactive Hyperlink Provenance
+Legal validity depends on whether the generator cites
+and attributes doctrine correctly in its final completions,
+since language models commonly invent case names, cite
+authorities for propositions they never established, or
+hallucinate citations on unanswerable inquiries. Table XI
+therefore evaluates citation fidelity in the synthesized
+completions across the 350-query suite (1,750 evaluations
+over 5 pipelines). Grounded doctrinal precision and F1 are
+primary (TERRA 49.4%/53.3%, HippoRAG 46.7%/45.3%,
+Flat Vector RAG 39.1%/40.4%), with a judge-weighted
+variant as secondary (TERRA 9.30%, HippoRAG 9.06%;
+weighted by dual-judge faithfulness). TERRA’s entity cita-
+tion precision is 74.25% (earlier single-judge run 91.95%),
+and 660 of 664 emitted links resolved (99.40%).
+1) Category B Precedent Milestone Citation and Doc-
+trinal Support: On Category B (N = 100 queries, 342 gold
+authorities; Table XI, Panel A), Full TERRA has the high-
+est macro citation recall, 57.85% (55.56% micro), ahead of
+HippoRAG-Adapted (43.88%), Direct LLM (43.55%), Flat
+Vector RAG (41.88%) and GraphRAG-Adapted (41.10%)
+by 13.97 to 16.75 percentage points. Its judge-weighted
+Doctrinal Citation Precision, 9.30%, exceeds HippoRAG-
+Adapted (9.06%), Direct LLM (7.08%) and GraphRAG-
+Adapted (6.29%) but is below Flat Vector RAG (14.15%),
+the highest. Likewise Citation F1 is 16.02% for TERRA,
+higher than HippoRAG-Adapted (15.02%; ratio 1.07×)
+and Direct LLM (12.17%; ratio 1.32×) but lower than
+Flat Vector RAG (21.15%; ratio 0.76×). TERRA cites
+all gold milestones in 23/100 answers (23.00%), against
+4/100 for HippoRAG, 2/100 for Flat, 1/100 for Direct
+LLM and 0/100 for GraphRAG.
+2) Dynamic Interactive Hyperlink Attribution and Epis-
+temic Negative Containment: Across the suite (Supple-
+ment Section S14, Panel B), TERRA emitted 664 inter-
+active links (Section III-B5); 660/664 (99.40%) pass the
+project’s validator, which accepts a link when its identifier
+exists in the index or its caption matches an indexed
+title or alias, with 97.44% title-to-node fidelity (including
+aliases such as the Slaughter-House Cases resolving to
+Butchers’ Benevolent Ass’n, 83_0036-01). The remaining
+4 fail: three carry page-padding errors in identifiers of in-
+corpus cases (e.g. 301_001-01 for 301_0001-01, NLRB v.
+Jones & Laughlin; queries B073 and D038) and one is a
+bare /case/118 path (query B075). A stricter identifier-
+existence check passes 644 of 664 links (97.0%); the other
+16 were accepted on caption match. All four baselines
+emit zero hyperlinks (0), leaving their citations unlinked.
+On the N = 75 unanswerable Category C probes, where
+emitting no citation scores 1.00 and a hallucinated one
+0.00, Flat Vector RAG hallucinated 102 citations (12.00%
+precision) while Full TERRA emitted 0 (100.00%; 75/75
+clean refusals); because 74 of these 75 probes had no
+retrieved context, this containment largely reflects refusal
+on empty retrieval, not entailment grading.

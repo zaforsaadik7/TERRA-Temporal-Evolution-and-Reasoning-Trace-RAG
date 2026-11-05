@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\caption{Obscure overrulings:30queries,120completions.}
+\label{tab:obscure_overruled_eval}
+\centering\begingroup\fontsize{8}{9.6}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lcccccc}
+\toprule
+Pipeline & Safe outcome [CI] & Refusal & Refutation & Fatal affirmed & Fatal unwarned & Hedge \\
+\midrule
+Direct LLM & \ObscDirectSafeSummary & \ObscDirectRRef & \ObscDirectRRefut & \ObscDirectFatalAff & \ObscDirectFatalUnw & \ObscDirectRHedge \\
+Flat RAG & \ObscFlatSafeSummary & \ObscFlatRRef & \ObscFlatRRefut & \ObscFlatFatalAff & \ObscFlatFatalUnw & \ObscFlatRHedge \\
+Full TERRA & \ObscFullSafeSummary & \ObscFullRRef & \ObscFullRRefut & \ObscFullFatalAff & \ObscFullFatalUnw & \ObscFullRHedge \\
+Direct LLM & \ObscCrossDirectFamousSafe & \ObscCrossDirectObscureSafe & \ObscCrossDirectRiskDiff & \ObscCrossDirectNewcombeCI & $p\,\ObscCrossDirectFisherPRel$ & \ObscCrossDirectOddsRatio \\
+\bottomrule
+\end{tabular}
+\endgroup\par\vspace{2pt}
+\raggedright\footnotesize Primary TERRA-Unlabeled versusFlat comparison was not rejected (p0.726562); secondary confirmatory gates stay closed. FullTERRA safe outcome19/30depends on bundled curated annotations; judge disagreement and all robustness panels are preserved in the supplement. Full cells, methods and notes: Supplement Section~\ref{supp-detail-tab:obscure_overruled_eval}.
+\end{table*}

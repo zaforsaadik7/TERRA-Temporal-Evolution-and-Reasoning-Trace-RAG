@@ -1,0 +1,153 @@
+{
+  "citations": {
+    "main": {
+      "keys": [
+        "asai2024selfrag",
+        "bernal2024hipporag",
+        "chalkidis2020legalbert",
+        "chen2026legalgraphrag",
+        "cushman2021eyecite",
+        "demartim2025satgraphrag",
+        "dubey2024llama3",
+        "edge2024graphrag",
+        "feinstein1990high",
+        "guha2023legalbench",
+        "guu2020realm",
+        "hashmi2026adaptivequeryroutingtierbased",
+        "he2023debertav3",
+        "hoenig2001abuse",
+        "hou2024clerc",
+        "katz2017general",
+        "lewis2020retrieval",
+        "li2025cotragintegratingchainthought",
+        "liang2025reasoningrag12",
+        "lin2025comprehensivesurveyreinforcementlearningbased",
+        "liu2026raglearningunderstandinglimits",
+        "magesh2025hallucination",
+        "putta2026casefactsbenchmarklegalfactchecking",
+        "reimers2019sentencetransformers",
+        "sun2024thinkongraph",
+        "yalavarthi2026opensourcereproductionexplainabilityanalysis",
+        "zhang2025respectingtemporalcausalconsistencyentityevent",
+        "zheng2021casehold",
+        "zheng2023judging",
+        "zhu2025rightanswerrighttime"
+      ],
+      "same_keys_as_baseline": true
+    },
+    "TERRA_SUPPLEMENT": {
+      "keys": [
+        "bernal2024hipporag",
+        "chen2026legalgraphrag",
+        "demartim2025satgraphrag",
+        "edge2024graphrag",
+        "hoenig2001abuse",
+        "lewis2020retrieval"
+      ],
+      "same_keys_as_baseline": true
+    }
+  },
+  "pdf_links": {
+    "main": {
+      "internal_named_links": 158,
+      "external_pdf_links": [
+        {
+          "page": 18,
+          "target_file": "TERRA_SUPPLEMENT.pdf",
+          "destination": "table.9",
+          "verified": true
+        }
+      ],
+      "uri_links_not_network_revalidated": 23,
+      "unresolved": []
+    },
+    "TERRA_SUPPLEMENT": {
+      "internal_named_links": 19,
+      "external_pdf_links": [
+        {
+          "page": 8,
+          "target_file": "main.pdf",
+          "destination": "subsection.6.4",
+          "verified": true
+        },
+        {
+          "page": 12,
+          "target_file": "main.pdf",
+          "destination": "table.tab:ablation-part1",
+          "verified": true
+        },
+        {
+          "page": 13,
+          "target_file": "main.pdf",
+          "destination": "table.tab:ablation-part1",
+          "verified": true
+        },
+        {
+          "page": 14,
+          "target_file": "main.pdf",
+          "destination": "subsection.5.3",
+          "verified": true
+        },
+        {
+          "page": 14,
+          "target_file": "main.pdf",
+          "destination": "subsubsection.3.2.3",
+          "verified": true
+        },
+        {
+          "page": 14,
+          "target_file": "main.pdf",
+          "destination": "subsection.6.9",
+          "verified": true
+        },
+        {
+          "page": 14,
+          "target_file": "main.pdf",
+          "destination": "table.1",
+          "verified": true
+        },
+        {
+          "page": 14,
+          "target_file": "main.pdf",
+          "destination": "subsection.6.15",
+          "verified": true
+        },
+        {
+          "page": 14,
+          "target_file": "main.pdf",
+          "destination": "subsection.5.1",
+          "verified": true
+        },
+        {
+          "page": 15,
+          "target_file": "main.pdf",
+          "destination": "subsection.6.10",
+          "verified": true
+        },
+        {
+          "page": 15,
+          "target_file": "main.pdf",
+          "destination": "subsection.6.11",
+          "verified": true
+        },
+        {
+          "page": 16,
+          "target_file": "main.pdf",
+          "destination": "subsection.6.12",
+          "verified": true
+        },
+        {
+          "page": 16,
+          "target_file": "main.pdf",
+          "destination": "table.tab:retrieval_eval-part1",
+          "verified": true
+        }
+      ],
+      "uri_links_not_network_revalidated": 5,
+      "unresolved": []
+    }
+  },
+  "bibliography_source_byte_unchanged": true,
+  "style": "official sn-basic author-year; stale IEEE main.bbl deliberately excluded",
+  "submission_metadata_validation": "I10, not certified here"
+}

@@ -1,0 +1,121 @@
+"""Frozen packet, filesystem fixtures and production holds. No genuine assets."""
+from dataclasses import asdict,replace
+from hashlib import sha256
+import json
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+from scripts.matched_baseline import offline_cohort_packet as packet
+from scripts.matched_baseline import offline_cohort_filesystem as filesystem
+from scripts.matched_baseline import offline_cohort_production as production
+from scripts.matched_baseline import offline_cohort_entry as entry
+from scripts.matched_baseline import offline_cohort_attempt as attempt
+from tests import test_offline_cohort_command_synthetic as fixtures
+
+
+class PacketTests(unittest.TestCase):
+    def setUp(self):
+        self.f=fixtures.CommandTests();self.f.setUp();self.addCleanup(self.f.doCleanups)
+        command=self.f.command
+        allocation=replace(command.launch.allocation,parent_bytes=64*1024**2,child_bytes=64*1024**2)
+        self.command=replace(command,launch=replace(command.launch,allocation=allocation))
+        launch=self.command.launch
+        self.approval=dict(approval_id='SYNTHETIC_PACKET_ONLY',approval_date='2026-10-24',
+            scope=launch.parent.spec.scope,request_sha256=sha256(launch.parent.spec.request_bytes()).hexdigest(),
+            resources=asdict(launch.parent.resources),launch_binding_sha256=packet.run_digest(self.command),
+            rule_name=launch.rule_name,owner_tag=launch.owner_tag,max_attempts=1,
+            allow_api_calls=False,allow_manuscript_changes=False)
+        self.raw=packet.encode_packet(self.command,self.approval)
+
+    def decode(self,raw=None,**kwargs):
+        raw=self.raw if raw is None else raw
+        return packet.decode_packet(raw,expected_sha256=sha256(raw).hexdigest(),synthetic_fixture=True,**kwargs)
+
+    def test_packet_roundtrip_and_separate_authority_digest(self):
+        command,approval=self.decode()
+        self.assertEqual(command,self.command);self.assertEqual(approval,self.approval)
+        self.assertNotEqual(packet.run_digest(command),command.digest())
+        self.assertNotIn(b'excluded target',self.raw)
+
+    def test_packet_body_materializes_validated_command_once(self):
+        original=type(self.command).payload
+        calls=[]
+        def measured(obj):calls.append(obj);return original(obj)
+        with patch.object(type(self.command),'payload',measured):
+            body=packet.packet_body(self.command)
+        self.assertEqual(len(calls),1)
+        self.assertEqual(body['command'],self.command.payload())
+
+    def test_actual_fixture_mode_and_sha_not_self_selected(self):
+        with self.assertRaises(ValueError):packet.decode_packet(self.raw,expected_sha256='0'*64,synthetic_fixture=True)
+        with self.assertRaises(ValueError):packet.decode_packet(self.raw,expected_sha256=sha256(self.raw).hexdigest())
+
+    def test_ignored_fields_and_modified_derived_paths_fail(self):
+        for field,value in (('extra',True),('native_arguments','--wrong'),('mode','SIMULATED')):
+            data=json.loads(self.raw);data['body'][field]=value
+            with self.assertRaises(ValueError):self.decode(json.dumps(data).encode())
+        data=json.loads(self.raw);data['body']['paths']['disposable']='C:\\wrong'
+        with self.assertRaises(ValueError):self.decode(json.dumps(data).encode())
+
+    def test_old_command_approval_and_insufficient_native_budget_rejected(self):
+        with self.assertRaises(ValueError):packet.encode_packet(self.command,
+            dict(self.approval,launch_binding_sha256=self.command.digest()))
+        with self.assertRaises(ValueError):packet.packet_body(self.f.command)
+
+    def test_filesystem_fixture_membership_and_drift(self):
+        # Launch fixture paths physically exist, including fake .exe/.dll files.
+        review=self.command.launch.parent
+        pins,roots=filesystem._observe_review(review)
+        self.assertEqual(pins,review.pins);self.assertEqual(roots,review.roots)
+        root=Path(review.plan.cache_directory)
+        (root/'new.fixture').write_bytes(b'new')
+        with self.assertRaises(ValueError):filesystem._observe_review(review)
+
+    def test_bounded_native_read_and_identity(self):
+        path=Path(self.f.f.f.root)/'bounded.fixture';path.write_bytes(b'fixture')
+        self.assertEqual(production._read(path,7),b'fixture')
+        with self.assertRaises(ValueError):production._read(path,6)
+
+    def test_closed_source_entries_before_import_or_filesystem(self):
+        with patch.object(production,'load_frozen',side_effect=AssertionError('must not load')):
+            self.assertEqual(production.main([]),2)
+        self.assertEqual(entry.main(),2)
+        with self.assertRaises(RuntimeError):production.run_parent(None,None,None)
+        with self.assertRaises(RuntimeError):production.run_child(None,None,None)
+        with self.assertRaises(RuntimeError):filesystem.construct_observer(None)
+        with self.assertRaises(RuntimeError):attempt.construct_authentic_attempt(resources=None,poll_seconds=None)
+
+    def test_gated_native_component_flags_restore_on_exception_without_calls(self):
+        from scripts.matched_baseline import offline_cohort_adapters as adapters
+        from scripts.matched_baseline import offline_smoke_executor as executor
+        prior=(adapters.COHORT_NATIVE_ADMITTED,executor.EXECUTION_ADMITTED)
+        with patch.object(production,'COHORT_PRODUCTION_ADMITTED',True):
+            with self.assertRaises(ValueError):
+                with production._components():
+                    self.assertTrue(adapters.COHORT_NATIVE_ADMITTED)
+                    raise ValueError('synthetic context cleanup')
+        self.assertEqual((adapters.COHORT_NATIVE_ADMITTED,executor.EXECUTION_ADMITTED),prior)
+
+    def test_complete_namespace_excludes_only_external_roots_and_global_sites(self):
+        from scripts.matched_baseline.offline_cohort_input import FilePin
+        review=self.command.launch.parent
+        workspace=Path(review.plan.workspace);base=Path(dict(self.command.launch.artifacts)['firewall_image'].path).parent
+        project=workspace/'scripts'/'matched_baseline';project.mkdir(parents=True)
+        stdlib=base/'Lib';(stdlib/'site-packages').mkdir(parents=True)
+        (stdlib/'site-packages'/'excluded.fixture').write_bytes(b'outside selected venv')
+        files={workspace/'pyvenv.cfg':b'include-system-site-packages = false\n',
+            project/'fixture_module.py':b'# source fixture',stdlib/'fixture_std.py':b'# stdlib fixture'}
+        extra=[]
+        for path,raw in files.items():
+            path.write_bytes(raw);extra.append(FilePin(str(path),len(raw),sha256(raw).hexdigest()))
+        for name in ('offline_cohort_anchor.py','launch_offline_cohort_user.ps1'):
+            (project/name).write_bytes(b'external trust-root fixture')
+        candidate=replace(self.command,launch=replace(self.command.launch,
+            parent=replace(review,pins=review.pins+tuple(extra))))
+        filesystem._verify_namespaces(candidate)
+        (project/'unexpected.py').write_bytes(b'unpinned module')
+        with self.assertRaises(ValueError):filesystem._verify_namespaces(candidate)
+
+
+if __name__=='__main__':unittest.main()

@@ -1,0 +1,129 @@
+{
+  "scope": "FIVE_ROLE_COMPATIBILITY_SMOKE",
+  "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+  "maximum_calls": 5,
+  "automatic_retries": 0,
+  "proposed_spend_cap_nanodollars": 1000000000,
+  "usd_per_dbu_ceiling_assumption": "1.00",
+  "actual_account_rate_confirmed": false,
+  "maximum_reserved_nanodollars": 245216128,
+  "query": "What year is stated in the supplied fictional note?",
+  "evidence": "[Document 1] ID: fictional-note | Title: Fictional Note (1900)\nSnippet: This invented note states the year 1900. It is not a real case or legal authority.",
+  "roles": [
+    {
+      "role": "router",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-gemma-3-12b",
+      "accepted_models": [
+        "databricks-gemma-3-12b",
+        "system.ai.gemma-3-12b-it",
+        "gemma-3-12b"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 128,
+      "request_bytes": 8192,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_20261024_ASSUMED_MAX_1_USD_PER_DBU",
+        "input_per_million": 2143000000,
+        "output_per_million": 7143000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "verifier",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-meta-llama-3-3-70b-instruct",
+      "accepted_models": [
+        "databricks-meta-llama-3-3-70b-instruct",
+        "system.ai.llama_v3_3_70b_instruct",
+        "meta-llama-3-3-70b-instruct"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 512,
+      "request_bytes": 8192,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_20261024_ASSUMED_MAX_1_USD_PER_DBU",
+        "input_per_million": 7143000000,
+        "output_per_million": 21429000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "generator",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-meta-llama-3-3-70b-instruct",
+      "accepted_models": [
+        "databricks-meta-llama-3-3-70b-instruct",
+        "system.ai.llama_v3_3_70b_instruct",
+        "meta-llama-3-3-70b-instruct"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 512,
+      "request_bytes": 8192,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_20261024_ASSUMED_MAX_1_USD_PER_DBU",
+        "input_per_million": 7143000000,
+        "output_per_million": 21429000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "judge1",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-qwen3-next-80b-a3b-instruct",
+      "accepted_models": [
+        "databricks-qwen3-next-80b-a3b-instruct",
+        "system.ai.qwen3-next-80b-a3b-instruct",
+        "qwen3-next-80b-a3b-instruct"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 1024,
+      "request_bytes": 8192,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_20261024_ASSUMED_MAX_1_USD_PER_DBU",
+        "input_per_million": 2143000000,
+        "output_per_million": 17143000000,
+        "reasoning_in_completion": true
+      }
+    },
+    {
+      "role": "judge2",
+      "workspace_origin": "https://dbc-899e438f-4c30.cloud.databricks.com",
+      "endpoint": "databricks-gpt-oss-120b",
+      "accepted_models": [
+        "databricks-gpt-oss-120b",
+        "system.ai.gpt-oss-120b",
+        "gpt-oss-120b"
+      ],
+      "context_tokens": 128000,
+      "reserved_input_tokens": 8192,
+      "max_output_tokens": 4096,
+      "request_bytes": 8192,
+      "response_bytes": 1048576,
+      "timeout_seconds": 120,
+      "price": {
+        "identity": "PUBLIC_DBU_20261024_ASSUMED_MAX_1_USD_PER_DBU",
+        "input_per_million": 2143000000,
+        "output_per_million": 8571000000,
+        "reasoning_in_completion": true
+      }
+    }
+  ],
+  "gpt_oss_reasoning_effort": "low",
+  "benchmark_queries_used": false,
+  "timeout_policy": "120_seconds_cooperative_socket_timeout_per_call_no_independent_native_watchdog",
+  "timeout_exception_scope": "only_this_five_call_API_diagnostic_not_the_full_study",
+  "input_measurement": "not_measured_8192_provider_token_reservation_not_a_tokenizer_certificate"
+}

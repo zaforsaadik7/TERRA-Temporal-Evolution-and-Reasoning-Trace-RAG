@@ -1,0 +1,177 @@
+graph and vector-index state by equivalent hashes.
+Temporal-probe
+prompt,
+context
+and
+candidate
+hashes identify payloads, not the generating code or
+graph version. The obscure/famous arms requested
+the same generator endpoint, but direct-call logs
+record a server response identifier whereas the engine
+wrapper records the requested identifier; backend
+weight invariance is not established. Supplementary
+Table S9 summarizes these boundaries.
+3) Component-Level
+Ablation
+Matrix:
+three
+same-
+architecture
+ablations
+accompany
+Full
+TERRA
+(Router + EEG Traversal + NLI Smart Grader):
+Ablation 1 replaces graph traversal with Flat Vector
+RAG while keeping NLI grading; Ablation 2 disables
+entailment verification and self-correction; and Ab-
+lation 3 forces all queries through the full traversal
+path.
+4) Hyperparameter Freezing and Benchmark Isolation:
+retrieval and graph parameters (k = 2, d = 2, hub
+degree threshold 50, τ = 1.30) were frozen before
+benchmark construction on the basis of topological
+constraints and feasibility testing on an indepen-
+dent N = 35-query pilot (August 2026; 525 run
+records over 3 pipelines and 5 stability runs). An
+automated audit verifies chronological precedence,
+zero query ID and prompt-text overlap (0.0%), and
+no query-text or reference-answer contamination in
+ChromaDB across all 350 queries. In the recovered
+engine, degree greater than 50 activates high-degree
+handling; 75 incoming and 25 outgoing neighbors
+are directional selection budgets, subject to limits
+of 40 visited nodes and 35,000 structural-context
+characters. These controls describe the recovered
+source; they do not establish the exact settings of
+every historical experiment.
+E. Exploratory Author Assessment
+As an exploratory assessment, two project authors, nei-
+ther legally trained nor licensed to practise law, reviewed
+76 assigned response instances each with AI assistance. Au-
+thor 1 drafted assessments and used AI for source finding,
+interpretation, checking and rewriting; Author 2 reviewed
+and amended AI-proposed ratings and rationales. Original
+ratings were recorded before access to the other author’s
+ratings; reconciliation subsequently incorporated shared
+ratings and source-audit feedback. The sample includes
+repeated questions and overlapping response instances,
+so the assignments are not 152 independent queries.
+These assessments are descriptive, not independent legal-
+expert validation or population estimates. Definitions
+and original-versus-reconciled descriptive summaries are
+reported in the supplementary material.
+F. Data and Code Availability
+The
+project
+repository
+is
+identified
+as
+https://github.com/zaforsaadik7/TERRA-Temporal-
+Evolution-and-Reasoning-Trace-RAG. Public accessibility,
+license coverage and archival deposition of the complete
+current
+package
+are
+not
+certified
+here.
+The
+local
+reproducibility record contains or identifies: (1) the 350-
+query benchmark (terra_350_benchmark.json, SHA256:
+8144fa81...) with gold categories, doctrine labels and
+reference answers; (2) the 19 doctrine-invalidation pairs
+and 47 obscure overruled pairs; (3) the 20,000-case EEG
+index (terra_eeg_index_20k.json, SHA256: 7aa6db46…,
+145,366 edges: 145,310 CITES, 56 OVERRULES) with
+all 20,000 generic procedural scaffolds, the construction
+pipeline
+(scripts/ingest_20k_eeg_and_vector_db.py)
+and
+the
+edge
+list
+(data/terra_eeg_edges_145k.tsv);
+(4)
+execution
+and
+evaluation
+scripts
+(ask_terra.py,
+eval_terra.py);
+(5)
+verbatim
+prompt
+templates
+and
+Pydantic
+schemas;
+(6)
+frozen
+configurations
+(configs/terra_config.json); (7) the dual-judge evaluation
+records (N = 1, 750, data/terra_canonical_v2_eval.json,
+SHA256:
+95e775e2...)
+and
+the
+CaseFacts,
+CLERC,
+obscure-suite and NLI logs in data/; and (8) historical
+table
+scripts
+(Paper/scripts/generate_stats.py),
+with
+approved correction inputs and separate prospective-
+study analysis; that historical script alone does not
+reproduce the current paper. Raw corpora and vector
+stores
+are
+reconstructible
+via
+the
+ingestion
+pipeline.
+Models:
+generation
+and
+the
+NLI
+grader
+use
+meta-
+llama/Llama-3.3-70B-Instruct
+(databricks-meta-llama-3-
+3-70b-instruct, T = 0.0, max tokens 4,096); the router
+uses Gemma 3 12B Instruction-tuned (databricks-gemma-
+3-12b, T = 0.0, Pydantic validation); dense retrieval uses
+sentence-transformers/all-MiniLM-L6-v2 (384 dimensions,
+ChromaDB PersistentClient with its L2 index setting,
+top-k = 2; the current domain helper uses a title match
+or dL2 < 1.3 proximity); and judging uses the two judge
+models of Section V-C under the frozen rubric. The
+historical environment was reported as Windows 11
+Enterprise (16 cores, 64 GB RAM, ChromaDB v1.5.9,
+NetworkX v3.6.1, Python 3.11); backend GPU identity
+is not independently certified by the recorded serving
+identifiers. The prospective study has a separately frozen
+environment and protocol (Section VI-C).
+VI. Results and Analysis
+We report the historical pilot and multi-baseline evalua-
+tion, a separate prospective controlled hybrid comparison
+(Section VI-C), and the task-specific external, temporal,
+retrieval and computational audits. Their populations,
+rubrics and configurations are not interchangeable.
+A. Architectural
+Component
+Ablation
+and
+System
+Anatomy
+Table II reports the component ablation on the focused
+35-query pilot (N = 5 repeated runs, 700 evaluations; Full
+TERRA Category B faithfulness 0.815 and Category D
+safety 100.0% on n = 5 unique adversarial traps, 25
+run observations). The primary 350-query benchmark

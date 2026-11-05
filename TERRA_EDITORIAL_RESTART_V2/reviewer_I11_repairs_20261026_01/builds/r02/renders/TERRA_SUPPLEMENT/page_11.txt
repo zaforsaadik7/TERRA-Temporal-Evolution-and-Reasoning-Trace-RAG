@@ -1,0 +1,27 @@
+Table S8: Event Evolution Graph Topological Properties.
+Diameter
+and mean shortest path use the undirected largest weakly connected
+component of the original active 20k graph; results are not attributed
+to the corrected derivative.
+Metric
+Value
+Total Nodes (|V |)
+20,000
+Total Edges (|E|)
+145,366
+Graph Density (ρ)
+0.000363
+Mean Node Degree (¯k)
+14.54
+Maximum Degree (Simpson v. Shepard)
+276
+Average Clustering Coeﬀicient (C)
+0.2047
+Graph Diameter (dmax)
+13 hops
+Average Shortest Path Length (L)
+4.305 hops
+Largest Weakly Connected Component (WCC) 18,558 (92.8%)
+Largest Strongly Connected Component (SCC)
+2
+S11

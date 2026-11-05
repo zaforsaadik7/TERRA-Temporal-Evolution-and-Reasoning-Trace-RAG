@@ -1,0 +1,33 @@
+--- identified/main.tex
++++ anonymous/main.tex
+@@ -24,6 +24,9 @@
+     citecolor=blue,
+     pdftitle={Unifying Event Evolution Graphs and Generic Procedural Scaffolds via Semantic Entailment: A Dual-Phase Architecture for Judicial GraphRAG},
+     pdfpagemode=FullScreen,
++    pdfauthor={},
++    pdfsubject={},
++    pdfkeywords={},
+ }
+ 
+ \usepackage{graphicx} %Adding picture & figure
+@@ -88,9 +91,7 @@
+ \title{Unifying Event Evolution Graphs and Generic Procedural Scaffolds via Semantic Entailment: A Dual-Phase Architecture for Judicial GraphRAG}
+ 
+ %Authors
+-\author{\IEEEauthorblockN{Md. Emam Zafor Saadik and Md. Raihan Molla}
+-\IEEEauthorblockA{\textit{Department of Computer Science and Engineering}\\ 
+-\textit{Bangladesh University of Business and Technology (BUBT), Dhaka, Bangladesh}}}
++\author{}
+ 
+ \maketitle
+ 
+@@ -360,7 +361,7 @@
+ \subsection{Data and Code Availability}
+ \label{subsec:data-code-availability}
+ \label{subsec:reproducibility}
+-The project repository is identified as \texttt{https://github.com/zaforsaadik7/TERRA-Temporal-Evolution-and-Reasoning-Trace-RAG}. Public accessibility, license coverage and archival deposition of the complete current package are not certified here. The local reproducibility record contains or identifies: (1)~the 350-query benchmark (\texttt{terra\_350\_benchmark.json}, SHA256: \texttt{8144fa81...}) with gold categories, doctrine labels and reference answers; (2)~the 19 doctrine-invalidation pairs and 47 obscure overruled pairs; (3)~the 20,000-case EEG index (\texttt{terra\_eeg\_index\_20k.json}, SHA256: \texttt{\IssueTwentyThreeActiveCorpusHashShort}, \IssueTwentyThreeActiveEdges\ edges: \IssueTwentyThreeActiveCites\ \texttt{CITES}, \IssueTwentyThreeActiveOverrules\ \texttt{OVERRULES}) with all 20,000 generic procedural scaffolds, the construction pipeline (\texttt{scripts/ingest\_20k\_eeg\_and\_vector\_db.py}) and the edge list (\texttt{data/terra\_eeg\_edges\_145k.tsv}); (4)~execution and evaluation scripts (\texttt{ask\_terra.py}, \texttt{eval\_terra.py}); (5)~verbatim prompt templates and Pydantic schemas; (6)~frozen configurations (\texttt{configs/terra\_config.json}); (7)~the dual-judge evaluation records ($N=\numTotalEvals$, \texttt{data/terra\_canonical\_v2\_eval.json}, SHA256: \texttt{95e775e2...}) and the CaseFacts, CLERC, obscure-suite and NLI logs in \texttt{data/}; and (8)~historical table scripts (\texttt{Paper/scripts/generate\_stats.py}), with approved correction inputs and separate prospective-study analysis; that historical script alone does not reproduce the current paper. Raw corpora and vector stores are reconstructible via the ingestion pipeline. \textbf{Models:} generation and the NLI grader use \texttt{meta-llama/Llama-3.3-70B-Instruct} (\texttt{databricks-meta-llama-3-3-70b-instruct}, $T=0.0$, max tokens~4,096); the router uses Gemma 3 12B Instruction-tuned (\texttt{\RouterModel}, $T=0.0$, Pydantic validation); dense retrieval uses \texttt{sentence-transformers/all-MiniLM-L6-v2} (\TraceEmbeddingDimensions\ dimensions, ChromaDB PersistentClient with its $L_2$ index setting, top-$k=2$; the current domain helper uses a title match or $d_{L2}<1.3$ proximity); and judging uses the two judge models of Section~\ref{subsec:eval-metrics} under the frozen rubric. The historical environment was reported as Windows 11 Enterprise (16 cores, 64~GB RAM, ChromaDB v\TraceChromaVersion, NetworkX v\TraceNetworkXVersion, Python 3.11); backend GPU identity is not independently certified by the recorded serving identifiers. The prospective study has a separately frozen environment and protocol (Section~\ref{subsec:matched-comparison}).
++The author-identifying repository address is withheld from this review copy; a reviewer-access arrangement has not yet been established. Public accessibility, license coverage and archival deposition of the complete current package are not certified here. The local reproducibility record contains or identifies: (1)~the 350-query benchmark (\texttt{terra\_350\_benchmark.json}, SHA256: \texttt{8144fa81...}) with gold categories, doctrine labels and reference answers; (2)~the 19 doctrine-invalidation pairs and 47 obscure overruled pairs; (3)~the 20,000-case EEG index (\texttt{terra\_eeg\_index\_20k.json}, SHA256: \texttt{\IssueTwentyThreeActiveCorpusHashShort}, \IssueTwentyThreeActiveEdges\ edges: \IssueTwentyThreeActiveCites\ \texttt{CITES}, \IssueTwentyThreeActiveOverrules\ \texttt{OVERRULES}) with all 20,000 generic procedural scaffolds, the construction pipeline (\texttt{scripts/ingest\_20k\_eeg\_and\_vector\_db.py}) and the edge list (\texttt{data/terra\_eeg\_edges\_145k.tsv}); (4)~execution and evaluation scripts (\texttt{ask\_terra.py}, \texttt{eval\_terra.py}); (5)~verbatim prompt templates and Pydantic schemas; (6)~frozen configurations (\texttt{configs/terra\_config.json}); (7)~the dual-judge evaluation records ($N=\numTotalEvals$, \texttt{data/terra\_canonical\_v2\_eval.json}, SHA256: \texttt{95e775e2...}) and the CaseFacts, CLERC, obscure-suite and NLI logs in \texttt{data/}; and (8)~historical table scripts (\texttt{Paper/scripts/generate\_stats.py}), with approved correction inputs and separate prospective-study analysis; that historical script alone does not reproduce the current paper. Raw corpora and vector stores are reconstructible via the ingestion pipeline. \textbf{Models:} generation and the NLI grader use \texttt{meta-llama/Llama-3.3-70B-Instruct} (\texttt{databricks-meta-llama-3-3-70b-instruct}, $T=0.0$, max tokens~4,096); the router uses Gemma 3 12B Instruction-tuned (\texttt{\RouterModel}, $T=0.0$, Pydantic validation); dense retrieval uses \texttt{sentence-transformers/all-MiniLM-L6-v2} (\TraceEmbeddingDimensions\ dimensions, ChromaDB PersistentClient with its $L_2$ index setting, top-$k=2$; the current domain helper uses a title match or $d_{L2}<1.3$ proximity); and judging uses the two judge models of Section~\ref{subsec:eval-metrics} under the frozen rubric. The historical environment was reported as Windows 11 Enterprise (16 cores, 64~GB RAM, ChromaDB v\TraceChromaVersion, NetworkX v\TraceNetworkXVersion, Python 3.11); backend GPU identity is not independently certified by the recorded serving identifiers. The prospective study has a separately frozen environment and protocol (Section~\ref{subsec:matched-comparison}).
+ \section{Results and Analysis}
+ \label{sec:results-analysis}
+ 
+

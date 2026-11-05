@@ -1,0 +1,494 @@
+{
+  "objects": [
+    {
+      "document": "main",
+      "label": "fig:system_architecture",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "eq:trace_doc",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "eq:routing",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "eq:l2threshold",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "eq:bfs",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "eq:temperature",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:corpus_stats",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "fig:hub_centrality",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:ablation",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:cat_b_performance",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:overall_summary",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "fig:safety_rejection",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:power_analysis",
+      "source": "main.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:refusal_breakdown",
+      "source": "tables/table_refusal_breakdown.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:obscure_overruled_eval",
+      "source": "tables/table_obscure_overruled_eval.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:casefacts_eval",
+      "source": "tables/table_casefacts_eval.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:clerc_eval",
+      "source": "tables/table_clerc_eval.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:retrieval_eval",
+      "source": "tables/table_retrieval_eval.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:citation_eval",
+      "source": "tables/table_citation_eval.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "main",
+      "label": "tab:computational_budget",
+      "source": "tables/table_computational_budget.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:full_fdr_family",
+      "source": "supplement_tables/table_full_fdr_family.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:baseline_specifications",
+      "source": "supplement_tables/table_baseline_specifications.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:sensitivity_raw_vs_clamped",
+      "source": "supplement_tables/table_sensitivity_raw_vs_clamped.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:temporal-update-stability",
+      "source": "supplement_tables/table_temporal_update_stability.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:system_comparison",
+      "source": "supplement_tables/table_system_comparison.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:router_eval",
+      "source": "supplement_tables/table_router_eval.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:temporal_leakage_probe",
+      "source": "supplement_tables/table_temporal_leakage_probe.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:graph_metrics",
+      "source": "supplement_tables/table_graph_metrics.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:run_provenance",
+      "source": "supplement_tables/table_run_provenance.tex",
+      "placement_document_unchanged": true
+    },
+    {
+      "document": "TERRA_SUPPLEMENT",
+      "label": "tab:latency_percentiles",
+      "source": "supplement_tables/table_latency_percentiles.tex",
+      "placement_document_unchanged": true
+    }
+  ],
+  "printed_markers": [
+    {
+      "document": "main",
+      "page": 6,
+      "printed_marker": "Fig. 1"
+    },
+    {
+      "document": "main",
+      "page": 12,
+      "printed_marker": "Table 1:"
+    },
+    {
+      "document": "main",
+      "page": 13,
+      "printed_marker": "Fig. 2"
+    },
+    {
+      "document": "main",
+      "page": 20,
+      "printed_marker": "Table 2:"
+    },
+    {
+      "document": "main",
+      "page": 20,
+      "printed_marker": "Table 2 continued"
+    },
+    {
+      "document": "main",
+      "page": 21,
+      "printed_marker": "Table 3:"
+    },
+    {
+      "document": "main",
+      "page": 21,
+      "printed_marker": "Table 3 continued"
+    },
+    {
+      "document": "main",
+      "page": 23,
+      "printed_marker": "Table 4:"
+    },
+    {
+      "document": "main",
+      "page": 23,
+      "printed_marker": "Table 4 continued"
+    },
+    {
+      "document": "main",
+      "page": 24,
+      "printed_marker": "Table 4 continued"
+    },
+    {
+      "document": "main",
+      "page": 24,
+      "printed_marker": "Table 5:"
+    },
+    {
+      "document": "main",
+      "page": 25,
+      "printed_marker": "Table 5 continued"
+    },
+    {
+      "document": "main",
+      "page": 25,
+      "printed_marker": "Table 5 continued"
+    },
+    {
+      "document": "main",
+      "page": 25,
+      "printed_marker": "Table 5 continued"
+    },
+    {
+      "document": "main",
+      "page": 26,
+      "printed_marker": "Table 5 continued"
+    },
+    {
+      "document": "main",
+      "page": 27,
+      "printed_marker": "Fig. 3"
+    },
+    {
+      "document": "main",
+      "page": 29,
+      "printed_marker": "Table 6:"
+    },
+    {
+      "document": "main",
+      "page": 30,
+      "printed_marker": "Table 6 continued"
+    },
+    {
+      "document": "main",
+      "page": 30,
+      "printed_marker": "Table 6 continued"
+    },
+    {
+      "document": "main",
+      "page": 30,
+      "printed_marker": "Table 6 continued"
+    },
+    {
+      "document": "main",
+      "page": 34,
+      "printed_marker": "Table 7:"
+    },
+    {
+      "document": "main",
+      "page": 34,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 35,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 35,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 35,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 36,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 36,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 36,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 37,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 37,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 37,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 38,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 38,
+      "printed_marker": "Table 7 continued"
+    },
+    {
+      "document": "main",
+      "page": 41,
+      "printed_marker": "Table 8:"
+    },
+    {
+      "document": "main",
+      "page": 41,
+      "printed_marker": "Table 8 continued"
+    },
+    {
+      "document": "main",
+      "page": 42,
+      "printed_marker": "Table 8 continued"
+    },
+    {
+      "document": "main",
+      "page": 44,
+      "printed_marker": "Table 9:"
+    },
+    {
+      "document": "main",
+      "page": 44,
+      "printed_marker": "Table 9 continued"
+    },
+    {
+      "document": "main",
+      "page": 45,
+      "printed_marker": "Table 9 continued"
+    },
+    {
+      "document": "main",
+      "page": 47,
+      "printed_marker": "Table 10:"
+    },
+    {
+      "document": "main",
+      "page": 47,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 48,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 48,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 48,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 49,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 49,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 49,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 50,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 50,
+      "printed_marker": "Table 10 continued"
+    },
+    {
+      "document": "main",
+      "page": 52,
+      "printed_marker": "Table 11:"
+    },
+    {
+      "document": "main",
+      "page": 53,
+      "printed_marker": "Table 11 continued"
+    },
+    {
+      "document": "main",
+      "page": 53,
+      "printed_marker": "Table 11 continued"
+    },
+    {
+      "document": "main",
+      "page": 54,
+      "printed_marker": "Table 11 continued"
+    },
+    {
+      "document": "main",
+      "page": 56,
+      "printed_marker": "Table 12:"
+    },
+    {
+      "document": "main",
+      "page": 57,
+      "printed_marker": "Table 12 continued"
+    },
+    {
+      "document": "main",
+      "page": 57,
+      "printed_marker": "Table 12 continued"
+    },
+    {
+      "document": "main",
+      "page": 58,
+      "printed_marker": "Table 12 continued"
+    },
+    {
+      "document": "main",
+      "page": 58,
+      "printed_marker": "Table 12 continued"
+    },
+    {
+      "document": "main",
+      "page": 59,
+      "printed_marker": "Table 12 continued"
+    },
+    {
+      "document": "main",
+      "page": 59,
+      "printed_marker": "Table 12 continued"
+    },
+    {
+      "document": "main",
+      "page": 59,
+      "printed_marker": "Table 12 continued"
+    }
+  ],
+  "no_scientific_object_removed_merged_or_relocated_between_documents": true,
+  "table_layout": "11 transposed logical objects, one wrapped corpus table; continuation headings repeat entities, table number stable, unique real anchors per continued part",
+  "review_status": "candidate only; page contract and external peer review remain open"
+}

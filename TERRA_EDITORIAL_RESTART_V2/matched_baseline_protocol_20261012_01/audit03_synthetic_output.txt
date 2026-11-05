@@ -1,0 +1,10 @@
+.................
+----------------------------------------------------------------------
+Ran 17 tests in 0.019s
+
+OK
+SPEND_OVERSHOOT 1.1 CAP 1
+BRANCH_16_DEEP_PRESENT True IDS ['s', '0', '1', '10', '11', '12', '13', '14', '15', '2', '3', '4', '5', '6', '7', '8', '9', 'deep']
+
+BRANCH_16_LAST_CHILD_DEEP_PRESENT False IDS ['s', '0', '1', '10', '11', '12', '13', '14', '15', '2', '3', '4', '5', '6', '7', '8', '9']
+JUDGE_TRANSPORT_ESCAPED [('VERIFIER', 'COMPLETED'), ('GENERATOR', 'COMPLETED'), ('JUDGE1', 'RESERVED')]

@@ -1,54 +1,62 @@
 # ==============================================================================
-# TERRA: Code-Only Repository
+# TERRA: Peer Review & Reproducibility Repository
 # .gitignore
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# Removed Content: Paper, Datasets, Documents, JSON & Results
+# 1. Secrets & Credentials (NEVER COMMIT)
 # ------------------------------------------------------------------------------
-Paper/
-data/
-dataset_10k_cap/
-dataset_20k_cap/
-legacy_dataset_backup*/
-docs/
-Review/
-CANONICAL_ARCHIVE/
-canonical_v2_reproducibility_bundle/
-issue18_bundle/
-COMPRESSION_WORKSPACE/
-round42_audit_tmp/
-New folder/
-.codex/
-logs/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+*.secret
+*.p8
+*.p12
+*id_rsa*
+
+# ------------------------------------------------------------------------------
+# 2. Dependencies, Virtual Environments & Native Binaries
+# ------------------------------------------------------------------------------
+node_modules/
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+*.node
+*.wasm
+*.pyd
+.pytest_cache/
+.cache/
+build/
+dist/
+*.egg-info/
+
+# ------------------------------------------------------------------------------
+# 3. Temporary, Scratch & Intermediate Workspaces
+# ------------------------------------------------------------------------------
+tmp/
 scratch/
 scratch_*
-configs/
+*.tmp
+*.swp
+*.part
+.system_generated/
+round42_audit_tmp/
+COMPRESSION_WORKSPACE/
+New folder/
+.codex/
 
-# Ignore all markdown, json, dataset, doc and diagram files
-*.md
-*.json
-*.jsonl
-*.tsv
-*.csv
-*.tex
-*.bib
-*.pdf
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.mmd
-
-# Ignore all archives
-*.zip
-*.tar.gz
-*.tgz
-*.rar
-*.7z
-
-# Ignore backups & logs
+# ------------------------------------------------------------------------------
+# 4. Backups & Historical Conversation Dumps with Raw Inputs
+# ------------------------------------------------------------------------------
 *backup*
 *_backup.*
 *_backup_*.*
@@ -57,36 +65,10 @@ configs/
 *.old
 *.orig
 *~
-*.tmp
-*.log
-*.log.*
 
 # ------------------------------------------------------------------------------
-# Python & Environment
+# 5. Vector DBs, SQLite Stores & Binary Cache
 # ------------------------------------------------------------------------------
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
-*.egg-info/
-venv/
-.venv/
-env/
-ENV/
-
-# Secrets
-.env
-.env.*
-!.env.example
-*.key
-*.pem
-*.token
-*.secret
-
-# Vector DBs & binary cache
 chroma_db/
 terra_vector_db/
 *vector_db*/
@@ -98,7 +80,24 @@ frozen/
 *.pkl
 baselines/cache/
 
-# LaTeX build artifacts
+# ------------------------------------------------------------------------------
+# 6. Multi-Gigabyte Raw Corpora & Massive LLM Generation Dumps (>50MB/100MB)
+# (GitHub strictly rejects any file >100MB; core benchmarks in data/ are retained)
+# ------------------------------------------------------------------------------
+dataset_10k_cap/
+dataset_20k_cap/
+legacy_dataset_backup*/
+terra_*raw*.json
+terra_*generations*.json
+terra_expanded_*.json
+terra_true_ablation_*.json
+terra_baselines_eval_raw*.json
+data/issue26_hyperparameter_sensitivity.json
+reports/**/events.jsonl
+
+# ------------------------------------------------------------------------------
+# 7. LaTeX Build Artifacts (Keep .tex, .bib, and .pdf; ignore auxiliary builds)
+# ------------------------------------------------------------------------------
 *.aux
 *.bbl
 *.blg
@@ -108,7 +107,16 @@ baselines/cache/
 *.synctex.gz
 *.toc
 
-# IDE & OS
+# ------------------------------------------------------------------------------
+# 8. Runtime Logs
+# ------------------------------------------------------------------------------
+logs/
+*.log
+*.log.*
+
+# ------------------------------------------------------------------------------
+# 9. IDE & Operating System Metadata
+# ------------------------------------------------------------------------------
 .vscode/
 .idea/
 .DS_Store

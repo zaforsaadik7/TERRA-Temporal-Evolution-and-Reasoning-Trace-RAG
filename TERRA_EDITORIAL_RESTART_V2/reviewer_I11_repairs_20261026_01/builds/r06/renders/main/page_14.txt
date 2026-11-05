@@ -1,0 +1,116 @@
+10−15; Holm p = 5.68×10−14) and had the highest audited
+refusal rate (Flat 50.7%, b = 21, c = 11, p = 0.1102;
+HippoRAG 45.3%, b = 22, c = 8, p = 0.0161; GraphRAG
+42.7%, b = 26, c = 10, p = 0.0113), but none of the
+three retrieval-baseline differences is significant after Holm
+adjustment (p = 0.3306, 0.0967, 0.0793). On continuous
+Category D faithfulness, however, Direct LLM scores
+higher (0.850 vs. 0.650; paired Wilcoxon ∆= −0.200,
+p = 3.81 × 10−5, FDR q = 1.27 × 10−4), plausibly
+because famous overrulings are heavily represented in
+pretraining corpora, and its discrete safe handling (71/75
+ungrounded refutations, no refusals) differs in kind from
+TERRA’s. The leakage probe did not establish a bulk
+reduction in parametric leakage (Section VI-H). Fatal
+constraint violations occurred on only 2/75(2.7%), with
+0/75(0.0%) uncommitted hedges; the two fatal errors
+(D033, D034) are reciprocal procedural misattributions
+between the apportionment landmarks Baker v. Carr
+[1962] and Reynolds v. Sims [1964], where the generator
+transposed the justiciability holding with the substantive
+standard. Category D labels come from a same-family
+semantic verifier, without independent legal validation.
+Out-of-context safety (Category C). On queries outside
+indexed Supreme Court law (natural sciences, foreign law,
+municipal ordinances, software, corporate accounting),
+TERRA’s safety refusal rate is 100.0% (75/75(100.0%)),
+tying GraphRAG (75/75(100.0%)) and exceeding Flat
+RAG (74/75(98.7%)) and Direct LLM (0/75(0.0%)).
+E. Standalone
+Traﬀic
+Cop
+Classifier
+Evaluation
+and
+Defense-in-Depth
+The ablation (Table II) shows the system-level value of
+routing (Ablation 3 in the pilot: a 4.90× latency penalty
+and 20.0% false refusals on factual lookups) but leaves the
+router’s intrinsic classification quality unquantified, so we
+evaluate it as a standalone binary intent classifier over all
+N = 350 queries. All runs used T = 0.0, Google Gemma 3
+12B Instruction-tuned (databricks-gemma-3-12b) via the
+Databricks Model Serving API under strict schema valida-
+tion (RoutingDecision), with zero fallback contamination
+(0/350); the specification, prompt and Pydantic schema
+are in docs/ROUTER_SPECIFICATION.md.
+1) Intent Classification Performance and Category D
+Misroutes: Overall accuracy is 97.14% (340/350) with
+macro-F1 96.60% (macro precision 95.45%, macro recall
+98.00%). On the factual class (Gold EASY, Category A)
+F1 is 95.24% with perfect recall (100.00%, 100/100);
+on complex inquiries (Gold HARD, Categories B–D) it
+is 97.96% with 100.00% precision (240/240). The False-
+HARD rate on factual queries is 0.00% (0/100), and
+the False-EASY rate over complex queries is 4.00%
+(10/250), with none on Category B (0/100) or Cate-
+gory C (0/75). In isolation the router has a median
+latency of 1, 126.4 ms (mean 1, 565.5 ms, p90 2, 043.8 ms,
+range 601.9–15, 370.2 ms, the maximum an un-cached cold
+start).
+All 10 misroutes are Category D queries (13.33%,
+10/75): D021, D039, D060, D062, D068, D069, D070,
+D072, D073, D074. Each is a single-sentence constitutional
+inquiry about one landmark (e.g., D021: “Did the Supreme
+Court in Mapp v. Ohio establish that police custodial in-
+terrogations must be preceded by four-point constitutional
+rights warnings?”) with no explicit multi-hop connector,
+so the router classifies it by surface simplicity. In the
+canonical run the fast route still recorded retrieval and
+NLI grading on all 110 queries it handled, so generations
+were conditioned on retrieved context, and all ten were
+handled safely under dual judging (100.0%, 10/10): 8 were
+refused deterministically because the grader did not pass
+the context (D021, D039, D060, D062, D069, D072, D073,
+D074), and 2 (D068, Lottery Case; D070, oleomargarine
+tax) were unflagged textual refusals citing insuﬀicient
+context, scored 1.000, with zero fatal violations. This is
+consistent with downstream checks limiting the cost of a
+misroute, but with ten queries and judge-based scoring it is
+a small-sample observation, not evidence that downstream
+mechanisms reliably prevent hallucination.
+F. Stage Latency Breakdown and Fast-Path Routing Ef-
+ficiency
+Because mean latency in multi-hop systems is skewed by
+extreme outliers, we report medians and 95th percentiles.
+Route-stratified, TERRA’s fast route (N = 110) has a
+median of 5.46 s and its hard route (N = 240) 14.07 s;
+overall, the median is 9.19 s gross (7.74 s net of retry
+sleeps) and the 95th percentile 45.84 s (38.73 s net).
+Baseline medians are 4.86 s (Direct), 2.95 s (Flat), 2.86 s
+(GraphRAG) and 2.70 s (HippoRAG); TERRA is there-
+fore slower than every baseline. TERRA ran with four
+concurrent workers on a shared serving endpoint and
+36/350 of its queries hit HTTP 429 back-off (620 s in
+total); the baselines ran sequentially with no throttling,
+so latencies are not from a like-for-like harness.
+G. Statistical Significance and Multiple Testing Control
+To evaluate statistical significance, we execute paired
+Wilcoxon signed-rank tests (α = 0.05) and report paired
+Cohen’s dz effect sizes, bootstrap 95% confidence intervals,
+raw p-values, FDR q-values, and exact paired outcome
+counts (n+/n0/n−). Following [28], retrospective post-
+hoc power is omitted as an uninformative monotonic
+transformation of p-values; statistical power is charac-
+terized prospectively for future study design via paired-
+mean MDES approximations (dz = 0.283 at N = 100,
+dz = 0.200 at N = 200, 1 −β = 0.80), while discrete
+refusal is evaluated via exact Fisher and McNemar tests.
+Table VI reports paired evaluations across Category B and
+combined in-domain queries.
+Under Benjamini-Hochberg FDR correction (the pre-
+specified M = 20 family; the full list is in the supplemen-
+tary material), TERRA’s Category B gains over Flat Vec-
+tor RAG, GraphRAG-Adapted and HippoRAG-Adapted
+remain significant (see Table VI for ∆, dz, p and q), as does
+the Category C refusal advantage over Direct LLM (75/75

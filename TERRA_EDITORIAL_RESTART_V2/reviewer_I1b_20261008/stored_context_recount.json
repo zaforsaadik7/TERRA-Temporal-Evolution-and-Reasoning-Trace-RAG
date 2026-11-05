@@ -1,0 +1,2298 @@
+{
+  "totals": {
+    "legacy": {
+      "full_count": 62,
+      "gold_hits": 295,
+      "macro_pct": 86.08333333333333,
+      "stratum_full_hits": {
+        "3": 37,
+        "4": 20,
+        "5": 5
+      }
+    },
+    "canonical": {
+      "full_count": 66,
+      "gold_hits": 302,
+      "macro_pct": 88.91666666666667,
+      "stratum_full_hits": {
+        "3": 49,
+        "4": 16,
+        "5": 1
+      }
+    }
+  },
+  "parity_saved_issue26_vs_stored_contexts": {
+    "legacy_gold": 100,
+    "legacy_full_node_sets": 100,
+    "legacy_traversal_sets": 100,
+    "canonical_gold": 64,
+    "canonical_full_node_sets": 0
+  },
+  "gained_full_ids": [
+    "B036",
+    "B044",
+    "B046",
+    "B051",
+    "B053",
+    "B056",
+    "B058",
+    "B067",
+    "B071",
+    "B074",
+    "B078",
+    "B094",
+    "B100"
+  ],
+  "lost_full_ids": [
+    "B001",
+    "B021",
+    "B027",
+    "B041",
+    "B061",
+    "B081",
+    "B082",
+    "B083",
+    "B087"
+  ],
+  "ledger": [
+    {
+      "query_id": "B001",
+      "targets": [
+        "88_0162-01",
+        "307_0496-01",
+        "331_0549-01",
+        "339_0629-01",
+        "347_0483-01"
+      ],
+      "legacy_found": [
+        "307_0496-01",
+        "331_0549-01",
+        "339_0629-01",
+        "347_0483-01",
+        "88_0162-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2795113,
+      "canonical_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "88_0162-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 42734
+    },
+    {
+      "query_id": "B002",
+      "targets": [
+        "88_0162-01",
+        "278_0063-01",
+        "331_0549-01",
+        "339_0629-01"
+      ],
+      "legacy_found": [
+        "278_0063-01",
+        "331_0549-01",
+        "339_0629-01",
+        "88_0162-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1402063,
+      "canonical_found": [
+        "278_0063-01",
+        "331_0549-01",
+        "339_0629-01",
+        "88_0162-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40149
+    },
+    {
+      "query_id": "B003",
+      "targets": [
+        "334_0001-01",
+        "339_0629-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_found": [
+        "334_0001-01",
+        "339_0629-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2008044,
+      "canonical_found": [
+        "334_0001-01",
+        "339_0629-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40203
+    },
+    {
+      "query_id": "B004",
+      "targets": [
+        "245_0060-01",
+        "358_0001-01",
+        "377_0350-01",
+        "402_0001-01"
+      ],
+      "legacy_found": [
+        "245_0060-01",
+        "358_0001-01",
+        "377_0350-01",
+        "402_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 3220118,
+      "canonical_found": [
+        "245_0060-01",
+        "358_0001-01",
+        "377_0350-01",
+        "402_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40659
+    },
+    {
+      "query_id": "B005",
+      "targets": [
+        "83_0036-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_found": [
+        "347_0483-01",
+        "402_0001-01",
+        "83_0036-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 4437513,
+      "canonical_found": [
+        "347_0483-01",
+        "402_0001-01",
+        "83_0036-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 49422
+    },
+    {
+      "query_id": "B006",
+      "targets": [
+        "83_0036-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "legacy_found": [
+        "347_0483-01",
+        "391_0430-01",
+        "83_0036-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 3793838,
+      "canonical_found": [
+        "347_0483-01",
+        "391_0430-01",
+        "83_0036-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 48907
+    },
+    {
+      "query_id": "B007",
+      "targets": [
+        "358_0001-01",
+        "377_0350-01",
+        "402_0001-01"
+      ],
+      "legacy_found": [
+        "358_0001-01",
+        "377_0350-01",
+        "402_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 3231818,
+      "canonical_found": [
+        "358_0001-01",
+        "377_0350-01",
+        "402_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40157
+    },
+    {
+      "query_id": "B008",
+      "targets": [
+        "358_0001-01",
+        "365_0715-01",
+        "388_0001-01"
+      ],
+      "legacy_found": [
+        "358_0001-01",
+        "365_0715-01",
+        "388_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2064081,
+      "canonical_found": [
+        "358_0001-01",
+        "365_0715-01",
+        "388_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39610
+    },
+    {
+      "query_id": "B009",
+      "targets": [
+        "339_0637-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2167903,
+      "canonical_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40348
+    },
+    {
+      "query_id": "B010",
+      "targets": [
+        "339_0637-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "legacy_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1466999,
+      "canonical_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40011
+    },
+    {
+      "query_id": "B011",
+      "targets": [
+        "339_0637-01",
+        "347_0483-01",
+        "388_0001-01"
+      ],
+      "legacy_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "388_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 276245,
+      "canonical_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "388_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40103
+    },
+    {
+      "query_id": "B012",
+      "targets": [
+        "339_0637-01",
+        "347_0483-01",
+        "358_0001-01"
+      ],
+      "legacy_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "358_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2130791,
+      "canonical_found": [
+        "339_0637-01",
+        "347_0483-01",
+        "358_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40070
+    },
+    {
+      "query_id": "B013",
+      "targets": [
+        "339_0629-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2176026,
+      "canonical_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40369
+    },
+    {
+      "query_id": "B014",
+      "targets": [
+        "339_0629-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "legacy_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1459754,
+      "canonical_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39796
+    },
+    {
+      "query_id": "B015",
+      "targets": [
+        "339_0629-01",
+        "347_0483-01",
+        "388_0001-01"
+      ],
+      "legacy_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "388_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 298101,
+      "canonical_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "388_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39706
+    },
+    {
+      "query_id": "B016",
+      "targets": [
+        "339_0629-01",
+        "347_0483-01",
+        "358_0001-01"
+      ],
+      "legacy_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "358_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2125063,
+      "canonical_found": [
+        "339_0629-01",
+        "347_0483-01",
+        "358_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39819
+    },
+    {
+      "query_id": "B017",
+      "targets": [
+        "334_0001-01",
+        "358_0001-01",
+        "391_0430-01"
+      ],
+      "legacy_found": [
+        "334_0001-01",
+        "358_0001-01",
+        "391_0430-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1360178,
+      "canonical_found": [
+        "334_0001-01",
+        "358_0001-01",
+        "391_0430-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40022
+    },
+    {
+      "query_id": "B018",
+      "targets": [
+        "334_0001-01",
+        "339_0629-01",
+        "347_0483-01"
+      ],
+      "legacy_found": [
+        "334_0001-01",
+        "339_0629-01",
+        "347_0483-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1748454,
+      "canonical_found": [
+        "334_0001-01",
+        "339_0629-01",
+        "347_0483-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42731
+    },
+    {
+      "query_id": "B019",
+      "targets": [
+        "305_0337-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_found": [
+        "305_0337-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2622532,
+      "canonical_found": [
+        "305_0337-01",
+        "347_0483-01",
+        "402_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40119
+    },
+    {
+      "query_id": "B020",
+      "targets": [
+        "305_0337-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "legacy_found": [
+        "305_0337-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1942007,
+      "canonical_found": [
+        "305_0337-01",
+        "347_0483-01",
+        "391_0430-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39874
+    },
+    {
+      "query_id": "B021",
+      "targets": [
+        "378_0478-01",
+        "385_0293-01",
+        "389_0347-01",
+        "392_0001-01"
+      ],
+      "legacy_found": [
+        "378_0478-01",
+        "385_0293-01",
+        "389_0347-01",
+        "392_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1411143,
+      "canonical_found": [
+        "378_0478-01",
+        "389_0347-01",
+        "392_0001-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39933
+    },
+    {
+      "query_id": "B022",
+      "targets": [
+        "372_0335-01",
+        "381_0479-01",
+        "387_0294-01",
+        "392_0001-01"
+      ],
+      "legacy_found": [
+        "372_0335-01",
+        "392_0001-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10356,
+      "canonical_found": [
+        "372_0335-01",
+        "392_0001-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39879
+    },
+    {
+      "query_id": "B023",
+      "targets": [
+        "316_0455-01",
+        "322_0487-01",
+        "364_0206-01",
+        "392_0001-01"
+      ],
+      "legacy_found": [
+        "316_0455-01",
+        "392_0001-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10331,
+      "canonical_found": [
+        "316_0455-01",
+        "322_0487-01",
+        "392_0001-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39923
+    },
+    {
+      "query_id": "B024",
+      "targets": [
+        "304_0458-01",
+        "316_0101-01",
+        "367_0643-01",
+        "392_0001-01"
+      ],
+      "legacy_found": [
+        "304_0458-01",
+        "392_0001-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10344,
+      "canonical_found": [
+        "304_0458-01",
+        "367_0643-01",
+        "392_0001-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39954
+    },
+    {
+      "query_id": "B025",
+      "targets": [
+        "304_0458-01",
+        "340_0367-01",
+        "359_0041-01",
+        "389_0347-01"
+      ],
+      "legacy_found": [
+        "304_0458-01",
+        "389_0347-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10376,
+      "canonical_found": [
+        "304_0458-01",
+        "359_0041-01",
+        "389_0347-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39854
+    },
+    {
+      "query_id": "B026",
+      "targets": [
+        "304_0458-01",
+        "316_0455-01",
+        "332_0046-01",
+        "338_0025-01"
+      ],
+      "legacy_found": [
+        "304_0458-01",
+        "332_0046-01",
+        "338_0025-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10356,
+      "canonical_found": [
+        "304_0458-01",
+        "316_0455-01",
+        "338_0025-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39813
+    },
+    {
+      "query_id": "B027",
+      "targets": [
+        "277_0438-01",
+        "324_0401-01",
+        "332_0596-01",
+        "378_0478-01"
+      ],
+      "legacy_found": [
+        "277_0438-01",
+        "324_0401-01",
+        "332_0596-01",
+        "378_0478-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1411191,
+      "canonical_found": [
+        "277_0438-01",
+        "324_0401-01",
+        "378_0478-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39880
+    },
+    {
+      "query_id": "B028",
+      "targets": [
+        "255_0298-01",
+        "266_0001-01",
+        "316_0547-01",
+        "378_0478-01"
+      ],
+      "legacy_found": [
+        "255_0298-01",
+        "266_0001-01",
+        "316_0547-01",
+        "378_0478-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1407995,
+      "canonical_found": [
+        "255_0298-01",
+        "266_0001-01",
+        "316_0547-01",
+        "378_0478-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39883
+    },
+    {
+      "query_id": "B029",
+      "targets": [
+        "255_0298-01",
+        "266_0001-01",
+        "314_0219-01",
+        "316_0455-01"
+      ],
+      "legacy_found": [
+        "255_0298-01",
+        "316_0455-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10371,
+      "canonical_found": [
+        "255_0298-01",
+        "266_0001-01",
+        "316_0455-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39658
+    },
+    {
+      "query_id": "B030",
+      "targets": [
+        "232_0383-01",
+        "266_0001-01",
+        "314_0219-01",
+        "316_0455-01"
+      ],
+      "legacy_found": [
+        "232_0383-01",
+        "316_0455-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 481507,
+      "canonical_found": [
+        "232_0383-01",
+        "316_0455-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 43133
+    },
+    {
+      "query_id": "B031",
+      "targets": [
+        "199_0372-01",
+        "322_0487-01",
+        "364_0206-01",
+        "392_0001-01"
+      ],
+      "legacy_found": [
+        "199_0372-01",
+        "322_0487-01",
+        "392_0001-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 473080,
+      "canonical_found": [
+        "199_0372-01",
+        "364_0206-01",
+        "392_0001-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40505
+    },
+    {
+      "query_id": "B032",
+      "targets": [
+        "199_0372-01",
+        "284_0141-01",
+        "364_0507-01",
+        "389_0347-01"
+      ],
+      "legacy_found": [
+        "199_0372-01",
+        "284_0141-01",
+        "364_0507-01",
+        "389_0347-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 473112,
+      "canonical_found": [
+        "199_0372-01",
+        "284_0141-01",
+        "364_0507-01",
+        "389_0347-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40405
+    },
+    {
+      "query_id": "B033",
+      "targets": [
+        "199_0372-01",
+        "357_0371-01",
+        "378_0001-01",
+        "378_0478-01"
+      ],
+      "legacy_found": [
+        "199_0372-01",
+        "357_0371-01",
+        "378_0001-01",
+        "378_0478-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1802609,
+      "canonical_found": [
+        "199_0372-01",
+        "357_0371-01",
+        "378_0001-01",
+        "378_0478-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40375
+    },
+    {
+      "query_id": "B034",
+      "targets": [
+        "199_0372-01",
+        "322_0487-01",
+        "364_0206-01",
+        "372_0335-01"
+      ],
+      "legacy_found": [
+        "199_0372-01",
+        "322_0487-01",
+        "372_0335-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 473109,
+      "canonical_found": [
+        "364_0206-01",
+        "372_0335-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40262
+    },
+    {
+      "query_id": "B035",
+      "targets": [
+        "199_0372-01",
+        "322_0487-01",
+        "332_0046-01",
+        "338_0025-01"
+      ],
+      "legacy_found": [
+        "199_0372-01",
+        "322_0487-01",
+        "332_0046-01",
+        "338_0025-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 473092,
+      "canonical_found": [
+        "199_0372-01",
+        "322_0487-01",
+        "332_0046-01",
+        "338_0025-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40526
+    },
+    {
+      "query_id": "B036",
+      "targets": [
+        "384_0436-01",
+        "385_0293-01",
+        "389_0347-01"
+      ],
+      "legacy_found": [
+        "384_0436-01",
+        "389_0347-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10379,
+      "canonical_found": [
+        "384_0436-01",
+        "385_0293-01",
+        "389_0347-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39951
+    },
+    {
+      "query_id": "B037",
+      "targets": [
+        "378_0478-01",
+        "385_0293-01",
+        "389_0347-01"
+      ],
+      "legacy_found": [
+        "378_0478-01",
+        "385_0293-01",
+        "389_0347-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1407989,
+      "canonical_found": [
+        "378_0478-01",
+        "385_0293-01",
+        "389_0347-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40156
+    },
+    {
+      "query_id": "B038",
+      "targets": [
+        "367_0643-01",
+        "372_0335-01",
+        "378_0478-01"
+      ],
+      "legacy_found": [
+        "367_0643-01",
+        "372_0335-01",
+        "378_0478-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1407961,
+      "canonical_found": [
+        "367_0643-01",
+        "372_0335-01",
+        "378_0478-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40118
+    },
+    {
+      "query_id": "B039",
+      "targets": [
+        "338_0025-01",
+        "372_0335-01",
+        "378_0478-01"
+      ],
+      "legacy_found": [
+        "338_0025-01",
+        "372_0335-01",
+        "378_0478-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1407974,
+      "canonical_found": [
+        "338_0025-01",
+        "372_0335-01",
+        "378_0478-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40153
+    },
+    {
+      "query_id": "B040",
+      "targets": [
+        "316_0455-01",
+        "357_0433-01",
+        "378_0478-01"
+      ],
+      "legacy_found": [
+        "316_0455-01",
+        "357_0433-01",
+        "378_0478-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1407968,
+      "canonical_found": [
+        "316_0455-01",
+        "357_0433-01",
+        "378_0478-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39832
+    },
+    {
+      "query_id": "B041",
+      "targets": [
+        "249_0211-01",
+        "254_0325-01",
+        "293_0245-01",
+        "319_0624-01"
+      ],
+      "legacy_found": [
+        "249_0211-01",
+        "254_0325-01",
+        "293_0245-01",
+        "319_0624-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 469839,
+      "canonical_found": [
+        "249_0211-01",
+        "254_0325-01",
+        "319_0624-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40810
+    },
+    {
+      "query_id": "B042",
+      "targets": [
+        "376_0254-01",
+        "385_0116-01",
+        "395_0444-01"
+      ],
+      "legacy_found": [
+        "376_0254-01",
+        "395_0444-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10420,
+      "canonical_found": [
+        "376_0254-01",
+        "395_0444-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39828
+    },
+    {
+      "query_id": "B043",
+      "targets": [
+        "357_0449-01",
+        "385_0039-01",
+        "403_0015-01"
+      ],
+      "legacy_found": [
+        "357_0449-01",
+        "385_0039-01",
+        "403_0015-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1464470,
+      "canonical_found": [
+        "357_0449-01",
+        "385_0039-01",
+        "403_0015-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42925
+    },
+    {
+      "query_id": "B044",
+      "targets": [
+        "354_0476-01",
+        "390_0629-01",
+        "393_0503-01"
+      ],
+      "legacy_found": [
+        "354_0476-01",
+        "393_0503-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 15581,
+      "canonical_found": [
+        "354_0476-01",
+        "390_0629-01",
+        "393_0503-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42842
+    },
+    {
+      "query_id": "B045",
+      "targets": [
+        "343_0250-01",
+        "354_0476-01",
+        "403_0015-01"
+      ],
+      "legacy_found": [
+        "343_0250-01",
+        "354_0476-01",
+        "403_0015-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1353015,
+      "canonical_found": [
+        "343_0250-01",
+        "354_0476-01",
+        "403_0015-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39711
+    },
+    {
+      "query_id": "B046",
+      "targets": [
+        "343_0250-01",
+        "390_0629-01",
+        "393_0503-01"
+      ],
+      "legacy_found": [
+        "343_0250-01",
+        "393_0503-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 15588,
+      "canonical_found": [
+        "343_0250-01",
+        "390_0629-01",
+        "393_0503-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42375
+    },
+    {
+      "query_id": "B047",
+      "targets": [
+        "341_0494-01",
+        "354_0298-01",
+        "403_0015-01"
+      ],
+      "legacy_found": [
+        "341_0494-01",
+        "354_0298-01",
+        "403_0015-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 3656697,
+      "canonical_found": [
+        "341_0494-01",
+        "354_0298-01",
+        "403_0015-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 45532
+    },
+    {
+      "query_id": "B048",
+      "targets": [
+        "341_0494-01",
+        "342_0165-01",
+        "393_0503-01"
+      ],
+      "legacy_found": [
+        "341_0494-01",
+        "342_0165-01",
+        "393_0503-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2421017,
+      "canonical_found": [
+        "341_0494-01",
+        "342_0165-01",
+        "393_0503-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 48424
+    },
+    {
+      "query_id": "B049",
+      "targets": [
+        "319_0624-01",
+        "322_0078-01",
+        "376_0254-01"
+      ],
+      "legacy_found": [
+        "319_0624-01",
+        "322_0078-01",
+        "376_0254-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 10543,
+      "canonical_found": [
+        "319_0624-01",
+        "322_0078-01",
+        "376_0254-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39846
+    },
+    {
+      "query_id": "B050",
+      "targets": [
+        "319_0105-01",
+        "340_0315-01",
+        "403_0015-01"
+      ],
+      "legacy_found": [
+        "319_0105-01",
+        "340_0315-01",
+        "403_0015-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1353015,
+      "canonical_found": [
+        "319_0105-01",
+        "340_0315-01",
+        "403_0015-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39701
+    },
+    {
+      "query_id": "B051",
+      "targets": [
+        "319_0105-01",
+        "340_0315-01",
+        "395_0444-01"
+      ],
+      "legacy_found": [
+        "319_0105-01",
+        "395_0444-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10391,
+      "canonical_found": [
+        "319_0105-01",
+        "340_0315-01",
+        "395_0444-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40215
+    },
+    {
+      "query_id": "B052",
+      "targets": [
+        "315_0568-01",
+        "319_0105-01",
+        "357_0449-01"
+      ],
+      "legacy_found": [
+        "315_0568-01",
+        "319_0105-01",
+        "357_0449-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 192744,
+      "canonical_found": [
+        "315_0568-01",
+        "319_0105-01",
+        "357_0449-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42965
+    },
+    {
+      "query_id": "B053",
+      "targets": [
+        "315_0568-01",
+        "316_0584-01",
+        "319_0624-01"
+      ],
+      "legacy_found": [
+        "315_0568-01",
+        "319_0624-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10530,
+      "canonical_found": [
+        "315_0568-01",
+        "316_0584-01",
+        "319_0624-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39805
+    },
+    {
+      "query_id": "B054",
+      "targets": [
+        "310_0586-01",
+        "341_0494-01",
+        "354_0298-01"
+      ],
+      "legacy_found": [
+        "310_0586-01",
+        "341_0494-01",
+        "354_0298-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2198864,
+      "canonical_found": [
+        "310_0586-01",
+        "341_0494-01",
+        "354_0298-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 45280
+    },
+    {
+      "query_id": "B055",
+      "targets": [
+        "310_0586-01",
+        "316_0584-01",
+        "319_0105-01"
+      ],
+      "legacy_found": [
+        "310_0586-01",
+        "316_0584-01",
+        "319_0105-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1394768,
+      "canonical_found": [
+        "310_0586-01",
+        "316_0584-01",
+        "319_0105-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39635
+    },
+    {
+      "query_id": "B056",
+      "targets": [
+        "310_0296-01",
+        "314_0252-01",
+        "395_0444-01"
+      ],
+      "legacy_found": [
+        "310_0296-01",
+        "395_0444-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10392,
+      "canonical_found": [
+        "310_0296-01",
+        "314_0252-01",
+        "395_0444-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39796
+    },
+    {
+      "query_id": "B057",
+      "targets": [
+        "310_0296-01",
+        "312_0569-01",
+        "354_0476-01"
+      ],
+      "legacy_found": [
+        "310_0296-01",
+        "354_0476-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10401,
+      "canonical_found": [
+        "310_0296-01",
+        "354_0476-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40183
+    },
+    {
+      "query_id": "B058",
+      "targets": [
+        "310_0296-01",
+        "316_0584-01",
+        "319_0624-01"
+      ],
+      "legacy_found": [
+        "310_0296-01",
+        "319_0624-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10515,
+      "canonical_found": [
+        "310_0296-01",
+        "316_0584-01",
+        "319_0624-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39838
+    },
+    {
+      "query_id": "B059",
+      "targets": [
+        "299_0353-01",
+        "310_0088-01",
+        "393_0503-01"
+      ],
+      "legacy_found": [
+        "299_0353-01",
+        "310_0088-01",
+        "393_0503-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 15568,
+      "canonical_found": [
+        "299_0353-01",
+        "310_0088-01",
+        "393_0503-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42710
+    },
+    {
+      "query_id": "B060",
+      "targets": [
+        "299_0353-01",
+        "310_0088-01",
+        "354_0476-01"
+      ],
+      "legacy_found": [
+        "299_0353-01",
+        "354_0476-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10380,
+      "canonical_found": [
+        "299_0353-01",
+        "354_0476-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40167
+    },
+    {
+      "query_id": "B061",
+      "targets": [
+        "76_0579-01",
+        "117_0151-01",
+        "135_0641-01",
+        "166_0290-01"
+      ],
+      "legacy_found": [
+        "117_0151-01",
+        "135_0641-01",
+        "166_0290-01",
+        "76_0579-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1296360,
+      "canonical_found": [
+        "135_0641-01",
+        "166_0290-01",
+        "76_0579-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40384
+    },
+    {
+      "query_id": "B062",
+      "targets": [
+        "166_0290-01",
+        "188_0321-01",
+        "207_0463-01",
+        "234_0342-01"
+      ],
+      "legacy_found": [
+        "166_0290-01",
+        "234_0342-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 106822,
+      "canonical_found": [
+        "166_0290-01",
+        "188_0321-01",
+        "234_0342-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 43929
+    },
+    {
+      "query_id": "B063",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "317_0111-01"
+      ],
+      "legacy_found": [
+        "317_0111-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10358,
+      "canonical_found": [
+        "317_0111-01",
+        "94_0113-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39748
+    },
+    {
+      "query_id": "B064",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "312_0100-01"
+      ],
+      "legacy_found": [
+        "312_0100-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 264166,
+      "canonical_found": [
+        "312_0100-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 42890
+    },
+    {
+      "query_id": "B065",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "301_0001-01"
+      ],
+      "legacy_found": [
+        "301_0001-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 515089,
+      "canonical_found": [
+        "301_0001-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 43007
+    },
+    {
+      "query_id": "B066",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "295_0495-01"
+      ],
+      "legacy_found": [
+        "295_0495-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10481,
+      "canonical_found": [
+        "295_0495-01",
+        "94_0113-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 39737
+    },
+    {
+      "query_id": "B067",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "247_0251-01"
+      ],
+      "legacy_found": [
+        "247_0251-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10362,
+      "canonical_found": [
+        "128_0001-01",
+        "247_0251-01",
+        "94_0113-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40481
+    },
+    {
+      "query_id": "B068",
+      "targets": [
+        "94_0113-01",
+        "223_0001-01",
+        "234_0342-01"
+      ],
+      "legacy_found": [
+        "234_0342-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 106704,
+      "canonical_found": [
+        "223_0001-01",
+        "234_0342-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 43182
+    },
+    {
+      "query_id": "B069",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "196_0375-01"
+      ],
+      "legacy_found": [
+        "196_0375-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 1257380,
+      "canonical_found": [
+        "128_0001-01",
+        "196_0375-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 49793
+    },
+    {
+      "query_id": "B070",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "166_0290-01"
+      ],
+      "legacy_found": [
+        "166_0290-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10467,
+      "canonical_found": [
+        "128_0001-01",
+        "166_0290-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40571
+    },
+    {
+      "query_id": "B071",
+      "targets": [
+        "94_0113-01",
+        "128_0001-01",
+        "156_0001-01"
+      ],
+      "legacy_found": [
+        "156_0001-01",
+        "94_0113-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10417,
+      "canonical_found": [
+        "128_0001-01",
+        "156_0001-01",
+        "94_0113-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40369
+    },
+    {
+      "query_id": "B072",
+      "targets": [
+        "82_0232-01",
+        "175_0211-01",
+        "298_0238-01"
+      ],
+      "legacy_found": [
+        "175_0211-01",
+        "298_0238-01",
+        "82_0232-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2235253,
+      "canonical_found": [
+        "175_0211-01",
+        "298_0238-01",
+        "82_0232-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42504
+    },
+    {
+      "query_id": "B073",
+      "targets": [
+        "76_0579-01",
+        "304_0405-01",
+        "317_0111-01"
+      ],
+      "legacy_found": [
+        "304_0405-01",
+        "317_0111-01",
+        "76_0579-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1296251,
+      "canonical_found": [
+        "304_0405-01",
+        "317_0111-01",
+        "76_0579-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 39558
+    },
+    {
+      "query_id": "B074",
+      "targets": [
+        "53_0299-01",
+        "230_0352-01",
+        "312_0100-01"
+      ],
+      "legacy_found": [
+        "312_0100-01",
+        "53_0299-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 264206,
+      "canonical_found": [
+        "230_0352-01",
+        "312_0100-01",
+        "53_0299-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42577
+    },
+    {
+      "query_id": "B075",
+      "targets": [
+        "53_0299-01",
+        "92_0259-01",
+        "166_0290-01"
+      ],
+      "legacy_found": [
+        "166_0290-01",
+        "53_0299-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10507,
+      "canonical_found": [
+        "166_0290-01",
+        "53_0299-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40290
+    },
+    {
+      "query_id": "B076",
+      "targets": [
+        "301_0001-01",
+        "303_0453-01",
+        "317_0111-01"
+      ],
+      "legacy_found": [
+        "301_0001-01",
+        "317_0111-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 515098,
+      "canonical_found": [
+        "301_0001-01",
+        "317_0111-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 42793
+    },
+    {
+      "query_id": "B077",
+      "targets": [
+        "247_0251-01",
+        "259_0344-01",
+        "301_0001-01"
+      ],
+      "legacy_found": [
+        "247_0251-01",
+        "259_0344-01",
+        "301_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 515102,
+      "canonical_found": [
+        "247_0251-01",
+        "259_0344-01",
+        "301_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 43418
+    },
+    {
+      "query_id": "B078",
+      "targets": [
+        "247_0251-01",
+        "259_0344-01",
+        "295_0495-01"
+      ],
+      "legacy_found": [
+        "247_0251-01",
+        "295_0495-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10494,
+      "canonical_found": [
+        "247_0251-01",
+        "259_0344-01",
+        "295_0495-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40329
+    },
+    {
+      "query_id": "B079",
+      "targets": [
+        "188_0321-01",
+        "195_0027-01",
+        "298_0238-01"
+      ],
+      "legacy_found": [
+        "188_0321-01",
+        "298_0238-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10372,
+      "canonical_found": [
+        "188_0321-01",
+        "298_0238-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40078
+    },
+    {
+      "query_id": "B080",
+      "targets": [
+        "188_0321-01",
+        "223_0001-01",
+        "295_0495-01"
+      ],
+      "legacy_found": [
+        "188_0321-01",
+        "295_0495-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10466,
+      "canonical_found": [
+        "188_0321-01",
+        "295_0495-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40148
+    },
+    {
+      "query_id": "B081",
+      "targets": [
+        "327_0001-01",
+        "339_0763-01",
+        "344_0590-01",
+        "352_0180-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "327_0001-01",
+        "339_0763-01",
+        "344_0590-01",
+        "352_0180-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 4005529,
+      "canonical_found": [
+        "327_0001-01",
+        "339_0763-01",
+        "352_0180-01",
+        "401_0402-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40920
+    },
+    {
+      "query_id": "B082",
+      "targets": [
+        "192_0470-01",
+        "224_0194-01",
+        "299_0232-01",
+        "315_0475-01",
+        "318_0080-01"
+      ],
+      "legacy_found": [
+        "192_0470-01",
+        "224_0194-01",
+        "299_0232-01",
+        "315_0475-01",
+        "318_0080-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 4457231,
+      "canonical_found": [
+        "192_0470-01",
+        "224_0194-01",
+        "315_0475-01",
+        "318_0080-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 42531
+    },
+    {
+      "query_id": "B083",
+      "targets": [
+        "190_0160-01",
+        "224_0160-01",
+        "225_0501-01",
+        "296_0176-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "190_0160-01",
+        "224_0160-01",
+        "225_0501-01",
+        "296_0176-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2284049,
+      "canonical_found": [
+        "190_0160-01",
+        "224_0160-01",
+        "296_0176-01",
+        "401_0402-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40392
+    },
+    {
+      "query_id": "B084",
+      "targets": [
+        "190_0160-01",
+        "247_0321-01",
+        "253_0245-01",
+        "289_0516-01",
+        "295_0602-01"
+      ],
+      "legacy_found": [
+        "190_0160-01",
+        "247_0321-01",
+        "253_0245-01",
+        "289_0516-01",
+        "295_0602-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1622232,
+      "canonical_found": [
+        "190_0160-01",
+        "247_0321-01",
+        "253_0245-01",
+        "289_0516-01",
+        "295_0602-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40477
+    },
+    {
+      "query_id": "B085",
+      "targets": [
+        "321_0414-01",
+        "337_0498-01",
+        "344_0298-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "321_0414-01",
+        "337_0498-01",
+        "344_0298-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2280758,
+      "canonical_found": [
+        "321_0414-01",
+        "337_0498-01",
+        "344_0298-01",
+        "401_0402-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40070
+    },
+    {
+      "query_id": "B086",
+      "targets": [
+        "295_0602-01",
+        "297_0288-01",
+        "325_0091-01",
+        "327_0001-01"
+      ],
+      "legacy_found": [
+        "295_0602-01",
+        "297_0288-01",
+        "325_0091-01",
+        "327_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 3293959,
+      "canonical_found": [
+        "295_0602-01",
+        "297_0288-01",
+        "325_0091-01",
+        "327_0001-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40042
+    },
+    {
+      "query_id": "B087",
+      "targets": [
+        "295_0495-01",
+        "296_0176-01",
+        "298_0038-01",
+        "304_0001-01"
+      ],
+      "legacy_found": [
+        "295_0495-01",
+        "296_0176-01",
+        "298_0038-01",
+        "304_0001-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2788515,
+      "canonical_found": [
+        "295_0495-01",
+        "296_0176-01",
+        "304_0001-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 47973
+    },
+    {
+      "query_id": "B088",
+      "targets": [
+        "276_0394-01",
+        "293_0388-01",
+        "296_0176-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "276_0394-01",
+        "293_0388-01",
+        "296_0176-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 3595414,
+      "canonical_found": [
+        "276_0394-01",
+        "293_0388-01",
+        "296_0176-01",
+        "401_0402-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40114
+    },
+    {
+      "query_id": "B089",
+      "targets": [
+        "276_0394-01",
+        "295_0495-01",
+        "296_0176-01",
+        "298_0038-01"
+      ],
+      "legacy_found": [
+        "276_0394-01",
+        "295_0495-01",
+        "296_0176-01",
+        "298_0038-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1601349,
+      "canonical_found": [
+        "276_0394-01",
+        "295_0495-01",
+        "296_0176-01",
+        "298_0038-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 41102
+    },
+    {
+      "query_id": "B090",
+      "targets": [
+        "222_0541-01",
+        "280_0420-01",
+        "313_0409-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "222_0541-01",
+        "280_0420-01",
+        "313_0409-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 4096142,
+      "canonical_found": [
+        "222_0541-01",
+        "280_0420-01",
+        "313_0409-01",
+        "401_0402-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40508
+    },
+    {
+      "query_id": "B091",
+      "targets": [
+        "222_0541-01",
+        "225_0282-01",
+        "243_0281-01",
+        "340_0474-01"
+      ],
+      "legacy_found": [
+        "222_0541-01",
+        "225_0282-01",
+        "243_0281-01",
+        "340_0474-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2214474,
+      "canonical_found": [
+        "222_0541-01",
+        "225_0282-01",
+        "243_0281-01",
+        "340_0474-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40289
+    },
+    {
+      "query_id": "B092",
+      "targets": [
+        "222_0541-01",
+        "263_0515-01",
+        "294_0499-01",
+        "318_0080-01"
+      ],
+      "legacy_found": [
+        "222_0541-01",
+        "263_0515-01",
+        "294_0499-01",
+        "318_0080-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 5894570,
+      "canonical_found": [
+        "222_0541-01",
+        "263_0515-01",
+        "294_0499-01",
+        "318_0080-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42728
+    },
+    {
+      "query_id": "B093",
+      "targets": [
+        "220_0506-01",
+        "245_0467-01",
+        "290_0371-01",
+        "340_0474-01"
+      ],
+      "legacy_found": [
+        "220_0506-01",
+        "340_0474-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10543,
+      "canonical_found": [
+        "220_0506-01",
+        "245_0467-01",
+        "340_0474-01"
+      ],
+      "canonical_full": false,
+      "canonical_chars": 40198
+    },
+    {
+      "query_id": "B094",
+      "targets": [
+        "190_0160-01",
+        "235_0350-01",
+        "258_0466-01",
+        "293_0388-01"
+      ],
+      "legacy_found": [
+        "190_0160-01",
+        "293_0388-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10522,
+      "canonical_found": [
+        "190_0160-01",
+        "235_0350-01",
+        "258_0466-01",
+        "293_0388-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40364
+    },
+    {
+      "query_id": "B095",
+      "targets": [
+        "143_0649-01",
+        "182_0244-01",
+        "289_0516-01",
+        "295_0602-01"
+      ],
+      "legacy_found": [
+        "143_0649-01",
+        "182_0244-01",
+        "289_0516-01",
+        "295_0602-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 1622096,
+      "canonical_found": [
+        "143_0649-01",
+        "182_0244-01",
+        "289_0516-01",
+        "295_0602-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40258
+    },
+    {
+      "query_id": "B096",
+      "targets": [
+        "340_0474-01",
+        "383_0607-01",
+        "435_0519-01"
+      ],
+      "legacy_found": [
+        "340_0474-01",
+        "383_0607-01",
+        "435_0519-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2357334,
+      "canonical_found": [
+        "340_0474-01",
+        "383_0607-01",
+        "435_0519-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40115
+    },
+    {
+      "query_id": "B097",
+      "targets": [
+        "332_0194-01",
+        "371_0156-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "332_0194-01",
+        "371_0156-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 5448958,
+      "canonical_found": [
+        "332_0194-01",
+        "371_0156-01",
+        "401_0402-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 42272
+    },
+    {
+      "query_id": "B098",
+      "targets": [
+        "304_0001-01",
+        "313_0409-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "304_0001-01",
+        "313_0409-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 4445889,
+      "canonical_found": [
+        "304_0001-01",
+        "313_0409-01",
+        "401_0402-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 48142
+    },
+    {
+      "query_id": "B099",
+      "targets": [
+        "298_0038-01",
+        "344_0298-01",
+        "401_0402-01"
+      ],
+      "legacy_found": [
+        "298_0038-01",
+        "344_0298-01",
+        "401_0402-01"
+      ],
+      "legacy_full": true,
+      "legacy_chars": 2280821,
+      "canonical_found": [
+        "298_0038-01",
+        "344_0298-01",
+        "401_0402-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40888
+    },
+    {
+      "query_id": "B100",
+      "targets": [
+        "298_0038-01",
+        "301_0142-01",
+        "340_0474-01"
+      ],
+      "legacy_found": [
+        "298_0038-01",
+        "340_0474-01"
+      ],
+      "legacy_full": false,
+      "legacy_chars": 10620,
+      "canonical_found": [
+        "298_0038-01",
+        "301_0142-01",
+        "340_0474-01"
+      ],
+      "canonical_full": true,
+      "canonical_chars": 40052
+    }
+  ]
+}

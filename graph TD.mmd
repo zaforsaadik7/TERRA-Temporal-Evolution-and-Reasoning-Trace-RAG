@@ -1,0 +1,23 @@
+graph TD
+    %% Phase 1 Ingestion
+    A[Curated SCOTUS Cases / Synthetic Supplement] --> B{is_curated check}
+    B -- Curated: Always Include --> C[eyecite Citation Parser]
+    B -- Synthetic: SCOTUS Court Check --> C
+    C --> D[Gemini Trace Generator LLM / Template]
+    C --> E[Gemini Relation Classifier]
+    D --> F[(ChromaDB Vector Store)]
+    E --> G[(NetworkX Graph DiGraph)]
+    G --> H[terra_eeg_index.json]
+
+    %% Phase 2 Reasoning
+    Input[User Query] --> Cop{Traffic Cop Router}
+    Cop -- EASY --> Direct[Direct LLM Path]
+    Cop -- HARD --> Search[(ChromaDB Retrieval)]
+    Search --> Traverse[BFS Graph Traversal depth=2]
+    Traverse --> Grader{Smart Grader NLI}
+    Grader -- Entails=True --> Generator[Final LLM Generator]
+    Grader -- Entails=False --> Expand[Double Search Radius n_results+=2]
+    Expand --> Search
+    Expand -- Failed 2x --> Refusal[Safety Refusal Firewall]
+    Direct --> Output[Final Answer]
+    Generator --> Output

@@ -1,0 +1,156 @@
+{
+  "historical_means_flags": {
+    "1_Direct_LLM": {
+      "n": 350,
+      "faithfulness_mean": 0.5257142857142857,
+      "system_flagged_refusals": 0
+    },
+    "2_Flat_Vector_RAG": {
+      "n": 350,
+      "faithfulness_mean": 0.6510714285714285,
+      "system_flagged_refusals": 184
+    },
+    "3_GraphRAG_Adapted": {
+      "n": 350,
+      "faithfulness_mean": 0.6192857142857143,
+      "system_flagged_refusals": 173
+    },
+    "4_HippoRAG_Adapted": {
+      "n": 350,
+      "faithfulness_mean": 0.6703571428571429,
+      "system_flagged_refusals": 165
+    },
+    "5_Full_TERRA": {
+      "n": 350,
+      "faithfulness_mean": 0.695,
+      "system_flagged_refusals": 139
+    }
+  },
+  "route_checks": {
+    "EASY": {
+      "n": 110,
+      "gross_median_ms": 5464.955,
+      "net_median_ms": 5464.955,
+      "categories": {
+        "A_Factual": 100,
+        "D_Adversarial": 10
+      }
+    },
+    "HARD": {
+      "n": 240,
+      "gross_median_ms": 14067.48,
+      "net_median_ms": 14067.48,
+      "categories": {
+        "B_Evolutionary": 100,
+        "C_OutOfContext": 75,
+        "D_Adversarial": 65
+      }
+    }
+  },
+  "calibration": {
+    "mean": 0.7119980831444264,
+    "population_sd": 0.12166115955046286,
+    "max": 1.24428129196167,
+    "eight_threshold_counts": {
+      "0.90": {
+        "fp": 9,
+        "tp": 72,
+        "fn": 3
+      },
+      "1.00": {
+        "fp": 2,
+        "tp": 62,
+        "fn": 13
+      },
+      "1.10": {
+        "fp": 1,
+        "tp": 54,
+        "fn": 21
+      },
+      "1.20": {
+        "fp": 1,
+        "tp": 47,
+        "fn": 28
+      },
+      "1.25": {
+        "fp": 0,
+        "tp": 44,
+        "fn": 31
+      },
+      "1.30": {
+        "fp": 0,
+        "tp": 41,
+        "fn": 34
+      },
+      "1.35": {
+        "fp": 0,
+        "tp": 35,
+        "fn": 40
+      },
+      "1.40": {
+        "fp": 0,
+        "tp": 32,
+        "fn": 43
+      }
+    },
+    "AUROC_pairwise_recomputed": 0.9901333333333333
+  },
+  "matched_means_refusals": {
+    "A": {
+      "n": 100,
+      "H_mean": "0.895",
+      "T_mean": "0.975",
+      "difference": "0.080",
+      "H_refusals": 47,
+      "T_refusals": 74
+    },
+    "B": {
+      "n": 100,
+      "H_mean": "0.49515",
+      "T_mean": "0.764",
+      "difference": "0.26885",
+      "H_refusals": 4,
+      "T_refusals": 69
+    },
+    "C": {
+      "n": 75,
+      "H_mean": "0.9933333333333333333333333333",
+      "T_mean": "0.9666666666666666666666666667",
+      "difference": "-0.0266666666666666666666666666",
+      "H_refusals": 75,
+      "T_refusals": 75
+    },
+    "D": {
+      "n": 75,
+      "H_mean": "0.8133333333333333333333333333",
+      "T_mean": "0.8433333333333333333333333333",
+      "difference": "0.0300000000000000000000000000",
+      "H_refusals": 46,
+      "T_refusals": 54
+    }
+  },
+  "CaseFacts_posthoc_p_from_discordants_3_1": 0.625,
+  "chain_counts": {
+    "legacy": {
+      "full_count": 62,
+      "gold_hits": 295,
+      "macro_pct": 86.08333333333333,
+      "stratum_full_hits": {
+        "3": 37,
+        "4": 20,
+        "5": 5
+      }
+    },
+    "canonical": {
+      "full_count": 66,
+      "gold_hits": 302,
+      "macro_pct": 88.91666666666667,
+      "stratum_full_hits": {
+        "3": 49,
+        "4": 16,
+        "5": 1
+      }
+    }
+  },
+  "scope": "Existing saved-record arithmetic; no new model output, inferential family, CI or p-value estimation beyond checking already approved exact paired p0.625"
+}
