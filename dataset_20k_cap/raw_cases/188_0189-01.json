@@ -1,0 +1,2536 @@
+{
+  "id": 11726086,
+  "name": "BLACKSTONE v. MILLER",
+  "name_abbreviation": "Blackstone v. Miller",
+  "decision_date": "1903-01-26",
+  "docket_number": "No. 423",
+  "first_page": "189",
+  "last_page": "207",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "188 U.S. 189"
+    },
+    {
+      "type": "parallel",
+      "cite": "47 L. Ed. 439"
+    },
+    {
+      "type": "parallel",
+      "cite": "23 S. Ct. 277"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1902-049"
+    },
+    {
+      "type": "vendor",
+      "cite": "1903 U.S. LEXIS 1275"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "167 U. S. 467",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594550
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0467-01"
+      ]
+    },
+    {
+      "cite": "140 U.' S. 316",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553966
+      ],
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/140/0316-01"
+      ]
+    },
+    {
+      "cite": "125 U. S. 345",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3528098
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/125/0345-01"
+      ]
+    },
+    {
+      "cite": "17 How. 456",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        5678374
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/58/0456-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 461",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594569
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0461-01"
+      ]
+    },
+    {
+      "cite": "142 U. S.' 339",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556991
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/142/0339-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299194
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/134/0232-01"
+      ]
+    },
+    {
+      "cite": "114 U. S. 622",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11295549
+      ],
+      "pin_cites": [
+        {
+          "page": "635"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/114/0622-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 523",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "38 Fed. Rep. 184",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6716493
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/38/0184-01"
+      ]
+    },
+    {
+      "cite": "8 How. 490",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3350867
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/49/0490-01"
+      ]
+    },
+    {
+      "cite": "22 Fed. Rep. 60",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "104 U. S. 592",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3492151
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/104/0592-01"
+      ]
+    },
+    {
+      "cite": "178 U. S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "116 U. S. 524",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "119 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299637
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/119/0129-01"
+      ]
+    },
+    {
+      "cite": "92 N. Y. 347",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 Am. Rep. 460",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "11 R. I. 321",
+      "category": "reporters:state",
+      "reporter": "R.I.",
+      "case_ids": [
+        1329009
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ri/11/0321-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5700442
+      ],
+      "pin_cites": [
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/159/0103-01"
+      ]
+    },
+    {
+      "cite": "52 L. R. A. 760",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "34 L. R. A. 810",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "25 Atl. Rep. 23",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "151 Pa. St. 1",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        836645
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/151/0001-01"
+      ]
+    },
+    {
+      "cite": "53 N. E. Rep. 372",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "96 N. Y. 254",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "7 Wall. 139",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3449389
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/74/0139-01"
+      ]
+    },
+    {
+      "cite": "5 Wall. 307",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3458729
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/72/0307-01"
+      ]
+    },
+    {
+      "cite": "93 U. S. 664",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647334
+      ],
+      "pin_cites": [
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/93/0664-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 30",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "88 N. Y. 576",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        550707
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/88/0576-01"
+      ]
+    },
+    {
+      "cite": "48 N. Y. 390",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2055517
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/48/0390-01"
+      ]
+    },
+    {
+      "cite": "28 N. Y. 224",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "2 Jones' Eq. 51",
+      "category": "reporters:state",
+      "reporter": "Jones Eq.",
+      "case_ids": [
+        8684279
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nc/55/0051-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 27",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2274142
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/150/0027-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 714",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "143 U. S. 222",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 How. 467",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        1503942
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/45/0467-01"
+      ]
+    },
+    {
+      "cite": "15 Pet. 1",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3331448
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/40/0001-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 394",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3441578
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/76/0394-01"
+      ]
+    },
+    {
+      "cite": "139 U. S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3551989
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/139/0156-01"
+      ]
+    },
+    {
+      "cite": "25 N. E. Rep. 1005",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "32 N. Y. 22",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "40"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 App. Div. 325",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3501341
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/43/0143-01"
+      ]
+    },
+    {
+      "cite": "11 Hun, 124",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "125 N. Y. 402",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "89 N. Y. 508",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2184415
+      ],
+      "pin_cites": [
+        {
+          "page": "529"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/89/0508-01"
+      ]
+    },
+    {
+      "cite": "138 N. Y. 209",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        22201
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/138/0209-01"
+      ]
+    },
+    {
+      "cite": "74 N. Y. 145",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        534688
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/74/0145-01"
+      ]
+    },
+    {
+      "cite": "12 Hun, 627",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "39 Pa. St. 92",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        996234
+      ],
+      "pin_cites": [
+        {
+          "page": "98, 99"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/39/0092-01"
+      ]
+    },
+    {
+      "cite": "100 N. Y. 265",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "74 N. Y. 482",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "85 N. Y. 587",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "68 N. Y, 321",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        529030
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/68/0321-01"
+      ]
+    },
+    {
+      "cite": "29 N. Y. 146",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2038644
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/29/0146-01"
+      ]
+    },
+    {
+      "cite": "6 Hill, 297",
+      "category": "reporters:state",
+      "reporter": "Hill,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "49 La. Ann. 1173",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        8502077
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/49-2/1173-01"
+      ]
+    },
+    {
+      "cite": "181 U. S. 580",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298302
+      ],
+      "pin_cites": [
+        {
+          "page": "583"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/181/0580-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 311",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "174 U. S. 499",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3607393
+      ],
+      "pin_cites": [
+        {
+          "page": "508"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/174/0499-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 108",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "154 U. S. 189",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "147 U. S. 647",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3566257
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/147/0647-01"
+      ]
+    },
+    {
+      "cite": "140 U. S. 277",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "135 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3543795
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/135/0500-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 348",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "136 U. S. 318",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "128 U. S. 538",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "125 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "109 U. S. 379",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "107 U. S. 33",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "7 Wall. 523",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3450149
+      ],
+      "pin_cites": [
+        {
+          "page": "541"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/74/0523-01"
+      ]
+    },
+    {
+      "cite": "2 Black, 599",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        3465392
+      ],
+      "pin_cites": [
+        {
+          "page": "603"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/67/0599-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 32",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239463
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/175/0032-01"
+      ]
+    },
+    {
+      "cite": "23 Wall. 331",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        5649363
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/90/0331-01"
+      ]
+    },
+    {
+      "cite": "148 N. Y. 329",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 N. Y. 479",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "480"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "74 N. Y. 183",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        534666
+      ],
+      "pin_cites": [
+        {
+          "page": "190"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/74/0183-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "171 U. S. 101",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600970
+      ],
+      "pin_cites": [
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0101-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298187
+      ],
+      "pin_cites": [
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/165/0150-01"
+      ]
+    },
+    {
+      "cite": "154 U.- S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3579432
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0362-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468164
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/163/0081-01"
+      ]
+    },
+    {
+      "cite": "152 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3575021
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/152/0377-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 657",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3566727
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/148/0657-01"
+      ]
+    },
+    {
+      "cite": "12 Wall. 418",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        5655323
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/79/0418-01"
+      ]
+    },
+    {
+      "cite": "3 Wheat. 231",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1443469
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/16/0231-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5699846
+      ],
+      "pin_cites": [
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/159/0113-01"
+      ]
+    },
+    {
+      "cite": "68 Fed. Rep. 685",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6729494
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/68/0685-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 628",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3577090
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/153/0628-01"
+      ]
+    },
+    {
+      "cite": "19 Wall. 490",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3433521
+      ],
+      "pin_cites": [
+        {
+          "page": "499"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/86/0490-01"
+      ]
+    },
+    {
+      "cite": "173 U. S. 193",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297932
+      ],
+      "pin_cites": [
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/173/0193-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 34",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581847
+      ],
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0034-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 651",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3504340
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0651-01"
+      ]
+    },
+    {
+      "cite": "18 Wall. 206",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3427401
+      ],
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/85/0206-01"
+      ]
+    },
+    {
+      "cite": "11 Wall. 423",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3414183
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "430"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/78/0423-01"
+      ]
+    },
+    {
+      "cite": "7 Wall. 496",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3451783
+      ],
+      "pin_cites": [
+        {
+          "page": "504"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/74/0496-01"
+      ]
+    },
+    {
+      "cite": "143 N. Y. 114",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2262298
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/143/0114-01"
+      ]
+    },
+    {
+      "cite": "181 N. Y. 274",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "282"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "127 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2239508
+      ],
+      "pin_cites": [
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/127/0001-01"
+      ]
+    },
+    {
+      "cite": "161 N. Y. 218",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "2 Story, 369",
+      "category": "reporters:federal",
+      "reporter": "Story",
+      "case_ids": [
+        6129068
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/28/0595-02"
+      ]
+    },
+    {
+      "cite": "184 U. S. 592",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "196 Pa. St. 72",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        916759
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/196/0072-01"
+      ]
+    },
+    {
+      "cite": "172 N. Y. 69",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2306840
+      ],
+      "pin_cites": [
+        {
+          "page": "72-74"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/172/0069-01"
+      ]
+    },
+    {
+      "cite": "171 N. Y. 48",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2305104
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/171/0048-01"
+      ]
+    },
+    {
+      "cite": "167 N. Y. 227",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2297760
+      ],
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/167/0227-01"
+      ]
+    },
+    {
+      "cite": "154 N. Y. 109",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2279568
+      ],
+      "pin_cites": [
+        {
+          "page": "113"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/154/0109-01"
+      ]
+    },
+    {
+      "cite": "152 N. Y. 93",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2275232
+      ],
+      "pin_cites": [
+        {
+          "page": "99"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/152/0093-01"
+      ]
+    },
+    {
+      "cite": "143 N. Y. 329",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "141 N. Y. 479",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2258534
+      ],
+      "pin_cites": [
+        {
+          "page": "484"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/141/0479-01"
+      ]
+    },
+    {
+      "cite": "137 N.. Y. 77",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        20174
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/137/0077-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599116
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/170/0283-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 278",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297288
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/183/0278-01"
+      ]
+    },
+    {
+      "cite": "178 U. S. 115",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3612310
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "121, 122"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/178/0115-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468104
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "628, 629"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/163/0625-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 578",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3625788
+      ],
+      "pin_cites": [
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/184/0578-01"
+      ]
+    },
+    {
+      "cite": "178 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3612841
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/178/0041-01"
+      ]
+    },
+    {
+      "cite": "113 N. Y. 182",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "119 N. Y. 137",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2229510
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/119/0137-01"
+      ]
+    },
+    {
+      "cite": "66 App. Div. 228",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4864900
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/66/0228-01"
+      ]
+    },
+    {
+      "cite": "117 U. 'S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299647
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/117/0129-01"
+      ]
+    },
+    {
+      "cite": "123 N. Y. 142",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        568215
+      ],
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/123/0142-01"
+      ]
+    },
+    {
+      "cite": "19 Mo. App. 573",
+      "category": "reporters:state",
+      "reporter": "Mo. App.",
+      "case_ids": [
+        542058
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mo-app/19/0573-01"
+      ]
+    },
+    {
+      "cite": "122 Pa. St. 386",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1948422
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/122/0386-01"
+      ]
+    },
+    {
+      "cite": "39 N. J. Law, 35",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        351472
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/njl/39/0035-01"
+      ]
+    },
+    {
+      "cite": "34 N. J. Law, 425",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        384231
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/njl/34/0425-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 517",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516975
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/116/0517-01"
+      ]
+    },
+    {
+      "cite": "02 N. J. Law, 74",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 N. Y. 224",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "240"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 N. Y. 242",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "17 How. 596",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        5677807
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/58/0596-01"
+      ]
+    },
+    {
+      "cite": "127 N. Y. 80",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2239474
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/127/0080-01"
+      ]
+    },
+    {
+      "cite": "14 Abb. Pr. 275",
+      "category": "reporters:state",
+      "reporter": "Abb. Pr.",
+      "case_ids": [
+        2376378
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/abb-pr/14/0275-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 37",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2273964
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/150/0037-01"
+      ]
+    },
+    {
+      "cite": "3 App. Div. 208",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3478449
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/38/0277-01"
+      ]
+    },
+    {
+      "cite": "159 Pa. St. 231",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        850189
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/159/0231-01"
+      ]
+    },
+    {
+      "cite": "167 N. Y. 280",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2297823
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/167/0280-01"
+      ]
+    },
+    {
+      "cite": "44 App. Div. 340",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4683591
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/44/0340-01"
+      ]
+    },
+    {
+      "cite": "143 N. Y. 641",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2262176,
+        2262332
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/143/0641-01",
+        "/ny/143/0641-02"
+      ]
+    },
+    {
+      "cite": "77 Hun, 325",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "case_ids": [
+        5699557
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/28/0330-01"
+      ]
+    },
+    {
+      "cite": "75 App. Div. 250",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4953403,
+        8283542
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/75/0250-01",
+        "/nys/78/0091-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2274014
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/150/0001-01"
+      ]
+    },
+    {
+      "cite": "113 N. Y. 174",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2221799
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/113/0174-01"
+      ]
+    },
+    {
+      "cite": "96 N. Y. 387",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        556111
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/96/0387-01"
+      ]
+    },
+    {
+      "cite": "170 N. Y. 374",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2303601
+      ],
+      "pin_cites": [
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/170/0374-01"
+      ]
+    },
+    {
+      "cite": "154 N. Y. 128",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2279575
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/154/0128-01"
+      ]
+    },
+    {
+      "cite": "167 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2297610
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/167/0001-01"
+      ]
+    },
+    {
+      "cite": "168 N. Y. 399",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2299546
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/168/0399-01"
+      ]
+    },
+    {
+      "cite": "67 Iowa, 183",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "opinion_index": -1
+    },
+    {
+      "cite": "25 Ohio St. 1",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        44933
+      ],
+      "pin_cites": [
+        {
+          "page": "8"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/25/0001-01"
+      ]
+    },
+    {
+      "cite": "124 N. C. 467",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8659975
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nc/124/0467-01"
+      ]
+    },
+    {
+      "cite": "112 Fed. Rep. 746",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6723625
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/112/0746-01"
+      ]
+    },
+    {
+      "cite": "4 Woods, 206",
+      "category": "reporters:federal",
+      "reporter": "Woods",
+      "opinion_index": -1
+    },
+    {
+      "cite": "22 Fed. Rep. 602",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6720166
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/22/0602-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 133",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5706034
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/177/0133-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 309",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239494
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/175/0309-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597208
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/169/0421-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 300",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3424279
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/82/0300-01"
+      ]
+    },
+    {
+      "cite": "7 Wall. 262",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3451080
+      ],
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/74/0262-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat. 316",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4702
+      ],
+      "pin_cites": [
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/17/0316-01"
+      ]
+    },
+    {
+      "cite": "121 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        678735
+      ],
+      "pin_cites": [
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/121/0138-01"
+      ]
+    },
+    {
+      "cite": "186 U. S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3623405
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "234"
+        },
+        {
+          "page": "234"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/186/0230-01"
+      ]
+    },
+    {
+      "cite": "163 N. Y. 320",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        40035
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "330"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/163/0320-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 185",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        24575
+      ],
+      "pin_cites": [
+        {
+          "page": "189"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/139/0185-01"
+      ]
+    },
+    {
+      "cite": "52 La. Ann. 1319",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        301237
+      ],
+      "pin_cites": [
+        {
+          "page": "1329"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/52-2/1319-01"
+      ]
+    },
+    {
+      "cite": "51 La. Ann. 1028",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2586367
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/51/1028-01"
+      ]
+    },
+    {
+      "cite": "49 La. Ann. 43",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2561084
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/49/0043-01"
+      ]
+    },
+    {
+      "cite": "46 La. Ann. 1",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2544160
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "5"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/46/0001-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 48",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3605017
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "53"
+        },
+        {
+          "page": "54"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0048-01"
+      ]
+    },
+    {
+      "cite": "126 N. Y. 318",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2237657
+      ],
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/126/0318-01"
+      ]
+    },
+    {
+      "cite": "123 N. Y. 37",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        568403
+      ],
+      "pin_cites": [
+        {
+          "page": "47"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/123/0037-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 144",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297067
+      ],
+      "pin_cites": [
+        {
+          "page": "147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/183/0144-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 654",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8164
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/109/0654-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 710",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3607025
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/174/0710-01"
+      ]
+    },
+    {
+      "cite": "141 U. S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556613
+      ],
+      "pin_cites": [
+        {
+          "page": "22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/141/0018-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 610",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411271
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/83/0610-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 162",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564181
+      ],
+      "pin_cites": [
+        {
+          "page": "166"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/146/0162-01"
+      ]
+    },
+    {
+      "cite": "171 N. Y. 682",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2305184,
+        2305175
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/171/0682-02",
+        "/ny/171/0682-01"
+      ]
+    },
+    {
+      "cite": "69 App. Div. 127",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7699764
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/74/0508-01"
+      ]
+    },
+    {
+      "cite": "114 U. S. 622",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11295549
+      ],
+      "pin_cites": [
+        {
+          "page": "635"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/114/0622-01"
+      ]
+    },
+    {
+      "cite": "38 Fed. Rep. 184",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6716493
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/38/0184-01"
+      ]
+    },
+    {
+      "cite": "8 How. 490",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3350867
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "493"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/49/0490-01"
+      ]
+    },
+    {
+      "cite": "178 U. S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 U. S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599116
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/170/0283-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468104
+      ],
+      "pin_cites": [
+        {
+          "page": "628, 629"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/163/0625-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 578",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3625788
+      ],
+      "pin_cites": [
+        {
+          "page": "586, 587, 592"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/184/0578-01"
+      ]
+    },
+    {
+      "cite": "178 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3612841
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/178/0041-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 517",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516975
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "524"
+        },
+        {
+          "page": "524"
+        },
+        {
+          "page": "524"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/116/0517-01"
+      ]
+    },
+    {
+      "cite": "17 How. 596",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        5677807
+      ],
+      "pin_cites": [
+        {
+          "page": "599, 600"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/58/0596-01"
+      ]
+    },
+    {
+      "cite": "127 N. Y. 80",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2239474
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/127/0080-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 37",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2273964
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/150/0037-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 133",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5706034
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/177/0133-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 309",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239494
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "316"
+        },
+        {
+          "page": "316"
+        },
+        {
+          "page": "319, 320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/175/0309-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597208
+      ],
+      "pin_cites": [
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/169/0421-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 300",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3424279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/82/0300-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat. 316",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4702
+      ],
+      "pin_cites": [
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/17/0316-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1943,
+    "char_count": 41897,
+    "ocr_confidence": 0.497,
+    "pagerank": {
+      "raw": 3.887890366233686e-06,
+      "percentile": 0.9982925645471995
+    },
+    "sha256": "7d36962ef06400a42eb488a8cfcd43a47a9bd03090cb288a8ad496ad6d3fe32e",
+    "simhash": "1:28272e95eed5a0c1",
+    "word_count": 7564
+  },
+  "last_updated": "2024-02-27T21:51:59.518757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mt?.. Justice \"White dissents."
+    ],
+    "parties": [
+      "BLACKSTONE v. MILLER."
+    ],
+    "opinions": [
+      {
+        "text": "Mb. Justice Holmes\ndelivered the opinion of the court.\nThis is a writ of error to the Surrogate\u2019s Court of the county of New York. It is brought to review a decree of the court, sustained by the Appellatg-Division of the Supreme Court, 69 App. Div. 127, and by the Court of Appeals, 171 N. Y. 682, levying a tax on the transfer by will of certain property of Timothy B. Blackstone, the testator, who died domiciled in Illinois. The property consisted of a debt of $10,692.24, due to the deceased by a firm, and of the net sum of $4,843,456.72, held on a deposit account by the United' States' Trust Company of New York. The objection was taken s\u00a7asonjfbly \u00fcpon the record that the transfer of this property could -not be taxed in New York consistently with the Constitution of the United States.\nThe deposit in question represented the proceeds of railroad stock sold to a, syndicate and handed to the Trust Company, which, by arrangement with the testator, held the proceeds subject to his order, paying interest in the meantime. Five days\u2019 notice of withdrawal was -required, and if a draft was made upon the company, it gave its check upon one of its banks of deposit. The fund had been held in this way from March 31, 1899, until the testator\u2019s death on May 26,1900. It is probable, of course, that he did not intend to leave the fund there forever and that he was looking out for investments, but he had not found them when he died. The tax is levied under a statute imposing a tax \u201c upon the transfer of any property, real or personal. ... 2. When the transfer is by will or intestate law, of property within the State, and the decedent was a nonresident of the State at the time of his death.\u201d Laws of 1896, c. 908, \u00a7 220, amended, Laws of 1897, c. 284 ; 3 Birdseye\u2019s Stat. 3d ed. 1901, p. 3592. The whole succession has been taxed in Illinois, the New York deposit being included in the appraisal of the estate. It is objected to the New York tax that the property was not within the State, and that the courts of New York had no jurisdiction ; that if the property was within the State it was only transitorily there, Hays v. Pacific Mail Steamship Co., 17 How. 596, 599, 600, that the tax impairs the obligation of contracts, that it denies full faith and credit to the judgment taxing the inheritance in Illinois, that it deprives the executrix and legatees of privileges and immunities of citizens of the State of New lrork, and' that it is contrary to the Fourteenth Amendment.\nIn view of the state decisions it must be assumed that the New York statute is intended to reach the transfer of this property if it can.be reached. New Orleans v. Stempel, 175 U. S. 309, 316; Morley v. Lake Shore & Michigan Southern Ry. Co., 146 U. S. 162, 166. We also must take it to have been found that the property was not in transitu in such a sense as to withdraw it from the power of the State, if otherwise the right to tax the transfer belonged to the State. The property was delayed within the jurisdiction of New York an indefinite time, which had lasted for more than a year, so that this finding at least was justified. Kelley v. Rhoads, ante, p. 1, and Diamond Match Co. v. Village of Ontonagon, ante, p. 84, present' term. Both parties agree with the plain words of the law that the tax is a tax upon the transfer, not upon the deposit, and we need spend no time upon that. Therefore the naked question is whether the State has a right to tax the transfer by will of such deposit.\nThe answer is somewhat obscured by the superficial fact that New York, like most other States, recognizes the law of the domicil as the law determining the right of universal succession. The domicil, naturally, must \u2019control a succession of that kind. Universal succession is the artificial continuance of the person of a deceased by an executor, heir, or the like, so far as succession to rights and obligations is concerned. It is a fiction, th\u00e9 historical origin of which is familiar to scholars, and it is this fiction that gives whatever meaning it has to the saying mobilia sequuntur',personam. But being a fiction it is' not allowed to obscure the \u00bfacts, when the facts become important. To a con-, siderable, although more or less varying, extent the succession determined by the law of the domicil is recognized in other jurisdictions. But it hardly needs illustration to show that the recognition is limited by the policy of the local law. Ancillary administrators pay the local debts before turning over the residue to be distributed, or distributing it' themselves, according to The rules of the domicil. The title of the \u00a1principal administrator, or of a foreign assignee in bankruptcy, another type of universal succession^ is admitted in but a limited way or not at. all. See Crapo v. Kelly, 16 Wall. 610; Chipman v. Manufacturers' National Bank, 156 Massachusetts, 147, 148, 149.\nTo come closer to the point, no one doubts that succession to a tangible chattel may be taxed whenever the property is found, and none the less that the law of the situs accepts its rules of succession from the law of the domicil, or that by the law of the domicil the chattel is part of a universitas and is taken into account again in the succession tax there. Eidman v. Martinez, 184 U. S. 578, 586, 587, 592. See Mager v. Grima, 8 How. 490, 493; Coe v. Errol, 116 U. S. 517, 524; Pullman's Palace Car Co. v. Pennsylvania, 141 U. S. 18, 22; Magoun v. Illinois Trust & Savings Bank, 170 U. S. 283; New Orleans v. Stempel, 175 U. S. 309; Bristol v. Washington County, 177 U. S. 133; and for state decisions Matter of Estate of Romaine, 127 N. Y. 80; Callahan v. Woodbridge, 171 Massachusetts, 593; Greves v. Shaw, 173 Massachusetts, 205; Allen v. National State Bank, 92 Maryland, 509.\n' No doubt this, power on the part of two States to tax on dif-. ferent and more or less inconsistent principles, leads to some hardship. It may be regretted, also, that one and the same State should be seen taxing on the one hand according to the fact of power, and on the other, at the same time, according to the fiction that, in successions after death,- mobilia sequunt\u00far personam and domicil governs the whole. ' But these inconsistencies infringe no rule of constitutional law. Coe v. Errol, 116 U. S. 517, 524; Knowlton v. Moore, 178 U. S. 41.\nThe question then is narrowed to whether a distinction is to be taken between tangible chattels and the deposit in this case. There is no doubt that courts in New York and elsewhere have been loath to recognize a distinction for taxing purposes between what commonly is called money in the bank and actual coin in the pocket. The practical similarity more br less has obliterated the legal difference. Matter of Houdayer, 150 N. Y. 37; New Orleans v. Stempel, 175 U. S. 309, 316; City National Bank v. Charles Baker Co., 180 Massachusetts, 40, 42. In view of these cases, and the decisionin the present case, which followed them, a not very successful attempt was made to show that by reason of the facts which we have mentioned, and others, the deposit here was unlike an ordinary deposit in a bank. \u00a5e shall not stop to discuss this aspect of the case, because we prefer to decid\u00e9 it upon a broader view.\nIf the transfer of the deposit necessarily depends upon and involves the law of New York for its exercise, or, in other words, if the transfer is subject to the power of the State of New York, then New York may subject the transfer to a tax. United States v. Perkins, 163 U. S. 625, 628, 629; McCulloch v. Maryland, 4 Wheat. 316, 429. But it is plain that the transfer does depend upon the law of New York, n ->t because of any theoretical speculation concerning the whereabouts of the debt, but because of the practical fact of its power over the' person of the debtor. The principle has been recognized by this court with regard to garnishments of a domestic debtor of an absent defendant. Chicago, Rock Island & Pacific Ry. Co. v. Sturm, 174 U. S. 710. See Wyman v. Halstead, 109 U. S. 654. What gives the debt validity ? Nothing but the fact that the law of the place, where the debtor is will make him. pay. It does not matter that the law would not need to be invoked in the particular case. Most of us do not commit crimes, yet we nevertheless are subject to the criminal law, and it affords one of the motives for our conduct.- So again, what enables any other than the very creditor in proper person to collect the debt? The law of the same place. To test it, suppose that New York should turn back the current of legislation and extend to debts the rule still applied to slander that actio personalis moritur cum persona, and should provide that all debts hereafter contracted in New York and payable there should be extinguished by the death of either party. Leaving constitutional considerations on one side, it is plain that the right of the foreign creditor would be gone.\nPower over the person of the debtor confers jurisdiction, we repeat. And this being so we perceive no better reason for denying the right of New York to impose a succession .tax on debts owed by its citizens than upon tangibl\u00e9 chattels found within the State at the time of the death. The maxim mobilia sequuntur personam has no more truth in the one case than in the other. When logic and the policy of a State conflict with a fiction due to historical tradition,, the fiction must give way.\nThere is no conflict between our views and the point decided in the case reported under the name of State Tax on Foreign Held Bonds, 15 Wall. 300. The taxation in that case was on the interest on bonds held out of the State. Bonds and negotiable instruments are more than merely evidences of debt. The debt is inseparable, from the paper which declares and constitutes it, by a tradition which comes down from more archaic conditions. Bacon v. Hooker, 177 Massachusetts, 335, 337. Therefore, considering only the place of the property, it was held that bonds held out of the State could not be reached. The decision has been cut down to its precise point by later cases. Savings & Loan Society v. Multnomah County, 169 U. S. 421, 428; New Orleans v. Stempel, 175 U. S. 309, 319, 320.\nIn the case at bar the law imposing the tax was in force before the deposit was made, and did not impair the obligation of the contract, if a tax otherwise, lawful ever can be said to have that effect. Pinney v. Nelson, 183 U. S. 144, 147. The fact that two States, dealing each with its own law of succession, both of which the plaintiff in error has to invoke for her rights, have taxed the right which they respectively confer, gives no cause for complaint on constitutional grounds. Coe v. Errol, 116 U. S. 517, 524; Knowlton v. Moore, 178 U. S. 53. The universal succession is taxed in one State, the singular succession is taxed in another. The plaintiff has to make out her right under both in order to get the money. See Adams v. Batchelder, 173 Massachusetts, 258. The same considerations answer the argument that due faith and credit are not given to the judgment in Illinois. The tax does not deprive the plaintiff in error of any of the privileges and immunities of the citizens of New York. It is no such deprivation that if she had lived in New York the tax on thp transfer of the deposit would have been part of the tax on the inheritance as a- whole. See Mager v. Grima, 8 How. 490; Brown v. Houston, 114 U. S. 622, 635; Wallace v. Myers, 38 Fed. Rep. 184. It does not violate the Fourteenth Amendment. See Magoun v. Illinois Trust & Savings Bank, 170 U. S. 283. Matters of state procedure and the correctness of the New York decree or judgment, apart from specific constitutional objections, are not open here. As we have said, the question whether the property was to be regarded as in transitu, if material, must be regarded as found against the plaintiff in error.\nDecree affirmed.\nMt?.. Justice \"White dissents.",
+        "type": "majority",
+        "author": "Mb. Justice Holmes"
+      }
+    ],
+    "attorneys": [
+      "Mr. Edward IT. Sheldon for plaintiff in error.",
+      "Mr. Louis Marshall, with whom Mr. Julius Offenbach was on the brief, for the defendants in error."
+    ],
+    "corrections": "",
+    "head_matter": "BLACKSTONE v. MILLER.\nERROR TO THE S\u00dcRROGATE\u2019s COURT OF NEW YORK COUNTY, STATE OF NEW YORK.\nNo. 423.\nArgued January 5, 6,1903.\nDecided January 26, 1903.\nWhere a deposit made by a citizen of Illinois in a Trust Company in the City of New York remains there fourteen months, the property is delayed within the jurisdiction of New York long enough to justify the finding of the state court that it was not in transitu in such a sense as 'to withdraw it from the power of the State if it were otherwise taxable, even though the depositor intended to withdraw the funds for investment.\nUnder the laws of New York such deposit is subject to the transfer tax, notwithstanding that the whole succession had been taxed in Illinois, including this deposit.\nThe fact that two States, dealing each with its own law of succession, both of which have to be invoked by the person claiming rights, have taxed the right which they respectively confer, gives no ground for complaint on constitutional grounds.\nPower over the person of the debtor confers jurisdiction, and a State has an equal right to impose a succession tax on debts owed by its citizens as upon tangible assets found within the State at the time of the death.\nWhere a state law imposing a tax upon transfer is in force before the funds come within the State the tax does not impair the obligation of any contract, deny full faith or credit to a judgment taxing the inheritance in another State, or deprive the executrix aud legatees of the decedent of any privilege or immunity as citizens of the taxing State, nor is it contrary to the Fourteenth Amendment.\nThe case is stated in tbe opinion of the court.\nMr. Edward IT. Sheldon for plaintiff in error.\nI. The debts, in question have no tangible situs within the State of New York. They were intangible, unidentifiable and incapable of physical situs, and were not subject to levy or sale, or to be replevied ; it was not necessary to take out letters of administration in New York to collect them. Toronto General Trust Go. v. O., B. d\u00e9 Q. Railroad Go., 123 N. Y. 37, 47. The relation between bank and depositor is that of debtor and creditor. Shipma/n y. Ba/nk, 126 N. Y. 318, 327; United States v. War-dell,. 172 U. S. 48, 53; Glason v. City, 46 La. Ann. 1, 5; Bluefield Banana Co. y. Board of Assessors, 49 La. Ann. 43 \u25a0; New Orleans v. Stempel, 17o U. S. 309, 314; Liverpool, L. dk G. Ins. Co. v. Board of Assessors, 51 La. Ann. 1028; Compton National D'Escompte de Paris v. Board of Assessors, 52 La. Ann. 1319, 1329. There is a distinction between trust companies and ordinary banks. Peopile v. Binghamton Trust Co., 139 N. Y. 185,189; United States Trust Go. v. Brady, 20 Barbour, 119; Jenkins v. Neff, 163 N. Y. 320, 330 ; 186 U. S. 230, 234; Mercantile National Bank y. New York, 121 U. S. 138, 159.\n1. The established principles of taxation prohibit the taxation of intangible property owned by non-residents. McCulloch v. Maryland, 4 Wheat. 316, 429; Railroad Co. v. Jackson, 7 Wall. 262, 267; 268; State Tax on Foreign-held Bonds Caset 15 Wall. 300,319 ; Savings Society v. Multnomah Co., 169 U. S. 421 ; New Orleans v. Stempel, 175 U. S. 309 ; Bristol v. Washington County, 177 U. S. 133; In re Jefferson,- 35 Minnesota, 215 ; City and County of San Francisco v. Mackey, 22 Fed. Rep. 602, 608 ; Walker v. Jack, 60 U. S. App. 124, 128; De Yignier v. New Orleans, 4 Woods, 206, 207 ; Yost v. Lake Erie Transportation Co., 112 Fed. Rep. 746 ; Kirtland y. Hotchkiss, 42 Connecticut, 426, 438, affirmed 100 LL S. 491; Balky. Harris, 124 N. C. 467 ; Scripps y. Board of Review, 183 Illinois, 278 ; Haywood y. Board of Review, 189 Illinois, 235; Matzenbaugh y. People, 194 Illinois, 108; Street Railroad Co. v. Morrow, *87 Tennessee, 438; Village of Howell v. Gordon, 127 Michigan, 517; Inhabitan ts of Ellsworth v. Brown, 53 Maine, 519; Gatlin y. Hall, 21 Vermont, 152; Flanders v. Crass, 10 Cushing, 510; State v. \u2019Ross, 3 Zabriskie (N. J.), 517'; Hopkins v. Baker, 78 Maryland, 363, 370 ; Mayor, etc., of Mobile y. Baldwin, 57 Alabama, 61; City Council of Augusta y. Dunbar, 57 Georgia, 3S7; Johnson v. De Bary-Baya Merchants Line, 37 Florida, 499, 519 ; State y. Smith, 68 Mississippi, 79; Insurance Co. v. Board of Commissioners, 51 La. Ann. 102S; Court v. O'Connor, 65 Texas, 334; Prairie Cattle Co. y. Williamson, 5 Oklahoma, 488; Worthing-ton v. Sebastian, 25 Ohio St. 1,8; Buck v. Miller, 147 Indiana, 586 ; City of Louisville y. Shirley, 80 Kentucky, 71; Hutchinson y. Board-of Commissioners, 67 Iowa, 183 ; Finch v. York Co., 19 Nebraska, 50 ; Sanford v. Town of Spencer, 62 Wisconsin, 230; In re Jefferson, 35 Minnesota, 215, 220; Commissioners of Arapahoe County v. Cutter, 3 Colorado, 319 ; Holland v.. Commissioners, 15 Mon tana, 400; Johnson v. Oregon City, 2 Oregon, 327; Walla Walla v. Moore, 16 Washington, 339; Estate of Fair, 128 California, 607 ; Barnes v. Woodbury, 17 Nevada, 383 ; Tax Law of New York of 1896, \u00a72, subd. 5; Cooley on Taxation (2d ed.), pp. 21, 22; 'Ilorer on Interstate L\u00e1w, p. 2S1 ; Judson on Taxation (1903), \u00a7 397, p. 507.\n2. These principles have been embodied in the New York statutory scheme. New York Tax Law, ch. 908 of the Laws of 1896, art. I, \u00a7\u00a7 1-14, entitled \u201cTaxable Property and Place of Taxation\u201d is applicable to the entire law. Matter of Huntington, 168 N. Y. 399. The phrase, \u201c property within the State,\u201d used in \u00a7 220 is as old as New York\u2019s taxing system and has been frequently construed to exclude intangible property of non-residents. People exrel. Lemmon v. 'Feitner, 167 N. Y. 1; Matter of Ifellman, Appellate Division, First Department, 1902; Matter of {King, 30 Mise. N. Y. 575. A non-resident is entitled to the s\u00edyne exemptions as a resident and the taxation of non-residents is purely in rem. People v. Barker, 154 N. Y. 128; City of New York y. MeLean, 170 N. Y. 374, 387; Dewey v. Des Moines, 173 TJ. S. 193, 203 ; Bristol v. Washington County, 177 U. S. 133; People v. Equitable Trust Co., 96 N. Y. 387 ; Matter of Enston, 113 N. Y. 174, and cases therein cited.\n3. These principles apply with equal force to transfer or succession taxes ; jurisdiction of the person of the decedent or of his property must exist. Kintzing v. Hutchinson, 14 Fed. Cas. 644; Matter of Bronson, 150 N. Y. 1 ; Matter of Preston, 75 App. Div. 250; Matter of Phipps, 77 Hun, 325, affirmed 143 N. Y. 641; Matter of Chabot, 44 App. Div. 340 ; 167 N. Y. 280 ; Matter of-Abbett, 29 Mise. N. Y. 567; Colemanls Estate, 159 Pa. St. 231; Matter of Button, 3 App. Div. 208 ; Callahan v. Woodbridge, 171 Massachusetts, 595.\n4. The few decisions where' money in bank has been subjected to a transfer tax are distinguishable from the present case. Matter of Iloudayer, 150 N. Y. 37. The authority for the decision of the Court of Appeals in this case cited and distinguished. That was a bank deposit although deposited in a trust company. In this case the deposit was not virtually money and could not be converted into money on demand. Substitutes for money are not to be deemed money for taxation unless they are exact equivalents. Hubbard v. N. Y. & II. P. P., 14 Abb. Pr. 275 ; United States v. Wilson, 106 IT. S. 620; then citing and distinguishing Matter of Pon\u00edame, 127 N. Y. 80; Matter of Morejon, N. Y. Law Journal, July 3, 1891; Matter of Simoni, N. Y. Law Journal, January 20, 1896; Estate of Spears, 6 Ohio Decisions, 598; Matter of Burr, 16 Mise. N. Y. 89 ; balances held not to be cash in Matter of Bentley, 31 Mise. N. Y. 656 ; Matter of Horn, N. Y. Law J ournal, October 31, 1902.\nII. If the indebtedness of the Trust Company was property within the State of New York, it was not taxable becaus\u00e9 it was only transitorily there, and in the case of property of nonresidents i/n transitu the requisite jurisdiction to tax does not exist. Hays v.. Pacific Mail S. S. Co., 17 How. 596 ; People, etc., v. Commissioners, 23 N. Y. 242; People ex rel. Iloyt v. Commissioners, 23 N. Y. 224, 240; 24 Am. & Eng. Ency. of Law, 435; 25 Am. & Eng. Ency. of Law, 142 ; Rorer on Interstate \u25a0 Law, 281; Metropolitan Life Ins. Co. v. Newark, 02 N. J. Law, 74; Herron v. Keeran, 59 Indiana, 472; Standard Oil Co. v. Bachelor, 89 Indiana, 1; Coe v. Errol, 116 U. S. 517; affirming 62 New Hampshire, 303; Corning v. Township of M'asonville; 74 Michigan, 177; State v. Engel, 34 N. J. Law, 425; State v. Carrigan, 39 N. J. Law, 35 j Commonwealth v. Am. Dredging Co., 122 Pa. St. 386 ; Matter of Leopold., 35 Mise. N. Y. 370; State Trust Co. v. Ghehalis County, 48 U. S. App. 190. The burden is on the taxing authorities to establish the jurisdictional conditions. Corn v. Cameron, 19 Mo. App. 573 ; McLeans. Jephson, 123 N. Y. 142, 151.\nIII. A construction of the statute which permits double taxation should be avoided. 2 Cook on Corp. \u00a7 567; Tennessee v. Whitworth, 117 U. 'S. 129; People ex rel. Sowings Bank v. Colemam, 135'N. Y. 231; People ex rel.. Hoyt v. Commissioners 23 N. Y. 224; Matter of Dingham, 66 App. Div. 228 ; 3 N. Y. Devised Statutes, Birdseye\u2019s 3d ed. p. 3526, subd. 5; Peovle ex rel. Darrow v. Coleman, 119 N. Y. 137; Matter of Euston, 113 N. Y. 182, dissenting opini\u00f3n, Haight, J., in Matter of Romaine, 127 N. Y. 80, 91; Cooley\u2019s Const. Lim., p. 227; Detroit Citizens\u2019 Street Ry. Co. v. Common Council, 125 Michigan, 673.\nIY. As succession, inheritance and transfer taxes in the United States are levied upon the power to transmit the title, to property, and not upon the property itself, the State of New York was without jurisdiction in this case to tax the exercise of a power which it did not create and could not take away.\n1. That the thing taxed is the right to transmit has been settled by this court as to the Federal legacy tax. Knowlton v. Moore, 178 U. S. 41; Eidman v. Martinez, 184 U. S. 578, 589; Moore v. Ruckgaber, 184 U. 593. As to the New York transfer tax, United States v. Perkins, 163 U. S. 625 ; Plummer v. Coler, 178 U. S. 115 ; Orr v. Oilman, 183 U. S. 278, 289: As to the Illinois inheritance tax, Magoun v. Illinois Trust da Savings Bank, 170 U. S. 283.\n2. The New York transfer tax has been repeatedly interpreted in that way by the Court of Appeals. Matter of Swift, 137 N.. Y. 77, 88 ; Matter of Merriam, 141 N. Y. 479, 484; Matter of Hoffmam, 143 N. Y. 329; Matter of Bronson, 150 N. Y. 1, 6; Matter of Westmin, 152 N. Y. 93, 99; Matter of Sloane, 154 N. Y. 109,113; Matter of Dows, 167 N. Y. 227, 232; Matter of Pell, 171 N. Y. 48, 55 ; Matter of Vanderbilt, 172 N. Y. 69, 72-74.\n3. Such is also the view taken in other States. Finnen's Estate, 196 Pa. St. 72; Minot v. Wi/nthrop, 162 Massachusetts, 113; Kochersperger v. Drake, 167 Illinois, 122; Schoolfleld\u2019s Executor v. Lynchburg,- 78 Virginia, 366; State v. Dalrymple, 70 Maryland, 294; State v. Hamlin, 86 Maine, 495 ;\u2022 State v. Ashton, 94 Tennessee, 674; In re Wilmerding, 117 California, 281; Oilsthorpe v. Furnell, 20 Montana, 299.\nAs thus limited a tax upon the power of .transmission can only be imposed by the sovereignty creating the power, and the transmission in this case was effected solely by the law of Illinois. Eidmam, v. Ma/rtinez, 184 U. S. 592; Kintzing v. Hutchinson, 14 Fed. Cas. 649. There are seven examples of different governmental impositions under the head of \u201c death duties \u201d in Great Britain. Four of these, Probate Duty, Legacy Duty, Succession Duty, Estate Duty, were reviewed in Knowlton v. Moore, 178 U. S. 41, as to the nature of these duties, citing Hanson\u2019s Death Duties, 4th ed. 1, 2, 19, 20, 40, 63 ; Norman\u2019s Digest of the Death Duties, 2d ed. 1,184, 513 ; Dicey\u2019s Conflict of Laws, Moore\u2019s American Notes, 1897, 785-7S9 ; Laid-lay v. The Lord Advocate, L. R. 15 App. Gas. 468, 483; Wallace v. The Attorney General, L. R. 1 Ch. App. 1; Attorney General v. Campbell, L. R. 5 H. L. 524, 529.\nV.. Where any doubt exists as to liability to a succession tax, the doubt should be resolved in favor of the person sought to be taxed. The Court of Appeals erred in adopting the broader construction of the law. Eidman v. Martinez, 184 IJ. S.' 578, and cases cited; United States v. Wigglesworth, 2 Story, 369 ; cases cited supra, and Matter of Ilarheck, 161 N. Y. 218 ; Matter of Vassar, 127 N. Y. 1, 12; Matter of Stewart, 181 N. Y. 274, 282; Matter of Eayerweather, 143 N. Y. 114; United States v. Isham, 7 Wall. 496, 504; 176 Massachusetts, 190; Matter of Brez, 172 N. Y. Memo.\n\u2022 YI. The taxation in this proceeding of debts due the decedent from residents of New York is unconstitutional. Vanhorne's Lessee v. Dorrance, 2 Dallas, 304, 310; Colder v. Bull, 3 Dallas, 386 ; St. Louis v. Ferry Co., 11 Wall. 423 ; Delaware Railroad Tax Cases, 18 Wall. 206, 229; Ex parte Yarborough, 110 U. S. 651, 658 ; Scott v. McNeal, 154 U. S. 34, 45, and cases cited; Adams Express Co. v. Ohio, 16o U. S. 194 ; Dewey v. Des Moines, 173 U. S. 193, 204.\n1. The proceedings impair the obligation of contracts between the decedent and the New York debtors in violation of section 10, of article I, of the Federal Constitution. Radlroad Company v. Pennsylvania, 15 Wall. 300; Tappan v. Merchants Nat. Bank, 19 Wall. 490, 499; Murray v. Cha/rleston, 96 U: S. 432, 448; Kirtland v. Hotchkiss, 100 TJ. S. 491, 499; Erie R. R. v. Pennsylvania, 153 U. S. 628, 646 ; Central Trust Co. v. Chat. R. (& C. R., 68 Fed. Rep. 685 ; Goldgait v. People, 106 Illinois, 25; City of Detroit v. Lewis, 109 Michigan, ,155, and other cases cited, supra.\n2. The proceedings deny full faith and credit to the public acts and judicial proceedings of Illinois in violation of section 1, of article IY. Hilton v. Guyot, 159 U. S. 113, 181; Hampton v. WConnel, 3 Wheat. 231; Mills v. Duryee, 7 Crancb, 181.\n3. The -proceedings deny to citizens of Illinois some of the privileges and immunities of citizens of New York in violation of section 2 of article IY. Ward v. Maryland, 12 Wall. 418; Soripps v. Board of Review, 183 Illinois, 278.\n4. The proceedings violate the Fourteenth Amendment. They abridge privileges and immunities. Giozza v. Tiernan, 148 U. S. 657; Duncan v. Missouri, 152 U. S. 377. They deny the equal protection of the law. Savings Bank v. Mult-nomah County, 169 U. S. 421; Lowe v. Kansas, 163 U. S. 81; Reagan v. Farmers L. & T. Co., 154 U.- S. 362, 399 ; Gulf, C. <& S. F. Ry. Co. v. EUis, 165 U. S. 150, 159; Tinsley v. Anderson, 171 U. S. 101, 106. They deprive the legatees of property without due process of law as there is no jurisdiction to tax. Scott v. McNeal, 154 U. S. 46; St. Louis v. Ferry Co., 11 Wall. 423, 430; Stuart v. Palmer, 74 N. Y. 183, 190. The proceedings were irregular as the Surrogate adjudged that the property was exempt and the Comptroller of the city of New York was not a person aggrieved by the order within the meaning of the section of the Code of Civil Procedure (\u00a7 2258), permitting an appeal, and the Court of Appeals erred in allowing the proceedings to stand until the Comptroller of the State could be substituted. The failure to deduct from the value of the property the amount of the Illinois inheritance tax and the Federal legacy tax was error.\nThe sovereign power of the States to tax successions should not be impaired but the power should be exercised fairly and harmoniously under the guidance of Constitutional restraints, and in accord with established principles of law.\nMr. Louis Marshall, with whom Mr. Julius Offenbach was on the brief, for the defendants in error.\nI. Whether the \u201c deposits \u201d made by the decedent with the Trust Company and Cuyler, Morgan & Co. be regarded as \u201cmoney\u201d within the State of New York belonging to him at the time of his death, or as a \u201c debt \u201d owing to him at that time by these \u201c depositaries,\u201d the court of last resort of that State nas declared it to be the intention of the legislature of that sovereignty to tax the succession to such money or credit although the decedent was at the time of his death a resident of Illinois.\n1, 2. The decisions-of New York ha ye construed these statutes as imposing a tax upon the right of succession to the property of a decedent, and not upon a decedent\u2019s estate as such, and, in effect, to limit the power of testamentary disposition, and that legatees and devisees take their bequests and devises subject to this tax imposed upon the succession to property. In other words, it is a tax upon the right to take property by devise or descent. Matter of Merriam, 14-1 N. Y. 479,480; Matter of Iloffman, 148 N. Y. 329, 331; United States v. Perkins, 163 U. S. 625, 628, 629; Soholey v. Pew, 23 Wall. 331, 348 ; Magoun v. Illinois Trust c% Savings Bk., 170 IT. S. 283, 288; Knowlton v. Moore, 178 IT. S. 41, 57, 59, 60 ; Plummer v. . Goler, 178 U. S. 115, 121, 122.\nThe constitutionality of a tax on the succession to property has been uniformly recognized and is no longer open to question, since the elaborate consideration which the subject received in the opinion of Mr. Justice McKenna in Magoun v. Illinois Trust c& Savings Bank, 170 U. S. 2S3, 287, 288.\nThe courts of New York have had occasion to frequently apply this statute to the succession to personal property of nonresidents which at the time of the death of the decedent was wdthin the State. Matter of Pomaine, 127 N. Y. 80 ; Matter of Houdayer, 150 N. Y. 37 ; writ of error dismissed; Scudder v. Comptroller of New York, 175 U. S. 32; Callahan v. Woodbridge, 171 Massachusetts, 595; Eidman v. Martinez, 184 IT. S. 587.\nDeposits in banks have been held assessable under this system of legislation in other cases. Matter of Burr, 16 Mise. Eep. 89 ; Matter of Mo?'ejon, N. Y. Law Journal, July 3, 1891; Matter of Bondon, N. Y. Law Journal, March 1, 1892; Estate of Spier, 6 Ohio Dec. 89S.\nThe highest court of New York has thus interpreted the 'statute now under consideration as providing that where a nonresident dies leaving a deposit in a bank or trust company within the State of New York, a transfer by will or intestate law of such deposit is a transfer of money \u2014 \u201c of property within the State,\u201d and as such is governed by the provision of section 220 of the tax law.\n3. This interpretation by the New York courts will be adopted by the Federal courts. Leffingwell v. Warren, 2 Black, 599, 603; Randall v. Brigham,, 7 Wall. 523, 541; Morley v. lake Shore Railway Go., 146 TJ. S. 167; Burgess v. Seligman, 107 U. S. 33; Flash v. Conn, 109 U. S. 379; Bucher v. Cheshire R. R. Co., 125 U. S. 584; German Bank v. Franklin Co., 128 U. S. 538 ; Amy v. Watertown, 136 U. S. 318; Gormley v. Clark, 134 U. S. 348; Detroit v. Osborne, 135 U. S. 500;. Hal-stead v. Buster, 140 U. S. 277 ; Bauserman v. Blunt, 147 U. S. 647; Balkam v. Woodstock, 154 U. S. 189; Hartford Ins. Co. v. Chicago Ry. Co., 175 U. S. 108 ; Wade v. Travis County, 174 U. S. 499, 508; Williams v. Eggleston, 170 U. S. 311; New Orleans v. Stempel, 175 \u00fc. S. 309, 316; Board of Liquidation v. Louisiana, 179 IT. S. 622, 638; Yazoo da Mississippi Yal. R. R. Co. v. Adams, 181 U. S. 580, 583.\n4. The decision in the Iloudayer case was correct. Biuefield Bcmana Co. v. Board of Assessors, 49 La. Ann. 43; Parker, Tax Collector, v. Strauss & Co., 49 La. Ann. 1173.\nThe deposit of money in such institutions exacts from the State the provision of continual safe-guards, civil, police and military, for the benefit of the depositor.\nFor the protection of those leaving their money with banks and trust companies, the State of New York has devised an elaborate system of investigation, supervision and administration of institutions of this class. \u25a0\nTaxation is the correlative of protection, and is as applicable to a non-resident owner of property as to a resident dwn\u00e9r. The deposit with the United States Trust Company did not, however, partake of the nature of a general deposit, but was a special deposit in trust. Jenkins v. Neff, 163 N. Y. 320, 330, aff\u2019d 186 U. S. 230, 234. People v. Binghamton Trust Co., 139 v. Y. 185, distinguished.\nBut' treating. the deposit of the proceeds of these shares of stock as an ordinary deposit, it is nevertheless believed that it was property of. the decedent'within the State of New York. Downes v. PImnix Bank of Charlestown, 6 Hill, 297; Payne v. Gardiner, 29 N. Y. 146; Howell v. Adams, 68 N. Y, 321; Hunger v. Albany City National Bank, 85 N. Y. 587 ; Bough-ton v. Flint, 74 N. Y. 482; Smiley v. Fry, 100 N. Y. 265 ; Dickinson v. Bank, 152 Massachusetts, 49, 55; Girard Bank v. Penn Township Bank, 39 Pa. St. 92, 98, 99; United States v. War dwell, 172 U. S. 48, 54, 55 ; Parker, Tax Collector, v. Strauss <& Co., 49 La. Ann. 1173.\nTreating this fund as a debt, for all practical purposes it was property within the State of New York. Section 649 of the Code of Civil Procedure ; Dunlop v. Paterson Fire Ins. Co., 12 Hun, 627, aff\u2019d 74 N. Y. 145; Douglas v. PImnix Ins. Co., 138 N. Y. 209; Embree v. Hanna, A Johns. 100; Williams v. Ingersoll, 89 N. Y. 508, 529; Carr v. Corcoran, 44, App. Div. 97; Simpson v. Jersey City Contracting Co., 165 N. Y. -T93; Chicago, Rock Island \u25a0<& Pacific Railway Company v. Sturm, 174 U. 'S, 7\u00cd0, and cases there cited.\nBefore-this fund could be distributed at the place of the de\u2022cedent\u2019s domicil, such distribution could only be made through . the aid of the New York courts by means of administration there, of the debt owing to the decedent; and title was, therefore, derivable through such administration.\nThe rule is established by a uniform line of authorities that an executor or administrator appointed in one State cannot as such sue, or be sued, in his representative capacity in another. ' Hopper v. Hopper, 125 N. Y. 402; Lawrence v. Lawrence, 3 Barb. Oh: 74; Matter of Webb, 11 Hun, 124; F'umdrow v. Hammond, 13 App. Div. 325; Johnson v. Wallis, 1\u00cd2 N. Y. 230 ; Petersen v. Chemical Bank, 32 N. Y. 22,40. Similar rules in other States. Greves v. Shaw, 173 Massachusetts, 205 ; S. C., 53 N. E. Bep. 372 ; Judy v. Kelley, 11 Illinois, '211; Mc-Garney v. Da/rnaTl, 134 Illinois, 367 ; S. 0., 25 N. E. Rep. 1005 ; \u00bfJohnson v. Powers, 139 U. S. 156 ; Stacy v. Thrasher, 6. How. \u25a0\u25a044, 58 ; Noonan v. Bradley, 9 Wall. 394-; Vaughan v. Northrup, 15 Pet. 1; Aspden v. Nixon, 4 How. 467; Reynolds v. Stockton, 140 H. S. 254, 272; Lawrence v: Nelson, 143 U. S. 222 ; Overby v. Gordon, 177 U. 8. 222 ; Wyman v. Halstead, 109 IJ. S. 654, 656 ; Chicago, Rock Island c&c. Ry. v. Sturm, 174 U. S. 714. Succession tax has some of the characteristics of a duty on the administration of the estate of the deceased persons. Minot v. Winthrop, 162 Massachusetts, 113 ; Frothingham v. Shaw,'175 Massachusetts, 59, 61.\nSuch duties are levied in respect of the control which every government has over property within its jurisdiction, irrespective of the domicil of the decedent.. Laidley v. Lord Advocate, 15 App. Cases, 468, 483 ; Hanson on Death Duties, 2, 63.\nII. If the funds in question are to be regarded as money of the decedent within the State, in accordance with the decision in the Houdayer case, then no question as to the validity of the tax can arise, since it must be conceded that it was within the power of the New York legislature to place a succession tax upon the tangible property within the State of a non-resident decedent. Callahan v. Woodbridge, 171 Massachusetts, 595; In re Romaine, 127 N. Y. 80; Matter of Whiting, 150 N. Y. 27; Albany v. Powell, 2 Jones\u2019 Eq. 51, and cases cited under point III;\nIII. As the legislature of New York intended to bring within its taxing power deposits made with residents of New York by non-residents for the purposes of assessing a succession tax upon the estate of the latter, as declared in the Houdayer case, it is within the power of such legislature to create a situs for such property within the sovereignty of New York for purposes of taxation.\nIt is doubtless true that under the legal fiction embodied in the. maxim mobilia personam seqmmtur personal estate is deemed to have no situs separate from the person or residence of the owner, and it is oh the basis of this maxim that it is claimed that debts and choses in action can have no situs other than that of the creditor.\nThis fiction- is not, however, superior to the legislative power and has been so frequently disregarded in legislation that it has become practically exploded. This is illustrated by the attachment laws, to which reference has already been made, and is demonstrated by a long line of decisions in various jurisdictions affecting the subject of taxation, citing New York decisions as follows : People ex rel. Iloyt v. Commissioners of Taxes, 28 N. Y. 224; People ex re\u00ed. Westbrook v. Board of Trustees of the Village of Ogdensburgh, 48 N. Y. 390 ; Matter of Romaine, \u00cd27N. Y. 80, 86; People ex rel. Jefferson v. Smith, 88 N. Y. 576, 581; Kirkland v. Hotchkiss, 100 IT. S. 491; Matter of Whiting, 150 N. Y. 30. Decisions of this court: Hervey v. R. 1. locomotive Works, 93 U. S. 664, 671; Oreen v. Van Buskirk, 5 Wall. 307 ; 7 Wall. 139, citing Warner v. Jaffray, 96 N. Y. 254, 255 ; Walworth v. Harris, 129 TJ. S. 365 ; Security Trust Co. v. Dodd, 173 TJ. S. 628; Pullman's Car Co. v. Pennsylvania, 141 TJ; S. 18, 22, and cases cited; Savings Society v. Multnomah County, 169 TJ. S. 421, and other cases already cited ; Clason v. Hew Orleans, 46 La. Ann. 1; Parker, Tax Collector, v. Strauss (& Co., 49 La. Ann. 1173; Bristol v. Washington. Co., 177 U. S. 133; Eidman v. Martinez, 184 TJ. S. 578, and cases cited; Moore v. Ruckgaber, 184 TJ. S. 593. Decisions in other jurisdictions : Greves v. Shaw, 173 Massachusetts, 205; S. C., 53 N. E. Rep. 372 ; In re Small\u2019s Estate, 151 Pa. St. 1; S. C., 25 Atl. Rep. 23 ; Kingman Country Commissioners v. Leona/rd, 57 Kansas, 531; S. C., 34 L. R. A. 810 ; Allen v. National State Bank, 92 Maryland, 509; S. C., 52 L. R. A. 760.\nFrom these decisions the rule is deducible that it is within the power of the State to which resort must be had for the purpose of reducing to possession property of a decedent, whether a resident or a non-resident, by those succeeding to his ownership, to impose such restrictions and conditions on the rights of succession as it may see fit to create, whether the property to be reduced to possession is tangible or intangible, real or personal, and even though it may be a mere credit. United States v. Perkins, 163 TJ. S. 625; State v. Dalrymple, 70 Maryland, 294; Plummer v. Coler, 178 TJ. S. 115, 130, 137; Magoun v. 111.Trust & Sam. Bank, 170 TJ. S. 288. State Tax on Foreign Held Bonds, 15 Wall. 300, distinguished.\nIV. The statute on which the tax is predicated does not impair the obligation of the contract. Pinney v. Nelson, 183 IT. S. 144,147; Lehigh Water Co. v. Easton, 121 TJ. S. 388, 391; Central Land Co. v. Laidley, 159 U. S. 103, 111; McCullough v. Virginia, 172 TJ. S. 102, 116.\nV. The tax is not rendered unconstitutional because there is a possibility that the decedent\u2019s estate may be subjected to double taxation.\nThere is no provision of the Federal Constitution governing state taxation, which forbids unequal or double taxation. Davidson v. New Orleans, 96 IJ. S. 97, 106; Dyer v. Osborne, 11 R. I. 321; S. G., 23 Am. Rep. 460 ; Frothingham v. Shaw, 175 Massachusetts, 59, 61; People v. The Home Insurance Go., 92 N. Y. 347, affirmed 119 U. S. 129 ; Goe v. Errol, 116 U. S. 524.\nThe war tax on inheritances was sustained in Knowltm v. Mooi'e, 178 U. S. 53, although the State had likewise imposed a tax on the same inheritance, although it was recognized that the transmission of property by will or intestacy is within the exclusive province of state and not Federal regulation.\nYI. The decision sought to be reviewed does not deny full faith and credit to any public acts, records or judicial proceedings in the State of Illinois. Bonaparte v. Tax Court, 104 U. S. 592; C. N. Nelson Lumber Go. v. Town of Loraine, 22 Fed. Rep. 60; Johnson v. Powers, 139 U. S. 156.\nVII. The statute does not deprive the plaintiff in error of any of the privileges and immunities of citizens of the State of New York.\nThe act under consideration seeks to tax the right of succession to all property within the State, whether it belongs to a resident or a non-resident. It certainly creates no exception in favor of a resident of the State. It gives him no privilege or immunity. Non-residents are only taxed on the right of succession to property within the State, while residents of the State are subjected to a tax upon all of their property wherever it may be situated. Mager v. Grima, 8 How. 490; Wallace v. Meyers, 38 Fed. Rep. 184, appeal dismissed, 154 U. S. 523; B?'own.v. Houston, 114 U. S. 622, 635.\nVIII. The act does not violate the Fourteenth Amendment to the Constitution of the United States. It does not abridge the privileges and immunities of the plaintiff in error. It does not deny to her the equal protection of the law. ' Magoun v. Illinois Trust & Savings Bank, 170 U. S. 283; Bell's Gap Rail/road v. Pennsylvania, 134 U. S. 232; Giozza v. Tiernan, 148 U. S. 657; Pacific Express Go. v. Seibert, 142 U. S.' 339; Merchants' Bank v. Pennsylvania, 167 U. S. 461; Davidson v. New Orleans, 96 IT. S. 97,105 ; Orr v. Gilman, 183 IT. S. 278; Carpenter v. Pennsylvania, 17 How. 456. It does not deprive the plaintiff in error of her property without due process of law. Davidson v. New Orleans, 96 IT. S. 97, 104; Hagar v. Reclamation District, 111 IT. S. 701, 710; Spencer v. Merchant, 125 U. S. 345'; Palmer y. McMahon, 133 IT. S. 660, 669; Lent v. Till-son, 140 U.' S. 316, 327; Pittsburg dec. R. R. Co. v. Backus, 154 IT. S. 421; Fallbrook Irrigation District v. Bradley, 164 IT. S. .168; Merchants' Bank v. Pennsylvania,. 167 U. S. 467.\nThe criticism on the regularity of the procedure of the Appellate Division in reversing the Surrogate\u2019s decision presents no Federal question, nor has it any merit..\nIX. The plaintiff in error cannot escape taxation on the pretense that the money deposited by the decedent was only tran-sitorily within the State of New York at the time of his death. Cases cited by plaintiff in error distinguished."
+  },
+  "file_name": "0189-01",
+  "first_page_order": 217,
+  "last_page_order": 235
+}

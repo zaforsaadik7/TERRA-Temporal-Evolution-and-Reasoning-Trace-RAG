@@ -1,0 +1,947 @@
+{
+  "id": 3632193,
+  "name": "TERRE HAUTE AND INDIANAPOLIS RAILROAD COMPANY v. INDIANA ex rel. KETCHAM",
+  "name_abbreviation": "Terre Haute & Indianapolis Railroad v. Indiana ex rel. Ketcham",
+  "decision_date": "1904-05-31",
+  "docket_number": "No. 264",
+  "first_page": "579",
+  "last_page": "589",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "194 U.S. 579"
+    },
+    {
+      "type": "parallel",
+      "cite": "48 L. Ed. 1124"
+    },
+    {
+      "type": "parallel",
+      "cite": "24 S. Ct. 767"
+    },
+    {
+      "type": "vendor",
+      "cite": "1904 U.S. LEXIS 794"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1903-092"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "164 U. S. 578",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591667
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/164/0578-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 500",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3424642
+      ],
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/82/0500-01"
+      ]
+    },
+    {
+      "cite": "27 Pa. St. 339",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        979639
+      ],
+      "pin_cites": [
+        {
+          "page": "351"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/27/0339-01"
+      ]
+    },
+    {
+      "cite": "192 U. S. 73",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        360326
+      ],
+      "pin_cites": [
+        {
+          "page": "85"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/192/0073-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 69",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3381233
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0069-01"
+      ]
+    },
+    {
+      "cite": "9 Pet. 329",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5614814
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/34/0329-01"
+      ]
+    },
+    {
+      "cite": "12 Wheat. 213",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1429818
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/25/0213-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 674",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 Wall. 124",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3454459
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/73/0124-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 168",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298201
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/165/0168-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591793
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/164/0252-01"
+      ]
+    },
+    {
+      "cite": "10 Pet. 368",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5616896
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/35/0368-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136404
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/162/0091-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 439",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581386
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0439-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298299
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/165/0188-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 673",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3595050
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0673-01"
+      ]
+    },
+    {
+      "cite": "151 U. S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298994
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/151/0658-01"
+      ]
+    },
+    {
+      "cite": "11 Wall. 204",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3414130
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/78/0204-01"
+      ]
+    },
+    {
+      "cite": "160 U. S. 556",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701251
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/160/0556-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 674",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142705
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0674-01"
+      ]
+    },
+    {
+      "cite": "150 U. S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3571950
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/150/0361-01"
+      ]
+    },
+    {
+      "cite": "132 U. S. 554",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5699841
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/132/0554-01"
+      ]
+    },
+    {
+      "cite": "129 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299238
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/129/0178-01"
+      ]
+    },
+    {
+      "cite": "135 U. S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3543684
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/135/0244-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576546
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/153/0436-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591685
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/164/0325-01"
+      ]
+    },
+    {
+      "cite": "149 U. S. 645",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3569952
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/149/0645-01"
+      ]
+    },
+    {
+      "cite": "138 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "125 U. S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3527914
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/125/0018-01"
+      ]
+    },
+    {
+      "cite": "152 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3575021
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/152/0377-01"
+      ]
+    },
+    {
+      "cite": "149 N. Y. 137",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        27486
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/149/0137-01"
+      ]
+    },
+    {
+      "cite": "4 N. Y. 71",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2005557
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/4/0071-01"
+      ]
+    },
+    {
+      "cite": "5 Wall. 580",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3457690
+      ],
+      "pin_cites": [
+        {
+          "page": "590"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/72/0580-01"
+      ]
+    },
+    {
+      "cite": "2 Wall. 35",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8299851
+      ],
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/69/0035-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 316",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701051
+      ],
+      "pin_cites": [
+        {
+          "page": "329"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/161/0316-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 606",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5645723
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/94/0606-01"
+      ]
+    },
+    {
+      "cite": "5 Sandf. 134",
+      "category": "reporters:state",
+      "reporter": "Sandf.",
+      "case_ids": [
+        1353516
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-super-ct/7/0134-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594998
+      ],
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0371-01"
+      ]
+    },
+    {
+      "cite": "20 Wall. 137",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3392768
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/87/0137-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3617929
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/180/0041-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 399",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3625962
+      ],
+      "pin_cites": [
+        {
+          "page": "411"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/184/0399-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 486",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576629
+      ],
+      "pin_cites": [
+        {
+          "page": "492"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/153/0486-01"
+      ]
+    },
+    {
+      "cite": "125 U. S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3528177
+      ],
+      "pin_cites": [
+        {
+          "page": "278"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/125/0273-01"
+      ]
+    },
+    {
+      "cite": "50 Ohio St. 103",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        48156
+      ],
+      "pin_cites": [
+        {
+          "page": "112"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/50/0103-01"
+      ]
+    },
+    {
+      "cite": "18 Pa. St. 111",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        969096
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/18/0111-01"
+      ]
+    },
+    {
+      "cite": "67 Ohio St. 144",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        960058
+      ],
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/67/0144-01"
+      ]
+    },
+    {
+      "cite": "159 N. Y. 362",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        32838
+      ],
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/159/0362-01"
+      ]
+    },
+    {
+      "cite": "97 U. S. 293",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3375698
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/97/0293-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 102",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3605289
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "123"
+        },
+        {
+          "page": "109"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0102-01"
+      ]
+    },
+    {
+      "cite": "15 W. Va. 208",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8641051
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/w-va/15/0208-01"
+      ]
+    },
+    {
+      "cite": "27 Tex. Civ. App. 1",
+      "category": "reporters:state",
+      "reporter": "Tex. Civ. App.",
+      "case_ids": [
+        2890748
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex-civ-app/27/0001-01"
+      ]
+    },
+    {
+      "cite": "10 How. 395",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3358005
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/51/0395-01"
+      ]
+    },
+    {
+      "cite": "22 How. 364",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        1137365
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/63/0364-01"
+      ]
+    },
+    {
+      "cite": "2 Wall. 450",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8300249
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/69/0450-01"
+      ]
+    },
+    {
+      "cite": "117 U. S. 363",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299862
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/117/0363-01"
+      ]
+    },
+    {
+      "cite": "104 U. S. 689",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3492136
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/104/0689-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 589",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646983
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/94/0589-01"
+      ]
+    },
+    {
+      "cite": "2 Pet. 492",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        11338825
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/27/0492-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594793
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0038-01"
+      ]
+    },
+    {
+      "cite": "137 U. S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3547183
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/137/0141-01"
+      ]
+    },
+    {
+      "cite": "98 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305
+      ],
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/98/0398-01"
+      ]
+    },
+    {
+      "cite": "7 Wall. 506",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3449918
+      ],
+      "pin_cites": [
+        {
+          "page": "514"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/74/0506-01"
+      ]
+    },
+    {
+      "cite": "6 Cranch, 329",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        530391
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/10/0329-01"
+      ]
+    },
+    {
+      "cite": "5 Cranch, 281",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        1446260
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/9/0281-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 683",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514017
+      ],
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/115/0683-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1128,
+    "char_count": 22321,
+    "ocr_confidence": 0.592,
+    "pagerank": {
+      "raw": 2.1355383011529394e-07,
+      "percentile": 0.7663829049492847
+    },
+    "sha256": "80ad348a9dc42e5253656daca25a64aa9c405e8bacafa48c4ed175db7646ecf7",
+    "simhash": "1:cd1570412797d45c",
+    "word_count": 3927
+  },
+  "last_updated": "2024-02-27T18:07:01.426469+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "TERRE HAUTE AND INDIANAPOLIS RAILROAD COMPANY v. INDIANA ex rel. KETCHAM."
+    ],
+    "opinions": [
+      {
+        "text": "-Mr. Justice Holmes\ndelivered the opinion of the court.\n. This is a suit brought by the State of Indiana to, ascertain and to recover from -the plaintiff in error the total net profits made by the latter over fifteen per cent on the true cost of construction of its railroad, from the'time when the net earnings equalled that cost with ten per cent on the same added. The claim of the State was made under \u00a7 23 of .the charter of the railroad, approved January 26, 1847, and four acts of 1897 to be referred to. The complaint admits, and the answer sets up, a surrender on January 17, 1873, of the charter of 1847, on which the supposed obligation was based, and an acceptance of'the general railroad law by the company, and also a judgment for the company in March, 1876, on a former complaint for the same cause. \u25a0 The answer also makes a general, denial and'invokes the Fourteenth Amendment and other relevant parts of the Constitution of the United States. The case' was referred to a master, who ruled that the former judgment was not a bar, but ruled also, that the company was not .liable. The superior court ruled the other way and gave judgment against , the company for $913,905.01. This judgment was affirmed by the Supreme Court of the State, and th\u00e9 case then was brought here by writ of error.\n. By' \u00a7 22 of the charter the railroad is given absolute discretion in the fixing of charges. Then, by \u00a723: \u201c.When the aggregate amount of dividends\u2019 declared shall amount-to the full sum invested and- ten per centum, per annum thereon, the legislature may so regulate the tolls and freights that not more than fifteen per centum per annum shall be divided on- the capital employed, and the surplus profits, if any, after paying the expenses and receiving [reserving?] such .proportion as may be necessary for future contingencies, shall be paid over to the treasurer of State, for the use of common schools, but the corporation shall not be 'Compelled by law to reduce the tolls and freights so that a dividend of fifteen per centum per annum cannot be made; and it shall be the duty of the corporation to furnish the legislature-, if required, with a correct statement of the amount of expenditures and the amount of profits after deducting all expenses,\u201d etc. By \u00a724: Semi-annual dividends \u00f3f so much of the profits as the corporation may deem expedient are to be made, and \u201cthe-directors may retain such proportion of the profits as a contingent fund to meet subsequent expenses as they shall deem proper.\u201d By \u00a7 35, repealed in 1848, the corporation is to keep a fair record of the whole expense of making and-repairing its road, etc!, and also a fair account of the tolls received,, and the State is to have the right to purchase the stock of the company after twenty-five years for a sum equal, with the- tolls received, to the cost and expenses of the railroad with ten per cent.-\nThe complaint relied also upon an amendment , of section 23,. on February 24, 1897, attempting to make the above mentioned surplus profits a debt and to make the company accountable from the beginning of such profits. The complaint still further relied upon an act of January 27, 1897, requiring. the railroad to account; an act of March 4, 1897, appropriating the net earnings of the company above fifteen per cent, etc., as above, to the use of common schools,- and authorizing a demand and a suit; and an amendment \u00f3f the general-railroad law on February 18,1897, after the surrender of this company's charter, providing that all liabilities to the State, whether inchoate or compl\u00e9te, under special charter, were and should be reserved, notwithstanding , the past or future acceptance of the surrender, of such special, charters.\nTh\u00e9 Supreme Court, while agreeing'that the right of the State must depend on the original charter, did give force to this later legislation, in terms, as providing a remedy, and, on the construction which -We are compelled to give to the charter, did-also give force in fact to the amendment to the provision attempting retrospectively to save the charter obligations after a surrender had been accepted. Therefore the question is properly here whether these statutes impaired, the rights of the railroad under the Constitution of the United States. For in order to determine whether the later legislation impairs those rights, this court must decide for itself what those rights were. If in the opinion of this court the State had lost all right to demand any sum whatever under \u00a7 23 of the charter, legislation necessary to. enforce such a demand is invalid and may be pronounced so by this court, notwithstanding the fact that the (cause of action, now is based upon the original act. We shall recur to the question of our jurisdiction after discussing the merits of the case, which we must do to make what little we have to add plain. _\nThe Supreme Court of the State seems, although it is not clear, to have construed \u00a7 23 as creating by itself alone a debt to the State which accrued as fast as surplus profits were realized, which, under that section, might have been required to be paid over to the treasurer of State. If is pointed out that in 1847 the State had no credit and was in need of roads. and schools, and that therefore it was natural to provide for the handing over of any surplus after a liberal return to the owners of the. road. It is thought that the express grant of an absolute right to fifteen per cent negatives the right to more, .that the provisions for an account in \u00a7\u00a723 and 35 and the mandatory language as to the surplus confirm this result, and that it is unreasonable to suppose that the legislature, after indicating what by the agreement of the parties would be a fair demand of the State, should leave the right of the State in abeyance until a future legislature should choose to act. In this way the . amendment of \u00a723 in 1897 is practically carried into effect. While, repudiated as legislation it is adopted by construction,' and is found/to express only the meaning of the original act.\nWe are driven to a different construction of the charter, notwithstanding the deference naturally felt for the ..decision of a state court .upon state laws. The language is .plain. The legislature \u201cmay so\u201d regulate tolls \u201cthat\u201d- not more than fifteen per cent shall be divided, \u201cand\u201d the surplus profit shall, d oaid over. The word \u201cmay,\u201d it is agreed, is permissive, not mandatory. In the next place it is only upon its regulation of tolls, so that not more than fifteen per cent shall be divided, that dividends are confined to that sum. Otherwise the general power, given by \u00a7 24, to declare such dividends as the company deems expedient, remains in force. Finally, the payment over of the surplus profits above fifteen per cent is not a separate, independent and absolute mandate, but is connected witji \u201cso regulate tolls, that\u201d by \u201cand.\u201d Like the cutting'down of dividends, it is a result-of the regulation. Again, the duty of the corporation to furnish the legislature a statement of-expenditures is only \u201cif required.\u201d It might be required in order to be certain whether it was. advisable to regulate tolls. Perhaps if the legislature had regulated them it might be required in order to find out what was due. The provision for a record and an account in the repealed \u00a7 35 seems to us to have little bearing. They were required there, primarily at least, with reference to the possible purchase of the* stock by the State. We infer that the state courts considered the words \u201cregulate tolls\u201d to refer solely to fixing the amount to. be charged, and regarded the payment over Of the surplus as an independent mandate. It seems to us that the words as here used meant more, and embraced not only fixing the amount to be charged to the public, but an order for the division of earnings between the railroad and the schools. The. provision'as to the surplus over fifteen per cent is not sufficiently accounted for if the regulation of tolls is intended to make the profits as n\u00e9ar fifteen, per cent as may be.\nNot only the absolute discretion as to dividends given by *\u00a7 24, but the similar discretion given by the same section as to the proportion of profits to be retained, confirms the grammatical, construction of \u00a723. Circumstances might change, and knowledge might change. It is. agreed that they did not know much about railroads in 1847. The corporation was allowed to' make and to distribute or retain such earnings as It could, subject to the power of the State in certain events to require it to pay over extra profits, or to sell its stock. But which, and whether the State would make either, demand, was left undecided, and until the State elected the whole earnings of the company were its own.\nIt follows that when the company surrendered its charter In 1873, there 'having been no attempt by the State to regulate tolls before that time, the company was free from liability nr the possibility of demand. Therefore it is only by attempting, as it did attempt in its complaint, to apply the subsequent amendment of the general railroad law that the State can come Into court. That law, it will be remembered, purported retrospectively to save rights under surrendered charters. It does not need argument to show that this amendment could not _affeet the plaintiff.\nThe ease then stands thus: The state court has sustained \u00e1 .result whieh cannot be reached, except on what we deem a wrong construction of the charter, without relying on unconstitutional legislation. It clearly did rely upon that legislation to some extent, but exactly how far is left obscure. We are of .opinion that we cannot decline jurisdiction of a case which certainly never would have been brought but for the passage of flagrantly unconstitutional laws, because the state court put forward the untenable construction more than the unconstitutional statutes in its judgment. To hold otherwise would open an easy method of avoiding the jurisdiction of this court. Louisville Gas Co. v. Citizens\u2019 Gas Co., 115 U. S. 683, 697. We may add that it is admitted that one of the acts of 1897 was necessary to authorize a demand and so t\u00f3 create a. cause of action. It was for want of an authorized d\u00e9rnand that the-former suit was held no bar. But in our opinion the State. \u2019 had no right in 1897 to make a demand.\nJudgment reversed.",
+        "type": "majority",
+        "author": "-Mr. Justice Holmes"
+      }
+    ],
+    "attorneys": [
+      "Mr. Lawrence Maxwell, Jr., and Mr. John G. Williams, with whom Mr. Samuel O. Pickens was. on the brief, for' plain- . tiff in error:",
+      "Mr. \u25a0 William A. Ketcham and Mr. Robert S. Taylor, with whom Mr. Roscoe O. Hawkins and Mr. Ferdinand Winter were on the brief, for defendant in error:"
+    ],
+    "corrections": "",
+    "head_matter": "TERRE HAUTE AND INDIANAPOLIS RAILROAD COMPANY v. INDIANA ex rel. KETCHAM.\nERROR TO THE SUPREME COURT OF THE STATE OF INDIANA.'\nNo. 264.\nArgued April 29, May 2, 1904.\nDecided May 31, 1904.\nWhere the state court has sustained a result which cannot be reached except on what this court\u2019 deems a wrong construction of the charter without relying on unconstitutional legislation this court cannot decline jurisdiction on writ of error because the state court apparently relied more on the untenable construction than on the unconstitutional statute.\nA provision in a charter of a railroad company that the legislature may so regulate tolls that not more than a certain percentage be divided as profits to the stockholders and the surplus shall be paid over to the state treasurer for the use of schools, held, in this case to be permissive . and not mandatory and that until the State acted or made a demand the railroad company could act as it saw fit as to its entire earnings.\nWhen, therefore, the company surrendered its original charter and accepted a new one without any such provision and there had up to that time been no attempt on the part of the State to regulate tolls nor any demand made for surplus earnings the company was free from liability under the original , charter, and subsequent legislation attempting to amend its charter or the general railroad law would not affect its rights.\n, The facts are stated in' the opinion of the court.\nMr. Lawrence Maxwell, Jr., and Mr. John G. Williams, with whom Mr. Samuel O. Pickens was. on the brief, for' plain- . tiff in error:\n\u2022 The State, having accepted an unconditional surrender of the company\u2019s original charter, could not thereafter impose an obligation upon the company by virtue of power contained in the surrendered charter. The surrender was equivalent to the repeal of the charter with the consent of the company. The repeal \u00f3f a statute takes away all powers which depend upon the' statute) that have not been exercised and are not reserved. Surtees v. Ellison, 9 B. & C. 750; Moor v. Seaton, 31 Indiana, 11; Kay v. Goodwin, 6 Bing. 576, 582; Miller\u2019s Case, 1 W. Bl. 451; Yeaton v. United States, 5 Cranch, 281; Schooner Rachel v. United States, 6 Cranch, 329; Ex parte McCardle, 7 Wall. 506, 514; Railroad Co. v. Grant, 98 U. S. 398, 401; Gurnee v. Patrick County, 137 U. S. 141; In re Hall, 167 U. S. 38; Bank of Hamilton v. Dudley\u2019s Lessee, 2 Pet. 492; Clapp v. Mason, 94 U. S. 589; Mason v. Sargent, 104 U. S. 689; Sturges v. United States, 117 U. S. 363; Steamship Co. v. Joliffe, 2 Wall. 450; Aspinwall v. Commissioners, 22 How. 364; Baltimore &c. S. R. R. Co. v. Nesbit, 10 How. 395; Lamb v. Schottler, 54 California, 319, 323; Terry v. Dale, 27 Tex. Civ. App. 1; Cushman v. Hale, 68 Vermont, 444; Van Inwagen v. Chicago, 61 Illinois, 31; Curran v. Owens, 15 W. Va. 208; Dillon v. Linder, 36 Wisconsin, 344; Bennett v. Hargus, 1 Nebraska, 419; Kertschacke v. Ludwig, 28 Wisconsin, 430; Rood v. C. M. & St. P. Ry. Co., 43 Wisconsin, 146; Sutherland Stat. Cons. \u00a7\u00a7 162, 163; 26 Am. & Eng. Ency. of Law (2d ed.), 745, 747, 752; Endlich, Interp. Stats. \u00a7\u00a7478, 480; Hardcastle, Stat. Law (3d ed.), 374.\nThe judgment of the Superior Court of Marion County in 1876 created a vested right which it Avas not within the power of the legislature to impair. McCullough v. Virginia, 172 U. S. 102, 123; Memphis v. United States, 97 U. S. 293; Atkinson v. Dunlap, 50 Maine, 111, 115; Davis v. Menasha, 21 Wisconsin, 497, 502; Lancaster v. Barr, 25 Wisconsin, 560; Beaupre v. Hoerr, 13 Minnesota, 366; Germania Savings Bank v. Suspension Bridge, 159 N. Y. 362, 368; Gompf v. Wolfinger, 67 Ohio St. 144, 152; McCabe v. Emerson, 18 Pa. St. 111; Griffin\u2019s Executors v. Cunningham, 20 Grat. 31; Wieland v. Schillock, 24 Minnesota, 345; Dorsey v. Dorsey, 37 Maryland, 64, 74.\nThe legislation of 1897 does not provide a remedy for a preexisting cause of action, but creates a new cause of action. Commissioners v. Rosche Bros., 50 Ohio St. 103, 112.\nIf the company was indebted.to the State prior to 1897, there was\" ample authority for a suit to collect the debt. State ex rel. v. Denny, 67 Indiana, 148, 159; Carr v. State ex rel., 81 Indiana, 342; Board v. State, 92 Indiana, 353; United States v. San Jacinto Tin Co., 125 U. S. 273, 278.\nThe opinion of the Supreme Court of Indiana concedes that there was no cause of action in 1875, and that the present suit could not be maintained but for the legislation of 1897.\nThe effect given to the legislation of 1897 by the judgment under review is to destroy the vested right of the company under the judgment of 1876 in its favor, and t\u00f3 impair the obligation of the contract of surrender of 1873.\nIn determining whether the legislation of 1897 impairs the obligation of prior contracts between the company and the State, or destroys its vested rights, this court will construe the contracts for itself, and will determine the effect thereon of the subsequent legislation. Mobile & Ohio R. R. v. Tennessee, 153 U. S. 486, 492; McCullough v. Virginia, 172 U. S. 102, 109; Wilson v. Standefer, 184 U. S. 399, 411; Yazoo & Miss. R. R. v. Adams, 180 U. S. 41; Citizens\u2019 Bank v. Parker, 192. U. S. 73, 85.\nThe statutes of 1897 are all repugnant to the Constitution of the United States. The act of January 27, without'.constitutional right and in pursuance of the authority of a charter which had been surrendered twenty-four years before, required the company to account to the State for its earnings and private property commencing fifty years back. The act of February 18 declared the contract of surrender made twenty-four years before to be inoperative. '\u2022 The act of February 24 undertook to amend the charter; which never was subject to amendment and which, moreover, had been surrendered twenty-four years before, by imposing new and different obligations and declaring that the liability of the company should \u201cbe the same as though this amendment had been originally .a part of the charter of said railroad and as though a suit to enforce such accounting had been prosecuted prior to the acc\u00e9ptance by said railroad company of the genex-al railroad law of the State.\u201d The act of March 4 appropriated the company\u2019s private property to the use of the- State and directed the-Attorney General to sue for its recovery.\nThe company, never was liable to account to the State for surplus earnings, in the absence of legislation regulating its tolls. This was the thing adjudged by the Superior Court of Marion County in 1876. The adjudication of a question of law, such as the construction of a contract, is as binding as the adjudication of an issue of fact. Tioga Railroad v. Blossburg &c. Railroad, 20 Wall. 137; New Orleans v. Citizens\u2019 Bank, 167 U. S. 371, 396; Birckhead v. Brown, 5 Sandf. 134, 149.\nWhat was adjudged in 1876 may be shown by parol proof, and is established by the opinion of the Superior Court of Marion County in sustairxing the, demurrer to the complaint: Russell v. Place, 94 U. S. 606; Washington Gas Co. v. District of Columbia, 161 U. S. 316, 329; Miles v. Caldwell, 2 Wall. 35, 42; Bottorff v. Wise, 53 Indiana, 32; Packet Company v. Sickles, 5 Wall. 580, 590; Doty v. Brown, 4 N. Y. 71; Campbell v. Gross, 39 Indiana, 155, 159; Walker v. Chase, 53 Maine, 258; Wood v. Faut, 55 Michigan, 185; Carleton v. Lombard, Ayers & Co., 149 N. Y. 137; Hargus v. Goodman, 12 Indiana, 629; Campbell v. Cross, 39 Indiana, 155; Roberts v. Norris, 67 Indiana, 386; Birckhead v. Brown, 5 Sandf. 134 (N. Y. Superior Court); Spicer v. United States, 5 C. Cl. 34.\nMr. \u25a0 William A. Ketcham and Mr. Robert S. Taylor, with whom Mr. Roscoe O. Hawkins and Mr. Ferdinand Winter were on the brief, for defendant in error:\nThe judgment does not depend in any respect upon the denial of any right secured by the Constitution of the United States, and no Federal question is involved. The jurisdiction of this court in the present case depends upon wheth\u00e9r in the-court below the defendant in error asserted the validity of the. legislation by the general assembly of. the-State of Indiana, of 1897, and that the plaintiff denied such\"' 'validity on the ground of its being repugnant to the Constitution of the United States, and that the decision was in favor of its validity, of whether any right claimed under the Constitution of the United States, and specially set up and claimed by the plaintiff \u25a0in error, has been denied. 1- Compiled Statutes, U. S. 1901, \u00a7 709; Duncan v. Mississippi, 152 U. S. 377; De Saussure v. Gaillard, 125 U. S. 18; Missouri v. Andriano, 138 U. S. 497; McNulty v. The People, 149 U. S. 645; Carothers v. Mayer, 164 U. S. 325. Only the Federal question thus presented can be reviewed in this court. Ashley v. Ryan, 153 U. S. 436.\nWhere the case was decided in the court below on an independent ground, broad enough to\u2019 maintain the judgment, and not involving a Federal question, this\u2019 court will dismiss the writ of error without considering the Federal question. Beatty v. Benton, 135 U. S. 244; Marrow v. Brinkley, 129 U. S. 178; Hale v. Akers, 132 U. S. 554; Eustis v. Bolles, 150 U. S. 361; Costello v. McConnico, 168 U. S. 674; Missouri Pac. Ry. Co. v. Fitzgerald, 160 U. S. 556.\nIf merely the construction of state statutes is involved the writ of error will not lie. Insurance Co. v. Treasurer, 11 Wall. 204; or to review the decision of the court below upon questions of fact. Dower v. Richards, 151 U. S. 658; Hedrick v. Atchison &c. Ry. Co., 167 U. S. 673; Egan v. Haft, 165 U. S. 188; or on questions of the admission or rejection of evidence which does not bear directly upon some matter of a Federal nature. Cleveland &c. R. R. Co. v. Backus, 154 U. S. 439; Central Pac. Ry. Co. v. California, 162 U. S. 91.\nA Federal question is not presented simply because the party litigant asserts that the claim made against him by his adversary depends upon the assertion, or involves the denial, 'of some right secured to him by the Constitution or laws of the United States. The record must affirmatively show such to be the fact. Crowell v. Randall, 10 Pet. 368.\nThe assignment of errors, asserting the existence and decision against the plaintiff in error, of a Federal question, counts for nothing, unless from the record itself the facts appear. Fowler v. Lamson, 164 U. S. 252; Clarke v. McDade, 165 U. S. 168; Walker v. Villavaso, 6 Wall. 124.\nAnd as to absence of Federal question, see California v. Hollady, 159 U. S. 674; as to when state legislation relating to remedy does not impair contracts, see Cooley\u2019s Con. Lim. 346, 357; Ogden v. Saunders, 12 Wheat. 213; Been v. Haughton, 9 Pet. 329; Tennessee v. Speed, 96 U. S. 69; Chicago &c. R. R. Co. v. State, 153 Indiana, 135; Citizens\u2019 Bank v. Parker, 192 U. S. 73, 85; Yazoo & Miss. R. R. Co. v. Adams, 180 U. S. 41.\nRegulation of tolls by the legislature was not a condition precedent to the obligation of plaintiff in error to pay its surplus earnings to the Treasurer of State for the use of the common schools. Section 23 of the act of 1847 limited the amount that plaintiff in error should ever appropriate in profits to its own use.\nWhen these- sums were realized, the surplus, if any, after the payment of the expenses, and reserving such proportion as might be necessary for future contingencies, was payable to the Treasurer of State for the use of common schools, without reference to whether the State had taken action to .regulate the tolls and freights of the company.\nThe road held the profits in trust upon demand of the State.\nCorporations are mere creatures of law and have no powers except those expressly granted or indispensably necessary to the exercise of those expressly granted. Commonwealth v. Erie & N. E. R. R. Co., 27 Pa. St. 339, 351; Holyoke Co. v. Lymav. 15 Wall. 500, 511; Stourbridge Canal Co. v. Wheeley, 2 B. & Ad. 792; 4 Thompson on Corp. \u00a7 5661; Covington &c. Turnpike Co. v. Sandford, 164 U. S. 578."
+  },
+  "file_name": "0579-01",
+  "first_page_order": 607,
+  "last_page_order": 617
+}

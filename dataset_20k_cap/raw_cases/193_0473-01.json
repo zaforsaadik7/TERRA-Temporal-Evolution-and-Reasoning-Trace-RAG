@@ -1,0 +1,664 @@
+{
+  "id": 3629473,
+  "name": "TINKER v. COLWELL",
+  "name_abbreviation": "Tinker v. Colwell",
+  "decision_date": "1904-03-21",
+  "docket_number": "No. 160",
+  "first_page": "473",
+  "last_page": "490",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "193 U.S. 473"
+    },
+    {
+      "type": "parallel",
+      "cite": "48 L. Ed. 754"
+    },
+    {
+      "type": "parallel",
+      "cite": "24 S. Ct. 505"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1903-169"
+    },
+    {
+      "type": "vendor",
+      "cite": "1904 U.S. LEXIS 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "121 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        678720
+      ],
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/121/0457-01"
+      ]
+    },
+    {
+      "cite": "150 Pa. St. 359",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        834438
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/150/0359-01"
+      ]
+    },
+    {
+      "cite": "11 Cush. 130",
+      "category": "reporters:state",
+      "reporter": "Cush.",
+      "case_ids": [
+        1970414
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/65/0130-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 168",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62520
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0168-01"
+      ]
+    },
+    {
+      "cite": "151 N. Y. 60",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        29755
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/151/0060-01"
+      ]
+    },
+    {
+      "cite": "108 Fed. Rep. 785",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6727499
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/108/0785-01"
+      ]
+    },
+    {
+      "cite": "7 Am. B. R. 238",
+      "category": "reporters:specialty",
+      "reporter": "Am. B.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "111 Fed. Rep. 261",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "58 App. Div. (N. Y.) 276",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "21 Wall. 437",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "11 Fed. Rep. 636",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "159 U. S. 241",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "160 U. S. 243",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "31 Iowa, 204",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "opinion_index": -1
+    },
+    {
+      "cite": "29 N. J. L. 98",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "64 N. Y. 129",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2161844
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/64/0129-01"
+      ]
+    },
+    {
+      "cite": "34 Fed. Rep. 302",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6730063
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/34/0302-01"
+      ]
+    },
+    {
+      "cite": "10 N. Y. 136",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "94 Fed. Rep. 766",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "16 Pick. (Mass.) 340",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Story, 1",
+      "category": "reporters:federal",
+      "reporter": "Story",
+      "case_ids": [
+        12117241
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/29/1157-01"
+      ]
+    },
+    {
+      "cite": "9 Metc. 93",
+      "category": "reporters:state",
+      "reporter": "Metc.",
+      "pin_cites": [
+        {
+          "page": "104"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "86 Fed. Rep. 309",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "105 Fed. Rep. 919",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3830288
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/105/0919-01"
+      ]
+    },
+    {
+      "cite": "109 Fed. Rep. 620",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7852785
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/109/0620-01"
+      ]
+    },
+    {
+      "cite": "71 Pac. Rep. 318",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        1210547
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/kan/66/0172-01"
+      ]
+    },
+    {
+      "cite": "75 N. Y. 192",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        536928
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/75/0192-01"
+      ]
+    },
+    {
+      "cite": "1 Doug. 171",
+      "category": "reporters:state",
+      "reporter": "Doug.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 How. Pr. 234",
+      "category": "reporters:state",
+      "reporter": "How. Pr.",
+      "case_ids": [
+        2189500
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/how-pr/4/0234-01"
+      ]
+    },
+    {
+      "cite": "18 Fed. Rep. 781",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "119 Pa. St. 561",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Am. B. R. 634",
+      "category": "reporters:specialty",
+      "reporter": "Am. B.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "83 N. Y. 595",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2179296
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "596, 597"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/83/0595-01"
+      ]
+    },
+    {
+      "cite": "47 Hun, 355",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "151 N. Y. 107",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        29766
+      ],
+      "pin_cites": [
+        {
+          "page": "109"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/151/0107-01"
+      ]
+    },
+    {
+      "cite": "114 U. S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11295201
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/114/0555-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 676",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3507110
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/111/0676-01"
+      ]
+    },
+    {
+      "cite": "99 Fed. Rep. 80",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "111 Fed. Rep. 361",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3710281
+      ],
+      "pin_cites": [
+        {
+          "page": "363"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/111/0361-01"
+      ]
+    },
+    {
+      "cite": "6 Am. B. R. 657",
+      "category": "reporters:specialty",
+      "reporter": "Am. B.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "96 Fed. Rep. 597",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6751276
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/96/0597-01"
+      ]
+    },
+    {
+      "cite": "2 Am. B. R. 697",
+      "category": "reporters:specialty",
+      "reporter": "Am. B.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 Am. B. R. 590",
+      "category": "reporters:specialty",
+      "reporter": "Am. B.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "58 App. Div. (N. Y.) 273",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4795904
+      ],
+      "pin_cites": [
+        {
+          "page": "275"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/58/0273-01"
+      ]
+    },
+    {
+      "cite": "15 Pet. 141",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3332065
+      ],
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/40/0141-01"
+      ]
+    },
+    {
+      "cite": "99 Fed. Rep. 79",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7851731
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/99/0079-01"
+      ]
+    },
+    {
+      "cite": "169 N. Y. 531",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2301723
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/169/0531-01"
+      ]
+    },
+    {
+      "cite": "65 App. Div. (N. Y.) 20",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7708847,
+        4856423
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/72/0505-01",
+        "/ad/65/0020-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 177",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5704599
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/177/0177-01"
+      ]
+    },
+    {
+      "cite": "28 Ohio St. 625",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        894689
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/28/0625-01"
+      ]
+    },
+    {
+      "cite": "86 Fed. Rep. 308",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6733612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/86/0308-01"
+      ]
+    },
+    {
+      "cite": "109 Fed. Rep. 620",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7852785
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/109/0620-01"
+      ]
+    },
+    {
+      "cite": "71 Pac. Rep. 318",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        1210547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/66/0172-01"
+      ]
+    },
+    {
+      "cite": "75 N. Y. 192",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        536928
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/75/0192-01"
+      ]
+    },
+    {
+      "cite": "83 N. Y. 595",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2179296
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/83/0595-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 676",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3507110
+      ],
+      "pin_cites": [
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/111/0676-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1378,
+    "char_count": 35373,
+    "ocr_confidence": 0.583,
+    "pagerank": {
+      "raw": 1.1515812121111209e-05,
+      "percentile": 0.9996636869562666
+    },
+    "sha256": "58bef4f4629cbb5aefffcb39cc9703456da84f4de502e6bde9bcdbf1ef19a567",
+    "simhash": "1:387e0af0d493e00c",
+    "word_count": 6342
+  },
+  "last_updated": "2024-02-27T20:46:52.428538+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Brown, Mr. Justice White and Mr. Justice Holmes, dissent. ."
+    ],
+    "parties": [
+      "TINKER v. COLWELL."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Peckham,\nafter making the above statement of facts/ delivered the opinion of the court.\nThe question herein arising is, whether the judgment obtained against the defendant, petitioner, for damages arising from the criminal conversation of the defendant with the plaintiff\u2019s wife, is released by the- defendant\u2019s discharge in bankruptcy, or whether it is excepted from such release by reason of subdivision 2, section 17, of the bankruptcy act of July 1, 1898, which provides that \u201ca discharge in bankruptcy shall release a bankrupt from all his provable debts, except such- as . . . (2) are judgments in actions for frauds, or obtaining property by false pretences or false representations, or for willful and malicious injuries to the person or property of another; . . .\u201d\nThe averment in the petition, that the judgment was not recovered for a willful and malicious injury to the person or property of the plaintiff in the action, is a mere conclusion of law and not an averment of fact.\nIf the judgment in question in this proceeding be one which was recovered in an action for willful and malicious injuries to the person or property of another, it was not released by the bankrupt\u2019s discharge; otherwise it was.\nWe are of opinion that it was not released. We think the authorities' show the husband has certain personal and exclusive rights with regard to the person of his wife which are interfered with and invaded by criminal conversation with her; that such an act on the part of another man constitutes an assault even when, as is almost universally the case as proved, the wife in fact consents to the act, because the wife is in law incapable of giving any consent to affect the husband\u2019s rights as against'the wrongdoer, and that an assault of this nature may properly be described as an injury to the personal rights and property of the husband, which is both malicious and willful. A judgment upon such a cause of action is not released by. the defendant\u2019s discharge in bankruptcy.\nThe assault to et armis is- a fiction of the law, assumed at first, in early times, to give jurisdiction of the cause of action as a trespass, to the courts, which then proceeded to permit the recovery of damages by the husband for his wounded feelings and honor, the defilement of the marriage bed, and for the doubt thrown upon the legitimacy of children.\nSubsequently the action of trespass on the case was sustained for the consequent damage, and either form of action was thereafter held proper.\nBlackstone, in referring to the rights of the husband, says (3 Black. Com. edited by Wendell, page 139):\n\u201cInjuries that may be offered to a person, considered as a husband, are principally three: abduction, or taking away a man\u2019s wife; adultery, or criminal conversation.with her; and beating or otherwise abusing her. ... 2. Adultery, or criminal conversation with a man\u2019s wife, though it is, as a public crime,, left by our laws to the coercion of the spiritual courts; yet, considered as a civil injury (and surely there can be no greater), the law gives a satisfaction to .the husband for it by action of trespass vi et armis against the adulterer, wherein the damages recovered.are usually very large and exemplary.\u201d\nSpeaking of injuries to what he terms the relative rights of persons, Chitty says that for actions of that nature (criminal conversation being, among them) the usual and perhaps the more correct practice is to declare it trespass vi et armis and contra pacem. 1 Ch. PL (2 vol. ed.) 150, and note h.\nIn Macfadzen v. Olivant, 6 East. 387, it was held that the proper action was trespass vi et armis, for that the defendant with force and arms assaulted and seduced the plaintiff\u2019s wife, whereby he lost and was deprived of her comfort, society and fellowship against the peace and to his damage. Lord Ellenborough, C. J., among other things, said:\n\u201cThen the question is, whether this be an action on the case or an action of trespass and assault? And it is said that the latter description only applies to personal assaults on the body of the plaintiff who sues; but nothing of the sort is said in the statute. No doubt that an' action of trespass and assault may be maintained by a master for the battery of his servant per quod servitium amisit; and also by a husband for a trespass and assault of this kind upon his wife per quod consortium amisit.\u201d\nIn Rigaut v. Gallisard, 7 Mod. Rep. 81, Lord Holt, C. J., said that .if adultery be committed with another man\u2019s wife, without any force, but by her own consent, the husband may have assault and battery, and lay it vi et armis, and that the proper action for the husband in such case was a special action, quia \u2014 the defendant his wife rapuit, and not to lay it per q\u00faod consortium amisit.\nIn Haney v. Townsend, 1 McCord\u2019s Rep. 206 (decided in 1821), it was held that case, as well as trespass vi.et armis is a proper action for criminal conversation, the court holding that no doubt trespass was-a proper form of action for the injury done by \u00bf.educing a wife, 'but th\u00e1t case was also a proper action.\nIn Bedan v. Turney, 99 California, 649, decided in 1893, it was held that the criminal intercourse of the wife with another man was an invasion of the husband\u2019s rights, and it was immaterial whether this invasion was accomplished by force, or by the consent of the wife; that the right belonged to the husband, and it was ho defence to his action for redress that its violation was by the consent or even by the procurement of the wife, for she was not competent to give such consent; that it was not necessary that the husband should show that it was by force or against her will. The original form of the action was trespass vi el armis, even though the act was with the consent of the wife, for the reason, as was said by Holt, C. J., in Rigaut v. Gallisard, 7 Mod. Rep. 81, \u201cthat the law will not allow her a consent in such case to the prejudice of her husband.\u201d\nIn M\u2019Clure\u2019s Executors v. Miller, 11 N. C. Rep. (4 Hawks) 133, note, page 140, trespass was held to be the proper form of action in such a case, and that a single act of adultery, though never manifested in its consequences, is an invasion of the husband\u2019s rights, and the law redresses it. It is also said that the husband has, so to speak, a property in the body and a right to the personal enjoyment of'his wife. For the invasion of this right the law permits him, to sue as husband.\nFor the purpose of maintaining the action, it, is regarded as an actual trespass upon the marital rights of the husband, although the consequent injury is really to the husband on account of the corruption of the body and mind of the wife, and it is in this view (that it is a trespass upon the rights of the husband) that it is held that the consent of the wife makes no difference; that she is incapable of giving a consent to an injury to the husband. 7 Mod. Rep. -81.\nIn Wales v. Miner, 89 Indiana, 118, decided in 1883, it was held that in an action of crim. con. the wife was incapable of consenting to her own seduction so as to bar her husband\u2019s right of action.\nIn Bagaoutte v. Paulet, 134 Massachusetts, 123, it was held the action could be maintained whether the conversation was with or without the consent of the wife, and although the act caused no actual loss of the services of the wife to the husband.\nMany of the cases hold that the essential injury to the husband consists in the defilement of the marriage bed, in the invasion of his exclusive right to marital intercourse with his wife and to. beget his own children. This is a right of the highest kind, upon the thorough maintenance of which the whole social order rests, and in order to the maintenance of .the action it may properly be described as a property right.\n. In Delamater v. Russell, 4 How. Pr. (N. Y.) 234, it was held that the act complained of (criminal conversation) was an injury to the person of the plaintiff; that it was an invasion of his personal rights, and although the action was brought for depriving the plaintiff of the comfort, society, fellowship, aid and assistance of the wife, yet it was an action brought for an injury to and an invasion of the plaintiff\u2019s personal rights.\nThe plaintiff in error refers to the case of Cregin v. Brooklyn Crosstown Railroad Company, 75 N. Y. 192; same case upon second appeal, 83 N. Y. 595, for the purpose of showing that the right to the society of the wife is not property, and therefore cannot be regarded as within the words of the bankruptcy act. The case does not decide that the right to the wife\u2019s society and comfort is not a property right on the part of the husband. It was. a case brought by the husband against the railroad company for injuries negligently inflicted on the person of his wife by the' company, and after the action was brought the husband died, and an application was made to revive the action in the name of the administrator of the husband. The court held that the action survived under the provisions of the state statute. 2 Rev. Stat. N. Y. 447, section 1. The case then went to.trial and the judge submitted to the jury the \u2022question of damages arising for the loss of the services of the wife and of her society, and it was held to be error by the Court of Appeals, because, while the right to the services of the wife was property, the right to her society, etc., was not property within the meaning of- the statute providing for the survival of the cause of action, for the reason that the statute only provided for the survival of those rights the loss of which diminished the estate of the deceased;- that the loss of the services of the wife did diminish the estate of the deceased, but that the loss to the husband of the wife\u2019s society and aid, etc., did' not diminish his estate, and therefore the right of action consequent thereon did not survive the deceased. The question in the case at bar neither arose nor was referred to in the opinions delivered in that case.\nWe think .it is made clear by these references to a few of the many cases on this subject that the cause of action by the husband is based upon the idea that the act of the defendant is a violation of the marital rights of the husband in the person of his wife, to the exclusion of all others, and so the act of the defendant is an injury to the person and also to the property rights of the husband.\nWe think'such an act is also \u00e1 willful and malicious injury to the person or property of the husband, within the meaning of the exception in the statute.\nThere may be cases where the, act has been performed without any particular malice towards the husband, but we are of opinion that, within the meaning of the exception, it is not necessary\u2019that there should be this particular, and, so to speak, personal malevolence toward the husband, but that the act itself necessarily implies that degree of malice which is sufficient to bring the case within the exception stated in the statute. The act is willful, of course, in the sense that it is intentional and voluntary, and we think that it is also malicious within' the meaning of the statute.\nIn order to come within that meaning as a judgment for a willful and malicious injury to person or property, it is not necessary that the cause of action be based upon special malice, so that without it the action could not be maintained.\nIn Bromage v. Prosser, 4 Barn, & Ores. 247, which was an action of slander, Mr. Justice Bayley, among other things, said:\n\u201cMalice, in common acceptation, means'ill will against a person, but in its legal sense it means a wrongful act, done intentionally, without just cause or excuse. If I give a perfect stranger a blow likely to produce death, I do it of malice, because I do it intentionally and without just cause or excuse. If I maim cattle, without knowing whose they are, if I poison a fishery, without knowing the owner, I do it of malice, because it is a wrongful act, and done intentionally. If I am arraigned of felony, and willfully stand mute, I am said to do it of malice, because it is intentional and without just cause or excuse. And if I traduce a man, whether I know him or n\u00f3t and whether I intend to do him an injury or not, I apprehend the law considers it as done of malice, because it is wrongful and intentional. It equally works.an injury, whether I meant to produce an injury or not. . . .\u201d\nWe cite the case as a good definition of the legal meaning of the word malice. The law will, as we think, imply that degree of malice in an act of the nature under consideration, which is sufficient to bring it within the exception mentioned.\nIn In re Freche, (U. S. District Court, District of New Jersey, 1901) 109 Fed. Rep. 620, it was held that a judgment for the father in an action to recover damages for the seduction of his daughter was for a willful and malicious injury to the person and property of another, within the meaning of section 17 of the bankrupt act, and was not released by a discharge in bankruptcy. Kirkpatrick, District Judge, in the course of his opinion, said:\n\u201c From the nature of the case, the act of the defendant Freche which caused the injury was willful, because it was voluntary. The act was unlawful, wrongful and tortious, and, being willfully done, it was, in law, malicious. It was malicious because the injurious consequences which followed the wrongful act were those which might naturally be expected to result from it, and which the defendant Freche must be presumed to have had in mind when he committed the offence. \u2018Malice/ in law, simply means a depraved inclination on the part of a person to disregard the rights of others, which intent is manifested by his injurious acts. While it.may be true that in his unlawful act Freehe was not actuated by hatred or revenge or. passion towards the plaintiff, nevertheless, if he acted wantonly against what any man of reasonable intelligence must have known to be contrary to his duty, and purposely prejudicial and injurious to another, the law will imply malice.\u201d\nIn Leicester v. Hoadley, (Supreme Court of Kansas, 1903) 71 Pac. Rep. 318, it was held that a judgment obtained by a wife against another woman for damages sustained by the wife by reason of the alienation of the affections of her husband is not released by the discharge of the judgment debtor under proceedings in bankruptcy, where such alienation has been accomplished by schemes and devices of the judgment debtor, and resulted in the loss \u00f3f support and impairment of health to the wife.\nIt was further held that injuries so inflicted are willful and malicious, and are to the person and property of another, within the meaning of section. 17 of the United States bankrupt law.\nIn United States v. Reed, 86 Fed. Rep. 308, it was held that malice consisted in the willful doing of an act which the person doing it knows is liable to injure another, regardless of the consequences; and a malignant spirit or a specific intention to hurt a particular person is not an essential element. Upon that principle, we think a willful disregard of what one knows to be his duty, an act which is against good morals and wrongT ful in and of itself, and which necessarily causes injury and is done intentionally, may be said to.be done willfully and maliciously, so as to come within the exception.\nIt is urged that the malice' referred to in the exception is malice towards the individual personally, sueh as is meant, for instance, in a statute for maliciously injuring or destroying property, or for .malicious mischief, where mere intentional injury without special malice towards the individual has been held by some courts not to be sufficient. Commonwealth v. Williams, 110. Massachusetts, 401.\nWe are not inclined to place such a narrow construction upon the language of the exception. We do not think the language used was intended to limit the exception in any such way. It was an honest debtor and not a malicious wrongdoer that was to be discharged.\nHowland v. Carson, 28 Ohio St. 625, is cited by plaintiff in error. The question arose under the old bankruptcy act, which provided (Rev. Stat. \u00a7 5117) that no debt created by fraud or embezzlement of the bankrupt, or by his defalcation as a public officer, or while acting in a fiduciary character, should be discharged by proceedings in bankruptcy, etc. It was held in the case cited that a judgment for the seduction of his daughter in favor of the father, where the seduction was not induced or accomplished under a promise of marriage fraudulently made for the purpose, was not a debt created by fraud, within the meaning of the bankruptcy ac,t. ' We do not perceive the least similarity in the case to the one now before the court, nor could we say that such a debt was one created by fraud.\nIt is also argued that, as the fraud referred to in the exception is not one which the law implies, but is a particular fraud involving moral turpitude or intentional wrongdoing, so the malice referred to is not a malice implied in law but a positive and special malice upon which the cause of action is founded, and without proof of which the action could not be maintained. It is true that the fraud mentioned in the bankruptcy statute of 1867 has been held to be a fraud involving moral turpitude or intentional wrong, and did not extend to a mere fraud implied by law. Hennequin v. Clews, 111 U. S. 676, 681; Forsyth v. Vehmeyer, 177 U. S. 177. The reason given was that the word was used in the statute in association with a debt created by embezzlement, and such association was held to require the conclusion that the fraud referred to meant positive fraud or fraud in fact, involving moral turpitude or intentional wrong, and not a fraud which the law might imply and which might exist without the imputation of bad faith or immorality.\nAssuming that the same holding would be made in regard to the fraud mentioned in the present act, it is clear that the cases are unlike. The implied fraud which the court in the above cited cases released was of such a nature that it did not impute either bad faith or immorality to the debtor, while in a judgment founded upon a cause of action, such as the one before us, the malice which is implied is of that very kind which does involve moral turpitude. This case is not, therefore, controlled in principle by the above cited cases.\nThe People ex rel. &c. v. Greer, 43 Illinois, 213, is also cited. The court there did hold that, under the Illinois insolvent law, an insolvent debtor was discharged from a judgment obtained by the father for the seduction of his daughter.. The law discharging the debt extended by its terms to all tort feasors except where malice was the gist of the action, and the court said malice was not the gist of the action in question. The case is not opposed to the views we have already expressed.\nIt is not necessary in the construction we give to the language of the exception in the statute to hold that every willful act which is wrong implies malice. One who negligently drives through a crowded thoroughfare and negligently runs over an individual would not, as we suppose, be within the exception. True he drives negligently, and that is a wrongful act, but he does not intentionally drive over the individual. If he- intentionally did drive over him, it would certainly be malicious. It might be conceded that the language' of the exception could be so construed as to make the exception refer only to those injuries to person or property which were accompanied by particular malice, or, in other words, a malevolent purpose towards the injured person, and where the action could only be maintained upon proof of the existence of such malice. But we do not think the fair meaning of the statute would thereby be carried out. The judgment here mentioned comes, as we think, within the language of the statute reasonably construed. The injury for which it was recovered is one of. the grossest which can be inflicted upon the husband, and the person who perpetrates it knows it is an offense of the most aggravated character; that it is a wrong for which no adequate compensation can be made, and hence personal and particular malice, towards the husband as an individual need not be shown,'for the-law implies that there must be malice in the very act itself, and we think Congress did not intend to permit such an injury to be released by a discharge in bankruptcy.\nAn action to redress a wrong of this character should not be taken out of the exception on any narrow and technical construction of the language of such exception.\n' For the- reasons stated, we think the order of the. Court of Appeals of New York must be\nAffirmed.\nMr. Justice Brown, Mr. Justice White and Mr. Justice Holmes, dissent. .",
+        "type": "majority",
+        "author": "Mr. Justice Peckham,"
+      }
+    ],
+    "attorneys": [
+      "Mr. Nelson Smith for plaintiff in error:",
+      "Mr. Thomas McAdam, with whom Mr. George Newell Hamlin was on the brief, for defendant in error:"
+    ],
+    "corrections": "",
+    "head_matter": "TINKER v. COLWELL.\nEEEOE TO THE SUPEEME COUET OF THE STATE OF NEW YOEK.\nNo. 160.\nArgued February 26, 1904.\nDecided March 21, 1904.\nThe personal and exclusive rights of a husband with regard to the person \u25a0 of his wife are interfered with and invaded by criminal conversation with ' her, and such an act constitutes an assault even when the wife consents to the act, as such consent cannot affect the rights of the husband against the wrongdoer; and the assault constitutes an injury to the husband\u2019s rights and property which is both malicious and willful within the meaning of subdivision 2 of section 17 of the Bankruptcy Act of 1898, and a judgment obtained by the husband on such a cause of action is not released by the judgment debtor\u2019s discharge in bankruptcy.\nThe plaintiff in error applied to the Supreme Court of the State of New York for an order discharging of record a certain judgment of that court obtained against him by the defendant in error: The application was denied, 6 Am. Bankruptcy Rep. 434, and the order denying it was affirmed by the appellate division of the Supreme Court, 65 App. Div. (N. Y.) 20, and subsequently by the Court of Appeals, 169 N. Y. 531, and the latter court thereupon remitted the record to the Supreme Court, where it remained at the time plaintiff in error sued out this writ to review the order of the Court of Appeals.\nThe application was made under section 1268 of the New York code, which provides that any time after one year has elapsed since a bankrupt was discharged from his debts, pursuant to the act of Congress relating to bankruptcy, he may apply, after notice to the plaintiff in the judgment, and upon proof of his discharge, to the court in which the judgment was rendered against him for an order directing the judgment to be cancelled and discharged of record. The section further provides that if it appear on the hearing that he has been discharged from the payment of that judgment or the debt upon which such judgment was recovered, an order must be made directing the judgment to be cancelled and discharged of record.\nThe. application in this proceeding was made upon a petition by plaintiff in error, which showed that Frederick L. Colwell, the plaintiff in the action, had, on February 9, 1897, recovered a judgment for $50,000 and costs against the petitioner for damages for his criminal conversation with the plaintiff\u2019s wife; \u2022that the judgment was duly docketed in the county of New York on that day; that on September 13, 1899, petitioner filed his petition in the District Court'of the United States for the Southern District of New York, praying that he might be adjudged a bankrupt, and on that day he was adjudged a bankrupt by the District Court, pursuant to the act of Congress relating to bankruptcy; on February 2, 1900, the petitioner was discharged by the District Court of the United States from all debts and claims which were made provable by the act-of Congress against his estate, and which existed on September 13, 1899; that the judgment above mentioned was not recovered against him for a willful and malicious injury to the person or property of the plaintiff, within the meaning of the act of Congress, and that by virtue of the discharge in bankruptcy the petitioner had been duly released from that judgment.\nIn granting the discharge under the bankrupt act (which was opposed by the plaintiff in the judgment) the district judge refused to pass upon the question whether the judgment was thereby released, although it appears that he thought it was. 99 Fed. Rep. 79.\nMr. Nelson Smith for plaintiff in error:\nThe discharge of. the plaintiff in error in bankruptcy released him from the payment of the judgment in question, it not having been recovered in.an action for any of the causes mentioned in the exceptions of section 17a of the Bankrupt Act as the same existed at the time the discharge was granted. Bradenburg on Bankruptcy, 264.\nAs the.enacting clause of this section is general that a discharge shall release a bankrupt from all his provable debts, save such as are expressly excepted, the exceptions to it must be strictly construed and the burden is on the defendant .in error to show that his debt falls within the exceptions. United States v. Dickinson, 15 Pet. 141, 165; Spiers v. Parker, 1 T. R. 141; 1 Sedgwick on Construction of Statutes (2ded.), 50; Potter\u2019s Dwarris on Statutes, 118.\nThe debts excepted are judgments recovered in actions for fraud or for willful and malicious injuries to the person or prop-\u2019 erty of another. This means that the gravamen of the action must be for fraud or for malice as the case may be. Burnham v. Pidcock, 58 App. Div. (N. Y.) 273, 275; S. C., 5 Am. B. R. 590; Matter of Rhutassel, 2 Am. B. R. 697; S. C., 96 Fed. Rep. 597; Hargadine-McKittrick Dry Goods Co. v. Hudson, 6 Am. B. R. 657; S. C., 111 Fed. Rep. 361, 363.\nThe gravamen of the action,' in which this judgment was recovered, was not for a willful 'and malicious injury to the person or property of the defendant in error, but, on the contrary, was for the violation of his marital rights \u2014 the loss of consortium with his wife. 2 Greenleaf Ev. sec. 51, and cases cited; Barnes v. Allen, 1 Abb. Ct. of App. Dec. 111, 117; In re Tinker, 99 Fed. Rep. 80; Biganette v. Paulet, 134 Massachusetts, 123, 125. See Weedon v. Timbrel, 5 T. R. 357, and cases in which it has been followed in England and in this country: Chambers v. Caulfield, 6 East. Rep. 244; Winter v. Henn, 4 C. & P. 494; Bartelott v. Hawkes, 7 Peak\u2019s Cases, 7; Wilton v. Webster, 7 C. & P. 198; Harvey v. Watson, 7 M. & G. 644.\nMalice is not an ingredient of an action for criminal conver-, sation. 1 Saund. on PI. & Ev. (5th Am. ed.) 874, 881; Abb. Trial Ev. (2d ed.) 863, 867.\nThe only evidence required to support such an action is proof of the plaintiff\u2019s marriage, and the defendant\u2019s sexual intercourse with his wife. Berdan v. Turney, 99 California, 649; Wales v. Minor, 89 Indiana, 118, 121.\nThe strict construction of the exceptions of the statute requires that the fraud or malice be'actual fraud or actual malice, and not fraud or malice implied by law; so held in-the construction of the word fraud in the bankrupt law of 1867. Hennequin v. Clews, 111 U. S. 676; Strang v. Bradner, 114 U. S. 555. See bankrupt law of 1867 respecting the effect of a discharge.\nThis conversation by the plaintiff in error with the wife of the defendant in error was not an injury to his person. Nothing short of an immediate physical -touching can be considered a personal injury. Mitchell v. Rochester Ry. Co., 151 N. Y. 107, 109; Victorian Railway Commissioners v. Coultas, L. R. 13 App. Cas. 222, 224-226; Lehman v. Bklyn. City R. R. Co., 47 Hun, 355.\nThe criminal conversation complained of was not an injury to the property of the defendant in error. The husband\u2019s right of consortium is not property or a property right. An action for the loss of it does not survive, and is not assignable. Cregin, Adm., v. Bklyn. Crosstown R. R. Co., 83 N. Y. 595, 596, 597.\nThis case is not affected in any way by the amendment of the Bankruptcy Act of February 5, 1903. Collier on Bankruptcy (4th ed.), p. 845; Supplement 1903, 57th Congress, U. S. Compiled Statutes, 410.\nMr. Thomas McAdam, with whom Mr. George Newell Hamlin was on the brief, for defendant in error:\nWithin the meaning of the Bankruptcy Act, section 17, subdivision 2, the judgment in the action sought to be can-celled is a judgment in an action for \u201cinjuries to the person or property of the judgment creditor.\u201d Re Blumberg, 1 Am. B. R. 634.\nAll torts or wrongs which in their nature involve willfulness and malice were meant to be included in the phrase \u2014 actions \u201cfor willful and malicious injuries to the person or property of another.\u201d\nThe word \u201cinjury\u201d as here used can only mean the invasion of a legal right of another; in other words, a wrong done to a person in violation of his right; and such is its common interpretation.\nUnder the general interpretation of the word \u201cinjury,\u201d it means any legal wrong which will give a cause of action for damages to the one whose rights, person or property are injured thereby. Parker v. Griswold, 17 Connecticut, 302; Wrightman v. Devere, 33 Wisconsin, 575; Penn. R. Co. v. Marchant, 119 Pa. St. 561; Northern R. Co. v. Carpentier, 13 How. Pr. (N. Y.) 222; Woodruff v. North Bloomfield Grav. Men. Co., 18 Fed. Rep. 781.\nThe word \u201cinjury\u201d is of broader significance than the expression \u201cdefraud.\u201d Delamater v. Russell, 4 How. Pr. (N. Y.) 234; 1 Ch. Pl. 137; 2 Kent's Com. 129; 3 Black. Com. 138.\nAt common law, an action in trespass vi et armis was the usual form of remedy by a husband for the seduction of his wife, for- the reason that a wife could not give her consent, and force was in consequence implied. Woodward v. Walton, 2 B. & P. N. N. 476; Guy v. Livesey, Cro. Jac. 501; Parker v. Bailey, 4 D. & R. 215; 16 E. C. L. 195; 1 Saunders on Pleading & Ev. (5th Am. ed.) 875; Bedan v. Turney, 99 California, 649; Wales v. Miner, 89 Indiana, 118; Moore v. Hammoris, 119 Indiana, 510; Jacobson v. Siddal, 12 Oregon, 280; Bouvier Law Dict. vol. 2, p. 748.\nCriminal conversation is a personal injury or wrong to the husband, an invasion of his rights. Delamater v. Russell, 4 How. Pr. 234; Strauss v. Schwarzwallder, 4 Bas. 627; Bedan v. Turney, 99 California, 653; 1 Selw. Nisi Prius (13th ed.), 7; Bigavt v. Gallisard, 7 Mod. 81; S. C., 2 Salk. 552; Birt v. Bar low, 1 Doug. 171. It is also an invasion of Ms property rights as he is entitled to the services of his wife, and this is a right of property. Cregin v. Railroad, 75 N. Y. 192; 83 N. Y. 595; Groth v. Washburn, 34 Hun (N. Y.), 509.\nIt tends to deprive the husband of the wife\u2019s services to himself or in the bearing and proper nurture of and example to Ms children. Lundt v. Hartrunft, 41 Illinois, 9; Colwell v. Tinker, 169 N. Y. 531.\nThis section of the bankruptcy law has been construed and held to expressly except judgments in actions for .violations of personal rights, which are relative in their nature. Judgments for damages for the alienation of a wife\u2019s affections are not barred by a discharge in bankruptcy, Leicester v. Hoodley, 71 Pac. Rep. 318; Erline v. Sargent, 23 Ohio Cir. Ct. Rep. 180; or for the seduction of a daughter, In re Freche, 109 Fed. Rep. 620; In re Maples, 105 Fed. Rep. 919.\nAs to the element of maliciousness, see cases last cited. Bigelow on Torts,, 12; United States v. Reed, 86 Fed. Rep. 309; 2 Burrill\u2019s Law Dict. 175; Commonwealth v. York, 9 Metc. 93, 104; Wiggins v. Coffin, 3 Story, 1; Etchberry v. Levielle, 2 Hilt. (N. Y.) 40; Rounds v. Delaware, etc., R. Co., 3 Hun (N. Y.), 335; Bromage v. Prosser, 4 Barn. & Cress. 247; Commonwealth v. Shelling, 16 Pick. (Mass.) 340; Wheeler v. State, 109 Alabama, 60; Times Pub. Co. v. Carlisle, 94 Fed. Rep. 766; Darry v. People, 10 N. Y. 136; Wilson v. Noonan, 35 Wisconsin, 352; United States v. King, 34 Fed. Rep. 302.\nIt is immaterial whether defendant does or does not know that the woman is married. When he engages in intercourse with a woman not his wife, he is bound to take notice of her domestic relations, and he voluntarily assumes the hazard of being held responsible for any injuries that may result. Wales v. Miner, 89 Indiana, 118; Calcraft v. Harborough, 4 C. & P. 499; 19 E. C. L. 494. Hence it follows, therefore, that criminal conversation, being a wrong to the husband, is malicious, being malicious is also willful, because malice implies willfulness. State v. Robbins, 66 Maine, 324; Funderburk v. State, 75 Mississippi, 20. See also Rounds v. Delaware, etc., R. Co., 3 Hun (N. Y.), 335; aff'd 64 N. Y. 129; State v. Clark, 29 N. J. L. 98; Highway Commissioners v. Healey, 54 Michigan, 181; Newell v. Whitingham, 58 Vermont, 341; Chapman v. Commonwealth, 5 Whart. (Pa.) 429; Fuller v. Chicago, etc., R. Co., 31 Iowa, 204. \u201cWillfully\u201d means intentionally. Bouvier, vol. 2, 656; Northern Railway v. Carpentier, 13 How. Pr. (N. Y.) 22.\nIn any event the burden is on the plaintiff in error to show the lack of malice and willfulness in. the acts upon which the judgment was predicated, and that the judgment was not for an injury to person or property.\nThe mere statement, in the-petition, \u201cthat the said judgment was not recovered for a willful or malicious injury to the person or property within the meaning of the said acts of Congress, is a conclusion of' law and -not a statement of fact, Whit-ton v. Tomlinson, 160 U. S. 243, and-cannot be deemed to be admitted by a failure to deny it. Ritchie v. McMullen, 159 U. S. 241; Pullman Palace Car Co. v. Missouri Pac. R. Co., 11 Fed. Rep. 636; Dillon v. Barnard, 21 Wall. 437.\nAs to' the sufficiency of evidence that a particular debt or judgment is released by discharge in bankruptcy, the nature of the action in which the judgment is rendered is determined' by the record, and when it is necessary to consider whether the judgment is released- by a discharge in bankruptcy, the fact must be determined by the record and not by any allegation or proof outside off it. Burnham v. Pidcock, 58 App. Div. (N. Y.) 276; Hargadine, McKittridge D. G. Co. v. Hudson, 111 Fed. Rep. 261; In re Bullis, 7 Am. B. R. 238; Turner v. Turner, 108 Fed. Rep. 785.\nAs to the distinction between a proviso and an exception, see Spiers v. Parker, 1 T. R. 141; 1 Barn. & Adl. 199; Thiebault v. Gibson, 12 Meeson & Welsby, 88, 740; Rowell v. Janvrin, 151 N. Y. 60; Simpson v. Ready, 12 M. & W. 736, 740; Jones v. Yxen, 1 Ld. Raym. 120; United States v. Cook, 17 Wall. 168; Commonwealth v. Hart, 11 Cush. 130.\nA judgment such as this is in the nature of a fine or penalty. In re Cotton, Fed. Cas. No. 3269; Johnson v. Disbrow, 47 Michigan, 59; Johnson v. Allen, 100 N. Car. 131; Cornelius v. Hamberg, 150 Pa. St. 359.\nThis element of damage \u2014 that of a punitive nature \u2014 does not depend upon compensation to the plaintiff, but rests upon the principle that for a malicious and reprehensible act the defendant may well be punished, and the law\u2019s condemnation of the fault be given voice.\nIn determining the character of the debts of a bankrupt, the court will look beyond the form of the judgment and consider the nature of the liability upon the original cause, of action: Turner v. Turner, 108 Fed. Rep. 785; Boynton v. Ball, 121 U. S. 457, 466.\nThe purpose of the Bankruptcy Act was to relieve failing honest debtors from their money obligations, and not to free tortious debtors from liability for their wrongs. Desler v. McCauley, 35 Misc. (N. Y.) 411; Turner v. Turner, 108 Fed. Rep. 785."
+  },
+  "file_name": "0473-01",
+  "first_page_order": 497,
+  "last_page_order": 514
+}

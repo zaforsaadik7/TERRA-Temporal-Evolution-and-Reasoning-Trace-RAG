@@ -1,0 +1,720 @@
+{
+  "id": 5718331,
+  "name": "SINGLETON et al. v. CHEEK et al.",
+  "name_abbreviation": "Singleton v. Cheek",
+  "decision_date": "1932-02-15",
+  "docket_number": "No. 403",
+  "first_page": "493",
+  "last_page": "498",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "284 U.S. 493"
+    },
+    {
+      "type": "parallel",
+      "cite": "76 L. Ed. 419"
+    },
+    {
+      "type": "parallel",
+      "cite": "52 S. Ct. 257"
+    },
+    {
+      "type": "vendor",
+      "cite": "1932 U.S. LEXIS 889"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1931-134"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "278 Pac. 414",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Wash. 459",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        823876
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/152/0459-01"
+      ]
+    },
+    {
+      "cite": "153 Atl. 736",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 N. E. 390",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Oh. St. 83",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        991805
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/119/0083-01"
+      ]
+    },
+    {
+      "cite": "229 N. W. 344",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Minn. 402",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        242140
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/179/0402-01"
+      ]
+    },
+    {
+      "cite": "2 S. W. (2d) 395",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Ky. 713",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4992061
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/222/0713-01"
+      ]
+    },
+    {
+      "cite": "213 N. W. 479",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Wis. 524",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8695004
+      ],
+      "pin_cites": [
+        {
+          "page": "527"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/192/0524-01"
+      ]
+    },
+    {
+      "cite": "160 S. E. 50",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "pin_cites": [
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 S. E. 515",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "153 Va. 567",
+      "category": "reporters:state",
+      "reporter": "Va.",
+      "case_ids": [
+        461059
+      ],
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/153/0567-01"
+      ]
+    },
+    {
+      "cite": "297 Pac. 1007",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        8870549
+      ],
+      "pin_cites": [
+        {
+          "page": "1008"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/utah/77/0486-01"
+      ]
+    },
+    {
+      "cite": "33 S. W. (2d) 65",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Tenn. 509",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8533625
+      ],
+      "pin_cites": [
+        {
+          "page": "515"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/161/0509-01"
+      ]
+    },
+    {
+      "cite": "28 S. W. (2d) 642",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Tenn. 88",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8532983
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/161/0088-01"
+      ]
+    },
+    {
+      "cite": "158 S. C. 243",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2030063
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/158/0243-01"
+      ]
+    },
+    {
+      "cite": "152 S. C. 328",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2011301
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/152/0328-01"
+      ]
+    },
+    {
+      "cite": "148 S. C. 30",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2006442
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/148/0030-01"
+      ]
+    },
+    {
+      "cite": "139 Atl. 826",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "291 Pa. 326",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1107287
+      ],
+      "pin_cites": [
+        {
+          "page": "331-334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/291/0326-01"
+      ]
+    },
+    {
+      "cite": "158 N. E. 187",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Oh. St. 87",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        988195
+      ],
+      "pin_cites": [
+        {
+          "page": "93"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/117/0087-01"
+      ]
+    },
+    {
+      "cite": "58 N. D. 422",
+      "category": "reporters:state",
+      "reporter": "N.D.",
+      "case_ids": [
+        8589494
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nd/58/0422-01"
+      ]
+    },
+    {
+      "cite": "154 S. E. 7",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 N. C. 256",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8598168
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/199/0256-01"
+      ]
+    },
+    {
+      "cite": "144 S. E. 530",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 N. C. 40",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8623508
+      ],
+      "pin_cites": [
+        {
+          "page": "44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/196/0040-01"
+      ]
+    },
+    {
+      "cite": "221 N. Y. S. 771",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 App. Div. (N. Y.) 472",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4885959
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/220/0472-01"
+      ]
+    },
+    {
+      "cite": "114 So. 338",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        8819163
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/148/0446-01"
+      ]
+    },
+    {
+      "cite": "226 N. W. 243",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 Mich. 459",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1849131
+      ],
+      "pin_cites": [
+        {
+          "page": "462-464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/247/0459-01"
+      ]
+    },
+    {
+      "cite": "136 Atl. 536",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Md. 332",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        2282006
+      ],
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/152/0332-01"
+      ]
+    },
+    {
+      "cite": "140 Atl. 366",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Me. 555",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        594568
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/me/126/0555-01"
+      ]
+    },
+    {
+      "cite": "211 N. W. 246",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Iowa 855",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        8648067
+      ],
+      "pin_cites": [
+        {
+          "page": "858"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/202/0855-01"
+      ]
+    },
+    {
+      "cite": "154 S. E. 655",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Ga. App. 737",
+      "category": "reporters:state",
+      "reporter": "Ga. App.",
+      "case_ids": [
+        1445556
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga-app/41/0737-01"
+      ]
+    },
+    {
+      "cite": "30 F. (2d) 995",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1749162
+      ],
+      "pin_cites": [
+        {
+          "page": "996"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/30/0995-01"
+      ]
+    },
+    {
+      "cite": "58 App. D. C. 371",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Colo. 341",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2807020
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/88/0341-01"
+      ]
+    },
+    {
+      "cite": "1 Pac. (2d) 523",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 S. W. (2d) 211",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "213-214"
+        },
+        {
+          "page": "213-214"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "239 Ky. 208",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5140007
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/239/0208-01"
+      ]
+    },
+    {
+      "cite": "21 S. W. (2d) 151",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 Ky. 127",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5083299
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/231/0127-01"
+      ]
+    },
+    {
+      "cite": "270 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/270/0175-01"
+      ]
+    },
+    {
+      "cite": "293 S. W. 1075",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Ky. 543",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4963029
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/219/0543-01"
+      ]
+    },
+    {
+      "cite": "43 Stat. 607",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Stat. 371",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Stat. 398",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 648,
+    "char_count": 10553,
+    "ocr_confidence": 0.596,
+    "pagerank": {
+      "raw": 2.118064843890685e-06,
+      "percentile": 0.9954481902226732
+    },
+    "sha256": "8d8d40945a90ff689a9ba4ddeb43a83e9f63d7bd4da498b40c2821e94a9c7986",
+    "simhash": "1:7a55ead875bc2e92",
+    "word_count": 1884
+  },
+  "last_updated": "2024-02-27T23:03:48.447112+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "SINGLETON et al. v. CHEEK et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Sutherland\ndelivered the opr\" on of the Court.\nLee Ray Jackson, a soldier in the United States army, received a certificate of insurance on his life, issued by the United States through the Bureau of War Risk-Insurance on September 5, 1918. His wife, Mary Lucinda Jackson, was named as beneficiary. He died intestate March 21, 1921, a resident of Craig County, Oklahoma, leaving him surviving his wife and a son named James Lee Roy Jackson, a minor child about seven months old. In March,' 1922, the child died, of course intestate; and in March, 1923, the widow died intestate, in the meantime having married Charley Singleton, one of the- petitioners. No part of the insurance due under the certificate was paid during the lifetime of the insured or beneficiary; but the sum accrued between March 31, 1921, and March 3.0, 1923, has since been paid to the administrator of the estate of Mary Lucinda Jackson, who, at the time of her death, was Mary Lucinda Singleton. The amount of insurance due to the insured on account of permanent- disability has been paid to the administrator de bonis non of the estate of Lee Ray Jackson. The remaining installments of the life insurance were commuted and the sum thereof, fixed by the War Risk Bureau, was also paid to the administrator last named. Such payments of the disability insurance and the sum of the commuted installments were authorized by the Veterans\u2019 Bureau and the administrator directed to distribute the amounts in accordance with the intestacy laws of the state of the insured\u2019s last legal residence, an award in favor of the administrator in each case having previously been inade. The respondents, Edith Cheek, n\u00e9e Jackson, and Jewel Braziel, nee Jackson, are sisters, and Emmett Jackson is a brother, of Lee Ray Jackson. Neither his father nor his mother survived him. George. Davis and Maggie Davis are the parents of Mary Lucinda Singleton, but neither they nor Charley Singleton are blood kin to the insured.\nDuring her lifetime Mary Lucinda Jackson administered the estate of Lee Ray Jackson, and upon her final report the court having probate jurisdiction found that she was entitled to all of the estate of the deceased Lee Ray Jackson, one-half in her own right, and the other one-half in the right of the minor child above named. A decree of heirship to that effect was duly entered.\nIn. the administration following the death of Mary Lucinda Singleton and the' infant son of Lee Ray Jackson, the same court determined that petitioners were entitled to the disability insurance which accrued before the death of the insured, but that respondents were entitled to the commuted value of the insurance falling due after the death of the beneficiary, holding that the commuted balance of such insurance was payable to the estate of the insured, but vested in the heirs next surviving within the permitted class of beneficiaries designated by the War Risk Insurance Act of 1917, c. 105, Art. 4, \u00a7 402, 40 Stat. 398, 409, as amended by the World War Veterans\u2019 Acts of \u25a01919; c. 16, \u00a7 13, 41 Stat. 371, 375, and of 1924, c. 320, \u00a7\u00a7 300, 303, 43 Stat. 607, 624, 625. The case was appealed to a state district court, where a different judgment was rendered. From that judgment an appeal was taken to the Supreme Court of Oklahoma, where it was twice heard. That court first sustained the petitioners\u2019 contention. Subsequently, upon rehearing, it held in favor of the respondents in respect of the commuted installments accruing after the death of the beneficiary, and in favor of petitioners as to those accruing before her death, following a decision of the Supreme Court of Kentucky in Sutton\u2019s Executor v. Barr's Administrator, 219 Ky. 543 ; 293 S. W. 1075, in which that court had decided that the heirs of the insured in being at the time of the death of the beneficiary took the property, and not those who were heirs at the time of the death of the insured. 7 P. (2d). 140.\nBy the first Oklahoma decision the doctrine of the Kentucky case, just cited, was expressly disapproved; and, following the view of a number of other state decisions to the contrary, it was held that the decree of the county court in the original administration of the Jackson estate fixed the parties entitled to inherit all his estate, \u201cwhether the assets were then in the hands of the administrator, or later came into the possession of an administrator de bonis non and that when the widow died these assets became assets of her.estate, to be distributed among her heirs. By the second Oklahoma decision this was reversed, upon the authority of the very case which had been distinctly rejected in the first decision.\nWe are of opinion that the first decision was right, and the second wrong. Undoubtedly, by \u00a7 15 of the War Risk Insurance Amending Act of 1919, war risk insurance, after the death of the designated beneficiary, became payable to such person or persons within the permitted class of beneficiaries (enumerated in \u00a7 402, Act of 1917, as amended by \u00a7 13, Act of 1919) as would, under the laws of the state of the residence of the insured, be entitled to his personal property in case of intestacy. The second decision of the state supreme court, therefore, would have been entirely correct if no change had been made in the statute. But a radical change had been effected prior to the award of insurance made by the Veterans\u2019 Bureau on August 18, 1925. The Act of March 4, 1925, c. 553, 43 \u2022 Stat. 1302, 1310, amended \u00a7 303 of the World War Veterans\u2019 Act of 1924 (which had in turn amended and modified the preceding acts), to read as follows:\n\u201c If no person within the permitted class be d\u00e9signated \u00e1s beneficiary for yearly renewable term insurance by the insured either in his lifetime or by his last will and testament or if the designated beneficiary does not survive the insured or survives the insured and dies prior to receiving all of the two hundred and forty installments- or all sueh as are payable and applicable, there shall be paid to the estate of the insured the present value of the monthly installments thereafter payable, said value to be computed as of date of last payment made under any existing award.\u201d\nThe amendment, in express terms, was made retroactive so as to take effect as of October 6, 1917, a provision undoubtedly within the power of Congress, for the reasons stated by this court in White v. United States, 270 U. S. 175.\nBy that amendment, the rule, which, upon the happening of the contingencies named in the prior acts, limited the benefit of the unpaid installments, to persons within the designated class of permittees, was abandoned, and \u201c the estate of the insured \u201d was wholly substituted as the payee. All installments, whether accruing before the death of the insured or after the death of the beneficiary named in the certificate of insurance, as a result, became assets of the estate of the insured as of the instant of \"his death, to be distributed to the heirs of the insured in accordance with the intestacy laws of the state of his residence, such heirs to be determined as of the date of his death, and not as of the date of the death of the beneficiary. The state courts, with almost entire unanimity, have reached the same conclusion.\nJudgment reversed.\nBut see Mefford v. Mefford, 231 Ky. 127; 21 S. W. (2d) 151, and Mason\u2019s Adm\u2019r v. Mason's Guardian, 239 Ky. 208, 39 S. W. (2d) 211, 213-214, which seem to overrule Sutton\u2019s Executor v. Barr\u2019s Administrator,\n\u201c Sec. 15. That if any person to whom such yearly renewable term insurance has been awarded dies, or his rights are otherwise terminated after the death of the insured, but before all of the two hundred and forty monthly installments have been paid, then the monthly installments payable and applicable shall be payable to such person or persons within the permitted class of beneficiaries as would, under the laws of the State of residence of the insured, be entitled to his personal property in case of intestacy; and if the permitted class of beneficiaries be exhausted before all of the two hundred and forty monthly installments have been paid, then there shall be paid to the estate of the last surviving person within the permitted class the remaining unpaid monthly installments.\u201d\nCases in accord with the text: In re Young\u2019s Estate, 1 Pac. (2d) 523, 525; Garland v. Anderson, 88 Colo. 341, 346, et seq.; 296 Pac. 1023; Condon v. Mallan, 58 App. D. C. 371, 372; 30 F. (2d) 995, 996; Tolbert v. Tolbert, 41 Ga. App. 737; 154 S. E. 655; In re Estate of Pivonka, 202 Iowa 855, 858; 211 N. W. 246; Robbins, Petitioner, 126 Me. 555; 140 Atl. 366; Woodworth v. Tepper, 152 Md. 332, 334; 136 Atl. 536; In re Dempster\u2019s Estate, 247 Mich. 459, 462-464; 226 N. W. 243; Williams v. Eason, 148 Miss.146, 454-455; 114 So. 338; Matter of Storum, 220 App. Div. (N. Y.) 472, 476 ; 221 N. Y. S. 771; Trust Co. v. Brinkley, 196 N. C. 40, 44; 144 S. E. 530; In re Estate of Pruden, 199 N. C. 256; 154 S. E. 7; Re Root, 58 N. D. 422, 428; 226 N. W. 598; Palmer v. Mitchell, 117 Oh. St. 87, 93; 158 N. E. 187; Ogilvie\u2019s Estate, 291 Pa. 326, 331-334; 139 Atl. 826; National Union Bank v. McNeal, 148 S. C. 30, 37; 145 S. E. 549; Whaley v. Jones, 152 S. C. 328, 333 et seq.; 149 S. E. 841; Moss v. Moss, 158 S. C. 243, 246; 155 S. E. 597; Wade v. Madding, 161 Tenn. 88, 93 et seq.; 28 S. W. (2d) 642; Elben v. Jordan, 161 Tenn. 509, 515; 33 S. W. (2d) 65; Battaglia v. Battaglia, 290 S. W. (Tex. Civ. App.) 296, 298; Turner v. Thomas, 30 S. W. (2d) (Tex. Civ. App.) 558; In re Hogan\u2019s Estate, 297 Pac. 1007, 1008; Price v. McConnell, 153 Va. 567, 572; 149 S. E. 515; Stacy v. Culbertson, 160 S. E. 50, 51; Estate of Singer, 192 Wis. 524, 527; 213 N. W. 479.\nCases either directly or apparently to the contrary; Sutton\u2019s Executor v. Barr\u2019s Administrator, 219 Ky. 543 ; 293 S. W. 1075; Sizemore v. Sizemore\u2019s Guardian, 222 Ky. 713; 2 S. W. (2d) 395; (the later Kentucky cases of Mefford v. Mefford, 231 Ky. 127; 21 S. W. (2d) 151, and Mason\u2019s Administrator v. Mason\u2019s Guardian, 239 Ky. 208; 39 S. W. (2d) 211, 213-214, apparently disagree with the earlier view); In re Estate of Hallbom, 179 Minn. 402; 229 N. W. 344; Tax Commission v. Rife, 119 Oh. St. 83; 162 N. E. 390; Fisher\u2019s Estate, 302. Pa. 516; 153 Atl. 736; In re Cross\u2019 Estate, 152 Wash. 459; 278 Pac. 414.",
+        "type": "majority",
+        "author": "Mr. Justice Sutherland"
+      }
+    ],
+    "attorneys": [
+      "Mr. A. G. C. Bierer, Jr., with whom Mr. A. G. C. Bierer was on the brief, for petitioners.",
+      "No appearance for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "SINGLETON et al. v. CHEEK et al.\nNo. 403.\nArgued January 22,1932.\nDecided February 15, 1932.\nMr. A. G. C. Bierer, Jr., with whom Mr. A. G. C. Bierer was on the brief, for petitioners.\nNo appearance for respondents."
+  },
+  "file_name": "0493-01",
+  "first_page_order": 561,
+  "last_page_order": 566
+}

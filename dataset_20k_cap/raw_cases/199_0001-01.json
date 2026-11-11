@@ -1,0 +1,4362 @@
+{
+  "id": 3642661,
+  "name": "THE PEOPLE OF THE STATE OF NEW YORK ex rel. METROPOLITAN STREET RAILWAY COMPANY v. NEW YORK STATE BOARD OF TAX COMMISSIONERS",
+  "name_abbreviation": "New York ex rel. Metropolitan Street Railway Co. v. New York State Board of Tax Commissioners",
+  "decision_date": "1905-05-29",
+  "docket_number": "No. 74",
+  "first_page": "1",
+  "last_page": "47",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "199 U.S. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "25 S. Ct. 705"
+    },
+    {
+      "type": "parallel",
+      "cite": "50 L. Ed. 65"
+    },
+    {
+      "type": "vendor",
+      "cite": "1905 U.S. LEXIS 1097"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1904-060"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "171 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "183 U. S. 278",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297288
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/183/0278-01"
+      ]
+    },
+    {
+      "cite": "152 N. Y. 257",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2275216
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/152/0257-01"
+      ]
+    },
+    {
+      "cite": "196 U. S. 608",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "196 U. S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8291530
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/196/0261-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 293",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "165 U. S. 228",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "142 U. S. 354",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "196 U. S. 599",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8293615
+      ],
+      "pin_cites": [
+        {
+          "page": "610"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/196/0599-01"
+      ]
+    },
+    {
+      "cite": "5 Wall. 580",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3457690
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/72/0580-01"
+      ]
+    },
+    {
+      "cite": "195 U. S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3633937
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "307"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/195/0276-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 255",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443649
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0255-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 314",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3604638
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0314-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 404",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600956
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0404-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 590",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "167 U. S. 461",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594569
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0461-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591504
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/164/0112-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 321",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514416
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/115/0321-01"
+      ]
+    },
+    {
+      "cite": "133 U. S. 660",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1129167
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/133/0660-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 701",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3506722
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/111/0701-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5700442
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/159/0103-01"
+      ]
+    },
+    {
+      "cite": "157 U. S. 655",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3584072
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/157/0655-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 162",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564181
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0162-01"
+      ]
+    },
+    {
+      "cite": "113 U. S. 9",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3512749
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/113/0009-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 90",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8767
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/92/0090-01"
+      ]
+    },
+    {
+      "cite": "27 N. Y. 611",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2035342
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/27/0611-01"
+      ]
+    },
+    {
+      "cite": "14 N. Y. 506",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        496020
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/14/0506-01"
+      ]
+    },
+    {
+      "cite": "194 U. S. 536",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "196 U. S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292655
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/196/0466-01"
+      ]
+    },
+    {
+      "cite": "179 U. S. 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5708752
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/179/0046-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 258",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564579
+      ],
+      "pin_cites": [
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0258-01"
+      ]
+    },
+    {
+      "cite": "138 U. S. 98",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3549627
+      ],
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/138/0098-01"
+      ]
+    },
+    {
+      "cite": "130 U. S. 396",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3537721
+      ],
+      "pin_cites": [
+        {
+          "page": "400"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/130/0396-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3503718
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0347-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499983
+      ],
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/107/0466-01"
+      ]
+    },
+    {
+      "cite": "105 U. S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3495173
+      ],
+      "pin_cites": [
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/105/0013-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 348",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3374043
+      ],
+      "pin_cites": [
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0348-01"
+      ]
+    },
+    {
+      "cite": "98 U. S. 359",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11303
+      ],
+      "pin_cites": [
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/98/0359-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 107",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "173 U. S. 636",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298605
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/173/0636-01"
+      ]
+    },
+    {
+      "cite": "173 U. S. 231",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297995
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/173/0231-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136162
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/143/0001-01"
+      ]
+    },
+    {
+      "cite": "1 Black, 587",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410118
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/66/0587-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 500",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3424642
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/82/0500-01"
+      ]
+    },
+    {
+      "cite": "176 U. S. 345",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "148 U. S. 397",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3566823
+      ],
+      "pin_cites": [
+        {
+          "page": "410"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/148/0397-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 478",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3426267
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/82/0478-01"
+      ]
+    },
+    {
+      "cite": "181 U. S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "143 U. S. 195",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Howard 133",
+      "category": "reporters:state",
+      "reporter": "Howard",
+      "opinion_index": -1
+    },
+    {
+      "cite": "102 U. S. 672",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5628616
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/102/0672-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3381586
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0432-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 577",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "115 U. S. 683",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514017
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/115/0683-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 674",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514265
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/115/0674-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "33 N. Y. 32",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "103 U. S. 778",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "100 U. S. 703",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Black, 379",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "opinion_index": -1
+    },
+    {
+      "cite": "189 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "116 U. S. 68",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "184 U. S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "412"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "97 U. S. 659",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3376869
+      ],
+      "pin_cites": [
+        {
+          "page": "666"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/97/0659-01"
+      ]
+    },
+    {
+      "cite": "22 Wall. 575",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "91 N. Y. 586",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 How. 117",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3462676
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/64/0117-01"
+      ]
+    },
+    {
+      "cite": "9 How. 192",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "188 U. S. 672",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "184 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "161 U. S. 174",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701385
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/161/0174-01"
+      ]
+    },
+    {
+      "cite": "117 U. S. 148",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "121 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "171 U. S. 48",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600877
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0048-01"
+      ]
+    },
+    {
+      "cite": "59 N. Y. 228",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        521493
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/59/0228-01"
+      ]
+    },
+    {
+      "cite": "176 N. Y. 239",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2313659
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/176/0239-01"
+      ]
+    },
+    {
+      "cite": "116 N. Y. 181",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 How. 435",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3462698
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/64/0435-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 666",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "146 U. S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "35 N. Y. 629",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        16890
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/35/0629-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3606511
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/174/0412-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137079
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/162/0283-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 310",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3621636
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/191/0310-01"
+      ]
+    },
+    {
+      "cite": "149 U. S. 187",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "196 U. S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8291599
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/196/0276-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 685",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592812
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0685-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298318
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/165/0194-01"
+      ]
+    },
+    {
+      "cite": "151 U. S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298970
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/151/0545-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299194
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/134/0232-01"
+      ]
+    },
+    {
+      "cite": "125 U. S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3528112
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "582"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/125/0555-01"
+      ]
+    },
+    {
+      "cite": "125 U. S. 352",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "167 U. S. 462",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "18 Wall. 206",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3427401
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/85/0206-01"
+      ]
+    },
+    {
+      "cite": "166 N. Y. 110",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2286981
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/166/0110-01"
+      ]
+    },
+    {
+      "cite": "97 N. Y. 275",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2195255
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "282"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/97/0275-01"
+      ]
+    },
+    {
+      "cite": "34 Barb. 41",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "case_ids": [
+        5073940
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/barb/34/0041-01"
+      ]
+    },
+    {
+      "cite": "196 U. S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8293077
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/196/0539-01"
+      ]
+    },
+    {
+      "cite": "98 App. Div. 521",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3047604
+      ],
+      "pin_cites": [
+        {
+          "page": "536"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/91/0087-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3604490
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0001-01"
+      ]
+    },
+    {
+      "cite": "11 N. Y. 563",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2014723
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/11/0555-01"
+      ]
+    },
+    {
+      "cite": "3 N. Y. 396",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2007316
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/3/0396-01"
+      ]
+    },
+    {
+      "cite": "3 Denio, 594",
+      "category": "reporters:state",
+      "reporter": "Denio",
+      "case_ids": [
+        2187642,
+        2187645
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/denio/3/0594-01",
+        "/denio/3/0594-02"
+      ]
+    },
+    {
+      "cite": "4 Denio, 125",
+      "category": "reporters:state",
+      "reporter": "Denio",
+      "case_ids": [
+        485391
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/denio/4/0125-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581749
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0421-01"
+      ]
+    },
+    {
+      "cite": "169 N. Y. 231",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2301888
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/169/0231-01"
+      ]
+    },
+    {
+      "cite": "45 App. Div. 249",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4693989
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/45/0249-01"
+      ]
+    },
+    {
+      "cite": "26 App. Div. 314",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4573636
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/26/0314-01"
+      ]
+    },
+    {
+      "cite": "29 St. Rep. 130",
+      "category": "reporters:state",
+      "reporter": "St. Rep.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "104 N. Y. 240",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2207022
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/104/0240-01"
+      ]
+    },
+    {
+      "cite": "152 N. Y. 490",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2275208
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/152/0490-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8768
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/92/0575-01"
+      ]
+    },
+    {
+      "cite": "166 N. Y. 129",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2287089
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/166/0129-01"
+      ]
+    },
+    {
+      "cite": "25 Misc. Rep. 539",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        3387970
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/55/0040-01"
+      ]
+    },
+    {
+      "cite": "126 N. Y. 437",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "146 N. Y. 304",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2268541
+      ],
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/146/0304-01"
+      ]
+    },
+    {
+      "cite": "23 N. Y. 192",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "218"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "126 N. Y. 433",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2237642
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/126/0433-01"
+      ]
+    },
+    {
+      "cite": "36 N. J. L. 66",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        387943
+      ],
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/njl/36/0066-01"
+      ]
+    },
+    {
+      "cite": "9 Fed. Rep. 884",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3782373
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/9/0884-01"
+      ]
+    },
+    {
+      "cite": "4 N. Y. 419",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2005597
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/4/0419-01"
+      ]
+    },
+    {
+      "cite": "167 N. Y. 431",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2297703
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/167/0431-01"
+      ]
+    },
+    {
+      "cite": "96 N. Y. 387",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        556111
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/96/0387-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 55",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        24530
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/139/0055-01"
+      ]
+    },
+    {
+      "cite": "74 N. Y. 183",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        534666
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/74/0183-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 37",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3385364
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "41"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/95/0037-01"
+      ]
+    },
+    {
+      "cite": "157 U.S. 599",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "118 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519298
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "369"
+        },
+        {
+          "page": "369"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 262",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138485
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0262-01"
+      ]
+    },
+    {
+      "cite": "136 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1217862
+      ],
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/136/0436-01"
+      ]
+    },
+    {
+      "cite": "187 U. S. 51",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136799
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "57"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/187/0051-01"
+      ]
+    },
+    {
+      "cite": "128 U. S. 578",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3533469
+      ],
+      "pin_cites": [
+        {
+          "page": "582"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/128/0578-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 97",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3380671
+      ],
+      "pin_cites": [
+        {
+          "page": "104"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0097-01"
+      ]
+    },
+    {
+      "cite": "18 Fed. Rep. 399",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "100 U. S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4619
+      ],
+      "pin_cites": [
+        {
+          "page": "544"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0539-01"
+      ]
+    },
+    {
+      "cite": "165 N. Y. 305",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2285235
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/165/0305-01"
+      ]
+    },
+    {
+      "cite": "161 N. Y. 195",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        37059
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/161/0195-01"
+      ]
+    },
+    {
+      "cite": "107 Fed. Rep. 305",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7852508
+      ],
+      "pin_cites": [
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/107/0305-01"
+      ]
+    },
+    {
+      "cite": "86 Fed. Rep. 168",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6732616
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/86/0168-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 647",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "88 Fed. Rep. 350",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6733648
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/88/0350-01"
+      ]
+    },
+    {
+      "cite": "85 Fed. Rep. 302",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7852313
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "317"
+        },
+        {
+          "page": "317"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/85/0302-01"
+      ]
+    },
+    {
+      "cite": "82 Fed. Rep. 257",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6732874
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/82/0257-01"
+      ]
+    },
+    {
+      "cite": "19 Fed. Rep. 359",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        73032
+      ],
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/19/0359-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516736
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/116/0138-01"
+      ]
+    },
+    {
+      "cite": "118 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "18 Fed. Rep. 385",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6728432
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/18/0385-01"
+      ]
+    },
+    {
+      "cite": "13 Fed. Rep. 722",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3747345
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "734"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/13/0722-01"
+      ]
+    },
+    {
+      "cite": "13 Fed. Rep. 145",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3745349
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/13/0145-01"
+      ]
+    },
+    {
+      "cite": "179 U. S. 302",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5707736
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/179/0302-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 557",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3593405
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "567"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0557-01"
+      ]
+    },
+    {
+      "cite": "13 Gray, 239",
+      "category": "reporters:state",
+      "reporter": "Gray",
+      "case_ids": [
+        2087816
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/79/0239-01"
+      ]
+    },
+    {
+      "cite": "173 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298686
+      ],
+      "pin_cites": [
+        {
+          "page": "690"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/173/0684-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 700",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373942
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "720"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0700-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5704693
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/177/0066-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 102",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3605289
+      ],
+      "pin_cites": [
+        {
+          "page": "109"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0102-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 499",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3381906
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0499-01"
+      ]
+    },
+    {
+      "cite": "1 Black, 436",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410137
+      ],
+      "pin_cites": [
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/66/0436-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 488",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141143
+      ],
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0488-01"
+      ]
+    },
+    {
+      "cite": "117 N. Y. 625",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        564497,
+        564541
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/117/0625-02",
+        "/ny/117/0625-01"
+      ]
+    },
+    {
+      "cite": "32 Hun, 458",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "113 N. Y. 311",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2221775
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/113/0311-01"
+      ]
+    },
+    {
+      "cite": "179 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5707639
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/179/0223-01"
+      ]
+    },
+    {
+      "cite": "63 Fed. Rep. 689",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "30 Fed. Rep. 646",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6745006
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/30/0646-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 50",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3441789
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/76/0050-01"
+      ]
+    },
+    {
+      "cite": "194 U. S. 517",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3631463
+      ],
+      "pin_cites": [
+        {
+          "page": "526"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/194/0517-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 368",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3626401
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/184/0368-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3579432
+      ],
+      "pin_cites": [
+        {
+          "page": "393"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0362-01"
+      ]
+    },
+    {
+      "cite": "10 Wend. 219",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "pin_cites": [
+        {
+          "page": "252"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 Wall. 268",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3458182
+      ],
+      "pin_cites": [
+        {
+          "page": "283"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/72/0268-01"
+      ]
+    },
+    {
+      "cite": "8 Wall. 575",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3445227
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/75/0575-01"
+      ]
+    },
+    {
+      "cite": "10 Wall. 395",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3436516
+      ],
+      "pin_cites": [
+        {
+          "page": "406"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/77/0395-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 6",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411251
+      ],
+      "pin_cites": [
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/83/0006-01"
+      ]
+    },
+    {
+      "cite": "19 Wall. 419",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3432695
+      ],
+      "pin_cites": [
+        {
+          "page": "427"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/86/0419-01"
+      ]
+    },
+    {
+      "cite": "19 Wall. 666",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3433574
+      ],
+      "pin_cites": [
+        {
+          "page": "676"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/86/0666-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 699",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4683
+      ],
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0699-01"
+      ]
+    },
+    {
+      "cite": "93 U. S. 619",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646506
+      ],
+      "pin_cites": [
+        {
+          "page": "624"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/93/0619-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. 770",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1522280,
+        1522282
+      ],
+      "pin_cites": [
+        {
+          "page": "778"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/103/0770-02",
+        "/us/103/0770-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3517285
+      ],
+      "pin_cites": [
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/116/0307-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 578",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591667
+      ],
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/164/0578-01"
+      ]
+    },
+    {
+      "cite": "192 U. S. 201",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        360344
+      ],
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/192/0201-01"
+      ]
+    },
+    {
+      "cite": "31 Ohio St. 317",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        899960
+      ],
+      "pin_cites": [
+        {
+          "page": "322"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/31/0317-01"
+      ]
+    },
+    {
+      "cite": "21 Ohio St. 451",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        885730
+      ],
+      "pin_cites": [
+        {
+          "page": "459"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/21/0451-01"
+      ]
+    },
+    {
+      "cite": "63 Fed. Rep. 68",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3789913
+      ],
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/63/0068-01"
+      ]
+    },
+    {
+      "cite": "32 La. Ann. 82",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        8501330
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/32/0082-01"
+      ]
+    },
+    {
+      "cite": "23 La. Ann. 271",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        5236009
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/23/0271-01"
+      ]
+    },
+    {
+      "cite": "11 La. Ann. 41",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        11262176
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/la-ann/11/0041-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 143",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592981
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0143-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 646",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701930
+      ],
+      "pin_cites": [
+        {
+          "page": "662"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/161/0646-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701543
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "159"
+        },
+        {
+          "page": "151"
+        },
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/161/0149-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 587",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3618417
+      ],
+      "pin_cites": [
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/180/0587-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 650",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514779
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "664"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/115/0650-01"
+      ]
+    },
+    {
+      "cite": "21 Wall. 492",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3411027
+      ],
+      "pin_cites": [
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/88/0492-01"
+      ]
+    },
+    {
+      "cite": "13 Wall. 373",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134217
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/80/0373-01"
+      ]
+    },
+    {
+      "cite": "8 Wall. 430",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3444453
+      ],
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/75/0430-01"
+      ]
+    },
+    {
+      "cite": "16 How. 416",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3483334
+      ],
+      "pin_cites": [
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/57/0416-01"
+      ]
+    },
+    {
+      "cite": "6 How. 301",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3349030
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "332"
+        },
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/47/0301-01"
+      ]
+    },
+    {
+      "cite": "6 How. 507",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3349643
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/47/0507-01"
+      ]
+    },
+    {
+      "cite": "3 How. 133",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3316875
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/44/0133-01"
+      ]
+    },
+    {
+      "cite": "4 Pet. 514",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3309032
+      ],
+      "pin_cites": [
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/29/0514-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3383087
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/95/0104-01"
+      ]
+    },
+    {
+      "cite": "130 N. Y. 281",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2245183
+      ],
+      "pin_cites": [
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/130/0281-01"
+      ]
+    },
+    {
+      "cite": "108 N. Y. 530",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2214434
+      ],
+      "pin_cites": [
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/108/0530-01"
+      ]
+    },
+    {
+      "cite": "115 N. Y. 442",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        562774
+      ],
+      "pin_cites": [
+        {
+          "page": "447"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/115/0442-01"
+      ]
+    },
+    {
+      "cite": "99 N. Y. 592",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2197030
+      ],
+      "pin_cites": [
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/99/0592-01"
+      ]
+    },
+    {
+      "cite": "55 N. Y. 367",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        517485
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/55/0367-01"
+      ]
+    },
+    {
+      "cite": "55 N. Y. 310",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        517325
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/55/0310-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 265",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373424
+      ],
+      "pin_cites": [
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0265-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 139",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3618141
+      ],
+      "pin_cites": [
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/180/0139-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 675",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297941
+      ],
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/183/0675-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 292",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443541
+      ],
+      "pin_cites": [
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0292-01"
+      ]
+    },
+    {
+      "cite": "192 U. S. 73",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        360326
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "81"
+        },
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/192/0073-01"
+      ]
+    },
+    {
+      "cite": "91 N. Y. 574",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2188455
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "591"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/91/0574-01"
+      ]
+    },
+    {
+      "cite": "47 N. Y. 330",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        509414
+      ],
+      "pin_cites": [
+        {
+          "page": "339"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/47/0330-01"
+      ]
+    },
+    {
+      "cite": "29 N. Y. 534",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2038642
+      ],
+      "pin_cites": [
+        {
+          "page": "537"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/29/0534-01"
+      ]
+    },
+    {
+      "cite": "137 U. S. 682",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3546889
+      ],
+      "pin_cites": [
+        {
+          "page": "688"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/137/0682-01"
+      ]
+    },
+    {
+      "cite": "20 Wall. 323",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3393967
+      ],
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/87/0323-01"
+      ]
+    },
+    {
+      "cite": "3 How. 556",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3317202
+      ],
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/44/0556-01"
+      ]
+    },
+    {
+      "cite": "3 Wall. 445",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3475057
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/70/0445-01"
+      ]
+    },
+    {
+      "cite": "138 N. Y. 151",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        22169
+      ],
+      "pin_cites": [
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/138/0151-01"
+      ]
+    },
+    {
+      "cite": "5 Cranch, 1",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        1446289,
+        1446293,
+        11642719
+      ],
+      "pin_cites": [
+        {
+          "page": "8"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/9/0001-02",
+        "/us/9/0001-01",
+        "/dc/5/0001-01"
+      ]
+    },
+    {
+      "cite": "9 Yerg. 490",
+      "category": "reporters:state",
+      "reporter": "Yer.",
+      "case_ids": [
+        8542991
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/tenn/17/0490-01"
+      ]
+    },
+    {
+      "cite": "142 U. S. 217",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3557052
+      ],
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/142/0217-01"
+      ]
+    },
+    {
+      "cite": "76 N. Y. 64",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        539881
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/76/0064-01"
+      ]
+    },
+    {
+      "cite": "20 Wall. 36",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3393631
+      ],
+      "pin_cites": [
+        {
+          "page": "44"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/87/0036-01"
+      ]
+    },
+    {
+      "cite": "126 N. Y. 166",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2237608
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/126/0166-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 203",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411275
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "232"
+        },
+        {
+          "page": "223"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/83/0203-01"
+      ]
+    },
+    {
+      "cite": "3 Cranch, 1",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        6756819,
+        1427686
+      ],
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/dc/3/0001-01",
+        "/us/7/0001-01"
+      ]
+    },
+    {
+      "cite": "23 Wend. 537",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 How. 71",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3361490
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/54/0071-01"
+      ]
+    },
+    {
+      "cite": "11 Pet. 420",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3344471
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "597, 611"
+        },
+        {
+          "page": "548"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/36/0420-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591193
+      ],
+      "pin_cites": [
+        {
+          "page": "666"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/164/0662-01"
+      ]
+    },
+    {
+      "cite": "197 U. S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3636138
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/197/0544-01"
+      ]
+    },
+    {
+      "cite": "176 U. S. 484",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705018
+      ],
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/176/0484-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499161
+      ],
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/107/0020-01"
+      ]
+    },
+    {
+      "cite": "190 U. S. 437",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297296
+      ],
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/190/0437-01"
+      ]
+    },
+    {
+      "cite": "105 U. S. 73",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3495357
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/105/0073-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 677",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5632679
+      ],
+      "pin_cites": [
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/101/0677-01"
+      ]
+    },
+    {
+      "cite": "105 U. S. 60",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3495818
+      ],
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/105/0060-01"
+      ]
+    },
+    {
+      "cite": "1 Wall. 175",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3472079
+      ],
+      "pin_cites": [
+        {
+          "page": "206"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/68/0175-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 678",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411255
+      ],
+      "pin_cites": [
+        {
+          "page": "690"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/83/0678-01"
+      ]
+    },
+    {
+      "cite": "80 N. Y. 585",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2173190
+      ],
+      "pin_cites": [
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/80/0585-01"
+      ]
+    },
+    {
+      "cite": "1 Black, 55",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410094
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "61"
+        },
+        {
+          "page": "61"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/66/0055-01"
+      ]
+    },
+    {
+      "cite": "93 N. Y. 129",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        552720
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "157"
+        },
+        {
+          "page": "148"
+        },
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/93/0129-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 558",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705399
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "578"
+        },
+        {
+          "page": "577"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/177/0558-01"
+      ]
+    },
+    {
+      "cite": "33 N. Y. 42",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2042036
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/33/0042-01"
+      ]
+    },
+    {
+      "cite": "32 N. Y. 261",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        16296
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "271"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/32/0261-01"
+      ]
+    },
+    {
+      "cite": "111 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2218089
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "36"
+        },
+        {
+          "page": "36"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/111/0001-01"
+      ]
+    },
+    {
+      "cite": "153 N. Y. 144",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277623
+      ],
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/153/0144-01"
+      ]
+    },
+    {
+      "cite": "27 N. Y. 188",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2035363
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/27/0188-01"
+      ]
+    },
+    {
+      "cite": "173 U. S. 664",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298655
+      ],
+      "pin_cites": [
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/173/0664-01"
+      ]
+    },
+    {
+      "cite": "136 U. S. 549",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1217872
+      ],
+      "pin_cites": [
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/136/0549-01"
+      ]
+    },
+    {
+      "cite": "119 U. S. 265",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299749
+      ],
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/119/0265-01"
+      ]
+    },
+    {
+      "cite": "117 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299647
+      ],
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/117/0129-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 679",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3382812
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "686"
+        },
+        {
+          "page": "689"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/95/0679-01"
+      ]
+    },
+    {
+      "cite": "174 N. Y. 475",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2310536
+      ],
+      "pin_cites": [
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/174/0475-01"
+      ]
+    },
+    {
+      "cite": "179 N. Y. 99",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2318585
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "104"
+        },
+        {
+          "page": "104"
+        },
+        {
+          "page": "106"
+        },
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/179/0099-01"
+      ]
+    },
+    {
+      "cite": "174 N. Y. 417",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2310526
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/174/0417-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137893
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/143/0192-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "95 U. S. 686",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 3,
+      "opinion_index": -1
+    },
+    {
+      "cite": "21 Wall. 497",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "10 How. 376",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3357797
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/51/0376-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600733
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0658-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 305",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139220
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/143/0305-01"
+      ]
+    },
+    {
+      "cite": "188 U. S. 189",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11726086
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/188/0189-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599116
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/170/0283-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597208
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/169/0421-01"
+      ]
+    },
+    {
+      "cite": "190 U. S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297245
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/190/0412-01"
+      ]
+    },
+    {
+      "cite": "190 U. S. 160",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8296566
+      ],
+      "pin_cites": [
+        {
+          "page": "163"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/190/0160-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 14",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 Wheat. 316",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4702
+      ],
+      "pin_cites": [
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/17/0316-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592755
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0150-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "148 U. S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3566709
+      ],
+      "pin_cites": [
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/148/0312-01"
+      ]
+    },
+    {
+      "cite": "13 Wall. 264",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134230
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/80/0264-01"
+      ]
+    },
+    {
+      "cite": "158 N. Y. 510",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        44041
+      ],
+      "pin_cites": [
+        {
+          "page": "513"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/158/0510-01"
+      ]
+    },
+    {
+      "cite": "157 N. Y. 453",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2295500
+      ],
+      "pin_cites": [
+        {
+          "page": "463"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/157/0453-01"
+      ]
+    },
+    {
+      "cite": "153 N. Y. 528",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277691
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/153/0528-01"
+      ]
+    },
+    {
+      "cite": "116 N. Y. 167",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2225921
+      ],
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/116/0167-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "196 U. S. 447",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292506
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/196/0447-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 613",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597843
+      ],
+      "pin_cites": [
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/169/0613-01"
+      ]
+    },
+    {
+      "cite": "104 U. S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3493776
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/104/0078-01"
+      ]
+    },
+    {
+      "cite": "2 Black, 599",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        3465392
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/67/0599-01"
+      ]
+    },
+    {
+      "cite": "151 U. S. 659",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Wall. 106",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3475697
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/70/0106-01"
+      ]
+    },
+    {
+      "cite": "160 U. S. 389",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701389
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/160/0389-01"
+      ]
+    },
+    {
+      "cite": "144 U. S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3560175
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/144/0126-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 392",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499481
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/198/0392-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8203
+      ],
+      "pin_cites": [
+        {
+          "page": "400"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/109/0398-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 244",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6138933
+      ],
+      "pin_cites": [
+        {
+          "page": "259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/71/0244-01"
+      ]
+    },
+    {
+      "cite": "16 How. 369",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3483716
+      ],
+      "pin_cites": [
+        {
+          "page": "386, 401, 402"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/57/0369-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 284",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3425093
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/82/0284-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 232",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3425578
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/82/0232-01"
+      ]
+    },
+    {
+      "cite": "6 Wall. 607",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "166 U. S. 185",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592915
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/166/0185-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564104
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/146/0279-01"
+      ]
+    },
+    {
+      "cite": "188 U. S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11729137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/188/0662-01"
+      ]
+    },
+    {
+      "cite": "181 U. S. 531",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298182
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/181/0531-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 665",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516648
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "668"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/116/0665-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3381586
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/96/0432-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299194
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/134/0232-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8768
+      ],
+      "pin_cites": [
+        {
+          "page": "603"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/92/0575-01"
+      ]
+    },
+    {
+      "cite": "1 Black, 436",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410137
+      ],
+      "pin_cites": [
+        {
+          "page": "446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/66/0436-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 50",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3441789
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/76/0050-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3517285
+      ],
+      "pin_cites": [
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/116/0307-01"
+      ]
+    },
+    {
+      "cite": "21 Wall. 492",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3411027
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/88/0492-01"
+      ]
+    },
+    {
+      "cite": "3 How. 133",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3316875
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/44/0133-01"
+      ]
+    },
+    {
+      "cite": "4 Pet. 514",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3309032
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/29/0514-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3383087
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/95/0104-01"
+      ]
+    },
+    {
+      "cite": "11 Pet. 420",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3344471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/36/0420-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591193
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/164/0662-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 679",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3382812
+      ],
+      "pin_cites": [
+        {
+          "page": "690, 694"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/95/0679-01"
+      ]
+    },
+    {
+      "cite": "179 N. Y. 99",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2318585
+      ],
+      "pin_cites": [
+        {
+          "page": "104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/179/0099-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137893
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/143/0192-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2809,
+    "char_count": 97440,
+    "ocr_confidence": 0.623,
+    "pagerank": {
+      "raw": 9.046006785241796e-07,
+      "percentile": 0.9790651887426641
+    },
+    "sha256": "9c0b9cffc2f8965199f552ce2f86451b8fcc637704b60f14fbe1ad425cf138e0",
+    "simhash": "1:282405db4f0bfa6f",
+    "word_count": 17048
+  },
+  "last_updated": "2024-02-27T19:25:13.001437+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE OF THE STATE OF NEW YORK ex rel. METROPOLITAN STREET RAILWAY COMPANY v. NEW YORK STATE BOARD OF TAX COMMISSIONERS."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brewer,\nafter making the foregoing statement, delivered the opinion of the court.\nThe decision of the Court of Appeals settles that there is nothing in the law or the proceedings in this case in conflict with the constitution of that State. It is not contended by the plaintiff in error that there is any constitutional objection to the taxation of franchises. The right to subject them to a share in the burden of supporting the government is conceded.\nThe main contention is that this tax legislation impairs the obligation of contracts. It must be borne in mind that presumptively all property within the territorial limits of a State is subject to its taxing power. Whoever insists that any particular property is not so subject has the burden of proof and must make it entirely clear that, by contract or otherwise, the property is beyond its reach. In Providence Bank v. Billings, 4 Pet. 514, Mr. Chief Justice Marshall, in'delivering the opinion of the court, said (p. 561):\n\u201cThat the taxing power is of vital importance; that it is essential to the existence of government; are truths which it cannot be necessary to reaffirm. They are acknowledged and asserted by all. It would seem that the relinquishment , of such a power is never to be assumed, We will not say that a ^State may not relinquish it; that a consideration sufficiently valuable to induce a partial release of it may not exist; but as the whole, community is interested in retaining it undimin-. ished, that community has a right to insist that its abandonment ought not to be presumed in a case in which the deliberate, purpose of the State to abandon it does not appear.\u201d\nIn Vicksburg &c. R. R. Co. v. Dennis, 116 U. S. 665, Mr. Justice Gray cited many authorities, quoting the different phraseology in which by the several writers of the opinions the same rule was announced. In Wells v. Savannah, 181 U. S. 531, the law was thus stated by Mr. Justice Peckham (p. 539):'\n\u201cThe payment of taxes on account of property otherwise liable to taxation can only be avoided by clear proof of a valid contract of exemption from such payment and the validity of such contract presupposes a good consideration therefor. If the property be in its nature taxable the contract exempting it from taxation must, as we have said, be clearly proved. It will not be inferred from facts which do not lead irresistibly and necessarily to the existence of the contract. The facts proved must show either a contract expressed in terms, or el.se it must be implied from facts which leave no room for doubt that such was the' intention of the parties and that a valid consideration existed for the contract.. If there be any doubt on these matters, the, contract has not been proven and the exemption does not exist.\u201d\nIn Chicago Theological Seminary v. Illinois, 188 U. S. 662, the same Justice declared (p. 672) :\n\u201cThe rule is that, in claims for exemption from taxation trader legislative authority, the exemption must be plainly and unmistakably granted; it cannot exist by implication only; a doubt is fatal to the claim.\u201d\nSee also Erie Ry. Co. v. Pennsylvania, 21 Wall. 492; Wilmington & Weldon R. R. Co. v. Alsbrook, 146 U. S. 279; Ford v. Delta & Pine Land Co., 164 U. S. 662.\nThis rule is akin to, if not part of, the broad proposition, now universally accepted, that in grants from the public nothing passes by implication. As said .by Mr. Chief Justice Taney, in Charles River Bridge v. Warren Bridge, 11 Pet. 420, 549:\n\u201cThe inquiry, then, is, does the charter contain such a contract on the part of the State? Is there any such stipulation to be found in that instrument? It must be admitted on all hands that there is none; no words that .even relate to another .bridge, or to the diminution of their tolls, or to the line of travel. If a contract on that subject can be gathered from the charter, it must be by implication, and cannot be found in the words used. Can such an agreement be implied? The rule of construction before stated is an answer to the question. In charters of this description, no rights are taken from the public or given to the corporation, beyond those which the words of the charter, by their natural and proper construction, purport to convey. There are no words which import such a contract as the plaintiffs in error contend for, and none can be implied.\u201d\nApplying these well-established rules to the several contracts, it will be perceived that there was no express relinquishment of the right of taxation. ' The plaintiff in error must rely upon some implication and not upon any direct stipulation. In each contract there was a grant of privileges, but the grant was specifically of privileges in respect to the construction, operation, and maintenance of a street railroad. These were all that in terms were granted. As consideration for this grant the grantees were to pay something, and such payment is nowhere said to be in lieu of or as an equivalent pr substitute for taxes. All that can be extracted from.the language, used was a.grant of privileges and a'payment therefor. Other words must be. written into the contract before there can be found any relinquishment of the power of taxation.\nIn the well-considered opinion of the Court of Appeals in this case it was stated by Mr. Justice Vann:\n\u201cThe franchises are grants which usually contain contracts, executed by the municipality, but executory as to the owner. They contain various conditions and stipulations t\u00f3 be observed by the holders of the privilege, such as payment of a license fee, of a gross sum down, of a specific sum each year or a certain percentage, of receipts, as a consideration, or \u2018 in full satisfaction for. the use of' the streets.\u2019 There is no provision that the special franchise, or the' property created by the grant, shall be exempt from, taxation.\n4l* >\u00a3. \u00abr\u00bb mlf \u00abb \u2022]< ^ y\u00bf* ^\n\u201cThe condition upon which, a franchise is granted is the purchase price of the grant, the payment of which in money,' or by an agreement to bear some burden, brought the property into existence, which thereupon became taxable at the will of the legislature, the same as land granted or leased by the State. There is no implied covenant that property sold by the State cannot be taxed by the State, which can even tax its own bonds, given to' borrow money for its own use, unless they contain an express stipulation of exemption. The rule of strict construction applies to state grants, and unless there is an express stipulation not to tax, the right is reserved as an attribute of sovereignty. Special franchises were not taxed until by the act of 1899 amending the tax law they were added to the other taxable property of the State. This is all that the statute does, so far as the question now under consideration is concerned. No part of the grant is changed, no stipulation altered, no pay- \u2019 ment increased and nothing exacted from the owner of the franchise that is not exacted from the owners of property generally. No blow is struck at the franchise, as such, for it remains with every right conferred in full force, but, as it is property, it is required to contribute its ratable share,-' dependent only upon value, toward the support of government.\u201d\nIt would not be doubted that if a grant was of specific tangible property, like a tract of land, and the payment therefor was a gross sum,, no implication of an exemption from taxation would arise. Whether the amount paid was large or small, greater or less than the real value, if the payment was distinctly the consideration of a grant, that which was granted would pass into the bulk of private property, and, like all other such property, be subject to taxation. Nor would this result be altered by the fact that the payment for the thing granted was to be made annually instead of by a single sum in gross. If it was real estate it would be equivalent to the conveyance of the tract subject to ground rent, and the grantee taking the title would hold it liable to taxation upon its value. If this be true in reference to a grant of tangible property it is equally true in respect toN a grant of a franchise, for a franchise, though intangible, is none the less property, and oftentimes property of great value. Indeed, growing out of the conditions of modern business, a large proportion of valuable property is to be found in intangible things like franchises. We had occasion to review this subject in Adams Express Company v. Ohio, 166 U. S. 185, where we said (pp. 218, 219):\n\u201cIn the complex civilization of to-day a large portion of the wealth of a. community consists in intangible property, and there is nothing in the nature of things or in the limitations of the Federal Constitution which restrains a State from taxing at its *eal value such intangible property. ... It matters not in what this intangible property consists \u2014 whether privileges, corporate franchises, contracts or obligations. It is enough'tliat it is property which, though intangible, exists,' which has value, produces income and passes current in the markets of the world. To ignore this intangible property, or to hold that it is not subject to taxation at its accepted value, is to eliminate from the reach of the taxing power a large portion of the wealth of the country.\u201d\nIn State Railroad Tax cases, 92 U. S. 575, 603, is this language by Mr. Justice Miller, speaking for the court:\n\u201cThat the franchise, capital stock, business, and profits of all corporations are liable to taxation in the place where they do business, and by the State which creates them, admits of no dispute at this day. ' \u2018 Nothing can be more certain in legal decisions,\u2019 says this court in Society for Savings v. Coite, 6 Wall. 607, \u2018 than that the privileges and franchises of a private corporation, and all trades and avocations by which the citizens acquire a livelihood, may be taxed by a State for the support of a state government.\u2019 State Freight Tax Case, 15 Wall. 232; State Tax on Gross Receipts, 15 Wall. 284.\u201d\nIt is urged th\u00e1t when the public grants a privilege on condition of the payment of an annual sum the contract implies that the public shall exact no larger amount for that privilege, that to impose a tax is simply increasing the price which the grantee is called upon to pay for the privilege, and Gordon v. Appeal Tax Court, 3 How. 133, is relied upon as auth\u00f3rity.. It is true, in the opinion of the court, announced by Mr. Justice Wayne, is this language (p. 145):\n\u201cSuch a contract is a limitation upon the taxing power of the legislature making it, and upon succeeding legislatures, to impose any further tax upon the franchise. But why, when \u2022 bought', as it becomes property, may it not be taxed as land is \u2022 taxed which has been bought from the State?- was repeatedly ; asked in the course of the argument. The reason is, that every one buys land, subject in his own apprehension to-the great law.of necessity, that we must contribute from it and all'of our property something to maintain the State. But a franchise for banking, when bought, the price is paid for the use of the privilege whilst its lasts, and any tax upon it would substantially be an addition to the price.\u201d\nBut there was in that case an express exemption from taxation in these words:\n\u201c \u2018 And be it enacted, that, upon any of the aforesaid banks accepting of and complying with the terms and conditions of this act, the faith of the State is hereby pledged not to impose any further tax or burden upon them during the continuance of their charters under this act.\u201d\nThere being thus an express stipulation on the part of a State hot to impose any further tax or burden, the question decided was really the extent of the exemption, and it was held to apply not merely to-the franchise but to the property of the bank. The statements of 'Mr. Justice Wayne were only by way of argument to support the conclusion that the exemption went beyond the franchise alone. Furthermore, that case has been repeatedly qualified and limited by subsequent decisions. In New Orleans City Railroad Company v. New Orleans, 143 U. S. 192, Mr. Justice Gray, speaking for the court, said (p. 195):\n\u201cExemption from taxation is never to be presumed. The legislature itself cannot be held to have intended to surrender th\u00e9 \u00e9axihg power, unless its intention to do so has been declared in clear and unmistakable words. Vicksburg &c. Railroad v. Dennis, 116 U. S. 665, 668, and cases cited. Assuming, without deciding, that the city of New Orleans was authorized to exempt the New Orleans City - Railroad Company from taxation under general laws of the State, the contract between them affords no evidence of an intention to do so. The franchise to build and run a street railway was as much subject to taxation as any other property.\n\u201cIn Gordon v. Appeal Tax Court, 3 How. 133, upon which the plaintiff in error much relied, the only point decided'was that an act of the legislature, continuing the charter of a bank, upon condition that the corporation should pay certain sums annually for public purposes, and declaring that, upon its accepting and complying with the provisions of the act, the faith of the State was pledged not to impose any further tax or burden upon the corporation during the continuance of the charter, exempted the stockholders from taxation on their stock; and so much of the opinion as might, taken by itself, seem to support this writ of error, has been often explained or disapproved. State Bank v. Knoop, 16 How. 369, 386, 401, 402; People v. Commissioners, 4 Wall. 244, 259; Jefferson Bank v. Skelly, 1 Black, 436, 446; Farrington v. Tennessee, 95 U. S. 679, 690, 694; Stone v. Farmers\u2019 Loan & Trust Co., 116 U. S. 307, 328.\n\u201cThe case at bar cannot be distinguished from that of Memphis Gaslight Co. v. Shelby County, in which this court upheld a license tax upon a corporation which had acquired by its charter the privilege of erecting gas works and making and selling gas for fifty years; and, speaking by Mr. Justice Miller, said: \u2018The argument of counsel is that if no express contract against taxation can be found here, it must be implied, because to permit the State to tax this company by a license tax for the privilege granted by its charter is to destroy that privilege. But the answer-is that the company took their charter subject to the same right of taxation in the State that applies to all other privileges and to all other property; If they wished or intended to have an exemption of any kind from taxation, or felt that it was necessary to the profitable working of their business, they should have required a provision to that effect in their charter. The Constitution of the United States does not profess in all cases to protect property from unjust and oppressive taxation by the States. That is left to the state constitutions and state laws.\u2019 109 U. S. 398, 400.\u201d\nMurray v. Charleston, 96 U. S. 432, is not in point. The city of Charleston, having issued bonds, subsequently passed an ordinance assessing a tax upon all real and personal property in the city, and directed the treasure!- to retain out of the interest due on those bonds the amount of the tax. Murray was a resident of Germany and resisted the reduction of interest; and it was held that the city could not by way of a tax reduce the amount of the interest which ft had promised to pay to this non-resident holder, the court saying in its opinion (p. 440): \u201cA non-r\u00e9sident creditor cannot be said to be, jn virtue of a debt due to him, a holder of property within the city; and the city council was authorized to make assessments-only upon the inhabitants of Charleston, or those holding taxable property within the same.\u201d\nChicago v. Sheldon, 9 Wall. 50, is also not in point. An ordinance was passed by the city council of Chicago prescribing the amount of work which a street railway company must do in the grading, paving, etc., of the streets oh which its railway was authorized to be constructed. The company, having accepted and complied with the terms of this ordinance, the city attempted by assessments for special improvements to compel the railway company to pay for further work of the nature required by the original ordinance, and it was held that the obligations assumed by the railway company in respect to street improvements, as provided by the ordinance, could not be increased by special assessments for further improvements. But this involved no question of liability to general taxation, and only held void the effort of the city under the guise of special assessments to increase the obligations specifically assumed by the railway company under the original ordinance.\nIn New Jersey v. Yard, 95 U. S. 104, there was a contract that a certain tax should \u201c be in lieu and satisfaction of all other taxation or imposition whatsoever, by or under the authority of this State, or any law thereof,\u201d and the decision simply upheld that exemption specifically contracted for.\nIt is further contended that there has been a recognition and practical construction in respect to the grants of these franchises, and on these grounds: First, no attempt was ever made to legislate in respect to their taxation until 1899, although some of them had been in existence for many years; second, Governor Cleveland in one of his messages called the amount required to be paid by the contract a \u201ctax,\u201d and Governor Roosevelt also spoke of existing \u201ctaxes;\u201d third, section 46 of the legislation authorizing the tax upon these franchises provided that \u201cany sum based upon a percentage of gross earnings, or any other income, or any license fee, or any sum of money on account of such special franchise, granted to or possessed- by such person, copartnership, association, or corporation, which payment was in the nature of a' tax, ail amounts so paid for the exclusive use of such city, town or village, except money paid or expended for paving or repairing of pavement of any street, highway or public place, shall be deducted from any tax based on the assessment mad\u00bb by the state board of tax commissioners'for city, town or villagri purposes, but not otherwise; and the remainder shall be the tax on such special franchise payable for city, town or .village purposes;\u201d fourth, the Court of Appeals of New York in Heerwagen v. Crosstown Street Railway Company, 179 N. Y. 99, 104, said:\n-\u201cIn the first place, both in statutes and in judicial decisions the tgrm \u2018 tax \u2019 is frequently used in a much more comprehensive sense than that which we have stated to be its accurate meaning. It is not used so broadly as to include the revenue from private property which -the State or one of its political divisions may hold for emolument the same as other owners; but it certainly is used to comprehend exactions for the privilege of exercising franchise rights, which latter are often, especially in the case of foreign corporations, merely the consideration received for privileges which the State is at liberty to grant-or to withhold at pleasure.\u201d\nWe are not disposed to undervalue the force of these suggestions, but it would be giving them undue significance to hold that they are potent to displace the power of the State to subject to the burdens of taxation property within its limits. The word \u201ctax\u201d is not, infrequently used in a general sense as denoting a burden or charge, and not in the strict legal sense of the charge or burden imposed by the State for the purposes of revenue for its support. Undoubtedly the payment' for the franchise of an annual sum was a burden, and in that sense it might not unnaturally have been spoken of as a tax. Bei\u00f1g recognized \u00e1s a burden it may also well be that when the franchise itself was of comparatively little value the legislature did not see fit to subject .it to the burdens of ordinary taxation. But the omission of one legislature or a dozen legislatures dries - not destroy the power of the State.' The language quoted from section .46 indicates the desire of the legislature to deal equitably with the corporations holding \\these franchises. Surely the-manifestation of this desire cannot be construed into a repudiation of power. These annual charges are not called taxes, but are spoken of as in the nature of a tax, and the legislature recognizing the equitable force of the claim based thereon provided that the corporation be given credit for sums thus pay- . able. In this connection it is well to recall that in section 1 of- the act of .1886, supra, these annual charges are called \u201crental or percentage of gross earnings.\u201d\nThe quotation from the Court of. Appeals must, be interpreted in the light of the question presented. That was whether the appellee company was entitled to avail itself of- the provision of sec.. 46 just quoted, it having been required by' its charter to pay a certain percentage of its gross receipts. It was held that it was so entitled, and the argument' was to show that the .words \u201cin the nature of a tax\u201d were used in a broad and comprehensive sense to include a payment made on account of the privilege granted. No question was made or considered as .to the liability of the company to the tax on its franchise. Its only claim was to the deduction on account of the percentage of its receipts already \u2019 paid. The court, in addition to the language quoted, said (p. 106): theless it is plain that this view was accepted by the legislature, for under the scheme provided by the present statute the franchise is to be assessed as real estate; that is to say, not subject to diminution for charges thereon, and the allowance for such charges is made only by deducting them from the tax,\u201d\n\u201cThe statute in question was enacted at,a special session of the legislature convened by the Governor, for\" that purpose. In his message to the legislature he recommended that .\u2018it should be .provided that from the' sum assessed by. the state authorities as the tax which a corporation must pay because of its local franchise, there shall be deducted the ajpo.untalready annually paid by it to the locality for such franchise. .Ip no other way is it possible t\u00f3 tax these corporations with uniformity and equity.\u2019 It may be that this view is erroneous,,an.d that the more accurate and equitable- way would.be to- determine the value of' the franchise not as free and clear, bup as burdened by the charges to which it might be subject. Never-\nWe are of opinion that no contract right of the relator was impaired by the legislation in question.\nIt is further insisted that the special franchise tax law denies the relator the equal protection of the laws and due process in three separate and distinct aspects, \u201cnamely, (1) in that it adds to the obligations of their various contracts while preserving all the burdens of those contracts; (2) in that it provides for the deduction of annual payments covered by existing contracts from the amount of tax levied, by reason of which.deduction those who agreed to pay for their franchises lump sums or annual amounts less than the new tax are discriminated against.; and (3) in that it discriminates against them and subjects them to taxation, while their competitors operating under.the surfaces of many of the same streets are to be exempted.\u201d..\nThe first specification is answered by the conclusion that we have reached in respect to the claim of an impairment of con-' tract obligations, for if there was no such impairment the fact that the companies have escaped the burden for these many years is their good fortune, and in no manner discharges them from the ordinary burdens of taxation which the present law imposes.\nWith respect to the second, it may be observed that the lump sum is so obviously a payment for the franchise that it cannot \u2022 be considered in any just sense as possessing the nature of a tax. It is not even rental. It is like money paid for a tract of land, part of the purchase price. It does not, like a percentage of the gross receipts, vary .with the changes of business, has no resemblance to a continuing discharge of the obligation which property is under for contribution to the supportnf the Government. Further, this whole matter of allowing a reduction on account of that which is spoken of as \u201cin the nature of a tax\u201d is a matter of grace on the part of the legislature. The franchises granted were, as we have held, subject to taxation, and the fact that upon equitable considerations the State has consented that a certain reduction shall, in some cases be made, does not entitle every holder of a franchise to a. like reduction. It is akin to an exemption, and there is nothing in the Federal Constitution to prevent a State from granting exemption from taxation. Bell\u2019s Gap Railroad Company v. Pennsylvania, 134 U. S. 232.\nWith regard to the third contention, it may be said that there is a difference between surface and subsurface street railroads sufficient to justify a diversity in the mode and extent of taxation. In Savannah &c. Railway Company v. Savannah, 198 U. S. 392, just decided, taxation of a street railroad was challenged on the ground that a steam railroad which ran into the city and along its streets, and there did some of the same kind of work as the ordinary street railroad, was not subject to the same tax, and, referring to this contention, is this declaration by Mr. Justice Holmes: \u201cThe difference between the two railroads is obvious and warrants the diversity in the mode of taxation.\u201d Further, the condition of the title to the only subsurface road in the city of New York clearly puts it ip a class by itself.\nThese are all the questions we deem it important to consider. We find no error in the decision of the Supreme Court of New York, and it is\nAffirmed.",
+        "type": "majority",
+        "author": "Mr. Justice Brewer,"
+      }
+    ],
+    "attorneys": [
+      "Mr. Elihu Root and Mr. William, D. Guthrie for plaintiffs in error in this case and in Nos. 75 and 76:-",
+      "Mr. Elihu Boot, with whom Mr. Frank H. Platt was on the brief, for plaintiffs in error in Nos. 77 and 78 argued simultaneously herewith:",
+      "Mr. Charles A. Collin, with whom Mr. William F. Sheehan was on the brief, for plaintiffs in error in No. 79:",
+      "Mr. Louis Marshall and Mr. Julius M. Mayer, Attorney General of the State of New York, for defendant in error in this case and for defendant in error in Nos. 75, 76, 77, 78, 79 and 80:"
+    ],
+    "corrections": "",
+    "head_matter": "THE PEOPLE OF THE STATE OF NEW YORK ex rel. METROPOLITAN STREET RAILWAY COMPANY v. NEW YORK STATE BOARD OF TAX COMMISSIONERS.\nERROR TO THE SUPREME COURT OF THE STATE OF NEW YORK.\nNo. 74.\nArgued April 17, 18, 19, 1905.\nDecided May 29, 1905.\nPresumptively all property within the territorial limits of a State is subject to its taxing power and the burden of proof is on one claiming that any particular property is by contract or otherwise beyond the reach thereof; and, growing out of the conditions of modern business a large proportion of valuable property is now to be found in intangible things such as franchises, which are, like other property, subject to taxation.\nIn grants from the public nothing passes by implication, and, in the absence of direct stipulations relinquishing the right of taxation, a provision, . in grants of privileges or franchises, that the grantee shall pay something therefor is not to be construed as an equivalent or substitute for taxes amounting to a contract of exemption from-future taxation within the impairment clause.of the Federal Constitution.\nThe omission of the legislature for one year, or for a series of years, to tax certain classes of property,- otherwise taxable, does not destroy the - power of the State to subject them to taxation when it sees fit to do so.\nNothing in the Federal Constitution prevents a State from granting exemptions from taxation; and the reduction, upon equitable considerations, of payments made in the nature of taxes by certain corporations on their franchises from the amount to which they are subjected by a general law does not entitle every franchise owner to a similar reduction and render the tax invalid because it denies the holders of some franchises the equal protection of the law or deprives them of their property without due process of law.\nThe difference between surface street railroads and subsurface street railroads is sufficient to justify classification in the mode and extent of taxation, and a tax otherwise legal on surface street railroad franchises does not deprive the owners thereof of the equal protection of the laws because subsurface street railroad franchises are not subjected to a similar tax.\nThe tax law of New York as amended May 26, 1899, c. 712, p. 1589, imposing taxes on certain public franchises is not repugnant, so far as the franchises in this case are involved, to the equal protection, due process, or impairment of obligation clauses of the Federal Constitution and of the Fourteenth Amendment thereto.\nOn May 26, 1899, the legislature of New York passed an act amending the.tax.law of the State. Laws of New York, 1899, c. 712, ,p. 1589. The first section reads:\n.\u201cSection 1. Subdivision three of section two of the tax law is hereby amended to read as follows:\n\u201c3. The terms \u2018land,\u2019 \u2018real estate,\u2019 and \u2018real property,\u2019 as used in this chapter, include the land itself above and under water, all buildings and other articles and structures, substructures and superstructures, erected upon, under or above, or affixed to the same; all wharves and piers, including the value of the right to collect wharfage, cranage or dockage thereon; all bridges, all telegraph lines, wires, poles and appurtenances; all supports and inclosures for electrical conductors and other appurtenances upon,' above and under ground; all surface, under ground or elevated railroads, including the value of all franchises, rights or permission to construct, maintain or operate the same in, under, above, on or through, streets, highways, or public places; all railroad structures, substructures and superstructures, tracks and the iron thereon; branches, switches and other -fixtures permitted or authorized to be made, laid or placed- in, upon, above or under any public or private road, street or ground; all mains, pipes and tanks laid or placed in, upon, above or under any public or private street or place for conducting steam, heat, water, oil, electricity or any property, substance or product capable of transportation or conveyance therein or that is protected thereby, including the value of all franchises, rights, authority or permission to construct, maintain or operate, in, under, above, upon, or through, any streets, highways, or public places, any mains, pipes, tanks, conduits, or wires, with their appurtenances, for conducting water, steam, heat, light, power, gas, oil, or other substance, or electricity for telegraphic, telephonic or other purposes; all trees .and underwood growing upon land, and all mines, minerals, quarries and fossils in and under the same, except mines belonging to the State. A franchise, right, authority or permission specified in this subdivision shall for the purpose of taxation be known as a 1 special franchise.\u2019 A special franchise shall be deemed to include the value of the tangible property of a person, copartnership, association or corpordtion situated in, upon, under or above any street, highway, public place or public waters Jn connection with the special franchise. The tangible property so included shall be taxed as a part of the special franchise. No property of a municipal corporation shall be 'subject to a special franchise tax.\u201d\nThe portions in italics are the new matter introduced by the amendment. Other sections were added to the tax law, of which section 46 is as follows:\n\u201cSec. 46. Deduction from special franchise tax for local purposes. \u2014 If, when the tax assessed on any special franchise is due and payable under the provisions of law applicable to the city, town, or village in which the tangible property is located, it shall appear that the person, copartnership, association or corporation affected has paid to such city, town or village for its exclusive use within the next preceding year, under any agreement therefor, or under any statute requiring the same, any sum based upon a percentage 6f gross earnings, or any other income, or any license fee, or any sum of money on account' of such special. franchise, granted to or possessed by such person, copartnership, association, or corporation, which payment was in the nature of a tax, all amounts so paid for the exclusive use of such city, town or village except money p\u00e1id or expended for paving or repairing of pavement of any street, highway or public place, shall be deducted from any tax based on the assessment made by the state board of tax commissioners for city, town or village purposes, but not otherwise; and the remainder shall be the tax on such special franchise payable for city, town or village purposes. The chamberlain or treasurer of a city, the treasurer of a village, the supervisor of a town, or other officer to whom any sum is paid for which a person, copartnership, association, or corporation is entitled to credit as provided in this section, shall, not less than five nor more than twenty days before a tax on a special franchise is payable, make and deliver to the collector ' or receiver of taxes or other officer authorized to receive taxes for such city, town or village, his certificate showing the several amounts which have been paid during the year ending on the day of the date of the certificate. On the receipt of such certificate the collector, receiver, or other officer shall immediately credit on the tax roll to the person, copartnership, ' association or corporation affected the amount stated in such certificate, on any tax levied against such person, copartnership, association or corporation on an assessment of a special franchise for city, town or village purposes only, but no credit shall be given on account of such payment or certificate in any other year, nor for a greater sum than the amount of the special franchise tax for city, town or village purposes, for the current year; and he shall collect and receive the balance, if any, of such tax as required by law.\u201d\nOther sections provide the machinery for assessment. This, assessment was to be made by the state board of tax commissioners, and one section authorized certiorari to review their proceedings.\nUnder this law an assessment was made of the franchises belonging to the plaintiff in error, a corporation created by the consolidation of several corporations, having franchises for the maintenance and operation of street railroads in the city of New York. A certiorari to review this assessment was finally decided by the Court of Appeals of the State, which on April 28, 1903, 174 N. Y. 417, sustained the assessment and remanded the case to the special term of the Supreme Court, by which court a final judgment was entered, June 22, 1903. Thereupon this writ of error was sued out. Plaintiff in error makes three assignments of error:\n\u201c I. Error in declining to hold that the act of the legislature of the State of New York, approved May 26th, 1899 (ch. 712, L. 1899), entitled \u2018An act to amend the tax law, in relation to the taxation of public franchises as real property,\u2019 in so far as it authorizes the assessment imposed by the state board of tax commissioners on March 20, 1900, upon the franchises of the [plaintiff in error], relator above named, deprives said relator of its property without due process of law, in contravention of the Fourteenth Amendment to the Constitution of the United States.\n- \u201cII. Error in declining to hold that said legislative enactment, in so far as it authorizes the said assessment, denies to said relator the equal protection of the laws, in contravention of the Fourteenth Amendment to the Constitution of the United States.\n\u201cIII. Error in declining to hold that said legislative enactment, in so far as it authorizes the said assessment, impairs the obligations of contracts, in contravention of section 10, Article 1, of the Constitution of the United States.\u201d\nPrior to 1874 .the legislature of New York made direct grants of franchises, rights or privileges to use the streets of the city of New York. In that year the following amendment to the constitution was adopted. Constitution 1846, as amended, art. 3, sec. 18:\n\u201cThe legislature shall not pass a private or local bill m any of the following cases: ...\n\u201cGranting to any corporation, association or individual the right to lay down railroad tracks.- . . .\n\u201cBut no law shall authorize the construction or operation of a street railroad except upon the condition that the consent of the owners of one-half in value of the property bounded on, and the consent also of the local authorities having the control of, that portion of a street or highway upon which it is proposed to construct or operate such railroad be first obtained, or in case the consent of such property owners cannot be obtained, the General Term of the Supreme Court, in the district in which it is proposed'to be constructed, may, upon application, appoint three commissioners, who shall determine, after a hearing of all parties interested, whether such railroad ought to be constructed or operated, and their determination, confirmed by the court, may be taken in lieu of the consent of the property owners.\u201d\nIn 1884 an act was passed, Laws 1884, chap. 252, p. 309, giving to the local authorities power to grant franchises for street railroads. This act provided:\n\u201cSec. 7.. The local authorities of any incorporated city or village to whom application, under the provisions of this act, may be made for consent to the construction, maintenance, use, operation or extension of a street surface railroad upon any street, road, avenue or highway may, at their option, provide for the sale of, and sell at public auction the franchise, subject to all the provisions of this act, to so construct, maintain, use, operate or extend such street surface railway.\n\u2021*******\n\u201cSec. 8. Every corporation incorporated under, or constructing or operating a railroad constructed or extended under the provisions of this act, within the cities of the State having a population of two hundred and fifty thousand- or more, as aforesaid, shall for and during the first five years after the commencement of the operation of.any portion of its railroad, annually, on the first day of November, pay into the treasury of said respective cities in which its road is located to the credit , of the -sinking fund thereof, three per cent of its gross receipts for and during the year ending the next preceding thirtieth day of September, and after'the expiration of said five years, make a like annual payment into the treasury .of said respective cities, for the credit of said sinking funds, of five per cent instead of three per cent of said gross receipts; provided, however, that every corporation now existing and operating a street surface railroad which shall extend its tracks or construct branches therefrom, and operate such extensions or branches under the provisions of this act, or the corporation operating such branches or extensions, shall pay such percentages- as aforesaid only upon such portion of its gross receipts as shall bear the same proportion to the whole value thereof as the length of such extension and branches shall bear to the entire length of its tracks. . . .\n\u201cSec. 4. . . . The consent of the local authorities shall in all cases be applied for in writing, and when granted shall be upon the express condition that the provisions of this act pertinent thereto shall be complied with, and shall be filed in the office of the county clerk of the county in which said railroad is located. . . . \u201d\nIn 1886 an- act amending a prior act of the same year was passed, Laws 1886, chap. 642, p. 919, which contained the following .terms:\n\u201cSec. 1. The local authorities of any incorporated city or village, to whom application'.may be made for consent to the construction, maintenance, use, operation or extension of a street railroad or a railroad or railway for the transportation of passengers, mails or freight, over.,'-upon, under or through any of the streets, roads; avenues, parks or public places in such city or village, musi'prdvide, as a condition of the said consent to the use of said street,.road, avenue, park or public place, that the right, franchise and privilege of using the said street, road, avenue, park, or public place shall be sold at public auction to the bidder who will agree to give the largest percentage per annum of the, gross receipts of said company or corporation, with adequate security as< hereinafter provided, for the fulfillment of said agreement and for the commencement and completion of such road, according to the plan or plans, and on the route or routes fixed for its construction, within the time or times hereinafter designated and prescribed therefor, but this agreement shall not release any such road from the percentages required to be paid by chapter two hundred and fifty-two of the laws of eighteen hundred and eighty-four. The legislature expressly reserves the right to regulate and reduce the rate of fare on such railroad or railway.\n\u00abI# \u00ab|^ *\u2021>\n\u201cAnd in'the event of the failure or refusal of the party or corporation operating or using the railroad to be constructed as aforesaid, to pay the rental or percentage of gross earnings agreed upon, then, upon notice to the said party or corporation \u2014 of not less than sixty days \u2014 the said consent and right to operate such railroad Taay be declared .forfeited, and the same may be resold to the highest bidder in the manner above provided.\u201d ,.\nThe special acts passed before the amendment of 187.4, which are claimed to constitute contracts, the obligations of which are impaired by this tax legislation, are. found, first,' in chap. 625 of the Laws of 1868, which granted to certain persons the right to construct, maintain and operate and use a street railroad, with a provision that \u201cthe said persons, or their assigns, shall pay to the sinking fund commissioners of the city of New York the sum of one thousand dollars per annum, to be applied by them in the same manner as moneys received on account of rentals and leases;\u201d second, in chap. 19 of the Laws of 1871, which, granting the privilege of occupying certain streets with street railroad tracks, provided that the company should \u201cmake compensation to the mayor, aldermen and commonalty of said city of New York for the value of the rights and privileges herein granted or authorized,\u201d and also prescribed the mode of ascertaining that compensation by .three commissioners, whose decision should be final and conclusive . as to the company and the mayor, aldermen and commonalty erf said city, adding \u201c the amount so fixed and determined shall be paid to the commissioners of the sinking fund of said city, by the said company, within thirty days after the same becomes payable, according to the decision aforesaid, and applied to the reduction of the debt of said city;\u201d third, in chap. 508 of the Laws of 1874, which granted the right to \u201cconstruct, operate, maintain and use railways\u201d in certain streets in the city of New York, and provided that \u201cthe said persons, or their assigns, shall annually, on the first day of November, pay into the treasury of the city of New York one per cent, of the gross receipts of the road herein provided for, the amount of which gross receipts shall be determined by the sworn statement of the president and treasurer of said' railway, but subj\u00e9ct to the inspection of its books by the comptroller of the city of New York.\u201d\nSubsequent to the law of 1884, above' referred to, fifteen other franchises now belonging to the relator were granted by the common council of the city of New York. Most of them provided for annual payment to the city of New York of either a fixed amount or a fixed percentage, varying from twos to eight per cent of the gross earnings.\nMr. Elihu Root and Mr. William, D. Guthrie for plaintiffs in error in this case and in Nos. 75 and 76:-\nThe obligations of the several contracts under which plaintiffs in error acquired their local or special franchises are impaired by the statute ko. so far as it seeks to subject such franchises to additional payments or taxation in excess of the amounts agreed upon. See Heerwagen v. Crosstown St. Ry. Co., 179 N. Y. 99, 104, as to effect of present statute.\nThe controlling inquiry in this case is whether the present statute, in subjecting special franchises to ad valorem taxation, does or does not exact further payments than those originally stipulated for in the contracts granting the several franchises. While there are numerous separate and distinct subjects or objects of corporate taxation, and any or all of these may be selected by the legislature for the purpose of levying and collecting taxes, and the taxation of one of these subjects is not the taxation of the other, and the exemption of one or more does not involve the exemption of the others, and while the assessment of two or more of these subjects at the same time does not constitute duplicate or double taxation the different methods are becoming so intermingled and complicated that the courts are beginning to confess confusion and the danger of error in their decisions. People ex rel. &c. v. Knight, 174 N. Y. 475, 477. And pointing out these different subjects see Farrington v. Tennessee, 95 U. S. 679, 686; Tennessee v. Whitworth, 117 U. S. 129 136; New Orleans v. Houston, 119 U. S. 265, 277; Gibbons v. Mahon, 136 U. S. 549, 557; Owensboro National Bank v. Owensboro, 173 U. S. 664, 681.\nThe plaintiffs in error concede, for the purposes of these cases, that they are subject to many forms of taxation on property, franchise to be a corporation, capital stock, dividends, or other objects not made the special subject of contract, and that the local or special franchises involved in the present controversy constitute property, but they contend that they have entered into valid contracts definitely fixing the amount to be paid for and on their special franchises, and that neither the State nor the city can increase these amounts by way of taxes or otherwise without impairing the obligations of their contracts.\nIn the State of New York a- city can not exact additional compensation or payments by subsequent ordinance, beyond what was reserved or stipulated for at the time, without violating the contract rights of the grantee of a franchise. People v. Kerr, 27 N. Y. 188; Beekman v. Third Ave. R. R. Co., 153 N. Y. 144, 152; People v. O\u2019Brien, 111 N. Y. 1, 36; Mayor v. Second Ave. R. R. Co., 32 N. Y. 261, 271; Mayor v. Third Ave. R. R. Co., 33 N. Y. 42. And see also Stein v. Mayor &c. of Mobile, 49 Alabama, 362, 369; Los Angeles v. City Water Co., 61 California, 65, 68; Los Angeles v. City Water Co., 177 U. S. 558, 578.\nIn all the statutes from 1884, franchises to use the streets of a city could be granted only upon express condition of an annual payment of a percentage of- gross receipts. The terms of the ordinances show that the city understood that it was contracting for the annual payment of a fixed amourit or percentage of gross receipts. Langdon v. Mayor, 93 N. Y. 129, 157.\nPlaintiffs in error rely on the last two cases which are sought to be distinguished by the statement that the additional taxes then imposed were not under a general law of the State, but were \u201ca mere effort on the part of the city to impose the obligation of paying an additional consideration, for the rights conferred on the grantee.\nA stipulation in a contract between a city and a railway company, entered into pursuant to the express provisions of a statute and providing for the payment of a fixed annual sum or tax, necessarily implies that that fixed annual sum or tax cannot be increased by the State or the city without impairing the contract, and what is implied is as much a part of a contract or statute as what is expressed. United States Bank v. Babbit, 1 Black, 55, 61; Jones v. Kent, 80 N. Y. 585, 588.\nThe prior decisions- have been overruled in the cases at bar. That much is beyond dispute. When the highest court of a State has adjudicated upon- the validity and legal scope and effect of a contract, particularly that of a municipality, and subsequent contracts are made on the faith of, and enormous sums are invested in reliance upon, such judicial interpretation, every principle of fairness and justice requires that the contracts shall be construed and given.legal effect according to the law as it was authoritatively declared to be at the time the contracts were entered into. When the numerous franchises in the cases at bar were sought by-the-railway companies, when they were put up by the city at auction to -the highest bidder, when the legislature and city .solicited capitalists\" to \u25a0 embark and risk their funds, when the legislature and the city exacted the most onerous terms and generally at public auction, all parties knew that the Court of Appeals of the State had-, in .1865, declared the law to be that such a grant of a franchise to use the streets of a city constituted a contract, and that, if the city stipulated in the grant for a fixed license fee or tax, it could not increase that tax without impairing the obligation of its contract. Olcott v. The Supervisors, 16 Wall. 678, 690; Gelpcke v. City of Dubuque, 1 Wall. 175, 206; Taylor v. Ypsilanti, 105 U. S. 60, 71; Douglass v. County of Pike, 101 U. S. 677, 686; New Buffalo v. Iron Co., 105 U. S. 73; Stanly County v. Coler, 190 U. S. 437, 445; Burgess v. Seligman, 107 U. S. 20, 33; Warburton v. White, 176 U. S. 484, 495; Los Angeles v. Water Co., 177 U. S. 558, 575 ; Muhlker v. Harlem R. R., 197 U. S. 544.\nIt is a cardinal rule in drafting contracts and statutes not to express what is implied in law. Expressio eorum quce tacite insunt nihil operatur. Broom\u2019s Legal Maxims, 8th Am. ed., 669; 2 Parsons on Contracts, 9th ed., 670.\nWhile contracts with States or municipalities are to be so construed that an exemption from future taxation or regulation of rates is not to be implied unless in reason necessary to give effect to the agreement, Ford v. Delta and Pine Land Company, 164 U. S. 662, 666, if a contract specifically provides for a fixed tax or rate, it is implied in law that such express stipulation is exclusive and covers the present and future, as fully as if the contract expressly so recited.\nWhen the grant is upon valuable consideration, imposing pecuniary and other obligations upon the grantee to which he is bound by a valid contract, good sense and justice require that the grant should be construed according to the rules of legal reasoning which govern all contracts and which the experience and wisdom of generations have shown to be just as. between man and man. Charles River Bridge case, 11 Pet. 420, 597, 611; Hyman v. Read, 13 California, 444, 452; The Richmond &c. Railroad Co. v. The Louisa Railroad Co., 13 How. 71, 86; Thompson v. People, 23 Wend. 537, 580.\nAs to some of the rules which protect parties contracting. in good faith with States , or municipalities see Huidekoper\u2019s Lessee v. Douglass, 3 Cranch, 1, 70; Davis v. Gray, 16 Wall. 203, 232; Langdon v. Mayor, 93 N. Y. 129, 148.\nIn each of these cases a grant was made by the State itself or the city under express legislative authority providing for payments in consideration of the franchise, right, or privilege to use the streets of the city, and we find the State seeking to increase these stipulated amounts by the subsequent imposition of additional taxation. The mere fact .that the original \u25a0statute or contract does not call a fixed annual payment or exaction a tax can make no difference. If the statute in the present case had called the obligation a tax, it would not have-constituted it such, had its nature been otherwise. People ex rel. W. U. T. Co. v. Dolan, 126 N. Y. 166, 175. Nor does the fact that a specific sum or percentage is payable into the sinking fund of a city change its nature as a tax. Pacific Railroad Company v. Maguire, 20 Wall. 36, 44. According to common understanding, an annual sum paid or exacted for a franchise, right, or privilege, such as . the right to use the streets of a city or the highways of a town, is essentially a tax. This is particularly true in the State of New York. Heerwagen v. Crosstown St. Ry. Co., 179 N. Y. 99, 104. See also State v. Ashbrook, 154 Missouri, 375, 385. See definition of a \u201ctoll\u201d in Webster and Century; Pennsylvania Coal Co. v. Delaware &c. Canal Co., 3 Abbott (N. Y. App.), 470, 477; Cooley\u2019s Taxation, 3d ed., 110; Cooley\u2019s Const. Lim., 7th ed., 713.\nThe mere fact that the words \u201c compensation\u201d and \u201crental\u201d were used by the legislature in any of the acts in question does not in any way tend to change the nature of the payment. People ex rel. v. Commissioners, 76 N. Y. 64, 71; 2 Tiedeman, State & Fed. Control, 619.\nThe payment imposed upon corporations of a fixed annual percentage on their gross or net receipts or earnings for the privilege of exercising franchise?, is-essentially a tax. Maine v. Grand Trunk Ry. Co., 142 U. S. 217, 227; Union Bank v. The State, 9 Yerg. 490; Attorney General v. Bank of Charlotte, 4 Jones Eq. (N. Car.) 287\nAs to the force of the legislative characterization of such payments as \u201cin the nature of a tax,\u201d see Alexander v. Mayor, 5 Cranch, 1, 8.\nAs to effect of \u201cor,\u201d and its being equivalent to \u201cand\u201d see People ex rel. M. G. Co. v. Rice, 138 N. Y. 151, 156; United States v. Fisk, 3 Wall. 445; United States v. Freeman, 3 How. 556, 564; Stockdale v. Insurance Companies, 20 Wall. 323, 331; Cope v. Cope, 137 U. S. 682, 688; People v. Benton, 29 N. Y. 534, 537; Smith v. People, 47 N. Y. 330, 339; People ex rel. West. F. I. Co. v. Davenport, 91 N. Y. 574, 591.\nThe contemporaneous practical interpretation by Governor Cleveland in 1884, in the light of which the contracts' were made, supplemented as it is by the declaration of Governor Roosevelt in 1899, are likewise entitled to almost the force of law. Citizens\u2019 Bank v. Parker, 192 U. S. 73, 81; Potter v. Hall, 189 U. S. 292, 298; Southern Pacific Railroad Co. v. Bell, 183 U. S. 675, 682; Hewitt v. Schultz, 180 U. S. 139, 156; United States v. Pugh, 99 U. S. 265, 269. See also Easton v. Pickersgill, 55 N. Y. 310; People ex rel. Williams v. Dayton, 55 N. Y. 367; Power v. Village of Athens, 99 N. Y. 592, 602; Matter of W. S. A. & P. R. R. Co., 115 N. Y. 442, 447; Jennings v. Van Schaick, 108 N. Y. 530, 533; Babbage v. Powers, 130 N. Y. 281, 291; Lewis\u2019 Sutherland Statutory Construction, \u00a7 474.\nWhere there is a definite and fixed annual payment as one of the terms of the grant of a franchise, right, or privilege to \u00fase the streets of a city it is to be fairly implied that the payments stipulated for are not to be increased. New Jersey v. Yard, 95 U. S. 104; 115. As to doctrine announced in Providence Bank v. Billings, 4 Pet. 514, 560, see Gordon v. Appeal Tax Court, 3 How. 133, holding that a franchise from the legislature cannot subsequently be taxed, if a price has been paid for it, which the legislature has accepted. \u2022 This case has not been limited or overruled by this court on the point now involved and cases cited by defendant in error do not so hold.\nOn the contrary in support of the Gordon case see West River Bridge Company v. Dix, 6 How. 507, 542; Planters\u2019 Bank v. Sharp, 6 How. 301, 332; Ohio Life Ins. Co. v. Debolt, 16 How. 416, 429; Home of the Friendless v. Rouse, 8 Wall. 430, 438; Salt Company v. East Saginaw, 13 Wall. 373; Erie Ry. Co. v. Pennsylvania, 21 Wall. 492, 498; New Orleans Gas Co. v. Louisiana Light Co., 115 U. S. 650, 664; Water Company v. Freeport, 180 U. S. 587, 608; Shelby County v. Union Bank, 161 U. S. 149, 159; Pearsall v. Great Northern Railway Co., 161 U. S. 646, 662; Grand Lodge v. New Orleans, 166 U. S. 143; Citizens\u2019 Bank v. Parker, 192 U. S. 73, 90. See also Union Bank v. State, 9 Yerg. 490; Farrington v. Tennessee, 95 U. S. 679, 689; Attorney General v. Bank, 4 Jones Eq. (N. Car.) 187; New Orleans v. Southern Bank, 11 La. Ann. 41.\nFor other- contracts \u2022 of this nature see State v. Southern Bank, 23 La. Ann. 271; New Orleans v. People\u2019s Bank, 32 La. Ann. 82; New Orleans v. Chaffaix, 106 Louisiana, 250, 255, citing the Gordon case; also Citizens\u2019 St. R. Co. v. Common Council, 125 Michigan, 673, 702; Los Angeles v. City Water Co., 61 California, 65, aff\u2019d 177 U. S. 558, 577; St. Louis v. West. Un. Tel. Co., 63 Fed. Rep. 68, 70; Los Angeles v. S. P. R. R. Co., 67 California, 433, 436; Sebastian v. Bridge Co., 21 Ohio St. 451, 459; Bridge Co. v. Mayer, 31 Ohio St. 317, 322.\nThe closest analogy exists between the two governmental powers or functions of taxation and regulation of rates and tolls. The reasoning and rules of construction and the principles of law and public policy which should be' applied have been declared to be the same. In both cases nothing is to be presumed in limitation or restriction of legislative power except what is expressed or implied. Stanislaus County v. San Joaquin C. & I. Co., 192 U. S. 201, 211; Covington &c. Turnpike Co. v. Sandford, 164 U. S. 578, 587; Stone v. Farmers\u2019 L. & T. Co., 116 U. S. 307, 325; Charles River Bridge v. Warren Bridge, 11 Pet. 420, 548. In both cases the elementary rule of legal reasoning, that what is implied is as much a part of a contract or statute as what is actually expressed, has never been disregarded. County of Wilson v. National Bank, 103 U. S. 770, 778; Supervisors v. Lackawanna Iron &c. Co., 93 U. S. 619, 624; National Bank v. Graham, 100 U. S. 699, 703; Township of Pine Grove v. Talcott, 19 Wall. 666, 676; Telegraph Company v. Eyser, 19 Wall. 419, 427; Davis v. Gray, 16 Wall. 203, 223; Lynde v. The County, 16 Wall. 6, 13; United States v. Hodson, 10 Wall. 395, 406; Butz v. City of Muscatine, 8 Wall. 575, 581; Croxall v. Shererd, 5 Wall. 268, 283; United States v. Babbit, 1 Black, 55, 61; Rogers v. Kneeland, 10 Wend. 219, 252.\nIt is settled by the adjudications of this court that a grant of power to a corporation to fix or collect tolls or rates does, not of itself imply any exclusion of the power of the legislature thereafter to declare what shall be prima facie reasonable compensation for the services to be rendered; but it has never been even intimated by this court that, where the' charter of a corporation or the agreement between a corporation and the State or a municipality has expressly provided for a fixed rate of toll or charge, such rate could be varied by the legislature or municipality without impairing the obligation of the contract. Reagan v. Farmers\u2019 Loan & Trust Co., 154 U. S. 362, 393; Detroit v. Citizens\u2019 Ry. Co., 184 U. S. 368; Cleveland v. City Railway Co., 194 U. S. 517, 526; Chicago v. Sheldon, 9 Wall. 50.\nA city cannot, through the form of taxation or assessment for improvements, increase the obligation assumed' by the' railway company in respect of the subject which was in the minds of the parties and formed part of their express agreement. West. Paving and Supply Co. v. Citizens\u2019 Street Railroad Co., 128 Indiana, 525; State ex rel. v. Corrigan Street Ry. Co., 85 Missouri, 263; Billings v. Chicago, 167 Illinois, 340; West Chicago St. R. R. Co. v. Chicago, 178 Illinois, 344; Coast-Line R. Co. v. Savannah, 30 Fed. Rep. 646; Pensacola v. Northrup, 63 Fed. Rep. 689.\n\u00c1s to the franchises which are not covered by the act of 1884 \u2022 and subsequent similar legislation each one of \u25a0 them constituted a contract which entitled the grantee to be protected against the exaction of further payments to the State or to the city, within the principles of the decisions cited. Nor does the reservation of power to alter or amend the acts or charters uphold the additional payments now sought to be imposed. The legislature cannot in one breath insist that the' terms of its grant shall be performed by the grantee according to the letter and in another breath say that it may under the reserved power release itself from any reciprocal duty and impose an additional tax while holding on to the contract. Stearns v. Minnesota, 179 U. S. 223.\nMayor &c. v. Twenty-third St. R. Co., 113 N. Y. 311, is clearly unsound and will not be followed by this court. See Union R. R. Co. v. Carter, 32 Hun, 458; aff\u2019d 117 N. Y. 625.\nThis court will determine for itself the scope and effect and true meaning of any contract the legislature has seen fit to make in consideration of the grant of rights and privileges. Douglas v. Kentucky, 168 U. S. 488, 500; Jefferson Bank v. Skelly, 1 Black, 436, 443; Railroad Co. v. Maine, 96 U. S. 499, 510; New Jersey v. Yard, 95 U. S. 104, 111; McCullough v. Virginia, 172 U. S. 102, 109; Shelby County v. Union &c. Bank, 161 U. S. 149, 151; Houston and Tex. Cent. R. R. Co. v. Texas, 177 U. S. 66.\nThe reserved power to alter, amend, or repeal does not permit or sanction the destruction of vested property rights. People v. O\u2019Brien, 111 N. Y. 1, 36; Sinking Fund Cases, 99 U. S. 700; Lake Shore Ry. v. Smith, 173 U. S. 684, 690; Woodward v. Cent. Vt. Ry. Co., 180 Massachusetts, 599, 604; Commonwealth v. Essex County, 13 Gray, 239; Planters\u2019 Bank v. Sharp, 6 How. 301, 327; Langdon v. Mayor, 93 N. Y. 129, 157; City Railway Co. v. Citizens\u2019 Railway Co., 166 U. S. 557, 567.\nThis court is called upon for the first time to determine the principles which should guide legislatures in taxing the owners of local or special franchises, such as the privilege to use' a public highway or street for a public purpose.\nIt is now hardly open to question that the amendment affords practical and effective protection against arbitrary or unequal taxation, and that its spirit and its meaning alike require that taxes imposed upon property of substantially the same kind, in substantially the same situation, and used for substantially the same purposes, shall be equal so far as equality may be practically attainable. A statute which attempts to classify those engaged in the same business and owning similar property and to discriminate among them unfairly or unnecessarily is repugnant to the Fourteenth Amendment.\nWhile unavoidable inequality may not render the statute unconstitutional, where substantial equality is readily attainable, and where it is plain that members of a class are unfairly and unjustly discriminated against in a manner easy to obviate, the statute cannot be permitted to stand.\nThe law before the court operates arbitrarily to deny plaintiffs in error the equal protection of the laws and due process in three separate and distinct aspects. It adds to the obligations of the contracts while preserving all the burdens of those contracts. It provides for the deduction of annual payments covered by existing contracts from the amount of tax levied, by reason of which deduction those who agreed to pay for their franchises lump sums or annual amounts less than the new tax are discriminated against. It discriminates against them and subjects them to taxation, while their competitors operating under the surfaces of many of the same streets are to be exempted.\nThe act is nothing but an arbitrary exercise of power, and comes within the condemnation of Stearns v. Minnesota, 179 U. S. 223. And see also Duluth &c. R. R. v. St. Louis County, 179 U. S. 302.\nThese cases present a mere arbitrary exercise of power; Plaintiffs in error arc held to the obligations of existing. contracts, but the State and city seek,to repudiate any reciprocal obligation, and to subject them to a general law without releasing them from the obligations of their special contracts under which they and others similarly situated have paid to the city of New York during the fifteen years preceding the passage of the tax law in question over $2,900,000.\nWheri the legislature says that it will no longer treat special franchises as particular property subject to classification by ' itself,' but will classify them with all other real estate and subject them to the same taxation, state and local, as all other real estate, it cannot provide that the owners of such special franchises, now to be so classified as real estate, may deduct any rentals, annuities or instalments of purchase price from their' tax, when all other owners of real estate pay taxes without any such deductions. California Railroad Tax cases, 13 Fed. Rep. 145; Railroad Tax cases, 13 Fed. Rep. 722; Santa Clara County v. Southern Pac. R. Co., 18 Fed. Rep. 385; S. C., 118 U. S. 138; San Mateo County v. So. Pac. R. R. Co., 116 U. S. 138. See also Russell v. Croy, 164 Missouri, 69, 97; State v. Mitchell, 97 Maine, 66, 70; State v. Shedroi, 75 Vermont, 277, 281; State v. Hoyt, 71 Vermont, 59, 64; Dundee Mortgage Co. v. School District, 19 Fed. Rep. 359, 370; Fraser v. McConway, 82 Fed. Rep. 257; Railroad and Telephone Co.\u2019s v. Board of Equalizers, 85 Fed. Rep. 302, 317; S. C., aff\u2019d Taylor v. Louisville & N. R. Co., 88 Fed. Rep. 350, 355; certiorari denied 172 U. S. 647; Nashville, C. & St. L. Ry. v. Taylor, 86 Fed. Rep. 168, 179; Louisville Trust Co. v. Stone, 107 Fed. Rep. 305, 306.\nIf it should be argued that it is proper to deduct the amount of these contract obligations from the tax laid upon the value of the contract rights for reasons which would sustain deductions of mortgage indebtedness from assessments of real estate for taxation, the answer is obvious. The present deductions are not made, from the assessments. Heerwagen v. Crosstown St. Ry. Co., 179 N. Y. 99, 106, and further, under the laws of New York, such obligations are deductible from the personal assessment. People ex rel. Cornell S. Co. v. Dederick, 161 N. Y. 195, 204; People ex rel. Manhattan Ry. Co. v. Barker, 165 N. Y. 305, 314.\nThere are three classes of franchises to operate street railways in the city of New York: those granted without payments, those for which a lump sum was paid, and those for which annual payments were agreed to be made, either of a fixed sum or of a fixed percentage of gross receipts, or both.\nIf these payments were in the nature of taxes \u2014 either commutation or annual \u2014 the increase would impair the obligations of the several contracts. If, however, the agreements were not to pay taxes but only rental or purchase price, how should-they be treated in any fair, just or equal system of taxation? Should the annual payments be deducted from the taxes when no allowance is made for lump sum payments, or should this annual charge be capitalized, as an annuity, and the capital amount deducted from the value in order to ascertain the legal basis of assessment? See Heerwagen v. Crosstown St. Ry. Co., 179 N. Y. 99, 106.\nAll unfairness and inequality could easily have been avoided by providing, not that the grantee paying an annual rent or charge should deduct that charge from his annual tax, but that the annual charge should be taken -into consideration in ascertaining the actual value of the franchises and the capitalized value of the charge deducted, for, of course, in the case of a man who owns an interest in property, which is conditioned upon and subject to an annual charge, the true net value of that interest can be arrived at.\nIn these cases the plaintiffs in error should be afforded the fullest measure of protection, because they now find themselves, after the investment of their capital, not only already taxed to an enormous amount in seven different forms, but subjected to competition with grantees of the .State and city, who render the same service under some of the very streets where plaintiffs in error operate their surface lines, and who are exempted from taxation under the Rapid Transit Act and the discrimination in favor of subservice roads denies the owners of surface railway franchises the equal protection of the laws.\nMr. Elihu Boot, with whom Mr. Frank H. Platt was on the brief, for plaintiffs in error in Nos. 77 and 78 argued simultaneously herewith:\nA legislative enactment which requires or authorizes the taxation of a certain class of property upon the basis of a sum arbitrarily fixed by the assessing officers, without reference to the value of the property, constitutes a deprivation of property without due process of law and a denial of the equal protection of the laws. People v. Weaver, 100 U. S. 539, 544; Cooley\u2019s Const. Lim., 7th ed., 705; 1 Cooley on Taxation, 3d ed., 419; Santa Clara County v. So. Pac. Ry. Co., 18 Fed. Rep. 399.\nWhile the determination of the method of apportioning a tax is undoubtedly within the legislative power of the State, uncontrolled by the Federal Constitution, Davidson v. New Orleans, 96 U. S. 97, 104; Walston v. Nevin, 128 U. S. 578, 582, the Federal Constitution requires that some method of apportionment of the burdens of a tax shall be provided; that the tax shall not be arbitrarily laid.\nAs to what is or is not due process of law see Turpin v. Lemon, 187 U. S. 51, 57; In re Kemmler, 136 U. S. 436, 448; Hodgson v. Vermont, 168 U. S. 262, 273 ;Yick Wo v. Hopkins, 118 U. S. 356, 369; Pollock v. Farmers\u2019 L. & T. Co., 157 U.S. 599; McMullen v. Anderson, 95 U. S. 37, 41; Stuart v. Palmer, 74 N. Y. 183; Illuminating Co. v. Barker, 139 N. Y. 55; People v. Equitable Trust Co., 96 N. Y. 387; Nehasane Park Assn. v. Lloyd, 167 N. Y. 431. That taxes cannot be laid without apportionment see People v. Brooklyn, 4 N. Y. 419; Ryerson v. Utley, 16 Michigan, 269, 276; Taylor v. Chandler, 9 Heiskel (Tenn.), 349, 356; C. B. & Q. R. R. Co. v. Cole, 75 Illinois, 591; Merrill v. Humphrey, 24 Michigan, 170, 173; Detroit &c. R. R. Co. v. Township, 20 Michigan, 452.\nThe. constitutions of several States contain provisions requiring .all taxation of property.to be uniform and to be apportioned according to value. No such provision, however, exists in the Constitution of New York. Such constitutional provisions are merely declaratory of the fundamental principle of due process of law in taxation. The same necessity of an apportionment according to valu\u00e9 exists independently of any such provision. An apportionment by value is the only-escape from the oppression and injustice of arbitrary exactions. San Mateo case, 13 Fed. Rep. 722, 734; Woodbridge v. Detroit, 8 Michigan, 274, 294; Railroad and Telephone Companies v. Board of Equalizers, 85 Fed. Rep. 302, 317; Nashville C. & St. L. Ry. Co. v. Taylor, 86 Fed. Rep. 168; S. C., 88 Fed. Rep. 350; S. C., 172 U. S. 647; City National Bank v. Maher, 9 Fed. Rep. 884; Assessment Board v. Alabama Central, 59 Alabama, 551; Marsh v. Supervisors, 42 Wisconsin, 502, 509; State v. Township, 36 N. J. L. 66, 70.\nThe state board of tax commissioners made no assessment or valuation of the relator\u2019s special franchise, but fixed an arbitrary sum as the basis upon which these special franchises should be taxed, and the Court of Appeals has held that the acts and detei ruinations of the state board are valid and authorized by the special franchise tax law.\nThe market value of the share' stock and bonds furnishes no evidence of the value of the special franchise. People ex rel. Trust Co. v. Coleman, 126 N. Y. 433; People v. Commissioners, 23 N. Y. 192, 218. Taxable assets of a corporation cannot be determined by the amount of outstanding mortgage bonds. Manhattan Railway Co. v. Barker, 146 N. Y. 304, 313.\nThere is no method or rule by which this remainder can be apportioned to. the different items of intangible property. Any attempt to do so would necessarily be pure guesswork and imagination. And, under the laws of the State, the general franchises and good will are not taxable for local purposes.People ex rel. Union Trust Co. v. Coleman, 126 N. Y. 437; People ex rel. Steamboat Co. v. Dederick, 25 Misc. Rep. 539; S. C. aff\u2019d, 161 N. Y. 195; People ex rel. Manhattan Ry. Co. v. Barker, 165 N. Y. 305; People ex rel. Nat. S. Co. v. Feitner, 166 N. Y. 129. State Railroad Tax Cases, 92 U. S. 575, distinguished. In those cases there was one assessment and one tax.\nThe aggregate assets of the corporation furnish no evidence of the value of the franchise nor do the earnings furnish any such evidence. People ex rel. D., L. & W. v. Clapp, 152 N. Y. 490; People ex rel. West. Un. Tel. Co. v. Dolan, 126 N. Y. 166; People ex rel. Panama R. R. Co. v. Commissioners, 104 N. Y. 240; People ex rel. D. & H. Can. Co. v. Ganley, 29 St. Rep. 130; Matter of Gilroy, 26 App. Div. 314; Syracuse v. Stacey, 45 App. Div. 249; S. C., 169 N. Y. 231; Pittsburg Co. v. Backus, 154 U. S. 421.\nThere was no evidence from which the val\u00fae of the franchise could be ascertained. The allegation of the return that there was investigation by the board\u2019s agents, who formed opinions as to the value, if it could have any effect whatever, would be equivalent to an allegation that the state tax commissioners had delegated their quasi-judicial powers to others, and that these unnamed agents and not. the commissioners themselves had determined the assessment. Such an assessment would be void. Lee v. Parry, 4 Denio, 125; Doughty v. Hope, 3 Denio, 594; Powell v. Tuttle, 3 N. Y. 396; People v. Supervisors, 11 N. Y. 563; Middletown v. Berlin, 18 Connecticut, 189; Woodman v. Auditor General, 52 Michigan, 28; People v. Hastings, 29 California, 449.\nThere is no method by which the value of these franchises \u25a0 can be ascertained. Because there never was any real valuation of this franchise, never any basis established for that apportionment of burdens which is essential to lawful taxation, the pretended tax complained of is a perfectly arbitrary and unlawful exaction.\nMr. Charles A. Collin, with whom Mr. William F. Sheehan was on the brief, for plaintiffs in error in No. 79:\nThe State- cannot impose additional burdens of the same nature as those already imposed by the franchise contracts duly made and entered into by and betweeen the city of Brooklyn, as the duly delegated representative of the people of the State, party of the first part thereto, and the Brooklyn City Railroad Company, party of the second part thereto. Chicago v. Sheldon, 9 Wall. 50; Coast Line v. Savannah, 30 Fed. Rep. 646; Walla Walla Water case, 172 U. S. 1; Rochester v. Railway Co., 98 App. Div. 521, 536; Worcester v. Street Railway Co., 196 U. S. 539, and cases cited in briefs in No. 74, ante, p. 9.\nThe franchise contracts, in question, fixed,. and therefore necessarily limited, the amount of burdens in the nature of taxes which the Brooklyn City Railroad Company could thereafter be- compelled to pay, on account of its property consisting of the intangible rights created by such franchise contracts. Mayor v. Second Ave. R. R. Co., 32 N. Y. 261; aff\u2019g S. C., 34 Barb. 41; Mayor v. Third Ave. R. R. Co., 33 N. Y. 42; Mayor v. Broadway and Seventh Ave. R. R. Co., 97 N. Y. 275, 282; Plank Road Co. v Cummings, 166 N. Y. 110; Delaware R. R. Tax case, 18 Wall. 206; and cases cited on other briefs.\nThe failure of the special franchise tax law to indicate any principle or method for.ascertaining the value of the intangible property included in the special franchise; the failure of the state board to attempt any separate valuation of the intangible -property; and its failure to adopt or proceed upon any principle of method of valuing the totality of intangible and tangible property together constituting the special franchise; and necessarily the substitution therefor; of speculation and guesswork, in place of judgment, in making such valuation, amounted to such an absence of . quasi-judicial action as to constitute the taking of property without due process of law; and so far as the statute contemplates such a procedure, the statute itself is unconstitutional, for the same reason. People v. San Francisco Savings Union, 31 California, 132.\nThe multiple assessments of the property of this relator by different methods, amounts to depriving this relator of the equal protection of the laws.\nMr. Louis Marshall and Mr. Julius M. Mayer, Attorney General of the State of New York, for defendant in error in this case and for defendant in error in Nos. 75, 76, 77, 78, 79 and 80:\nThe decision of the Court of Appeals sustaining the act under review, is conclusive in this court as to any question of conflict between it and the state constitution. Merchants\u2019 Bank v. Pennsylvania, 167 U. S. 462; West River Bridge Co. v. Dicks, 6 How. 507; Spencer v. Merchant, 125 U. S. 352; Bucher v. Cheshire R. R. Co., 125 U. S. 555, 582; Bell\u2019s Gap R. R. Co. v. Pennsylvania, 134 U. S. 232; Lewis v. Monson, 151 U. S. 545; Adams Express Co. v. Ohio, 165 U. S. 194; Water Supply Co. v. Brooklyn, 166 U. S. 685; Hodge v. Muscatine County, 196 U. S. 276; In re Tyler, 149 U. S. 187.\nIt follows from these authorities, that this court will not interfere with the construction given by the state courts to the laws regulating the taxation of property within the State, or review findings of fact or the conclusions of assessing officers as to the value of property sought to be assessed. In other words, decisions based on local laws not involving a Federal constitutional question, or resting on pure questions of fact, are not reviewable. Hibben v. Smith, 191 U. S. 310; Seneca Nation v. Christie, 162 U. S. 283; Tripp v. Santa Rosa Co., 144 U. S. 126; Iowa Central Ry. Co. v. Iowa, 160 U. S. 389; Lewis v. Campau, 3 Wall. 106; Dower v. Richards, 151 U. S. 659; Leffingwell v. Warren, 2 Black, 599; Bucher v. Cheshire R. R. Co., 125 U. S. 555; Kelly v. Pittsburgh, 104 U. S. 78; Missouri, Kansas &c. R. R. v. Haber, 169 U. S. 613, 639; Smiley v. Kansas, 196 U. S. 447.\nThe act under which the relator was assessed for its special franchises does not impair the obligation of any contract within the meaning of section' 10 of Article I of the Federal' Constitution.\nThese special franchises have all of the attributes of property. They are vendible and transferable. They cannot be taken away, even under the power of eminent domain, without due compensation. They may be leased or mortgaged. They survive the existence of the corporation upon which they are bestowed. They are the life and soul of the tangible, property to which they appertain. They bestow an earning capacity upon physical properties, which, without them, would corrode and decay, and be utterly useless. While th\u00e9 tangible property employed for the utilization of the intangible franchise is destructible; the latter is indestructible. While the former requires renewal and reparation, the latter does not; and yet, the two are inseparable, and together constitute a species of property the aggregate of which in the United States, is valued in the exchanges of the country at figures which almost paralyze the imagination. Detroit v. Detroit Citizens\u2019 R. R. Co., 184 U. S. 398; Syracuse Water Company v. Syracuse, 116 N. Y. 167, 182; People ex rel. Woodhaven G. L. Co. v. Deehan, 153 N. Y. 528; Ingersoll v. Nassau Electric Ry. Co., 157 N. Y. 453, 463; Ghee v. Northern Union Gas Co., 158 N. Y. 510, 513; Wilmington Railroad v. Reid, 13 Wall. 264; Monongahela Navigation Co. v. United States, 148 U. S. 312, 328; Adams Express Co. v. Ohio, 166 U. S. 219; Henderson Bridge Co. v. Kentucky, 166 U. S. 150.\nIt has become axiomatic since the principle was first announced in McCulloch v. Maryland, 4 Wheat. 316, 429, that the authority of every State to tax all property, real and personal, within its jurisdiction, is unquestionable. Western Union Telegraph Co. v. Taggart, 163 U. S. 14; Atlantic & Pacific Telegraph Co. v. Philadelphia, 190 U. S. 160, 163; Western Union Telegraph Co. v. Gottlieb, 190 U. S. 412.\nThe State may from time to time bring within the purview of its taxing power new subjects which had not been covered by previous legislation; as, for example, mortgages owned by citizens of other States on property within the State, Savings & Loan Society v. Multnomah County, 169 U. S. 421; the right of succession to the property of one- dying, Magoun v. Illinois Trust & Savings Bank, 170 U. S. 283; debts owing by a resident debtor to a non-resident creditor, Blackstone v. Miller, 188 U. S. 189; the right given to a foreign corporation to carry on business within the State, Horn Silver Mining Co. v. New York, 143 U. S. 305; the amount of capital employed by a foreign corporation within the State, New York v. Roberts, 171 U. S. 658.\nHence, if, as has been shown, the franchises of a public service corporation are property, they may likewise become the subject of taxation, especially when united with tangible property designed to utilize such franchises. Henderson Bridge Co. v. Kentucky, 166 U. S. 150; State v. Anderson, 90 Wisconsin, 550; Detroit Citizens\u2019 Street Ry. Co. v. Common Council, 125 Michigan, 673; State Railroad Tax Cases, 92 U. S. 575.\nThe power to tax the relator\u2019s special franchises being thus unquestionable, it becomes important to consider whether the State of New York has debarred or precluded itself from imposing the tax created by the act under review, by any valid contract between it and the relator, or those in privity with it.\nThe determination of this proposition will be facilitated by the consideration of the three fundamental principles applicable to the subject of exemption from taxation.\nThe power to tax being essential to the very existence of the State, there can be no presumption that it has been either abandoned or restricted, and whoever claims that it has been, must show that the intent to grant immunity was conferred in express and unambiguous terms, which will'not be extended by implication beyond their fair import. Exemption from taxation will not be wrested from unwilling words. Cooley on Taxation, 3d ed., 112; Providence Bank v. Billings, 4 Peters, 514; Philadelphia R. R. Co. v. Maryland, 10 How. 376; Erie R. R. Co. v. Pennsylvania, 21 Wall. 497; Farrington v. Tennessee, 95 U. S. 686; Memphis Gas Light Co. v. Shelby County Taxing District, 109 U. S. 109; New Orleans &c. R. Co. v. New Orleans, 143 U. S. 192; Stone v. Bank of Commerce, 174 U. S. 412; People v. Roper, 35 N. Y. 629; People v. Davenport, 91 N. Y. 574; Wilmington & Weldon R. R. Co. v. Alsbrook, 146 U. S. 294; Ford v. Delta and Pine Land Co., 164 U. S. 666.\nIn -the absence of express statutory authority the State alone can grant exemption from taxation, and an attempt on the part of a municipality to confer such immunity would be ultra vires and ineffectual. Minturn v. Larue, 23 How. 435; Syracuse Water Co. v. City of Syracuse, 116 N. Y. 181; Matter of Water Commissioners, 176 N. Y. 239; Richmond County G. L. Co. v. Middletown, 59 N. Y. 228; Norwich G. L. Co. v. Norwich City G. L. Co., 25 Connecticut, 19; Detroit Citizens\u2019 R. Co. v. Detroit R. Co., 171 U. S. 48.\nEven where the State undertakes to restrict its power of taxation, the rule applicable to the interpretation of public grants applies, namely, that the instrument by which restriction is claimed to have been created, must be so strictly construed as to operate as a surrender of the sove\u201d ign power no further than is expressly declared by the terms of the grant, the grantee taking nothing in that respect by inference. Charles River Bridge Co. v. Warren Bridge, 11 Pet. 420; Lehigh Water Co. v. Easton, 121 U. S. 391; Tennessee v. Whitworth, 117 U. S. 148, 149; Ph\u0153nix Ins. Co. v. Tennessee, 161 U. S. 174; Water Co. v. Skaneateles, 184 U. S. 362; Theological Seminary v. Illinois, 188 U. S. 672; Providence Bank v. Billings, 4 Peters, 514; United States v. Arredondo, 6 Peters, 736; Perrine v. Chesapeake & Delaware Canal Co., 9 How. 192; Richmond R. R. Co. v. Louisa R. R. Co., 13 How. 71; Pennock v. Coe, 23 How. 117; People v. Davenport, 91 N. Y. 586; Tucker v. Ferguson, 22 Wall. 575; Fertilizing Company v. Hyde Park, 97 U. S. 659, 666; 1 Morawetz on Private Corporations, 2d ed., \u00a7323.\nTo these general rules of interpretation may be added a fourth rule applied by this court in Wilson v. Standefer, 184 U. S. 411, 412, in ascertaining whether there exists a conti \\ct, within the meaning of the constitutional provision now under consideration.\nThe legislature did not intend to deal with the subject of taxation, or of exemption from taxation. It cannot be said that an intention to deal with those subjects existed, beyond question. Unless the case is thus clear there can be no implicar tion of a contract. Providence Bank v. Billings, 4 Peters, 514. An .exemption will not be implied. Farrington v. Tennessee, 95 U. S. 686; Vicksburg &c. R. R. Co. v. Dennis, 116 U. S. 68; Water Company v. Knoxville, 189 U. S. 436; Rice v. Minnesota R. R. Co., 1 Black, 379.\nThere is nothing inconsistent with this position to be found in the cases cited by the plaintiff in error. United States v. Babbitt, 1 Black, 55; National Bank v. Graham, 100 U. S. 703; County of Wilson v. National Bank, 103 U. S. 778; Union Bank v. State, 9 Yerger (Tenn.), 490, 495; Attorney General v. Bank of Charlotte, 4 Jones\u2019 Eq. (N. C.) 287.\nThe authorities relied on by the relator are inapplicable to this case and can be distinguished:\nMayor &c. of New v. York v. Second Avenue Railroad Co., 32 N. Y. 261, and Mayor &c. of New York v. Third Avenue Railroad Company, 33 N. Y. 32, were practically limited and overruled in Mayor &c. of New York v. The Broadway & Seventh Ave. Railroad Company, 97 N. Y. 275, and Mayor &c. of New York v. Twenty-third Street Railroad Co., 113 N. Y. 311; the latter case having been approved and followed in Schurz v. Cook, 148 U. S. 411; New Orleans Gas Light Co. v. Louisiana Light Co., 115 U. S. 650; New Orleans Water Works Co. v. Rivers, 115 U. S. 674; Louisville Gas Co. v. Citizens\u2019 Gas Light Co., 115 U. S. 683; City of Walla Walla v. Walla Walla Water Company, 172 U. S. 1; City Railway Co. v. Citizens\u2019 Street Railway Co., 166 U. S. 577, and Los Angeles v. Los Angeles Water Co., 177 U. S. 558.\nMurray v. Charleston, 96 U. S. 432, was explained and limited in People ex rel. Manhattan Fire Insurance Co. v. Commissioners, 76 N. Y. 64. Hartman v. Greenhow, 102 U. S. 672, involved practically the same state of facts as Murray v. Charleston. Gordon v. Appeal Tax Court, 3 Howard 133, was practically overruled by New Orleans Railway Co. v. New Orleans, 143 U. S. 195, and so far as it relates to this case, was restricted in Shelby County v. Union Bank, 161 U. S. 149, 159, and is at variance with Delaware Railroad Tax cases, 18 Wall. 206, and Wells v. Savannah, 181 U. S. 539. But assuming that a contract of exemption from general taxation can be implied from the language of the. ordinance; that the city had the power to grant such exemption, and that it intended to do so; that there was a consideration for the contract, which is essential, but which nowhere appears, Grand Lodge v. New Orleans, 166 U. S. 143, nevertheless the right to tax the relator\u2019s special franchises was properly exercised under the power reserved to the legislature by the. constitution and statutes of New York. Section 1, Art. VIII, N. Y. const.; 1 N. Y. Rev. Stat. 600, \u00a7 8; Ch. 252, Laws, 1884, \u00a7 19; Miller v. The State, 15 Wall. 478; Schurz v. Cook, 148 U. S. 397, 410; Adirondack Railway Co. v. New York, 176 U. S. 345; Holyoke Water Power Co. v. Lyman, 15 Wall. 500; Sherman v. Smith, 1 Black, 587; Railroad Company v. Maine, 96 U. S. 499; Louisville Water Company v. Clark, 143 U. S. 1; Covington v. Kentucky, 173 U. S. 231; Citizens\u2019 Savings Bank v. Owensboro, 173 U. S. 636; Covington v. First National Bank, 198 U. S. 107 Railroad Company v. Georgia, 98 U. S. 359, 365; Hodge v. Railroad Company, 99 U. S. 348, 353; Sinking Fund Cases, 99 U. S. 700, 720; Greenwood v. Freight Co., 105 U. S. 13, 21; Knowles v. Greenwood Cemetery, 107 U. S. 466, 476; Spring Valley Water Works Co. v. Schottler, 110 U. S. 347; Gibbs v. Baltimore Gas Co., 130 U. S. 396, 400; Street Ry. Co. v. Sioux City, 138 U. S. 98, 108; Gas Light Co. v. Hamilton, 146 U. S. 258, 270; Looker v. Maynard, 179 U. S. 46; Corry v. Baltimore, 196 U. S. 466.\nThere is nothing in the decisions in the City Railway Company v. Citizens\u2019 Railroad Company, 166 U. S. 557, or in Detroit v. Detroit Citizens\u2019 Railway Company, 184 U. S. 368, hi conflict with these views above expressed. Cleveland v. Cleveland City Ry. Co., 194 U. S. 536; New Jersey v. Yard, 95 U. S. 104.\nThe following cas.es relied on by the plaintiff in error, were explained and distinguished: People v. O\u2019Brien, 111 N. Y. 1; Commonwealth v. Essex County, 13 Gray, 239; Stearns v. Minnesota, 179 U. S. 223.\nApplying these several authorities to the case under consideration it is clear that no contract was created\" by the several statutes and ordinances, on which the plaintiff in error relied, which precluded the State from imposing a tax on the - special franchises of the relator, the payments which were required of the grantees were not in the nature of taxation, in any sense of the word. They were compensation for the rights conferred, and nothing more. In some of the statutes, the payment is referred to as in the nature of the payment of a rental; in others as .\u201ccompensation,\u201d and while the acts appearing as appendices, under which a large number of the franchises are derived, do not denominate the annual payments required to b\u00e9 made, it is evident that the payment is required as a consideration for the franchise acquired through the \u25a0 action of the local authorities, or purchased at public auction by the successful bidder. Under ch. 625, Laws of 1868, ch. 19, Laws of 1871, ch. 508, Laws of 1874, ch. 252, Laws of 1884, ch'. 65, Laws of 1886, it appears upon the face of the statutes, that the payments which the relator and its predecessors were required to make, were compensatory, by way of consideration for the grant of a fee, or the rental of a leasehold, and not by way of commutation for taxes!\nExemption from taxation is not referred to in a single one of these numerous statutes. In every one of them the idea is suggested that the privileges granted are deemed things of value, and that in consequence the municipality was to be entitled to some compensation for the thing granted. In other words, railroad franchises were placed on the same footing as ferry franchises and wharfage rights, which had for many years been leased by the city of New York to individuals and corporations, and from which it had derived an annual revenue by way of rental and which were nevertheless taxed as property. Heerwagen v. Crosstown Street Railway Co., 179 N. Y. 99.\nAssuming that the payments reserved by this legislation in connection with the granting of franchises, constituted a tax in the strict sense of the word, it is claimed that the. courts will imply from that fact, a contract between the State and the relator, that no tax in addition to that specified in the legislation shall ever be imposed upon the corporation. In other words, that beyond the tax imposed by the act of incorporation, the State has impliedly remitted all further obligation to pay taxes,\nThe right to impose the various forms of taxation now imposed on, New York corporations, cumulatively, has been recognized in numerous-cases, including Farrington v. Tennessee, 95 U. S. 686, on which the relator relies.\nThat there was no intention to'exempt special franchises from taxation and that the payments required to be made by the State were merely by way Of' compensation for the right conferred, becomes apparent when the history-of chapter 252 of the Laws of 1884 is consid\u00e9red. See Davis v. The Mayor, 14 N. Y. 506; People v. Kerr, 27 N. Y. 188; Milhau v. Sharp, 27 N. Y. 611; New York state constitution, as amended by Article III, section .18; Public Papers of Governor Cleveland, 1883, 1884, pp. 95-103, 108-117; Public Papers of Governor Hill, 1886, pp. 95-101, in which the. terms.of the various statutes and ordinances on which the plaintiff. in. error relied, were analyzed and discussed;\nThe objection -that the aGt under consideration violates the \u201cdue process\u201d clause of the Fourteenth Amendment of .the Constitution, is withdut merit.\nThis court is not concerned with the correctness of the valuation of the relator\u2019s special franchises, or of the soundness of the rules of evidence, or of the opinions adopted by .the tax commissioners, the referee, or the several' state -courts which sat in review of the assessment. When the parties to a controversy \u2014 and especially those whose property lias- been assessed-for purposes of taxation1 \u2014 have-been fuliy heard in the regular course of judicial proceedings, ah erroneous decision of a state court cannot be said, to deprive the unsuccessful litigant of his property without due process of law. Sauvinet v. Walker, 92 U. S. 90; Head v. Amoskeag Mfg. Co., 113 U. S. 9, Arrowsmith v. Harmoning, 118 U. S. 356, 369; Morley v. L. S. & M. S. Ry., 146 U. S. 162; Bergemann v. Packer, 157 U. S. 655; Central Land Co. v. Laidley, 159 U. S. 103; McMillan v. Anderson, 95 U. S. 37; Hagan v. Reclamation District, 111 U. S. 701; Palmer v. McMahon, 133 U. S. 660; Pittsburgh Ry. v. Backus, 154 U. S. 421; State Railroad Tax Cases, 92 U. S. 575; Kentucky Railroad Tax Cases, 115 U. S. 321; Fallbrook District v. Bradley, 164 U. S. 112; Merchants\u2019 & Mfrs\u2019. Bank v. Pennsylvania, 167 U. S. 461; Bauman v. Ross, 167 U. S. 590; King v. Mullins, 171 U. S. 404; Bellingham Bay v. New Whatcom, 172 U. S. 314; Turpin v. Lemon, 187 U. S. 51; Glidden v. Harrington, 189 U. S. 255; Hibben v. Smith, 191 U. S. 310; Corry v. Mayor of Baltimore, 196 U. S. 466.\nThe relator, instead of presenting facts which would guide the state board of tax commissioners in fixing a valuation on the special franchises to be assessed, stood mute on that subject, gave no testimony and presented no facts, but contented themselves-with an effort to point out some flaw, if possible,\n. in- the' ratiocination by means of which the state board of tax commissioners had reached a tentative valuation of the relators\u2019 property. If such a procedure should receive judicial sanction, insuperable difficulties would be placed in the way of taxing officers and the collection of state revenues' would become well-nigh impossible. That a judicial or quasi-judicial officer may not be subjected to such an extraordinary inquisition has been conclusively shown in Fayerweather v. Ritch, 195 U. S. 276, 307, quoting from Packet Company v. Sickles, 5 Wall. 580.\nIn Coulter v. Louisville & Nashville R. R. Co., 196 U. S. 599, 610, the procedure of putting the members of the state board of valuation and assessment upon the witness stand \u201c to testify to the operations of their minds in doing the wrong entrusted' to them\u201d was under the authority of Fayerweather v. Ritch, supra, denounced as an \u201canomalous course.\u201d\nEqually unfounded is the claim that this legislation deprives the relator of the equal protection of the laws.\n\u2022 In matters of taxation, however, it has been long since d\u00e9-\u2019 cided that such classification is not in contravention of the Constitution. Kentucky Railroad Tax Cases, 115 U. S. 321; Pittsburgh Ry. Co. v. Backus, 154 U. S. 421; Pacific Express Co. v. Siebert, 142 U. S. 354; Adams Ex. Co. v. Ohio, 165 U. S. 228; Magoun v. Illinois Trust & Savings Bank, 170 U. S. 293; Cook v. Marshall County, 196 U. S. 261: Coulter v. Louisville & Nashville R. R. Co., 196 U. S. 608.\nThe plaintiff in error has attacked this legislation under two principal heads.\nThat the legislature has arbitrarily exempted from taxation, under section 35 of the Rapid Transit Law, competitors of the plaintiff in error, who it is said are conducting exactly the same business, by means of the subway.\nThis exemption provision referred to has no relevancy to a special franchise, and even if it did, the railroad referred to in the Rapid Transit Act is sui generis. It clearly differs from every other railroad in the State. The company operating the subway does not own any special franchise in the sense that the relator and other corporations own them. In fact, the underground railroad is the property of the city of New York. Chapter 4, Laws of 1891, as amended by chapter 752 of the Laws of 1894; chapter 519 of the Laws of 1895; chapter 729 of the Laws of 1896; and. chapter 616 of the Laws of 1900; Sun Printing & Publishing Association v. Mayor &c. of New York, 152 N. Y. 257.\nIt is claimed that the statute is unequal because the deductions permitted by section 46 of the act of 1899 discriminate in favor of corporations who make annual payments either of a fixed sum, or of a fixed percentage of gross receipts, or both, and against the owners of franchises who, because they make no payments \u201cin the nature of a tax\u201d are allowed no deductions.\nAs to this we urge that the relators are not aggrieved by this alleged discrimination. They are the beneficiaries of section 46. It does not therefore lie with them to attack for inequality a statute under which they derive a benefit.\nIrrespective of this answer, the statute creates no inequality, since it places the owners of special franchises oh an equal footing. There is an equitable classification of the persons or corporations who are subjected to the special franchise tax similar to that which was recognized as valid in Magoun v. Illinois Trust & Savings Bank, 170 U. S. 283, and Orr v. Gillman, 183 U. S. 278.\nExact equality is a practical impossibility under any system of taxation and is not required. Under this statute a single rule is applied, which operates with entire equality upon all in like circumstances.\nIn Bell\u2019s Gap Railroad v. Pennsylvania, 134 U. S. 232, the right to allow deductions for indebtedness was declared to be within the range of the State\u2019s power to regulate taxation.\nIf there were even a doubt as to the constitutionality of the legislation now attacked, it should be determined in favor of the validity of such legislation, since it affects the revenues of a sovereign State and is designed to promote a just distribution of the burdens of taxation among its citizens. King v. Mullins, 171 U. S. 436."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 35,
+  "last_page_order": 81
+}

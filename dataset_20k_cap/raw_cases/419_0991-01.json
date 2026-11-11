@@ -1,0 +1,84 @@
+{
+  "id": 6416233,
+  "name": "Roe et al. v. Doe",
+  "name_abbreviation": "Roe v. Doe",
+  "decision_date": "1974-11-11",
+  "docket_number": "No. 73-1446",
+  "first_page": "991",
+  "last_page": "991",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "419 U.S. 991"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "417 U. S. 907",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519459,
+        1519433,
+        1519979,
+        1519829,
+        1519511,
+        1519965,
+        1519423
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/417/0907-05",
+        "/us/417/0907-02",
+        "/us/417/0907-07",
+        "/us/417/0907-04",
+        "/us/417/0907-03",
+        "/us/417/0907-01",
+        "/us/417/0907-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 281,
+    "ocr_confidence": 0.638,
+    "sha256": "225ef2a39ef293f3403c9e9af2099807e9a871d52673e7e577bcf04c00109d7b",
+    "simhash": "1:3ee40d734b534c45",
+    "word_count": 51
+  },
+  "last_updated": "2024-02-27T16:36:40.763931+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roe et al. v. Doe."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. Y. [Certiorari granted, 417 U. S. 907.] Motion of Authors League of America for leave to file a brief as amicus curiae denied. Motion of American Psychiatric Assn, et al. for leave to participate in oral argument as amici curiae denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 73-1446.\nRoe et al. v. Doe."
+  },
+  "file_name": "0991-01",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

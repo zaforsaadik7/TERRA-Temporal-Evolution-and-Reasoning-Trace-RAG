@@ -1,0 +1,75 @@
+{
+  "build_timestamp": "2026-09-16 21:50:20 UTC",
+  "canonical_graph_sha256": "7aa6db466100ae384873a40dd2da2043a2f85a1ef4adb5859e2b338a057e98ad",
+  "canonical_node_count": 20000,
+  "canonical_edge_count": 145366,
+  "subgraphs": {
+    "1890": {
+      "path": "F:\\TERRA -Copy\\dataset_20k_cap\\temporal_subgraphs\\eeg_subgraph_T1890.json",
+      "nodes": 5631,
+      "edges": 8244,
+      "cites": 8244,
+      "overrules": 0,
+      "file_size_mb": 27.47
+    },
+    "1930": {
+      "path": "F:\\TERRA -Copy\\dataset_20k_cap\\temporal_subgraphs\\eeg_subgraph_T1930.json",
+      "nodes": 13370,
+      "edges": 56659,
+      "cites": 56659,
+      "overrules": 0,
+      "file_size_mb": 72.07
+    },
+    "1950": {
+      "path": "F:\\TERRA -Copy\\dataset_20k_cap\\temporal_subgraphs\\eeg_subgraph_T1950.json",
+      "nodes": 16110,
+      "edges": 91219,
+      "cites": 91214,
+      "overrules": 5,
+      "file_size_mb": 88.66
+    },
+    "1970": {
+      "path": "F:\\TERRA -Copy\\dataset_20k_cap\\temporal_subgraphs\\eeg_subgraph_T1970.json",
+      "nodes": 18259,
+      "edges": 117806,
+      "cites": 117781,
+      "overrules": 25,
+      "file_size_mb": 101.64
+    },
+    "1980": {
+      "path": "F:\\TERRA -Copy\\dataset_20k_cap\\temporal_subgraphs\\eeg_subgraph_T1980.json",
+      "nodes": 20000,
+      "edges": 145366,
+      "cites": 145310,
+      "overrules": 56,
+      "file_size_mb": 112.72
+    }
+  },
+  "vector_views": {
+    "1890": {
+      "collection_name": "thinking_traces_T1890",
+      "document_count": 5631,
+      "build_time_s": 20.26
+    },
+    "1930": {
+      "collection_name": "thinking_traces_T1930",
+      "document_count": 13370,
+      "build_time_s": 139.2
+    },
+    "1950": {
+      "collection_name": "thinking_traces_T1950",
+      "document_count": 16110,
+      "build_time_s": 784.85
+    },
+    "1970": {
+      "collection_name": "thinking_traces_T1970",
+      "document_count": 18259,
+      "build_time_s": 473.02
+    },
+    "1980": {
+      "collection_name": "thinking_traces_T1980",
+      "document_count": 20000,
+      "build_time_s": 235.41
+    }
+  }
+}

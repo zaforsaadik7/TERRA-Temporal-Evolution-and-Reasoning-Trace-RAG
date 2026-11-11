@@ -1,0 +1,79 @@
+{
+  "id": 434056,
+  "name": "Clyne v. Ohio",
+  "name_abbreviation": "Clyne v. Ohio",
+  "decision_date": "1931-06-01",
+  "docket_number": "No. 839",
+  "first_page": "810",
+  "last_page": "811",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "283 U.S. 810"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "248 U. S. 268",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3690961
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/248/0268-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 250,
+    "ocr_confidence": 0.6,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.015992052046277603
+    },
+    "sha256": "13f0609724aa9243de79021ac50e1a83e6f53aa4eaf4720f81b9f05179f5a029",
+    "simhash": "1:2e5010a623cc6d81",
+    "word_count": 43
+  },
+  "last_updated": "2024-02-27T22:26:56.924778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clyne v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam:\nThe appeal herein is dismissed. Farson, Son & Co. v. Bird, 248 U. S. 268.\nMr. Henry A. Williams for appellant.\nMr. Ray T. Miller for appellee.",
+        "type": "majority",
+        "author": "Per Curiam:"
+      }
+    ],
+    "attorneys": [
+      "Mr. Henry A. Williams for appellant.",
+      "Mr. Ray T. Miller for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "No. 839.\nClyne v. Ohio.\nJurisdictional statement submitted May 25, 1931.\nDecided June 1, 1931."
+  },
+  "file_name": "0810-03",
+  "first_page_order": 872,
+  "last_page_order": 873
+}

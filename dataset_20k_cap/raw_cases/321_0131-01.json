@@ -1,0 +1,658 @@
+{
+  "id": 301793,
+  "name": "CARTER et al. v. VIRGINIA",
+  "name_abbreviation": "Carter v. Virginia",
+  "decision_date": "1944-01-31",
+  "docket_number": "NO. 134",
+  "first_page": "131",
+  "last_page": "143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "321 U.S. 131"
+    },
+    {
+      "type": "parallel",
+      "cite": "64 S. Ct. 464"
+    },
+    {
+      "type": "parallel",
+      "cite": "88 L. Ed. 605"
+    },
+    {
+      "type": "vendor",
+      "cite": "1944 U.S. LEXIS 1081"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1943-031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "27 U. S. C. \u00a7 122",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "305 U. S. 395",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141782
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/305/0395-01"
+      ]
+    },
+    {
+      "cite": "305 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141704
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/305/0391-01"
+      ]
+    },
+    {
+      "cite": "304 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10615
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0401-01"
+      ]
+    },
+    {
+      "cite": "299 U. S. 59",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5722055
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/299/0059-01"
+      ]
+    },
+    {
+      "cite": "304 U. S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10692
+      ],
+      "pin_cites": [
+        {
+          "page": "535, 538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0518-01"
+      ]
+    },
+    {
+      "cite": "308 U. S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137947
+      ],
+      "pin_cites": [
+        {
+          "page": "140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/308/0132-01"
+      ]
+    },
+    {
+      "cite": "242 U. S. 311",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934188
+      ],
+      "pin_cites": [
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0311-01"
+      ]
+    },
+    {
+      "cite": "303 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138233
+      ],
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/303/0123-01"
+      ]
+    },
+    {
+      "cite": "296 U. S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5725088
+      ],
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/296/0261-01"
+      ]
+    },
+    {
+      "cite": "298 U. S. 407",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1486103
+      ],
+      "pin_cites": [
+        {
+          "page": "410"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/298/0407-01"
+      ]
+    },
+    {
+      "cite": "306 U. S. 583",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142391
+      ],
+      "pin_cites": [
+        {
+          "page": "591"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/306/0583-01"
+      ]
+    },
+    {
+      "cite": "313 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137652
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "113, 115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/313/0109-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 390",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140058
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "396"
+        },
+        {
+          "page": "392-3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0390-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 344",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "a"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 S. E. 2d 550",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Va. 306",
+      "category": "reporters:state",
+      "reporter": "Va.",
+      "case_ids": [
+        1974540
+      ],
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/181/0306-01"
+      ]
+    },
+    {
+      "cite": "304 U. S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10719
+      ],
+      "pin_cites": [
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/304/0307-01"
+      ]
+    },
+    {
+      "cite": "305 U. S. 434",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142469
+      ],
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/305/0434-01"
+      ]
+    },
+    {
+      "cite": "309 U. S. 176",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138581
+      ],
+      "pin_cites": [
+        {
+          "page": "183"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/309/0176-01"
+      ]
+    },
+    {
+      "cite": "305 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141704
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/305/0391-01"
+      ]
+    },
+    {
+      "cite": "299 U. S. 59",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5722055
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/299/0059-01"
+      ]
+    },
+    {
+      "cite": "308 U. S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137947
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/308/0132-01"
+      ]
+    },
+    {
+      "cite": "236 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286164
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/236/0178-01"
+      ]
+    },
+    {
+      "cite": "206 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930982
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/206/0129-01"
+      ]
+    },
+    {
+      "cite": "203 U. S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292154
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/203/0270-01"
+      ]
+    },
+    {
+      "cite": "253 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189345
+      ],
+      "pin_cites": [
+        {
+          "page": "169"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/253/0149-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599666
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/170/0412-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599304
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/170/0438-01"
+      ]
+    },
+    {
+      "cite": "140 U. S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3554276
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/140/0545-01"
+      ]
+    },
+    {
+      "cite": "135 U. S. 100",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3543491
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/135/0100-01"
+      ]
+    },
+    {
+      "cite": "125 U. S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3528419
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/125/0465-01"
+      ]
+    },
+    {
+      "cite": "305 U. S. 395",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141782
+      ],
+      "pin_cites": [
+        {
+          "page": "398"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/305/0395-01"
+      ]
+    },
+    {
+      "cite": "305 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141704
+      ],
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/305/0391-01"
+      ]
+    },
+    {
+      "cite": "304 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10615
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/304/0401-01"
+      ]
+    },
+    {
+      "cite": "299 U. S. 59",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5722055
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/299/0059-01"
+      ]
+    },
+    {
+      "cite": "304 U. S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10692
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/304/0518-01"
+      ]
+    },
+    {
+      "cite": "242 U. S. 311",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934188
+      ],
+      "pin_cites": [
+        {
+          "page": "323, 327"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/242/0311-01"
+      ]
+    },
+    {
+      "cite": "313 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137652
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/313/0109-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 390",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140058
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/314/0390-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 991,
+    "char_count": 23481,
+    "ocr_confidence": 0.576,
+    "pagerank": {
+      "raw": 1.2029914449035852e-06,
+      "percentile": 0.9877475482161315
+    },
+    "sha256": "5054bc5a6968355a845f913414641362fcce1a4af2a3973647af6c0965969a42",
+    "simhash": "1:b80b2e8adb09e2f7",
+    "word_count": 3876
+  },
+  "last_updated": "2024-02-27T20:34:23.990656+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CARTER et al. v. VIRGINIA."
+    ],
+    "opinions": [
+      {
+        "text": "Me. Justice Reed\ndelivered the opinion of the Court.\nThe appellants were convicted of violations of the Virginia Alcoholic Beverage Control Act and certain Regulations issued pursuant to it, concerning the transportation of intoxicating liquor through the Commonwealth. Their contention that the pertinent provisions of the Act and Regulations violated the Commerce Clause, Article I, \u00a7 8 (3), of the Federal Constitution was rejected by Virginia's highest court, the Supreme Court of Appeals. 181 Va. 306, 313, 24 S. E. 2d 550, 569. The cases are here on appeals pursuant to \u00a7 237 (a) of the Judicial Code, 28 U. S. C. \u00a7 344 (a).\nThe Act in question contains a comprehensive scheme for the control of trade in alcoholic beverages within the territory of Virginia. By the statute an Alcoholic Beverage Control Board is established and authorized to adopt such regulations \u201cas it may deem necessary\u201d to confine the transportation of liquor \u201cto legitimate purposes.\u201d The A. B. C. Board promulgated regulations applicable to transportation through Virginia. The requirements here in issue are these: (1) The vehicle must use the most direct route and carry a bill of lading showing the route it will travel; (2) The carrier must post a bond in the penal sum of $1,000 conditioned on lawful transportation; and (3) The bill of lading must show the name of the true consignee, and that consignee must have a legal right to receive the beverages at the stated destination.\nBoth cases reached the Virginia Supreme Court on stipulated facts. In No. 134, it was agreed that Carter and Macemore received 168 gallons of whiskey from a wholesaler in Maryland for transportation to an individual consignee in Thomasville, North Carolina. The appellants were apprehended in Rappahannock County, Virginia, while carrying the whiskey by truck. The appellants themselves did not post a bond, and a bond which was posted by the registered owner of the truck was cancelled because he was reputed to be a bootlegger. Their bill of lading did not show the route to be traversed through Virginia, and the intended delivery to the consignee was forbidden by the laws of North Carolina.\nThe facts stipulated in No. 198 are similar. Dickerson was arrested in Prince William County, Virginia, while driving a truck carrying more than one gallon of alcoholic beverages. He was traveling by the most direct route from Maryland to his employer-consignee, Page, in North Carolina. Page had posted the required bond, but the bill of lading did not show the route to be traveled, and Page was forbidden by the laws of North Carolina to accept delivery there.\nAll the individuals involved in the two cases were residents of North Carolina.\nThe appellants argue, first, that the Twenty-first Amendment gives Virginia no power to prohibit absolutely the shipment of liquor from Maryland to North Carolina through Virginia; second, that its power to regulate such shipments is limited by the Commerce Clause to regulations reasonably necessary to enforce its local liquor laws and not unduly burdensome on interstate commerce; third, that Virginia has no authority to penalize prospective violations of the criminal laws of North Carolina or the United States. It will be observed that the intoxicating liquors in question are intended for continuous shipment through Virginia, so that here, as in the Duck-worth case, a different question arises from those considered under the Twenty-first Amendment, where transportation or importation into a state for delivery or use therein was prohibited. But we may put aside the first and third contentions, for we are satisfied that Virginia may, notwithstanding the Commerce Clause and independently of the Twenty-first Amendment, in order to protect herself from illicit liquor traffic within her borders, subject the shipment of liquor through Virginia to the regulations here in question.\nWe have recognized that the several states in the absence of federal legislation may require regulatory licenses for through shipments of liquor in order to guard against violations of their own laws. Duckworth v. Arkansas, 314 U. S. 390. Thus this Court has extended to this very field its recognition that regulation of interstate commerce by local authority in the absence of Congressional action is admissible to protect the state from injuries arising from that commerce. California v. Thompson, 313 U. S. 109, 113, 115, and cases cited; Clark v. Paul Gray, Inc., 306 U. S. 583, 591; Morf v. Bingaman, 298 U. S. 407, 410; Clyde Mallory Lines v. Alabama, 296 U. S. 261, 267. The commerce power of Congress is not invaded by such police regulations as Virginia has here enforced.\nThe state of transit may compel the carrier to furnish information necessary for checking the shipment against unlawful diversion, and the requirement that the truck follow a direct, stated route is within the rule of Duck- worth v. Arkansas, supra. Similarly, a state may require a reasonable bond of one who wishes to engage in interstate trade of a kind dangerous to well-recognized local interests. California v. Thompson, 313 U. S. 109.\nThe state court did not pass upon the legality under state or federal law of the cancellation of the bond in No. 134, since it concluded that only the bondsman, who was not a party to the proceeding, had standing to object under applicable state procedure. As no procedural due process point is raised, we accept its conclusion without further examination. United Gas Co. v. Texas, 303 U. S. 123, 139. It is urged, however, that the Board\u2019s power to cancel a bond because of doubts as to the trustworthiness \u25a0of the bondsman amounts to an undue burden on interstate commerce.\nThe bond is to be furnished, according to \u00a7 42 of the Regulations, by the person transporting the liquor. Thus the requirement that the bond be signed by a responsible person appears to raise the same type of question as the requirement that delivery be lawful at the place of consignment, and the two may be considered together. Of the latter rule, the Virginia court said,\n\u201cWe cannot escape the conclusion that one who deliberately and intentionally violates the Federal Constitution and the law of his resident State, in the unlawful transportation of liquor would hardly hesitate to violate the laws of this State while passing through it if he thought he might profit thereby. We cannot shut our eyes to the possibilities of such a situation and the necessity of prevention.\u201d\nWe are therefore dealing with a case in which Virginia is attempting no more than the enforcement of her own laws; she is not seeking to inflict punishment for the violation of the laws of North Carolina. Whether or not she is entitled thus to enforce her laws must be judged in the light of our long-standing recognition of the exceptional problems involved in successfully regulating trade in intoxicating liquors. Clark Distilling Co. v. Western Maryland Ry. Co., 242 U. S. 311, 332; Duckworth v. Arkansas, supra, at 396. We do not consider the appellee\u2019s suggestion that complete exclusion (and hence these partial restraints) of motor carriers from the through liquor traffic and a limitation of through transit to rail carriers would be consonant with the Commerce Clause. Cf. Ziffrin, Inc. v. Reeves, 308 U. S. 132, 140. Whatever may be the effect of the Twenty-first Amendment, this record presents no problem that may not be resolved under the Commerce Clause alone. That Clause remains in the Constitution as a grant of power to Congress to control commerce and as a diminution pro tanto of absolute state sovereignty over the same subject matter. The Twenty-first Amendment limits that grant of power as to intoxicating liquor by prohibiting \u201ctransportation or importation into any State, Territory, or possession of the United States for delivery or use therein ... in violation of the laws thereof.\u201d By interpretation of this Court the Amendment has been held to relieve the states of the limitations of the Commerce Clause on their powers over such transportation or importation. It has also been held that shipment through a state is not transportation or importation into the state within the meaning of the Amendment. Collins v. Yosemite Park Co., 304 U. S. 518, 535, 538. But in the present case we need not consider the power of Virginia under the Twenty-first Amendment to regulate through shipments. It is enough that Virginia could conclude, in the absence of contrary federal legislation, that she could not safely permit the transportation of liquor through her territory by those who concededly mean to break federal laws and the laws of a neighboring state. By her ruling she has imposed no substantial clog on whatever cognate rights her sister states may have to determine their own policies regarding intoxicating liquors and to receive alcoholic beverages in interstate commerce, if they so desire.\nFor these reasons the judgment is\nAffirmed.\nMe. Justice Jackson concurs in the result only, for the reasons stated in his separate opinion in Duckworth v. Arkansas, 314 U. S. 390.\nMichie\u2019s Virginia Code (1942) \u00a7 4675.\nRegulations of the Virginia Alcoholic Beverage Control Board, \u00a7\u00a7 42, 44.\nVirginia Code, \u00a74675 (49a). \u201cTransportation; transportation permits; penalties.\u2014The transportation of alcoholic beverages, other than wine and beer purchased from persons licensed to sell same in this State, and those alcoholic beverages which may be manufactured and sold without any license under the provisions of this act, within, into or through the State of Virginia in quantities in excess of one gallon is prohibited except in accordance with regulations adopted by the Virginia Alcoholic Beverage Control Board pursuant to this section.\n\u201cThe board may adopt such regulations governing the transportation of alcoholic beverages, other than wine and beer purchased from persons licensed to sell same in this State and those alcoholic beverages which may be manufactured and sold without any license under the provisions of this act, within, into or through Virginia in quantities in excess of one gallon as it may deem necessary to confine such transportation to legitimate purposes and may issue transportation permits in accordance with such regulations. . .\nSection 42 of the Regulations provides: \u201cBefore any person shall transport any alcoholic beverages within, into, or through the State of Virginia, such person shall post with the Virginia Alcoholic Beverage Control Board a bond with approved surety, payable to the Commonwealth of Virginia, in the penalty of One Thousand Dollars, upon condition that such person will not unlawfully transport and/or deliver any alcoholic beverages within,, into, or through the State of Virginia, and evidence that the required bond has been posted shall accompany the alcoholic beverages at all times during transportation. . . .\u201d\nSection 44 reads as follows: \u201cWhere alcoholic beverages are desired to be transported within, into, or through the State of Virginia (except those instances mentioned in Sections 42 and 43 of these Regulations), such transportation shall be engaged in only when in accordance with the provisions of these regulations:\n\u201c(a) There shall accompany such alcoholic beverages at all times during transportation, a bill of lading or other memorandum of shipment signed by the consignor showing an exact description of the alcoholic beverages being transported; the name and address of the consignor; the name and address of the consignee; the route to be traveled by such vehicle while in Virginia and such route must be the most direct route from the consignor\u2019s place of business to the place of business of the consignee.\n\u201c(b) Vehicles transporting alcoholic beverages shall not vary from the route specified in the bill of lading or other memorandum of shipment.\n\u201c(c) The name of the consignor on any such bill of lading or other memorandum of shipment shall be the name of the true consignor of the alcoholic beverages being transported and such consignor shall only be a person who has a legal right to make such shipment. The name of the consignee on any such bill of lading or memorandum of shipment shall be the name of the true consignee of the alcoholic beverages being transported and who has previously authorized in writing the shipment of the alcoholic beverages being transported and who has a legal right to receive such alcoholic beverages at the point of destination shown on the bill of lading or other memorandum of shipment.\u201d\nDuckworth v. Arkansas, 314 U. S. 390, 392-3.\nSee State Board v. Young\u2019s Market Co., 299 U. S. 59; Mahoney v. Joseph Triner Corp., 304 U. S. 401; Indianapolis Brewing Co. v. Liquor Commission, 305 U. S. 391; Joseph S. Finch & Co. v. McKittrick, 305 U. S. 395.\nState Board v. Young\u2019s Market Co., 299 U. S. 59; Indianapolis Brewing Co. v. Liquor Commission, 305 U. S. 391.\nTwenty-first Amendment, \u00a7 2; 27 U. S. C. \u00a7 122.",
+        "type": "majority",
+        "author": "Me. Justice Reed"
+      },
+      {
+        "text": "Me. Justice Black,\nconcurring:\nI am not sure that state statutes regulating intoxicating liquor should ever be invalidated by this Court under the Commerce Clause except where they conflict with valid federal statutes. Cf. dissenting opinions, McCarroll v. Dixie Greyhound Lines, 309 U. S. 176, 183; Gwin, White & Prince v. Henneford, 305 U. S. 434, 442; Adams Manufacturing Co. v. Storen, 304 U. S. 307, 316. The Twenty-first Amendment has placed liquor in a category different from that of other articles of commerce. Though the precise amount of power it has left in Congress to regulate liquor under the Commerce Clause has not been marked out by decisions, this much is settled: local, not national, regulation of the liquor traffic is now the general Constitutional policy. Ziffrin, Inc. v. Beeves, 308 U. S. 132; Indianapolis Brewing Co. v. Liquor Control Comm\u2019n, 305 U. S. 391; State Board of Equalisation v. Young\u2019s Market Co., 299 U. S. 59.\nWhatever limited force the Commerce Clause may retain with regard to the liquor traffic, it should not require the invalidation of the Virginia statutes here involved, which do not conflict with any Act of Congress, and which are designed to enforce local liquor policies. Virginia seems to think that, unless adequate precautionary regulations are devised and enforced, liquor shipments ostensibly being transported through her territory to a neighboring state could be diverted for bootleg purposes contrary to her laws. Such precautionary regulations must come from either Virginia or the federal government. The legislature of Virginia has provided them; the Congress has not. This Court could invalidate the Virginia regulations, but only the Congress could devise and substitute effective federal regulations to take their place. I therefore agree with the Court \u201cthat Virginia could conclude, in the absence of contrary federal legislation, that she could not safely permit the transportation of liquor through her territory by those who concededly mean to break federal laws and the laws of a neighboring state.\u201d",
+        "type": "concurrence",
+        "author": "Me. Justice Black,"
+      },
+      {
+        "text": "Mr. Justice Frankfurter,\nconcurring:\n1. After as thorough a consideration as it ever gave to a problem, this Court, in a long series of cases beginning with Bowman v. Chicago & North Western Ry. Co., 125 U. S. 465, decided that intoxicating liquor is a legitimate subject of commerce, as much so as cabbages and candlesticks, and as such within the protection of the Commerce Clause. In the absence of regulation by Congress, the movement of intoxicants in interstate commerce like that of all other merchantable goods was \u201cfree from all.state control.\u201d Clark Distilling Co. v. Western Maryland Ry. Co., 242 U. S. 311, 323, 327, citing Leisy v. Hardin, 135 U. S. 100; In re Rahrer, 140 U. S. 545; Vance v. Vandercook Company (No. 1), 170 U. S. 438; Rhodes v. Iowa, 170 U. S. 412. All of these decisions are still on the books. And so, before the Twenty-first Amendment displaced the Eighteenth, Mr. Justice Holmes was able to say: \u201cI cannot for a moment believe that apart from the Eighteenth Amendment special constitutional principles exist against strong drink. The fathers of the Constitution so far as I know approved it.\u201d Knickerbocker Ice Co. v. Stewart, 253 U. S. 149, 169.\n2. If then the Commerce Clause be the measure of State action, such a requirement as the posting of a bond for transportation of goods from without Virginia would be beyond Virginia\u2019s powers even if the shipment of the liquor were for delivery into Virginia. Heyman v. Southern Ry. Co., 203 U. S. 270; Adams Express Co. v. Kentucky, 206 U. S. 129. Cases like California v. Thompson, 313 U. S. 109, which recognize the power of States to regulate local activities by taxation or otherwise related even though they be to interstate commerce, but none of which was concerned with restricting the through-passage of goods, liquor or any other, afford no basis for suggesting that a State has power to license the movement of goods in interstate commerce on oppressive or prohibitive terms. A fortiori, the Commerce Clause would prohibit and not permit such legislation as is before us in the case of liquor arriving in Virginia for ultimate delivery without. Heyman v. Hays, 236 U. S. 178.\n3. In the light of the uniform current of decisions under the Commerce Clause prior to the Twenty-first Amendment, the Virginia legislation could not survive as to shipments bound beyond its borders. If the legislation is valid, as I believe it to be, it must be solely because the range of State control over liquor has been extended by the Twenty-first Amendment beyond the permissive bounds of the Commerce Clause.\n4. The legislation is sustainable under the Twenty-first Amendment on one of two considerations. It is a notorious fact that State prohibition laws were to no small measure evaded by illicit diversion of liquor claimed to be transported through a State. Since we are dealing with a constitutional amendment that should be broadly and colloquially interpreted, liquor that enters a State in the manner in which the liquor here came into Virginia may, without undue liberty with the English language, be deemed to be for \u201cdelivery\u201d there even though it is consigned for another State. The Twenty-first Amendment prohibits the \u201ctransportation or importation into any State ... of intoxicating liquors, in violation of the laws thereof,\u201d not when the liquor is for delivery and use but for \u201cdelivery or use therein.\u201d In other words, liquor need not be intended for consumption in a State to be deemed to be imported into the State and therefore subject to control by that State. The decision in Collins v. Yosemite Park Co., 304 U. S. 518, has nothing whatever to do with the relation of the Commerce Clause to the power given the States by the Twenty-first Amendment to control the liquor traffic. That was a suit \u201cto restrain enforcement' of the [California] Alcoholic Beverage Control Act within Yosemite Park, on the theory that the Park is within the exclusive jurisdiction of the United States.\u201d All that was there decided, after extended consideration of the relation of the United States to the Yosemite Park, was that the United States did exercise exclusive jurisdiction over the land ceded by California to the Federal Government for park purposes, and that of course when \u201cexclusive jurisdiction is in the United States, without power in the State to regulate alcoholic beverages, the XXI Amendment is not applicable.\u201d 304 U. S. at 538. State control must yield to superior federal power, but State control by one State, since the Twenty-first Amendment, need not yield to State control by another State.\n5. In the alternative, since Virginia has power to prohibit the importation of liquor within that Commonwealth, it may effectuate that purpose by measures deemed by it necessary to prevent evasion of its policy by pretended through-shipments. In a word, having the power to prohibit liquor from coming into a State, a State may take measures against frustration of that power by resort to the claim that liquor passing through a State enjoys the protection of the Commerce Clause. If a State may take these protective measures, as surely it may, who is to decide what measures are necessary for its protection? If a State may ask for the posting of a $1,000 bond, may she not require a $10,000 bond? If a State should urge that its experience shows that any regulatory system is ineffective because illicit diversion is too resourceful for control by mere regulation and requires prohibition, who is to say, in view of the history embedded in the Twenty-first Amendment, that a State may not fairly act on such a judgment? Are not these peculiarly political, that is legislative, questions which were not meant by the Twenty-first Amendment to continue to be the fruitful apple of judicial discord, as they were before the Twenty-first Amendment?\n6. It is now suggested that a State must keep within \u201cthe limits of reasonable necessity\u201d and that this Court must judge whether or not Virginia has adopted \u201cregulations reasonably necessary to enforce its local liquor laws.\u201d Such canons of adjudication open wide the door of conflict and confusion which have in the past characterized the liquor controversies in this Court and in no small measure formed part of the unedifying history which led first to the Eighteenth and then to the Twenty-first Amendment.\n7. Less than six years ago this Court rejected the impossible task of deciding, instead of leaving it for legislatures to decide, what constitutes a \u201creasonable regulation\u201d of the liquor traffic, The issue was fairly presented in Mo- honey v. Triner Corp., 304 U. S. 401. And this was the holding:\n\u201cWe are asked to limit the power conferred by the Amendment so that only those importations may be forbidden which, in the opinion of the Court, violate a reasonable regulation of the liquor traffic. To do so would, as stated in the Young\u2019s Market case, [299 U. S. 59] p. 62, \u2018involve not a construction of the Amendment, but a rewriting of it.\u2019 \u201d 304 U. S. at 404.\nTherefore if a State, in aid of its powers of prohibition, may regulate, without let or hindrance by courts regarding the \u201creasonableness\u201d of a regulation, it may do so whether the liquor is openly consigned for consumption within it or intended for consumption there although, by subterfuge too difficult to check, nominally destined elsewhere.\n8. Fuller consideration has therefore convinced me that the power exercised by the State in Duckworth v. Arkansas, 314 U. S. 390, as well as in this case must rest on the authority given to the States by the Twenty-first Amendment. And since Virginia derives the power to legislate as she did from the Twenty-first Amendment, the Commerce Clause does not come into play. So this Court has twice ruled. \u201cSince the Twenty-first Amendment, as held in the Young case [299 U. S. 59], the right of a state to prohibit or regulate the importation of intoxicating liquor is not limited by the commerce clause.\u201d Indianapolis Brewing Co. v. Liquor Commission, 305 U. S. 391, 394; see also Finch & Co. v. McKittrick, 305 U. S. 395, 398.",
+        "type": "concurrence",
+        "author": "Mr. Justice Frankfurter,"
+      }
+    ],
+    "attorneys": [
+      "Mr. John S. Battle, with whom Messrs. B. E. Joyce and Aubrey G. Weaver were on the brief, for appellants in No. 134; and Mr. Warren E. Miller, with whom Mr. Edward G. Hobbs was on the brief, for appellants in No. 198.",
+      "Mr. Abram, P. Staples, Attorney General of Virginia, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "CARTER et al. v. VIRGINIA.\nNO. 134.\nArgued January 6, 1944.\nDecided January 31, 1944.\nMr. John S. Battle, with whom Messrs. B. E. Joyce and Aubrey G. Weaver were on the brief, for appellants in No. 134; and Mr. Warren E. Miller, with whom Mr. Edward G. Hobbs was on the brief, for appellants in No. 198.\nMr. Abram, P. Staples, Attorney General of Virginia, for appellee."
+  },
+  "file_name": "0131-01",
+  "first_page_order": 189,
+  "last_page_order": 201
+}

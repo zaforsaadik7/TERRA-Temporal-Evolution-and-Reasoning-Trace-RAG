@@ -1,0 +1,573 @@
+{
+  "id": 3657348,
+  "name": "HEFLIN v. UNITED STATES",
+  "name_abbreviation": "Heflin v. United States",
+  "decision_date": "1959-02-24",
+  "docket_number": "No. 137",
+  "first_page": "415",
+  "last_page": "422",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "358 U.S. 415"
+    },
+    {
+      "type": "parallel",
+      "cite": "3 L. Ed. 2d 407"
+    },
+    {
+      "type": "parallel",
+      "cite": "79 S. Ct. 451"
+    },
+    {
+      "type": "vendor",
+      "cite": "1959 U.S. LEXIS 1486"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1958-039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "358 U. S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3655506,
+        3652907,
+        3658996,
+        3656899
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/358/0803-02",
+        "/us/358/0803-04",
+        "/us/358/0803-03",
+        "/us/358/0803-01"
+      ]
+    },
+    {
+      "cite": "262 U. S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140914
+      ],
+      "pin_cites": [
+        {
+          "page": "336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/262/0333-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "e"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "256 F. 2d 501",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        457186
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/256/0501-01"
+      ]
+    },
+    {
+      "cite": "244 F. 2d 378",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        408099
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/244/0378-01"
+      ]
+    },
+    {
+      "cite": "215 F. 2d 578",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        8842291,
+        533671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/alaska/15/0140-01",
+        "/f2d/215/0578-01"
+      ]
+    },
+    {
+      "cite": "186 F. 2d 704",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1225829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/186/0704-01"
+      ]
+    },
+    {
+      "cite": "240 F. 2d 479",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        419925
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/240/0479-01"
+      ]
+    },
+    {
+      "cite": "203 F. 2d 247",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1271678
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/203/0247-01"
+      ]
+    },
+    {
+      "cite": "211 F. 2d 69",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        550231
+      ],
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/211/0069-01"
+      ]
+    },
+    {
+      "cite": "245 F. 2d 670",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        404163
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/245/0670-01"
+      ]
+    },
+    {
+      "cite": "194 F. 2d 197",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        507939
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/194/0197-01"
+      ]
+    },
+    {
+      "cite": "63 Stat. 105",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Stat. 967",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "223 F. 2d 371",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        53429
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/223/0371-01"
+      ]
+    },
+    {
+      "cite": "293 U. S. 131",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3933606
+      ],
+      "pin_cites": [
+        {
+          "page": "138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/293/0131-01"
+      ]
+    },
+    {
+      "cite": "342 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        641051
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/342/0205-01"
+      ]
+    },
+    {
+      "cite": "357 U. S. 935",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6188996,
+        6188563,
+        6188787,
+        6188377,
+        6188125
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0935-05",
+        "/us/357/0935-03",
+        "/us/357/0935-04",
+        "/us/357/0935-02",
+        "/us/357/0935-01"
+      ]
+    },
+    {
+      "cite": "251 F. 2d 69",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        696055
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/251/0069-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "352 U. S. 322",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/352/0322-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 2113",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "235 U. S. 55",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674804
+      ],
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/235/0055-01"
+      ]
+    },
+    {
+      "cite": "259 F. 2d 125",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        447997
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/259/0125-01"
+      ]
+    },
+    {
+      "cite": "249 F. 2d 804",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        90568
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/249/0804-01"
+      ]
+    },
+    {
+      "cite": "236 F. 2d 894",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        430329,
+        1262918
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/236/0894-01",
+        "/alaska/16/0417-01"
+      ]
+    },
+    {
+      "cite": "257 F. 2d 424",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        454626
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/257/0424-01"
+      ]
+    },
+    {
+      "cite": "256 F. 2d 501",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        457186
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/256/0501-01"
+      ]
+    },
+    {
+      "cite": "244 F. 2d 378",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        408099
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/244/0378-01"
+      ]
+    },
+    {
+      "cite": "215 F. 2d 578",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        8842291,
+        533671
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/alaska/15/0140-01",
+        "/f2d/215/0578-01"
+      ]
+    },
+    {
+      "cite": "240 F. 2d 479",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        419925
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/240/0479-01"
+      ]
+    },
+    {
+      "cite": "203 F. 2d 247",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1271678
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/203/0247-01"
+      ]
+    },
+    {
+      "cite": "211 F. 2d 69",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        550231
+      ],
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/211/0069-01"
+      ]
+    },
+    {
+      "cite": "245 F. 2d 670",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        404163
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/245/0670-01"
+      ]
+    },
+    {
+      "cite": "194 F. 2d 197",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        507939
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/194/0197-01"
+      ]
+    },
+    {
+      "cite": "293 U. S. 131",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3933606
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "138"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/293/0131-01"
+      ]
+    },
+    {
+      "cite": "342 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        641051
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/342/0205-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 749,
+    "char_count": 14243,
+    "ocr_confidence": 0.641,
+    "pagerank": {
+      "raw": 6.9082886558703e-06,
+      "percentile": 0.999284707332358
+    },
+    "sha256": "ca70ab1bb27f92b800fb72330d67f31cd6c7e7378ffa5f58f3bba96de914a98b",
+    "simhash": "1:e3b5c7887a9cc210",
+    "word_count": 2504
+  },
+  "last_updated": "2024-02-27T17:24:02.083921+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "whom Mr. Justice Frankfurter, Mr. Justice Clark, Mr. Justice Harlan, and Mr. Justice Whittaker join, concurring."
+    ],
+    "parties": [
+      "HEFLIN v. UNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Douglas\nd\u00e9livered the opinion of the Court.\nPetitioner and two others were indicted and convicted under three counts charging violations of the Federal Bank Robbery Act, 18 U. S. C. \u00a7 2113. One count charged taking the property by force and violence, and assaulting and jeopardizing the lives of several persons in the course of the taking, in violation of \u00a7 2113 (d). Another count charged that they did \u201creceive, possess, conceal, store, and dispose\u201d of the stolen money in violation of \u00a72113 (c). A third count charged a conspiracy. The sentence imposed was 10 years on the first count mentioned above, 3 years on the conspiracy count to begin to run on expiration of the first, and 1 year and 1 day on the count charging receipt of the stolen property, this sentence to begin to run on expiration of the sentence on the conspiracy count.\nAll these events took place before our decision in Prince v. United States, 352 U. S. 322. Shortly thereafter petitioner instituted this proceeding under 28 U. S. C. \u00a7 2255 complaining that he could not be lawfully convicted under both subsections (c) and (d) of \u00a7 2113, i. e., of feloniously receiving and feloniously taking the same property. The District Court denied the motion. The Court of Appeals affirmed. 251 F. 2d 69. We granted certiorari (357 U. S. 935) because of an apparent conflict between that decision and the Prince case.\nI. There is a preliminary question of jurisdiction. Petitioner is now in custody under the 10-year sentence which admittedly is valid. Since he has not completed that sentence nor the consecutive conspiracy sentence, it is argued that relief by way of \u00a7 2255 may not be had.\nWe reviewed in United States v. Hayman, 342 U. S. 205, the history of \u00a7 2255 and emphasized that its purpose was to minimize some of the difficulties involved in the use of habeas corpus. It is now argued that when consecutive sentences are imposed, \u00a7 2255, no more than habeas corpus (McNally v. Hill, 293 U. S. 131, 138), can be used to question a sentence which the prisoner has not begun to serve. The Court is divided on that issue. Some think that when \u00a7 2255 says \u201cA motion for such relief may be made at any time,\u201d it means what it says. To them the correction of sentence, if made, will affect \u201cthe right to be released,\u201d protected by \u00a7 2255, even though that right will not be immediately realized. A majority, however, are of the view, shared by several Courts of Appeals, that \u00a7 2255 is available only to attack a sentence under which a prisoner is\u201d in custody. Yet in their view relief under Rule 35 of the Federal Rules of Criminal Procedure is available (at least where matters dehors the record are not involved), the only question here being whether the sentence imposed was illegal on its face.\nII. We held in Prince v. United States, supra, that the crime of entry into a bank with intent to rob was not intended by Congress to be a separate offense from the consummated robbery. We ruled that entering with intent to steal, which is \u201cthe heart of the crime,\u201d id., at 328, \u201cmerges into the completed crime if the robbery is consummated.\u201d Ibid. We gave the Act that construction because we resolve an ambiguity in favor of lenity when required to determine the intent of Congress in punishing multiple aspects of the same criminal act.\nSubsection (c) of \u00a7 2113, with which we are now primarily concerned, came into the law in 1940. The legislative history is meagre. The Senate Report (S. Rep. No. 1801, 76th Cong., 3d Sess.) is captioned \u201cPunishment for Receivers of Loot From Bank Robbers.\u201d The Report states, \u201cThis bill would add another subsection to further make it a crime, with less severe penalties (maximum $5,000 fine and 10 years imprisonment, or both) to willfully become a receiver or possessor of property taken in violation of the statute,\u201d p. 1. Similarly the House Report states \u201cPresent law does not make it a separate substantive offense knowingly to receive or possess property stolen from a bank in violation of the Federal Bank Robbery Act, and this bill is designed to cover the omission.\u201d H. R. Rep. No. 1668, 76th Cong., 3d Sess., p. 1.\nThis clue to the purpose of Congress argues strongly against the position of the Government. From these Reports it seems clear that subsection (c) was not designed to increase the punishment for him who robs a bank but only to provide punishment for those who receive the loot from the robber. We find no purpose of Congress to pyramid penalties for lesser offenses following the robbery. It may be true that in logic those who divide up the loot following a robbery receive from robbers and thus multiply the offense. But in view of the legislative history of subsection (c) we think Congress was trying to reach a new group of wrongdoers, not to multiply the offense of the bank robbers themselves.\nReversed.\nThis subsection provides:\n\u201cWhoever, in committing, or in attempting to commit, any offense defined in subsections (a) and (b) of this section, assaults any person, or puts in jeopardy the life of any person by the use of a dangerous weapon or device, shall be fined not more than $10,000 or imprisoned not more than twenty-five years, or both.\u201d\nThis subsection states:\n\u201cWhoever receives, possesses, conceals, stores, barters, sells, or disposes of, any property or money or other thing of value knowing the same to have been taken from a bank, or a savings and loan association, in violation of subsection (b) of this section shall be subject to the punishment provided by said subsection (b) for the taker.\u201d\nThis was a corrected sentence imposed after the appeal, as reported in Heflin v. United States, 223 F. 2d 371.\nSection 2255 reads in relevant part as follows:\n\u201cA prisoner in custody under sentence of a court established by Act of Congress claiming the right to be released upon the ground that the sentence was imposed in violation of the Constitution or laws of the United States, or that the court was without jurisdiction to impose such sentence, or that the sentence was in excess of the maximum authorized by law, or is otherwise subject to collateral attack, may move the court which imposed the sentence to vacate, set aside or correct the sentence.\n\u201cA motion for such relief may be made at any time.\n\u201cUnless the motion and the files and records of the case conclusively show that the prisoner is entitled to no relief, the court shall cause notice thereof to be served upon the United States attorney, grant a prompt hearing thereon, determine the issues and make findings of fact and conclusions of law with respect thereto. If the court finds that the judgment was rendered without jurisdiction, or that the sentence imposed was not authorized by law or otherwise open to collateral attack, or that there has been such a denial or infringement of the constitutional rights of the prisoner as to render the judgment vulnerable to collateral attack, the court shall vacate and set the judgment aside and shall discharge the prisoner or resentence him or grant a new trial or correct the sentence as may appear appropriate.\n\u201cA court may entertain and determine such motion without requiring the production of the prisoner at the hearing. . . .\u201d 62 Stat. 967, amended 63 Stat. 105.\nUnited States v. Bradford, 194 F. 2d 197; United States v. McGann, 245 F. 2d 670; United States ex rel. Bogish v. Tees, 211 F. 2d 69, 71; Fooshee v. United States, 203 F. 2d 247; Duggins v. United States, 240 F. 2d 479; Crow v. United States, 186 F. 2d 704; Oughton v. United States, 215 F. 2d 578; Hoffman v. United States, 244 F. 2d 378; Miller v. United States, 256 F. 2d 501.\nRule 35 provides in part:\n\u201cThe court may correct an illegal sentence at any time.\u201d\nSince the motion under Rule 35 is made in the original case, the time within which review by certiorari of the Court of Appeals decision should be sought is 30 days. Supreme Court Rule 22 (2). The petition for writ of certiorari in this case was not filed until after the passage of 30 days from the judgment below. Nevertheless, because successive motions may be made under Rule 35 and because no jurisdictional statute is involved, the majority agrees to dispense with the requirements of our Rule in order to avoid wasteful circuity. To those of us who deem that \u00a7 2255 is available, there is no question but that the petition was in time. It was filed within the 90-day period provided by 28 U. S. C. \u00a7 2101 (e) governing this type of suit. For a motion under \u00a7 2255, like a petition for a writ of habeas corpus (Riddle v. Dyche, 262 U. S. 333, 336), is not a proceeding in the original criminal prosecution but an independent civil suit.",
+        "type": "majority",
+        "author": "Mr. Justice Douglas"
+      },
+      {
+        "text": "Me. Justice Stewart,\nwhom Mr. Justice Frankfurter, Mr. Justice Clark, Mr. Justice Harlan, and Mr. Justice Whittaker join, concurring.\nWhile joining the Court\u2019s opinion, I think it clear that a motion for relief under 28 U. S. C. \u00a7 2255 is available only to attack a sentence under which a prisoner is in custody. That is what the statute says. That is what the legislative history shows. That is what federal courts, faced almost daily with the statute\u2019s application, have unanimously concluded. Personal notions as to the kind of a post-conviction statute that Congress might have enacted or should enact are, of course, entirely irrelevant to the inquiry.\nFirst. The words which Congress has used are not ambiguous. Section 2255 provides that: \u201cA prisoner in custody under sentence . . . claiming the right to be released . . . may move the court which imposed the sentence to vacate, set aside or correct the sentence.\u201d The statute further provides: \u201cA motion for such relief may be made at any time.\u201d This latter provision simply means that, as in habeas corpus, there is no statute of limitations, no res judicata, and that the doctrine of laches is inapplicable.\nSecond. The legislative history of \u00a7 2255 is reviewed at length in the opinion which Mr. Chief Justice Vinson wrote for the Court in United States v. Hayman, 342 U. S. 205. No chronicle of the genesis and purpose of a legislative enactment could be more authentic, because almost the entire legislative history is to be found in the deliberations and recommendations of the Judicial Conference of the United States, over which Mr. Chief Justice Vinson then presided. The opinion in Hayman clearly shows that \u201cthe sole purpose\u201d of the statute \u201cwas to minimize the difficulties encountered in habeas corpus hearings by affording the same rights in another and more convenient forum.\u201d 342 U. S., at 219. Those difficulties are detailed in the opinion. There is not one word to indicate any intent to alter the basic principle of habeas corpus that relief is available only to one entitled to be released from custody.\nThe very office of the Great Writ, its only function,,is to inquire into the legality of the detention of one in custody. It is unnecessary to paraphrase here Mr. Justice Stone\u2019s penetrating discussion in McNally v. Hill, 293 U. S. 131, or to incorporate the thorough review of legal history there contained. It will suffice to note only the Court\u2019s conclusion: \u201cWithout restraint of liberty, the writ will not issue. Equally, without restraint which is unlawful, the writ may not be used. A sentence which the prisoner has not begun to serve cannot be the cause of restraint which the statute makes the subject of inquiry.\u201d (Citations omitted.) 293 U. S., at 138.\nThird. It is something of an understatement simply to say that these views are \u201cshared by several Courts of Appeals.\u201d So far as I have been able to find, these courts, at least since the Hayman decision, have been unanimous in holding that a motion under \u00a7 2255 may be filed only by a prisoner claiming the right to be released. These are the courts continually faced with problems arising under \u00a7 2255, and many of them have given careful consideration to this very issue. United States v. Bradford, 194 F. 2d 197 (C. A. 2d Cir.); United States v. McGann, 245 F. 2d 670 (C. A. 2d Cir.); United States ex rel. Bogish v. Tees, 211 F. 2d 69, 71 (C. A. 3d Cir.); Fooshee v. United States, 203 F. 2d 247 (C. A. 5 th Cir.); Duggins v. United States, 240 F. 2d 479 (C. A. 6th Cir.); Juelich v. United States, 257 F. 2d 424 (C. A. 6th Cir.); Oughton v. United States, 215 F. 2d 578 (C. A. 9th Cir.); Williams v. United States, 236 F. 2d 894 (C. A. 9th Cir.); Hoffman v. United States, 244 F. 2d 378 (C. A. 9th Cir.); Toliver v. United States, 249 F. 2d 804 (C. A. 9th Cir.); Miller v. United States, 256 F. 2d 501 (C. A. 9th Cir.); Smith v. United States, 259 F. 2d 125 (C. A. 9th Cir.).\nAlthough believing that relief in this case was not available under \u00a7 2255, I think, and indeed the Government concedes, that relief was available to the petitioner by virtue of Rule 35 of the Fed. Rules Crim. Proc. That rule provides: \u201cThe court may correct an illegal sentence at any time.\u201d The rule became effective more than two years before the enactment of \u00a7 2255 and has an entirely different history. It was a codification of existing law and was intended to remove any doubt created by the decision in United States v. Mayer, 235 U. S. 55, 67, as to the jurisdiction of a District Court to correct an illegal sentence after the expiration of the term at which it was entered.\nWhether Rule 35 covers the broader field of collateral attack where a hearing to consider matters dehors the record is necessary, we need not here determine. The Rule certainly covers a case like the present one where the claim is that the sentence imposed was illegal on its face. For this reason, and because I agree with the Court\u2019s construction of the Federal Bank Robbery Act, I concur in the opinion and the judgment.\nSee Judge Shackelford Miller\u2019s discussion of the relationship between \u00a7 2255 and Rule 35 in Duggins v. United States, 240 F. 2d 479 (C. A. 6th Cir.).",
+        "type": "concurrence",
+        "author": "Me. Justice Stewart,"
+      }
+    ],
+    "attorneys": [
+      "Jerome A. Cooper, acting under appointment by the Court, 358 U. S. 803, argued the cause and filed a brief for petitioner.",
+      "Theodore George Gilinsky argued the cause for the United States. With him on the brief were Solicitor General Rankin, Assistant Attorney General Anderson and Beatrice Rosenberg."
+    ],
+    "corrections": "",
+    "head_matter": "HEFLIN v. UNITED STATES.\nNo. 137.\nArgued January 14-15, 1959.\nDecided February 24, 1959.\nJerome A. Cooper, acting under appointment by the Court, 358 U. S. 803, argued the cause and filed a brief for petitioner.\nTheodore George Gilinsky argued the cause for the United States. With him on the brief were Solicitor General Rankin, Assistant Attorney General Anderson and Beatrice Rosenberg."
+  },
+  "file_name": "0415-01",
+  "first_page_order": 505,
+  "last_page_order": 512
+}

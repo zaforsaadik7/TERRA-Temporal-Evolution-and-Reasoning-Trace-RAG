@@ -1,0 +1,826 @@
+{
+  "id": 3521957,
+  "name": "BULLARD v. DES MOINES AND FORT DODGE RAILROAD",
+  "name_abbreviation": "Bullard v. Des Moines & Fort Dodge Railroad",
+  "decision_date": "1887-05-23",
+  "docket_number": "",
+  "first_page": "167",
+  "last_page": "176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "122 U.S. 167"
+    },
+    {
+      "type": "parallel",
+      "cite": "30 L. Ed. 1123"
+    },
+    {
+      "type": "parallel",
+      "cite": "7 S. Ct. 1149"
+    },
+    {
+      "type": "vendor",
+      "cite": "1887 U.S. LEXIS 2097"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1886-265"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "109 U. S. 329",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8215
+      ],
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/109/0329-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 95",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3439669
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/76/0095-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 89",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3440234
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/76/0089-01"
+      ]
+    },
+    {
+      "cite": "54 Iowa, 89",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2318215
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/54/0089-01"
+      ]
+    },
+    {
+      "cite": "34 Iowa, 19",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Johns. Ch. 344",
+      "category": "reporters:state",
+      "reporter": "Johns. Ch.",
+      "case_ids": [
+        1975539
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/johns-ch/1/0344-01"
+      ]
+    },
+    {
+      "cite": "8 Johns. 41",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "case_ids": [
+        2134535
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/johns/8/0041-01"
+      ]
+    },
+    {
+      "cite": "9 How. 172",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3354032
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/50/0172-01"
+      ]
+    },
+    {
+      "cite": "46 N. Y. 546",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2052692
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/46/0546-01"
+      ]
+    },
+    {
+      "cite": "47 N. Y. 330",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        509414
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/47/0330-01"
+      ]
+    },
+    {
+      "cite": "51 Iowa, 683",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2323818
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/51/0683-01"
+      ]
+    },
+    {
+      "cite": "61 Iowa, 385",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        4371093
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/61/0385-01"
+      ]
+    },
+    {
+      "cite": "15 Pet. 407",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3331298
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/40/0407-01"
+      ]
+    },
+    {
+      "cite": "113 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3513401
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/113/0149-01"
+      ]
+    },
+    {
+      "cite": "13 Wall. 166",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134186
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/80/0166-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 48",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3515904
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/116/0048-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 67",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514647
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/115/0067-01"
+      ]
+    },
+    {
+      "cite": "106 U. S. 447",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3498656
+      ],
+      "pin_cites": [
+        {
+          "page": "451"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/106/0447-01"
+      ]
+    },
+    {
+      "cite": "93 U. S. 169",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5645269
+      ],
+      "pin_cites": [
+        {
+          "page": "172"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/93/0169-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 514",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5629844
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/101/0514-01"
+      ]
+    },
+    {
+      "cite": "55 N. Y. 613",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        517503
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/55/0613-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 733",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8761
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/92/0733-01"
+      ]
+    },
+    {
+      "cite": "91 U. S. 761",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 Wall. 72",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134243
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/80/0072-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 695",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3504126
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0695-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3507417
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/111/0412-01"
+      ]
+    },
+    {
+      "cite": "99 N. Y. 43",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2196946
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/99/0043-01"
+      ]
+    },
+    {
+      "cite": "91 N. Y. 574",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2188455
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/91/0574-01"
+      ]
+    },
+    {
+      "cite": "19 N. Y. 422",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        497777
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/19/0422-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646801
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/94/0351-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 48",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373552
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0048-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 382",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373968
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0382-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 755",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5632137
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/101/0755-01"
+      ]
+    },
+    {
+      "cite": "96 N. Y. 477",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        555903
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/96/0477-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 260",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5633087
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/101/0260-01"
+      ]
+    },
+    {
+      "cite": "98 U. S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11326
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/98/0118-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 187",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3441710
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/76/0187-01"
+      ]
+    },
+    {
+      "cite": "9 How. 314",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3354609
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/50/0314-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 210",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6138163
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/71/0210-01"
+      ]
+    },
+    {
+      "cite": "91 U. S. 330",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647130
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/91/0330-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3506247
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/111/0276-01"
+      ]
+    },
+    {
+      "cite": "85 Am. Dec. 84",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "24 Cal. 609",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2283143,
+        2283183
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/cal/24/0609-01",
+        "/cal/24/0609-02"
+      ]
+    },
+    {
+      "cite": "24 How. 394",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3463953
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/65/0394-01"
+      ]
+    },
+    {
+      "cite": "102 U. S. 378",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5628762
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/102/0378-01"
+      ]
+    },
+    {
+      "cite": "34 Iowa, 18",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        110918
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/34/0018-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 144",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62507
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0144-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 153",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62493
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0153-01"
+      ]
+    },
+    {
+      "cite": "92 N. Y. 88",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2190144
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/92/0088-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 167",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "109 U. S. 629",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8231
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/109/0629-01"
+      ]
+    },
+    {
+      "cite": "5 Wall. 681",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3458913
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/72/0681-01"
+      ]
+    },
+    {
+      "cite": "12 Stat. 543",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 How. 66",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3463382
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/64/0066-01"
+      ]
+    },
+    {
+      "cite": "12 Stat. 251",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "11 Stat. 9",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 U. S. 329",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8215
+      ],
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/109/0329-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 755",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5632137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/101/0755-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 144",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62507
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/84/0144-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 153",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62493
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/84/0153-01"
+      ]
+    },
+    {
+      "cite": "5 Wall. 681",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3458913
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/72/0681-01"
+      ]
+    },
+    {
+      "cite": "12 Stat. 543",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 How. 66",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3463382
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/64/0066-01"
+      ]
+    },
+    {
+      "cite": "12 Stat. 251",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 917,
+    "char_count": 21028,
+    "ocr_confidence": 0.441,
+    "pagerank": {
+      "raw": 2.6510060065826924e-07,
+      "percentile": 0.8240596266423255
+    },
+    "sha256": "635cae9df2286dfe34774a89652cad718e24fcf7e5ff44d1ce5192ce601ecd65",
+    "simhash": "1:b8872fadc86e42be",
+    "word_count": 3743
+  },
+  "last_updated": "2024-02-27T16:44:22.703625+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BULLARD v. DES MOINES AND FORT DODGE RAILROAD."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Miller\ndelivered the opinion of the court.\nThis is a writ of error to the Supreme Court of the state of Iowa.\nThe case originated in a suit in equity, brought in the District Court of that state for the county of Humbolt by Edward F, Bullard, who is the appellant here. The object of the bill was to quiet or remove clouds upon the title of the plaintiff to certain lands in that state, to which the defendant filed an answer and cross-bill, asking that its own title might be declared to be good and established by the decree of the court. The District Court of that county made a decree in favor of the defendant, which'on appeal to the Supreme Court of the state was affirmed.\nThere were many questions considered in the state courts of which this court can take no jurisdiction. But the ir fin question raised there, and the only one here, has relation to a subject which has been often considered by this court. It arises out of what is called the Des Moines Diver Land Grant, which was originally made by the Congress of the United States to the then territory of Iowa. A short history of- the matters growing out of that grant, with some references to the decisions of this court, will simplify the complex record presented in this case.\nBy the act of Congress of August 8, 1846, 9 Stat. YY, there was \u201c granted to the territory of Iowa, for the purpose of aiding said territory to improve the navigation of the Des Moines Diver from its mouth to the Daccoon Fork, (so called,) in said territory, one equal moiety, in alternate sections, of the public lands, (remaining unsold, and not otherwise disposed of, encumbered, or appropriated,) in a strip five miles in width on each side of said river; to be selected within said territory by an agent or agents to be appointed by the governor thereof, subject to the approval of the Secretary of the Treasury of the United States.\u201d\nSoon after the passage of this statute the state of Iowa created Board of Public \"Works, to take charge of this river improvement, under a system of slack water navigation on that stream. The contract for the execution of the work came into the hands of a corporation called The Des Moines Navigation Company. The work progressed for a number of years, several dams and locks being built from the mouth of the river upwards, the means for paying the contractors coming solely from the sales of the lands granted to the state for that purpose. These lands, as the work went on and the money was needed, were certified to the state by the Secretary of the Treasury, and by it either sold to purchasers or conveyed to the contractors who did the work. The state made no appropriations and furnished no means from any other source than this for the prosecution of the enterprise.\nSo long as no request on the part' of the state for the certification of lands lying above the mouth of the Raccoon Fork was made of the Secretary of the Treasury, no question arose as to the extent of the grant. Afterwards, however, when a demand was made upon that officer that such lands should be certified, he objected on the .ground that the grant of lands did not extend beyond that point; that, as,by the language of the statute making the grant it was \u201c for the improvement of the Des Moines River from its mouth to the Raccoon Fork.\u201d it was not intended to grant lands lying above that point, although the same river ran through the entire length of the state, from near its northwestern corner in the territory of Minnesota to the southeast corner, where it flows into the Mississippi River.\nThis question became the subject of active negotiations and controversy between the state of Iowa, through its governor and members of Congress, and the Treasury Department, as well as the Interior Department, which was created during this time and succeeded to the charge of this subject. Meanwhile one of the secretaries certified to the state a part of the land in dispute, running to a certain range of townships above the Raccoon Fork. It may as well be stated here that the lands now in controversy were not among the lands so certified, but are among the odd sections lying north of those thus certified and within five miles of the Des Moines River.\nOn April 6, 1850, Secretary Ewing, while concurring with Attorney General Crittenden in his opinion that the grant of 1846 did not extend above the Raccoon Fork, issued an order withholding all the lands then in controversy from market \u201c.until the close of the then session of Congress,\u201d which order has been continued ever since, in order to give the state the opportunity of petitioning for an extension of the grant by Congress. This court has decided in a number of cases, in regard to these lands, that this withdrawal operated to exclude from sale, purchase, or preemption all the lands in controversy,^and unless the case we are about to consider constitutes an exception, it has never been revoked.\nIn 1856 Congress granted to the state of Iowa, for the purpose of aiding in the construction of several railroads across that state from the Mississippi to the Missouri River, every alternate section, as shown by odd numbers, of the lands on each side of said roads, each of which, when the line Ayas fixed, crossed the Des Moines River and ran through the lands Avhich the state claimed had been granted to it for the purpose of improving themavigation of that stream.\nPending this controversy between the state of IoAva and the authorities of tho United States as to the extent of the grant, a suit was brought by one of these railroad companies, that the question might be decided by this court. The case is reported as the Dubuque & Pacific Railroad Co. v. Litchfield, 23 How. 66, decided in 1860, and it was held that the grant did not extend above the Raccoon Fork. As soon as this decision Avas made, the state, through its congressional delegation, sought the action of the Congress of the' United States to obtain the passage of an act, Avhich Avould secure the grant to the state and its grantees in the full extent Avhich they believed Con-\u2019 gress had originally intended by the act of 1846. That the propriety of some action by Congress, and the demand for it was pressing, is obvious, when we consider that the Des Moines Navigation Company, under contract with the state, had spent large sums of money beyond what they had received from the state, and beyond the value of the lands certified to the state by the Secretary. The work, with all the materials and implements on hand, was suspended, and the danger of the works being swept aAvay and ruined by floods in the river Avas imminent. The whole subject was before Congress, but, Avithout waiting to dispose of it entirely, that body, by Avay of immediate relief, passed the following joint resolution, approved March 2, 1861, 12 Stat. 251.\n\u201c That all the title which the United States still retain in the tracts of land along the Des Moines River, and above the mouth, of the Eaccoon. Fork thereof, in the state of Iowa, which have been certified to said state improperly by the Department of the Interior, as part of the grant by act of Congress approved August eight, eighteen hundred and forty-six, and which is now held' by bona fide purchasers under the state of Iowa, be, and the same is hereby, relinquished to the state of Iowa.\u201d\nAt the next session of Congress a statute was passed, approved July 12, 1862, which provided as follows\n\u201c That the grant of lands to the then territory of Iowa for the improvement of the Des Moines Eiver made by the act of August eight, eighteen hundred and forty-six, i\u00e1 hereby extended so as to include the alternate sections (designated by odd numbers) lying within five miles of said river, between the Eaccoon Fork and the northern boundary of said state; such lands are to be held and applied in accordance with the provisions of the original grant, except that the consent of Congress is hereby given to the application of a portion thereof to aid in the construction of the Keokuk, Fort Des Moines, and Minnesota railroad, in accordance with the provisions of the act of the General Assembly of the state of Iowa, approved March twenty-two, eighteen hundred and fifty-eight.\u201d 12 Stat. 543.\nBy this joint resolution and this act of Congress the United States relieved so far as it could the' misfortune of the construction of the grant to the territory of Iowa of 1846, made by tins court, and ratified the construction which had' always been claimed by the state.\nDuring all this controversy there remained the order of the Department having control of the matter, withdrawing all the lands in dispute from public sale, settlement or preemption. This withdrawal was held to be effectual against the grant made by Congress to the railroad companies in 1856, because that \u00e1,ct contained the following proviso:\n\u201c That any and- all lands heretofore reserved to the United States, by any act -of Congress, or in any' other manner by competent authority, for the purpose of aiding in any object of internal improvement, or for any other purpose whatsoever, be, and the same are hereby, reserved to the United States from the operation of this act, except so far as it may be found necessary to locate the routes of said railroads through such reserved lands, in which case the right of way only shall be granted, subject to the approval of the President ot the United States.\u201d 11 Stat. 9.\nSee Wolcott v. Des Moines Co., 5 Wall. 681, and Williams v. Baker, 17 Wall. 144, in which cases is also to be found a very full and clear recital of the history of this Des Moines grant controversy.\nIn May, 1860, the Commissioner of the General Land Office sent to the registers and receivers of that office at Des Moines and Fort Dodge the following printed notice:\n\u201c Notice is hereby given that the land along the Des Moines River, in Iowa, within the claimed limits of the Des Moines grant, in that state, above the mouth of the Raccoon Fork of said river, which has been reserved from sale heretofore oji-ac-. count of the claim of the state thereto, will continue reserved, for the time being, from sale or from location, by any species' of scrip or warrants, notwithstanding the recent decision of the Supreme Court against the claim. This action is deemed necessary to afford time for Congress to consider, upon memorial or otherwise, the case, of actual bona fide settlers hold.-ing under titles from the state, and to make such provision, by confirmation or adjustment of the claims of such settlers, as may appear to be right and proper.\n\u201cJohn S. Wilson,\n\u201c Commissioner of the Gen. Land Office.\n\u201c Gen. Land Office, May 18, 1860.\u201d\nIt will thus be seen that, notwithstanding the decision of the Supreme Court of the United States in the winter of 1860, the land office determined that the reservation of these lands should continue for the purpose of securing the very action by Congress which the state of Iowa was soliciting, and it is not disputed by counsel for the appellant in this case that this was. a valid continuation of such reservation and that during its continuance the preemptions under which the plaintiff claims could not have been made. But it is argued that the joint resolution of 1861 terminated this condition of suspense, and in and of itself ended the withdrawal of these lands which had been established'and continued, since the controvesy'originated between the state and ihe Federal government as to the extent of the grant. This is the only foundation on which plaintiff\u2019s title to the land in controversy in this case rests.\nWe do not think the joint resolution had the effect to end the reservation of these lands from public entry. Whether\u2019 we consider the purpose of the original order, its long continuance, and that it has been held, in the face of an act of Congress granting lands for public purposes to the railroads already mentioned, to constitute such a withdrawal as that act excepts from the operations of the grant, and that up to the present time no preemptions or sales have been finally recognized as valid by the Department or by the courts, it -would be very extraordinary if the joint resolution should have that effect. It does not purport to act upon all the matters which were in controversy between the state and the general government. It certainly did not act upon all the- claims and matters in question then pending before Congr\u00e9ss in regard to these lands. It was, indeed, a very limited disposition of a part of the matter which Congress supposed might then, be acted upon with safety without further investigation. \u2019 It was simply the recognition of the title which had passed to the grantees of the state of Iowa in regard to the lands which had-been certified by the proper authorities of the .general government to the state under the act of 1846, and which, by the decision in Dubuque & Pacific Railroad v. Litchfield, had been held to be unwarranted by the statute. Congress, urgently pressed by parties who were innocent purchasers under the state, passed the resolution which went to this exT tent, in the last days of the session, securing to such purchasers, so far as the United States could do so, their title to the lands that they had bought'under the sanction of this action of the Department.\nThe broader and larger question of the title to the lands within five miles of the Des Moines Diver, above Daccoon Fork, which had not been certified to the state, and which .were declared by the decision of Dubuque & Pacific Railroad v. Litchfield not to be included within the grant of 1846, Congress retained for further consideration, and, at its next session after this joint resolution was passed, it completely disposed of the whole subject, so far as it was within its power to do so, \u2022 by validating the grant of 1846 to the full extent of 'the construction claimed by the state of Iowa. If the order of the Commissioner of the General Land Office of May 18, 1860, was in force up to. the passage of the joint resolution, it is not possible to perceive why it terminated then. It was declared by the Commissioner that the order or notice was made to protect these lands from location by any species of scrip or warrant, notwithstanding the decision of the Supreme Court to afford time for Congress to further consider the case.\nThis is not the way in which a reservation from, sale or preeinption of public lands is removed. In almost every instance, in which such a reservation is terminated, there has been a proclamation by the President that the lands are open for entry or sale, and in most instances they have first been offered. for sale at public auction. It cannot be seen, from anything in the joint resolution, that Congress either considered the controversy ended or intended to remove the reservation instituted' by the Department. Its' immediate procedure at the- next session to the full consideration of the whole subject shows that it had not ceased to- deal with it; that the reason for this withdrawal or reservation continued as strongly as before, and it cannot be doubted that the subject was before Congress, as well as before its committees, and that the act of July 12, 1862, was, for the first time, a conclusion and end of the matter so far as Congress was concerned.\nThe title of the plaintiff, therefore, rests upon settlements upon odd sections of. land within five miles of the Des Moines Fiver, which were reserved from sale or preemption at the time the settlements were made. Two of the settlements, which are the\u2019foundation of plaintiff\u2019s title, were made in May, 1862, only a few days before the passage of the act of July in the same year; and one of the settlements under which the plaintiff claims was made after the passage of that act. The title was transferred by that act to the state of Iowa for the original purposes of the grant of 1846.\nThe object of this bill is to have a declaraf m of the court that the title of the plaintiff under those sett, '.eats and preemptions is superior to the title conferred by Congre^ on the state of Iowa and her grantees under the act of July 12, 1862. If the lands were at the time of these settlements and preemption declarations effectually withdrawn from- settlement, sale, or preemption, by the orders of the Department, which we have considered, there is an end of the plaintiff\u2019s title, for by that withdrawal or reservation the lands were reserved for another purpose, to which they were ultimately appropriated by the act of 1862, and no title could be initiated or established, because the Land Department had no right to grant it. This proposition, which we have fully discussed, will be found supported by the following decisions, which are decisive of the whole controversy. Dubuque & Pacific Railroad v. Litchfield, 23 How. 66; Wolcott v. Des Moines Co., 5 Wall. 681; Homestead Co. v. Valley Railroad, 17 Wall. 153; Williams v. Baker and Cedar Rarpids Radlroad v. Des Moines Navigation Co., 17 Wall. 144; Wolsey v. Chapman, 101 U. S. 755; Dubuque & Sioux City Railroad v. Des Moines Valley Railroad, 109 U. S. 329, 334.\nThe judgment of the Supreme Court of the state of Iowa, founded on the same .view of the subject as above set forth, is therefore\nAffirmed.",
+        "type": "majority",
+        "author": "Mr. Justice Miller"
+      }
+    ],
+    "attorneys": [
+      "Mr. Edward Fitch Bullard, plaintiff in error,",
+      "Mr. J. F. Duncombe for defendants in error submitted on his brief,"
+    ],
+    "corrections": "",
+    "head_matter": "BULLARD v. DES MOINES AND FORT DODGE RAILROAD.\nERROR TO THE SUPREME COURT OF THE STATE OF IOWA.\nArgued May 4, 1887. \u2014\nDecided May 23, 1887.\nThe joint resolution of the two Houses of Congress of March 2, 1861, 12 Stat. 251, relinquishing to the State of'Iowa certain lands ah ug the Des. Moines River abov\u00e9 the mouth of Raccoon Fork, did not operate to terminate the withdrawal of all the lands on that river above Raccoon Fork from entry and preemption which was originally made in 1850, and which was continued in force from that time and of which renewed notice was given in May, 1860: that resolution was only a congressional recognition of the title, which had passed to grantees of the State of Iowa, to lands certified to the. State under the act of 1846, which certificates had been held by this court in Dubuque & Pacific Railroad v. Litchfield, 23 How. 66, to have been issued without authority of law.\nIn equity, in a state court of Iowa, to quiet title to land. The complaint set up a preemption title. Tbe respondent claimed under the act of July 12, 1862, 12 Stat. 543. The bill was dismissed, and on appeal the decree was affirmed by the Supreme Court of the state. The complainant sued out . this writ of error*. The case is stated in the opinion of the court.-.\nMr. Edward Fitch Bullard, plaintiff in error,\nin person cited: Wolcott s. Des Moines Co., 5 Wall. 681; Dubuque & Sioux City Railroad v. Des Moines Valley Railroad, 109 U. S. 629; Doe v. Nicholls, 1 B. & C. 336; Crilley v. Burrows, 17 Wall. 167, more fully reported in the Letter of the Register of Iowa to the governor of that state in November, 1873; Hand v. Newton, 92 N. Y. 88; Homestead Co. v. Valley Railroad, 17 Wall. 153; Williams v. Baker, 17 Wall. 144; Bellows V. Todd, 34 Iowa, 18; United States v. Schurz, 102 U. S. 378; Clements v. Warner, 24 How. 394; Terry v. Megerle, 24 Cal. 609 [S. C. 85 Am. Dec. 84]; Rector v. Gibbon, 111 U. S. 276; Shepley v. Cowan, 91 U. S. 330; Witherspoon v. Duncan, 4 Wall. 210; Lytle v. Arkansas, 9 How. 314; Frisbie v. Whitney, 9 Wall. 187; Wirth v. Branson, 98 U. S. 118; Simmons v. Wagner, 101 U. S. 260; Duryee v. Mayor, 96 N. Y. 477; Wolsey v. Chapmam, 101 U. S. 755; Ryan v. Railroad Co., 99 U. S. 382; Platt v. Union Pacific Railroad, 99 U. S. 48; Cromwell v. Sac County, 94 U. S. 351; Weed v. Tucker, 19 N. Y. 422; People v. Davenport, 91 N. Y. 574; People v. Lacombe, 99 N. Y. 43; Slidell v. Grandjean, 111 U. S. 412; Rice v. Sioux City, &c., Railroad, 110 U. S. 695; Johnson v. Towsley, 13 Wall. 72: Newhall v. Sanger, 91 U. S. 761; Leavenworth, &c., Railroad v. United States, 92 U. S. 733; Mongeon v. People, 55 N. Y. 613; Vance v. Burbank, 101 U. S. 514; French v. Fyan, 93 U. S. 169, 172; Steel v. Smelting Co., 106 U. S. 447, 451; Ehrhardt v. Hogeboom, 115 U. S. 67; Lee v. Johnson, 116 U. S. 48; Pumpelly v. Green Bay Co., 13 Wall. 166; Bicknell v. Comstock, 113 U. S. 149; United States v. Fitzgerald, 15 Pet. 407; Cummings v. Browne, 61 Iowa, 385; Cross v. The B. & S. W. R. Co., 51 Iowa, 683; Smith v. People, 47 N. Y. 330; Harlem Railroad v. Kip, 46 N. Y. 546; Perrine v. Chesapeake & Delaware Canal, 9 How. 172; Hart v. Kleis, 8 Johns. 41; Wendell v. Van Rensselaer, 1 Johns. Ch. 344.\nMr. J. F. Duncombe for defendants in error submitted on his brief,\nciting: Wolcott v. Des Moines Co., 5 Wall. 681; Reilly v. Wells, not reported; Homestead Co. v. Valley Railroad Co., 17 Wall. 153; Williams v. Baker, 17 Wall. 144; Bellows v. Todd, 34 Iowa, 19; Dubuque & Sioux City Railroad v. Des Moines Valley Railroad, 54 Iowa, 89; Railroad Co. v. Fremont County, 9 Wall. 89; Railroad Co. v. Smith, 9 Wall. 95; Wolsey v. Chapman, 101 U. S. 755; Dubuque, &c., Railroad v. Des Moines Valley Railroad, 109 U. S. 329, 334."
+  },
+  "file_name": "0167-01",
+  "first_page_order": 197,
+  "last_page_order": 206
+}

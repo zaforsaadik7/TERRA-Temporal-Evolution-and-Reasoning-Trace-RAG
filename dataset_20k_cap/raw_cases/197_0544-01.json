@@ -1,0 +1,2410 @@
+{
+  "id": 3636138,
+  "name": "MUHLKER v. NEW YORK AND HARLEM RAILROAD COMPANY",
+  "name_abbreviation": "Muhlker v. New York & Harlem Railroad",
+  "decision_date": "1905-04-10",
+  "docket_number": "No. 99",
+  "first_page": "544",
+  "last_page": "577",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "197 U.S. 544"
+    },
+    {
+      "type": "parallel",
+      "cite": "49 L. Ed. 872"
+    },
+    {
+      "type": "parallel",
+      "cite": "25 S. Ct. 522"
+    },
+    {
+      "type": "vendor",
+      "cite": "1905 U.S. LEXIS 1167"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1904-106"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "194 U. S. 415",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630874
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/194/0415-01"
+      ]
+    },
+    {
+      "cite": "179 U. S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5707852
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/179/0405-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 674",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142705
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0674-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3593271
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0269-01"
+      ]
+    },
+    {
+      "cite": "179 U. S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5708537
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/179/0141-01"
+      ]
+    },
+    {
+      "cite": "165 N. Y. 222",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2285324
+      ],
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/165/0222-01"
+      ]
+    },
+    {
+      "cite": "142 N. Y. 118",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2260256
+      ],
+      "pin_cites": [
+        {
+          "page": "122"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/142/0118-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 495",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        24553
+      ],
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/139/0495-01"
+      ]
+    },
+    {
+      "cite": "103 N. Y. 10",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2204971
+      ],
+      "pin_cites": [
+        {
+          "page": "15, 19"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/103/0010-01"
+      ]
+    },
+    {
+      "cite": "136 N. Y. 528",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        17307
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/136/0528-01"
+      ]
+    },
+    {
+      "cite": "134 N. Y. 156",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2252959
+      ],
+      "pin_cites": [
+        {
+          "page": "161"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/134/0156-01"
+      ]
+    },
+    {
+      "cite": "13 Wall. 166",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134186
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/80/0166-01"
+      ]
+    },
+    {
+      "cite": "58 N. Y. 416",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2158414
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/58/0416-01"
+      ]
+    },
+    {
+      "cite": "124 U. S. 602",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "104 N. Y. 68",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2207031
+      ],
+      "pin_cites": [
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/104/0068-01"
+      ]
+    },
+    {
+      "cite": "102 N. Y. 107",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2203055
+      ],
+      "pin_cites": [
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/102/0107-01"
+      ]
+    },
+    {
+      "cite": "101 N. Y. 98",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2201605
+      ],
+      "pin_cites": [
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/101/0098-01"
+      ]
+    },
+    {
+      "cite": "43 N. Y. 399",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2048093
+      ],
+      "pin_cites": [
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/43/0399-01"
+      ]
+    },
+    {
+      "cite": "29 N. Y. 634",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2038621
+      ],
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/29/0634-01"
+      ]
+    },
+    {
+      "cite": "23 N. Y. 42",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "167 U. S. 548",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3595116
+      ],
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0548-01"
+      ]
+    },
+    {
+      "cite": "69 Fed. Rep. 324",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "167 U. S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594469
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0088-01"
+      ]
+    },
+    {
+      "cite": "125 U. S. 161",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3528001
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/125/0161-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 635",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373676
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0635-01"
+      ]
+    },
+    {
+      "cite": "20 How. 135",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        5680677
+      ],
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/61/0135-01"
+      ]
+    },
+    {
+      "cite": "1 Pick. 417",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 N. Y. 195",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2005574
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/4/0195-01"
+      ]
+    },
+    {
+      "cite": "132 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5699245
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/132/0075-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239473
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/175/0091-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 499",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3607393
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/174/0499-01"
+      ]
+    },
+    {
+      "cite": "173 U. S. 99",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297788
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/173/0099-01"
+      ]
+    },
+    {
+      "cite": "151 U. S. 556",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298979
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/151/0556-01"
+      ]
+    },
+    {
+      "cite": "135 U. S. 492",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3543617
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/135/0492-01"
+      ]
+    },
+    {
+      "cite": "91 U. S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5648182
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/91/0452-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 648",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62523
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0648-01"
+      ]
+    },
+    {
+      "cite": "20 Wall. 137",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3392768
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/87/0137-01"
+      ]
+    },
+    {
+      "cite": "2 Black. 599",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        3465392
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/67/0599-01"
+      ]
+    },
+    {
+      "cite": "7 Pet. 469",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1436163
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/32/0469-01"
+      ]
+    },
+    {
+      "cite": "6 Pet. 291",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1439670
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/31/0291-01"
+      ]
+    },
+    {
+      "cite": "80 Fed. Rep. 9",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1640493
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/80/0009-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 685",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "17 C. C. A. 251",
+      "category": "reporters:federal",
+      "reporter": "C.C.A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "172 U. S. 82",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3604763
+      ],
+      "pin_cites": [
+        {
+          "page": "94"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0082-01"
+      ]
+    },
+    {
+      "cite": "160 U. S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701268
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/160/0452-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 814",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5630283
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/101/0814-01"
+      ]
+    },
+    {
+      "cite": "6 Wheat. 593",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        11731354
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/19/0593-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 57",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599395
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/170/0057-01"
+      ]
+    },
+    {
+      "cite": "13 Wall. 190",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134216
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/80/0190-01"
+      ]
+    },
+    {
+      "cite": "106 U. S. 95",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3497862
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/106/0095-01"
+      ]
+    },
+    {
+      "cite": "64 N. Y. 107",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2161946
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/64/0107-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 746",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3506390
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/111/0746-01"
+      ]
+    },
+    {
+      "cite": "42 App. Div. 37",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2385824
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/42/0037-01"
+      ]
+    },
+    {
+      "cite": "17 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "153 U. S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576824
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/153/0380-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 512",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514524
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/115/0512-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 97",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3380671
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0097-01"
+      ]
+    },
+    {
+      "cite": "168 N. Y. 597",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2299516,
+        2299623
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/168/0597-02",
+        "/ny/168/0597-01"
+      ]
+    },
+    {
+      "cite": "53 App. Div. 637",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "29 Misc. 13",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        359780
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/misc/29/0013-01"
+      ]
+    },
+    {
+      "cite": "28 App. Div. 379",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3428163
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/51/0290-01"
+      ]
+    },
+    {
+      "cite": "27 App. Div. 190",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5655520
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/50/0697-01"
+      ]
+    },
+    {
+      "cite": "151 N. Y. 155",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        29784
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/151/0155-01"
+      ]
+    },
+    {
+      "cite": "78 Hun, 473",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "case_ids": [
+        5694921
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/29/0187-01"
+      ]
+    },
+    {
+      "cite": "73 Hun, 46",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "62 App. Div. 290",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4836480
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/62/0290-01"
+      ]
+    },
+    {
+      "cite": "175 N. Y. 485",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2311552
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/175/0485-01"
+      ]
+    },
+    {
+      "cite": "58 App. Div. 622",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "42 App. Div. 618",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "47 How. Pr. 494",
+      "category": "reporters:state",
+      "reporter": "How. Pr.",
+      "case_ids": [
+        1884914
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/how-pr/47/0494-01"
+      ]
+    },
+    {
+      "cite": "74 App. Div. 175",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7701686
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/77/0725-01"
+      ]
+    },
+    {
+      "cite": "177 N. Y. 566",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2315184,
+        2315350
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/177/0566-01",
+        "/ny/177/0566-02"
+      ]
+    },
+    {
+      "cite": "60 App. Div. 621",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "175 N. Y. 504",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2311646,
+        2311503
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/175/0504-01",
+        "/ny/175/0504-02"
+      ]
+    },
+    {
+      "cite": "74 App. Div. 629",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4950234,
+        4942548,
+        4948599
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/74/0629-03",
+        "/ad/74/0629-02",
+        "/ad/74/0629-01"
+      ]
+    },
+    {
+      "cite": "40 App. Div. 343",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4665522
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/40/0343-01"
+      ]
+    },
+    {
+      "cite": "25 Misc. 13",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        352751
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/misc/25/0013-01"
+      ]
+    },
+    {
+      "cite": "62 App. Div. 311",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7681074
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/71/0027-01"
+      ]
+    },
+    {
+      "cite": "175 N. Y. 484",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2311547,
+        2311486
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/175/0484-02",
+        "/ny/175/0484-01"
+      ]
+    },
+    {
+      "cite": "67 App. Div. 620",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "weight": 3,
+      "opinion_index": -1
+    },
+    {
+      "cite": "177 N. Y. 247",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2315303
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/177/0247-01"
+      ]
+    },
+    {
+      "cite": "76 App. Div. 619",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "173 N. Y. 642",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2308587
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/173/0642-01"
+      ]
+    },
+    {
+      "cite": "169 N. Y. 270",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2301807
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/169/0270-01"
+      ]
+    },
+    {
+      "cite": "57 App. Div. 577",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7753136
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/68/0670-01"
+      ]
+    },
+    {
+      "cite": "175 N. Y. 503",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2311522,
+        2311635
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/175/0503-01",
+        "/ny/175/0503-02"
+      ]
+    },
+    {
+      "cite": "74 App. Div. 628",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4942434,
+        4948563
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/74/0628-01",
+        "/ad/74/0628-02"
+      ]
+    },
+    {
+      "cite": "74 App. Div. 434",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7705710
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/77/0815-01"
+      ]
+    },
+    {
+      "cite": "156 N. Y. 474",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        41654
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/156/0474-01"
+      ]
+    },
+    {
+      "cite": "84 Hun, 34",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "case_ids": [
+        5440320
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/32/0006-01"
+      ]
+    },
+    {
+      "cite": "35 Misc. 497",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1802247
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/misc/35/0497-01"
+      ]
+    },
+    {
+      "cite": "84 App. Div. 637",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "weight": 5,
+      "opinion_index": -1
+    },
+    {
+      "cite": "173 N. Y. 644",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2308693,
+        2308614
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/173/0644-02",
+        "/ny/173/0644-01"
+      ]
+    },
+    {
+      "cite": "60 App. Div. 630",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "41 App. Div. 506",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4674018
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/41/0506-01"
+      ]
+    },
+    {
+      "cite": "130 N. Y. 108",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2245301
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/130/0108-01"
+      ]
+    },
+    {
+      "cite": "128 N. Y. 157",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2241382
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/128/0157-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 19",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        24523
+      ],
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/139/0019-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 34",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581847
+      ],
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0034-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 226",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592880
+      ],
+      "pin_cites": [
+        {
+          "page": "233, 241"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0226-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3605228
+      ],
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0269-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597480
+      ],
+      "pin_cites": [
+        {
+          "page": "390"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/169/0366-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 204",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594532
+      ],
+      "pin_cites": [
+        {
+          "page": "222"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0204-01"
+      ]
+    },
+    {
+      "cite": "182 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        383928
+      ],
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/182/0398-01"
+      ]
+    },
+    {
+      "cite": "176 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705001
+      ],
+      "pin_cites": [
+        {
+          "page": "409"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/176/0398-01"
+      ]
+    },
+    {
+      "cite": "175 N. Y. 367",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2311496
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/175/0367-01"
+      ]
+    },
+    {
+      "cite": "137 N. Y. 155",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        20153
+      ],
+      "pin_cites": [
+        {
+          "page": "160"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/137/0155-01"
+      ]
+    },
+    {
+      "cite": "129 N. Y. 576",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2243081
+      ],
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/129/0576-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3381586
+      ],
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0432-01"
+      ]
+    },
+    {
+      "cite": "3 Wall. 51",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3475863
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/70/0051-01"
+      ]
+    },
+    {
+      "cite": "1 Wall. 116",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3470741
+      ],
+      "pin_cites": [
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/68/0116-01"
+      ]
+    },
+    {
+      "cite": "13 How 518",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3362169
+      ],
+      "pin_cites": [
+        {
+          "page": "565"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/54/0518-01"
+      ]
+    },
+    {
+      "cite": "18 Ohio St. 221",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        43727
+      ],
+      "pin_cites": [
+        {
+          "page": "225"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/18/0221-01"
+      ]
+    },
+    {
+      "cite": "7 Ohio, 217",
+      "category": "reporters:state",
+      "reporter": "Ohio",
+      "case_ids": [
+        583614
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio/7/0219-01"
+      ]
+    },
+    {
+      "cite": "48 N. J. Eq. 452",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        95461
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nj-eq/48/0452-01"
+      ]
+    },
+    {
+      "cite": "19 N. J. Eq. 355",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        8877977
+      ],
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nj-eq/19/0355-01"
+      ]
+    },
+    {
+      "cite": "34 N. J. L. 201",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        384317
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/njl/34/0201-01"
+      ]
+    },
+    {
+      "cite": "22 Iowa, 351",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2287342
+      ],
+      "pin_cites": [
+        {
+          "page": "356"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/22/0351-01"
+      ]
+    },
+    {
+      "cite": "2 Biss. 174",
+      "category": "reporters:federal",
+      "reporter": "Biss.",
+      "pin_cites": [
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "7 Wall. 272",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3450258
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "289"
+        },
+        {
+          "page": "289"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/74/0272-01"
+      ]
+    },
+    {
+      "cite": "16 N. Y. 97",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1297806
+      ],
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/16/0089-01"
+      ]
+    },
+    {
+      "cite": "125 N, Y. 164",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1896024
+      ],
+      "pin_cites": [
+        {
+          "page": "183"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/125/0164-01"
+      ]
+    },
+    {
+      "cite": "16 How. 416",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3483334
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/57/0416-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 677",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5632679
+      ],
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/101/0677-01"
+      ]
+    },
+    {
+      "cite": "11 Wheat. 361",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1428694
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/24/0361-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 196",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6137854
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/71/0196-01"
+      ]
+    },
+    {
+      "cite": "105 U. S. 278",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3496217
+      ],
+      "pin_cites": [
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/105/0278-01"
+      ]
+    },
+    {
+      "cite": "1 Wall. 175",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3472079
+      ],
+      "pin_cites": [
+        {
+          "page": "206"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/68/0175-01"
+      ]
+    },
+    {
+      "cite": "138 U. S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3550063
+      ],
+      "pin_cites": [
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/138/0078-01"
+      ]
+    },
+    {
+      "cite": "136 U. S. 313",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1217871
+      ],
+      "pin_cites": [
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/136/0313-01"
+      ]
+    },
+    {
+      "cite": "128 N. Y. 190",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2241384
+      ],
+      "pin_cites": [
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/128/0190-01"
+      ]
+    },
+    {
+      "cite": "166 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2287065
+      ],
+      "pin_cites": [
+        {
+          "page": "19"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/166/0001-01"
+      ]
+    },
+    {
+      "cite": "136 N. Y. 577",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        18487
+      ],
+      "pin_cites": [
+        {
+          "page": "584"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/136/0577-01"
+      ]
+    },
+    {
+      "cite": "121 N. Y. 505",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        566418
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/121/0505-01"
+      ]
+    },
+    {
+      "cite": "186 U. S. 70",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3622388
+      ],
+      "pin_cites": [
+        {
+          "page": "83"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/186/0070-01"
+      ]
+    },
+    {
+      "cite": "181 U. S. 92",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297317
+      ],
+      "pin_cites": [
+        {
+          "page": "103"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/181/0092-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298299
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/165/0188-01"
+      ]
+    },
+    {
+      "cite": "185 U. S. 114",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3624752
+      ],
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/185/0114-01"
+      ]
+    },
+    {
+      "cite": "90 N. Y. 122",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2186236
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/90/0122-01"
+      ]
+    },
+    {
+      "cite": "104 N. Y. 268",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2206791
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "288"
+        },
+        {
+          "page": "291"
+        },
+        {
+          "page": "288, 289"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/104/0268-01"
+      ]
+    },
+    {
+      "cite": "126 N. Y. 96",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2237659
+      ],
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/126/0096-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 679",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3382812
+      ],
+      "pin_cites": [
+        {
+          "page": "683"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/95/0679-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 143",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6136744
+      ],
+      "pin_cites": [
+        {
+          "page": "155"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/71/0143-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat. 518",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4697
+      ],
+      "pin_cites": [
+        {
+          "page": "656"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/17/0518-01"
+      ]
+    },
+    {
+      "cite": "6 Cranch, 87",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        530387
+      ],
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/10/0087-01"
+      ]
+    },
+    {
+      "cite": "173 N. Y. 549",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2308537
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/173/0549-01"
+      ]
+    },
+    {
+      "cite": "162 N. Y. 202",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2281898
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/162/0202-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 324",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647066
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0324-01"
+      ]
+    },
+    {
+      "cite": "6 Johns. Ch. 439",
+      "category": "reporters:state",
+      "reporter": "Johns. Ch.",
+      "case_ids": [
+        1982806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/johns-ch/6/0439-01"
+      ]
+    },
+    {
+      "cite": "15 N. J. Eq. 481",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        515179
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/15/0481-01"
+      ]
+    },
+    {
+      "cite": "179 U. S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5708129,
+        5707363
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/179/0287-02",
+        "/us/179/0287-01"
+      ]
+    },
+    {
+      "cite": "121 N. Y. 505",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        566418
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/121/0505-01"
+      ]
+    },
+    {
+      "cite": "90 N. Y. 122",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2186236
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/90/0122-01"
+      ]
+    },
+    {
+      "cite": "104 N. Y. 268",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2206791
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/104/0268-01"
+      ]
+    },
+    {
+      "cite": "162 N. Y. 202",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2281898
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/162/0202-01"
+      ]
+    },
+    {
+      "cite": "188 U. S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11727460
+      ],
+      "pin_cites": [
+        {
+          "page": "470"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/188/0445-01"
+      ]
+    },
+    {
+      "cite": "7 Cush. 53",
+      "category": "reporters:state",
+      "reporter": "Cush.",
+      "case_ids": [
+        1967525
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/61/0053-01"
+      ]
+    },
+    {
+      "cite": "111 N. Y. 359",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2218095
+      ],
+      "pin_cites": [
+        {
+          "page": "361"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/111/0359-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594744
+      ],
+      "pin_cites": [
+        {
+          "page": "523"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/167/0518-01"
+      ]
+    },
+    {
+      "cite": "123 U. S. 623",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3523081
+      ],
+      "pin_cites": [
+        {
+          "page": "668"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/123/0623-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5700442
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/159/0103-01"
+      ]
+    },
+    {
+      "cite": "190 U. S. 437",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297296
+      ],
+      "pin_cites": [
+        {
+          "page": "444, 445"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/190/0437-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499161
+      ],
+      "pin_cites": [
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/107/0020-01"
+      ]
+    },
+    {
+      "cite": "15 N. J. Eq. 481",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        515179
+      ],
+      "pin_cites": [
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nj-eq/15/0481-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3593271
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/166/0269-01"
+      ]
+    },
+    {
+      "cite": "179 U. S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5708537
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/179/0141-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 82",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3604763
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/172/0082-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576824
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/153/0380-01"
+      ]
+    },
+    {
+      "cite": "169 N. Y. 270",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2301807
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/169/0270-01"
+      ]
+    },
+    {
+      "cite": "105 U. S. 278",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3496217
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/105/0278-01"
+      ]
+    },
+    {
+      "cite": "1 Wall. 175",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3472079
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/68/0175-01"
+      ]
+    },
+    {
+      "cite": "90 N. Y. 122",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2186236
+      ],
+      "pin_cites": [
+        {
+          "page": "160, 170, 178"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/90/0122-01"
+      ]
+    },
+    {
+      "cite": "104 N. Y. 268",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2206791
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/104/0268-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2222,
+    "char_count": 70642,
+    "ocr_confidence": 0.521,
+    "pagerank": {
+      "raw": 1.9767340117699206e-06,
+      "percentile": 0.9948830993621636
+    },
+    "sha256": "dd546b63473dae203cb0588ffaf93aaa1e99df097fbbf3cd69217716a71da065",
+    "simhash": "1:388741332d8d4cf7",
+    "word_count": 12512
+  },
+  "last_updated": "2024-02-27T19:17:52.541940+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Brown concurs in the result.",
+      "I am authorized to say that the Cm me Justice, Mr. Justice White and Mr. Justice Beckham concur in the foregoing dissent."
+    ],
+    "parties": [
+      "MUHLKER v. NEW YORK AND HARLEM RAILROAD COMPANY."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice McKenna,\nafter stating the case, announced the judgment of the court and delivered the following opinion:\nAs we have observed, the Supreme Court followed Lewis v. New York & Harlem Railroad, 162 N. Y. 202, bot\u00edn in the \u201cform of decision and judgment\u201d and \u201cthe legal principles involved.\u201d Discussion was not considered necessary. The Appellate Division affirmed the judgment on the authority of the same case and other cases which had been ruled by it. The court, by brief expression, pointed out the identity of the cases and disposed of the defense made by the railroad companies of adverse possession as follows:\n\u201cThe question of defendants having acquired title by adverse possession was considered by this court in both the Fries and Sander cases. In the former it was said: \u2018For these reasons the deed to the city was valid as against the railroad company, and it had no title to that part of the street in front of the plaintiff\u2019s premises, and its only rights, therefore, were those which it had acquired by adverse possession. Within the rule laid down in the case of Lewis v. New York & Harlem R. R. Co. (cited above), that adverse possession did not give to the railroad company the right to carry its tracks, which for twenty years had run in a cut, upon a viaduct such as this is, above ground, in front of the. plaintiff\u2019s premises. The case of Lewis applies fully to the one at bar.\u2019 In the Sander case this court followed the decision just quoted, the presiding justice dissenting on the sole ground that \u2018Title by adverse possession as to the twenty-four foot strip at least was established by the evidence.\u2019 \u201d\nIn the case at bar there is -a complete change of ruling by the Court of Appeals. The Lewis case is declared, in so far as it expressed rights of abutting property owners, to have been improvidcntly decided, and the elevated railroad cases, which were made its support, were distinguished. The court rested its ruling on one point, the effect of the act of 1892, under which the structure complained of was erected, the court declaring that act a command to the railroad company in the interest of the public; indeed, made the \u00a33tate. the builder of the new structure and the use of it by tne railroads mere obedience to law. But it does not follow that private .property can be taken either by the erection of the structure or its use. This was plainly seen and expressed in the Lewis case'as to the use of the structure. It was there said: \u201cWhen they (the railroads)^ commenced to use the steel viaduct they started a new trespass upon the rights of the abutting owners.\u201d There was no hesitation then in marking the line between the power of the State and the duty of the railroad, and assigning responsibility to the latter. This was in accordance with principle. The command of the State, the duty of the railroad to obey, may encounter the inviolability of private property. And in performing the dpties devolved upon it a railroad may be required to exercise the right of eminent domain. Wisconsin, Minn. & Pac. R. R. v. Jacobson, 179 U. S. 287; see also Mayor and Aldermen of Worcester v. Norwich and Worcester R. R., 109 Massachusetts, 103. We do not, therefore, solve the questions in this case by reference to the power of the State and the duty of the railroads; the rights of abutting property owners must be considered, and against their infringement plaintiff urges the contract clause of the Constitution of the United States and the Fourteenth Amendment. The latter is invoked because the act of 1892 does not provide for compensation to property owners, and the former on account of the conditions upon which the strip of land constituting the avenue was conveyed to the city. There were two deeds to the city, one made in 1825 and the other in' 1827. That of 1825 was stated to be \u201c in -trust, nevertheless, that the same be appropriated and be kept'open as parts of public streets and avenues forever, in like manner as the other public streets and avenues in said city are and of right ought to be.\u201d The deed of 1827 was also \u201cin trust that the same be left open as public streets, for the use and benefit of the inhabitants of said city forever/* Plaintiff derives title from Poillon, grantor of the city in the deed of 1827, and hence contends that he is entitled to enforce the trust created by Poillon\u2019s deed to the city. The railroads oppose this contention. They assert title to the land upon which the structure complained of stands by deed and by prescription-; The details of these contentions we need not repeat nor discuss. They are stated at length in the Lewis case, and the conclusions there expressed are not disturbed by the decision of the Courts of Appeals in the case at bar. The case is therefore presented to us as to the. effect of the deed of Poillon toNthe plaintiff and to the city as constituting a con-' tract, and the effect of the act of 3,892 as an impairment of that .contract or as taking plaintiff\u2019s property without due process of law. These questions were directly passed on and negatived by the Court of Appeals. ,\nIt will be observed from the statement of facts that before the construction of the .viaduct, complained of the railroad ran partly on the surface of the street and'partly in a cut or trench, the latter being flanked by masonry walls three feet high. The viaduct is a solid roadbed thirty-one feet above the surface, having iron girders on the sides and in. the middle, and supported by iron columns, of which .there are six in front of the plaintiff\u2019s land. The old construction prevented crossing or access to the tracks. The new construction impairs or destroys the plaintiff\u2019s easements of light and air. And such easements the trial court found belonged to plaintiff in common with -other abutters upon the public streets of New York and his damages for their impairment to be as expressed by Bartlett, J., in his dissenting opinion, \u201c$3,000 fee damages, $1,400 rental damages, from February 16, 1897, to October 10, 1900,\u201d the date of trial; that is, $4,400'present damage. It is suggested, however, that the Court of Appeals did not deny the rights of the abutters, but considered that the most important phase of those rights was that of access, and the plaintiff did' not have this over the railroad by reason of the stone wall. The basis of the suggestion, as we understand, is the ideft that plaintiff was compensated for the injury of his easements of light and air by an increase of his casement of access without regard to the resulting damage. To do this, hp'wever, is'to make one easement depend upon another, both of which are inseparable attributes of property and equally necessary to its enjoyment. It is impossible for us to conceive of a city without streets, or any benefit in streetsj if tne property abutting on them has not attached to it as an essential and inviolable part, easements of light and air as well as of access. There j\u00e1 something of mockery to give one access to property which may be unfit to live on when one gets there. To what situation is the plaintiff brought? Because he can cross the railroad at more places on the street, the State, it is contended, can authorize dirt, cinders and smoke from 200 trains a day to be poured into the upper windows of his house.\nIn Barnett v. Johnson, 15 N. J. Eq. 481, there is a clear expression of the right of abutting owners to light and air, and of the common practice and sense of the world upon which it is founded. \u201cIt is a right;\u201d the court said, \u201cfounded in such an urgent necessity that all laws and legal proceedings take it for granted. A right so strong that it protects itself, so urgent that, upon any attempt to annul or infringe it, it would set at defiance all legislative enactment and all judicial decision.\u201d And, graphically describing the right, observed'further, \u201cis not every window and every door in every house in every city, town, and village the assertion.and maintenance of this right?\u201d It has been said Barnett v. Johnson anticipated \u201cthe principle upon which compensation was at last'secured in the elevated-railroad cases in New York.\u201d 1 Lewis Eminent Domain, 183.\nIt is manifest that easements of light and air cannot be made dependent upon the easement of access, and whether they can be taken away in the interest of the public under the conditions upon which the city obtained title to the streets is now to be considered. The answer depends upon the cases of Story v. New York Elevated R. R. Co., 90 N. Y. 122, and Lahr v. Metropolitan Elevated R. R. Co., 104 N. Y. 268, known as the elevated railroad cases. The Lahr case was decided in 1887. The plaintiff in the case at bar acquired title to his property in 1888.\nThe first of the elevated railroad cases was the Story case, decided in 1882. The plaintiff in the case was the owner of a lot on the corner of Moore' and Front streets in the city of New York, on which there were buildings. To their enjoyment light, air and access were indispensable, and were had through.Front street, The defendant was about to construct a railroad above the surface of that street upon a series pf columns, about fifteen inches square,. fourteen feet and six inches high, placed five inches inside of the sidewalk, with girders from thirty-three to thirty-nine inches deep, for the support of cross ties for three sets of rails for a steam railroad. The cars were to be of such a construction as to reach within nine feet of \u2022 plaintiff\u2019s buildings, and trains were to be run every three minutes, and at a rate of speed as high as eighteen' miles an hour.\nThe fact of injury to the abutting lot was found by the trial court, and also that-the city of New York was the owner in fee of Front street, opposite plaintiff\u2019s lots, and that he was not and never had been seized of the same in fee nor had any estate therein.\nThe Supreme Court said the case involved the question whether the scheme of the defendant amounted to the taking\" of any property of the plaintiff; if it did,, it was .said, the judgment was invalid on the ground that the intended act, when performed, would violate not only the provision of the Constitution, which declared that such property should not be taken without just compensation, but certain statutes by which defendant was bound or owed its existence, and which would not have been upheld unless, in the opinion of the court, they had provided means to secure such compensation.\nThe plaintiff contended that, as owner of the abutting premises, he had the fee to one-half of the bed of .the street opposite thereto, and he also contended, if the fee was in the city, he, as abutting owner, had such'right to have light and access afforded by the street above the roadbed as entitled him to have it kept open for those uses until by legal process and upon just compensation that right was taken away. The defendant justified its intended acts through the permission of the city. The issue thus made the court passed on, and in doing so assumed that the city owned the fee of the street' and that the plaintiff derived his title from the city. It was held that the plaintiff had acquired \u201cthe right and privilege of having the street forever kept open as such;\u201d and that the right thus secured was an incorporeal hereditament, which \u201cbecame at once appurtenant to the lot and formed an \u2018integral part of the estate\u2019 in it,\u201d and which followed the estate and constituted a perpetual encumbrance upon the land burdened with it. \u201cFrom the moment it attached,\u201d the court observed, \u201cthe lot became the dominant, and the open way or street the servient tenement.\u201d Cases were cited for these propositions. And the extent of the easement was defined to be not only access to the lot, but light and air from it. The court said: \u201cThe street occupies the surface and to its uses the rights of the adjacent lots are subordinate, but above the surface there can be no lawful obstruction to the access of light and air, to the detriment of the abutting owner.\u201d And further: \u201cThe elements of light and air are both to be derived from the space over the land, on the surface of which the street is constructed, and which is made servient for that purpose.\u201d This was emphasized, the court observing: \u201cBefore any interest passed to the city, the owner of the land had from it the benefit of air and light. The public purpose of va street requires of the soil the surface only.\u201d The easement was declared to be property and within the protection of the constitutional provision for compensation for its diminution by the contemplated structure.\nIt is, of course, impossible to reproduce the argument of the court by which its conclusions were sustained. It is enough to say that a distinction was clearly made between the rights of abutting owners in the surface of the street and their \u25a0rights in the space above the street, and the distinction was also clearly made between damages and a taking. A review was made of the cases upon which those distinctions rested. The power of a city to alter a grade of a street was adverted .to, and held not to justify the intended structure. There was no change in the street surface intended, it was said, \u201cbut the elevation of a structure useless for street purposes and as foreign thereto,\u201d as the house which was held to be an obstruction in Corning v. Lowerre, 6 Johns. Ch. 439, or the freight depot in Barney v. Keokuk, 94 U. S. 324.\nThe conclusion of the court and thei distinctions made by it were repeated in Lahr v. Metropolitan Elevated R. R. Co., 104 N. Y. 268. The structure complained of in the latter case was also an elevated railroad.\nChief Judge Ruger, speaking for the court, opened'his opinion by observing that the action was \"the sequel of the Sto:y case,\" and that its defense seemed to have been conducted upon the theory of endeavoring to secure a reexamination of that case. The endeavor, it was said, must fail, because the doctrine of the Story case had been pronounced after most careful and thorough consideration and after two arguments at the bar, made by most eminent counsel, had apparently exhausted the resources of learning and reasoning in the dis-. cussion of the question presented. And it was declared that \"it would be the occasion of great public injury, if a determination thus made could be inconsiderately unsettled and. suffered again to become the subject of doubt, and theme of renewed discussion.\u201d The doctrine of the Story case was declared to be stare decisis, not only upon all the questions involved, but upon all that came logically within the principles decided. There was an enumeration of those principles, as follows:\n(1) That an elevated railroad, of the kind described, was a perversion of the use of a street, which neither the city nor the legislature could legalize without providing compensation for the injury inflicted upon the property of abutting owners.\n(2) That abutters upon a public street, claiming title by grant from the municipal authorities, which contained a covenant that streets which could be laid out should continue as other, streets, acquired an easement in the bed of the1 street for ingress and ogress to and from their premises, and also 'for the free and uninterrupted passage and circulation of light and air through and over such street for the benefit of the property situated thereon.\n(3) That such easement was an interest in real estate and constituted property, within the meaning of the constitution of the State, and could not be taken for a public use without payment of compensation.\n(4) That an elevated railroad, upon which cars propelled by steam engines which generated g\u00e1s, steam and smoke and distributed in the air cinders, dust, ashes, and other noxious and deleterious substances, and interrupted the free passage of light and air to and from adjoining premis\u00e9s; constituted a taking of the casement, and rendered the railroad company liable for the damages occasioned by. such taking.\nThe application of these principles was resisted on the ground that the city was the grantor of the plaintiff in the Story case and could not derogate from the title a property it conveyed, and, it was contended, that the case went off on that ground. This was rejected and the principles enumerated held to apply, notwithstanding the land in the street had been taken from plaintiff\u2019s grantor by proceedings in invitum. And rights of abutting owners were held to rest in contract constituted by the conditions upon which the city received the property.\nEqually untenable arc the grounds of distinction urged in the case at bar against the application of those principles. What arc they? In the Story and Lakr cases the railroads were imposed for the first time on the street. .In the case at bar the Iiarlcm Railroad had occupied the surface of the street, and was changed to the viaduct. But in the Story and Lahr cases it was not the fact' that the railroads were imposed on the street for the first time that determined the judgment rendered. It was the fact that trains were run upon an elevated structure, interrupting the casements of light and air of the. abutting owners. It was this' that constituted a..use inconsistent with the purpose of the street. It was the elevation of a structure,\u201d to quote again from the Story case, \u201cuseless for general street purposes.\u201d This situation of the railroad was especially dwelt upon in the Story case, and that case was distinguished thereby from the surface railway cases. And in the Lewis case a difference was recognized between the two situations, and a balance struck between damage done by the railroad in one situation and the railroad in the other situation. The Lems case, we have seen, was overruled by the Court of Appeals in the ca,se at bar, while the Story and Lahr cases were said not to be in point. We think that the Lewis case was an irresistible consequence of the others, and the Story and Lahr cases are in point and decisive.\nAnother distinction is claimed, as we have already observed, between the case at bar and those cases. The act of the railroad in occupying the viaduct, it is said, was the act of the State. But this defense was'made in the other cases. It did not give the court much trouble. It is urged, however, now, with an increased assurance. Indeed, it is made the ground of decision, as we have seen by the Court of Appeals. The court said: \u201cThe decisions in the elevated railroad cases are not in point. There no attempt was made by the State to improve the street for the benefit of the public. Instead, it granted to a corporation the right to make an additional use of' the street, in the doing of which it took certain easements belonging to abutting owners, which it was compelled to compensate them for.\u201d And, further, making distinction between those cases and that at bar, said: \u201cThe State could not if it would \u2014 and probably would not if it could \u2014 deprive defendant of its right to operate its trains in the street. But it had the power in the public interest to compel it to run its trains upon a viaduct instead of in the subway.\u201d And the court concluded that it was the State, not the railroads, which did the injury to plaintiff\u2019s property. The answer need not be hesitating. The permission, or command of the State, can give no power to invade private rights, even for. a public purpose without payment of compensation; and payment of such compensation, when necessary to the performance of the duties of a railroad company, may be, as we have already observed, part of its submission'to the command of the State. The railroads paid one-half of the expense of the change, \" \u2018 by the command of tho statute, and, lienee, under compulsion of law,\u2019 \u201d to quote from the Court of Appeals. The public interest, therefore, is made too much of. It is given hn excessive, if not a false quantity. Its use as a justification is open to the objection made at the argument, it enables the State to- do by two acts that which would be illegal if done by one. In other words, as under the law of New York the State can authorize a railroad to occupy the surface of a street it can subsequently permit or order the railroad'to raise its tracks above the street and justify the impairment of property rights by the public interest. It was said in the Story cn.se that \u201c the public purpose of a street requires of the soil the surface only.\u201d And this was followed in Fobes v. R., W. & O. R. Co., 121 N. Y. 505, where a steam railroad was permitted upon a street without liability for consequential damages to adjoining property. The new principle based upon the public interest destroys all distinction between the surface of the soil of a street and the space above the surface, and, seemingly, leaves remaining no vital remnant of the doctrine of the elevated railroad cases. However, w\u00e9 need not go farther than the present case demands. When the plaintiff acquired his title those cases ,w\u00a1ere the law of New York, and assured to him that his easements of light and air were secured by contract as expressed in those cases, and could not be taken from him without payment of compensation.\n.And this is the ground of our decision. We are not called upon to discuss the power or the limitations upon the power, of the courts of New York to declare rules of property or change or modify their decisions, but only to decide that such power cannot be exercised' to take away rights which have been acquired by contract and have come under the protection of the Constitution of the United States. And we determine for ourselves the .existence and extent of such contract. This is a truism; and when there is a diversity of state decisions the first in time may constitute the obligation of the contract and the rneasure of rights under it. Hence/'the importance of the elevated railroad cases and the doctrine they had pronounced when the plaintiff acquired his property. He bought under their assurance, and that these decisions might have been different or that the plaintiff might have balanced the chances of the commercial advantage between the right to have the street remain open and the expectation that it would remain so is too intangible to estimate. We certainly can estimate the difference between a building with full access of light and air and one with those elements impaired or polluted. But we have already expressed this. We need only add that the right of passage is not all there is to a street, and to call it the primary right is more or less delusive.. It is the more conspicuous right, has the importance and assertion of community interest and ownership, properly has a certain dominance, but it is not more necessary to the making of a city than the rights to light and air, held, though the latter are, in individual ownership and asserted only as rights of private property. The true relation and subordination of these rights, public and private, is expressed, not only by the elevated railroad cases, but by other cases. They are collected in 3 Lewis Eminent Domain, section 91c, and, it is there said, \u201cestablished beyond question the existence of these rights, or easements, of light, air and access, as appurtenant to abutting lots, and that they are as much property as the lots themselves.\u201d\nJudgment is reversed and cause remanded for further proceedings not inconsistent with this opinion.\nMr. Justice Brown concurs in the result.",
+        "type": "majority",
+        "author": "Mr. Justice McKenna,"
+      },
+      {
+        "text": "Mr. Justice Holmes\ndissenting.\nI regret that I am unable to agree with the judgment of the court, and as it seems to me to involve important principles I think it advisable to express my disagreement and to give my reasons for it.\nThe' plaintiff owns no soil within the limits of the avenue. The New York and Harlem Railroad Company at the time of the change was and long had been the owner, and the other defendant was the lessee of a railroad with four tracks along the middle of Park avenue, in front of the plaintiff\u2019s land, at the so\u00fath end being at the surface of the avenue, and at the north in a trench about four feet and a half deep, the railroad being bounded on both sides by a masonry wall three feet high, which prevented crossing or access to the tracks. This is . the finding of the court of first instance and I take it to be binding upon us. We have nothing to do with the evidence. I take it to mean the same thing as the finding in Fries v. New York & Harlem R. R., 169 N. Y. 270, that the defendants had \u201cacquired the right without liability to the plaintiff to have, maintain and use their railroad and railroad structures as the same were maintained and used prior to February 16, 1897.\u201d The material portion of the decision of the Court of Appeals is that on this state of facts, as was held in the similar ease of Fries v. New York & Harlem R. R., the plaintiff had no property right which was infringed in such a way as to be anything more than damnum absque injuria. The finding that the railroad had the right to maintain the former structures was held to distinguish' the case from the elevated railroad cases, where pillars were planted in the street without right as against the plaintiff. Story v. New York Elevated R. R., 90 N. Y. 122, 160, 170, 178; Lahr v. Metropolitan Elevated Ry., 104 N. Y. 268. The other so-called finding, that the new structure infringes the plaintiff\u2019s right, is merely a ruling of law that notwithstanding the facts specifically found the plaintiff has a cause of action by reason of his being an abutter upon a public street.\nThe plaintiff\u2019s rights, whether expressed in terms of property or of contract, are all a construction of the courts, deduced by way of consequence from dedication to and trusts for the purposes of a public street. They never were granted to him or his predecessors in express words, or, probably, by any conscious implication. If at the outset the New York courts had decided that apart from statute or express grant the abutters on a street had only the rights of the public and no private easement of any kind, it would have been in no way amazing: It would have been very possible to distinguish between the practical commercial advantages of the expectation that a street would remain open and a right in rem that it should remain so. See Stanwood v. Malden, 157 Massachusetts, 17. Again, more narrowly, if the New York courts had held that an easement of light and air could be created only by express words, and that the laying out or dedication of a street, or the grant of a house bounding upon one, gave no such easement to abutters, they would not have been alone in the world of the common law. Keats v. Hugo, 115 Massachusetts, 204, 216. The doctrine that abutters upon a highway have an easement of light-and air is stated as a novelty in point of authority in Barnett v. Johnson, 15 N. J. Eq. 481, 489, and that case was decided in a State where it was held that a like right might be acquired by prescription. Robeson v. Pittenger, 1 Green Ch. 57.\nIf the decisions, which I say conceivably might have been made, had been made as to the common law, they would have infringed no rights under the Constitution of the United States. So much, I presume, would be admitted by every one. But if that be admitted, I ask myself what has happened to cut down the power of the same courts as against that same Constitution at the present day. So far as I know the only thing which has happened is that they have decided the elevated railroad cases, to which I have referred. It is on that ground alone that we arc asked to review the decision of the Court of Appeals upon what otherwise would be purely a matter of local law. Tn other words, we are asked to extend to the present case-the principle Of Gelpcke v. Dubuque, 1 Wall. 175, and Louisiana v. Pilsbury, 105 U. S. 278, as to public bonds bought on the faith of a decision that they were constitutionally issued. . That seems to me a great, unwarranted and undesirable extension of a doctrine which it took this court a good while do explain. The doctrine now is explained, however, not to mean that a change in the decision impairs the obligation of contracts, Burgess v. Seligman, 107 U. S. 20, 34; Stanly County v. Coler, 190 U. S. 437, 444, 445, and certainly never has been supposed to mean that all property owners in a State have a vested right that no general proposition of law shall be reversed, changed or modified by the courts if the consequence to them will be more or less pecuniary loss. I know of no constitutional principle to prevent the complete reversal of. the elevated railroad cases to-morrow, if it should seem proper to the Court of Appeals. See Central Land Co. v. Laidley, 159 U. S. 103.\nBut I conceive that the plaintiff in- error must go much further than to say that my last proposition is wrong. I think he must say that he has a constitutional right not only that the state courts shall not reverse their earlier decisions upon a matter of property rights, but that they shall not distinguish them unless the distinction is so fortunate as to strike a majority of this court as sound. For the Court of Appeals has not purported to overrule the elevated railroad cases. It simply has decided that the import and the intent of those cases does not extend to the case at bar. In those cases the defendants had impaired the plaintiff\u2019s access to the street. It is entirely possible and consistent with all that they decided to say now that access is the foundation of the whole matter; that the right to light and air is a parasitic right incident to the right to have the street kept open for purposes of travel, and that when, as here, the latter right does not exist the basis of the claim to light and air is gone.\n\u2022 But again, if the plaintiff had an easement over the whole street he got it as a tacit incident of- an appropriation of the street to the uses of the public. The legislature and the Court of Appeals of New York have said that the statute assailed was passed for the benefit of. the public using the street; and I accept their view. The most obvious* aspect of the change is that the whole street now is open to travel, and that an impassable barrier along its width has been removed, in other words, that the convenience of travellers on the highway has been considered and enhanced. Now still considering distinctions which might be taken between this and the earlier cases, it was possible for the New York Courts to hold, as they seem to have held, that the casement which they laid declared to exist is subject to the fullest exercise of the primary right out of which it sprang, and that any change in the street for the benefit of public travel is a matter of public right, as against what I have called the parasitic right which the plaintiff claims. Scranton v. Wheeler, 179 U. S. 141; Gibson v. United States, 166 U. S. 269.\nThe foregoing distinctions seem to me not wanting in good sense. Certainly I should have been inclined to adopt one or both of them, or in some way .to avoid the earlier decisions. But I am not discussing the question whether they are sound. If my disagreement was confined to that I should be silent. I am considering what there is in the Constitution of the United States forbidding the Court of Appeals'to hold them sound. I think there is nothing; and there being nothing, and the New York decision obviously not having been given its form for the purpose of evading this court, I think wo should respect and affirm it, if we do not dismiss the case.\nWhat the plaintiff claims is really property, a right in reni. It is called contract merely to bring it within the contract clause of the Constitution. It seems to me a considerable extension of the power to determine for ourselves what the contract is,-, which we have assumed when it is alleged that the obligation of a contract has been impaired, to say that we will make the same independent determination when it is alleged that property is taken without due compensation. But it seems to me that it does not help the argument. The rule adopted as to contract is simply a rule to prevent an evasion of the constitutional limit to the power of the States, and, it seems to me, should not be extended to a case like this. Bearing in mind that, as I have said, the plaintiff\u2019s rights, however expressed, are wholly a construction of Hip murta. I cannot believe that whenever the Fourteenth Amendment or Article I, section 10, is set up we are free to go behind the local decisions on a matter of land law, and, on the ground that we decide what the contract is, declare rights to exist which we should think ought to be implied from a dedication or location if we were the local courts. I cannot believe that we are at liberty to create rights over the streets of Massachusetts, for instance, that never have been recognized there. If we properly may do that, then I am wrong in my assumption that if the New York Courts originally had declared that the laying out of a public way conferred no private rights we should have had nothing to say. But if I am right, if we are bound by local decisions as to local rights in real estate, then we .equally are bound by the distinctions and the limitations of those rights declared by the local courts. If an exception were established in the case of a decision which obviously was intended to evade constitutional limits, I suppose I may assume that such an evasion would not be imputed to a judgment which four Justices of this court think right.\nAs \u00cd necessarily have dealt with the merits of the case for the purpose of presenting my point, I will add one other consideration. Suppose that the plaintiff has an easement and that it has been impaired, bearing in mind that his damage is in respect of light and air, not access, and is inflicted for the benefit of public travel, I should hesitate to say that in inflicting it the legislature went beyond the constitutional exercise of the police power. To a certain and to an appreciable excent the; legislature may alter the lav of nuisance, although property is affected. To a certain and to an appreciable extent the use of particular property may be limited without compensation. Not every such limitation, restriction or diminution of value amounts to a taking in a constitutional sense. I have a good deal of doubt whether it has been made to appear that any right of the plaintiff has been taken or destroyed for which compensation is necessary under the Constitution of the United States. Scranton v. Wheeler, 179 U. S. 141; Meyer v. Richmond, 172 U. S. 82. See Mugler v. Kansas, 123 U. S. 623, 668; Marchant v. Pennsylvania R. R., 153 U. S. 380; Camfield v. United States, 167 U. S. 518, 523; People v. D'Oench, 111 N. Y. 359, 361; Sawyer v. Davis, 136 Massachusetts, 239; Commonwealth v. Alger, 7 Cush. 53. Compare United States v. Lynah, 188 U. S. 445, 470.\nI am authorized to say that the Cm me Justice, Mr. Justice White and Mr. Justice Beckham concur in the foregoing dissent.",
+        "type": "dissent",
+        "author": "Mr. Justice Holmes"
+      }
+    ],
+    "attorneys": [
+      "Mr. Elihu Root, with whom Mr. J. C. Bushby and Mr. L. M. Berkeley were on the brief, for plaintiff in error:",
+      "Mr. Ira A. Place, with whom Mr. Thomas Emery was on the brief, for defendants in error:"
+    ],
+    "corrections": "",
+    "head_matter": "MUHLKER v. NEW YORK AND HARLEM RAILROAD COMPANY.\nERROR, TO THE SUPREME COURT OE THE STATE OF NEW YORK.\nNo. 99.\nArgued December 12, 13, 1905,\nReargued February24, 27, 1905.\nDecided April 10, 1905.\nThe permission or command of the State can give no power to invade private property rights even for a public purpose without payment of ' compensation. An abutting owner cannot be deprived of his easements of light and air above the surface of the street without compensation because the structure interfering with those, easements was formerly on the surface and the raising of it to an elevated structure gave him an increase in his easement of access.\nThe Elevated Railroad cases, decided by the Court of Appeals, established the law of the State of New York to be that the easement of light and air of abutting property owners in. the streets of New York above the street to bo property and within the protection of the Constitution for compensation in case of its diminution by an elevated railroad structure.\nSuch decisions assured to purchasers of property,'abutting on streets the beds whereof had been deeded to the city of New York in trust for streets, that their easements of light and air were secured by contract and could not bo taken from them without compensation; and tho courts of that State cannot chango or modify thoir decisions so as to take away rights ' which have been acquired by contract and are within the protection of the Federal Constitution.\nThis court determines for itself whether there is an existing contract and where there is a diversity of state decisions the first in time may constitute the obligation of the contract and the measure of rights under it.\nThe raising, in pursuance of a state statute requiring it, of the New York and Harlem Railroad structure, in Park avenue, New York City, which was formerly on, or partially below, the surface of the street, to an elevated structure, deprived the abutting owner, who in this case had purchased after the decisions by the Court of Appeals in the Elevated Railroad cases, of property right in his easements of light and air and under the Constitution of the United States he was entitled to compensation therefor and cannot be deprived of it, either because the structure was erected under a state statute requiring it or because the access to his property was increased by the raising of the structure.\nPlaintiff sues to enjoin the use of a certain elevated railroad structure on Park avenue, in the city of New York, in front of his premises, unless upon payment of the fee value of certain easements of light, air and access and other fights appurtenant to his premises. lie also prays damages for injury sustained from the year 1890 to-time of trial.\nFrom the evidence in the case the Supreme Court found that the plaintiff had been since 1888 the owner of a lot of land on the northwesterly corner of Park avenue and One Hundred and Fifteenth street, on which he, in 1891, erected a five-story brick' building, and that there were appurtenant to said lot and building \u201c certain easements of light, air and access in and over said Park avenue, in front of said premises.\u201d The defendant, The New York and Harlem Railroad Company, is and was during all the times mentioned herein the owner of a railroad and railroad structures in Park avenue, in front of such premises, and the New York Central and Hudson River Railroad Company is the lessee of said railroad and structures under a lease dated April 1, 1873, for a term of four hundred and one years; that said railroad, prior to 1872, was operated on two tracks laid upon the surface of said avenue and along the center thereof, in front of said premises.\nIn pursuance of chapter 702 of the Laws of 1872 certain changes were made in the railroad in front of said premises, between the years 1872 and 1874, whereby the number of tracks was increased from two to four and were laid along the center of the avenue, and at the south line of said premises were at the surface, and at the north line of said premises were laid in a trench about five and a half feet below the surface. In front of said premises the railroad was bounded on both sides by masonry walls about three feet high above the surface, and cut off access across said avenue immediately in front of said premises.\nThe New York Centr-al and H\u00fadson River Railroad Company in 1872 operated its trains over the railroad in front of said premises, and continued to do so until February 16, 1897.\nThe other facts are expressed in the finding of the court as follows:\n\u201cFourth. That pursuant to chapter 339 of the Laws of 1892, there was constructed along Park avenue, in front of plaintiff\u2019s said premises, between April, 1893, and March; 1896, a new permanent elevated railroad structure of iron and steel; that said railroad in front of plaintiff\u2019s said premises', is about 59 feet wide and consists of four tracks laid on a solid roadbed, having a mean elevation of about 31 feet above the surface of said avenue, which roadbed is girded along the sides and in the center by solid iron girders, each 7 feet and 4 inches high, and is supported by iron columns, of which there are six directly in front of plaintiff\u2019s said premises; and that the work of constructing said permanent elevated railroad structure .was done under the supervision of a board created by said act.\n\u201cFifth. That the defendant The New York Central and Hudson River Railroad Company laid the tracks on said permanent elevated railroad structure about March, 1896, and from said date down to February. 16, 1897, operated thereon in front of said premises trains of cars drawn by steam engines for the carriage of freight and material used in the construction of said structure, for which service said defendant was paid; that said defendant on February 16, 1897, began to operate regularly and permanently upon said permanent elevated railroad structure in front of plaintiff\u2019s said premises its passenger trains, drawn by steam locomotives.\n\u201cSixth. That the rental and fee values of the plaintiff\u2019s said premises were damaged by the work of .constructing said permanent elevated railroad structure and by the existence of the same from April, 1893, to March, 1896; also by said structure and the operation \u2019thereon of trains, as aforesaid, from March, 1896, to February 16, 1899, but that neither of said defendants Is liable for such damage.\n\u201cSeventh. That said permanent structure and the operation by said defendant, The New York Central and Hudson - River Railroad Company, of passenger trains theroon since February 16, 1897, are and have been a continuous trespass upon the plaintiff\u2019s easements of light and air appurtenant to his said premises, hereinbefore described as having a frontage, of 76 feet and 10 inches on said Parle avenue and a depth of 26 feet on 115th street; that solely in consequence of said trespass, and aside from any other causes, the rental and usable value of said premises was depreciated from February 16, 1897, down to October 10, 1900, in the sum of fourteen hundred dollars ($1,400.) below what said rental value would have been during said period, if there had been.no change in defendant\u2019s said railroad in Park avenue in front of said premises pursuant to chapter 339 of the Laws of 1892; and that the fee value of said premises has been, and was on October 10, 1900, depreciated thereby in the sum of three thousand dollars ($3,000) below what said fee value, would have been on said date if tliere had been no .change in\u2019defendant\u2019s railroad as aforesaid.\n\u201cEighth. That the said sums awarded as damages are over and above any and all benefits conferred upon said premises by the changes made, pursuant to chapter 339 of the Laws of 1892, which said benefits result in part from improved access to said premises afforded by said changes, and are offset against the damages to said premises caused by said changes.\n\u201cNinth. That the said sums awarded as damages are exclusive of the damages that would have been occasioned to plaintiff\u2019s premises by the maintenance and use of the defendant\u2019s railroad and structures had there been no change in the same pursuant to chapter 339 of the Laws of 1892, for which last-mentioned damages the defendants are not liable either jointly or severally.\n\u201cTenth. That this action was commenced by the plaintiff on January 7, 1897, that the plaintiff on April 28, 1892, began an action in this court against the defendant for an injunction and damage by reason of the defendant\u2019s railroad structure and the operation of trains thereon in front of the premises described herein, as said railroad existed and was operated on said date; and that said, last-mentioned action was discontinued on February 27, 1900.\u201d\nA decree was entered enjoining the use of the railroad structure and its removal from in front of plaintiff\u2019s premises, but it was provided that the injunction should not become operative if the. defendants tender for the purpose of execution by the plaintiff \u201ca form of conveyance and release\u201d to them of the easements of light, air and access appurtenant to said premises, and tender further of the sum of $3,000, with interest thereon from October 10, 1900. Damages were also adjudged to plaintiff in the sum of $1,400, with interest from. February 16, 1897, and costs. Either party was given the right to move at the foot of the-decree for further directions as to the enforcement of the same.\nIn the form of the decision and judgment entered, and as to the legal principles involved, the court professed to follow Lewis v. New York & Harlem Railroad, 162 N. Y. 202.\nThe judgment was affirmed by the Appellate Division. It was reversed by the Court of Appeals, 173 N. Y. 549; and the judgment of that court, upon the remission of the case, was made'the judgment of the Supreme Court and the complaint dismissed without costs. The case was then brought here.\nMr. Elihu Root, with whom Mr. J. C. Bushby and Mr. L. M. Berkeley were on the brief, for plaintiff in error:\nPlaintiff established three contracts within the contract clause of the Federal Constitution. The grant from Benson in 1825, the grant from Poillon in 1827, and the contract between Poillon\u2019s grantees, and being grants or conveyances of land were executed contracts within the protection of the clause of the Federal Constitution which provides that no State shall pass any law impairing the obligation of contracts. Fletcher v. Peck, 6 Cranch, 87, 136; Dartmouth College Case, 4 Wheat. 518, 656; McGee v. Mathis, 4 Wall. 143, 155; Farrington v. Tennessee, 95 U. S. 679, 683.\nThe obligations of these contracts preclude the erection of an elevated railroad in Fourth avenue. This has been declared to be the law of New York. Williams v. Brooklyn El. R. Co., 126 N. Y. 96, 100; Lahr v. Met. El. R. Co., 104 N. Y. 268, 288; Story v. N. Y. El. R. Co., 90 N. Y. 122. This rule applies to the case at bar.\nThe decision of the trial court determined that the structure was inconsistent with the public nature of the street. This finding of fact was affirmed by the Appellate Division, and thus became final; for the Court of Appeals has no power to review facts. N. Y. Const., Art. 6, \u00a7 9; N. Y. Code Civ. Pro. \u00a7 191, subd. 3. Whatever was a question of fact in the state court, is a question of fact in this court. Building & Loan Assn. v. Ebaugh, 185 U. S. 114, 121. And this court will not reexamine the evidence, but will take the facts as found in the court below. Egan v. Hart, 165 U. S. 188; W. U. Tel. Co. v. Call Pub. Co., 181 U. S. 92, 103; Bement v. Nat. Harrow Co., 186 U. S. 70, 83.\nIt therefore follows that the viaduct in front of the plaintiff\u2019s premises is a use inconsistent with the public character of the street, just as much as the other elevated railroads in New York City, and is a taking of the property of abutting owners, and a violation of the contracts by which they are protected, just as in the case of the other elevated roads.\nA statute, 1813, declared that the streets of New York City are held by the city in trust for certain public purposes. The highest court of the State has steadily, held for a score of years, that this trust precludes the erection of an elevated railroad. Thousands of cases' have been decided by the lower courts in accordance with the law thus laid down and tens of thousands of conveyances made upon the faith of this rule of property. The Court of Appeals held, in the first of the Fourth avenue viaduct cases, that the elevated railroad decisions were fully applicable to the situation there presented. Lewis v. N. Y. & Harlem R. Co., 162 N. Y. 202, and when the learned judges of that court subsequently changed their minds, although they agreed that the elevated railroad cases were distinguishable, yet they seem to have found much difficulty in pointing out the distinctions.\nThose cases cannot be distinguished either as to the grade of the street, or in the fact that the elevated roads were \u201cpermitted \u201d, and in this case the viaduct was commanded, or on th\u00e9 railroad\u2019s title to the bed of the street or because the change was made for the public good. Nor is the viaduct a legitimate street use. A railroad on the street is a legitimate street use. Fobes v. Railroad Co., 121 N. Y. 505. If the law in this case is good an obvious device has been discovered by which to impair the obligation of the trust to which the streets of New York City were dedicated. First place the railroad on the surface of the street; and then elevate it. Under the Fobes case, no property owner can complain of the first step, and, under the decision of the Court of Appeals in this case, no one can complain of the second. And so indirectly the legislature would accomplish what it could not and should not do directly. Forster v. Scott, 136 N. Y. 577, 584; People v. Coler, 166 N. Y. 1, 19; Gilman v. Tucker, 128 N. Y. 190, 204.\nThe legislature cannot violate the Constitution, and redeem the violation by the claim that it Ayas done \u201cfor the public benefit.\u201d The repudiation of contract obligations is quite usually sought to be justified by the.plea of \u201cthe public benefit;\u201d but the Constitution of the United States may not be nullified in so simple and easy a fashion. Minnesota v. Barber, 136 U. S. 313, 319; Brimmer v. Rebman, 138 U. S. 78, 81.\nThe question is not Avhether the work is for the public benefit. All railroads are for the. public benefit, and it is only on this ground that the right of eminent domain is granted to them. Yet they must pay for what they take, as private property cannot be taken for public benefit Avithout compensation by a statute which \u201cdirects\u201d any more than by one which \u201cauthorizes.\u201d The statute was but an enabling act in any form. The Court of Appeals has construed this act to authorize the taking Avithout compensation. The act is what that court says it is. Therefore, it violates the Constitution.\nThe rule of property established by the decisions in elevated railroad cases cannot be changed by the state courts'.\nThe construction of a statute by a state court, so far as contract rights acquired under it are concerned, becomes as much a part of the statute as if embodied in it ; and a change of construction is utterly ineffectual to impair those rights. To .hold otherwise would be as unjust as to hold that rights acquired under a statute may be lost joy its repeal. Gelpcke v. Dubuque, 1 Wall. 175, 206; Louisiana v. Pilsbury, 105 U. S. 278, 294; Christy v. Pridgeon, 4 Wall. 196; Shelby v. Guy, 11 Wheat. 361; Douglass v. County of Pike, 101 U. S. 677, 687; Ohio Life Ins. Co. v. Deboll, 16 How. 416.\nThe act in question, in providing for the erection of an elevated railroad in Fourth avenue, is unconstitutional and void.\nThe obligation of the contracts in this case, as construed by the New York courts, is that Fourth avenue shall not be devoted to uses inconsistent with its character as an open public street; that an elevated railroad, according to the construction of the New York courts, is an inconsistent street use; and that this construction of the said contracts cannot, so far as the plaintiff is concerned, be altered or modified by any change of judicial decision. The obligation of these contracts has been impaired by chapter 339 of the New York Laws of 1892, vvhich provides for the erection and operation of an elevated railroad in Fourth avenue. Lahr v. Met. El. R. Co., 104 N. Y. 268, 291.\nWhen the public authorities take the land of an individual for the purpose of a public highway, and pay the proprietor therefor, the transaction' becomes a fixed contract between them, which is within the clause of the Federal Constitution forbidding' the States to pass any law impairing the obligation of contracts. People v. Comrs., 53 Barb. (N. Y.) 70, 74.\nThere is a total lack of power in the legislature to abrogate the trust under which the city of New York holds its streets. Elevated Railroad Cases, supra; Kane v. N. Y. El. R. Co., 125 N, Y. 164, 183; Williams v. N. Y. Cent. R. Co., 16 N. Y. 97, 108; Trustees v. Auburn &c. R. Co., 3 Hill (N. Y.), 567.\nWhere land is dedicated to the public in trust for public purposes, the legislature has no power to abrogate the trust by devoting the land to inconsistent purposes, except upon making compensation. Railroad Co. v. Schurmeir, 7 Wall. 272, 289; United States v. Ill. Cent. R. Co., 2 Biss. 174, 181; Packet Co. v. Sorrels, 50 Arkansas, 466, 473; Canastota Knife Co. v. Tramway Co., 69 Connecticut, 146, 172; Jacksonville v. Railroad Co., 67 Illinois, 540; Chicago v. Ward, 169 Illinois, 392, 412; Warren v. Mayor, 22 Iowa, 351, 356; Franklin Co. v. Lathrop, 9 Kansas, 453, 463; Schurmeier v. St. Paul &c. R. Co., 10 Minnesota, 82, 105; aff\u2019d 7 Wall. 272, 289; St. Paul v. Chicago &c. R. Co., 63 Minnesota, 330, 352; Sugar Refining Co. v. St. Louis &c. Co., 82 Missouri, 121, 125, 126; Cummings v. St. Louis, 90 Missouri, 259, 263, 264; State v. Laverack, 34 N. J. L. 201; Trustees v. Mayor, 19 N. J. Eq. 355, 357; Methodist Episcopal Church v. Penna. R. Co., 48 N. J. Eq. 452; Le Clercq v. Gallipolis, 7 Ohio, 217; Board of Education v. Edson, 18 Ohio St. 221, 225; Portland &c. R. Co. v. Portland, 14 Oregon, 188, 197; Lamar Co. v. Clements, 49 Texas, 348; Pennsylvania v. Wheeling Bridge Co., 13 How 518, 565; Bridge Proprietors v. Hoboken Co., 1 Wall. 116, 144; The Binghampton Bridge, 3 Wall. 51. This clause of the Constitution is to be liberally construed. Murray v. Charleston, 96 U. S. 432, 448.\nThe act is also unconstitutional in that it directs the taking of property without due process of law. It is the law of New York that the owner of premises abutting on a public street has, as appurtenant to his premises, certain easements of light, air, and access in the street; that these easements are property; and that the erection and operation of an elevated railroad in the street constitutes a taking of this property. Elevated Railroad Cases, supra; Lahr v. Met. El. R. Co., 104 N. Y. 268, 288, 289; Bohm v. Met. El. R. Co., 129 N. Y. 576, 587; Sperb v. Met. El. R. Co., 137 N. Y. 155, 160. In this case it is conceded that the plaintiff has easements iii-Fourth avenue. The trial court so found, and the Appellate Division affirmed the finding. The Court of Appeals had no jurisdiction to review this question of fact, \u2022 and did not attempt to do so. The opinion speaks of the \u201cpartial destruction\u201d of these casements of light, air, and access (Record,'p. 170, end),,and thus concedes their existence. The Court of Appeals in a still later case has recognized the easements of the Fourth avenue abutters, and, while denying a recovery for the main viaduct structure, has allowed damages for stations. Dolan v. N. Y. & Harlem R. Co., 175 N. Y. 367. Thus the Court of Appeals distinctly admits that the Park avenue property owners possess th- so-called urban casements in the avenue.\nIn the act we have a plain case of a statute which provides for the taking of the plaintiff\u2019s property, yet makes no provision for notice to him, affords him no opportunity for a hearing, and contains not a syllable in reference to compensation for the property taken. Notice, and a hearing of. some kind, or an opportunity to be heard, arc necessary elements of due process of law. Roller v. Holly, 176 U. S. 398, 409; Carson v. Broclon Sewerage Commission, 182 U. S. 398, 401.\nAn absolute requisite of due process of law is compensation. Tindal v. Wesley, 167 U. S. 204, 222; Holden v. Hardy, 169 U. S. 366, 390; Norwood v. Baker, 172 U. S. 269, 277. The prohibition in the Fourteenth Amendment applies to all the instrumentalities of the State, to its legislative, executive and judicial authorities. Chicago &c. R. Co. v. Chicago, 166 U. S. 226, 233, 241; Scott v. McNeal, 154 U. S. 34, 45.\nMr. Ira A. Place, with whom Mr. Thomas Emery was on the brief, for defendants in error:\nThe. jurisdiction invoked, the hearing had, the determination thereon, and resultant adjudication, all had,- relation to and involved solely the application of the rules and the principles. of local property law in force prior to the 1892 enactment, and remaining in force unaffected thereby, to the status of property right which hail resulted from the grants express or implied antedating that enactment. White v. M. R. Co., 139 N. Y. 19, 25.\nPlaintiff\u2019s easements of light, air and access over the one-hundred-foot planned avenue which were created and brought into existence by the grants and acts of Poillon and of his immediate or remote grantee were, like any other property, subject unto the operation of rules of law pertaining to and governing the rights of eminent domain, private grant, express or implied, abandonment, surrender and adverse user, and all such rights as any of these might originate or evidence.\nIf plaintiff was entitled to recovery of compensation for property taken or for contract broken, the act of 1892 presented no barrier to his recovery, and it was not necessary to such recovery that the act contain provision therefore and therefore lack of such provision could not render it unconstitutional as constituting the taking of property without due process .of-law. Reining v. Railroad Co., 128 N. Y. 157; Egerer v. Railroad Co., 130 N. Y. 108.\n' The rights of the railroad company in regard' to the Park avenue improvement, have been passed on in Birrell v. Railroad Co. 41 App. Div. 506; S. C., 60 App. Div. 630; S. C., 173 N. Y. 644; Caldwell v. Railroad Co., 84 App. Div. 637; Campbell v. Railroad Co., 35 Misc. 497; S. C., 84 App. Div. 637; Conabeer v. Railroad Co., 84 Hun, 34; S. C., 156 N. Y. 474; Dolan v. Railroad Co., 74 App. Div. 434; S. C., 175 N. Y. 367; Ehret v. Railroad Co., 74 App. Div. 628; S. C., 175 N. Y. 503; Fries v. Railroad Co., 57 App. Div. 577; S. C., 169 N. Y. 270; Henry v. Railroad Co., 84 App. Div. 637; Keirns v. Railroad Co., 60 App. Div. 630; S. C., 173 N. Y. 642; Ketcham v. Railroad Co., 76 App. Div. 619; S. C., 177 N. Y. 247; Kriete v. Railroad Co., 67 App. Div. 620; S. C., 175 N. Y. 484; Larney v. Railroad Co., 62 App. Div. 311; Lewis v. Railroad Co., 25 Misc. 13; S. C., 40 App. Div. 343 ; S. C., 162 N. Y. 202; McCarthy v. Railroad Co., 74 App. Div. 629; S. C., 175 N. Y. 504; Mt. Morris Bank v. Railroad Co., 84 App. Div. 637; Muhlker v. Railroad Co., 60 App. Div. 621; S. C., 173 N. Y. 549; Niewenhous v. Railroad Co., 76 App. Div. 619; S. C., 177 N. Y. 566; O\u2019Neil v. Railroad Co., 67 App. Div. 620; S. C., 175 N. Y. 484; Pape v. Railroad Co., 74 App. Div. 175; S. C., 175 N. Y. 504; People ex rel. Railroad Co. v. Havemeyer, 47 How. Pr. 494; Sander v. Railroad Co., 42 App. Div. 618; Sander v. Railroad Co., 58 App. Div. 622; Scholz v. Railroad Co., 67 App. Div. 620; S. C., 175 N. Y. 485; Siegel v. Railroad Co., 62 App. Div. 290; S. C., 173 N. Y. 644; Tocci v. Mayor, 73 Hun, 46; Talbot v. Railroad Co., 78 Hun, 473; S. C., 151 N. Y. 155; Taylor v. Railroad Co., 27 App. Div. 190; Tynberg v. Railroad Co., 84 App. Div. 637; Welde v. Railroad Co., 28 App. Div. 379; Welde v. Railroad Co., 29 Misc. 13; S. C., 53 App. Div. 637; S. C., 168 N. Y. 597.\nFailure of plaintiff\u2019s case has not resulted from want of due process of law. He has invoked and had orderly and full hearing preliminary to, and thereupon adjudication by the state courts of competent jurisdiction over the subject matter of his complaint. The conclusion and adjudication against him are based upon the finding that plaintiff and his predecessors in title had either never possessed or had granted away the property rights, the alleged deprivation ofvwhich constitutes the gravamen of his complaint. It follows that the judgment, howsoever, if at all, erroneous, is not subject \u2022unto the criticism of lack of due process of law. Davidson v. New Orleans, 96 U. S. 97; Mo. Pac. Ry. Co. v. Flumes, 115 U. S. 512; Marchant v. Penna. R. R. Co., 153 U. S. 380; Remington Co. v. Watson, 17 U. S. 443.\nWhere a property or property right is vested subject unto the right and power of police regulation or public servitude, contract obligation in respect of such property or property right cannot be relied upon to oust or terminate the exercise of the right of such regulation or servitude. Presbyterian Church v. New York, 5 Cowen, 538; Gushee v. New York, 42 App. Div. 37; Butchers\u2019 Union v. Crescent City Co., 111 U. S. 746.\nContract obligation is deemed subject unto State\u2019s right' of police power.\nThe city and the railroad .company were and are the creatures of the State. As to each, the- State at all times has the right and-power of amendment- and altera'ion of their respective charter powers. Neither of them could, by entering into contract1 obligation with or to plaintiff\u2019s predecessors in\u2019 title, deprive the State of, or cripple its exercise of, the right and power to regulate the street and railroad so as to enlarge the usefulness Of \u2022 the street in and for its primary purposes; or deprive the State of the right and power' to itself, or by a corporation created for the purpose, build, maintain and' operate, upon a line selected by either, a railroad for common carrier service, upon payment of compensation for and thereby acquirement of the land requisite and used therefor. Any contract with either corporation must, as matter of law, be deemed to have been entered into with knowledge of and regard to such, right and power of the State, and to intend, that obedience to the direction or command of the State in contravention of the letter of the obligation shall not be accounted a breach of the obligation.\nAn enactment in such ease prescribing police regulation in contravention of the terms of the contract, is not nullified by the Federal Constitution\u2019s inhibition of impairment of the .obligation of 'the contract. Lord v. Thomas, 64 N. Y. 107; Brown v. Colorado, 106 U. S. 95; Pennsylvania College Cases, 13 Wall. 190; Chicago &c. R. R. Co. v. Nebraska, 170 U. S. 57.\nThe holdings, of th\u00e9 state court that, as against plaintiff, the State possessed the right and power of such regulation of street and railroad maintenance and use as were prescribed, by and carried into effect in pursuance of the 1892 enactment, and that consequential damage and loss thus occasioned- was governed by the doctrine of damnum absque injuria, viewed in the light of the proofs and findings as to the origin, history and character of street and railroad maintenance and use to which, those, easements were incident, evinces that as'matter of local property law pertinent thereto, those easements, if at all owned by plaintiff, were deemed to be held- not by title absolute, but subject unto' the impress of the right and power .of state regulation and servitude such as was therein exercised. Goszler v. Georgetown, 6 Wheat. 593; Stone v. Mississippi, 101 U. S. 814; Eldridge v. Trezevant, 160 U. S. 452; Meyer v. Richmond, 172 U. S. 82, 94.\nState decisions construing the state statute of limitations in respect to real property, and declaring what constitutes adverse possession, and the'effect thereof, when continued for the period of limitation, constitute a rule of property binding upon the Federal courts of law and in eq\u00faity in adjudicating upon titles to land, within that State. Elder v. McClaskey, 17 C. C. A. 251; certiorari denied 163 U. S. 685; Lobenstine v. Union El. R. Co., 80 Fed. Rep. 9; Shelby v. Guy, 11 Wheat. 361; Green v. McLean, 6 Pet. 291. For effect of the words, \u201cpersons beyond seas,\u201d in a state statute of limitations, as applied to persons in another colony, see Livingston v. Moore, 7 Pet. 469; Leffingwell v. Warren, 2 Black. 599; Tiogo R. R. Co. v. Blossburg R. R. Co., 20 Wall. 137.\nState court decisions in respect of property haying its situs therein, and in respect of thereto appurtenant rights and liabilities, whether founded upon the state constitution, statute or common law, constitute a rule of property binding upon the Federal courts adjudicating upon titles, rights or liabilities pertaining to such . property in that State. Walker v. Commissioners, 17 Wall. 648; Townsend v. Todd, 91 U. S. 452; Detroit v. Osborne, 135 U. S. 492; N. Y. & N. E. R. R. Co., v. Bristol, 151 U. S. 556; Sioux City R. R. Co. v. Trust Co., 173 U. S. 99; Wade v. Travis County, 174 U. S. 499; Insurance Co. v. Chicago &c. Ry. Co., 175 U. S. 91.\nThe right and power to prescribe the rules of property law whereby recovery of consequential damage, occasioned by or under authority of p State, to real property in its domain, shall be accorded or refused, is matter of state prerogative not surrendered to Federal governance, nor subject, to its supervision. Penna. R. R. Co. v. Miller, 132 U. S. 75; Marchant v. Penna. R. R. Co., 153 U. S. 380. The doctrine of damnum absque injuria, adjudged to govern herein, is recognized as fundamental in New York and Federal courts. Radcliffe v. Brooklyn, 4 N. Y. 195; Callender v. Marsh, 1 Pick. 417; Smith v. Washington, 20 How. 135, 149; Transportation Co. v. Chicago, 99 U. S. 635; Chicago v. Taylor, 125 U. S. 161; Wabash R. Co. v. Defiance, 167 U. S. 88; High Bridge Lumber Co. v. United States, 69 Fed. Rep. 324; Bauman v. Ross, 167 U. S. 548, 587; Bellinger v. N. Y. Cent. R. R. Co., 23 N. Y. 42, 48; Selden v. Del. & Hud. Canal Co., 29 N. Y. 634, 642; Coster v. Mayor of Albany, 43 N. Y. 399, 415; Uline v. N. Y. C. & H. R. R. R. Co., 101 N. Y. 98, 101; Conklin v. Railroad Co., 102 N. Y. 107, 111; Heiser v. New York City, 104 N. Y. 68, 72; Atwater v. Trustees, 124 U. S. 602, 608, distinguishing St. Peter v. Denison, 58 N. Y. 416; Pumpelly v. Green Bay Co., 13 Wall. 166. And see also Benner v. Dredging Co., 134 N. Y. 156, 161; Rauenstein v. Railway Co., 136 N. Y. 528; Cogswell v. Railroad Co., 103 N. Y. 10, 15, 19; Hill v. Mayor, 139 N. Y. 495, 501; Folmsbee v. City of Amsterdam, 142 N. Y. 118, 122; Uppington v. New York City, 165 N. Y. 222, 229; Scranton v. Wheeler, 179 U. S. 141; Gibson v. United States, 166 U. S. 269.\nThe trial court found and adjudged that the improvement, executed in pursuance of the enactment, trespassed upon plaintiff\u2019s easements, and further adjudged existing laws applicable to and adequate for ascertainment of, and award of compensation for the property the subject of that trespass.\nThe Court of Appeals.- did 'not reverse the' judgment upon the ground or theory that the lower court had erred in adjudging existing laws applicable-to and adequate authority for ascertainment and award of compensation for property taken or trespassed upon, but did reverse the judgment-upon the ground and theory that the damage occasioned was consequential merely, and\"hence not actionable.\nThis is purely a local question, and as decided shows plaintiff not in position to contend that the enactment is invalid, in that it fails to provide compensation in favor of any who may suffer actionable damage resultant ' from ;t\u00edie carrying into effect of its provisions. Castillo v. McConnico, 168 U. S. 674; Tyler v. Registration Court Judges, 179 U. S. 405; Hooker v. Burr, 194 U. S. 415.\nThe plaintiff invoked- and had herein the usual and ordinary process, the orderly and full hearing, 'and thereupon determination and adjudication in respect of the alleged taking of and trespass upon his easements in Park avenue in and by the maintenance and use of the elevated railroad structure \u2018described in his complaint.\n\u201e The structure was directed and built by the State, and used in obedience to the command of the State, extending above and over, and supported by columns standing in and upon, land which was theretofore and thereunto, rightfully, as against plaintiff, occupied and used exclusively by and for the railroad. The State directed and carried into effect this elevation of railroad structure and operations for the purpose of effecting, and thereby ditl effect the enlargement of the street surface by embracing therein and extending the same over the ground theretofore as aforesaid'occupied and used exclusively by and for the railroad and its operations.\nIn and by the proceedings taken and had in the said action only long-time-established process and procedure were availed of and followed, and only long-time-established and vindicated rules of property laws were administered.\nThe 1892 enactment, which plaintiff alleges to be violative of the Federal Constitution, as and by way of-(l) taking his property without due process of law, and (2), impairing the obligations of contracts, contained no provision the purport whereof would or might in any wise deprive complainants of, or restrain them' in or about availing themselves of the plain and adequate process and remedy provided by existing laws in respect of property taken for, or trespassed upon in and about, the carrying into effect of, a lawfully authorized public use. That enactment was not in any wise asserted or relied upon by the defendants as or by way of a defense or shield td:\" protect them from liability in respect of any property appro\u2022priated or contract obligation violated, nor was it in any wise adjudged to constitute such shield in respect of either property taken or contract broken.. \u2022\n.The power of the State to prescribe and carry into effect this regulation as and for and by way of enlargement of the street surface for public travel therein was taken for granted by both parties, and all questions in respect of the possession of such power or of the proper exercise thereof, excluded from dispute by the nature and form of the action and issue. The questions litigated had relation solely to the fact and measure of taking of or trespass upon private property, which had resulted from the carrying into effect of the provisions of the enactment.\nThe ground upon which plaintiff was adjudged disentitled to \"recover was, that in so far as it appeared that plaintiff had any right .or title in or to the casements, the subject of the alleged taking and trespass, his right and title thereto were in such _wiso subordinate and subject unto respective and joint public street and railroad servitude that the acts and conduct of which lie complained did not constitute any taking of or trespass upon the said casements, invaded no legal right and violated no legal duty, and hence that the loss and damage alleged were within -and governed by the rule of damnum absque injuria. . .\nThe judgment is founded upon interpretation and application of local rules of law, following and consequent upon the exercise and administration of ordinary and usual process, and in no wise involving any question to' which Federal Constitution inhibitions have relation."
+  },
+  "file_name": "0544-01",
+  "first_page_order": 568,
+  "last_page_order": 601
+}

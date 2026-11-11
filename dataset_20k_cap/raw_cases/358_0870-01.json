@@ -1,0 +1,84 @@
+{
+  "id": 3660070,
+  "name": "Meads v. United States",
+  "name_abbreviation": "Meads v. United States",
+  "decision_date": "1958-10-20",
+  "docket_number": "No. 958",
+  "first_page": "870",
+  "last_page": "870",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "358 U.S. 870"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "357 U. S. 905",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166305,
+        6166159,
+        6166415,
+        6166487,
+        6166238,
+        6166367
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0905-03",
+        "/us/357/0905-01",
+        "/us/357/0905-05",
+        "/us/357/0905-06",
+        "/us/357/0905-02",
+        "/us/357/0905-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 173,
+    "ocr_confidence": 0.649,
+    "sha256": "c18e5ad31ed8269dfdfcf296b5afc66f29d6eeb680221734e75133105ebc413b",
+    "simhash": "1:aeb3d206770d5edf",
+    "word_count": 29
+  },
+  "last_updated": "2024-02-27T17:24:02.083921+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Stewart took no part in the consideration or decision of this application."
+    ],
+    "parties": [
+      "Meads v. United States,"
+    ],
+    "opinions": [
+      {
+        "text": "357 U. S. 905. Rehearing denied.\nMr. Justice Stewart took no part in the consideration or decision of this application.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 958,\nOctober Term, 1957.\nMeads v. United States,"
+  },
+  "file_name": "0870-01",
+  "first_page_order": 808,
+  "last_page_order": 808
+}

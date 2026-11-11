@@ -1,0 +1,928 @@
+{
+  "id": 423323,
+  "name": "STATE INDUSTRIAL COMMISSION OF THE STATE OF NEW YORK v. NORDENHOLT CORPORATION ET AL.",
+  "name_abbreviation": "State Industrial Commission v. Nordenholt Corp.",
+  "decision_date": "1922-05-29",
+  "docket_number": "No. 625",
+  "first_page": "263",
+  "last_page": "276",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "259 U.S. 263"
+    },
+    {
+      "type": "parallel",
+      "cite": "66 L. Ed. 933"
+    },
+    {
+      "type": "parallel",
+      "cite": "42 S. Ct. 473"
+    },
+    {
+      "type": "vendor",
+      "cite": "1922 U.S. LEXIS 2481"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1921-160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "247 U. S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1484696
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/247/0372-01"
+      ]
+    },
+    {
+      "cite": "21 Wall. 558",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3410965
+      ],
+      "pin_cites": [
+        {
+          "page": "574"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/88/0558-01"
+      ]
+    },
+    {
+      "cite": "222 U. S. 96",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3660344
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/222/0096-01"
+      ]
+    },
+    {
+      "cite": "244 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343239
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/244/0147-01"
+      ]
+    },
+    {
+      "cite": "216 N. Y. 284",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4527958
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/216/0284-01"
+      ]
+    },
+    {
+      "cite": "215 Mass. 480",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        85254
+      ],
+      "pin_cites": [
+        {
+          "page": "482"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/215/0480-01"
+      ]
+    },
+    {
+      "cite": "162 Pac. 891",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "220 N. Y. 671",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        298299,
+        298302
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/220/0671-02",
+        "/ny/220/0671-01"
+      ]
+    },
+    {
+      "cite": "220 N. Y. 670",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        298175
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/220/0670-01"
+      ]
+    },
+    {
+      "cite": "216 N. Y. 544",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4528781
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/216/0544-01"
+      ]
+    },
+    {
+      "cite": "231 Mass. 313",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        67470
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/231/0313-01"
+      ]
+    },
+    {
+      "cite": "251 U. S. 121",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3680941
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/251/0121-01"
+      ]
+    },
+    {
+      "cite": "248 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3691415
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/248/0308-01"
+      ]
+    },
+    {
+      "cite": "249 U. S. 119",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3686692
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/249/0119-01"
+      ]
+    },
+    {
+      "cite": "257 U. S. 233",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678835
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/257/0233-01"
+      ]
+    },
+    {
+      "cite": "227 N. Y. 531",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1963577
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/227/0531-01"
+      ]
+    },
+    {
+      "cite": "219 N. Y. 469",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1957016
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/219/0469-01"
+      ]
+    },
+    {
+      "cite": "115 Atl. 250",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "207 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3640823
+      ],
+      "pin_cites": [
+        {
+          "page": "409"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/207/0398-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 638",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705714
+      ],
+      "pin_cites": [
+        {
+          "page": "644"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/177/0638-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 522",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411239
+      ],
+      "pin_cites": [
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/83/0522-01"
+      ]
+    },
+    {
+      "cite": "102 U. S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5629995
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/102/0118-01"
+      ]
+    },
+    {
+      "cite": "237 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        631881
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/237/0303-01"
+      ]
+    },
+    {
+      "cite": "11 Wall. 185",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3413054
+      ],
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/78/0185-01"
+      ]
+    },
+    {
+      "cite": "243 U. S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3691577
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/243/0219-01"
+      ]
+    },
+    {
+      "cite": "243 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3692322
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/243/0188-01"
+      ]
+    },
+    {
+      "cite": "253 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189345
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "160"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/253/0149-01"
+      ]
+    },
+    {
+      "cite": "256 Fed. 574",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6733298
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/256/0574-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 30",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85761
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/224/0030-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 540",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85535
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/224/0540-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 539",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85657
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/224/0539-01"
+      ]
+    },
+    {
+      "cite": "226 Fed. 581",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6740331
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/226/0581-01"
+      ]
+    },
+    {
+      "cite": "99 Ore. 82",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "257 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678104
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/257/0469-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675069
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "60"
+        },
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/234/0052-01"
+      ]
+    },
+    {
+      "cite": "222 U. S. 191",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3659302,
+        3659766
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/222/0191-01",
+        "/us/222/0191-02"
+      ]
+    },
+    {
+      "cite": "208 U. S. 316",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641787
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/208/0316-01"
+      ]
+    },
+    {
+      "cite": "3 Wall. 20",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3474955
+      ],
+      "pin_cites": [
+        {
+          "page": "36"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/70/0020-01"
+      ]
+    },
+    {
+      "cite": "195 U. S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3633693
+      ],
+      "pin_cites": [
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/195/0361-01"
+      ]
+    },
+    {
+      "cite": "232 N. Y. 507",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1898210,
+        1898031
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/232/0507-02",
+        "/ny/232/0507-01"
+      ]
+    },
+    {
+      "cite": "195 App. Div. 913",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4603110,
+        4605098,
+        4605871,
+        4604115,
+        4618581,
+        4602967,
+        4605047,
+        4618652,
+        4604061
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/195/0913-06",
+        "/ad/195/0913-05",
+        "/ad/195/0913-09",
+        "/ad/195/0913-08",
+        "/ad/195/0913-01",
+        "/ad/195/0913-03",
+        "/ad/195/0913-04",
+        "/ad/195/0913-02",
+        "/ad/195/0913-07"
+      ]
+    },
+    {
+      "cite": "244 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343089
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/244/0205-01"
+      ]
+    },
+    {
+      "cite": "232 N. Y. 37",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1898221
+      ],
+      "year": 1921,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/232/0037-01"
+      ]
+    },
+    {
+      "cite": "242 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3935339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0303-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 35",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "36"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "244 U. S. 255",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343176
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/244/0255-01"
+      ]
+    },
+    {
+      "cite": "247 U. S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1484696
+      ],
+      "pin_cites": [
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/247/0372-01"
+      ]
+    },
+    {
+      "cite": "244 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343239
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/244/0147-01"
+      ]
+    },
+    {
+      "cite": "216 N. Y. 544",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4528781
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/216/0544-01"
+      ]
+    },
+    {
+      "cite": "251 U. S. 121",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3680941
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/251/0121-01"
+      ]
+    },
+    {
+      "cite": "248 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3691415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/248/0308-01"
+      ]
+    },
+    {
+      "cite": "257 U. S. 233",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678835
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/257/0233-01"
+      ]
+    },
+    {
+      "cite": "253 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189345
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0149-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 30",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85761
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/224/0030-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 540",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85535
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/224/0540-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 539",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85657
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/224/0539-01"
+      ]
+    },
+    {
+      "cite": "257 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678104
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/257/0469-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675069
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "59, 60"
+        },
+        {
+          "page": "59, 60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/234/0052-01"
+      ]
+    },
+    {
+      "cite": "208 U. S. 316",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641787
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/208/0316-01"
+      ]
+    },
+    {
+      "cite": "232 N. Y. 507",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1898210,
+        1898031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/232/0507-02",
+        "/ny/232/0507-01"
+      ]
+    },
+    {
+      "cite": "195 App. Div. 913",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4603110,
+        4605098,
+        4605871,
+        4604115,
+        4618581,
+        4602967,
+        4605047,
+        4618652,
+        4604061
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/195/0913-06",
+        "/ad/195/0913-05",
+        "/ad/195/0913-09",
+        "/ad/195/0913-08",
+        "/ad/195/0913-01",
+        "/ad/195/0913-03",
+        "/ad/195/0913-04",
+        "/ad/195/0913-02",
+        "/ad/195/0913-07"
+      ]
+    },
+    {
+      "cite": "244 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343089
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/244/0205-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 945,
+    "char_count": 24567,
+    "ocr_confidence": 0.71,
+    "pagerank": {
+      "raw": 3.27289853488991e-06,
+      "percentile": 0.9977660859764411
+    },
+    "sha256": "e3ad5daaa91aafcbce7eedbd43c763e8e38ecd52c5277adab486d38aaadcfc21",
+    "simhash": "1:f80823c0fea45c7f",
+    "word_count": 4184
+  },
+  "last_updated": "2024-02-27T20:08:29.157797+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE INDUSTRIAL COMMISSION OF THE STATE OF NEW YORK v. NORDENHOLT CORPORATION ET AL."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice McReynolds\ndelivered the opinion of the court.\nSebastiana Insana, mother of Guiseppe Insana, asked of the New York State Industrial Commission an allowance under the Workmen\u2019s Compensation Law on account of her son\u2019s death, which she claimed resulted from accidental injuries received May 15, 1918, in the course of his employment as a longshoreman by the Nordenholt Corporation then unloading a vessel lying in navigable waters at Brooklyn. The cargo consisted of bags of cement. These were hoisted to the dock and there tiered up by .Insana and other longshoremen. While thus engaged, he slipped and fell on the dock.\nThe Commission found \u201c the accidental injuries which the said deceased sustained while working for his employer when he fell from the pile of bags to the floor were the activating cause of his death, and his death was a direct result of the injuries sustained by him while engaged in the regular course of his employment,\u201d and awarded compensation as specified by the statute. Upon authority of Keator v. Rock Plaster Manufacturing Co., 224 N. Y. 540, and Anderson v. Johnson Lighterage Co., 224 N. Y. 539, the Appellate Division reversed the award, 195 App. Div. 913, and the Court of Appeals affirmed its action without opinion, October 25, 1921, 232 N. Y. 507.\nIn both the Keator and Anderson Cases, the employee suffered injuries on land while helping to unload a vessel lying in navigable waters. The Court of Appeals held when so injured he was performing a maritime contract and that for reasons stated in Doey v. Howland Co., Inc., 224 N. Y. 30, the Industrial Commission had no jurisdiction to make an award. While making repairs on an ocean-going vessel lying at the dock in navigable waters, Doey fell down a hatchway and sustained fatal injuries. The Appellate Division reversed an award of compensation, and the Court of Appeals affirmed its action, holding' that as Doey was performing a maritime contract the Commission had no jurisdiction, under the doctrine of Southern Pacific Co. v. Jensen, 244 U. S. 205, and Clyde S. S. Co. v. Walker, 244 U. S. 255. It said (224 N. Y. 35, 36):\n\u201cTwo questions are presented: (a) Was Doey, at the time of his death, engaged in the performance of a maritime contract? . . ,\n\u201c If the first question be answered in the affirmative, then it necessarily follows from the decisions of the Supreme Court of the United States above referred to [Southern Pacific Co. v. Jensen, and Clyde S. S. Co. v. Walker], that the commission had no authority to make the award in question. In determining whether a contract be of maritime nature, locality is not controlling, since the true test is the subject-matter of the contract \u2014 the nature and character of the work to be done. (Erie R. R. Co. v. Welsh, 242 U. S. 303.) In torts the rule is different. There, jurisdiction depends solely upon the place where the tort was committed, which must have been upon the high seas or other navigable waters. (Atlantic Transport Co. of W. Va. v. Imbrovek, 234 U. S. 52.) An award under the Workmen\u2019s Compensation Law is not made on the theory that a tort has been committed; on the contrary, it is upon the theory that the statute giving the commission power to make an award is read into and becomes a part of the contract. (Matter of Post v. Burger & Gohlke, 216 N. Y. 544.) The contract of employment, by virtue of the statute, contains an implied provision that the employer, if the employee be injured, will pay to him a certain sum to compensate for the injuries sustained, or if death results, a certain sum to dependents. These payments are made irrespective of whether or not the employer was guilty of wrongdoing. It is a part of the compensation agreed to be paid for services rendered in the course-of the employment.\n\u201c In the present case, upon the conceded facts, I am of the opinion that Doey was, at the time he met his death, engaged in the performance of a maritime contract. His employer had taken a contract to repair an ocean-going vessel, preparatory to its taking on a cargo of grain. Doey was one of several carpenters employed to make the necessary changes. He was, at the time he was killed, engaged in such work on a steamship then in navigable waters. The contract to make the changes was certainly maritime in its nature. Preparing a steamship to receive a cargo is as much maritime in nature as putting the cargo on or taking it from the ship. Nor was the nature of the. contract changed in any way because the contractor did not actually do the work himself, but employed others to do it for him.. Doey\u2019s contract of employment was just as much of a maritime nature as was that of his employer. ...\u201d\nAn award to Newham, injured on the dock while checking freight and doing work similar to that of a foreman of stevedores was set aside in Newham v. Chile Exploration Co., 232 N. Y. 37 (October 18, 1921). The court said:\n\u201c We have held in Matter of Doey v. Howland Co., 224 N. Y. 30, and in Matter of Anderson v. Johnson Lighterage Co., 224 N. Y. 539, and in Matter of Keator v. Rock Plaster Manufacturing Co., 224 N. Y. 540, that if the employee was engaged at the time of his injury in the performance of a maritime contract the state did not have jurisdiction of the matter and the Workmen\u2019s Compensation Law did not apply. This is the deduction which we have made from the cases of Southern Pacific Co. v. Jensen, 244 U. S. 205, and Knickerbocker Ice Co. v. Stewart, 253 U. S. 149.\u201d\nThe court below has made deductions from Southern Pacific Co. v. Jensen; Clyde S. S. Co. v. Walker, and Knickerbocker Ice Co. v. Stewart, which we think are unwarranted, and has proceeded upon an erroneous view of the 'federal law.\nWhen an employee, working on board a vessel in navigable waters, sustains personal injuries there, and seeks damages from the employer, the applicable legal principles are very different fr\u00f3m those which would control if he had been injured on land while unloading the vessel. In the former situation the liability of employer must be determined under the maritime law; in the latter, no general maritime rule prescribes the liability, and the local law has always been applied. The liability of the employer for damages on account of injuries received on shipboard by an employee under a maritime contract is matter within the admiralty jurisdiction; but not so when the accident occurs on. land.\nThe injuries out of which Southern Pacific Co. v. Jensen arose occurred on navigable waters, and the consequent rights and liabilities of the parties were prescribed by the maritime law. The question there was whether. these rul\u00e9s could be superseded by the Workmen\u2019s Compensation statute of the State, and this court held they could not. In the opinion, citing Atlantic Transport Co. v. Imbrovek, 234 U. S. 52, 59, 60, we said, \u201c The work of a stevedore in which the deceased [Jensen] was engaging is maritime in its nature; his employment was a maritime contract; the injuries which he received were likewise maritime; and the rights and liabilities of the parties in connection therewith were matters clearly within the admiralty jurisdiction.\u201d The doctrine that locality is the exclusive test of admiralty jurisdiction in matters of tort had been questioned in the Imbrovek Case, and to show beyond any doubt that the maritime rules applied as to Jensen\u2019s injuries, we used the quoted language. Later, in Grant Smith-Porter Ship Co. v. Rohde, 257 U. S. 469, we said, \u201c The general doctrine that in contract matters admiralty jurisdiction depends upon the nature of the transaction and in tort matters upon the locality, has been so frequently asserted by this court that it must now be treated' as settled.\u201d\nIn Chelentis v. Luckenbach S. S. Co., 247 U. S. 372, 382,\u2014an action at law seeking full indemnity for injuries received by a sailor on shipboard \u2014 -.this was said:\n\u201c The work about which petitioner was engaged is maritime in its nature; his employment was a maritime contract ; the injuries received were likewise maritime and the parties\u2019 rights and liabilities were matters clearly within the admiralty jurisdiction. Atlantic Transport Co. v. Imbrovek, 234 U. S. 52, 59, 60. And unless in some way. there was imposed upon the owners a liability different from that prescribed by maritime law, petitioner could properly demand only wages, maintenance and cure.. Under the doctrine approved in Southern Pacific Co. v. Jensen, no State has power to abolish the well recognized maritime rule concerning measure of recovery and substitute therefor the full indemnity rule of. the common law. Such a substitution would distinctly and definitely change or add to the settled maritime law; and it would be destructive of the \u2018 uniformity and consistency at which the Constitution aimed on all subjects of a commercial character affecting the intercourse of the States with each other or with foreign states.\u2019 \u201d\nSee also Peters v. Veasey, 251 U. S. 121; Knickerbocker Ice Co. v. Stewart, 253 U. S. 149.\nIn Union Fish Co. v. Erickson, 248 U. S. 308, it was held that when entering into maritime contracts the parties contemplate the system of maritime law, and its well known rules control their rights and liabilities to the exclusion of state statutes.\nIn Western Fuel Co. v. Garcia, 257 U. S. 233, it wa,s held-that where a stevedore\u2019s death on a ship within the State resulted from injuries there received, an admiralty court, in the absence of federal statute or positive maritime rule; would recognize and apply the state statute giving an action for damages on account of death. \u201c The subject is maritime and local in character and the specified modification of or suppl\u00e9ment to the rule applied in admiralty courts, when following the common law, will not work .material prejudice to the characteristic features of the general maritime law, nor interfere with the proper harmony and uniformity of that-law in its international and interstate relations.\u201d\nIn Grant Smith-Porter Ship Co. v. Rohde, supra, a carpenter proceeding in admiralty sought damages for injuries received while at work on a partially completed vessel lying in the Willamette River. The Oregon Workmen\u2019s Compensation Law prescribed an exclusive remedy, and the question presented was whether to give it effect would work material prejudice to the general maritime law. The accident occurred on navigable waters and the cause was of a kind ordinarily within the admiralty jurisdiction. Neither the general employment'contracted for nor the workman\u2019s activities at the time had any direct relation to navigation or commerce \u2014 it was essentially a local matter \u2014 and we said\u2014\n\u201cUnder such circumstances regulation of the rights, obligations and consequent liabilities of the parties, as between themselves, by a local rule would not necessarily work material prejudice to any characteristic feature of the general maritime law, or interfere with the proper harmony or uniformity of that law in its international or interstate relations. ...\n\u201c In Western Fuel Co. v. Garcia, we recently pointed out that as to certain local matters regulation of which would work no material prejudice to the general maritime \u25a0law, the rules of the latter might be modified or supplemented by state statutes. The present case is controlled by that principle. The statute of the State applies and defines the rights and liabilities of the parties. The employee may assert his claim against the Industrial Accident Fund to which both he and the employer have con-' tribu ted as provided by the statute, but he can not recover damages in an admiralty court.\u201d\nInsana was injured upon the dock, an extension of the land, Cleveland Terminal & Valley R. R. Co. v. Cleveland S. S. Co., 208 U. S. 316, and certainly prior to the Workmen\u2019s Compensation Act the employer\u2019s liability for damages would have depended upon the common law and the state statutes. Consequently, when the Compensation Act superseded other state laws touching the liability in question, it did not come into conflict with any superior maritime law. And this is true whether awards under the act are made as upon implied agreements or otherwise. The stevedore\u2019s contract of employment did not contemplate any dominant federal rule concerning the master\u2019s liability for personal injuries received on land. In Jensen\u2019s case, rights and liabilities were definitely fixed by \u25a0 maritime rules, whose Uniformity was essential. With these the local law came into conflict. Here no such antagonism exists. There is no pertinent federal statute; and application of th& local law will not work material prejudice to any characteristic feature of the general maritime law. Compare New York Central R. R. Co. v. Winfield, 244 U. S. 147.\nThe judgment of the court below must be reversed and the cause remanded for further proceedings not inconsistent with this opinion.\nReversed.",
+        "type": "majority",
+        "author": "Mr. Justice McReynolds"
+      }
+    ],
+    "attorneys": [
+      "Mr. E. Clarence Aiken, with whom Mr. Charles D. Newton, Attorney General of the State of New York, was on the brief, for petitioner.",
+      "Mr. E. C. Sherwood, with whom Mr. Benjamin C. Loder and Mr. William B. Davis were on the brief, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "STATE INDUSTRIAL COMMISSION OF THE STATE OF NEW YORK v. NORDENHOLT CORPORATION ET AL.\nCERTIORARI TO THE SUPREME. COURT OF THE STATE OF NEW YORK.\nNo. 625.\nArgued March 9, 1922.\nDecided May 29, 1922.\n1. When an employee, while working on board a vessel lying in navigable waters, sustains personal injuries there and seeks damages from his employer, the liability of the employer must be determined under the maritime law. P. 272.\n2. But. where the injuries occur while the employee is engaged in unloading the vessel on land the local law has always been applied.P. 273.\n3. A longshoreman was injured on a dock (an extension of the land) while engaged about the unloading of a vessel lying in navigable waters in New York, and died as a result of his injuries. Held, that his contract of employment did not contemplate any dominant federal rule concerning his-employer\u2019s liability in damages; and that whether awards under the State Compensation Act are to be regarded as made upon implied agreement of employer and employee, or otherwise,- the act was applicable to the case, since this would not conflict with any federal statute \u00f3r work material prejudice to any characteristic feature of the general maritime law. P. 275. Southern Pacific Co. v. Jensen, 244 U. S. 205, and other cases, distinguished.\n195 App. Div. 913; 232 N. Y. 507, reversed.\nCertiorari to a judgment of the Supreme Court of New York, . Appellate Division, entered upon a remittitur issued from the New York Court of Appeals pursuant to. a decision of the latter court which affirmed a reversal by the former court of an order made under the State Workmen\u2019s Compensation Act by the present petitioner requiring the-respondents to pay compensation to the widow of a longshoreman who died as the result' of personal injuries received while in the employ of the respondent Nordenholt Corporation.\nMr. E. Clarence Aiken, with whom Mr. Charles D. Newton, Attorney General of the State of New York, was on the brief, for petitioner.\nAn injury , on a dock, pier or wharf is not \u00e1 maritime injury and, therefore, not within the admiralty law. If there is. no jurisdiction in admiralty, there is ho foundation for denying jurisdiction under the New York Workmen\u2019s Compensation Law. The Blackheath, 195 U. S. 361, 365; The Plymouth, 3 Wall. 20, 36; Cleveland Terminal & Valley R. R. Co. v. Cleveland S. S. Co., 208 U. S. 316; Martin v. West, 222 U. S. 191; Atlantic Transport Co. v. Imbrovek, 234 U. S. 52, 60; Grant Smith-Porter Ship Co. v. Rohde, 257 U. S. 469; Rorvik v. North Pacific Lumber Co., 99 Ore. 82; Swayne & Hoyt, Inc. v. Barsch, 226 Fed. 581.\nAnderson v. Johnson Lighterage Co., 224 N. Y. 539, and Keator v. Rock Plaster Mfg. Co., 224 N. Y. 540, held that the Industrial Commission had no jurisdiction where longshoremen were injured on a pier, because they were engaged in performing a maritime contract, following Doey v. Howland Co., Inc., 224 N. Y. 30, in which the employee concededly met his death upon a steamship and therefore was subject to admiralty jurisdiction. In the Keator Case, subsequent to the decision in 224 N. Y. 540, the Federal District Court dismissed an action in admiralty, on the ground that the injury was not of a maritime nature. 256 Fed. 574. But Knickerbocker Ice Co. v. Stewart, 253 U. S. 149, decided after the Keator and Anderson Cases, sustains th\u00e9 view that injuries to an employee working under a maritime contract and received upon a dock might come under the'state compensation law. See pp. 158, 162, 166. The-injuries in the Stewart and Jensen Cases occurred in navigable waters or on board vessel, and therefore were within the admiralty jurisdiction.\nThe Court of Appeals erred in basing its decision upon the fact that remedy for compensation was a matter of contract. That does not affect the question, provided there is no admiralty jurisdiction over injuries received on land. True, the Compensation Law reads its requirements into every contract of employment, but the foundation of that law is not contract but a statutory liability which takes the place of the common-law liability for negligence. New York Central R. R. Co. v. White, 243 U. S. 188; Mountain Timber Co. v. Washington, 243 U. S. 219.\nEven if the employment of a longshoreman is a maritime contract, there is no federal law governing the relation of master and servant in respect of accidents on land; so that either the state law of torts or the state compensation law is the only remedy: Where the accident \u25a0happens on land, there is no admiralty tort, and, therefore, no uniform law which can be applied. Congress under the admiralty power, cannot deprive the States of the right to legislate in respect , of torts on land, and it has not attempted to exercise that power.\nMoreover, the jurisdiction with reference to contracts is concurrent in the state and admiralty courts, under the reservation of a common-law remedy where a common-law remedy is applicable. Leon v. Galceran, 11 Wall. 185, 188; Rounds v. Cloverport Foundry Co., 237 U. S. 303; Schoonmaker v. Gilmore, 102 U. S. 118. The reservation of such remedy is. not limited to causes of action known to the common law at the time of the passage of the Judiciary Act, but includes statutory changes. Steamboat Co. v. Chase, 16 Wall. 522, 533; Knapp, Stout & Co. v. McCaffrey, 177 U. S. 638, 644; The Hamilton, 207 U. S. 398, 409.\nIn States wher\u00e9 the compensation remedy is based upon contract, i. e., where the compensation is elective rather than compulsory, it is held that injuries occurring upon the dock are not governed by admiralty law but by the state compensation law. See Berry v. Donovan & Sons, Inc., 115 Atl. 250.\nThe only remedy for death from maritime accidents in New York is the remedy of the workmen\u2019s compensation law. Shanahan v. Monarch Engineering Co., 219 N. Y. 469; Barnhardt v. American Concrete Steel Co., 227 N. Y. 531. See Western Fuel Co. v. Garcia, 257 U. S. 233.\nMr. E. C. Sherwood, with whom Mr. Benjamin C. Loder and Mr. William B. Davis were on the brief, for respondents.\nWhile admiralty jurisdiction in tort, depends on the locality, in matters of contract it depends on the subject-matter, the nature and character of the contract. North Pacific S. S. Co. v. Hall Bros. Co., 249 U. S. 119; Union Fish Co. v. Erickson, 248 U. S. 308.\nThe work of unloading a vessel is maritime and a contract to do such work is maritime. Atlantic Transport Co. v. Imbrovek, 234 U. S. 52, 62; Southern Pacific Co. v. Jensen, 244 U. S. 205; Knickerbocker Ice Co. v. Stewart, 253 U. S. 149; Peters v. Veasey, 251 U. S. 121.\nThe question whether an elective compensation statute would be effective in the circumstances upon which this proceeding is based, if the employer and the employee had elected to accept its provisions, is not here presented. Grant Smith-Porter Ship Co. v. Rohde, 257 U. S. 469; Berry v. Donovan & Sons, Inc., 120 Maine, 457; but see Duart v. Simmons, 231 Mass. 313.\nUnder the New York Compensation Law the liability depends not at all upon the. will of the parties to the. contract of employment, nor rests upon the theory that there has been fault on the part of the employer. Ihe sole basis of liability is the relationship of employer and employee, plus only the occurrence of an accidental injury arising out of and in the course of the work contemplated by the contract of employment. The liability is grounded upon the contract of employment itself. It is purely contractual, and for this reason follows the parties to the contract when they go into a foreign jurisdiction whose laws regulate the whole question of the employee\u2019s right to recover, damages for personal injuries;, provided only that the contract of employment was \u25a0entered into within the State of New York. Post v. Burger & Gohlke, 216 N. Y. 544; Klein v. Stoller & Cook Co., 220 N. Y. 670; Fitzpatrick v. Blackall & Baldwin Co., 220 N. Y. 671. Cf. Kruse v. Pillsbury, 162 Pac. 891; Gould\u2019s Case, 215 Mass. 480, 482.\nThe question here involved is therefore closely akip. to that presented in Union Fish Co. v. Erickson, 248 U. S. 308.\nCounsel for the State Industrial Commission contend, in effect, that the New York Compensation Law ought to be applied in this case, because in the present state of the law a cause of action cognizable in admiralty did not arise upon and on account of the death of Insana. A somewhat similar idea prevailed in the New York Court of Appeals in the case of Winfield v. New York Central R. R. Co., 216 N. Y. 284, in which it was held by that court that this same statute was applicable to cases arising out of work done in connection with interstate commerce, since Congress had not enacted a federal com-; pensation' statute; but upon review in this court the error was pointed but and cbrrected. 244 U. S. 147. The absence of such a federal law is not the controlling consideration. It is more pertinent to inquire: Has Congress the power to enact a compensation statute applicable to all cases of accidental injury and death arising out of and in the course of maritime employment (e. g., stevedoring operations)', which occur on the dock as well as to those occurring on the vessel?\nThe Federal Government\u2019s jurisdiction over matters of a maritime nature is not limited to mere, adjudication of admiralty causes by the courts of the United States, but resides also in the legislative and executive branches. Richardson v. Harmon, 222 U. S. 96.\nThe primary purpose of the constitutional grant of jurisdiction over maritime affairs and over matters relating to the rights of those engaged in shipping, was to insure general uniformity in the law \u2014 not merely in the law of torts. Knickerbocker Ice Co. v. Stewart, 253 U. S. 149, 160; The Lottawanna, 21 Wall. 558, 574; Chelentis v. Luckenbach S. S. Co., 247 U. S. 372.\nThe field of this jurisdiction is very broad. It covers \u201c maritime matters \u201d, \u201c all subjects of a commercial character affecting the intercourse of the States,\u201d and the international and interstate relations arising out of maritime operations. Southern Pacific Co. v. Jensen, 244 U. S. 205.\nIn seeking to apply the Jensen decision the problem is whether th\u00e9 statfite works material prejudice to characteristic features incident.to the relationship of employer and employee created by the maritime contract of employment. It is pertinent to consider the practical results of attempting to apply the statute to a case like the present one. When we do this we are met at the outset with the consideration that the statute is inapplicable to any case where the accident occurs on or in the water, or upon a vessel afloat in the water. The practical results of applying it to all accidents occurring inshore of the water line would be confusion and conflict, indefensible upon any theory of common sense or practical utility. The operation of loading or unloading a ship moored alongside a dock, work which in its very nature is continuous and indivisible, would be divided physically in half. One system of law would be applied to one part, while another system, entirely and. fundamentally different, would be applied to the other. Uniformity of the law, which is frequently spoken of in connection with these cases, does not lie in that direction.\nIt does not follow that, if the compensation law is not applicable, there is no remedy in a case where the accident can be traced to the fault of the employer.\nIf the maritime law of torts as now understood and applied by courts of admiralty does not extend to the subject-matter, the state law of torts may be applicable to it, even though the particular' state statute here in question may not be so."
+  },
+  "file_name": "0263-01",
+  "first_page_order": 297,
+  "last_page_order": 310
+}

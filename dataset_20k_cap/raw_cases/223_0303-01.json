@@ -1,0 +1,920 @@
+{
+  "id": 3662744,
+  "name": "POWERS v. UNITED STATES",
+  "name_abbreviation": "Powers v. United States",
+  "decision_date": "1912-02-19",
+  "docket_number": "No. 152",
+  "first_page": "303",
+  "last_page": "316",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "223 U.S. 303"
+    },
+    {
+      "type": "parallel",
+      "cite": "56 L. Ed. 448"
+    },
+    {
+      "type": "parallel",
+      "cite": "32 S. Ct. 281"
+    },
+    {
+      "type": "vendor",
+      "cite": "1912 U.S. LEXIS 2236"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1911-151"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "147 Fed. Rep. 183",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1908015
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/147/0183-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298050
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/165/0036-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 621",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4679
+      ],
+      "pin_cites": [
+        {
+          "page": "625"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0621-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 532",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62499
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0532-01"
+      ]
+    },
+    {
+      "cite": "218 U. S. 245",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286703
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/218/0245-01"
+      ]
+    },
+    {
+      "cite": "202 U. S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3646306,
+        3646062
+      ],
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/202/0150-01",
+        "/us/202/0150-02"
+      ]
+    },
+    {
+      "cite": "123 U. S. 131",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3523799
+      ],
+      "pin_cites": [
+        {
+          "page": "180"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/123/0131-01"
+      ]
+    },
+    {
+      "cite": "153 N. Y. 174",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277636
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/153/0174-01"
+      ]
+    },
+    {
+      "cite": "25 So. Car. 247",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "51 Pac. Rep. 945",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        2475287
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/cal-unrep/5/0934-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 73",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1172852
+      ],
+      "pin_cites": [
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/10/0486-01"
+      ]
+    },
+    {
+      "cite": "131 N. Y. 651",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2247411
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "655"
+        },
+        {
+          "page": "655"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/131/0651-01"
+      ]
+    },
+    {
+      "cite": "72 N. Y. 393",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        532866
+      ],
+      "pin_cites": [
+        {
+          "page": "398"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/72/0393-01"
+      ]
+    },
+    {
+      "cite": "50 N. Y. 240",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2059630
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/50/0240-01"
+      ]
+    },
+    {
+      "cite": "94 N. W. Rep. 388",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "52 N. H. 459",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        471305
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nh/52/0459-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 597",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Black, 209",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410088
+      ],
+      "pin_cites": [
+        {
+          "page": "225"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/66/0209-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 274",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1250784,
+        3594502
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/alaska-fed/1/0511-01",
+        "/us/167/0274-01"
+      ]
+    },
+    {
+      "cite": "4 How. 251",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        1503932
+      ],
+      "pin_cites": [
+        {
+          "page": "259"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/45/0251-01"
+      ]
+    },
+    {
+      "cite": "16 Pet. 342",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        102738
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/41/0342-01"
+      ]
+    },
+    {
+      "cite": "39 Oh. St. 37",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        914161
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/39/0037-01"
+      ]
+    },
+    {
+      "cite": "13 S. Car. 389",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        4374142
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sc/13/0389-01"
+      ]
+    },
+    {
+      "cite": "186 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1250821,
+        3623231
+      ],
+      "pin_cites": [
+        {
+          "page": "228"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/alaska-fed/1/0843-01",
+        "/us/186/0224-01"
+      ]
+    },
+    {
+      "cite": "221 U. S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658311
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/221/0361-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 616",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516335
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/116/0616-01"
+      ]
+    },
+    {
+      "cite": "24 Gratt. (Va.) 624",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        4434486
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/65/0218-01"
+      ]
+    },
+    {
+      "cite": "23 Pac. Rep. 264",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "12 Pac. Rep. 441",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "57 Am. Rep. 8",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "8 Pac. Rep. 393",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 Pac. Rep. 408",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "14 Pet. 448",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3334415
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/39/0448-01"
+      ]
+    },
+    {
+      "cite": "24 Gratt. 721",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "81 Fed. Rep. 837",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "142 U. S. 562",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "161 U. S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "168 U. S. 532",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141481
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0532-01"
+      ]
+    },
+    {
+      "cite": "178 U. S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1250763,
+        3612373
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/alaska-fed/1/0625-01",
+        "/us/178/0304-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 168",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62520
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "207"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0168-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499418
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/198/0156-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8217
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/109/0065-01"
+      ]
+    },
+    {
+      "cite": "7 So. Rep. 225",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Tex. App. 206",
+      "category": "reporters:state",
+      "reporter": "White & W.",
+      "case_ids": [
+        1364844
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/white-w/1/0206-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3503664
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0574-01"
+      ]
+    },
+    {
+      "cite": "140 U. S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553935
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/140/0118-01"
+      ]
+    },
+    {
+      "cite": "121 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        678699
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/121/0001-01"
+      ]
+    },
+    {
+      "cite": "2 Blatchf. 435",
+      "category": "reporters:federal",
+      "reporter": "Blatchf.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "16 Fed. Rep. 119",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6716204
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/16/0119-01"
+      ]
+    },
+    {
+      "cite": "151 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298588
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/151/0164-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 613",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141160
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "623"
+        },
+        {
+          "page": "623"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/162/0613-01"
+      ]
+    },
+    {
+      "cite": "156 U. S. 185",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1488098
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/156/0185-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141268
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/162/0625-01"
+      ]
+    },
+    {
+      "cite": "52 N. H. 492",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        471293
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/52/0492-01"
+      ]
+    },
+    {
+      "cite": "4 N. H. 562",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        6756874
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/4/0562-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 591",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701603
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/161/0591-01"
+      ]
+    },
+    {
+      "cite": "157 U. S. 301",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3584376
+      ],
+      "pin_cites": [
+        {
+          "page": "305"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/157/0301-01"
+      ]
+    },
+    {
+      "cite": "20 Stat. 30",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 U. S. 396",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298891
+      ],
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/151/0396-01"
+      ]
+    },
+    {
+      "cite": "147 Fed. Rep. 183",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1908015
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/147/0183-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298050
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/165/0036-01"
+      ]
+    },
+    {
+      "cite": "72 N. Y. 393",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        532866
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/72/0393-01"
+      ]
+    },
+    {
+      "cite": "50 N. Y. 240",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2059630
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/50/0240-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499418
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/198/0156-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8217
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/109/0065-01"
+      ]
+    },
+    {
+      "cite": "151 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298588
+      ],
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/151/0164-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 613",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141160
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/162/0613-01"
+      ]
+    },
+    {
+      "cite": "156 U. S. 185",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1488098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/156/0185-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141268
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/162/0625-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1188,
+    "char_count": 26068,
+    "ocr_confidence": 0.63,
+    "pagerank": {
+      "raw": 1.6638896988031894e-06,
+      "percentile": 0.9931227650724038
+    },
+    "sha256": "ff646ed69f8bd7f1f0304e1820a76ac39c648ded9386b5163ca1f2aabb8bfbf2",
+    "simhash": "1:9c2b2ef21ea3d678",
+    "word_count": 4495
+  },
+  "last_updated": "2024-02-27T21:45:52.012819+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "POWERS v. UNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Day\ndelivered the opinion of the court.\nPlaintiff in error (hereinafter called defendant) was convicted in the District Court of the United States for the Western District of Virginia under an indictment charging him with the violation of \u00a7\u00a7 3258, 32.79, 3281 and 3242 of the Revised Statutes of the United States. He was sentenced to a fine of $100 and to be imprisoned for a period of thirty days.\nThe indictment contained seven counts, charging the defendant substantially as follows: That he had in his possession a still and distilling apparatus for the production of spirituous liquors without having had such still and apparatus registered (first count); that he carried-on the business of a distiller of spirituous liquors without having given bond (second count), and with the intent to defraud the United States of the tax on such liquors (third count), and also carried' on the business of a-retail liquor dealer without having paid the special tax therefor (seventh count); that, he worked in a distillery for the production of spirituous liquors upon which no \u201cRegistered Distillery\u201d sign was displayed (fourth count); and-that he delivered raw \u25a0 material, namely, meal, to (sixth count), and conveyed distilled spirits from (fifth count), such distillery.\nThe case comes to this court, because of the alleged violation .of a constitutional right, in compelling the defendant to -be a witness against himself. This contention is developed in the bill of exceptions, which shows that at a preliminary hearing before a United States commissioner, after a witness for the Government had testified that he had 'Seen the defendant beating apples'at a \u201cstill place\u201d near the home of one Preston Powers, and about four miles from defendant\u2019s home, the defendant, without counsel and not having been instructed by the commissioner, voluntarily, in his own behalf, testified that he had beaten apples about thirty steps from the still place; that Preston Powers had hired him for seventy-five cents a day, and had set him to work beating apples, but that he had no interest in the apples, the product from them or the still, and no control of the still, and had merely been hired by the day \u00e1t a fixed price; that thereupon M. P. Colly, deputy marshal, asked him if he had not worked at a distillery within two years of the warrant in this case, at another time and place, which question the defendant refused to answer until informed by the commissioner, and by the deputy marshal, that unless he did so he would be committed to jail, and he then testified that \u201che had worked at a distillery and made some brandy last-fall near his house, and he paid Preston Powers to assist him\u201d; that upon the trial of the case in the District Court that court, over the objection of the defendant, admitted the testimony of Colly, who repeated the proceedings before the commissionei', including the testimony of defendant, and that the court refused to strike out Colly\u2019s testimony, or to instruct the jury to disregard it, upon the motion of defendant\u2019s counsel, to all of. which, at the time, counsel for defendant duly excepted.\n\" The contentions of the defendant are that the judgment should be reversed for the following reasons:\n1st. There was no venire facias summoning the graiid jury which found this purported indictment.\n2nd. The said grand jury, was not sworn and consequently could not find an indictment.\n,3rd. The indictment was. defective and the demurrer should have been sustained to the fourth and sixth counts.\n\u25a0 4th. The petit jury that tried this case was not sworn nor summoned.\n5th. The testimony of Cojly was illegal and incompetent testimony, and should have been rejected when offered, and if received strik\u00e9n out on counsel\u2019s motion.\nAs to the first, that there was no venire facias summoning the grand jury, there is nothing in the record to show that this objection, if tenable at all, was taken before plea or, indeed, at any time during the trial. Objections of this character are waived unless seasonably taken. United States v. Gale, 109 U. S. 65; Agnew v. United States, 165 U. S. 36; Rodriguez v. United States, 198 U. S. 156; McInerney v. United States, 147 Fed. Rep. 183.\nThe same observation applies to the second assignment of error; that the grand j\u00fcry is riot shown by the record to have been sworn; The indictment recites that the grand jury Was selected, imparieled, sworn and charged, and that, they on their oaths present, etc. At this stage of the proceedings this is enough to show the proper swearing of the grand j\u00fcry. In Crain v. United States, 162 U. S. 625, cited by counsel for defendant; the record was destitute of any showing that the accused was arraigned or pleaded to the indictment. See Pointer v. United States, 151 U. S. 396, 418.\nAs to the assignment of error, that there were certain defective counts in the indictment, the conviction was a general one, and, even if the counts were defective, as alleged, one good count, sufficient to sustain the sentence, is all that is required to warrant the affirmation of a judgment in error proceedings. Dunbar v. United States, 156 U. S. 185.\nAs to the.objection that the petit jury was not sworn: The record discloses that they were \u201ccalled and empaneled,\u201d and, \u201cbeing selected and,tried in the manner prescribed by law, the truth of and upon the premises to speak, and having heard the evidence, the arguments of counsel, and charge of th\u00e9 judge, retired to consider their verdict, and upon their oaths do s\u00e1y,\u201d ate. We think that this sufficiently discloses, upon proceedings in error after conviction, that the petit jury was duly sworn.\nThe chief objection contended for in argument concerns the admission in the District Court of the testimony of the defendant before the commissioner. The admission of this testimony is claimed to have worked a violation of the defendant\u2019s constitutional rights under the. Fifth Amendment to the C\u00f3nstitution, which protects him against self-incrimination. It appears from the bill of exceptions that the defendant voluntarily took the stand and testified in his own behalf. This he might do under the Federal statute (March 16, 1878, 20 Stat. 30, c. 37), making the defendant a competent witness, \u201cat his own request, but not otherwise.\u201d We are of the opinion that it was not essential , to the admissibility of his testimony that' he should first have been warned that what he said might be used against him. In Wilson v. United States, 162 U. S. 613, Wilson was charged with murder. Before a United States commissioner, upon a preliminary hearing, he made a statement which was admitted at the trial. He had no counsel, was not warned or .told of his right to refuse to testify, but there was testimony tending to show that the .statement was voluntary. At pages 623, 624, this court said: ,-\n\u201cAnd it is laid down that it is not essential to the admissibility of a confession that it should appear that the person was warned,, that what he said would be used against him, but oh the contrary, if the confession whs voluntary, it is sufficient though it appear that he was not so warned. Joy on Confessions, * 45, * 48, and cases cited.\n\u201c. . . . He [Wilsonj did not testify that he did not- know that he had a right to refuse to answer the questions, or that, if he had known it, he would not have answered. . . .' He did not have the aid of counsel; and lie was not warned that the statement might be' used against him or advised that he need not answer. -These were matters which went to the weight or credibility of what he said of an incriminating character, but as he was not confessing guilt but the contrary, we think, that, under' all the circumstances disclosed, they were not of themselves sufficient to require his answers to be excluded On the ground of being involuntary as matter of law.\u201d\nIn the present case, it does not appear that the witness claimed his privilege, or was ignorant.'of it, or that if he had known of it would not have answered \u2014 indeed, the record shows that his testimony was entirely yoluhtary and understandingly given. Such testimony cannot be excluded when1 subsequently offered at his trial.\nAs to the contention that the cross-examination before the commissioner shown in the bill of exceptions was im- , properly extorted from the witness under threat of commitment,'an examination of the bill of exceptions, we , think, requires an answer overruling this exception. There is,some difference, of opinion expressed in the authorities, but the rule recognized in this court is that a defendant, who voluntarily takes the stand in his own behalf, thereby waiving his privilege, may be subjected to a cross-examination concerning his statement. \u201cAssuming the position 6f a. witness, he is entitled to all its. rights and protection, and is subject to all its criticisms and burdens \u201d and may be fully cross-examined \u25a0 as' to the testimony \u2022voluntarily given. Reagan v. United States, 157 U. S. 301, 305. The rule is thus stated in Brown v. Walker, 161 U. S. 591, 597:\n'\u201cThus, if th\u00e9 witness himself elects to waive his privilege, as he may doubtless do, since the privilege is for his protection and not'for that of other parties,^ and discloses his criminal connections, he is. not permitted to stop., but .must go on and make a full disclosure. 1 Greenl. Ev., \u00a7 451; Dixon v. Vale, 1 C. & P. 278 ; East v. Chapman, 2 C. & P. 570; S. C., M. & M. 46; State v. K \u2014 , 4 N. H. 562; Low v. Mitchell, 18 Maine, 372; Coburn v. Odell, 10 Fost. (N. H.) 540; Norfolk v. Gaylord, 28 Connecticut, 309; Austin v. Poiner, 1 Sim. 348; Commonwealth v. Pratt, 126 Massachusetts, 462; Chamberlain v. Willson, 12 Vermont, 491; Lockett v. State, 63 Alabama, 5; People v. Freshour, 55 California, 375.\n\u201cSo, under modern statutes permitting accused persons to take the stand in their own behalf, they may be subjected to cross-examination upon their statements. State v. Wentworth, 65 Maine, 234; State v. Witham, 72 Maine, 531; State v. Ober, 52 N. H. 492; Commonwealth v. Bonner, 97 Massachusetts, 587; Commonwealth v. Morgan, 107 Massachusetts, 199; Commonwealth v. Mullen, 97 Massachusetts, 545; Connors v. People, 50 N. Y. 240; People v. Casey, 72 N. Y. 393.\u201d\n\u2022 But it is contended by. the defendant that the bill of exceptions shows that the alleged cross-examination was entirely irrelevant and improper, and not a\u2018 legitimate cross-examination of the defendant\u2019s testimony in his own behalf. . It appears that Powers' testified, being charged with illegal conduct concerning the distillation of spirits,' as already stated, that he was at a place about thirty steps from the still, beating apples, as testified by the Government\u2019s witness; that Preston Pqwers had hired him to work for him at the price of seventy-five cents a day, and that he put him to beating apples; that the witness had no interest in the apples or the product thereof and no .interest in the still, but was merely hired to work, by the day at the price of 75 cents. Having taken the stand in his own behalf, and given the testimony above recited, tending to show that he was not guilty of the offense charged, he was .required to submit to cross-examination, as any other witness in the case would be, concerning matter pertinent to the examination in chief. The cross-examination, in the answer elicited, tended to show that defendant had worked at a distillery the fall before with Preston Powers, the man he alleged he was working for at beating apples on the occasion when the Government witness saw him near the still, and had made brandy near his house, and had paid Preston Powers to assist him. This, we think, might be regarded as having some relevancy to the defendant\u2019s claim as to the innocent character of his occupation at the time charged. It had a tendency to show that defendant knew the character of the occupation in which he was then engaged, having worked before with Preston'Powers at a distillery and made brandy with him, and'did not exceed the limits of a proper cross-examination of the witness. As to the suggestion that \u00a7 860 of the Revised' Statutes prevented the introduction of the testimony given by defendant before the commissioner, that section, providing that no pleading nor any discovery or evidence obtained from a party by means of a judicial proceeding, shall be used in evidence against him in a criminal proceeding, can have no bearing, where, as in the present case, the accused voluntarily testified in his own behalf in the. course of the same proceeding, thereby himself opening the door to legitimate cross-examination. See Tucker v. United States, 151 U. S. 164, 168.\nJudgment affirmed.",
+        "type": "majority",
+        "author": "Mr. Justice Day"
+      }
+    ],
+    "attorneys": [
+      "Mr. S. H. Sutherland, with whom Mr. R. A. Ayers was on the brief, for plaintiff in error:",
+      "Mr; Assistant Attorney General Denison, with whom Mr. Daring C. Christie was on the brief, for the United States:"
+    ],
+    "corrections": "",
+    "head_matter": "POWERS v. UNITED STATES.\nERROR TO THE DISTRICT COURT OF THE UNITED STATES FOR THE- WESTERN DISTRICT OF VIRGINIA.\nNo. 152.\nArgued January 22, 1912.\nDecided February 19, 1912.\nThe objection that there was no venire facias summoning the grand jury is waived unless seasonably taken.\nWhen the case gets to this court if the indictment shows that the grand jury was duly selected and sworn, it is enough to show the proper swearing of the grand jury. Crain v. United, States, 162 U. S. 625, distinguished.\nWhere the conviction is a general one, one good count is' sufficient to warrant affirmance. . Dunton v. United States, 156 U. S. 185.\nIn this case the statements in the record as. to the calling -and -im-. paneling of the petit ..jury sufficiently disclose, upon proceedings - in error, that the petit jury was sworn.\nWhere the accused voluntarily becomes a witness in his own behalf before -a commission, it is not essential to the admissibility of his testimony that he be first warned that what he says may be used against him. Wilson v. United States, 162 U. S. 613. r\nWhere the record does not show that the accused on the preliminary hearing claimed. his privilege under- the Fifth Amendment or was ignorant of it but does show that he testified voluntarily and understandingly, his testimony cannot be excluded when subsequently offered at his trial.\nA defendant testifying voluntarily, thereby waiving his privilege, may be fully cross-examined as to the testimony given, and in this case held that the cross-examination did not exceed the proper- limits.\nSection 860, Rev. Stat., has no bearing on the introduction in the same criminal proceeding of testimony of accused given voluntarily. Tucker v. United States, 151 U. S. 164.\nThe facts, which involve the validity of a sentence after conviction for violating \u00a7\u00a7 3258, 3279, 3281 and 3242 of the ^Revised Statutes of the United States, are stated in the opinion. .\nMr. S. H. Sutherland, with whom Mr. R. A. Ayers was on the brief, for plaintiff in error:\nThere can be no grand jury for a United States court unless ordered by the judge, and the only method of summoning a grand jury is ,by venire facias. Rev. Stat., \u00a7\u00a7 803, 810; 4 Fed. Stat. Ann. 742-744; United States v. Antz, 16 Fed. Rep. 119; United States v. Reed, 2 Blatchf. 435.\nThe grand jury which returned this bill of indictment was never strorn, and therefore- could not return a true bill of indictment. Under Amendment V no court of the United States has authority to try a person without an indictment returned by a grand jury for an offense of this kind. Ex parte Bain, 121 U. S. 1; Rowe v. State, 20 So. Rep. (Ala.) 459; 2 Sawy. C. C. 667; Bishop Criminal Procedure, \u00a7 1357; Barker v. State, 39 Arkansas, 180; Lyman v. People, 7 Brad. (Ill.) 345; Foster v. State, 31 Mississippi, 421; Abram v. State, 25 Mississippi, 589; Stokes v. State, 24 Mississippi, 621; 4 Bl. Com. 302; 1 Chit. Crim. L. 178; Cooley\u2019s Const. L. 318.\nIt takes both impaneling and swearing to constitute a grand jury. Whatever is essential in a criminal proceeding to deprive a person of his liberty must appear of record and nothing is taken by intendment or implication. Ball\u2019s Case, 140 U. S. 118; Hopt v. Utah, 110 U. S. 574; United States v. Crane, 162 U. S. 625; Barnes\u2019 Case, 92 Virginia, 722; Jones\u2019 Case, 87 Virginia, 63; Spurgeon\u2019s Case, 86 Virginia, 652; Cawood\u2019s Case, 2 Virginia Cases, 527; Rich v. People, 1 Tex. App. 206.\nNo inference that they were sworn can be drawn from the word impaneled. Layman v. People, 7 Brad. (Ill. App.) 345; Zapf v. State, 35 Florida, 210; 7 So. Rep. 225; see also State v. Potter, 18 Connecticut, 166; Porter v. People, 7 How. Pr. (N. Y.) 441.\nThis right cannot be waived by a plea of not guilty like the waiver to the qualification of \u00e1 grand juror. United States v. Gale, 109 U. S. 65; Rodriguez v. United States, 198 U. S. 156; Watson\u2019s Case, 87 Virginia, 612; Curtis\u2019 Case, 87 Virginia, 589; Abram v. State, 25 Mississippi, 589.\nThe indictment was defective and the fourth and sixth counts should have b\u00e9en stricken out. Wh. Cr. PL and Pr., \u00a7 239; United States v. Cook, 17 Wall. 168.\nThe jury that tried this case was not summoned as required by law. A jury must be selected and summoned as required by law and it is indispensable that it should so appear. 1 Bish. Crim. Pro., \u00a7 1357; Johnson v. State, 47 Alabama, 62; Jones v. State, 5 Alabama, 656; State v. Rollins, 2 Fost, 528; Warren v. State, 1 Green, 106; Harriman v. State, 2 Id. 207.\n- Colly\u2019s testimony should have been rejected or stricken out. Fitzpatrick v. United States, 178 U. S. 304; Bram v. United States, 168 U. S. 532; Brown v. Walker, 161 U. S. 561; Counselman v. Hitchcock, 142 U. S. 562; United States v. Ball, 81 Fed. Rep. 837; Cullen\u2019s Case, 24 Gratt. 721; Cooley\u2019s Const. Lim., 6th ed. 385; McKelvey on Ev. 299 ; Rex v. Garbett, Dennison\u2019s Crown Cases, 236; 2 Car. & K. 474; 1 Greenl. on Ev., 16th ed., \u00a7\u00a7 216, 254a, 469b.\nThe admission of Powers before the commissioner was not such an admission as amounted to a judicial confession; it is essential it be made of the free will of .the party, and with full and perfect knowledge of the nature and consequences of the confession. 1 Greenl. on Ev., .\u00a7\u25a0 216.\nA party has no right to cross-examine any witness, except as to facts and circumstances connected with the matter stated in his direct examination. If he wishes to examine him. as to other matters, he must do so by making the witness his own and calling him in the subsequent progress of the cause. Phila. & Trenton Ry. Co. v. Stimpson, 14 Pet. 448; Miller v. Miller, 92 Virginia, 510; 1 Greenl. on Ev. 445.\nThe defendant could stop at any place he chose and the cross-examination could only go to facts and circumstances connected with the direct examination. Cooley\u2019s Const. Lim., 6th ed., 384-386. His constitutional. privilege protects him from cross-examination on aiiy point not touched in his examination in chief. State v. Lurch, 12 Oregon, 99; 6 Pac. Rep. 408; State v. Bacon, 13 Oregon, 143; 8 Pac. Rep. 393; 57 Am. Rep. 8; State v. Saunders, 14 Oregon, 300; 12 Pac. Rep. 441; State v. Gallo, 18 Oregon, 435; 23 Pac. Rep. 264.\nIf the defendant after going on the stand in his own behalf refused to answer any question on cross-examination he could not be punished for it. The remedy in this case for the Government would be to strike out his evidence in chief.\nPowers going on the stand before the commissioner and giving testimony did not waive the constitutional privilege as to such testimony at a later stage. Cullen\u2019s Case, 24 Gratt. (Va.) 624. \u2019 For this evidence was clearly extorted by compulsion through fear of imprisonment.\nThe waiver of the privilege must always be made understandingly and willingly, and generally after being fully warned by the court. Cullen v. Commonwealth, 24 Gratt. 624; 1 Greenl. on Ev., \u00a7 451.\nThe confession by the defendant was made under such circumstances that it was not admissible evidence even \u2018had it been made out of court. Bram v. United States, supra; United States v. Ball, 81 Fed. Rep. 837.\nThe guaranty must have a broad and liberal construction in favor of the party and rights which it was intended to secure. Counselman v. Hitchcock, supra; Boyd v. United States, 116 U. S. 616; Wilson v. United States, 221 U. S. 361; \u00a7 860, Rev. Stat.\nMr; Assistant Attorney General Denison, with whom Mr. Daring C. Christie was on the brief, for the United States:\nThe omission of the commissioner to advise the defendant of his privilege was not a breach of the privi-. lege.\nFurthermore, this defendant in fact resisted giving the answer and did so only under compulsion. There was nothing to show that' he was not fully cognizant of his rights. Wilson v. United States, 162 U. S. 613, 623.\nThe warning as to, the privilege is not essential. Wig-more on Evidence, \u00a7 2269.\nUnless defendant\u2019s privilege was violated at the preliminary' hearing, it was not violated at all, for Colly\u2019s quotation at the final trial, of what defendant had previously said, Was no new breach of the privilege.\nDefendant could not have been compelled to testify personally at his final trial, even though he voluntarily testified at the preliminary hearing.\nThe testimony below was that of Colly, not of the defendant. The defendant was not on the witness stand. No new pressure was exerted on him. If his former ad-\u2019 missions were not .improperly extorted by the commissioner, it was competent for Colly to testify as to them, just as to formal confessions. Wilson v. United States, 162 U. S. 613, 623; Hardy v. United States, 186 U. S. 224, 228; Moore v. Commonwealth, 29 Leigh (Va.), 701; State v. Branham, 13 S. Car. 389; State v. Melton, 120 N. Car. 591; Jackson v. State, 39 Oh. St. 37; Ortiz v. State, 30 Florida, 256; State v. Burrell, 27 Montana, 282; Wigmore, \u00a7\u00a7850, 852, 2276.\nThe admissions of the defendant- were, not improperly obtained at the preliminary hearing before the commissioner, because they fell within his waiver of privilege.\nNo objection on the score of relevancy was taken to this testimony either before the commissioner or on the trial; and, in the discretion of the court, it was plainly relevant, both as bearing on the defendant\u2019s explanation of his presence at the still particularly charged, Wood v. United States, 16 Pet. 342; Buckley v. United States, 4 How. 251, 259; Wigmore on Evidence, \u00a7\u00a7 215, 242, 300, 371, and as bearing on his credibility, Tla-Koo-Yel-Lee v. United States, 167 U. S. 274; Johnson v. Jones; 1 Black, 209, 225; Langhorne v. Commonwealth, 76 Virginia, 1016; Wigmore on Evidence, \u00a7 988 (p. 1142), \u00a7 983 (p. 1114).\nA defendant who. takes the stand waives privilege as to questions along both these lines. Brown v. Walker, 161 U. S. 597; State v. Wentworth, 65 Maine, 234, 243; Guy v. State, 90 Maryland, 29; Lawrence v. State, 103 Maryland, 17; State v. Ober, 52 N. H. 459; R. R. Co. v. D\u2019Aoust, 3 Ont. L. R. 653.\nAn accused taking the stand may be asked as to prior convictions. Norfolk v. Gaylord, 28 Connecticut, 309.\nDefendant was not privileged as to other acts of intercourse. State v. Klitzke, 46 Minnesota, 343.\nBastardy; defendant denying the intercourse charged, compelled to testify as to other intercourse. People v. Dupounce (Mich.), 94 N. W. Rep. 388.\nThe waiver extends to \u201cany question, material -to the case, which would in the case of any other witness be legitimate cross-examination,\u201d even though it involves some other crime; here applied to questions con\u00e9erning the rape intercourse which led to the charge of bastardy. Connors v. People, 50 N. Y. 240.\nAssault; questions as to former arrests, to affect credibility,- allowed. People v. Casey, 72 N. Y. 393, 398.\nQuestions as to former assaults, to affect credibility, allowed. People v. Tice, 131 N. Y. 651, 655.\nApproving Connors v. People; defendant not privileged as to-questions affecting his credibility. People v. Webster, 139 N. Y. 73, 84; People v. Tice followed; People v. Rozelle, 78 California, 84.\nDefendant may be cross-examined by the same rule as other witnesses, except that the court has no discretion. People v. Meyer, 75 California, 383.\nPrivilege waived as to cross-examination to character. People v. Gallagher, 100 California, 466; People v. Arnold, 116 California, 682, 687; Smith v. State, 137 Alabama, 22.\nHe becomes \u201csubject to cross-examination and impeachment as are other witnesses.\u201d In People v. Dole (Cal.), 51 Pac. Rep. 945; a Question as to a former admission was allowed, and State v. Gaylord, 35 Connecticut, 203, 207, a murder case, cross-examination as to credit, was allowed.\n. The controversy whether the waiver of privilege by a defendant extends to all things relevant to the issue, as held in Guy v. State, 90 Maryland, 29; Lawrence v. State, 103 Maryland, 17; Commonwealth v. Nichols, 114 Massachusetts, 287; Spies v. People, 122 Illinois, 255; State v. Griswold, 67 Connecticut, 290; Clark v. Jones, 87 Alabama, 71; State v. McGee, 25 So. Car. 247; People v. Conroy, 153 N. Y. 174; People v. Tice, 131 N. Y. 651, 655; 8th Ency. Pl. & Pr. 147, 151; Wigmore, \u00a7 2276, or is limited to the scope of proper cross-examination, as was perhaps intimated (though not decided) in Spies v. Illinois, 123 U. S. 131, 180; Fitzpatrick v. United States, 178 U. S. 304, 314; Sawyer v. United States, 202 U. S. 150, 165, is deemed immaterial here because the field of the direct examination was the whole fact of guilt or innocence, and any cross-examination \u2022that was relevant was necessarily within that field. Indeed, this is generally the case where the witness claiming the privilege is the defendant. Wigmore, \u00a7 2276, p. 3155.\nThe error, if any, was harmless.\nThere is nothing to indicate that the defendant was in the least degree prejudiced by the alleged error, and the discretion of the trial court should not be disturbed. Holt v. United States, 218 U. S. 245; Rea v. Missouri, 17 Wall. 532; Willis v. Russell, 100 U. S. 621, 625.\nThe further grounds of error advanced in the brief were not assigned, nor have they any merit. Plaintiff in error claims here for the first time, that neither the grand jury nor the petit jury were summoned or sworn.\nThe defect, if any, was- waived. Rodriguez v. United States, 198 U. S. 156; United States v. Gale, 109 U. S. 65; Agnew v. United States, 165 U. S. 36; McInerney v. United States, 147 Fed. Rep. 183."
+  },
+  "file_name": "0303-01",
+  "first_page_order": 345,
+  "last_page_order": 358
+}

@@ -1,0 +1,952 @@
+{
+  "id": 3917301,
+  "name": "YOUNG v. MASCI",
+  "name_abbreviation": "Young v. Masci",
+  "decision_date": "1933-04-24",
+  "docket_number": "No. 643",
+  "first_page": "253",
+  "last_page": "261",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "289 U.S. 253"
+    },
+    {
+      "type": "parallel",
+      "cite": "77 L. Ed. 1158"
+    },
+    {
+      "type": "parallel",
+      "cite": "53 S. Ct. 599"
+    },
+    {
+      "type": "vendor",
+      "cite": "1933 U.S. LEXIS 178"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1932-075"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "274 U.S. 352",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81168
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0352-01"
+      ]
+    },
+    {
+      "cite": "42 Atl. 918",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Md. 12",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        2177193
+      ],
+      "pin_cites": [
+        {
+          "page": "21-22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/89/0012-01"
+      ]
+    },
+    {
+      "cite": "86 Ill. 110",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        2770838
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/86/0110-01"
+      ]
+    },
+    {
+      "cite": "28 Atl. 32",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Conn. 495",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        8846377
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/63/0495-01"
+      ]
+    },
+    {
+      "cite": "24 N.E. 658",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Ohio St. 387",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        928358
+      ],
+      "pin_cites": [
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/47/0387-01"
+      ]
+    },
+    {
+      "cite": "59 S.E. 545",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 So. 210",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Miss. 426",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        1758063
+      ],
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/85/0426-01"
+      ]
+    },
+    {
+      "cite": "111 S.E. 828",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 W.Va. 710",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8633960
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/w-va/90/0710-01"
+      ]
+    },
+    {
+      "cite": "133 Pac. 1020",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Wash. 486",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        620564
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/74/0486-01"
+      ]
+    },
+    {
+      "cite": "97 S.Car. 171",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        1946038
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/97/0171-01"
+      ]
+    },
+    {
+      "cite": "176 N.W. 25",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "case_ids": [
+        8589011
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nd/44/0036-01"
+      ]
+    },
+    {
+      "cite": "158 S.E. 491",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Pac. 966",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "184 N.W. 227",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Neb. 632",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4528178
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/108/0632-01"
+      ]
+    },
+    {
+      "cite": "174 N.W. 438",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Minn. 44",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        136515
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/144/0044-01"
+      ]
+    },
+    {
+      "cite": "26 S.W. (2d) 563",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 Ky. 714",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        2437278
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/233/0714-01"
+      ]
+    },
+    {
+      "cite": "87 S.E. 10",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Ga. 275",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        1067667
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/144/0275-01"
+      ]
+    },
+    {
+      "cite": "123 Atl. 1",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Conn. 170",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1640954
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/100/0170-01"
+      ]
+    },
+    {
+      "cite": "167 Pac. 966",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Colo. 365",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2555989
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/63/0365-01"
+      ]
+    },
+    {
+      "cite": "198 S.W. 732",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Ky. 188",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4457614
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/178/0188-01"
+      ]
+    },
+    {
+      "cite": "201 Ala. 261",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3608697
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/201/0261-01"
+      ]
+    },
+    {
+      "cite": "264 Fed. 483",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6733824
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/264/0483-01"
+      ]
+    },
+    {
+      "cite": "213 Fed. 763",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3569472
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/213/0763-01"
+      ]
+    },
+    {
+      "cite": "111 S.E. 863",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "183 N.C. 538",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8657201
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/183/0538-01"
+      ]
+    },
+    {
+      "cite": "232 Pac. 929",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Wash. 624",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        772238
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/132/0624-01"
+      ]
+    },
+    {
+      "cite": "88 Ore. 247",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        4475799
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1050"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/88/0247-01"
+      ]
+    },
+    {
+      "cite": "122 Atl. 880",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 N.J.L. 149",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        204952
+      ],
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/99/0149-01"
+      ]
+    },
+    {
+      "cite": "125 Atl. 895",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Md. 115",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        8716600
+      ],
+      "pin_cites": [
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/146/0115-01"
+      ]
+    },
+    {
+      "cite": "214 Pac. 42",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal. 684",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2139592
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/190/0684-01"
+      ]
+    },
+    {
+      "cite": "188 S.W. 54",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Tenn. 509",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        4862549
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/135/0509-01"
+      ]
+    },
+    {
+      "cite": "117 S.Car. 100",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        1971001
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/117/0100-01"
+      ]
+    },
+    {
+      "cite": "148 Atl. 186",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 R.I. 394",
+      "category": "reporters:state",
+      "reporter": "R.I.",
+      "case_ids": [
+        5066477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ri/50/0394-01"
+      ]
+    },
+    {
+      "cite": "179 N.W. 249",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Mich. 578",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1741591
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/211/0578-01"
+      ]
+    },
+    {
+      "cite": "164 N.W. 520",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 Mich. 170",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1766339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/198/0170-01"
+      ]
+    },
+    {
+      "cite": "206 N.W. 130",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 Iowa 1389",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2293118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/200/1389-01"
+      ]
+    },
+    {
+      "cite": "143 Atl. 163",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Conn. 333",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1535414
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/108/0333-01"
+      ]
+    },
+    {
+      "cite": "232 U.S. 221",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3672811
+      ],
+      "pin_cites": [
+        {
+          "page": "234-235"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/232/0221-01"
+      ]
+    },
+    {
+      "cite": "115 N.E. 443",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 N.Y. 111",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        298277
+      ],
+      "pin_cites": [
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/220/0111-01"
+      ]
+    },
+    {
+      "cite": "111 N.E. 1050",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 N.Y. 382",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        75756
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/217/0382-01"
+      ]
+    },
+    {
+      "cite": "13 S.W. 1092",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Ark. 381",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1911693
+      ],
+      "pin_cites": [
+        {
+          "page": "386"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/53/0381-01"
+      ]
+    },
+    {
+      "cite": "16 N.H. 357",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        466281
+      ],
+      "pin_cites": [
+        {
+          "page": "359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/16/0357-01"
+      ]
+    },
+    {
+      "cite": "101 Mass. 1",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2144829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/101/0001-01"
+      ]
+    },
+    {
+      "cite": "286 U.S. 145",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3915622
+      ],
+      "pin_cites": [
+        {
+          "page": "154"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/286/0145-01"
+      ]
+    },
+    {
+      "cite": "281 U.S. 397",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3912442
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/281/0397-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 160",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934668
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0160-01"
+      ]
+    },
+    {
+      "cite": "235 U.S. 610",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674071
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/235/0610-01"
+      ]
+    },
+    {
+      "cite": "274 U.S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81162
+      ],
+      "pin_cites": [
+        {
+          "page": "115-116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0112-01"
+      ]
+    },
+    {
+      "cite": "272 U.S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1501251
+      ],
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/272/0465-01"
+      ]
+    },
+    {
+      "cite": "157 N.E. 856",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "245 N.Y. 557",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1979647
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/245/0557-01"
+      ]
+    },
+    {
+      "cite": "157 N.E. 873",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "245 N.Y. 597",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1979648,
+        1979635
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/245/0597-02",
+        "/ny/245/0597-01"
+      ]
+    },
+    {
+      "cite": "220 N.Y.S. 76",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 App. Div. 444",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4813898
+      ],
+      "pin_cites": [
+        {
+          "page": "446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/219/0444-01"
+      ]
+    },
+    {
+      "cite": "162 Atl. 623",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 N.J.L. 453",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        181459
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/109/0453-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 780,
+    "char_count": 11328,
+    "ocr_confidence": 0.633,
+    "pagerank": {
+      "raw": 1.430587429742135e-06,
+      "percentile": 0.9910423349006062
+    },
+    "sha256": "2ce363dc9c9120469d90a1db5c044a67ee077dd0528c762660bcbe18612dd5bf",
+    "simhash": "1:21c483221a890054",
+    "word_count": 1974
+  },
+  "last_updated": "2024-02-27T16:32:10.051422+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "YOUNG v. MASCI"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brand\u00e9is\ndelivered the opinion of the Court.\nA New York statute provides: \u201cEvery owner of a niotor vehicle or motor cycle operated upon a public highway shall be liable and responsible for death or injuries to person dr property resulting from negligence in the operation of such motor vehicle or motor cycle, in the business of such owner or otherwise, by any person legally using or operating the same with the permission, express or implied, of such owner.\u201d Laws N.Y. 1929, Vol. 1, p. 82; Vehicle and Traffic Law, \u00a7 59.\nMasci, a citizen and resident of New York, brought this action in a court of New Jersey against Young, a citizen and resident of the latter State, to enforce liability under the above statute. The case was tried before a jury. It appeared that Young lent his automobile to Michael Balbino for a day without restriction upon its use, the contract of bailment and delivery of the ear being made in New Jersey; that Balbino took the car to New York; and that while driving there negligently he struck Masci. There was evidence to justify a finding that the car was talcen to New York with Young\u2019s permission, express or implied. Young moved for a directed verdict on the ground that the bailment was made in New Jersey; that he was not in New York at the time of the accident; that Balbino was not his agent or engaged on business for him; and that to apply the law of New York and so make the defendant responsible for something done by Balbino in New York would deprive the defendant of his property and his liberty without due process of law, in violation of the Fourteenth Amendment. The presiding judge declined to direct the verdict; ruled that if negligence was proved, the law of 'New York was controlling on the question' of liability; and charged that the defendant was responsible if the operator \u201c was driving this automobile at the time of the accident with the permission of the defendant, either express or implied.\u201d The jury found a verdict for the plaintiff; and the judgment entered thereon was affirmed by the highest court of that State. 109 N.J.L. 453; 162 Atl. 623.\nYoung appealed to this Court on the ground, among others, that the statute as applied violates the due process clause of the Fourteenth Amendment. He does not challenge its constitutionality on the broad ground that an owner cannot be made liable for the driver\u2019s negligence unless the relation of master and servant exists. The contrary had been held in New York in respect to this statute. Downing v. New York, 219 App. Div. 444, 446; 220 N.Y.S. 76; affirmed, 245 N.Y. 597; 157 N.E. 873; Dawley v. McKibbin, 245 N.Y. 557; 157 N.E. 856. And in Van Oster v. Kansas, 272 U.S. 465, 467, where it was held that the due process clause does not prevent a State from forfeiting property of an innocent owner for the unauthorized act of one to whom he has entrusted it, the Court states that it is not \u201cuncommon for the law to visit upon the owner of property the unpleasant consequences of the unauthorized action of one to whom he has entrusted it; \u201d and refers to the legislation of New York \u201c imposing liability on owners of vehicles for the negligent operation by those entrusted with their use, regardless of a master-servant relation.\u201d Compare Pizitz Co. v. Yeldell, 274 U.S. 112, 115-116. Statutes of like character have been sustained also by the highest courts of other States.\nNor does Young question the State\u2019s power to regulate the use of motor vehicles of non-residents on its high-' ways. Compare Hendrick v. Maryland, 235 U.S. 610; Kane v. New Jersey, 242 U.S. 160. He challenges the statute only as applied to a non-resident owner who made the bailment outside the State of New York and who was not within it at the time of the accident.\nThe contention is that subjection of the owner to liability under the New York law deprives him of immunity from liability to third parties which he had acquired in New Jersey by virtue of the contract of bailment made there; and that thus the statute' deprives him.of his liberty to contract and his property without due process of law. If such a contract can be found in the case at bar, the statute does not purport to affect it. The statute neither forbids the making nor alters the' terms of any contract. Compare Home Insurance Co. v. Dick, 281 U.S. 397. It does not purport to affect rights as between owner and bailee. Moreover, the contract of bailment could not have conferred upon the owner immunity from liability to third persons for the driver\u2019s negligence. Liability for a tort depends upon the law of the place of the injury; and (apart from the effect of the full faith and credit clause, which is not here involved) agreements made elsewhere cannot curtail: the power of a State to impose responsibility for injuries within its borders. Compare Bradford Electric Light Co. v. Clapper, 286 U.S. 145, 154. Thus the essential question is the power of New York to make the absent owner liable personally for the injury inflicted within the State by his machine.\nWhen Young gave permission tO' drive his .car to New York, he subjected himself to the legal consequences imposed by that State upon Balbino\u2019s negligent driving as fully as if he had stood in the relation of master to servant. A person who sets in motion in one State the means by which injury is inflicted in another may, consistently with the due process clause, be made liable, for that injury whether the means employed be a responsible \u25a0agent or an irresponsible instrument. The cases are many in' which \"a. person acting outside the State may be held responsible according to the law of the State for injurious consequences within it. Thus, liability is commonly imposed under such circumstances for homicide, Commonwealth v. Macloon, 101 Mass. 1; for maintenance of a nuisance, State v. Lord, 16 N.H. 357, 359; for blasting operations, Cameron v. Vandergriff, 53 Ark. 381, 386; 13 S.W. 1092; and for negligent manufacture, MacPherson v. Buick Motor. Co, 217 N.Y. 382; 111 N.E. 1050.\nThe power of the State to protect itself and its inhabitants is not limited by the scope of the doctrine of principal and agent. The inadequacy of that doctrine, to cope with the menacing problem of practical responsibility for motor \u00e1ccidents has been widely felt- in cases.where the injurious consequences are the immediate result of an intervening negligent act of another. Some courts have held, in actions against the owner for injuries resulting from the driver\u2019s negligence, that a presumption of the employment relationship arises from the fact of ownership; or that, if the'relationship is proved, a presump-, tion arises that the accident occurred within the scope of the employment, Many courts have extended responsibility, without the aid of legislation, by imposing liability upon the owner for injuries resulting from the neg-. \u2022ligent operation of the car by a member of his.family. In some States, including New York, the problem was left to the legislature. See Van Blaricom v. Dodgson, 220 N.Y. 111, 117; 115 N.E. 443. Its statute makes mere permission to use the car the basis of liability in case of negligent injury. We have no occasion to decide where the line is to be drawn generally between conduct which may validly subject an absent'party to the laws of a State and that which may not. No good reason is suggested why, where there is permission to take the automobile into a State for use upon its highways, personal liability should not be imposed upon the owner in case of injury inflicted, there by the driver\u2019s negligence, regardless of the fact that the owner is a citizen and resident of another State. Compare Thomas v. Matthiessen, 232 U.S. 221, 234-235.\nThe claim is made that the statute as applied violates the equality clause of the Fourteenth Amendment, because in New Jersey, under a contract of bailment made within the State, other, citizens are protected from liability for the negligence of the bailee. Obviously there is no denial of equal protection, since all who permit their, cars to be driven in New York are treated alike. A claim is also made that the statute as-applied violates the contract clause of the Federal Constitution, because it impairs the obligation of the contract of bailment made in New Jersey. As it does not appear that any claim under the contract clause was made below, we need not consider the answers to this contention.\nAffirmed.\nLevy v. Daniels\u2019 U-Drive Auto Renting Co., 108 Conn. 333; 143 Atl. 163; Seleine v. Wisner, 200 Iowa 1389; 206 N.W. 130; Stapleton v. Independent Brewing Co., 198 Mich. 170; 164 N.W. 520 (compare Hawkins v. Ermatinger, 211 Mich. 578; 179 N.W. 249); Kernan. v. Webb, 50 R.I. 394; 148 Atl. 186. Statutes in South Carolina and Tennessee subject the vehicles t\u00f3 a lien for damages resulting from negligent operation under certain circumstances. See Ex parte Maryland Motor Car Ins. Co., 117 S.Car. 100; 108 S.E. 260; Parker-Harris Co. v. Tate, 135 Tenn. 509; 188 S.W. 54. A California statute imposes in the case of negligent operation by a minor, liability upon the parent or guardian who has signed the minor\u2019s application for a license. See Buelke v. Levenstadt, 190 Cal. 684; 214 Pac. 42,\nLouis v. Johnson, 146 Md. 115, 118; 125 Atl. 895; Tischler v. Steinholtz, 99 N.J.L. 149, 152; 122 Atl. 880; West v. Kern, 88 Ore. 247; 171 Pac. 413, 1050; Griffin v. Smith, 132 Wash. 624; 232 Pac. 929; compare Freeman v. Dalton, 183 N.C. 538; 111 S.E. 863.\nBenn v. Forrest, 213 Fed. 763; Foundation Co. v. Henderson, 264 Fed. 483; Penticost v. Massey, 201 Ala. 261; 77 So. 675; Wood v. Indianapolis Abattoir Co., 178 Ky. 188; 198 S.W. 732.\nHutchins v. Haffner, 63 Colo. 365; 167 Pac. 966; Stickney v. Epstein, 100 Conn. 170; 123 Atl. 1; Griffin v. Russell, 144 Ga. 275; 87 S.E. 10; Steele v. Age\u2019s Administratrix, 233 Ky. 714; 26 S.W. (2d) 563; Plasch v. Fass, 144 Minn. 44; 174 N.W. 438; Linch v. Dobson, 108 Neb. 632; 184 N.W. 227; Boes v. Howell, 24 N.Mex. 142; 173 Pac. 966; Grier v. Woodside, 200 N.Car. 759; 158 S.E. 491; Ulman v. Lindeman, 44 N.Dak. 36; 176 N.W. 25; Davis v. Littlefield, 97 S.Car. 171; 81 S.E. 487; Birch v. Abercrombie, 74 Wash. 486; 133 Pac. 1020; Jones v. Cook, 90 W.Va. 710; 111 S.E. 828.\nCompare the liability for harm done by a \u201c dangerous instrumentality \u201d entrusted by the defendant to an employee but not used, at the time of the injury, in the course of the employment. Barmore v. Railway Co., 85 Miss. 426, 448; 38 So. 210; Stewart v. Cary Lumber Co., 146 N. Car. 47; 59 S.E. 545; Railway Co. v. Shields, 47 Ohio St. 387, 392; 24 N.E. 658. Compare also the liability of a contraet\u00e9e for harm caused by an independent contractor in the performance of work \u201c inherently dangerous.\u201d Norwalk Gaslight Co. v. Norwalk, 63 Conn. 495; 28 Atl. 32; Joliet v. Harwood, 86 Ill. 110; Bonaparte v. Wiseman, 89 Md. 12, 21-22; 42 Atl. 918.\nCompare the scope of the jurisdiction of the courts of a State over nonresidents in actions based on the operation of motor vehicles within the State. Hess v. Pawlaski, 274 U.S. 352; Kane v. New Jersey, 242 U.S. 160.",
+        "type": "majority",
+        "author": "Mr. Justice Brand\u00e9is"
+      }
+    ],
+    "attorneys": [
+      "Mr. Daniel Thew Wright, with whom Messrs: R. Robinson Chance and Philip Ershler were on the brief, for appellant. \u2022",
+      "Mr. Samuel Kaufman for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "YOUNG v. MASCI\nNo. 643.\nArgued March 24, 1933. \u2014\nDecided April 24, 1933\nMr. Daniel Thew Wright, with whom Messrs: R. Robinson Chance and Philip Ershler were on the brief, for appellant. \u2022\nMr. Samuel Kaufman for appellee."
+  },
+  "file_name": "0253-01",
+  "first_page_order": 309,
+  "last_page_order": 317
+}

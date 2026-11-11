@@ -1,0 +1,918 @@
+{
+  "id": 5721748,
+  "name": "UNITED STATES v. WOOD",
+  "name_abbreviation": "United States v. Wood",
+  "decision_date": "1936-12-07",
+  "docket_number": "No. 34",
+  "first_page": "123",
+  "last_page": "151",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "299 U.S. 123"
+    },
+    {
+      "type": "parallel",
+      "cite": "81 L. Ed. 78"
+    },
+    {
+      "type": "parallel",
+      "cite": "57 S. Ct. 177"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1936-033"
+    },
+    {
+      "type": "vendor",
+      "cite": "1936 U.S. LEXIS 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "51 N. Y. 506",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2061567
+      ],
+      "pin_cites": [
+        {
+          "page": "509, 510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/51/0506-01"
+      ]
+    },
+    {
+      "cite": "2 Johns. 194",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "case_ids": [
+        6772683,
+        6772663
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/johns/2/0194-01",
+        "/johns/2/0193-01"
+      ]
+    },
+    {
+      "cite": "120 U. S. 430",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3468608
+      ],
+      "pin_cites": [
+        {
+          "page": "433-435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/120/0430-01"
+      ]
+    },
+    {
+      "cite": "123 U. S. 131",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3523799
+      ],
+      "pin_cites": [
+        {
+          "page": "167-169"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/123/0131-01"
+      ]
+    },
+    {
+      "cite": "2 Johns. 381",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "case_ids": [
+        6774566
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/johns/2/0380-01"
+      ]
+    },
+    {
+      "cite": "1 Dall. 73",
+      "category": "reporters:scotus_early",
+      "reporter": "Dall.",
+      "case_ids": [
+        1408418,
+        12129141
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/1/0072-01",
+        "/dall/1/0073-01"
+      ]
+    },
+    {
+      "cite": "13 S. E. 304",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Va. 45",
+      "category": "reporters:state",
+      "reporter": "Va.",
+      "case_ids": [
+        1874883
+      ],
+      "pin_cites": [
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/88/0045-01"
+      ]
+    },
+    {
+      "cite": "162 Atl. 696",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Vt. 494",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "case_ids": [
+        4570647
+      ],
+      "pin_cites": [
+        {
+          "page": "497, 498"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vt/104/0494-01"
+      ]
+    },
+    {
+      "cite": "147 S. W. 580",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8285702
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/147/0580-01"
+      ]
+    },
+    {
+      "cite": "133 S. W. 882",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10339210,
+        10339323
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/133/0882-01",
+        "/sw/133/0882-02"
+      ]
+    },
+    {
+      "cite": "12 Tex. App. 269",
+      "category": "reporters:state",
+      "reporter": "White & W.",
+      "pin_cites": [
+        {
+          "page": "277-8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Atl. 900",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 R. I. 411",
+      "category": "reporters:state",
+      "reporter": "R.I.",
+      "case_ids": [
+        4820804
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ri/16/0411-01"
+      ]
+    },
+    {
+      "cite": "24 Ohio St. 206",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        888406
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/24/0206-01"
+      ]
+    },
+    {
+      "cite": "51 N. W. 534",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Mich. 454",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1371436
+      ],
+      "pin_cites": [
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/90/0454-01"
+      ]
+    },
+    {
+      "cite": "53 Maine 328",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        8846659
+      ],
+      "pin_cites": [
+        {
+          "page": "344, 345"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/me/53/0328-01"
+      ]
+    },
+    {
+      "cite": "5 Maine 333",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        8740494
+      ],
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/me/5/0333-01"
+      ]
+    },
+    {
+      "cite": "91 So. 411",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        8842227,
+        8842207
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/150/0971-01",
+        "/la/150/0969-01"
+      ]
+    },
+    {
+      "cite": "150 La. 971",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        8842227
+      ],
+      "pin_cites": [
+        {
+          "page": "985, 986"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/150/0971-01"
+      ]
+    },
+    {
+      "cite": "119 La. 1013",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2620944
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/119/1013-01"
+      ]
+    },
+    {
+      "cite": "30 So. 895",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 La. 407",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2498223
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/106/0407-01"
+      ]
+    },
+    {
+      "cite": "52 Pac. 453",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Kan. 241",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1151798
+      ],
+      "pin_cites": [
+        {
+          "page": "244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/59/0241-01"
+      ]
+    },
+    {
+      "cite": "20 Iowa 486",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        343374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/20/0486-01"
+      ]
+    },
+    {
+      "cite": "9 Fla. 215",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1164540
+      ],
+      "pin_cites": [
+        {
+          "page": "221, 222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fla/9/0215-01"
+      ]
+    },
+    {
+      "cite": "8 N. E. 911",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Ind. 171",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1971718
+      ],
+      "pin_cites": [
+        {
+          "page": "172"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/108/0171-01"
+      ]
+    },
+    {
+      "cite": "158 Ala. 1",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3552268
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/158/0001-01"
+      ]
+    },
+    {
+      "cite": "74 Ala. 26",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        5643421
+      ],
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/74/0026-01"
+      ]
+    },
+    {
+      "cite": "45 S. W. (2d) 873",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 S. E. 916",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Ga. App. 700",
+      "category": "reporters:state",
+      "reporter": "Ga. App.",
+      "case_ids": [
+        1281994
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga-app/13/0700-01"
+      ]
+    },
+    {
+      "cite": "58 N. E. 74",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 Ind. 277",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1596636
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/155/0277-01"
+      ]
+    },
+    {
+      "cite": "17 N. E. 258",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Ind. 129",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1327481
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/115/0129-01"
+      ]
+    },
+    {
+      "cite": "1 Gray 472",
+      "category": "reporters:state",
+      "reporter": "Gray",
+      "case_ids": [
+        1973948
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/67/0472-01"
+      ]
+    },
+    {
+      "cite": "42 Atl. 811",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 N. J. L. 666",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        308146
+      ],
+      "pin_cites": [
+        {
+          "page": "678"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/62/0666-01"
+      ]
+    },
+    {
+      "cite": "53 N. Y. 164",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        512897
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/53/0164-01"
+      ]
+    },
+    {
+      "cite": "250 U. S. 583",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3683283
+      ],
+      "pin_cites": [
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/250/0583-01"
+      ]
+    },
+    {
+      "cite": "15 F. (2d) 762",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1297045,
+        1247911
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/15/0762-01",
+        "/alaska-fed/5/0316-01"
+      ]
+    },
+    {
+      "cite": "297 Fed. 177",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3637642,
+        1247996
+      ],
+      "pin_cites": [
+        {
+          "page": "178, 179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/297/0177-01",
+        "/alaska-fed/5/0211-01"
+      ]
+    },
+    {
+      "cite": "290 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3926505
+      ],
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/290/0371-01"
+      ]
+    },
+    {
+      "cite": "253 U. S. 300",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189338
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0300-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 494",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434013
+      ],
+      "pin_cites": [
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0494-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 593",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298881
+      ],
+      "pin_cites": [
+        {
+          "page": "596"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/165/0593-01"
+      ]
+    },
+    {
+      "cite": "295 U. S. 654",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        333745
+      ],
+      "pin_cites": [
+        {
+          "page": "657"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/295/0654-01"
+      ]
+    },
+    {
+      "cite": "100 Ind. 357",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1368948
+      ],
+      "pin_cites": [
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/100/0357-01"
+      ]
+    },
+    {
+      "cite": "195 U. S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3634074
+      ],
+      "pin_cites": [
+        {
+          "page": "69"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/195/0065-01"
+      ]
+    },
+    {
+      "cite": "294 U. S. 648",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3923348
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "669"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/294/0648-01"
+      ]
+    },
+    {
+      "cite": "293 U. S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3930392
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "476, 487"
+        },
+        {
+          "page": "pp. 485, 486"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/293/0474-01"
+      ]
+    },
+    {
+      "cite": "281 U. S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3912766
+      ],
+      "pin_cites": [
+        {
+          "page": "288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/281/0276-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 343",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599681
+      ],
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/170/0343-01"
+      ]
+    },
+    {
+      "cite": "127 U. S. 540",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3531534
+      ],
+      "pin_cites": [
+        {
+          "page": "549"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/127/0540-01"
+      ]
+    },
+    {
+      "cite": "83 F. (2d) 587",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        931487
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/83/0587-01"
+      ]
+    },
+    {
+      "cite": "65 App. D. C. 330",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 U. S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5711894
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/212/0183-01"
+      ]
+    },
+    {
+      "cite": "49 Stat. 682",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1699,
+    "char_count": 42425,
+    "ocr_confidence": 0.566,
+    "pagerank": {
+      "raw": 2.9300667603994966e-06,
+      "percentile": 0.997329767102252
+    },
+    "sha256": "5f92b349cea1b3e33fc9ed2f1ee2d1ae4aa0b45b9b36921448d13768953b272f",
+    "simhash": "1:b32e8c56adaf9ce6",
+    "word_count": 7207
+  },
+  "last_updated": "2024-02-27T21:43:41.051663+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice McReynolds, Mr. Justice Sutherland, and Mr. Justice Butler are of opinion that the case is controlled by our decision in Crawford v. United States, 212 U. S. 183, and that the rule there laid down should not now be departed from. They think the opinion of the court below is sound, and that its judgment should be affirmed.",
+      "Mr. Justice Stone took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "UNITED STATES v. WOOD."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Hughes\ndelivered the opinion of the Court.\nThis case presents the question of the constitutional validity of the Act of Congress of August 22, 1935, c. 605, 49 Stat. 682, prescribing qualifications for service as jurors in the District of Columbia, as applied to criminal prosecutions.\nThe respondent was convicted of petit larceny in the Police Court of the District and was sentenced to imprisonment for 240 days. The larceny was from a private corporation. On his trial twelve prospective jurors were called. Their examination showed that one was the holder of a \u201cbonus certificate\u201d; others were employed as clerks in governmental departments, one in the United States Weather Bureau, another in the Federal Emergency Administration, a third in the Treasury Department, and a fourth in the Navy Yard. Another prospective juror was a housewife who received a civil war pension. Each of these persons was challenged for cause upon the ground of interest in the United States Government. The challenge was disallowed. Counsel for defendant then exhausted his three peremptory challenges; and when the jury was finally selected there remained as jurors, despite a reiterated challenge for cause, the recipient of the civil war pension and the two clerks employed in the Treasury Department and the Navy Yard respectively.\nThe action of the trial court was taken under the Act of August 22, 1935, which provides that persons of this description shall be eligible for jury service. On appeal, the Court of Appeals thus stated the occasion for the statute, its purport, and the question it raises:\n\u201cPrior to the passage of this statute the provision with relation to the qualifications of a juror was that he should be a citizen of the United States, a resident of the District of Columbia, over twenty-one and under sixty-five years of age, able to read and write and understand the English language, and a person who had never been convicted of a felony or misdemeanor involving moral turpitude. In 1908 the Supreme Court held in Crawford v. United States, 212 U. S. 183, that an employee of the United States was not qualified to serve as a member of a petit jury in the District of Columbia in the trial of a criminal case. The effect of the decision and of others of like nature which followed, resulted, it is said, in narrowing the eligible list of jurors in the District to the point where it sometimes became difficult to secure jurors possessing the necessary qualifications. To correct this, Congress extended the list of eligibles to include employees of the United States and of the District of Columbia, officers and enlisted men of the National Guard and of the Military, Naval, Marine, and Coast Guard Reserve Corps, notaries public, postmasters, and recipients of pensions and gratuities from the United States or the District, as well as those having contracts with the United States or the District; and the question we have to decide is whether this statute, when applied in a criminal case like the present, is in violation of the provisions of the Sixth Amendment guaranteeing to the accused in all criminal prosecutions the right of trial by an impartial jury.\u201d\nDealing particularly with the qualification of governmental employees, the court answered this question in the affirmative and reversed the judgment of conviction. 65 App. D. C. 330; 83 F. (2d) 587. Because of the importance of the question we granted certiorari.\nFirst. \u2014 The Sixth Amendment requires that \u201cIn all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury.\u201d The Amendment prescribes no specific tests. The bias of a prospective juror may be actual or implied; that is, it may be bias in fact or bias conclusively presumed as matter of law. There is no ground for a contention\u2014 and we do not find that such a contention is made \u2014 that Congress has undertaken to preclude the ascertainment of actual bias. All persons otherwise qualified for jury service are subject to examination as to actual bias. All the resources of appropriate judicial inquiry remain available in this instance as in others to ascertain whether a prospective juror, although not exempted from service, has any bias in fact which would prevent his serving as an impartial juror. In dealing with an employee of the Government, the court would properly be solicitous to discover whether, in view of the nature or circumstances of his employment, or of the relation of the particular governmental activity to the matters involved in the prosecution, or otherwise, he had actual bias, and, if he had, to disqualify him. No bias of that sort is shown in the instant case.\nThe question here is as to implied bias, a bias attributable in law to the prospective juror regardless of actual partiality. The contention of the defendant is that there must be read into the constitutional requirement an absolute disqualification in criminal cases of a person employed by the Government, \u2014 a disqualification which Congress is powerless to remove or modify. This contention gives rise to two inquiries \u2014 (1) whether, in the practice in England prior to the adoption of the Amendment, or in the colonies, there was an absolute disqualification of governmental employees to serve on juries in criminal cases, and (2) whether, either because of that practice, or in reason, such a disqualification should be regarded as essential to the impartiality of the jury and hence beyond the reach of the legislative power. The Government insists that both questions should be answered in the negative.\nSecond. \u2014 The Government has presented the result of elaborate research to show that throughout the long period from the development of the jury system to modern times, the English common law permitted a servant of the king to serve as a juror in crown cases, provided he had no actual bias.\nChallenges at common law were to the array, that is, with respect to the constitution of the panel, or to the polls, for disqualification of a juror. Challenges to the polls were either \u201cprincipal\u201d or \u201cto the favor,\u201d the former being upon grounds of absolute disqualification, the latter for actual bias. The Government quotes the statements of early commentators from Fitzherbert to Hargrave, indicating that a principal challenge was not allowed in crown cases upon the ground that the prospective juror was a servant of the crown, and that a challenge for that reason, if permitted at all, was to the favor. The Government reviews the early cases in support of this conclusion. It is not necessary to set forth these authorities in detail as there seems to be no controversy as to their purport. We give in the margin the analysis presented by respondent\u2019s counsel. Their resum\u00e9 is as follows:\n\u201cFrom the above it seems that nineteen authorities hold that there is no principal cause of challenge against a Crown Servant; that twelve authorities hold that there is not even any challenge for favor. Fitsherbert, Coke, and Rex v. Hampden, 9 St. Tr. 1054, 1057, 1061, allow challenges for favor in respect of menial servants. Actual malice as distinguished from favor was allowed as a challenge by: Staunforde, Lord Hale, Duncombe, Hawkins, Matthew Bacon, Year Book 19 Ass. 62 PI. 639, Rex v. Genney, Keilw. 102 a, Reg. v. Blakeman, 175 Eng. Rpt. 479. Brooke allowed no challenge of any kind for the defendant but challenge of either kind for the king\u2019s side.\u201d\nRespondent\u2019s counsel quote from the commentators their statements of the reason why a crown servant was not challengeable, \u2014 as that \u201che should favor the King by reason of his obedience\u201d ; or, as put by Lord Colee\u2014 \u201cbecause in respect of his allegiance he ought to favor the king more.\u201d Hargrave, expressing dissatisfaction with the reason assigned by Lord Coke, observed: \u201cBut a better principle to found the rule upon was not unobvious; namely, that from the extensive variety of the king\u2019s connections with his subjects through tenures and offices, if favour to him was to prevail as an exception to a juror, it might lead to an infinitude of objections, and so operate as a serious obstruction to justice in suits in which ho is a party.\u201d The discussion of the reason for the rule affirms its existence.\nWhatever the reason, it is manifest, to say the least, that there was no settled practice under the English law establishing an absolute disqualification of governmental employees to serve as jurors in criminal cases. And such a disqualification cannot, upon the ground of such a practice, be treated as embedded in the Sixth Amendment. See Callan v. Wilson, 127 U. S. 540, 549; Thompson v. Utah, 170 U. S. 343, 350; Patton v. United States, 281 U. S. 276, 288; Dimick v. Schiedt, 293 U. S. 474, 476, 487; Continental Bank v. Chicago R. I. & P. Ry., 294 U. S. 648, 669; 2 Story on the Constitution, \u00a7 1791.\nWe turn to the question whether in the colonies, or in the States at the time of the adoption of the Sixth Amendment, there was such a disqualification. We find no satisfactory evidence to that effect. Counsel for the Government say that the practice in the colonies prior to the adoption of the Federal Constitution \u201capparently cannot be ascertained.\u201d They say that they have searched \u201cthe available reports and authorities without finding anything of relevance.\u201d The researches of respondent\u2019s counsel have not supplied the lack. They urge that, to make the exception applicable, the Government must affirmatively show that the colonists recognized the exception in favor of the king\u2019s servants at the time the Sixth Amendment was formulated. But before we can read an absolute disqualification into the Amendment because of a rule obtaining in the colonies different from that obtaining in England we must have proof that there was a different rule. Respondent\u2019s contention is based upon a supposed acceptance of Blackstone\u2019s statement of the grounds of a principal challenge:\n\u201cA principal challenge is such where the cause assigned carries with it prima fade evident marks of suspicion either of malice or favour; as, that a juror is of kin to either party within the ninth degree; that he has been arbitrator on either side; that he has an interest in the cause; that there is an action depending between him and the party; that he has taken money for his verdict; that he has formerly been a juror in the same cause; that he is the party\u2019s master, servant, counsellor, steward, or attorney, or of the same society or corporation with him: all these are principal causes of challenge; which, if true, cannot be overruled, for jurors must be omni exceptione majores3 Bl. Com. 363.\nUndoubtedly, as we have frequently said, the framers of the Constitution were familiar with Blackstone\u2019s Commentaries. Many copies of the work had been sold here and it was generally regarded as the most satisfactory exposition of the common law of England. Schick v. United States, 195 U. S. 65, 69. But in this instance we think the point is pressed too far. It will be observed that Blackstone does not refer specifically to the subject now under discussion. His statement has relation to masters and servants of private parties. And, while at another place he makes the general statement that challenges in criminal cases may be made \u201cfor the very same reasons that they may be made in civil causes\u201d (4 Bl. Com. 352), he makes no mention in either instance of the practice in crown cases with respect to servants of the crown. Blackstone\u2019s failure to refer to that historic exception is obviously not enough to refute the proof of its existence as shown by the affirmative statements of other commentators and the decided cases. We think that his omission to mention the case of crown servants cannot be regarded as a sufficient basis for holding, in the absence of other evidence, that the common law rule was different in the colonies from that in England, \u2014 much less that the Congress which proposed the Sixth Amendment, or the state legislatures which ratified it, undertook to establish an absolute disqualification of all governmental employees beyond the control of the congressional power.\nRespondent relies upon our decision in Crawford v. United States, 212 U. S. 183. That was a prosecution in the District of Columbia for conspiracy to defraud the United States in relation to a contract with the Post Office Department. One of the grounds of reversal of the judgment of conviction was the overruling by the trial court of a challenge to a juror who was a clerk in charge of a subpostal station located in a drug store. The Court referred to the qualifications for jurors prescribed by \u00a7 215 of the Code of Laws for the District and to the provision of \u00a7 217 exempting from jury duty \u201csalaried officers of the Government.\u201d Assuming the contention to be sound that the mere fact that a proposed juror was such a salaried officer could be ground only for his own claim of exemption, the Court expressed the opinion that the provisions of the sections of the Code did not embrace the entire subject of the qualifications of jurors; that by the common law there was a further qualification, and that under that law in force in Maryland, and applicable to the district, the court should have held the juror disqualified by reason of his employment. Id., pp. 195, 196. It will be observed that the employment was in the very department to the affairs of which the alleged conspiracy related. But the decision took a broader range and did not rest upon that possible distinction. The Court was not aided by a careful or comprehensive presentation of the English precedents and it was not shown that the courts of Maryland had passed upon the point. The above-mentioned statement of Blackstone was cited for the proposition \u201cthat one is not a competent juror in a case if he is master, servant, steward, counsellor or attorney of either party.\u201d The Court also cited the decision in Block v. State, 100 Ind. 357, 362, which was said to follow that rule of the common law. In that case the juror was a deputy of the prosecuting attorney. The latter, as the state court said, \u201cwas by analogy and for all practical purposes, the plaintiff in the prosecution\u201d and the deputy \u201chad become and was the employee and subordinate of the prosecuting attorney\u201d and therefore \u201cimpliedly biased\u201d (Id., p. 364). In the Crawford case this Court also referred to the decisions cited in the dissenting opinion in the court below (30 App. D. C., p. 33) to the effect that \u201ca clerk \u00f3r employ\u00e9 of a private party or of a corporation is not qualified to sit as a juror,\u201d and it was said \u201cthat while the cases cited were civil cases, the rule applied to criminal cases as well. The rule which had obtained in England with respect to the qualifications of servants of the crown to serve as jurors in crown cases was not mentioned, and the authorities to which we have referred in that relation were not brought to the attention of the Court.\nIn the light of the English precedents, and in the absence of any satisfactory showing of a different practice in the colonies, we are unable to accept the ruling in the Crawford case as determinative here or to reach the conclusion that it was a settled rule of the common law prior to the adoption of the Sixth Amendment that the mere fact of a governmental employment, unrelated to the particular issues or circumstances of a criminal prosecution, created an absolute disqualification to serve as a juror in a criminal case.\nThird. \u2014 Even if it could be said that at common law such a disqualification existed, we are of the opinion that Congress had power to remove it. That point was not touched in the Crawford case. Indeed it was said, referring to the Code of Laws of the District of Columbia, that if the provision of \u00a7 215, together with \u00a7 217, \u201cwere alone to be considered, it might be that the juror was qualified.\u201d And, further, in referring to Block v. State, supra, the ruling there was summarized as being to the effect \u201cthat the Indiana statute upon the qualification of jurors did not strike out the rule of the common law on the subject, when not inconsistent with the statute.\u201d The observations of the Court in the Crawford case, in the absence of such an act of Congress as that now under consideration, should not be taken as attempting to set up an absolute rule to be applied in the face of specific legislation. The question of legislative power was neither presented nor passed upon.\nWhether a clause in the Constitution is to be restricted by a rule of the common law as it existed: when the Constitution was adopted depends upon the terms or nature of the particular clause. Continental Bank v. Chicago, R. I. & P. Ry., supra. We have frequently adverted to the firm place which the jury as a fact-finding body holds in our history and jurisprudence. Dimick v. Schiedt, supra, pp. 485, 486. The Constitution would have been \u201cjustly obnoxious to the most conclusive objection\u201d if the right of trial by jury, as the bulwark of civil and political liberties, had not been recognized and confirmed \u201cin the most solemn terms.\u201d Id.; 2 Story on the Constitution, \u00a7 1779. And the importance of safeguarding the complete integrity of the jury in the full sense of the Constitution is not to be gainsaid.\nWe have described the essential elements of \u201ctrial by jury.\u201d In Patton v. United States, supra, we said that these elements as recognized in this country and England when the Constitution was adopted were \u201c(1) the jury should consist of twelve men, neither more nor less; (2) that the trial should be in the presence and under the superintendence of a judge having power to instruct them as to the law and advise them in respect of the facts; and (3) that the verdict should be unanimous.\u201d None of these elements is involved here.\nThe Sixth Amendment was not needed to require trial by jury in cases of crimes. That requirement is provided by Article III, \u00a7 2, paragraph 3. The Sixth Amendment provided further assurances. It added that in all criminal prosecutions the accused shall enjoy the right \u201cto a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.\u201d These requirements as to speed, publicity, impartiality, information as to the charge, confrontation with witnesses, compulsory process and assistance of counsel are all of first importance. But it would hardly be contended that in all these matters regard must be had to the particular forms and procedure used at common law. These requirements relate to matters of substance and not of form. And the true purpose of the Amendment can be achieved only by applying them in that sense.\nIn construing the Seventh Amendment providing for the preservation of trial by jury in suits at common law, and that no fact tried by a jury shall be otherwise reexamined \u201cthan according to the rules of the common law,\u201d we have said that the aim of the Amendment was \u201cto preserve the substance of the common law right of trial by jury as distinguished from mere matters of form or procedure.\u201d Baltimore & Carolina Line v. Redman, 295 U. S. 654, 657. See, also, Walker v. New Mexico & Southern Pacific R. Co., 165 U. S. 593, 596; Gasoline Products Co. v. Champlin Refining Co., 283 U. S. 494, 498. We held in Ex parte Peterson, 253 U. S. 300, that there was no constitutional obstacle to the appointment by a federal court of an auditor in aid of jury trials although the practice in question had not obtained prior to the adoption of the Constitution either in England or in the colonies in connection with trial by jury. The ruling rested upon the fundamental consideration that \u201cNew devices may be used to adapt the ancient institution to present needs and to make of it an efficient instrument in the administration of justice. Indeed, such changes are essential to the preservation of the right.\u201d Id., pp. 309, 310.\nThis principle of construction has also had notable application to the requirement of trial by jury in criminal prosecutions. In the recent case of Funk v. United States, 290 U. S. 371, 372, this Court, without the aid of legislative enactment, held that the wife of the defendant on trial for a criminal offence in a federal court was a competent witness in his behalf. The Court overruled cases to the contrary, sustaining the power of the federal courts \u201cto declare and effectuate, upon common law principles, what is the present rule upon a given subject in the light of fundamentally altered conditions, without regard to what has previously been declared and practiced.\u201d It was deemed to be axiomatic -\u201cthat the common law is not immutable but flexible, and by its own principles adapts itself to varying conditions.\u201d Id., p. 383. And what courts can thus do to assure the appropriate growth and adaptation of the law a fortiori can be achieved by the action of a competent legislature.\nIn Patton v. United States, supra, the Court answered in the affirmative a question certified by the Circuit Court of Appeals, whether, in case a juror became incapacitated during a trial upon indictment, the defendant and the Government could consent \u201cto the trial proceeding to' a finality with eleven jurors\u201d and the defendant could \"thus waive the right to a trial and verdict by a constitutional jury of twelve men.\u201d The Court said that \u201cit might be conceded, at least generally, that under the rule of the common law the accused was not permitted to waive trial by jury.\u201d But the Court did not think it necessary to consider that phase of the matter as \u201cthe rule of the common law, whether exclusive or subject to exceptions, was justified by conditions which no longer exist.\u201d Id., p. 306. And the Court found no convincing ground for holding that a waiver of a jury trial was not as effective in the case of felonies as in that of misdemeanors. Id., p. 309.\nThe Sixth Amendment does not preclude legislation making women qualified to serve as jurors in criminal prosecutions, although that was not permitted at common law. Tynan v. United States, 297 Fed. 177, 178, 179; Hoxie v. United States, 15 F. (2d) 762. Although aliens are within the protection of the Sixth Amendment, the ancient rule under which an alien might have a trial by jury de medietate linguae, \u201cone half denizens and the other aliens,\u201d \u2014 in order to insure impartiality \u2014 no longer obtains. Congress has reduced the number of peremptory challenges of the accused. This number, which was \u201csettled by the common law\u201d at thirty-five and fixed by the statute 22 Hen. VIII, c. 14, at twenty (4 Bl. Com. 354), has been reduced in the case of felonies, other than treason or capital offences, to ten. 28 U. S. C. 424; Code D. C., Tit. 6, \u00a7 366. In Stilson v. United States, 250 U. S. 583, 586, we said on this point: \u201cThere is nothing in the Constitution of the United States which requires the Congress to grant peremptory challenges to defendants in criminal cases; trial by an impartial jury is all that is secured. The number of challenges is left to be regulated by the common law or the enactments of Congress.\u201d And the same was held to be true of the authority of Congress to treat several defendants, for this purpose, as one party. It is not necessary to multiply illustrations of the familiar principle which, while safeguarding the essence of the constitutional requirements, permits readjustments of procedure consistent with their spirit and purpose.\nImpartiality is not a technical conception. It is a state of mind. For the ascertainment of this mental attitude of appropriate indifference, the Constitution lays down no particular tests and procedure is not chained to any ancient and artificial formula. State courts enforcing similar requirements of state constitutions as to trial by jury have held that legislatures enjoy a reasonable freedom in establishing qualifications for jury service, although these involve a departure from common law rules. This principle was thus stated by the Court of Appeals of New York in Stokes v. People, 53 N. Y. 164, 173: \u201cWhile the Constitution secures the right of trial by an impartial jury, the mode of procuring and impaneling such jury is regulated by law, either common or statutory, principally the latter, and it is within the power of the legislature to make, from time to time, such changes in the law as it may deem expedient, taking care to preserve the right of trial by an impartial jury.\u201d And in Brown v. State, 62 N. J. L. 666, 678; 42 Atl. 811, the Court of Errors and Appeals of New Jersey enunciated the same doctrine: \u201cThe provision in our constitution (paragraph 8), that the accused should have a right to a speedy and public trial by an impartial jury, secured to the accused a right to a trial by an impartial jury by an express constitutional provision. The means by which an impartial jury should be obtained are not defined. In neither of the constitutional provisions on this subject is there any requirement with respect to challenges, or to the qualifications of jurors, or the mode in which the jury shall be selected. These subjects were left in the discretion of the legislature, with no restriction or limitation, except that the accused should have the right to be tried by an impartial jury.\u201d\nOne of the grounds of principal challenge at common law was that a juror was \u201crelated to either party within the ninth degree, though it is only by marriage.\u201d It appears that this restriction has been reduced in a number of States to degrees from the third to the sixth. The common law rule with respect to jurors who have formed an opinion upon the subject of the controversy has been liberalized by legislation which meets the essential condition of impartiality while taking account of modern conditions. The disqualification of taxpayers in cases where a municipality is interested has been removed by statute in many States. In Commonwealth v. Reed, 1 Gray 472, the court held that action of that sort was not a violation of the Massachusetts Declaration of Rights securing to every citizen \u201cthe right to be tried by judges as free, impartial and independent, as the lot of humanity will admit.\u201d The court thought that an exemption \u201cfrom an interest which is only theoretic or imaginary, or which is so remote and trifling and insignificant, that it may fairly be supposed to be incapable of affecting the judgment or of influencing the conduct of an individual, is not essential.\u201d And referring to the particular contention as to the interest of a taxpayer of a town in the penalties demanded, the court added: \u201cSuch an interest as arises from that cause is remote and minute; and it may well devolve upon the legislature to determine if it ought to disable an otherwise impartial citizen from serving in the capacity of a juror. The rule established by such authority must, in general, be the guide by which courts of law will be controlled.\u201d\nThe ultimate question is not whether Congress has changed a common law rule, but whether, in reason, an absolute disqualification of governmental employees to serve as jurors in criminal cases is essential to the impartiality of the jury. The Government stresses the factual situation in the District of Columbia before the enactment of the statute before us. Respondent replies that a large proportion of governmental employees are in any event disqualified because of legal residence elsewhere. But after making every allowance for that class, it is still true that in the District of Columbia there is a numerous body of persons who, except for the fact of governmental employment, would be eligible for service as jurors and whose service, by reason of their intelligence and character, would be highly desirable. That fact is emphasized by the congressional committees which recommended the passage of the Act. They stated, after referring to the exemptions then existing: \u201cThese exemptions take from those who would otherwise be qualified some of the best jurymen available and make the empaneling of a jury much more difficult.\u201d The bill was recommended by the bar association of the District, by the district commissioners and by the corporation counsel. It is manifest that the Act was passed to meet a public need and that no interference with the actual impartiality of the jury was contemplated. The enactment itself is tantamount to a legislative declaration that the prior disqualification was artificial and not necessary to secure impartiality.\nWhy should it be assumed that a juror, merely because of employment by the Government, would be biased against the accused? In criminal prosecutions the Government is acting simply as the instrument of the public in enforcing penal laws for the protection of society. In that enforcement all citizens are interested. It is difficult to see why a governmental employee, merely by virtue of his employment, is interested in that enforcement either more or less than any good citizen is or should be. The instant case is a good illustration. The accused was on trial for theft from a store of a private corporation. Can it be seriously urged that to assure an impartial jury for his trial it is necessary to segregate governmental employees from other citizens of the District upon the theory that the former are biased against him? What possible interest in such a case has a governmental employee different from that of any citizen who wishes to see crime properly punished but is free from any actual bias against the alleged offender? And what appears to be so obviously true in this case of larceny would be true also in criminal prosecutions in general, running the gamut of offences from murder, burglary and robbery to cheats and disturbances of the peace. We think that the imputation of bias simply by virt\u00fce of governmental employment, without regard to any actual partiality growing out of the nature and circumstances of particular cases, rests on an assumption without any rational foundation.\nIt is said that particular crimes might be of special interest to employees in certain governmental departments, as, for example, the crime of counterfeiting, to employees of the treasury. But when we consider the range of offenses and the general run of criminal prosecutions, it is apparent that such cases of special interest would be exceptional. The law permits full inquiry as to actual bias in any such instances. We repeat, that we are not dealing with actual bias and, until the contrary appears, we must assume that the courts of the District, with power fully adequate to the occasion, will be most careful in those special instances, where circumstances suggest that any actual partiality may exist, to safeguard the just interests of the accused. While bias, as has been said, is \u201can elusive condition of the mind,\u201d that consideration affords no ground for extreme and fanciful tests. To impute bias as matter of law to the jurors in question here would be no more sensible than to impute bias to all storeowners and householders in cases of larceny or burglary.\nIt is suggested that an employee of the Government may be apprehensive of the termination of his employment in case he decides in favor of the accused in a criminal case. Unless the suggestion be taken to have reference to some special and exceptional case, it seems to us far-fetched and chimerical. It does not rise to the dignity of an argument to be addressed to the power of Congress to provide a reasonable scheme with respect to the qualifications of jurors. It belongs in the category of \u201ctheoretic or imaginary\u201d interests \u2014 \u201cremote\u201d and \u201cinsignificant\u201d as described in the Massachusetts case above cited.\nNor are we impressed with the contention that the qualification of governmental employees for jury service in criminal cases in the District of Columbia will impair the public respect in which the processes of the law should be held. On the contrary, we think that the spectacle of the exclusion en masse from that service of. a body of citizens otherwise highly desirable in point of intelligence and character \u2014 solely by reason of their employment by the Government \u2014 and the imposition in consequence of a heavier burden upon other citizens, whether that exclusion would be in deference to a supposed ancient rule or because of a conclusive presumption of bias against an accused, would constitute a serious reproach to the competency and efficiency of the administration of the system of jury trials.\nWhat has been said applies with equal force to the provisions of the statute qualifying those who receive governmental pensions and gratuities.\nFourth. Respondent also raises the question of the validity of the statute under the due process clause of the Fifth Amendment. For the reasons already given, we find nothing arbitrary or capricious in the legislative action.\nThe judgment of the Court of Appeals is reversed and the judgment of conviction is affirmed.\nReversed.\nMr. Justice McReynolds, Mr. Justice Sutherland, and Mr. Justice Butler are of opinion that the case is controlled by our decision in Crawford v. United States, 212 U. S. 183, and that the rule there laid down should not now be departed from. They think the opinion of the court below is sound, and that its judgment should be affirmed.\nMr. Justice Stone took no part in the consideration or decision of this case.\nThe provision is as follows:\n\u201cAll executive and judicial officers of the Government of the United States and of the District of Columbia, all officers and enlisted men of the Army, Navy, Marine Corps, and Coast Guard of the United States in active service, those connected with the police and fire departments of the United States and of the District of Columbia, counselors and attorneys at law in actual practice, ministers of the gospel and clergymen of every denomination, practicing physicians and surgeons, keepers of hospitals, asylums, almshouses, or other charitable institutions created by or under the laws relating to the District of Columbia, captains and masters and other persons employed on vessels navigating the waters of the District of Columbia shall be exempt from jury duty, and their names shall not be placed on the jury lists.\n\u201cAll other persons, otherwise qualified according to law whether employed in the service of the Government of the United States or of the District of Columbia, all officers and enlisted men of the National Guard of the District of Columbia, both active and retired, all officers and enlisted men of the Military, Naval, Marine, and Coast Guard Reserve Corps of the United States, all notaries public, all postmasters and those who are the recipients or beneficiaries of a pension or other gratuity from the Federal or District Government or who have contracts with the United States or the District of Columbia, shall be qualified to serve as jurors in the District of Columbia and shall not be exempt from such service: Provided, That employees of the Government of the United States or of the District of Columbia in active service who are called upon to sit on juries shall not be paid for such jury service but their salary shall not be diminished during their term of service by virtue of such service, nor shall such period of service be deducted from any leave of absence authorized by law.\u201d\nThis Act amended the prior provision known as \u00a7 217 of the Code of Law for the District of Columbia approved March 3, 1901 (Code D. C. 1929, Tit. 18, \u00a7 360) which provided:\n\u201cExemption from jury service. \u2014 All executive and judicial officers, salaried officers of the Government of the United States and of the District of Columbia, all officers and enlisted men of the National Guard for the District of Columbia, both active and retired, and those connected with the police or fire departments, counselors and attorneys at law in actual practice, ministers of the gospel and clergymen of every denomination, practicing physicians and surgeons, keepers of hospitals, asylums, almshouses, or other charitable institutions created by or under the laws relating to the District, captains and masters and other persons employed on vessels navigating the waters of the District shall be exempt from jury duty, and their names shall not be placed on the jury lists.\u201d\nFitzherbert, Abridgement, Challenge, \u00a7\u00a7 17, 63, 65, folios 172, 173 (1577 ed.); Brooke, Abridgement, Challenge, \u00a7\u00a7 154, 155, folio 126; Staunforde, Pleas of the Crown, 162; Coke upon Littleton, I, 156a-156b; Hale, Pleas of the Crown, II, 271; Rolle, Abridgment, II, 645-646; Duncombe, Trials per Pais (9th ed.) pp. 166-167, 175, 189, 196, 203; Hawkins, Pleas of the Crown, II, c. 43, \u00a7\u00a7 32, 33; Bacon, Abridgment, V, Juries, 355; Viner, Abridgments, XXI, Trial, 243; Hargraves Coke upon Littleton I, 156; Chitty; Criminal Law, I, 539.\nYear Books, 19 Ass. 62, pl. 6, 4 Henry VII, 8, P. pl. 6; 4 Henry VII, 3, H. pl. 5; King v. Jenney (1509) Keilw. 97, 72 Eng. Rpt. 261; Rex v. Genney (1508) Keilw. 102a, 72 Eng. Rpt. 266; Reg. v. Tutchin, 14 St. Tr. 1095, 1101 (1816 ed.); Rex v. Hampden (1683) 9 St. Tr. 1054, 1057-1061; Rex v. Parkyns (1695) 13 St. Tr. 163; Rex v. Rowan (1793) 22 St. Tr. 1034, 1037-1039; Rex v. Kirwan (1812) 31 St. Tr. 543; The King v. Edmonds (1821) 4 B. & Ald. 471, 106 Eng. Rpt. 1009; Reg. v. Lacey (1848) 3 Cox Cr. C. 517, 519.\nRespondent\u2019s brief states: \u201cThe following gives a rough analysis of the Government\u2019s authorities on the right to challenge a King\u2019s Servant:\n\u201cAuthor: Challenge Challenge In Principal To Favor\nFitzherbert......... No Yes\nChief Justice Brooke No No\nStaunforde.......... No Yes\nCoke.............. No No\nLord Hale.......... No Yes\n\u201cAuthor \u2014 Continued. inPriucipai CliaUenoe To Favor\nChief Justice Rolle....................No Yes\nDuncombe............\u25a0...............No No\nHawkins............................. Doubtful Doubtful\nMatthew Bacon.......................Doubtful Doubtful\nViner................................ No Yes\nHargrave............................ No No\nChitty............................... Doubtful Yes\nThe Cases:\nYear Book (1346) 19 Ass. 62, pi. 6......No No\nYear Book, 4 Henry VII 8, P. pi. 7......No No\nYear Book, 4 Henry VII, 3 H. pi. 5...... No No\nRex v. Genney, (1508) Keilw. 102a......No No\nReg. v. Tutchin, 14 St. Tr. 1095, 1101 (1816).............................Doubtful No\nRex v. Hampden, (1683) 9 St. Tr., 1054, 1057-1061..........................No Not decided\nRex v. Parkyns (1695) 13 St. Tr. No. 163. No No'\nRex v. Rowan (1793) 22 St. Tr. 1034, 1037-1039.......................... No No\nRex v. Kirwan, (1812) 31 St. Tr. 543.... No Not decided\nKing v. Edmonds, (1821) 4 B. & Ald. 471, 106 Eng. Rpt. 1009..................No No\nReg. v. Lacey, (1848) 3 Cox Cr. C. 517-519................................No Not decided\u201d\nFitzherbert, op. cit. \u00a7 63.\nCoke., op. cit.. I, 15Ga.\nHargrave, op. cit. I, 156.\nSee, also, Zimmerman v. State, 115 Ind. 129, 17 N. E. 258; Gaff v. State, 155 Ind. 277, 58 N. E. 74; Evans v. State, 13 Ga. App. 700, 79 S. E. 916; State v. Golubski, 45 S. W. (2d) 873.\nBut see as to various officers held to be qualified, when not found to have actual bias: Jackson v. State, 74 Ala. 26, 29 (coroner); Pate v. State, 158 Ala. 1, 3, 48 So. 388 (deputy sheriff); Spittorff v. State, 108 Ind. 171, 172, 8 N. E. 911 (bailiff); O\u2019Connor v. State, 9 Fla. 215, 221, 222 (coroner); State v. Adams, 20 Iowa 486 (county supervisor); State v. McDonald, 59 Kan. 241, 244, 52 Pac. 453 (school district officers); State v. Carter, 106 La. 407, 30 So. 895 (constable); State v. Petit, 119 La. 1013, 44 So. 848 (deputy sheriff); State v. Foster, 150 La. 971, 985, 986, 91 So. 411 (deputy sheriff); Fellows\u2019 Case, 5 Maine 333, 334 (constable); State v. Wright, 53 Maine 328, 344, 345 (coroner); People v. Lange, 90 Mich. 454, 455, 51 N. W. 534 (justices of the peace); Glassinger v. State, 24 Ohio St. 206 (justice of the peace); State v. Cosgrove, 16 R. I. 411, 16 Atl. 900 (constable); Burns v. State, 12 Tex. App. 269, 277-8 (deputy sheriff); Mingo v. State, 61 Tex. Cr. Rep. 14, 15, 133 S. W. 882 (deputy sheriff); compare Chapman v. State, 66 Tex. Cr. Rep. 489, 491, 147 S. W. 580; State v. Parker, 104 Vt. 494, 497, 498, 162 Atl. 696 (deputy sheriff); Thompson v. Commonwealth, 88 Va. 45, 46, 13 S. E. 304 (city treasurer and councilman).\nSee United States v. Cartacho, Fed. Cas. 14,738; Respublica v. Mesca, 1 Dall. 73; People v. McLean, 2 Johns. 381; Thompson & Merriam on Juries, \u00a7\u00a7 16, 17, and eases and statutes there cited.\nChitty, op. cit. I, 541; Coke, op. cit. 157a;; 3 Bl. Com. 363.\nSee, for example, the provisions of state codes or general laws in Alabama, \u00a7 8610; Arkansas, \u00a7 6334; Florida, \u00a7 4359; Indiana, \u00a7 9-1504-4; Louisiana, Art. 507 (1); Missouri, \u00a7 8771'; Tennessee, \u00a7 10007; Vermont, \u00a7 1237.\nSee Stokes v. People, supra; Spies v. Illinois, 123 U. S. 131, 167-169; Hopt v. Utah, 120 U. S. 430, 433-435.\nCoke, op. cit. I, 157a, 157b; Wood v. Stoddard, 2 Johns. 194; Diveny v. Elmira, 51 N. Y. 506, 509, 510; Thompson and Merriam, op. cit. \u00a7 179.\nThe court below estimates that \u201cIn the District of Columbia more than a hundred thousand government employees will be qualified as jurors if the statute is valid.\u201d 65 App. D. C. 330; 83 F. (2d) p. 592.\nH. R. Rep. No. 1421; Sen. Rep. No. 1297; 74th Cong., 1st sess.\nCong. Rec., 74th Cong., 1st sess., Vol. 79, pt. 12, p. 13401. The bill was drafted by a committee consisting of the president of the district bar association, the' president of the Federation of Citizens\u2019 Associations, the chairman of the Traffic Committee of the Board of Trade, the president of the Federation of Civic Associations, a member of the Public Utilities Commission, and representatives of the district government. Sen, Rep, No. 1347.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Hughes"
+      }
+    ],
+    "attorneys": [
+      "Assistant Attorney General McMahon, with whom Solicitor General Reed and Messrs. William W. Barron and Warner W. Gardner were on the brief, for the United States.",
+      "Mr. William E. Leahy, with whom Messrs. Robert I. Miller and William J. Hughes, Jr., were on the brief, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES v. WOOD.\nNo. 34.\nArgued October 20, 1936.\nDecided December 7, 1936.\nAssistant Attorney General McMahon, with whom Solicitor General Reed and Messrs. William W. Barron and Warner W. Gardner were on the brief, for the United States.\nMr. William E. Leahy, with whom Messrs. Robert I. Miller and William J. Hughes, Jr., were on the brief, for respondent."
+  },
+  "file_name": "0123-01",
+  "first_page_order": 187,
+  "last_page_order": 215
+}

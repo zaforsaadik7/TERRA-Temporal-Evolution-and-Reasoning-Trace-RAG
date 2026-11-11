@@ -1,0 +1,831 @@
+{
+  "id": 8288112,
+  "name": "EVERETT v. EVERETT",
+  "name_abbreviation": "Everett v. Everett",
+  "decision_date": "1909-11-29",
+  "docket_number": "No. 1",
+  "first_page": "203",
+  "last_page": "216",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "215 U.S. 203"
+    },
+    {
+      "type": "parallel",
+      "cite": "30 S. Ct. 70"
+    },
+    {
+      "type": "parallel",
+      "cite": "54 L. Ed. 158"
+    },
+    {
+      "type": "vendor",
+      "cite": "1909 U.S. LEXIS 1748"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1909-023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "3 Wall. 396",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3475487
+      ],
+      "pin_cites": [
+        {
+          "page": "406"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/70/0396-01"
+      ]
+    },
+    {
+      "cite": "2 How. 319",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3327971
+      ],
+      "pin_cites": [
+        {
+          "page": "339"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/43/0319-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "120 U. S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3468982
+      ],
+      "pin_cites": [
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/120/0141-01"
+      ]
+    },
+    {
+      "cite": "34 N. Y. 555",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        16474
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/34/0555-01"
+      ]
+    },
+    {
+      "cite": "94 N.' Y. 519",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2192047
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/94/0519-01"
+      ]
+    },
+    {
+      "cite": "151 N. Y. 122",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        29669
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/151/0122-01"
+      ]
+    },
+    {
+      "cite": "130 N. Y. 447",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2245239
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/130/0447-01"
+      ]
+    },
+    {
+      "cite": "109 N. Y. 202",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        560766
+      ],
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/109/0202-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136182
+      ],
+      "pin_cites": [
+        {
+          "page": "48, 49"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0001-01"
+      ]
+    },
+    {
+      "cite": "145 N. Y. 641",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2266601,
+        2266629,
+        2266655
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/145/0641-02",
+        "/ny/145/0641-01",
+        "/ny/145/0641-03"
+      ]
+    },
+    {
+      "cite": "75 Hun, 147",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 N. Y. 71",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2005557
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/4/0071-01"
+      ]
+    },
+    {
+      "cite": "207 U. S. 43",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641030
+      ],
+      "pin_cites": [
+        {
+          "page": "57"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/207/0043-01"
+      ]
+    },
+    {
+      "cite": "102 N. Y. 449",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2203114
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/102/0449-01"
+      ]
+    },
+    {
+      "cite": "98 N. Y. 351",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        558038
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/98/0351-01"
+      ]
+    },
+    {
+      "cite": "12 N. Y. 156",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2016221
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/12/0156-01"
+      ]
+    },
+    {
+      "cite": "3 N. Y. 511",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2007275
+      ],
+      "pin_cites": [
+        {
+          "page": "552"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/3/0511-01"
+      ]
+    },
+    {
+      "cite": "147 U. S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3565598
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/147/0360-01"
+      ]
+    },
+    {
+      "cite": "178 U. S. 402",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3612133
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/178/0402-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443712
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0335-01"
+      ]
+    },
+    {
+      "cite": "192 U. S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "155 U. S. 222",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581628
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/155/0222-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 122",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443506
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0122-01"
+      ]
+    },
+    {
+      "cite": "187 U. S. 491",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142254
+      ],
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/187/0491-01"
+      ]
+    },
+    {
+      "cite": "13 Wall. 257",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134249
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/80/0257-01"
+      ]
+    },
+    {
+      "cite": "137 U. S. 300",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3547035
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/137/0300-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468236
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/163/0063-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499438
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/198/0149-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3504786
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0183-01"
+      ]
+    },
+    {
+      "cite": "40 Fed. Rep. 548",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6722102
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/40/0548-01"
+      ]
+    },
+    {
+      "cite": "73 N. Y. 571",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2169749
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/73/0571-01"
+      ]
+    },
+    {
+      "cite": "107 N. Y. 91",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2211935
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/107/0091-01"
+      ]
+    },
+    {
+      "cite": "5 Allen, 144",
+      "category": "reporters:state",
+      "reporter": "Allen",
+      "case_ids": [
+        2102451
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/87/0144-01"
+      ]
+    },
+    {
+      "cite": "91 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5649049
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/91/0584-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646801
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "352, 353"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/94/0351-01"
+      ]
+    },
+    {
+      "cite": "57 Barb. 491",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "case_ids": [
+        2255146
+      ],
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/barb/57/0491-01"
+      ]
+    },
+    {
+      "cite": "172 N. Y. 327",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2306938
+      ],
+      "pin_cites": [
+        {
+          "page": "342"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/172/0327-01"
+      ]
+    },
+    {
+      "cite": "137 N. Y. 259",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        20164
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/137/0259-01"
+      ]
+    },
+    {
+      "cite": "123 N. Y. 520",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        568383
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/123/0520-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 337",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "338"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "90 Fed. Rep. 464",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6752367
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/90/0464-01"
+      ]
+    },
+    {
+      "cite": "18 N. Y. 468",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2021183
+      ],
+      "pin_cites": [
+        {
+          "page": "472"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/18/0468-01"
+      ]
+    },
+    {
+      "cite": "17 Wall. 521",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62404
+      ],
+      "pin_cites": [
+        {
+          "page": "529"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0521-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "146 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "162 U. S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "16 Wall. 621",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "188 U. S. 28",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "7 Wall. 145",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "146 U. S. 657",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3563904
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0657-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 610",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411271
+      ],
+      "pin_cites": [
+        {
+          "page": "619"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/83/0610-01"
+      ]
+    },
+    {
+      "cite": "13 Pet. 312",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3337969
+      ],
+      "pin_cites": [
+        {
+          "page": "326"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/38/0312-01"
+      ]
+    },
+    {
+      "cite": "7 Cranch, 481",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        572729
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/11/0481-01"
+      ]
+    },
+    {
+      "cite": "89 App. Div. 619",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "75 App' Div. 369",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4950662,
+        8285895
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/75/0369-01",
+        "/nys/78/0193-01"
+      ]
+    },
+    {
+      "cite": "48 App. Div. 475",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2389676
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/48/0475-01"
+      ]
+    },
+    {
+      "cite": "180 N. Y. 452",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2320393
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/180/0452-01"
+      ]
+    },
+    {
+      "cite": "1 Pick. 535",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "case_ids": [
+        2070864
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/18/0542-01"
+      ]
+    },
+    {
+      "cite": "3 Wall. 396",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3475487
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/70/0396-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1046,
+    "char_count": 26521,
+    "ocr_confidence": 0.597,
+    "pagerank": {
+      "raw": 1.2234220494521372e-07,
+      "percentile": 0.598646098672162
+    },
+    "sha256": "4b5b3beaa3d86330f582394cf217b4f4023352c5d822f05f63c4d5982100ecd3",
+    "simhash": "1:3576ac0bb400a05b",
+    "word_count": 4624
+  },
+  "last_updated": "2024-02-27T19:55:42.184147+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "EVERETT v. EVERETT."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Harlan,\nafter making the foregoing statement, delivered the opinion of the court.\nWe have no concern about the disposition made by the state court of questions of mere local law, \u00a1and have only to inquire whether, as required by the Constitution of the United States, it gave full faith ..and credit to the proceedings had in the Probate .Court in Massachusetts. Const., Art. IV, \u00a7 1. If it .did-,'the judgment must be affirmed; otherwise, reversed. That the proceedings in the latter court were judicial in their nature, and that the New York court intended to give them full faith and credit, cannot be doubted. The Probate Court is a court of record, established by the General Court of Massachusetts under the authority of the constitution of that Commonwealth. Const. Mass. 1822; Pub. Stat. Mass. 1882, p. 871, c. 156. It has jurisdiction when a wife for justifiable cause is actually living apart from her husband to make such order as it deems expedient concerning her support. Ibid. And when it has jurisdiction of the parties and subject-matter its decree, until reversed or modified, is as conclusive in Massachusetts as the judgments of other courts there. Watts v. Watts, 160 Massachusetts, 464; Langhton v. Atkins, 1 Pick. 535; Dublin v. Chabourn, 16 Massachusetts, 433.\nIn the suit in Massachusetts the fundamental fact was put in issue as to whether the plaintiff was the wife of the defendant and entitled, as such, to sue for support while living apart from her alleged husband. The New York court adjudged that, as between the parties, and, so far .as the question before us is concerned, that fact had been determined by the Massachusetts court adversely to the plaintiff; for, the latter court ruled, after hearing the parties, that the relief asked from it should not be granted and dismissed the plaintiff\u2019s petition. So reads the record of the Massachusetts court.\nIt is said, however, that for aught that appears from the ' record of the Probate Court, as produced herein, that court may have declined to grant the relief asked by the alleged wife without considering at all the fact of her marriage, but only on the ground that she was living apart from the defendant without justifiable cause. But the answer to this contention is that the question whether the plaintiff was the lawful wife of the defendant, as well as the question whether she was entitled to separate maintenance while living apart from her alleged husband, were-kf issue-in the Probate Court, and if, in order to proye that the court below gave undue faith and credit to-the Massachusetts judgment, the plaintiff was entitled to show by oral testimony that there was really no dispute in the Probate Court as to the fact of her being the wife of the defendant, and that the only actual dispute at the hearing Was whether she had justifiable cause for living apart frpm Kim, no such proof ap'pears to have been made by her. No bill of exceptions as to the evidence in the Probate Court seems to have been takgn, and we have before us only a record showing that the plaintiff, claiming to be the wife of the defendant herein, sued for separate maintenance and support, alleging that she was living apart from him for justifiable cause, and that the relief\u2019 asked was denied and her petition dismissed without any statenaent of the specific grounds on which the court-proceeded and without any qualifying words indicating that the decree was otherwise thab upon the merits as to the issues made. We concur with the Court of Appeals of New York in holding that as the Probate Court had jurisdiction of the parties and the subject-matter, its judgment, rendered after hearing, that the plaintiff was not entitled to the relief demanded by her and that her petition be dismissed, it must be taken, upon the record of this case, that the latter court determined against the plaintiff the fact of her being the wife of the defendant at the time she sought separate maintenance and support.\nIt is doubtful whether the plaintiff, in her pleadings or otherwise, sufficiently asserted any right belonging to her under the Constitution of the United States. But if it were assumed that she did, the result, even upon that hypothesis, is that, upon the present showing by the plaintiff, there is no substantial ground to contend that the court below did not give such faith and credit to the judgment of the Probate-Court of Massachusetts as were required by the Constitution, and, therefore, this court has no authority to review, the final judgment\u2019of the Neiy York court. The writ of error must be dismissed.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Mr. Justice Harlan,"
+      }
+    ],
+    "attorneys": [
+      "Mr. Frank H. Stewart, for plaintiff in error,",
+      "Mr. George Zabriskie for defendant in error:"
+    ],
+    "corrections": "",
+    "head_matter": "EVERETT v. EVERETT.\nERROR TO THE SUPREME COURT OP THE STATE OF NEW YORK.\nNo. 1.\nArgued October 22, 1909.\nDecided November 29, 1909.\nWhere the fundamental fact in issue in a suit by a wife for separate- ' maintenance is whether there was a marriage, and the court having \u2022jurisdiction finds that the wife\u2019s petition should not be granted but should be dismissed, the courts of another State must, under the full faith and credit clause of the Constitution, regard such decree as determining that there was no marriage \u00e9ven though the husband may have-asserted other d\u00e9fenses; nor can the wife, in a suit depending solely on the issue of whether there was a marriage, prove by oral testimony, in the absence of a bill of exceptions, that the decree may have rested on any of the other defenses asserted by the husband.\n180 N. Y. 452, affirmed.\nThis is a writ of error to review a judgment of the Supreme Court of New York upon the ground that the final order of that court, entered pursuant to the mandate of the Court of Appeals of New York in this case, failed to give full faith and credit to the judicial proceedings in a certain action determined in the Probate Court of Suffolk County, Massachusetts.\nThe facts out of which this question arose may be thus summarized:\nThe present plaintiff in error, Georgia L. Everett, on or about April 1st, 1897, brought this action in th\u00e9 Supreme Court of Kings County, New York, against the defendant in error, Edward Everett, alleging that she and the defendant .were lawfully intermarried in that county before a Justice of the Peace, on the thirtieth day of October, 1884; that under the false pretense that that marriage would never be recognized by his family, and that a ceremonial marriage would have to take place before a Minister of the Gospel, the defendant, on or about December 17th, 1887,' fraudulently instituted an action in the same court to have the above marriage annulled; that the plaintiff had a valid defense -to such action, but in consequence of fraudulent representations to her by the defendant she made no defense therein, by reason whereof a decree was rendered on or about April 9th, 1888, declaring that the alleged marriage between her and the defendant was null and void; and that they had lived and cohabited together as husband and wife from the date of said marriage down to and including June 1st, 1891.\nThe specific relief asked in this case, brought in 1897, was a judgment that the decree of April 9th, 1888, in'the case brought in 1887, be vacated and set aside, and that it be adjudged that the marriage between the plaintiff and the defendant was binding and in full force and effect. .\nThe defendant, by answer, controverted all the material facts alleged in this case relating to the obtaining of the above decree of April 9th, 1888. He set forth various grounds of defense, but none of them raised any question of a Federal nature. He made, however, a separate, special defense herein based upon the record of certain proceedings in the Probate Court of Suffolk County, Massachusetts.\nThe allegations of the answer as to those proceedings were substantially these: That on or about February 21st, 1895, the present plaintiff, Georgia L. Everett, brought an action against him in the Probate Court of Suffolk County Massachusetts, claiming, to be, as was the defendant, a resident of Boston, and also claiming to be his lawful wife; that he had failed, without just cause, to furnish suitable support for her and had deserted her; that she was living apart from him for justifiable cause; that she prayed that such order be made for her support as the court deemed expedient; that process was duly issued out of the said court and served on this defendant and he duly appeared; that on or about March 21st, 1895, on motion of this defendant, the court ordered the plaintiff to file in that case full specifications as to how, when and where she became the lawful wife of the defendant; that pursuant to that order, on or about April 1st, 1895, the plaintiff filed in the said Probate Court her specifications, wherein she stated that she was married to this defendant on or about October 31st, 1884, in Brooklyn, New York, by John Courtney, Esq., Justice of the Peace, and further that a legal marriage according to the laws of the State of New York was entered into in that State between her and this defendant on or about April 15th, 1888, by mutual consent, consummation, acknowledgment and cohabitation in that State, and'that such consent, acknowledgment and cohabitation continued inNew York, and also in Massachusetts, from April 15th, 1888 to May 30th, 1891, at which time, she alleged, this defendant deserted her. She also stated in her petition in the Probate Court \u201cthat her marriage with this defendant was still \u2014 to wit, on April 1,1895\u2014 of legal force and effect. Yet defendant deserted her on or about May 30, 1891, and had contributed' nothing to hei support since that time.\u201d \u201cThereafter,\u201d the answer alleged, \u201cthis defendant, according to .'the course and practice of the said court, duly answered the said petition, and admitted that he and the said petitioner were married on or about October 30, 1884, in Brooklyn, by John Courtney, Esq., Justice of the Peace, and alleged that the said marriage had been duly adjudged to be null and void by this court by its judgment rendered April 9th, 1888, in the suit brought by this defendant against the plaintiff herein for the purpose of having the said marriage annulled,. which is the same judgment herein-before in this answer, and also in the amended complaint, herein referred to; In respect to the supposed marriage between this defendant and the plaintiff herein \u2014 alleged in the said specifications filed by the plaintiff in her said' suit in the Probate Court to have taken place on or about April 15, 1888 \u2014 this defendant answered that at the time of the said marriage performed on or about October 30, 1884, by John Courtney, .Justice of the Peace, and both at the time of the alleged marriage stated in the specifications, filed'by the said plaintiff, to have taken- place April 15, 1888, and at all other times subsequent to, as well as long before October 30, 1884, the said plaintiff was the wife of one William G. Morrison, and that by reason thereof th\u00e9 said supposed marriages between this defendant and the said plaintiff by her alleged were, and each of them was, null and void. Thereafter such \u2022 proceedings were.duly had that the said cause came on to be heard and- was heard by the said Probate Court upon the issues raised as aforesaid upon this defendant\u2019s said answer to the plaintiff\u2019s said petition, and the said court found the said issues'for this defendant, and thereupon made its decree March 25, 1897, whereby the court found and decided that the prayer of the plaintiff\u2019s said petition should not he granted and adjudged that the said petition be dismissed; and that the said judgment remains of record, and in full force and effect.\u201d\nIn her reply the plaintiff-, admitting that she had instituted in the Massachusetts court the action above referred to, alleged that her petition in that case was one \u201cfor separate maintenance and that the issues involved in the present action were in nowise considered in that action . . . that said petition was dismissed upon the understanding that in case the relationship of husband and wife should be established between the plaintiff and the defendant by said Supreme Court, and upon.the proceedings pending therein, the petition for separate support was'to be renewed, and said judgment of said Probate Court, the County of Suffolk, Commonwealth of Massachusetts, entered on or about the twenty-fifth day of March, 1897, did not determine the questions at issue in the present proceedings, and was entered with leave to renew the said proceedings, as hereinbefore set forth.\u201d\n\u2019 There was ,a finding of facts in the present case by the Supreme Court of New York, one of which' was that the plaintiff and the defendant were duly married before the Justice of the Pea,ce as above stated, and that after such marriage they lived and cohabited together as husband and wife up to June 1st, 1891, and that she was never married to any person other than the present defendant. The court, by its fina,l decree, set aside and vacated the decree of'April 9th, 1888, annulling the. marriage before the Justice of the Peace, and adjudged that the contract of marriage thus evidenced was in full force and effect. But that decree was affirmed by the Appellate Division. It is stated in the opinion of the Court of Appeals that there were several trials and appeals in this case to the Appellate Division. Everett v. Everett, 48 App. Div. 475; 75 App' Div. 369; 89 App. Div. 619.\nFinally, the case was carried to the Court of Appeals of New York, where the judgment was reversed February 21st, 1905, 180 N. Y. 452, but, for reasons stated in the opinion of that court, the reversal was with directions to dismiss her complaint upon the merits. That decree is now here for review. \"\n\u00edt appears from its opinion that the Court of Appeals of New York adjudged the decision in the Probate Court of Massachusetts to be conclusive, as between the parties, as to the question whether the plaintiff was the wife of the defendant,, entitled t\u00f3 be regarded as holding that relation to him. \u2022The Court of Appeals of New York said (p. 459): \u201cThe Massachusetts judgment was based upon the petition of the wife and it was founded upon, the allegation that she was the defendant's wife; that he had deserted her and had failed to contribute to her support. These allegations of fact were put in issue by the defendant and must have been determined by the court. An exemplification of the judgment record in the action which annulled the marriage was presented to the \u2022 Probate .Court and admitted in evidence. The court had jurisdiction of the parties and the subject-matter of the controversy, and its judicial power extended to every material-question in the proceeding. The determination of the court that the plaintiff was not entitled to the relief demanded in her petition must be deemed to have included the question' as t\u00f3 the validity of her marriage. In other words, the court must have determined the question whether the petitioner Was in fact the defendant\u2019s wife, and this involved an inquiry with respect to the question whether at the time of her mar-riage before the'Justice of the Peace at Brooklyn she had another husband living. There was evidence before the court on that question, since the record of the judgment annulling the marriag\u00e9 in this State was before it. That judgment of a \u2022 sister State was entitled in the present action to full faith and' credit-finder the Constitution of the United States, any statute, rule or procedure \u00f3r even any constitutional provision in any State, to the contrary notwithstanding. The provision of the Federal Constitution with respect to the force and effect \u2022to be given to the judgments of other States, and the act of Congress passed in pursuance thereof, is the supreme law of the land, and any statute or rule of practice in this State that would tend to detract or take from such a judgment the force and effect that it is entitled to under the Federal Constitution and in the State where rendered must be .deemed to be inoperative. So we think that that judgment was conclusive upon the-parties to this action with respect to all the questions which were involved in the proceedings and decided by the court, and clearly one of those questions was the status of.the present plaintiff. She alleged that she was the defendant\u2019s wife, and this allegation must be deemed to have been negatived by the decision in the proceeding.\u201d\nThe court, in addition, considered and disposed of some questions of a non-Federal nature in respect to which the trial court was held to have erred. But it thus concluded its opinion (p. 464): \u201cThere are many, other questions in this case which have been discussed at length upon the argument and are to be found in the briefs of the respective counsel, but it is unnecessary to consider them. We think that the judgment must be reversed, and as there appears to be at least one conclusive obstacle to the plaintiff\u2019s success, a new trial would 'be useless, and so the complaint should be dismissed upon the merits.\u201d The one conclusive obstacle thus found to be in the plaintiff\u2019s way was the judgment of the Massachusetts court in the action brought by the plaintiff in error against the defendant, in error.\nMr. Frank H. Stewart, for plaintiff in error,\nsubmitted:\nThe dismissal of the complaint by the state court was upon the ground that the action of the probate court in Massachusetts was a \u201cconclusive obstacle\u201d to the plaintiff\u2019s success. This involved the determination of the effect in Massachusetts of the action of said probate court, in accordance with \u00a7 1, Art. IV, of the Constitution and of \u00a7 905, Rev. Stat. See Mills v. Duryee, 7 Cranch, 481; McElmoyle v. Cohen, 13 Pet. 312, 326; Crapo v. Kelly, 16 Wall. 610, 619. \u25a0\nThe determination by the courts of one State of the effect to be given to the-judicial proceedings of a sister State is open to review by this court upon writ of error. Huntington v. Attrill, 146 U. S. 657.\nParticularly when the highest court of \u00e1 State has decided against the effect which it was claimed proceedings in another State had by the law and usage of that State. Green v. Van Buskirk, 7 Wall. 145. See also Andrews v. Andrews, 188 U. S. 28; Crapo v. Kelly, 16 Wall. 621; Gt. West. Tel. Co. v. Purdy, 162 U. S. 335; Huntington v. Attrill, 146 U. S. 684; Harding v. Harding, 198 U. S. 325.\n. That in the present case the New York court has given too great effect to the Massachusetts proceedings, instead of too little, does not render its decision any the less reviewable by this court. Board of Pub. Works v. Columbia College, 17 Wall. 521, 529; Wood v. Watkinson, 17 Connecticut, 500, 505; Suy-dam v. Barber et al., 18 N. Y. 468, 472; Warrington v. Ball, 90 Fed. Rep. 464.\nThe State court' erred in determining that the effect of the judicial proceedings in the probate court of Massachusetts was to render res judicata the issue raised by the complainant in this. case.\nThe issue in this c\u00e1se is one which the probate court of Massachusetts did not and could not pass upon by actual decree, or affect by the legislative part of that decree. See Statutes of Massachusetts, chap. 153, \u00a7 33.\nThe issue in this case was not rendered res judicata by the judicial proceedings in Massachusetts.\nIt was not a fact which was,- or could have been, litigated, or decided'in Massachusetts. See Kerr v. Kerr, 41 N: Y. 272.\n'\u25a0 The issue of this case was not a matter necessary to be determined by the Massachusetts probate court in the action taken by it.\nThe petition was simply dismissed. The ground for dismissal may have been any one of the grounds set upT There is \u25a0nothing in the record to show that the Massachusetts court did not reach its result on some ground other than that which, it is contended, renders that result res judicata.\nIt cannot therefore be held; upon the face of the record, that there was identity of issues and resulting res judicata. Umlauf v. Umlauf, 117 Illinois, 584'; and see Harding v. Harding, 198 U. S. 337, 338.\nIt is clearly the law of Massachusetts, of New York, and the general law that, when a general result may have been reached' by the determination of any undeterminate one of several facts, no particular fact is conclusively determined. Stannard v. Hubbell, 123 N. Y. 520; House v. Lockwood, 137 N. Y. 259; Stokes v. Foote, 172 N. Y. 327, 342; Burlen v. Shannon,\u2022 99 Massachusetts, 200; Lea v. Lea, 99 Massachusetts, 493; Foye v. Patch, .132 Massachusetts, 105, 111; Stone v. Addy, 168 Massachusetts, 26\nThe issue of this case was not in fact a matter determined by the Massachusetts probate court.\nThe burden, of proof was upon the husband, for it is the defendant who sets up th\u00e9 estoppel. Vaughn v. O\u2019Brien, 57 Barb. 491, 495; Foye v. Patch, 132 Massachusetts, 105, 111; Cromwell v. Sack, 94 U. S. 351.\n. The issue in this case was not rendered res judicata because the alleged decree in Massachusetts did not import a decree on the merits.\nThe entry in the Massachusetts probate court, \u201cPetition Dismissed\u201d does not necessarily import a decree on the merits. And a consideration of the extrinsic evidence shows that there was a voluntary dismissal on the part of the wife at a time 'when she had a perfect right to dismiss her petition, which dismissal was acquiesced in by the husband and permitted by the eourt. The mere fact that the court did not see fit to grant her /request that the decree should contain the customary technical words \u201cwithout prejudice\u201d is hot conclusive upon her rights. Lanphier v. Desmond, 187 Illinois, 382; Haldeman v. United States, 91 \u00da. S. 584.\nAnd, since the. decree purported only to deny to the wife affirmative relief, it did not bar a new application on her part for separate maintenance. Buckman v. Phelps, 6 Massachusetts, \u2019448; Pettee v. Wilmarth, 5 Allen, 144.\nFor the Court of Appeals to hold the contrary was to deny to the Massachusetts decree the effect which the wife claimed it had by law and usage in Massachusetts.\nThe issue in the present case arises on a-different state of facts from the facts upon which the Massachusetts proceedings were, predicated.\nMr. George Zabriskie for defendant in error:\nIn a suit of this character it is necessary in New York, as well as in the Federal courts, and elsewhere to allege and prove two distinct things: first, that the party complaining had a good defense on the merits to the claim upon which the judgment impeached was rendered; and second, that he was prevented from availing'himself of that defense by the fraud of the other party. 2 Story, Equity, \u00a7 885q; Blank v. Blank, 107 N. Y. 91; Whittlesey v. Delaney, 73 N. Y. 571; Kimberly v. Arms, 40 Fed. Rep. 548; White v. Crow, 110 U. S. 183; Able-man v. Both, 12 Wisconsin, 81; Dobbs v. St. Joseph Fire Ins. Co., 72 Missouri, 189; Williams v. Nolan, 58 Texas, 708.\nThe judgment of the Court of Appeals proceeded upon two grounds, of which at least one presents no Federal question.\nThe judgment of the Court of Appeals rests quite as much upon their determination of the issue of fraud, which involves no Federal question.\nIn such a case this-eourt-will not assume jurisdiction.- Allen v. Arguimbau,, 198 U. S. 149; Dibble v. Bellingham Bay Land Co., 163 U. S. 63; Johnson v. Risk,137 U. S. 300; Klinger v. Missouri, 13 Wall. 257.\nNo Federal question is involved.\nA right, privilege or immunity claimed, under the Constitution- must, under clause 3 of \u00a7 709 of the Revised Statutes of the United States, be claimed in the court below by the .party, seeking the advantage of it. Johnson v. N. Y. Life. Ins. Co., 187 U. S. 491, 495; Eastern Building & Loan Assn. v. Williamson, 189 U. S. 122; Glenn v. Garth, \u00cd47 U. S. 360; Lloyd v. Matthews, 155 U. S. 222.\nWhere the plaintiff in error claims merely that the state court erroneously constru\u00e9d the judgment of a court of another State, without denying that the state court gave to the judgment the effect which such construction warrants, there is no question of faith and credit involved which this court has jurisdiction to review. Allen v. Alleghany Company, 192 U. S. 458; Finney v.'Guy, 189 U. S. 335; Johnson v. N. Y. Life Ins. Co., 187 TL S. 491; Banholzer v. N. Y. Life Ins. Co., 178 U. S. 402; Lloyd v. Matthews, 155 U. S. 222; Glenn v. Garth, 147 U. S. 360.\nIf upon any ground this court have jurisdiction, the judgment of the'state court upon the plea of res judicata is right. .\nA final decree of a court of competent jurisdiction, upon the merits of the cause, is conclusive between the parties upon the material matters thereby necessarily determined. Embury v. Connor, 3 N. Y. 511, 552; Dotson v. Pearce, 12 N. Y. 156; Prey v. Hegeman, 98 N. Y. 351) Griffin v. Long Island R. R. Co., 102 N. Y. 449.\nSuch being the ordinary rule of law there is no evidence in the record to indicate that in Massachusetts the decree of the probate court would be accorded any other or different faith or credit.\nIn ascertaining what credit is given to judicial proceedings in the State where they took place, this court is limited to the evidence on that subject before the court whose judgment is under review. Tilt v. Kelsey, 207 U. S. 43, 57.\nThe conclusiveness of the decree is not impaired by the fact that the cause of action in the suit in which the judgment was rendered is different from the cause of action in the suit at bar. Doty v. Brown, 4 N. Y. 71; Lythgoe v.' Lythgoe, 75 Hun, 147; S. C., 145 N. Y. 641.\nIn such instances the judgment js conclusive as to those matters in issue upon the determinati\u00f3n of which the finding or verdict was actually rendered. Cromwell v. County of Sac, 94 U. S. 351,352, 353; Southern Pacific R. R. Co. v. United States, 168 U. S. 1, 48, 49; B'ell v. Merrifield, 109 N. Y. 202, 211, ..\nThe form of the proceeding does not effect the conclusiveness of the decree. The efficacy of the judicial determination attaches no less to summary, special or statutory proceedings, than to actions. Culross v. Gibbons, 130 N. Y. 447; Reich v. Cochran, 151 N. Y. 122; Smith v. Zalinski, 94 N.\u2018 Y. 519; Matter of Livingston, 34 N. Y. 555.\nThe sufficiency of the. proof upon which the court acted is hot open to consideration where the judgment is pil\u00e9aded as a-bar or is relied on as evidence; otherwise the judgment would not be conclusive, and there could be no such thing as res judicata.' Crescent Live Stock Co. v. Butchers\u2019 Union, 120 U. S. 141, 159; Deposit Bank v. Frankfort, 191 U. S. 449, 510; Grignon\u2019s Lessee v. Astor, 2 How. 319, 339; Comstock v. Crawford, 3 Wall. 396,406.'"
+  },
+  "file_name": "0203-01",
+  "first_page_order": 253,
+  "last_page_order": 266
+}

@@ -1,0 +1,853 @@
+{
+  "id": 6158305,
+  "name": "TAKAHASHI v. FISH AND GAME COMMISSION et al.",
+  "name_abbreviation": "Takahashi v. Fish & Game Commission",
+  "decision_date": "1948-06-07",
+  "docket_number": "No. 533",
+  "first_page": "410",
+  "last_page": "431",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "334 U.S. 410"
+    },
+    {
+      "type": "parallel",
+      "cite": "92 L. Ed. 2d 1478"
+    },
+    {
+      "type": "parallel",
+      "cite": "68 S. Ct. 1138"
+    },
+    {
+      "type": "vendor",
+      "cite": "1948 U.S. LEXIS 2718"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1947-092"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "263 U. S. 326",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141571
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/263/0326-01"
+      ]
+    },
+    {
+      "cite": "263 U. S. 313",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141508
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/263/0313-01"
+      ]
+    },
+    {
+      "cite": "263 U. S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140052
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/263/0225-01"
+      ]
+    },
+    {
+      "cite": "263 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139951
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/263/0197-01"
+      ]
+    },
+    {
+      "cite": "82 F. 257",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6732874
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/82/0257-01"
+      ]
+    },
+    {
+      "cite": "1 F. 481",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3718841
+      ],
+      "pin_cites": [
+        {
+          "page": "508-509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/1/0481-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 649",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597756
+      ],
+      "pin_cites": [
+        {
+          "page": "696"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/169/0649-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8762
+      ],
+      "pin_cites": [
+        {
+          "page": "280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/92/0275-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3617766
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/180/0333-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4674
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/100/0483-01"
+      ]
+    },
+    {
+      "cite": "332 U. S. 633",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365137
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "635, n. 3"
+        },
+        {
+          "page": "646, 649, 672"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0633-01"
+      ]
+    },
+    {
+      "cite": "60 Stat. 416",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Stat. 600",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Stat. 1137",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Stat. 254",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Stat. 103",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 703",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 U. S. 416",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        551477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/252/0416-01"
+      ]
+    },
+    {
+      "cite": "40 Stat. 755",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3671937
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/232/0138-01"
+      ]
+    },
+    {
+      "cite": "278 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3904620
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/278/0001-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701158
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/161/0519-01"
+      ]
+    },
+    {
+      "cite": "332 U. S. 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365152,
+        364863
+      ],
+      "pin_cites": [
+        {
+          "page": "38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0019-01",
+        "/us/332/0804-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5643896
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0391-01"
+      ]
+    },
+    {
+      "cite": "334 U. S. 24",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157319
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/334/0024-01"
+      ]
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 41",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Stat. 140",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "312 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        359179
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "66"
+        },
+        {
+          "page": "65-68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/312/0052-01"
+      ]
+    },
+    {
+      "cite": "2 F. 733",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1643871
+      ],
+      "pin_cites": [
+        {
+          "page": "737"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/2/0733-01"
+      ]
+    },
+    {
+      "cite": "118 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519298
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "369"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "330 U. S. 552",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354142
+      ],
+      "pin_cites": [
+        {
+          "page": "556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/330/0552-01"
+      ]
+    },
+    {
+      "cite": "297 U. S. 422",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3930395
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/297/0422-01"
+      ]
+    },
+    {
+      "cite": "149 U. S. 698",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3569969,
+        3569340
+      ],
+      "pin_cites": [
+        {
+          "page": "713"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/149/0698-01",
+        "/us/149/0698-02"
+      ]
+    },
+    {
+      "cite": "239 U. S. 33",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3931640
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/239/0033-01"
+      ]
+    },
+    {
+      "cite": "185 P. 2d 805",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal. 2d 719",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2233610
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/30/0719-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1230203
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0214-01"
+      ]
+    },
+    {
+      "cite": "268 U. S. 402",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13140
+      ],
+      "pin_cites": [
+        {
+          "page": "411-412"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/268/0402-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1229929
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/323/0283-01"
+      ]
+    },
+    {
+      "cite": "332 U. S. 633",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365137
+      ],
+      "pin_cites": [
+        {
+          "page": "650"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/332/0633-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1230203
+      ],
+      "pin_cites": [
+        {
+          "page": "233"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/323/0214-01"
+      ]
+    },
+    {
+      "cite": "52 Stat. 809,813",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "49 U. S. C. \u00a7\u00a7 176",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "c"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "46 U. S. C. \u00a7\u00a7 11",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "43 U. S. C. \u00a7 161",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "30 U. S. C. \u00a7 181",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "8 U. S. C. \u00a7\u00a771-86",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "6 Pet. 102",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1439701
+      ],
+      "pin_cites": [
+        {
+          "page": "113"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/31/0102-01"
+      ]
+    },
+    {
+      "cite": "2 Wheat. 259",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1444860
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/15/0259-01"
+      ]
+    },
+    {
+      "cite": "263 U. S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143095
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/263/0510-01"
+      ]
+    },
+    {
+      "cite": "6 F. 2d 237",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1673636
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/6/0237-01"
+      ]
+    },
+    {
+      "cite": "239 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3932271
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "176-77"
+        },
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/239/0175-01"
+      ]
+    },
+    {
+      "cite": "274 U. S. 392",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81200
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/274/0392-01"
+      ]
+    },
+    {
+      "cite": "263 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139951
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "220"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/263/0197-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3617766
+      ],
+      "pin_cites": [
+        {
+          "page": "341"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/180/0333-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4674
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/100/0483-01"
+      ]
+    },
+    {
+      "cite": "232 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3671937
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/232/0138-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5643896
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/94/0391-01"
+      ]
+    },
+    {
+      "cite": "297 U. S. 422",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3930395
+      ],
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/297/0422-01"
+      ]
+    },
+    {
+      "cite": "239 U. S. 33",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3931640
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "39-40"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/239/0033-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1603,
+    "char_count": 39586,
+    "ocr_confidence": 0.687,
+    "pagerank": {
+      "raw": 2.706128639501396e-06,
+      "percentile": 0.9969527180928309
+    },
+    "sha256": "6b4a094faa6c0fd0087ad8b0487abc4d3f064d363411f0b4725854e90ffb53b7",
+    "simhash": "1:950d6f51452070f3",
+    "word_count": 6551
+  },
+  "last_updated": "2024-02-27T23:12:16.420092+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Mr. Justice Rutledge agrees,",
+      "Mr. Justice Jackson joins in this dissent."
+    ],
+    "parties": [
+      "TAKAHASHI v. FISH AND GAME COMMISSION et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Black\ndelivered the opinion of the Couri.\nThe respondent, Torao Takahashi, born in Japan, came to this country and became a resident of California in 1907. Federal laws, based on distinctions of \u201ccolor and race,\u201d Toyota v. United States, 268 U. S. 402, 411-412, have permitted Japanese and certain other non-white racial groups to enter and reside in the country, but have made them ineligible for United States citizenship. The question presented is whether California can, consistently with the Federal Constitution and laws passed pursuant to it, use this federally created racial ineligibility for citizenship as a basis for barring Taka-hashi from earning his living as a commercial fisherman in the ocean waters off the coast of California.\nPrior to 1943 California issued commercial fishing licenses to all qualified persons without regard to alienage or ineligibility to citizenship. From 1915 to 1942 Taka-hashi, under annual commercial fishing licenses issued by the State, fished in ocean waters off the California coast, apparently both within and without the three-mile coastal belt, and brought his fresh fish ashore for sale. In 1942, while this country was at war with Japan, Takahashi and other California residents of Japanese ancestry were evacuated from the State under military orders. See Korematsu v. United States, 323 U. S. 214. In 1943, during the period of war and evacuation, an amendment to the California Fish and Game Code was adopted prohibiting issuance of a license to any \u201calien Japanese.\u201d Cal. Stats. 1943, ch. 1100. In 1945, the state code was again amended by striking the 1943 provision for fear that it might be \u201cdeclared unconstitutional\u201d because directed only \u201cagainst alien Japanese\u201d; the new amendment banned issuance of licenses to any \u201cperson ineligible to citizenship,\u201d which classification included Japanese. Cal. Stats. 1945, ch. 181. Because of this state provision barring issuance of commercial fishing licenses to persons ineligible for citizenship under federal law, Takahashi, who met all other state requirements, was denied a license by the California Fish and Game Commission upon his return to California in 1945.\nTakahashi brought this action for mandamus in the Superior Court of Los Angeles County, California, to compel the Commission to issue a license to him. That court granted the petition for mandamus. It held that lawful alien inhabitants of California, despite their ineligibility to citizenship, were entitled to engage in the vocation of commercial fishing on the high seas beyond the three-mile belt on the same terms as other lawful state inhabitants, and that the California code provision denying them this right violated the equal protection clause of the Fourteenth Amendment. The State Supreme Court, three judges dissenting, reversed, holding that California had a proprietary interest in fish in the ocean waters within three miles of the shore, and that this interest justified the State in barring all aliens in general and aliens ineligible to citizenship in particular from catching fish within or without the three-mile coastal belt and bringing them to California for commercial purposes. 30 Cal. 2d 719, 185 P. 2d 805. To review this question of importance in the fields of federal-state relationships and of constitutionally protected individual equality and liberty, we granted certiorari.\nWe may well begin our consideration of the principles to be applied in this case by a summary of this Court\u2019s holding in Truax v. Raich, 239 U. S. 33, not deemed controlling by the majority of the California Supreme Court, but regarded by the dissenters as requiring the invalidation of the California law. That case involved an attack upon an Arizona law which required all Arizona employers of more than five workers to hire not less than eighty (80) per cent qualified electors or native-born citizens of the United States. Raich, an alien who worked as a cook in a restaurant which had more than five employees, was about to lose his job solely because of the state law\u2019s coercive effect on the restaurant owner. This Court, in upholding Raich\u2019s contention that the Arizona law was invalid, declared that Raich, having been lawfully admitted into the country under federal law, had a federal privilege to enter and abide in \u201cany State in the Union\u201d and thereafter under the Fourteenth Amendment to enjoy the equal protection of the laws of the state in which he abided; that this privilege to enter in and abide in any state carried with it the \u201cright to work for a living in the common occupations of the community,\u201d a denial of which right would make of the Amendment \u201ca barren form of words.\u201d In answer to a contention that Arizona\u2019s restriction upon the employment of aliens was \u201creasonable\u201d and therefore permissible, this Court declared:\n\u201cIt must also be said that reasonable classification implies action consistent with the legitimate interests of the State, and it will not be disputed that these cannot be so broadly conceived as to bring them into hostility to exclusive Federal power. The authority to control immigration \u2014 to admit or exclude aliens- \u2014 -is vested solely in the Federal Government. Fong Yue Ting v. United States, 149 U. S. 698, 713. The assertion of .an authority to deny to aliens the opportunity of earning a livelihood when lawfully admitted to the State would be tantamount to the assertion of the right to deny them entrance and abode, for in ordinary cases they cannot live where they cannot work. And, if such a policy were permissible, the practical result would be that those lawfully admitted to the country under the authority of the acts of Congress, instead of enjoying in a substantial sense and in their full scope the privileges conferred by the admission, would be segregated in such of the States as chose to offer hospitality.\u201d Truax v. Raich, supra at 42.\nHad the Truax decision said nothing further than what is quoted above, its reasoning, if followed, would seem to require invalidation of this California code provision barring aliens from the occupation of fishing as inconsistent with federal law, which is constitutionally declared to be \u201cthe supreme Law of the Land.\u201d However, the Court there went on to note that it had on occasion sustained state legislation that did not apply alike to citizens and non-citizens, the ground for the distinction being that such laws were necessary to protect special interests either of the state or of its citizens as such. The Truax opinion pointed out that the Arizona law, aimed as it was against employment of aliens in all vocations, failed to show a \u201cspecial public interest with respect to any particular business . . . that could possibly be deemed to support the enactment.\u201d The Court noted that it had previously upheld various state laws which restricted the privilege of planting oysters in the tidewater rivers of a state to citizens of that state, and which denied to aliens within a state the privilege of possessing a rifle and of shooting game within that state; it also referred to decisions recognizing a state\u2019s broad powers, in the absence of overriding treaties, to restrict the devolution of real property to non-aliens.\nCalifornia now urges, and the-State Supreme Court held, that the California fishing provision here challenged falls within the rationale of the \u201cspecial public interest\u201d cases distinguished in the Truax opinion, and thus that the state\u2019s ban upon commercial fishing by aliens ineligible to citizenship is valid. The contention is this: California owns the fish within three miles of its coast as a trustee for all California citizens as distinguished from its non-citizen inhabitants; as such trustee-owner, it has complete power to bar any or all aliens from fishing in the three-mile belt as a means of conserving the supply of fish; since migratory fish caught while swimming in the three-mile belt are indistinguishable from those caught while swimming in the adjacent high seas, the State, in order to enforce its three-mile control, can also regulate the catching and delivery to its coast of fish caught beyond the three-mile belt under this Court\u2019s decision in Bayside Fish Co. v. Gentry, 297 U. S. 422. Its law denying fishing licenses to aliens ineligible for citizenship, so the state\u2019s contention goes, tends to reduce the number of commercial fishermen and therefore is a proper fish conservation measure; in the exercise of its power to decide what groups will be denied licenses, the State has a right, if not a duty, to bar first of all aliens, who have no community interest in the fish owned by the State. Finally, the legislature\u2019s denial of licenses to those aliens who are \u201cineligible to citizenship\u201d is defended as a reasonable classification, on the ground that California has simply followed the Federal Government\u2019s lead in adopting that classification from the naturalization laws.\nFirst. The state\u2019s contention that its law was passed solely as a fish conservation measure is vigorously denied. The petitioner argues that it was the outgrowth of racial antagonism directed solely against the Japanese, and that for this reason alone it cannot stand. See Korematsu v. United States, supra at 216; Kotch v. Board of River Pilot Comm\u2019rs, 330 U. S. 552, 556; Yick Wo v. Hopkins, 118 U. S. 356; In re Ah Chong, 2 F. 733, 737. We find it unnecessary to resolve this controversy concerning the motives that prompted enactment of the legislation. Accordingly, for purposes of our decision we may assume that the code provision was passed to conserve fish in the California coastal waters, or to protect California citizens engaged in commercial fishing from competition by Japanese aliens, or for both reasons.\nSecond. It does not follow, as California seems to argue, that because the United States regulates immigration and naturalization in part on the basis of race and color classifications, a state can adopt one or more of the same classifications to prevent lawfully admitted aliens within its borders from earning a living in the same way that other state inhabitants earn their living. The Federal Government has broad constitutional powers in determining what aliens shall be admitted to the United States, the period they may remain, regulation of their conduct before naturalization, and the terms and conditions of their naturalization. See Hines v. Davidowitz, 312 U. S. 52, 66. Under the Constitution the states are granted no such powers; they can neither add to nor take from the conditions lawfully imposed by Congress upon admission, naturalization and residence of aliens in the United States or the several states. State laws which impose discriminatory burdens upon the entrance or residence of aliens lawfully within the United States conflict with this constitutionally derived federal power to regulate immigration, and have accordingly been held invalid. Moreover, Congress, in the enactment of a comprehensive legislative plan for the nation-wide control and regulation of immigration and naturalization, has broadly provided:\n\u201cAll persons within the jurisdiction of the United States shall have the same right in every State and Territory to make and enforce contracts, to sue, be parties, give evidence, and to the full and equal benefit of all laws and proceedings for the security of persons and property as is enjoyed by white citizens, and shall be subject to like punishment, pains, penalties, taxes, licenses, and exactions of every kind, and to no other.\u201d 16 Stat. 140, 144, 8 U. S. C. \u00a7 41.\nThe protection of this section has been held to extend to aliens as well as to citizens. Consequently the section and the Fourteenth Amendment on which it rests in part protect \u201call persons\u201d against state legislation bearing unequally upon them either because of alienage or color. See Hurd v. Hodge, 334 U. S. 24. The Fourteenth Amendment and the laws adopted under its authority thus embody a general policy that all persons lawfully in this country shall abide \u201cin any state\u201d on an equality of legal privileges with all citizens under non-discriminatory laws.\nAll of the foregoing emphasizes the tenuousness of the state\u2019s claim that it has power to single out and ban its lawful alien inhabitants, and particularly certain racial and color groups within this class of inhabitants, \u2022 from following a vocation simply because Congress has put some such groups in special classifications in exercise of its broad and wholly distinguishable powers over immigration and naturalization. The state\u2019s law here cannot be supported in the employment of this legislative authority because of policies adopted by Congress in the exercise of its power to treat separately and differently with aliens from countries composed of peoples of many diverse cul-. tures, races, and colors. For these reasons the power of a state to apply its laws exclusively to its alien inhabitants as a class is confined within narrow limits.\nThird. We are unable to find that the \u201cspecial public interest\u201d on which California relies provides support for this state ban on Takahashi\u2019s commercial fishing. As before pointed out, California\u2019s claim of \u201cspecial public interest\u201d is that its citizens are the collective owners of fish swimming in the three-mile belt. It is true that this Court did long ago say that the citizens of a state collectively own \u201cthe tide-waters . . . and the fish in them, so \u2022far as they are capable of ownership while running.\u201d McCready v. Virginia, 94 U. S. 391, 394. Cf. United States v. California, 332 U. S. 19, 38; Toomer v. Witsell, ante, p. 385. The McCready case upheld a Virginia law which prohibited citizens of other states from planting oysters in a Virginia tidewater river. Though the Mc-Cready case has been often distinguished, its rationale has been relied on in other cases, including Geer v. Connecticut, 161 U. S. 519. That decision, where only the commerce clause was involved, sustained a state law that, in order to restrict the use of game to the people of the state, prohibited the out-of-state transportation of game killed within the state. On the other hand, where Louisiana laws declared that the state owned all shrimp within the waters of the state, but permitted ultimate sale and shipment of shrimp for consumption outside that state\u2019s boundaries, Louisiana was denied power under the commerce clause to require the local processing of shrimp taken from Louisiana marshes as a prerequisite to out-of-state transportation. Foster Packing Co. v. Haydel, 278 U. S. 1. In the absence of overriding federal treaties, this Court sustained a state law barring aliens from hunting wild game in the interest of conserving game for citizens of the state against due process and equal protection challenges. Patsone v. Pennsylvania, 232 U. S. 138. Later, however, the Federal Migratory Bird Treaty Act of 1918, 40 Stat. 755, was sustained as within federal power despite the claim of Missouri of ownership of birds within its boundaries based on prior statements as to state ownership of game and fish in the Geer case. Missouri v. Holland, 252 U. S. 416. The Court was of opinion that \u201cTo put the claim of the State upon title is to lean upon a slender reed.\u201d P. 434. We think that same statement is equally applicable here. To whatever extent the fish in the three-mile belt off California may be \u201ccapable of ownership\u201d by California, we think that \u201cownership\u201d is inadequate to justify California in excluding any or all aliens who are lawful residents of the State from making a living by fishing in the ocean off its shores while permitting all others to do so.\nThis leaves for consideration the argument that this law should be upheld on authority of those cases which have sustained state laws barring aliens ineligible to citizenship from land ownership. Assuming the continued validity of those cases, we think they could not in any event be controlling here. They rested solely upon the power of states to control the devolution and ownership of land within their borders, a power long exercised and supported on reasons peculiar to real property. They cannot be extended to cover this case.\nThe judgment is reversed and remanded for proceedings not inconsistent with this opinion.\nReversed.\nThe comprehensive laws adopted by Congress regulating the immigration and naturalization of aliens are included in Title 8 of the U. S. Code; for codification of laws governing racial and color prerequisites of aliens to citizenship see 8 U. S. C. \u00a7 703. An act adopted by the first Congress in 1790 made \u201cfree white persons\u201d only eligible for citizenship. 1 Stat. 103. Later acts have extended eligibility of aliens to citizenship to the following groups: in 1870, \u201caliens of African nativity and . . . persons of African descent,\u201d 16 Stat. 254, 256; in 1940, \u201cdescendants of races indigenous to the Western Hemisphere,\u201d 54 Stat. 1137, 1140; in 1943, \u201cChinese persons or persons of Chinese descent,\u201d 57 Stat. 600, 601; and in 1946, Filipinos and \u201cpersons of races indigenous to India,\u201d 60 Stat. 416. While it is not wholly clear what racial groups other than Japanese are now ineligible to citizenship, it is clear that Japanese are among the few groups still not eligible, see Oyama v. California, 332 U. S. 633, 635, n. 3, and that, according to the 1940 census, Japanese aliens constituted the great majority of aliens living in the United States then ineligible for citizenship. See concurring opinion of Mr. Justice Murphy in Oyama v. California, supra at 650, 665, 666, nn. 20 and 22.\nReport of the California Senate Fact-Finding Committee on Japanese Resettlement, May 1, 1945, pp. 5-6.\nAs amended the code section now reads: \u201cPersons required to procure license: To whom issuable. Every person who uses or operates or assists in using or operating any boat, net, trap, line, or other appliance to take fish, mollusks or crustaceans for profit, or who brings or causes fish, mollusks or crustaceans to be brought ashore at any point in the State for the purpose of selling the same in a fresh state, shall procure a commercial fishing license.\n\u201cA commercial fishing license may be issued to any person other than a person ineligible to citizenship. A commercial fishing license may be issued to a corporation only if said corporation is authorized to do business in this State, if none of the officers or directors thereof are persons ineligible to citizenship, and if less than the majority of each class of stockholders thereof are persons ineligible to citizenship.\u201d Cal. Fish and Game Code \u00a7 990. In 1947 the code was amended to permit \u201cany person, not a citizen of the United States,\u201d to obtain hunting and sport fishing licenses, both of which had been denied to \u201calien Japanese\u201d and to persons \u201cineligible to citizenship\u201d under the 1943 and 1945 amendments. Cal. Stats. 1947, c. 1329; Cal. Fish and Game\" Code \u00a7\u00a7427, 428.\nThe Superior Court first ordered issuance of a commercial fishing license authorizing Takahashi to bring ashore \u201ccatches of fish from the waters of the high seas beyond the State\u2019s territorial jurisdiction.\u201d After appeal to the State Supreme Court by the State Commission the Superior Court amended its judgment so as to order a commercial license authorizing Takahashi to bring in catches of fish taken from the three-mile ocean belt adjacent to the California coast as well as from, the high seas. The State Supreme Court held that the Superior Court was without jurisdiction to amend its judgment after appeal and accordingly treated the amended judgment as void. California argues here that its State Fish and Game Commission is authorized by statute to issue only one type of commercial fishing license, namely, one permitting ocean fish to be brought ashore whether caught within or without the three-mile belt, that the Superior Court\u2019s first judgment ordering issuance of a license limited to catches of high seas fish directed the Commission to do something it was without authority to do, and that on this ground we should affirm the state court\u2019s denial of the requested license. The State Supreme Court did not, however, decide the case on that ground, but ruled against petitioner on the ground that the challenged code provision was valid under the Federal Constitution and that the Commission\u2019s refusal to grant a license was required by its terms. Since the state court of last resort relied solely upon federal grounds for its decision, we may properly review its action here.\nThe opinion cited the following cases: McCready v. Virginia, 94 U. S. 391; Patsone v. Pennsylvania, 232 U. S. 138; Hauenstein v. Lynham, 100 U. S. 483; and Blythe v. Hinckley, 180 U. S. 333.\nTruax v. Raich, supra; Chy Lung v. Freeman, 92 U. S. 275, 280; see Hines v. Davidowitz, supra at 65-68.\nYick Wo v. Hopkins, supra at 369; United States v. Wong Kim Ark, 169 U. S. 649, 696; In re Tiburcio Parrott, 1 F. 481, 508-509; Fraser v. McConway & Torley Co., 82 F. 257.\nTerrace v. Thompson, 263 U. S. 197; Porterfield v. Webb, 263 U. S. 225; Webb v. O\u2019Brien, 263 U. S. 313; Frick v. Webb, 263 U. S. 326.\nSee Oyama v. California, 332 U. S. 633, 646, 649, 672.",
+        "type": "majority",
+        "author": "Mr. Justice Black"
+      },
+      {
+        "text": "Mr. Justice Murphy,\nwith whom Mr. Justice Rutledge agrees,\nconcurring.\nThe opinion of the Court, in which I join, adequately expresses my views as to all but one important aspect of this case. That aspect relates to the fact that \u00a7 990 of the California Fish and Game Code, barring those ineligible to citizenship from securing commercial fishing licenses, is the direct outgrowth of antagonism toward persons of Japanese ancestry. Even the most cursory examination of the background of the statute demonstrates that it was designed solely to discriminate against such persons in a manner inconsistent with the concept of equal protection of the laws. Legislation of that type is not entitled to wear the cloak of constitutionality.\nThe statute in question is but one more manifestation of the anti-Japanese fever which has been evident in California in varying degrees since the turn of the century. See concurring opinion in Oyama v. California, 332 U. S. 633, 650, and dissenting opinion in Korematsu v. United States, 323 U. S. 214, 233. That fever, of course, is traceable to the refusal or the inability of certain groups to adjust themselves economically and socially relative to residents of Japanese ancestry. For some years prior to the Japanese attack on Pearl Harbor, these protagonists of intolerance had been leveling unfounded accusations and innuendoes against Japanese fishing crews operating off the coast of California. These fishermen numbered about a thousand and most of them had long resided in that state. It was claimed that they were engaged not only in fishing but in espionage and other illicit activities on behalf of the Japanese Government. As war with Japan approached and finally became a reality, these charges were repeated with increasing vigor. Yet full investigations by appropriate authorities failed to reveal any competent supporting evidence; not even one Japanese fisherman was arrested for alleged espionage. Such baseless accusations can only be viewed as an integral part of the long campaign to undermine the reputation of persons of Japanese background and to discourage their residence in California. See McWilliams, Prejudice (1944), ch. VII.\nMore specifically, these accusations were used to secure the passage of discriminatory fishing legislation. But such legislation was not immediately forthcoming. The continued presence in California of the Japanese fishermen without the occurrence of any untoward incidents on their part served for a time as adequate and living refutation of the propaganda. Then came the evacuation of all persons of Japanese ancestry from the West Coast. See Korematsu v. United States, supra. Once evacuation was achieved, an intensive campaign was begun to prevent the return to California of the evacuees. All of the old charges, including the ones relating to the fishermen, were refurbished and augmented. This time the Japanese were absent and were unable to provide effective opposition. The winds of racial animosity blew unabated.\nDuring the height of this racial storm in 1943, numerous anti-Japanese bills were considered by the California legislators. Several amendments to the Alien Land Law were enacted. And \u00a7 990 of the Fish and Game Code was altered to provide that \u201cA commercial fishing license may be issued to any person other than an alien Japanese.\u201d No pretense was made that this alteration was in the interests of conservation. It was made at a time when all alien Japanese were excluded from California, with no immediate return indicated; thus the banning of fishing licenses for them could have no early effect upon the conservation of fish. Moreover, the period during which this amendment was passed was one in which both federal and state authorities were doing their utmost to encourage greater food production for wartime purposes. The main desire at this time was to increase rather than to decrease the catch of fish. Certainly the contemporaneous bulletins and reports of the Bureau of Marine Fisheries of California did not indicate the existence of any conservation problem due to an excess number of fishermen. See Thirty-Eighth Biennial Report (July 1, 1944), pp. 33-36; Fish Bulletin No. 58, for the year 1940; Fish Bulletin No. 59, for the years 1941 and 1942.\nThese circumstances only confirm the obvious fact that the 1943 amendment to \u00a7 990 was intended to discourage the return to California of Japanese aliens. By taking away their commercial fishing rights, the lives of those aliens who plied the fisherman\u2019s trade would be made more difficult and unremunerative. And the non-Japanese fishermen would thereby be free from the competition afforded by these aliens. The equal protection clause of the Fourteenth Amendment, however, does not permit a state to discriminate against resident aliens in such a fashion, whether the purpose be to give effect to racial animosity or to protect the competitive interests of other residents.\nThe 1945 amendment to \u00a7 990 which is now before us stands in no better position than the 1943 amendment. This later alteration eliminated the reference to \u201calien Japanese\u201d and substituted therefor \u201ca person ineligible to citzenship.\u201d Adoption of this change also occurred during a period when anti-Japanese agitation in California had reached one of its periodic peaks. The announcement of the end of the Japanese exclusion orders, plus this Court\u2019s decision in Ex parte Endo, 323 U. S. 283, made the return to California of many of the evacuees a reasonable certainty. The prejudices, the antagonisms and the hatreds were once again aroused, punctuated this time by numerous acts of violence against the returning Japanese Americans. Another wave of anti-Japanese proposals marked the 1945 legislative session. It was in this setting that the amendment to \u00a7 990 was proposed and enacted in 1945.\nIt is of interest and significance that the amendment in question was proposed by a legislative committee devoted to Japanese resettlement problems, not by a committee concerned with the conservation of fish. The Senate Fact-Finding Committee on Japanese Resettlement issued a report on May 1, 1945. This report dealt with such matters as the Alien Land Law, the Japanese language schools, du\u00e1l citizenship and the Tule Lake riot. And under the heading \u201cJapanese Fishing Boats\u201d (pp. 5-6) appeared this explanation of the proposed amendment to \u00a7 990:\n\u201cThe committee gave little consideration to the problems of the use of fishing vessels on our coast owned and operated by Japanese, since this matter seems to have previously been covered by legislation. The committee, however, feels that there is danger of the present statute being declared unconstitutional, on the grounds of discrimination, since it is directed against alien Japanese. It is believed that this legal question can probably be eliminated by an amendment which has been proposed to the bill which would make it apply to any alien who is ineligible to citizenship. The committee has introduced Senate Bill 413 to make this change in the statute.\u201d\nNot a word was said in this report regarding the need for the conservation of fish or the necessity of limiting the number of fishermen. The obvious thought behind the amendment was to attempt to legalize the discrimination against Japanese alien fishermen by dropping the specific reference to them.\nThe proposed revision was adopted. The trial court below correctly described the situation as follows: \u201cAs it was commonly known to the legislators of 1945 that Japanese were the only aliens ineligible to citizenship who engaged in commercial fishing in ocean waters bordering on California, and as the Court must take judicial notice of the same fact, it becomes manifest that in enacting the present version of Section 990, the Legislature intended thereby to eliminate alien Japanese from those entitled to a commercial fishing license by means of description rather than by name. To all intents and purposes and in effect the provision in the 1943 and 1945 amendments are the same, the thin veil used to conceal a purpose being too transparent. Under each and both, alien Japanese are denied a right to a license to catch fish on the high seas for profit, and to bring them to shore for the purpose of selling the same in a fresh state . . . this discrimination constitutes an unequal exaction and a greater burden upon the persons of the class named than that imposed upon others in the same calling and under the same conditions, and amounts to prohibition. This discrimination, patently hostile, is not based upon a reasonable ground of classification and, to that extent, the section is in violation of Section 1 of the Fourteenth Amendment to the Constitution of the United States, . . .\nWe should not blink at the fact that \u00a7 990, as now written, is a discriminatory piece of legislation having no relation whatever to any constitutionally cognizable interest of California. It was drawn against a background of racial and economic tension. It is directed in spirit and in effect solely against aliens of Japanese birth. It denies them commercial fishing rights not because they threaten the success of any conservation program, not because their fishing activities constitute a clear and present danger to the welfare of California or of the nation, but only because they are of Japanese stock, a stock which has had the misfortune to arouse antagonism among certain powerful interests. We need but unbutton the seemingly innocent words of \u00a7 990 to discover beneath them the very negation of all the ideals of the equal protection clause. No more is necessary to warrant a reversal of the judgment below.",
+        "type": "concurrence",
+        "author": "Mr. Justice Murphy,"
+      },
+      {
+        "text": "Mr. Justice Reed,\ndissenting.\nThe reasons which lead me to conclude that the judgment of the Supreme Court of California should be affirmed may be briefly stated. As fishing rights have been treated traditionally as a natural resource, in the absence of federal regulation, California as a sovereign state has power to regulate the taking and handling of fish in the waters bordering its shores. It is, I think, one of the natural resources of the state that may be preserved from exploitation by aliens. The ground for this power in the absence of any exercise of federal authority is California\u2019s authority over its fisheries.\nThe right to fish is analogous to the right to own land, a privilege which a state may deny to aliens as to land within its borders. Terrace v. Thompson, 263 U. S. 197. It is closely akin to the right to hunt, a privilege from which a state may bar aliens, if reasonably deemed advantageous to its citizens. A state\u2019s power has even been held to extend to the exclusion of aliens from the operation of pool and billiard halls when a city deemed them not as well qualified as citizens for the conduct of a business thought to have harmful tendencies. Clarke v. Deckebach, 274 U. S. 392.\nThe Federal Government has not pursued a policy of equal treatment of aliens and citizens. Citizens have rights superior to those of aliens in the ownership of land and in exploiting natural resources. Perhaps Congress as a matter of immigration policy may require that states open every door of opportunity in America to all resident aliens, but until Congress so determines as to fisheries, I do not feel that the judicial arm of the Government should require the states to admit all aliens to this privilege.\nCertainly Truax v. Raich, 239 U. S. 33, upon which the majority opinion appears to rely in holding that the California statute denies equal protection in attempting to classify aliens by putting restrictions on their right to land fish, is not an authority for such a decision. The power of a state to discriminate against aliens on public works and the exploitation of natural resources was recognized in that case. And, at the very time that it was under consideration, this Court also had before it Heim v. McCall, 239 U. S. 175. In that case, Heim attacked the constitutionality of a New York statute which provided that \u201cIn the construction of public works by the State or a municipality, or by persons contracting with the state or such municipality, only citizens of the United States shall be employed; and in all cases where laborers are employed on any such public works, preference shall be given citizens of the State of New York.\u201d A unanimous court held that the statute, which was attacked on the ground that it denied aliens their rights under the privileges and immunities, due process, and equal protection clauses of the Constitution, was a constitutional exercise of state power as applied to the construction of New York City subways by private contractors. The Constitution that permits the bar of aliens from public works surely must permit their bar from state fishing rights. A state has power to exclude from enjoyment of its natural resources those who are unwilling or unable to become citizens.\nIf aliens, as I think they can, may be excluded by a state from fishing privileges, I see no reason why the classification established by California excluding only aliens ineligible to citizenship is prohibited by the Constitution. Terrace v. Thompson, 263 U. S. 197, 220. Whatever we may think of the wisdom of California\u2019s statute, we should intervene only when we conclude the state statute passes constitutional limits.\nMr. Justice Jackson joins in this dissent.\nBayside Fish Flour Co. v. Gentry, 297 U. S. 422, 425.\nThe statute, see note 3 of the Court\u2019s opinion for the text, seems obviously to cast no burden on commerce.\nA Washington statute similar to the one now before us was considered in Lubetich v. Pollock, 6 F. 2d 237.\nEven citizens of other states have been excluded by a state from such opportunities. McCready v. Virginia, 94 U. S. 391 (planting oyster beds). Fishing licenses discriminating between residents and non-residents are permissible. Haavik v. Alaska Packers Assn., 263 U. S. 510.\nThe right of an alien to own land is controlled by the law of the state in which the land is located. Such was the rule of the common law. Collingwood v. Pace, 1 Vent. 413, 86 Eng. Rep. 262. That has long been the law of nations, 2 Vattel, Law of Nations (1883) c. 8, \u00a7 114, and has been accepted in this country. Chirac v. Chirac, 2 Wheat. 259; Levy v. M\u2019Cartee, 6 Pet. 102, 113; Hauenstein v. Lynham, 100 U. S. 483; Blythe v. Hinckley, 180 U. S. 333, 341. Whether the philosophical basis of that power, or the power over fish and game, is a theory of ownership or trusteeship for its citizens or residents or conservation of natural resources or protection of its land or coasts is not material. The right to control the ownership of land rests in sovereign governments and, in the United States, it rests with the individual states in the absence of federal action by treaty or otherwise.\nPatsone v. Pennsylvania, 232 U. S. 138. In expressing the conclusion of the Court, Mr. Justice Holmes phrased the rule as follows, pp. 145-46: \u201cIt is to be remembered that the subject of this whole discussion is wild game, which the State may preserve for its own citizens if it pleases.\u201d\nIn that case a unanimous Court, speaking through Mr. Justice Stone, said, p. 396:\n\u201cThe objections to the constitutionality of the ordinance are not persuasive. Although the Fourteenth Amendment has been held to prohibit plainly irrational discrimination against aliens, ... it does not follow that alien race and allegiance may not bear in some instances such a relation to a legitimate object of legislation as to be made the basis of a permitted classification.\u201d\nThe United States limits the rights of aliens as compared with citizens in land ownership in its territories, 8 U. S. C. \u00a7\u00a771-86; in disposition of mineral lands, 30 U. S. C. \u00a7 181; of public lands, 43 U. S. C. \u00a7 161; in engaging in coastwise trade, 46 U. S. C. \u00a7\u00a7 11, 13; in operating aircraft, 49 U. S. C. \u00a7\u00a7 176 (c), 521.\nIt was deemed necessary to limit the benefits of the Emergency Relief Appropriation Act of 1938 to aliens who had \u201cfiled a declaration of intention to become an American citizen . . . .\u201d 52 Stat. 809,813.\n239 U. S. 33, 39-40: \u201cThe discrimination defined by the act does not pertain to the regulation or distribution of the public domain, or of the common property or resources of the people of the State, the enjoyment of which may be limited to its citizens as against both aliens and the citizens of other States. . . . The case now presented is not within these decisions, or within those relating to the devolution of real property . . . ; and it should be added that the act is not limited to persons who are engaged on public work or receive the benefit of public moneys. The discrimination here involved is imposed upon the conduct of ordinary private enterprise.\u201d\nTruax v. Raich, supra, was argued.October 15, 1915, and decided November 1, 1915; Heim, v. McCall, supra, was argued October 12, 1915, and decided November 29,1915.\n239 U. S. 175,176-77.\nThe problem of natural resources was not directly discussed in the opinion. But it is clear that the Court was not unaware of the relation of its decision to the natural resources cases. See 239 U. S. 175, 194. The fact that this case was before the Court at the same time as Truax v. Raich, probably explains the careful reservation of the natural resources and public works problems in that case. See 239 U. S. 33, 39-40.",
+        "type": "dissent",
+        "author": "Mr. Justice Reed,"
+      }
+    ],
+    "attorneys": [
+      "A. L. Wirin and Dean Acheson argued the cause for petitioner. With them on the brief were Charles A. Horsky and Fred Okrand.",
+      "Ralph Winfield Scott, Deputy Attorney General of California, argued the cause for respondents. With him on the brief was Fred N. Howser, Attorney General.",
+      "Briefs of amici curiae urging reversal were filed by Attorney General Clark, Solicitor General Perlman, Philip Elman and James L. Morrisson for the United States; Arthur Garfield Hays and Edward J. Ennis for the American Civil Liberties Union; William Maslow, William Strong and Ambrose Doskow for the American Jewish Congress; Phineas Indritz and Jacob W. Rosenthal for the American Veterans Committee; Edward J. Ennis for the Home Missions Council of North America et al.; Saburo Kido for the Japanese American Citizens League; and Thurgood Marshall and Marian Wynn Perry for the National Lawyers Guild et al."
+    ],
+    "corrections": "",
+    "head_matter": "TAKAHASHI v. FISH AND GAME COMMISSION et al.\nNo. 533.\nArgued April 21-22, 1948.\nDecided June 7, 1948.\nA. L. Wirin and Dean Acheson argued the cause for petitioner. With them on the brief were Charles A. Horsky and Fred Okrand.\nRalph Winfield Scott, Deputy Attorney General of California, argued the cause for respondents. With him on the brief was Fred N. Howser, Attorney General.\nBriefs of amici curiae urging reversal were filed by Attorney General Clark, Solicitor General Perlman, Philip Elman and James L. Morrisson for the United States; Arthur Garfield Hays and Edward J. Ennis for the American Civil Liberties Union; William Maslow, William Strong and Ambrose Doskow for the American Jewish Congress; Phineas Indritz and Jacob W. Rosenthal for the American Veterans Committee; Edward J. Ennis for the Home Missions Council of North America et al.; Saburo Kido for the Japanese American Citizens League; and Thurgood Marshall and Marian Wynn Perry for the National Lawyers Guild et al."
+  },
+  "file_name": "0410-01",
+  "first_page_order": 482,
+  "last_page_order": 503
+}

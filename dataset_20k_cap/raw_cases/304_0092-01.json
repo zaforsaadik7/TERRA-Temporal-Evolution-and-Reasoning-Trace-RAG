@@ -1,0 +1,795 @@
+{
+  "id": 10823,
+  "name": "HINDERLIDER, STATE ENGINEER, et al. v. LA PLATA RIVER & CHERRY CREEK DITCH CO.",
+  "name_abbreviation": "Hinderlider v. La Plata River & Cherry Creek Ditch Co.",
+  "decision_date": "1938-04-25",
+  "docket_number": "No. 437",
+  "first_page": "92",
+  "last_page": "111",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "304 U.S. 92"
+    },
+    {
+      "type": "parallel",
+      "cite": "82 L. Ed. 1202"
+    },
+    {
+      "type": "parallel",
+      "cite": "58 S. Ct. 803"
+    },
+    {
+      "type": "vendor",
+      "cite": "1938 U.S. LEXIS 1019"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1937-042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "283 U. S. 348",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434201
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0348-01"
+      ]
+    },
+    {
+      "cite": "257 U. S. 47",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3677645
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/257/0047-01"
+      ]
+    },
+    {
+      "cite": "205 U. S. 214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3637606
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/205/0214-01"
+      ]
+    },
+    {
+      "cite": "138 U. S. 226",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3549702
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/138/0226-01"
+      ]
+    },
+    {
+      "cite": "5 Wheat. 374",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1442074
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/18/0374-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576400
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0155-01"
+      ]
+    },
+    {
+      "cite": "192 U. S. 573",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        360351
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/192/0573-01"
+      ]
+    },
+    {
+      "cite": "13 How. 381",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3362365
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/54/0381-01"
+      ]
+    },
+    {
+      "cite": "246 U. S. 289",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286634
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/246/0289-01"
+      ]
+    },
+    {
+      "cite": "4 How. 591",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        1503902
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/45/0591-01"
+      ]
+    },
+    {
+      "cite": "15 Pet. 233",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3332043
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/40/0233-01"
+      ]
+    },
+    {
+      "cite": "14 Pet. 210",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3334471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/39/0210-01"
+      ]
+    },
+    {
+      "cite": "13 Pet 23",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3338150
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/38/0023-01"
+      ]
+    },
+    {
+      "cite": "11 Pet. 226",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3344694
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/36/0226-01"
+      ]
+    },
+    {
+      "cite": "7 Pet. 651",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1436157
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/32/0651-01"
+      ]
+    },
+    {
+      "cite": "295 U. S. 40",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        333926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/295/0040-01"
+      ]
+    },
+    {
+      "cite": "298 U. S. 573",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1486194
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/298/0573-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 789",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434099
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0789-01"
+      ]
+    },
+    {
+      "cite": "6 Pet. 323",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1439678
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/31/0323-01"
+      ]
+    },
+    {
+      "cite": "5 Pet. 284",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        534521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/30/0182-01"
+      ]
+    },
+    {
+      "cite": "3 Pet. 461",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3305075
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/28/0461-01"
+      ]
+    },
+    {
+      "cite": "34 Yale L. J. 685",
+      "category": "journals:journal",
+      "reporter": "Yale L.J.",
+      "pin_cites": [
+        {
+          "page": "730-32"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 U. S. 158",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8285715
+      ],
+      "pin_cites": [
+        {
+          "page": "176"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/246/0158-01"
+      ]
+    },
+    {
+      "cite": "3 Dall. 411",
+      "category": "reporters:scotus_early",
+      "reporter": "Dall.",
+      "case_ids": [
+        11738389
+      ],
+      "pin_cites": [
+        {
+          "page": "412"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/3/0411-01"
+      ]
+    },
+    {
+      "cite": "43 Stat. 796",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "297 U. S. 517",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3930378
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "528"
+        },
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/297/0517-01"
+      ]
+    },
+    {
+      "cite": "282 U. S. 660",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6933116
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "669-71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/282/0660-01"
+      ]
+    },
+    {
+      "cite": "250 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3682929
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/250/0071-01"
+      ]
+    },
+    {
+      "cite": "12 Wall. 455",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        5653807
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/79/0455-01"
+      ]
+    },
+    {
+      "cite": "73 P. 2d 997",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        2763671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/101/0368-02"
+      ]
+    },
+    {
+      "cite": "101 Colo. 368",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2763546,
+        2763671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/101/0368-01",
+        "/colo/101/0368-02"
+      ]
+    },
+    {
+      "cite": "259 U. S. 468",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 U. S. 494",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3916213
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/286/0494-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 503",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3567361
+      ],
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/148/0503-01"
+      ]
+    },
+    {
+      "cite": "123 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3524163
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "29, 30, 31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/123/0001-01"
+      ]
+    },
+    {
+      "cite": "12 Pet. 511",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5619920
+      ],
+      "pin_cites": [
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/37/0511-01"
+      ]
+    },
+    {
+      "cite": "11 Pet. 209",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Pet. 185",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3344832
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "209"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/36/0185-01"
+      ]
+    },
+    {
+      "cite": "256 U. S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679772
+      ],
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/256/0296-01"
+      ]
+    },
+    {
+      "cite": "252 U. S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        551458
+      ],
+      "pin_cites": [
+        {
+          "page": "283"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/252/0273-01"
+      ]
+    },
+    {
+      "cite": "214 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3648729
+      ],
+      "pin_cites": [
+        {
+          "page": "217, 218"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/214/0205-01"
+      ]
+    },
+    {
+      "cite": "12 Pet. 657",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5619811
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "723-25"
+        },
+        {
+          "page": "725"
+        },
+        {
+          "page": "755"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/37/0657-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434109
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "342-43"
+        },
+        {
+          "page": "342-43"
+        },
+        {
+          "page": "805"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0336-01"
+      ]
+    },
+    {
+      "cite": "259 U. S. 419",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        423332
+      ],
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/259/0419-01"
+      ]
+    },
+    {
+      "cite": "206 U. S. 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930930
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "97"
+        },
+        {
+          "page": "95, 97-98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/206/0046-01"
+      ]
+    },
+    {
+      "cite": "302 U. S. 646",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6145145,
+        6145212,
+        6145087
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/302/0646-02",
+        "/us/302/0646-03",
+        "/us/302/0646-01"
+      ]
+    },
+    {
+      "cite": "50 Stat. 751",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Colo. 73",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2765858
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/101/0073-01"
+      ]
+    },
+    {
+      "cite": "291 U. S. 650",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1498117,
+        1498181,
+        1498183,
+        1497960,
+        1497965,
+        1498008
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/291/0650-02",
+        "/us/291/0650-05",
+        "/us/291/0650-01",
+        "/us/291/0650-03",
+        "/us/291/0650-04",
+        "/us/291/0650-06"
+      ]
+    },
+    {
+      "cite": "93 Colo. 128",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2814568
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/93/0128-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1284,
+    "char_count": 33283,
+    "ocr_confidence": 0.641,
+    "pagerank": {
+      "raw": 9.401611470068075e-07,
+      "percentile": 0.9805536925125751
+    },
+    "sha256": "e33bcc083da7a60b70051784915bef9dfd7fb5e0f613806095c5c16260758412",
+    "simhash": "1:9c2ccfa0df142072",
+    "word_count": 5686
+  },
+  "last_updated": "2024-02-27T20:13:57.996700+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Cardozo took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "HINDERLIDER, STATE ENGINEER, et al. v. LA PLATA RIVER & CHERRY CREEK DITCH CO."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brandeis\ndelivered the opinion of the Court.\nThe La Plata River and Cherry Creek Ditch Company, a Colorado corporation, owns a ditch by which it diverts from that river in Colorado water for irrigation. On July 5, 1928, it brought in the District Court for La Plata County a suit which charged that since June 24, 1928, the defendants, Hinderlider, State Engineer of Colorado, and his subordinates have so administered the water of the river as to deprive the plaintiff of water which it claims the right to divert. A mandatory injunction was sought.\nThe defendants admit that in administering the water of the stream during the period named they shut thj head-gate of the Ditch Company so as to deprive it o:: water for purposes of irrigation; but assert that they did so pursuant to the requirements of the La Plata River C ompact entered into by the States of Colorado and New Mexico with the consent of the Congress of the United States. The Compact, provides that each State shall receive a definite share of water under the' varying conditions which obtain during the year, and, among other things:\n\u201c1. At all times between the 1st day of December and the 15th day of the succeeding February each State shall have the unrestricted right to the use of all water which may flow within its boundaries.\n\u201c2. By reason of the usual annual rise and fall, the flow of said river between the 15th day of February and the 1st\"' day of December of each .year shall be apportioned between the States in the following manner:\n\u201c(a) Each State shall have the unrestricted right to use \u00bf11 the waters within its boundaries in each day when, the mean daily flow at the interstate station is one hundred cubic feet per second, or more.\n\u201c(b) On all other days, the State of Colorado shall deliver at the interstate station a quantity of water equivalent to one-half of the mean flow at the Hesperus station for the preceding day, but not to exceed one hundred cubic feet per second.\n\u201c3- Whenever the flow of the river is so low that in the judgment of the State engineers of the States the greatest beneficial use of its waters may be. secured by distributing all of its water successively to the lands in each State in alternating periods,, in lieu of delivery of water as provided in the second paragraph of this article, the use of the waters may be so rotated between the two States in such manner, for such periods, and to continue for such time as the State Engineers may jointly determine.\u201d\nFor the administration of water rights, Colorado and New Mexico each set up an administrative system with the State Engineers at its head. The State Engineers agreed that, in order to put the water to its most efficient use in the hot summer months of 1928, when the river was very low, the whole of' the available supply should be rotated between the two States. In other words, that each State should be permitted to enjoy the entire flow of the river during alternating ten-day periods. During the ten days commencing June 24, 1928, all the water of the river (except small amounts diverted in Colorado for domestic and stock requirements) was thus allowed to pass to New Mexico; and during the succeeding ten-day period all the water in the stream was similarly allowed to be diverted in Colorado. The defendant water officials contend that in so rotating the water of the stream they administered it as required by the Compact and wisely.\nThe La Plata River rises in the mountains of Colorado, flows in a southerly direction until it reaches the boundary of New Mexico and in the latter State until it empties into the San Juan River. The stream is non-navigable; has a narrow watershed; and a large run-off in the early spring. Then the quantity flowing begins to fall rapidly; and during the summer months little water is available for irrigation. In each State the wkter of the stream has long been used for irrigation; and each adopted the so-called appropriation dpctrine of water use. Und\u00e9r that-doctrine the first person who acts toward the diversion of water from a natural stream and the application of such water to a beneficial use has the first right, provided he diligently continues his enterprise' to completion and beneficially applies the water. The rights of subsequent appropriations are subject to rights already held in the stream.\nThe relative rights of all claimants to divert in Colorado water from the' La Plata River were adjudicated in a proceeding under the Colorado statutes., By decree therein of January 12, 1898 (and later amended) the Ditch Company was declared entitled to diyert 39% cubic feet of water per second, subject to five senior priorities aggregating 19 second feet. On June 24, 1928, -there was in the stream, at the recognized Colorado gauging station, 57 second feet of water. The Ditch Company claimed that by reason of the 1898 decree it was entitled to all the water in the stream except that required to satisfy the Colorado priorities. If it had been permitted to draw all that water, none would have been available to the New Mexico water claimants, who, under similar laws, had made appropriations. Some of them were earlier in date than the Ditch Company\u2019s.\nThe case was first heard in the District Court on evidence in 1930. The Ditch Company objected at the trial to the admission or consideration of the Compact. It insisted that the Compact attempted to surrender to New Mexico, and thus destroy, vested property rights of Colorado citizens; that this is a violation of the obligations of its contract; and that the Compact in so far as it \u201capplies or is intended to apply to private rights of the individuals or citizens of Colorado, or to be used as a defense of or justification for the acts of the State Engineer or his subordinates in interfering with or violating the private rights of citizens of Colorado, or in attempting to disregard,-ignore\u2019or set aside the decrees of this [District] Court for the distribution of water in accordance with the decrees, is- unconstitutional and void\u201d in violation of the due process clauses of the Fifth \u00e1iid Fourteenth Amendments of the Federal Constitution and of \u00a7 25 of the Constitution of Colorado.\nThe District Court overruled the objection; found in substance the facts stated above; held that the Compact justified .the action of'defendants; and entered a decree that the bill be dismissed, each party to bear its own costs. That judgment was reversed by the Supreme Court of the State (one judge dissenting), La Plata River & Cherry Creek Ditch Co. v. Hinderlider, 93 Colo. 128; 25 P. 2d 187. The opinion declared:\n\u201cThere is not .the slightest pretense, either in this compact itself or in the proceedings leading up to it, to a decision of the question of what water Colorado owns, or what water New Mexico owns, or what their respective citizens own. It. is a mere compromise of presumably conflicting claims, , a trading therein, in which the property of citizens is bartered, without notice or hearing and with no regard to vested -rights.\u201d\nAn appeal to this Court was dismissed for want of final judgment below. Hinderlider v. La Plata River & Cherry Creek Ditch Co., 291 U. S. 650. The case was then retried by the District Court on the same pleadings and evidence; and, pursuant to the opinion of the Supreme Court of Colorado, a decree was entered which, after reciting in substance the facts above stated, declared:\n\u201c6. That the said La Plata River Compact, entered into between the States of Colorado and New Mexico with the consent of the Congress of the United States of America, does not constitute a defense to the actions of said defendant water officials complained of by plaintiff, and is not available to said defendant water officials, as a legal defense or justification, for their acts in closing and shutting down the headgate of plaintiff and in depriving the said plaintiff* thereby, of its right to the use of the waters from said La Plata River for irrigation purposes, as provided by the terms and'provisions of said decree of adjudication of January 12, 1898.\u201d\nThe decree specifically:\n\u201c(3) Enjoined and commanded [the defendants] to permit the diversion through the plaintiff\u2019s headgate [of] water for plaintiff\u2019s ditch in accordance with the terms of said decree at any and all times when there is water in said stream to which said decree, under its terms and. conditions would apply; ...\u201d\nThis second judgment of the trial court was affirmed by the Supreme Court of the State; an additional opinion being delivered by the court, and a dissent by a different justice. 101 Colo. 73; 70 P. 2d 849. An appeal to this Court was allowed by the Acting Chief Justice of the State. Pursuant to the Act of Congress, August 24, 1937, c. 754, 50 Stat. 751, the attention of the Attorney. General of the United States was directed to the contention that the validity of a federal statute is involved, 302 U. S. 646. He filed memoranda in which he contended that:\n\u201c(1) this Court is included in the courts to which Section 1 of the Act of August 24,1937, is applicable; (2) the constitutionality of the compact is drawn in question whether or not a decision on this point is necessary; (3) a compact is an Act of Congress; and (4) it is an Act \u2018affecting the public interest.\u2019 \u201d\nOpposing some of the views expressed by the Attorney General, a brief was filed on behalf of Delaware, Maryland, New Jersey, New York, Virginia, the Port of New York Authority and the Delaware River Joint Commission.\n. The Ditch Company moved to dismiss the appeal, contending, among other things, that the mere fact that the Compact was .approved by Congress does not make it a federal statute within the meaning of the jurisdictional act authorizing appeals. Decision on the motion, to dismiss was postponed to the hearing on the merits. For reasons to be stated, we are of opinion that -the case is not reviewable on appeal; that it presents a federal question reviewable on certiorari; that because of its importance certiorari should be granted; and that the judgment must be reversed.\nFirst. As the La Plata River, flows from Colorado into New- Mexico and in each State the water is used beneficially, it must be equitably apportioned\u2019between the two. The decision below in effect ignores that rule. It holds immaterial the fact that the acts complained of were being done in compliance with the Compact, and does so on the ground that the Compact in authorizing diversion and rotation violated rights awarded by the January 12, 1898 decree in the Colorado water proceeding; holds that the decree awarded to the Ditch Company the right to divert from the river 39% cubic feet per second (subject only to the senior Colorado priorities of 19 second feet), even if by so doing it, exhausts the whole flow of the stream and leaves nothing for the New Mexico claimants; and holds that the right so awarded is a vested property right which the two States, although acting with the consent of the United States, lacked power to diminish or modify except by a condemnation proceeding and payment of compensation. No such proceeding was provided for in the Compact and none was had otherwise.\nIt may be assumed that the right adjudicated by the decree of January 12, 1898 to the Ditch Company is a property right, indefeasible so far as concerns the State of Colorado, its citizens, and any other person claiming water rights there. But the Colorado decree could not confer upon the Ditch Company rights in excess of Colorado\u2019s' share of the water of the stream; and its share was only an equitable portion thereof.\nThe claim that on interstate streams the upper State has such ownership or control of the whole stream as entitles it to divert all the water, regardless of any injury or prejudice to the lower State, has been made by Colorado in litigation concerning other interstate streams, but has been consistently denied by this Court. The rule of equitable apportionment was settled by Kansas v. Colorado, 206 U. S. 46, 97. It was discussed again in Wyoming v. Colorado, 259 U. S. 419, 466, where the Court said:\n\u201cThe contention of Colorado that she as a State rightfully may divert and use, as she may choose, the waters flowing within her boundaries in this interstate stream, regardless of any prejudice that this may work to others having rights in the stream below her boundary, can not be maintained. The river throughout its course in both States is but a single stream wherein each State has an interest which should be respected by the other. A like contention was set up by Colorado in her answer in Kansas v. Colorado and was adjudged untenable. Further consideration satisfies us that the ruling was right.\u201d\nAnd in New Jersey v. New York, 283 U. S. 336, 342-43, the Court said of an interstate stream:\n\u201cIt offers a necessity of life that must be rationed among those who have'power over it. New. York has the physical power to cut off all the water within its jurisdiction. But clearly the exercise of such a power to the destruction of the interest of lower States could not be tolerated. And on the other hand equally little could New Jersey be permitted to.require New,York to give up its power altogether in . order that the River might come down to it undiminished. Both States have real and substantial interests in the River that must be reconciled as best they may be.\u201d\nThe decree obviously is not res judicata so far as concerns the State of New Mexico and its citizens who claim the right to divert water from the stream in New Mexico. As they were not parties to the Colorado proceedings, they remain free to challenge the claim of the Ditch Company that it is entitled to take in Colorado all the water of the stream and leave nothing for them.\nSecond. The declared purpose of the Compact was, as the preamble recites, equitable apportionment: .\n\u201cThe State of Colorado and the State of New Mexico, desiring to provide for the equitable distribution of the waters of the La Plata River and to remove all causes of present and future controversy between them with respect thereto, and being moved by considerations of in- ' terstate comity, p\u00farsuant to Acts of their respective legislatures, have resolved to conclude a compact for these purposes and have named as their commissioners: Delph E. Carpenter, for the State of Colorado, and Stephen B. Davis, Jr., for the'State of New Mexico, who have agreed upon the following articles.\u201d\nThe Supreme Court of Colorado held the Compact unconstitutional, because, for aught that appears, it embodies not a judicial, or quasi-judicial, decision of controverted ..rights, but a trading compromise of conflicting claims. The assumption that a judicial or quasi-judicial decision of the controverted claims is essential to the validity of a compact adjusting them, rests upon misconception. It ignores the history and order of development of the two means provided by the Constitution for adjusting interstate controversies. The compact \u2014 the legislative , means \u2014 adapts' to our Union of sovereign States the age-old treaty-making power 'of independent sovereign nations. Adjustment by compact without a judicial or quasi-judicial determination of-existing rights had been practiced in the Colonies, was practiced by the States before the adoption of th\u00e9 Constitution, and had been extensively practiced in the United States for nearly half a century before' this Court first applied the judicial means in settling the boundary dispute in Rhode Island v. Massachusetts, 12 Pet. 657, 723-25.\nThe extent of the existing equitable rights of Colorado and of New Mexico in the La Plata River could obviously have been determined by a suit in this Court, as was done in Kansas v. Colorado, supra, in respect to rights in the Arkansas River and in Wyoming v. Colorado, supra, in respect to the Laramie. But resort to the judicial remedy is never essential to the adjustment of interstate controversies, unless the States are unable to agree upon the terms of a compact, or Congress refuses its consent. The difficulties incident to litigation have led States to resort, with frequency, to adjustment of their controversies by compact, even where the matter in dispute was the relatively simple one of a bpundary. In two such cases this Court suggested \u201cthat the parties endeavor with the consent of Congress to adjust their boundaries.\u201d Washington v. Oregon, 214 U. S. 205, 217, 218; Minnesota v. Wisconsin, 252 U. S. 273, 283. In New York v. New Jersey, 256 U. S. 296, 313, which involved a more intricate problem of rights in interstate waters, the recommendation that treaty-making be resorted to was more specific; and compacts for the apportionment of the water of interstate streams have been common.\nThird. Whether the apportionment of the water of an interstate stream be made by compact between \u201cthe upper and lower States with, the consent of Congress or by a decree of this Court, the apportionment is binding upon the citizens of each State and all water claimants, even where the State had granted the water rights before it entered into the compact. That the private rights of grantees of a State ar\u00e9 determined by the adjustment by compact of a disputed boundary was settled a century ago in Poole v. Fleeger, 11 Pet. 185, 209, where the Court said:\n\u201cIt' cannot be doubted, that it is a part of the general right of sovereignty, belonging to independent nations, to establish and fix the disputed boundaries between their respective territories; and -the boundaries so established and fixed by compact between nations, become conclusive upon all the subjects and citizens thereof, and bind their rights; and are to be treated; to all intents and purposes, as the true, and real boundaries. This is a doctrine universally recognized in the law and practice of. nations. It is a right equally belonging to the states of this Union; unless it has been surrendered under the Constitution of the United States. So far from there being any pretense of such a general surrender of the right, it 'is expressly recognized by the Constitution and guarded in its exercise by a single limitation or restriction,'requiring the consent of Congress.\u201d\nIn Rhode Island v. Massachusetts, 12 Pet. 657, 725, the Court, discussing the origin and scope of the Compact clause, said:\n\u201cIf Congress consented, then the States were in this respect restored to their original inherent sovereignty; such consent being the sole limitation imposed , by the Constitution,' when given, left the States as they were before, as held by this Court in Poole v. Fleeger, 11 Pet. 209; where, by their compacts became of binding force, and finally settled .the boundary between them; operating with the same effect as a treaty between sovereign powers. .That is, that the boundaries so established and fixed by compact between nations, become conclusive upon all subjects and citizens thereof, and bind their rights; and are to be treated to all intents and purposes, as the true real bound-1 aries.\u201d\nSee also Garcia v. Lee, 12 Pet. 511, 521; Coffee v. Groover, 123 U. S. 1, 29, 30, 31; Virginia v. Tennessee, 148 U. S. 503, 525.\nThe rule as applied to the apportionment by judicial decree of the water of an interstate stream was stated in Wyoming v. Colorado, 286 U. S. 494, 508:\n\u201cBut it is said that water claims other than the tunnel appropriation could not be, and were not, affected by the decree, because the claimants were not parties to the suit or represented therein. In this the nature of the suit is misconceived. It was between States, each acting as a quasi-sovereign and representative of the\" interests and rights of her people in a controversy with the other. Counsel for Colorado insisted in their brief in that suit that the controversy was 'not between private parties\u2019 but \u2018between the two sovereignties of Wyoming and Colorado\u2019; and this Court in its opinion assented to that view, but observed that the controversy was one of immediate and deep concern to both States and that the interests of each Were indissolubly linked with those of her appropriators. 259 U. S. 468. Decisions in other cases also warrant the conclusion that the water claimants in Colorado, and those in Wyoming, were represented by their respective States and are bound by the decree.\u201d\nFourth. As the Stales had power to bind by compact their respective appropriators by division of the flow, of the stream, they had power to reach that end either by providing for a continuous equal division, of the water from time to time in the stream, or by providing for alternate periods of flow to the one State and to the other of all the w\u00e1ter in the stream. To secure \u201cthe greatest beneficial use of\u201d the water in the stream, the Compact provided that the water may be \u201crotated between the two States, in such manner for such periods, and to continue for such time as the State Engineers may jointly determine.\u201d That such alternate rotating flow was then a more efficient use of the stream than if the flow had been steadily divided equally between the Colorado and the New Mexico appropriators was conclusively established by the evidence. That is, the rotating supply,which the Compact authorized, and the two State Engineers agreed upon, was clearly more beneficial to the Ditch Company than to have given to it and other Colorado appropriators steadily one-half of the water in the river. The- delegation to the State Engineers of the authority to determine when the waters should be so rotated was a matter of detail clearly within the constitutional power. There is no claim that the authority conferred was abused.\nFifth. As Colorado possessed the right only to \u00e1n equitable share of the water in the stream, the decree of January 12, 1898, in the Colorado water proceeding did not award to the Ditch Company any right greater than the equitable share. Hence the apportionment made by the Compact can not have taken-from the Ditch Company any vested right, unless there was in the proceedings leading up to the Compact or in its application, some vitiating infirmity. No such infirmity or illegality has been shown. There is no allegation in the pleadings, no evidence in the record, no suggestion in brief or argument, that the apportionment agreed upon by the commissioners was entered into without due enquiry; or that it was not an honest exercise of judgment; or even that it was, or is, inequitable. The fact that the appointment of the Joint Commissioners was authorized in 1921, that their agreement was not adopted by the States' until 1923, and that it was not approved by Congress until 1925 shows that there was ample time for consideration by all concerned. There is no suggestion that the Ditch Company, or indeed anyone else, was denied by the commissioners opportunity to be heard; or even that any water claimant objected to the terms of the Compact. It appears that although the State of Colorado was not permitted :to intervene in this litigation, Colorado v. La Plata River & C. C. Ditch Co., 101 Colo. 368; 73 P. 2d 997, its Attorney General represented the State's, water officials. Moreover, the Compact provides in Article VI that it \u201cmay be modified or terminated at any time by mutual consent\u201d; and there is not even a suggestion that'either State, or the Ditch Company, has expressed, a desire to modify or terminate it.\nSixth. The water officials rely .for their defense upon the rule requiring equitable apportionment of the water of an interstate stream and the action of Congress in approving the adjustment of the equitable apportionment which the States made by their compacts. The assent of Congress to the compact between Colorado and New Mexico does not make it a \u201ctreaty or statute of the United States\u201d within the meaning of \u00a7 237 (a) of the Judicial Code, and no question as to the validity of the. consent is presented. People v. Central Railroad, 12 Wall. 455. A claim based on the equitable interstate apportionment of water, like one \"based on the proper location of a State boundary, is not within the provisions of \u00a7 237. (a). Rust Land & Lumber Co. v. Jackson, 250 U. S. 71. The appeal must therefore be dismissed. But in holding that the State Engineer and his subordinates should .be enjoined from taking action required by the Compact the State Court denied an important. claim under the Constitution which may be reviewed on certiorari by this Court under \u00a7 237 (b). For the decision below necessarily rests upon the premise that at the time the Compact was made Colorado was absolutely entitled to at least 58% cubic feet of water per second regardless of the amount left for New Mexico. The judgment cannot stand if this determination is erroneous. For whether. the water of an interstate stream must be apportioned between the two States is a question of \u201cfederal common law\u201d upon which neither the statutes nor the decisions of either State can be conclusive. Kansas v. Colorado, 206 U. S. 46, 95, 97-98; Connecticut v. Massachusetts, 282 U. S. 660, 669-71; New Jersey v. New York, 283 U. S. 336, 342-43; Washington v. Oregon, 297 U. S. 517, 528. Jurisdiction over controversies concerning rights in interstate streams is not different from those concerning boundaries. These have been recognized as presenting federal questions.\nIt has been suggested that this Court lacks jurisdiction to determine the validity and effect of the Compact because Colorado and New Mexico, the parties to it, are not parties 'to this suit and cannot be made so. The contention is unsound. The cases are many where title to land dependent upon the boundary between States has been passed upon by this Court upon review of judgments of federal and of State courts - in suits between private litigants.\nReversed.\nMr. Justice Cardozo took no part in the consideration or decision of this case.\nThe Compact had its inception in 1921 when the legislature of- each state authorized the appointment, of a commissioner who shall represent the State \u201cupon a Joint Commission ... to be constituted by said states for the purpose of negotiating and entering into a compact or agreement between said states, with the consent of Congress, respecting the future utilization and disposition of the waters of the La Plata River, and all streams tributary thereto, and fixing and determining the rights of each of said states to the use,. benefit and disposition of the waters of said stream, provided, however, that any compact or agreement so entered into on behalf of said stated shall not be binding or obligatory upon 'either of said states or the citizens thereof, unless and until the same shall have been ratified and approved by the Legislatures of both states, and by the Congress of the United States.\u201d Colo. Session Laws, 1921, p. 803; Session Laws of New Mexico, 1921, p. 322.\nThe compact drafted by the commissioners was ratified by the General Assembly of New Mexico on February 7; 1923 (Session Laws of New Mexico, 1923, p. 13) and by the General Assembly of Colorado on April 13, 1923 (Colorado Session Laws, 1923, p. 696.)\nThe consent of Congress was granted by Act of January 29, 1925, 43 Stat. 796.\nColorado Constitution, Art. XVI, \u00a7 5, provides: \u201cThe water of every natural stream, not heretofore appropriated, within the state of Colorado, is hereby declared to be the property of the public, and the same is dedicated to the use of the people of the state, subject to appropriation as hereinafter provided.\u201d Article XVI, \u00a7 6, provides in part: \u201cThe right to divert unappropriated waters of any natural stream- to beneficial uses shall never be denied. Priority of appropriation shall give the better right as between those using the water for the same purpose.\u201d For the law of New Mexico, see its Constitution, Art. XVI, \u00a7\u00a7 2 and 3.\nThe first judgment in the trial court was entered June 16, 1930; the first judgment of the Supreme Court of Colorado on July 3, 1933; the dismissal by this Court of the first appeal on March 12, 1934; the second judgment in the trial court on May 12, 1936; the second judgment of the Supreme Court of Colorado on July 6, 1937.\nWashington v. Oregon, 297 U. S. 517, 528. Compare Fowler v. Lindsey, 3 Dall. 411, 412; Arkansas v. Tennessee, 246 U. S. 158, 176.\nNine colonial boundary agreements are listed by Frankfurter and . Landis, The Compact Clause of the Constitution\u2014A Study in Interstate Adjustments (1925) 34 Yale L. J. 685, 730-32.\nFive agreements made under the Articles of Confederation have been found. See Frankfurter and Landis, supra note 5, at 732-34.\nNine compacts were apparently executed in this period (although five of these were without express Congressional consent). See Frankfurter and Landis, supra note 5, at 735-37, 749-52. See also Ely, Oil Conservation through Interstate Agreement (1933) 371-7389-91; (June 1936) 9 State Government 118; Dodd, Interstate Compacts. (1936) 70 U. S. L. Rev. 557, 574. The agreement between New Jersey and New York in 1833 put an end to the boundary suit begun in 1829, New Jersey v. New York, 3 Pet. 461, 5 Pet. 284, 6 Pet. 323.\nSee also Connecticut v. Massachusetts, 282 U. S. 660, 283 U. S. 789 (Connecticut River); New Jersey v. New York, 283 U. S. 336, 805 (Delaware River); Wyoming v. Colorado, 286 U. S. 494, 298 U. S. 573 (Laramie River); Washington v. Oregon, 297 U. S. 517 (Walla Walla River). Three other water apportionment suits are pending in this Court. Colorado v. Kansas, Original No. 6 (Arkansas River); Nebraska v. Wyoming, 295 U. S. 40, Original No. 9 (North Platte River); Texas v. New Mexico, Original No. 11 (Rio Grande).\nThe long drawn out irritating boundary litigation, Rhode Island v. Massachusetts, 7 Pet. 651; 11 Pet. 226; 12 Pet. 657, 755; 13 Pet 23; 14 Pet. 210; 15 Pet. 233; 4 How. 591; was finally settled by a Compact. See Frankfurter and Landis, supra note 5, at 696, 737-38\n\u201cWe cannot withhold the suggestion, inspired by the consideration of this case, that the grave problem of sewage disposal presented by the large and growing populations living on the shores of New York Bay is one more likely to be wisely solved by cooperative study and by conference and mutual concession on the part of representatives of the States so vitally interested in it than by proceedings in any court however constituted.\u201d (p. 313.)\nCongress has consented to 15 such compacts, of which 5 have been ratified by two or more of the contracting States, See State Government, supra note 7, at 120-21. See also Ely, supra note 7, at 381-88; Dodd, supra note 7, at 574-78.\nCissna v. Tennessee, 246 U. S. 289, 295; compare Rust Land & Lumber Co. v. Jackson, 250 U. S. 71, 76. In Howard v. Ingersoll, 13 How. 381, this Court reversed the Supreme Court of Alabama\u2019s decision locating the Alabama-Georgia boundary, which depended upon the construction of a cession of territory by Georgia to the United States in 1802. Compare Coffee v. Groover, 123 U. S. 1. The decisions are not uniform as to whether the interpretation of an interstate compact presents a federal question. Compare People v. Central Railroad, 12 Wall. 455, with Wedding v. Meyler, 192 U. S. 573, and Wharton v. Wise, 153 U. S. 155.\nCompare Handly\u2019s Lessee v. Anthony, 5 Wheat. 374; Howard v. Ingersoll, 13 How. 381; Poole v. Fleeger, 11 Pet. 185; Coffee v. Groover, 123 U. S. 1; St. Louis v. Rutz, 138 U. S. 226; Moore v. McGuire, 205 U. S. 214; Cissna v. Tennessee, 246 U. S. 289; Marine Ry. & Coal Co. v. United States, 257 U. S. 47; Smoot Sand & Gravel Corp. v. Washington Airport, 283 U. S. 348.",
+        "type": "majority",
+        "author": "Mr. Justice Brandeis"
+      }
+    ],
+    "attorneys": [
+      "Messrs. Ralph L. Carr and Byron G. Rogers, Attorney General off Colorado, with whom Messrs. Shrader P. Howell, R. F. Camalier, and Jean S. Breitenstein were on the brief, for appellants.",
+      "Mr. Charles J. Beise, with whom Mr. Reese McCloskey was on the brief, for appellee.",
+      "Attorney General Cummings filed a memorandum by which he sough C to maintain that, within the meaning of the Act of Aug. 24,1937, c. 754, 50 Stat; 751, this Court is \u201ca court of the United States\u201d and the state compact here in question, approved by Congress, is an \u201cAct of Congress affecting the public interest,\u201d the constitutionality of which is dr\u00e1wn in question on the appeal. The Attorney General and Acting Solicitor General Bell also filed a memorandum suggesting the interest of the United States in interstate water compacts and interstate compacts generally. .",
+      "Messrs. Percy Warren Green, Attorney General of Delaware, Herbert R. O\u2019Conor, Attorney General of Maryland, David Wilentz, Attorney General of New Jersey, John J. Bennett, Jr., Attorney General, Henry Epstein, Solicitor General, of New York, Julius Henry Cohen, T. Harry Rowland, Adrian Bonnelly, Austin T. Tobi\u00f1, and Daniel B. Goldberg, appearing as amid curiae, by leave of Court, filed on behalf of their respective States and certain state agencies a memorandum taking issue with the views of the Attorney General of the United States as expressed in the first of his memoranda above mentioned. Mr. Abram P. Staples, Attorney General of Virginia, appearing by leave of Court as amicus curiae, joined with the other States in this matter."
+    ],
+    "corrections": "",
+    "head_matter": "HINDERLIDER, STATE ENGINEER, et al. v. LA PLATA RIVER & CHERRY CREEK DITCH CO.\nNo. 437.\nArgued February 10, 11, 1938.\nDecided April 25, 1938.\nMessrs. Ralph L. Carr and Byron G. Rogers, Attorney General off Colorado, with whom Messrs. Shrader P. Howell, R. F. Camalier, and Jean S. Breitenstein were on the brief, for appellants.\nMr. Charles J. Beise, with whom Mr. Reese McCloskey was on the brief, for appellee.\nAttorney General Cummings filed a memorandum by which he sough C to maintain that, within the meaning of the Act of Aug. 24,1937, c. 754, 50 Stat; 751, this Court is \u201ca court of the United States\u201d and the state compact here in question, approved by Congress, is an \u201cAct of Congress affecting the public interest,\u201d the constitutionality of which is dr\u00e1wn in question on the appeal. The Attorney General and Acting Solicitor General Bell also filed a memorandum suggesting the interest of the United States in interstate water compacts and interstate compacts generally. .\nMessrs. Percy Warren Green, Attorney General of Delaware, Herbert R. O\u2019Conor, Attorney General of Maryland, David Wilentz, Attorney General of New Jersey, John J. Bennett, Jr., Attorney General, Henry Epstein, Solicitor General, of New York, Julius Henry Cohen, T. Harry Rowland, Adrian Bonnelly, Austin T. Tobi\u00f1, and Daniel B. Goldberg, appearing as amid curiae, by leave of Court, filed on behalf of their respective States and certain state agencies a memorandum taking issue with the views of the Attorney General of the United States as expressed in the first of his memoranda above mentioned. Mr. Abram P. Staples, Attorney General of Virginia, appearing by leave of Court as amicus curiae, joined with the other States in this matter."
+  },
+  "file_name": "0092-01",
+  "first_page_order": 142,
+  "last_page_order": 161
+}

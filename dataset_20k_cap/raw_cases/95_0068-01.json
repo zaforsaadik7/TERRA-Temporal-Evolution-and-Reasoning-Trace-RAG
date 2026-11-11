@@ -1,0 +1,395 @@
+{
+  "id": 3384265,
+  "name": "Ex parte Easton",
+  "name_abbreviation": "Ex parte Easton",
+  "decision_date": "1877-10",
+  "docket_number": "",
+  "first_page": "68",
+  "last_page": "78",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "95 U.S. 68"
+    },
+    {
+      "type": "parallel",
+      "cite": "24 L. Ed. 373"
+    },
+    {
+      "type": "vendor",
+      "cite": "1877 U.S. LEXIS 2135"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1877-020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "7 Serg. & R. 466",
+      "category": "reporters:state",
+      "reporter": "Serg. & Rawle",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 Cal. 44",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Wall. Jr. 870",
+      "category": "reporters:federal",
+      "reporter": "Wall. Jr.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Blatchf. 71",
+      "category": "reporters:federal",
+      "reporter": "Blatchf.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 How. 344",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3348527
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/47/0344-01"
+      ]
+    },
+    {
+      "cite": "1 Ben. 209",
+      "category": "reporters:federal",
+      "reporter": "Ben.",
+      "case_ids": [
+        6129152
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/5/0702-01"
+      ]
+    },
+    {
+      "cite": "20 How. 393",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        5680394
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/61/0393-01"
+      ]
+    },
+    {
+      "cite": "2 Gall. 398",
+      "category": "reporters:federal",
+      "reporter": "Gall.",
+      "case_ids": [
+        6119147
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/7/0418-01"
+      ]
+    },
+    {
+      "cite": "21 How, 248",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        683887
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/62/0248-01"
+      ]
+    },
+    {
+      "cite": "1 Newb. Adm. 269",
+      "category": "reporters:specialty",
+      "reporter": "Newb. Adm.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 McLean, 587",
+      "category": "reporters:federal",
+      "reporter": "McLean",
+      "opinion_index": -1
+    },
+    {
+      "cite": "20 Int. Rev. Rec. 175",
+      "category": "reporters:federal",
+      "reporter": "Int. Rev. Rec.",
+      "case_ids": [
+        6130874,
+        6619551
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/5/0925-01",
+        "/f-cas/24/0722-01"
+      ]
+    },
+    {
+      "cite": "1 Cliff. 51",
+      "category": "reporters:federal",
+      "reporter": "Cliff.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Wall. Jr. 53",
+      "category": "reporters:federal",
+      "reporter": "Wall. Jr.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "21 Wall. 558",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3410965
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "624"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/88/0558-01"
+      ]
+    },
+    {
+      "cite": "12 How. 448",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "7 Ben. 20",
+      "category": "reporters:federal",
+      "reporter": "Ben.",
+      "case_ids": [
+        6130458
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-cas/1/0987-01"
+      ]
+    },
+    {
+      "cite": "1 Sprague, 284",
+      "category": "reporters:specialty",
+      "reporter": "Sprague",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Pet. 108",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5616819
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/35/0108-01"
+      ]
+    },
+    {
+      "cite": "3 Ben. 391",
+      "category": "reporters:federal",
+      "reporter": "Ben.",
+      "case_ids": [
+        6111211
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-cas/1/0285-01"
+      ]
+    },
+    {
+      "cite": "2 Gall. 483",
+      "category": "reporters:federal",
+      "reporter": "Gall.",
+      "case_ids": [
+        6607262
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-cas/15/0451-01"
+      ]
+    },
+    {
+      "cite": "1 Pet. Adm. 223",
+      "category": "reporters:federal",
+      "reporter": "Pet. Adm.",
+      "case_ids": [
+        11657547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-cas/9/1192-02"
+      ]
+    },
+    {
+      "cite": "9 Wall. 435",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3440653
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/76/0435-01"
+      ]
+    },
+    {
+      "cite": "5 Wall. 481",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3457856
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/72/0481-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 526",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3440741
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/76/0526-01"
+      ]
+    },
+    {
+      "cite": "12 How. 443",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3365982
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/53/0443-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 158",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6136850
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/71/0158-01"
+      ]
+    },
+    {
+      "cite": "3 How. 292",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3317372
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/44/0292-01"
+      ]
+    },
+    {
+      "cite": "3 Dall. 12",
+      "category": "reporters:scotus_early",
+      "reporter": "Dall.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Stat. 81",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Gall. 398",
+      "category": "reporters:federal",
+      "reporter": "Gall.",
+      "case_ids": [
+        6119147
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-cas/7/0418-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1063,
+    "char_count": 21497,
+    "ocr_confidence": 0.495,
+    "pagerank": {
+      "raw": 2.390941659241495e-06,
+      "percentile": 0.9962866560946217
+    },
+    "sha256": "dcc0fe0e306c9c64375b313a67438f8f2804a283d5c5a2e588c898686e98757c",
+    "simhash": "1:1680fba8ff1cd4f7",
+    "word_count": 3680
+  },
+  "last_updated": "2024-02-27T20:24:37.828243+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex parte Easton."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Clifford\ndelivered the opinion of the court.\nJudicial power under the Federal Constitution extends to all cases of admiralty and 'maritime jurisdiction, and it was doubtless the intention of Congress, by the ninth section of the Judiciary Act, to confer upon the District Court the exclusive original cognizance of all admiralty and maritime causes, the words of the act being in terms exactly, coextensive with the power conferred by the Constitution. \u25a0 In order, therefore, to determine the limits of the admiralty jurisdiction, it becomes necessary to ascertain the 'true interpretation of the constitutional grant. On that subject three propositions may be assumed as settled by authority, and to those it will be sufficient to refer on the present occasion, without much discussion of the principles on which the adjudications rest:- 1. That the jurisdiction of the district courts is not limited.to the particular subjects over which the admiralty courts of the parent country exercised jurisdiction when our Constitution was adopted. 2. That the jurisdiction of those courts does not extend to all cases which would fall within- such jurisdiction, according to the civil law and the practice and usages of continental Europe. 3. That the - nature and extent of the admiralty jurisdiction conferred by the Constitution must be determined by the laws of Congress and the decisions of this court, and-by the usages prevailing in the courts of the States at- the time the Federal Constitution was adopted. No other rules are known which it is reasonable to suppose could have been in the minds- of the framers of .the .Constitution than those which were then in force' in the respective States, and which they were accustomed to see in daily and familiar practice in the State courts.\nAuthority is conferred upon the libellants, as the proprietors of the wharf and slip in question,- by the law of the State, to charge g,nd collect wharfage arid dockage of vessels lying at said wharf, and within the slip adjoining the wharf of the libellants.\nSufficient appears to show that the respondents_are the owners of tho barge named in the libel; that on the 10th of October, 1876, she completed a trip'from the' port of Baltimore for the port of New York, and that she took wharfage at the wharf or pier of the libellants, where she rem\u00e1ined for eleven- days. For the use of the berth occupied by the barge the libellants charged $34.20, as wharfage and dockage. Due demand was made; and, payment being refused, the libellants instituted .the present suit, which is a libel in r\u00e9m against the barge to recover the amount of that charge. Process was served; and the respondents appeared and excepted to the libel, and set up that process of condemnation should not issue against \u00bfhe barge, for the following reasons: 1. Because no maritime lien arises in the case for the matters set forth in the libel. 2. Because ,no lien in such a case-is given for wharfage against boats or vessels by the laws of the State. 3. Because the law of the State referred to in the libel as giving a lien for wharfage is unconstitutional and void, for the following reasons: (1.) Because it imposes a restriction on commerce. (2.) Because it imposes a duty of tonnage on all vessels pf the character and description of that of the respondents; (3.) Because it discriminates against the boats- or barges of persons who are not citizens of the State where the proprietors of the wharf reside.\nPending the proceedings in the District Court, the respondents presented a petition here, asking leave to move this court for a prohibition to the court below forbidding the District Court to proceed further in the case.\nPursuant to said petition, this court entered an order permitting argument upon' the merits of the petition, and directing that due notice be given to the libellants and the clerk of the District Court. Hearing was had in conformity to that order, and the case was held' under advisement.\nPower is certainly vested in the Supreme Court to issue the writ of prohibition to the District Court, when that court -is-proceeding in a case of admiralty and maritime cognizance of which the District Court has no jurisdiction. 1 Stat. 81; United States v. Peters, 3 Dall. 12.\nWhere the District Court is proceeding in a cause not of admiralty and maritime jurisdiction, the Supreme Court cannot issue the writ, nor can the writ be used except, to prevent the doing of something about to be done, nor will it ever be issued for acts already completed. Ex parte Christy, 3 How. 292; United States v. Hoffman, 4 Wall. 158.\nAdmiralty and maritime jurisdiction is conferred' by the Constitution, and Judge Story says it embraces two great classes of cases, \u2014 one dependent upon locality, and the other upon the nature of the contract.\nDamage claims arising from acts, and injuries done within the ebb and flow of the tide- have always been considered as cognizable in the admiralty; and, since the decision in the case of The Genesee Chief, 12 How. 443, it is considered to be .equally well settled that remedies for acts and injuries done on public navigable waters, not within the ebb and flow of the tide, may be enforced in the admiralty, as well as for those upon the high seas and upon the coast of the sea.\nSpeaking of the second great class of cases cognizable in the admiralty, Judge Story says, in effect, that it' embraces all contracts, claims, and services which are purely maritime and which respect rights and duties appertaining to commerce and navigation. 2 Story, Const., sect. 1666.\nPublic navigable waters, where inter-state or foreign commerce may be carried on, of course include the high seas, which comprehend, in the-i commercial sense, all tide-waters to high-water mark.\nMaritime jurisdiction of the admiralty courts' in. cases of contracts depends chiefly upon the nature of the service or-engagement, and is limited to such subjects as .are purely maritime, and have respect to commerce and navigation within the meaning of the Constitution.\nWide differences of opinion have existed as'to the extent of the admirality jurisdiction; but it may now be said, without fear of contradiction, that it extends to all contracts, claims, and services essentially maritime, among which are bottomry bonds,, contracts of affreightment - and contracts for the conveyance of passengers, pilotage oh the high seas, wharfage, agreements of ' consortship, surveys of vessels damaged by the perils of the seas, the claims of material-men and others for the repair and outfit of ships belonging to foreign nations or to other States, and the wages of mariners; and also to civil marine torts and injuries, ;among which are assaults or other personal injuries, collision, spoliation, and damage, illegal seizures' or other depredations on- property, illegal dispossession or withholding of possession from the owners of ships, controversies between the part owners as to the employment of ships, municipal seizures of ships, and cases of salvage' and marine insurance. Conkl. Treatise (5th ed.), 254.\n\u2022Wharf accommodation is a necessity of navigation, and such accommodations are indispensable for ships and vessels and water-craft of every name and description, .whether employed in carrying freight or passengers, or engaged in the fisheries. Erections of the kind are constructed to enable ships, vessels, and all sorts of water-craft to lie in p'Crt in safety, and to facilitate' their operation in loading and unloading cargo and in receiving and landing passengers.\nPiers or wharves are a necessary incident to every well-regulated port, without which commerce and navigation would be subjected to great inconvenience, and be exposed to -vexatious delay and constant perd\u00ed., \u2022\nConveniences of tlieCrind are wanted both at the port of departure and at the place of destination, and the expenses paid at both are everywhere regarded as properly chargeable as expenses of the voyage. Commercial \u2022 privileges of the' kind cannot be enjoyed where neither wharves nor piers exist; and it is'not reasonable to Suppose that such erections will be constructed for general convenience, unless the proprietors' are' allowed to make reasonable charges for their use. \u25a0\nCompensation for. wharfage may be claimed upon an express or an implied contract, according to the circumstances. Where a price is agreed upon for the use of the wharf, the contract furnishes the measure of compensation; and when the wharf is used without any such agreement, the contract is implied, and 'the proprietor is entitled to recover what is just arid reasonable, for the \u00fase of his property and the benefit conferred.\nSuch erections are indispensably necessary for the safety and convenience of commerce and navigation, and those who take' berth, alongside them to secure those objects derive great benefit from their use. All experience supports that proposition* 'and shows to a demonstration that the contract of the wharfinger appertains to the pursuit of commerce and navigation.\nInstances may, doubtless, be referred to where, wharves are erected as sites for stores and storehouses;. but' the great and usual object of such erections is to advance commerce and navigation, by furnishing resting-places for ships, vessels, and all .kinds of water-craft, and to facilitate their operation in loading and unloading cargo^and in receiving and landing passengers.\nNor is the nature of the service or the character of the contract changed by the circumstance that the water-craft which derived the benefit in the case b\u00e9fore the court was without masts or sails or other motive power of her, own. Sail-ships, and even steamships-and vessels, are frequently propelled by tugs ; and yet, if they- secure a berth at a wharf, or in a slip at the place of landing or at the port of destination, and actually occupy the berth as a resting-place or' for the purpose of loading or unloading, no one, it is supposed, will deny that the ship or vessel is just as much liable to the wharfinger as if she had been propelled by her own motive power.\nNeither canal-boats nor barges ordinarily have sails or steam-p'ower, but they usually have tow-lines; and it clearly cannot make any difference, as to their liability for wharfage, whether they are propelled by steam or sails of their own, or by tugs, or horse or mule power, if it appears that the boat or barge actually occupied a berth at the wharf or slip at the commencement or close of the trip as a resting-place, or for the purpose of loading or. unloading cargo, or receiving of for landing passengers.\nGoods to a vast amount are transported by such means of conveyance, and all experience shows that boats of the kind require wharf privileges as' well, as ships and vessels, or any other water-craft engaged in navigation. The Northern Belle, 9 Wall. 526.\nAccess to the ship or' vessel rightfully occupying a berth \u00e1t a wharf, for the- purpose of lading and unlading, is the undoubted right of the owner or charterer of such-ship or-vessel for which such, right has been secured, Wendell v. Baxter, 12 Gray (Mass.), 494.\nPrivileges of the kind are essential to the carrier by water, whether he is engaged in carrying goods or passengers.\nRepairs to a limited extent are sometimes made at the wharf 5 but contracts of the kind usually have respect to the voyage, and are made to secure a resting-place for the vessel during the time she is being loaded or unloaded. Such contracts, beyond all doubt, are maritime, as they have respect to commerce and navigation, and are for the benefit of the ship or vessel when afloat:\nCarrying-vessels would be of little or no \"value unless they could be loaded; and they are usually loaded from the wharf, except in a limited class of eases, where lighters are employed, the vessel being unable to come up to the wharf in consequence of shallow water.\nAccommodations at the port of destination are equally indispensable for. the voyage as those at the port of departure. Consignments of goods and passengers must be landed, else\u2019 the carrier is not entitled to freight or fare. Where- the contract is to carry from port to port, an actual delivery of the goods into the possession of the owner or consignee, or at his warehouse, is not required in order to discharge the carrier from his liability. He may deliver them on the wharf ; but, to constitute a valid delivery there, the master should give due and reasonable notice to the consignee, so as to afford him a fair opportunity to remove the goods, or to putthem under proper care and custody. Delivery on the wharf, under such circumstances, is valid, if the different consignments be properly separated, so as to be open to inspection, and conveniently accessible to their respective owners. The Eddy, 5 Wall. 481.\n\u25a0 These remarks are sufficient to show that wharves, piers, or landing-places are wellnigh as essential to commerce as ships and vessels, and are abundantly sufficient, to demonstrate that the contract for wharfage is a maritime contract,' for which, if the vessel or water-craft is a foreign one, or belongs to a port of a State other than that where the wharf is situated, a maritime liexi arises against the ship or vessel in favor of the proprietor \u25a0of the wharf.\nStandard authorities, as well as reason, \u2018 principle, and the necessities of commerce, \u2022 support the theory that the contract for wharfage is a maritime contract, which, in the cas\u00e9 supposed, gives to the proprietor of the wharf a maritime lien' on the ship or .vessel for his security.\nFrom an early period, wharf-owners have been allowed to exact from ships and vessels using a. berth at their' wharves .a reasonable compensation for the use of the same; and the ship or vessel enjoying such a privilege has always been accustomed to pay to the proprietor of the wharf a reasonable compensation for the use of the berth. The Kate Tremaine, 6. Ben. 60.\nAncient codes and treatises, such as are frequently recognized as the source from which the rules' of the maritime law are drawn* usually treat such contracts as maritime contracts, for which the ship or vessel is liable. The Maggie Hammond, 9 Wall. 435; Delovio v. Boit, 2 Gall. 398.\nCharges for wharfage were adjudged to be lien claims in the District Court of the third circuit more than seventy years ago; and, in speaking of that case, Judge Story says, that it seems to him that the decision was fully supported in principle by the doctrines as well of the common law as of the civil law, and by. the analogous cases of materials furnished and repairs made upon the ship. Gardner v. Ship New Jersey, 1 Pet. Adm. 223; Ex parte Lewis, 2 Gall. 483, where it was expressly adjudged that the contract was necessarily maritime, giving as the reason for the conclusion that the use of the wharf is indispensable for the preservation of the vessel. Johnson v. McDonough, Gilpin, 101.\nOther eminent admiralty judges have decided in the .same way, and among the number the .late Judge Ware, whose opinion in cases involving the question of admiralty jurisdiction is entitled to the highest respect. The Ph\u0153be, Ware, 265; 2 Conkl. Adm. (2d ed.) 515; Bark Alaska, 3 Ben. 391; Hobart v. Drogan, 10 Pet. 108; The Mercer, 1 Sprague, 284; The Ann Ryan, 7 Ben. 20; Dunlap, Adm. 75; Abbott, Ship. (5th ed.) 423.\nWater-craft of all kinds necessarily lie at a'wharf when load-, ing and unloading; \u00e1nd Mr. Benedict says,\u2019 that the pecuniary charge for the use of the dock or'wharf is- called wharfage or dockage; and -that it is the subject of admiralty jurisdiction; .that the master and owner of the ship.and the ship herself may be proceeded against in admiralty to enforce the payment of wharfage, when the vessel lies alongside the wharf, or at a distance, and only uses the wharf temporarily for boats or cargo. Benedict, Adin. (2d ed.) sect. 283.\nApplication for the writ of prohibition is properly made in such a case, upon the ground that the District Court lias transcended its jurisdiction in entertaining the described proceeding ; a\"nd whether it has or not must depend not upon facts stated dehors the record, but upon those, stated in the record upon which the District' Court is called to act, and by which alone it can regulate its judgment. Mere matters of defence, whether going to oust the jurisdiction of the court or to establish the want of merits in the libellants\u2019 case, cannot be admitted under such a petition here to displace the right of the' District Court to entertain sriits, the rule being that every such matter should be propounded by suitable pleadings as a defence for the consideration of the court, and to be. supported by. competent proofs, provided the case is one within the jurisdiction of the District Court. Ex parte Christy, 3 How. 292.\nCongress has empowered the Supreme Court to issue writs of prohibition to the district courts \u201c when proceeding as courts of admiralty and maritime jurisdiction,\u201d by which it- is understood that the power is limited to a proceeding in admiralty. Conkl. Treatise (5th ed.), 56... Such a writ is issued to forbid a subordinate court to proceed in a cause there depending, on suggestion that the cognizance thereof belongeth not' to the court. F. N. B. 39; 3 Bl. Com. 112 ; 2 Pars. Ship. 193; 8 Bac. Abr. 206.\nViewed in the light of these considerations, it is clear that a contract for the use of a wharf by the master or owner of a ship, or vessel is a maritime contract,- and, as such, that it is cognizable in the admiralty; that such a contract, being one made exclusively for the benefit of the ship or vessel, a maritime lien in the case supposed arises in' favor of the proprietor of the wharf against the vessel for payment of. reasonable and customary charges in \"that behalf for the use of the wharf, and that the same may be enforced by a proceeding in rem against the vessel, or by a suit in personam against the owner.\nMany other questions were discussed at the bar which will not be decided at the present time, as they are not properly involved in the application before the court.\nPetition denied.",
+        "type": "majority",
+        "author": "Mr. Justice Clifford"
+      }
+    ],
+    "attorneys": [
+      "Mr. Edward D. McCarthy and Mr. J. E. Gowen for the petitioners.",
+      "Mr. F. A. Wilcox, contra."
+    ],
+    "corrections": "",
+    "head_matter": "Ex parte Easton.\n1. Claims for wharfage, arising out of either an- express or an implied'contract, are cognizable in admiralty.\n2. Where the wharfage has not been agreed upon by the parties, the wharfinger is entitled, as upon an implied contract, to a just and reasonable.compensation for the use of his wharf.\n3. If the vessel or water-craft is a foreign one, or belongs to a port of a [State other than that where the wharf is used, the claim of the wharfinger for such use is a maritime lien against the vessel', which he may enforce by a proceeding in rem, or he may resort to a libel in personam against the owner of such vessel or water-craft.\n4. Whether a writ of prohibition should be issued to the District Court, when^ proceeding as a court of admiralty .and maritime jurisdiction, depends upon the facts stated in the record upon which that court is called to act. Matters dehors that record, which are set forth in the petition for the writ, cannot be considered here.\nPetition for a writ of prohibition to restrain the District Court of the United States for the Eastern District of New York from exercising jurisdiction in a proceeding in rem to enforce an alleged lien for wharfage against the canal-boat or barge \u201c John M. Welch.\u201d\n\u2022 As the facts in the case are fully stated in the opinion of the court, they are omitted here.\nMr. Edward D. McCarthy and Mr. J. E. Gowen for the petitioners.\nThe District Court has no jurisdiction over .the barge \u201c John M. Welch,\u201d because, 1, a contract of wharfage is not a maritime contract. The Genesee Chief, 12 How. 448; The Lottawanna, 21 Wall. 558; The Belfast, 7 id. 624; Insurance Company v. Dunham, 11 id. 1; Rex v. Humphrey, 1 McCle. & Yo. 194; Platt v. Hibbard, 7 Cow. (N. Y.) 497; Barry v. Langyiore, 12 Ad. & E. 640; Speares v. Hartley, 3 Esp. 81; ..Richardson v. Goss,- 3 Bos. & Pul. 119.\n2. The maritime law gives no lien for wharfage. The Coal Barges, 3 Wall. Jr. 53 ; The General Smith, 4 Wheat: 438 ; The Lottawanna, 21 Wall. 558; Cunningham v. Hall, 1 Cliff. 51; The Thomas, 7 Am. Law Rev. 381; The Gem, Browne, Adm. 37; The Asa R. Swift,T Newb. Adm. 543; The Alexander McNeil, 20 Int. Rev. Rec. 175.\n3. If the statutes of New York'gave alien against the vessel, which they do not, it could not be enforced in a court of admiralty by a proceeding in rem. Wide v. The Samuel Strong, 6 McLean, 587 ; The Laurel, 1 Newb. Adm. 269; Maguire' v. Card, 21 How, 248; The Lottawanna, 21 Wall. 558; Delovio v. Boit, 2 Gall. 398; People's Eerry Company v. Beers, 20 How. 393; The Circassian, 1 Ben. 209; Graham v. Haskins, Ole. Adm. 227; The Ship Harriet-, id. 229; The Ottawa, 5 Am. Law T. 147; New Jersey Steam Navigation Co. F. Merchant's Bank, 6 How. 344; Allen v. Newberry, 21 id. 246; Ransom v. Mayo, 3 Blatchf. 71; Cunningham v. Hall, 1 Cliff. 51; The Two Friends, Bee; Adm. 440 ; Brig Hannah, id. 421; The Lady Horatio, id. 169; Cox v. Murray, Abb. Adm. 343; Garvey v. Crocket, id. 490; The Amstel, 1 Blatchf. & H. Adm. 215; McDermott v.The S.'S. Owens, 1 Wall. Jr. 870; The Grand Turk, 2 Pittsb. (Pa.) 326'; Philips v.. Scattergood, Gilp. 3; Nicoll y. Gard ner, 13 Wend. (N. Y.).;290; Sacramento v. New World, 4 Cal. 44; Story, Bailm., sects. 451, 453; 2 Kent, Com. 635, 642 Craisede v. JTrent Mersey Navigation Co., 4 T. R. 581; Stein-man v. Wilkins, 7 Serg. & R. 466.\nMr. F. A. Wilcox, contra."
+  },
+  "file_name": "0068-01",
+  "first_page_order": 82,
+  "last_page_order": 92
+}

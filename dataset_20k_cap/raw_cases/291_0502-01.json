@@ -1,0 +1,2588 @@
+{
+  "id": 1497894,
+  "name": "NEBBIA v. NEW YORK",
+  "name_abbreviation": "Nebbia v. New York",
+  "decision_date": "1934-03-05",
+  "docket_number": "No. 531",
+  "first_page": "502",
+  "last_page": "559",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "291 U.S. 502"
+    },
+    {
+      "type": "parallel",
+      "cite": "54 S. Ct. 505"
+    },
+    {
+      "type": "parallel",
+      "cite": "78 L. Ed. 940"
+    },
+    {
+      "type": "vendor",
+      "cite": "1934 U.S. LEXIS 962"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1933-145"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "101 N.Y. 634",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2201581,
+        2201437,
+        2201477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/101/0634-02",
+        "/ny/101/0634-01",
+        "/ny/101/0634-03"
+      ]
+    },
+    {
+      "cite": "261 U.S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139077
+      ],
+      "pin_cites": [
+        {
+          "page": "190, 196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/261/0184-01"
+      ]
+    },
+    {
+      "cite": "25 F. (2d) 462",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1727085
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/25/0462-01"
+      ]
+    },
+    {
+      "cite": "41 Stat. 456",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "289 U.S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3916633
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/289/0130-01"
+      ]
+    },
+    {
+      "cite": "289 U.S. 98",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3916795
+      ],
+      "pin_cites": [
+        {
+          "page": "102"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/289/0098-01"
+      ]
+    },
+    {
+      "cite": "240 U.S. 369",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3689080
+      ],
+      "pin_cites": [
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/240/0369-01"
+      ]
+    },
+    {
+      "cite": "94 U.S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646330
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0164-01"
+      ]
+    },
+    {
+      "cite": "94 U.S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5645842
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0155-01"
+      ]
+    },
+    {
+      "cite": "275 U.S. 504",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6145330,
+        6145282,
+        6145391
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/275/0504-02",
+        "/us/275/0504-01",
+        "/us/275/0504-03"
+      ]
+    },
+    {
+      "cite": "253 U.S. 233",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189367
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "240"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0233-01"
+      ]
+    },
+    {
+      "cite": "245 U.S. 217",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3693828
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/245/0217-01"
+      ]
+    },
+    {
+      "cite": "228 U.S. 454",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3667239
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/228/0454-01"
+      ]
+    },
+    {
+      "cite": "137 U.S, 86",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3546709
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/137/0086-01"
+      ]
+    },
+    {
+      "cite": "1 Black 603",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410106
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/66/0603-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 36",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411261
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/83/0036-01"
+      ]
+    },
+    {
+      "cite": "258 U.S. 451",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1479277
+      ],
+      "pin_cites": [
+        {
+          "page": "462-464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/258/0451-01"
+      ]
+    },
+    {
+      "cite": "171 U.S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3601017
+      ],
+      "pin_cites": [
+        {
+          "page": "559, 571-573"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/171/0505-01"
+      ]
+    },
+    {
+      "cite": "234 U.S. 199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675030
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/234/0199-01"
+      ]
+    },
+    {
+      "cite": "217 U.S. 433",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        407832
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/217/0433-01"
+      ]
+    },
+    {
+      "cite": "212 U.S. 322",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5710521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/212/0322-01"
+      ]
+    },
+    {
+      "cite": "212 U.S. 86",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5710607
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/212/0086-01"
+      ]
+    },
+    {
+      "cite": "197 U.S. 115",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3636095
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/197/0115-01"
+      ]
+    },
+    {
+      "cite": "196 U.S. 447",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292506
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/196/0447-01"
+      ]
+    },
+    {
+      "cite": "278 U.S. 245",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906469
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/278/0245-01"
+      ]
+    },
+    {
+      "cite": "240 U.S. 342",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3689799
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/240/0342-01"
+      ]
+    },
+    {
+      "cite": "226 U.S. 157",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8285904
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/226/0157-01"
+      ]
+    },
+    {
+      "cite": "291 U.S. 352",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1497974
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/291/0352-01"
+      ]
+    },
+    {
+      "cite": "287 U.S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        369875
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0283-01"
+      ]
+    },
+    {
+      "cite": "226 U.S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8285591
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/226/0112-01"
+      ]
+    },
+    {
+      "cite": "284 U.S. 151",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5717426
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0151-01"
+      ]
+    },
+    {
+      "cite": "260 U.S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925351
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0071-01"
+      ]
+    },
+    {
+      "cite": "205 U.S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3637848
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/205/0489-01"
+      ]
+    },
+    {
+      "cite": "284 U.S. 8",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5717392
+      ],
+      "pin_cites": [
+        {
+          "page": "21-22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0008-01"
+      ]
+    },
+    {
+      "cite": "286 U.S. 210",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3917670
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/286/0210-01"
+      ]
+    },
+    {
+      "cite": "284 U.S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5717832
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0335-01"
+      ]
+    },
+    {
+      "cite": "262 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136183
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/262/0001-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934782
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0053-01"
+      ]
+    },
+    {
+      "cite": "279 U.S. 337",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3907508
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/279/0337-01"
+      ]
+    },
+    {
+      "cite": "177 U.S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705450
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/177/0183-01"
+      ]
+    },
+    {
+      "cite": "248 U.S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3687589
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/248/0465-01"
+      ]
+    },
+    {
+      "cite": "260 U.S. 110",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0110-01"
+      ]
+    },
+    {
+      "cite": "241 U.S. 340",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287629
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/241/0340-01"
+      ]
+    },
+    {
+      "cite": "272 U.S. 425",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1501267
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/272/0425-01"
+      ]
+    },
+    {
+      "cite": "261 U.S. 165",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138608
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/261/0165-01"
+      ]
+    },
+    {
+      "cite": "273 U.S. 414",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142537
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/273/0414-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 339",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3935014
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0339-01"
+      ]
+    },
+    {
+      "cite": "218 U.S. 173",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286398
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/218/0173-01"
+      ]
+    },
+    {
+      "cite": "129 U.S. 114",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299212
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/129/0114-01"
+      ]
+    },
+    {
+      "cite": "219 U.S. 114",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653007
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0114-01"
+      ]
+    },
+    {
+      "cite": "264 U.S. 370",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141320
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/264/0370-01"
+      ]
+    },
+    {
+      "cite": "232 U.S. 334",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3672237
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/232/0334-01"
+      ]
+    },
+    {
+      "cite": "127 U.S. 678",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3531124
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/127/0678-01"
+      ]
+    },
+    {
+      "cite": "252 U.S. 107",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        551485
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/252/0107-01"
+      ]
+    },
+    {
+      "cite": "123 U.S. 623",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3523081
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/123/0623-01"
+      ]
+    },
+    {
+      "cite": "225 U.S. 623",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11343309
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/225/0623-01"
+      ]
+    },
+    {
+      "cite": "274 U.S. 392",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81200
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0392-01"
+      ]
+    },
+    {
+      "cite": "187 U.S. 606",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142959
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/187/0606-01"
+      ]
+    },
+    {
+      "cite": "219 U.S. 285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3652809
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0285-01"
+      ]
+    },
+    {
+      "cite": "184 U.S. 425",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3626267
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/184/0425-01"
+      ]
+    },
+    {
+      "cite": "243 U.S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3691577
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/243/0219-01"
+      ]
+    },
+    {
+      "cite": "243 U.S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3692322
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/243/0188-01"
+      ]
+    },
+    {
+      "cite": "236 U.S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287213
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/236/0338-01"
+      ]
+    },
+    {
+      "cite": "211 U.S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11928196
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "547"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/211/0539-01"
+      ]
+    },
+    {
+      "cite": "222 U.S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3660664
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/222/0225-01"
+      ]
+    },
+    {
+      "cite": "234 U.S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675107
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/234/0224-01"
+      ]
+    },
+    {
+      "cite": "183 U.S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8296519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/183/0013-01"
+      ]
+    },
+    {
+      "cite": "233 U.S. 685",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3673620
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/233/0685-01"
+      ]
+    },
+    {
+      "cite": "173 U.S. 404",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298171
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/173/0404-01"
+      ]
+    },
+    {
+      "cite": "252 U.S. 348",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        551441
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/252/0348-01"
+      ]
+    },
+    {
+      "cite": "190 U.S. 169",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8296614
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/190/0169-01"
+      ]
+    },
+    {
+      "cite": "236 U.S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287428
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/236/0373-01"
+      ]
+    },
+    {
+      "cite": "232 U.S. 671",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3672432
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/232/0671-01"
+      ]
+    },
+    {
+      "cite": "208 U.S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3642006
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/208/0412-01"
+      ]
+    },
+    {
+      "cite": "264 U.S. 292",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140442
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/264/0292-01"
+      ]
+    },
+    {
+      "cite": "231 U.S. 320",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3671791
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/231/0320-01"
+      ]
+    },
+    {
+      "cite": "243 U.S. 426",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3692594
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/243/0426-01"
+      ]
+    },
+    {
+      "cite": "221 U.S. 612",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658732
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/221/0612-01"
+      ]
+    },
+    {
+      "cite": "169 U.S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597480
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/169/0366-01"
+      ]
+    },
+    {
+      "cite": "219 U.S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653474
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0104-01"
+      ]
+    },
+    {
+      "cite": "219 U.S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653121
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0270-01"
+      ]
+    },
+    {
+      "cite": "228 U.S. 572",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3667255
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/228/0572-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 568",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934651
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0568-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934042
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0539-01"
+      ]
+    },
+    {
+      "cite": "217 U.S. 461",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        407797
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/217/0461-01"
+      ]
+    },
+    {
+      "cite": "211 U.S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11927820
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/211/0489-01"
+      ]
+    },
+    {
+      "cite": "240 U.S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3690077
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/240/0510-01"
+      ]
+    },
+    {
+      "cite": "290 U.S. 570",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3925288
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/290/0570-01"
+      ]
+    },
+    {
+      "cite": "226 U.S. 578",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288902
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/226/0578-01"
+      ]
+    },
+    {
+      "cite": "248 U.S. 365",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3690437
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/248/0365-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 311",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934188
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0311-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934939
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0470-01"
+      ]
+    },
+    {
+      "cite": "227 U.S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286953
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/227/0308-01"
+      ]
+    },
+    {
+      "cite": "220 U.S. 45",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3657117
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/220/0045-01"
+      ]
+    },
+    {
+      "cite": "239 U.S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3933053
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/239/0325-01"
+      ]
+    },
+    {
+      "cite": "188 U.S. 321",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11726861
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/188/0321-01"
+      ]
+    },
+    {
+      "cite": "263 U.S. 313",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141508
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/263/0313-01"
+      ]
+    },
+    {
+      "cite": "263 U.S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139951
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/263/0197-01"
+      ]
+    },
+    {
+      "cite": "118 U.S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519298
+      ],
+      "pin_cites": [
+        {
+          "page": "369"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "274 U.S. 603",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81171
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0603-01"
+      ]
+    },
+    {
+      "cite": "274 U.S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81075
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0325-01"
+      ]
+    },
+    {
+      "cite": "272 U.S. 365",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1501273
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/272/0365-01"
+      ]
+    },
+    {
+      "cite": "237 U.S. 171",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        631847
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/237/0171-01"
+      ]
+    },
+    {
+      "cite": "239 U.S. 394",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3932840
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/239/0394-01"
+      ]
+    },
+    {
+      "cite": "214 U.S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3650528
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/214/0091-01"
+      ]
+    },
+    {
+      "cite": "194 U.S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630861
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/194/0361-01"
+      ]
+    },
+    {
+      "cite": "260 U.S. 22",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925245
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0022-01"
+      ]
+    },
+    {
+      "cite": "285 U.S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1175371
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/285/0105-01"
+      ]
+    },
+    {
+      "cite": "249 U.S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3687381
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/249/0269-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 526",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3933502
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0526-01"
+      ]
+    },
+    {
+      "cite": "200 U.S. 527",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8295200
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/200/0527-01"
+      ]
+    },
+    {
+      "cite": "198 U.S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499496
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/198/0361-01"
+      ]
+    },
+    {
+      "cite": "200 U.S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8295317
+      ],
+      "pin_cites": [
+        {
+          "page": "592"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/200/0561-01"
+      ]
+    },
+    {
+      "cite": "113 U.S. 27",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3513187
+      ],
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/113/0027-01"
+      ]
+    },
+    {
+      "cite": "175 U.S. 211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239466
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "228-229"
+        },
+        {
+          "page": "228-9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/175/0211-01"
+      ]
+    },
+    {
+      "cite": "114 U.S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11293416
+      ],
+      "pin_cites": [
+        {
+          "page": "215"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/114/0196-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 41",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3441940
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/76/0041-01"
+      ]
+    },
+    {
+      "cite": "5 How. 504",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        8300376
+      ],
+      "pin_cites": [
+        {
+          "page": "583"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/46/0504-01"
+      ]
+    },
+    {
+      "cite": "11 Pet. 102",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3344630
+      ],
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/36/0102-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 1",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421263
+      ],
+      "pin_cites": [
+        {
+          "page": "203"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/22/0001-01"
+      ]
+    },
+    {
+      "cite": "219 U.S. 549",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3652873
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0549-01"
+      ]
+    },
+    {
+      "cite": "219 U.S. 186",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653506
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0186-01"
+      ]
+    },
+    {
+      "cite": "165 U.S. 578",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298864
+      ],
+      "pin_cites": [
+        {
+          "page": "591"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/165/0578-01"
+      ]
+    },
+    {
+      "cite": "172 U.S. 557",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3605193
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "566"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/172/0557-01"
+      ]
+    },
+    {
+      "cite": "289 U.S. 346",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3917371
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/289/0346-01"
+      ]
+    },
+    {
+      "cite": "243 N.Y.S. 644",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 App. Div. 252",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4946832,
+        4943279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/230/0252-01",
+        "/ad/230/0252-02"
+      ]
+    },
+    {
+      "cite": "171 N.E. 72",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 N.Y. 305",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1991687
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/253/0305-01"
+      ]
+    },
+    {
+      "cite": "162 N.E. 484",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 N.Y. 454",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1905348
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/248/0454-01"
+      ]
+    },
+    {
+      "cite": "119 N.E. 115",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 N.Y. 416",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        80117
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/222/0416-01"
+      ]
+    },
+    {
+      "cite": "103 N.E. 166",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 N.Y. 218",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        62081
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/209/0218-01"
+      ]
+    },
+    {
+      "cite": "101 N.E. 849",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 N.Y. 138",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4523216
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/208/0138-01"
+      ]
+    },
+    {
+      "cite": "106 N.Y.S. 793",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        5667005
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/106/0793-01"
+      ]
+    },
+    {
+      "cite": "121 App. Div. 852",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5819201
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/121/0852-01"
+      ]
+    },
+    {
+      "cite": "201 U.S. 633",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        344898
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/201/0633-01"
+      ]
+    },
+    {
+      "cite": "199 U.S. 552",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3643098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/199/0552-01"
+      ]
+    },
+    {
+      "cite": "74 N.E. 489",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 N.Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2323175
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/182/0001-01"
+      ]
+    },
+    {
+      "cite": "64 App. Div. 584",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7697747
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/72/0340-01"
+      ]
+    },
+    {
+      "cite": "12 N.E. 795",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 N.Y. 321",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2210492
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/106/0321-01"
+      ]
+    },
+    {
+      "cite": "12 N.E. 610",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 N.Y. 293",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2210425
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/106/0293-01"
+      ]
+    },
+    {
+      "cite": "44 Hun 472",
+      "category": "reporters:state",
+      "reporter": "Hun",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 N.E. 107",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 N.E. 694",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "262 N.Y. 259",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2006590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/262/0259-01"
+      ]
+    },
+    {
+      "cite": "283 U.S. 553",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434248
+      ],
+      "pin_cites": [
+        {
+          "page": "563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0553-01"
+      ]
+    },
+    {
+      "cite": "271 U.S. 583",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1276185
+      ],
+      "pin_cites": [
+        {
+          "page": "592"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/271/0583-01"
+      ]
+    },
+    {
+      "cite": "266 U.S. 570",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6144140
+      ],
+      "pin_cites": [
+        {
+          "page": "577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/266/0570-01"
+      ]
+    },
+    {
+      "cite": "260 U.S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926101
+      ],
+      "pin_cites": [
+        {
+          "page": "416"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0393-01"
+      ]
+    },
+    {
+      "cite": "256 U.S. 170",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3680255
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/256/0170-01"
+      ]
+    },
+    {
+      "cite": "256 U.S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678585
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/256/0135-01"
+      ]
+    },
+    {
+      "cite": "287 U.S. 378",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        370162
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0378-01"
+      ]
+    },
+    {
+      "cite": "278 U.S. 235",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906410
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "239"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/278/0235-01"
+      ]
+    },
+    {
+      "cite": "277 U.S. 350",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3902647
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/277/0350-01"
+      ]
+    },
+    {
+      "cite": "274 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81092
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0001-01"
+      ]
+    },
+    {
+      "cite": "273 U.S. 418",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142623
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/273/0418-01"
+      ]
+    },
+    {
+      "cite": "268 U.S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13076
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/268/0510-01"
+      ]
+    },
+    {
+      "cite": "267 U.S. 552",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143714
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/267/0552-01"
+      ]
+    },
+    {
+      "cite": "255 U.S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        341573
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/255/0081-01"
+      ]
+    },
+    {
+      "cite": "283 U.S. 697",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434240
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0697-01"
+      ]
+    },
+    {
+      "cite": "270 U.S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138990
+      ],
+      "pin_cites": [
+        {
+          "page": "240"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/270/0230-01"
+      ]
+    },
+    {
+      "cite": "262 U.S. 390",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141776
+      ],
+      "year": 1919,
+      "pin_cites": [
+        {
+          "page": "399"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/262/0390-01"
+      ]
+    },
+    {
+      "cite": "261 U.S. 525",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143553
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/261/0525-01"
+      ]
+    },
+    {
+      "cite": "290 U.S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3920678
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/290/0190-01"
+      ]
+    },
+    {
+      "cite": "245 U.S. 60",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3693489
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/245/0060-01"
+      ]
+    },
+    {
+      "cite": "244 U.S. 590",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343165
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/244/0590-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 2",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6136640,
+        6136169
+      ],
+      "pin_cites": [
+        {
+          "page": "120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/71/0002-02",
+        "/us/71/0002-01"
+      ]
+    },
+    {
+      "cite": "290 U.S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3923972
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/290/0398-01"
+      ]
+    },
+    {
+      "cite": "285 U.S. 262",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1175402
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "277"
+        },
+        {
+          "page": "277"
+        },
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/285/0262-01"
+      ]
+    },
+    {
+      "cite": "193 U.S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630311
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "337-8"
+        },
+        {
+          "page": "351"
+        },
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/193/0197-01"
+      ]
+    },
+    {
+      "cite": "262 U.S. 522",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142986
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "535"
+        },
+        {
+          "page": "537"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/262/0522-01"
+      ]
+    },
+    {
+      "cite": "287 U.S. 251",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        369598
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "274"
+        },
+        {
+          "page": "274"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0251-01"
+      ]
+    },
+    {
+      "cite": "183 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8296885
+      ],
+      "pin_cites": [
+        {
+          "page": "85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/183/0079-01"
+      ]
+    },
+    {
+      "cite": "269 U.S. 93",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        186291
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/269/0093-01"
+      ]
+    },
+    {
+      "cite": "267 U.S. 540",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143475
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/267/0540-01"
+      ]
+    },
+    {
+      "cite": "253 U.S. 182",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0182-01"
+      ]
+    },
+    {
+      "cite": "253 U.S. 170",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0170-01"
+      ]
+    },
+    {
+      "cite": "250 U.S. 208",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3684381
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/250/0208-01"
+      ]
+    },
+    {
+      "cite": "157 U.S. 160",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3584248
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/157/0160-01"
+      ]
+    },
+    {
+      "cite": "282 U.S. 251",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6932013
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "257-8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/282/0251-01"
+      ]
+    },
+    {
+      "cite": "218 U.S. 563",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288805
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/218/0563-01"
+      ]
+    },
+    {
+      "cite": "233 U.S. 389",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674008
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/233/0389-01"
+      ]
+    },
+    {
+      "cite": "153 U.S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3577036
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0391-01"
+      ]
+    },
+    {
+      "cite": "94 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647121
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "124, 125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0113-01"
+      ]
+    },
+    {
+      "cite": "283 U.S. 527",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434159
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0527-01"
+      ]
+    },
+    {
+      "cite": "217 U.S. 563",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        407767
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/217/0563-01"
+      ]
+    },
+    {
+      "cite": "179 U.S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5707337
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/179/0089-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3099,
+    "char_count": 88899,
+    "ocr_confidence": 0.592,
+    "pagerank": {
+      "raw": 1.4874173617409593e-05,
+      "percentile": 0.9997748903507502
+    },
+    "sha256": "4cb7c28401b5551f313366beb5263ef06350bb36163550af7e853c11445944f8",
+    "simhash": "1:6b8a16a0623e9eeb",
+    "word_count": 14763
+  },
+  "last_updated": "2024-02-27T20:20:35.829344+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Van Devanter, Mr. Justice Sutherland, and Mr. Justice Butler authorize me to say that they concur in this opinion."
+    ],
+    "parties": [
+      "NEBBIA v. NEW YORK."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Roberts\ndelivered the opinion of the. Court.\nThe Legislature of New York established, by Chapter 158 of the Laws of 1933, a Milk Control Board with power, among other things, to \u201c fix minimum and maximum . . . retail prices to be charged by . . . stores to consumers for consumption off the premises where sold.\u201d The Board fixed nine cents as the price to be charged by a store for & quart of milk. Nebbia, the proprietor of a grocery store in Rochester, sold two quarts and a five cent loaf of bread for eighteen cents; and was. convicted for violating the Board\u2019s order. At his trial he asserted the statute and order contravene the equal protection clause and the due process clause of the Fourteenth Amendment, and renewed the contention in successive appeals to the county court and the Court of Appeals. Both overruled his claim and affirmed the conviction.\nThe question for decision is whether the Federal Constitution prohibits a state from SO' fixing the selling price of milk. We first inquire as to the occasion for the legislation and its history.\nDuring 1932 the prices received by farmers for rnfik were much below the cost of production. The decline in prices during 1931 and 1932 was much greater than that of prices generally. The situation of the families of dairy producers had become desperate and called for state, aid similar to that afforded the unemployed, if conditions should not improve.\nOn March 10, 1932, the senate and assembly resolved \u201cThat a joint Legislative committee is hereby created . . ., to investigate the causes of the decline of the price of milk to producers and the resultant effect of the low prices upon the dairy industry and the future supply of milk to the cities of the State; to investigate the cost of distribution of milk and its relation to prices paid to milk producers, to the end that the consumer may be assured of an adequate supply of milk at a reasonable price, both to producer and consumer.\u201d The committee organized May 6, 1932, and its activities.lasted nearly a year. It held 13 public hearings at which 254, witnesses testified and 2350 typewritten pages of testimony were taken. Numerous exhibits were submitted. Under its direction an extensive research program was prosecuted by experts and official bodies and employees of the state and municipalities, which resulted in the assembling of much pertinent information. Detailed reports were received from over 100 distributors of milk, and these were collated and the information obtained analyzed. As a result of the study of this material, a report covering 473 closely printed pages, embracing the conclusions and recommendations of the committee, was presented to the legislature April 10, 1933. This document included detailed findings, with copious references to the supporting evidence; appendices outlining the nature and results of prior investigations of the milk industry of the state, briefs upon the legal questions involved, and forms of bills recommended for passage. The conscientious effort and thoroughness exhibited by the report lend weight to the committee\u2019s conclusions.\nIn part those conclusions are:\nMilk is an essential item of diet. It cannot long be stored. It is an excellent medium for growth of bacteria. These facts necessitate safeguards in its production and handling for human consumption which greatly increase the cost of the business. Failure of producers to receive a reasonable return for their labor and investment over an extended period threaten a relaxation of vigilance against contamination.\nThe production and distribution of milk is a paramount industry of the state, and largely affects the health and prosperity of its people. Dairying yields fully one-half of the total income from all farm products. Dairy farm investment amounts to approximately $1,000,000,000. Curtailment or destruction of the dairy industry would cause a serious economic loss to the people of the state.\nIn addition to the general price decline, other causes for the low price of milk include: a periodic increase in the number of cows and in milk production; the prevalence of unfair and destructive trade practices in the distribution of milk, leading to a .demoralization of prices in the metropolitan area and other markets; and the failure of transportation. and distribution charges to be reduced in proportion to the red\u00fcction in retail prices for milk and cream.\nThe fluid milk industry is affected by factors of instability peculiar to itself which call for special methods of control. Under the best practicable adjustment of supply to demand the industry must carry a surplus of about 20 per cent., because milk, an essential food, must be available as demanded.by consumers every day in the year, and demand and supply vary from day to day and according to the.season; but milk is perishable and cannot be stored. Close adjustment of supply to demand is hindered by s\u00e9veral factors difficult to control. Thus surplus milk presents a serious problem, as the prices which can be realized for it for other uses are much less than those obtainable for milk sold for consumption in fluid, form or as cream. A satisfactory stabilization of prices for fluid milk requires that the burden of surplus milk be shared equally by all producers and all distributors in the milk-shed. So long as the surplus burden is unequally distributed the pressure to market surplus milk in fluid form will be a serious disturbing factor. The fact that the larger distributors find it necessary to carry large quantities of surplus milk, while the smaller distributors do not, leads to price-cutting and other forms of destructive competition. Smaller distributors, who take no responsibility for the surplus, by purchasing their milk at the blended prices (i.e., an average between the price paid the producer for milk for sale as fluid milk, and the lower surplus milk price paid by the larger organizations) can undersell the larger distributors. Indulgence in this price-cutting often compels the larger dealer to cut the price, to his own. and the producer\u2019s detriment.\nVarious remedies were suggested, amongst them united action by producers, the fixing of minimum'prices for milk and cream by state authority, and the imposition of certain graded taxes on milk dealers proportioned so as to equalize the cost of milk and cream to all dealers and so remove the* cause of price-cutting.\nThe legislature adopted Chapter 158 as a method of correcting the evils, which the report of the committee showed could not be expected to right themselves through the ordinary play of the forces of supply and demand, owing to the peculiar and uncontrollable factors affecting the \u2022 industry. The provisions of the statute are summarized in the margin.\nSection 312 (e), on which the prosecution in the present case is founded,.provides: \u201cAfter the board shall have fixed prices to be charged or paid for milk in any form ... it shall be unlawful for a milk dealer to sell or buy or offer to sell or buy milk at any price less or more than such price . . ., and no method or device shall be lawful whereby milk is bought or sold .... at a price less or more than such price . . . whether by any discount, or rebate, or free service, or advertising allowance, or a combined price for such milk together with another commodity or commodities, or service or services, which is less or more than the aggregate of the prices for the milk and the price or prices for such other commodity or commodities, of service or services, when sold or offered for sale separately or otherwise . . .\u201d\nFirst. The appellant urges .that the order of the Milk Control Board denies him the equal protection of the laws. It is shown that the order requires him, if he purchases his supply from a dealer, to pay eight cents per quart and five cents per pint, and to resell at not less than nine and six, whereas the same dealer may buy his supply from a farmer at lower prices and deliver milk to consumers at ten cents the quart and six cents the pint. We think the contention that the discrimination deprives the appellant of equal protection is not well founded. For aught that appears, the appellant purchased his supply of milk from a farmer as do distributors, or could have procured it from a farmer if he so desired. There is therefore no showing that the order placed him at a disadvantage, or in fact affected him adversely, and this alone is fatal to the claim of denial of equal protection. But if it were shown that the appellant is compelled to buy from a distributor, the difference in the retail price he is required to charge his customers, from that prescribed for sales by distributors, is not on its face arbitrary or unreasonable, for there are obvious distinctions between the two sorts of merchants which may well justify a difference of treatment, if the legislature possesses the power to control the prices to be charged for fluid milk. Compare American Sugar Refining Co. v. Louisiana, 179 U.S. 89; Brown-Forman Co. v. Kentucky, 217 U.S. 563; State Board of Tax Commissioners v. Jackson, 283 U.S. 527.\nSecond. The more serious question is whether, in the light .of the conditions disclosed, the enforcement of \u00a7 312 (e) denied the appellant the due process secured to him by the Fourteenth Amendment.\nSave the conduct of railroads, no business has. been so thoroughly regimented and regulated by the State of New York as the milk industry. Legislation controlling it in the interest of the public health was adopted in 1862. and subsequent statutes have been carried into the general codification known as the Agriculture and Markets Law. 6 A perusal of these statutes discloses that the milk industry has been progressively subjected to a larger measure of control. The producer or dairy farmer is in certain circumstances'liable to have his herd quarantined against bovine tuberculosis; is limited in the importation of dairy cattle to those free from Bang\u2019s disease; is subject to rules governing the care and feeding of his cows and the care of the milk' produced, the condition and surroundings of his barns and buildings used for production of milk, the utensils used, and the persons employed in milking (\u00a7\u00a7 46, 47, 55, 72-88).' Proprietors of milk-gathering-stations or processing plants are subject to regulation (\u00a7 54), and persons in charge must operate under license and give bond to comply with the law and regulations; must keep records, pay promptly for milk purchased, abstain from false or misleading statements and from combinations to fix prices (\u00a7\u00a7 57, 57a, 252). In addition there is a large volume of legislation intended to promote cleanliness and fair trade practices, affecting all who are engaged in the industry. The challenged amendnaent of 1933 carried regulation much farther than the prior enactments. Appellant insists that it went beyond the limits fixed by the Constitution.\nUnder our form of government the use of property and the making of contracts are normally matters of private and not of public concern. The general rule is that both shall be free of governmental interference. But neither property rights nor contract rights are absolute; for government cannot exist if the citizen may at will use his property to the detriment of his fellows, or exercise his freedom of contract to work them harm. Equally fundamental with the private right is that of the public to regulate it in the common interest. As Chief Justice Marshall said, speaking specifically of inspection laws, such laws form \u201c a portion of that immense mass of legislation, which embraces every thing within the territory of a State ... all which can be most advantageously exercised by the States themselves. Inspection laws, quarantine laws, health laws of every description, as well as laws for regulating the internal commerce of a State, . . . are component parts of this mass.\u201d\nJustice Barbour said for this court:\n\u201c. . . it is not only the right, but the bounden and solemn duty of a state, to advance the safety, happiness and prosperity of its people, and to provide for its general welfare, by any and every act of legislation, which it may deem to be conducive to these ends; where the power over the particular subject, or the manner of its exercise, is not' surrendered or restrained, in the manner just stated. That all those powers which relate to merely municipal legislation, or what may, perhaps, more properly be called internal police, are not thus surrendered or restrained; and that, consequently, in relation to these, the authority of a state is complete, unqualified, arid exclusive.\u201d\nAnd Chief Justice Taney said upon the same subject:\nBut what are the police powers of a State? They are nothing more or less than the powers of government inherent in every sovereignty to the extent of its dominions. And whether a State passes a quarantine law, or a law to punish offences, or to establish courts of justice, or requiring certain instruments to be recorded, or to regulate commerce within its own limits, in every case it exercises the same powers; that is to say, the power of sovereignty, the power to govern men and things within the limits of its dominion. It is by virtue of this power that it legislates; and its authority to make regulations of commerce is as absolute as its power to pass health laws, except in so far as it has been restricted by the constitution of the United States.\u201d\nThus has this court from the early days affirmed that the power to promote the general welfare is inherent in government. Touching the matters committed to it by the Constitution, the United States possesses the power, as do the states in their sovereign capacity touching all subjects jurisdiction of which is not surrendered to the federal government, as shown by the quotations above given. These correlative rights, that of the citizen to exercise exclusive dominion over property and freely to contract about his affairs, and that of the state to regulate the use of property and the conduct of business, are always in collision. No exercise of the private right can be imagined which will not in some respect, however slight, affect the public; no exercise of the legislative prerogative to regulate the conduct of the citizen which will not to some extent abridge his liberty or affect his property. But subject only to constitutional restraint the private right must yield to the public need.\nThe Fifth Amendment, in the field of federal activity, and the Fourteenth, as respects state action, do not prohibit governmental regulation for the public welfare. They merely condition the exertion of the admitted power, by securing that the end shall be accomplished by methods consistent with due process. And the guaranty of due process, as has often been held, demands only that the law shall not be unreasonable, arbitrary or capricious, and that the means selected shall have a real and substantial relation to the object sought to be attained. It results that a regulation valid for one sort of business, or in given circumstances, may be invalid-tor another sort, or for the same business under other circumstances, because the reasonableness of each regulation depends upon the relevant facts.\nThe reports of our decisions abound with cases in which the citizen, individual or corporate, has vainly invoked the Fourteenth Amendment in resistance to necessary and appropriate exertion of the police power.\nThe court has repeatedly sustained curtailment of enjoyment of private property, in the public interest. The owner\u2019s rights may.be subordinated to the needs of other private owners whose pursuits are vital to the paramount interests of the community. The state may control the use of property in various ways; may prohibit advertising bill boards except of a prescribed size and location, or their use for certain kinds of advertising; may in certain circumstances authorize encroachments by party walls in cities; may fix the height of buildings, the character of materials, and methods of construction, the adjoining area which must be left open, and may exclude from residential sections offensive trades, industries and structures likely injuriously to affect the public health or safety; or may establish zones within which certain types of buildings or businesses are permitted and others excluded. And although the Fourteenth Amendment extends protec-' tion to aliens as well as citizens, a state may for adequate reasons of policy exclude aliens altogether from the use and occupancy of land.\nLaws passed for the suppression of immorality, in the interest of health, to secure fair trade practices, and to safeguard the interests of depositors in banks, have been found consistent with due process. These measures not only affected the use of private property, but also interfered with the right of private contract. Other instances are numerous where valid regulation has restricted the right of contract, while less directly affecting property rights.'\nThe Constitution does not guarantee the unrestricted privilege to engage in a business or to conduct it as one pleases. Certain kinds of business may be prohibited; and the right to conduct a business, or to pursue a calling, may be conditioned. Regulation of a business to prevent waste of the state\u2019s resources may be justified. And statutes prescribing the terms upon which those conducting certain businesses may contract, or imposing terms if they do enter into agreements, are within the state\u2019s competency.\nLegislation concerning sales of goods, and incidentally affecting prices, has repeatedly been held valid. In this class fall laws forbidding unfair competition by the charging of lower prices in one locality than those exacted in another, by giving trade inducements to purchasers, and by other forms of price discrimination. The public policy with respect to free competition has engendered state apd federal statutes prohibiting monopolies, which have been upheld. On the other hand, where the policy of the state dictated that a monopoly should be granted, statutes having that effect have been held inoffensive to the constitutional guarantees. Moreover, the state or a municipality may itself enter into business in competition with private proprietors, and thus effectively although indirectly control the prices charged by them.\nThe milk industry in New York has been the subject of long-standing and drastic regulation in the public interest. The legislative investigation of 1932 was persuasive of the fact that for this and other reasons unrestricted competition aggravated existing evils, and the normal law of supply and demand was insufficient to correct maladjustments detrimental to the community. The inquiry disclosed destructive and demoralizing competitive conditions and unfair trade practices which resulted in retail price-cutting and reduced the income of the farmer below the cost of production. We do not understand the appellant to deny that in these circumstances the legislature might reasonably consider further regulation and control desirable for protection of the industry and the consuming public. That body believed conditions could be improved by preventing destructive price-cutting by stores which, due to the flood of surplus milk, were able to buy at much lower prices than the larger distributors and to sell without incurring the delivery costs of the latter. In the order of which complaint is made the Milk Control Board fixed a price of ten cents per quart for sales by a distributor to a consumer, and nine cents by a store to a consumer, thus recognizing the lower costs of the store, and endeavoring to establish a differential which would be just to both. In the light of the facts the order appears not to be unreasonable or arbitrary, or without relation' to the purpose to prevent ruthless competition from destroying the wholesale price structure on which the farmer depends for his livelihood, and the community for an assured supply of milk.\nBut we are told that because the law essays to control prices it denies due process. Notwithstanding the admitted power to correct existing economic ills by appropriate regulation of business, even though an indirect result may be a restriction' of the freedom of contract or a modification of charges for services or the price of commodities, the appellant urges that direct fixation of prices is a type of regulation absolutely forbidden. His position is that the Fourteenth Amendment requires us to hold the challenged statute void for this reason alone. The argument runs that the public control of rates or prices is per se unreasonable and unconstitutional, save as applied to businesses affected with a public interest; that a business so affected is one in which property is devoted to an enterprise of a sort which the public itself might appropriately undertake, or one whose owner relies on a public grant or franchise for the right to conduct the business, or in which he is bound to serve all who apply; in short, such as is commonly called a public utility; or a business in its nature a monopoly. The milk industry, it is said, possesses none of these characteristics, and, therefore, not being affected with a public interest, its charges may not be controlled by the state. Upon the soundness of this contention the appellant\u2019s ease against the statute depends.\nWe may as well say at once that the dairy industry is not, in the accepted sense of the phrase, a public utility. We think the appellant is also right in asserting that there is in this case no suggestion of any monopoly or monopolistic practice. It goes without saying that those engaged in the business are in no way dependent, upon public grants or franchises for the privilege of conducting their activities. But if, as must be conceded, the industry is subject to regulation in the public interest, what constitutional principle bars the state from correcting existing maladjustments by legislation touching prices? We think there is no such principle.- The due process clause makes no mention of sales or of prices any more than it speaks of business or contracts or buildings or other incidents of property. The thought, seems nevertheless to have persisted that there is something peculiarly sacrosanct about the price one may charge for what he makes or sells, and that, however able to regulate other elements of manufacture or trade, with incidental \u2022 effect upon price, the state is incapable of directly controlling the price itself. This \u25a0 view was negatived many years ago. Munn v. Illinois, 94 U.S. 113. The appellant\u2019s claim is, however, that this court, in th\u00e9re sustaining a statutory prescription of charges for storage by the proprietors of a grain elevator, limited permissible legislation of that type to businesses affected with a public interest, and he says no business is so affected except it have one or more of the characteristics he enumerates. But this is a misconception. Munn and Scott held no franchise from the state. They -owned the property upon which their elevator was situated and conducted their business as private citizens. No doubt they felt at liberty to deal with whom they pleased and on. such terms as they might deem just to themselves. Their enterprise could not fairly be called a monopoly, although it was referred to in the decision as a \u201cvirtual monopoly.\u201d This meant only that their elevator was strategically situated and that a large portion of the public found it highly inconvenient to deal with others. This court concluded the circumstances justified the legislation as an exercise of the governmental right to control the business in the public interest; that is, as an exercise of the police power. It is true that the court cited a statement from Lord Hale\u2019s De Portibus Maris, to the effect that when private property is \u201c affected with a public interest, it ceases to be juris privati only \u201d; but the court proceeded at once to define what it understood by the expression, saying: \u201cProperty does become clothed with a public interest when used in a manner to make it of public consequence, and affect the community at large \u201d (p. 126). Thus understood, \u201c affected with a public interest \u201d is the equivalent of \u201c subject to the exercise of the police power \u201d; and it is plain that nothing more was intended by the expression. The court had been at pains to define that power (pp. 124, 125) ending its discussion in these words:\n\u201c From this it is apparent that, down to the time of the adoption of the Fourteenth Amendment, it was not supposed that statutes regulating the use, or even the price of the use, of private property necessarily deprived an owner of his property without due process of law. Under some circumstances they may, but not under all. The amendment does not change the law in this particular: it simply prevents the States from doing that which will operate as such a deprivation.\u201d\nIn the further discussion of the principle it is said that when one devotes his property to a use, \u201c in which the public has an interest,\u201d he in effect \u201c grants to the public an interest in that use \u201d and must submit to be controlled for the common good. The conclusion is that if Munn and Scott wished to avoid having their business regulated they should not have embarked their property in an industry which is subject to regulation in the public interest.\nThe true interpretation of the court\u2019s language is claimed to be that only property voluntarily devoted to' a known public use is subject to regulation as to rates. But obviously Munn and Scott had not voluntarily dedicated their business to a public use. They intended only to conduct it as private- citizens, and they insisted that \u2022.they had done nothing which gave the public an interest in their transactions or conferred any right of regulation. The statement that one has dedicated his property to a public use is, therefore, merely another way of saying that if one embarks in a business which public interest demands shall be regulated, he must know regulation will ensue.\nIn the same volume the court sustained regulation of railroad rates. After referring to the fact that railroads are carriers for hire, are incorporated as such, and given extraordinary powers in order that they may better serve the public, it was said that they are engaged in employment \u25a0\u201c affecting the public interest,\u201d and therefore, under the doctrine of the Munn case, subject to- legislative control as to rates. And in another of the group of railroad cases then heard it was said that the property of railroads is \u201c clothed with a public interest \u201d which permits legislative limitation of the charges for its use. Plainly the activities of railroads, their charges and practices, so nearly touch the vital economic interests of society that the police power may be invoked to regulate their charges, and no additional formula of affection or clothing with a public interest is needed to justify the regulation. And this is evidently true of all business units supplying transportation, light, heat, power and water to communities, irrespective of how they obtain their powers.\nThe touchstone of public interest in any business, its practices and charges, clearly is not the enjoyment of any franchise from the state, Munn v. Illinois, supra. Nor is it the enjoyment of a monopoly; for in Brass v. North Dakota, 153 U.S. 391, a similar control of prices of grain elevators was upheld in spite of overwhelming and uncontradicted proof that about six hundred grain elevators existed along the line of the Great Northern Railroad, in North Dakota; that at the very station where the defendant\u2019s elevator was located two others operated; and that the business was keenly competitive throughout the state.\nIn German Alliance Insurance Co. v. Lewis, 233 U.S. 389, a statute fixing the amount of premiums for fire insurance was held not to deny due process. Though the business of the insurers depended on no franchise or grant from the state, and there was no threat of monopoly, two factors rendered the regulation reasonable. These were the almost universal need' of insurance protection and the fact that while the insurers competed for the business, they all fixed their premiums for similar risks according to an agreed schedule of rates. The court was at pains to point out that it was impossible to lay down any sweeping and general classification of businesses as to which price-regulation could be adjudged arbitrary or the reverse.\nMany other decisions show that the private character of a business does not necessarily remove it from the realm of regulation of charges or prices. The usury laws fix the price which may be exacted for the use of money, although no business more essentially private in character can be imagined than that of loaning one\u2019s personal funds. Griffith v. Connecticut, 218 U.S. 563. Insurance agents\u2019 compensation may be regulated, though their contracts are private, because the business of insurance is considered one properly subject to public control. O\u2019Gorman & Young v. Hartford Fire Ins. Co., 282 U.S. 251. Statutes prescribing in the public interest the amounts to be charged by attorneys for prosecuting certain claims, a matter ordinarily one of personal and private nature, are not a deprivation of due process. Frisbie v. United States, 157 U.S. 160; Capital Trust Co. v. Calhoun, 250 U.S. 208; Calhoun v. Massie, 253 U.S. 170; Newman v. Moyers, 253 U.S. 182; Yeiser v. Dysart, 267 U.S. 540; Margolin v. United States, 269 U.S. 93. A stockyards corporation, \u201cwhile not a common carrier, nor engaged in any distinctively public employment, is doing a work in which the public has an interest,\u201d and its charges may be controlled. Cotting v. Kansas City Stockyards Co., 183 U.S. 79, 85. Private contract carriers, who do not operate under a franchise, and have no monopoly of the carriage of goods or passengers, may, since they use the highways to compete with railroads, be compelled to charge rates not lower than those of public carriers for corresponding services, if the state, in pursuance of a public policy to protect the latter, so determines. Stephenson v. Binford, 287 U.S. 251, 274.\nIt is clear that there is no closed class or category of businesses affected with a public interest, and the function of courts in the application of the Fifth and Fourteenth Amendments is to determine in each case whether circumstances vindicate the challenged regulation as a reasonable exertion of governmental authority or condemn it as arbitrary or discriminatory. Wolff Packing Co. v. Industrial Court, 262 U.S. 522, 535. The phrase \u201c affected with a public interest \u201d can, in the nature of things, mean no more than that an industry, for adequate reason, is subject to control for the public good. In several of the decisions of this court wherein the expressions \u201c affected with a public interest,\u201d and \u201c clothed with a public use,\u201d have been brought forward as the criteria of the validity of price control, it has been admitted that they are not susceptible of definition and form an unsatisfactory test of the constitutionality of legislation directed at business practices or prices. These decisions must rest, finally, upon the basis that the requirements of due process were not met because the laws were found arbitrary in their operation and effect. But there can be no doubt that upon proper occasion and by appropriate measures the state may regulate a business in any of its aspects, including the prices to be charged for the products or commodities it sells.\nSo far as the requirement of due process is concerned, and in the absence of other constitutional restriction, a state is free to adopt whatever economic policy may reasonably be deemed to promote public welfare, and to enforce that policy by legislation adapted to its purpose. The courts are without authority either to declare such policy, or, when it is declared by the legislature, to override it. If the laws passed are seen to have a reasonable relation to a proper legislative purpose, and are neither arbitrary nor discriminatory, the requirements of due process are satisfied, and judicial determination to that effect renders a court functus officio.. \u201c Whether the free operation of the normal laws of competition is a wise and wholesome rule for trade and commerce is an economic question which this court need riot consider or determine.\u201d Northern Securities Co. v. United States, 193 U.S. 197, 337-8. And it is equally clear that if the legislative policy be to curb unrestrained and harmful competition by measures which are not arbitrary or discriminatory it does not lie with the courts to determine that the rule is unwise. With the wisdom of the policy adopted, with the adequacy or practicability of the law enacted to forward it, the courts are both incompetent and unauthorized to deal. The course of decision in this court exhibits a firm adherence to these principles. Times without number we have said that the legislature is primarily the judge of the necessity of such an enactment, that every possible presumption is in favor of its validity, and that though the court may hold views inconsistent with the wisdom of the law, it may not be annulled unless palpably in excess of legislative power.\nThe law-making bodies have in the past endeavored to promote free competition by laws aimed at trusts and monopolies. The consequent interference with private property and freedom of contract has not availed with the courts to set these enactments aside as denying due process. Where the public interest was deemed to require the fixing of minimum prices, that expedient has been sustained. If the law-making body within its sphere of government concludes that the conditions or practices in an industry make unrestricted competition an inadequate safeguard of the consumer\u2019s interests, produce waste harmful to the public, threaten ultimately to cut off the supply of a commodity needed by the public, or portend the destruction of the industry itself, appropriate statutes passed in an honest effort to correct the threatened consequences may not be set aside because the regulation adopted fixes prices reasonably deemed by the legislature to be fair to those engaged in the industry and to the consuming public. And this is especially so where, as here, the economic maladjustment is one of price, which threatens harm to the producer at one end of the series and the consumer at the other. The Constitution does not secure to anyone liberty to conduct his business in such fashion as to inflict injury upon the public at large, or upon any substantial group of the people. Price control, like any other form of regulation, is unconstitutional only if arbitrary, discriminatory, or demonstrably irrelevant to the policy the legislature is free to adopt, and hence an unnecessary and unwarranted interference with individual liberty.\nTested by these considerations we find no basis in the due process clause of the Fourteenth Amendment for condemning the provisions of the Agriculture and Markets Law here drawn into question.\nThe judgment is\nAffirmed.\nSeparate opinion of\nMe. Justice McReynolds.\n. By an act effective April 10,1933 (Laws, 1933, Ch. 158), when production of milk greatly exceeded the demand, the Legislature created a Control Board with power to \u201c regulate the entire milk industry of New York state, including the production, transportation, manufacture, storage, distribution, delivery and sale. . . .\u201d The \u201cboard may adopt and enforce all rules and all orders necessary to carry out the provisions of this article ... A rule of the board when duly posted and filed as provided in this section shall have the force and effect of law. ... A violation of any provision of this article or of any rule or order of the board lawfully made, except as otherwise expressly provided by this article, shall be a misdemeanor. . . .\u201d After considering \u201c all conditions affecting the milk industry including the amount necessary to yield a reasonable return to the producer and to the milk dealer . . .\u201d the board \u201c shall fix by official order the minimum wholesale and retail prices and may fix by official order the maximum wholesale and retail prices to be charged for milk handled' within the state.\u201d\nApril 17, this Board prescribed nine cents per quart as the minimum at which \u201c a store \u201d might sell. April 19, appellant Nebbia, a small store-keeper in Rochester, sold two bottle's at a less price. An information charged that by so doing he committed a misdemeanor. A motion to dismiss, which challenged the validity of both statute and order, being overruled, the trial proceeded under a plea of not guilty. The Board\u2019s order and statements by two witnesses tending to show the alleged sale constituted the entire evidence. Notwithstanding the claim, that under the XIV\" Amendment the State lacked power to prescribe prices at whieh he might sell pure milk, lawfully held, he was adjudged guilty and ordered to pay a fine.\nThe Court of Appeals affirmed the conviction. Among other things, it said, pp. 264 et seg.:\u2014\nThe sale by Nebbia was a violation of the statute \u201c inasmuch as the Milk Control Board had fixed a minimum price for milk at nine cents per quart.\u201d\n\u201c The appellant not unfairly summarizes this law by saying that it first declares that milk has been selling too cheaply in the State of New York and has thus created a temporary emergency; this emergency is remedied by making the sale of milk at a low price a crime; the question of what is a low price is determined by the majority vote of three officials. As an aid in enforcing the rate regulation, the milk industry in the State of New York is made a business affecting the public health and interest until March 31, 1934, and the Board can exclude from the milk business any violator of the statute or the Board\u2019s orders.\u201d\nIn fixing sale prices the Board \u201cmust take into consideration the amount necessary to yield a \u2018 reasonable return \u2019 to the producer and the milk dealer. . . . The fixing of minimum prices is one of the main features of the act. The question is whether the act, so far as it provides for fixing minimum prices for milk, is unconstitutional ... in that it interferes with the right of the milk dealer to carry on his business in such manner as suits his convenience without state interference as to the price at which he shall sell his milk. The power thus to regulate private business can be invoked only under special circumstances. It may be so invoked when the Legislature is dealing with a paramount industry upon which the prosperity of the entire State in large measure depends. It may not be invoked when we are dealing with an ordinary business, essentially private in its nature. This is the vital distinction pointed.out in New State Ice Co. v. Liebmann (285 U.S. 262, 277). . . .\n\u201c The question is as to whether the business justifies the particular restriction, or whether the nature of the business is such that any competent person may, conformably to reasonable regulation, engage therein. The production of milk is, on account of its great importance as human food, a chief industry of the State of New York. . . . It is of such paramount importance as to justify the assertion that the general welfare and prosperity of the State in a very large and real sense depend upon it. . . . The State seeks to protect the producer by fixing a minimum price for his milk to keep open the stream of milk flowing from the farm to the city and to guard the farmer from substantial loss. . . . Price is regulated to protect. the farmer from the exactions of purchasers against which he cannot protect himself. . . .\n\u201c Concededly the Legislature cannot decide the question of emergency and regulation, free from judicial review, but this court should consider only the legitimacy of the conclusions drawn from the facts found.\n\u201cWe are accustomed to rate regulation in cases of public utilities and other analogous cases and to the extension of such regulative power into similar fields. . . . This case, for example, may be distinguished from the Oklahoma ice case (New State Ice Co. v. Liebmann, 285 U.S. 262, 277), holding that the business of manufacturing and selling ice cannot be made a public business, to which it bears a general resemblance. The New York law creates no monopoly; does not restrict production; was adopted to meet an emergency; milk is a greater family necessity than ice. . . . Mechanical concepts of jurisprudence make easy a decision on the strength of seeming authority. ...\n\u201c Doubtless the statute before us would be condemned by an earlier generation as a temerarious interference with the rights of property and contract . . .; with the natural law of supply and demand. But we must not fail to consider that the police power is the least limitable \u25a0of the powers of government and that it extends to all the great public needs; . . . that statutes . . . aiming to stimulate the production of a vital food product by fixing living standards of prices for the producer, are to be interpreted with that degree of liberality which is essential to the attainment of the end in view; . . .\n\u201c With full respect for the Constitution as an efficient frame of government in peace and war, under normal conditions or in emergencies; with cheerful submission to the rule of the Supreme Court that legislative authority to bridge property rights and freedom of contract can be justified only by exceptional circumstances and, even then, by reasonable regulation only, and that legislative conclusions based on findings of fact are subject to judicial review, we do not feel compelled to hold that the \u2018 due process \u2019 clause of the Constitution has left milk producers unprotected from oppression and to place the stamp of invalidity on the measure before us.\n\u201c With the wisdom of the legislation we have naught to do. It may be vain to hope by laws to oppose the general course of trade. ...\n\u201cWe are unable to say that the Legislature is lacking In power, not only to regulate and encourage the production of milk, but also, when conditions require, to regulate the prices to be paid for it, so that a fair return may be obtained by the producer and a vital industry preserved from destruction. . . . The policy of non-interference with individual freedom must at times give way to the policy of compulsion for the general welfare.\u201d\nOur question is whether the Control Act, as applied to appellant through the order of the Board, number five, deprives him of rights guaranteed by the XIY Amendment. He was convicted of a crime for selling his own property \u2014 wholesome milk \u2014 in the ordinary course of business at a price satisfactory to himself and the customer. We are not immediately concerned with any other provision of the act or later orders. Prices at which the producer may sell were not prescribed \u2014 he may accept any price \u2014 nor was production in any. way limited. \u201c To stimulate the production of a vital food product \u201d was not the purpose of the statute. There was an oversupply of an excellent article. The affirmation is \u201c that milk has been selling too cheaply . . . and has thus created a temporary emergency; this emergency is remedied by making the sale of milk at a low, price a crime.\u201d\nThe opinion below points out that the statute expires March 31, 1934, \u201c and is avowedly a mere temporary measure to meet an existing emergency\u201d; but the basis of the decision is not explicit. There was no definite finding of an emergency by the court upon consideration of established facts and no pronouncement that conditions were accurately reported by a legislative committee. Was the legislation upheld because only temporary and for an emergency; or was it sustained upon the view that the milk business bears a peculiar relation to the public, is .affected with a public interest, and, therefore, sales prices \u2022may be prescribed irrespective of exceptional circumstances? We are left in uncertainty. The two notions are distinct if not conflicting. Widely different results may follow adherence to one or the other.\nThe theory that legislative action which ordinarily would be ineffective because of conflict with the Constitution may become potent if intended to meet peculiar conditions and properly limited, was lucidly discussed and its weakness disclosed by the dissenting opinion in Home Building & Loan Assn. v. Blaisdell, 290 U.S. 398. Sixty years ago, in Milligan\u2019s case; this Court declared it inimical to Constitutional government and did \u201c write the vision and make it plain upon tables that he may run that readeth it.\u201d\nMilligan, charged with offenses against the United States committed during 1863 and 1864, was tried, convicted and sentenced to be hanged, by a military commission- proceeding under an Act of Congress passed in 1862. The crisis then existing was urged in justification of its action. But this Court held the right of trial by jury did not yield to emergency; and directed his release. \u201c Those great and good men [who drafted the Constitution] foresaw that troublous times would arise, when rulers and people would become restive under restraint, and seek by sharp and decisive measures to accomplish ends deemed just and proper;\"and that the principles of constitutional liberty would be in peril, unless established by irrepealable law. . . . The Constitution of the United States is a law for rulers and people, equally in war and in peace, and covers with the shield of its protection all classes of men, at all times, and under all circumstances. No doctrine, involving more pernicious consequences, was ever invented by the wit of man than that any of its provisions can be suspended during any of the great exigencies of government. Such a doctrine leads directly to anarchy or despotism.\u201d Ex parte Milligan (1866), 4 Wall. 2, 120.\nThe XIV Amendment wholly disempowered the several States to \u201cdeprive any person of life, liberty, or property, without due process of law.\u201d The- assurance of each of these things is the same. If now liberty or- property may be struck down because of difficult circumstances, we must expect that .hereafter every right must yield to the voice of an impatient majority when stirred by distressful exigency. Amid the turmoil of civil war Milligan was sentenced: happily this Court intervened. Constitutional guaranties are not to be \u201cthrust to and fro and carried about with every wind of doctrine.\u201d They were Intended to be immutable so long as within our charter. Rights shielded yesterday should remain indefeasible today and tomorrow. Certain fundamentals have been set beyond experimentation; the Constitution has released them from control by the State. Again and again this Court has so declared.\nAdams v. Tanner, 244 U.S. 590, condemned a Washington initiative measure which undertook to destroy the business of private employment agencies because it unduly restricted individual liberty. We there said \u2014 \u201c The fundamental guaranties of the Constitution cannot be freely submerged if and whenever some ostensible justification is advanced and the police power invoked.\u201d\nBuchanan v. Warley, 245 U.S. 60, held ineffective an ordinance which forbade negroes to reside in a city block where most of the houses were occupied by whites. \u201c It is equally well established that the police power, broad as it is, cannot justify the passage of a law or ordinance which runs counter to the limitations of the Federal Constitution; that principle has been so frequently affirmed in this court that we need not stop to cite the cases.\u201d Southern Ry. Co. v. Virginia, 290 U.S. 190, 196 \u2014 \u201c The claim that the questioned statute was enacted under the police power of the State and, therefore, is not subject to the standards applicable to legislation under other powers, conflicts with the firmly established rule that every State power is limited by the inhibitions of the XIY Amendment.\u201d\nAdkins v. Children\u2019s Hospital, 261 U.S. 525, 545.\u2014 \u201c That the right to contract about one\u2019s affairs is a part of the liberty of the individual protected by this clause [Fifth Amendment], is settled by the decisions of this Court and is no longer open to question.\u201d\nMeyer v. Nebraska, 262 U.S. 390, 399, held invalid a State enactment (1919), which forbade the teaching in schools of any language other than English. \u201c While this Court has not attempted to define with exactness the liberty thus guaranteed, the term has received much consideration and some of the included things have been definitely stated. Without doubt, it denotes not merely freedom from bodily restraint but also the right of the individual to contract,, to engage in any of the common occupations of life, to acquire useful knowledge, to marry, establish a home and bring up children, to worship God \u25a0 according to the dictates of his own conscience, and generally to enjoy those privileges long recognized at common law as essential to the orderly pursuit of happiness 'by free men.\u201d\nSchlesinger v. Wisconsin, 270 U.S. 230, 240. \u201c The State is forbidden to deny due process of law or the equal protection of the laws for any purpose whatsoever.\u201d\nNear v. Minnesota, 283 U.S. 697, overthrew a Minnesota statute designed to protect the public against obvious evils incident to the business of regularly publishing malicious, scandalous and defamatory matters, because of conflict with the XIY Amendment..\nIn the following, among many other cases, much consideration has been given to this subject. United States v. Cohen Grocery Co., 255 U.S. 81, 88; Wolff Co. v. Industrial Court, 262 U.S. 522 and 267 U.S. 552; Pierce v. Society of Sisters, 268 U.S. 510; Tyson & Bro. v. Banton, 273 U.S. 418; Fairmont Creamery Co. v. Minnesota, 274 U.S. 1; Ribnik v. McBride, 277 U.S. 350; Williams v. Standard Oil Co., 278 U.S. 235; Sterling v. Constantin, 287 U.S. 378. All stand in opposition to the yiews apparently approved below. \u2022\nIf validity of the enactment depends upon emergency, then to sustain this conviction we must be able to affirm that an adequate one has been shown by competent evidence of essential facts. The asserted right is federal. Such rights may demand and often have received affirmation and protection here. They do not vanish simply because the power of the State is arrayed against them. Nor are they enjoyed in subjection to mere legislative findings.\nIf she relied upon the existence of emergency, the burden was upon the State to establish it by competent evidence. None was presented at the trial. If necessary for appellant to show absence of the asserted conditions, the little grocer was helpless from the beginning \u2014 the practical difficulties were too great for the average man.\nWhat circumstances give force to an \u201c emergency \u201d statute?. In how much of the State must they obtain? Everywhere, or will a single county suffice? How many farmers must have been impoverished or threatened violence to create a crisis of sufficient gravity? - If three days after this act became effective another \u201c very grievous murrain \u201d had descended and half of the cattle had died, would the emergency then have ended, also the prescribed rates? If prices for agricultural products become high can consumers claim a crisis exists and demand that the Legislature fix less ones? Or are producers alone to be considered, consumers neglected? To these questions we have no answers. When emergency gives potency, its subsidence must disempower; but no test for its presence or absence has been offered. How \u25a0 is an accused to know when some new rule of conduct arrived, when it will disappear?\nIt is argued that the report of the Legislative Committee, dated April 10th, 1933, disclosed the essential facts. May one be conyicted of crime upon such findings? . Are federal rights subject to extinction by reports of committees?' Heretofore, they have not been.\nApparently the Legislature acted upon this report. Some excerpts from it follow. We have no basis for determining whether the findings of the committee or legislature are correct or otherwise. The court below refrained from expressing any opinion in that regard, notwithstanding its declaration \u201c that legislative authority to abridge property rights and freedom of contract can be justified only by exceptional circumstances and, even then, by reasonable regulation only, and that legislative conclusions based on findings of fact are subject to judicial review.\u201d On the other hand it asserted \u2014 \u201c This court should consider only the legitimacy of the conclusions drawn from the facts found.\u201d\nIn New York there are twelve million possible consumers of milk; 130,000 farms produce it. The average daily output approximates 9,500,000 quarts. For ten or fifteen years prior to 1929 or 1930 the per capita consumption steadily increased; so did the supply. \u201cRealizing the marked improvement in milk quality, the public has tended to increase its consumption of this commodity.\u201d \u201c In the past two years the per capita consumption has fallen off, [possibly] 10 per cent.\u201d . \u201c These marked changes in the trend of consumption of fluid milk and cream have occurred in spite of drastic reductions in retail prices. The obvious cause is the reduced buying power of consumers.\u201d \u201c These cycles of overproduction and underproduction which average about 15 years in length, are explained by the human tendency to raise too many heifers when prices of cows are high and too few. when prices of cows are low. A period of favorable prices for milk leads to the raising of more than the usual number of heifers, but it is not until seven or eight years later that the trend is reversed as a result of the falling prices of milk and cows.\u201d \u201c Farmers all over the world raise too many heifers whenever cows pay and raise too few heifers when cows do not pay.\u201d \u25a0\n\u201cDuring the years 1925 to 1930 inclusive, the prices which the farmers of the state received for milk were favorable as compared with the wholesale prices of all commodities. They were even more favorable as compared with the prices received for other farm products, for not only in New York but throughout the United States the general level of prices of farm products has been below that of other prices since the World War.\u201d\n\u201cThe comparatively favorable situation enjoyed by the milk producers had an abrupt ending in 1932. Even before that, in 1930 and 1931, milk prices dropped very rapidly.\u201d \u201c The prices which farmers received for milk during 1932 were much below the costs of production. After other costs were paid the producers had practically nothing left for their labor. The price received for milk in January, 1933, was little more than half the cost of production.\u201d \u2022\n\u201c Since 1927 the number of dairy cows in the state has increased about 10 per cent. The effect of this has been to increase the surplus of milk.\u201d \u201c Similar increases in the number of cows have occurred generally in the United States and are due to the periodic changes in number of heifer calves raised on the farms. Previous experience indicates that unless some form of arbitrary regulation is applied, the production of milk will not be satisfactorily adjusted to the demand for a period of several years.\u201d \u201c Close adjustment of the supply of fluid milk to the demand is further hindered by the periodic changes in the number of heifers raised for dairy cows.\u201d\n\u201c The purpose of this emergency measure is to bring partial relief to dairymen from the disastrously low prices, for milk which have- prevailed in recent months. It is recognized that the dairy industry of the state cannot be placed upon a profitable basis without a decided rise in the general level of commodity prices.\u201d\nThus we are told the number of dairy cows had been increasing and that favorable prices for milk bring more cows. For two years notwithstanding low prices the per capita consumption had been falling. \u201c The obvious cause is the reduced buying power of consumers.\u201d Notwithstanding the low prices, farmers continued to produce a large surplus of wholesome milk for which there was no market. They had yielded to \u201c the human tendency to raise too many heifers \u201d when prices were high and \u201c not until seven or eight years \u201d after 1930 could one reasonably expect a reverse trend. This failure of demand had nothing to do with the quality of the milk \u2014 that was excellent. Consumers lacked funds with which to buy. In consequence the farmers became impoverished and their lands depreciated in value. Naturally they became discontented.\nThe exigency is of the kind which inevitably arises when one set of men continue to produce more than all others can buy. The distressing result to the producer followed his ill-advised but voluntary efforts. Similar situations occur in almost every business. If here we have an emergency sufficient to empower the Legislature to fix sales prices, then whenever there is too much or too little of an essential thing \u2014 whether of milk or grain or pork or coal or shoes or clothes \u2014 constitutional provisions may be declared inoperative and the \u201c anarchy and despotism \u201d prefigured in Milligan\u2019s case are at the door. The futility of such legislation in' the circumstances \u25a0 is pointed out below.\nBlock v. Hirsh, 256 U.S. 135 and Marcus Brown Holding Co. v. Feldman, 256 U.S. 170 are much relied on to support emergency legislation. They were civil proceedings; the first to recover a leased building in the District of Columbia; the second to gain possession of an apartment house in New York. The unusual conditions grew out of the World War. The questioned statutes made careful provision for protection of owners. These cases were analyzed and their inapplicability to circumstances like the ones before us was pointed out in Tyson & Bro. v. Banton, 273 U.S. 418. They involved peculiar facts and must be strictly limited. Pennsylvania Coal Co. v. Mahon, 260 U.S. 393, 416, said of them \u2014 \u201c The late decisions upon laws dealing with the congestion of Washington and New York, caused by the war, dealt with laws intended to meet a temporary emergency and providing for compensation determined to be reasonable by an impartial board. They went to the verge of the law but fell far short of the present act.\u201d\nIs the milk business so affected with public interest that the Legislature may prescribe prices for sales by stores? This Court has approved the contrary view; has emphatically declared that a State lacks power to fix prices in similar private businesses. United States v. Cohen Grocery Co., 255 U.S. 81; Adkins v. Children\u2019s Hospital, 261 U.S. 525; Wolff Packing Co. v. Industrial Court, 262 U.S. 522; Tyson & Bro. v. Banton, 273 U.S. 418; Fairmont Creamery Co. v. Minnesota, 274 U.S. 1; Ribnik v. McBride, 277 U.S. 350; Williams v. Standard Oil Co., 278 U.S. 235; New State Ice Co. v. Liebmann, 285 U.S. 262; Sterling v. Constantin, 287 U.S. 378, 396.\nWolff Packing Co. v. Industrial Court, 262 U.S. 522, 537. \u2014 Here the State\u2019s statute undertook to destroy the freedom to contract by parties engaged in so-called \u201c essential \u201d industries. This Court held that she had no such power. \u201c It has never been supposed, since the adoption'of the Constitution, that the business of the butcher, or the baker, the tailor, the woodchopper, the mining operator or the miner was clothed with such a' public interest that the price of his product or his wages could be fixed by State regulation. . . . An ordinary producer, manufacturer or shopkeeper may sell or not sell as he likes.\u201d On a second appeal, 267 U.S. 552, 569, the same doctrine was restated: \u2014 \u201c The system of compulsory arbitration which the Act establishes is intended to compel, and if sustained will compel, the owner and employees to continue the business on terms which are not of their making. It will constrain them not merely to respect the terms if they continue the business, but will constrain them to continue the business on those terms. True, the terms have some qualifications, but as shown in the prior decision the qualifications are rather illusory and do not subtract much from the duty imposed. Such a system infringes the liberty of contract and rights of property guaranteed by the due process of law clause of the Fourteenth Amendment; \u2018 The established doctrine is that this liberty may not be interfered with, under the guise of protecting the public interest, by. legislative action' which is arbitrary or without reasonable relation to some purpose within the competency of the State to effect.\u2019 \u201d\nFairmont Creamery Co. v. Minnesota, 274 U.S. 1, 9. \u2014 A statute commanded buyers of cream to adhere to uniform prices fixed by a single transaction. \u2014 \u201c May the State, in order to prevent some strong buyers of cream from doing things which may tend to monopoly, inhibit plaintiff in error from carrying on its business in the usual way heretofore regarded as both moral and beneficial to the public and not shown now to be accompanied by evil results as ordinary incidents? Former decisions here require a negative answer. We think the inhibition of the statute has no reasonable relation to the anticipated evil \u2014 high bidding by some with purpose to monopolize or destroy competition. Looking through form to substance, it clearly and unmistakably infringes private rights whose exercise does not ordinarily produce evil consequences, but the reverse.\u201d\nWilliams v. Standard Oil Co., 278 U.S. 235, 239. \u2014 The State of Tennessee was declared without power to prescribe prices at which gasoline might be sold. \u201c It is settled by recent decisions of this Court that a state legislature is without constitutional power to fix prices at which commodities may be sold, services rendered, or property used, unless the business or property involved is \u2018 affected with a public interest.\u2019 \u201d Considered affirmatively, \u201c it means that a business or property, in order to be affected with a public interest, must be such or be so employed as to justify the conclusion that it has been devoted to a public use and its use thereby in effect granted to the public. . . . Negatively, it does not mean that a business is affected with a public interest merely because it is large or because the public are warranted in having a feeling of concern in respect of its maintenance.\u201d\nNew State Ice Co. v. Liebmann, 285 U.S. 262, 277.\u2014 Here Oklahoma undertook the control of the business of manufacturing and selling ice. We denied the power so to do. \u201c It is a business as essentially private in its nature as the business of the grocer, the dairyman, the butcher, the baker, the shoemaker, or the tailor, . . . And this court has definitely said that the production or sale of food or clothing cannot be subjected to legislative regulation on the basis of a public use.\u201d\nRegulation to prevent recognized evils in business has long been upheld as permissible legislative action. But fixation of the price at which \u201c A,\u201d engaged in an ordinary business, may sell, in order to enable \u201c B,\u201d a producer, to improve his condition, has not been regarded as within legislative power. This is not regulation, but management, control, dictation \u2014 it amounts to the deprivation of the fundamental right which one has to' conduct his own affairs honestly and along customary lines. The argument advanced here would support general prescription of prices for farm products, groceries, shoes, clothing, all the necessities of modem civilization, as well as labor, when some legislature finds and declares such action advisable and for the public \u2022 good. This Court has declared that a State may not by legislative fiat convert a private business into a public utility. Michigan Comm\u2019n v. Duke, 266 U.S. 570, 577. Frost Trucking Co. v. Railroad Comm\u2019n, 271 U.S. 583, 592. Smith v. Cahoon, 283 U.S. 553, 563. And if it be now ruled that one dedicates his property to public use whenever he embarks on .an enterprise which the Legislature may think it desirable to bring under control, this is but to declare that rights guaranteed by the Constitution exist only so long as supposed public interest does not require their extinction. To adopt such a view, of course, would put an end to liberty under the Constitution.\nMunn v. Illinois (1877), 94 U.S. 113, has been much discussed in the opinions referred to above. And always the conclusion was that nothing there sustains the notion that the ordinary business of dealing in commodities is charged with a public interest and subject to legislative control. The contrary has been distinctly announced. To .undertake now to attribute a repudiated implication to that opinion is to affirm that it means what this Court has declared again and again was not intended. The painstaking effort there to point out that certain businesses like ferries, mills, &e. were subject to legislative control at common law and then to show that warehousing at Chicago occupied like relation to the public would have been pointless if \u201c affected with a public interest \u201d only means that the public has serious concern about the perpetuity and success of the undertaking. That is true of almost all ordinary business affairs. Nothing in the opinion lends support, directly or otherwise, to the notion that in times of peace a legislature may fix the price of ordinary commodities \u2014 grain, meat, milk, cotton, &c.\nOf the assailed statute the Court of Appeals says\u2014 \u201c It first declares that milk has been selling too cheaply in- the State of New York, and has thus created a temporary emergency; this emergency is remedied by making the sale of milk at a low price a crime; the question of what is a low price is determined by the majority vote of three officials.\u201d Also \u2014 \u201c With the wisdom of the legislation we have naught to do. It may be vain to hope by laws to oppose the general course of trade.\u201d Maybe, because of this conclusion, it said nothing concerning the possibility of obtaining increase of prices to producers\u2014 the thing definitely aimed at \u2014 through the means adopted.\nBut plainly, I think, this Court must have regard to the wisdom of the enactment. At least, we must inquire concerning its purpose and decide whether the means proposed have reasonable relation to something within legislative power \u2014 whether the end is legitimate, and the means appropriate. \u2019 If a statute to prevent conflagrations should require householders to pour oil on their roofs as a means of curbing the spread of fire when discovered in the neighborhood, we could hardly uphold it. Here, we find direct interference with guaranteed rights defended upon the ground that the purpose was to promote the public welfare by increasing milk prices at the farm. Unless we can affirm that the end proposed is proper and the means adopted have reasonable relation to it, this action is unjustifiable.\nThe court below has not definitely affirmed this necessary relation; it has not attempted to indicate how higher charges-at stores to impoverished customers when the output is excessive and sale prices by producers are unrestrained, can possibly increase receipts at the farm. The Legislative Committee pointed out as the obvious cause of decreased consumption, notwithstanding low prices, the consumers\u2019 reduced buying power. Higher store prices will not enlarge this power; nor will they decrease production. Low prices will bring less cows only after several years. The prime causes of the difficulties will remain. Nothing indicates early decreased output. Demand at low prices being wholly insufficient, the proposed plan is to raise and fix higher minimum prices at stores and thereby aid the producer whose output and prices remain unrestrained! It is not true as stated that \u201c the State seeks to protect the producer by fixing a minimum price for his milk.\u201d She carefully refrained from doing this; but did undertake to fix the price after-the milk had passed to other owners. Assuming that the views and facts reported by the Legislative Committee are correct, it appears tome wholly unreasonable to expect this legislation to accomplish the proposed end \u2014 increase of prices at the farm. We deal only with Order No. 5 as did the court below. It-is not merely unwise; it is arbitrary and unduly oppressive. Better prices may follow but it is beyond reason to expect them as the consequent of that order. The Legislative Committee reported \u2014 \u201c It is recognized that the dairy industry of the State cannot b'e placed upon a profitable basis without a decided rise in the general level of commodity prices.\u201d\nNot only does the statute interfere arbitrarily with the rights of the little grocer to conduct his business according to \u25a0 standards long accepted \u2014 complete destruction may follow; but it takes away the liberty of twelve mil-, lion consumers to buy a necessity of life in an open market. It imposes direct and arbitrary burdens upon those already seriously impoverished with the alleged immediate design of affording special benefits to others; To him with less than nine cents it says \u2014 You cannot procure a quart of milk from the grocer although he is anxious to accept what you can pay and the demands of your household are urgent! A superabundance; but no child can purchase from a willing storekeeper below the figure appointed by three men at headquarters! And this is true although the storekeeper himself may have bought from a willing producer at half that rate and must sell quickly or lose his stock through deterioration. The fanciful scheme is to protect the farmer against undue exactions by prescribing the price at which milk disposed of by him at will may be resold!\nThe statement by the court below that \u2014 \u201c Doubtless the statute before us would be condemned by an earlier generation as a temerarious interference with the rights of property and contract ... .; with the natural law of supply and demand,\u201d is obviously correct. But another, that \u201c statutes aiming to stimulate the production of a vital food product by fixing living standards of prices for the producer, are to be interpreted with that degree of liberality, which is essential to the attainment of the end in view,\u201d conflicts with views of Constitutional rights accepted since the beginning. An end although apparently desirable cannot justify inhibited means. Moreover the challenged act was not designed to stimulate production\u2014 there was too much milk for the demand and no prospect of less for several years; also \u201cstandards of prices\u201d at which the producer might sell were not prescribed. The Legislature cannot lawfully destroy guaranteed rights of one man with the prime purpose of \u00e9nriching another, even if for the moment, this may seem advantageous to the public. And the adoption of any \u201c concept of jurisprudence \u201d which permits facile disregard of the Constitution as long interpreted and respected will inevitably lead to its destruction. Then,' all rights will be subject to the caprice of the hour; government by stable laws will pass.\nThe somewhat misty suggestion below that condemnation of the challenged legislation would amount to holding \u201c that the due process clause has left milk producers unprotected from oppression,\u201d I assume, was not intended as a material contribution to the discussion upon the merits of the cause. Grave concern for embarrassed farmers is everywhere; but this should neither obscure the rights of others nor obstruct judicial appraisement of measures proposed for relief. The ultimate- welfare of the producer, like that of every other class, requires dominance of -the Constitution. And zealously to uphold this in all its parts is the highest duty intrusted to the courts.\nThe judgment of the court below should be reversed.\nMr. Justice Van Devanter, Mr. Justice Sutherland, and Mr. Justice Butler authorize me to say that they concur in this opinion.\nPeople v. Nebbia, 262 N.Y. 259; 186 N.E. 694.\nChapter 158 of the Laws of 1933 added a new Article (numbered 25) to the Agriculture and Markets Law. The reasons for the enactment are set forth in the first section (\u00a7 300). So far as material they are: that unhealthful, unfair, unjust, destructive, demoralizing and uneconomic trade practices exist in the production, sale and dis-. tribution of milk and milk products, whereby the dairy industry in the state and the constant supply of pure milk to inhabitants of the state are imperiled; these conditions are a menace to the public health, welfare and reasonable comfort; the production and distri-. bution of milk is a paramount industry upon which the prosperity of the state in a great measure depends; existing economic conditions have largely destroyed the purchasing power of milk producers for industrial products, have broken down the orderly production and marketing of milk, and have seriously impaired the agricultural assets supporting the credit structure of the state and its local governmental subdivisions. The danger to public health and welfare consequent upon these conditions is declared to be immediate and to require public supervision and control of the industry to enforce proper standards of production, sanitation and marketing.\nThe law then (\u00a7 301) defines the terms used; declaring, inter alia, that \u201c milk dealer \u201d means any person who purchases or handles milk within the state, for sale in the state, or sells milk within the state except when consumed on the premises where sold; and includes within the definition of \u201c store \u201d a grocery store. .\nBy \u00a7 302 a state Milk Control Board is established; and by \u00a7 303 general power is conferred upon that body to supervise and regulate the entire milk industry of the state, subject to existing provisions of the public health law, the public service law, the state sanitary code, and local health ordinances and regulations; to act as arbitrator or mediator in controversies arising between producers and dealers, or groups within those. classes, and to exercise certain special powers to which reference will be made.\nThe Board is authorized to promulgate orders and rules which are to have the force of law (\u00a7 304); to make investigations (\u00a7 305); to enter and inspect premises in which any branch of the industry is conducted, and examine the books, papers and records of any person concerned in the industry (\u00a7 306); to license all milk dealers and suspend or revoke licenses for specified causes, its action in these respects being subject to review by certiorari (\u00a7 308), and to require licensees to keep records (\u00a7 309) and to make reports (\u00a7 310).\nA violation of any provision of Article 25. or of any lawful order of .the Board is made a misdemeanor (\u00a7 307).\nBy \u00a7 312 it is enacted (a): \u201c The board shall ascertain by such investigations and proofs as the emergency permits, what prices for milk in the several localities and markets of the state, and under varying conditions, will best protect the milk industry in the state and insure a sufficient quantity of pure and,wholesome milk . . . and-be most in the public interest. The board shall take into consideration all conditions affecting the milk industry including the amount necessary to yield a reasonable return to the producer and to the milk dealer.\u201d (b) After such investigation the board shall by official order fix minimum and maximum wholesale and retail prices to be charged by milk dealer's to consumers, by milk dealers to stores for consumption on the premises or for resale to consumers, and by stores to consumers for consumption off the premises where sold. It is declared (c) that the intent of the law is that the benefit of any advance in price granted to dealers shall be passed on to the producer, and if the board, after due hearing, finds this has not been done, the dealer\u2019s license.may be revoked, and the dealer may be subjected to the penalties mentioned in the Act. The board may (d) after investigation fix the prices to be paid by dealers to producers for the various grades and classes of milk.\nSubsection (e), on which the prosecution in the present case is founded, is quoted in the text.\nAlterations may be made in existing orders after hearing of the interested parties (f) and orders made are subject to review on certiorari. The'board (\u00a7 319), is to continue\u2022 with all the powers and duties specified until March 31, 1934, at which date it is to be deemed abolished. The Act contains further provisions not material to the present controversy.\nLaws of 1862, Chap. 467.\nLaws of 1893, Chap. 338. Laws of 1909, Chap. 9; Consol. Laws, Chap. 1.\nLaws of 1927, Chap. 207; Cahill\u2019s Consolidated Laws of New York, 1930, Chap. 1.\nMany of these regulations have been unsuccessfully challenged on constitutional grounds. See People v. Cipperly, 101 N.Y. 634; 4 N.E. 107; People v. Hill, 44 Hun 472; People v. West, 106 N.Y. 293; 12 N.E. 610; People v. Kibler, 106 N.Y. 321; 12 N.E. 795; People v. Hills, 64 App. Div. 584; 72 N.Y.S. 340; People v. Bowen, 182 N.Y. 1; 74 N.E. 489; Lieberman v. Van de Carr, 199 U.S. 552; St. John v. New York, 201 U.S. 633; People v. Koster, 121 App. Div. 852; 106 N.Y.S. 793; People v. Abramson, 208 N.Y. 138; 101 N.E. 849; People v. Frudenberg, 209 N.Y. 218; 103 N.E. 166; People v. Beakes Dairy Co., 222 N.Y. 416; 119 N.E. 115; People v. Teuscher, 248 N.Y. 454; 162 N.E. 484; People v. Perretta, 253 N.Y. 305; 171 N.E. 72; People v. Ryan, 230 App. Div. 252 ; 243 N.Y.S. 644; Mintz v. Baldwin, 289 U.S. 346.\nSee Cahill\u2019s Consolidated Laws of New York, 1930, and Supplements to and including 1933: Chap. 21, \u00a7\u00a7 270-274; Chap. 41, \u00a7\u00a7 435, 438, 1740, 1764, 2350-2357; Chap. 46, \u00a7\u00a7 6-a, 20, 21.\nMunn v. Illinois, 94 U.S. 113, 124, 125; Orient Ins. Co. v. Daggs, 172 U.S. 557, 566; Northern Securities Co. v. United States, 193 U.S. 197, 351; and see the cases cited in notes 16-23, infra.\nAllgeyer v. Louisiana, 165 U.S. 578, 591; Atlantic Coast Line v. Riverside Mills, 219 U.S. 186, 202; Chicago, B. & Q. R. Co. v. McGuire, 219 U.S. 549; 567; Stephenson v. Binford, 287 U.S. 251, 274.\nGibbons v. Ogden, 9 Wheat. 1, 203.\nNew York v. Miln, 11 Pet. 102, 139.\nLicense Cases, 5 How. 504, 583.\nUnited States v. Dewitt, 9 Wall. 41; Gloucester Ferry Co. v. Pennsylvania, 114 U.S. 196, 215.\nAddyston Pipe & Steel Co. v. United States, 175 U.S. 211, 228-229.\nBarbier v. Connolly, 113 U.S. 27, 31; Chicago, B. & Q. R. Co. v. Drainage Comm\u2019rs, 200 U.S. 561, 592.\nClark v. Nash, 198 U.S. 361; Strickley v. Highland Boy Mining Co., 200 U.S. 527.\nCusack Co. v. Chicago, 242 U.S. 526; St. Louis Poster Advertising Co. v. St. Louis, 249 U.S. 269.\nPacker Corp. v. Utah, 285 U.S. 105.\nJackman v. Rosenbaum Co., 260 U.S. 22.\nFischer v. St. Louis, 194 U.S. 361; Welch v. Swasey, 214 U.S. 91; Hadacheck v. Sebastian, 239 U.S. 394; Reinman v. Little Rock, 237 U.S. 171.\nEuclid v. Ambler Realty Co., 272 U.S. 365; Zahn v. Board of Public Works, 274 U.S. 325; Gorieb v. Fox, 274 U.S. 603.\nYick Wo v. Hopkins, 118 U.S. 356, 369.\nTerrace v. Thompson, 263 U.S. 197; Webb v. O\u2019Brien, 263 U.S. 313.\nForbidding transmission of lottery tickets, Lottery Case, 188 U.S. 321; transportation of prize fight films, Weber v. Freed, 239 U.S. 325; the shipment of adulterated food, Hipolite Egg Co. v. United States, 220 U.S. 45; transportation of women for immoral purposes, Hoke v. United States, 227 U.S. 308; Caminetti v. United States, 242 U.S. 470; transportation of' intoxicating liquor, Clark Distilling Co. v. Western Maryland Ry. Co., 242 U.S. 311; requiring the public weighing of grain, Merchants Exchange v. Missouri, 248 U.S. 365; regulating the size and weight of loaves of bread, Schmidinger v. Chicago, 226 U.S. 578; Petersen Baking Co. v. Bryan, 290 U.S. 570; regulating the size and character of packages in which goods are sold, Armour & Co. v. North Dakota, 240 U.S. 510; regulating sales in bulk of a stock in trade, Lemieux v. Young, 211 U.S. 489; Kidd, Dater & Price Co. v. Musselman Grocer Co., 217 U.S. 461; sales of stocks and bonds, Hall v. Geiger-Jones Co., 242 U.S. 539; Merrick v. Halsey & Co., 242 U.S. 568; requiring fluid milk offered for sale to be tuberculin tested, Adams v. Milwaukee, 228 U.S. 572; regulating sales of grain by actual weight,' and abrogating exchange rules to the contrary, House v. Mayes, 219 U.S. 270; subjecting state banks to assessments for a state depositors\u2019 guarantee fund, Noble State Bank v. Haskell, 219 U.S. 104.\nPrescribing hours of labor in particular occupations, Holden v. Hardy, 169 U.S. 366; B. & O. R. Co. v. I.C.C., 221 U.S. 612; Bunting v. Oregon, 243 U.S. 426; prohibiting child labor, Sturges & Burn Co. v. Beauchamp, 231 U.S. 320; forbidding night work by women, Radice v. New York, 264 U.S. 292; reducing hours of labor for Women, Muller v. Oregon, 208 U.S. 412; Riley v. Massachusetts, 232 U.S. 671; Miller v. Wilson, 236 U.S. 373; fixing the time for payment of seamen\u2019s wages, Patterson v. Bark Eudora, 190 U.S. 169; Strathearn S.S. Co. v. Dillon, 252 U.S. 348; of wages of railroad employes, St. Louis, I. M. & St. P. Ry. Co. v. Paul, 173 U.S. 404; Erie R. Co. v. Williams, 233 U.S. 685; regulating the redemption of store orders issued for wages, Knoxville Iron Co. v. Harbison, 183 U.S. 13; Keokee Consolidated Coke Co. v. Taylor, 234 U.S. 224; regulating the assignment of wages, Mutual Loan Co. v. Martell, 222 U.S. 225; requiring payment for coal mined on a fixed basis other than that usually practiced, McLean v. Arkansas, 211 U.S. 539; Rail & River Coal Co. v. Yaple, 236 U.S. 338; establishing a system of compulsory workmen\u2019s compensation, New York Central R. Co. v. White, 243 U.S. 188; Mountain Timber Co. v. Washington, 243 U.S. 219.\nSales of stock or grain on margin, Booth v. Illinois, 184 U.S. 425; Brodnax v. Missouri, 219 U.S. 285; Otis v. Parker, 187 U.S. 606; the conduct of pool and billiard rooms by aliens, Clarke v. Deckebach, 274 U.S. 392; the conduct, of billiard and pool rooms by anyone, Murphy v. California, 225 U.S. 623; the sale of liquor, Mugler v. Kansas, 123 U.S. 623; the business of soliciting claims by one not an attorney, McCloskey v. Tobin, 252 U.S. 107; manufacture or sale of oleomargarine, Powell v. Pennsylvania, 127 U.S. 678; hawking and peddling of drugs or medicines, Baccus v. Louisiana, 232 U.S. 334; forbidding any other than a corporation to engage in the business of receiving deposits, Dillingham v. McLaughlin, 264 U.S. 370, or any other than corporations to do a banking business, Shallenberger v. First State Bank, 219 U.S. 114.\nPhysicians, Dent v. West Virginia, 129 U.S. 114; Watson v. Maryland, 218 U.S. 173; Crane v. Johnson, 242 U.S. 339; Hayman v. Galveston, 273 U.S. 414; dentists, Douglas v. Noble, 261 U.S. 165; Graves v. Minnesota, 272 U.S. 425; employment agencies, Brazee v. Michigan, 241 U.S. 340; public weighers of grain, Merchants Exchange v. Missouri, 248 U.S. 365; real estate brokers, Bratton v. Chandler, 260 U.S. 110; insurance agents, La Tourette v. McMaster, 248 U.S. 465; insurance companies, German Alliance Ins. Co. v. Lewis, 233 U.S. 389; the sale of cigarettes, Gundling v. Chicago, 177 U.S. 183; the sale of spectacles, Roschen v. Ward, 279 U.S. 337; private detectives, Lehon v. Atlanta, 242 U.S. 53; grain brokers, Chicago Board of Trade v. Olsen, 262 U.S. 1; business of renting automobiles to be used by the renter upon the public streets, Hodge Co. v. Cincinnati, 284 U.S. 335.\nChamplin Refining Co. v. Corporation Comm\u2019n, 286 U.S. 210. Compare Bandini Petroleum Co. v. Superior Court, 284 U.S. 8, 21-22.\nContracts of carriage, Atlantic Coast Line v. Riverside Mills, 219 U.S. 186; agreements substituting.relief or insurance payments for actions for negligence, Chicago, B. & Q. R. Co. v. McGuire, 219 U.S. 549; affecting contracts of insurance, Orient Ins. Co. v. Daggs, 172 U.S. 557; Whitfield v. Aetna Life Ins. Co., 205 U.S. 489; National Union Fire Ins. Co. v. Wanberg, 260 U.S. 71; Hardware Dealers Mut. F. I. Co. v. Glidden Co., 284 U.S. 151; contracts for sale of real estate, Selover, Bates & Co. v. Walsh, 226 U.S. 112; contracts for sale of farm machinery, Advance-Rumely Co. v. Jackson, 287 U.S. 283; bonds for performance of building contracts, Hartford Accident & Indemnity Co. v. Nelson Mfg. Co., 291 U.S. 352.\nCentral Lumber Co. v. South Dakota, 226 U.S. 157.\nRast v. Van Deman & Lewis Co., 240 U.S. 342.\nVan Camp & Sons Co. v. American Can Co., 278 U.S. 245.\nState statutes: Smiley v. Kansas, 196 U.S. 447; National Cotton Oil Co. v. Texas, 197 U.S. 115; Waters-Pierce Oil Co. v. Texas (No. 1), 212 U.S. 86; Hammond Packing Co. v. Arkansas, 212 U.S. 322; Grenada Lumber Co. v. Mississippi, 217 U.S. 433; International Harvester Co. v. Missouri, 234 U.S. 199.\nFederal statutes: United States v. Joint Traffic Assn., 171 U.S. 505, 559, 571-573; Addyston Pipe & Steel Co. v. United States, 175 U.S. 211, 228-9; Northern Securities Co. v. United States, 193 U.S. 197, 332; United Shoe Mach. Corp. v. United States, 258 U.S. 451, 462-464.\nSlaughter House Cases, 16 Wall. 36; Conway v. Taylor\u2019s Executor, 1 Black 603; Crowley v. Christensen, 137 U.S, 86,\nMadera Water Works v. Madera, 228 U.S. 454; Jones v. Portland, 245 U.S. 217; Green v. Frazier, 253 U.S. 233; Standard Oil Co. v. Lincoln, 275 U.S. 504.\nAs instances of Acts of Congress regulating private businesses consistently with the due process guarantee of the Fifth Amendment the court cites those fixing rates to be charged at private wharves, by. chimney-sweeps and hackneys, cartmen, wagoners and draymen in the District of Columbia (p. 125).\nChicago, B. & Q. R. Co. v. Iowa, 94 U.S. 155. It will be noted that the emphasis is here reversed, and the carrier is said to be in a business affecting the public, not that the business is somehow affected by an interest of the public.\nPeik v. C. & N. W. Ry. Co., 94 U.S. 164.\nSee Wolff Packing Co. v. Industrial Court, supra; Tyson & Bro. v. Banton, 273 U.S. 418; Ribnik v. McBride, 277 U.S. 350; Williams v. Standard Oil Co., 278 U.S. 235.\nSee McLean v. Arkansas, 211 U.S. 539, 547; Tanner v. Little, 240 U.S. 369, 385; Green v. Frazier, 253 U.S. 233, 240; O\u2019Gorman & Young v. Hartford Fire Ins. Co., 282 U.S. 251, 257-8; Gant v. Oklahoma City, 289 U.S. 98, 102.\nSee note 32, supra.\nPublic Service Comm\u2019n v. Great Northern Utilities Co., 289 U.S. 130; Stephenson v. Binford, supra. See the Transportation Act, 1920, 41 Stat. 456, \u00a7\u00a7 418, 422, amending \u00a7 15 of the Interstate Commerce Act, and compare Anchor Coal Co. v. United States, 25 F. (2d) 462; New England Divisions Case, 261 U.S. 184, 190, 196.\nSee Public Service Comm\u2019n v. Great Northern Utilities Co., supra.\nOfficial Order No. 5, effective April 17, 1933. Ordered that until further notice and subject to the exceptions hereinafter made, the following shall be the minimum prices to be charged for all milk and cream in any and all cities and villages of the State of New York, of more than One Thousand (1,000) population, exclusive of New York City and the Counties of Westchester, Nassau and Suffolk:\nMilk \u2014 Quarts in bottles: By milk de\u00e1lers to consumers 10 cents; by milk dealers to stores 8 cents; by stores to consumers 9 cents.\nPints in bottles: By milk dealers to consumers 6 cents; by milk dealers to stores 5 cents; by stores to consumers 6 cents. . . .\nThe Control Act declares:\n\u201c Milk dealer \u201d means any person who purchases or handles milk within the state, for sale in this state, or sells milk within the state except when consumed on the premises where sold. Each corporation which if a natural person would be a milk dealer within the meaning of this article, and any subsidiary of such corporation,, shall be deemed a milk dealer within the meaning of this definition. \u25a0 A producer who delivers milk only to a milk dealer shall not be deemed a milk dealer.\n\u201c Producer \u201d means a person producing milk within the State of New York.\n\u201c Store \u201d means a grocery store, hotel, restaurant, soda fountain, dairy products store and similar mercantile establishment.\n\u201c Consumer \u201d means any person, other than a milk dealer, who purchases milk for fluid consumption.",
+        "type": "majority",
+        "author": "Mr. Justice Roberts Me. Justice McReynolds."
+      }
+    ],
+    "attorneys": [
+      "Mr. Arthur E. Sutherland, Jr., with whom Mr. Arthur E. Sutherland was on the brief, for appellant.",
+      "Mr. Henry S. Manley, with whom Mr. John J. Bennett, Jr., Attorney General of New York, and Mr. Henry Epstein, Solicitor General, were on the brief, for appellee.",
+      "By leave of Court, briefs of amici curiae were filed as follows: by Messrs. John W. Bricker, Attorney General of Ohio, and Charles G. Williams, and Isadore Topper, Assistant Attorneys General; Messrs. William A. Stevens, Attorney General of New Jersey, and Robert Peacock,. Assistant Attorney General; and Messrs. Warren B. Burrows, Attorney General of Connecticut, Ernest L. Averill, Deputy Attorney General, and H. Roger Jones and William H. Nelson, Assistant Attorneys General."
+    ],
+    "corrections": "",
+    "head_matter": "NEBBIA v. NEW YORK.\nNo. 531.\nArgued December 4, 5, 1933.\nDecided March 5, 1934.\nMr. Arthur E. Sutherland, Jr., with whom Mr. Arthur E. Sutherland was on the brief, for appellant.\nMr. Henry S. Manley, with whom Mr. John J. Bennett, Jr., Attorney General of New York, and Mr. Henry Epstein, Solicitor General, were on the brief, for appellee.\nBy leave of Court, briefs of amici curiae were filed as follows: by Messrs. John W. Bricker, Attorney General of Ohio, and Charles G. Williams, and Isadore Topper, Assistant Attorneys General; Messrs. William A. Stevens, Attorney General of New Jersey, and Robert Peacock,. Assistant Attorney General; and Messrs. Warren B. Burrows, Attorney General of Connecticut, Ernest L. Averill, Deputy Attorney General, and H. Roger Jones and William H. Nelson, Assistant Attorneys General."
+  },
+  "file_name": "0502-01",
+  "first_page_order": 556,
+  "last_page_order": 613
+}

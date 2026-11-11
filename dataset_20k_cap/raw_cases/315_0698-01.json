@@ -1,0 +1,932 @@
+{
+  "id": 374646,
+  "name": "MILES et al. v. ILLINOIS CENTRAL RAILROAD CO.",
+  "name_abbreviation": "Miles v. Illinois Central Railroad",
+  "decision_date": "1942-03-30",
+  "docket_number": "No. 272",
+  "first_page": "698",
+  "last_page": "721",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "315 U.S. 698"
+    },
+    {
+      "type": "parallel",
+      "cite": "86 L. Ed. 1129"
+    },
+    {
+      "type": "parallel",
+      "cite": "62 S. Ct. 827"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1941-143"
+    },
+    {
+      "type": "vendor",
+      "cite": "1942 U.S. LEXIS 785"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "153 La. 15",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1282360
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/153/0015-01"
+      ]
+    },
+    {
+      "cite": "260 Ill. App. 284",
+      "category": "reporters:state",
+      "reporter": "Ill. App.",
+      "case_ids": [
+        5633107
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app/260/0284-01"
+      ]
+    },
+    {
+      "cite": "126 Kan. 745",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1880066
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/126/0745-01"
+      ]
+    },
+    {
+      "cite": "90 F. 2d 7",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        978589
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/90/0007-01"
+      ]
+    },
+    {
+      "cite": "300 F. 273",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3642983
+      ],
+      "pin_cites": [
+        {
+          "page": "278"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/300/0273-01"
+      ]
+    },
+    {
+      "cite": "238 F. 932",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6747526
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/238/0932-01"
+      ]
+    },
+    {
+      "cite": "279 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906954
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/279/0377-01"
+      ]
+    },
+    {
+      "cite": "207 U. S. 142",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641308
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/207/0142-01"
+      ]
+    },
+    {
+      "cite": "278 U. S. 492",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906724
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/278/0492-01"
+      ]
+    },
+    {
+      "cite": "265 U. S. 101",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138151
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/265/0101-01"
+      ]
+    },
+    {
+      "cite": "262 U. S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140646
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/262/0312-01"
+      ]
+    },
+    {
+      "cite": "292 U. S. 511",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        429814
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/292/0511-01"
+      ]
+    },
+    {
+      "cite": "274 U. S. 21",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81095
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0021-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138240
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0155-01"
+      ]
+    },
+    {
+      "cite": "36 Stat. 291",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 N. E. 446",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Ind. 595",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1537065
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/204/0595-01"
+      ]
+    },
+    {
+      "cite": "206 S. W. 794",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 Ky. 455",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        2361157
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/182/0455-01"
+      ]
+    },
+    {
+      "cite": "292 U. S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        429772
+      ],
+      "pin_cites": [
+        {
+          "page": "233"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/292/0230-01"
+      ]
+    },
+    {
+      "cite": "223 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3662361
+      ],
+      "pin_cites": [
+        {
+          "page": "56-59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/223/0001-01"
+      ]
+    },
+    {
+      "cite": "284 U. S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5718605
+      ],
+      "pin_cites": [
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0284-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 44",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136873
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "51"
+        },
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0044-01"
+      ]
+    },
+    {
+      "cite": "30 N. E. 2d 982",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Ohio St. 409",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        1021355,
+        1574759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/137/0409-01"
+      ]
+    },
+    {
+      "cite": "244 N. W. 823",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "187 Minn. 228",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        1753358
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/187/0228-01"
+      ]
+    },
+    {
+      "cite": "198 N. W. 62",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Iowa 737",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        8647439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/197/0737-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 602",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6149328,
+        6149278,
+        6149222,
+        6149375
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0602-03",
+        "/us/314/0602-02",
+        "/us/314/0602-01",
+        "/us/314/0602-04"
+      ]
+    },
+    {
+      "cite": "263 U. S. 22",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137000
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/263/0022-01"
+      ]
+    },
+    {
+      "cite": "331 Mo. 764",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        8736610
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/mo/331/0764-01"
+      ]
+    },
+    {
+      "cite": "185 N. W. 218",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "175 Wis. 565",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8694311
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/wis/175/0565-01"
+      ]
+    },
+    {
+      "cite": "71 A. 153",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "74 N. J. Eq. 457",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        169984
+      ],
+      "pin_cites": [
+        {
+          "page": "473"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/nj-eq/74/0457-01"
+      ]
+    },
+    {
+      "cite": "24 Kan. 435",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        71872
+      ],
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/kan/24/0435-01"
+      ]
+    },
+    {
+      "cite": "4 Allen 545",
+      "category": "reporters:state",
+      "reporter": "Allen",
+      "case_ids": [
+        2100513
+      ],
+      "pin_cites": [
+        {
+          "page": "550"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/mass/86/0545-01"
+      ]
+    },
+    {
+      "cite": "25 Stat. 433",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "24 Stat. 552",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "22 Stat. 162",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "82 Conn. 352",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        791994
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/conn/82/0352-01"
+      ]
+    },
+    {
+      "cite": "35 Stat. 65",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "281 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3912539
+      ],
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/281/0470-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 624",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3506807
+      ],
+      "pin_cites": [
+        {
+          "page": "635-37"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/111/0624-01"
+      ]
+    },
+    {
+      "cite": "296 U. S. 463",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5725593
+      ],
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/296/0463-01"
+      ]
+    },
+    {
+      "cite": "187 S. W. 1117",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "135 Tenn. 489",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        4862198
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tenn/135/0489-01"
+      ]
+    },
+    {
+      "cite": "43 Harv. L. Rev. 345",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "93 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647311
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "139-43"
+        },
+        {
+          "page": "136-37"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/93/0130-01"
+      ]
+    },
+    {
+      "cite": "1 Stat. 73",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "241 U. S. 211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286544
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "222"
+        },
+        {
+          "page": "218"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/241/0211-01"
+      ]
+    },
+    {
+      "cite": "285 U. S. 413",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1175301
+      ],
+      "pin_cites": [
+        {
+          "page": "422-23"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/285/0413-01"
+      ]
+    },
+    {
+      "cite": "133 U. S. 107",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1129260
+      ],
+      "weight": 3,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/133/0107-01"
+      ]
+    },
+    {
+      "cite": "279 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906954
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/279/0377-01"
+      ]
+    },
+    {
+      "cite": "207 U. S. 142",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641308
+      ],
+      "pin_cites": [
+        {
+          "page": "148"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/207/0142-01"
+      ]
+    },
+    {
+      "cite": "278 U. S. 492",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906724
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/278/0492-01"
+      ]
+    },
+    {
+      "cite": "262 U. S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140646
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/262/0312-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138240
+      ],
+      "pin_cites": [
+        {
+          "page": "159-60"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/314/0155-01"
+      ]
+    },
+    {
+      "cite": "36 Stat. 291",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "185 N. E. 446",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "204 Ind. 595",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1537065
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/ind/204/0595-01"
+      ]
+    },
+    {
+      "cite": "206 S. W. 794",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "182 Ky. 455",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        2361157
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/ky/182/0455-01"
+      ]
+    },
+    {
+      "cite": "292 U. S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        429772
+      ],
+      "pin_cites": [
+        {
+          "page": "233"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/292/0230-01"
+      ]
+    },
+    {
+      "cite": "223 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3662361
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "56"
+        },
+        {
+          "page": "56"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/223/0001-01"
+      ]
+    },
+    {
+      "cite": "284 U. S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5718605
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/284/0284-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 44",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136873
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/314/0044-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1662,
+    "char_count": 45560,
+    "ocr_confidence": 0.499,
+    "pagerank": {
+      "raw": 1.9766473060408318e-06,
+      "percentile": 0.994882713239266
+    },
+    "sha256": "ad8a280fb67c6fad81f09d03bf6ae22844fb8b3baa7d1de5515f69814d2395ce",
+    "simhash": "1:821cdc1046e8c4f0",
+    "word_count": 7852
+  },
+  "last_updated": "2024-02-27T19:27:57.491601+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice, Mr. Justice Roberts and Mr. Justice Byrnes join in this dissent."
+    ],
+    "parties": [
+      "MILES et al. v. ILLINOIS CENTRAL RAILROAD CO."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Reed\ndelivered the opinion of the Court.\nThe effect of \u00a7 6 of the Federal Employers\u2019 Liability Act on the power of a state court to enjoin its citizens, on the ground of oppressiveness and inequity to the defendant carrier, from suing on a F. E. L. A. claim in the state courts of another state, furthering such a suit in any manner, or receiving the proceeds of any judgment so obtained, is before us for decision.\nThe respondent, an Illinois corporation, hereafter referred to as the Illinois Central, brought an original bill in the Chancery Court of Shelby County, Tennessee, seeking to enjoin one of the petitioners here, Mrs. Miles, then the Tennessee administratrix of her husband, a resident of that State, from further prosecuting in a Missouri state court her F. E. L. A. claim against the Illinois Central for the death of her husband, its employee. The fatal accident had occurred at Memphis, Tennessee. After a temporary injunction issued, Mrs. Miles promptly dismissed her Missouri suit and was discharged as administratrix by the Tennessee probate court. A Missouri administrator was then appointed at her suggestion, and he instituted another Missouri suit for the same cause of action. The Illinois Central filed an amended and supplemental bill, adding decedent\u2019s children, likewise residents of Tennessee, as defendants, and enlarging its prayer to forbid furthering the new suit in any manner or receiving the proceeds of any judgment. A new temporary injunction was issued as prayed.\nThe grounds for the injunction were the inconvenience and expense to the Illinois Central of taking its Memphis employees to St. Louis, and the resulting burden upon interstate commerce. The anticipated extra expense was several hundred dollars per day for an estimated two days of actual trial and whatever additional time might be lost by continuances or delay. Inconvenience was expected through the withdrawal of some twelve to twenty employees and officials from their duties for the same period. The defense relied upon a timely plea that \u00a7 6 of the F. E. L. A. prevented the enjoining of proceedings in the Missouri courts.\nThe trial court found that the continued prosecution of the pending Missouri case would be \u201coppressive and inequitable\u201d to the Illinois Central and \u201ca burden on the commerce and business of the complainant.\u201d As a matter of law, the court concluded, however, that the Illinois Central was not entitled to permanent injunctions. On appeal the Court of Appeals reversed the decree and made the temporary injunctions permanent. Further state review by certiorari in the Supreme Court of Tennessee was refused, and we granted certiorari to the Court of Appeals to settle an important federal question as to the applicability of \u00a7 6 of the F. E. L. A. to this situation. 314 U. S. 602. Cf. Payne v. Knapp, 197 Iowa 737, 198 N. W. 62; Peterson v. Chicago, B. & Q. R. Co., 187 Minn. 228, 244 N. W. 823; Baltimore & Ohio R. Co. v. Kepner, 137 Ohio St. 409, 30 N. E. 2d 982, affirmed 314 U. S. 44.\nThe Kepner case dealt with the power of a state court to enjoin a resident from continued prosecution of a suit under the F. E. L. A. in a distant federal district court on the ground of inequity, vexatiousness and harassment. The decision denied the power to interfere with the privileges of federal venue \u201cfor the benefit of the carrier or the national transportation system.\u201d\nAs in the Kepner case, there is in this case no occasion to go into the question of the availability, as support for an injunction, of a charge of interference with interstate commerce by reason of the burden of expense and inconvenience. The trial court found a burden on the commerce of the Illinois Central, but made no finding as to any burden on interstate commerce. Moreover, the Court of Appeals stated that the Illinois Central \u201cexpressly abandoned the contention\u201d \u201cthat the prosecution of the suit in St. Louis was a burden on interstate commerce.\u201d No contention is made here that there is any such burden or that the Illinois Central is not doing substantial business in Missouri, as found by the trial court. It operates daily passenger trains with its own crews into St. Louis over the St. Louis Terminal Company tracks, maintains passenger and freight offices and had total receipts, in St. Louis, of a million-and-a-half the year the suit was filed. Under the rule announced in Denver & R. G. W. R. Co. v. Terte, 284 U. S. 284, 287, the Illinois Central is properly suable in Missouri. In the Kepner case, 314 U. S. 44, 51, we pointed out, with a discussion of the applicable cases, that the carrier must submit to inconvenience and expense, if there is jurisdiction, \u201calthough thereby interstate commerce is incidentally burdened.\u201d There is no occasion to repeat the comments here. The specific declaration in \u00a7 6 that the United States courts should have concurrent jurisdiction with those of the several states, and the prohibition against removal, point clearly to the conclusion that Congress has exercised its authority over interstate commerce to the extent of permitting suits in state courts, despite the incidental burden, where process may be obtained on a defendant, not merely soliciting business but actually carrying on railroading by operating trains and maintaining traffic offices within the territory of the court\u2019s jurisdiction.\nThe real point of controversy here is whether that portion of \u00a7 6 of the F. E. L. A., which holds litigation in the state court where it is instituted, prevents the court of another state from enjoining citizens, within its jurisdiction, from continued prosecution of the suit on grounds of inequity. Here, as in Kepner\u2019s case, there is no question but that the Missouri court has venue of the proceeding. Here, too, we need to look no farther into Tennessee law than the opinion of the state\u2019s highest court, in this record, to conclude that under state law a court of equity may enjoin a resident citizen from attempting to enforce his rights, oppressively and inequitably, and that the expense and inconvenience hereinbefore set out resulted in oppressiveness and inconvenience in the eye of the state court.\nIn the legislative history of \u00a7 6, the provision that removal may not be had from a \u201cstate court of competent jurisdiction\u201d was added to the House bill on the floor of the Senate and later accepted by the House, in order to assure a hearing to the employee in a state court. Words were simultaneously adopted recognizing the jurisdiction of the state courts by providing that the federal jurisdiction should be concurrent. The venue of state court suits was left to the practice of the forum. The opportunity to present causes of action arising under the F. E. L. A. in the state courts came, however, not from the state law but from the federal. By virtue of the Constitution, the courts of the several states must remain open to such litigants on the same basis that they are open to litigants with causes of action springing from a different source. This is so because the Federal Constitution makes the laws of the United States the supreme law of\nthe land, binding on every citizen and every court and enforceable wherever jurisdiction is adequate for the purpose. Second Employers\u2019 Liability Cases, 223 U. S. 1, 56-59. The Missouri court here involved must permit this litigation. To deny citizens from other states, suitors under F. E. L. A., access to its courts would, if it permitted access to its own citizens, violate the Privileges and Immunities Clause. Constitution, Art. IV, \u00a7 2; McKnett v. St. Louis & S. F. Ry. Co., 292 U. S. 230, 233. Since the existence of the cause of action and the privilege of vindicating rights under the F. E. L. A. in state courts spring from federal law, the right to sue in state courts of proper venue where their jurisdiction is adequate is of the same quality as the right to sue in federal courts. It is no more subject to interference by state action than was the federal venue in the Kepner case.\nThis is not to say that states cannot control their courts. We do not deal here with the power of Missouri by judicial decision or legislative enactment to regulate the use of its courts generally, as was approved in the Douglas or the Chambers cases, note 6 supra. We are considering another state\u2019s power to so control its own citizens that they cannot exercise the federal privilege of litigating a federal right in the court of another state.\nState courts have assumed the right to enjoin their citizens from proceeding in the courts of other states. This was done, for example, in Reed\u2019s Admrx. v. Illinois Central R. Co., 182 Ky. 455, 206 S. W. 794. The basis of the decision was the inequity of allowing a suit at a distant point in a state or federal court, page 464. Reed\u2019s case was relied upon by Kern v. Cleveland, C., C. & St. L. Ry. Co., 204 Ind. 595, 185 N. E. 446, for the authority of a state court to enjoin its citizens from inequitable conduct under the F. E. L. A. Other state courts deny their authority to issue such injunctions.\nThe permission granted by Congress to sue in state courts may be exercised only where the carrier is found doing business. If suits in federal district courts at those points do not unduly burden interstate commerce, suits in similarly located state courts cannot be burdensome. As Congress has permitted both the state and federal suits, its determination that the carriers must bear the incidental burden is a determination that the state courts may not treat the normal expense and inconvenience of trial in permitted places, such as the one selected here, as inequitable and unconscionable.\nThe judgment below is reversed and the cause is remanded to the Court of Appeals of Tennessee for further proceedings not inconsistent with this opinion.\nReversed.\n36 Stat. 291. \u201cSec. 6. That no action shall be maintained under this Act unless commenced within two years from the day the cause of action accrued.\n\u201cUnder this Act an action may be brought in a circuit court of the United States, in the district of the residence of the defendant, or in which the cause of action arose, or in which the defendant shall be doing business at the time of commencing such action. The jurisdiction of the courts of the United States under this Act shall be concurrent with that of the courts of the several States, and no case arising under this Act and brought in any state court of competent jurisdiction shall be removed to any court of the United States.\u201d 45 U. S. C, \u00a7 56.\nJudicial Code \u00a7237 (b). Southern Ry. Co. v. Painter, 314 U. S. 155, 159-60: \u201cIf a state court proceeds as the Chancery Court of Tennessee acted, the ultimate vindication of any federal right lies with this Court.\u201d Baltimore & Ohio R. Co. v. Kepner, 314 U. S. 44, 52.\nHoffman v. Missouri ex rel. Foraker, 274 U. S. 21. Cf. International Milling Co. v. Columbia Co., 292 U. S. 511, limiting Davis v. Farmers Co-operative Co., 262 U. S. 312; Atchison, T. & S. F. Ry. Co. v. Wells, 265 U. S. 101, and Michigan Central R. Co. v. Mix, 278 U. S. 492, to the rule that suits upon extra-state causes of action under F. E. L. A. burden commerce and will not be permitted in courts of states where the defendant carriers do no more than maintain facilities for solicitation of business. The three cases last mentioned and the Foraker case were all written by the same justice, within the space of a few years.\nCf. Chambers v. Baltimore & Ohio R. Co., 207 U. S. 142, 149.\nHouse Resolution 17263, 61st Congress, 2d Session, which eventually became the Act of 1910, contained no prohibition or restriction upon removal of suits from state courts when it passed the House, and was reported to the Senate by the Senate Committee on the Judiciary. Sen. Rep. No. 432, 61st Cong., 2d Sess., March 22, 1910. Upon the floor of the Senate several amendments were proposed, varying in terms, but all seeking to achieve some such limitation. 45 Cong. Rec. 3995, 3998, 4051. Senator Paynter\u2019s second version was the amendment eventually adopted. 45 Cong. Rec. 4093. The House concurred in the Senate amendment without modification. 45 Cong. Rec. 4159.\nThe reason for the amendment was stated by Senator Paynter thus:\n\u201cI offer an amendment which will give to the plaintiff the right to select the forum in which his case shall be tried. He can select the federal or the state court, as he may prefer, to try his case arising under the act in question.\u201d P. 4051.\n\u201cIf this amendment is adopted, the Congress has not conferred by the act under consideration the exclusive jurisdiction upon state courts. The plaintiff can choose either the federal or state court in which to prosecute his action. The effect of my amendment is to prevent the removal of the action from the state courts when brought there.\u201d P. 4093.\nChambers v. Baltimore & Ohio R. Co., 207 U. S. 142, or Douglas v. New York, N. H. & H. R. Co., 279 U. S. 377, do not impinge upon this principle. In the former case, an Ohio statute forbade suits in its courts for wrongful death occurring in another state unless the decedent was a citizen of Ohio. This Court saw no discrimination against personal representatives of any decedent, since their right to sue did not depend upon their citizenship but upon the citizenship of their decedent. In the latter case, a statute of New York, which gave only discretionary jurisdiction to suits by nonresidents but compulsory jurisdiction to suits by residents was held valid because it treated citizens and noncitizens alike and tested their right to maintain an action by their residence or nonresidence.\nThis is not the position of the federal courts. Connelly v. Central R. Co., 238 F. 932; Schendel v. McGee, 300 F. 273, 278; Chesapeake & Ohio Ry. Co. v. Vigor, 90 F. 2d 7.\nMissouri-Kansas-Texas R. Co. v. Ball, 126 Kan. 745, 271 P. 313; Mobile & Ohio R. Co. v. Parrent, 260 Ill. App. 284; Lancaster v. Dunn, 153 La. 15, 95 So. 385.",
+        "type": "majority",
+        "author": "Mr. Justice Reed"
+      },
+      {
+        "text": "Ms. Justice Jackson,\nconcurring:\nI agree with the conclusion and, with exceptions stated herein, with the opinion of Ms. Justice Reed, though I am not able to sublimate the conflict that underlies this case to the level of either of the conflicting opinions. Realistically considered, the issue is earthy and unprincipled. So viewed, the real issue is whether a plaintiff with a cause of action under the Federal Employers\u2019 Liability Act may go shopping for a judge or a jury believed to be more favorable than he would find in his home forum. An advantage which it is hoped will be reflected in a judgment is what makes plaintiffs leave home and incur burdens of expense and inconvenience that would be regarded as oppressive if forced upon them. And that is what makes railroads seek injunctions such as this one.\nThe judiciary has never favored this sort of shopping for a forum. It has sought to protect its own good name as well as to protect defendants by injunctions against the practice of seeking out soft spots in the judicial system in which to bring particular kinds of litigation. But the judges, with lawyerly indirection, have not avowed the interest of the judiciary in orderly resort to the courts as a basis for their decision, and have cast their protective doctrines in terms of sheltering defendants against vexatious and harassing suits. This judicial treatment of the subject of venue leads Congress and the parties to think of the choice of a forum as a private matter between litigants, and in cases like the present obscures the public interest in venue practices behind a rather fantastic fiction that a widow is harassing the Illinois Central Railroad. If Congress had left us free to consult the ultimate public interest in orderly resort to the judicial system, I should agree with Me. Justice Feankfuetee\u2019s conclusion. But the plaintiffs say that they go shopping, not by leave of the courts themselves, but by the authority of Congress. Whether the Congress has granted such latitude is our question.\nUnless there is some hidden meaning in the language Congress has employed, the injured workman or his surviving dependents may choose from the entire territory served by the railroad any place in which to sue, and in which to choose either a federal or a state court of which to ask his remedy. There is nothing which requires a plaintiff to whom such a choice is given to exercise it in a self-denying or large-hearted manner. There is nothing to restrain use of that privilege, as all choices of tribunal are commonly used by all plaintiffs to get away from judges who are considered to be unsympathetic, and to get before those who are considered more favorable; to get away from juries thought to be small-minded in the matter of verdicts, and to get to those thought to be generous; to escape courts whose procedures are burdensome to the plaintiff, and to seek out courts whose procedures make the going easy.\nThat such a privilege puts a burden on interstate commerce may well be admitted, but Congress has the power to burden. The Federal Employers\u2019 Liability Act itself leaves interstate commerce under the burden of a medieval system of compensating the injured railroad worker or his survivors. He is not given a remedy, but only a lawsuit. It is well understood that in most cases he will be unable to pursue that except by splitting his speculative prospects with a lawyer. The functioning of this backward system of dealing with industrial accidents in interstate commerce burdens it with perhaps two dollars of judgment for every dollar that actually reaches those who have been damaged, and it leaves the burden of many injuries to be borne by them utterly uncompensated. Such being the major burden under which the workmen and the industry must function, I see no reason to believe that Congress could not have intended the relatively minor additional burden to interstate commerce from loading the dice a little in favor of the workman in the matter of venue. It seems more probable that Congress intended to give the disadvantaged workman some leverage in the choice of venue, than that it intended to leave him in a position where the railroad could force him to try one lawsuit at home to find out whether he would be allowed to try his principal lawsuit elsewhere. This latter would be a frequent result if we upheld the contention made in this cas\u00e9 and in the Kepner case. I think, therefore, that the petitioner had a right to resort to the Missouri court under the circumstances of this case for her remedy.\nI do not, however, agree with the statement in Mr. Justice Reed's opinion that \u201cthe Missouri court here involved must permit this litigation.\u201d It is very doubtful if any requirement can be spelled out of the Federal Constitution that a state must furnish a forum for a nonresident plaintiff and a foreign corporation to fight out issues imported from another state where the cause of action arose. It seems unnecessary to decide now whether this litigation could be imposed on the Missouri court, for it appears to have embraced the litigation. Even if Missouri, by reason of its control of its own courts might refuse to open them to such a case, it does not follow that another state may close Missouri\u2019s courts to one with a federal cause of action. If Missouri elects to entertain the case, the courts of no other state can obstruct or prevent its exercise of jurisdiction as conferred by the federal statute or its right to obtain evidence and to distribute the proceeds, if any, in accordance with the Federal Employers\u2019 Liability Act. I therefore favor reversal.",
+        "type": "concurrence",
+        "author": "Ms. Justice Jackson,"
+      },
+      {
+        "text": "Mr. Justice Frankfurter,\ndissenting:\nThe decision in this case mutilates principles that have long been regarded as basic in the law. New legal doctrines have been more universally accepted than those recognizing the powers which this Court now denies to the states when suits under the Federal Employers\u2019 Liability Act are brought in state courts: the power of a court to prevent injustice by restraining a person subject to its authority from maintaining an inequitable suit in the courts of another state, Cole v. Cunningham, 133 U. S. 107; the right of a court to decline its facilities to a suit that \u201cin the interest of justice\u201d should be tried elsewhere, Canada Malting Co. v. Paterson Co., 285 U. S. 413, 422-23. The decision disregards the constitutional relationship between the \u201cjudicial power\u201d of the federal government and that of the states whereby state courts enforce federal rights (when such remedies have not been exclusively entrusted to the federal courts) as part of their \u201cduty to safeguard and enforce the right of every citizen without reference to the particular exercise of governmental power from which the right may have arisen.\u201d Minneapolis & St. Louis R. Co. v. Bombolis, 241 U. S. 211, 222.\nFor a decision so far-reaching in its implications, warrant is found in the inarticulate radiations of \u00a7 6 of the 1910 amendment to the Federal Employers\u2019 Liability Act. While the words of a statute do not by themselves distil its meaning, we must at least begin with them. The language of \u00a7 6 is simple and direct. After establishing a two-year period of limitations, it continues: \u201cUnder this Act an action may be brought in a circuit court of the United States, in the district of the residence of the defendant, or in which the cause of action arose, or in which the defendant shall be doing business at the time of commencing such action. The jurisdiction of the courts of the United States under this Act shall be concurrent with that of the courts of the several States, and no case arising under this Act and brought in any state court of competent jurisdiction shall be removed to any court of the United States.\u201d 36 Stat. 291.\nThis is a conventional provision. There is nothing novel or distinctive about it. Recognition of concurrent jurisdiction in the state courts to vindicate federal rights is found in the first Judiciary Act of 1789. 1 Stat. 73, 77. And the statute books are replete with instances in which Congress has acknowledged the existence of this jurisdiction in the state courts unless explicitly withheld from them. See the discussion of Mr. Justice Bradley in Claflin v. Houseman, 93 U. S. 130, 139-43. The essence of \u00a7 6 is merely that the state courts are open to a plaintiff suing under the Act, and that if he chooses to bring suit in a state court, the defendant may not remove the cause to a federal court. So far as language conveys ideas, the Act affords no intimation that Congress intended anything more.\nWe are not of course concerned here, as we were in the Kepner case, decided the other day, 314 U. S. 44, with an attempt by a state court to prevent resort to a federal court. Historically, the problem of interferences, direct or indirect, between federal and state courts is entirely separate from the problem of the relations of the state courts to each other. See Warren, Federal and State Court Interference, 43 Harv. L. Rev. 345. The question now before us \u2014 relating to the power of a state to enjoin those subject to its jurisdiction from unjustly resorting to the courts of a sister state \u2014 is an aspect of the latter problem. In the Kepner case, this Court held only that the provision of \u00a7 6 \u201cfilled the entire field of venue in federal courts\u201d and that what had thus been legislatively given to the federal courts could not judicially be taken away. The Kepner decision cast no cloud upon Douglas v. New York, N. H. & H. R. Co., 279 U. S. 377, which sustained the power of a state to apply the principle of forum non conveniens to suits under the Act brought in its courts by non-residents. The issue in the case at bar is essentially another phase of the problem in the Douglas case \u2014 whether, merely by authorizing access to the state courts to enforce rights created by the Federal Employers\u2019 Liability Act, Congress impliedly repealed pro tatito the means for achieving justice which the states customarily employ in similar cases. Specifically, the question for decision is this: Has Congress, by providing explicitly that state courts shall have concurrent jurisdiction of suits under the Act, withdrawn from each state its recognized power to enjoin persons within its jurisdiction from bringing a suit under the Act \u201ccontrary to equity and good conscience\u201d in the courts of another state? This question was wholly outside the scope of the Kepner case. It was not presented, and was therefore not decided, by that case.\nThe relevant circumstances here are these. A resident of Tennessee was killed in a railroad accident occurring in Tennessee. The railroad, an Illinois corporation, has its principal offices in Tennessee. All of the witnesses reside in Tennessee, as do the deceased\u2019s legal representatives. But suit was brought in a state court of Missouri, where the railroad does some business. Finding that the Missouri suit was \u201coppressive and inequitable,\u201d the Tennessee Court of Appeals sustained the power of the chancellor to restrain the further prosecution of that suit. The finding that the Missouri suit was \u201coppressive and inequitable\u201d was challenged by the petitioners neither before us nor in the courts of Tennessee, and the propriety of the action taken by the Tennessee cqurt, as a matter of equitable discretion, is not here in issue. We are called upon to decide only whether Congress has deprived Tennessee of the power which it has asserted in this case.\nIt is admitted that the courts of Tennessee customarily exercise this power in situations like the present case. See American Express Co. v. Fox, 135 Tenn. 489, 187 S. W. 1117. If the accident here had occurred while the deceased was engaged in intrastate commerce, and consequently had not given rise to a right of action under the federal statute, Tennessee would unquestionably have had the power to do what she has done here. For while the Privileges and Immunities Clause, Art. IV, \u00a7 2, secures to citizens of other states such right of access to the courts of a state as that state gives to its own citizens, Chambers v. Baltimore & Ohio R. Co., 207 U. S. 142, 148; McKnett v. St. Louis & S. F. Ry. Co., 292 U. S. 230, 233, it does not take away from a state its historic power to prevent unjust resort to the courts of another state. Cole v. Cunningham, 133 U. S. 107. Moreover, the Constitution would not prevent Missouri from declining to entertain a suit to vindicate a federal right, such as was brought here, if an action to enforce a similar non-federal right would also not lie in her courts. The availability of state courts for the enforcement of federal rights has not resulted in putting federal rights on any different footing from state rights. \u201cA state may not discriminate against rights arising under federal laws,\u201d McKnett v. St. Louis & S. F. Ry. Co., supra, at 234, but neither the Constitution nor Congress has compelled the states to discriminate in favor of federal rights. And this Court has expressly held that the rights created by the Federal Employers\u2019 Liability Act are not different, in this respect, from other federal rights. \u201cAs to the grant of jurisdiction in the Employers\u2019 Liability Act, that statute does not purport to require State Courts to entertain suits arising under it, but only to empower them to do so, so far as the authority of the United States is concerned.\u201d Douglas v. New York, N. H. & H. R. Co., supra, at 387.\nThe utilization of state courts for the vindication of federal rights does not require that their established procedures be remodelled or that their customary modes for administering justice be restricted. \u201cAnd it was of course presumably an appreciation of the principles so thoroughly settled which caused Congress in the enactment of the Employers\u2019 Liability Act to clearly contemplate the existence of a concurrent power and duty of both Federal and state courts to administer the rights conferred by the statute in accordance with the modes of procedure prevailing in such courts.\u201d Minneapolis & St. Louis R. Co. v. Bombolis, 241 U. S. 211, 218; and see Second Employers\u2019 Liability Cases, 223 U. S. 1, 56. The mere fact that a federal right is the basis of suit cannot therefore deprive the state courts of the power to use their customary procedures for the achievement of justice. In simply taking advantage of the facilities afforded by the courts of the states, Congress cannot be deemed to have altered the settled jurisprudence of the states so as to operate more favorably for federal rights than for similar rights created by the states themselves. Such drastic inroads upon the authority of the states should be made only upon clear Congressional mandate.\nThe Court finds such a plain command in the Act because Congress has explicitly provided in \u00a7 6 that the jurisdiction of the state courts \u201cshall be concurrent\u201d with that of the federal courts. But Congress thereby merely spelt out what has always been unquestioned constitutional doctrine. \u201cIt is a general rule that the grant of jurisdiction to one court does not, of itself, imply that the jurisdiction is to be exclusive. . . . Upon the state courts, equally with the courts of the Union, rests the obligation to guard and enforce every right secured by the Constitution and laws of the United States whenever those rights are involved in any suit or proceedings before them.\u201d United States v. Bank of New York Co., 296 U. S. 463, 479; see Claflin v. Houseman, 93 U. S. 130, 136-37, Robb v. Connolly, 111 U. S. 624, 635-37. And in Grubb v. Public Utilities Comm\u2019n, 281 U. S. 470, 476, the Court reaffirmed the doctrine that \u201cthe state and federal courts have concurrent jurisdiction of suits of a civil nature arising under the Constitution and laws of the United States, save in exceptional instances where the jurisdiction has been restricted by Congress to the federal courts.\u201d The source of these formulations is Hamilton\u2019s classic statement in No. 82 of the Federalist (sesquicentennial ed., p. 536):\n\u201cI hold that the State courts will be divested of no part of their primitive jurisdiction, further than may relate to an appeal; and I am even of opinion that in every case in which they were not expressly excluded by the future acts of the national legislature, they will of course take cognizance of the causes to which those acts may give birth. This I infer from the nature of judiciary power, and from the general genius of the system. The judiciary power of every government looks beyond its own local or municipal laws, and in civil cases lays hold of all subjects of litigation betwen parties within its jurisdiction, though the causes of dispute are relative to the laws of the most distant part of the globe. . . . When in addition to this we consider the State governments and the national governments, as they truly are, in the light of kindred systems, and as parts of one whom, the inference seems to be conclusive, that the State courts would have a concurrent jurisdiction in all cases arising under the laws of the Union, where it was not expressly prohibited.\u201d\nTherefore, if Congress had been silent with respect to the jurisdiction of state courts of suits arising under the Act, the state courts would still have had such jurisdiction. If it be suggested that by articulating what would otherwise have been implied, Congress must have had some purpose, some interest of emphasis, it would be enough to say that such punctiliousness, and perhaps redundancy, of phrasing is not uncommon in procedural legislation. But, in any event, the legislative history of the 1910 amendment conclusively shows that Congress did not insert this provision in order to cut down the normal powers of state courts. The concurrent jurisdiction of the state courts was explicitly defined in order to dissipate an unwarranted doubt as to the right and duty of state courts to entertain suits arising under the Act. Congress wanted to avoid an implication of denial to the state courts of power to entertain cases under the Act, and not to create an implication of denial to the state courts of their traditional powers in dealing with such cases.\nThe Act of 1908 contained no provision specifically dealing with venue. 35 Stat. 65. On January 7, 1910, Representative Sterling introduced a bill, H. R. 17263, that eventually became the 1910 amendment to the Act. The bill had this provision: \u201cThis Act shall not be construed as excluding the exercise of a concurrent jurisdiction of cases arising under the Act by the courts of the several States.\u201d The House Committee on the Judiciary reporting on the bill explained its purpose:\n\u201cIt is proposed to further amend the act by making the jurisdiction of the courts of the United States \u2018concurrent with the courts of the several States.\u2019\n\u201cThis is proposed in order that there shall be no excuse for courts of the States to follow in the error of . . . Hoxie v. N. Y., N. H. & H. R. R. Co. [82 Conn. 352] (73 Atlantic Rep., 754) in which the court declined jurisdiction upon the ground, inter alia, that Congress did not intend that jurisdiction of cases arising under the act should' be assumed by state courts.\n\u201cIt is clear under the decisions of the Supreme Court of the United States, that this conclusion of the Connecticut court is erroneous. And the reasons recited by the Connecticut court lead to an opposite conclusion from that which the opinion declares upon the subject. But no harm can come, and much injustice and wrong to suitors may be prevented by an express declaration that there is no intent on the part of Congress to confine remedial actions brought under the employers\u2019 liability act to the courts of the United States.\u201d H. Rep. No. 513, 61st Cong., 2d Sess., p. 7.\nThe Committee also recommended that the wording of the provision be changed to read as follows: \u201cThe jurisdiction of the courts of the United States under this act shall be concurrent with that of the courts of the several States.\u201d This language was embodied in the Act.\nWhen the bill came to the floor of the House, Representative Sterling, who was in charge of the measure, underscored the sole reason for the provision:\n\u201cThe second change in the law provides that the federal courts and the state courts shall have concurrent jurisdiction. I am very sure that they have concurrent jurisdiction as the law is now, but on account of a decision of one of the state courts of Connecticut, where one judge declined to take jurisdiction in a case because it was under a federal statute, the committee thought best to expressly provide in the law that the federal courts and the state courts should have concurrent jurisdiction to avoid the possibility of such a construction in the future.\u201d 45 Cong. Rec. 2253.\nIn reply to a question as to the Committee\u2019s purpose in recommending this provision, \u201cDid you intend to limit the state courts in any way in this matter?\u201d, the answer was, \u201cOh, no; just the contrary.\u201d 45 Cong. Rec. 2254.\nWith these authoritative explanations the bill was passed by the House on February 23, 1910. 45 Cong. Rec. 2260. It was then sent to the Senate and there referred to its Judiciary Committee. The report of that Committee repeated in haec verba the explanation of the provision made by the House Committee. See Sen. Rep. No. 432, 61st Cong., 2d Sess., p. 5. Senator Borah, who steered the bill in the Senate, said:\n\u201cThe amendment which has been proposed in the latter portion of section 6 was necessitated, if that term can properly be used, by reason of a decision of the supreme court of the State of Connecticut. My individual view is that the law is now as the amendment attempts to make it \u2014 that is to say, that both the federal and state courts have jurisdiction of this matter \u2014 concurrent jurisdiction. ... As I understand the law, unless there is a clause prohibiting or inhibiting the state court it always has concurrent jurisdiction with the federal courts in such a subject-matter as this. The report cites a number of authorities to this effect. But the supreme court of Connecticut refused to assume jurisdiction or to take jurisdiction of the matter, though the well-established legal principle seems to be absolutely different. I do not believe this amendment is necessary. I believe it is thoroughly established that the federal courts and the state courts have concurrent jurisdiction. But in order to avoid courts being misled upon this proposition this specific provision is thought to be necessary in the law.\u201d 45 Cong. Rec. 3995. See also his remarks at 45 Cong. Rec. 4034-35.\nThe Court appears to draw comfort from the provision of the Act prohibiting removal of a suit from a state court of competent jurisdiction to a federal court. The bill as passed by the House contained no such provision. It was offered as an amendment on the floor of the Senate by Senator Paynter who, in proposing the amendment, made a few remarks that are unenlightening for present purposes. The amendment was approved by the Senate without further discussion. 45 Cong. Rec. 4093. When the bill came back to the House, Representative Clayton, a member of the House Judiciary Committee, explained the purpose of this amendment:\n\u201cThe real amendment [made by the Senate] and the one that I think is a distinct improvement of the bill, certainly more so than the other two, is to add . . . these words: \u2018And no case arising under this act and brought in any state court of competent jurisdiction shall be removed to any court of the United States/ And the gentleman, being, as I am, a states-rights Democrat, will certainly say that is a decided improvement upon the bill as it originally passed the House. Furthermore, I say that this amendment will tend to relieve the federal courts of some litigation which can be as well, if not better, determined in the courts of the States/\u2019 45 Cong. Rec. 4158.\nSuch a restriction against removal of litigation normally arising in the state courts is not unique in the history of legislation dealing with the business of the lower federal courts. Thirty years earlier, Congress had begun to limit the right of removal to the federal courts. See, e. g., Act of July 12, 1882, \u00a7 4, 22 Stat. 162, 163; Act of March 3, 1887, 24 Stat. 552, corrected by Act of August 13, 1888, 25 Stat. 433. The removal prohibition of the 1910 Act must be regarded as a phase of the movement to ease the pressure upon the lower federal courts by curtailing access to them rather than by multiplying unduly the number of federal judges. Nothing warrants the inference that thereby Congress intended a reversal of the historic relation of state courts to one another.\nThat no expression of Congress, nor the purposes revealed by it outside of the language it employed, calls for a break with the past in giving effect to the 1910 amendment was the conclusion reached by this Court upon the fullest consideration of the significance of the provision. \u201cThe amendment, as appears by its language,\u201d it was held in the Second Employers\u2019 Liability Cases, 223 U. S. 1, 56, \u201cinstead of granting jurisdiction to the state courts, presupposes that they already possessed it.\u201d Later, in the Douglas case, the Court noted that the amendment \u201cdoes not purport to require State Courts to entertain suits arising under it, but only to empower them to do so, so far as the authority of the United States is concerned.\u201d 279 U. S. at 387. And again in McKnett\u2019s case, 292 U. S. at 233, the Court emphasized that \u201cCongress has not attempted to compel states to provide courts for the enforcement of the Federal Employers\u2019 Liability Act.\u201d In short, every time the question has arisen this Court has recognized that by the 1910 amendment Congress did not write a new chapter in judicial history, nor did it modify the historic function of state courts as agencies for the enforcement of federal rights employing the same instruments for achieving justice as they employ when enforcing rights having their source in state law.\nThe Court now holds that, where considerations of equity and justice are otherwise compelling, \u00a7 6 has deprived the state courts of the power to enjoin a plaintiff from pursuing a suit against a carrier in the courts of any state in which the carrier does business. But a series of decisions following Davis v. Farmers Co-operative Co., 262 U. S. 312, enforces a contrary proposition. In these cases, notably Denver & R. G. W. R. Co. v. Terte, 284 U. S. 284, and Michigan Central R. Co. v. Mix, 278 U. S. 492, suits against a carrier in a state where it did business were nevertheless found to constitute an unjustifiable burden on commerce and therefore could not be maintained. If Congress had conferred obligatory jurisdiction upon the state courts, it would have been entirely beyond the province-of this Court to hold, as it did in these decisions, that a suit in a state court which was given \u201cconcurrent jurisdiction\u201d by the 1910 amendment constituted a burden on commerce. To suggest that the grant of \u201cconcurrent jurisdiction\u201d repealed the historic powers of equity sanctioned by Cole v. Cunningham, 133 U. S. 107, is to imply that in all these cases the Court disregarded what is now found to be the right of a plaintiff to resort to a state court, unhampered by the authority of the state courts to invoke their familiar equitable powers to restrain oppressive and vexatious suits in other state courts. This is to say that in all these eases over a period of years this Court disregarded the jurisdictional requirements of the Federal Employers\u2019 Liability Act. Yet the Act was constantly before the Court, and, it may not be amiss to recall, no member of this Court, in modern times at least, was more familiar with and more mindful of jurisdictional requirements than Mr. Justice Brand\u00e9is, who spoke for a unanimous Court in both the Davis and Mix cases.\nThe Court does not now overrule these decisions. They stand as unchallenged authorities that, in giving the state courts concurrent jurisdiction of suits under the Act, Congress did not thereby preclude the application of principles of equity and justice to such suits. These decisions show clearly that \u00a7 6 did not give the state courts compulsive jurisdiction; it merely conferred authority to be administered in the context of existing law.\nThe power invoked by Tennessee in this case was a familiar head of equity jurisdiction long before the Constitution. Injunctions by the chancellor against suits in other courts go back to at least the late sixteenth century. See Cliffe v. Turnor, Cary 83 (1579); Chock v. Chea, Cary 83 (1579); Tanfield v. Davenport, Tot. 114 (1638); Trinick v. Bordfield, Tot. 117 (1638). When Lord Chancellor Clarendon in 1677 refused to enjoin a foreign attachment, Love v. Baker, Ch. Cas. 67, the reporter noted that \u201call the bar was of another opinion. It was said, the injunction did not lie for foreign jurisdictions, nor out of the king\u2019s dominions. But to that it was answered, the injunction was not to the court, but to the party.\u201d The opinion of the bar soon became the accepted law of England. In the leading case of Lord Portarlington v. Soulby, 3 Myl. & K. 104, Brougham, L. C., expressed the historic doctrine of equity jurisdiction. Referring to the attitude of the bar towards Love v. Baker, he commented: \u201cA very sound answer, as it appears to me; for the same argument might apply to a Court within this country, which no order of this Court - ever affects to bind, our orders being only pointed at the parties to restrain them from proceeding. Accordingly, this case of Love v. Baker has not been recognized or followed in later times.\u201d 3 Myl. & K. at 107. See Wharton v. May, 5 Ves. Jr. 27; Kennedy v. Earl of Cassillis, 2 Swans. 313; Harrison v. Gurney, 2 Jac. & W. 563; Bushby v. Munday, 5 Madd. 184; Beauchamp v. Marquis of Huntley, Jac. 546; Eden on Injunctions (1822 ed.) pp. 3 et seq., 101-02.\nThis doctrine of equitable power has been universally accepted by American courts. See, e. g., Dehon v. Foster, 4 Allen 545, 550; Cole v. Young, 24 Kan. 435, 438; Bigelow v. Old Dominion Co., 74 N. J. Eq. 457, 473, 71 A. 153. And the power has been exercised by the state courts generally to enjoin oppressive suits brought under the Act in other state courts. See Reed\u2019s Admrx. v. Illinois Central R. Co., 182 Ky. 455, 206 S. W. 794; Chicago, M. & St. P. Ry. Co. v. McGinley, 175 Wis. 565, 185 N. W. 218; State ex rel. New York, C. & St. L. R. Co. v. Nortoni, 331 Mo. 764, 55 S. W. 2d 272; Kern v. Cleveland, C., C. & St. L. Ry. Co., 204 Ind. 595, 185 N. E. 446. Of course, since a federal right is involved, no state court can screen denial of or discrimination against a federal right, under the guise of enforcing its local law. Davis v. Wechsler, 263 U. S. 22; Southern Ry. Co. v. Painter, 314 U. S. 155, 159-60.\nThe power of equity to restrain the prosecution of unconscionable suits has been part of the very fabric of the state courts as we have known them in our whole history. And nothing in the Federal Employers\u2019 Liability Act, its language, its history, or its policy, warrants a denial of this power to the states.\nThe Chief Justice, Mr. Justice Roberts and Mr. Justice Byrnes join in this dissent.",
+        "type": "dissent",
+        "author": "Mr. Justice Frankfurter,"
+      }
+    ],
+    "attorneys": [
+      "Mr. William G. Cavett, with whom Mr. Louis E. Miller was on the brief, for petitioners.",
+      "Messrs. Thomas A. Evans and Larry Creson, with whom Messrs. Marion G. Evans and Clinton H. McKay were on the brief, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "MILES et al. v. ILLINOIS CENTRAL RAILROAD CO.\nNo. 272.\nArgued February 10, 1942.\nDecided March 30, 1942.\nMr. William G. Cavett, with whom Mr. Louis E. Miller was on the brief, for petitioners.\nMessrs. Thomas A. Evans and Larry Creson, with whom Messrs. Marion G. Evans and Clinton H. McKay were on the brief, for respondent."
+  },
+  "file_name": "0698-01",
+  "first_page_order": 750,
+  "last_page_order": 773
+}

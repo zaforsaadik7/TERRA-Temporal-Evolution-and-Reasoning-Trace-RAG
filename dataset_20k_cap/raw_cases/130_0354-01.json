@@ -1,0 +1,885 @@
+{
+  "id": 3538448,
+  "name": "REYNES v. DUMONT; DUMONT v. FRY",
+  "name_abbreviation": "Reynes v. Dumont",
+  "decision_date": "1889-04-08",
+  "docket_number": "Nos. 174, 175",
+  "first_page": "354",
+  "last_page": "395",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "130 U.S. 354"
+    },
+    {
+      "type": "parallel",
+      "cite": "32 L. Ed. 934"
+    },
+    {
+      "type": "parallel",
+      "cite": "9 S. Ct. 486"
+    },
+    {
+      "type": "vendor",
+      "cite": "1889 U.S. LEXIS 1760"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1888-183"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "35 Am. Dec. 39",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Story, 325",
+      "category": "reporters:federal",
+      "reporter": "Story",
+      "case_ids": [
+        11735312
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/13/0513-01"
+      ]
+    },
+    {
+      "cite": "5 Pick. 146",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "case_ids": [
+        2033156
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/22/0145-01"
+      ]
+    },
+    {
+      "cite": "90 N. Y. 483",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2186244
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/90/0483-01"
+      ]
+    },
+    {
+      "cite": "64 N. Y. 231",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2161870
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/64/0231-01"
+      ]
+    },
+    {
+      "cite": "58 N. Y. 541",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2158431
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/58/0541-01"
+      ]
+    },
+    {
+      "cite": "3 N. Y. 446",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2007279
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/3/0446-01"
+      ]
+    },
+    {
+      "cite": "18 N. Y. 35",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2021156
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/18/0035-01"
+      ]
+    },
+    {
+      "cite": "15 Mass. 389",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2055361,
+        2055278
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/15/0350-01",
+        "/mass/15/0350-02"
+      ]
+    },
+    {
+      "cite": "13 Mass. 105",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2073844
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/13/0089-01"
+      ]
+    },
+    {
+      "cite": "7 Wend. 109",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2009589
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wend/7/0109-01"
+      ]
+    },
+    {
+      "cite": "2 McLean, 369",
+      "category": "reporters:federal",
+      "reporter": "McLean",
+      "case_ids": [
+        11643786
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/9/0360-01"
+      ]
+    },
+    {
+      "cite": "124 U. S. 534",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3525484
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/124/0534-01"
+      ]
+    },
+    {
+      "cite": "71 N. Y. 405",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2167970
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/71/0405-01"
+      ]
+    },
+    {
+      "cite": "50 N. Y. 661",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2059606
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/50/0661-01"
+      ]
+    },
+    {
+      "cite": "49 Ind. 302",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1411848
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ind/49/0302-01"
+      ]
+    },
+    {
+      "cite": "85 Am. Dec. 211",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "27 Cal. 11",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2242312
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/cal/27/0011-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 394",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3441578
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/76/0394-01"
+      ]
+    },
+    {
+      "cite": "16 Pet. 528",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        102739
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/41/0528-01"
+      ]
+    },
+    {
+      "cite": "10 Pet. 482",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5615777
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/35/0482-01"
+      ]
+    },
+    {
+      "cite": "3 Wheat. 101",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1443487
+      ],
+      "pin_cites": [
+        {
+          "page": "148"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/16/0101-01"
+      ]
+    },
+    {
+      "cite": "7 Pet. 113",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1436185
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/32/0113-01"
+      ]
+    },
+    {
+      "cite": "43 N. Y. 244",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2048144
+      ],
+      "pin_cites": [
+        {
+          "page": "245"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/43/0244-01"
+      ]
+    },
+    {
+      "cite": "37 N. Y. 112",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "97 N. Y. 545",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2195237
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/97/0545-01"
+      ]
+    },
+    {
+      "cite": "73 N. Y. 335",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2169813
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/73/0335-01"
+      ]
+    },
+    {
+      "cite": "17 N. Y. 466",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2019307
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/17/0466-01"
+      ]
+    },
+    {
+      "cite": "1 N. Y. 96",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2004025
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/1/0096-01"
+      ]
+    },
+    {
+      "cite": "1 How. 169",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3325327
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/42/0169-01"
+      ]
+    },
+    {
+      "cite": "97 N. Y. 196",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2195145
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/97/0196-01"
+      ]
+    },
+    {
+      "cite": "40 Am. Dec. 241",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "26 Wend. 367",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2028391
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wend/26/0367-01"
+      ]
+    },
+    {
+      "cite": "84 N. Y. 145",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2181011
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/84/0145-01"
+      ]
+    },
+    {
+      "cite": "1 How. 234",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3325116
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/42/0234-01"
+      ]
+    },
+    {
+      "cite": "45 Hun, 210",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "99 U. S. 143",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373085
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0143-01"
+      ]
+    },
+    {
+      "cite": "9 Daly, 417",
+      "category": "reporters:state",
+      "reporter": "Daly",
+      "opinion_index": -1
+    },
+    {
+      "cite": "42 Hun, 72",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Leigh, 695",
+      "category": "reporters:state",
+      "reporter": "Leigh",
+      "case_ids": [
+        6727188
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/30/0773-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 680",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421286
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/22/0680-01"
+      ]
+    },
+    {
+      "cite": "3 Pet. 210",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3305118
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/28/0210-01"
+      ]
+    },
+    {
+      "cite": "108 N. Y. 504",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2214352
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/108/0504-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. 327",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1522323
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/103/0327-01"
+      ]
+    },
+    {
+      "cite": "52 N. Y. 627",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        510968,
+        510993
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/52/0627-01",
+        "/ny/52/0627-02"
+      ]
+    },
+    {
+      "cite": "35 N. Y. Super. Ct. 338",
+      "category": "reporters:state",
+      "reporter": "N.Y. Super. Ct.",
+      "case_ids": [
+        1412399
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-super-ct/35/0338-01"
+      ]
+    },
+    {
+      "cite": "3 C. B. 519",
+      "category": "reporters:specialty",
+      "reporter": "C.B.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 Met. 259",
+      "category": "reporters:state",
+      "reporter": "Met.",
+      "case_ids": [
+        2062245
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/46/0259-01"
+      ]
+    },
+    {
+      "cite": "83 N. Y. 487",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2179273
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/83/0487-01"
+      ]
+    },
+    {
+      "cite": "104 U. S. 54",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3494530
+      ],
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/104/0054-01"
+      ]
+    },
+    {
+      "cite": "18 Fed. Rep. 578",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6729859
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/18/0578-01"
+      ]
+    },
+    {
+      "cite": "12 Fed. Rep. 21",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6715349
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/12/0021-01"
+      ]
+    },
+    {
+      "cite": "14 Fed. Rep. 293",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6727354
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/14/0293-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 3",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499795
+      ],
+      "pin_cites": [
+        {
+          "page": "8"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/107/0003-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 211",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3424828
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/82/0211-01"
+      ]
+    },
+    {
+      "cite": "23 Wall. 466",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        5649577
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/90/0466-01"
+      ]
+    },
+    {
+      "cite": "15 How. 415",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3481982
+      ],
+      "pin_cites": [
+        {
+          "page": "420"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/56/0415-01"
+      ]
+    },
+    {
+      "cite": "131 Mass. 14",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2130013
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/131/0014-01"
+      ]
+    },
+    {
+      "cite": "9 Penn. St. 475",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        960673
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/9/0475-01"
+      ]
+    },
+    {
+      "cite": "90 N. Y. 442",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2186224
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/90/0442-01"
+      ]
+    },
+    {
+      "cite": "1 How. 234",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3325116
+      ],
+      "pin_cites": [
+        {
+          "page": "239"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/42/0234-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 143",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373085
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/99/0143-01"
+      ]
+    },
+    {
+      "cite": "3 C. B. 519",
+      "category": "reporters:specialty",
+      "reporter": "C.B.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Met. 259",
+      "category": "reporters:state",
+      "reporter": "Met.",
+      "case_ids": [
+        2062245
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/46/0259-01"
+      ]
+    },
+    {
+      "cite": "83 N. Y. 487",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2179273
+      ],
+      "pin_cites": [
+        {
+          "page": "491"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/83/0487-01"
+      ]
+    },
+    {
+      "cite": "104 U. S. 54",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3494530
+      ],
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/104/0054-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 3",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499795
+      ],
+      "pin_cites": [
+        {
+          "page": "8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/107/0003-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2532,
+    "char_count": 87646,
+    "ocr_confidence": 0.462,
+    "pagerank": {
+      "raw": 3.0958680852232152e-06,
+      "percentile": 0.9975598963491694
+    },
+    "sha256": "df95bdc9b760e33723161b3adf430b60ef7ed08373b953e650e5fada27da5513",
+    "simhash": "1:0d3624461d92b748",
+    "word_count": 14992
+  },
+  "last_updated": "2024-02-27T20:04:13.435422+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "REYNES v. DUMONT. DUMONT v. FRY."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Puller\ndelivered the opinion of the court.\nThe Circuit Court held that Cavaroc & Son had pledged the bonds to Sehuchardt & Sons as security for any unpaid balance of account due from the- New Orleans Bank, with a limitation to $100,000 on the amount for which the bonds should be held liable. The unpaid balance was ultimately placed at $195,315.63. The larger part of this balance resulted from charging back the drafts on Seignouret Pr\u00e9res & Co., Honorat & Co., and Dutfoy & Co., which amounted, damages included, to over $180,000. The inquiry therefore presents itself, on this branch of the case, whether Sehuchardt & Sons had a lien upon the bonds to secure these drafts in virtue of an agreement to that effect with Cavaroc & Son.\n\"When Schuchardt & Sons, on the 9th of October; 1873, refused to deliver the bonds on the order of Cavaroc & Son, they placed their refusal, upon the ground that \u201c according to your written authority we hold New Orleans city bonds, as collateral security against bank of New Orleans,\u201d and. Wells, a member of the firm, testifies that the only written authority was the letter of Cavaroc of Fehru'ary 15, 1873. \u25a0 The letter thus appealed to as embodying the authority relied on must. be examined in the light of the correspondence of which it-forms so important a part; As early as December, 1871, Schuchardt & Sons had by letter authorized the bank to draw upon \u2022 them \u201c in advance of remittances' to the extent of $100,000, (one hundred thousand dollars,) with the understanding that such drafts are to represent exchange bought and paid for,\u201d and in February, 1873, when the bank asked \u201care we still authorized to draw d d\u00e9couvert, $100,000, (one hundred thousand dollars,) against purchases of exchange advised by wire,\u201d the\u201eanswer was, \u201c the credit of $100,000, (one hundred thousand dollars,) d d\u00e9couvert was predicated upon the deposit of New Orleans' city bonds, and on their withdrawal we, of course, supposed the agreement cancelled.\u201d\nThis assertion as- to the deposit of bonds was denied by the cashier, and he then referred Schuchardt & Sons to a letter from the president, and that letter is the one in question. After quoting from Schuchardt\u2019s letter of February 11, their statement that the one hundred thousand dollar credit was predicated on the deposit of New Orleans city bonds, Cavaroc thus proceeds: \u201c.You know that exchange at New Orleans is purchased by making advances until the drafts are delivered, and' it was in order to -accelerate our transactions that we requested that credit of you at that time. In view of your suggestion,. there is nothing to be said, except to authorize you, in case you are uncovered, to treat as collateral security a portion of the bonds in your possession belonging to my firm.\u201d And to this Schuchardt .& Sons responded to the bank, that, \u201cin accordance with the terms therein stated,\u201d (i.e., in Cavaroc\u2019s letter,) the bank might value on them \u201c \u2018 \u00e1 d\u00e9couvert,\u2019 for a sum not exceeding as maximum $100,000 (one hundred thousand dollars) against exchange purchases.-\u201d Thus the written authority relied on was in no respect different from the understanding in the beginning, as shown by the letter of 1871, that the drafts to be drawn by the bank on the Schuchardts were \u201c to represent exchange bought and paid for,\u201d and the bonds were to be held under the letters of February, 1873, as collateral to advances by the Schuchardts before remittances of the exchange. And as late as September 19th, 1873, \"Wells wrote that Schuchardt & Sons still authorized the bank \u201cto draw against purchases of exchange, and in advance of the remittances, to the extent of $100,000, on the conditions specified in the letter of Mr. Cavaroc of 15th February last.\u201d\n\u201c Exchange bought and paid for \u201d meant bills drawn against shipments, and purchased by advances made to the shippers upon the strength of documents to be furnished by them with the bills, to repay the advances so made. It was to enable the bank to make such .advances in New Orleans that Schuchardt &\u25a0 Sons on their part advanced to the bank, and, to assist the bank, Cavaroc & Son were willing to and did pledge the bonds as collateral, to a maximum of $100,000. The understanding was that the bonds should be held as collateral while Schuchardt & Sons were uncovered, that is to say, not covered by the remittance of exchange purchased, the bonds thus being used to bridge the interval between making the advances and the receipt of the drafts with bills of lading attached by Schuchardt & Sons.\nThe transactions between Schuchardt & Sons and the bank, were very large, reaching, it is true, only about $700,000, during th\u00e9 month of September, but amounting to millions during the year; in fact, Wells testifies that sometimes the bank sent \u201c over a million in one day.\u201d\nThe parties were dealing in exchange to their mutual profit, and all that Schuchardt & Sons stipulated for, and all that Cavaroc & Son agreed to, was that the bonds should be held as security while the merchandise was being purchased and shipped, and drafts against the shipments transmitted to Schuchardt & Sons in liquidation of their advances.\nWe do not understand that Schuchardt & Sons were doing business absolutely without risk, nor that Cavaroc ' & Son, in view of the course of business, were regarded as called upon to guarantee Schuchardt & Sons at all events. The latter had the drawers, the drawees, the indorsers and the- merchandise itself to rely on, and there is nothing in the letters or the testimony t'o indicate that, in addition to all this, they demanded, as to such drafts, other security. If a draft had gone forward with bill of lading attached, and the drawees refused to receive the consignment and accept the draft, and were otherwise under no obligation to do so,- and the proceeds of the shipment' sold for less than the amount of the draft, or if the acceptors became insolvent and loss was thereby occasioned, Schuchardt & Sons, though they might, if such was the course of business, charge back the difference to the bank, could not, upon this evidence, claim that these bonds were security to make good a deficiency so created, and, even if they could, no such deficiency is shown'to have occurred.\nUpon what basis then can it be held that drafts drawn by the bank directly on Seignouret Fr\u00e9res & Co., Bordeaux, Honorat & Co., Marseilles, and Dutfoy & Co., Paris, \u201c unaccompanied by documents,\u201d were secured by the bonds of Cavaroc & Son- and Dumont & Co. by \u201cwritten authority.\u201d\nThe drafts on Seignouret Fr\u00e9res & Co. appear to have been drawn September 17th, 1873, for, with damages, $56,410.26, but the dates of the other drafts are not given,- and the account. between the bank and Schuchardt. & Sons)<5prior to the first of October, 1873, is not before us. The drafts on Dutfoy & Co., amounting, with damages, to $90,256.41, were protested November 29th, December 10th, 13th and \u201819th. The drafts on Honorat & Co.-were protested October 28. No evidence is adduced on behalf of Schuchardt & Sons\u2019 trustee in bankruptcy as to the length of time on which, these drafts were drawn., We believe we are justified, then, in assuming that it was after the interview between Cavaroc, Jr., ap'd-Wells, placed by the latter as transpiring the last of August or.first of September, when it was agreed that the amounts Of business paper, that is, according to, Wells, \u201cbills of exchange drawn against shipments,\u201d which they would take, Schuchardt- & Sons might limit, and the limitation was directly, imposed of \u201cnot more, than \u00a310 | M per- week On Hambre,\u201d and \u201cnot more than-fr. 200 | M on first bankers of Paris;\u201d and, further,\u2019that when the bank sent \u201cthe,drafts of the bank On. third parties (Havre, Bordeaux, Marseilles, etc., etc.) it must put in the.hands of-Messrs. C.-C. & Son, in\u2019 trust, a de-' posit of securities, there to remain until the acceptance Or- the payment, if we deem, proper to await the payment.\u201d- This was an arrangement made by Schuchardt & Sons and evidenced by a memorandum-prepared, not by Cavaroc, but by Wells. It was not Cavaroc & Son, acting with reference to the bonds, who sought this agreement, but Schuchardt & Sons, acting for their own protection in reference to transactions other than those with w'hich the bonds were connected. The.drafts of the bank on third parties were not exchange bought and paid for, nor were drafts drawn by the bank on Schuchardt & Sons against these bills drawn by it directly on Europe, advances, made by Schuchardt & Sons against \u201c purchases of - exchange advised by telegraph.\u201d Schuchardt & Sons could have had' no expectation of receiving another set of bills drawn against shipments to repay advances made to the bank on these \u201c clean \u201d bills already.in their hands. They must have relied, as to the^e bills, upon the credit of the bank, the indorsers and the draW; ees, and other securities deposited in the hands of Cavaroc & Son; and when Schuchardt, who appears .to,have been out of town, returned, and it was concluded to limit their' opera: - tions, Wells writes -to Cavaroc that they had \u201c determined to request the bank to limit its exchange business with us to the forwarding of such drafts made by third parties as it shall deem proper to purchase.\u201d There is no intimation up to the 19th of -September that Schuchardt & Sons regarded-the \u25a0bonds as pledged for anything except'the remittance of. exchange created by drafts against shipments. The transactions in purchasing such exchange,, and transactions in the way of accommodation to the bank, \u25a0 or of the purchase of its own drafts on Europe, were kept perfectly distinct, so far as appears. Cavaroc, Jr., testifies that in his interview with Wells, late in August or the first of September, when it was agreed -that if the bank sent its own drafts there must be a deposit of securities to insure their acceptance or payment, no agreement was made, verbal or otherwise, in reference to these bonds, and nothing said about them, other than perhaps a casual remark. Wells does not deny this, although he says he feels \u201c quite confident they were alluded to.\u201d But for -a resolution purporting to have been passed by the directors of the bank on the 20th of September, there would be absolutely no evidence in this record that the bonds were to be or had ever been held as security for drafts by the bank directly. These bonds did not belong to the bank. They were largely owned by Dumont & Co. They had never been used except upon a direct order, from Cavaroc & Son. A distinct agreement with the latter that they should be held for the debts of the bank must be shown in order to the maintenance of a lien upon them. The resolution does say that the bank, in order to secure its president against \u201c any eventual loss \u201d of the bonds \u201c belonging to the firm of C. Cavaroc & Son, and actually pledged to F. Schuchardt & Sons, agents of the bank at New York, as collateral security for the' payment of all foreign exchange bills sent them for negotiation, and by them indorsed,\u201d thereby authorizes him \u201c to select as guarantee from the portfolio of the bank such papers as he may think proper, to the extent of (100,000) one hundred thousand, dollars,\u201d and that statement may be inconsistent with the. theory that all the bonds were pledged, for was simply until remittances of exchange actually bought and paid for were made; but when we consider the circumstances under which Cavaroc was situated, that resolution, under which securities to the amount of $100,000 were to be put into his hands, which might be held to secure drafts drawn by' the bank itself, in' accordance with the agreement with Schuchardt & Sons of the last of August or first of September, does not appear to us to overcome the written and other evidence as to the actual transaction'.\nThere is no element of estoppel about it, and it is a mere . question whether a resolution of that kind, passed when both Cavaroc & Son and the bank were on the brink of bankruptcy, should be taken as evidence of such cogency as to overthrow all the correspondence and testimony .to the contrary. It may go to the credibility of Cavaroc, it is true. He may have told \u2022one story on the stand under oath, and may have told his directors another story in the bank, although it does not appear that he drew the resolution or was consulted as to the particular language in which it should be couched. The facts as we hold them to be were, that the- bonds had been pledged, to the extent of $100,000, as collateral to the remittance of exchange, and that it had been agreed with Schuchardt & Sons, by Cavaroc, on behalf of the bank, that, in relation to drafts drawn by the bank directly,\" other securities should be put in the hands of Cavaroc & Son to secure such last-named drafts. Cavaroc therefore needed to have .a, resolution of the bank that he might take from its portfolio those additional securities, and the fact that the language of the resolution is broader than the terms of the pledge, or that it was inartificially drawn, or that it misrepresented the ownership of the bonds, does not entitle it to the weight attributed to it on the argument. As against third parties, the terms of a resolution, of the directors of a national banking association, when the exigencies of a financial crisis are upon them, in the attempt to prefer one of the bank\u2019s officers, cannot properly be regarded as decisive upon the question of the facts actually existing in respect to such third parties in a given case, and Dumont & Co. and-the general creditors of Cavaroc & Son ought not to be foreclosed by Cavaroc\u2019s presence when this resolution was passed. Besides, it is not inconsistent with the terms of the resolution, to confine the reference to foreign bills to all exchange actually purchased, in which view the resolution would, simply assert that the pledge was designed to secure, not only the remittance, but the ultimate payment of such exchange, but'could not be stretched to cover \u201cclean\u201d bills drawn by the bank itself. '\nThe learned judge of-tfi'e. Circuit Court' says : \u201cIn short, it is evident from the relations of the parties,* their course of business, the correspondence between them, and the construction placed upon the transactions by Cavaroc himself, that the bonds were pledged to secure Schuchardt & Sons for any overdrafts of the banking association, to the extent of $100,000, which might from time to time arise.. . Such overdrafts were the credit \u00e1. d\u00e9eouveri contemplated by the parties, and constitute the unpaid balance of account due from the banking \u00e1ssociation to Schuchardt '& Sons.\u201d , \u2022\nThe relations- of, the parties were that both were dealers in exchange and making money out of it.' The course of business was, advances by the bank to shippers, advances- by Schuchardt & Sons to the bank to enable it to- make -those advances to the shippers, the use of the money by the shippers in the purchase of merchandise, and the remittance of drafts drawn against shipments to Schuchardt & Sons, in return for their, advances. The correspondence between the parties from the first limited the transactions with which the bonds were concerned to exchange actually bought and paid for. This was the construction placed upon those transactions by both of the parties, unless this resolution of the directors of the bank is to be held as conclusive to the contrary. The indebtedness of the bank was not the result of losses- upon any drafts pur-, chased in the regular course of business, but was the result of charging back unpaid drafts, whieh had been drawn by the bank directly upon parties in Europe, without' any accompanying bills of lading. These drafts were discounted by Schuchardt & Sons, apparently in reliance not simply upon the credit of-the bank and the credit of Cavaroc & Son, if they indorsed - such drafts, but .upon the deposit of securities, as against them, in the hands of Cavaroc & Son at New Orleans; and the evidence of Casey;'shows that Cavaroc did undertake to get--and. hold securities for Schuchardt & Sons, as against drafts so situated. . And this- explains -the telegram of -Schuchardt & Sons .to Cavaroc & ' Son of October 9: \u201cVe insist on yoiir delivering to Keynes the bills receivable held by you in- trust.\u201d \u2022\nThis drawing by the bank directly on \u2022 Europe was either a recent course of proceeding or it was not. If not, it is clear that the bonds had no relation to such prior action. If of recent occurrence, it is equally clear that it was independent of the regular dealings in exchange, in respect to which the bonds were held as security to the extent and under the circumstances defined in the correspondence.\nAs the bonds in large part did not belong to Cavaroc & Son, it is due to the latter to suppose that they had no intention of subjecting them to the risks now insisted upon; and the intimacy between Cavaroc & Son and Schuchardt & Sons, and' the fact that the bonds were paid for- by drafts on Dumont & Co., whose acceptances for a considerable part of the cost were 'held by Schuchardt & Sons, render the inference a not unreasonable one, that Schuchardt & Sons knew that Cavaroc & Son had peculiar reasons for - not treating the Bonds with the same freedom as other securities; and this is confirmed by their levy -of an attachment against Dumont & Co. upon the bonds, as belonging in whole or in part to the latter.\n\"We do not concur, therefore, in the view that Schuchardt & Sons had, by special agreement, a lien upon these bonds to secure the drafts drawn on Seignouret Er\u00e9res & Co., Honorat & Co.', and Dutfoy & Co.\nThe bonds were, however, pledged to secure the remittance by the bank of exchange actually bought and paid for. The letter of February -15th authorizes Schuchardt & Sons to treat \u201c a portion \u201d of the bonds as such security, to a maximum of one hundred thousand dollars, but what portion is not defined, and \"it is evident that Schuchardt & Sons considered all of them as so pledged. There is nothing unreasonable in this, for although the bonds had cost $189,360, yet in the' fluctua-' tions of the market all of them might not have represented a reliable guaranty for more than $100,000.\nThe answer of Fry sets up that they \u201c were deposited with-the said Frederick Schuchardt & Sons, as security for any indebtedness or balances Of account which at any time might or could arise in the course of their aforesaid dealings in their aforesaid character with the said Charles Cavaroc & Son and the said New Orleans Banking Association.\u201d\nThe decree adjudges that Schuchardt & Sons had a lien upon the bonds for the balance of the account of Cavaroc & Son with them, and \u201c also \u201d that they held them, to the extent of one hundred thousand dollars, \u201cby virtue of a pledge or hypothecation \u201d to secure the indebtedness of the bank.\nThe Circuit Court said, (13 Fed. Kep. 428:) \u201cThe bonds having been left by Cavaroc & Son with Schuchardt & Sons, without any special agreement, except the pledge of a portion of them for the New Oiieans Banking Association, those not thus pledged are subject to the banker\u2019s lien of Schuchardt & Sons.\u201d And again, (18 Fed. Kep. 578:) \u201cThe terms of the pledge were that the bonds then in the possession of the Schuchardts should be held by them as security for any advance or overdraft which might ultimately exist in the dealings of. the parties, to the extent of $100,000.\u201d\nBut if the bonds were liable by express' contract for the obligations of the bank,, could they also be made to respond to the indebtedness of Cavaroc & Son, in .the absence of express agreement, by. force of a lien implied from the usage of the business ?\nIn our judgment, the bonds, being in effect all pledged to guarantee the remittance by the bank of exchange purchased, could not be held by implication' as security for the indebtedness of Cavaroc & Son on a balance of account. The specific pledge withdrew 'them from the operation of the alleged banker\u2019s lien, for it was inconsistent with the presumed intention of .the parties. And, applying the principles Apon which such a lien rests, it is doubtful whether it ever existed in favor of Schuchardt A Sons. Undoubtedly while \u201c a general lien for a balance of accounts is founded on custom, and is not favored, and j't requires strong -evidence of a settled and uniform usage,- or of a particular mode of dealing between the parties, to establish it,\u201d and \u201c general liens are looked at with jealousy, because they encroach, upon the common law, and disturb the equal distribution of the debtor\u2019s estat\u00e9 among his creditors,\u201d-(2 Kent Com. *636,) yet a general lien does arise in favor of a bank or banker out of contract expressed, or implied from the usage of the business, in the absence of anything to show a contrary intention. It does not arise upon securities .accidentally in the possession of the bank, or not in its possession in the course .of its business as such, nor where the securities \u00e1re in its hands under circumstances, .or where there is \u00e1 particular mode of dealing, inconsistent with such' general lien, Branda\u014d v. Barnett (Common Pleas), 1 Man. & Gr. 908; S. C. (Exch. Chamb. In error), 6 Man. & Gr. 630 ; S. C. (House of Lords), 3 C. B. 519, 532 and also 12 Cl. & Fin. 787, 806; Bock v. Gorissen, 2 De G., F. & J. 434, 443. In this latter case the foreign correspondents of a London firm directed the firm to purchase for them Mexican bonds to a specified amount at a specified price, .and to hold the bonds at the disposal of the correspondents.' The London firm made the purchase and wrote the correspondents that they would, until further order, retain the bonds for safe custody, and it was held that the letters constituted a special contract sufficient to exclude a general lien on the part of the London firm, if they would' otherwise have been entitled to any.\nIt was held in In re Medewe, 26 Beavan, 588, that where a customer\u2019s security was specifically stated to be \u201cfor the amount which shall or may- be found due on the balance of his account\u201d it could not be held for a subsequent floating balance, but only for the then existing balance; and in Vanderzee v. Willis, 3 Bro. Ch. 21, that a- security\"'specifically given for a contemporaneous advance of \u00a31000 by the banker was not applicable against an independent' indebtedness of \u00a3500 afterwards arising upon an ordinary running account. ,\nA bankers\u2019 lien, said Mr. Justice -Matthews, speaking for the court in National Bank v. Insurance Co., 104 U. S. 54, 71, \u201c ordinarily attaches in favor .of the bank upon the securities' and moneys, of the customer deposited in the usual course of business; for advances which are supposed to be made upon their credit. It attaches to such securities and funds, not only against the depositor, but' against the unknown equities- of all others in interest, unless modified or. waived by some agreement, express or implied, or by conduct inconsistent with its assertion.\u201d\nIn Bank of the Metropolis v. New England Bank, 1 How. 234, 239, Mr. Chief Justice Taney, in delivering the opinion, referring to the .general principle that a banker who has advanced money to another has a lien on all paper securities in his hands for the amount of his general balance, says: \u201cWe do not perceive any difference in principle between an advance of money and a balance suffered to remain upon the faith of these mutual dealings. In the one cas\u00e9 as well as the other, credit is given upon the paper deposited or expected to be transmitted in the usual course of the transactions between the parties.\u201d\n\u201c Here, then,\u201d said Caton, J., in Russell v. Hadduck, 3 Gilman, 233, 238, \u201cis the true principle upon which this, as well as all other bankers\u2019 liens, must be sustained, if at all. There must be a credit given upon the credit of the securities, either in possession or in expectancy.\u201d Fourth National Bank v. City National Bank, 68 Illinois, 398.\nIn Duncan v. Brennan, 83 N. Y. 487, 491, the language of the court id: \u201cThe general lien which bankers hold upon bills, notes, and other securities deposited with them for a balance due on general account, cannot, we think, exist where the pledge of property is for a specific sum and not a general pledge; \u201d and in Neponset Bank v. Leland, 5 Met. 259 : \u201c The notes were deposited under special circumstances; they were not pledged generally, but specifically; and this negatives any inference of any general lien, if, in the absence of such special agreement; the law would imply one;\u201d and in Wyckoff v. Anthony, 90 N. Y. 442, that \u201c where securities are pledged to a banker or broker for the payment of a particular loan or debt, he has no lien on the securities for a general balance or for the payment of other claims.\u201d See also Masonic Savings Bank v. Bang\u2019s Administrator, 84 Kentucky, 135; Bank of the United States v. Macalester, 9 Penn. St. 475 ; Hathaway v. Fall River Nat. Bank, 131 Mass. 14. The facts in Biebinger v. Continental Bank, 99 U. S. 143, were that a customer of a bank had deposited with it, as collateral security for his current indebtedness on discounts, a note secured by mortgage, which he' withdrew for foreclosure, at the sale under which he purchased the property, and left the deed he received with the bank at its request. His indebtedness to the bank was then fully .paid, but after a temporary suspension of his dealings he again incurred debts to it: It was held that as it did not appear that money was loaned or debt created on the faith of possession of the deed, the bank could not claim against the. debtor\u2019s assignee an equitable mortgage by the deposit of the conveyance. There are instances of an express pledge of securities for a specific loan, where ,the surplus realized from: them has been directed to be applied to satisfy a general debt, In re General Provident Assurance Company, ex parte National Bank, L. R. 14 Eq. 507; but there is no-pretence in the case at bar of any ground for the application of. the principle of tacking. ,\nSubjected to the test of these well-settled- rules, the facts do .not admit of serious doubt as to the correct result.\nThe bonds were not lodged in the hands of the Schuchardts in the ordinary course of banking^ business. They were sent to'New York for. a specific purpose, and, when that purpose was accomplished, permitted to remain for \u201c safe-keeping,\u201d and because New York was-a better market than New Orleans, and the express charges for their return very heavy, as is said on one side; and for convenience in procuring loans \u25a0 as is asserted on the other. - But the lo'ans made were always specific loans, and the bonds were always otherwise subject to Cavaroe & Son\u2019s call; and when the Schuchardts themselves loaned, as they did once or twice, it was upon an express pledge of \u00e1 design\u00e1ted number of the bonds as' security. Cavaroe & Son were bankers as well as .Schuchardt & Sons, and-the latter appear to have reposed implicit, confidence in them, yet there is no satisfactory evidence that' they extended to Cavaroe & Son any special indulgence in the way of general accommodation. Their cashier thinks he can''specify a case in which the bill\u00e1 of exchange sent by-Cavaroe to Schuchardt were-not-accompanied by bills of lading, but he does not do so, and the acceptances of Dumont &,Co. were on account of the purchase price' of ,the bonds. If, as argued by counsel, there is a presumption, as-between customer and banker, that the secur-' ities or property of the customer, found in the possession of the banker, have been left with him to secure him generally against loss, this is not a\u00f1 irrebuttable presumption, and each case stands upon, its own circumstances.\n.And, since Schuchardt & \u00a7ons did not claim at the time of the failure that they had a general lien, but simply that they held the bonds by \u201c written authority,\u201d \u201c as collateral security against the bank of New Orleans,\u201d we can arrive at no other conclusion than that Schuchardt & Sons were not entitled to maintain a bankers\u2019 lien against the bonds, for the ultimate debit balance of Cavaroc & Son.\n\u00a5e are asked to dispose of the case adversely to appellants upon the ground that they received the remaining bonds and money after the liens decreed in Fry\u2019s favor were satisfied; but such receipt does not oust the jurisdiction. The acceptance by appellants of what was confessedly theirs cannot be construed into an admission that the decree they seek to reverse was not erroneous, nor does it take from appellees anything, on the reversal of the decree, to which they would otherwise be entitled. Embry v. Palmer, 107 U. S. 3, 8. Nor can the objection be sustained that there was an .absence of jurisdiction in equity because of the adequacy of the remedy at law. The Schuchardts had collected many thousands of dollars on coupons cut from the bonds after October 4, 1873, and before their own failure. Fry; their assignee, had made similar collections. Fry claimed to hold the moneys and the bonds to secure a balance of account due to the Schuchardts from the Oavarocs, and. also as collateral to the indebtedness of the New Orleans Bank, Dumont & Co. claimed a large part of the bonds as against the general creditors of the Oavarocs and as against Schuchardt & Sons, and Cavaroc\u2019s general creditors claimed the residuum. As-to the amount due to Fry, controversy over some thousands of pounds in the Union Bank of London was involved. An accounting was necessary between the parties, and a multiplicity of suits was inevitable, unless the determination of the conflicting rights set up could be arrived at in a proceeding in equity. And, in addition to these considerations, we think we ought not to regard with favor the raising of this objection, for the first time, at this stage of the caus\u00e9.\nThe rule as stat\u00e9d in 1 Daniell\u2019s Chancery Practice, 555, 4th Am. ed., is, that if the.objection of want of jurisdiction in equity is not taken in proper time, namely, before the defendant enters into his defence at large, the court, having the general jurisdiction, will exercise it'; and in a not\u00e9 on page 550, many cases are cited -to establish that \u201c if a defendant in a suit in equity answers and submits to the- jurisdiction of the court, it is too late for him to object that the plaintiff has a plain and adequate remedy at law. This objection should be, taken at.the earliest, opportunity. The above rule must be taken with the qualification, that it.is competent for the court ter grant the relief sought, and that it has jurisdiction of the subject matter.\u201d.\nIn Wylie v. Coxe, 15 How. 415, 420, it is said: \u201c The want of jurisdiction, if relied on by the defendants, should have been alleged by plea or answer. It is too late to raise such an objection on the hearing in the appellate court, unless the want of jurisdiction is apparent on the face- of the bill.\u201d\nIt was held in Lewis v. Cocks, 23 Wall. 466, that if the court, upon looking at the proofs, found none at all of the matters which would make a proper case - for equity, it would be the duty of the court to recognize the fact and give it effect, though not raised by the pleadings nor suggested by counsel. To the. same effect is Oelrichs v. Spain, 15 Wall. 211. The doctrine of these and similar cases is, that the court,- for its own protection, may prevent matters purely cognizable at law from being drawn into chancery, at the pleasure of the parties interested ; but it by no cleans follows, where the subject matter belongs to the class over which a court of equity has jurisdiction, and the objection that the complainant'has an adequate' remedy at law is not made until the hearing in the appellate tribunal that the latter can exercise no discretion in the disposition of such objection. Under the circumstances of this case,, if comes altogether too late even though, if taken in limine, it might have been worthy of attention.\nThe decrees a/re-reversed at the cost of Fry,t/r.ustee, in this and the Circuit Court, and the cause remanded for further . proceedings in conformity with- this opinion.\n\u201cVous savez que le change \u00e1 New Orleans est achet\u00e9 en faisant des avances jusqu\u2019\u00e1 ce que les traites soient livr\u00e9es et c\u2019est afin d\u2019activer nos rapports que nous vous avions demand\u00e9 \u00e1 i\u2019\u00e9poque, ce d\u00e9couvert.\n\u201c Devant votre observation, il n\u2019y a r\u00eden \u00e1 clire si ce n\u2019est de vons autoriser a consid\u00e9rer comme s\u00e9curit\u00e9 collat\u00e9rale une partie des bonds \u2019 que vous . avez \u00e1 jna niaison, en cas de d\u00e9couvert.\u201d",
+        "type": "majority",
+        "author": "Mr. Chief Justice Puller"
+      }
+    ],
+    "attorneys": [
+      "Mr. John E. Parsons, for Reynes,",
+      "Mr. James C. Carter for Fry.",
+      "Mr. John M. Bowers, for Fry,"
+    ],
+    "corrections": "",
+    "head_matter": "REYNES v. DUMONT. DUMONT v. FRY.\nAPPEALS FROM THE CIRCUIT COURT OF THE UNITED STATES FOR THE SOUTHERN DISTRICT OF NEW YORK.\nNos. 174, 175.\nArgued January 23, 24, 1889.\nDecided April 8, 1889.\nThe controversy in this case involves the allowance in favor of the trustee in bankruptcy of S. of liens upon certain bonds, owned in fact by C. and D., though ostensibly belonging to C. only, as pledged to secure, by express agreement, the general balance of account.of a New Orleans bank,' of which C. was president; and also, by implication from the usage of the banking business in which S. was engaged, C.\u2019s general balance.\nThe court is of opinion upon the evidence that the bonds were pledged to secure the remittance by the bank to S. of \u201c exchange bought and paid for,\u201d that is, bills drawn against shipments and purchased by advances to the shippers, and that they cannot be held to make good a debit balance of the bank created by the. non-payment of certain drafts drawn by it directly on .Europe and unaccompanied by documents.\nA banker\u2019s lien rests upon the presumption of credit extended in faith of securities in possession or. expectancy,' and does not arise in reference to securities in possession of a bank under circumstances, or where there is a particular mode of dealing, inconsistent with such lien.\nThe pledge of these-bonds tp guarantee the remittance by the bank as before' stated and the circumstances under which they were left in the possession of S., and had been made use of by C., preclude the allowance of the banker\u2019s lien' claimed on behalf of S. as against the ultimate indebtedness of C.\nThe receipt by I), and the assignee of 0. of the remaining bonds and money realized from bonds or coupons, after the satisfaction of the Amounts decreed as liens by the Circuit Court, did not deprive D. and C.\u2019s assignee of the right of appeal. Embry v. Palmer, 107 U. S. 3, 8, approved.\nWhere the objection of want of jurisdiction in equity because of adequate remedy at law. is not made until the hearing on appeal, and the subject-matter belongs to the'class over which a court of equity has jurisdiction, this court? is not necessarily obliged to entertain such objection, even though if taken in limine, it might have been worthy of attention.\nThe case, as stated by the court in its opinion, was as follows:\nOn the 14th' of June, 1877, Frederick Dumont, August Henry Reine, and John David Moekel, who composed the firm of\u2018F. Dumont & Co., filed.-their bill in the Circuit 'Court of the United States for the Southern District of New York against Charles M. Fry, trustee \u00f3f Schuchardt. & Sons, bankrupts ; Francois Laborde and.E. H. Reynes, assignees of Charles' Cavaroc & Son, bankrupts; the Louisiana National Bank of New Orleans, and N. W. Casey, receiver of the New Orleans National Banking Association, claiming to be the owners of two hundred and. thirty-two bonds of the city of New Orleans, each for the amount of one thousand dollars; which had been in the possession of Schuchardt & Sons and were then in the possession of Fry, their trustee in bankruptcy, who also held moneys received from the coupons attached to the said bonds; and by amendment set forth that the bonds were purchased by Cavaroc & Son with the money of Dumont & Co., for their joint account, but not in the name of Dumont & Co., nor in the joint names of Dumont & Go: arid Cavaroc & Son; that Fry, trustee, refused to deliver up the bonds, and claimed to hold them as security for sums due him from Cavaroc & Son ' and Casey, as receiver; and that Fry is not entitled to hold the bonds. The bill prays that he be decreed to deliver them up, with the money received from the' sale of coupons cut therefrom, and for further relief.\nFry claimed to hold the bonds upon a banker\u2019s lien for a balance of account due Schuchardt & Sons by. Cavaroc & Son, and upon a lien by agreement for an unsecured balance due by the New Orleans National Banking Association, to the extent of $100,000. A decree was rendered December 6,1882, sustaining the liens asserted by the defendant Fry, and directing him to account as to the amourit of the same and of certain coupons which he had collected.\nMarch 5, 1881, a final decree, was entered, adjudgirig the amounts due on account of the alleged lieris respectively, and directing that so much of the said bonds as might be necessary to pay the sa\u00edne, with interest, should be sold urider the direction of the master. This was done, and Fry was paid the amount of said liens, and the balance was turned over to Dumont & Go. and Beynes, surviving assignee,\u2019 Laborde having died pending the action.\nThe master\u2019s final report was confirmed February 11,' 1885, and appeals were prosecuted by Dumont & Co. and Beynes, surviving assignee, to this court.\nThe following facts appear in evidence:\nSchuchardt & Sons were bankers at the city of New .York during the period covered by the transactions in question, and correspondents and financial agents of Cavaroc & Son, who were engaged in the commission and banking business in the city of New Orleans. Charles Cavaroc, the senior member of the latter firm, was at the same time president of- the New Orleans National Banking Association, with, which Schuchardt & Sons had similar business relations. Two hundred and seventy-five bonds of the city of New Orleans, a large part of them belonging to Dumont & Co., though it is not shown that Schuchardt & Sons had notice of this, were left by Cavaroc & Son with Schuch\u00e1rdt & Sons in September, 1870, the number having been subsequently reduced to two hundred and thirty-two. \u25a0\nThe bonds were purchased in 1870, with the proceeds of drafts on Dumont & Co. to the amount of about a million francs, which had been renewed from time to time until- after the failure of Cavaroc & Son, when Dumont. & Co. paid them to the amount of 484,000 francs. Cavaroc & Son had negotiated drafts for 200,000 francs on Dumont & Co., with Schuchardt & Sons, shortly before the failure, growing out of the original purchase of bonds, and these not having be\u00e9n paid were charged back to Cavaroc & Son by Schuchardt & Sons, thereby contributing to produce a debit balance of $7454.22 on January 12,1874, although protested drafts on Maxquelier Fils for $6562.23 were also included.\nThese drafts for 200,Q00 francs had been accepted by Dumont & Co., and were protested n\u00f3t for non-acceptance but for nonpayment ; and an action was commenced January 3,1874, by Schuchardt &'Sons against Dumont & Co. on their acceptances in the Supreme Court of New.York, and an attachment levied on the bonds in question here, in the hands of Schuchardt & Sons, Satisfaction of recovery in this suit would more than pay the debit balance \u00f3f Cavaroc & Son as finally stated in these proceedings.\nIt was stipulated between the attorney for Dumont & Co. and the attorneys for the assignee of Cavaroc & Son, that the balance of the. bonds and moneys to be paid over after the liens awarded by the court were satisfied, should be divided in the proportion of seventy-four per cent, to Dumont & Co. and twenty-six per cent to Cavaroe & Son..\nBoth- the Cayarocs testify that the bonds were left. withSchuchardt & Sons for safe-keeping, Cavaroc, Jr., referring-to a particular loan on them in the fall of 1870, which led to their being sent to New York, where they then remained on account of the heavy express charge, and the fact that New York was a better market in which to dispose of them; but Wells, a member of Schuchardt & Sons, testifies:\n\u201c On the 20th of September, 1870, we deposited with M. Morgan\u2019s Sons the above $275,000 New Orleans bonds against a loan made by them of-$200,000 to the Bank of New Orleans, and $110,000 to C. Cavaroc as part collateral for those loans. On the 21st December, 1870, M. Morgan\u2019s Sons returned us the above bonds against the payment of the two loans. On the Cth of March, 1871, Ave delivered $5000 of the above bonds to Henry Beers by order of C. Cavaroc. On the 1st of April, 1871, ' Ave delivered $160,000 of above bonds to Marks & Febre by-order of C. Cavaroc. On the 29th of May, 1871, Ave delivered $110,000 of above bonds t\u00f3 M. Morgan\u2019s Sons against a loan of $100,000. On the 30th May, 1871, Marks & Febre returned us above $160,000 bonds, against which we- loaned Cavaroc $100,000, falling due 2nd of October, 1871. On the 2nd of October, 1871, M. Morgan\u2019s Sons returned us the $110,000 -'bonds on payment of their loan. On the 27th of February, 1-872, we forwarded to Cavaroc, at New Orleans, $8000 of above bonds as per his order, On the 13th of April, 1872, we delivered $160,000 of above bonds to Importers and Traders\u2019 National Bank of this city by order of Cavaroc. On the 28th of June, 1872, the Importers and Traders\u2019 National Bank returned us the above $160,000 bonds. On-the 31st of August, 1872, we delivered $30,000 of above bonds to ppofford Brothers &. Co. by order of Cavaroc. On the 27th of May, 1873, we delivered $50,000 of the above bonds to the Importers and Traders\u2019 National Bank of New York by order of Cavaroc. On the 3d of September, 1873, the Importers and Traders\u2019 National Bank returned the above $50,000 bonds.\u201d\nHe considers that the bonds were held by his firm for- any balances that the New Orleans National Banking Association might OAve, and says that Schuchardt & Sons held them up to the time they Avere pledged to the bank as security for \u201cAvhatever Cavaroc & Son might be indebted for,\u201d but that they had no Avritten authority to hold the bonds collaterally for the bank\u2019s indebtedness, that he knew of, other than the letter of Cavaroc, Senior, of February 15, 1873, hereinafter set forth. He testifies, however, that there was \u201c a general understanding to that effect arrived at with (in) conversations with C. Cavaroc, Jr., at different times when he was in New York; among others, in August or September, 1873,\u201d although in another portion of his evidence he says: \u201c I think they were alluded to in 1873, during his visit to New York, in the fall of 1873. I feel quite confident they were alluded to in 1873,\u201d. which is \u201cas positive\u201d as he \u201ccan be upon the subject.\u201d Any such understanding is specifically denied by Cavaroc, Jr., who asserts that he \u2014\n\u201c Never made any agreement, verbal or otherwise, in reference to the bonds, with Mr. Wells or any one else, and never made with Mr. Wells or any one living any agreement or arrangement about the bonds or any other bonds to be held as general security in matters with the New Orleans National Banking Association, or even 0. Cavaroc & Son; never had any conversation with Mr. Wells about the bonds in any manner whatever, outside of a remark, as above stated, in the summer of 1873, to know if our trust was all right in their vault, which any merchant would pass upon in conversation to be certain that no accident happened to the trust or deposit for safekeeping.\u201d\nThe New Orleans National Banking Association dealt largely in foreign bills of exchange, which it negotiated through Schuchardt & Sons. By the course of business the amount 'of the foreign bills it remitted from time to time to Schuchardt & Sons was credited by the latter to the former, and the latter drew upon the former from time to time as funds were required. According to the custom of business at New Orleans, advances are made by bankers to shippers in anticipation of the actual delivery of drafts with accompanying documents, and the New Orleans Bank consequently advanced funds before it could remit drafts, so as to be credited by Schuchardt & Sons with their amount. For the mutual profit of both concerns the bank had at times been permitted by Schuchardt and Sons to draw in advance-of remittances, Cavaroc & Son were.not only bankers but large shippers of cotton abroad, and drew against the proceeds of their bills of exchange, which were accompanied by bills of lading.\nOn the 4th of December, 1871, Schuchardt & Sons wrote the cashier of the New Orleans National Banking Association the following letter:\n\u201cNew York, Deo. 4th, 1871.\nN. Augustine, Esq., Cashier New Orleans Banking Association, New Orleans, Louisiana.\n\u201cDear Sir: In reply to your inquiry, about drawing in advance against purchases of exchange we beg to say that we granted that facility at a time when your foreign exchange business with us was much more extensive and consequently more remunerative than at present, and when we held as security a deposit of N. 0. city bonds. We were, moreover, induced to make these advances (although, as we explained at the time, we could make a much more lucrative use of the money by using it here) on the assurance of Mr. Cavaroc that you would only temporarily require such facilities, and that your business would increase to such an extent that the future would largely compensate us for any present sacrifices. To our regret, however, such has not been the case, and your business, instead of increasing, has greatly diminished.. However, in order to evince our desire of doing all in bur power to contribute to the development of our correspondence, we hereby authorize you to draw upon us in advance of remittances to the extent of $100,000 (one hundred thousand dollars), with the understanding that such drafts are to represent exchange'bought and paid for. We presume also that when the loan of the Trust Co., which falls due. on the\u201921st inst., will be paid the securities will be replaced in our possession.\u201d\nFebruary 6, 1873, the cashier of the bank wrote Schuchardt & Sons:\n\u201c New Orleans, Feb\u2019y 6, 1873.\n\u201cMess. F. Schuchardt &. Sons, New York:\n\u201c Are we still authorized to draw, d d\u00e9eouvert, $100,000,' (one hundred, thousand dollars,) against purchases of exchange advised by wire?\nH. T. Blache, Cashier.\u201d\nTo which Schuchardt & Sons replied:\n\u201cNe-w York, Feb'y 11, 1873.\n\u201cHenry Blache, Esq., Cashier of the N. O. National Banking Association, New Orleans:\n\u201c The credit of $100,000 (one hundred thousand dollars)' d decoumert was predicated upon the deposit of New Orleans city. bonds, and On their withdrawal -we, of course, supposed the agreement cancelled.\nF. Schuchardt & Sons.\u201d\nWhereupon the cashier answered:\n\u201cNew Orleans, February 15th, 1873.\n\u201cMessrs. Schuchardt & Sons, New York:\n\u201cYour letter of December 4th, 1871, authorized us-to draw,; in advance of remittance, to the extent' of $100,000, (one hundred thousand dollars,) represented .by purchases of exchange, advised by telegraph. There was no mention of a deposit of city bonds to guarantee such overdraft, and we have been acting ever since under the impression that the credit was still' in forc\u00e9. We now note that .it-is cancelled,- and beg leave to refer you to the private letter of the president on the subject.\nH. T. Blache, Cashier.\u201d,\n, And on the same day, the president; Cavaroc, wrote Schuchardt & Sons a letter which he gives thus:\n\u201cNew Orleans,.February V5th, 1873.\n\u201cMess. Schuchardt & Sons, New York:\n.' \u201c In your letter of the 11th instant you say: \u2018 The credit of $100,000, (one hundred thousand dollars,) d d\u00e9eouvert, was pr\u00e9dicated upon the deposit of New Orleans city bonds, and on their withdrawal we, of course, supposed the agreement can-celled.\u2019 You know that exchange at New Orleans is purchased by making advances until such time as the drafts are delivered, and it was with view of making our mutual transactions more active that, we asked this credit, \u00e1 d\u00e9eouvert,\u2019 at the time. In view of. your remark I have nothing to say, except to authorize you to consider a portion \u00f3f th\u00e9 bonds belonging to my firm, which you have in your possession, as collateral security in case you should not be covered (en cas de d\u00e9eouvert).\nC. Cavaroc, PresH.\u201d\nOn behalf of Fry the following was introduced as the ^original:\n\u201cNew Orleans,The 15 F&orier, 1873.\n\u201c Messieurs F. Schuchardt & Sons, New York: \u2022\n\u201c Messieurs & Amis: Dans votre lettre du 11 ct. vous dites: The credit of $100 M \u00e1 d\u00e9eouvert was predicated upon the deposit of New Orleans city bonds, and on their withdrawal we, of course, supposed the agreement cancelled.\u2019\n\u201cYous savez que le change \u00e1 Nejv Orl\u00e9ans est achet\u00e9, en faisant des avances jusqu\u2019\u00e1 ce que les traites soient livr\u00e9es et c\u2019est afin d\u2019actiyer nos rapports que nous vous avions demand\u00e9, \u00e1 l\u2019\u00e9poque, ce d\u00e9eouvert.\n\u201c Devant votre observation, il n\u2019y a r\u00eden \u00e1 dire si ce n\u2019est de vous autoriser \u00e1 consid\u00e9r\u00e9r comme s\u00e9curit\u00e9 collat\u00e9rale une partie des 'bonds\u2019 que vous avez \u00e1 ma maison, en cas de d\u00e9eouvert.\n\u201c Yotre d\u00e9vou\u00e9, C. Cavaroc.\u201d\nAnd which is translated by Mr. Wells as follows:\n\u201c New Orleans, 15 Februa/ry, 1873.\n\u201cMessrs. F. Schuchardt & Sons, New York:\n\u201c Dear Sirs: In your letter of llth inst. you say the credit of $1\u201900 | M d d\u00e9eouvert was predicated upon The deposit of New Orleans city bonds, and bn their withdrawal we, of course, supposed the agreement cancelled.\u2019\n\u201cTonare aware that exchange is purchased at New Orleans by making advances until the delivery of the drafts, and it was for the purpose of giving activity to our correspondence that we at the time requested this d\u00e9cowoert.\n\u201c In the face of your observation there is nothing to say except to authorize you to consider a part of my firm\u2019s bonds which you have as collateral security in case of (unsecured \u2014 uncovered) balance of account.\n\u201cTours truly, C. Cavakoc.\u201d\nSchuchardt & Sons replied:\n\u201c New Tore, Feb. 27, 1873.\n\u201cTo the cashier of the New Orleans Banking Association, New Orleans:\n\u201c In reply to your worthy president\u2019s letter of the 15th inst., we take pleasure in authorizing you, in accordance with the. terms therein stated, to value on us \u00e1 d'ecouvert \u2019 for a sum not exceeding as maximum $100,000 (one hundred thousand, dollars) against exchange purchases.\nF. Schuchardt & Sons.\u201d\nIn the summer of 1873, Cavaroc, Jr., had two interviews with Wells, in New Tork, on his way to and from Europe, at which nothing was said about these bonds \u201c outside of a possible remark, to be positive, that nothing had happened-to our trust in their hands,\u201d but the subject of the amount of exchange Schuchardt & Sons would be willing to negotiate for the firm or the bank was mentioned, an agreement arrived at to limit certain lines of credit, and a memorandum drawn up by Wells, in French, or partly in. ,French and partly in English, as follows:\n\u201c Not more than \u00a310-1 M per week on Hambro. ,\n\u201c \u201c \u201c fr. 200 | M on first bankers of Paris,\n\u201c As much business paper (in French, effets de commerceasshall be desired, w\u00e9 reserving the right (as much in the interest of the bank as in our own) to limit the amounts- on any one house.\n\u201cWhen the bank sends the drafts of -the^bank on third parties (Havre, Bordeaux, Marseilles, etc., etc.) it must put in the hands of Messrs. C. C. & Son, in trust, a deposit of securities, there to remain until the acceptance or the payment, if we deem proper to await' the payment.\n\u201c Seignouret\u2019s line, fr. 500 | M (for bank and C. C. & Son).\u201d\nThis must have been, Wells says, the latter part of August or the early part of September, 1873, and this is confirmed by the evidence of Cavaroc, Jr., that he arrived in New Orleans \u201c the first part of September.\u201d\nMr. Wells thinks he received a letter from Mr. Cavaroc dated on or about September 15, and that he answered under date' of September 19, 1873, and Cavaroc produces a letter, as follows: '\n'\u201cNew York, Sepi. 19, 1873.\n\u201cMy Dear Mr. Cavaroc:\n\u201cI have sufficiently explained to you on your last visit here, that we should prefer, receiving from the bank only such paper as it should have purchased, and, after mature consideration and consultation with Mr.. Schuchardt, who has returned some days since, we have determined to request the bank to limit its exchange business with us to the forwarding of such drafts 'made by third parties as it shall deem proper to purchase* and we-beg you so to inform the bank. ... We hope that the bank, shall give great, activity to its operations on the aboye basis., and, in order to assist it as much as possible, we still authorize it to draw against, purchas\u00e9s of exchange, and in advance \u2022 of the remittances, to the extent of \u2022 $100,000, on the. conditions specified in the lettewof Mr. Cavaroc of 15th February last.\nBelieve me, my dear sir and friend, yours most devotedly,\n\u201cLawrence Wells.\n.\u201c Money was loaned' until to-morrow- @ 1-J- per cent; and you will readily \u2022 understand that it is no fun to be out of money,- as we are now. The system which I propose to you above will-ib. a_ measure remedy this, because we cafi draw as sorin\u2019 as we. shall'receive your telegram advising purchases.\u201d\nAn extract from the minute-book of the bank, September 20,1873, reads as follows:\n\u201cCalled Meeting.\n\u201c New Orleans Nat. Banking Ass\u2019n,\n\u201c New Orleans, Sept. 20tk, 1873.\n\u201cPresent: C. Cavaroc, Pres\u2019t.; A. Tertrou, J. Aldige, John Rocchi, H. A. Mouton, P. S. \"Wiltz, L. Haas, Jr.\n\u201c The president stated that the object of the meeting was to inform the board of the unpleasant state of affairs in general, and particularly of the panic then prevailing in New York.\n\u201c The suspension of Jay Cooke & Co., which was already announced, and which no doubt would be followed by many others, would surely tend to increase the present uneasiness and render our money, market still more stringent. He would therefore ask the board to suggest or adopt such measures as in their judgment they would think expedient to avert the impending crisis; whereupon it was unanimously \u2014\n\u201c Resolved, That all precautionary measures to be taken be left entirely to the discretion of the president, the board' hereby ratifying all that may be done by him. It is further\u2014\n\u201cResolved, That with a view of securing the president against any eventual loss of the 232 7 per cent city of New Orleans bonds belonging to the firm of C. Cavaroc & Son, and'actually pledged to F. Schuchardt & Sons, agents of the bank at New York, as collateral security for the payment of all foreign exchange bills sent them for negotiation and by them indorsed, that he be, and is hereby, authorized to select as guarantee from the portfolio of the bank such papers as he may think proper, to the extent of ($100,000) one hundred thousand dollars.\n\u201c On motion it is further\u2014\n\u201c Resolved, That the board hereby tender their thanks for the aid he is individually lending by leaving undisturbed a large cash balance, ($80,000) eighty thousand dollars, standing to the credit of 0. Cavaroc & Son on the books of the bank.\n\u201cAnd the board adjourned.\u201d\nOctober 4, 1873, the bank and Cavaroc & Son failed. N. W. Casey was appointed receiver of the bank, and Francois Laborde and Edward H. Reynes,. assignees of Cavaroc & \u2022 Son. Schuchardt & Sons were adjudicated bankrupts February 19,1876, and Charles M..Fry was appointed their trustee in bankruptcy.\nThe balance due from the New Orleans Bank to Schuchardt & Sons on October 4, 1873, the date of the failure, adding $3.20 interest, from October-1, was $4125.12, which was increased, by charging back protested drafts or acceptances and some-minor items, to $197,501.35, as per the following account\nDr. N. W. Casey, Receiver New Orleans Nat\u2019l Banking Assoc.\n1873. Charles M. Dry, trustee.\nOct'r 1. To balance........^.........$4121 92\n4. \u201c clays interest on $4121.92, @ 7 per cent..... 3 20\n7. \u201c unpaid rem. on jSTat\u2019l. Park Bank . . . ..... 353 8G\n9.' \u201c \u2018 protest.charges on rem. on Phila., $156.75 .... 2 06\n14. \u2022\u201c \u201c \u201c \u201c $100 ..... 2 06\n24. \u201c \u201c \u201c $230.47 & $130..... 4 12\n28. \u201c protested drafts on G-. Honorat & Co.\nat Marseilles......f\u2019cs 150,000\n10 per cent damages .... 15,000\nf\u2019,cs 165,000 \u2014487J 33,846 15\nNov\u2019rl7. \u201c unpaid acceptances of S. Drank & Co...... 12,500 00\n\u201c protest charges on same ........... 131\nDec\u2019r 29. \u201c protested drafts on Seignouret Preres\n& Co., Bordeaux, p\u2019ble per Paris f\u2019cs 250,000 10 per cent damages..... 25,000\nf\u2019cs 275,000 \u2014487J 56,410 26\n1874.\nJan\u2019y 12. \u201c protested drafts on A. Dutfoy\n& Co. at Paris .... f\u2019cs 200,000 29 N.ovT, 73.\n155,000 10 Dec., \u201c\n35.000 13 ' \u2022 \u201c\n10.000 19 . \u201c\n10 per cent damages .... 40,000\nf\u2019cs 440,000 \u2014487J . . 90,256 41\n$197,501'3\u20195\nFrom this debt, certain amounts collected being deducted, a balance of $180,624.58 was left, making, with $14,691.05 due on go.ld account, a total indebtedness from the bank tq Schuchardt & Sons of $195,315.63, for which a certificate was issued \u25a0 by the receiver April 8, 1879.\nSchuchardt\u2019s cashier testified:\n\u201c The drafts on Dutfoy, Seignouret and Honorat were foreign exchange bills known as \u2018 clean \u2019 \u2014 that'is, unaccompanied by documents \u2014 drawn by the New Orleans Banking Association on those parties. The one on the National Park Bank was drawn by the New Orleans National Banking Association to settle a collection.made. The bills of exchange that figure up on the gold account were mainly cotton shippers\u2019 exchange, accompanied by bills of lading.\u201d\nThe debit balance of the bank on the gold account, October 1st, 1873, was $68,231.17, afterwards reduced to $14,691.05. \u2022\n\u2022 It appears from the evidence of Casey that Schuchardt & Sons, or Fry their assignee, claimed about $38,000 in the Union Bank of London belonging to the New Orleans Bank, and other funds in the hands of Dutfoy & Co. of Paris, amounting to forty thousand francs, and that at the time of. the failure of the bank \u201c certain assets belonging to the bank were in the hands of parties claiming to hold them as collateral security for the indorsement of certain bills of exchange which had been negotiated through .\u2019Schuchardt & Sons, said bills being drawn by the bank upon Seignouret Fr\u00e9res of Bordeaux, France. Suit was brought for the- recovery of these assets, which resulted in my favor, as will appear by the decision of the Supreme Court of the United States in the case of Casey, Receiver, v. F. Schuchardt & Sons, reported in 6 Otto, [96 U. S.] p. 494.\u201d\n\u2022 In that case, Mr. Justice Bradley, delivering the opinion of the court, said:\n\u201c Schuchardt & Sons were bankers, in New York, through whom the New Orleans National Banking Association was in the habit of drawing on foreign houses, and who indorsed and disposed of the drafts,' or transmitted them for collection, and made advances thereon. They were thus in the habit of indorsing and advancing on bills drawn by the bank on Seig7 nouret Fr\u00e9res, of Bordeaux. In August and September-they became uneasy, and required, security; and it was agreed between them and the bank that they would receive and indorse drafts on Seignouret Fr\u00e9res, and accept the drafts of. the bank on themselves to a certain limited amount, upon being secured by a pledge of commercial .securities, to be deposited in the hands of' Charles Cavaroc & Son. In pursuance of this arrangement, on the 17th of September, the bank transmitted to Schuchardt & Sons its drafts on Seignouret Fr\u00e9res t\u00f3 the-amount of 250,000 francs, and, at the. same time, drew on Schuchardt & Sons against said drafts for the sum of $50,000'. On the sa\u00edne day, or the day following, securities of the bank to the amount of $60,000 were selected by the note clerk, by direction <jf Charles Cavaroc, president of the bank, put into , an envelope indorsed with the name of Schuchardt & Sons, and handed to Cavaroc, who handed them to the' cashier; and thereafter they were treated in precisely the Same manner as the securities which were selected for the Credit Mobilier and. the Park Bank, as shown in the cases which have just been decided.\u201d\nOctober 9, 1873,-Cavaroc .& Son telegraphed Schuchardt &\u25a0 Sons:\n\u201cNew Orleans, Oct. 9, 1873.\n\u201c F. Schuchardt & Sons, New York:\n\u201cPlease deliver to L. Monrose two hundred and thirty bonds, one thousand dollars each, city of New Orleans seven per cent, held in trust for us.\n\u201cC.\u2018 Cavaroc & Son.\u201d\nMonrose replied:\n\u201cNew York, Oct: 9, 1873.\n\u201c 0, Cavaroc & Son, New Orleans:\n\u201c Schuchardt refuses delivering; says you pledged as security for bank.\n\u201cL. Monrose.\u201d\nAnd Schuchardt & Sons telegraphed-:\n\u201cNew York, Oct. 9th, 1873.\n\u201c 0. Cavaroc & Son, New Orleans:\n\u201c According to your written authority we hold New Orleans city bonds as collateral security against-Bank of New Orleans. Ve insist on your delivering to Eeynes the bills receivable held by you in trust. Answer; also reply about bill lading per Queenstown.\n\u2022 \u2018\u2018 F. SCHUCHAKDT & SONS.\u201d\nOctober 11, Oavaroe & Son wrote S'chuchardt & Sons:\n\u201c New Orleans, Oct. 11, 1873.\n\u201cMess. F. Schuchardt & Sons, New York:\n\u201c Gentlemen:. \u2018 According to your written authority we hold New Orleans city bonds as collateral security against Bank of New Orleans.\u2019\n\u201c By this phrase you seem to imply that our 232 bonds ought' to serve as a guarantee to you for the reimbursement- of- all.kinds of debts and of all sums due by the bank.\n\u201c In response we refer you to the letter of our senior partner, 0. Cavaroc, February 15th last, which you yourselves invoke as the authority on which you base your rights (\u2018 according to your written authority\u2019).-\n\u201c Our authority is contained in the following terms: \u2018 In your letter of the 11th inst-. -you say -:x\u201c The credit of $100,000 d d\u00e9cov/oert was predicated upon the deposit of New Orleans city bonds, and on. their withdrawal we, of course, supposed the agreement cancelled.\u201d You know that exchange at . New Orleans is purchase^ by making advances until such time as the drafts are delivered,. and it was with a view of' making our mutual- transactions more active that we asked this credit d d\u00e9oouvert at the time. In view .of your- remark, I have nothing to say except -, to\" authorize you to consider , a portion of the bonds belonging - to my firm, which yon have in your possession, as collateral security in case you should not be covered.\u2019\n\u201c You see that according to the autnority which you invoke you have ho right to coyer yourself by means of these bonds, except those uncovered sums for which you might not have received\u2019 the. paper against which they were drawn at the moment of tfte demand for the restitution of the bonds.\n\u201cAccording to the books of the bank, whieh: correspond within a few cents with the account current .^rendered by you under date of Oct; 1st, it appears that all the drafts which the bank has made on you up to this day have been properly covered, and that is all we guaranteed by the deposit of our bonds.\n\u201c These bonds are, then, at this moment released, and we renew the order that you deliver them to L. Monrose, who is requested to receive them.\n\u201cYours, etc., C. Cavaroc & Son.\u201d\nThe following definitions of \u201c d d\u00e9couvert,\u201d with translations, were furnished by counsel for Dumont & Co.:\n\u201c Gr\u00e9dii d d\u00e9couvert: Avances faites pa/r acceptations oupav debows de caisse, sans \u00e9tre garanties pa/r connaissements des marchandises'consign\u00e9es ou des contzre-valeurs..\n\u201c Larousse, Grc ad Dictionnaire TJniversel.\n. \u201c Translation. Advances made by acceptances or cash disbursements, which (advances) are not covered by bills of lading, consigned goods or other securities.\u201d\nSo Littr\u00e9, Dictionnaire de. la langue frangaise:\n\u201c \u00c1 d\u00e9couvert. Terme de commerce: \u00c9tre d d\u00e9couvert, \u00e9tre en avance, r\u00fc avoir aucune ga/rantie des avances faites. (A d\u00e9couvert, commercial expression. To be'\u00a3\u00e1 d\u00e9couvert\u2019 is to be in advance, to have no guaranty of the advances made.) \u201d\nSo in the Dictionnaire de l\u2019Acad\u00e9mie: .\n\u201c A d\u00e9couvert. \u00c9tre a d\u00e9couvert, signif\u00ede en terme de commerce, n\u2019avdir aucun gage, \u00a3 aucune garantie par sa cr\u00e9ance.\u2019 (To be d d\u00e9couvert signifies to have no pledge, ho security, for one\u2019s claim.)\u201d\nSo, too, Bescherelle,. Dictionnaire National:\n\u201c Commerce. \u00c9tre a d\u00e9couvert: JV\u2019avoir aucun gage de sa cr\u00e9ance. (Commerceto be \u2018 a d\u00e9couvert: \u2019 to have no security or pledge for one\u2019s claim.)\u201d\nMr. \"Wells gives this as from the French Dictionary of A. Spiers, 19th ed., Barnard Bandry & Co. 12 Rue Bonaparte, Paris, 1866:.\n\u201c D\u00e9couvert, n, m. 1 (com.) (of accounts), uncovered balance.\u201d\nCavafroc, Senior, testifies:\n\u201c There is a usage and meaning. Tile words \u2018 \u00e1 d\u00e9cot/vert \u2019 we use more frequently in French than \u2018 credit.\u2019 If I write in French to ask an open credit to a banker I will merely ask him: \u2018 Let me draw on you \u00e1 d\u00e9couvert for one or two hundred thousand dollars.\u2019 If I say to the banker, \u2018 I\\vill cover you with exchange to that amount,\u2019 as soon as I cover to that amount it is finished. I don\u2019t owe a cent to that amount,, d d\u00e9couvert is closed, and I have a right to go on again.. It is a revolving credit. For instance, with Schuchardt, suppose I draw to-day $100,000 on Schuchardt and it was d d\u00e9couvert, and the next morning or day after I sent to Schuchardt $100,000 of exchange bought from different houses here, my d d\u00e9couvert is finished it is closed. As soon as I have remitted exchange for the $100,000 draft of the day preceding the d d\u00e9couvert is closed. Schuchardt is covered then. On the same day or next morning I have a right 4o draw $100,000 and cover again. As soon as I have remitted $100,000 exchange I have a right to draw again. Therefore, when the bank remitted exchange to cover what the bank had drawn under that credit, d d\u00e9couvert, the guarantee made by me, C. Cavaroc, ceased, and the right to hold these bonds ceased under that guarantee. ... I desire to say,- in explanation of the d d\u00e9couvert \u2019 spoken of in my testimony, that it had no relation to guarantee and to payment of the exchange remitted by the bank, nor of the solvency of the drawers or indorsers or acceptors, but merely embraced remittance of exchange by the bank. This'is the signification of the words \u2018 d d\u00e9couvert \u2019 here and in France, and in the letters sent and received by me, extracts of which are annexed, the words ai\u2019e so understood.\u201d\nThe balance of account claimed by Schuchardt & Sons as due from Cavaroc & Son, January 12th, 1874, was $7454.22, to which certain costs, disbursements and counsel fees, and a payment in settlement of a judgment' on a $20,0.00 draft drawn on them by Cavaroc & Son, were added, with interest, making the amount December 19,1882, some $25,715.22. The amount proved up by Schuchardt & Sons against the New Orleans Bank was $195,315.63, as has been stated. Upon this amount dividends had been paid before final decree to the amount of $117,189.38.\nThe Circuit Court held that the bonds ' were pledged to secure Schuchardt & Sons for any overdrafts of the bank which might from time to time arise, to the extent of $100,000, and that- Schuchardt & Sons were entitled to hold the. bonds subject to the pledge to the bank, as security for the indebtedness of Cavaroc & Son, by virtue of a banker\u2019s lien, 13 Fed; Rep. 423; and, further, that Cavaroc & Son had pledged the bonds, to secure the - whole indebtedness of the bank to Schuchardt & Sons, with a limitation on the extent of the liability, and hg,d not pledged them to secure a limited part of the indebtedness, and that therefore the dividends were not to be applied ratably, but the bonds could only receive the benefit of any.receipts from dividends after the indebtedness had been paid down to $100,000, 14 Fed. Rep. 293.\nThe original bill was .ordered dismissed by the court sua aponte on the ground of want of jurisdiction in equity, Dumont v. Fry, 12 Fed. Rep. 21, but retained upon amendment. No objection on this ground appears to have been raised by defendants until upon hearing here. As to allowance of interest,. see 18 Fed. Rep. 578.\nMr. John E. Parsons, for Reynes,\ncited: National Bank v. Insurance Co., 104 U. S. 54, 71; Duncan v. Brennan, 83 N. Y. 487; Neponset Bank v. Leland, 5 Met. 259; Vanderzee v. Willis, 3 Bro. Ch. 21; Branda\u014d v. Barnett, 3 C. B. 519; S. C. 6 Man. & Gr. 630; S. C. 12 Cl. & Fin. 787; Grant v. Taylor, 35 N. Y. Super. Ct. 338; S. C. 52 N. Y. 627; Wyckoff v. Anthony, 9 Daly; 417; Zelle v. German &c. Inst., 4 Missouri App. 401 ; Story Eq. Jur., \u00a7 499 ; Bardwell v. Lydall, 7 Bing. 489; S. C. 5 Moore & Payne, 327; Hobson v. Bass, 6 Ch. App. 792; Raikes v. Todd, 8 Ad. & El. 846; Ellis v. Emanuel, L. R. 1 Ex. 157; Gee v. Pack, 9 Law Times (N. S.) 290; Ward v. Todd, 103 U. S. 327; Town of Mentz v. Cook, 108 N. Y. 504; Boyce v. Grundy, 3 Pet. 210; Miller v. Stewart, 9 Wheat. 680.\nMr. James C. Carter for Fry.\nI. The _ defendant and appellee Fry, as trustee in bankruptcy for Schuchardt & Sons, had a lien upon the bonds in,question for the payment of the sum of $25,715.22, being the balance due that firm on th.e account between it and 0. Cavaroc & Son, as adjudged by the decree of the conrt below.\nThis lien is what is ordinarily known as a banker\u2019s lien. By long established law a banker has a lien upon all funds and securities in his- possession for the payment of a balance due to him on his general account with a customer, unless it appear that the funds or securities are held by him for a purpose inconsistent with such lien. Davis v. Bowsher, 5 T. R. 488; Bolland v. Bygrave, Ry. & Mood. 273; Branda\u014d v. Barnett, 12 Cl. & Fin. 787; Jones v. Peppercorne, 1 Johns. V. C. 430; In re European Bank, L. R. 8 Ch. 41; In re Gen. Prov. Ass. Co., L. R. 14 Eq. 507.\nAll liens, except statutory liens, are created by contract.; b\u00fct the contract may be, and perhaps in most cases is, an implied one. The lien referred to is implied from the nature of .the transactions between a banker and his customer, the usual relations between those parties, and the circumstance that such lien is, whenever occasion arises, asserted and enjoyed by the banker without objection from the customer.\nA banker is one who deals in money, and carries on his business at some financial centre. Merchants require the aid of a person who will keep their money, in safety while it is awaiting employment, and perhaps pay an interest on it; or lend' money to them when needed, or procure loans from others. The banker serves all these purposes. He is the treasurer and the financial agent of his customer.\nWhile the banker may have several accounts with his- customer, the general or ckravbvng account relates sol\u00e9ly to deposits of money on one side, and drafts of money on the other, or their equivalents. Whenever in the course of the transactions, of whatever character, a debt becomes due to the customer, the amount is passed to his credit in this' general account; and whenever, on the other hand, a debt becomes due from him it is passed to his debit in the same-account., The balmice of that account represents a present debt due knd owing to the customer or the banker,- as the case may be. The conditions of the business, the frequent occasions which the customer has to suddenly call for money, the possibility that discounted bills or notes will be returned unpaid, the necessity of maintaining, confidence and credit with the banker so that he may not hesitate in furnishing discounts or paying an occasional over-draft, all lead to the common practice on the part of customers of keeping securities of various kinds with their bankers, which may serve any purpose which the exigencies of business may require. Collateral which has been furnished for loans or discounts is allowed to remain after the loans- have been paid; uncollected .paper, bonds, stocks and other securities, and sometimes other valuables are left in the possession of the banker.\nInasmuch as in the vast majority of cases such securities and property of the customer found in the possession of the banker have been delivered to or left with him for no other purpose than to secure him generally against loss \u2014 the law justly assumes in all cases that this is the purpose for which they have been so delivered or left. At the same time it recognizes the fact that the purpose may have been different; and hence the rule defines the banker\u2019s lien as a lien on all securities in his possession for the payment of the balance of his account, unless it appear that the securities were deposited or left for a purpose inconsistent with such lien. It should be clearly understood that this lien is not one for debts, and liabilities generally, but only for the balance of the general or drawing account.\nThese considerations leave no doubt respecting the existence of this lien upon the securities in the hands of the appellee Fry. The relations between his assignors, Schuchardt & Sons, and Cavaro'c & Son, were a typical instance of those usually existing between banker and customer. It was open to the complainants, and to the assignees of Cavaroc & Son, to prove that the bonds were held by Schuchardt &' Sons for a purpose or under a contract inconsistent with the alleged lien. An- attempt in this, direction was made, but it was quite unsuccessful.\nIt would be to no purpose for the appellants to urge that a demand was made upon Schuchardt & Sons at the time of the bankruptcy and that at that time there was no adverse balance agaifist Cavaroc & Son, and that Schuchardt & Sons couldmot retain the bonds as security for a debt not then matured. This suggestion overlooks the material circumstance of the intervening bankruptcy. In the view of a court of equity the occur-' rence of insolvency which made it impossible that the credit side of the account with Cavaroc & Son should be improved, is a sufficient reason for imposing a stoppage at that point and declaring that the real balance is that which it must inevitably turn out to be.\nDifferent views have been expressed by courts as to whether a party owing a .debt presently due to an insolvent could set off against it, even in equity, a debt not yet due from the in7 solvent to him. But surely there would seem to be no just ground for doubt'that in such cases the party to whom the debt is not due so that it can be set off is entitled to hold as a security where his debtor is insolvent what he might hold as security if the debt were due. 1 Jones on Liens, \u00a7 246; Ford v. Thornton, 3 Leigh, 695; Fourth Nat. Bank v. City Nat. Bank, 68 Illinois, 398; Rothschild v. Mack, 42 Hun, 72; 2 Story Eq. Jur., \u00a7\u00a7 1431-1444.\nII. But Schuchardt & Sons had a direct lien-upon the bonds in question to secure the new liabilities incurred by them .for Cavaroc & Son, and which, not matured at the time of the bankruptcy of the latter, created subsequently, when mature, the adverse balance of account. Schuchardt and Sons had incurred these heavy liabilities with no security whatever, unless, these bonds were such, beyond the personal credit of Cavaroc & Son. The question therefore is, was it or not. the understanding between Caravoc & Son and Schuchardt & Sons that for any advances of money which the latter might make to the former, and liabilities incurred in the negotiation of drafts not drawn against merchandise, the bonds in question were to stand as security. Taking into consideration the facts already noticed, this question answers itself. . Such must have been the understanding.\nThere are two general forms of financial transactions which are common between a, banker and his customers, both' of which are illustrated by the dealings between Schuchardt & Sons and Cavaroc & Son, and also between the former and the National Banking Association. The one consists in the receipt of financial paper, notes, bills, &c., for collection, discount or negotiation, and results in a legitimate credit to the customer of the amount advanced in anticipation of the collections, or of the amount of the proceeds of an actual discount or sale. For this form of business no other security is required than the paper received.\nThe other form consists of drafts unaccompanied by any such securities, and without any. balance in favor of the customer arising out of prior transactions. Drafts of this latter character are of course not legitimate, unless in consequence of some agreement giving permission so to draw, and such agreement is not given without security that the sums paid out upon such drafts will be repaid. If securities are lodged with the banker to secure him for such advances the lien acquired is something more than the ordinary banker\u2019s lien for his balance.\nWg shall presently see, in the discussion of the lien for the debt due from the National Banking Association, that these extraordinary drafts unaccompanied with financial paper qualifying them, and without a balance to draw against, are discredited as drawings \u201c\u00e1 d\u00e9couvert,\u201d the substance of the meaning of which phrase is a drawing of money when there is no balance to draw against.. Such a drawing to the extent of $100,000 by the National Banking Association was authorized upon the special agreement that the bonds should stand as collateral security.- There are quite sufficient grounds for the implication that there was a like agreement, although the amount for which the drawing should be permitted is not indicated, in relation to di-afts of this character by Cavaroc & Son.\nIf, therefore, the ultimate debt to Schuchardt & Sons was created by drafts drawn upon the latter of the a d\u00e9couvert character above described, the bonds would stand as security for it until it was finally paid. The subsequent transmission of foreign bills subsequently dishonored would not pay it and release the security ; even if Schuchardt & Sons had negotiated the bills, they would be obliged, having indorsed them, to take them up. But if'the debt was created by. naked: drafts diawu upon * other parties by Cavaroc &\u25a0 Son, and cashed by way of-discount or otherwise by Schuchardt & Sons, the substance of the transaction would-still be the making of a loan to Cavaroc & Son upon the \"security of the bonds.\n. III. The questions -most- seriously contested in the court. below were those relatingto the-further lien asserted by .the defendant Fry, as assignee, upon .the \"same bonds for the debt, due\" to Schuchardt & Sons from the New Orleans National Banking Association\u2019and the-extent' or magnitude of, it. The facts proved clearly establish the existence of the lien' -\nThat-it was the intention,and agreement of Cavaroc & Son to pledge the bonds to secure some obligation of the Banking Association-to Schuchardt & Sons is not.questioned. .The written documents are conclusive upon that point.\nTo arrive at a just understanding of the real contract, of hypothecation,- the correspondence .which created it should be read in the.light of the business and circumstances out of which it arose. It will then clearly appear that the pledge was made to secure to Schuchardt & Sops the payment of any balance of accovmt which might arise against the Banking Associatiqn in consequence of the payment of drafts drawn by it upon the former when it had no right to draw.\nThe precise terms of the .pledge\" are- stated in the letter, of Cavaroc, Sen-., of February 15th, 1873, and by. this the\u2019 bonds are to\" be held as coUateral'security \u201c en cas de d\u00e9cov/oertf and the object declared by the correspondence, to gain' which the pledge was made, was to obtain for the Banking Association the privilege of- drawing \u201c d d\u00e9couvert.\u201d The literal meaning of these expressions shows that the r\u00e9al intent of the pledge was to-secure the payment by the Banking Association of . any adverse balance of accounts, created by its overdrafts; that is, by drawing when it had \u00a1no balance to draw against.-.,. The phrase \u201c a d\u00e9couvert \u201d is, according to the best authorities, a commercial one used in relation to accounts, and means' an. overdrawn account.' - To draw, therefore, \u201c d d\u00e9couvert,\u201d which was the privilege sought and gained by the pledge, is to draw when there is no balance to draw against. The. substantive \u201c d\u00e9couvert \u201d means an uncovered balance of account, which is, of course, an adverse- balance of account. There seems to be no support for the effort of. the appellants to limit a drawing \u201c \u00e1 d\u00e9couvert \u201d to the case of a draft unaccompanied by a merchandise bill. \u2022 If the Banking Association' should draw-such a draft, and yet had at the time a balance in its favor equal to the amount of the draft the drawing would surely not be \u201c d d\u00e9couvert; \u201d but a draft drawn without an existing balance, and which would therefore be \u201c d d\u00e9couvert \u201d considered by itself, would, if accompanied by a merchandise bill, cease to be \u201c d d\u00e9couvert.\u201d But this would be for the reason that the bill would- instantly create a balance in favor of the Banking Association on the general account.\n. The conclusion is that the pledge was designed to secure the payment of .any balance of account created by drafts drawn by the Banking Association when it had no balance to draw against; in other words, overdrafts. This produced the \u201c cas de d\u00e9couvert \u201d against which the pledge was in terms made by Cavaroc\u2019s letter of February 15th, 1873.\nIT. The total debt due from the National Banking Association to Schuchardt- and Gebhardt, as proved in bankruptcy, amounted to. $195,315.63, and upon this the appellant Fry, as assignee of that firm, received dividends amounting to 55 per cent from the bankrupt estate. It was insisted upon by the appellants that these dividends should have been apportioned, and a ratable part applied to diminish the debt secured by the pledge. The decree of the court below overruling this claim, and ^declaring the bonds subject to a lien for the payment of the residue of the debt remaining unpaid after the application of the entire-amount of the dividends, was correct.\n. Subrogation, for that' is the substance of the demand which is made by the appellants, is- an equity to which the surety is entitled when he pays the debt for which he became suret/y. And, necessarily, in all cases where the right of subrogation would arise if the surety had first paid the debt, and the creditor had afterwards received moneys on account of. it from the debtor, the moneys, if received by the creditor before paymenj; py the surety, would, go in exoneration of the latter.\nThe true description of the debt for which the bonds were pledged is that pa/rt of the indebtedness of the Banking Association. created by its overdrafts which it might not pay. In other words, as the learned judge in the court below described it, the unpaid balance. In case the bonds should pay the whole of this unpaid balance, then, indeed, and not until then, would Cavaroc & Son be entitled to be subrogated to Schuchardt & Sons, and to receive any further dividends which might come 'from the bankrupt estate. Such an engagement, by its very nature, supposes the right of the creditor to receive voluntary payments from the debtor without any exoneration of .the surety, and enforced payments as well, for the guaranty applies only to the balance after such payments have credited.\nThere are various modes in which a surety may limit the extent of his liability. Sometimes what the person asked to give credit may desire is security against ultimate loss; and the surety may be willing to give him such security. If the dealings are likely to involve a large and indefinite liability, prudence dictates to the surety precaution, and he exercises this by limiting his liability, leaving the creditor to allow whatever indebtedness to arise he pleases. Both know that the surety can be called upon only for the specified amount, and both also know that the surety can claim nothing from the debtor\u2019s estate until the creditor is fully paid.\nThis latter form of engagement was evidently what the parties intended. The Banking Association wanted to draw a, d\u00e9couvert, that is, to overdraw. Schuchardt & Sons proposed to give it the right to do so, provided security was given to them against ultimate loss. Cavaroc & Son were willing to secure them against such loss, but not to subject themselves to hazard beyond the sum of $100,000.\nThe authorities upon the question now under discussion are principally English. They proceed, it is believed, upon a full recognition of the above views. The following are the principal : Ex parte Rushforth, 10 Ves. 409; Wright v. Morley, 11 Ves. 12; Ellis v. Emanuel, L. R. 1 Ex. 157; Ex parte Hope, 3 M. DeG. & G. 720; Midland Banking Co. v. Chambers, 38 L. J. Ch. 478.\nMr. Frederic RT. Coudert (with whom, was Mr.. Edgar A. Hutchins on the brief) for Dumont. On the question of the meaning of the term \u00e1 \"d\u00e9qouwert, Mr. Coudert said:\nSchuchardt & Sons, by their calling, were presumably judges of the paper in which they were dealing, and considered themselves, as their, intention and state of mind is shown by the papers, covered when they received the remittances of drafts.Until drafts were remitted they were d d\u00e9couvert / that is, uncovered ;\u2022 the moment the drafts were received they ceased to be d d\u00e9couvert, and were covered.\nEven if solvent firms afterward became insolvent, this could not change the character of the paper at the time, so far as the judgment of the parties was concerned. .Schuchardt was as fully covered when he received the'business paper which he had agreed to receive as though he had received any other form of merchandise or security.\nMr. Ooudert then cited'\u201cfrom the most approved lexicographers of- Ffrance\u201d the several definitions of \u201c d d\u00e9couvert,\u201d which are-found in the statement, ante, 370, and said:\nIn the light of these concurring definitions, especially of. the first cited (Larousse, Grand Dictionnaire \u25a0 Universel), is it -not plain that Schuchardt & Sons were d decouvert only so long as they, failed to receive the drafts upon the faith or the promise of which they made the advances ? Surely they were secured for' these advances, which were in fact not cash but simply acceptances, the moment' the bills were sent them, which' they had agreed to receive, to discount and to collect.\nMr. Coudert also cited Grant v. Taylor, 35 Superior Court (N. Y.) 338; S. C. 52 N. Y. 627; Petrie v. Myers, 54 How. Pr. (N. Y.) 513; Duncan v. Brennan, 83 N. Y. 487 ; Wyckoff v. Anthony, 9 Daly, 417; Biebinger v. Continental Bank, 99 U. S. 143 ; In re Breslin, 45 Hun, 210.\nMr. John M. Bowers, for Fry,\ncited: Bank of Metropolis v. N. E. Bank, 1 How. 234; Falkland v. St. Nicholas B\u2019k, 84 N. Y. 145 ; Bryce v. Brooks, 26 Wend. 367 ; Knapp v. Alvord, 10 Paige, 205; S. C. 40 Am. Dec. 241; Myer v. Jacobs, 1 Daly (N. Y.) 32; Nagle v. McFeeters, 97 N. Y. 196; Bell v. Bruen, 1 How. 169 ; French v. Carhart, 1 N. Y. 96; Waldron v. Willard, 17 N. Y. 466 ; White's Bank v. Myles, 73 N. Y. 335 ; Coleman v. Beach, 97 N. Y. 545; Barney v. Worthington, 37 N. Y. 112; Hamilton v. Van Rensselaer, 43 N. Y. 244, 245; Douglass v. Reynolds, 7 Pet. 113 ; Lanusse v. Barker, 3 Wheat. 101, 148 (note); Lee v. Dick, 10 Pet. 482; Mauran v. Bullus, 16 Pet. 528; Noonan v. Bradley, 9 Wall. 394; Hooper v. Wells, Fargo & Co., 27 Cal. 11; S. C. 85 Am. Dec. 211; St. Louis &c. Railway v. Smuck, 49 Ind. 302 ; Menzell v. Railway Co., 1 Dillon, 531; Edsall v. Camden &c. Railroad Co., 50 N. Y. 661; First National Bank v. Wood, 71 N. Y. 405; \u00c6tna Life Insurance Co. v. Middleport, 124 U. S. 534; Foot v. Brown, 2 McLean, 369; Williams v. Sherman, 7 Wend. 109 ; Renns. Glass Factory v. Reid, 5 Cowen, 587; S. C. 6 Cowen, 393; Jarvis v. Rogers, 13 Mass. 105; Jarvis v. Rogers, 15 Mass. 389; Brainard v. Jones, 18 N. Y. 35; Schroeppell v. Shaw, 3 N. Y. 446; McKecknie v. Ward, 58 N. Y. 541; Clark v. Sickler, 64 N. Y. 231; Farwell v. Importers &c. National Bank, 90 N. Y. 483, top page 490; Gordon v. Lewis, 2 Sumner, 143, 144; Gibson v. Crehore, 5 Pick. 146; Jenkins v. Eldredge, 3 Story, 325; Hogan v. Stone, 1 Alabama, 496 ; S. C. 35 Am. Dec. 39."
+  },
+  "file_name": "0354-01",
+  "first_page_order": 376,
+  "last_page_order": 417
+}

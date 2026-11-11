@@ -1,0 +1,976 @@
+{
+  "id": 79706,
+  "name": "COOK v. UNITED STATES",
+  "name_abbreviation": "Cook v. United States",
+  "decision_date": "1933-01-23",
+  "docket_number": "No. 82",
+  "first_page": "102",
+  "last_page": "122",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "288 U.S. 102"
+    },
+    {
+      "type": "parallel",
+      "cite": "53 S. Ct. 305"
+    },
+    {
+      "type": "parallel",
+      "cite": "77 L. Ed. 641"
+    },
+    {
+      "type": "vendor",
+      "cite": "1933 U.S. LEXIS 957"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1932-149"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "260 U. S. 94",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925424
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0094-01"
+      ]
+    },
+    {
+      "cite": "7 F. (2d) 413",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1669498
+      ],
+      "pin_cites": [
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/7/0413-01"
+      ]
+    },
+    {
+      "cite": "292 Fed. 486",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3626138
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/292/0486-01"
+      ]
+    },
+    {
+      "cite": "6 F. (2d) 466",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1673698
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/6/0466-01"
+      ]
+    },
+    {
+      "cite": "13 F. (2d) 382",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1305906
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/13/0382-01"
+      ]
+    },
+    {
+      "cite": "293 Fed. 933",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        11719291
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/293/0933-01"
+      ]
+    },
+    {
+      "cite": "283 Fed. 475",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3593991
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/283/0475-01"
+      ]
+    },
+    {
+      "cite": "286 Fed. 260",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        4293
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/286/0260-01"
+      ]
+    },
+    {
+      "cite": "274 U. S. 501",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81100
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0501-01"
+      ]
+    },
+    {
+      "cite": "1 Stat. 627",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Stat. 2852",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Stat. 2773",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Stat. 2446",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Stat. 2736",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Stat. 2456",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Stat. 2403",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Stat. 2465",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Stat. 2395",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Stat. 2013",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Stat. 1875",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Stat. 1844",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Stat. 1830",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Stat. 1815",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Stat. 1809",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Stat. 1772",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 F. (2d) 744",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        918756
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/59/0744-01"
+      ]
+    },
+    {
+      "cite": "53 F. (2d) 239",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1814034
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/53/0239-01"
+      ]
+    },
+    {
+      "cite": "49 F. (2d) 372",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1828220
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/49/0372-01"
+      ]
+    },
+    {
+      "cite": "36 F. (2d) 688",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1769557
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/36/0688-01"
+      ]
+    },
+    {
+      "cite": "35 F. (2d) 872",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1766221
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/35/0872-01"
+      ]
+    },
+    {
+      "cite": "36 F. (2d) 729",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1769824
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/36/0729-01"
+      ]
+    },
+    {
+      "cite": "30 F. (2d) 444",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1748962
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/30/0444-01"
+      ]
+    },
+    {
+      "cite": "27 F. (2d) 741",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1735870
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/27/0741-01"
+      ]
+    },
+    {
+      "cite": "27 F. (2d) 738",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1735855
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/27/0738-01"
+      ]
+    },
+    {
+      "cite": "45 F. (2d) 221",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1842103
+      ],
+      "pin_cites": [
+        {
+          "page": "222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/45/0221-01"
+      ]
+    },
+    {
+      "cite": "30 F. (2d) 534",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1748887
+      ],
+      "pin_cites": [
+        {
+          "page": "537-538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/30/0534-01"
+      ]
+    },
+    {
+      "cite": "6 F. (2d) 326",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1673961
+      ],
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/6/0326-01"
+      ]
+    },
+    {
+      "cite": "27 F. (2d) 296",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1735903
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/27/0296-01"
+      ]
+    },
+    {
+      "cite": "20 F. (2d) 164",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1702515
+      ],
+      "pin_cites": [
+        {
+          "page": "174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/20/0164-01"
+      ]
+    },
+    {
+      "cite": "40 F. (2d) 74",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1792770
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/40/0074-01"
+      ]
+    },
+    {
+      "cite": "19 F. (2d) 387",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1698143
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/19/0387-01"
+      ]
+    },
+    {
+      "cite": "19 F. (2d) 925",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1698250,
+        1698331
+      ],
+      "pin_cites": [
+        {
+          "page": "926"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/19/0925-02",
+        "/f2d/19/0925-01"
+      ]
+    },
+    {
+      "cite": "13 F. (2d) 74",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1305761,
+        1305460
+      ],
+      "pin_cites": [
+        {
+          "page": "75"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/13/0074-02",
+        "/f2d/13/0074-01"
+      ]
+    },
+    {
+      "cite": "10 F. (2d) 339",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1653404
+      ],
+      "pin_cites": [
+        {
+          "page": "347"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/10/0339-01"
+      ]
+    },
+    {
+      "cite": "5 F. (2d) 838",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1678817
+      ],
+      "pin_cites": [
+        {
+          "page": "844"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/5/0838-01"
+      ]
+    },
+    {
+      "cite": "11 F. (2d) 673",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1649412
+      ],
+      "pin_cites": [
+        {
+          "page": "675"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/11/0673-01"
+      ]
+    },
+    {
+      "cite": "4 F. (2d) 405",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1682627
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/4/0405-01"
+      ]
+    },
+    {
+      "cite": "1 F. (2d) 1004",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1284661
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/1/1004-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 391",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/22/0391-01"
+      ]
+    },
+    {
+      "cite": "9 Cranch 102",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch",
+      "case_ids": [
+        533609
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/13/0102-01"
+      ]
+    },
+    {
+      "cite": "119 U. S. 407",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299940
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/119/0407-01"
+      ]
+    },
+    {
+      "cite": "3 How. 197",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3318389
+      ],
+      "pin_cites": [
+        {
+          "page": "205-206"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/44/0197-01"
+      ]
+    },
+    {
+      "cite": "3 Wheat. 246",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1443465
+      ],
+      "pin_cites": [
+        {
+          "page": "310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/16/0246-01"
+      ]
+    },
+    {
+      "cite": "119 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299948
+      ],
+      "pin_cites": [
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/119/0436-01"
+      ]
+    },
+    {
+      "cite": "272 U. S. 530",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1501287
+      ],
+      "pin_cites": [
+        {
+          "page": "532"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/272/0530-01"
+      ]
+    },
+    {
+      "cite": "284 U. S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5717490
+      ],
+      "pin_cites": [
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0167-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 488",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        433998
+      ],
+      "pin_cites": [
+        {
+          "page": "492"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0488-01"
+      ]
+    },
+    {
+      "cite": "280 U. S. 327",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3912418
+      ],
+      "pin_cites": [
+        {
+          "page": "337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/280/0327-01"
+      ]
+    },
+    {
+      "cite": "275 U. S. 475",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142721
+      ],
+      "pin_cites": [
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/275/0475-01"
+      ]
+    },
+    {
+      "cite": "204 U. S. 143",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8290819
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/204/0143-01"
+      ]
+    },
+    {
+      "cite": "264 U. S. 446",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142077
+      ],
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/264/0446-01"
+      ]
+    },
+    {
+      "cite": "112 U. S. 536",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3508162
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/112/0536-01"
+      ]
+    },
+    {
+      "cite": "124 U. S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3524633
+      ],
+      "pin_cites": [
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/124/0190-01"
+      ]
+    },
+    {
+      "cite": "273 U. S. 593",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143403
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "609-610"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/273/0593-01"
+      ]
+    },
+    {
+      "cite": "262 U. S. 100",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137670
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/262/0100-01"
+      ]
+    },
+    {
+      "cite": "1 Stat. 145",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 U. S. 47",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3907329
+      ],
+      "pin_cites": [
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/279/0047-01"
+      ]
+    },
+    {
+      "cite": "260 U. S. 606",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0606-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/162/0001-01"
+      ]
+    },
+    {
+      "cite": "56 F. (2d) 921",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1802951
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/56/0921-01"
+      ]
+    },
+    {
+      "cite": "51 F. (2d) 292",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1821404
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/51/0292-01"
+      ]
+    },
+    {
+      "cite": "42 Stat. 858",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Stat. 1761",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Stat. 590",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1334,
+    "char_count": 33430,
+    "ocr_confidence": 0.591,
+    "pagerank": {
+      "raw": 1.8048586260402492e-06,
+      "percentile": 0.9940369110322648
+    },
+    "sha256": "01a7cdea29bc7e0f771ef9b8bd58d2805307b696984b178d72b15659286a3ba8",
+    "simhash": "1:faf206366ec82fef",
+    "word_count": 5636
+  },
+  "last_updated": "2024-02-27T17:42:44.902789+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Me. Justice Van Devantee -took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "COOK v. UNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Me. Justice Brand\u00e9is\ndelivered the opinion of the Court.\nThe main question for decision is whether \u00a7 581 of the Tariff Act of 1930, c. 497, 46 Stat. 590, 747, is modified, as applied to British vessels suspected of being engaged in smuggling liquors into the United States, by the Treaty between this country and Great Britain proclaimed May 22, 1924. (43 Stat. 1761.) That section\u2014which is a reenactment in identical language of \u00a7 581 of the Tariff Act of '1922, c. 356, 42 Stat. 858, 979\u2014declares that officers of the Coast Guard are authorized to stop and board any vessel at any place within four leagues (12 miles) of the coast of the United States \u201c to examine the manifest and to inspect, search and examine \u201d the vessel and any merchandise therein; and if it-shall appear that any violation of any law of. the United States has been committed by reason of which the vessel or merchandise is liable to forfeiture, it shall be the duty of such officers to seize the same.\nOn the evening of November 1,1930, the British motor screw Mazel Tov\u2014a vessel of speed not exceeding 10 miles an hour\u2014was discovered by officers of the Coast Guard within fo\u00fcr leagues of the coast of Massachusetts and was boarded by them at a point 11% miles from the nearest land. The manifest was demanded and exhibited. Search followed, which disclosed that the only cargo on board, other than ship stores, was unmanifested intoxicating liquor which had been cleared from St. Pierre, a French possession. The vessel ostensibly bound for Nassau, a British possession, had, when boarded, been cruising off o\u00fcr coast with the intent that ultimately the liquor should be taken to the United States by other boats. But the evidence indicated that she did not intend to approach nearer than four leagues to our coast; and,- so far as appeared, she had not been in communication with our shores and had not unladen any part of her cargo. The boarding officers seized the Mazel Tov at a point more than 10 miles from our coast; took her to the Port of Providence; and there delivered the vessel and cargo to the customs officials.\nThe Collector of Customs, acting pursuant to \u00a7 584 of the Tariff Act of 1930, assessed against Frank Cook, as master of the Mazel Tov, a penalty of $14,286.18 for failure to include the liquor in the manifest. By \u00a7 584, if merchandise not described in the manifest is found on board a vessel \u201c bound to the United States,\u201d the master is subject to a penalty equal to its value, and the merchandise belonging or consigned to him is subject to forfeiture. By \u00a7 594, whenever a master becomes subject to a penalty, the vessel may be seized and proceeded against summarily by libel to recover the penalty. The Government proceeded, in the federal court for Rhode Island, to collect the assessed penalty by means of libels against both the cargo and the vessel. The cases were consolidated.\nCook, claiming as master and bailee of the vessel and as consignee and claimant of the cargo, alleged that the Mazel Tov was of British registry and owned by a Nova Scotia corporation. He answered to the merits; and excepted to the jurisdiction on the ground that the \u201c vessel was. not seized within the territorial limits of any jurisdiction of the United States, but, on the contrary, was captured and boarded at a point more than four (4). leagues from the coast,\u201d and that \u201c it was not the intention at any time to enter any of the territorial limits of the United States.\u201d\nThe District Court, having found the facts above stated, dismissed the libels. 51 F. (2d) 292. The Government appealed to the Circuit Court of Appeals, which held that the Treaty did not \u201c effect a change in 'the customs-revenue laws of the United States wherein Congress had fixed a four league protective zone \u201d; reversed the judgments; and remanded the cases to the District Court for further proceedings. 56 F. (2d) 921. This Court granted certiorari.\nCook contends, among other things, that by reason of. the Treaty between the United States and Great Britain proclaimed May 22, 1924 (43 Stat. 1761), the seizure was \u25a0 unlawful under the laws of the United States; that the authority conferred by \u00a7 581 of the Tariff Act of 1922 to board, search and seize, within the four league limit, was, as respects British vessels, modified by the Treaty so as to substitute for four leagues from our coast, the distance which \u201c can be traversed in one hour by the vessel suspected of endeavoring to commit the offense \u201d; that Congress by re-enacting \u00a7 581 in the Tariff Act of .1930 intended to continue in force the modification effected by the Treaty; and, hence, that the Mazel Tov, being a British vessel of a speed not exceeding 10 miles an hour, could not be lawfully boarded, searched and seized at a distance of liy2 miles from the coast because suspected of \u201c endeavoring to import or have imported alcoholic beverages into the United States in violation of the laws there in force.\u201d\nThe Government insists that the Treaty did not have the effect of so modifying \u00a7 581 of the Act of 1922; and that, if it did, the re-enactment of \u00a7 581 without change, by the Act of 1930, removed the alleged modification. It contends further that the validity of the seizure was not material; and if ever material had been waived.\n\u25a0 The Treaty provides, among other things, as follows:\n\u201cArticle I. The High Contracting Parties declare that it is their firm intention to uphold the principle that 3 marine miles extending from the coast line outwards and measured from low-water mark constitute the proper limits of territorial waters.\n\u201cArticle II. (1) His Britannic Majesty agrees that he will raise no objection to the boarding of private vessels under the British flag outside the limits of territorial waters by the authorities of the United States, its territories. or possessions in order that enquiries may be addressed to those on board and an examination be made of the ship\u2019s papers for the purpose of ascertaining whether the vessel or those on board are endeavoring to import or have imported alcoholic beverages into the United States, its territories or possessions in violation of the laws there in force. When such enquiries and examination show a reasonable ground for suspicion, a search of the vessel may be instituted.\n\u201c(2) If there is reasonable cause for belief that the vessel has committed or is committing or attempting to commit an offense against the laws of the United States, its territories or possessions prohibiting the importation of alcoholic beverages, the vessel may be seized and taken into a port of the United States, its territories or possessions for adjudication in accordance with such laws.\n\u201c(3) The rights conferred by this article shall not be exercised at \u00e1 greater distance from the coast of the United States, its territories or possessions than can be traversed in one hour .by the vessel suspected of endeavoring to commit the offense. In cases, however^ in which the liquor is intended to be conveyed to the United States, its territories or possessions by a vessel other than the one boarded and searched, it shall be the speed of such other vessel and not the speed of the vessel boarded, which shall determine the distance from the coast at which the right under this article can be exercised.\u201d .\nWe are of opinion that the decrees entered by the District Court should have been affirmed. -y\nFirst. It is suggested on behalf of the Government that the power to search and seize within the twelve-mile zone conferred upon officers of the Coast Guard by \u00a7 581 of the Tariff Act of \u00cd922, was unaffected by the Treaty, save that the British Government agreed not to protest where the seizure was within an hour\u2019s sailing distance of the coast. The argument is that the Treaty settled the validity of the seizure only for those cases where it was made within the limits described in the Treaty; and that since this seizure was made beyond one hour\u2019s sailing distance from the coast the Treaty did not apply. In construing the Treaty its history should be consulted. Compare United States v. Texas, 162 U. S. 1; Oklahoma v. Texas, 260 U. S. 606; Nielsen v. Johnson, 279 U. S. 47, 52. Both its language and its history show that the high contracting parties did not intend so to limit its operation.. The preamble states that they entered into the Treaty \u201c being desirous of avoiding any difficulties which might arise between them in connection with the laws in force in the United States on the subject of alcoholic beverages.\u201d The history reveals that serious differences had arisen between the two Governments in that connection; and that, for the purpose of resolving them, the parties determined to deal completely with the subject of search and seizure, beyond our territorial limits, of British vessels suspected of smuggling liquors.\nPrior to the Eighteenth Amendment the United States had never attempted, in connection with the enforcement of our customs laws, to board foreign vessels beyond the three-mile limit except where consent was implied from the fact that the vessel, being hailed, answered that she was bound for the United States, or where a vessel had been discovered violating our laws within the three-mile limit and, while endeavoring to escape, was hotly pursued. Although Hovering Acts conferring authority to board and search vessels, foreign and domestic, \u201cwithin four leagues of the coast,\u201d had existed since the foundation of our Government, see Act of August 4, 1790, c. 35, \u00a7 31, 1 Stat. 145, 164, the authority therein conferred had, prior to the Tariff Act of 1922, been in terms limited to inbound vessels; and no statute had purported to confer authority to seize foreign vessels beyond our territorial waters for violation of any of our laws, except in those few instances in which Congress acted pursuant to specific treaties. But soon after the Eighteenth Amendment took effect (January 16, 1920), vessels of British registry were found to be engaged in smuggling intoxicating liquors into the United States in violation of our laws. In the effort to prevent such violations British vessels were being boarded, searched and seized beyond the three-mile limit; and by \u00a7 581 of the Tariff Act of 1922 Congress undertook to sanction such action through enlarging the authority to board, search and seize beyond the three-mile limit so as to include foreign vessels although' not inbound.* ******\nBoth before and after the passage of the Tariff Act of 1922 it was the consistent policy of our Government to release, upon protest, all British vessels seized beyond the three-mile limit and not bound to the United States, unless it appeared that the hovering vessel had, by means of her own small boats and crew, assisted in landing there contraband goods. Our Government deemed that ex.ception an essential to the enforcement of our laws and consistent with the principles of international law. But the British Government declined to acquiesce in the propriety of the exception; declared that our practice of seizing vessels under those circumstances was not in harmony with the law of nations; protested against the seizure of any British vessel outside of the three-mile limit; and stated that insistence upon the practice would be regarded as creating \u201c a very serious situation.\u201d\nWith a view to removing the British objections, the Secretary of State proposed, on June 26, 1922, that a treaty be entered into \u201cunder which the authorities of each nation would be authorized to exercise beyond the three-mile limit of territorial waters a' measure of control over vessels belonging t\u00f3 the other \u201d\u2022 and which would include specifically \u201creciprocal provisions authorizing the authorities of each Government to exercise a right of search of vessels of the other beyond the three-mile limit of territorial waters to the extent of twelve miles from the shore.\u201d The British Government declined definitely to entertain any such proposal.\nThe decision rendered by this Court on. April 30, 1923, in Cunard Steamship Co. v. Mellon, 262 U. S. 100, led to the resumption of negotiations.' It was there decided that the National Prohibition Act applied to all merchant vessels, foreign or domestic, within the territorial waters of the United States, and that the carrying of intoxicating liquors, either as cargo or as sea' stores, through the territorial waters or into the ports and harbors of the United States is forbidden by that. Act and the Eighteenth Amendment. The embarrassment to British vessels and trade threatened by this decision was serious. Recognizing the urgent, need of some arrangement between the two Governments which would permit the conduct by the British of legitimate trade and remove this obstacle., to the operation of their vessels in the accustomed manner, the Secretary of State submitted to Great Britain, on June 11, 1923, .the draft of a treaty designed to remove the friction between the two Governments. The draft did not refer specifically to intoxicating liquors. Article I provided, in general terms, that the authorities of each country should \u201c within the distance of twelve geographical miles from its coasts\u201d be permitted to board and search private vessels of the other to ascertain whether such vessels were eng\u00e1ged in an attempt to violate its laws \u201c prohibiting or regulating the unloading near, or importation into its territories of any article; \u201d and \u201c if there is reasonable cause for belief \u201d that the vessel is so engaged to seize it. Article II; likewise, in general terms, provided that articles on private vessels of either nation listed as sea stores, or as cargo destined to a foreign port, the importation of which is prohibited, might be brought within the territorial waters of the other on -condition that they be sealed \u201c upon arrival of the vessel so destined within twelve geographical miles of the coasts \u201d and be kept sealed continuously thereafter while within the territorial waters.\nThis proposal of the Secretary of State also failed to meet with the approval of the British Government be-' cause it was regarded as involving an extension of the. limits of the territorial waters. The negotiations were, however, continued;, and ultimately the British Government submitted a counter-proposal, which sought to achieve the same results by different means. The British draft provided that the high contracting parties should declare \u201c their firm intention to uphold the principle that three marine miles measured from low water mark constitute the proper limits of territorial waters \u201d; and 'avoiding all languag\u00e9 which could possibly indicate a contrary purpose,-it made.no reference to the twelve-mile limit. Moreover, the arrangement, instead of applying generally to merchandise subject to prohibitory or regulatory laws, was to be limited specifically to intoxicating liquors; and no reciprocal rights w\u00e9re to be conferred. Each country was to secure the immunity required to' satisfy its peculiar need. The need of the United States was to be met by providing that His Britannic Majesty \u201c will raise no objection t\u00f3 the boarding,\u201d etc., outside the territorial waters at no \u201c greater distance from the coast of the United States than can be traversed in one hour by the vessel suspected of\u201d smuggling. The need of Great Britain was to be met by our allowing \u201c British vessels voyaging to or from the ports or passing through the waters of the United States to have on board alcoholic .liquors\u2019listed as .sea stores or as cargo destined for a foreign port, provided that such liquor is kept under seal while within the jurisdiction of the United States.\u201d\n\u25a0 The draft of treaty submitted by the British Government was accepted with a few purely verbal changes. . Thereby, as stated in Ford v. United States, 273 U. S. 593, 609-610, this country secured \u201c a definite fixing of the zone of legitimate seizure of hovering British vessels seeking to defeat the laws against the importation of liquor into this country from the sea.\u201d\nSecond. The Treaty, being later in date than the Act of 1922, superseded, so far as inconsistent with the terms of the Act, the authority which had been conferred by \u00a7 581 upon officers of the \u2019 Coast Guard to board, search arid seize beyond our territorial waters. Whitney v. Robertson, 124 U. S. 190, 194. For in a strict sense the Treaty was self-executing, \u2022 in that no legislation, was necessary to authorize executive action pursuant to its provisions.\nThe purpose of the provisions for seizure in \u00a7 581, and their practical operation, as an aid in the enforcement of the laws prohibiting alcoholic liquors, leave no doubt that the territorial limitations there established were modified by the Treaty. This conclusion is supported by the course of administrative practice. Shortly after the Treaty took effect, the Treasury Department - issued amended instructions for the Coast Guard which pointed out, after reciting the provisions of \u00a7 581, that \u201c in cases of special treaties, the provisions of those treaties shall be complied with \u201d; and called attention particularly to the recent treaties dealing with the smuggling of intoxicating liquors. The Commandant, of the Coast Guard, moreover, was informed in 1927, as the Solicitor General states, that all seizures of British vessels captured in the rum-smuggling trade should be within the terms of the Treaty and that seizing officers should be instructed to produce evidence, not that the vessel was found within the four-league limit, but that she was apprehended within one hour\u2019s sailing distance from the coast.\nThird. The Treaty was not abrogated by re-enacting \u00a7 581 in the Tariff Act of 1930 in the identical terms of the Act of' 1922. A treaty will not be deemed to have been abrogated or modified by a later statute unless such purpose on the part of Congress has been clearly expressed. Chew Heong v. United States, 112 U. S. 536; United States v. Payne, 264 U. S. 446, 448. Here,- the contrary appears. The committee reports and the debates upon the Act of 1930, like the re-enacted section itself, make no reference to the Treaty of 1924. Any doubt as to the construction of the section should be deemed resolved by the consistent departmental practice existing before its reenactment. Compare United States v. G. Falk & Brother, 204 U. S. 143; Nagle v. Loi Hoa, 275 U. S. 475, 481; Brewster v. Gage, 280 U. S. 327, 337; McCaughn v. Hershey Chocolate Co., 283 U. S. 488, 492; United States v. Ryan, 284 U. S. 167, 175. No'change, in this respect, was made either by the Department of the Treasury or the Department of Justice after the Tariff Act of 1930.\nSearches and seizures in the .enforcement of the laws prohibiting alcoholic liquors are governed, since the 1930 Act, as they were before, by the provisions of the Treaty. Section 581, with its scope narrowed by the Treaty, remained in force after its re-enactment in the Act of 1930. The section continued to apply to the boarding, search and seizure of all vessels of all countries with which we had- no relevant treaties. It continued also, in the enforcement of our customs laws not related to the prohibition of alcoholic liquors, to govern the boarding of vessels of those countries with which we had entered into treaties like that with Great Britain.\nFourth. As the Mazel Tov was seized without warrant of law, the libels were properly dismissed. The Government contends that the alleged illegality of the seizure is immaterial. It argues that the facts proved show a violation of our law for which the penalty of forfeiture is \u2022 prescribed; that the United States may, by filing a libel for forfeiture, ratify what otherwise would have been an illegal seizure; that the seized vessel having been brought into the Port of Providence, the federal court for Rhode Island acquired jurisdiction; and that, moreover, the claimant by answering to the merits waived any right to object to enforcement of the penalties. The argument rests upon misconceptions.\nIt is true that where the United States, having possession of property, files a libel to enforce a forfeiture resulting from a violation of its laws, the fact that the possession was acquired by a wrongful act is immaterial. Dodge v. United States, 272 U. S. 530, 532. Compare Ker v. Illinois, 119 U. S. 436, 444. The doctrine rests primarily upon the common-law rules- that any person may, at his peril, seize property which has become forfeited to, or forfeitable by, the Government; and that proceedings by the Government to enforce a forfeiture ratify a seizure made by one without authority, since ratification is equivalent to antecedent delegation of authority to seize. Gelston v. Hoyt, 3 Wheat. 246, 310; Taylor v. United States, 3 How. 197, 205-206. The doctrine is not applicable here. The objection to the seizure is not that it was wrongful merely because made by one upon whom the Government had not conferred authority to seize at the place where the seizure was made. The objection is that the Government itself lacked power to seize, since by the Treaty it'had imposed a territorial limitation upon its own authority. \u2018 The Treaty fixes the conditions under which a \u201c vessel may be seized and taken into a port of the United States, it.s territories or possessions for adjudication in accordance with \u201d the applicable laws. Thereby, Great Britain agreed that adjudication may follow a rightful seizure. Our Government, lacking power to seize, lacked power, because of the Treaty, to subject the vessel to our laws. To hold that adjudication may follow a wrongful seizure would go far to nullify the purpose and effect of the Treaty. Compare United States v. Rauscher, 119 U. S. 407.\nThe case differs from The Richmond, 9 Cranch 102, and . The Merino, 9 Wheat. 391, where forfeitures of vessels wrongfully seized by our Navy were upheld.. There, the vessels seized were of American registry; and the seizures did not violate any treaty, but were merely violations of \u2022 the law of nations because made within the territory of another sovereign. In those cases it was held that the illegality of the seizures did not affect the venue of the action-or the process of the court. Here, the objection is more fundamental. It is to the jurisdiction of. the United States. The objection is not met by distinguishing between the custody of the Coast Guard and the subsequent custody of the marshal. Nor is it lost by the entry of an \u25a0 answer to the merits. The ordinary incidents of possession of the vessel and the cargo yield to the international agreement.\nThe decree of the Circuit Court of Appeals is\nReversed.\nMe. Justice Sutherland and Me. Justice Butler are of opinion that in respect of British vessels engaged in smuggling intoxicating liquor into the' United States the treaty of 1924 was not intended to cut down the rights claimed by the United States under the hovering statutes in force since the organization of our government, but that it was the purpose of both countries to extend and enlarge such rights to enable the United States more' effectively to enforce its liquor laws and that therefore the decree of the Circuit Court of Appeals should be affirmed.\nMe. Justice Van Devantee -took no part in the consideration or decision of this case.\nThe view that the Treaty modified the limits within which British vessels might be seized for violation of the laws 'prohibiting alcoholic liquors is supported by the following cases: The Frances Louise, 1 F. (2d) 1004; The Marjorie E. Bachman, 4 F. (2d) 405; The Sagatind, 11 F. (2d) 673, 675; The Over the Top, 5 F. (2d) 838, 844; Ford v. United States, 10 F. (2d) 339, 347, affirmed, 273 U. S. 593; Hennings v. United States, 13 F. (2d) 74, 75; United States v. Ferris, 19 F. (2d) 925, 926; United States v. Schouweiler, 19 F. (2d) 387; compare United States v. Cargo ex British Schooner Patara, 40 F. (2d) 74. In other cases the view has been expressed that the treaties did not restrict, at all events, the right of seizure. The Vinces, 20 F. (2d) 164, 174, affirmed sub nom. Gillam v. United States, 27 F. (2d) 296 (compare id., p. 301); The Panama, 6 F. (2d) 326, 327; The Resolution, 30 F. (2d) 534, 537-538; The Pescawha, 45 F. (2d) 221, 222. Compare, also, the following cases in which seizure was made within twelve miles but in which it does not appear whether it was made within an hour\u2019s sailing distance or whether the question of the effect of the treaties was raised. The Mistinguette, 27 F. (2d) 738; United States v. 63 Kegs of Malt, 27 F. (2d) 741; The Newton Bay, 30 F. (2d) 444, affirmed, 36 F. (2d) 729; The Amaranth, 35 F. (2d) 872; The Marion Phillis, 36 F. (2d) 688; The Deauville, 49 F. (2d) 372; The Throndyke, 53 F. (2d) 239; The Miss C. B., 59 F. (2d) 744.\nSimilar treaties have been entered into with fifteen other countries. Norway, July 2, 1924 (43 Stat. 1772); Denmark, July 25, 1924 (43 Stat. 1809); Germany, August 11, 1924 (43 Stat. 1815) ; \u25a0 Sweden, August 18, 1924 (43 Stat. 1830); Italy, October 22, 1924 (43 Stat. 1844); Panama, January 19,1925 (43 Stat. 1875); Netherlands, April 8,1925 (44 Stat. 2013); Cuba, June \u00cd9, 1926 (44 Stat. 2395); Spain, November 17, 1926 (44 Stat. 2465); France, March 12,1927 (45 Stat. 2403); Belgium, January 11, 1928 (45 Stat. 2456); Greece, February 18, 1929 (45 Stat. 2736); Japan, January 16, 1930 (46 Stat. 2446); Poland, August 8, 1930 (46 Stat. 2773); Chile, November 26, 1930 (46 Stat. 2852). The only substantial difference in these treaties is in ' Article One, dealing with the general principle of a three-mile limit; in the treaties with Great Britain, the Netherlands, Germany, Cuba, Panama and Japan, the principle is declared to be accepted, while in the others rights and claims in tfiat regard are declared to be reserved.\nThe argument was advanced by the Solicitor General as representing the view not of the Department of Justice \u2022 but of other lawyers for the Government.\nRe-enacted by Act of March 2, 1799, c. 22, \u00a7 71,1 Stat. 627, 668; and see Rev. Stat. \u00a7 3067.\nThe model for the American statutes was the British Hovering Act of 1736, 9 Geo. II, c. 35, \u00a7 23, which provided for the forfeiture of vessels under 100 tons into which foreign goods were taken within four leagues of the coast. Compare the earlier British Hovering Acts of 1709 and 1718: 8 Arme, c. 7, \u00a7 17; 5 Geo. I,.c. 11. In 1876 all existing hovering acts were repealed by the Customs Consolidation Act, 39 & 40 Viet., c. 36, which provides in \u00a7 159 for the forfeiture of vessels belonging in whole or in part to British subjects or having half the persons on board British subjects, where the vessel is found, or discovered to have been, within three leagues of the coast; and for the forfeiture of other vessels found, or discovered to have been, within one league of the coast. For the development of the British law, see William E. Masterson, Jurisdiction in Marginal Seas, pp. 1-173.\nFor those acts, see Maul v. United States, 274 U. S. 501, 517 note 18.\nThe note of the Secretary of State of June 26, 1922\u2019, to the British Ambassador, recites \u201c that many of the ships engaged in the illegal Smuggling of liquor into the United States are registered under the British flag and that large quantities of liquor are carried\u2019by such vessels \u201d from British possessions. Dept. of State Press Release, February 16, 1927.\nThe Henry L. Marshall (286 Fed. 260, 262) was seized August 12, 1921; the Grace and Ruby (283 Fed. 475) on February 23, 1922; the Marion L. Mosher oh July 27, 1923 (United States v. United States Fidelity & Surety Co., unreported, decided August 13, 1923, in the District Court for the Eastern District of New York); the Louise F. (293 Fed. 933), on November 5, 1923; the Island Home (13 F. (2d) 382), on November 24, 1923; the Muriel E. Winters (6 F. (2d) 466), on January 6, 1924. For notices of other seizures of this kind, not resulting in adjudication, see Philip C. Jessup, The Law of Territorial Waters and Maritime Jurisdiction, pp. 254-256.\nIn reply to a question in the House of Commons on June -6, 1923, concerning the number of British vessels seized, the Undersecretary of State for Foreign Affairs replied: \u201cBroadly speaking, some 20 or 25 cases are known to His Majesty's Government where vessels, mostly of Canadian registry, have been seized. The seizures have occurred at varying distances from the shore, some within and some without the'-three-mile limit. The crews have nearly always been detained for varying periods/ His Majesty\u2019s Embassy at Washington have acted repeatedly, and in the strongest possible manner, to secure the release of vessels seized outside the three-mile limit, or inside it when a genuine case of distress seemed to be made out.\u201d 164 Parliamentary Debates (Commons), 5th series, col. 2212.\nSee Congressional Record, Yol. 62, Part 11, 67th Cong., 2d Sess., p. 11,593. An amendment to \u00a7 581, as reported, was proposed and withdrawn; -the amendment would have made the section applicable specifically to searches and s\u00e9izures for violation of the laws prohibiting alcoholic liquors. As enacted, however, the section did not fall short of the powers which the amendment would have granted in more particular terms. See Philip C. Jessup, The Law of Territorial Waters and Maritime- Jurisdiction, p. 214.\nSee Report of the Attorney General, .1923, pp. 89-90. The practice was adopted of requiring a bond, on release, conditioned on the delivery of the cargo to the ports named in the clearance papers. Ibid. The class of vessels not released -was extended, in the case of the Henry L. Marshall, to include a vessel beyond the three-mile limit, where, although the small boats were not the vessel\u2019s own, there was unity of control over the vessel and boats. 286 Fed. 260, affirmed, 292 Fed. 486.\nA statement of the American position is contained in a communication from the Secretary of State to the American Charg\u00e9 d\u2019Affaires ad interim in London, dated August 25, 1923. \u2022 MS. Records, Dept, of State. And see the communication of the Secretary of State to the British Ambassador, January 18, 1923, in which the American position is declared to be supported by the view of the British Government concerning the seizure by the Russian authorities in 1888 of the British schooner Araunah _(82 British and Foreign State Papers, p. 1058). Dept, of State Press Release, February 16, 1927. See, also, the address of the Secretary of State before the Council of Foreign Relations, on January 23, 1924, printed in '18 American Journal of International Law, p. 229.\nThe British Government stated that by the Customs Consolidation Act of 1876 \u201cBritish municipal legislation is made to conform with international law.\u201d Note of July 14, 1923, MS. Records, Dept, of State. For the Act, see note 4, swpra. '\u25a0\nThe British Ambassador to the Secretary of State, December 30, 1922, Dept, of State Press Release, February 16, 1927.\nThe British Charg\u00e9 d\u2019Affaires ad interim to the Secretary of State, July 10,1923, Dept, of State Press Release, February 16,1927,\nLetter to the British Ambassador, June 26, 1922, Dept, of State Press Release, February 16, 1927.\nThe British Ambassador to the Secretary of State, October 13, ' 1922, Dept, of State Press Release, February 16, 1927.\nOn May 25,1923, the British Ambassador addressed a note to the Secretary of State protesting against'the application of the principle announced in' this derision: A reply to this.note was sent to the British Ambassador on June 6, 1923. MS. Records, Dept-, of State. The British position was stated at length by Lord Curzon in the House of Lords on June 28, 1923. 54 Pari. Deb. (Lords), 5th series, cols. .721-729..\nProtests were likewise sent by the Italian Government, on May 29, 1923; by the Belgian Government, on May 28, 1923; -by the Netherlands Government, , on June 1, 1923; by the Norwegian Government, on June 7, 1923; by the Portuguese Government, on July 25, 1923; by the Swedish Government, on May 31, 1923; and by the Danish Government, on June 1,1923. Dept, of State Press Release, February 16, 1927.\nThe British Charg\u00e9 d\u2019Affaires ad interim to the Acting Secretary of State, September 17, 1923, Dept, of State Press Release, February 16, 1927.\nDraft Treaty, left with the Secretary of State by the British Charg\u00e9 d\u2019Aifaires, December 3, 1923.\nFord v. United States, 273 U. S. 593. Such was the view of the Secretary of State, expressed in a letter of March 3, 1924, to the Chairman of the House Committee on Foreign Affairs. See Hearings Before the Committee on Foreign Affairs, House of Representatives, on H. Res. 174, 68th Cong., 1st Sess., p. 7. Compare, as to the mean- \u25a0 ing of \u201c self-executing,\u201d Edwin D. Dickinson, Are the Liquor Treaties Self-Executing? 20 American Journal of International Law, p. 444.\nAmendments to Instructions, Customs, Navigation, and Mo-;or-Boat Laws and Duties of Boarding Officers, .1923, No. 3, issued December 11, 1924.\nSee, also, The Homestead 7 F. (2d) 413, 415. Compare United States v. Bowman, 260 U. S. 94.",
+        "type": "majority",
+        "author": "Me. Justice Brand\u00e9is"
+      }
+    ],
+    "attorneys": [
+      "Messrs. Joseph E. Fitzpatrick and Edmund M- Toland, with whom Mr. Mortimer W. Newton was on the brief, for petitioner.",
+      "Solicitor General Thacher, with whom Assistant Attorney General Youngquist and Messrs. Whitney North Seymour, A. W. Henderson, and W. Marvin Smith were on the brief, for the United States."
+    ],
+    "corrections": "",
+    "head_matter": "COOK v. UNITED STATES.\nNo. 82.\nArgued December 7, 1932.\nDecided January 23, 1933.\nMessrs. Joseph E. Fitzpatrick and Edmund M- Toland, with whom Mr. Mortimer W. Newton was on the brief, for petitioner.\nSolicitor General Thacher, with whom Assistant Attorney General Youngquist and Messrs. Whitney North Seymour, A. W. Henderson, and W. Marvin Smith were on the brief, for the United States."
+  },
+  "file_name": "0102-01",
+  "first_page_order": 148,
+  "last_page_order": 168
+}

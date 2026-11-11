@@ -1,0 +1,821 @@
+{
+  "id": 3692433,
+  "name": "THOMSEN ET AL., COMPOSING THE FIRM OF THOMSEN & COMPANY, v. CAYSER ET AL., COMPOSING THE FIRM OF CAYSER, IRVINE & COMPANY, ET AL.",
+  "name_abbreviation": "Thomsen v. Cayser",
+  "decision_date": "1917-03-06",
+  "docket_number": "No. 2",
+  "first_page": "66",
+  "last_page": "89",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "243 U.S. 66"
+    },
+    {
+      "type": "parallel",
+      "cite": "61 L. Ed. 597"
+    },
+    {
+      "type": "parallel",
+      "cite": "37 S. Ct. 353"
+    },
+    {
+      "type": "vendor",
+      "cite": "1917 U.S. LEXIS 2095"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1916-157"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "213 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8289427
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/213/0347-01"
+      ]
+    },
+    {
+      "cite": "125 Fed. Rep. 454",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        65868
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/125/0454-01"
+      ]
+    },
+    {
+      "cite": "52 Fed. Rep. 104",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1630168
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/52/0104-01"
+      ]
+    },
+    {
+      "cite": "51 Fed. Rep. 213",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3813275
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/51/0213-01"
+      ]
+    },
+    {
+      "cite": "51 Fed. Rep. 205",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3814936
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/51/0205-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 600",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675057
+      ],
+      "pin_cites": [
+        {
+          "page": "609, 610"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/234/0600-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 61",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8285375
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "88"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/226/0061-01"
+      ]
+    },
+    {
+      "cite": "236 U. S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286342
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/236/0194-01"
+      ]
+    },
+    {
+      "cite": "224 U. S. 383",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3668599
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/224/0383-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3601017
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0505-01"
+      ]
+    },
+    {
+      "cite": "188 Fed. Rep. 339",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6746405
+      ],
+      "pin_cites": [
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/188/0339-01"
+      ]
+    },
+    {
+      "cite": "218 Fed. Rep. 502",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6745904
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/218/0502-01"
+      ]
+    },
+    {
+      "cite": "214 Fed. Rep. 987",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6745726
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/214/0987-01"
+      ]
+    },
+    {
+      "cite": "222 Fed. Rep. 349",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6740166
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/222/0349-01"
+      ]
+    },
+    {
+      "cite": "222 Fed. Rep. 599",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6741205
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/222/0599-01"
+      ]
+    },
+    {
+      "cite": "223 Fed. Rep. 55",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3895348
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/223/0055-01"
+      ]
+    },
+    {
+      "cite": "220 Fed. Rep. 230",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6739568
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/220/0230-01"
+      ]
+    },
+    {
+      "cite": "216 Fed. Rep. 971",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6745569
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/216/0971-01"
+      ]
+    },
+    {
+      "cite": "39 Stat. 728",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "152 Fed. Rep. 864",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6750500
+      ],
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/152/0864-01"
+      ]
+    },
+    {
+      "cite": "85 Fed. Rep. 271",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7852300
+      ],
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/85/0271-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 290",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592671
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0290-01"
+      ]
+    },
+    {
+      "cite": "143 N. Y. 271",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2262353
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/143/0271-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 251",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1172715
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/10/0518-01"
+      ]
+    },
+    {
+      "cite": "68 N. Y. 558",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        528991
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/68/0558-01"
+      ]
+    },
+    {
+      "cite": "43 N. Y. 147",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2048085
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/43/0147-01"
+      ]
+    },
+    {
+      "cite": "5 Denio, 434",
+      "category": "reporters:state",
+      "reporter": "Denio",
+      "case_ids": [
+        1881384
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/denio/5/0434-01"
+      ]
+    },
+    {
+      "cite": "4 Denio, 349",
+      "category": "reporters:state",
+      "reporter": "Denio",
+      "case_ids": [
+        485378
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/denio/4/0349-01"
+      ]
+    },
+    {
+      "cite": "228 U. S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4841115,
+        3668038
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/alaska-fed/4/0087-01",
+        "/us/228/0087-01"
+      ]
+    },
+    {
+      "cite": "229 U. S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3665951
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "376"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/229/0373-01"
+      ]
+    },
+    {
+      "cite": "221 U. S. 106",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658750
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/221/0106-01"
+      ]
+    },
+    {
+      "cite": "221 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658404
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/221/0001-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239466
+      ],
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/175/0211-01"
+      ]
+    },
+    {
+      "cite": "12 I. C. C. 241",
+      "category": "reporters:federal",
+      "reporter": "I.C.C.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "114 N. Y. 371",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2223958
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/114/0371-01"
+      ]
+    },
+    {
+      "cite": "127 Fed. Rep. 23",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3847943
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/127/0023-01"
+      ]
+    },
+    {
+      "cite": "63 Iowa, 732",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        4371418
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/63/0732-01"
+      ]
+    },
+    {
+      "cite": "204 U. S. 426",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292632
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/204/0426-01"
+      ]
+    },
+    {
+      "cite": "142 Fed. Rep. 1015",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "52 Fed. Rep. 187",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1630405
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/52/0187-01"
+      ]
+    },
+    {
+      "cite": "124 N. Y. 156",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2235456
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/124/0156-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 22",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3506028
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/111/0022-01"
+      ]
+    },
+    {
+      "cite": "27 Fed. Rep. 259",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "17 Wall. 357",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        62446
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/84/0357-01"
+      ]
+    },
+    {
+      "cite": "166 Fed. Rep. 251",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6718803
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/166/0251-01"
+      ]
+    },
+    {
+      "cite": "149 Fed. Rep. 933",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3909605
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/149/0933-01"
+      ]
+    },
+    {
+      "cite": "190 Fed. Rep. 536",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6746399
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/190/0536-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675030
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/234/0199-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8285245
+      ],
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/226/0020-01"
+      ]
+    },
+    {
+      "cite": "91 U. S. 143",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5648372
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/91/0143-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 600",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675057
+      ],
+      "pin_cites": [
+        {
+          "page": "609"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/234/0600-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3601017
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/171/0505-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 290",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/166/0290-01"
+      ]
+    },
+    {
+      "cite": "228 U. S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4841115,
+        3668038
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/alaska-fed/4/0087-01",
+        "/us/228/0087-01"
+      ]
+    },
+    {
+      "cite": "229 U. S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3665951
+      ],
+      "pin_cites": [
+        {
+          "page": "376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/229/0373-01"
+      ]
+    },
+    {
+      "cite": "221 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658404
+      ],
+      "pin_cites": [
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/221/0001-01"
+      ]
+    },
+    {
+      "cite": "204 U. S. 426",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292632
+      ],
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/204/0426-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1593,
+    "char_count": 46174,
+    "ocr_confidence": 0.599,
+    "pagerank": {
+      "raw": 7.728775796783359e-07,
+      "percentile": 0.971741209622646
+    },
+    "sha256": "2c65474903fcd61a48a392d884e9a79c0538d74deca530a0835204ad890dbcc7",
+    "simhash": "1:bdfd496529eee6e8",
+    "word_count": 7790
+  },
+  "last_updated": "2024-02-27T17:03:48.338465+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THOMSEN ET AL., COMPOSING THE FIRM OF THOMSEN & COMPANY, v. CAYSER ET AL., COMPOSING THE FIRM OF CAYSER, IRVINE & COMPANY, ET AL."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice McKenna,\nafter stating the case as above, delivered the opinion of the court.\nA motion to dismiss the writ of error is made, two grounds being urged: (1) The Circuit Court of Appeals was without jurisdiction to allow the writ on March 15, 1912, for the reason that its judgment had become executed and the judgment entered thereoh in the Circuit Court November 24, 1911, had become final and irrevocable before the petition for the writ was filed and the order allowed. (2) The judgment of the Circuit Court was entered in the form finally adopted at the request of plaintiffs and by their consent, and the errors assigned by plaintiffs were waived by such request and consent.\nThe argument to support the motion is somewhat roundabout. It gets back to the Circuit Court and charges that because that court had entered judgment on the original mandate and had adjourned for the term without any application having been made to recall that judgment and because no writ of error to review it was sought, the judgment became a final disposition of the case.\nWe \u00e1re not concerned with what the Circuit Court might have done, but only with what the Circuit Court of Appeals did and the jurisdiction it possessed. It received and granted a petition for rehearing, ordered a recall of the mandate previously issued, set \u00e1side the judgment of the Circuit Court, and remanded the case with directions to dismiss the complaint. The plaintiffs did not consent to a judgment against them, but only that, if there was to be such a judgment, it should be final in form instead of interlocutory, so that they might come to this court without further delay.\nSubsequently a petition for the writ of error was filed and allowed and all further proceedings upon the part of the defendants for the enforcement of the judgment were suspended and stayed until the final determination by this court upon the writ of error, in return to which the record was properly furnished. Atherton v. Fowler, 91 U. S. 143.\nThe motion to dismiss is denied.\nThe case in the courts below had a various fate, victory alt\u00e9rnating between the parties but finally resting with defendants.\nThe plaintiffs, dissatisfied, have brought the case here. We are confronted at the outset, in view of the proceedings in the courts below, with contentions as to what questions of law or fact are before us.\nNotwithstanding two trials and two \u00e1ppeals and reviews in the Circuit Court of Appeals, defendants insist the facts are yet in controversy. We cannot assent..\nIt will be observed from the excerpts from the opinions of the Circuit Court of Appeals that the case was decided upon the proposition of law that the combination charged against defendants was not in unreasonable restraint of trade and that such character was necessary to make it illegal under the Federal Anti-trust Act. As to. the fact of combination and restraint and the means employed both trial and appellate courts concurred, and their conclusion is not shown to be erroneous.\nThere is a contention that \u201cthere is not in the record any direct proof whatever of the terms of any conference or agreement participated in by any of the defendants. All that appears is that certain steamship owners consisting of firms, the identity of whose members is not established, operated steamers in the trade from New. York to South African ports without competing with one another.\u201d But more than that appears, and it cannot be assumed that the circulars that were issued and the concerted course of dealing under them were the accidents of particular occasions having no premeditation or subsequent unity in execution. The contention did not prevail with the courts below and we are brought to the consideration of the grounds upon which the Circuit Court of Appeals changed its ruling, that is, that it was constrained to do so by the Standard Oil and Tobacco Cases, 221 U. S. 1, 106.\nIt is not contended that the facts of those cases or their decision constrained such conclusion, but only that they announced a rule which, when applied to the case at bar, demonstrated the inoffensive character of the combination of defendants. In other words, it is contended that it was decided in those cases that \u201cthe rule of reason\u201d must be applied in every case \u201cfor the purpose of determining whether the subject before the court was Within the statute,\u201d to quote the words of the opinion, and, as explained in subsequent cases, it is the effect of the rule that only such contracts and combinations are within the act as, by reason of their intent or the inherent nature of the contemplated acts, prejudice the public interest by unduly restricting competition or unduly obstructing the course of trade. Nash v. United States, 229 U. S. 373, 376; Eastern States Retail Lumber Dealers\u2019 Association v. United States, 234 U. S. 600, 609.\nBut the cited cases did not overrule prior cases. Indeed, they declare that prior cases, aside from certain expressions in two of them or asserted implications from them, were, examples of the rule and show its thorough adequacy to prevent evasions of the policy of the law \u201cby resort to any disguise or subterfuge of form\u201d or the escape of its prohibitions \u201cby any indirection.\u201d And we have since declared that it cannot \u201cbe evaded by good motives,\u201d the law being \u201cits own measure of right and wrong, of what it permits, or forbids, and the judgment of the courts cannot be set up against it in a supposed accommodation of its policy with the good intention of the parties and, it may be, of some good results.\u201d Standard Sanitary Mfg. Co. v. United States, 226 U. S. 20, 49; International Harvester Co. v. Missouri, 234 U. S. 199.\nThe rule condemns the combination of defendants, indeed, must have a stricter application to it than to the combinations passed on in the cited cases. The defendants were common carriers and it was their duty to compete, not combine; and their duty takes from them palliation, subjects them in a special sense to the policy of the law. \u25a0\nTheir plan of evasion was simple and as effective as simple. They established a uniform freight rate, including in it what they called a primage charge. This charge was refunded subsequently, but only to shippers who shipped exclusively by the Unes of the combining companies and who had not directly or indirectly made or been interested in any shipment by other vessels. And there was the further condition that the rebate was not payable on the goods of any consignee who directly or indirectly imported goods by vessels other than those of the' \u201cconference\u201d \u2014 to use the word employed by .the witnesses to describe the combining compames. This loyalty on the part of the consignees was subsequently not exacted, but loyalty upon the part of shippers was continued to be required and its reward was the refunding of the primage charge. That the combination was effective both the lower courts agreed; Upon its extent they differed, the Court of Appeals considering that while it was in restraint of trade the restraint was reasonable and therefore not obnoxious to the law.\n. The Court of Appeals has not given us its reason for its conclusion. Counsel for defendants say that the Standard Oil and Tobacco Cases furnish the explanation, and that they support what the history of the act establishes, that it was the \u201cclear intent upon the part of Congress not to condemn contracts and combinations merely because they are in restraint of competition or merely because they operate to raise the cost of commodities to consumers.\u201d\nThe argument that is employed to sustain the contention is one that has been addressed to this court in all of the cases and we may omit an extended consideration of it. It. terminates, as it has always terminated, in the assertion that the particular combination involved promoted trade, did not restrain it, and that it was a beneficial and not a detrimental agency of commerce.\nWe have already seen that a combination is not excused because it was induced by good motives or produced good results, and yet such is the justification of defendants. They assert first that they are voluntary agencies of commerce, free to go where they will, not. compelled to run from New York to Africa,* and that, \u201cunlike railroads, neither law, nor any other necessity, fixes them upon particular courses;\u201d and therefore, it is asked, \u201cwho can say that otherwise than under the plan adopted, any of the ships of the defendants would have supplied facilities for transportation of commodities between New York and South Africa during the time referred to in the complaint?\u201d The resultant good of the plan, it is said, was \u201cregularity of service, with steadiness of rates\u201d; and that \u201cthe whole' purpose of the plan under which the defendants acted was to achieve this result.\u201d\nWe may answer the conjectures of the argument- by the counter one that if defendants had not entered the trade others might have done so and been willing to serve shippers without constraining them, been willing to compete against others for the patronage of the trade. And it appears from the testimony that certain lines so competed until they were taken into the defendants\u2019 combination.\nNor can it be said that under defendants as competitors or that under competing lines service would not be regular or rates certain, or, if uncertain, that they would be detrimentally so.\nThat the combination was intended to prevent- the competition of the lines which formed it is testified, and it cannot be justified by the conj\u00e9ctures offered by counsel; nor can we say that the success of the trade required a constraint upon shippers or the employment of \u201cfighting ships\u201d to kill off competing vessels which, tempted by the profits of the trade, used the free and unfixed courses of the seas, to paraphrase the language of counsel, to break in upon defendants\u2019 monopoly. And monopoly it was; shippers constrained by their necessities, competitors kept off by the \u201cfighting-ships.\u201d And it finds no justification in the fact that defendants\u2019 \u201ccontributions to trade-and commerce\u201d might \u201chave been withheld.\u201d This can be said of any of the enterprises of capital and has been urged before to exempt them from regulation even when engaged in business which is of public concern. The contention has long since been worn out and it is established that the conduct of property embarked in the public service is subject to the policies of the law.\nIt, is contended that the combination, if there was one, was formed in a foreign country and that, therefore, it was not within the act of Congress; and that, besides, the principals in the combination and not their agents were amenable to the law. To this we do not assent. As was said by the Circuit Court of Appeals, the combination affected the foreign commerce of this country and was put into . operation here. United States v. Pacific & Arctic Ry. & Nav. Co., 228 U. S. 87. It, therefore, is within the law, and its managers here, were more than simply agents\u2014 they were participants in the combination.\nIt is, however, contended that even if it be assumed the facts show an illegal combination, they do not show injury to the plaintiffs by reason thereof. The contention is untenable. Section 7 of the act gives a cause of action to any person .injured in his person or property by reason of anything forbidden by the act and 'the right to recover threefold the damages by him sustained. The plaintiffs alleged a charge over a reasonable rate and the amount of it. ' If the charge be true that more than a reasonable rate was secured by the- combination, the excess over what was reasonable was an element of injury. Texas & Pacific Ry. Co. v. Abilene Cotton Oil Co., 204 U. S. 426, 436. The unreasonableness of the rate and to what extent unreasonable was submitted to the jury and the verdict represented their conclusion.\nThe next contention is . that the fact of combination should have been submitted to th\u00e9 jury and not decided as-a matter qf law by the court. We are unable to assent. There was no conflict in the evidence, nothing, therefore, for the jury to pass upon; and the court properly assumed the decision of what was done and its illegal effect.\nIt is next contended that the jury was permitted to consider as elements of damage supposititious profits. The record does not sustain the contention. The profits were not left to speculation. There were different sums stated, resulting from the loss of particular customers, and the fact of their certainty was submitted to the judgment of the jury. They were told that they \u201cought not to allow any speculative damages,\u201d that they were not \u201crequired to guess\u201d as to what damages \u201cplaintiffs claim to have sustained.\u201d And, further, that the burden of proof was upon plaintiffs and that from the evidence the jury should be able to make a calculation of what the damages were. Besides, plaintiffs alleged an overcharge, and the veidict of the jury was for its amount and interest.\nTwo other contentions are made: (1) The court should have charged the jury that the burden was on the plaintiffs to show that the rates on their shipments were excessive and unreasonable. (2) The court erred in permitting plaintiffs to amend their complaint so as to set up a new cause of action.\n(1) If there was error in this its effect is not appreciable. The record shows a most painstaking trial of the case on the part of counsel and the court, a full exposition of all of the elements of judgment and careful instructions of the court for their estimate. It would be going v\u00e9ry far to reverse a case upon the effect of the bare abstraction asserted by the contention, even granting it could be sustained.\n(2) Permitting the amendment of the complaint was not an abuse of the discretion which a court necessarily possesses.\nThe above are the main contentions of defendants. They make,. besides, a contention comprehensive of all of the'rulings against them; but to give a detailed review of such rulings would require a reproduction of the record, and we therefore only say that they have been given attention and no prejudicial error is discovered in them.\nJudgment .of the Circuit Court, of A ppeals is reversed and that of the Circuit Cov,rt is affirmed.\nUnited States v. Trans-Missouri Freight Association, 166 U. S. 290; United States v. Joint Traffic Association, 171 U. S. 505.",
+        "type": "majority",
+        "author": "Mr. Justice McKenna,"
+      }
+    ],
+    "attorneys": [
+      "Mr. A. Leo Everett and Mr. Lorenzo Ullo fov plaintiffs in error:",
+      "Mr. Thomas Thacher and Mr. J. Parker Kirlin, with whom Mr. Charles R. Hickox was on the briefs, for defendants in error:"
+    ],
+    "corrections": "",
+    "head_matter": "THOMSEN ET AL., COMPOSING THE FIRM OF THOMSEN & COMPANY, v. CAYSER ET AL., COMPOSING THE FIRM OF CAYSER, IRVINE & COMPANY, ET AL.\nERROR TO THE CIRCUIT COURT OF APPEALS FOR THE SECOND CIRCUIT.\nNo. 2.\nArgued April 28, 29, 1914; restored to docket for reargument June 21, 1915;\nreargued January 19, 22, 1917.\nDecided March 6, 1917.\nFor review in this court of a final judgment of the Circuit Court of Appeals directing that an action be dismissed, the writ of error should go to that court; and its efficacy is not impaired by the circumstances that, before allowance of the writ by that court, the trial court, obeying the mandate, has entered judgment of dismissal . and has adjourned for the term before any application has been \u25a0 made to recall'its action,\nWhen parties in the Circuit Court of Appeals, desiring to shorten the litigation by bringing the merits directly to this court, consent that a final judgment may be made against them in lieu of one remand- . ing the cause for a re-trial, the consent is not a waiver of errors relied on, and a final judgment entered as requested is reviewable here.\nForeign owners of steamship lines, common parriers between New York, and ports in South Africa, formed a combination, or \u201cconference,\u201d to end 'competition among themselves and suppress it from without. They adopted uniform net tariff rates, and, for the purpose of constraining shippers to use their ships and avoid others, exacted deposits (\u201cprimage\u201d) of ten per cent, of and in .addition to the net freight charges, to be repaid as rebates or \u201ccommissions\u201d jn each case upon the lapse of a period of many months, but then only if the shipper, up to the date set for repayment, had used the vessels of the coalition to the exclusion of all competitors. In respect of particular consignments the shipper\u2019s right to the refund was made similarly dependent on the \u201cloyalty\u201d of his consignee to vessels of the combination. The hold thus gained on shippers, through the accumulation of their deposits, enabled the coalition to-maintain its tariff and custom, in general, while cutting rates with competitors in particular cases by means of \u201cfighting ships.\u201d Several important rivals were gathered into the combination from time to time, and a virtual monopoly was effected. Held, that the combination violated the Sherman Act.\nCommon carriers are under a duty to compete, and are subject in a peculiar degree to the policy of the Sherman Act.\nA combination is not excusable upon the ground that it was induced by good motives and produced good results.\nThe conduct of property embarked in the public service is subject to the'policies of the law.\nThe fact that the participants might have withheld the commercial service they rendered, i. e., stayed'out of the business, can not justify an unlawful combination.\nA combination affecting the foreign commerce of this country and put in operation here, is within the act although formed abroad; and\nThose who. actively participate in managing the affairs of the combination in this country are liable under \u00a7 7 although they are not the principals.\nWhen more than a reasonable rate is exacted as a result of an unlawful combination, the excess over what was reasonable affords a basis for the damages recoverable under \u00a7 7, and whether, and to what extent, such rate was unreasonable are questions determinable by the jury, on proper evidence and instructions.\nWhen claims for damages for loss of custom are definitely stated, a charge advising the jury that the burden-of proof is on the plaintiff, that they must not allow speculative damages, and that they are not r\u00e9quired to guess at amounts but should be able to calculate them from the evidence, sufficiently guards against the danger of supposititious profits being considered as an element of the verdict.\nSemble, that a general verdict for an amount which equals a particular claim of damages and interest may be assumed to have been responsive to that claim alone, although there were others which were submitted to the jury.\nFailure to give an instruction upon the burden of proving rates unreasonable, held, at most a harmless error, in view of a painstaking trial and careful instructions upon the estimation of damages.\nThe trial court in its sound discretion may allow a new cause of action to be set up by amendment of the complaint.\n190 Fed. Rep. 536, reversed.\nAction, brought in the Circuit Court of the United States for the Southern District of New York, by plaintiffs in error against defendants in error and others under the Sherman Act to recover damages for injuries sustained as the result of a combination in restraint of foreign trade.\nThe defendants, it is charged, being common carriers between. New York and South African ports, did, under certain company names, sometime prior to December, 1898, enter into a combination and conspiracy in restraint of trade and commerce between New York and ports in South Africa to be rendered effective by making certain discriminations in rates of freight -to be charged which were calculated to coerce and prevent plaintiffs and other shippers and merchants similarly situated from employing such agencies and facilities of transportation as might be afforded them by other common carriers.\nFor such purpose they united under the name of \u201cThe South African Steam Lines\u201d and distributed a circular (Exhibit A) promising to pay shippers by their lines 10% upon the net amount of freight at tariff rates received on shipments from the United States to Africa, the commission to be computed every six months up to the thirty-first of January and the thirty-first of July in each year and to be payable nine months after such respective dates, but only to shippers who shipped exclusively by their lines to certain African ports, and provided that the shippers directly or indirectly have not made, or have not been interested in any shipments by other Vessels. '\nThe commission is not payable on the goods of any consignee who directly or indirectly imports goods by vessels other than those dispatched by the combining lines.\nThese terms, it is charged, are against public policy and in restraint of trade.\nAbout the middle of the year 1901 the defendant Deutsche Dampsehiffahrts Gesellschaft, Hansa, and the firm of Funch, Edye & Co., as its agent, offered to transport merchandise to South African ports at reasonable rates and lower than those imposed by the other defendants. Thereupon the other defendants, for the purpose of avoiding the competition of those carriers, accepted them into the scheme and combination and there was agreement between them to continue the monopoly, and another circular was issued like the first, including only the additional announcement that the Deutsche Dampschiffahrts Gesellschaft, Hansa, had been added as one of the parties to the first-named agreement. The circular is attached to the complaint as Exhibit B.\nSubsequently the defendants adopted a verbal agreement that altered the cirqulars to the effect that the so-called \u201cloyal\u201d consignees could- collect the so-called rebates regardless of whether the shippers were also loyal; but on the condition that where the shippers and consignees were both loyal the rebates, would be paid to the shippers, while if the consignee alone were loyal the rebate would be paid by the defendants in London direct to the so-called loyal consignee.\nDefendants have not dispatched steamers to African ports at stated and regular dates but have placed steamers on berth to receive general cargo only at such times and for such ports in South Africa as they deemed best for their private gain and profit.\nBy reason of the monopoly so created by defendants, shippers \u2014 among whom are plaintiffs \u2014 have been compelled to submit to hardships and inconvenience, and to pay unreasonable and higher rates to such extent as to leave at the present time in the possession of defendants collectively, as'plaintiffs are informed, about one and one-half million dollars representing the extortion of their rates, and that of such amount \u00a31,112, 7s. lid. has been extorted from plaintiffs.\nTwo steamship companies, the Prince Line and the Houston Line, have since the spring of 1902 offered, to carry from the United States to- South African ports merchandise for a reasonable and remunerative rate lower than that exacted by defendants.\nDefendants, to prevent such steamers from competing, have, in addition to the terms imposed on the South African trade by the circulars above mentioned, imposed further conditions which, while they ostensibly reduced the lower rate of freight and announced that defendants would pay the greater difference arising therefrom, by \u25a0them called a special commission, they still exacted the payment of the higher rates, by them called tariff rates, at the time of shipment and imposed the following further conditions: (1) Precedent to the payment of such difference they require all shippers to be loyal to them. (2) Each shipper to disclose the name of his consignee. (3) The difference in rates to be computed only on those steamers which would come into direct competition with the steamers of either the Prince Line or the Houston Line, called by defendants \u201cfighting steamers.\u201d (4) The special commission or rebate to be granted only on limited amounts of freight room, to be allotted at the will and discretion of defendants, additional freight room, to be paid for at the higher rate under the conditions expressed in the circulars.\nThese additional conditions are intended to further restrain trade and in fact have prevented shippers who had already shipped goods under the original conditions imposed by the circulars frota further exporting as much merchandise to. South African ports at reasonable rates offered other shippers.\nTo. further secure the monopoly of the carrying trade to such ports and oust competition defendants have threatened to withhold and have withheld by- way of forfeit the repayment of the so-called rebates from all those, among whom \u00e1re plaintiffs, so-called by them \u201cloyal shippers\u201d and \u201cloyal consignees,\u201d as aforesaid, \u201cwho would not continue to remaip loyal under the additional conditions superimposed as aforesaid.\u201d\nFor illustration plaintiffs .adduce two instances when they were obliged to pay higher rates on a portion of the shipments, which rates were higher than those offered by the opposition lines, and defendants threatened, if plaintiffs made the shipments over the latter lines upon the more favorable terms, to withhold from repaying plaintiffs all sums previously so compulsorily paid by plaintiffs.\nPlaintiffs are informed and believe that since the opposition lines have offered to carry freight to South African ports defendants have, by reason of their conspiracy,' refused to allot uniform and proportionate freight room on their steamers and have arbitrarily discriminated between several shippers and even against the so-called \u201cloyal\u201d shippers and consignees, with the unlawful intent that the moneys so held by them would be sufficient security to prevent such shippers or consignees from making shipments of or importing their goods by the competing vessels.\nBy reason of the conspiracy plaintiff and others similarly situated have been compelled either not to ship at all and to lose a great deal of their trade or to ship on defendants\u2019 steamers a small portion of merchandise at the lower rates and the remainder, of the same class and even of the identical lot of merchandise, at the higher rates, which is practically prohibitive of any trade whatever by reason of the fact that the substantial difference between the two rates would be a discrimination against the various consignees and customers of plaintiffs and the various shippers' and customers of other shippers by the same steamer.\nThe conspiracy violates the laws of the United States and especially the Act of July 2, 1890, entitled \u201cAn Act to Protect Trade and Commerce against unlawful Restraints and Monopolies.\u201d\nPlaintiffs allege damages in the sum of \u00a31,112, 7s. 1 Id., equal to $5,560, for which they pray as the excess over a reasonable rate, and the further sum of $10,000 damages, and the trebling of these sums.\nThe defendants, by their company names, filed separate answers in which they deny some of the allegations of the complaint and admit others. They deny conspiracy and combination for the purpose or with the effect set out in the complaint; They admit the making and issuing of the circulars designated A and B in the complaint, but deny that they have the effect or were intended to have the effect ascribed to them.\nThey admit the refusal to pay plaintiffs certain claims as rebates, but deny the distinction between loyal shippers and loyal consignees and all . of the inferences and assertions in regard thereto.\nAs a separate defense they allege that all freight carried by them for plaintiffs was carried on bills of lading, each of which contained on its face the statement of the amount of freight to be paid and in respect to which in every instance plaintiffs either'paid the freight or agreed to pay-the amount of freight stated in the bill of lading and in each instance gave a due bill which was subsequently paid; that the payments were made freely and voluntarily and without protest; and that so far as any of the payments were made pursuant or with reference to the printed circulars plaintiffs cooperated knowingly in such transactions and cannot now be entitled to any relief on account of payments of freight made thereunder.\nIt was prayed that the complaint be dismissed.\nUpon the issues thus formed there were two trials. At th\u00e9 conclusion of the testimony on the first trial the court considered that no cause of action was established under the Sherman Law and upon motion of defendants, dismissed the complaint. 149 Fed. Rep. 933.\nThe judgment was reversed by the Circuit Court of Appeals (October, 1908). 166 Fed. Rep. 251.\nUpon the return of the, case to the Circuit Court it was tried to a jury, resulting in a verdict for plaintiffs against the defendants composing the firms of Cayser, Irvine & Company; Barber & Company; and Norton & Son, the action as to the other defendants having abated or been dismissed by the court.\nThe judgment recites that the action was brought under the Act of Congress of July 2, 1890, and that a verdict had been rendered against the defendants above named for the sum of $5,600, with interest in the sum of $1,973.06, in all $7,573.06; that thereupon the court directed the clerk to treble the amount of the verdict pursuant to the terms of the act of Congress, making the amount $22,719.18, and that, the parties consenting, the court fixed $2,500 as an attorney\u2019s fee. The judgment was reversed by the Circuit Court of Appeals, one member dissenting (July, 1911). 190 Fed. Rep. 536.\nThe Circuit Court at the first trial (Judge Hough sitting) was of opinion that the testimony did not establish that the combination charged against defendants was in unreasonable restraint of trade. The Circuit Court of Appeals expressed a different opinion. The court said that the substance of the complaint was that defendants were engaged as carriers in South African trade and had entered into a combination in restraint of foreign trade and commerce in violation of the act of Congress by means of a scheme under which they united .as \u201cThe South African Lines,\u201d fixed rates, and shut off outside competition by requiring shippers to pay a percentage in addition to a reasonable freight rate, which they should receive back in case \u2014 and only in case \u2014 they refrained from shipping by other lines. And the court said the evidence showed the existence of a \u201cconference\u201d for the purpose of fixing and maintaining rates and a return \u201ccommission\u201d to \u201cloyal\u201d shippers. The manifest purpose of the combination and its effect were, it was further said, to restrain competition and that it was therefore in contravention of the Federal Anti-Trust Act.\nThe court considered that whether the restraint was reasonable or unreasonable was immaterial under the decisions of this court, or whether the combination was entered into before or after plaintiffs commenced business, the statute applying to continuing combinations, or whether the combination was formed in a foreign country, as it affected the foreign commerce of this country and was put into operation here. And as the plaintiffs had alleged damage, the court decided that they were entitled to an opportunity to prove it and remanded the case to the Circuit Court.\nUpon the secohd appeal the court declared a change of view, saying: \u201cWhen this case was in this court before we said, upon the authority of the decisions of the Supreme Court as we then interpreted them, that whether the restraint of trade imposed by the combination in question was reasonable or unreasonable was immaterial,\u201d and that it was \u201calso apparent from the record that the Circuit Court upon the second trial in holding as a matter of law that the combination shown was in violation of the statute, acted upon the same view of the law.\u201d And further: \u201cIn the light of the recent decisions of the Supreme Court in the Standard Oil and Tobacco Cases, the construction so placed upon the statute by this court and the Circuit Court must be regarded as erroneous and a new trial must be granted unless the contentions of the parties are correct that, upon the facts shown, this court can now determine the legality of the combination.\u201d\nThe court then said that it was impossible to hold that the record disclosed a combination in unreasonable restraint of trade, but that it would be unduly prejudicial to plaintiffs to reverse the judgment with instructions to dismiss; that as the plaintiffs had presented their case in view of the decision of the court that the reasonableness of the restraint was immaterial, it would be unjust to them to dismiss the complaint because their proof did not conform to another standard, and that upon anothei trial the plaintiffs might be able .to \u201cproduce additional testimony tending to make out a case within the Supreme Court decisions referred to.\u201d Accordingly, the court remanded the case for a new trial.\nSubsequently a rehearing was granted on petition of plaintiffs, who waived any right to a new trial and consented that the case should be disposed of one way or the other. As a result of the rehearing the mandate was recalled and the judgment reversed with instructions toenter an order dismissing the complaint.\nThis writ of error was then allowed.\nMr. A. Leo Everett and Mr. Lorenzo Ullo fov plaintiffs in error:\nShippers are peculiarly at a disadvantage and carriers are forbidden to subject them to unreasonable conditions. Lockwood v. New York Central R. R. Co., 17 Wall. 357; Menacho v. Ward, 27 Fed. Rep. 259. The maxim volenti non fit injuria therefore does not apply. The ten per cent, payments were made under duress. Swift Company v. United States, 111 U. S. 22. The parties were not in pari delicto. Duval v. Wellman, 124 N. Y. 156; Interstate Commerce Commission v. Texas & Pacific R. R., 52 Fed. Rep. 187; Loder v. Jayne, 142 Fed. Rep. 1015. Tender of goods and protest by plaintiffs, and refusal to carry by defendants were unnecessary.\nUnreasonable or coercive rates of freight are recoverable. Texas & Pacific Ry. Co. v. Abilene Cotton Oil Co., 204 U. S. 426; Herserman v. Burlington, Cedar Rapids & Northern Ry. Co., 63 Iowa, 732; Parker v. Great Western R. R. Co., 7 M. & G. 253.\nAll parties to the unlawful combination are Hable in solido. Atlanta v. Chattanooga Foundry, 127 Fed. Rep. 23; Interstate Commerce Commission v. Texas & Pacific R. R., supra; Loder v. Jayne, supra.\nAgents of principals are equally responsible in solido with aU parties to the illegal combination. See Leonard v. Pool, 114 N. Y. 371.\nThe jury found that the ten per cent, exaction was an unreasonable and coercive rate. There is no doubt that the verdict was for the amount so exacted and paid, and not for other items of. damage which plaintiffs had claimed. This establishes in itself that the effect of the combination was unreasonable. Noncompetitive rates are presumably unreasonable, especially where the lack of competition is the achievement of the party fixing the rate. China and Japan Trading Co. v. Georgia R. R., 12 I. C. C. 241; Taft, J., as quoted with approval in Addyston Pipe & Steel Co. v. United States, 175 U. S. 211, 237; Menacho v. Ward, supra.\nThat the Anti-trust Act was violated is plain under Standard Oil Co. v. United States, 221 U. S. 1; United States v. American Tobacco Co., 221 U. S. 106; and Nash v. United States, 229 U. S. 373. The court\u2019s reasoning in the first of these cases is directed to the question whether the acts complained of, and claimed to have benefited the trade,1 were reasonably to be held in restraint of trade; whether they were within the condemnation of the statute, reasonably construed, considering the contracts or agreementsj their necessary effect, and the character of the parties by whom they were made. But a \u201creasonable construction.\u201d of the statute is far different from an examination into the reasonableness of the restraint. The examination into the reasonableness of the cause of the restraint is what calls for a reasonable construction of the statute. When by a reasonable construction of the statute, the acts complained of are found to cause actually or potentially a restraint of trade within the meaning of the prohibition, a further inquiry as to the reasonableness of its effect is immaterial.\nThis combination is not an \"aggregation of capital\u201d necessary for the development of trade; nor is it a unification of interests to cheapen freight rates or general expenses, but it is avowedly a combination' to suppress competition among the constituents and keep away outside competition, by coercive means. It is prejudicial to the public interest of the United States. Nash v. United States, supra; United States v. Pacific & Arctic Ry. & Nav. Co., 228 U. S. 87.\nThe doctrine of Mogul Steamship Line v. McGregor, 31 L. R. 554 (1888); 23 L. R. 598 (1889); 17 App. Cases, 25 (1891), was not approved by this court in the Standard Oil Case; it was based on the British legislative policy of the time, and differs from the earlier common law as inherited in this country and federalized by the Sherman Act. Hooker v. Van DeWater, 4 Denio, 349; Stanton v. Allen, 5 Denio, 434; Atchison v. Mallon, 43 N. Y. 147; Elmira Coal Co. Case, 68 N. Y. 558; People v. Sheldon, 139 N. Y. 251; Lough v. Outeridge, 143 N. Y. 271: The Mogul Case also involved a different scheme and a different cause of action.\nUnder the Sherman Act, contracts and combinations which before the act were merely unenforceable as between the parties, became actionable and criminal. This necessarily resulted, because the definition of combinations was \u00e9xpressed in terms which embraced those which were, unlawful-but not actionable, such as the Mogul combination. The British authorities seem to agree that such a state of facts would, in the United States,, be interpreted as coming within the prohibition of the Sherman-Act. See the reports of the Members of the Royal Commission on Shipping Conferences in the Journal of the Society of Comparative Legislation, New Series, vol. X (1909), p. 144, and Attorney General v. Adelaide Steamship Co., A. C. (1913), 781.\nThe courts of this country hold, concurring in the British view, that where a situation is governed by the Sherman Act the Mogul Case is not applicable. United States v. Trans-Missouri Freight Association, 166 U. S. 290; United States v. Addyston Pipe & Steel Co., 85 Fed. Rep. 271, 286; Wheeler-Stenzel Co. v. National Window Glass Association, 152 Fed. Rep. 864, 873.\nOn the evils of the \u201cconferences\u201d and deferred rebate system, as practiced by British shipowners, and their use of \u201cfighting ships,\u201d see Report of Committee on Merchant Marine, 63d Cong., vol. IV, p. 307. The policy of this country is recently and specifically expressed by the Shipping Board Act of September 7, 1916, 39 Stat. 728.\nMr. Thomas Thacher and Mr. J. Parker Kirlin, with whom Mr. Charles R. Hickox was on the briefs, for defendants in error:\nRestraint of competition is restraint of trade only when unfavorable to trade or commerce, and therefore unreasonable and prejudicial to the public interests. United States v. Hamburg-American S. S. Line, 216 Fed. Rep. 971; United States v. Prince Line and United States v. American-Asiatic S. S. Co., 220 Fed. Rep. 230; United States v. United States Steel Co., 223 Fed. Rep. 55; Patterson v. United States, 222 Fed. Rep. 599; United States v. United Shoe Machinery Co., 222 Fed. Rep. 349; United States v. International Harvester Co., 214 Fed. Rep. 987; United States v. Keystone Watch Case Co., 218 Fed. Rep. 502. This is the view taken in the Powder Trust Case, 188 Fed. Rep. 339, 373. Such is the doctrine of this court. Standard Oil Co. v. United States, 221 U. S. 1; United States v. American Tobacco Co., 221 U. S. 106; United States v. Joint Traffic Association, 171 U. S. 505.\nThe history of the Sherman Act shows a clear intent on the part of . Congress not to condemn contracts and combinations merely because they are in restraint of competition or merely because they operate to raise the cost of commodities to consumers. See also its title: \u201cTo protect trade and commerce.\u201d It looked to the development and increase of trade and commerce in the interest of the public, to the removal of obstacles to its growth and- expansion. The combination must prejudice the public interests either by unduly restricting competition or by' unduly obstructing the course of trade. Standard Oil and Tobacco Cases, supra; Nash v. United States, 229 U. S. 373, 376; United States v. Terminal R. R. Association of St. Louis, 224 U. S. 383; 236 U. S. 194; United States v. Union Pacific R. R. Co., 226 U. S. 61; Eastern States Retail Lumber Dealers\u2019 Association v. United States, 234 U. S. 600, 609, 610.\nRestriction of competition by the union of competing carriers, or an obstruction, of the course of trade, is not undue, unless the result is to injure the public, by decreasing the facilities open to the public for trade or commerce, leading to a diminution of exchange of commodities or less favorable conditions for the development of trade or commerce. The emphasis is now put by the decisions of this court upon the words \u201cundue\u201d and \u201cunreasonable,\u201d and these words are used with relation to the public interest. That which is the ultimate concern in the constitutional grant of power over commerce, and in the exercise of such power by the Anti-trust Act, is the exchange and distribution of commodities.\nThis was recognized by Mr. Justice Peckham in the Joint Traffic Association Case, 171 U. S. 505. The paramount interest of the public is in the efficiency of the service to the public in transporting freight and passengers in aid of commercial intercourse.\nThis is recognized in the St. Louis Terminal Association Case, 224 U. S. 383, 394, and in the Union Pacific Case, 226 U. S. 61, 88. See Attorney General v. Adelaide Steamship Co., A. C. (1913) 781.\nThe question arising in this case becomes substantially the same as that which arose in the Mogul Steamship Company Case, A. C. (1892), 25, although the courts there dealt not with any statute, but with the common law. Mogul Steamship Company Case, 21 Q. B. D. 544, 548. See also North-Western Salt Co. v. Electrolytic Alkali Co., 30 Law Times Rep. 313.\nThat to do business on the rebate or commission plan is not to mon'opolize or attempt to monopolize, see In re Corning, 51 Fed. Rep. 205; In re Terrell, 51 Fed. Rep. 213; In re Greene, 52 Fed. Rep. 104; Whitwell v. Continental Tobacco Co., 125 Fed. Rep. 454.\nThe burden was on the plaintiffs to prove an unlawful combination. It was error for the trial court to assume that an unlawful combination had been established as matter of law.\nThe principals were not shown to have combined as alleged; the evidence established the contrary. Neither did it appear, by undisputed evidence, as it must to justify the court\u2019s action, that the defendants (mere agents) were parties to the assumed combination. They had nothing to do with making any combination (whatever was done in that respect was done abroad), and nothing to do with the business except to carry'out instructions from their London principals.\nThe assumed combination could not have been, illegal under the act because it was formed, if formed anywhere, beyond the jurisdiction of the United States. For this proposition we need only refer to American Banana Co. v. United Fruit Co., 213 U. S. 347. If a partnership or corporation had been formed to own and operate the ships belonging to the original shipowners, there would seem to be no room for doubt that its legality would not be affected by the Sherman Act. If, so- uniting their properties and business, these shipowners had done business here in substantially the mode in which they are alleged to have done it, there could be no charge of an illegal combination or conspiracy, under our law.\nThe proof showed that commerce was actually promoted.\nThere was no proof that plaintiffs were injured. This was essential to a cause of action under \u00a7 7 of the act.\nThe Circuit Court erred in declining to charge the jury that the burden was on the plaintiffs to show that the rates were unreasonable; in not leaving the question of combination to the jury; in permitting the jury to consider supposititious profits that the plaintiffs claimed they would have made if they had followed a different course; and in permitting the plaintiffs during the trial to amend their complaint so as to set up a new cause of action.\n\u201cThe South African Steam Lines.\n\u201cNotice to Shippers in the United States.\n\u201c Commission in Respect of Shipments by Steam and Sailing Vessels.\n\u201cLondon, 31st December, 1898.\n\u201c 1. Shippers to all Ports of the Cape Colony and of Natal, and to Delagoa Bay, are hereby informed that until further notice, and subject to the conditions and terms set out herein each of the under-named Lines will pay Shippers by their Line a commission of ten per cent., calculated upon the net amount of freight at tariff rates received by such Line from such Shippers on their shipments from the United States to South Africa.\n\u201c2. The said Commission to be computed every six months up to the 31st January and 31st July in each year, and to be payable nine months after such respective dates to those shippers only who, until the date at which the Commission shall become payable shall have shipped exclusively by vessels despatched by the undernamed Lines respectively from the United States to Ports of the Cape Colony, Natal, and Delagoa Bay, provided that such shippers, either as Principals or as Agents, have not directly or indirectly made or been interested in any shipments to any of the aforesaid Ports by vessels other than those despatched by the under-named, and also provided that the Statement of Claim for such commission shall be made in the annexed form, within twelve months of the date of shipment, to the Line which shall have carried the goods in respect of which the Commission is claimed.\n\u201c3. The above commission is not payable on the goods of any Consignee who directly or indirectly imports goods by vessels other than those despatched by the under-named Lines.\n\u201c (Subscribed) American & African Steamship Line.\nUnion-Clan Line.\n\u201cAll previous notices to Shippers or Consignees with reference to returns on Freight are cancelled.\n\u201cNote. \u2014 The above Commission will be payable to the Shippers whose names appear on the Bills of Lading or to their Order.\u201d"
+  },
+  "file_name": "0066-01",
+  "first_page_order": 108,
+  "last_page_order": 131
+}

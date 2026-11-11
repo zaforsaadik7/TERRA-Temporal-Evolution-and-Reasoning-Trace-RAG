@@ -1,0 +1,723 @@
+{
+  "id": 5721112,
+  "name": "CHAPMAN v. HOAGE, DEPUTY COMMISSIONER, DISTRICT OF COLUMBIA COMPENSATION DISTRICT, et al.",
+  "name_abbreviation": "Chapman v. Hoage",
+  "decision_date": "1936-01-06",
+  "docket_number": "No. 151",
+  "first_page": "526",
+  "last_page": "532",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "296 U.S. 526"
+    },
+    {
+      "type": "parallel",
+      "cite": "80 L. Ed. 370"
+    },
+    {
+      "type": "parallel",
+      "cite": "56 S. Ct. 333"
+    },
+    {
+      "type": "vendor",
+      "cite": "1936 U.S. LEXIS 954"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1935-139"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "228 U. S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3667185
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/228/0364-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434126
+      ],
+      "pin_cites": [
+        {
+          "page": "288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0284-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 416",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3620500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/191/0416-01"
+      ]
+    },
+    {
+      "cite": "227 Pac. 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 Wash. 276",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        768357
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/130/0276-01"
+      ]
+    },
+    {
+      "cite": "126 N. E. 405",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Ohio St. 373",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        960108
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/100/0373-01"
+      ]
+    },
+    {
+      "cite": "215 S. W. 20",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 Mo. 535",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1817041
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/279/0535-01"
+      ]
+    },
+    {
+      "cite": "102 N. E. 372",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 Ind. 255",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1533633
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/180/0255-01"
+      ]
+    },
+    {
+      "cite": "139 N. E. 620",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "308 Ill. 312",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        5096588
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/308/0312-01"
+      ]
+    },
+    {
+      "cite": "163 Fed. 690",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1911081
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/163/0690-01"
+      ]
+    },
+    {
+      "cite": "17 N. W. 127",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Wis. 154",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        11283146
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/59/0154-01"
+      ]
+    },
+    {
+      "cite": "43 Me. 381",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        667417
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/me/43/0381-01"
+      ]
+    },
+    {
+      "cite": "24 Ky. Law Rep. 1151",
+      "category": "reporters:state",
+      "reporter": "Ky. L. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 S. W. 842",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Ind. 155",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1476085
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/20/0155-01"
+      ]
+    },
+    {
+      "cite": "3 Ga. 405",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        1388739
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/3/0405-01"
+      ]
+    },
+    {
+      "cite": "3 Ga. 239",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        1388729
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/3/0239-01"
+      ]
+    },
+    {
+      "cite": "20 Ala. 512",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        8498581
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/20/0512-01"
+      ]
+    },
+    {
+      "cite": "42 S. W. 355",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 N. W. 367",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Iowa 526",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        8648592
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/87/0526-01"
+      ]
+    },
+    {
+      "cite": "8 Ala. 942",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        8498812
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/8/0942-01"
+      ]
+    },
+    {
+      "cite": "10 Yerg. (Tenn.) 362",
+      "category": "reporters:state",
+      "reporter": "Yer.",
+      "case_ids": [
+        8542449
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/18/0362-01"
+      ]
+    },
+    {
+      "cite": "4 N. D. 437",
+      "category": "reporters:state",
+      "reporter": "N.D.",
+      "case_ids": [
+        194643
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nd/4/0437-01"
+      ]
+    },
+    {
+      "cite": "237 Ill. App. 284",
+      "category": "reporters:state",
+      "reporter": "Ill. App.",
+      "case_ids": [
+        5511265
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app/237/0284-01"
+      ]
+    },
+    {
+      "cite": "26 Ala. 417",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        8494323
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/26/0417-01"
+      ]
+    },
+    {
+      "cite": "27 Atl. 338",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 R. I. 289",
+      "category": "reporters:state",
+      "reporter": "R.I.",
+      "case_ids": [
+        5101086
+      ],
+      "pin_cites": [
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ri/18/0289-01"
+      ]
+    },
+    {
+      "cite": "82 N. Y. 486",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2177270
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/82/0486-01"
+      ]
+    },
+    {
+      "cite": "13 Wend. (N. Y.) 377",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2015694
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wend/13/0377-01"
+      ]
+    },
+    {
+      "cite": "13 Johns. (N. Y.) 174",
+      "category": "reporters:state",
+      "reporter": "Johns. Ch.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "263 Fed. 344",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3940176
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/263/0344-01"
+      ]
+    },
+    {
+      "cite": "228 Fed. 664",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6741297
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/228/0664-01"
+      ]
+    },
+    {
+      "cite": "227 U. S. 382",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/227/0382-01"
+      ]
+    },
+    {
+      "cite": "6 Wall. 80",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3453110
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/73/0080-01"
+      ]
+    },
+    {
+      "cite": "14 Pet. 201",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        3335390
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/39/0201-01"
+      ]
+    },
+    {
+      "cite": "139 N. E. 775",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "236 N. Y. 47",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        11278695
+      ],
+      "pin_cites": [
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/236/0047-01"
+      ]
+    },
+    {
+      "cite": "61 So. 178",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Miss. 217",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        1446722
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/104/0217-01"
+      ]
+    },
+    {
+      "cite": "63 Kan. 105",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1120824
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/63/0105-01"
+      ]
+    },
+    {
+      "cite": "27 N. W. 805",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Iowa 642",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        8651016
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/70/0642-01"
+      ]
+    },
+    {
+      "cite": "141 Ill. App. 395",
+      "category": "reporters:state",
+      "reporter": "Ill. App.",
+      "case_ids": [
+        2618462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app/141/0395-01"
+      ]
+    },
+    {
+      "cite": "245 Fed. 75",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3971139
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/245/0075-01"
+      ]
+    },
+    {
+      "cite": "69 Fed. 798",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3786543
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/69/0798-01"
+      ]
+    },
+    {
+      "cite": "184 Fed. 426",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6748401
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/184/0426-01"
+      ]
+    },
+    {
+      "cite": "295 U. S. 221",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        333736
+      ],
+      "pin_cites": [
+        {
+          "page": "225"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/295/0221-01"
+      ]
+    },
+    {
+      "cite": "287 U. S. 530",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        370099
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0530-01"
+      ]
+    },
+    {
+      "cite": "70 F. (2d) 616",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        269505
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/70/0616-01"
+      ]
+    },
+    {
+      "cite": "78 F. (2d) 233",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        949567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/78/0233-01"
+      ]
+    },
+    {
+      "cite": "64 App. D. C. 349",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 F. (2d) 486",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        899546
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/65/0486-01"
+      ]
+    },
+    {
+      "cite": "62 App. D. C. 140",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Stat. 600",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Stat. 1424",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 679,
+    "char_count": 10262,
+    "ocr_confidence": 0.567,
+    "pagerank": {
+      "raw": 7.58522404516467e-07,
+      "percentile": 0.9706701047049461
+    },
+    "sha256": "18df4ef4558b8959a87af65bf7ca12b64e265b5ef2088e97ee6d5a6176166b31",
+    "simhash": "1:0faa53dfd34c3b9c",
+    "word_count": 1771
+  },
+  "last_updated": "2024-02-27T16:30:46.649189+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CHAPMAN v. HOAGE, DEPUTY COMMISSIONER, DISTRICT OF COLUMBIA COMPENSATION DISTRICT, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Stone\ndelivered the opinion of the Court.\nThis case comes here on certiorari to resolve a question arising under the Longshoremen\u2019s and Harbor Workers\u2019 Compensation Act of March 4, 1927, 44 Stat. 1424, made applicable to the District of Columbia by the Act of April 17, 1928, 45 Stat. 600.\nPetitioner sought, in the Supreme Court of the District of Columbia, a mandatory injunction directing respondent, a Deputy Commissioner of the District of Columbia Compensation District, to award him compensation. In the proceedings in that court it appeared that petitioner had been injured in a collision with a street car, in the course of his employment as helper on a delivery truck of his employer, for whom the respondent, The Indemnity Insurance Company of North America, intervenor in the suit, is the insurance carrier: that petitioner, electing to sue the street car company, had recovered judgment in the District Supreme Court, which the District Court of Appeals had reversed and remanded for further proceedings, Washington Ry. & Electric Co. v. Chapman, 62 App. D. C. 140; 65 F. (2d) 486: that petitioner had then discontinued his suit and pressed his application for compensation before the Deputy Commissioner who denied it on the ground that petitioner had failed to pursue to final judgment his remedy against the third party. The present suit was dismissed by the District Supreme Court on motion of the Insurance Company. The Court of Appeals affirmed, 64 App. D. C. 349; 78 F. (2d) 233, holding that, as the petitioner had elected to pursue his remedy against the third party, and as the statute of limitations had run while the suit was pending, his failure to proceed to final judgment operated to discharge the employer and the insurance carrier.\nWhile by \u00a7 33 (a) of the Compensation Act the employee may elect to pursue his remedy against a third person, election does not deprive him of his right to compensation. See American Lumbermen\u2019s Mutual Casualty Co. v. Lowe, 70 F. (2d) 616. By \u00a7 33 (f) the employer or the insurance carrier who, by \u00a7\u00a7 32 (a), 35 and 36 is substituted for the employer, remains liable for any amount by which the recovery against the third person falls short of the prescribed compensation, Section 33 (a) only provides for release of the employer\u2019s liability for compensation when the claim against the third party is compromised without the employer\u2019s consent. In other respects his rights and liabilities, so far as he is in the position of a surety or indemnitor, are governed, as the court below held, by the general principles of suretyship.\nUpon election of the employee to take compensation the employer is entitled to be subrogated to the rights of the employee against the third person. The insurer, who, as an indemnitor of the employer, and by the Act, stands in the place of the employer, is similarly entitled to subrogation. As with other indemnitors, his obligation may be discharged by release or other relinquishment of the principal liability which deprives him of his right of subrogation. Aetna Life Insurance Co. v. Moses, 287 U. S. 530; Doleman v. Levine, 295 U. S. 221, 225; Travelers\u2019 Insurance Co. v. Great Lakes Engineering Works Co., 184 Fed. 426. Hence the only question for decision is whether the abandonment by plaintiff of his suit against the third party, after the running of the statute of limitations had precluded the possibility of bringing another suit, and in the circumstances disclosed by the record, is to be deemed so prejudicial to the insurer\u2019s right of subrogation as to operate as a discharge of its liability.\nWhether, in any case, an indemnitor is discharged by the mere failure of his obligee to sue the principal debtor until suit is barred by the statute of limitations, remains an open question in this Court. See Nelson v. First Nat. Bank, 69 Fed. 798; Gill v. Waterhouse, 245 Fed. 75, answering it in the negative; contra: Hayward v. Sencenbaugh, 141 Ill. App. 395; Auchampaugh v. Schmidt, 70 Iowa 642; 27 N. W. 805; Mulvane v. Sedgley, 63 Kan. 105; 64 Pac. 1038; Johnson v. Success Brick Machinery Co., 104 Miss. 217; 61 So. 178; and see Cheesman v. Cheesman, 236 N. Y. 47, 51; 139 N. E. 775. It is unnecessary to decide it now. We assume for present purposes that petitioner\u2019s election to sue the third party followed by his discontinuance of the suit when the claim was barred by the statute is sufficient to discharge respondent from its obligation as an insurer, if prejudicial to its right of subrogation. We confine our investigation to the questions whether the fact of prejudice to this right is open to inquiry and, if so, whether the right is shown in the present circumstances to be so unsubstantial that respondent has not in fact been prejudiced by its loss.\nIt is generally true that the obligation of a voluntary surety is so far regarded as strictissimi juris as to be released upon a showing, without more, that the principal obligation has been modified or surrendered without the consent of the surety. Sprigg v. Bank of Mt. Pleasant, 14 Pet. 201; Wood v. Steele, 6 Wall. 80; Porto Rico v. Title Guaranty & Surety Co., 227 U. S. 382; Edwards v. Goode, 228 Fed. 664; United States Fidelity & Casualty Co. v. Pensacola, 263 Fed. 344. But the strictness of this rule is relaxed in those jurisdictions where the failure of the creditor to prosecute his claim against the principal debtor after demand by the surety may be availed of as a defense by the latter. In that case the surety is discharged only to the extent of the loss which results. Pain v. Packard, 13 Johns. (N. Y.) 174; Huffman v. Hulbert, 13 Wend. (N. Y.) 377; Herrick v. Borst, 4 Hill (N. Y.) 650; Hunt v. Purdy, 82 N. Y. 486; see Snow v. Horgan, 18 R. I. 289, 291; 27 Atl. 338; cf. Pickens v. Yarboroughs\u2019 Administrator, 26 Ala. 417; Wurster v. Albrecht, 237 Ill. App. 284; Bingham v. Mears, 4 N. D. 437; 61 N. W. 808; Thompson v. Watson, 10 Yerg. (Tenn.) 362; but cf. Shehan v. Hampton, 8 Ala. 942; Shenandoah Nat. Bank v. Ayres, 87 Iowa 526; 54 N. W. 367; Sullivan v. Dwyer, 42 S. W. 355 (Tex. Civ. App.).\nThis follows from the fact that the surety\u2019s contract, not being one of guaranty, does not entitle him to have the creditor first assert his claim against the principal debtor. Failure by the creditor to perform any obligation to prosecute the claim arising out of his conduct subsequent to the contract, like his failure to realize upon subsequently acquired security, is a defense only so far as it is prejudicial to the surety. See State Bank v. Edwards, 20 Ala. 512; Curan v. Colbert, 3 Ga. 239; Brown v. Executors of Riggins, 3 Ga. 405; Robeson v. Roberts, 20 Ind. 155; Mt. Sterling Improvement Co. v. Cockrell, 70 S. W. 842; 24 Ky. Law Rep. 1151; Springer v. Toothaker, 43 Me. 381; Humphrey v. Hitt, 6 Grat. (Va.) 509; Hyde v. Rogers, 59 Wis. 154; 17 N. W. 127. The analogy to the present case, where the employee was not bound to proceed against the third person but elected to do so, is apparent.\nMoreover, respondent is a compensated surety, whose premiums the employer is required to pay by \u00a7 32. The rule that any modification of the principal obligation releases the surety is also abated in the case of a compensated surety or indemnitor, who is discharged only so far as his right is shown to be in fact prejudiced by action of the indemnitee. One who engages in the business of insurance for compensation may properly be held more rigidly to his obligation to indemnify the insured than one whose suretyship is an undertaking uncompensated and casual. Atlantic Trust & Deposit Co. v. Laurinburg, 163 Fed. 690; Gunsul v. American Surety Co., 308 Ill. 312; 139 N. E. 620; United States Fidelity & Guaranty Co. v. Poetker, 180 Ind. 255; 102 N. E. 372; State ex rel. Elberta Peach & Land Co. v. Chicago Bonding & Surety Co., 279 Mo. 535; 215 S. W. 20; Royal Indemnity Co. v. Northern Ohio Granite & Stone Co., 100 Ohio St. 373; 126 N. E. 405; Duke v. National Surety Co., 130 Wash. 276; 227 Pac. 2; cf. Guaranty Co. v. Pressed Brick Co., 191 U. S. 416. The insurer is given a right of subrogation not to enable him to avoid his undertaking to indemnify but that it may not be enlarged beyond that of indemnity. Standard Marine Insurance Co. v. Scottish Metropolitan Assurance Co., Ltd., 283 U. S. 284, 288. He is not prejudiced by failure to prosecute a claim after it has been demonstrated to be groundless.\nApplication of these principles to an insurance contract under a compensation act such as the present does not require that an employee who has elected to proceed against a third person do more than prosecute his claim in a manner and to an extent which will avoid prejudice to the insurer\u2019s right of subrogation. The facts disclosed show that respondent has not been prejudiced. The judgment upon the first trial was set aside by the Court of Appeals because uncontradicted evidence established petitioner\u2019s contributory negligence so clearly that the trial judge should have directed a verdict for the defendant. The appellate court was nevertheless required by the rule of Slocum v. New York Life Insurance Co., 228 U. S. 364, to remand the case for further proceedings. Meanwhile, petitioner\u2019s main witness, the driver of the truck, had died. Petitioner, who was without funds, asked leave of the trial court to proceed with the second trial in forma pauperis, with the evident purpose of preserving, by this course, his rights against the insurer. His application was denied, presumably because it was thought a second trial would be fruitless. These circumstances are enough to establish, at least prima facie, that failure to> proceed with a second trial did not prejudice the insurer. Respondent, insisting that it was discharged ,by the mere failure of petitioner to proceed further, regardless of prejudice, has offered no evidence that it did.\nReversed.",
+        "type": "majority",
+        "author": "Mr. Justice Stone"
+      }
+    ],
+    "attorneys": [
+      "Mr. Harlan Wood, with whom Mr. James P. Donovan was on the brief, for petitioner.",
+      "Mr. G. Bowdoin Craighill, with whom Mr. Frank H. Myers was on the brief, for Indemnity Insurance Company of North America, respondent."
+    ],
+    "corrections": "",
+    "head_matter": "CHAPMAN v. HOAGE, DEPUTY COMMISSIONER, DISTRICT OF COLUMBIA COMPENSATION DISTRICT, et al.\nNo. 151.\nArgued December 13, 16, 1935.\nDecided January 6, 1936.\nMr. Harlan Wood, with whom Mr. James P. Donovan was on the brief, for petitioner.\nMr. G. Bowdoin Craighill, with whom Mr. Frank H. Myers was on the brief, for Indemnity Insurance Company of North America, respondent."
+  },
+  "file_name": "0526-01",
+  "first_page_order": 596,
+  "last_page_order": 602
+}

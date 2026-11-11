@@ -1,0 +1,886 @@
+{
+  "id": 1816,
+  "name": "BLACKLEDGE, WARDEN, et al. v. ALLISON",
+  "name_abbreviation": "Blackledge v. Allison",
+  "decision_date": "1977-05-02",
+  "docket_number": "No. 75-1693",
+  "first_page": "63",
+  "last_page": "84",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "431 U.S. 63"
+    },
+    {
+      "type": "parallel",
+      "cite": "52 L. Ed. 2d 136"
+    },
+    {
+      "type": "parallel",
+      "cite": "97 S. Ct. 1621"
+    },
+    {
+      "type": "vendor",
+      "cite": "1977 U.S. LEXIS 80"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1976-095"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "429 U. S. 957",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6563,
+        6022,
+        6470,
+        6504,
+        6123,
+        7481
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/429/0957-05",
+        "/us/429/0957-03",
+        "/us/429/0957-04",
+        "/us/429/0957-02",
+        "/us/429/0957-06",
+        "/us/429/0957-01"
+      ]
+    },
+    {
+      "cite": "456 F. 2d 992",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        738239
+      ],
+      "pin_cites": [
+        {
+          "page": "996"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/456/0992-01"
+      ]
+    },
+    {
+      "cite": "418 U. S. 461",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173459
+      ],
+      "pin_cites": [
+        {
+          "page": "473-474"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0461-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7\u00a7 636",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "b"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 U. Chi. L. Rev. 142",
+      "category": "journals:journal",
+      "reporter": "U. Chi. L. Rev.",
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "d"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "423 F. 2d 526",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3696169
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "528"
+        },
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/423/0526-01"
+      ]
+    },
+    {
+      "cite": "360 F. 2d 586",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        825750
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/360/0586-01"
+      ]
+    },
+    {
+      "cite": "435 F. 2d 1241",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2216661
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/435/1241-01"
+      ]
+    },
+    {
+      "cite": "423 F. 2d 252",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        5871715
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/423/0252-01"
+      ]
+    },
+    {
+      "cite": "419 F. 2d 192",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2162631
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "193"
+        },
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/419/0192-01"
+      ]
+    },
+    {
+      "cite": "497 F. 2d 359",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        174599
+      ],
+      "pin_cites": [
+        {
+          "page": "362-363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/497/0359-01"
+      ]
+    },
+    {
+      "cite": "407 F. 2d 940",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2112280
+      ],
+      "pin_cites": [
+        {
+          "page": "947-949"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/407/0940-01"
+      ]
+    },
+    {
+      "cite": "460 F. 2d 988",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1326567
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "993"
+        },
+        {
+          "page": "992"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/460/0988-01"
+      ]
+    },
+    {
+      "cite": "397 U. S. 759",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12058501
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0759-01"
+      ]
+    },
+    {
+      "cite": "436 F. 2d 162",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2213629
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/436/0162-01"
+      ]
+    },
+    {
+      "cite": "141 U. S. App. D. C. 8",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "pin_cites": [
+        {
+          "page": "11"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "384 F. 2d 916",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2082243
+      ],
+      "pin_cites": [
+        {
+          "page": "917"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/384/0916-01"
+      ]
+    },
+    {
+      "cite": "537 F. 2d 1080",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1049872
+      ],
+      "pin_cites": [
+        {
+          "page": "1082-1083"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/537/1080-01"
+      ]
+    },
+    {
+      "cite": "492 F. 2d 775",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        474893
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "778"
+        },
+        {
+          "page": "780-781"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/492/0775-01"
+      ]
+    },
+    {
+      "cite": "529 F. 2d 1374",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10604253
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1377"
+        },
+        {
+          "page": "1377-1378, n. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/529/1374-01"
+      ]
+    },
+    {
+      "cite": "495 F. 2d 585",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        188320
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/495/0585-01"
+      ]
+    },
+    {
+      "cite": "359 F. 2d 419",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        828967
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/359/0419-01"
+      ]
+    },
+    {
+      "cite": "319 F. 2d 308",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        157888
+      ],
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/319/0308-01"
+      ]
+    },
+    {
+      "cite": "433 F. 2d 591",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2120864
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "593"
+        },
+        {
+          "page": "593"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/433/0591-01"
+      ]
+    },
+    {
+      "cite": "83 Harv. L. Rev. 1038",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "1173"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "373 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716366
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "6-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0001-01"
+      ]
+    },
+    {
+      "cite": "342 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        641051
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/342/0205-01"
+      ]
+    },
+    {
+      "cite": "368 U. S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172683
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "427"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/368/0424-01"
+      ]
+    },
+    {
+      "cite": "430 U. S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12124606
+      ],
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0372-01"
+      ]
+    },
+    {
+      "cite": "312 U. S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        358993
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/312/0275-01"
+      ]
+    },
+    {
+      "cite": "316 U. S. 101",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        368083
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/316/0101-01"
+      ]
+    },
+    {
+      "cite": "397 U. S. 742",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12058257
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "751-752",
+          "parenthetical": "hereinafter ABA Standards"
+        },
+        {
+          "page": "755"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0742-01"
+      ]
+    },
+    {
+      "cite": "87 Harv. L. Rev. 321",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "337-338"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "350 U. S. 116",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031649
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "119"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0116-01"
+      ]
+    },
+    {
+      "cite": "411 U. S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10008
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "213-214"
+        },
+        {
+          "page": "214"
+        },
+        {
+          "page": "215"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0213-01"
+      ]
+    },
+    {
+      "cite": "394 U. S. 286",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170863
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "290-291"
+        },
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/394/0286-01"
+      ]
+    },
+    {
+      "cite": "368 U. S. 487",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173883
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "497"
+        },
+        {
+          "page": "494-495"
+        },
+        {
+          "page": "495"
+        },
+        {
+          "page": "495"
+        },
+        {
+          "page": "495",
+          "parenthetical": "\"Nor were the circumstances alleged of a kind that the District Judge could completely resolve by drawing upon his own personal knowledge or recollection\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/368/0487-01"
+      ]
+    },
+    {
+      "cite": "334 U. S. 266",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157880
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "284-285"
+        },
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/334/0266-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7\u00a72241-2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a72255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "429 U. S. 814",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7202,
+        7878,
+        6830,
+        6255,
+        5716,
+        6518,
+        6590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0814-01",
+        "/us/429/0814-04",
+        "/us/429/0814-05",
+        "/us/429/0814-07",
+        "/us/429/0814-02",
+        "/us/429/0814-03",
+        "/us/429/0814-06"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "533 F. 2d 894",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1004108
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/533/0894-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 257",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172366
+      ],
+      "weight": 5,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "267"
+        },
+        {
+          "page": "260-261",
+          "parenthetical": "hereinafter ABA Standards"
+        },
+        {
+          "page": "260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0257-01"
+      ]
+    },
+    {
+      "cite": "412 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172008
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "256-266",
+          "parenthetical": "Powell, J., concurring"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/412/0218-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765582
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/372/0391-01"
+      ]
+    },
+    {
+      "cite": "373 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716366
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "24-25",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/373/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1641,
+    "char_count": 42498,
+    "ocr_confidence": 0.584,
+    "pagerank": {
+      "raw": 1.6807614611102657e-05,
+      "percentile": 0.9998117650874626
+    },
+    "sha256": "0417398e48da3d96d52387c8f66f47b29fb2698f031da616ad2240b3d0726f3a",
+    "simhash": "1:a30ae790012f8650",
+    "word_count": 7050
+  },
+  "last_updated": "2024-02-27T21:38:26.515587+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice concurs in the judgment.",
+      "Mb. Justice Rehnquist took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "BLACKLEDGE, WARDEN, et al. v. ALLISON"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Stewart\ndelivered the opinion of the Court.\nThe respondent, Gary Darrell Allison, an inmate of a North Carolina penitentiary, petitioned a Federal District Court for a writ of habeas corpus. The court dismissed his petition without a hearing, and the Court of Appeals reversed, ruling that in the circumstances of this case summary dismissal was improper. We granted certiorari to review the judgment of .the Court of Appeals.\nI\nAllison was indicted by a North Carolina grand jury for breaking and entering, attempted safe robbery, and possession of burglary tools. At his arraignment, where he was represented by court-appointed counsel, he initially pleaded not guilty. But after learning that his codefendant planned to plead guilty, he entered a guilty plea to a single count of attempted safe robbery, for which the minimum prison sentence was 10 years and the maximum was life. N. C. Gen. Stat. \u00a7 14-89.1 (1969).\nIn accord with the procedure for taking guilty pleas then in effect in North Carolina, the judge in open court read from a printed form 13 questions, generally concerning the defendant\u2019s understanding of the charge, its consequences, and the voluntariness of his plea. Allison answered \u201cyes\u201d or \u201cno\u201d to each question, and the court clerk transcribed those responses on a copy of the form, which Allison signed. So far as the record shows, there was no questioning beyond this routine; no inquiry was made of either defense counsel or prosecutor. Two questions from the form are of particular relevance to the issues before us: Question No. 8 \u2014 \u201cDo you understand that upon your plea of guilty you could be imprisoned for as much as minimum [sic] of 10 years to life?\u201d to which Allison answered \u201cYes\u201d; and Question No. 11 \u2014 \u201cHas the Solicitor, or your lawyer, or any policeman, law officer or anyone else made any promises or threat to you to influence you to plead guilty in this case?\u201d to which Allison answered \u201cNo.\u201d\nThe trial judge then accepted the plea by signing his name at the bottom of the form under a text entitled \u201cAdjudication,\u201d which recited the three charges for which Allison had been indicted, that he had been fully advised of his rights, was in fact guilty, and pleaded guilty to attempted safe robbery \u201cfreely, understanding^ and voluntarily,\u201d with full awareness of the consequences, and \u201cwithout undue . . . compulsion . . . duress, [or] promise of leniency.\u201d Three days later, at a sentencing hearing, of which there is no record whatsoever, Allison was sentenced to 17-21 years in prison.\nAfter unsuccessfully exhausting a state collateral remedy, Allison filed a pro se petition in a Federal District Court seeking a writ of habeas corpus. The petition alleged:\n\u201c[H]is guilty plea was induced by an unkept promise, and therefore was not the free and willing choice of the petitioner, and should be set aside by this Court. An unkept bargain which has induced a guilty plea is grounds for relief. Santobello v. New York, 404 U. S. 257, 267 (1971).\u201d Pet. for Cert. 14.\nThe petition went on to explain and support this allegation as follows:\n\u201cThe petitioner was led to believe and did believe, by Mr. Pickard [Allison\u2019s attorney], that he Mr. N. Glenn Pickard had talked the case over with the Solicitor and the Judge, and that if the petitioner would plea[d] guilty, that he would only get a 10 year sentence of penal servitude. This conversation, where the petitioner was assured that if he plea[ded] guilty, he would only get ten years was witnessed by another party other than the petitioner and counsel.\n\u201cThe petitioner believing that he was only going to get a ten year active sentence, allowed himself to be pled guilty to the charge of attempted safe robbery, and was shocked by the Court with a 17-21 year sentence.\n\u201cTh\u00e9 petitioner was promised by his Attorney, who had consulted presumably with the Judge and Solicitor, that he was only going to get a ten year sentence, and therefore because of this unkept bargain, he is entitled to relief in this Court.\n\u201cThe petitioner is aware of the fact that he was questioned by the trial Judge prior to sentencing, but as he thought he was only going to get ten years, and had been instructed to answer the questions, so that the Court would accept the guilty plea, this fact does not preclude him from raising this matter especially since he was not given the promised sentence by the Court.\n\u201c. . . The fact that the Judge, said that he could get more, did not affect, the belief of the petitioner, that he was only going to get a ten year sentence.\u201d\nThe petitioner here, Warden Blackledge, filed a motion to dismiss and attached to it the \u201ctranscript\u201d of the plea hearing, consisting of nothing more than the printed form filled in by the clerk and signed by Allison and the state-court judge. The motion contended that the form conclusively showed that Allison had chosen to plead guilty knowingly, voluntarily, and with full awareness of the consequences. The Federal District Court agreed that the printed form \u201cconclusively shows that [Allison] was carefully examined by the Court before the plea was accepted. Therefore, it must stand.\u201d Pet. for Cert. 18. Construing Allison\u2019s petition as alleging merely that his lawyer\u2019s prediction of the severity of the sentence turned out to be inaccurate, the District Court found no basis for relief and, accordingly, dismissed the petition.\nOne week later Allison filed a petition for rehearing. He contended that his statements during the guilty-plea proceeding in the state court were \u201cevidentiary, but NOT conclusory\u201d (App. 17); that if true the allegations in his petition entitled him to relief; and that he deserved a chance to establish their truth. Apparently impressed by these arguments and recognizing that Allison was alleging more than a mere \u201cprediction\u201d by his lawyer, the District Court referred the rehearing petition to a United States Magistrate, who directed Allison to submit evidence in support of his allegations. After an inconclusive exchange of correspondence, the Magistrate concluded that despite \u201cample opportunity\u201d Allison had failed to comply with the directive, and recommended that the petition for rehearing be denied. The District Court accepted the Magistrate\u2019s recommendation and denied the petition. A motion for reconsideration was also denied.\nThe Court of Appeals for the Fourth Circuit reversed. It held that Allison\u2019s allegation of a broken promise, as amplified by the explanation that his lawyer instructed him to deny the existence of any promises, was not foreclosed by his responses to the form questions at the state guilty-plea proceeding. The appellate court reasoned that when a pro se, indigent prisoner makes allegations that, if proved, would entitle him to habeas corpus relief, he should not be required to prove his allegations in advance of an evidentiary hearing, at least in the absence of counter affidavits conclusively proving their falsity. The case was therefore remanded for an evidentiary hearing. 533 F. 2d 894.\nThe petitioner warden sought review in this Court, 28 U. S. C. \u00a7 1254 (1), and we granted certiorari, 429 U. S. 814, to consider the significant federal question presented.\nII\nWhatever might be the situation in an ideal world, the fact is that the guilty plea and the often concomitant plea bargain are important components of this country\u2019s criminal justice system. Properly administered, they can benefit all concerned. The defendant avoids extended pretrial incarceration and the anxieties and uncertainties of a trial; he gains a speedy disposition of his case, the chance to acknowledge his guilt, and a prompt start in realizing whatever potential there may be for rehabilitation. Judges and prosecutors conserve vital and scarce resources. The public is protected from the risks posed by those charged with criminal offenses who are at large on bail while awaiting completion of criminal proceedings.\nThese advantages can be' secured, however, only if dispositions by guilty plea are accorded a great measure of finality. To allow indiscriminate hearings in federal postconviction proceedings, whether for federal prisoners under 28 U. S. C. \u00a72255 or state prisoners under 28 U. S. C. \u00a7\u00a72241-2254, would eliminate the chief virtues of the plea system \u2014 speed, economy, and finality. And there is reason for concern about that prospect. More often than not a prisoner has everything to gain and nothing to lose from filing a collateral attack upon his guilty plea. If he succeeds in vacating the judgment of conviction, retrial may be difficult. If he convinces a court that his plea was induced by an advantageous plea agreement that was violated, he may obtain the benefit of its terms. A collateral attack may also be inspired by \u201ca mere desire to be freed temporarily from the confines of the prison.\u201d Price v. Johnston, 334 U. S. 266, 284-285; accord, Machibroda v. United States, 368 U. S. 487, 497 (Clark, J., dissenting).\nYet arrayed against the interest in finality is the very purpose of the writ of habeas corpus \u2014 to safeguard a person\u2019s freedom from detention in violation of constitutional guarantees. Harris v. Nelson, 394 U. S. 286, 290-291. \u201cThe writ of habeas corpus has played a great role in the history of human freedom. It has been the judicial method of lifting undue restraints upon personal liberty.\u201d Price v. Johnston, supra, at 269. And a prisoner in custody after pleading guilty, no less than one tried and convicted by a jury, is entitled to avail himself of the writ in challenging the constitutionality of his custody.\nIn Machibroda v. United States, supra, the defendant had pleaded guilty in federal court to bank robbery charges and been sentenced to 40 years in prison. He later filed a \u00a7 2255 motion alleging that his plea had been induced by an Assistant United States Attorney\u2019s promises that his sentence would not exceed 20 years, that the prosecutor had admonished him not to tell his lawyer about the agreement, and that the trial judge had wholly failed to inquire whether the guilty plea was made voluntarily before accepting it. This Court noted that the allegations, if proved, would entitle the defendant to relief, and that they raised an issue of fact that could not be resolved simply on the basis of an affidavit from the prosecutor denying the allegations. Because those allegations \u201crelated primarily to purported occurrences outside the courtroom and upon which the record could, therefore, cast no real light,\u201d 368 U. S., at 494-495, and were not so \u201cvague [or] conclusory,\u201d id., at 495, as to permit summary disposition, the Court ruled that the defendant was entitled to the opportunity to substantiate them at an evidentiary hearing.\nThe later case of Fontaine v. United States, 411 U. S. 213, followed the same approach. The defendant there, having waived counsel, had also pleaded guilty to federal bank robbery charges. Before accepting the plea, the District Judge addressed the defendant personally, and the defendant stated in substance \u201cthat his plea was given voluntarily and knowingly, that he understood the nature of the charge and the consequences of the plea, and that he was in fact guilty.\u201d Id., at 213-214. The defendant later filed a \u00a7 2255 motion to vacate his sentence on the ground that his plea had been coerced \u201cby a combination of fear, coercive police tactics, and illness, including mental illness.\u201d 411 U. S., at 214. The motion included supporting factual allegations, as well as hospital records documenting some of the contentions.\nAlthough noting that in collaterally attacking a plea of guilty a prisoner \u201cmay not ordinarily repudiate\u201d statements made to the sentencing judge when the plea was entered, the Court observed that no procedural device for the taking of guilty pleas is so perfect in design and exercise as to warrant a per se rule rendering it \u201cuniformly invulnerable to subsequent challenge.\u201d Id., at 215. Because the record of the plea hearing did not, in view of the allegations made, \u201c \u2018conclusively show that the prisoner [was] entitled to no relief/ \u201d 28 U. S. C. \u00a7 2255, the Court ruled that the prisoner should be given an evidentiary hearing.\nThese cases do not in the least reduce the force of the original plea hearing. For the representations of the defendant, his lawyer, and the prosecutor at such a hearing, as well as any findings made by the judge accepting the plea, constitute a formidable barrier in any subsequent collateral proceedings. Solemn declarations in open court carry a strong presumption of verity. The subsequent presentation of conclusory allegations unsupported by specifics is subject to summary dismissal, as are contentions that in the face of the record are wholly incredible. Machibroda, supra, at 495-496 (\u00a7 2255); Price v. Johnston, supra, at 286-287 (\u00a7 2243).\nWhat Machibroda and Fontaine indisputably teach, however, is that the barrier of the plea or sentencing proceeding record, although imposing, is not invariably insurmountable. In administering the writ of habeas corpus and its \u00a7 2255 counterpart, the federal courts cannot fairly adopt a per se rule excluding all possibility that a defendant\u2019s representations at the time his guilty plea was accepted were so much the product of such factors as misunderstanding, duress, or misrepresentation by others as to make the guilty plea a constitutionally inadequate basis for imprisonment.\nIll\nThe allegations in this case were not in themselves so \u201cvague [or] conclusory,\u201d Machibroda, 368 U. S., at 495, as to warrant dismissal for that reason alone. Allison alleged as a ground for relief that his plea was induced by an unkept promise. But he did not stop there. He proceeded to elaborate upon this claim with specific factual allegations. The petition indicated exactly what the terms of the promise were; when, where, and by whom the promise had been made; and the identity of one witness to its communication. The critical question is whether these allegations, when viewed against the record of the plea hearing, were so \u201cpalpably incredible,\u201d ibid., so \u201cpatently frivolous or false,\u201d Herman v. Claudy, 350 U. S. 116, 119, as to warrant summary dismissal. In the light of the nature of the record of the proceeding at which the guilty plea was accepted, and of the ambiguous status of the process of plea bargaining at the time the guilty plea was made, we conclude that Allison\u2019s petition should not have been summarily dismissed.\nOnly recently has plea bargaining become a visible practice accepted as a legitimate component in the administration of criminal justice. For decades it was a sub rosa process shrouded in secrecy and deliberately concealed by participating defendants, defense lawyers, prosecutors, and even judges. Indeed, it was not until our decision in Santobello v. New York, 404 U. S. 257, that lingering doubts about the legitimacy of the practice were finally dispelled.\nAllison was arraigned a mere 37 days after the Santobello decision was announced, under a North Carolina procedure that had not been modified in light of Santobello or earlier decisions of this Court recognizing the process of plea bargaining. That procedure itself reflected the atmosphere of secrecy which then characterized plea bargaining generally. No transcript of the proceeding was made, The only record was a standard printed form. There is no way of knowing whether the trial judge in any way deviated from or supplemented the text of the form. The record is silent as to what statements Allison, his lawyer, or the prosecutor might have made regarding promised sentencing concessions. And there is no record at all of the sentencing hearing three days later, at which one of the participants might well have made a statement shedding light upon the veracity of the allegations Allison later advanced.\nThe litany of form questions followed by the trial judge at arraignment nowhere indicated to Allison (or indeed to the lawyers involved) that plea bargaining was a legitimate practice that could be freely disclosed in open court. Neither lawyer was asked to disclose any agreement that had been reached, or sentencing recommendation that had been promised. The process thus did nothing to dispel a defendant\u2019s belief that any bargain struck must remain concealed \u2014 \u25a0 a belief here allegedly reinforced by the admonition of Allison\u2019s lawyer himself that disclosure could jeopardize the agreement. Rather than challenging respondent\u2019s counsel\u2019s contention at oral argument in this Court that \u201cat that time in North Carolina plea bargains were never disclosed in response to such a question on such a form,\u201d Tr. of Oral Arg. 25, counsel for the petitioners conceded at oral argument that \u201c[t]hat form was a minimum inquiry.\u201d Id., at 49.\nAlthough \u201c[ljogically the general inquiry should elicit information about plea bargaining, ... it seldom has in the past.\u201d Advisory Committee Notes to 1974 Amendment of Fed. Rule Crim. Proc. 11, 18 U. S. C. App., p. 1304 (1970 ed., Supp. V). Particularly if, as Allison alleged, he was advised by counsel to conceal any plea bargain, his denial that any promises had been made might have been a courtroom ritual more sham than real. We thus cannot conclude that the allegations in Allison\u2019s habeas corpus petition, when measured against the \u201crecord\u201d of the arraignment, were so \u201cpatently false or frivolous\u201d as to warrant summary dismissal.\nNorth Carolina has recently undertaken major revisions of its plea-bargaining procedures, in part to prevent the very kind of problem now before us. Plea bargaining is expressly legitimated. N. C. Gen. Stat. \u00a7 15A-1021, and Official Commentary (1975). The judge is directed to advise the defendant that courts have approved plea bargaining and he may thus admit to any promises without fear of jeopardizing an advantageous agreement or prejudicing himself in the judge\u2019s eyes. See Brief for Respondent, App. D. Specific inquiry about whether a plea bargain has been struck is then made not only of the defendant, but also of his counsel and the prosecutor. N. C. Gen. Stat. \u00a7\u00a7 15A-1023 (a), (c) (1975). Finally, the entire proceeding is to be transcribed verbatim. \u00a7 15A-1026, as amended (Int. Supp. 1976).\nHad these commendable procedures been followed in the present case, Allison\u2019s petition would have been cast in a very different light. The careful explication of the legitimacy of plea bargaining, the questioning of both lawyers, and the verbatim record of their answers at the guilty-plea proceedings would almost surely have shown whether any bargain did exist and, if so, insured that it was not ignored. But the salutary reforms recently implemented by North Carolina highlight even more sharply the deficiencies in the record before the District Court in the present case.\nThis is not to say that every set of allegations not on its face without merit entitles a habeas corpus petitioner to an evidentiary hearing. As in civil cases generally, there exists a procedure whose purpose is to test whether facially adequate allegations have sufficient basis in fact to warrant plenary presentation of evidence. That procedure is, of course, the motion for summary judgment. Upon remand the warden will be free to make such a motion, supporting it with whatever proof he wishes to attach. If he chooses to do so, Allison will then be required either to produce some contrary proof indicating that there is a genuine issue of fact to be resolved by the District Court or to explain his inability to provide such proof. Fed. Rules Civ. Proc. 56 (e), (f).\nMoreover, as is now expressly provided in the Rules Governing Habeas Corpus Cases, the district judge (or a magistrate to whom the case may be referred) may employ a variety of measures in an effort to avoid the need for an evidentiary hearing. Under Rule 6, a party may request and the judge may direct that discovery take place, and \u201cthere may be instances in which discovery would be appropriate [before an evidentiary hearing, and would show such a hearing] to be unnecessary . . . Advisory Committee note to Rule 6, Rules Governing Habeas Corpus Cases, 28 U. S. C., p. 268 (1976 ed.). Under Rule 7; the judge can direct expansion of the record to include any appropriate materials that \u201cenable the judge to dispose of some habeas petitions not dismissed on the pleadings, without the time and expense required for an evidentiary hearing.\u201d\nIn short, it may turn out upon remand that a full evidentiary hearing is not required. But Allison is \u201centitled to careful consideration and plenary processing of [his claim,] including full opportunity for presentation of the relevant facts.\u201d Harris v. Nelson, 394 U. S., at 298. See Shapiro, Federal Habeas Corpus: A Study in Massachusetts, 87 Harv. L. Rev. 321, 337-338 (1973). Upon that understanding, the judgment of the Court of Appeals is affirmed.\nIt is so ordered.\nThe Chief Justice concurs in the judgment.\nMb. Justice Rehnquist took no part in the consideration or decision of this case.\nThe only record of the proceeding consists, therefore, of the executed form, which reads, in its entirety (Pet. for Cert. 10-13), as follows:\n\u201cState of North Carolina\n\u201cCounty of Alamance\n\u201cState of North Carolina vs. \u201cGary Darrell Allison\n\u201cFile #71CrS 15073\n\u201cFilm #..........\n\u201cIn the General Court of Justice \u201cSuperior Court Division\n\u201cTRANSCRIPT OF PLEA\n\u201cThe Defendant, being first duly sworn, makes the following answers to the questions asked by the Presiding Judge:\n\u201c1. Are you able to hear and understand my statements and questions? Answer: Yes\n\u201c2. Are you now under the influence of any alcohol, drugs, narcotics, medicines, or other pills? Answer: No\n\u201c3. Do you understand that you are charged with the felony of Attempted Safe Cracking? Answer: Yes\n\u201c4. Has the charge been explained to you, and are you ready for trial ? Answer [: ] Yes\n\u201c5. Do you understand that you have the right to plead not guilty and to be tried by a Jury? Answer: Yes \u201c6. How do you plead to the charge of Attempted Safe Cracking\u2014 Guilty, not Guilty, or nolo contendere? Answer: Guilty\n\u201c7. (a) Are you in fact guilty? (Omit if plea is nolo contendere) Answer: Yes\n(b) (If applicable) Have you had explained to you and do you understand the meaning of a plea of nolo contendere ? Answer:----\n\u201c8. Do you understand that upon your plea of guilty you could be imprisoned for as much as minimum of 10 years to life? Answer: Yes\n\u201c9. Have you had time to subpoena witnesses wanted by you? Answer: Yes\n\u201c10. Have you had time to talle and confer with and have you conferred with your lawyer about this case, and are you satisfied with his services? Answer: Yes\n\u201c11. Has the Solicitor, or your lawyer, or any policeman, law officer or anyone else made any promises or threat to you to influence you to plead guilty in this case? Answer: No\n\u201c12. Do you now freely, understanding^ and voluntarily authorize and instruct your lawyer to enter on your behalf a plea of guilty? Answer: Yes\n\u201c13. Do you have any questions or any statement\u2019to make about what I have just said to you? Answer: No\n\u201cI have read or heard read all of the above questions and answers and understand them, and the answers shown are the ones I gave in open Court, and they are true and correct.\n\u201cGary Darrell Allison \u201cDefendant\n\u201cSworn to and subscribed before me this 24th day of January, 1972.\n\u201cAOC-L Form 158 \u201cCatherine Sykes, Ass't.\n\u201cRev. 10/69 \u201cClerk Superior Court\n\u201cADJUDICATION\n\u201cThe undersigned Presiding Judge hereby finds and adjudges:\n\u201cI. That the defendant, Gary Darrell Allison, was sworn in open Court and the questions were asked him as set forth in the Transcript of Plea by the undersigned Judge, and the answers given thereto by said defendant are as set forth therein.\n\"II. That this defendant, was represented by attorney, M. Glenn Pickard, who was (court appointed); and the defendant through his attorney, in open Court, plead [sic] (guilty) to Attempted Safe Cracking as charged in the (warrant) (bill of indictment), of Breaking & Entering, Safe Burglary & Possession of Burglary Tools and in open Court, under oath further informs the Court that:\n\u201c1. He is and has been fully advised of his rights and the charges against him;\n\"2. He is and has been fully advised of the maximum punishment for said offense(s) charged, and for the offense(s) to which he pleads guilty;\n\u201c3. He is guilty of the offense(s) to which he pleads guilty;\n\u201c4. He authorizes his attorney to enter a plea of guilty to said charge (s) ;\n\u201c5. He has had ample time to confer with his attorney, and to subpoena witnesses desired by him;\n\u201c6. He is ready for trial;\n\u201c7. He is satisfied with the counsel and services of his attorney;\n\u201cAnd after further examination by the Court, the Court ascertains, determines and adjudges, that the plea of guilty, by the defendant is freely, understandingly and voluntarily made, without undue influence, compulsion or duress, and without promise of leniency. It is, therefore, ORDERED that his plea of guilty be entered in the record, and that the Transcript of Plea and Adjudication be filed and recorded.\n\u201cThis 24th day of January, 1972.\n\u201cMarvin Blount Jr. \u201cJudge Presiding\u201d\nSee generally Santobello v. New York, 404 U. S. 257, 260-261; Brady v. United States, 397 U. S. 742, 751-752; ABA Project on Standards for Criminal Justice, Pleas of Guilty 1-3 (Approved Draft 1968) (hereinafter ABA Standards); ALI Model Code of Pre-Arraignment Procedure \u00a7 350.3, Commentary (1975) (hereinafter ALI Code).\nFontaine and Machibroda were by no means the first cases in which this Court held that postconviction collateral relief might be available to a person convicted after having pleaded guilty. See, e. g., Herman v. Claudy, 350 U. S. 116; Waley v. Johnston, 316 U. S. 101; Walker v. Johnston, 312 U. S. 275.\nThe standards of \u00a7\u00a7 2243 and 2255 differ somewhat in phrasing. Compare \u00a7 2243 (A state prisoner seeking a writ of habeas corpus is to be granted an evidentiary hearing \u201cunless it appears from the application that the applicant ... is not entitled thereto\u201d) with \u00a7 2255 (A federal prisoner moving for relief is to be granted a hearing \u201c[u]nless the motion and the files and records of the case conclusively show that the prisoner is entitled to no relief\u201d). However, the remedy under \u00a7 2255 was designed to be \u201cexactly commensurate\u201d with the federal habeas corpus remedy, Swain v. Pressley, 430 U. S. 372, 381; Hill v. United States, 368 U. S. 424, 427; United States v. Hayman, 342 U. S. 205, 219, and has been construed in accordance with that design, e. g., Sanders v. United States, 373 U. S. 1, 6-14. See also Developments in the Law \u2014 Federal Habeas Corpus, 83 Harv. L. Rev. 1038, 1173, and n. 126 (1970).\nUnlike federal habeas corpus proceedings, a motion under \u00a7 2255 is ordinarily presented to the judge who presided at the original conviction and sentencing of the prisoner. In some cases, the judge\u2019s recollection of the events at issue may enable him summarily to dismiss a \u00a7 2255 motion, even though he could not similarly dispose of a habeas corpus petition challenging a state conviction but presenting identical allegations. Cf. Machibroda, 368 U. S., at 495 (\u201cNor were the circumstances alleged of a kind that the District Judge could completely resolve by drawing upon his own personal knowledge or recollection\u201d). To this extent, the standard may be administered in a somewhat different fashion.\nSee, e. g., United States v. McCarthy, 433 F. 2d 591, 593 (CA1); United States v. LaVallee, 319 F. 2d 308, 314 (CA2); Trotter v. United States, 359 F. 2d 419 (CA2); United States v. Valenciano, 495 F. 2d 585 (CA3); Edwards v. Garrison, 529 F. 2d 1374, 1377 (CA4); Bryan v. United States, 492 F. 2d 775, 778 (CA5); Mayes v. Pickett, 537 F. 2d 1080, 1082-1083 (CA9); Jones v. United States, 384 F. 2d 916, 917 (CA9); United States v. Simpson, 141 U. S. App. D. C. 8, 11, 436 F. 2d 162, 165. In citing these cases we do not necessarily approve the result in any of them.\nAn analogy is to be found in the law of contracts. The parol evidence rule has as its very purpose the exclusion of evidence designed to repudiate provisions in a written integration of contractual terms. Yet even a written contractual provision declaring that the contract contains the complete agreement of the parties, and that no antecedent or extrinsic representations exist, does not conclusively bar subsequent proof that such additional agreements exist and should be given force. The provision denying the existence of such agreements, of course, carries great weight, but it can be set aside by a court on the grounds of fraud, mistake, duress, \u201cor on some ground that is sufficient for setting aside other contracts.\u201d 3 A. Corbin, Contracts \u00a7 578, p. 403 (2d ed. 1960); see id., at 405-407, and nn. 41, 43.\nSee Advisory Committee Note to Rule 4, Rules Governing Habeas Corpus Cases ('\"[N]otice\u2019 pleading is not sufficient, for the petition is expected to state facts that point to a 'real possibility of constitutional error\u2019 \u201d), 28 U. S. C. App., p. 266 (1976 ed.).\nAllison\u2019s petition stated that his lawyer, \u201cwho had consulted presumably with the Judge and Solicitor,\u201d had promised that the maximum sentence to be imposed was 10 years. This allegation, in light of the other circumstances of this case, raised the serious constitutional question whether his guilty plea was knowingly and voluntarily made. See Santobello v. New York, 404 U. S. 257; Brady v. United States, 397 U. S. 742, 755.\nSee, e. g., Advisory Committee Notes to 1974 Amendment of Fed. Rule Crim. Proc. 11, 18 U. S. C. App., p. 1304 (1970 ed., Supp. V); ABA Standards, Commentary 60-64; ALI Code, \u00a7 350.5, Note and Commentary; President\u2019s Commission on Law Enforcement and Administration of Justice, Task Force Report: The Courts 9, 12-13, 111, 115 (1967) (hereinafter Task Force Report).\nThe Santobello opinion declared that plea bargaining was \u201can essential component\u201d of the criminal process which, \u201c[pjroperly administered, . . . is to be encouraged.\u201d 404 U. S., at 260.\nSee McMann v. Richardson, 397 U. S. 759; Brady v. United States, supra.\nAccording to the petitioner\u2019s brief, the form of inquiry employed at Allison\u2019s arraignment dates from 1967.\nSee, e. g., United States v. McCarthy, 433 F. 2d, at 593; Walters v. Harris, 460 F. 2d 988, 993 (CA4); United States v. Williams, 407 F. 2d 940, 947-949, and n. 13 (CA4); Bryan v. United States, 492 F. 2d, at 780-781; Moody v. United States, 497 F. 2d 359, 362-363, and n. 2 (CA7); United States v. Tweedy, 419 F. 2d 192, 193 (CA9); Jones v. United States, 423 F. 2d 252 (CA9); White v. Gaffney, 435 F. 2d 1241 (CA10); ABA Standards, Commentary 60-64; Task Force Report 9, 12-13, 111, 115; A. Trebach, The Rationing of Justice 159-160 (1964).\nSee Advisory Committee Notes to 1974 Amendment of Fed. Rule Crim. Proc. 11, 18 U. S. C. App., p. 1304 (1970 ed., Supp. V); ABA Standards, Commentary 61-62; Task Force Report 111.\nThere is another ground to support the view that the allegations were not wholly incredible. Allison was indicted on three separate charges. All three were listed in the printed arraignment form, but he pleaded guilty to only one of them; the other two may well have been dismissed pursuant to an agreement. And this is not a case in which there is a record of the sentencing proceedings, see, e. g., United States v. Tweedy, supra; Lynott v. United States, 360 F. 2d 586 (CA3), or where delay by the prisoner in seeking postconviction relief, see, e. g., Raines v. United States, 423 F. 2d 526, 528 (CA4); United States v. Tweedy, supra, at 195; see also Machibroda v. United States, 368 U. S., at 498-499 (Clark, J., dissenting), undercuts the credibility of his allegations.\nFor the reasons stated in the text, the \u201cfinding\u201d recorded on the printed form that Allison\u2019s plea was entered \u201cunderstandingly and voluntarily, . . . without promise of leniency,\u201d see n. 1, supra, was not binding under 28 U. S. C. \u00a7 2254 (d) on the District Court. See, e. g., Edwards v. Garrison, 529 F. 2d, at 1377-1378, n. 3. See also Machibroda v. United States, supra, at 494-495 (\u201cThe factual allegations [at issue] related primarily to purported occurrences outside the courtroom and upon which the record could, therefore, cast no real light\u201d); Friendly, Is Innocence Irrelevant? Collateral Attacks on Criminal Judgments, 38 U. Chi. L. Rev. 142, 152 (1970).\nIn 1973, the North Carolina Legislature enacted a comprehensive set of procedures governing disposition by guilty plea and plea arrangement, modeled after the ALI Model Code of Pre-Arraignment Procedure, Art. 350 (Tent. Draft No. 5, 1972). One of the stated purposes of the reform was to allow \"defendants to tell the truth in plea proceedings. They should not be expected to go before judges after plea negotiations and lie by saying no promises or agreements were made.\u201d Official Commentary to Art. 58, N. C. Gen. Stat. \u00a7\u00a7 15A-1021 to 15A-1027 (1975). Appendices to the respondent\u2019s brief indicate that the form used by trial judges in conducting plea hearings has twice been amended since the passage of this legislation.\nThese reforms are quite similar to those undertaken in the 1974 Amendment of Fed. Rule Crim. Proc. 11, as well as to the recommendations of the ABA Standards and the ALI Code.\nA principal purpose of the North Carolina statutory reforms was to permit quick disposition of baseless collateral attacks. Official Commentary, supra, n. 17 (\u201cIf the procedures of plea negotiation are on the record and accurately reflect the things (legitimately) done, the basis for later challenge is effectively minimized\u201d). Indeed, a petitioner challenging a plea given pursuant to procedures like those now mandated in North Carolina will necessarily be asserting that not only his own transcribed responses, but those given by two lawyers, were untruthful. Especially as it becomes routine for prosecutors and defense lawyers to acknowledge that plea bargains have been made, such a contention will entitle a petitioner to an evidentiary hearing only in the most extraordinary circumstances.\nThis is not to suggest that a plea of guilty entered pursuant to procedures like those in effect at Allison\u2019s arraignment is necessarily vulnerable to collateral attack. It is simply to say that procedures like those now in effect in North Carolina serve (1) to prevent the occurrence of constitutional errors in the arraignment process, and (2) to discourage the filing of baseless petitions for habeas corpus and facilitate speedy but fair disposition of those that are filed.\nIndeed, it would seem easier for the State than for an indigent, untutored prisoner to obtain affidavits from the principals, particularly given the potential availability of discovery, see n. 23, infra.\nTitle 28 U. S. C. \u00a7\u00a7 636 (b) (2), (3) authorize magistrates to assist \u201ca district judge in the conduct of pretrial or discovery proceedings in civil or criminal actions,\u201d and preliminarily to review \u201capplications for posttrial relief made by individuals convicted of criminal offenses . . . .\u201d Rule 10 of the newly promulgated Rules Governing Habeas Corpus Cases similarly authorizes performance by a magistrate of virtually all the duties of a district judge, except for the exercise of ultimate decisionmaking authority. See Advisory Committee Note to Rule 10, 28 U. S. C., p. 274 (1976 ed.); Wingo v. Wedding, 418 U. S. 461, 473-474.\nRule 6 of the Rules Governing Habeas Corpus, entitled \u201cDiscovery,\u201d provides:\n\u201c(a) Leave of court required. A party shall be entitled to invoke the processes of discovery available under the Federal Rules of Civil Procedure if, and to the extent that, the judge in the exercise of his discretion and for good cause shown grants leave to do so, but not otherwise. If necessary for effective utilization of discovery procedures, counsel shall be appointed by the judge for a petitioner who qualifies for the appointment of counsel under 18 17. S. C. \u00a7 3006A (g).\n\u201c(b) Requests for discovery. Requests for discovery shall be accompanied by a statement of the questions, interrogatories, or requests for admission and a list of the documents, if any, sought to be produced.\n\u201c(c) Expenses. If the respondent is granted leave to take the deposition of the petitioner or any other person the judge may as a condition of taking it direct that the respondent pay the expenses of travel and subsistence and fees of counsel for the petitioner to attend the taking of the deposition.\u201d\nRule 7 of the Rules Governing Habeas Corpus Cases, entitled \u201cExpansion of Record,\u201d provides:\n\u201c(a) Direction for Expansion. If the petition is not dismissed 'summarily the judge may direct that the record be expanded by the parties by the inclusion of additional materials relevant to the determination of the merits of the petition.\n\u201c(b) Materials to be added. The expanded record may include, without limitation, letters predating the filing of the petition in the district court, documents, exhibits, and answers under oath, if so directed, to written interrogatories propounded by the judge. Affidavits may be submitted and considered as a part of the record.\n\u201c(c) Submission to opposing party. In any case in which an expanded record is directed, copies of the letters, documents, exhibits, and affidavits proposed to be included shall be submitted to the party against whom they are to be offered, and he shall be afforded an opportunity to admit or deny their correctness.\u201d\nThere may be cases in which expansion of the record will provide \u201cevidence against a petitioner\u2019s extra-record contentions ... so overwhelming as to justify a conclusion that an [allegation of a dishonored plea agreement] does not raise a substantial issue of fact.\u201d Moorhead v. United States, 456 F. 2d 992, 996 (CA3). But before dismissing facially adequate allegations short of an evidentiary hearing, ordinarily a district judge should seek as a minimum to obtain affidavits from all persons likely to have firsthand knowledge of the existence of any plea agreement. See Walters v. Harris, 460 F. 2d, at 992. \u201c \u2018When the issue is one of credibility, resolution on the basis of affidavits can rarely be conclusive, but that is not to say they may not be helpful.\u2019 \u201d Advisory Committee Note to Rule 7, Rules Governing Habeas Corpus Cases, 28 U. S. C., p. 269 (1976 ed.), quoting Raines v. United States, 423 F. 2d 526, 530 (CA4).\nThe correspondence between the Magistrate and Allison pertaining to Allison\u2019s petition for rehearing, see supra, at 70, did not provide such an opportunity. The Magistrate directed Allison to obtain a notarized statement from his codefendant, who allegedly had heard Allison\u2019s attorney make the promise as to sentence. Allison was confined in prison and without legal assistance. The codefendant was confined in a different prison. In these circumstances, the Magistrate imposed upon Allison a novel and formless burden of supplying proof, without the benefit of compulsory process and without any intimation that dismissal would follow if that burden were not met. It can thus hardly be said that Allison was granted a \u201cfull opportunity for presentation of the relevant facts\u201d or that his petition received \u201ccareful consideration and plenary processing.\u201d",
+        "type": "majority",
+        "author": "Mr. Justice Stewart"
+      },
+      {
+        "text": "Mb. Justice Powell,\nconcurring.\nI join the opinion of the Court, and write briefly only to emphasize the importance of finality to a system of justice. Our traditional concern for \u201cpersons whom society has grievously wronged and for whom belated liberation is little enough compensation,\u201d Fay v. Noia, 372 U. S. 391, 441 (1963), has resulted in a uniquely elaborate system of appeals and collateral review, even in cases in which the issue presented has little or nothing to do with innocence of the accused. The substantial societal interest in both innocence and finality of judgments is subordinated in many instances to formalisms.\nThe case before us today is not necessarily an example of abuse of the system. It is an example, however, of how finality can be frustrated by failure to adhere to proper procedures at the trial court level. I do not prejudge the ultimate result in this case by saying that respondent\u2019s guilty plea may well have been made knowingly and voluntarily. The case is here, five years after respondent\u2019s conviction, and following review by the North Carolina courts, the United States District Court, and the Court of Appeals for the Fourth Circuit, primarily because the record before us leaves room for some doubt as to the reliability of the procedure followed with respect to the guilty plea. All that we have in the record, as a basis for testing the possible merit of respondent\u2019s petition, are answers to a printed form certified by the trial judge. We do not know whether anything was said by the judge, the prosecutor, or counsel for respondent, other than the questions read from the form and the monosyllabic answers by respondent. There was no transcript of the proceedings.\nAs the Court\u2019s opinion indicates, there is every reason to believe that if a procedure similar to that prescribed by the new North Carolina statute is followed, a contention such as that made by respondent will justify an evidentiary hearing \u201conly in the most extraordinary circumstances.\u201d Ante, at 80 n. 19. If all participants in the process at the plea stage are mindful of the importance of adhering carefully to prescribed procedures and of preserving a full record thereof, the causes of justice and finality both will be served.\nThe importance of finality to the criminal defendant and to society was well put by Mr. Justice Harlan:\n\u201cBoth the individual criminal defendant and society have an interest in insuring that there will at some point be the certainty that comes with an end to litigation, and that attention will ultimately be focused not on whether \u00e1i conviction was free from error but rather on whether the prisoner can be restored to a useful place in the community.\u201d Sanders v. United States, 373 U. S. 1, 24-25 (1963) (dissenting opinion).\nSee also Schneckloth v. Bustamonte, 412 U. S. 218, 256-266 (1973) (Powell, J., concurring).",
+        "type": "concurrence",
+        "author": "Mb. Justice Powell,"
+      }
+    ],
+    "attorneys": [
+      "Richard N. League, Assistant Attorney General of North Carolina, argued the cause for petitioners. With him on the briefs was Rufus L. Edmisten, Attorney General.",
+      "C. Frank Goldsmith, Jr., by appointment of the Court, 429 U. S. 957, argued the cause and filed a brief for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "BLACKLEDGE, WARDEN, et al. v. ALLISON\nNo. 75-1693.\nArgued February 22, 1977\nDecided May 2, 1977\nRichard N. League, Assistant Attorney General of North Carolina, argued the cause for petitioners. With him on the briefs was Rufus L. Edmisten, Attorney General.\nC. Frank Goldsmith, Jr., by appointment of the Court, 429 U. S. 957, argued the cause and filed a brief for respondent."
+  },
+  "file_name": "0063-01",
+  "first_page_order": 125,
+  "last_page_order": 146
+}

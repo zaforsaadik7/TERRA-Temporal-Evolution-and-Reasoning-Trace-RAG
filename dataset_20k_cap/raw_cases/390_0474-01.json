@@ -1,0 +1,980 @@
+{
+  "id": 6173166,
+  "name": "AVERY v. MIDLAND COUNTY et al.",
+  "name_abbreviation": "Avery v. Midland County",
+  "decision_date": "1968-04-01",
+  "docket_number": "No. 39",
+  "first_page": "474",
+  "last_page": "510",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "390 U.S. 474"
+    },
+    {
+      "type": "parallel",
+      "cite": "20 L. Ed. 2d 45"
+    },
+    {
+      "type": "parallel",
+      "cite": "88 S. Ct. 1114"
+    },
+    {
+      "type": "vendor",
+      "cite": "1968 U.S. LEXIS 2061"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1967-091"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "377 U. S. 713",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171778
+      ],
+      "year": 1964,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0845-01"
+      ]
+    },
+    {
+      "cite": "337 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        572361
+      ],
+      "year": 1949,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/337/0001-01"
+      ]
+    },
+    {
+      "cite": "362 U. S. 199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6162984
+      ],
+      "year": 1960,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/362/0199-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 541",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338972
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0541-01"
+      ]
+    },
+    {
+      "cite": "358 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3655212
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/358/0001-01"
+      ]
+    },
+    {
+      "cite": "247 F. Supp. 30",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        409074
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/247/0030-01"
+      ]
+    },
+    {
+      "cite": "369 U. S. 186",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166554
+      ],
+      "year": 1962,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/369/0186-01"
+      ]
+    },
+    {
+      "cite": "339 U. S. 940",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        362322,
+        362395,
+        362260
+      ],
+      "year": 1950,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/339/0940-03",
+        "/us/339/0940-01",
+        "/us/339/0940-02"
+      ]
+    },
+    {
+      "cite": "43 So. 2d 514",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10064596
+      ],
+      "year": 1949,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/43/0514-01"
+      ]
+    },
+    {
+      "cite": "352 F. 2d 123",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        851266
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/352/0123-01"
+      ]
+    },
+    {
+      "cite": "234 F. Supp. 945",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1478450
+      ],
+      "year": 1964,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/234/0945-01"
+      ]
+    },
+    {
+      "cite": "256 F. Supp. 824",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1543563
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/256/0824-01"
+      ]
+    },
+    {
+      "cite": "256 F. Supp. 612",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1543399
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/256/0612-01"
+      ]
+    },
+    {
+      "cite": "286 F. Supp. 475",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        2838762
+      ],
+      "year": 1968,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/286/0475-01"
+      ]
+    },
+    {
+      "cite": "141 N. W. 2d 98",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1966,
+      "opinion_index": 0
+    },
+    {
+      "cite": "377 Mich. 616",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1894715
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/377/0616-01"
+      ]
+    },
+    {
+      "cite": "230 A. 2d 54",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "425 Pa. 478",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1906705
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/425/0478-01"
+      ]
+    },
+    {
+      "cite": "132 N. W. 2d 249",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Wis. 2d 43",
+      "category": "reporters:state",
+      "reporter": "Wis. 2d",
+      "case_ids": [
+        8675800
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis-2d/26/0043-01"
+      ]
+    },
+    {
+      "cite": "81 S. D. 617",
+      "category": "reporters:state",
+      "reporter": "S.D.",
+      "case_ids": [
+        4627349
+      ],
+      "weight": 2,
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sd/81/0617-01"
+      ]
+    },
+    {
+      "cite": "262 N. Y. S. 2d 444",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 N. E. 2d 778",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 N. Y. 2d 94",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        2273757
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/16/0094-01"
+      ]
+    },
+    {
+      "cite": "409 S. W. 2d 138",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10122629
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/409/0138-01"
+      ]
+    },
+    {
+      "cite": "274 Minn. 187",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        351311
+      ],
+      "weight": 2,
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/274/0187-01"
+      ]
+    },
+    {
+      "cite": "222 A. 2d 164",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1966,
+      "opinion_index": 0
+    },
+    {
+      "cite": "243 Md. 634",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        1942824
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/243/0634-01"
+      ]
+    },
+    {
+      "cite": "46 Cal. Rptr. 617",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "405 P. 2d 857",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal. 2d 343",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335729
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0343-01"
+      ]
+    },
+    {
+      "cite": "326 U. S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156378
+      ],
+      "year": 1945,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/326/0120-01"
+      ]
+    },
+    {
+      "cite": "371 U. S. 542",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        451418
+      ],
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/371/0542-01"
+      ]
+    },
+    {
+      "cite": "371 U. S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        451431
+      ],
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/371/0555-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334611
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0112-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334541
+      ],
+      "weight": 2,
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0105-01"
+      ]
+    },
+    {
+      "cite": "368 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164434,
+        6164491
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/368/0001-01",
+        "/us/368/0001-02"
+      ]
+    },
+    {
+      "cite": "406 S. W. 2d 422",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10129995
+      ],
+      "weight": 6,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "425"
+        },
+        {
+          "page": "428"
+        },
+        {
+          "page": "428-429"
+        },
+        {
+          "page": "426"
+        },
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/406/0422-01"
+      ]
+    },
+    {
+      "cite": "397 S. W. 2d 919",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10180517
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/397/0919-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171208
+      ],
+      "weight": 6,
+      "year": 1964,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0665-01"
+      ]
+    },
+    {
+      "cite": "388 U. S. 905",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174185,
+        6174330,
+        6174086
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0905-02",
+        "/us/388/0905-03",
+        "/us/388/0905-01"
+      ]
+    },
+    {
+      "cite": "389 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339860
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/389/0421-01"
+      ]
+    },
+    {
+      "cite": "385 U. S. 440",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338369
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/385/0440-01"
+      ]
+    },
+    {
+      "cite": "389 U. S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11336770
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/389/0212-01"
+      ]
+    },
+    {
+      "cite": "1964 Sup. Ct. Rev. 1",
+      "category": "journals:journal",
+      "reporter": "Sup. Ct. Rev.",
+      "pin_cites": [
+        {
+          "page": "68-70"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "324 U. S. 548",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156028
+      ],
+      "pin_cites": [
+        {
+          "page": "551"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/324/0548-01"
+      ]
+    },
+    {
+      "cite": "334 U. S. 62",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157415
+      ],
+      "pin_cites": [
+        {
+          "page": "68"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/334/0062-01"
+      ]
+    },
+    {
+      "cite": "345 U. S. 379",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        372427
+      ],
+      "pin_cites": [
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/345/0379-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1257",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "324 U. S. 117",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6154589
+      ],
+      "pin_cites": [
+        {
+          "page": "125-126"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/324/0117-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1524567
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/380/0194-01"
+      ]
+    },
+    {
+      "cite": "369 U. S. 186",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166554
+      ],
+      "weight": 4,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "266, 300-323"
+        },
+        {
+          "page": "251, 258-259"
+        },
+        {
+          "page": "266, 300-324"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/369/0186-01"
+      ]
+    },
+    {
+      "cite": "406 S. W. 2d 422",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10129995
+      ],
+      "weight": 2,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "428"
+        },
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/406/0422-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171208
+      ],
+      "weight": 2,
+      "year": 1964,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/377/0665-01"
+      ]
+    },
+    {
+      "cite": "347 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11301409
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "494"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/347/0483-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4609
+      ],
+      "year": 1880,
+      "pin_cites": [
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/100/0303-01"
+      ]
+    },
+    {
+      "cite": "358 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3655212
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/358/0001-01"
+      ]
+    },
+    {
+      "cite": "222 A. 2d 164",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1966,
+      "opinion_index": 2
+    },
+    {
+      "cite": "387 U. S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334611
+      ],
+      "year": 1967,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/387/0112-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334541
+      ],
+      "year": 1967,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/387/0105-01"
+      ]
+    },
+    {
+      "cite": "406 S. W. 2d 422",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10129995
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "428"
+        },
+        {
+          "page": "428"
+        },
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/406/0422-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171208
+      ],
+      "year": 1964,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/377/0665-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 713",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171778
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "744"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/377/0845-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171208
+      ],
+      "year": 1964,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/377/0665-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2208,
+    "char_count": 67347,
+    "ocr_confidence": 0.645,
+    "pagerank": {
+      "raw": 6.186927528462898e-06,
+      "percentile": 0.9991545839158963
+    },
+    "sha256": "8039b81dfe7ed1b07db1331bb29e0ed5e01fd5b0d42cec6f613188b20e65f50a",
+    "simhash": "1:0e0d4655c328c7da",
+    "word_count": 10833
+  },
+  "last_updated": "2024-02-27T23:59:08.345769+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Marshall took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "AVERY v. MIDLAND COUNTY et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice White\ndelivered the opinion of the Court.\nPetitioner, a taxpayer and voter in Midland County, Texas, sought a determination by this Court that the Texas Supreme Court erred in concluding that selection of the Midland County Commissioners Court from single-member districts of substantially unequal population did not necessarily violate the Fourteenth Amendment. We granted review, 388 U. S. 905 (1967), because application of the one man, one vote principle of Reynolds v. Sims, 377 U. S. 533 (1964), to units of local government is of broad public importance. We hold that petitioner, as a resident of Midland County, has a right to a vote for the Commissioners Court of substantially equal weight to the vote of every other resident.\nMidland County has a population of about 70,000. The Commissioners Court is composed of five members. One, the County Judge, is elected at large from the entire county, and in practice casts a vote only to break a tie. The other four are Commissioners chosen from districts. The population of those districts, according to the 1963 estimates that were relied upon when this case was tried, was respectively 67,906; 852; 414; and 828. This vast imbalance resulted from placing in a single district virtually the entire city of Midland, Midland County\u2019s only urban center, in which 95% of the county\u2019s population resides.\nThe Commissioners Court is assigned by the Texas Constitution and by various statutory enactments with a variety of functions. According to the commentary to Vernon\u2019s Texas Statutes, the court:\n\u201cis the general governing body of the county. It establishes a courthouse and jail, appoints numerous minor officials such as the county health officer, fills vacancies in the county offices, lets contracts in the name of the county, builds roads and bridges, adr ministers the county\u2019s public welfare services, performs numerous duties in regard to elections, sets the county tax rate, issues bonds, adopts the county budget, and serves as a board of equalization for tax assessments.\u201d\nThe court is also authorized, among other responsibilities, to build and run a hospital, Tex. Rev. Civ. Stat. Ann., Art. 4492 (1966), an airport, id., Art. 2351 (1964), and libraries, id., Art. 1677 (1962). It fixes boundaries of school districts within the county, id., Art. 2766 (1965), may establish a regional public housing authority, id., Art. 1269k, \u00a7 23a (1963), and determines the districts for election of its own members, Tex. Const., Art. V, \u00a7 18.\nPetitioner sued the Commissioners Court and its members in the Midland County District Court, alleging that the disparity in district population violated the Fourteenth Amendment and that he had standing as a resident, taxpayer, and voter in the district with the largest population. Three of the four commissioners testified at the trial, all telling the court (as indeed the population statistics for the established districts demonstrated) that population was not a major factor in the districting process. The trial court ruled for petitioner. It made no explicit reference to the Fourteenth Amendment, but said the apportionment plan in effect was not \u201cfor the convenience of the people,\u201d the apportionment standard established by Art. V, \u00a7 18, of the Texas Constitution. The court ordered the defendant commissioners to adopt a new plan in which each precinct would have \u201csubstantially the same number of people.\u201d\nThe Texas Court of Civil Appeals reversed the judgment of the District Court and entered judgment for the respondents, 397 S. W. 2d 919 (1965). It held that neither federal nor state law created a requirement that Texas county commissioners courts be districted according to population.\nThe Texas Supreme Court reversed the Court of Civil Appeals, 406 S. W. 2d 422 (1966). It held that under \u201cthe requirements of the Texas and the United States Constitutions\u201d the present districting scheme was impermissible \u201cfor the reasons stated by the trial court.\u201d 406 S. W. 2d, at 425. However, the Supreme Court disagreed with the trial court\u2019s conclusion that precincts must have substantially equal populations, stating that such factors as \u201cnumber of qualified voters, land areas, geography, miles of county roads and taxable values\u201d could be considered. 406 S. W. 2d, at 428. It also decreed that no Texas courts could redistrict the Commissioners Court. \u201cThis is the responsibility of the commissioners court and is to be accomplished within the constitutional boundaries we have sought to delineate.\u201d 406 S. W. 2d, at 428-429.\nIn Reynolds v. Sims, supra, the Equal Protection Clause was applied to the apportionment of state legislatures. Every qualified resident, Reynolds determined, has the right to a ballot for election of state legislators of equal weight to the vote of every other resident, and that right is infringed when legislators are elected from districts of substantially unequal population. The question now before us is whether the Fourteenth Amendment likewise forbids the election of local government officials from districts of disparate population. As has almost every court which has addressed itself to this question, we hold that it does.\nThe Equal Protection Clause reaches the exercise of state power however manifested, whether exercised directly or through subdivisions of the State.\n\u201cThus the prohibitions of the Fourteenth Amendment extend to all action of the State denying equal protection of the laws; whatever the agency of the State taking the action . . . .\u201d Cooper v. Aaron, 368 U. S. 1, 17 (1958).\nAlthough the forms and functions of local government and the relationships among the various units are matters of state concern, it is now beyond question that a State\u2019s political subdivisions must comply with the Fourteenth Amendment. The actions of local government are the actions of the State. A city, town, or county may no more deny the equal protection of the laws than it may abridge freedom of speech, establish an official religion, arrest without probable cause, or deny due process of law.\nWhen the State apportions its legislature, it must have due regard for the Equal Protection Clause. Similarly, when the State delegates lawmaking power to local government and provides for the election of local officials from districts specified by statute, ordinance, or local charter, it must insure that those qualified to vote have the right to an equally effective voice in the election process. If voters residing in oversize districts are denied their constitutional right to participate in the election of state legislators, precisely the same kind of deprivation occurs when the members of a city council, school board, or county governing board are elected from districts of substantially unequal population. If the five senators representing a city in the state legislature may not be elected from districts ranging in size from 60,000 to 500,000, neither is it permissible to elect the members of the city council from those same districts. In either case, the votes of some residents have greater weight than those of others; in both cases the equal protection of the laws has been denied.\nThat the state legislature may itself be properly apportioned does not exempt subdivisions from the Fourteenth Amendment. While state legislatures exercise extensive power over their constituents and over the various units of local government, the States universally leave much policy and decisionmaking to their governmental subdivisions. Legislators enact many laws but do not attempt to reach those countless matters of local concern necessarily left wholly or partly to those who govern at the local level. What is more, in providing for the governments of their cities, counties, towns, and districts, the States characteristically provide for representative government \u2014 for decisionmaking at the local level by representatives elected by the people. And, not infrequently, the delegation of power to local units is contained in constitutional provisions for local home rule which are immune from legislative interference. In a word, institutions of local government have always been a major aspect of our system, and their responsible and responsive operation is today of increasing importance to the quality of life of more and more of our citizens. We therefore see little difference, in terms of the application of the Equal Protection Clause and of the principles of Reynolds v. Sims, between the exercise of state power through legislatures and its exercise by elected officials in the cities, towns, and counties.\nWe are urged to permit unequal districts for the Midland County Commissioners Court on the ground that the court\u2019s functions are not sufficiently \u201clegislative.\u201d The parties have devoted much effort to urging that alternative labels \u2014 \u201cadministrative\u201d versus \u201clegislative\u201d \u2014 be applied to the Commissioners Court. As the brief description of the court\u2019s functions above amply demonstrates, this unit of local government cannot easily be classified in the neat categories favored by civics texts. The Texas commissioners courts are assigned some tasks which would normally be thought of as \u201clegislative,\u201d others typically assigned to \u201cexecutive\u201d or \u201cadministrative\u201d departments, and still others which are \u201cjudicial.\u201d In this regard Midland County\u2019s Commissioners Court is representative of most of the general governing bodies of American cities, counties, towns, and villages. One knowledgeable commentator has written of \u201cthe states\u2019 varied, pragmatic approach in establishing governments.\u201d R. Wood, in Politics and Government in the United States 891-892 (A. Westin ed. 1965). That approach has produced a staggering number of governmental units\u2014 the preliminary calculation by the Bureau of the Census for 1967 is that there are 81,304 \u201cunits of government\u201d in the United States \u2014 and an even more staggering diversity. Nonetheless, while special-purpose organizations abound and in many States the allocation of functions among units results in instances of overlap and vacuum, virtually every American lives within what he and his neighbors regard as a unit of local government with general responsibility and power for local affairs. In many cases citizens reside within and are subject to two such governments, a city and a county.\nThe Midland County Commissioners Court is such a unit. While the Texas Supreme Court found that the Commissioners Court\u2019s legislative functions are \u201cnegligible,\u201d 406 S. W. 2d, at 426, the court does have power to make a large number of decisions having a broad range of impacts on all the citizens of the county. It sets a tax rate, equalizes assessments, and issues bonds. It then prepares and adopts a budget for allocating the county\u2019s funds, and is given by statute a wide range of discretion in choosing the subjects on which to spend. In adopting the budget the court makes both, long-term judgments about the way Midland County should develop \u2014 whether industry should be solicited, roads improved, recreation facilities built, and land set aside for schools \u2014 and immediate choices among competing needs.\nThe Texas Supreme Court concluded that the work actually done by the Commissioners Court \u201cdisproportionately concern [s] the rural areas,\u201d 406 S. W. 2d, at 428. Were the Commissioners Court a special-purpose unit of government assigned the performance of functions affecting definable groups of constituents more than other constituents, we would have to confront the question whether such a body may be apportioned in ways which give greater influence to the citizens most affected by the organization's functions. That question, however, is not presented by this case, for while Midland County authorities may concentrate their attention on rural roads, the relevant fact is that the powers of the Commissioners Court include the authority to make a substantial number of decisions that affect all citizens, whether they reside inside or outside the city limits of Midland. The Commissioners maintain buildings, administer welfare services, and determine school districts both inside and outside the city. The taxes imposed by the court fall equally on all property in the county. Indeed, it may not be mere coincidence that a body apportioned with three of its four voting members chosen by residents of the rural area surrounding the city devotes most of its attention to the problems of that area, while paying for its expenditures with a tax imposed equally on city residents and those who live outside the city. And we might point out that a decision not to exercise a function within the court\u2019s power \u2014 a decision, for example, not to build an airport or a library, or not to participate in the federal food stamp program \u2014 is just as much a decision affecting all citizens of the county as an affirmative decision.\nThe Equal Protection Clause does not, of course, require that the State never distinguish between citizens, but only that the distinctions that are made not be arbitrary or invidious. The conclusion of Reynolds v. Sims was that bases other than population were not acceptable grounds for distinguishing among citizens when determining the size of districts used to elect members of state legislatures. We hold today only that the Constitution permits no substantial variation from equal population in drawing districts for units of local government having general governmental powers over the entire geographic area served by the body.\nThis Court is aware of the immense pressures facing units of local government, and of the greatly varying problems with which they must deal. The Constitution does not require that a uniform straitjacket bind citizens in devising mechanisms of local government suitable for local needs and efficient in solving local problems. Last Term, for example, the Court upheld a procedure for choosing a school board that placed the selection with school boards of component districts even though the component boards had equal votes and served unequal populations. Sailors v. Board of Education, 387 U. S. 105 (1967). The Court rested on the administrative nature of the area school board\u2019s functions and the essentially appointive form of the scheme employed. In Dusch v. Davis, 387 U. S. 112 (1967), the Court permitted Virginia Beach to choose its legislative body by a scheme that included at-large voting for candidates, some of whom had to be residents of particular districts, even though the residence districts varied widely in population.\nThe Sailors and Dusch cases demonstrate that. the Constitution and this Court are not roadblocks in the path of innovation, experiment, and development among units of local government. We will not bar what Professor Wood has called \u201cthe emergence of a new ideology and structure of public bodies, equipped with new capacities and motivations . . ..\u201d R. Wood, 1400 Governments, at 175 (1961). Our decision today is only that the Constitution imposes one ground rule for the development of arrangements of local government: a requirement that units with general governmental powers over an entire geographic area not be apportioned among single-member districts of substantially unequal population.\nThe judgment below is vacated and the case is remanded for disposition not inconsistent with this opinion.\nIt is so ordered.\nMr. Justice Marshall took no part in the consideration or decision of this case.\nInterpretive Commentary, Vernon\u2019s Ann. Tex. Const., Art. V, \u00a718 (1955). See also W. Benton, Texas: Its Government and Polities 360-370 (1966); Municipal and County Government (J. Claunch ed. 1961); C. McCleskey, The Government and Politics of Texas (1966).\nThe Texas Supreme Court determined that neither the State nor the Federal Constitution requires that population be the sole basis for apportioning the Midland County Commissioners Court. There is therefore no independent state ground for the refusal to award the relief requested by petitioner. And since the Supreme Court opinion contemplated no further proceedings in the lower Texas courts, a \u201cfinal judgment\u201d that population does not govern the apportionment of the Commissioners Court is before us. See Mercantile Nat. Bank v. Langdeau, 371 U. S. 555 (1963); Construction Laborers v. Curry, 371 U. S. 542 (1963); Radio Station WOW v. Johnson, 326 U. S. 120 (1945).\nCases in which the highest state courts applied the principles of Reynold v. Sims to units of local government include Miller v. Board of Supervisors, 63 Cal. 2d 343, 405 P. 2d 857, 46 Cal. Rptr. 617 (1965); Montgomery County Council v. Garrott, 243 Md. 634, 222 A. 2d 164 (1966); Hanlon v. Towey, 274 Minn. 187, 142 N. W. 2d 741 (1966); Armentrout v. Schooler, 409 S. W. 2d 138 (Mo. 1966); Seaman v. Fedourich, 16 N. Y. 2d 94, 209 N. E. 2d 778, 262 N. Y. S. 2d 444 (1965); Bailey v. Jones, 81 S. D. 617, 139 N. W. 2d 385 (1966); State ex rel. Sonneborn v. Sylvester, 26 Wis. 2d 43, 132 N. W. 2d 249 (1965). Newbold v. Osser, 425 Pa. 478, 230 A. 2d 54 (1967), seemed to assume application of Reynolds. In opposition to these cases are only the decision of the Texas Supreme Court in the case before us and Brouwer v. Bronkema, 377 Mich. 616, 141 N. W. 2d 98 (1966), in which the eight justices of the Michigan Supreme Court divided evenly on the question.\nAmong the many federal court cases applying Reynolds v. Sims to local government are Hyden v. Baker, 286 F. Supp. 475 (D. C. M. D. Tenn. 1968); Martinolich v. Dean, 256 F. Supp. 612 (D. C. S. D. Miss. 1966); Strickland v. Burns, 256 F. Supp. 824 (D. C. M. D. Tenn. 1966); Ellis v. Mayor of Baltimore, 234 F. Supp. 945 (D. C. Md. 1964), affirmed and remanded, 352 F. 2d 123 (C. A. 4th Cir. 1965).\nA precedent frequently cited in opposition to this conclusion is Tedesco v. Board of Supervisors, 43 So. 2d 514 (La. Ct. App. 1949), appeal dismissed for want of a substantial federal question, 339 U. S. 940 (1950). Petitioner points out that the Equal Protection Clause was not invoked in Tedesco, where the districting of the New Orleans City Council was challenged under the Privileges and Immunities Clause. A more realistic answer is that Tedesco, decided 12 years before Baker v. Carr, 369 U. S. 186 (1962), has been severely undermined by Baker and the succeeding apportionment cases. See, among the great many cases so concluding, Delozier v. Tyrone Area School Bd., 247 F. Supp. 30 (D. C. W. D. Pa. 1965).\nCooper v. Aaron, 358 U. S. 1, 16 (1958); see, e. g., See v. City of Seattle, 387 U. S. 541 (1967); Thompson v. City of Louisville, 362 U. S. 199 (1960); Terminiello v. Chicago, 337 U. S. 1 (1949).\nInequitable apportionment of local governing bodies offends the Constitution even if adopted by a properly apportioned legislature representing the majority of the State\u2019s citizens. The majority of a State \u2014 by constitutional provision, by referendum, or through accurately apportioned representatives \u2014 can sno more place .a minority in oversize districts without depriving that minority of equal protection of the laws than they can deprive the minority of the ballot altogether, or impose upon them a tax rate in excess of that to be paid by equally situated members of the majority. Government \u2014 National, State, and local \u2014 must grant to each citizen the equal protection of its laws, which includes an equal opportunity to influence the election of lawmakers, no matter how large the majority wishing to deprive other citizens of equal treatment or how small the minority who object to their mistreatment. Lucas v. Colorado General Assembly, 377 U. S. 713 (1964), stands as a square adjudication by this Court of these principles.\nMidland County is apparently untypical in choosing the members of its local governing body from \u2022 districts. \u201cOn the basis of available figures, coupled with rough estimates from samplings made of the situations in various States, it appears that only about 25 percent of . . . local government governing boards are elected, in whole or in part, from districts or, while at large, under schemes including district residence requirements.\u201d Brief for the United States as Amicus Curiae 22, n. 31, filed in Sailors v. Board of Education, 387 U. S. 105 (1967), and the other 1966 Term local reapportionment cases.\nU. S. Dept. of Commerce, Bureau of the Census, Census of Governments 1967, Governmental Units in 1967, at 1 (prelim, rept. Oct. 1967).",
+        "type": "majority",
+        "author": "Mr. Justice White"
+      },
+      {
+        "text": "Mr. Justice Harlan,\ndissenting.\nI could not disagree more with this decision, which wholly disregards statutory limitations upon the appellate jurisdiction of this Court in state cases and again betrays such insensitivity to the appropriate dividing lines between the judicial and political functions under our constitutional system.\nI.\nI believe that this Court lacks jurisdiction over this case because, properly analyzed, the Texas judgment must be seen either to rest on an adequate state ground or to be wanting in \u201cfinality.\u201d The history of the Texas proceedings, as related in the Court's opinion, ante, at 477-478, clearly reveals that the decision of the Texas Supreme Court disallowing the present county apportionment scheme rests upon a state as well as a federal ground. The state ground \u2014 Art. V, \u00a7 18, of the Texas Constitution \u2014 was clearly adequate to support the result. This should suffice to defeat the exercise of this Court\u2019s jurisdiction. See, e. g., Department of Mental Hygiene v. Kirchner, 380 U. S. 194; Herb v. Pitcairn, 324 U. S. 117, 125-126.\nNor does this Court have jurisdiction to review the Texas Supreme Court\u2019s statement that in reapportioning the county in the future the county commissioners may take into account factors other than population. That holding obviously does not amount to a \u201c[f]inal judgment\u201d within the meaning of 28 U. S. C. \u00a7 1257. The traditional test of finality of state court judgments has been whether the judgment leaves more than a ministerial act to be done. See, e. g., Pope v. Atlantic Coast Line R. Co., 345 U. S. 379, 382; Republic Natural Gas Co. v. Oklahoma, 334 U. S. 62, 68. It is clear that the acts which must be performed in order to bring about a new apportionment of Midland County are very far from ministerial in character, and conceivably might even result in satisfying petitioner\u2019s demands without further litigation. For example, since the statement of the Texas Supreme Court regarding nonpopulation factors was merely advisory and not mandatory, the county commissioners might choose to reapportion the county solely on the basis of population, thus leaving petitioner with nothing about which to complain. Since the requirement of finality is an unwaivable condition of this Court\u2019s jurisdiction, see, e. g., Market St. R. Co. v. Railroad Comm\u2019n, 324 U. S. 548, 551, I consider that this case is not properly before us.\nOn these scores, I would dismiss the writ as improvidently granted.\nII.\nOn the merits, which I reach only because the Court has done so, I consider this decision, which extends the state apportionment rule of Reynolds v. Sims, 377 U. S. 533, to an estimated 80,000 units of local government throughout the land, both unjustifiable and ill-advised.\nI continue to think that these adventures of the Court in the realm of political science are beyond its constitutional powers, for reasons set forth at length in my dissenting opinion in Reynolds, 377 U. S., at 589 et seq. However, now that the Court has decided otherwise, judicial self-discipline requires me to follow the political dogma now constitutionally embedded in consequence of that decision. I am not foreclosed, however, from remonstrating against the extension of that decision to new areas of government. At the present juncture 1 content myself with stating two propositions which, in my view, stand strongly against what is done today. The first is that the \u201cpractical necessities\u201d which have been thought by some to justify the profound break with history that was made in 1962 by this Court\u2019s decision in Baker v. Carr, 369 U. S. 186, are not present here. The second is that notwithstanding Reynolds the \u201cone man, one vote\u201d ideology does not provide an acceptable formula for structuring local governmental units.\nA.\nThe argument most generally heard for justifying the entry of the federal courts into the field of state legislative apportionment is that since state legislatures had widely failed to correct serious malapportionments in their own structure, and since no other means of redress had proved available through the political process, this Court was entitled to step into the picture. While I continue to reject that thesis as furnishing an excuse for the federal judiciary\u2019s straying outside its proper constitutional role, and while I continue to believe that it bodes ill for the country and the entire federal judicial system if this Court does not firmly set its face against this loose and short-sighted point of view, the important thing for present purposes is that no such justification can be brought to bear in this instance.\nNo claim is made in this case that avenues of political redress are not open to correct any malapportionment in elective local governmental units, and it is difficult to envisage how such a situation could arise. Local governments are creatures of the States, and they may be reformed either by the state legislatures, which are now required to be apportioned according to Reynolds, or by amendment of state constitutions. In these circumstances, the argument of practical necessity has no force. The Court, then, should withhold its hand until such a supposed necessity does arise, before intruding itself into the .business of restructuring local governments across the country.\nThere is another reason why the Court should at least wait for a suitable period before applying the Reynolds dogma to local governments. The administrative feasibility of judicial application of the \u201cone man, one vote\u201d rule to the apportionment even of state legislatures has not yet been demonstrated. A number of significant administrative questions remain unanswered, and the burden on the federal courts has been substantial. When this has thus far been the outcome of applying the rule to 50 state legislatures, it seems most unwise at this time to extend it to some 80,000 units of local government, whose bewildering variety is sure to multiply the problems which have already arisen and to cast further burdens, of imponderable dimension, on the federal courts. I am frankly astonished at the ease with which the Court has proceeded to fasten upon the entire country at its lowest political levels the strong arm of the federal judiciary, let alone a particular political ideology which has been the subject of wide debate and differences from the beginnings of our Nation.\nB.\nThere are also convincing functional reasons why the Reynolds rule should not apply to local governmental units at all. The effect of Reynolds was to read a long debated political theory \u2014 that the only permissible basis for the selection of state legislators is election by majority vote within areas which are themselves equal in population \u2014 into the United States Constitution, thereby foreclosing the States from experimenting with legislatures rationally formed in other ways. Even assuming-that this result could be justified on the state level, because of the substantial identity in form and function of the state legislatures, and because of the asserted practical necessities for federal judicial interference referred to above, the \u201cone man, one vote\u201d theory is surely a hazardous generalization on the local level. As has been noted previously, no \u201cpractical necessity\u201d has been asserted to justify application of the rule to local governments. More important, the greater and more varied range of functions performed by local governmental units implies that flexibility in the form of their structure is even more important than at the state level, and that by depriving local governments of this needed adaptability the Court\u2019s holding may indeed defeat the very goals of Reynolds.\nThe present case affords one example of why the \u201cone man, one vote\u201d rule is especially inappropriate for local governmental units. The Texas Supreme Court held as a matter of Texas law:\n\u201cTheoretically, the commissioners court is the governing body of the county and the commissioners represent all the residents, both urban and rural, of the county. But developments during the years have greatly narrowed the scope of the functions of the commissioners court and limited its major responsibilities to the nonurban areas of the county. It has come to pass that the city government . . . is the major concern of the city dwellers and the administration of the affairs of the county is the major concern of the rural dwellers.\u201d 406 S. W. 2d 422, 428.\nDespite the specialized role of the commissioners court, the majority has undertaken to bring it within the ambit of Reynolds simply by classifying it as \u201ca unit of local government with general responsibility and power for local affairs.\u201d See ante, at 483. Although this approach is intended to afford \u201cequal protection\u201d to all voters in Midland County, it would seem that it in fact discriminates against the county\u2019s rural inhabitants. The commissioners court, as found by the Texas Supreme Court, performs more functions in the area of the county outside Midland City than it does within the city limits. Therefore, each rural resident has a greater interest in its activities than each city dweller. Yet under the majority\u2019s formula the urban residents are to have a dominant voice in the county government, precisely proportional to their numbers, and little or no allowance may be made for the greater stake of the rural inhabitants in the county-government.\nThis problem is not a trivial one and is not confined to Midland County. It stems from the fact that local governments, unlike state governments, are often specialized in function. Application of the Reynolds rule to such local governments prevents the adoption of appor-tionments which take into account the effect of this specialization, and therefore may result in a denial of equal treatment to those upon whom the exercise of the special powers has unequal impact. Under today\u2019s decision, the only apparent alternative is to classify the governmental unit as other than \u201cgeneral\u201d in power and responsibility, thereby, presumably, avoiding application of the Reynolds rule. Neither outcome satisfies Reynolds\u2019 avowed purpose: to assure \u201cequality\u201d to all voters. The result also deprives localities of the desirable option of establishing slightly specialized, elective units of government, such as Texas\u2019 county commissioners court, and varying the size of the constituencies so as rationally to favor those whom the government affects most. The majority has chosen explicitly to deny local governments this alternative by rejecting even the solution of the Texas Supreme Court, which held that the present county apportionment was impermissible but would have allowed the new apportionment to reflect factors related to the special functions of the county commissioners court, such as \u201cland areas, geography, miles of county roads and taxable values,\u201d 406 S. W. 2d, at 428, as well as population.\nDespite the majority\u2019s declaration that it is not imposing a \u201cstraitjacket\u201d on local governmental units, see ante, at 485, its solution is likely to have other undesirable \u201cfreezing\u201d effects on local government. One readily foreseeable example is in the crucial field of metropolitan government. A common pattern of development in the Nation\u2019s urban areas has been for the less affluent citizens to migrate to or remain within the central city, while the more wealthy move to the suburbs and come into the city only to work. The result has been to impose a relatively heavier tax burden upon city taxpayers and to fragmentize governmental services in the metropolitan area. An oft-proposed solution to these problems has been the institution of an integrated government encompassing the entire metropolitan area. In many instances, the suburbs may be included in such a metropolitan unit only by majority vote of the voters in each suburb. As a practical matter, the suburbanites often will be reluctant to join the metropolitan government unless they receive a share in the government proportional to the benefits they bring with them and not merely to their numbers. The city dwellers may be ready to concede this much, in return for the ability to tax the suburbs. Under the majority\u2019s pronouncements, however, this rational compromise would be forbidden: the metropolitan government must be apportioned solely on the basis of population if it is a \u201cgeneral\u201d government.\nThese functional considerations reinforce my belief that the \u201cone man, one vote\u201d rule, which possesses the simplistic defects inherent in any judicially imposed solution of a complex social problem, is entirely inappropriate for determining the form of the country\u2019s local governments.\nNo better demonstration of this proposition could have been made than that afforded by the admirable analysis contained in the dissenting opinion of my Brother Fortas. But, with respect, my Brother\u2019s projected solution of the matter is no less unsatisfactory. For it would bid fair to plunge this Court into an avalanche of local reapportionment cases with no firmer constitutional anchors than its own notions of what constitutes \u201cequal protection\u201d in any given instance.\nWith deference, I think that the only sure-footed way of avoiding, on the one hand, the inequities inherent in today\u2019s decision, and on the other, the morass of pitfalls that would follow from my Brother Fortas\u2019 approach, is for this Court to decline to extend the constitutional experiment of Reynolds, and to leave the structuring of local governmental units to the political process where it belongs.\n28 U. S. C. \u00a7 1257 provides: \u201cFinal judgments or decrees rendered by the highest court of a State in which a decision could be had, may be reviewed by the Supreme Court as follows . . . .\u201d\nThe magnitude of this break was irrefutably demonstrated by Mr. Justice Frankfurter in his dissenting opinion in Baker, 369 U. S., at 266, 300-323.\nSee the concurring opinion of Mr. Justice Clark in Baker v. Carr, 369 U. S. 186, 251, 258-259; Auerbach, The Reapportionment Cases: One Person, One Vote \u2014 One Vote, One Value, 1964 Sup. Ct. Rev. 1, 68-70.\nSee, e. g., United States Advisory Commission on Intergovernmental Relations, State Constitutional and Statutory Restrictions Upon the Structural, Functional, and Personnel Powers of Local Government 23-61 (1962); Weinstein, The Effect of the Federal Reapportionment Decisions on Counties and Other Forms of Municipal Government, 65 Col. L. Rev. 21, 23, n. 9 (1965).\nOne such question is the extent to which an apportionment may take into account population changes which occur between decennial censuses. Cf. Lucas v. Rhodes, 389 U. S. 212 (dissenting opinion of this writer). Another is the degree of population variation which is constitutionally permissible. See Swann v. Adams, 385 U. S. 440; cf. Rockefeller v. Wells, 389 U. S. 421 (dissenting opinion of this writer).\nSee the dissenting opinion of Mr. Justice Frankfurter in Baker v. Carr, 369 U. S. 186, 266, 300-324.\nSee generally W. Anderson & E. Weidner, State and Local Government 85-103 (1951).\nSee, e. g., W. Anderson & E. Weidner, supra, at 171-174; United States Advisory Commission on Intergovernmental Relations for use of House Committee on Government Operations, 87th Cong., 1st Sess., Governmental Structure, Organization, and Planning in Metropolitan Areas 7 (Comm. Print 1961).\nSee, e. g., United States Advisory Commission on Intergovernmental Relations, Alternative Approaches to Governmental Reorganization in Metropolitan Areas 8-9 (1962); United States Advisory Commission on Intergovernmental Relations for use of House Committee on Government Operations, 87th Cong., 1st Sess., Governmental Structure, Organization, and Planning in Metropolitan Areas 15-16 (Comm. Print 1961).\nSee, e. g., W. Anderson & E. Weidner, supra, at 174M.79; United States Advisory Commission on Intergovernmental Relations, Alternative Approaches to Governmental Reorganization in Metropolitan Areas (1962).\nSee, e. g., United States Advisory Commission on Intergovernmental Relations, State Constitutional and Statutory Restrictions Upon the Structural, Functional, and Personnel Powers of Local Government 38, 44-53 (1962).\nSee Weinstein, The Effect of the Federal Reapportionment Decisions on Counties and Other Forms of Municipal Government, 65 Col. L. Rev. 21, 37 and n. 67 (1965); cf. United States Advisory Commission on Intergovernmental Relations, Factors Affecting Voter Reactions to Governmental Reorganization in Metropolitan Areas 26-27 (1962).\nCf. H. Hart & A. Sacks, The Legal Process 662-669 (tent. ed. 1958).",
+        "type": "dissent",
+        "author": "Mr. Justice Harlan,"
+      },
+      {
+        "text": "Mr. Justice Fortas,\ndissenting.\nI would dismiss the writ in this case as improvidently granted. The Texas Supreme Court held the districting scheme unlawful under the Texas Constitution. It ordered redistricting. In this difficult and delicate area I would await the result of the redistricting so that we may pass upon the final product of Texas\u2019 exercise of its governmental powers, in terms of our constitutional responsibility, and not upon a scheme which Texas itself has invalidated.\nThe Court\u2019s opinion argues (ante, at 478, n. 2) that the Texas Supreme Court\u2019s order is a final judgment because it contemplates no further proceedings in the Texas courts, although it holds the present districting unlawful and requires the Commissioners Court to redistrict. I do not reach this point.\nThe Court acts now to superimpose its own formula because it disagrees with the standard for redistricting that the Texas Supreme Court states. That standard directed redistricting on the basis of the \u201cnumber of qualified voters, land areas, geography, miles of county roads and taxable values.\u201d 406 S. W. 2d 422, 428. This standard may or may not produce a result which this Court or I would find constitutionally acceptable. We cannot know in advance how the melange of factors stated by the Texas court would emerge from the mixing machine of the Texas authorities who would deal with the problem. It is clear that the extreme imbalance now prevailing would be eliminated, because the Texas Supreme Court has held it unconstitutional. It might be that the substitute finally worked out would be such that a majority of this Court would not reject it as a denial of equal protection of the laws. After all, at the last Term of this Court, we accepted as passing the scrutiny of the Constitution, the less-than-mathematically perfect plans in Dusch v. Davis, 387 U. S. 112 (1967), and Sailors v. Board of Education, 387 U. S. 105 (1967).\nThe Court, however, now plunges to adjudication of the case of Midland County, Texas, in midstream, apparently because it rejects any result that might emerge which deviates from the literal thrust of one man, one vote. Since it now adopts this simplistic approach, apparently the majority believes that it might as well say so and save Texas the labor of devising an answer.\nI am in fundamental disagreement. I believe, as I shall discuss, that in the circumstances of this case equal protection of the laws may be achieved \u2014 and perhaps can only be achieved \u2014 by a system which takes into account a complex of values and factors, and not merely the arithmetic simplicity of one equals one. Dusch and Sailors were wisely and prudently decided. They reflect a reasoned, conservative, empirical approach to the intricate problem of applying constitutional principle to the complexities of local government. I know of no reason why we now abandon this reasonable and moderate approach to the problem of local suffrage and adopt an absolute and inflexible formula which is potentially destructive of important political and social values. There is no reason why we should insist that there is and can be only one rule for voters in local governmental units\u2014 that districts for units of local government must be drawn solely H on the basis of population. I believe there are powerful reasons why, while insisting upon reasonable regard for the population-suffrage ratio, we should reject a rigid, theoretical, and authoritarian approach to the problems of local government. In this complex and involved area, we should be careful and conservative in our application of constitutional imperatives, for they are powerful.\nConstitutional commandments are not surgical instruments. They have a tendency to hack deeply \u2014 to amputate. And while I have no doubt that, with the growth of suburbia and exurbia, the problem of allocating local government functions and benefits urgently requires attention, I am persuaded that it does not call for the hatchet of one man, one vote. It is our duty to insist upon due regard for the value of the individual vote but not to ignore realities or to bypass the alternatives that legislative alteration might provide.\nI.\nI agree that application of the Equal Protection Clause of the Constitution, decreed by this Court in the case of state legislatures, cannot stop at that point. Of course local governmental units are subject to the commands of the Equal Protection Clause. Cooper v. Aaron, 358 U. S. 1, 17 (1958). That much is easy. The difficult question, and the one which the Court slights, is: What does the Equal Protection Clause demand with regard to local governmental units?\nReynolds v. Sims, 377 U. S. 533 (1964), stands for the general proposition that the debasement of the right to vote through malapportionment is offensive to the Equal Protection Clause. It holds that where the allegedly debased vote relates to the State Legislature, a judicial remedy is available to adjudicate a claim of such debasement, and that, subject to some permissible deviation, the remedy is to require reapportionment on a population basis. Although the Court\u2019s opinion carefully emphasizes the appropriateness of allowing latitude to meet local and special conditions, 377 U. S., at 577-581, its insistence upon the need for general correspondence of voting rights to population has come to be called the one man, one vote rule.\nThis rule is appropriate to the selection of members of a State Legislature. The people of a State are similarly affected by the action of the State Legislature. Its functions are comprehensive and pervasive. They are not specially concentrated upon the needs of particular parts of the State or any separate group of citizens. As the Court in Reynolds said, each citizen stands in \u201cthe same relation\u201d to the State Legislature. Accordingly, variations from substantial population equality in elections for the State Legislature take away from the individual voter the equality which the Constitution mandates. They amount to a debasement of the citizen\u2019s vote and of his citizenship.\nBut the same cannot be said of all local governmental units, and certainly not of the unit involved in this case. Midland County\u2019s Commissioners Court has special functions \u2014 directed primarily to its rural area and rural population. Its powers are limited and specialized, in light of its missions. Residents of Midland County do not by any means have the same rights and interests at stake in the election of the Commissioners. Equal protection of their rights may certainly take into account the reality of the rights and interests of the various segments of the voting population. It does not require that they all be treated alike, regardless of the stark difference in the impact of the Commissioners Court upon them. \u201cEqual protection\u201d relates to the substance of citizens\u2019 rights and interests. It demands protection adapted to substance; it does not insist upon, or even permit, prescription by arbitrary formula which wrongly assumes that the interests of all citizens in the elected body are the same.\nIn my judgment, the Court departs from Reynolds when it holds, broadly and generally, that \u201cthe Fourteenth Amendment . . . forbids the election of local government officials from districts of disparate population.\u201d Ante, at 478. This holding, literally applied as the Court commands, completely ignores the complexities of local government in the United States \u2014 complexities which, Reynolds itself states, demand latitude of prescription. The simplicity of the Court\u2019s ruling today does not comport with the lack of simplicity which characterizes the miscellany which constitutes our local governments.\nII.\nAs of the beginning of 1967, there were 81,253 units of local government in the United States. This figure includes 3,049 county governments, 18,051 municipal governments, 17,107 township governments, 21,782 school districts, and 21,264 other special districts. These units vary greatly in powers, structure, and function. The citizen is usually subject to several local governments with overlapping jurisdiction.\nThe Court in this case concedes that in a \u201cspecial-purpose unit of government,\u201d the rights of certain constituents may be more affected than the rights of others. It implies that the one man, one vote rule may not apply in such cases. See ante, at 483-484. But it says that we do not here have to confront the implications of such a situation. I do not agree.\nI submit that the problem presented by many, perhaps most, county governments (and by Midland County in particular) is precisely the same as those arising from special-purpose units. The functions of many county governing boards, no less than the governing bodies of special-purpose units, have only slight impact on some of their constituents and a vast and direct impact on others. They affect different citizens residing within their geographical jurisdictions in drastically different ways.\nStudy of county government leaves one with two clear impressions: that the variations from unit to unit are great; and that the role and structure of county government are currently in a state of flux. County governments differ in every significant way: number of constituents, area governed, number of competing or overlapping government units within the county, form, and means of selection of the governing board, services provided, the number and functions of independent county officials, and sources of revenue.\nSome generalizations can be made about county governments. First, most counties today perform certain basic functions delegated by the State: assessment of property, collection of property taxes, recording of deeds and other documents, maintenance of rural roads, poor relief, law enforcement, and the administration of electoral and judicial functions. Some counties have begun to do more, especially by the assumption of municipal and policy-making functions. But most counties still act largely as administrative instrumentalities of the State.\nSecond, \u201c[t]he absence of a single chief executive and diffusion of responsibility among numerous independently elected officials are general characteristics of county government in the United States.\u201d Those who have written on the subject have invariably pointed to the extensive powers exercised within the geographical region of the county by officials elected on a countywide basis and by special districts organized to perform specific tasks. Often these independent officials and organs perform crucial functions of great importance to all the people within the county.\nThese generalizations apply with particular force in this case. The population of Midland County is chiefly in a single urban area. That urban area has its own municipal government which, because of home rule, has relative autonomy and authority to deal with urban problems: In contrast, the Midland County government, like county governments generally, acts primarily as an administrative arm of the State. It provides a convenient agency for the State to collect taxes, hold elections, administer judicial and peace-keeping functions, improve roads, and perform other functions which are the ordinary duties of the State. The powers of the Commissioners Court, which is the governing body of Midland County, are strictly limited by statute and constitutional provision. Although a mere fisting of these authorizing statutes and constitutional provisions would seem to indicate that the Commissioners Court has significant and general power, this impression is somewhat illusory because very often the provisions which grant the power also circumscribe its exercise with detailed limitations.\nFor example, the petitioner cites Art. VIII, \u00a7 9, of the Texas Constitution and Article 2352 of the Texas Civil Statutes as granting the Commissioners Court authority to levy taxes. Yet, at the time this suit was tried, Art. VIII, \u00a7 9, provided that no county could levy a tax in excess of 800 on $100 property valuation. And Article 2352 allocated that 800 among the four \u201cconstitutional purposes\u201d mentioned in A.rt. VIII, \u00a7 9 (not more than 250 for general county purposes, not more than 150 for the jury fund, not more than 150 for roads and bridges, and not more than 250 for permanent improvements).\nAnother example is the authority to issue bonds. It is true, as the majority notes, that the Commissioners Court does have this authority. Yet Title 22 of the Texas Civil Statutes sets up a detailed code concerning how and for what purposes bonds may be issued. Significantly, Article 701 provides that county bonds \u201cshall never be issued for any purpose\u201d unless the bond issue has been submitted to the qualified property-taxpaying voters of the county.\nMore important than the statutory and constitutional limitations, the limited power and function of the Commissioners Court are reflected in what it actually does. The record and briefs do not give a complete picture of the workings of the Commissioners Court. But it is apparent that the Commissioners are primarily concerned with rural affairs, and more particularly with rural roads. One Commissioner testified below that the largest item in the county budget was for roads and bridges. And, according to that Commissioner, the county does not maintain streets within the City of Midland. The Commissioners seem quite content to let the city council handle city affairs. \u201cThe thing about it is, the city of Midland has the city council and the mayor to run its business, . . . and we have a whole county to run . . .\nAs the Texas Supreme Court stated:\n\u201cTheoretically, the commissioners court is the governing body of the county and the commissioners represent all the residents, both urban and rural, of the county. But developments during the years have greatly narrowed the scope of the functions of the commissioners court and limited its major responsibilities to the nonurban areas of the county. It has come to pass that the city government with its legislative, executive and judicial branches, is the major concern of the city dwellers and the administration of the affairs of the county is the major concern of the rural dwellers.\u201d 406 S. W. 2d, at 428.\nMoreover, even with regard to those areas specifically delegated to the county government by statute or constitutional provision, the Commissioners Court sometimes does not have the power to make decisions. Within the county government there are numerous departments which are controlled by officials elected independently of the Commissioners Court and over whom the Commissioners Court does not exercise control. The Commissioners view themselves primarily as road commissioners. \u201cThe other department heads really have the say in that department. We merely approve the salary. We do not hire anyone in any department in Midland County except the road department. The department heads of the other departments do hire the employees.\u201d\nAs the Texas Supreme Court stated, \u201cthe county commissioners court is not charged with the management and control of all of the county\u2019s business affairs . . . . [T]he various officials elected by all the voters of the county have spheres that are delegated to them by law and within which the commissioners court may not interfere or usurp.\u201d 406 S. W. 2d, at 428. These officials, elected on a direct, one man, one vote, countywide basis, include the Assessor and Collector of Taxes, the County Attorney, the Sheriff, the Treasurer, the County Clerk, and the County Surveyor. The County Judge, who is the presiding officer of the Commissioners Court, is also elected on a countywide basis. Other county officials and employees are appointed by the Commissioners Court.\nThe elected officials are generally residents of the city, probably because of its preponderant vote. A Commissioner testified that \u201cEvery elected official ... in Midland County today [except the three rural commissioners], and it has been way back for years, has been elected by the people that live here in the city limits of Midland.\u201d Another Commissioner testified that of about 150 employees of the county, only four of those who were not elected lived in the rural precincts. Of all the elected officials only the three rural commissioners lived outside the city limits. And, as I have noted, the fifth member of the Commissioners Court, its Chairman, is the County Judge who is elected at large in the county. It is apparent that the city people have much more control over the county government than the election of the Commissioners Court would indicate. Many of the county functions which most concern the city, for example, tax assessment and collection, are under the jurisdiction of officials elected by the county at large.\nIn sum, the Commissioners Court\u2019s functions and powers are quite limited, and they are defined and restricted so that their primary and preponderant impact is on the rural areas and residents. The extent of its impact on the city is quite limited. To the extent that there is direct impact on the city, the relevant powers, in important respects, are placed in the hands of officials elected on a one man, one vote basis. Indeed, viewed in terms of the realities of rights and powers, it appears that the city residents have the power to elect the officials who are most important to them, and the rural residents have the electoral power with respect to the Commissioners Court which exercises powers in which they are primarily interested.\nIn face of this, to hold that \u201cno substantial variation\u201d from equal population may be allowed under the Equal Protection Clause is to ignore the substance of the rights and powers involved. It denies \u2014 it does not implement \u2014 substantive equality of voting rights. It is like insisting that each stockholder of a corporation have only one vote even though the stake of some may be $1 and the stake of others $1,000. The Constitution does not force such a result. Equal protection of the laws is not served by it.\nDespite the fact, as I have shown, that many governmental powers in the county are exercised by officials elected at large and that the powers of the Commissioners Court are limited, the Court insists that the Commissioners Court is a unit with \u201cgeneral governmental powers.\u201d This simply is not so except in the most superficial sense. The Court is impressed by the fact that the jurisdiction of the Commissioners Court extends over the entire area of the county. But this is more form than reality.\nSubstance, not shibboleth, should govern in this admittedly complex and subtle area; and the substance is that the geographical extent of the Commissioners Court is of very limited meaning. Midland County\u2019s Commissioners Court has its primary focus in nonurban areas and upon the nonurban people. True, the county\u2019s revenues come largely from the City of Midland. But the Commissioners Court fixes the tax rate subject to the specific limitations provided by the legislature. It must spend tax revenues in the categories and percentages which the legislature fixes. Taxes are assessed and collected, not by it, but by an official elected on a countywide basis. It is quite likely that if the city dwellers were given control of the Commissioners Court, they would reduce the load because it is spent primarily in the rural area. This is a state matter. If the State Legislature, in which presumably the city dwellers are fairly represented (Reynolds v. Sims), wishes to reduce the load, it may do so. But unless we are ready to adopt the position that the Federal Constitution forbids a State from taxing city dwellers to aid their rural neighbors, the fact that city dwellers pay most taxes should not determine the composition of the county governing body. We should not use tax impact as the sole or controlling basis for vote distribution. It is merely one in a number of factors, including the functional impact of the county government, which should be taken into account in determining whether a particular voting arrangement results in reasonable recognition of the rights and interests of citizens. Certainly, neither tax impact nor the relatively few services rendered within the City of Midland should compel the State to vest practically all voting power in the city residents to the virtual denial of a voice to those who are dependent on the county government for roads, welfare, and other essential services.\nIII.\nI have said that in my judgment we should not decide this case but should give Texas a chance to come up with an acceptable result. Texas\u2019 own courts hold that the present system is constitutionally intolerable. The 1963 population estimates relied upon in this case show that the district which includes most of the City of Midland with 67,906 people has one representative, and the three rural districts, each of which has its own representative, have 852; 414; and 828 people respectively. While it may be that this cannot be regarded as satisfying the Equal Protection Clause under any view, I suggest that applying the Court\u2019s formula merely errs in the opposite direction: Only the city population will be represented, and the rural areas will be eliminated from a voice in the county government to which they must look for essential services. With all respect, I submit that this is a destructive result. It kills the very value which it purports to serve. Texas should have a chance to devise a scheme which, within wide tolerance, eliminates the gross underrepresentation of the city, but at the same time provides an adequate, effective voice for the nonurban, as well as the urban, areas and peoples.\nThe Texas Supreme Court noted that the Commissioners Court, and not Texas\u2019 judicial courts, has power to redistrict. This view may prove to be troublesome, but we are not bound to anticipate either that the Commissioners Court will not properly do the job or that Texas will not otherwise put its house in order in Midland County.\nReynolds v. Sims did not put the Equal Protection Clause to a radical or new use. Its holding is in the mainstream of our equal protection cases. Our cases hold that people who stand in the same relationship to their government cannot be treated differently by that government. To do so would be to mark them as inferior, \u201cimplying inferiority in civil society\u201d (Strauder v. West Virginia, 100 U. S. 303, 308 (1880)), or \u201cinferiority as to their status in the community\u201d (Brown v. Board of Education, 347 U. S. 483, 494 (1954)). It would be to treat them as if they were, somehow, less than people.\n\u201cSince legislatures are responsible for enacting laws by which all citizens are to be governed, they should be bodies which are collectively responsive to the popular will. And the concept of equal protection has been traditionally viewed as requiring the uniform treatment of persons standing in the same relation to the governmental action questioned or challenged. With respect to the allocation of legislative representation, all voters, as citizens of a State, stand in the same relation regardless of where they live. ... To the extent that a citizen\u2019s right to vote is debased, he is that much less a citizen.\u201d 377 U. S., at 565, 567.\nU. S. Dept. of Commerce, Bureau of the Census, Census of Governments 1967, Governmental Units in 1967, at 1 (prelim, rept. Oct. 1967).\nIf these complexities do not exist in a given case (that is, if the functions of the governing unit involved have an essentially equal impact upon all the citizens within its geographical jurisdiction), then the one man, one vote rule would apply as it did in Reynolds. Some city councils, for example, are in effect miniature state legislatures. Some county governing units have geographical jurisdiction which is co-extensive with a city or which includes only reasonably homogeneous rural areas.\nSee C. Adrian, State and Local Governments 210-217 (1960); C. Snider, Local Government in Rural America 119-139 (1957) (hereafter cited as Snider); International Union of Local Authorities, Local Government in the United States of America 13-14 (1961) (hereafter cited as Local Government); National Municipal League, Model County Charter xi-xxxviii (1956). See generally S. Dun-combe, County Government in America (1966) (hereafter cited as Duncombe).\nSee Duncombe 3-5.\nSee U. S. Dept. of Commerce, Bureau of the Census, Census of Governments: 1962, Governmental Organization, Table 17.\nSee U. S. Dept. of Commerce, Bureau of the Census, Governing Boards of County Governments: 1965.\nSee Duncombe 70-102.\nSee Duncombe 41-63.\nSee U. S. Dept. of Comerce, Bureau of the Census, Census of Governments: 1962, Finances of County Governments, Table 11.\nSee Duncombe 13-14.\nSee W. Anderson & E. Weidner, State and Local Government 30-31 (1951); Snider 131-134.\nLocal Government, at 14.\nSee, e. g., ibid.; Duneombe 41-63; Snider 44r-45, 252-254.\nIn 1962 the population of Midland County was 67,717. More than 62,000 lived in the urban area governed by the municipal government. U. S. Dept, of Commerce, Bureau of the Census, Census of Governments: 1962, Governmental Organization 186.\nTex. Const., Art. XI, \u00a7 5; R. Young, The Place System in Texas Elections (Institute of Public Affairs, University of Texas, 1965) 38.\nSee W. Benton, Texas, Its Government and Politics 36CU362 (1966) (hereafter cited as Benton); S. MacCorkle and D. Smith, Texas Government 339-340 (1964) (hereafter cited as MacCorkle) ; C. Patterson, S. McAlister, and G. Hester, State and Local Government in Texas 384r-385, 388 (1961) (hereafter cited as Patterson); Municipal and County Government 113-114 (J. Claunch ed. 1961); F. Gantt, I. Dawson, and L. Hagard (eds.), Governing Texas, Documents and Readings 254 (1966); C. McCleskey, The Government and Politics of Texas 303-304, 305 (1966) (hereafter cited as McCleskey). There is a home-rule provision in the Texas Constitution which applies to counties, Art. IX, \u00a7 3. But that provision is virtually unworkable and, as of 1966, there were no counties operating under home rule. Benton 372-375. See also McCleskey 304, and MacCorkle 341.\nThe 1967 amendment to Art. VIII, \u00a7 9, maintains the 800 limitation and still speaks of \u201cthe four constitutional purposes.\u201d It provides, though, that the county \u201cmay\u201d put all tax money into one general fund without regard to the purpose or the source of each tax. For a discussion of the county\u2019s taxing power and other sources of county revenue, see Benton 367-368.\nThis testimony appears in the typed transcript of record but not in the portions printed by the parties.\nSee n. 21, su-pra. Commentators on Texas local government have noted this lack of control by the Commissioners Court. See, e. g., MacCorkle 344-345; McCleskey 307, 310; Benton 369.\nArticle VIII, \u00a7 14; Art. V, \u00a721; Art. V, \u00a723; Art. XVI, \u00a744; Art. V, \u00a720; and Art. XVI, \u00a744, of the Texas Constitution respectively.\nArticle V, \u00a7\u00a7 15, 18, of the Texas Constitution.\nFor a description of county officials generally and of their functions, see McCleskey 306-310, MacCorkle 335-339, and Batter-son 390-392. For a listing of county officials who are elected see IT. S. Dept, of Commerce, Bureau of the Census, Census of Governments 1967, Elective Offices of State and Local Governments 117-118 (prelim, rept. Aug. 1967).\nSee n. 21, supra.\nNote 24, supra. There was testimony below to the effect that the county judge votes only in case of a tie vote. But it appears that this limitation may be self-imposed. \u201cThe county judge enjoys equal voting rights with all the other members of the commissioners\u2019 court, which includes the right to make or second any motion and the right to vote whether there be a tie among the votes of other members of the court or not.\u201d 1 Opinions of the Attorney General of Texas 453 (No. 0-1716, 1939). See McCleskey 307, n. 27.\nThe Assessor and Collector of Taxes is elected by the qualified voters of the county at large. Tex. Const., Art. VIII, \u00a7 14; U. S. Dept. of Commerce, Bureau of the Census, Census of Governments 1967, Elective Offices of State and Local Governments 117 (prelim, rept. Aug. 1967). The Commissioners Court has power to adjust the Assessor and Collector\u2019s valuation. Art. VIII, \u00a7 18, of the Texas Constitution. However, testimony below indicated that the Commissioners Court sits to hear taxpayer complaints only a few days each year. The Commissioners Court does not go over the Assessor and Collector\u2019s tax rendition sheets before he sends notices to the taxpayers.\nCf. Weinstein, The Effect of the Federal Reapportionment Decisions on Counties and Other Forms of Municipal Government, 65 Col. L. Rev. 21, 40-49 (1965).",
+        "type": "dissent",
+        "author": "Mr. Justice Fortas,"
+      },
+      {
+        "text": "Mr. Justice Stewart,\ndissenting.\nI would dismiss the writ as improvidently granted for the reasons stated by Mr. Justice Harlan and Mr. Justice Fortas.\nSince the Court does reach the merits, however, I add that I agree with most of what is said in the thorough dissenting opinion of Mr. Justice Fortas. Indeed, I would join that opinion were it not for the author\u2019s unquestioning endorsement of the doctrine of Reynolds v. Sims, 377 U. S. 533. I continue to believe that the Court\u2019s opinion in that case misapplied the Equal Protection Clause of the Fourteenth Amendment \u2014 that the apportionment of the legislative body of a sovereign State, no less than the apportionment of a county government, is far too subtle and complicated a business to be resolved as a matter of constitutional law in terms of sixth-grade arithmetic. My views on that score, set out at length elsewhere, closely parallel those expressed by Mr. Justice Fortas in the present case.\nLucas v. Colorado General Assembly, 377 U. S. 713, 744 (dissenting opinion).",
+        "type": "dissent",
+        "author": "Mr. Justice Stewart,"
+      }
+    ],
+    "attorneys": [
+      "Lyndon L. Olson argued the cause and filed a brief for petitioner.",
+      "W. B. Browder, Jr., and F. H. Pmnill argued the cause and filed a brief for respondents.",
+      "Francis X. Beytagh, Jr., by special leave of Court, argued the cause for the United States, as amicus curiae, urging reversal. With him on the brief were Acting Solicitor General Spritzer and Assistant Attorney General Doar.",
+      "Louis J. Lefkowitz, Attorney General, and Daniel M. Cohen and Robert W. Imrie, Assistant Attorneys General, filed a brief for the State of New York, as amicus curiae, urging reversal."
+    ],
+    "corrections": "",
+    "head_matter": "AVERY v. MIDLAND COUNTY et al.\nNo. 39.\nArgued November 14, 1967.\nDecided April 1, 1968.\nLyndon L. Olson argued the cause and filed a brief for petitioner.\nW. B. Browder, Jr., and F. H. Pmnill argued the cause and filed a brief for respondents.\nFrancis X. Beytagh, Jr., by special leave of Court, argued the cause for the United States, as amicus curiae, urging reversal. With him on the brief were Acting Solicitor General Spritzer and Assistant Attorney General Doar.\nLouis J. Lefkowitz, Attorney General, and Daniel M. Cohen and Robert W. Imrie, Assistant Attorneys General, filed a brief for the State of New York, as amicus curiae, urging reversal."
+  },
+  "file_name": "0474-01",
+  "first_page_order": 558,
+  "last_page_order": 594
+}

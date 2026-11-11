@@ -1,0 +1,981 @@
+{
+  "id": 2125,
+  "name": "WARD v. ILLINOIS",
+  "name_abbreviation": "Ward v. Illinois",
+  "decision_date": "1977-06-09",
+  "docket_number": "No. 76-415",
+  "first_page": "767",
+  "last_page": "782",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "431 U.S. 767"
+    },
+    {
+      "type": "parallel",
+      "cite": "97 S. Ct. 2085"
+    },
+    {
+      "type": "parallel",
+      "cite": "52 L. Ed. 2d 738"
+    },
+    {
+      "type": "vendor",
+      "cite": "1977 U.S. LEXIS 106"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1976-128"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "355 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166060
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0371-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339242
+      ],
+      "year": 1973,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0123-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1462",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1461",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "413 U. S. 601",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11342234
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0601-01"
+      ]
+    },
+    {
+      "cite": "324 N. E. 2d 412",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Ill. 2d 159",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        5414942
+      ],
+      "weight": 2,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "164-165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/60/0159-01"
+      ]
+    },
+    {
+      "cite": "421 U. S. 993",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541792,
+        541515,
+        541750,
+        541919
+      ],
+      "weight": 2,
+      "year": 1975,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0993-03",
+        "/us/421/0993-01",
+        "/us/421/0993-02",
+        "/us/421/0993-04"
+      ]
+    },
+    {
+      "cite": "321 N. E. 2d 264",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 4,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "373"
+        },
+        {
+          "page": "270"
+        },
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Ill. 2d 362",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        2958695
+      ],
+      "year": 1974,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/59/0362-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 912",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1973,
+      "opinion_index": 0
+    },
+    {
+      "cite": "282 N. E. 2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1972,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Ill. 2d 410",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        5392659
+      ],
+      "year": 1972,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/51/0410-01"
+      ]
+    },
+    {
+      "cite": "430 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122537
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0188-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 413",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171859
+      ],
+      "weight": 2,
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0413-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 502",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172274
+      ],
+      "weight": 2,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "505-510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0502-01"
+      ]
+    },
+    {
+      "cite": "418 U. S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171974
+      ],
+      "weight": 2,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "114"
+        },
+        {
+          "page": "114"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0087-01"
+      ]
+    },
+    {
+      "cite": "264 N. E. 2d 153",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "157"
+        },
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Ill. 2d 576",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        2898305
+      ],
+      "weight": 2,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "582-583"
+        },
+        {
+          "page": "582-583"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/46/0576-01"
+      ]
+    },
+    {
+      "cite": "242 N. E. 2d 761",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "765"
+        },
+        {
+          "page": "765"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Ill. 2d 135",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        2852012
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "142"
+        },
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/41/0135-01"
+      ]
+    },
+    {
+      "cite": "204 N. E. 2d 768",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "772-773"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Ill. 2d 260",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        2839548
+      ],
+      "weight": 2,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "267-268"
+        },
+        {
+          "page": "267-268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/32/0260-01"
+      ]
+    },
+    {
+      "cite": "418 F. Supp. 345",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        594891
+      ],
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/418/0345-01"
+      ]
+    },
+    {
+      "cite": "429 U. S. 1037",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7108,
+        6920,
+        7016,
+        6250,
+        5739,
+        5900,
+        5901,
+        6384,
+        6928
+      ],
+      "year": 1977,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/1037-02",
+        "/us/429/1037-06",
+        "/us/429/1037-03",
+        "/us/429/1037-05",
+        "/us/429/1037-01",
+        "/us/429/1037-04",
+        "/us/429/1037-09",
+        "/us/429/1037-07",
+        "/us/429/1037-08"
+      ]
+    },
+    {
+      "cite": "349 N. E. 2d 47",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Ill. 2d 437",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        5427749
+      ],
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/63/0437-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "284-285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160660
+      ],
+      "weight": 3,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "497-498",
+          "parenthetical": "Harlan, J., concurring and dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/354/0476-01"
+      ]
+    },
+    {
+      "cite": "408 U. S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1782954
+      ],
+      "weight": 2,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/408/0229-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 15",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338628
+      ],
+      "weight": 4,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "23"
+        },
+        {
+          "page": "24"
+        },
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0015-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 913",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11346602
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "914",
+          "parenthetical": "Brennan, J., dissenting in Miller v. United States and other cases"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/413/0913-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 912",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1973,
+      "opinion_index": 1
+    },
+    {
+      "cite": "282 N. E. 2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1972,
+      "opinion_index": 1
+    },
+    {
+      "cite": "51 Ill. 2d 410",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        5392659
+      ],
+      "year": 1972,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ill-2d/51/0410-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 15",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338628
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "47",
+          "parenthetical": "Brennan, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/413/0015-01"
+      ]
+    },
+    {
+      "cite": "240 N. E. 2d 595",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "40 Ill. 2d 392",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        2855718
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/ill-2d/40/0392-01"
+      ]
+    },
+    {
+      "cite": "408 U. S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1782877
+      ],
+      "pin_cites": [
+        {
+          "page": "110"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/408/0104-01"
+      ]
+    },
+    {
+      "cite": "310 N. E. 2d 316",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1974,
+      "opinion_index": 2
+    },
+    {
+      "cite": "365 Mass. 164",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        291955
+      ],
+      "year": 1974,
+      "opinion_index": 2,
+      "case_paths": [
+        "/mass/365/0164-01"
+      ]
+    },
+    {
+      "cite": "213 N. W. 2d 652",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10771363
+      ],
+      "year": 1973,
+      "opinion_index": 2,
+      "case_paths": [
+        "/nw2d/213/0652-01"
+      ]
+    },
+    {
+      "cite": "325 So. 2d 123",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9653512,
+        9653622
+      ],
+      "year": 1976,
+      "opinion_index": 2,
+      "case_paths": [
+        "/so2d/325/0123-01",
+        "/so2d/325/0123-02"
+      ]
+    },
+    {
+      "cite": "544 P. 2d 372",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        4578504
+      ],
+      "year": 1976,
+      "opinion_index": 2,
+      "case_paths": [
+        "/colo/190/0149-01"
+      ]
+    },
+    {
+      "cite": "320 Colo. 646",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "year": 1976,
+      "opinion_index": 2
+    },
+    {
+      "cite": "321 A. 2d 108",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1974,
+      "opinion_index": 2
+    },
+    {
+      "cite": "114 N. H. 335",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        1294795
+      ],
+      "year": 1974,
+      "opinion_index": 2,
+      "case_paths": [
+        "/nh/114/0335-01"
+      ]
+    },
+    {
+      "cite": "418 U. S. 153",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172107
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "161"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/418/0153-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 902",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11344355,
+        11344612,
+        11344810,
+        11344494,
+        11345043,
+        11344725,
+        11344917
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/413/0902-01",
+        "/us/413/0902-03",
+        "/us/413/0902-05",
+        "/us/413/0902-02",
+        "/us/413/0902-07",
+        "/us/413/0902-04",
+        "/us/413/0902-06"
+      ]
+    },
+    {
+      "cite": "413 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339242
+      ],
+      "year": 1973,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/413/0123-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1462",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 2
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1461",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "321 N. E. 2d 264",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1974,
+      "pin_cites": [
+        {
+          "parenthetical": "Ridens II"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "59 Ill. 2d 362",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        2958695
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "parenthetical": "Ridens II"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/ill-2d/59/0362-01"
+      ]
+    },
+    {
+      "cite": "430 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122537
+      ],
+      "year": 1977,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/430/0188-01"
+      ]
+    },
+    {
+      "cite": "418 U. S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171974
+      ],
+      "weight": 2,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "115-116"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/418/0087-01"
+      ]
+    },
+    {
+      "cite": "418 F. Supp. 345",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        594891
+      ],
+      "year": 1976,
+      "opinion_index": 2,
+      "case_paths": [
+        "/f-supp/418/0345-01"
+      ]
+    },
+    {
+      "cite": "349 N. E. 2d 47",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "63 Ill. 2d 437",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        5427749
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/ill-2d/63/0437-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 15",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338628
+      ],
+      "weight": 2,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "23"
+        },
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/413/0015-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1227,
+    "char_count": 29647,
+    "ocr_confidence": 0.587,
+    "pagerank": {
+      "raw": 8.556537783061043e-07,
+      "percentile": 0.9766876370012306
+    },
+    "sha256": "2e76ab9bc23979efa82c3612102493a06d9d25bc6cc27c459393db21ac122bb7",
+    "simhash": "1:35cb78444cceb242",
+    "word_count": 4855
+  },
+  "last_updated": "2024-02-27T21:38:26.515587+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Mr. Justice Stewart joins, dissenting.",
+      "with whom Mr. Justice Brennan, Mr. Justice Stewart, and Mr. Justice Marshall join, dissenting."
+    ],
+    "parties": [
+      "WARD v. ILLINOIS"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice White\ndelivered the opinion of the Court.\nThe principal issue in this case is the validity of the Illinois obscenity statute, considered in light of Miller v. California, 413 U. S. 15 (1973). There we reaffirmed numerous prior decisions declaring that \u201cobscene material is unprotected by the First Amendment,\u201d id., at 23; but acknowledging \u201cthe inherent dangers of undertaking to regulate any form of expression,\u201d ibid., we recognized that official regulation must be limited to \u201cworks which depict or describe sexual conduct\u201d and that such conduct \u201cmust be specifically defined by the applicable state law, as written or authoritatively construed.\u201d Id., at 24. Basic guidelines for the trier of fact, along with more specific suggestions, were then offered:\n\u201cThe basic guidelines for the trier of fact must be: (a) whether 'the average person, applying contemporary community standards\u2019 would find that the work, taken as a whole, appeals to the prurient interest, Kois v. Wisconsin, [408 U. S. 229,] 230 [(1972)], quoting Roth v. United States, [354 U. S. 476,] 489 [(1957)]; (b) whether the work depicts or describes, in a patently offensive way, sexual conduct specifically defined by the applicable state law; and (c) whether the work, taken as a whole, lacks serious literary, artistic, political, or scientific value. We do not adopt as a constitutional standard the \u2018utterly without redeeming social value\u2019 test of Memoirs v. Massachusetts, 383 U. S., at 419; that concept has never commanded the adherence of more than three Justices at one time. See supra, at 21. If a state law that regulates obscene material is thus limited, as written or construed, the First Amendment values applicable to the States through the Fourteenth Amendment are adequately protected by the ultimate power of appellate courts to conduct an independent review of constitutional claims when necessary. See Kois v. Wisconsin, supra, at 232; Memoirs v. Massachusetts, supra, at 459-460 (Harlan, J., dissenting); Jacobellis v. Ohio, 378 U. S., at 204 (Harlan, J., dissenting); New York Times Co. v. Sullivan, 376 U. S. 254, 284-285 (1964); Roth v. United States, supra, at 497-498 (Harlan, J., concurring and dissenting).\n\u201cWe emphasize that it is not our function to propose regulatory schemes for the States. That must await their concrete legislative efforts. It is possible, however, to give a few plain examples of what a state statute could define for regulation under part (b) of the standard announced in this opinion, supra:\n\u201c(a) Patently offensive representations or descriptions of ultimate sexual acts, normal or perverted, actual or simulated.\n\u201c(b) Patently offensive representations or descriptions of masturbation, excretory functions, and lewd exhibition of the genitals.\u201d Id., at 24-25. (Footnotes omitted.)\nIllinois Rev. Stat., c. 38, \u00a7 11-20 (a)(1) (1975), forbids the sale of obscene matter. Section 11-20 (b) defines \u201cobscene\u201d as follows:\n\u201cA thing is obscene if, considered as a whole, its predominant appeal is to prurient interest, that is, a shameful or morbid interest in nudity, sex or excretion, and if it goes substantially beyond customary limits of candor in description or representation of such matters. A thing is obscene even though the obscenity is latent, as in the case of undeveloped photographs.\u201d\nIn October 1971 appellant Ward was charged in the State of Illinois with having sold two obscene publications in violation of \u00a7 11-20 (a)(1). A jury was waived. At the bench trial the State\u2019s evidence consisted solely of the two publications \u2014 \u201cBizarre World\u201d and \u201cIllustrated Case Histories, a Study of Sado-Masochism\u201d \u2014 and the testimony of the police officer who purchased them in Ward\u2019s store. Ward was found guilty, and in April 1972, he was sentenced to one day in jail and fined $200. His conviction was affirmed in the state appellate courts after this Court\u2019s decision in Miller. The Illinois Supreme Court expressly rejected his challenge to the constitutionality of the Illinois obscenity statute for failure to conform to the standards of Miller, as well as a claim that the two publications were not obscene. 63 Ill. 2d 437, 349 N. E. 2d 47 (1976). Ward appealed, and we noted probable jurisdiction, 429 U. S. 1037 (1977), to resolve a conflict with a decision of a three-judge District Court for the Northern District of Illinois. Eagle Books, Inc. v. Reinhard, 418 F. Supp. 345 (1976), appeal docketed, No. 76-366. We affirm.\nAs we read the questions presented by Ward, they fairly subsume four issues. First, is the claim that Illinois has failed to comply with Miller\u2019s requirement that the sexual conduct that may not be depicted in a patently offensive way must be \u201cspecifically defined by the applicable state law as written or authoritatively construed,\u201d see supra, at 768, and that absent such compliance the Illinois law is unconstitutionally vague because it failed to give him notice that materials dealing with the kind of sexual conduct involved here could not legally be sold in the State. This claim is wholly without merit. As we shall see below, the State has complied with Miller, but even if this were not the case, appellant had ample guidance from the Illinois Supreme Court that his conduct did not conform to the Illinois law. Materials such as these, which by title or content may fairly be described as sado-masochistic, had been expressly held to violate the Illinois statute long before Miller and prior to the sales for which Ward was prosecuted.\nIn People v. Sikora, 32 Ill. 2d 260, 267-268, 204 N. E. 2d 768, 772-773 (1965), there are detailed recitations of the kind of sexual conduct depicted in the materials found to be obscene under the Illinois statute. These recitations included \u201csadism and masochism.\u201d See also People v. DeVilbiss, 41 Ill. 2d 135, 142, 242 N. E. 2d 761, 765 (1968); cf. Chicago v. Geraci, 46 Ill. 2d 576, 582-583, 264 N. E. 2d 153, 157 (1970). The construction of the statute in Sikora gives detailed meaning to the Illinois law, is binding on us, and makes plain that \u00a7 11-20 reaches the kind of sexual materials which we now have before us. If Ward cannot be convicted for selling these materials, it is for other reasons and not because the Illinois statute is vague and gave him no notice that the statute purports to ban the kind of materials he sold. The statute is not vague as applied to Ward\u2019s conduct.\nSecond, Ward appears to assert that sado-masochistic materials may not be constitutionally proscribed because they are not expressly included within the examples of the kinds of sexually explicit representations that Miller used to explicate the aspect of its obscenity definition dealing with patently offensive depictions of specifically defined sexual conduct. But those specifics were offered merely as \u201cexamples,\u201d 413 U. S., at 25; and, as later pointed out in Hamling v. United States, 418 U. S. 87, 114 (1974), they \u201cwere not intended to be exhaustive.\u201d Furthermore, there was no suggestion in Miller that we intended to extend constitutional protection to the kind of flagellatory materials that were among those held obscene in Mishkin v. New York, 383 U. S. 502, 505-510 (1966). If the Mishkin publications remain unprotected, surely those before us today deal with a category of sexual conduct which, if obscenely described, may be proscribed by state law.\nThe third claim is simply that these materials are not obscene when examined under the three-part test of Miller. This argument is also foreclosed by Mishkin v. New York, supra, which came down the same day as Memoirs v. Massachusetts, 383 U. S. 413 (1966), and which employed the obscenity criteria announced by the latter case. See Marks v. United States, 430 U. S. 188, 194 (1977). The courts below examined the materials and found them obscene under the Illinois statute, which, as we shall see, infra, at 774-776, conforms to the standards set out in Miller, except that it retains the stricter Memoirs formulation of the \u201credeeming social value\u201d factor. We have found no reason to differ with the Illinois courts.\nFourth, even assuming that the Illinois statute had been construed to overcome the vagueness challenge in this case and even assuming that the materials at issue here are not protected under Miller, there remains the claim that Illinois has failed to conform to the Miller requirement that a state obscenity law, as written or authoritatively construed, must state specifically the kinds of sexual conduct the description or representation of which the State intends to proscribe by its obscenity law. If Illinois has not complied with this requirement, its statute is arguably overbroad, unconstitutional on its face, and an invalid predicate for Ward\u2019s conviction.\nAs we see it, Illinois has not failed to comply with Miller, and its statute is not overbroad. People v. Ridens, 51 Ill. 2d 410, 282 N. E. 2d 691 (1972), vacated and remanded, 413 U. S. 912 (1973), involved a conviction under this same Illinois obscenity law. It was pending on our docket when our judgment and opinion in Miller issued. We vacated the Ridens judgment and remanded the case for further consideration in the light of Miller. On remand, the Illinois Supreme Court explained that originally \u00a7 11-20 had provided the tests for obscenity found in Roth v. United States, 354 U. S. 476 (1957), and that it subsequently had been construed to incorporate the tripartite standard found in Memoirs v. Massachusetts, supra, including the requirement that the materials prohibited be \u201cutterly without redeeming social value.\u201d People v. Ridens, 59 Ill. 2d 362, 321 N. E. 2d 264 (1974). The Illinois court then proceeded to \u201cconstrue section 11-20 of the Criminal Code ... to incorporate parts (a) and (b) of the Miller standards,\u201d id., at 373, 321 N. E. 2d, at 270, but to retain the \u201cutterly without redeeming social value\u201d standard of Memoirs in preference to the more relaxed criterion contained in part (c) of the Miller guidelines. Ridens\u2019 conviction was affirmed, and we denied certiorari. 421 U. S. 993 (1975).\nBecause the Illinois court did not go further and expressly describe the kinds of sexual conduct intended to be referred to under part (b) of the Miller guidelines, the issue is whether the Illinois obscenity law is open-ended and overbroad. As we understand the Illinois Supreme Court, however, the statute is not vulnerable in this respect. That court expressly incorporated into the statute part (b) of the guidelines, which requires inquiry \u201cwhether the work depicts or describes, in a patently offensive way, sexual conduct specifically defined by the applicable state law.\u201d 413 U. S., at 24. The Illinois court thus must have been aware of the need for specificity and of the Miller Court's examples explaining the reach of part (b). See id., at 25. The Illinois court plainly intended to conform the Illinois law to part (b) of Miller, and there is no reason to doubt that, in incorporating the guideline as part of the law, the Illinois court intended as well to adopt the Miller examples, which gave substantive meaning to part (b) by indicating the kinds of materials within its reach. The alternative reading of the decision would lead us to the untenable conclusion that the Illinois Supreme Court chose to create a fatal flaw in its statute by refusing to take cognizance of the specificity requirement set down in Miller.\nFurthermore, in a later case, People v. Gould, 60 Ill. 2d 159, 324 N. E. 2d 412 (1975), the Illinois Supreme Court quoted at length from Miller v. California, including the entire passage set out at the beginning of this opinion, supra, at 768-770 \u2014 a passage that contains the explanatory examples as well as the guidelines. It then stated that Ridens had construed the Illinois statute to include parts (a) and (b) of the Miller guidelines, and it expressly referred to the standards set out in the immediately preceding quotation from Miller. 60 Ill. 2d, at 164-165, 324 N. E. 2d, at 415. Because the quotation contained not only part (b) but the examples given to explain that part, it would be a needlessly technical and wholly unwarranted reading of the Illinois opinions to conclude that the state court did not adopt these explanatory examples as well as the guidelines themselves.\nIt might be argued that, whether or not the Illinois court adopted the Miller examples as part of its law, \u00a7 11-20 nevertheless remains overbroad because the State has not provided an exhaustive list of the sexual conduct the patently offensive description of which may be held obscene under the statute. We agree with the Illinois Supreme Court, however, that \u201cin order that a statute be held overbroad the overbreadth 'must not only be real, but substantial as well, judged in relation to the statute\u2019s plainly legitimate sweep.\u2019 (Broadrick v. Oklahoma, 413 U. S. 601, 615 . . . .)\u201d People v. Ridens, supra, at 372, 321 N. E. 2d, at 269. Since it is plain enough from its prior cases and from its response to Miller that the Illinois court recognizes the limitations on the kinds of sexual conduct which may not be represented or depicted under the obscenity laws, we cannot hold the Illinois statute to be unconstitutionally overbroad.\nGiven that Illinois has adopted Miller\u2019s explanatory examples, what the State has done in attempting to bring its statute in conformity with Miller is surely as much as this Court did in its post-Miller construction of federal obscenity statutes. In Hamling v. United States, 418 U. S., at 114, we construed 18 U. S. C. \u00a7 1461, which prohibits the mailing of obscene matter, to be limited to \u201cthe sort of\u201d patently offensive representations or descriptions of that specific hardcore sexual conduct given as examples in Miller. We have also indicated our approval of an identical approach with respect to the companion provisions of 18 U. S. C. \u00a7 1462, which prohibits importation or transportation of obscene matter. See United States v. 12 200-Ft. Reels of Film, 413 U. S. 123, 130 n. 7 (1973).\nFinding ail four of Ward\u2019s claims to be without merit, we affirm the judgment of the Illinois Supreme Court.\nSo ordered.\nSection 11-20 (c) provides:\n\u201c(c) Interpretation of Evidence.\n\u201cObscenity shall be judged with reference to ordinary adults, except that it shall be judged with reference to children or other specially susceptible audiences if it appears from the character of the material or the circumstances of its dissemination to be specially designed for or directed to such an audience,\u201d\nThe questions presented in Ward\u2019s Jurisdictional Statement 3 are (1) whether the provisions of \u00a7 11-20, \u201con its face and as construed by the Illinois Supreme Court, are vague, indefinite, overbroad and uncertain, in violation of the free speech and press and due process provisions of the First and Fourteenth Amendments to the Constitution of the United States\u201d; and (2) whether \u201cthe publications, \u2018Bizarre World\u2019 and \u2018Illustrated Case Histories, a Study of Sado-Masochism\u2019 are constitutionally protected, as a matter of law.\u201d\nThe Illinois Supreme Court described the materials as follows, 32 Ill. 2d, at 267-268, 204 N. E. 2d, at 772-773:\n\u201c \u2018Lust Campus\u2019 by Andrew Shaw is a story of sexual adventures on a college campus 'where even members of the faculty taught sin and evil.\u2019 The book describes homosexuals 'necking\u2019 on a public beach; mutual masturbation; self-fondling; a circle of persons engaged in oral-genital contact; rape; intercourse; lesbian intercourse; cunnilingus and flagellation; flagellation with barbed wire; an abortion with red-hot barbed wire; masturbation with a mirror reflection, and a transvestite episode.\n\u201c 'Passion Bride\u2019 by John Dexter described curricular and extracurricular sexual episodes that take place during a honeymoon on the French Riviera. The book describes masturbation; intercourse; a party between an old man and three prostitutes; attempted intercourse in a bath; lesbian foreplay; flagellation; rape ending in the death of the female from a broken back and intercourse ending in the broken back of the male participant.\n\u201c 'Crossroads of Lust\u2019 by Andrew Shaw describes the sexual adventures of various persons in a small town. There are numerous descriptions of intercourse; lesbian intercourse; oral-genital contact; and rape. A woman stabs a man in the course of intercourse, completing the act after he is dead. There are also three voyeurism scenes, two of which involve watching lesbian love play. The third is characterized by sadism and masochism.\u201d\nThis case involved a local ordinance that the Illinois Supreme Court described as identical to the state statute. The court described the materials at issue:\n\u201cThe books are replete with accounts of homosexual acts, masturbation, flagellation, oral-genital acts, rape, voyeurism, masochism and sadism. These accounts can only appeal to the prurient interest, and clearly go beyond customary limits of candor in the kinds of conduct described and in the detail of description.\u201d 41 Ill. 2d, at 142, 242 N. E. 2d, at 765.\nThe materials under scrutiny \u2014 also under a local ordinance \u2014 were described by the court:\n\u201cThe author\u2019s accounts of normal and abnormal sexual conduct, including sodomy, flagellation, masturbation, oral-genital contact, anal intercourse, lesbianism, and sadism and masochism, are vivid, intimately detailed, and explicit. (Cf. One, Inc. v. Olesen (1958), 355 U. S. 371 . . .)\u201d 46 Ill. 2d, at 582-583, 264 N. E. 2d, at 157.\nFour Justices dissented, but waived the Rule of Four \u2014 that, if at least four Justices so request, the Court will give plenary consideration to a particular case. 421 U. S., at 994 n.",
+        "type": "majority",
+        "author": "Mr. Justice White"
+      },
+      {
+        "text": "Mr. Justice Brennan,\nwith whom Mr. Justice Stewart joins, dissenting.\nPetitioner was convicted of selling allegedly obscene publications in violation of the Illinois Obscenity Statute, Ill. Rev. Stat., c. 38, \u00a7 11-20 (a)(1) (1975). The Illinois Supreme Court affirmed the conviction. Although I have joined my Brother Stevens\u2019 dissent, I could also reverse the conviction on the ground I have previously relied upon, namely that this statute is \u201cclearly overbroad and unconstitutional on its face.\u201d 413 U. S. 913, 914 (1973) (Brennan, J., dissenting in Miller v. United States and other cases), citing Miller v. California, 413 U. S. 15, 47 (1973) (Brennan, J., dissenting); see Ridens v. Illinois, 413 U. S. 912 (1973), vacating and remanding 51 Ill. 2d 410, 282 N. E. 2d 691 (1972).",
+        "type": "dissent",
+        "author": "Mr. Justice Brennan,"
+      },
+      {
+        "text": "Mr. Justice Stevens,\nwith whom Mr. Justice Brennan, Mr. Justice Stewart, and Mr. Justice Marshall join, dissenting.\nThe decision in this case confirms the statement in Miller v. California, 413 U. S. 15, 23, that \u201c[t]his is an area in which there are few eternal verities.\u201d Today, the Court silently abandons one of the cornerstones of the Miller test announced so forcefully just five years ago.\nThe Miller Court stated:\n\u201cUnder the holdings announced today, no one will be subject to prosecution for the sale or exposure of obscene materials unless these materials depict or describe patently offensive \u2018hard core\u2019 sexual conduct specifically defined by the regulating state law, as written or construed. We are satisfied that these specific prerequisites will provide fair notice to a dealer in such materials that his public and commercial activities may bring prosecution.\u201d Id., at 27.\nThe specificity requirement is stressed elsewhere in the opinion. More than 50 cases were remanded for further consideration to give the defendants the \u201cbenefit\u201d of this aspect of Miller. See 413 U. S. 902 et seq.; Marks v. United States, 430 U. S. 188, 197 n. 12.\nMany state courts, taking Miller at face value, invalidated or substantially limited their obscenity laws. Others, like Illinois, did \u201clittle more than pay lip service to the specificity requirement in Miller.\u201d F. Schauer, The Law of Obscenity 167 (1976). Like most pre-Miller obscenity statutes, the Illinois statute contained open-ended terms broad enough to prohibit the distribution of any material making an \u201cappeal ... to prurient interest.\u201d In its post-Miller opinions, the Illinois Supreme Court has made it clear that the statute covers all of the Miller examples. It has not, however, stated that the statute is limited to those examples, or to any other specifically defined category.\nNevertheless, this Court affirms the conviction in this Illinois case on two theories. The first is that this particular defendant had notice that the State considered these materials obscene, because prior Illinois cases had upheld obscenity convictions concerning similar material. But, if such notice is all that is required, it is difficult to understand why the Miller case itself\u00bbwas remanded for consideration of the specificity issue, see 413 U. S., at 37. For the description of the materials involved in Miller leaves no room for doubt that they were similar to materials which had often been the subject of prosecutions in the past; there clearly was no question of fair notice.\nThe Courtis second theory is that, in any event, the Illinois statute is sufficiently specific to satisfy Miller. Although the statute does not contain an \u201cexhaustive list\u201d of specific examples, ante, at 776, it passes muster because it contains a generic reference to \u201cthe kinds of sexual conduct which may not be represented or depicted under the obscenity laws . . . .\u201d Ibid, (emphasis in original). To hold that the list need not be exhaustive is to hold that a person can be prosecuted although the materials he sells are not specifically described in the list. Only five years ago, the Court promised that \u201cno one\u201d could be so prosecuted, Miller, 413 U. S., at 27. And if the statute need only describe the \u201ckinds\u201d of proscribed sexual conduct, it adds no protection to what the Constitution itself creates. For in Jenkins v. Georgia, 418 U. S. 153, this Court held that the Constitution protected all expression which is not \u201cwithin either of the two examples given in Miller\u201d or \u201csufficiently similar to such material to justify similar treatment.\u201d Id., at 161.\nOne of the strongest arguments against regulating obscenity-through criminal law is the inherent vagueness of the obscenity concept. The specificity requirement as described in Miller held out the promise of a principled effort to respond to that argument. By abandoning that effort today, the Court withdraws the cornerstone of the Miller structure and, undoubtedly, hastens its ultimate downfall. Although the decision is therefore a mixed blessing, I nevertheless respectfully dissent.\n\u201cThat conduct must be specifically defined by the applicable state law, as written or authoritatively construed. . . .\n\u201cThe basic guidelines for the trier of fact must be: ... (b) whether the work depicts or describes, in a patently offensive way, sexual conduct specifically defined by the applicable state law . . . .\u201d 413 U. S., at 24.\nOn the following page, the Court gives examples of such \u201cspecific\u201d definitions.\nE. g., State v. Harding, 114 N. H. 335, 321 A. 2d 108 (1974); People v. Tabron, 320 Colo. 646, 544 P. 2d 372 (1976); ABC Interstate Theatres, Inc. v. State, 325 So. 2d 123 (Miss. 1976); State v. Wedelstedt, 213 N. W. 2d 652 (Iowa 1973); Commonwealth v. Horton, 365 Mass. 164, 310 N. E. 2d 316 (1974). Many statutes passed since Miller have included definitions more specific than that given in Miller. See, e. g., La Rev. Stat. Ann. \u00a7 14:106 (1974); N. Y. Penal Law \u00a7235.00 (McKinney 1974 and Supp. 1976).\nThis Court saved such a statute in Hamling v. United States, 418 U. S. 87, by holding that it was limited to the examples given in Miller. In its final footnote to United States v. 12 200-Ft. Reels of Film, 413 U. S. 123, 130 n. 7, the Court had stated that it was prepared to construe generic words such as \u201cobscene\u201d and \u201clewd\u201d in 18 U. S. C. \u00a7 1462, \u201cas limiting regulated material to patently offensive representations or descriptions of that specific 'hard core\u2019 sexual conduct given as examples in Miller.\u201d (Emphasis added.) In Hamling, the Court quoted this language and added:\n\u201cAs noted above, we indicated in [12 200-Ft. Reels of Film] that we were prepared to construe the generic terms in 18 U. S. C. \u00a7 1462 to be limited to the sort of \u2018patently offensive representations or descriptions of that specific \u201chard core\u201d sexual conduct given as examples in Miller v. California.\u2019 We now so construe the companion provision in 18 U. S. C. \u00a7 1461 .. . .\u201d 418 U. S., at 114.\nIn a well-reasoned opinion, a three-Judge District Court for the Northern District of Illinois carefully reviewed the Illinois authorities and concluded that Illinois has failed to meet the specificity requirement of Miller. Eagle Books, Inc. v. Reinhard, 418 F. Supp. 345 (ND Ill. 1976). This conclusion is well founded.\nThe Illinois statute defines obscenity in these terms:\n\u201cA thing is obscene if, considered as a whole, its predominant appeal is to prurient interest, that is, a shameful or morbid interest in nudity, sex or excretion, and if it goes substantially beyond customary limits of candor in description or representation of such matters.\u201d Ill. Rev. Stat., c. 38, \u00a7 11-20 (b) (1975).\nNothing in this definition or the rest of the statute \u201cspecifically defines\u201d what depiction of hard-core sexual conduct is prohibited.\nThe Illinois Supreme Court has not remedied this deficiency by supplying a limiting construction. In its primary discussion of the State\u2019s obscenity statute in relation to the Miller specificity requirement, People v. Ridens, 59 Ill. 2d 362, 321 N. E. 2d 264 (1974) (Ridens II), the Illinois Supreme Court relied on two cases to uphold the statute. In the first case, Grayned v. City of Rockford, 408 U. S. 104, 110, this Court noted in language quoted by the Illinois court that \u201c[t]he words of the Rockford ordinance are marked by \u2018flexibility and reasonable breadth, rather than meticulous specificity ....\u2019\u201d The second case which the Ridens II court relied upon was its own decision in People v. Raby, 40 Ill. 2d 392, 240 N. E. 2d 595 (1968). That case concerned the aUeged vagueness of a statute designed to prohibit public disorder. The Illinois court quoted the following language from Raby, and in the next sentence relied upon that decision and Grayned in upholding the statute\u2019s specificity:\n\u201cIt is true that section 26-i (a) does not attempt to particularize all of the myriad kinds of conduct that may fall within the statute. The legislature deliberately chose to frame the provision in general terms, prompted by the futility'- of an effort to anticipate and enumerate all of the methods of disrupting public order that fertile minds might devise.\u201d 40 Ill. 2d, at 396, 240 N. E. 2d, at 598.\nNeither of these decisions requires conduct to be specifically defined; indeed, Raby notes that to survive a vagueness attack a statute need not \u201cattempt to particularize all of the myriad kinds of conduct\u201d within its bounds. This may be true for other vagueness attacks, but does not square with the special Miller requirement that conduct be specifically defined. Nowhere else in the Ridens II opinion does the Illinois Supreme Court limit the reach of the obscenity statute.\nIn the present case, the Illinois Supreme Court again considered the specificity problem, and again refused to narrow the statute:\n\u201cIt was held in Ridens II that the obscenity statute was sufficiently clear and that it adequately informed the public of the conduct whose depiction is proscribed. We noted that the statutory definition of obscenity includes within the scope of the \u2018prurient interest\u2019 a 'shameful or morbid interest in nudity, sex or excretion.\u2019 The defendant argues that we erred in Ridens II in our interpretation of Miller and that Miller requires obscenity statutes to be much more specific in defining the type of material which will be considered obscene. We see no reason to reconsider our decision in Ridens II. It is extremely difficult to define the term \u2018obscenity\u2019 with a fine degree of precision. We again express our opinion that Illinois\u2019 statutory definition is sufficiently clear to withstand constitutional objections.\u201d 63 Ill. 2d 437, 441, 349 N. E. 2d 47, 49 (1976).\nThus, there does not appear to be anything in the Illinois decisions that would preclude the State from prosecuting forms of obscenity not \u201cspecifically defined\u201d in prior decisions. And, as noted above, the statute provides no specific definition in this area.\nThe materials are described as follows in the opinion :\n\u201cWhile the brochures contain some descriptive printed material, primarily they consist of pictures and drawings very explicitly depicting men and women in groups of two or more engaging in a variety of sexual activities, with genitals often prominently displayed.\u201d 413 U. S., at 18.\nThe State\u2019s description was somewhat more specific:\n\u201cThe materials involved are a collection of depictions of cunnilingus, sodomy, buggery and other similar sexual acts performed in groups of two or more.\u201d Brief for Appellee in No. 70-73, O. T. 1972, p. 26.\nIf fair notice is the issue, it is hard to see how this can be provided by a narrowing construction made after the underlying conduct. Yet in Hamling, 418 U. S., at 115-116, the Court held such ex post facto \u201cnotice\u201d sufficient.",
+        "type": "dissent",
+        "author": "Mr. Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "J. Steven Beckett argued the cause for appellant. With him on the brief was Donald M. Reno, Jr.",
+      "Melbourne A. Noel, Jr., Assistant Attorney General of Illinois, argued the cause for appellee. With him on the brief were William J. Scott, Attorney General, and Raymond McKoski, Assistant Attorney General."
+    ],
+    "corrections": "",
+    "head_matter": "WARD v. ILLINOIS\nNo. 76-415.\nArgued April 27, 1977\nDecided June 9, 1977\nJ. Steven Beckett argued the cause for appellant. With him on the brief was Donald M. Reno, Jr.\nMelbourne A. Noel, Jr., Assistant Attorney General of Illinois, argued the cause for appellee. With him on the brief were William J. Scott, Attorney General, and Raymond McKoski, Assistant Attorney General."
+  },
+  "file_name": "0767-01",
+  "first_page_order": 829,
+  "last_page_order": 844
+}

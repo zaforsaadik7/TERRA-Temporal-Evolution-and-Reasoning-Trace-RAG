@@ -1,0 +1,804 @@
+{
+  "id": 6167317,
+  "name": "ROSENBLATT v. BAER",
+  "name_abbreviation": "Rosenblatt v. Baer",
+  "decision_date": "1966-02-21",
+  "docket_number": "No. 38",
+  "first_page": "75",
+  "last_page": "101",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "383 U.S. 75"
+    },
+    {
+      "type": "parallel",
+      "cite": "15 L. Ed. 2d 597"
+    },
+    {
+      "type": "parallel",
+      "cite": "86 S. Ct. 669"
+    },
+    {
+      "type": "vendor",
+      "cite": "1966 U.S. LEXIS 2847"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1965-050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "357 U. S. 513",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164109
+      ],
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0513-01"
+      ]
+    },
+    {
+      "cite": "335 F. 2d 659",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        150571
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/335/0659-01"
+      ]
+    },
+    {
+      "cite": "78 Kan. 711",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1104128
+      ],
+      "weight": 2,
+      "year": 1908,
+      "pin_cites": [
+        {
+          "page": "723-724"
+        },
+        {
+          "page": "285-286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/78/0711-01"
+      ]
+    },
+    {
+      "cite": "122 Ore. 408",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        2018593
+      ],
+      "weight": 2,
+      "year": 1927,
+      "pin_cites": [
+        {
+          "page": "420-421"
+        },
+        {
+          "page": "311-312"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/122/0408-01"
+      ]
+    },
+    {
+      "cite": "191 N. W. 167",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "year": 1922,
+      "pin_cites": [
+        {
+          "page": "173-174"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Iowa 873",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2280102
+      ],
+      "year": 1922,
+      "pin_cites": [
+        {
+          "page": "889"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/195/0873-01"
+      ]
+    },
+    {
+      "cite": "18 Vand. L. Rev. 1429",
+      "category": "journals:journal",
+      "reporter": "Vand. L. Rev.",
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "1445"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 U. Pa. L. Rev. 284",
+      "category": "journals:journal",
+      "reporter": "U. Pa. L. Rev.",
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "288"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "235 N. W. 841",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "year": 1931,
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 Mich. 15",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1838001
+      ],
+      "year": 1931,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/254/0015-01"
+      ]
+    },
+    {
+      "cite": "268 N. Y. Supp. 620",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "year": 1934,
+      "opinion_index": 0
+    },
+    {
+      "cite": "240 App. Div. 203",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5066478
+      ],
+      "year": 1934,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/240/0203-01"
+      ]
+    },
+    {
+      "cite": "277 N. W. 264",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "year": 1938,
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Minn. 1",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        1729730
+      ],
+      "year": 1938,
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/202/0001-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9062
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/360/0564-01"
+      ]
+    },
+    {
+      "cite": "62 A. 969",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "year": 1906,
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 N. H. 621",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        1812266
+      ],
+      "year": 1906,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/73/0621-01"
+      ]
+    },
+    {
+      "cite": "114 U. Pa. L. Rev. 241",
+      "category": "journals:journal",
+      "reporter": "U. Pa. L. Rev.",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 N. E. 2d 620",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 N. Y. 2d 1023",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        2271931
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/15/1023-01"
+      ]
+    },
+    {
+      "cite": "251 N. Y. S. 2d 823",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1964,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 App. Div. 2d 517",
+      "category": "reporters:state",
+      "reporter": "A.D.2d",
+      "case_ids": [
+        5505351
+      ],
+      "year": 1964,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad2d/21/0517-01"
+      ]
+    },
+    {
+      "cite": "1964 Sup. Ct. Rev. 191",
+      "category": "journals:journal",
+      "reporter": "Sup. Ct. Rev.",
+      "pin_cites": [
+        {
+          "page": "207-210"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 U. Miami L. Rev. 519",
+      "category": "journals:journal",
+      "reporter": "U. Miami L. Rev.",
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "523-525"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "328 U. S. 331",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        377082
+      ],
+      "pin_cites": [
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/328/0331-01"
+      ]
+    },
+    {
+      "cite": "273 Ala. 656",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        5292820
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "674-675"
+        },
+        {
+          "page": "39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/273/0656-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 941",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525136,
+        1525370,
+        1524691,
+        1525084
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0941-02",
+        "/us/380/0941-03",
+        "/us/380/0941-04",
+        "/us/380/0941-01"
+      ]
+    },
+    {
+      "cite": "379 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728748
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "79"
+        },
+        {
+          "page": "74"
+        },
+        {
+          "page": "74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0064-01"
+      ]
+    },
+    {
+      "cite": "203 A. 2d 773",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 N. H. 26",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        4460972
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/106/0026-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "290-292"
+        },
+        {
+          "page": "273-276, 290-292"
+        },
+        {
+          "page": "292"
+        },
+        {
+          "page": "283, n. 23"
+        },
+        {
+          "page": "270"
+        },
+        {
+          "page": "282, 283, n. 23"
+        },
+        {
+          "page": "285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "325 U. S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6155867
+      ],
+      "pin_cites": [
+        {
+          "page": "113, 134"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/325/0091-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 525",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8945
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/360/0525-01"
+      ]
+    },
+    {
+      "cite": "343 U. S. 250",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339036
+      ],
+      "pin_cites": [
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/343/0250-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160660
+      ],
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/354/0476-01"
+      ]
+    },
+    {
+      "cite": "1 Stat. 596",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "283 U. S. 359",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434002
+      ],
+      "pin_cites": [
+        {
+          "page": "368-369"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/283/0359-01"
+      ]
+    },
+    {
+      "cite": "310 U. S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137179
+      ],
+      "pin_cites": [
+        {
+          "page": "101-102"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/310/0088-01"
+      ]
+    },
+    {
+      "cite": "364 U. S. 520",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172969
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/364/0520-01"
+      ]
+    },
+    {
+      "cite": "379 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728748
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/379/0064-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "379 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728748
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/379/0064-01"
+      ]
+    },
+    {
+      "cite": "378 U. S. 368",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166505
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/378/0368-01"
+      ]
+    },
+    {
+      "cite": "379 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728748
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/379/0064-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "200 N. E. 592",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 4
+    },
+    {
+      "cite": "270 N. Y. 93",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2019514
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/ny/270/0093-01"
+      ]
+    },
+    {
+      "cite": "273 Ala. 656",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        5292820
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "674-675"
+        },
+        {
+          "page": "39"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/ala/273/0656-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "opinion_index": 5,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1826,
+    "char_count": 47458,
+    "ocr_confidence": 0.682,
+    "pagerank": {
+      "raw": 7.344071187403846e-06,
+      "percentile": 0.9993513135321789
+    },
+    "sha256": "4d8ad9720b92e386809f652947963dde0a4cedb6382f4b43a9b1b0ff979f00b3",
+    "simhash": "1:687ab02ae6300eac",
+    "word_count": 7999
+  },
+  "last_updated": "2024-02-27T20:55:55.250345+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Clark concurs in the result.",
+      "with whom Mr. Justice Douglas joins, concurring and dissenting."
+    ],
+    "parties": [
+      "ROSENBLATT v. BAER."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brennan\ndelivered the opinion of the Court.\nA jury in New Hampshire Superior Court awarded respondent damages in this civil libel action based on one of petitioner\u2019s columns in the Laconia Evening Citizen. Respondent alleged that the column contained defamatory falsehoods concerning his performance as Supervisor of the Belknap County Recreation Area, a facility owned and operated by Belknap County. In the interval between the trial and the decision of petitioner\u2019s appeal by the New Hampshire Supreme Court, we decided New York Times Co. v. Sullivan, 376 U. S. 254. We there held that consistent with the First and Fourteenth Amendments a State cannot award damages to a public official for defamatory falsehood relating to his official conduct unless the official proves actual malice \u2014 that the falsehood was published with knowledge of its falsity or with reckless disregard of whether it was true or false. The New Hampshire Supreme Court affirmed the award, finding New York Times no bar. 106 N. H. 26, 203 A. 2d 773. We granted certiorari and requested the parties to brief and argue, in addition to the questions presented in the petition for certiorari, the question whether respondent was a \u201cpublic official\u201d under New York Times and under our decision in Garrison v. Louisiana, 379 U. S. 64. 380 U. S. 941.\nThe Recreation Area was used principally as a ski resort but also for other recreational activities. Respondent was employed by and directly responsible to the Belknap County Commissioners, three elected officials in charge of the county government. During the 1950\u2019s, a public controversy developed over the way respondent and the Commissioners operated the Area; some protested that respondent and the Commissioners had not developed the Area\u2019s full potential, either as a resort for local residents or as a tourist attraction that might contribute to the county\u2019s taxes. The discussion culminated in 1959, when the New Hampshire Legislature enacted a law transferring control of the Area to a special five-man commission. At least in part to give this new regime a fresh start, respondent was discharged.\nPetitioner regularly contributed an unpaid column to the Laconia Evening Citizen. In it he frequently commented on political matters. As an outspoken proponent of the change in operations at the Recreation Area, petitioner\u2019s views were often sharply stated, and he had indicated disagreement with the actions taken by respondent and the County Commissioners.- In January 1960, during the first ski season under the new management, some six months after respondent\u2019s discharge, petitioner published the column that respondent alleges libeled him. In relevant part, it reads:\n\u201cBeen doing a little listening and checking at Belknap Recreation Area and am thunderstruck by what am learning.\n\u201cThis year, a year without snow till very late, a year with actually few very major changes in procedure; the difference in cash income simply fantastic, almost unbelievable.\n\u201cOn any sort of comparative basis, the Area this year is doing literally hundreds of per cent BETTER than last year.\n\u201cWhen consider that last year was excellent snow year, that season started because of more snow, months earlier last year, one can only ponder following question:\n\u201cWhat happened to all the money last year? and every other year? What magic has Dana Beane [Chairman of the new commission] and rest of commission, and Mr. Warner [respondent\u2019s replacement as Supervisor] wrought to make such tremendous difference in net cash results?\u201d\nI.\nThe column on its face contains no clearly actionable statement. Although the questions \"What happened to all the money last year? and every other year?\u201d could be read to imply peculation, they could also be read, in context, merely to praise the present administration. The only persons mentioned by name are officials of the new regime; no reference is made to respondent, the three elected commissioners, or anyone else who had a part in the administration of the Area during respondent\u2019s tenure. Persons familiar with the controversy over the Area might well read it as complimenting the luck or skill of the new management in attracting increased patronage and producing a \u201ctremendous difference in net cash results\u201d despite less favorable snow; indeed, witnesses for petitioner testified that they so read the column.\nRespondent offered extrinsic proofs to supply a defamatory meaning. These proofs were that the column greatly exaggerated any improvement under the new regime, and that a large part of the community understood it to say that the asserted improvements were not explicable by anything the new management had done. Rather, his witnesses testified, they read the column as imputing mismanagement and peculation during respondent\u2019s tenure. Respondent urged two theories to support a recovery based on that imputation.\nII.\nThe first was that the jury could award him damages if it found that the column cast suspicion indiscriminately on the small number of persons who composed the former management group, whether or not it found that the imputation of misconduct was specifically made of and concerning him. This theory of recovery was open to respondent under New Hampshire law; the trial judge explicitly instructed the jury that \u201can imputation of impropriety or a crime to one or some of a small group that casts suspicion upon all is actionable.\u201d The question is presented, however, whether that theory of recovery is precluded by our holding in New York Times that, in the absence of sufficient evidence that the attack focused on the plaintiff, an otherwise impersonal attack on governmental operations cannot be utilized to establish a libel of those administering the operations. 376 U. S., at 290-292.\nThe plaintiff in New York Times was one of the three elected Commissioners of the City of Montgomery, Alabama. His duties included the supervision of the police department. The statements in the advertisement upon which he principally relied as referring to him were that \u201ctruckloads of police . . . ringed the Alabama State College Campus\u201d after a demonstration on the State Capitol steps, and that Dr. Martin Luther King had been \u201carrested . . . seven times.\u201d These statements were false in that although the police had been \u201cdeployed near the campus,\u201d they had not actually \u201cringed\u201d it and had not gone there in connection with a State Capitol demonstration, and in that Dr. King had been arrested only four times. We held that evidence that Sullivan as Police Commissioner was the supervisory head of the Police Department was constitutionally insufficient to show that the statements about police activity were \u201cof and concerning\u201d him; we rejected as inconsistent with the First and Fourteenth Amendments the proposition followed by the Alabama Supreme Court in the case that \u201c[i]n measuring the performance or deficiencies of . . . groups, praise or criticism is usually attached to the official in complete control of the body,\u201d 273 Ala. 656, 674-675, 144 So. 2d 25, 39. To allow the jury to connect the statements with Sullivan on that presumption alone was, in our view, to invite the spectre of prosecutions for libel on government, which the Constitution does not tolerate in any form. 376 U. S., at 273-276, 290-292. We held \u201cthat such a proposition may not constitutionally be utilized to establish that an otherwise impersonal attack on governmental operations was a libel of an official responsible for those operations.\u201d 376 U. S., at 292. There must be evidence showing that the attack was read as specifically directed at the plaintiff.\nWere the statement at issue in this case an explicit charge that the Commissioners and Baer or the entire Area management were corrupt, we assume without deciding that any member of the identified group might recover. The statement itself might be sufficient evidence that the attack was specifically directed at each individual. Even if a charge and reference were merely implicit, as is alleged here, but a plaintiff could show by extrinsic proofs that the statement referred to him, it would be no defense to a suit by one member of an identifiable group engaged in governmental activity that another was also attacked. These situations are distinguishable from the present case; here, the jury was permitted to infer both defamatory content and reference from the challenged statement itself, although the statement on its face is only an impersonal discussion of government activity. To the extent the trial judge authorized the jury to award respondent a recovery without regard to evidence that the asserted implication of the column was made specifically of and concerning him, we hold that the instruction was erroneous. Here, no explicit charge of peculation was made; no assault on the previous management appears. The jury was permitted to award damages upon a finding merely that respondent was one of a small group acting for an organ of government, only some of whom were implicated, but all of whom were tinged with suspicion. In effect, this permitted the jury to find liability merely on the basis of his relationship to the government agency, the operations of which were the subject of discussion. It is plain that the elected Commissioners, also members of that group, would Lave been barred from suit on this theory under New York Times. They would be required to show specific reference. Whether or not respondent was a public official, as a member of the group he bears the same burden. A theory that the column cast indiscriminate suspicion on the members of the group responsible for the conduct of this governmental operation is tantamount to a demand for recovery based on libel of government, and therefore is constitutionally insufficient. Since the trial judge\u2019s instructions were erroneous in this respect, the judgment must be reversed.\nIII.\nRespondent\u2019s second theory, supported by testimony, of several witnesses, was that the column was read as referring specifically to him, as the \u201cman in charge\u201d at the Area, personally responsible for its financial affairs. Even accepting respondent\u2019s reading, the column manifestly discusses the conduct of operations of government. The subject matter may have been only of local interest, but at least here, where publication was addressed primarily to the interested community, that fact is constitutionally irrelevant. The question is squarely presented whether the \u201cpublic official\u201d designation under New York Times applies.\nIf it does, it is clear that the jury instructions were improper. Under the instructions, the jury was permitted to find that negligent misstatement of fact would defeat petitioner\u2019s privilege. That test was rejected in Garrison, 379 U. S., at 79, where we said, \u201cThe test which we laid down in New York Times is not keyed to ordinary care; defeasance of the privilege is conditioned, not on mere negligence, but on reckless disregard for the truth.\u201d The trial court also charged that \u201c[d]efama-tory matter which constitutes comment rather than fact is justified if made without malice and represented fair comment on matters of public interest,\u201d and defined malice to include \u201cill will, evil motive, intention to injure . . . .\u201d This definition of malice is constitutionally insufficient where discussion of public affairs is concerned; \u201c[w]e held in New York Times that a public official might be allowed the civil remedy only if he establishes that the utterance was false and that it was made with knowledge of its falsity or in reckless disregard of whether it was false or 'true.\u201d Garrison, 379 U. S., at 74.\nTurning, then, to the question whether respondent was a \u201cpublic official\u201d within New York Times, we reject at the outset his suggestion that it should be answered by reference to state-law standards. States have developed definitions of \u201cpublic official\u201d for local administrative purposes, not the purposes of a national constitutional protection. If existing state-law standards reflect the purposes of New York Times, this is at best accidental. Our decision in New York Times, moreover, draws its force from the constitutional protections afforded free expression. The standards that set the scope of its principles cannot therefore be such that \u201cthe constitutional limits of free expression in the Nation would vary with state lines.\u201d Pennekamp v. Florida, 328 U. S. 331, 335.\nWe remarked in New York Times that we had no occasion \u201cto determine how far down into the lower ranks of government employees the 'public official\u2019 designation would extend for purposes of this rule, or otherwise to specify categories of persons who would or would not be included.\u201d 376 U. S., at 283, n. 23. No precise lines need be drawn for the purposes of this case. The motivating force for the decision in New York Times was twofold. We expressed \u201ca profound national commitment to the principle that debate on public issues should be uninhibited, robust, and wide-open, and that [such debate] may well include vehement, caustic, and sometimes unpleasantly sharp attacks on government and public officials.\u201d 376 U. S., at 270. (Emphasis supplied.) There is, first, a strong interest in debate on public issues, and, second, a strong interest in debate about those persons who are in a position significantly to influence the resolution of those issues. Criticism of government is at the very center of the constitutionally protected area of free discussion. Criticism of those responsible for government operations must be free, lest criticism of government itself be penalized. It is clear, therefore, that the \u201cpublic official\u201d designation applies at the very least to those among the hierarchy of government employees who have, or appear to the public to have, substantial responsibility for or control over the conduct of governmental affairs.\nThis conclusion does not ignore the important social values which underlie the law of defamation. Society has a pervasive and strong interest in preventing and redressing attacks upon reputation. But in cases like the present, there is tension between this interest and the values nurtured by the First and Fourteenth Amendments. The thrust of New York Times is that when interests in public discussion are particularly strong, as they were in that case, the Constitution limits the protections afforded by the law of defamation. Where a position in government has such apparent importance that the public has an independent interest in the qualifications and performance of the person who holds it, beyond the general public interest in the qualifications and performance of all government employees, both elements we identified in New York Times are present and the New York Times malice standards apply.\nAs respondent framed his case, he may have held such a position. Since New York Times had not been decided when his case went to trial, his presentation was not shaped to the \u201cpublic official\u201d issue. He did, however, seek to show that the article referred particularly to him. His theory was that his role in the management of the Area was so prominent and important that the public regarded him as the man responsible for its operations, chargeable with its failures and to be credited with its successes. Thus, to prove the article referred to him, he showed the importance of his role; the same showing, at the least, raises a substantial argument that he was a \u201cpublic official.\u201d\nThe record here, however, leaves open the possibility that respondent could have adduced proofs to bring his claim outside the New York Times rule. Moreover, even if the claim falls within New York Times, the record suggests respondent may be able to present a jury question of malice as there defined. Because the trial here was had before New York Times, we have concluded that we should not foreclose him from attempting retrial of his action. We remark only that, as is the case with questions of privilege generally, it is for the trial judge in the first instance to determine whether the proofs show respondent to be a \u201cpublic official.\u201d\nThe judgment is reversed and the case remanded to the New Hampshire Supreme Court for further proceedings not inconsistent with this opinion.\nIt is so ordered.\nMr. Justice Clark concurs in the result.\nN. H. Laws 1959, c. 399.\nThe article purports to compare performance of the ski Area under the direction of unnamed persons during the prior year with performance of the Area under the direction of an identified group \u2014 a group which includes not only the new manager of the Area, but the new commissioners as well.\nSee generally Lewis, The Individual Member\u2019s Right to Recover for a Defamation Leveled at the Group, 17 U. Miami L. Rev. 519, 523-525 (1963).\nSee Kalven, The New York Times Case: A Note on \u201cThe Central Meaning of the First Amendment,\u201d 1964 Sup. Ct. Rev. 191, 207-210.\nSuch recovery would, of course, be subject to a showing of actual malice if the individual were a \u201cpublic official\u201d within the meaning of New York Times.\nIt might be argued that the charge instructed the jury to award recovery only if it found that the libel was aimed at Mr. Baer or if it found the libel aimed at Mr. Baer, along with a few others. Such a charge might not be objectionable; we do not mean to suggest that the fact that more than one person is libeled by a statement is a defense to suit by a member of the group. However, we cannot read the charge as being so limited. The jury was told:\n\u201can imputation of impropriety or a crime to one or some of a small group that casts suspicion upon all is actionable. It is sufficient if Mr. Baer . . . proves . . . that he was one of a group upon whom suspicion was cast . . . ; but Mr. Baer has the burden of showing that the defamation, if you find that there was one, either was directed to him or could have been as one of a small group.\u201d (Emphasis supplied.)\nThe latitude allowed the jury to find defamatory reference in this apparently impersonal discussion of government affairs was thus too broad.\nSee Gilberg v. Goffi, 21 App. Div. 2d 517, 251 N. Y. S. 2d 823 (1964), aff\u2019d, 15 N. Y. 2d 1023, 207 N. E. 2d 620 (1965); Comment, 114 U. Pa. L. Rev. 241 (1965).\nThe New Hampshire court fully recognized that this was the subject of the column. It instructed the jury:\n\u201cYou are entitled, I think, to find that the public had a right to be informed about any difficulties or discrepancies in income or thievery at this public area. It\u2019s in the public domain. It\u2019s public property .... Keep in mind that the public has a right to know how their public affairs are being conducted . . . .\u201d\nSee, e. g., Opinion of the Justices, 73 N. H. 621, 62 A. 969 (1906).\nFor similar reasons, we reject any suggestion that our references in New York Times, 376 U. S., at 282, 283, n. 23, and Garrison, 379 U. S., at 74, to Barr v. Matteo, 360 U. S. 564, mean that we have tied the New York Times rule to the rule of official privilege. The public interests protected by the New York Times rule are interests in discussion, not retaliation, and our reference to Barr should be taken to mean no more than that the scope of the privilege is to be determined by reference to the functions it serves. See Pedriek, Freedom of the Press and the Law of Libel: The Modern Revised Translation, 49 Cornell L. Q. 581, 590-591 (1964).\nCompare, e. g., Clancy v. Daily News Corp., 202 Minn. 1, 277 N. W. 264 (1938); Tanzer v. Crowley Publishing Corp., 240 App. Div. 203, 268 N. Y. Supp. 620 (1934); Poleski v. Polish Am. Publishing Co., 254 Mich. 15, 235 N. W. 841 (1931); 1 Harper & James, Torts \u00a7 5.26, pp. 449-450 (1956); Prosser, Torts \u00a7 110, p. 815 (3d ed. 1964); Noel, Defamation of Public Officers and Candidates, 49 Col. L. Rev. 875, 896-897, 901-902 (1949); Comment, 113 U. Pa. L. Rev. 284, 288 (1964); Note, 18 Vand. L. Rev. 1429, 1445 (1965).\nWe are treating here only the element of public position, since that is all that has been argued and briefed. We intimate no view whatever whether there are other bases for applying the New York Times standards \u2014 for example, that in a particular case the interests in reputation are relatively insubstantial, because the subject of discussion has thrust himself into the vortex of the discussion of a question of pressing public concern. Cf. Salinger v. Cowles, 195 Iowa 873, 889, 191 N. W. 167, 173-174 (1922); Peck v. Coos Bay Times Publishing Co., 122 Ore. 408, 420-421, 259 P. 307, 311-312 (1927); Coleman v. MacLennan, 78 Kan. 711, 723-724, 98 P. 281, 285-286 (1908); Pauling v. News Syndicate Co., 335 F. 2d 659, 671 (C. A. 2d Cir. 1964).\nIt is suggested that this test might apply to a night watchman accused of stealing state secrets. But a conclusion that the New York Times malice standards apply could not be reached merely because a statement defamatory of some person in government employ catches the public\u2019s interest; that conclusion would virtually disregard society\u2019s interest in protecting reputation. The employee\u2019s position must be one which would invite public scrutiny and discussion of the person holding it, entirely apart from the scrutiny and discussion occasioned by the particular charges in controversy.\nIt is not seriously contended, and could not be, that the fact respondent no longer supervised the Area when the column appeared has decisional significance here. To be sure, there may be eases where a person is so far removed from a former position of authority that comment on the manner in which he performed his responsibilities no longer has the interest necessary to justify the New York Times\u25a0 rule. But here the management of the Area was still a matter of lively public interest; propositions for further change were abroad, and public interest in the way in which the prior administration had done its task continued strong. The comment, if it referred to respondent, referred to his performance of duty as a county employee.\n1 Harper & James, Torts \u00a75.29 (1956); Prosser, Torts \u00a7110, p. 823 (3d ed. 1964), Restatement, Torts \u00a7619. Such a course will both lessen the possibility that a jury will use the cloak of a general verdict to punish unpopular ideas or speakers, and assure an appellate court the record and findings required for review of constitutional decisions. Cf. Speiser v. Randall, 357 U. S. 513, 525; New York Times, 376 U. S., at 285.",
+        "type": "majority",
+        "author": "Mr. Justice Brennan"
+      },
+      {
+        "text": "Mr. Justice Douglas,\nconcurring.\nIn New York Times Co. v. Sullivan, 376 U. S. 254, we dealt with elected officials. We now have the question as to how far its principles extend or how far down the hierarchy we should go.\nThe problems presented are considerable ones. Maybe the key man in a hierarchy is the night watchman responsible for thefts of state secrets. Those of us alive in the 1940\u2019s and 1950\u2019s witnessed the dreadful ordeal of people in the public service being pummelled by those inside and outside government, with charges that were false, abusive, and damaging to the extreme. Many of them, unlike the officials in New York Times who ran for election, rarely had opportunity for rejoinder.\nYet if free discussion of public issues is the guide, I see no way to draw lines that exclude the night watchman, the file clerk, the typist, or, for that matter, anyone on the public payroll. And how about those who contract to carry out governmental missions? Some of them are as much in the public domain as any so-called officeholder. And how about the dollar-a-year man, whose prototype was publicized in United States v. Mississippi Valley Generating Co., 364 U. S. 520? And the industrialists who raise the price of a basic commodity? Are not steel and aluminum in the public domain? And the labor leader who combines trade unionism with bribery and racketeering? Surely the public importance of collective bargaining puts labor as well as management into the public arena so far as the present constitutional issue is concerned.\nThe Court in Thornhill v. Alabama, 310 U. S. 88, 101-102, put the issue as follows:\n\u201cThe freedom of speech and of the press guaranteed by the Constitution embraces at the least the liberty to discuss publicly and truthfully all matters of public concern without previous restraint or fear of subsequent punishment. The exigencies of the colonial period and the efforts to secure freedom from oppressive administration developed a broadened conception of these liberties as adequate to supply the public need for information and education with respect to the significant issues of the times. . . . Freedom of discussion, if it would fulfill its historic function in this nation, must embrace all issues about which information is needed or appropriate to enable the members of society to cope with the exigencies of their period.\u201d\nIf the term \u201cpublic official\u201d were a constitutional term, we would be stuck with it and have to give it content. But the term is our own; and so long as we are fashioning a rule of free discussion of public issues, I cannot relate it only to those who, by the Court\u2019s standard, are deemed to hold public office.\nThe question in final analysis is the extent to which the Due Process Clause of the Fourteenth Amendment has displaced the libel laws of the States. I do not suppose anyone would have thought, in those terms at the time the Amendment was adopted. But constitutional law is not frozen as of a particular moment of time. It was indeed not until 1931 that this Court squarely held that the First Amendment was applicable to the States by reason of the Fourteenth (Stromberg v. California, 283 U. S. 359, 368-369) \u2014 New York Times being merely an application and extension of that principle. But since freedom of speech is now the guideline, do state libel laws have any place at all in our constitutional system, at least when it comes to public issues? If freedom of speech is the guide, why is it restricted to speech addressed to the larger public matters and not applicable to speech at the lower levels of science, the humanities, the professions, agriculture, and the like?\nIn my view the First Amendment would bar Congress from passing any libel law, the Alien and Sedition Act (1 Stat. 596) to the contrary notwithstanding. Some think that due process as applied to the States is a watered-down federal version as respects the guarantees in the Bill of Rights that are incorporated into the Fourteenth Amendment. See, e. g., Roth v. United States, 354 U. S. 476, 501 (separate opinion); Beauharnais v. Illinois, 343 U. S. 250, 287 (dissenting opinion). That has been the minority view, the majority maintaining that there is no difference. If there is no difference and if I am right in assuming Congress could not constitutionally pass a libel law, then the question is whether a public issue, not a public official, is involved.\nThe case is therefore for me in a different posture than the one discussed by the Court. I would prefer to dismiss the writ as improvidently granted. To facilitate our work, however, I have decided to join Part II of the Court\u2019s opinion, as well as Mb. Justice Black\u2019s separate opinion, and to concur in the judgment.\nAnd cf. Farmers Union v. WDAY, 360 U. S. 525, holding that a radio station is not liable for defamatory statements made in a speech broadcast over such station under \u00a7 315 (a) of ,the Federal Communications Act of 1934 by a candidate for public office.\nHe in fact received no compensation from the Government, but was given $10 per day in lieu of subsistence, plus transportation expenses. See 364 U. S., at 533.\nCf. Linn v. United Plant Guard Workers, ante, p. 53, where the principle of New York Times Co. v. Sullivan, supra, is extended, via the path of pre-emption, to the field of labor relations.\nThere is the view that the \u201cmost absolute construction of the First Amendment, as applied to the states by the Fourteenth, would permit a line to be drawn between the spurious common law of seditious libel and the genuine common law of civil liability for defamation of private character.\u201d Brant, The Bill of Rights: Its Origin and Meaning 502-503 (1965). But that ipse dixit overlooks our deeisons which, without defining the outer limits, establish that the First Amendment applies to both. Compare New York Times Co. v. Sullivan, supra, with Garrison v. Louisiana, 379 U. S. 64.\nThe complaint was drawn and the trial conducted in conformity with the defamation law as it existed prior to New York Times. Whether the complaint can be amended to conform to the theory of liability announced in New York Times is wholly a matter of state law. See N. H. Rev. Stat. Ann. \u00a7514:9 (1955). Whether there can be a new trial is also wholly a matter of state law. See N. H. Rev. Stat. Ann. \u00a7526:1 (1955). Whether respondent is a \u201cpublic official\u201d in the New York Times sense is not ascertainable from the record. We do not even know whether he took an oath of office. So far as we know, he may have been a hybrid in the nature of an independent contractor. Moreover, the oral argument and the briefs were not squarely addressed to the larger and profoundly important questions stirred by this litigation.\nCf. Mr. Justice Rutledge in Screws v. United States, 325 U. S. 91, 113, 134.",
+        "type": "concurrence",
+        "author": "Mr. Justice Douglas,"
+      },
+      {
+        "text": "Mr. Justice Stewart,\nconcurring.\nThe Constitution does not tolerate actions for libel on government. State defamation laws, therefore, whether civil or criminal, cannot constitutionally be converted into laws against seditious libel. Our decisions in the New York Times and Garrison cases turned upon that fundamental proposition. What the Court says today seems to me fully consonant with those decisions, and I join the Court\u2019s opinion and judgment.\nIt is a fallacy, however, to assume that the First Amendment is the only guidepost in the area of state defamation laws. It is not. As the Court says, \u201cimportant social values . . . underlie the law of defamation. Society has a pervasive and strong interest in preventing and redressing attacks upon reputation.\u201d\nThe right of a man to the protection of his own reputation from unjustified invasion and wrongful hurt reflects no more than our basic concept of the essential dignity and worth of every human being \u2014 a concept at the root of any decent system of ordered liberty. The protection of private personality, like the protection of life itself, is left primarily to the individual States under the Ninth and Tenth Amendments. But this does not mean that the right is entitled to any less recognition by this Court as a basic of our constitutional system.\nWe use misleading euphemisms when we speak of the New York Times rule as involving \u201cuninhibited, robust, and wide-open\u201d debate, or \u201cvehement, caustic, and sometimes unpleasantly sharp\u201d criticism. What the New York Times rule ultimately protects is defamatory falsehood. No matter how gross the untruth, the New York Times rule deprives a defamed public official of any hope for legal redress without proof that the lie was a knowing one, or uttered in reckless disregard of the truth.\nThat rule should not be applied except where a State\u2019s law of defamation has been unconstitutionally converted into a law of seditious libel. The First and Fo\u00farteenth Amendments have not stripped private citizens of all means of redress for injuries inflicted upon them by careless liars. The destruction that defamatory falsehood can bring is, to be sure, often beyond the capacity of the law to redeem. Yet, imperfect though it is, an action for damages is the only hope for vindication or redress the law gives to a man whose reputation has been falsely dishonored.\nMoreover, the preventive effect of liability for defamation serves an important public purpose. For the rights and values of private personality far transcend mere personal interests. Surely if the 1950\u2019s taught us anything, they taught us that the poisonous atmosphere of the easy lie can infect and degrade a whole society.\nNew York Times Co. v. Sullivan, 376 U. S. 264; Garrison v. Louisiana, 379 U. S. 64.\nSee New York Times Co. v. Sullivan, 376 U. S., at 270.\nThis is not to say that there do not exist situations where for other reasons state defamation laws may be similarly limited. See Linn v. United Plant Guard Workers, ante, p. 53.\nIrving Brant has recently made the point well:\n\u201cCivil actions for slander and libel developed in early ages as a substitute for the duel and a deterrent to murder. They lie within the genuine orbit of the common law, and in the distribution of American sovereignty they fall exclusively within the jurisdiction of the states. The First Amendment further assures their exclusion from the federal domain. The Fourteenth Amendment, by absorbing the First, unquestionably gives the Supreme Court authority to block state use of civil suits as a substitute for laws of seditious libel. But considering the differences in derivation, in purpose, in value to society, and in the natural location of power, there seems to be no compelling constitutional reason to bar private suits. The most absolute construction of the First Amendment, as applied to the states by the Fourteenth, would permit a line to be drawn between the spurious common law of seditious libel and the genuine common law of civil liability for defamation of private character. It is the misuse of civil liability that offends the Constitution.\u201d Brant, The Bill of Rights: Its Origin and Meaning 502-503 (1965).",
+        "type": "concurrence",
+        "author": "Mr. Justice Stewart,"
+      },
+      {
+        "text": "Mr. Justice Black,\nwith whom Mr. Justice Douglas joins, concurring and dissenting.\nRespondent Baer managed the financial affairs of a ski recreation center owned and operated by Belknap County, New Hampshire. Petitioner Rosenblatt, an unpaid columnist for a local newspaper, published a column criticizing the past management of the center. Baer thought the column implied dishonest manipulations in his handling of the finances for the center. Charging this he sued Rosenblatt for libel and obtained a verdict for $31,500 which the Supreme Court of New Hampshire affirmed. This Court, relying on New York Times Co. v. Sullivan, 376 U. S. 254, and Garrison v. Louisiana, 379 U. S. 64, reverses that judgment and remands to the state court under conditions expressed in its opinion that will allow a new trial and another judgment against Rosenblatt. I concur in the reversal but dissent from leaving the case open for a new trial believing that for reasons stated in the concurring opinions of Mr. Justice Douglas and myself in the New York Times and Garrison cases a libel judgment against Rosenblatt is forbidden by the First Amendment which the Fourteenth made applicable to the States.\nI think the publication here, discussing the way an agent of government does his governmental job, is the very kind that the First Amendment was adopted primarily to protect. The article here sued on as libelous discusses the use of the public\u2019s money to take care of the public\u2019s business by a paid agent of the public. Unconditional freedom to criticize the way such public functions are performed is in my judgment necessarily included in the guarantees of the First Amendment. And the right to criticize a public agent engaged in public activities cannot safely, and should not, depend upon whether or not that agent is arbitrarily labeled a \u201cpublic official.\u201d Nor should the right to criticize depend upon how high a position in government a public agent may occupy. Indeed a large percentage of public moneys expended is distributed by local agents handling local funds as the respondent in this case did. To be faithful to the First Amendment\u2019s guarantees, this Court should free private critics of public agents from fear of libel judgments for money just as it has freed critics from fear of pains and penalties inflicted by government.\nThis case illustrates I think what a short and inadequate step this Court took in the New York Times case to guard free press and free speech against the grave dangers to the press and the public created by libel actions. Half-million-dollar judgments for libel damages like those awarded against the New York Times will not be stopped by requirements that \u201cmalice\u201d be found, however that term is defined. Such a requirement is little protection against high emotions and deep prejudices which frequently pervade local communities where libel suits are tried. And this Court cannot and should not limit its protection against such press-destroying judgments by reviewing the evidence, findings, and court rulings only on a case-by-case basis. The only sure way to protect speech and press against these threats is to recognize that libel laws are abridgments of speech and press and therefore are barred in both federal and state courts by the First and Fourteenth Amendments. I repeat what I said in the New York Times case that \u201cAn unconditional right to say what one pleases about public affairs is what I consider to be the minimum guarantee of the First Amendment.\u201d\nFinally, since this case is to be sent back and a new trial may follow, I add one further thought. The Court indicates that in a retrial it will be for the trial judge \u201cin the first instance\u201d to decide whether respondent is a \u201cpublic official.\u201d Statements like this have a way of growing and I fear that the words \u201cin the first, instance\u201d will soon be forgotten. When that happens the rule will be that the Federal Constitution forbids States to let juries decide essentially jury questions in libel cases. After a long fight in England Fox\u2019s Libel Act of 1792 was passed and it provided that juries should be the judges of both the law and the facts in libel cases. This was heralded by all lovers of freedom of speech and press as a victory for freedom. This rule was particularly approved in this country where in 1735 John Peter Zenger was prosecuted in a highly publicized trial for criticizing the government of New York. In that case the Chief Justice of the Province of New York got rid of two lawyers who dared defend Zenger by disbarring them. The lawyer who finally defended Zenger, Andrew Hamilton, won imperishable fame in this country by his boldness in telling the jury that they, not the judge, had the right to say whether or not the defendant was guilty. Zenger was acquitted. 17 How. St. Tr. 675. Many of the States familiar with this oppressive practice of denying the. jury and granting the judge power to determine the guilt of a defendant in libel cases wrote in their constitutions special provisions to protect the right to trial by jury in such cases. I regret to see the Court take a single step in the direction of holding that a judge rather than the jury is to have the determination of any fact in libel cases. Compare Jackson v. Denno, 378 U. S. 368.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "Mr. Justice Black,"
+      },
+      {
+        "text": "Mr. Justice Harlan,\nconcurring in part and dissenting in part.\nI agree with the Court\u2019s opinion except for Part II, in which a section of the trial court\u2019s charge is characterized as depending upon a \u201ctheory\u201d of \u201cimpersonal\u201d libel, which we held constitutionally impermissible in New York Times Co. v. Sullivan, 376 U. S. 254.\nIn New York Times, in addition to establishing a constitutional standard governing actions for defamation of public officials, we went on to examine the evidence in that particular case. We found that \u201cit was incapable of supporting the jury\u2019s finding that the allegedly libelous statements were made 'of and concerning\u2019 respondent.\u201d 376 U. S., at 288. The statements in question, in general terms, attributed misconduct to the police of Montgomery, Alabama, during civil rights activities. The plaintiff in the libel suit, the Commissioner of Public Affairs, pressed his action not on the theory that the statements referred to him, but instead \u201csolely on the unsupported assumption that, because of his official position,\u201d the statements must be taken as indicating that he had been involved in the misconduct. 376 U. S., at 289. The Supreme Court of Alabama held that \u201c[i]n measuring the performance or deficiencies of . . . groups [such as the police], praise or criticism is usually attached to the official in complete control of the body,\u201d 273 Ala. 656, at 674-675, 144 So. 2d 25, at 39, and allowed the action by the Commissioner.\nIn setting aside the state judgment we noted that this proposition had \u201cdisquieting implications for criticism of governmental conduct,\u201d 376 U. S., at 291, for it permitted any general statement criticizing some governmental activity to be transmuted into a cause of action for personal libel by the official in charge of that activity. We stated that the liberty of expression embodied in the Fourteenth Amendment forbade a State from permitting \u201can otherwise impersonal attack on governmental operations\u201d to be used as the basis of \u201ca libel of an official responsible for those operations.\u201d 376 U. S., at 292.\nThis salutary principle has been applied, I believe incorrectly, to the facts of this case. It is true that, on its face, the alleged libel here seems to discuss only the conduct of governmental operations, viz., the comparative improvement in the management of the ski area. However, the theory on which respondent based his claim is that the rhetorical question, \u201cWhat happened to all the money last year? and every other year?\u201d was read as accusing him of peculation or culpable mismanagement. The trial court and the Supreme Court of New Hampshire, as well as this Court, have found this a permissible reading of the newspaper article.\nThe charge of the trial court did not leave the jury free to-convert an \u201cimpersonal\u201d into a \u201cpersonal\u201d libel. The court merely instructed the jury that if it interpreted the article as an accusation of misconduct the jury could find for the plaintiff if either he alone was found to be libeled, or he was one of a small group of persons so libeled. This is conventional tort law. \u201c[I] f the group is small enough numerically or sufficiently restricted geographically so that people reasonably think the defamatory utterance was directed to or intended to include the plaintiff, there may be a recovery.\u201d 1 Harper & James, Torts \u00a7 5.7, at 367 (1956). See also Prosser, Torts \u00a7 106, at 767-768 (1964); Riesman, Democracy and Defamation: Control of Group Libel, 42 Col. L. Rev. 727, 759-760 (1942). The Restatement of Torts \u00a7 564, Comment c (1938), includes this aspect of defamation in language very similar to that of the charge in this case:\n\u201cThe size of the class may be so small as to indicate that the plaintiff is the person intended or at least to cast such grave suspicion upon him as to be defamatory of him. Thus, a statement that all members of a school board or a city council are corrupt is sufficiently definite to constitute a defamatory publication of each member thereof. If, however, the group or class disparaged is a large one, some particular circumstances must point to the plaintiff as the person defamed. Thus, a statement that all lawyers are dishonest or that all ministers are liars is not defamatory of any particular lawyer or minister unless the surrounding circumstances indicate that he was the person intended.\u201d\nThis and the trial court\u2019s formulation can scarcely be thought too indefinite, for they reflect standards successfully applied over the years in numerous state cases. See, e. g., Gross v. Cantor, 270 N. Y. 93, 200 N. E. 592; cases cited in Harper & James, supra, \u00a7 5.7, at 367; and Prosser, supra, \u00a7 106, at 767-768. The rule is an eminently sound one.\nAs to the facts at hand, it seems to be agreed\u2014 apart of course from the public-official \u201cmalice\u201d rule which would apply in any event \u2014 that if the article in question is read by the jury as an accusation of wrongdoing by Baer, he has a good.cause of action in libel. I see no reason why that cause of action should fail if the jury finds that the article was read as accusing the three Commissioners along with Baer. This is a very different case from New York Times, where the alleged libel concerned not an identified small group responsible for the running of a particular public enterprise, but a criticism of \u201cthe police\u201d generally in the discharge of their duties. It seems manifest that in instructing the jury as to a \u201csmall group,\u201d the trial judge was not allowing the plaintiff to transform impersonal governmental criticism into an individual cause of action, but was simply referring to this traditional tort doctrine that more than one person can be libeled by the same statement. I cannot understand why a statement which a jury is permitted to read as meaning \u201cA is a thief\u201d should become absolutely privileged if it is read as meaning \u201cA, B, C, and D are thieves.\u201d\nWithout receding in any way from our ruling in New York Times that impersonal criticism of government cannot be made a basis for a libel action by an official who heads the branch or agency involved, I dissent from the Court\u2019s conclusion that this is such a case. In all other respects I join the Court\u2019s opinion.\nThe trial judge charged the jury as follows:\n\u201cAn insinuation of a crime is actionable as a positive assertion if the meaning is reasonably plain and clear, and the putting of the words in the form of a question does not change the liability of the defendant if the form and sense of the question is defamatory or derogatory. Now, an imputation of impropriety or a crime to one or some of a small group that casts suspicion upon all is actionable. It is sufficient if Mr. Baer, the plaintiff here, proves on the balance of probabilities by his evidence that he was one of a group upon whom suspicion was cast, and the fact that others in this group might also have been libeled is not a defense; but Mr. Baer has the burden of showing that the defamation, if you find that there was one, either was directed to him or could have been as one of a small group.\u201d It. Vol. V, pp. 148-149.\n\u201cNow, as to any part of the article which you, if you do, find defamatory, and that Mr. Baer was intended, or he with a few others was intended, he and a small group, if you find that it was derogatory of him and charged him with a crime, held him up to scorn and ridicule, that he was the fellow, either singly or in a small group, then you can go on to consider \u2014 and you should \u2014 whether the publication was privileged or justified ft. Vol. V, pp. 151-152.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "Mr. Justice Harlan,"
+      },
+      {
+        "text": "Mr. Justice Fortas,\ndissenting.\nI would vacate the writ in this case as improvidently granted. The trial below occurred before this Court\u2019s decision in New York Times Co. v. Sullivan, 376 U. S. 254. As a result, the factual record in this ease was not shaped in light of the principles announced in New York Times. Particularly in this type of case it is important to observe the practice of relating our decisions to factual -records. They serve to guide our judgment and to help us measure theory against the sharp outlines of reality. Especially where our decision furnishes a necessarily Procrustean bed for state law, I think, with all respect, that we should insist upon a relevant factual record. A subsequent trial may conceivably help respondent, but it will be too late to be of assistance to us.",
+        "type": "dissent",
+        "author": "Mr. Justice Fortas,"
+      }
+    ],
+    "attorneys": [
+      "Arthur H. Nighswander argued the cause for petitioner. With him on the brief were Hugh H. Bournes and Conrad E. Snow.",
+      "Stanley M. Brown argued the cause and filed a brief for respondent.",
+      "Osmond K. Fraenkel, Edward J. Ennis and Melvin L. Wulf filed a brief for the American Civil Liberties Union, as amicus curiae, urging reversal."
+    ],
+    "corrections": "",
+    "head_matter": "ROSENBLATT v. BAER.\nNo. 38.\nArgued October 20, 1965.\nDecided February 21, 1966.\nArthur H. Nighswander argued the cause for petitioner. With him on the brief were Hugh H. Bournes and Conrad E. Snow.\nStanley M. Brown argued the cause and filed a brief for respondent.\nOsmond K. Fraenkel, Edward J. Ennis and Melvin L. Wulf filed a brief for the American Civil Liberties Union, as amicus curiae, urging reversal."
+  },
+  "file_name": "0075-01",
+  "first_page_order": 139,
+  "last_page_order": 165
+}

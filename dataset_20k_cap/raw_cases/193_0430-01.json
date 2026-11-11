@@ -1,0 +1,916 @@
+{
+  "id": 3630362,
+  "name": "BARNEY v. THE CITY OF NEW YORK",
+  "name_abbreviation": "Barney v. City of New York",
+  "decision_date": "1904-03-21",
+  "docket_number": "No. 159",
+  "first_page": "430",
+  "last_page": "441",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "193 U.S. 430"
+    },
+    {
+      "type": "parallel",
+      "cite": "48 L. Ed. 737"
+    },
+    {
+      "type": "parallel",
+      "cite": "24 S. Ct. 502"
+    },
+    {
+      "type": "vendor",
+      "cite": "1904 U.S. LEXIS 917"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1903-165"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "132 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5699245
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/132/0075-01"
+      ]
+    },
+    {
+      "cite": "129 N. Y. 502",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2243147
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/129/0502-01"
+      ]
+    },
+    {
+      "cite": "160 U. S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701268
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/160/0452-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3593271
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0269-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 82",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3604763
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0082-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576824
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/153/0380-01"
+      ]
+    },
+    {
+      "cite": "18 Fed. Rep. 195",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6725740
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/18/0195-01"
+      ]
+    },
+    {
+      "cite": "109 Fed. Rep. 807",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7853189
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/109/0807-01"
+      ]
+    },
+    {
+      "cite": "95 Fed. Rep. 849",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        8294875
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/95/0849-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 10",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701639
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/161/0010-01"
+      ]
+    },
+    {
+      "cite": "162 U. S. 255",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136988
+      ],
+      "pin_cites": [
+        {
+          "page": "271"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/162/0255-01"
+      ]
+    },
+    {
+      "cite": "147 U. S. 508",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3566307
+      ],
+      "pin_cites": [
+        {
+          "page": "518"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/147/0508-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 446",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8162
+      ],
+      "pin_cites": [
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/109/0446-01"
+      ]
+    },
+    {
+      "cite": "106 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3498419
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/106/0196-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 204",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594532
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0204-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 165",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3622110
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/191/0165-01"
+      ]
+    },
+    {
+      "cite": "106 U. S. 629",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3497477
+      ],
+      "pin_cites": [
+        {
+          "page": "638"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/106/0629-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 542",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8758
+      ],
+      "pin_cites": [
+        {
+          "page": "554"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/92/0542-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 547",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3374720
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0547-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 659",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594856
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0659-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 313",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4652
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0313-01"
+      ]
+    },
+    {
+      "cite": "118 U. S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3518788
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/118/0194-01"
+      ]
+    },
+    {
+      "cite": "64 Fed. Rep. 421",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6719537
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/64/0421-01"
+      ]
+    },
+    {
+      "cite": "96 Fed. Rep. 113",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6750092
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/96/0113-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3579432
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0362-01"
+      ]
+    },
+    {
+      "cite": "129 N. Y. 252",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2243041
+      ],
+      "pin_cites": [
+        {
+          "page": "271"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/129/0252-01"
+      ]
+    },
+    {
+      "cite": "138 N. Y. 257",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        22168
+      ],
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/138/0257-01"
+      ]
+    },
+    {
+      "cite": "90 N. Y. 122",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2186236
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/90/0122-01"
+      ]
+    },
+    {
+      "cite": "7 Barb. 508",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "case_ids": [
+        4886377
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/barb/7/0508-01"
+      ]
+    },
+    {
+      "cite": "77 N. Y. 248",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        542854
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/77/0248-01"
+      ]
+    },
+    {
+      "cite": "50 N. Y. 206",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2059743
+      ],
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/50/0206-01"
+      ]
+    },
+    {
+      "cite": "27 N. Y. 188",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2035363
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/27/0188-01"
+      ]
+    },
+    {
+      "cite": "124 Fed. Rep. 574",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3825092
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/124/0574-01"
+      ]
+    },
+    {
+      "cite": "121 Fed. Rep. 874",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1901416
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/121/0874-01"
+      ]
+    },
+    {
+      "cite": "185 U. S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3624726
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/185/0065-01"
+      ]
+    },
+    {
+      "cite": "118 Fed. Rep. 736",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3697958
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/118/0736-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 239",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3605071
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/172/0239-01"
+      ]
+    },
+    {
+      "cite": "86 Fed. Rep. 168",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6732616
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/86/0168-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 226",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592880
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "233"
+        },
+        {
+          "page": "p. 233"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0226-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 403",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591947
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/164/0403-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 34",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581847
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/154/0034-01"
+      ]
+    },
+    {
+      "cite": "118 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519298
+      ],
+      "pin_cites": [
+        {
+          "page": "374"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 3",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8181
+      ],
+      "pin_cites": [
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/109/0003-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. 370",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1522254
+      ],
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/103/0370-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 339",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4645
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0339-01"
+      ]
+    },
+    {
+      "cite": "118 Fed. Rep. 683",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3698822
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/118/0683-01"
+      ]
+    },
+    {
+      "cite": "25 Stat. 433",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Stat. 552",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Stat. 470",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 U. S. 516",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3604660
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/172/0516-01"
+      ]
+    },
+    {
+      "cite": "140 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3554773
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/140/0001-01"
+      ]
+    },
+    {
+      "cite": "18 Stat. 335",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Misc. Rep. 719",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        5504786
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/80/0972-01"
+      ]
+    },
+    {
+      "cite": "38 Misc. Rep. 549",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        7730053
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/77/1083-01"
+      ]
+    },
+    {
+      "cite": "18 Fed. Rep. 195",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6725740
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/18/0195-01"
+      ]
+    },
+    {
+      "cite": "109 Fed. Rep. 807",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7853189
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/109/0807-01"
+      ]
+    },
+    {
+      "cite": "95 Fed. Rep. 849",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        8294875
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/95/0849-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 204",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3594532
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/167/0204-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 165",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3622110
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/191/0165-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 313",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4652
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/100/0313-01"
+      ]
+    },
+    {
+      "cite": "64 Fed. Rep. 421",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6719537
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/64/0421-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3579432
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/154/0362-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 226",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592880
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/166/0226-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 34",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581847
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/154/0034-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 3",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/109/0003-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 339",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4645
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/100/0339-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1035,
+    "char_count": 23282,
+    "ocr_confidence": 0.574,
+    "pagerank": {
+      "raw": 7.583779644816086e-07,
+      "percentile": 0.9706616100012009
+    },
+    "sha256": "8d06f3799e0e518ad611cdddebfb140dbdb5b30a21573fde99c127d728e6c737",
+    "simhash": "1:a809e251caacae6b",
+    "word_count": 4075
+  },
+  "last_updated": "2024-02-27T20:46:52.428538+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BARNEY v. THE CITY OF NEW YORK."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Fuller,\nafter making the foregoing! statement, delivered the opinion of the court.\nThe jurisdiction of the Circuit Court was invoked upon the ground that by the tunnel.construction sought to be^ enjoined, complainant was deprived of his property without due process of law, in violation of the Fourteenth Amendment. But that amendment prohibits deprivation by a State, and here- the bill alleged that what was done was without authority and illegal'.\nThe city acts through the Rapid Transit Board, which possesses the powers specifically vested. It is empowered to prescribe the routes and general plan of any proposed rapid transit railroad within the city, and every such plan must \u201ccontain such details as to manner of construction as may be necessary to show the extent to which.any street, avenue or other public place is to be encroached upon and the property abutting thereon' affected.\u201d Consents' of the municipal authorities and the abutting property owners- to construction on the routes and plan adopted must be obtained, and any change in the detailed plans and specifications shall accord with the general plan, of construction, and,'if not, like consents must be obtained to such change.\nThe bill asserted that the easterly tunnel section under Park avenue\u2019was not within the routes and general plan consented to, and that the construction was unauthorized. And this is the view taken by the Supreme Court of New York. Barney v. Board of Rapid Transit Commissioners, 38 Misc. Rep. 549; Barney v. City of New York, 39 Misc. Rep. 719; Barney v. City of New York, S3 App. Div. (N. Y.) 237.\nThus the bill on its face proceeded on the theory that the' construction of the easterly tunnel section was not only not authorized, but was forbidden by the. legislation, and hence was not action by the State of New York within the intent and meaning of the Fourteenth Amendment, and the Circuit Cgurt was right in dismissing it for want of jurisdiction.\nControversies over violations of the laws of New York are controversies to be dealt with by the courts of the State. Complainant\u2019s grievance was that the law of the State had been broken, and not a grievance inflicted by action of the legislative or executive or judicial department of the State; and the principle is That it is for the state courts to remedy acts of state officers done without the authority of or contrary to state law. Missouri v. Dockery, 191 U. S. 165; Civil Rights Cases, 109 U. S. 3; Virginia v. Rives, 100 U. S. 313.\nIn Virginia v. Rives, referring to an alleged denial of civil rights on.account of race and color in the empaneling of a jury, the laws of Virginia in respect of the selection of juries appearing to be unobjectionable, Mr. Justice Strong, speaking for the court, said: .\n\u201cIt is evident, therefore, that the denial of inability to enforce in the judicial tribunals of a State, rights secured to a defendant by any law providing for the equal civil rights of all persons citizens of the United States, of which sec. 641 speaks, is primarily, if not exclusively, a denial of such rights, or an inability to enforce them, resulting from the constitution or laws of the State, rather than a denial first made manifest at the trial of the case. In other words, the statute has reference to a legislative denial or an inability resulting from it. . . .\n\u201cWhen a statute of the State denies his right, or interposes a bar to his enforcing it, in the judicial tribunals, the presumption is fair that they will be controlled by it in their decisions ; and in such a c\u00e1se a defendant may affirm on oath what is necessary for a removal. Such a case is clearly within the provisions of sec. 641. But when a subordinate officer .of the State, in violation of state law, undertakes to deprive an accused party of a right which the statute law accords to him, as in the case at bar, it can hardly be said that he is denied, or cannot enforce, \u2018in the judicial tribunals of .the State\u2019 the rights which belong to him. In such a case it ought to be presumed the court will redress the wrong. If the accused is deprived of the right, the final and practical denial will be in the judicial tribunal which tries the case, after the trial has commenced. .If, as in this case, the subordinate officer whose duty it is to select jurors 'fails to discharge that duty in the true spirit of the law; if he excludes all colored men solely because they are colored; or if the sheriff to whom a venire is given, composed of both white and .colored citizens, neglects to summon the colored jurors only because they are colored; or if a clerk whose duty it is to take the twelve names from the box rejects all the colored jurors for the same- reason, \u2014 it can with no propriety be said the defendant\u2019s right is denied by the State and cannot be enforced in the judicial tribunals. The court will correct' the wrong, will quash- the indictment or the panel, or, if not, the error will be corrected in a superior court. We cannot think such cases are within the provisions of sec. 641. Denials of.equal rights in the action of the judicial tribunals of the State are left to the revisory powers of this court.\u201d\nIn the Civil Rights Cases, in which the court was dealing with the act of March 1, 1875, 18 Stat. 335, c. 114, Mr. Justice Bradley said:\n\u201cIn this connection it is proper to state that civil rights, such as are guaranteed by the Constitution against state aggression, cannot be impaired by the wrongful acts of individuals, unsupported by state authority .in the shape of laws, customs, or judicial or executive proceedings. The -wrongful act of an individual, unsupported by any .such authority, is simply a private wrong, or a crime of that individu\u00e1l; an invasion of the rights of the injured party, it is true, whether they affect his person, his property, or his reputation; but if not sanctioned \u25a0in some way by the State,'or not done under state authority, his rights remain in full force, and may presumably be vindicated by resort to the laws of the State for redress.\u201d\nThere are many eases in this court involving the application of the Eleventh Amendment which draw the distinction between acts of public officers virtute officii, and their acts without lawful right, colore officii; and in Pennoyer v. McConnaughy, 140 U. S. 1, Mr. Justice Lamar defined the two classes to.be, those brought against officers of the State as representing the State\u2019s action and liability, and those against officers of the State when claiming to act as such without lawful authority. The subject is discussed at length and the cases cited in Tindal v. Wesley, 167 U. S. 204, and Fitts v. McGhee, 172 U. S. 516. Appellant\u2019s counsel rely on certain expressions in the opinion in Ex parte Virginia, 100 U. S. 339, but that was a case in which what was regarded as the final judgment of a state court was under consideration, and Mr. Justice Strong also said: \u201cWhoever, by virtue of public position under a state government, deprives another of property, life, or liberty, without due process of law, or denies or takes away the equal protection of the laws, violates the constitutional inhibition; and-as he acts in the name and for the State, and is clothed with the State\u2019s power, his act is that of the State.\u201d\nAnd see Manhattan Railway Company v. City of New York, 18 Fed. Rep. 195; Kiernan v. Multnomah County, 95 Fed. Rep. 849; In re Storti, 109 Fed. Rep. 807.\nScott v. McNeal, 154 U. S. 34, and Chicago, Burlington & Quincy Railroad Company v. Chicago, 166 U. S. 226, are cited by appellant, but in those cases judgments of the highest judicial tribunals of the State were treated as acts of the State, and'no question of the correctness of that view arises'here.\nAnd so in Reagan v. Farmers\u2019 Loan & Trust Company, 154 U. S. 362, the general assembly of Texas had established a railroad commission and given it power to fix reasonable rates, with discretion to determine what rates were reasonable. The act provided that suits might be brought by individuals against the commission \u201cin a court of competent jurisdiction in Travis County, Texas,\u201d and a citizen of another State sued them in the Circuit Court of the United States for the district which embraced Travis County, and this was held to be authorized by the state statute.\nAnd as the establishment of rates by the commission was the establishment of rates by the State itself, and the determination of what was reasonable Was left to the discretion of the commission, their action could not be regarded as unauthorized, even though they may have exercised the discretion unfairly.\nSimilarly in Pacific Gas Imp. Company v. Ellert, 64 Fed. Rep. 421, where a public board was given power to improve streets, and proceeded in excess of its powers but not in violation of them, its action was regarded by Mr. Justice McKenna, then Circuit Judge, as state action.\nIn the present case defendants were proceeding, not only in violation of provisions of the sta$e law, but in opposition to plain prohibitions.. '\nSection 5 of the act of March 3, 1875, 18 Stat. 470, c. 137, provided that if in any suit in the Circuit Court it should appear, to the satisfaction of the court, at any tim\u00e9, that the suit did not really and substantially involve' a dispute or controversy properly within its jurisdiction, the court should proceed no further, but dismiss the suit. The last paragraph of this section was in terms repealed.by the act of March 3, 1887, 24 Stat. 552,- c. 373, reenacted August 13, 1888, 25 Stat. 433, c. 866, (the part repealed not being material here,) but otherwise the section remained and remains in full force. This case went off on the motion for preliminary injunction, and the bill was properly dismissed, whether treated as if heard on d\u00e9murrer, or on the proofs by affidavit.\nDecree affirmed.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Fuller,"
+      }
+    ],
+    "attorneys": [
+      "'Mr. Maxwell Evarts and Mr. Arthur H. Masten for appellants in this case and in No. 173.",
+      "Mr. Edward M. Shepard for the appellees, members of the Rapid Transit Board, and Mr. Platt A. Brown, with whom Mr. DeLancey Nicoll was on the brief, for appellee McDonald:"
+    ],
+    "corrections": "",
+    "head_matter": "BARNEY v. THE CITY OF NEW YORK.\nAPPEAL FROM THE CIRCUIT COURT OF, THE .UNITED STATES FOR THE SOUTHERN DISTRICT OF NEW YORK.\nNo. 159.\nArgued March 3, 4,1904.\nDecided March 21, 1904.\nWhere the jurisdiction of the Circuit Court is invoked on the ground of deprivation of property without due process of law in violation' of the Fourteenth Amendment, it must appear at the outset that the alleged deprivation was by act of the State.\nAnd where it appeared on the face of plaintiff\u2019s own statement of his case \u2022 that the act complained of was not only unauthorized, but was forbidden, By the state legislation in question, the Circuit 'Court rightly declined to proceed further and dismissed the suit.\nThis was a bill to enjoin the city of New York, the Board of Rapid Transit Commissioners for NeW York, John B. McDonald and the administratrix of Shaler, deceased, from-proceeding with the construction of the rapid transit railroad tunnel under Park avenue, New York, adjacent to the premises of Charles T. Barney, \u201cuntil the easements appurtenant thereto shall have been acquired according to law and due compensation made therefor to complainant;\u201d and from constructing such railroad otherwise than in accordance with the rout\u00e9s and general plan adopted , and approved by the local authorities and by the owners of abutting property, or the Appellate Division of the Supreme Court in lieu thereof.\nFrom the bill it appeared that the Rapid Transit Board had, on behalf of the city, devised routes and general plans, and entered into a contract for the construction of a rapid transit railroad with McDonald, of whom Ira A. Shaler was a subcontractor, under the Rapid Transit Acts of the State, Laws 1891, c. 4; Laws 1892, c. 102, 556; Laws 1894, cs. 528, 752; Laws 1895, c. 519; Laws 1900, c. 729; Laws 1901, c. 587; Laws 1902, es. 533,- 542, 544, 584.\nPark avenue was one of the streets under which the railroad was authorized to be built,- and the routes and general plan of the road were prescribed by the board by resolutions of January 14 .and February 4, 1897, which received the assent of the local authorities and of the Appellate Division of the Supreme Court in lieu of the consent of the abutting property owners.\nComplainant alleged that he \u201cconsented to the construction of .the said rapid transit railroad in accordance with the said routes and general plan of construction, and did not oppose the proceedings hereinafter mentioned, which the said Board of Rapid Transit Railroad Commissioners instituted for the purpose of Obtaining the determination of three commissioners appointed by the said Appellate Division that such rapid transit railroad ought to be constructed and .operated; nor did your orator oppose the confirmation of said determination by the said Appellate Division.\u201d\nBut complainant averred that the portion of the railroad under Park avenue and in front of his premises was being built twenty-seven feet nearer to his premises than was- authorized by the routes and .general plan; and that the work was \u201cbeing thus performed by 'Said defendant, McDonald, and the said Shaler without any authority other than certain directions giv^n by the chief engineer employed by the Board of Rapid Transit.Com\u00bfiissioners and-embodied in certain so-called working drawings, or detail drawings, prepared by him or at his instance, \u2022 and recently approved informally by said board. And . that the fact that such. directions had been\ngiven by the chief engineer and that said work was being thus performed by the contractor, as aforesaid, was not until recently specifically known to said board; that such action of said chief engineer and contractor has never been formally oi>specifically approved by said board; that there has been no \u00a1Change made or authorized by said board in the said \u2018 routes a\u00f1d general plan,\u2019 nor has there been any modification of the contract or specifications\u2019with reference to the construction, of that part of the tunnel lying .under Park Avenue between- Thirty-third and Forty-first streets; that no notice was given to- any of the property owners along said street that it was proposed by the defendants or any of them td change the position of the tunnel to any material extent from the position shown and described in the said \u2018routes and general plan,\u2019 nor was any opportunity ever'given to said property owners or.the citizens generally to be heard with regpect to any such change.\u201d\n\u25a0 Complainant further averred \u201cthat at none of the times herein mentioned did the said Board of Rapid Transit Railroad Commissioners have authority (if at all) to enter into any contract for the construction of any rapid transit, railroad under or upon the said Park avenue, except in accordance-with the said \u2018routes and general plan\u2019 contained in the said resolutions of January 14 and February 4, 1897, and that at no time did the said board have authority to prepare detailed plans and specifications, except (if at all) in accordance with the said general plan of construction or to alter any plans or, specifications prepared by them, excepting in accordance .with said general plan of construction. That the act of the said board in permitting the defendants McDonald and the said Shaler to enter upon that part of Park avenue between Thirty-third \u2022 and Forty-first streets where the tunnel is now' in process of construction, afi aforesaid, was illegal and unauthorized, and the defendants McDonald and the said Shaler have entered upon the same unlawfully and without authority.'; and for the further reason that the construction of the rapid transit railway .on the easterly side of Park avenue, in front of your orator\u2019s said premises, takes his property without-due process of law, in violation of the provisions of the Fourteenth-' Amendment to the Constitution of the United States, and that said' rapid transit act, so far as it purports to authorize the construction of a tunnel and railway in said Park avenue without the consent' of abutting owners or. compensation therefor, is void,' because it deprives your orator of his-property without due process of law, in'violation of the provisions of the said amendment.\u201d\nOn the bill and affidavits, complainant moved for an injunction pendente lite, and defendants resisted the motion, submitting, in pursuance of stipulation, affidavits filed'in their behalf in the case of Huntington v. City of New York and others, . the same. defendants, since brought here, numbered at this term' 173, and argued with this case. The opinion in that case, 118 Fed. Rep. 683,-was adopted in this, and the court of its own motion, under section 5 of the act of March 3,1875, c. 137, entered a decree dismissing the bill for want of jurisdiction, and certified that question to this court.\n'Mr. Maxwell Evarts and Mr. Arthur H. Masten for appellants in this case and in No. 173.\nThe theory of the court seemed to be that an agent of the State can only be considered such when it acts in conformity with the specific authority given, to it by the act of the Legislature creating it,-and that if it does any act without express legislative authority, although purporting to act by reason of the power and right conferred upon it by the State, such act is not done in its character^\u00ae agent and is not to be deemed \u2022the act of the State.\nThis. question, however, is no longer open for argument; any act of an agent .of a State, done pursuant to the powers derived by him from the Legislature and by virtue 'of his public position as such agent, whether specifically authorized by the statute appointing him or not, is an act of the State within the meaning of the Fourteenth Amendment. of the Constitution. Ex parte Virginia, 100 U. S. 339; Neal v. Delaware, 103 U. S. 370, 394; Civil Rights Cases, 109 U. S. 3, 15; Yick Wo v. Hopkins, 118 U. S. 356, 374; Scott v. McNeal, 154 U. S. 34; Missouri Pacific Ry. v. Nebraska, 164 U. S. 403; C., B. & Q. R. R. Co. v. Chicago, 166 U. S. 226, 233.\nIn N. C. & St. L. Ry. v. Taylor, 86 Fed. Rep. 168, the statute itself was held unconstitutional. Blake v. McClung, 172 U. S. 239, involved a dispute over the state statute. In Riverside & A. Ry. Co. v. Riverside, 118 Fed. Rep. 736; Vicksburg Water Works Co. v.- Vicksburg, 185 U. S. 65, the action complained of was action by a municipal legislature.. In Bancroft v. Commissioners, 121 Fed. Rep. 874, the act complained of was the ta.xiny of property by commissioners'to.whom the State had directly delegated the power to tax. Water Works Co. v. San Francisco, 124 Fed. Rep. 574, involved the improper exercise of a power to fix rates to be paid for water supply, directly delegated to- local authorities by the Legislature.\nThe court, below was without jurisdiction for the reason that the- bill of complaint did not show that the appellant was threatened with the. deprivation of any property.\n\u2022 The fee of the streets of New York belongs to the city itself. Hoffman, Estate and Rights of the Corporation of New York, '368; People v. Kerr, 27 N. Y. 188; Kellinger v. Forty-second Street Railway Co., 50 N. Y. 206, 211; Matter of New York C. & H. R. R. R. Co., 77 N. Y. 248; Drake v. Hudson River R. R. Co., 7 Barb. 508. The only easements which the appellant has in the street are easements of light, air and access. Story v. N. Y. El. Ry. Co., 90 N. Y. 122; Bischoff v. N. Y. El. R. R., 138 N. Y. 257, 262; American'Bank Note Co. v. New York El. R. R. Co., 129 N. Y. 252, 271, and cases cited.\nAlthough guilty of a deviation of some thirty feet from the duly filed routes and general plan hereinbefore referred to, the Board of Rapid Transit has acted in' the name of and for the State, and from purely public motives'. It has been clothed with the State\u2019s power, and its acts, even though now held by the court below to have been unauthorized, were in point of fact carried through solely by virtue of the authority conferred upon it by the State, and because of the power derived frothe Legislature. See Reagan v. Farmers\u2019 Loan and Trust Company, 154 U. S. 362.\nAs to what constitutes the act of a State with reference to the provisions of the Fourteenth Amendment to the Federal, Constitution, see Iron Mountain R. Co. v. Memphis, 96 Fed. Rep. 113; Pacific Gas Imp. Co. v. Ellert, 64 Fed. Rep. 421, and cases cited on p. 429.\nMr. Edward M. Shepard for the appellees, members of the Rapid Transit Board, and Mr. Platt A. Brown, with whom Mr. DeLancey Nicoll was on the brief, for appellee McDonald:\nIn view of the decisions of the state court and for the purposes of this case it must be assumed that the- construction cpmplained of by .the appellant is in violation of the laws of New York and without any authority from- the State of New York. So that the controversy is one between parties all of whom are citizens of the State of New York in the course of which the sole question is whether the laws of that State have or have not been violated by the acts of the defendants. Such a controversy, as we submit, belongs to the courts of the State itself. Arrowsmith v. Harmoning, 118 U. S. 194; Virginia v. Rives, 100 U. S. 313; St. Joseph & Grand Island Co. v. Steele, 167 U. S. 659; Hartell v. Tilghman, 99 U. S. 547; United States v. Cruikshank, 92 U. S. 542, 554; United States v. Harrisf 106 U. S. 629, 638.\nThe fact that the Rapid Transit Commissioners have some duties and powers in the construction of a rapid transit railroad does not commit the State to any acts' of theirs in plain excess of their authority. Missouri v. Dockery, 191 U. S. 165. The rigorous provisions of law already quoted make it clear that, the placing of the tunnel of a rapid transit railroad under a part of the street not within the routes and general plan is as clear a violation of law as to place a railroad in an entirely different street or in a different city.\nAlthough the prohibition of the Fourteenth Amendment runs against .the State and the State alone, it is not disputed that'the State may act by executive officers as well as by its courts' or its legislature. Ex parte Virginia, 100 U. S. 339; Chicago, B. & Q. R. Co. v. Chicago, 166 U. S. 226, at p. 233. The unlawful act of a man does not give the party - aggrieved a claim against the State or other government of which he was .a public officer. Tindal v. Wesley, 167 U. S. 204; United States v. Lee, 106 U. S. 196; Cunningham v. Macon & Brunswick R. R., 109 U. S. 446, 452; Stanley v. Schwalby, 147 U. S. 508, 518; Stanley v. Schwalby, 162 U. S. 255, 271; Belknap v. Schild, 161 U. S. 10; Guthrie\u2019s Fourteenth Amendment, 72; Kiernan v. Multonomah County, 95 Fed. Rep. 849; Re Storte, 109 Fed. Rep. 807; Manhattan Ry. Co. v. City of New York, 18 Fed. Rep. 195. None of these authorities is weakened by the cases cited by appellants.\n'The rapid transit railroad in Park Avenue is entirely under ground, and affects neither light nor air nor access of abutters, and the alleged impairment of the comfort to be enjoyed in the plaintiff\u2019s premises through the acts of the city and its Rapid Transit Board underneath the surface of its own streets is not- a taking of property'within the meaning of the Fourteenth Amendment. Merchant v. Pa. R. R. Co., 153 U. S. 380; Meyer v. City of Richmond, 172 U. S. 82; Gibson v. United States, 166 U. S. 269; Eldridge v. Trezevant, 160 U. S. 452; Messenger v. M. R. Co., 129 N. Y. 502; Guthrie\u2019s Fourteenth Amendment, 94; Pa. R. R. Co. v. Miller, 132 U. S. 75."
+  },
+  "file_name": "0430-01",
+  "first_page_order": 454,
+  "last_page_order": 465
+}

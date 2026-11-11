@@ -1,0 +1,97 @@
+{
+  "id": 3579629,
+  "name": "CHARLESTON v. JESSUP",
+  "name_abbreviation": "Charleston v. Jessup",
+  "decision_date": "1873-03-31",
+  "docket_number": "No. 234",
+  "first_page": "592",
+  "last_page": "592",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "154 U.S. 592"
+    },
+    {
+      "type": "parallel",
+      "cite": "38 L. Ed. 1089"
+    },
+    {
+      "type": "vendor",
+      "cite": "1873 U.S. LEXIS 1368"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1872-204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "15 Wall. 4",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "15 Wall. 454",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3425274
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/82/0454-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 75,
+    "char_count": 628,
+    "ocr_confidence": 0.444,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10151711547661658
+    },
+    "sha256": "f327e3284c63c848f51cd4bd4975c9230e2f1e99a19a356d98a9a20d19768a2f",
+    "simhash": "1:d0cb6b253c580ff2",
+    "word_count": 107
+  },
+  "last_updated": "2024-02-27T20:41:55.474914+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CHARLESTON v. JESSUP."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Field\ndelivered the opinion of the court.\nThis case is governed by the decision in Tomlinson and others, appellants, against the same defendant, 15 Wall. 454. Upon the authority of that decision the decree must be reversed, and the cause be remanded to the court below With directions to dismiss the suit; and it is so ordered. Reversed.",
+        "type": "majority",
+        "author": "Mr. Justice Field"
+      }
+    ],
+    "attorneys": [
+      "Mr. D. T. Corbin for appellants.",
+      "Mr. I. G. Barker for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "CHARLESTON v. JESSUP.\nAPPEAL FROM THE CIRCUIT COURT OF THE UNITED STATES FOR THE DISTRICT OF SOUTH CAROLINA.\nNo. 234.\nArgued February 14, 1873.\nDecided March 31, 1873.\nTomlinson v. Jessups 15 Wall. 4:54, followed.\nMr. D. T. Corbin for appellants.\nMr. I. G. Barker for appellee."
+  },
+  "file_name": "0592-02",
+  "first_page_order": 610,
+  "last_page_order": 610
+}

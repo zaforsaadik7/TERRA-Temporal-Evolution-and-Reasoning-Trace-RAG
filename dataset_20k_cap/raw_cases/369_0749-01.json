@@ -1,0 +1,2234 @@
+{
+  "id": 6172124,
+  "name": "RUSSELL v. UNITED STATES",
+  "name_abbreviation": "Russell v. United States",
+  "decision_date": "1962-05-21",
+  "docket_number": "No. 8",
+  "first_page": "749",
+  "last_page": "794",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "369 U.S. 749"
+    },
+    {
+      "type": "parallel",
+      "cite": "8 L. Ed. 2d 240"
+    },
+    {
+      "type": "parallel",
+      "cite": "82 S. Ct. 1038"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1961-077"
+    },
+    {
+      "type": "vendor",
+      "cite": "1962 U.S. LEXIS 2206"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "203 F. 2d 699",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1271762
+      ],
+      "pin_cites": [
+        {
+          "page": "702, n. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/203/0699-01"
+      ]
+    },
+    {
+      "cite": "223 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3662868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/223/0178-01"
+      ]
+    },
+    {
+      "cite": "160 U. S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701330
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "325-326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/160/0319-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1621",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Mich. L. Rev. 456",
+      "category": "journals:journal",
+      "reporter": "Mich. L. Rev.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Syracuse L. Rev. 389",
+      "category": "journals:journal",
+      "reporter": "Syracuse L. Rev.",
+      "pin_cites": [
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 F. Supp. 766",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4235350
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/113/0766-01"
+      ]
+    },
+    {
+      "cite": "190 F. Supp. 889",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1426801
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/190/0889-01"
+      ]
+    },
+    {
+      "cite": "129 F. Supp. 496",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4256580
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/129/0496-01"
+      ]
+    },
+    {
+      "cite": "225 F. 2d 180",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        59148
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/225/0180-01"
+      ]
+    },
+    {
+      "cite": "273 F. 2d 799",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1959953
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/273/0799-01"
+      ]
+    },
+    {
+      "cite": "18 F. R. D. 27",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        3750313
+      ],
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/18/0027-01"
+      ]
+    },
+    {
+      "cite": "148 F. Supp. 365",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4278554
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/148/0365-01"
+      ]
+    },
+    {
+      "cite": "179 F. Supp. 799",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        410342
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/179/0799-01"
+      ]
+    },
+    {
+      "cite": "192 F. Supp. 734",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1420913
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/192/0734-01"
+      ]
+    },
+    {
+      "cite": "235 F. 2d 65",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        77105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/235/0065-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160660
+      ],
+      "pin_cites": [
+        {
+          "page": "488-489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/354/0476-01"
+      ]
+    },
+    {
+      "cite": "62 Stat. 862",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Stat. 2041",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Stat. 942",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Stat. 333",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "294 U. S. 125",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3925345
+      ],
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/294/0125-01"
+      ]
+    },
+    {
+      "cite": "2 U. S. C. \u00a7\u00a7 192-194",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Stat. 155",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "269 F. 2d 357",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1970036
+      ],
+      "pin_cites": [
+        {
+          "page": "359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/269/0357-01"
+      ]
+    },
+    {
+      "cite": "287 F. 2d 292",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1997669
+      ],
+      "pin_cites": [
+        {
+          "page": "293, n. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/287/0292-01"
+      ]
+    },
+    {
+      "cite": "272 F. 2d 653",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1962683
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/272/0653-01"
+      ]
+    },
+    {
+      "cite": "291 F. 2d 864",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1994425
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/291/0864-01"
+      ]
+    },
+    {
+      "cite": "198 F. Supp. 425",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        35926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/198/0425-01"
+      ]
+    },
+    {
+      "cite": "236 F. 2d 312",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        430249
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/236/0312-01"
+      ]
+    },
+    {
+      "cite": "165 F. 2d 82",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1205024
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/165/0082-01"
+      ]
+    },
+    {
+      "cite": "252 F. 2d 828",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3764600,
+        692730,
+        3766069,
+        692733
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/252/0828-01",
+        "/f2d/252/0828-02"
+      ]
+    },
+    {
+      "cite": "102 U. S. App. D. C. 264",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3764600,
+        3766069
+      ],
+      "opinion_index": 0,
+      "case_paths": []
+    },
+    {
+      "cite": "240 F. 2d 875",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        420086
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/240/0875-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. App. D. C. 13",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 U. S. C. \u00a7 194",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Stat. 828",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 F. 2d 678",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2017462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/280/0678-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 130",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 F. 2d 715",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2017398
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/280/0715-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 167",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 F. 2d 708",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2017368
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/280/0708-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 160",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 F. 2d 59",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2014600
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/281/0059-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 226",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 F. 2d 701",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2017340
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/280/0701-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 153",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 F. 2d 688",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2017454
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/280/0688-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 140",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "361 U. S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167188
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/361/0212-01"
+      ]
+    },
+    {
+      "cite": "121 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        678699
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "10, 13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/121/0001-01"
+      ]
+    },
+    {
+      "cite": "164 F. Supp. 304",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        357920
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/164/0304-01"
+      ]
+    },
+    {
+      "cite": "229 F. 2d 745",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        67121
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/229/0745-01"
+      ]
+    },
+    {
+      "cite": "218 F. 2d 538",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        522673
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/218/0538-01"
+      ]
+    },
+    {
+      "cite": "215 F. 2d 847",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        533644,
+        3761359
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/215/0847-01"
+      ]
+    },
+    {
+      "cite": "281 U. S. 619",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3911411
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/281/0619-01"
+      ]
+    },
+    {
+      "cite": "333 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157706
+      ],
+      "pin_cites": [
+        {
+          "page": "201-202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0196-01"
+      ]
+    },
+    {
+      "cite": "332 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        364905
+      ],
+      "pin_cites": [
+        {
+          "page": "10-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0001-01"
+      ]
+    },
+    {
+      "cite": "342 U. S. 246",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        641097
+      ],
+      "pin_cites": [
+        {
+          "page": "270, n. 30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/342/0246-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. 434",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3604748,
+        3605271
+      ],
+      "pin_cites": [
+        {
+          "page": "437"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/172/0434-01",
+        "/us/172/0434-02"
+      ]
+    },
+    {
+      "cite": "153 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3577051
+      ],
+      "pin_cites": [
+        {
+          "page": "315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0308-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3567537
+      ],
+      "pin_cites": [
+        {
+          "page": "202-204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/148/0197-01"
+      ]
+    },
+    {
+      "cite": "124 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3525433
+      ],
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/124/0483-01"
+      ]
+    },
+    {
+      "cite": "105 U. S. 611",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3496023
+      ],
+      "pin_cites": [
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/105/0611-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3382316
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "362"
+        },
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/96/0360-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 542",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8758
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "558"
+        },
+        {
+          "page": "558"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/92/0542-01"
+      ]
+    },
+    {
+      "cite": "346 U. S. 374",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931358
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "377-378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/346/0374-01"
+      ]
+    },
+    {
+      "cite": "295 U. S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        333750
+      ],
+      "pin_cites": [
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/295/0078-01"
+      ]
+    },
+    {
+      "cite": "227 U. S. 427",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287777
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "431"
+        },
+        {
+          "page": "433"
+        },
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/227/0427-01"
+      ]
+    },
+    {
+      "cite": "155 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581170
+      ],
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/155/0438-01"
+      ]
+    },
+    {
+      "cite": "285 U. S. 427",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1175347
+      ],
+      "pin_cites": [
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/285/0427-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701357
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/161/0029-01"
+      ]
+    },
+    {
+      "cite": "157 U. S. 286",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3583925
+      ],
+      "pin_cites": [
+        {
+          "page": "290"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/157/0286-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8890
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "9"
+        },
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/360/0001-01"
+      ]
+    },
+    {
+      "cite": "17 Stat. 198",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Minn. L. Rev. 153",
+      "category": "journals:journal",
+      "reporter": "Minn. L. Rev.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "160"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "350 U. S. 359",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032821
+      ],
+      "pin_cites": [
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0359-01"
+      ]
+    },
+    {
+      "cite": "301 U. S. 492",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        547854
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/301/0492-01"
+      ]
+    },
+    {
+      "cite": "365 U. S. 431",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166650
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "435-436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0431-01"
+      ]
+    },
+    {
+      "cite": "365 U. S. 399",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166549
+      ],
+      "pin_cites": [
+        {
+          "page": "407-409, 413"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0399-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8873
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "123-125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/360/0109-01"
+      ]
+    },
+    {
+      "cite": "367 U. S. 456",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785547
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "471"
+        },
+        {
+          "page": "467-471"
+        },
+        {
+          "page": "467"
+        },
+        {
+          "page": "467-468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/367/0456-01"
+      ]
+    },
+    {
+      "cite": "358 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3649579
+      ],
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/358/0147-01"
+      ]
+    },
+    {
+      "cite": "356 U. S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164861
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "577"
+        },
+        {
+          "page": "577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/356/0576-01"
+      ]
+    },
+    {
+      "cite": "279 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906798
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "296-297"
+        },
+        {
+          "page": "292"
+        },
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/279/0263-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159550
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "207"
+        },
+        {
+          "page": "208"
+        },
+        {
+          "page": "214"
+        },
+        {
+          "page": "207, n. 45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/354/0178-01"
+      ]
+    },
+    {
+      "cite": "2 U. S. C. \u00a7 192",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 19,
+      "opinion_index": 0
+    },
+    {
+      "cite": "345 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        372756
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/345/0041-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. 168",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1522273
+      ],
+      "pin_cites": [
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/103/0168-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159550
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/354/0178-01"
+      ]
+    },
+    {
+      "cite": "356 U. S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164861
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/356/0576-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159550
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/354/0178-01"
+      ]
+    },
+    {
+      "cite": "2 U. S. C. \u00a7 192",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "339 U. S. 323",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        362847
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/339/0323-01"
+      ]
+    },
+    {
+      "cite": "339 U. S. 349",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        362576
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/339/0349-01"
+      ]
+    },
+    {
+      "cite": "96 F. Supp. 491",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1409608
+      ],
+      "year": 1743,
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/96/0491-01"
+      ]
+    },
+    {
+      "cite": "96 F. Supp. 495",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1409677
+      ],
+      "year": 1748,
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/96/0495-01"
+      ]
+    },
+    {
+      "cite": "98 F. Supp. 191",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1402034
+      ],
+      "year": 1786,
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/98/0191-01"
+      ]
+    },
+    {
+      "cite": "103 F. Supp. 215",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        336253
+      ],
+      "year": 1796,
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/103/0215-01"
+      ]
+    },
+    {
+      "cite": "103 F. Supp. 796",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        336452
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/103/0796-01"
+      ]
+    },
+    {
+      "cite": "142 F. Supp. 667",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4271019
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/142/0667-01"
+      ]
+    },
+    {
+      "cite": "149 F. Supp. 238",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4278315
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/149/0238-01"
+      ]
+    },
+    {
+      "cite": "176 F. 2d 618",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1169727
+      ],
+      "year": 1788,
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/176/0618-01"
+      ]
+    },
+    {
+      "cite": "84 U. S. App. D. C. 187",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "year": 1788,
+      "opinion_index": 3
+    },
+    {
+      "cite": "202 F. 2d 447",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3757946,
+        1274676
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/202/0447-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. App. D. C. 79",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3757946
+      ],
+      "opinion_index": 3,
+      "case_paths": []
+    },
+    {
+      "cite": "218 F. 2d 843",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        522912,
+        3759928
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/218/0843-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. App. D. C. 366",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3759928
+      ],
+      "opinion_index": 3,
+      "case_paths": []
+    },
+    {
+      "cite": "240 F. 2d 404",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        419937
+      ],
+      "year": 1650,
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/240/0404-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. App. D. C. 373",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "year": 1650,
+      "opinion_index": 3
+    },
+    {
+      "cite": "244 F. 2d 349",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        407904
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/244/0349-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. App. D. C. 260",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "255 F. 2d 899",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        681925
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/255/0899-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. App. D. C. 147",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "255 F. 2d 903",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        681963
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/255/0903-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. App. D. C. 151",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "259 F. 2d 187",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        448035,
+        5716591
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/259/0187-01"
+      ]
+    },
+    {
+      "cite": "104 U. S. App. D. C. 30",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        5716591
+      ],
+      "opinion_index": 3,
+      "case_paths": []
+    },
+    {
+      "cite": "280 F. 2d 689",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2017284
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/280/0689-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 141",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "280 F. 2d 696",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2017313
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/280/0696-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. App. D. C. 148",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "349 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334163
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/349/0155-01"
+      ]
+    },
+    {
+      "cite": "349 U. S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334267
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/349/0190-01"
+      ]
+    },
+    {
+      "cite": "349 U. S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334337
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/349/0219-01"
+      ]
+    },
+    {
+      "cite": "369 U. S. 599",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170103
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/369/0599-01"
+      ]
+    },
+    {
+      "cite": "368 U. S. 925",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6355489,
+        6354887,
+        6354667,
+        6355083,
+        6355277
+      ],
+      "weight": 2,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/368/0925-05",
+        "/us/368/0925-02",
+        "/us/368/0925-01",
+        "/us/368/0925-03",
+        "/us/368/0925-04"
+      ]
+    },
+    {
+      "cite": "207 U. S. 368",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641400
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/207/0368-01"
+      ]
+    },
+    {
+      "cite": "136 F. Supp. 791",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4266947
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/136/0791-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576476
+      ],
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/153/0584-01"
+      ]
+    },
+    {
+      "cite": "7 Pet. 138",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1436170
+      ],
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/32/0138-01"
+      ]
+    },
+    {
+      "cite": "16 Stat. 140",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "345 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        372756
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/345/0041-01"
+      ]
+    },
+    {
+      "cite": "160 U. S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701330
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "325"
+        },
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/160/0319-01"
+      ]
+    },
+    {
+      "cite": "18 F. R. D. 27",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        3750313
+      ],
+      "pin_cites": [
+        {
+          "page": "30, 37"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/frd/18/0027-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160660
+      ],
+      "pin_cites": [
+        {
+          "page": "488-489"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/354/0476-01"
+      ]
+    },
+    {
+      "cite": "272 F. 2d 653",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1962683
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/272/0653-01"
+      ]
+    },
+    {
+      "cite": "236 F. 2d 312",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        430249
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "316",
+          "parenthetical": "note 6"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/236/0312-01"
+      ]
+    },
+    {
+      "cite": "165 F. 2d 82",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1205024
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/165/0082-01"
+      ]
+    },
+    {
+      "cite": "252 F. 2d 828",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3764600,
+        692730,
+        3766069,
+        692733
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/252/0828-01",
+        "/f2d/252/0828-02"
+      ]
+    },
+    {
+      "cite": "102 U. S. App. D. C. 264",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3764600,
+        3766069
+      ],
+      "opinion_index": 3,
+      "case_paths": []
+    },
+    {
+      "cite": "240 F. 2d 875",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        420086
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/240/0875-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. App. D. C. 13",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "361 U. S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167188
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/361/0212-01"
+      ]
+    },
+    {
+      "cite": "121 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        678699
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/121/0001-01"
+      ]
+    },
+    {
+      "cite": "281 U. S. 619",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3911411
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/281/0619-01"
+      ]
+    },
+    {
+      "cite": "105 U. S. 611",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3496023
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/105/0611-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3382316
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "364"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/96/0360-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 542",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8758
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/92/0542-01"
+      ]
+    },
+    {
+      "cite": "346 U. S. 374",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931358
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "376-378"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/346/0374-01"
+      ]
+    },
+    {
+      "cite": "227 U. S. 427",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287777
+      ],
+      "pin_cites": [
+        {
+          "page": "433-434"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/227/0427-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701357
+      ],
+      "pin_cites": [
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/161/0029-01"
+      ]
+    },
+    {
+      "cite": "26 Minn. L. Rev. 153",
+      "category": "journals:journal",
+      "reporter": "Minn. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "159-160"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "365 U. S. 431",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166650
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/365/0431-01"
+      ]
+    },
+    {
+      "cite": "365 U. S. 399",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166549
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/365/0399-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8873
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "123-125"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/360/0109-01"
+      ]
+    },
+    {
+      "cite": "367 U. S. 456",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785547
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "472-473"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/367/0456-01"
+      ]
+    },
+    {
+      "cite": "358 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3649579
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/358/0147-01"
+      ]
+    },
+    {
+      "cite": "356 U. S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164861
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/356/0576-01"
+      ]
+    },
+    {
+      "cite": "279 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906798
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "299"
+        },
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/279/0263-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159550
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "214-215"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/354/0178-01"
+      ]
+    },
+    {
+      "cite": "2 U. S. C. \u00a7 192",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 3
+    }
+  ],
+  "analysis": {
+    "cardinality": 2578,
+    "char_count": 87368,
+    "ocr_confidence": 0.646,
+    "pagerank": {
+      "raw": 1.2986632969211828e-05,
+      "percentile": 0.9997225706981372
+    },
+    "sha256": "18246a070b065db846e5ef0a01d001dc4213b8a283c3f0cc40fff4196bfd8d84",
+    "simhash": "1:a4e887626e2786d4",
+    "word_count": 14928
+  },
+  "last_updated": "2024-02-27T23:59:04.106643+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "MR. Justice Frankfurter took no part in the decision of these cases.",
+      "Mr. Justice Brennan took no part in the consideration or decision of No. 10, Whitman v. United States.",
+      "Mr. Justice White took no part in the consideration or decision of these cases.",
+      "whom Mr. Justice Clark joins,"
+    ],
+    "parties": [
+      "RUSSELL v. UNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Stewart\ndelivered the opinion of the Court.\nIn these six cases we review judgments of the Court of Appeals for the District of Columbia, which affirmed convictions obtained in the District Court under 2 U. S. C. \u00a7 192. Each of the petitioners was convicted for refusing to answer certain questions when summoned before a congressional subcommittee. The cases were separately briefed and argued here, and many issues were presented. We decide each case upon a single ground common to all, and we therefore reach no other questions.\nIn each case the indictment returned by the grand jury failed to identify the subject under congressional subcommittee inquiry at the time the witness was interrogated. The indictments were practically identical in this respect, stating only that the questions to which answers were refused \u201cwere pertinent to the question then under inquiry\u201d by the subcommittee. In each case a motion was filed to quash the indictment before trial upon the ground that the indictment failed to state the subject under investigation at the time of the subcommittee\u2019s interrogation of the defendant. In each case the motion was denied. In each case the issue thus raised was preserved on appeal, in the petition for writ of certiorari, and in brief and argument here.\nCongress has expressly provided that no one can be prosecuted under 2 U. S. C. \u00a7 192 except upon indictment by a grand jury. This. Court has never decided whether the indictment must identify the subject which was under inquiry at the time of the defendant\u2019s alleged default or refusal to answer. For the reasons that follow, we hold that the indictment must contain such an averment, and we accordingly reverse the judgments before us.\nIn enacting the criminal statute under which these petitioners were convicted Congress invoked the aid of the federal judicial system in protecting itself against contumacious conduct. Watkins v. United States, 354 U. S. 178, 207. The obvious consequence, as the Court has repeatedly emphasized, was to confer upon the federal courts the duty to accord a person prosecuted for this statutory offense every safeguard which the law accords in all other federal criminal cases. Sinclair v. United States, 279 U. S. 263, 296-297; Watkins v. United States, supra, at 208; Sacher v. United States, 356 U. S. 576, 577; Flaxer v. United States, 358 U. S. 147, 151; Deutch v. United States, 367 U. S. 456, 471.\nRecognizing this elementary concept, the Sinclair case established several propositions which provide.a relevant starting point here. First, there can be criminality under the statute only if the question which the witness refused to answer pertained to a subject then under investigation by the congressional body which summoned him. \u201c[A] witness rightfully may refuse to answer where . . . the questions asked are not pertinent to the matter under inquiry.\u201d Sinclair v. United States, supra, at 292. Secondly, because the defendant is presumed to be innocent, it is \u201cincumbent upon the United States to plead and show that the question [he refused to answer] pertained to some matter under investigation.\u201d Id., at 296-297. Finally, Sinclair held that the question of pertinency is one for determination by the court as a matter of law. Id,., at 298.\nIn that case the Court had before it an indictment which set out in specific and lengthy detail the subject under investigation by the Senate Committee which had summoned Sinclair. The Court was thereby enabled to make an enlightened and precise determination that the question he had refused to answer was pertinent to that subject. Id., at 285-289, 296-298.\nThat the making of such a determination would be a vital function of the federal judiciary in a prosecution brought under 2 U. S. C. \u00a7 192 was clearly foreseen by the Congress which originally enacted the law in 1857. Congress not only provided that'a person could be prosecuted only upon an indictment by a grand jury, but, as the record of the legislative debates shows, Congress was expressly aware that pertinency to the subject under inquiry was the basic preliminary question which the federal courts were going to have to decide in determining whether a criminal offense had been alleged or proved. The principal spokesman for the bill, Senator Bayard, repeatedly made this very point:\n\u201cThe bill provides for punishing a witness who shall refuse to answer any question \u2018pertinent\u2019 to the matter of inquiry under consideration before the House or its committee. If he refuses to answer an irrelevant question, he is not subject to the penalties of the bill. The question must be pertinent to the subject-matter, and that will have to be decided by the courts of justice on the indictment. That power is not given to Congress; it is given appropriately to the judiciary.\u201d Cong. Globe, 34th Cong., 3d Sess. 439 (1857).\n\u201cThis law does not propose to give to this miscellaneous political body the power of punishment; but one of its greatest recommendations is, that it transfers that power of punishment to a court of justice after judicial inquiry. All that is to be done in the case of a refusal to testify is to certify the fact to the district attorney, who is to lay it before the grand jury, and if the party is indicted he is bound to answer according to the terms of the law, as any other person would for an offense against the laws of the land. ... I am aware that legislative bodies have transcended their powers \u2014 that under the influence of passion and political excitement they have very often invaded the rights of individuals, and may have invaded the rights of coordinate branches of the Government; but if our institutions are to last, there can be no greater safeguard than will result from transferring that which now stands on an indefinite power (the punishment as well as the offense resting in the breast of either House) from Congress to the courts of justice. When a case of this kind comes before a court, will not the first inquiry be,, have Congress jurisdiction of the subject-matter? \u2014 has the House which undertakes to inquire, jurisdiction of the subject? If they have not, the whole proceedings are coram non judice and void, and the party cannot be held liable under indictment. The Court would quash the indictment if this fact appeared on its face; and if it appeared on the trial they would direct the jury to acquit.\u201d Cong. Globe, 34th Cong., 3d Sess. 440 (1857).\n\u201c. . . The law prescribes that, in case of such refusal, the House shall certify the fact to the district attorney, and he shall bring the matter before the grand jury. When that comes up by indictment before the court, must not the court decide whether the question put was pertinent to the inquiry? Of course they must; and they cannot hold the party guilty without doing it.\u201d Cong. Globe, 34th Cong., 3d Sess. 440 (1857).\nThese forecasts of the office which the federal courts would be called upon to perform under 2 U. S. C. \u00a7 192 have been amply borne out by the cases which have arisen under the statute. The crucial importance of determining the issue of pertinency is reflected in many cases which have come here since Sinclair, supra. Watkins v. United States, 354 U. S. 178, 208; Sacher v. United States, 356 U. S. 576, 577; Barenblatt v. United States, 360 U. S. 109, 123-125; Wilkinson v. United States, 365 U. S. 399, 407-409, 413; Braden v. United States, 365 U. S. 431, 435-436; Deutch v. United States, 367 U. S. 456, 467-471. Our decisions have pointed out that the obvious first step in determining whether the questions asked were pertinent to the subject under inquiry is to ascertain what that subject was. See, e. g., Deutch v. United States, supra, at 469. Identification of the subject under inquiry is also an essential preliminary to the determination of a host of other issues which typically arise in prosecutions under the statute. In Wilkinson v. United States, supra, for example, the Court pointed out that in order properly to consider any of the many issues there presented, \u201cthe starting point must be to determine the subject matter of the subcommittee\u2019s inquiry.\u201d 365 U. S., at 407.\nWhere, as in the Sinclair case, the subject under inquiry has been identified in the indictment, this essential first step has presented no problem. Where, as in the more recent cases, the indictment has not identified the topic under inquiry, the Court has often found it difficult or impossible to ascertain what the subject was. The difficulty of such a determination in the absence of an allegation in the indictment is illustrated by Deutch v. United States, supra. In that case the members of this Court were in sharp disagreement as to what the subject under subcommittee inquiry had been. Moreover, all of us disagreed with the District Court\u2019s theory, and the Court of Appeals had not even ventured a view on the question. 367 U. S., at 467. In Watkins v. United States, supra, the Court found it not merely difficult, but actually impossible, to determine what the topic under subcommittee inquiry had been at the time the petitioner had refused to answer the questions addressed to him. \u201cHaving exhausted the several possible indicia of the \u2018question under inquiry,\u2019 we remain unenlightened as to the subject to which the questions asked petitioner were pertinent.\u201d 354 U. S., at 214.\nTo be sure, the fact that difficulties and doubts have beset the federal courts in trying to ascertain the subject under inquiry in cases arising under 2 U. S. C. \u00a7 192 could hardly justify, in the abstract, a requirement that indictments under the statute contain averments which would simplify the courts\u2019 task. Difficult and doubtful questions are inherent in the judicial process, particularly under a system of criminal law which places heavy emphasis upon the protection of the rights and liberties of the individual. Courts sit to resolve just such questions, and rules of law are not to be made merely to suit judicial convenience. But a proliferation of doubtful issues which not only burden the judiciary, but, because of uncertainties inherent in their resolution, work a hardship upon both the prosecution and the defense in criminal cases, is hardly a desideratum. And the repeated appearance in prosecutions under a particular criminal statute of the same critical and difficult question, which could be obviated by a simple averment in the indictment, invites inquiry into the purposes and functions which a grand jury indictment is intended to serve. The cases we have discussed, therefore, furnish an appropriate background for the inquiry to which we now turn.\nAny discussion of the purpose served by a grand jury indictment in the administration of federal criminal law must begin with the Fifth and Sixth Amendments to the Constitution. The Fifth Amendment provides that \u201cNo person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; . . .\u201d We need not pause to consider whether an offense under 2 U. S. C. \u00a7 192 is an \u201cinfamous crime,\u201d Duke v. United States, 301 U. S. 492, since Congress has from the beginning explicitly conferred upon those prosecuted under the statute the protection which the Fifth Amendment confers, by providing that no one can be prosecuted for this offense except.upon an indictment by a grand jury. This specific guaranty, as well as the Fifth Amendment\u2019s Due Process Clause, are, therefore, both brought to bear here. Of like relevance is the guaranty of the Sixth Amendment that \u201cIn all criminal prosecutions, the accused shall enjoy the right ... to be informed of the nature and cause of the accusation; . . .\u201d\nThe constitutional provision that a trial may be held in a serious federal criminal case only if a grand jury has first intervened reflects centuries of antecedent development of common law, going back to the Assize of Clarendon in 1166. \u201cThe grand jury is an English institution, brought to this country by the early colonists and incorporated in the Constitution by the Founders. There is every reason to believe that our constitutional grand jury was intended to operate substantially like its English progenitor. The basic purpose of the English grand jury was to provide a fair method for instituting criminal proceedings against persons believed to have committed crimes.\u201d Costello v. United States, 350 U. S. 359, 362. See McClintock, Indictment by a Grand Jury, 26 Minn. L. Rev. 153; Orfield, Criminal Procedure from Arrest to Appeal, 137-140, 144-146.\nFor many years the federal courts were guided in their judgments concerning the construction and sufficiency of grand jury indictments by the common law alone. Not until 1872 did Congress enact general legislation touching upon the subject. In that year a statute was enacted which reflected the drift of the law away from the rules of technical and formalized pleading which had characterized an earlier era. The 1872 statute provided that \u201cno indictment found and presented by a grand jury in any district or circuit or other court of the United States shall be deemed insufficient, nor shall the trial, judgment, or other proceeding thereon be affected by reason of any defect or imperfection in matter of form only, which shall not tend to the prejudice of the defendant.\u201d 17 Stat. 198. This legislation has now been repealed, but its substance is preserved in the more generalized provision of Rule 52 (a) of the Federal Rules of Criminal Procedure, which states that \u201cAny error, defect, irregularity or variance which does not affect substantial rights shall be disregarded.\u201d\nThere was apparently no other legislation dealing with the subject of indictments generally until the promulgation of Rule 7 (c), Fed. Rules Crim. Proc., in 1946. The Rule provides:\n\u201cThe indictment or the information shall be a plain, concise and definite written statement of the essential facts constituting the offense charged. It shall be signed by the attorney for the government. It need not contain a formal commencement, a formal conclusion or any other matter not necessary to such statement. Allegations made in one count may be incorporated by reference in another count. It may be alleged in a single count that the means by which the defendant committed the offense are unknown or that he committed it by one or more specified means. The indictment or information shall state for each count the official or customary citation of the statute, rule, regulation or other provision of law which the defendant is alleged therein to have violated. Error in the citation or its omission shall not be ground for dismissal of the indictment or information or for reversal of a conviction if the error or omission did not mislead the defendant to his prejudice.\u201d\nAs we have elsewhere noted, \u201cThis Court has, in recent years, upheld many convictions in the face of questions concerning the sufficiency of the charging papers. Convictions are no longer reversed because of minor and technical deficiencies which did not prejudice the accused. [Citing cases.] This has been a salutary development in the criminal law.\u201d Smith v. United States, 360 U. S. 1, 9. \u201cBut,\u201d as the Smith opinion went on to point out, \u201cthe substantial safeguards to those charged with serious crimes cannot be eradicated under the guise of technical departures from the rules.\u201d Ibid. Resolution of the issue presented in the cases before us thus ultimately depends upon the nature of \u201cthe substantial safeguards\u201d to a criminal defendant which an indictment is designed to provide. Stated concretely, does the omission from an indictment under 2 U. S. C. \u00a7 192 of the subject under congressional committee inquiry amount to no more than a technical deficiency of no prejudice to the defendant? Or does such an omission deprive the defendant of one of the significant protections which the guaranty of a grand jury indictment was intended to confer?\nIn a number of cases the Court has emphasized two of the protections which an indictment is intended to guarantee, reflected by two of the criteria by which the sufficiency of an indictment is to be measured. These criteria are, first, whether the indictment \u201ccontains the elements of the offense intended to be charged, \u2018and sufficiently apprises the defendant of what he must be prepared to meet/ \u201d and, secondly, \u201c 'in case any other proceedings are taken against him for a similar offence, whether the record shows with accuracy to what extent he may plead a former acquittal or conviction.\u2019 Cochran and Sayre v. United States, 157 U. S. 286, 290; Rosen v. United States, 161 U. S. 29, 34.\u201d Hagner v. United States, 285 U. S. 427, 431. See Potter v. United States, 155 U. S. 438, 445; Bartell v. United States, 227 U. S. 427, 431; Berger v. United States, 295 U. S. 78, 82; United States v. Debrow, 346 U. S. 374, 377-378.\nWithout doubt the second of these preliminary criteria was sufficiently met by the indictments in these cases. Since the indictments set out not only the times and places of the hearings at which the petitioners refused to testify, but also specified the precise questions which they then and there refused to answer, it can hardly be doubted that the petitioners would be fully protected from again being put in jeopardy for the same offense, particularly when it is remembered that they could rely upon other parts of the present record in the event that future proceedings should be taken against them. See McClintock, Indictment by a Grand Jury, 26 Minn. L. Rev. 153, 160; Bartell v. United States, 227 U. S. 427, 433. The vice of these indictments, rather, is that they failed to satisfy the first essential criterion by which the sufficiency of an indictment is to be tested, i. e., that they failed to sufficiently apprise the defendant \u201cof what he must be prepared to meet.\u201d\nAs has been pointed out, the very core of criminality under 2 U. S. C. \u00a7 192 is pertinency to the subject under inquiry of the questions which the defendant refused to answer. What the subject actually was, therefore, is central to every prosecution under the statute. Where guilt depends so crucially upon such a specific identification of fact, our cases have uniformly held that an indictment must do more than simply repeat the language of the criminal statute.\n\u201cIt is an elementary principle of criminal pleading, that where the definition of an offence, whether it be at common law or by statute, \u2018includes generic terms, it is not sufficient that the indictment shall charge the offence in the same generic terms as in the definition; but it must state the species, \u2014 it must descend to particulars.\u2019 \u201d United States v. Cruikshank, 92 U. S. 542, 558. An indictment not framed to apprise the defendant \u201cwith reasonable certainty, of the nature of the accusation against him ... is defective, although it may follow the language of the statute.\u201d United States v. Simmons, 96 U. S. 360, 362. \u201cIn an indictment upon a statute, it is not sufficient to set forth the offence in the words of the statute, unless those words of themselves fully, directly, and expressly, without any uncertainty or ambiguity, set forth all the elements necessary to constitute the offence intended to be punished; . . .\u201d United States v. Carll, 105 U. S. 611, 612. \u201cUndoubtedly the language of the statute may be used in the general description of an offence, but it must be accompanied with such a statement of the facts and circumstances as will inform the accused of the specific offence, coming under the general description, with which he is charged.\u201d United States v. Hess, 124 U. S. 483, 487. See also Pettibone v. United States, 148 U. S. 197, 202-204; Blitz v. United States, 153 U. S. 308, 315; Keck v. United States, 172 U. S. 434, 437; Morissette v. United States, 342 U. S. 246, 270, n. 30. Cf. United States v. Petrillo, 332 U. S. 1, 10-11. That these basic principles of fundamental fairness retain their full vitality under modern concepts of pleading, and specifically under Rule 7 (c) of the Federal Rules of Criminal Procedure, is illustrated by many recent federal decisions.\nThe vice which inheres in the failure of an indictment under 2 U. S. C. \u00a7 192 to identify the subject under inquiry is thus the violation of the basic principle \u201cthat the accused must be apprised by the indictment, with reasonable certainty, of the nature of the accusation against him, . . .\u201d United States v. Simmons, supra, at 362. A cryptic form of indictment in cases of this kind requires the defendant to go to trial with the chief issue undefined. It enables his conviction to rest on one point and the affirmance of the conviction to rest on another. It gives the prosecution free hand on appeal to fill in the gaps of proof by surmise or conjecture. The Court has had occasion before now to condemn just such a practice in a quite different factual setting. Cole v. Arkansas, 333 U. S. 196, 201-202. And the unfairness and uncertainty which have characteristically infected criminal proceedings under this statute which were based upon indictments which failed to specify the subject under inquiry are illustrated by the cases in this Court we have already discussed. The same uncertainty and unfa\u00edrn\u00e9ss are underscored by the records of the cases now before us. A single example will suffice to illustrate the point.\nIn No. 12, Price v. United States, the petitioner refused to answer a number of questions put to him by the Internal Security Subcommittee of the Senate Judiciary Committee. At the beginning of the hearing in question, the Chairman and other subcommittee members made widely meandering statements purporting to identify the subject under inquiry. It was said that the hearings were \u201cnot ... an attack upon the free press,\u201d that the investigation was of \u201csuch attempt as may be disclosed on the part of the Communist Party ... to influence or to subvert the American press.\u201d It was also said that \u201cWe are simply investigating communism wherever we find it.\u201d In dealing with a witness who testified shortly before Price, counsel for the subcommittee emphatically denied that it was the subcommittee\u2019s purpose \u201cto investigate Communist infiltration of the press and other forms of communication.\u201d But when Price was called to testify before the subcommittee no one offered even to attempt to inform him of what subject the subcommittee did have under inquiry. <4t the trial the Government took the position that the subject under inquiry had been Communist activities generally. The district judge before whom the case was tried found that \u201cthe questions put were pertinent to the matter under inquiry\u201d without indicating what he thought the subject under inquiry was. The Court of Appeals, in affirming the conviction, likewise omitted to state what it thought the subject under inquiry had been. In this Court the Government contends that the subject under inquiry at the time the petitioner was called to testify was \u201cCommunist activity in news media.\u201d\nIt is difficult to imagine a case in which an indictment\u2019s insufficiency resulted so clearly in the indictment\u2019s failure to fulfill its primary office \u2014 to inform the defendant of the nature of the accusation against him. Price refused to answer some questions of a Senate subcommittee. He was not told at the time what subject the subcommittee was investigating. The prior record of the subcommittee hearings, with which Price may or may not have been familiar, gave a completely confused and inconsistent account of what, if anything, that subject was. Price was put to trial and convicted upon an indictment which did not even purport to inform him in any way of the identity of the topic under subcommittee inquiry. At every stage in the ensuing criminal proceeding Price was met with a different theory, or by no theory at all, as to what the topic had been. Far from informing Price of the nature of the accusation against him, the indictment instead left the prosecution free to roam at large \u2014 to shift its theory of criminality so as to take advantage of each passing vicissitude of the trial and appeal. Yet Price could be guilty of no criminal offense unless the questions he refused to answer were in fact pertinent to a specific topic under subcommittee inquiry at the time he was interrogated. Sinclair v. United States, 279 U. S. 263, at 292.\nIt has long been recognized that there is an important corollary purpose to be served by the requirement that an indictment set out \u201cthe specific offence, coming under the general description,\u201d with which the defendant is charged. This purpose, as defined in United States v. Cruikshank, 92 U. S. 542, 558, is \u201cto inform the court of the facts alleged, so that it may decide whether they are sufficient in law to support a conviction, if one should be had.\u201d This criterion is of the greatest relevance here, in the light of the difficulties and uncertainties with which the federal trial and reviewing courts have had to deal in cases arising under 2 U. S. C. \u00a7 192, to which reference has already been made. See, e. g., Watkins v. United States, 354 U. S. 178; Deutch v. United States, 367 U. S. 456. Viewed in this context, the rule is designed not alone for the protection of the defendant, but for the benefit of the prosecution as well, by making it possible for courts called upon to pass on the validity of convictions under the statute to bring an enlightened judgment to that task. Cf. Watkins v. United States, supra.\nIt is argued that any deficiency in the indictments in these cases could have been cured by bills of particulars. But it is a settled rule that a bill of particulars cannot save an invalid indictment. See United States v. Norris, 281 U. S. 619, 622; United States v. Lattimore, 215 F. 2d 847; Babb v. United States, 218 F. 2d 538; Steiner v. United States, 229 F. 2d 745; United States v. Dierker, 164 F. Supp. 304; 4 Anderson, Wharton\u2019s Criminal Law and Procedure, \u00a7 1870. When Congress provided that no one could be prosecuted under 2 U. S. C. \u00a7 192 except upon an indictment, Congress made the basic decision that only a grand jury could determine whether a person should be held to answer in a criminal trial for refusing to give testimony pertinent to a question under congressional committee inquiry. A grand jury, in order to make that ultimate determination, must necessarily determine what the question under inquiry was. To allow the prosecutor, or the court, to make a subsequent guess as to what was in the minds of the grand jury at the time they returned the indictment would deprive the defendant of a basic protection which the guaranty of the intervention of a grand jury was designed to secure. For a defendant could then be convicted on the basis of facts not found by, and perhaps not even presented to, the grand jury which indicted him. See Orfield, Criminal Procedure from Arrest to Appeal, 243.\nThis underlying principle is reflected by the settled rule in the federal courts that an indictment may not be amended except by resubmission to the grand jury, unless the change is merely a matter of form. Ex parte Bain, 121 U. S. 1; United States v. Norris, 281 U. S. 619; Stirone v. United States, 361 U. S. 212. \u201cIf it lies within the province of a court to change the charging part of an indictment to suit its own notions of what it ought to have been, or what the grand jury would probably have made it if their attention had been called to suggested changes, the great importance which the common law attaches to an indictment by a grand Jury, as a prerequisite to a prisoner\u2019s trial for a crime, and without which the Constitution says \u2018no person shall be held to answer,\u2019 may be frittered away until its value is almost destroyed. . . . Any other doctrine would place the rights of the citizen, which were intended to be protected by the constitutional provision, at the mercy or control of the court or prosecuting attorney; for, if it be once held that changes can be made by the consent or the order of the court in the body of the indictment as presented by the grand jury, and the prisoner can be called upon to answer to the indictment as thus changed, the restriction which the Constitution places upon the power of the court, in regard to the prerequisite of an indictment, in reality no longer exists.\u201d Ex parte Bain, supra, at 10, 13. We reaffirmed this rule only recently, pointing out that \u201cThe very purpose of the requirement that a man be indicted by grand jury is to limit his jeopardy to offenses charged by a group of his fellow citizens acting independently of either prosecuting attorney or judge.\u201d Stirone v. United States, supra, at 218.\nFor these reasons we conclude that an indictment under 2 U. S. C. \u00a7 192 must state the question under congressional committee inquiry as found by the grand jury. Only then can the federal courts responsibly carry out the duty which Congress imposed upon them more than a century ago:\n\u201cThe question must be pertinent to the subject-matter, and that will have to be decided by the courts of justice on the indictment.\u201d\nReversed.\nMR. Justice Frankfurter took no part in the decision of these cases.\nMr. Justice Brennan took no part in the consideration or decision of No. 10, Whitman v. United States.\nMr. Justice White took no part in the consideration or decision of these cases.\n108 U. S. App. D. C. 140, 280 F. 2d 688; 108 U. S. App. D. C. 153, 280 F. 2d 701; 108 U. S. App. D. C. 226, 281 F. 2d 59; 108 U. S. App. D. C. 160, 280 F. 2d 708; 108 U. S. App. D. C. 167, 280 F. 2d 715; 108 U. S. App. D. C. 130, 280 F. 2d 678.\n\u201cEvery person who having been summoned as a witness by the authority of either House of Congress to give testimony or to produce papers upon any matter under inquiry before either House, or any joint committee established by a joint or concurrent resolution of the two Houses of Congress, or any committee of either House of Congress, willfully makes default, or who, having appeared, refuses to answer any question pertinent to the question under inquiry, shall be deemed guilty of a misdemeanor, punishable by a fine of not more than $1,000 nor less than $100 and imprisonment in a common jail for not less than one month nor more than twelve months.\u201d 2 U. S. C. \u00a7192.\nNo. 8 and No. 128 grew out of hearings before subcommittees of the House Committee on Un-American Activities. The other four cases grew out of hearings before the Internal Security Subcommittee of the Senate Judiciary Committee.\nThe indictment in No. 8 is typical:\n\u201cThe Grand Jury charges:\n\u201cINTRODUCTION\n\u201cOn November 17, 1954, in the District of Columbia, a subcommittee of the Committee on Un-American Activities of the House of Representatives was conducting hearings, pursuant to Public Law 601, Section 121, 79th Congress, 2d Session, (60 Stat. 828), and to H. Res. 5, 83d Congress.\n\u201cDefendant, Norton Anthony Russell, appeared as a witness before that subcommittee, at the place and on the date above stated, and was asked questions which were pertinent to the question then under inquiry. Then and there'the defendant unlawfully refused to answer those pertinent questions. The allegations of this introduction are adopted and incorporated into the counts of this indictment which follow, each of which counts will in addition merely describe the question which was asked of the defendant and which he refused to answer.\u201d\n(The questions which Russell allegedly refused to answer were then quoted verbatim under separately numbered counts.)\nThe motion in No. 9 is typical:\n\u201cThe defendant moves that the indictment be dismissed on the following grounds:\n\u201c1. The indictment fails to plead the following essential and material elements of the offense:\n\u201ce. the nature of the \u2018question then under inquiry\u2019 to which the questions addressed to defendant are alleged to be relevant.\u201d\n2 U. S. C. \u00a7 194 provides:\n\u201cWhenever a witness summoned as mentioned in section 192 of this title fails to appear to testify or fails to produce any books, papers, records, or documents, as required, or whenever any witness so summoned refuses to answer any question pertinent to the subject under inquiry before either House, or any joint committee established by a joint or concurrent resolution of the two Houses of Congress, or any committee or subcommittee of either House of Congress, and the fact of such failure or failures is reported to either House while Congress is in session, or when Congress is not in session, a statement of fact constituting such failure is reported to and filed with the President of the Senate or the Speaker of the House, it shall be the duty of the said President of the Senate or Speaker of the House, as the case may be, to certify, and he shall so certify, the statement of facts aforesaid under the seal of the Senate or House, as the case may be, to the appropriate United States attorney, whose duty it shall be to bring the matter before the grand jury for its action.\u201d\nThe question was presented but not reached in Sacher v. United States, 356 U. S. 576, where the conviction was reversed on other grounds. The question was also raised in the petition for certiorari in Braden v. United States, 365 U. S. 431, but was abandoned when the case was briefed and argued on the merits. Although the question was decided by the lower court in Barenblatt v. United States, 100 U. S. App. D. C. 13, 240 F. 2d 875, it was not raised in this Court, 360 U. S. 109.\nThe Court of Appeals for the District of Columbia Circuit has passed on the question, holding that the indictment need not set forth the subject under committee inquiry. See Barenblatt v. United States, 100 U. S. App. D. C. 13, 240 F. 2d 875; Sacher v. United States, 102 U. S. App. D. C. 264, 252 F. 2d 828. Indictments returned in that circuit of course reflect this rule. See cases cited in Mr. Justice Harlan\u2019s dissenting opinion, post, p. 782, n. 2. The Court of Appeals for the Second Circuit sustained an indictment under 2 U. S. C. \u00a7 192 which did not set forth the subject under inquiry in United States v. Josephson, 165 F. 2d 82. However, Josephson appears to have been substantially limited by the same court in United States v. Lamont, 236 F. 2d 312, and indictments under 2 U. S. C. \u00a7 192 currently being returned in the Second Circuit do in fact set forth the subject under inquiry. See the unreported indictments in United States v. Yarus (D. C. S. D. N. Y.) No. C 152-239 (the opinion acquitting defendant Yarus is reported at 198 F. Supp. 425); United States v. Turoff (D. C. W. D. N. Y.) No. 7539-C (the opinion of the Court of Appeals reversing defendant Turoff\u2019s conviction is reported at 291 F. 2d 864).\nNo other Court of Appeals has passed squarely on the point. In Braden v. United States, 272 F. 2d 653, the Court of Appeals for the Fifth Circuit ruled that the indictment need not explain how and why the questions were pertinent to the subject under inquiry, but did not discuss whether the subject itself had to be specified. In a number of other recent cases arising under 2 U. S. C. \u00a7 192 the indictments have stated the subject under inquiry. See, in addition to the examples cited above, the indictment set forth in United States v. Yellin, 287 F. 2d 292, 293, n. 2 (C. A. 7th Cir.); the indictment described in Davis v. United States, 269 F. 2d 357, 359 (C. A. 6th Cir.); and the unreported indictment in United States v. Lorch (D. C. S. D. Ohio) Cr. No. 3185 (an indictment arising out of the same series of hearings in which Russell, the petitioner in No. 8, was initially summoned to testify).\n11 Stat. 155-156. The statute, now 2 U. S. C. \u00a7\u00a7 192-194, was enacted to supplement the established contempt power of Congress itself. Jurney v. MacCracken, 294 U. S. 125, 151. The specific background of the statute\u2019s adoption is sketched in Watkins v. United States, 354 U. S., at 207, n. 45. See Cong. Globe, 34th Cong., 3d Sess. 405. See also id., at 403-413, 426-433, 434-445. Except for a basic change in the immunity provisions in 1862, 12 Stat. 333, the legislation has continued substantially unchanged to the present time, with only a slight modification in language in R. S. \u00a7\u00a7 102 and 104. The only other amendment in the substantive provisions was made in 1938, 52 Stat. 942, so as to make the statute applicable to joint committees. The provision requiring grand jury indictment has been amended twice since 1857. The original legislation provided for certification only to the United States Attorney for the District of Columbia. In 1936 an amendment was made to permit certification to any United States Attorney, 49 Stat. 2041. In 1938 the provision was amended to bring it into accord with the joint committee amendment of the substantive provisions of the law.\nIn the Watkins case the Court\u2019s primary concern was not whether pertinency had been proved at the criminal trial, but whether the petitioner had been apprised of the pertinency of the questions at the time he had been called upon to answer them. These two issues are, of course, quite different. See Deutch v. United States, 367 U. S., at 467-468. But identification of the subject under inquiry is essential to the determination of either issue. See. Barenblatt v. United States, 360 U. S., at 123-125.\nSee I Holdsworth, History of English Law (7th ed. 1956), 321-323; I Pollock and Maitland, History of English Law (2d ed. 1909), 137-155, and Vol. II, pp. 647-653.\nThe 1872 statute became Rev. Stat. \u00a7 1025 and ultimately 18 U. S. C. (1940 ed.) \u00a7 556. The statute was repealed in the 1948 legislative reorganization of Title 18, 62 Stat. 862, because its substance was contained in Fed. Rules Crim. Proc., 52 (a).\nRosen v. United States, 161 U. S. 29, heavily relied upon in the dissenting opinion, is inapposite. In that case the Court held that an indictment charging the mailing of obscene material did not need to specify the particular portions of the publication which were allegedly obscene. As pointed out in Bartell v. United States, 227 U. S. 427, 431, the rule established in Rosen was always regarded as a \u201cwell recognized exception\u201d to usual indictment rules, applicable only to \u201cthe pleading of printed or written matter which is alleged to be too obscene or indecent to be spread upon the records of the court.\u201d Under Roth v. United States, 354 U. S. 476, 488-489, the issue dealt with in Rosen would presumably no longer arise.\nUnited States v. Lamont, 236 F. 2d 312; Meer v. United States, 235 F. 2d 65; Babb v. United States, 218 F. 2d 538; United States v. Simplot, 192 F. Supp. 734; United States v. Devine\u2019s Milk Laboratories, Inc., 179 F. Supp. 799; United States v. Apex Distributing Co., 148 F. Supp. 365.\nBrief for the United States, p. 26.\nThis principle enunciated in Cruikshank retains undiminished vitality, as several recent cases attest. \u201cAnother reason [for the requirement that every ingredient of the offense charged must be clearly and accurately alleged in the indictment], and one sometimes overlooked, is to enable the court to decide whether the facts alleged are sufficient in law to withstand a motion to dismiss the indictment or to support a conviction in the event that one should be had.\u201d United States v. Lament, 18 F. R. D. 27, 31. \u201cIn addition to informing the defendant, another purpose served by the indictment is to inform the trial judge what the ease involves, so that, as he presides and is called upon to make rulings of all sorts, he may be able to do so intelligently.\u201d Puttkammer, Administration of Criminal Law, 125-126. See Flying Eagle Publications, Inc., v. United States, 273 F. 2d 799; United States v. Goldberg, 225 F. 2d 180; United States v. Silverman, 129 F. Supp. 496; United States v. Richman, 190 F. Supp. 889; United States v. Callanan, 113 F. Supp. 766. See 4 Anderson, Wharton\u2019s Criminal Law and Procedure, 506; Orfield, Indictment and Information in Federal Criminal Procedure, 13 Syracuse L. Rev. 389, 392. See also Orfield, Criminal Procedure from Arrest to Appeal, 226-230.\nIn No. 128, Gojack v. United States, the petitioner filed a timely motion for a bill of particulars, requesting that he be informed of the question under subcommittee inquiry. The motion was denied.\nIn No. 9, Shelton v. United States, the petitioner filed a similar motion. The motion was granted, and the Government responded orally as follows:\n\u201cAs to the second asking, the Government contends, and the indictment states, that the inquiry being conducted was pursuant to this resolution. We do not feel, and it is not the case, that there was any smaller, more limited inquiry being conducted. -\n\u201cThis committee was conducting the inquiry for the purposes contained in the resolution and no lesser purpose so that, in that sense, the asking No. 2 of counsel will be supplied by his reading the resolution.\u201d\nIn the four other cases no motions for bills of particulars were filed.\nSee also Smith v. United States, 360 U. S. 1, 13 (dissenting opinion); Comment, 35 Mich. L. Rev. 456.\nThe federal perjury statute, 18 U. S. C. \u00a7 1621, makes it a crime for a person under oath willfully to state or subscribe to \u201cany material matter which he does not believe to be true.\u201d The Government, pointing to the analogy between the perjury materiality requirement and the pertinency requirement in 2 U. S. C. \u00a7 192 recognized in Sinclair v. United States, 279 U. S. 263, 298, contends that the present cases are controlled by Markham v. United States, 160 U. S. 319, where the Court sustained a perjury indictment. But Markham is inapposite. The analogy between the perjury statute and 2 U. S. C. \u00a7 192, while persuasive for some purposes, is not persuasive here, for the determination of the subject under inquiry does not play the een-tral role in a perjury prosecution which it plays under 2 U. S. C. \u00a7 192. But even were the analogy perfect Markham would still not control, for it holds only that a perjury indictment need not set forth how and why the statements were allegedly material. The Court carefully pointed out that the indictment did in fact reveal the subject under inquiry, stating that \u201cas [the fourth count of indictment] charged that such statement was material to an inquiry pending before, and within the jurisdiction of, the Commissioner of Pensions; and as the fair import of that count was that the inquiry before the Commissioner had reference to a claim made by the accused under the pension laws, on account of personal injuries received while he was a soldier, and made it necessary to ascertain whether the accused had, since the war or after his discharge from the army, received an injury to the forefinger of his right hand, we think that the fourth count, although unskilfully drawn, sufficiently informed the accused of the matter for which he was indicted, and, therefore, met the requirement that it should set forth the substance of the charge against him.\u201d 160 U. S., at 325-326. (Emphasis added.) This has been equally true of other perjury indictments sustained by the Court. See Hendricks v. United States, 223 U. S. 178; United States v. Debrow, 346 U. S. 374 (the indictment in Debrow is set forth in the opinion of the Court of Appeals, 203 F. 2d 699, 702, n. 1).\nSee p. 757, supra.",
+        "type": "majority",
+        "author": "Mr. Justice Stewart"
+      },
+      {
+        "text": "Mr. Justice Douglas,\nconcurring.\nWhile I join the opinion of the Court, I think it is desirable to point out that in a majority of the six cases that we dispose of today no indictment, however drawn, could in my view be sustained under the requirements of the First Amendment.\nThe investigation was concededly an investigation of the press. This was clearly brought out by the record in Shelton, wherein the following colloquy was alleged to have taken place at the commencement of the Subcommittee hearings:\n\u201cSenator Hennings. On the same subject matter. I do believe it is very important at the outset for us to make it abundantly clear, if that is the purpose of counsel, and if it is the purpose of this committee, that this is not in any sense an attack upon the free press of the United States.\n\u201cThe Chairman. Why, certainly, that is true.\n\u201cSenator Hennings. And I think, too, that it should be clear that the best evidence of any subversion or infiltration into any news-dispensing agency or opinion-forming journal is certainly the product itself.\n\u201cThe Chairman. That is correct.\n\u201cSenator Hennings. Of course, the committee is interested in the extent and nature of so-called Communist infiltration, if such exists, into any news-dispensing agency.\n\u201cThe Chairman. Correct.\n\u201cSenator Hennings. But I would like to have the position of the committee, if it be the position of the majority of this committee, since the committee has not met to determine whether one policy or another is to be pursued in the course of these hearings \u2014 that it be generally known and understood that this is not an attack upon any one newspaper, upon any group of newspapers as such, but an effort on the part of this committee to show such participation and such attempt as may be disclosed on the part of the Communist Party in the United States or elsewhere, indeed, to influence or to subvert the American press.\n\u201cAnd I do think that at some later time, perhaps, it might be appropriate for executives of some of the newspapers under inquiry, whose employees are under inquiry, to be called and to testify and for them to show, if they can show, that the end product, the newspaper itself, has not been influenced by these efforts.\n\u201cThe Chairman. The Chair thinks that is a very fine and very accurate statement, one with which the Chair certainly agrees, in its entirety.\n\u201cWe are not singling out any newspaper and not investigating any newspaper or any group of newspapers. We are simply investigating communism wherever we find it, and I think that when this series of hearings is over that no one can say that any newspaper or any employees of any one newspaper has been singled out.\n\u201cSenator Hennings. Thank you, Mr. Chairman.\n\u201cSenator Watkins. I would like to say I agree with Senator Hennings\u2019 statement, Mr. Chairman.\u201d R. 72-73.\nThe New York Times was a prime target of the investigation, 30 of the 38 witnesses called at the 1955 executive session and 15 of the 18 called at the 1956 public hearings being present or past employees of that paper.\nThe power to investigate is limited to a valid legislative function. Inquiry is precluded where the matter investigated is one on which \u201cno valid legislation\u201d can be enacted. Kilbourn v. Thompson, 103 U. S. 168, 195. Since the First Amendment provides that \u201cCongress shall make no law . . . abridging the freedom ... of the press,\u201d this present investigation was plainly unconstitutional. As we said in Watkins v. United States, 354 U. S. 178, 197:\n\u201cClearly, an investigation is subject to the command that the Congress shall make no law abridging freedom of speech or press or assembly. While it is true that there is no statute to be reviewed, and that an investigation is not a law, nevertheless an investigation is part of lawmaking. It is justified solely as an adjunct to the legislative process. The First Amendment may be invoked against infringement of the protected freedoms by law or by lawmaking.\u201d\nUnder our system of government, I do not see how it is possible for Congress to pass a law saying whom a newspaper or news agency or magazine shall or shall not employ. If this power exists, it can reach the rightist as well as the leftist press, as United States v. Rumely, 345 U. S. 41, shows. Whether it is used against the one or the other will depend on the mood of the day. Whenever it is used to ferret out the ideology of those collecting news or writing articles or editorials for the press, it is used unconstitutionally. The theory of our Free Society is that government must be neutral when it comes to the press \u2014 whether it be rightist or leftist, orthodox or unorthodox. The theory is that in a community where men\u2019s minds are free, all shades of opinion must be immune from governmental inquiry lest we end with regimentation. Congress has no more authority in the field of the press than it does where the pulpit is involved. Since the editorials written and the news printed and the policies advocated by the press are none of the Govern-merit\u2019s business, I see no justification for the Government investigating the capacities, leanings, ideology, qualifications, prejudices or politics of those who collect or write the news. It was conceded on oral argument that Congress would have no power to establish standards of fitness for those who work for the press. It was also conceded that Congress would have no power to prescribe loyalty tests for people who work for the press. Since this investigation can have no legislative basis as far as the press is concerned, what then is its constitutional foundation?\nIt is said that Congress has the power to determine the extent of Communist infiltration so that it can know how much tighter the \u201csecurity\u201d laws should be made. This proves too much. It would give Congress a roving power to inquire into fields in which it could not legislate. If Congress can investigate the press to find out if Communists have infiltrated it, it could also investigate the churches for the same reason. Are the pulpits being used to promote the Communist cause? Were any of the clergy ever members of the Communist Party? How about the governing board? How about those who assist the pastor and perhaps help prepare his sermons or do the research? Who comes to the confession and discloses that he or she once was a Communist?\nThere is a dictum in United States v. Rumely, 345 U. S. 41, 43, that the reach of the investigative power of Congress is measured by the \u201cinforming function of Congress,\u201d a phrase taken from Woodrow Wilson\u2019s Congressional Government (1885), p. 303. But the quotation from Wilson was mutilated, because the sentences which followed his statement that \u201cThe informing function of Congress should be preferred even to its legislative function\u201d were omitted from the Rumely opinion. Those omitted sentences make abundantly clear that Wilson was speaking, not of a congressional inquiry roaming at large, but of one that inquired into and discussed the functions and operations of government. Wilson said:\n\u201cThe informing function of Congress should be preferred even to its legislative function. The argument is not only that discussed and interrogated administration is the only pure and efficient administration, but, more than that, that the only really self-governing people is that people which discusses and interrogates its administration. The talk on the part of Congress which we sometimes justly condemn is the profitless squabble of words over frivolous bills or selfish party issues. It would be hard to conceive of there being too much talk about the practical concerns and processes of government. Such talk it is which, when earnestly and purposefully conducted, clears the public mind and shapes the demands of public opinion.\u201d Id., at 303-304.\nThe power to inform is, in my view, no broader than the power to legislate.\nCongress has no power to legislate either on \u201creligion\u201d or on the \u201cpress.\u201d If an editor or a minister violates the law, he can be prosecuted. But the investigative power, as I read our Constitution, is barred from certain areas by the First Amendment. If we took the step urged by the prosecution, we would allow Congress to enter the forbidden domain.\nThe strength of the \u201cpress\u201d and the \u201cchurch\u201d is in their freedom. If they pervert or misuse their power, informed opinion will in time render the verdict against them. A paper or pulpit might conceivably become a mouthpiece for Communist ideology. That is typical of the risks a Free Society runs. The alternative is governmental oversight, governmental investigation, governmental questioning, governmental harassment, governmental exposure for exposure\u2019s sake. Once we crossed that line, we would sacrifice the values of a Free Society for one that has a totalitarian cast.\nSome think a certain leeway is necessary or desirable, leaving it to the judiciary to curb what judges may from time to time think are excessive practices. Thus, a judge with a professorial background may put the classroom in a preferred position. One with a background of a prosecutor dealing with \u201csubversives\u201d may be less tolerant. When a subjective standard is introduced, the line between constitutional and unconstitutional conduct becomes vague, uncertain, and unpredictable. The rationalization, of course, reduces itself ultimately to the idea that \u201cthe judges know best.\u201d My idea is and has been that those who put the words of the First Amendment in the form of a command knew best. That is the political theory of government we must sustain until a constitutional amendment is adopted that puts the Congress astride the \u201cpress.\u201d\nThe Subcommittee in its Report to the Senate Judiciary Committee, S. Rep. No. 131, 86th Cong., 1st Sess., p. 95, stated:\n\u201cThe Communists in the United States have their own daily newspaper, the Daily Worker, and control various weekly and monthly periodicals, including Political Affairs and Masses and Mainstream. But those publications are so brazenly slanted that their propaganda value, except for certain elements of the foreign language press in this country, is sharply limited (pts. 28 and 29).\n\u201cIn order to overcome this disadvantage, and for other reasons, Communists have made vigorous and sustained efforts to infiltrate the American press and radio and to entrench their members in all other forms of mass communications, where, by emphasis or omission of the written or spoken word, it may be turned to the advantage of the conspiracy/'\nThe Report referred to the ruling of an arbiter in a case where a paper had discharged a \u201crewrite man\u201d because he invoked the Fifth Amendment. It said that the following quotations from his opinion were \u201cof more than passing interest:\u201d\n\u201cA metropolitan newspaper in America today is more than a mirror to the happenings of the day. It is a moulder of public opinion; capable of leading crusades; capable of introducing new ideas; capable of propagating truth or propaganda as it wills. By its very nature, whether it would abdicate or not, a newspaper maintains a position of leadership and responsibility in this cold war that is vital to our national security. Other industries (atomic energy, defense, et cetera) may be more vital but this fact does not impair the vital role of our press.\n\u201cEach worker performs his task in life with tools, and these tools run the gamut from an ax to a zither. The rewrite man has his tools, too. They are words. Words but express ideas and so it follows that the rewrite man works all day with ideas. This is a war of ideas. Can his position then be deemed nonsensitive? A rewrite man can select the facts he considers important as relayed to him by the reporter in the field. His is the choice of the topic sentence and the lead paragraph. His selection of words sets the tone of the article and influences, too, the choice of headline. The conclusion is irresistible that a rewrite man occupies a sensitive position on a newspaper.\u201d Id., at 97.\nThe Committee concluded, \u201cCommunists have infiltrated mass communications media in the United States, and efforts to increase such infiltration continue.\u201d Id., at 117.",
+        "type": "concurrence",
+        "author": "Mr. Justice Douglas,"
+      },
+      {
+        "text": "Mr. Justice Clark,\ndissenting.\nAlthough I have joined Brother Harlan in dissenting on the grounds ably expressed in his opinion, the Court today so abruptly breaks with the past that I must visually add my voice in protest. The statute under which these cases were prosecuted, 2 U. S. C. \u00a7 192, was originally passed 105 years ago. Case after case has come here during that period. Still the Court is unable to point to one case \u2014 not one \u2014 in which there is the remotest suggestion that indictments thereunder must include any of the underlying facts necessary to evaluate the propriety of the unanswered questions. Following the universal art and practice, indictments under this statute have commonly phrased the element of pertinency in the statutory language, i. e., the unanswered question was \u201cpertinent to the question under inquiry.\u201d This Court in Sacher v. United States, 356 U. S. 576 (1958), had an opportunity to put a stop to this widespread practice but instead reversed on other, rather unsubstantial grounds without even acknowledging that numerous defendants were being denied \u201cone of the significant protections which the guaranty of a grand jury indictment was intended to confer.\u201d In requiring these indictments to \u201cidentify the subject which was under inquiry at the time of the defendant\u2019s alleged default or refusal to answer,\u201d the Court has concocted a new and novel doctrine to upset congressional contempt convictions. A rule has been sown which, as pointed out by Brother Harlan, has no seeds in general indictment law and which will reap no real benefits in congressional contempt cases. If knowing the subject matter under investigation is actually important to these recalcitrant witnesses, they can utilize the right recognized in Watkins v. United States, 354 U. S. 178 (1957), of demanding enlightenment from the questioning body or the time-honored practice of requesting a bill of particulars from the prosecutor. Let us hope that the reasoning of the Court today does not apply to indictments under other criminal statutes, for if it does an uncountable number of indictments will be invalidated. If, however, the rule is only cast at congressional contempt cases, it is manifestly unjust.\nBy fastening upon indictment forms under \u00a7 192 its superficial luminosity requirement the Court creates additional hazards to the successful prosecution of congressional contempt cases, which impair the informing procedures of the Congress by encouraging contumacy before its committees. It was only five years ago in my dissenting opinion in Watkins that I indicated the rule in that case might \u201cwell lead to trial of all contempt cases before the bar . . .\u201d of the House of Congress affected. Watkins v. United States, supra, at p. 225. In that short period the Court has now upset 10 convictions under \u00a7 192. This continued frustration of the Congress in the use of the judicial process to punish those who are contemptuous of its committees indicates to me that the time may have come for Congress to revert to \u201cits original practice of utilizing the coercive sanction of contempt proceedings at the bar of the House [affected]Id., at 206. Perhaps some simplified method may be found to handle such matters without consuming too much of the time of the full House involved. True, a recalcitrant witness would have to be released at the date of adjournment, but at least contumacious conduct would then receive some punishment. The dignity of the legislative process deserves at least that much sanction.",
+        "type": "dissent",
+        "author": "Mr. Justice Clark,"
+      },
+      {
+        "text": "Mr. Justice Harlan,\nwhom Mr. Justice Clark joins,\ndissenting.\nThe ground rules for testing the sufficiency of an indictment are twofold: (1) does the indictment adequately inform the defendant of the nature of the charge he will have to meet; (2) if the defendant is convicted, and later prosecuted again, will a court, under what has been charged, be able to determine the extent to which the defense of double jeopardy is available? United States v. Debrow, 346 U. S. 374.\nRule 7 (c) of the Federal Rules of Criminal Procedure, effective in 1946, was of course not intended to abrogate or weaken either of these yardsticks. Its purpose simply was to do away with the subtleties and uncertainties that had characterized criminal pleading at common law. The rule provides in pertinent part:\n\u201cThe indictment . . . shall be a plain, concise and definite written statement of the essential facts constituting the offense charged. ... It need not contain . . . any other matter not necessary to such statement.\u201d\nThe rule was \u201cdesigned to eliminate technicalities\u201d and is \u201cto be construed to secure simplicity in procedure.\u201d Debrow, at 376.\nAn essential element of the offense established by 2 U. S. C. \u00a7 192 is that the questions which the defendant refused to answer were \u201cpertinent to the question under inquiry\u201d before the inquiring congressional committee. Each of the indictments in these cases charged this element of the offense in the language of the statute, following the practice consistently employed since 1950 in the District of Columbia, where most of the \u00a7 192 cases have been brought. The Court now holds, however, that without a statement of the actual subject under inquiry, this allegation was inadequate to satisfy the \u201capprisal\u201d requisite of a valid indictment. At the same time the allegation is found sufficient to satisfy the \u201cjeopardy\u201d requisite.\nThe Court\u2019s holding is contrary to the uniform course of decisions in the lower federal courts. The Court of Appeals for the District of Columbia Circuit, sitting first as a panel and later en banc, has upheld \u201cpertinency\u201d allegations which, like the present indictment, did not identify the particular subject being investigated. Barenblatt v. United States, 100 U. S. App. D. C. 13, 240 F. 2d 875 (panel); Sacher v. United States, 102 U. S. App. D. C. 264, 252 F. 2d 828 (en banc). The Court of Appeals for the Second Circuit is of the same view. United States v. Josephson, 165 F. 2d 82; United States v. Lamont, 236 F. 2d 312. And so, quite evidently, is the Court of Appeals for the Fifth Circuit. Braden v. United States, 272 F. 2d 653. No Court of Appeals has held otherwise. And nothing in this Court's more recent cases could possibly be taken as foreshadowing the decision made today.\nThe reasons given by the Court for its sudden holding, which unless confined to contempt of Congress cases bids fair to throw the federal courts back to an era of criminal pleading from which it was thought they had finally emerged, are novel and unconvincing.\n1 \u2014 1\nIt is first argued that an allegation of pertinency m the statutory terms will not do, because that element is at \u201cthe very core of criminality\u201d under \u00a7 192. This is said to follow from what \u201cour cases have uniformly held.\u201d Ante, p. 764. I do not so understand the cases on which the Court relies. It will suffice to examine the three cases from which quotations have been culled. Ante, pp. 765-766.\nUnited States v. Cruikshank, 92 U. S. 542, involved an indictment under the Enforcement Act of 1870 (16 Stat. 140) making it a felony to conspire to prevent any person from exercising and enjoying \u201cany right or privilege granted or secured to him by the Constitution or laws of the United States.\u201d Most of the counts were dismissed on the ground that they stated no federal offense whatever. The remainder were held inadequate from the standpoint of \u201capprisal,\u201d in that they simply alleged a conspiracy to prevent certain citizens from enjoying rights \u201cgranted and secured to them by the constitution and laws of the United States,\u201d such rights not being otherwise described or identified. Small wonder that \u2022these opaque allegations drew from the Court the comment that the indictment \u201c \u2018must descend to particulars.\u2019 \u201d Id., at 558. Indeed, the Court observed: \u201cAccording to the view we take of these counts, the question is not whether it is enough, in general, to describe a statutory-offence in the language of the statute, but whether the ofjence has here been described at all.\u201d Id., at 557. (Emphasis supplied.)\nUnited States v. Simmons, 96 U. S. 360, was concerned with an indictment involving illegal distilling. Revised Statutes \u00a7 3266 made it an offense to distill spirits on premises where vinegar \u201cis\u201d manufactured. One count of the indictment charged the defendant with causing equipment on premises where vinegar \u201cwas\u201d manufactured to be used for distilling. This count was dismissed for its failure (1) to identify the person who had so used the equipment or to allege that his identity was unknown to the grand jurors; and (2) to allege that the distilling and manufacture of vinegar were coincidental, as required by the statute. What is more significant from the standpoint of the present cases is that in sustaining another count of the indictment charging the defendant with engaging in the business of distilling \u201cwith the intent to defraud the United States of the tax\u201d on the spirits (R. S. \u00a7 3281), the Court held that it was not necessary to allege \u201cthe particular means by which the United States was to be defrauded of the tax.\u201d Id., at 364.\nUnited States v. Carll, 105 U. S. 611, held no more than that an indictment charging forgery was insufficient for failure to allege scienter, which, though not expressly required by the statute, the Court found to be a necessary element of the crime. Hence a charge in the statutory language would not suffice. Section 192 of course contains no such gap in its provisions. What the Court now requires of these indictments under \u00a7 192 involves not the supplying of a missing element of the crime, but the addition of the particulars of an element already clearly alleged.\nTo me it seems quite clear that even under these cases, decided long before Rule 7 (c) came into being, the \u201cpertinency\u201d allegations of the present indictments would have been deemed sufficient. Other early cases indicate the same thing. See, e. g., United States v. Mills, 7 Pet. 138, 142; Evans v. United States, 153 U. S. 584, 587; Markham v. United States, 160 U. S. 319, 325; Bartell v. United States, 227 U. S. 427, 433-434. I think there can be no doubt about the matter after Rule 7 (c).\nIn United States v. Debrow, supra, the Court in reversing the dismissal of perjury indictments which had gone on the ground that they had not alleged the name or authority of the persons administering the oath, said (346 U. S., at 376-378):\n\u201cThe Federal Rules of Criminal Procedure were designed to eliminate technicalities in criminal pleading and are to be construed to secure simplicity in procedure.\n\u201cThe charges of the indictments followed substantially the wording of the statute, which embodies all the elements of the crime, and such charges clearly informed the defendants of that with which they were accused, so as to enable them to prepare their defense and to plead the judgment in bar of any further prosecutions for the same offense. It is inconceivable to us how the defendants could possibly be misled as to the offense with which they stood charged. The sufficiency of the indictment is not a question of whether it could have been more definite and certain. If the defendants wanted more definite information as to the name of the person who administered the oath to them, they could have obtained it by requesting a bill of particulars. Rule 7 (f), F.R. Crim. Proe.\u201d (Emphasis supplied.)\nIt is likewise \u201cinconceivable\u201d to me how the indictments in the present cases can be deemed insufficient to advise these petitioners of the nature of the charge they would have to meet. The indictments gave them the name of the committee before which they had appeared; the place and the dates of their appearances; the references to the enabling legislation under which the committee acted; and the questions which the petitioners refused to answer. The subject matter of the investigations had been stated to the petitioners at the time of their appearances before the committees. And the committee transcripts of the hearings were presumably in their possession and, if not, were of course available to them.\nGranting all that the Court says about the crucial character of pertinency as an element of this offense, it is surely not more so than the element of premeditation in the crime of first degree murder. If from the standpoint of \u201capprisal\u201d it is necessary to particularize \u201cpertinency\u201d in a \u00a7 192 indictment, it should follow, a fortiori, that, contrary to what is prescribed in Forms 1 and 2 of the Federal Rules of Criminal Procedure, a first degree murder indictment should particularize \u201cpremeditation.\u201d\nII.\nThe Court says that its holding is needed to prevent the Government from switching on appeal, to the prejudice of the defendants, to a different theory of pertinency from that on which the conviction may have rested. Ante, pp. 766-768. There are several good answers to this.\nTo the extent that this fear relates to the subject under investigation, the Government cannot of course travel outside the confines of the trial record, of which the defendant has full knowledge. If what is meant is that the Government may not modify on appeal its \u201ctrial\u201d view of the \u201cconnective reasoning\u201d (supra, p. 784, note 6) relied on to establish the germaneness of the questions asked to the subject matter of the inquiry, surely it would be free to do so, this aspect of pertinency being simply a matter of law, Sinclair v. United States, 279 U. S. 263, 299. Moreover the Court does not find these indictments deficient because they failed to allege the \u201cconnective reasoning.\u201d\nBeyond these considerations, a defendant has ample means for protecting himself in this regard. By objecting at the committee hearing to the pertinency of any question asked him he may \u201cfreeze\u201d this issue, since the Government\u2019s case on this score must then stand or fall on the pertinency explanation given by the committee in response to such an objection. Deutch v. United States, 367 U. S. 456, 472-473 (dissenting opinion); cf. Watkins v. United States, supra, at 214\u2014215; Barenblatt v. United States, 360 U. S. 109, 123-125. If he has failed to make a per-tinency objection at the committee hearing, thereby leaving the issue \u201cat large\u201d for the trial (Deutch, ibid.), he may still seek a particularization through a bill of particulars. Cf. United States v. Kamin, 136 F. Supp. 791, 795 n. 4.\nIt should be noted that no pertinency objection was made by any of these petitioners at the committee hearings. Further, no motions for a bill of particulars were made in No. 12, Price, to which the Court especially addresses itself {ante, pp. 766-768), or in No. 8, Russell, No. 10, Whitman, and No. 11, Liveright. In No. 9, Shelton, and No. 128, Gojack, such motions were made. However, no appeal was taken from the denial of the motion in Gojack, and in Shelton the sufficiency of the particulars furnished by the Government was not questioned either by a motion for a further bill or on appeal.\nIII.\nReferring to certain language in the Cruikshank case, supra, the Court suggests that the present holding is supported by a further \u201cimportant corollary purpose\u201d which an indictment is intended to serve: to make \u201cit possible for courts called upon to pass on the validity of convictions under the statute to bring an enlightened judgment to that task.\u201d Ante, pp. 768, 769.\nBut whether or not the Government has established its case on \u201cpertinency\u201d is something that must be determined on the record made at the trial, not upon the allegations of the indictment. There is no such thing as a motion for summary judgment in a criminal case. While appellate courts might be spared some of the tedium of going through these \u00a7 192 records were the allegations of indictments to spell out the \u201cpertinency\u201d facts, the Court elsewhere in its opinion recognizes that the issue at hand can hardly be judged in terms of whether fuller indictments \u201cwould simplify the courts\u2019 task.\u201d Ante, p. 760.\nThe broad language in Cruikshank on which the Court relies cannot properly be taken as meaning more than that an indictment must set forth enough to enable a court to determine whether a criminal offense over which the court has jurisdiction has been alleged. . Cf. McClin-tock, Indictment by a Grand Jury, 26 Minn. L. Rev. 153, 159-160 (1942); Orfield, Criminal Procedure from Arrest to Appeal, 222-226, 227 n. 107. Certainly the allegations of these indictments meet such requirements.\nIV.\nThe final point made by the Court is perhaps the most novel of all. It is said that a statement of the subject under inquiry is necessary in the indictment in order to fend against the possibility that a defendant may be convicted on a theory of pertinency based upon a subject under investigation different from that which may have been found by the grand jury. An argument similar to this was rejected by this Court many years ago in Rosen v. United States, 161 U. S. 29, 34, where an indictment charging the defendant with mailing obscene matter, only generally described, was upheld over strong dissent {id., at 45-51) asserting that the accused was entitled to know the particular parts of the material which the grand jury had deemed obscene.\nThis proposition is also certainly unsound on principle. In the last analysis it would mean that a prosecutor could not safely introduce or advocate at a trial evidence or theories, however relevant to the crime charged in the indictment, which he had not presented to the grand jury. Such cases as Ex parte Bain, 121 U. S. 1, United States v. Norris, 281 U. S. 619, and Stirone v. United States, 361 U. S. 212, lend no support to the Court\u2019s thesis. They held only that, consistently with the Fifth Amendment, a trial judge could not amend the indictment itself, either by striking or adding material language, or, amounting to the latter, by permitting a conviction on evidence or theories not fairly embraced in the charges made in the indictment. To allow this would in effect permit a defendant to be put to trial upon an indictment found not by a grand jury but by a judge.\nIf the Court\u2019s reasoning in this part of its opinion is sound, I can see no escape from the conclusion that a defendant convicted on a lesser included offense, not alleged by the grand jury in an indictment for the greater offense, would have a good plea in arrest of judgment. (Fed. Rules Crim. Proc., 34.)\nIn conclusion, I realize that one in dissent is sometimes prone to overdraw the impact of a decision with which he does not agree. Yet I am unable to rid myself of the view that the reversal of these convictions on such insubstantial grounds will serve to encourage recalcitrance to legitimate congressional inquiry, stemming from the belief that a refusal to answer may somehow be requited in this Court. And it is not apparent how the seeds which this decision plants in other fields of criminal pleading can well be prevented from sprouting. What is done today calls to mind the trenchant observation made by Mr. Justice Holmes many years ago in Paraiso v. United States, 207 U. S. 368, 372:\n\u201cThe bill of rights for the Philippines giving the accused the right to demand the nature and cause of the accusation against him does not fasten forever upon those islands the inability of the seventeenth century common law to understand or accept a pleading that did. not exclude every misinterpretation capable of occurring to intelligence fired with a desire to pervert.\u201d\nNo more so does the Bill of Rights of the United States Constitution \u201cfasten\u201d on this country these primitive notions of the common law.\nOn the merits these convictions are of course squarely ruled against the petitioners by principles discussed in our recent decisions in the Barenblatt, Wilkinson, and Braden cases, as was all but acknowledged at the bar.\nI would affirm.\n\u201cEvery person who having been summoned as a witness by the authority of either House of Congress to give testimony or to produce papers upon any matter under inquiry before either House, or any joint committee established by a joint or concurrent resolution of the two Houses of' Congress, or any committee of either House of Congress, willfully makes default, or who, having appeared, refuses to answer any question pertinent to the question under inquiry, shall be deemed guilty of a misdemeanor, punishable by a fine of not more than $1,000 nor less than $100 and imprisonment in a common jail for not less than one month nor more than twelve months.\u201d (Emphasis added.)\n[The following abbreviations have been used to indicate where the indictment may be found: TR, the transcript of the record in this Court; JA, the joint appendix in the Court of Appeals; Cr. No. -, the docket number in the District Court.] See Grumman v. United States, 368 U. S. 925 (TR, p. 2); Silber v. United States, 368 U. S. 925 (TR, p. 2); Hutcheson v. United States, 369 U. S. 599 (TR, p. 4); Deutch v. United States, 367 U. S. 456 (TR, p. 7); Barenblatt v. United States, 360 U. S. 109 (TR, p. 1); Flaxer v. United States, 358 U. S. 147 (TR, p. 2); Sacher v. United States, 356 U. S. 576 (JA, p. 2); Watkins v. United States, 354 U. S. 178 (TR, p. 2); Bart v. United States, 349 U. S. 219 (TR, p. 108); Emspak v. United States, 349 U. S. 190 (TR, p. 4); Quinn v. United States, 349 U. S. 155 (TR, p. 3); United States v. Rumely, 345 U. S. 41 (TR, pp. 2-4); Knowles v. United States, 108 U. S. App. D. C. 148, 280 F. 2d 696 (Cr. No. 1211-56); Watson v. United States, 108 U. S. App. D. C. 141, 280 F. 2d 689 (Cr. No. 1151-54); Miller v. United States, 104 U. S. App. D. C. 30, 259 F. 2d 187 (Cr. No. 164-57); La Poma v. United States, 103 U. S. App. D. C. 151, 255 F. 2d 903 (Cr. No. 290-57); Brewster v. United States, 103 U. S. App. D. C. 147, 255 F. 2d 899 (Cr. No. 289-57); Singer v. United States, 100 U. S. App. D. C. 260, 244 F. 2d 349 (Cr. No. 1150-54); O\u2019Connor v. United States, 99 U. S. App. D. C. 373, 240 F. 2d 404 (Cr. No. 1650-53); Keeney v. United States, 94 U. S. App. D. C. 366, 218 F. 2d 843 (Cr. No. 870-52); Bowers v. United States, 92 U. S. App. D. C. 79, 202 F. 2d 447 (Cr. No. 1252-51); Kamp v. United States, 84 U. S. App. D. C. 187, 176 F. 2d 618 (Cr. No. 1788-50); United States v. Peck, 149 F. Supp. 238 (Cr. No. 1214-56); United States v. Hoag, 142 F. Supp. 667 (Cr. No. 574-55); United States v. Fischetti, 103 F. Supp. 796 (Cr. No. 1254-51); United States v. Nelson, 103 F. Supp. 215 (Cr. No. 1796-50); United States v. Jaffe, 98 F. Supp. 191 (Cr. No. 1786-50); United States v. Raley, 96 F. Supp. 495 (Cr. No. 1748-50); United States v. Fitzpatrick, 96 F. Supp. 491 (Cr. No. 1743-50).\nFor a short period after Rule 7 (c), Fed. Rules Crim. Proc., came into effect in 1946, vestiges of common-law pleading continued to be found in some, but not all, \u00a7 192 indictments. Compare United States v. Fleischman, 339 U. S. 349 (TR, pp. 2-3), with United States v. Bryan, 339 U. S. 323 (TR, p. 2A). By 1950, however, all such indictments had come to be in statutory form.\nFour judges dissented on other grounds.\nThe record on appeal shows that one of the grounds of attack was the indictment\u2019s failure to allege \u201cthe nature of any matter under inquiry before said Committee.\u201d Record on Appeal in the Court of Appeals for the Second Circuit, No. 91, Doc. 20790, p. 7.\nThis case evinces no purpose to depart from Josephson. The District Court, although dismissing the indictment on other grounds, quite evidently found the statutory \u201cpertinency\u201d allegation sufficient. 18 F. R. D., at 30, 37. And in affirming, the Court of Appeals, citing the Josephson case among others, stated that \u201cthe result might well be different\u201d had the authority of the investigating committee appeared in the indictment. 236 F. 2d, at 316 (note 6). (The committee in Lamont was a Subcommittee of the Senate Committee on Government Operations whose enabling legislation the court found did not authorize investigation of \u201csubversive activities.\u201d) As regards the issue decided in the present cases, the following observations by Chief Judge Clark, who speaks with special authority in procedural matters, are significant (id., at 317):\n\u201cPleading, either civil or criminal, should be a practical thing. Its purpose is to convey information succinctly and concisely. In older days the tendency was to defeat this purpose by overelaboration and formalism. Now we should avoid the opposite trend, but of like consequence, that of a formalism of generality. There seems to be some tendency to- confuse general pleadings with entire absence of statement of claim or charge. [Footnote omitted.] But this is a mistake, for general pleadings, far from omitting a claim or charge, do convey information to the intelligent and sophisticated circle for which they are designed. Thus the charge that at a certain time and place 'John Doe with premeditation shot and murdered John Roe,\u2019 F.R.Cr.P., Form 2, even though of comparatively few words, has made clear the offense it is bringing before the court. [Footnote omitted.] The present indictments, however, do not show the basis upon which eventual conviction can be had; rather, read in the light of the background of facts and Congressional action, they show that conviction cannot be had.\u201d (Emphasis supplied.)\nThat case was concerned with the \u201cconnective reasoning\u201d aspect of \u201cpertinency,\u201d Watkins v. United States, 354 U. S. 178, 214-215, rather than the \"subject under inquiry\u201d aspect; but it is not perceived how this can be thought to make a difference in principle.\nThis is not the first opportunity the Court has had to consider the matter. Ante, p. 754, note 7.\nThe Court stated {id., at 362):\n\u201cWhere the offence is purely statutory ... it is, \u2018as a general rule, sufficient in the indictment to charge the defendant with acts coming fully within the statutory description, in the substantial words of the statute, without any further expansion of the matter.\u2019 1 Bishop, Crim. Proc., sect. 611, and authorities there cited. But to this general rule there is the qualification, fundamental in the law of criminal procedure, that the accused must be apprised by the indictment, with reasonable certainty, of the nature of the accusation against him .... An indictment not so framed is defective, although it may follow the language of the statute.\u201d (Emphasis supplied.)\nThe Mills and Evans cases suggest that a more lenient rule of pleading applies in misdemeanor than in felony cases. Although that distinction seems to have disappeared in the later cases, it may be noted that \u00a7 192 in terms makes this offense a misdemeanor. Note 1, supra.\nIn that case the Court spoke, doubtless by way of dictum, concerning the method of pleading \u201cmateriality\u201d in a perjury indictment (an element akin to \u201cpertinency\u201d under \u00a7 192, Sinclair v. United States, 279 U. S. 263, 298):\n\u201cIt was not necessary that the indictment should set forth all the details or facts involved in the issue as to materiality of [the false] statement .... In 2 Chittey\u2019s Criminal Law, 307, the author says: \u2018It is undoubtedly necessary that it should appear on the face of the indictment that the false allegations were material to the matter in issue. But it is not requisite to set forth all the circumstances which render them material; the simple averment that they were so, will suffice.\u2019 In King v. Dowlin . . . Lord Kenyon said that it had always been adjudged to be sufficient in an indictment for perjury, to allege generally that the particular question became a material question. . . .\u201d 160 U. S., at 325.\nThere, under an exception, prevailing in \u201cobscenity\u201d cases, to the then general rule that in \u201cdocumentary\u201d crimes the contents of the document must be set forth in the indictment, the Court in sustaining an indictment charging the unlawful mailing of an \u201cindecent\u201d letter, only generally described, said {id., at 433-434):\n\u201cThe present indictment specifically charged that the accused had knowingly violated the laws of the United States by depositing on a day named, in the post-office specifically named, a letter of such indecent character as to render it unfit to be set forth in detail, enclosed in an envelope bearing a definite address. In the absence of a demand for a bill of particulars we think this description sufficiently advised the accused of the nature and cause of the accusation against him. This fact is made more evident when it is found that this record shows no surprise to the accused in the production of the letter at the trial . . . .\u201d\nThe Court suggests that Bartell and Rosen v. United States (infra, p. 792) are inapposite because of the special rule of pleading applicable in \u201cobscenity\u201d cases. Ante, p. 765. However, considering that the \u201capprisal\u201d requisite of an indictment arises from constitutional requirements, this factor far from lessening the weight of these two cases adds to their authority.\nThe other cases and commentaries referred to by the Court in Note 15, ante, pp. 768-769, indicate nothing different.\nIt seems clear that the Court proceeded on the premise that the \u201cisolated excerpt\" rule of Regina v. Hicklin, [1868] L. R. 3 Q. B. 360, recently rejected in Roth v. United States, 354 U. S. 476, 488-489, in favor of the \u201cwhole book\u201d rule, obtained, for the Court relied on United States v. Bennett, 24 Fed. Cas. 1093 (16 Blatchford 338), where the \u201cexcerpt\u201d test was applied.\nWhile the \u201cconnective reasoning\u201d aspect of \u201cpertinency\u201d is again evidently not involved in the Court\u2019s reasoning, it is appropriate to note that it is scarcely realistic to consider that issue of law as one on which the grand jury has exercised an independent judgment in determining whether an indictment should be returned. For that body may be expected, quite naturally and properly, to follow the District Attorney\u2019s advice on this score, as with any other matter of law. That the legal premises on which the grand jury acted in this respect may turn out to have been wrong could hardly vitiate the indictment itself.\n360 U. S. 109; 365 U. S. 399; 365 U. S. 431.",
+        "type": "dissent",
+        "author": "Mr. Justice Harlan,"
+      }
+    ],
+    "attorneys": [
+      "Joseph A. Fanelli argued the cause for petitioner in No. 8. With him on the briefs was Benedict P. Cottone.",
+      "Joseph L. Rauh, Jr. argued the cause for petitioner in No. 9. With him on the briefs was John Silard.",
+      "Gerhard P. Van Arkel argued the cause for petitioner in No. 10. With him on the briefs was George Kaufman.",
+      "Harry I. Rand argued the cause for petitioner in No. 11. With him on the briefs was Leonard B. Boudin.",
+      "Leonard B. Boudin argued the cause for petitioner in No. 12. With him on the briefs was Harry I. Rand.",
+      "Frank J. Donner argued the cause for petitioner in No. 128. With him on the brief was David Rein.",
+      "Kevin T. Maroney argued the causes for the United States in Nos. 8 and 128. With him on the briefs were Solicitor General Cox, Assistant Attorney General Yeagley, Bruce J. Terris and (in No. 128) Doris Spangenburg.",
+      "Bruce J. Terris argued the cause for the United States in No. 9. With him on the briefs were Solicitor General Cox, Assistant Attorney General Yeagley and Kevin T. Maroney.",
+      "J. William Doolittle argued the cause for the United States in Nos. 10, 11 and 12. On the briefs were Solicitor General Cox, Assistant Attorney General Yeagley, Bruce J. Terris, Kevin T. Maroney and Lee B. Anderson.",
+      "Nanette Dembitz filed a brief for New York Civil Liberties Union, as amicus curiae, urging reversal in No. 10."
+    ],
+    "corrections": "",
+    "head_matter": "RUSSELL v. UNITED STATES.\nNo. 8.\nArgued December 7, 1961.\nDecided May 21, 1962.\nJoseph A. Fanelli argued the cause for petitioner in No. 8. With him on the briefs was Benedict P. Cottone.\nJoseph L. Rauh, Jr. argued the cause for petitioner in No. 9. With him on the briefs was John Silard.\nGerhard P. Van Arkel argued the cause for petitioner in No. 10. With him on the briefs was George Kaufman.\nHarry I. Rand argued the cause for petitioner in No. 11. With him on the briefs was Leonard B. Boudin.\nLeonard B. Boudin argued the cause for petitioner in No. 12. With him on the briefs was Harry I. Rand.\nFrank J. Donner argued the cause for petitioner in No. 128. With him on the brief was David Rein.\nKevin T. Maroney argued the causes for the United States in Nos. 8 and 128. With him on the briefs were Solicitor General Cox, Assistant Attorney General Yeagley, Bruce J. Terris and (in No. 128) Doris Spangenburg.\nBruce J. Terris argued the cause for the United States in No. 9. With him on the briefs were Solicitor General Cox, Assistant Attorney General Yeagley and Kevin T. Maroney.\nJ. William Doolittle argued the cause for the United States in Nos. 10, 11 and 12. On the briefs were Solicitor General Cox, Assistant Attorney General Yeagley, Bruce J. Terris, Kevin T. Maroney and Lee B. Anderson.\nNanette Dembitz filed a brief for New York Civil Liberties Union, as amicus curiae, urging reversal in No. 10.\nTogether with No. 9, Shelton v. United States, argued December 6-7, 1961; No. 10, Whitman v. United States, argued December 7, 11, 1961; No. 11, Liveright v. United States, argued December 11, 1961; No. 12, Price v. United States, argued December 11, 1961; and No. 128, Gojack v. United States, argued December 11-12, 1961, also on certiorari to the same Court."
+  },
+  "file_name": "0749-01",
+  "first_page_order": 831,
+  "last_page_order": 876
+}

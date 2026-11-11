@@ -1,0 +1,2433 @@
+{
+  "id": 11338065,
+  "name": "TIME, INC. v. HILL",
+  "name_abbreviation": "Time, Inc. v. Hill",
+  "decision_date": "1967-01-09",
+  "docket_number": "No. 22",
+  "first_page": "374",
+  "last_page": "420",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "385 U.S. 374"
+    },
+    {
+      "type": "parallel",
+      "cite": "17 L. Ed. 2d 456"
+    },
+    {
+      "type": "parallel",
+      "cite": "87 S. Ct. 534"
+    },
+    {
+      "type": "vendor",
+      "cite": "1967 U.S. LEXIS 2991"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1966-031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "311 U. S. 711",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166272,
+        6166016,
+        6166172,
+        6166103,
+        6165948
+      ],
+      "weight": 2,
+      "year": 1940,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/311/0711-05",
+        "/us/311/0711-02",
+        "/us/311/0711-04",
+        "/us/311/0711-03",
+        "/us/311/0711-01"
+      ]
+    },
+    {
+      "cite": "362 U. S. 17",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6162322
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "20-24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/362/0017-01"
+      ]
+    },
+    {
+      "cite": "288 N. Y. Supp. 501",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "year": 1936,
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Misc. 5",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        855488
+      ],
+      "year": 1936,
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/159/0005-01"
+      ]
+    },
+    {
+      "cite": "130 N. Y. S. 2d 514",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1954,
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Misc. 818",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        981216
+      ],
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/205/0818-01"
+      ]
+    },
+    {
+      "cite": "260 N. Y. S. 2d 451",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 App. Div. 2d 216",
+      "category": "reporters:state",
+      "reporter": "A.D.2d",
+      "case_ids": [
+        3153678
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad2d/23/0216-01"
+      ]
+    },
+    {
+      "cite": "120 S. W. 364",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1909,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Ky. 424",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4391127
+      ],
+      "year": 1909,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/134/0424-01"
+      ]
+    },
+    {
+      "cite": "78 F. Supp. 305",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        652380
+      ],
+      "year": 1948,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/78/0305-01"
+      ]
+    },
+    {
+      "cite": "98 F. Supp. 963",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1401850
+      ],
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/98/0963-01"
+      ]
+    },
+    {
+      "cite": "39 N. Y. U. L. Rev. 962",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. L. Rev.",
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "991-993"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Vand. L. Rev. 1093",
+      "category": "journals:journal",
+      "reporter": "Vand. L. Rev.",
+      "year": 1962,
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 F. Supp. 538",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4237115
+      ],
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/116/0538-01"
+      ]
+    },
+    {
+      "cite": "192 F. 2d 974",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1214544
+      ],
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/192/0974-01"
+      ]
+    },
+    {
+      "cite": "98 N. Y. S. 2d 233",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "277 App. Div. 155",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "244 N. Y. S. 2d 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1963,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 App. Div. 2d 865",
+      "category": "reporters:state",
+      "reporter": "A.D.2d",
+      "case_ids": [
+        5508597,
+        5508125,
+        5502998
+      ],
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad2d/19/0865-03",
+        "/ad2d/19/0865-02",
+        "/ad2d/19/0865-01"
+      ]
+    },
+    {
+      "cite": "103 N. E. 1108",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "year": 1913,
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 N. Y. 51",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        63116
+      ],
+      "year": 1913,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/210/0051-01"
+      ]
+    },
+    {
+      "cite": "80 S. D. 104",
+      "category": "reporters:state",
+      "reporter": "S.D.",
+      "case_ids": [
+        4626332
+      ],
+      "weight": 2,
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sd/80/0104-01"
+      ]
+    },
+    {
+      "cite": "230 S. C. 330",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2102254
+      ],
+      "weight": 2,
+      "year": 1956,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/230/0330-01"
+      ]
+    },
+    {
+      "cite": "107 A. 2d 860",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1954,
+      "opinion_index": 0
+    },
+    {
+      "cite": "378 Pa. 609",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1250875
+      ],
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/378/0609-01"
+      ]
+    },
+    {
+      "cite": "69 N. M. 473",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        2787294
+      ],
+      "weight": 2,
+      "year": 1962,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/69/0473-01"
+      ]
+    },
+    {
+      "cite": "210 Miss. 668",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        1839419
+      ],
+      "weight": 2,
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/210/0668-01"
+      ]
+    },
+    {
+      "cite": "98 N. E. 2d 286",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1951,
+      "opinion_index": 0
+    },
+    {
+      "cite": "327 Mass. 275",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        512034
+      ],
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/327/0275-01"
+      ]
+    },
+    {
+      "cite": "18 S. W. 2d 972",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "year": 1929,
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Ky. 227",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5067458
+      ],
+      "year": 1929,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/230/0227-01"
+      ]
+    },
+    {
+      "cite": "175 N. E. 2d 577",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1961,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Ill. App. 2d 191",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 2d",
+      "case_ids": [
+        5228980
+      ],
+      "year": 1961,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-2d/31/0191-01"
+      ]
+    },
+    {
+      "cite": "91 S. E. 2d 344",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 Ga. 161",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        263089,
+        263214
+      ],
+      "year": 1956,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/212/0161-01",
+        "/ga/212/0161-02"
+      ]
+    },
+    {
+      "cite": "83 So. 2d 34",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9883453
+      ],
+      "year": 1955,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/83/0034-01"
+      ]
+    },
+    {
+      "cite": "189 A. 2d 773",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1963,
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 P. 2d 491",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1939,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal. App. 2d 304",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4449990
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/35/0304-01"
+      ]
+    },
+    {
+      "cite": "7 Alaska 416",
+      "category": "reporters:state",
+      "reporter": "Alaska",
+      "case_ids": [
+        1268265
+      ],
+      "year": 1926,
+      "opinion_index": 0,
+      "case_paths": [
+        "/alaska/7/0416-01"
+      ]
+    },
+    {
+      "cite": "251 Ala. 250",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        5211638
+      ],
+      "weight": 2,
+      "year": 1948,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/251/0250-01"
+      ]
+    },
+    {
+      "cite": "79 F. Supp. 957",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        656977
+      ],
+      "year": 1948,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/79/0957-01"
+      ]
+    },
+    {
+      "cite": "157 F. Supp. 240",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4285535
+      ],
+      "year": 1957,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/157/0240-01"
+      ]
+    },
+    {
+      "cite": "122 F. Supp. 327",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4244860
+      ],
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/122/0327-01"
+      ]
+    },
+    {
+      "cite": "193 F. 2d 953",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        511674
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/193/0953-01"
+      ]
+    },
+    {
+      "cite": "153 F. 2d 467",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1282650
+      ],
+      "year": 1946,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/153/0467-01"
+      ]
+    },
+    {
+      "cite": "80 U. S. App. D. C. 372",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "year": 1946,
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 F. 2d 447",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        696262
+      ],
+      "year": 1958,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/251/0447-01"
+      ]
+    },
+    {
+      "cite": "307 F. 2d 409",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        204829
+      ],
+      "year": 1962,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/307/0409-01"
+      ]
+    },
+    {
+      "cite": "366 F. 2d 649",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3657848,
+        2063262
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/366/0649-01"
+      ]
+    },
+    {
+      "cite": "125 U. S. App. D. C. 70",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3657848
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": []
+    },
+    {
+      "cite": "97 F. Supp. 546",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1405571
+      ],
+      "weight": 3,
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "550"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/97/0546-01"
+      ]
+    },
+    {
+      "cite": "295 N. Y. Supp. 382",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "weight": 2,
+      "year": 1937,
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 Misc. 776",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        863076
+      ],
+      "weight": 2,
+      "year": 1937,
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/162/0776-01"
+      ]
+    },
+    {
+      "cite": "69 N. Y. S. 2d 432",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "weight": 2,
+      "year": 1947,
+      "opinion_index": 0
+    },
+    {
+      "cite": "272 App. Div. 759",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "weight": 2,
+      "year": 1947,
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 N. Y. S. 2d 779",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "weight": 2,
+      "year": 1947,
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Misc. 479",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        931226
+      ],
+      "weight": 2,
+      "year": 1947,
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/188/0479-01"
+      ]
+    },
+    {
+      "cite": "146 N. Y. Supp. 999",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3192577
+      ],
+      "year": 1914,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/146/0999-01"
+      ]
+    },
+    {
+      "cite": "162 App. Div. 297",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5324746
+      ],
+      "year": 1914,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/162/0297-01"
+      ]
+    },
+    {
+      "cite": "178 N. Y. Supp. 752",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "year": 1919,
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 App. Div. 467",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2998806
+      ],
+      "year": 1919,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/189/0467-01"
+      ]
+    },
+    {
+      "cite": "98 N. Y. S. 2d 119",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "277 App. Div. 166",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 N. E. 2d 485",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "304 N. Y. 354",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2227467
+      ],
+      "year": 1952,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/304/0354-01"
+      ]
+    },
+    {
+      "cite": "106 N. Y. S. 2d 553",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1951,
+      "opinion_index": 0
+    },
+    {
+      "cite": "278 App. Div. 431",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2838700
+      ],
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/278/0431-01"
+      ]
+    },
+    {
+      "cite": "16 F. Supp. 746",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4155644
+      ],
+      "year": 1936,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/16/0746-01"
+      ]
+    },
+    {
+      "cite": "113 F. 2d 806",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1023570
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "809"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/113/0806-01"
+      ]
+    },
+    {
+      "cite": "2 Utah 2d 256",
+      "category": "reporters:state",
+      "reporter": "Utah 2d",
+      "case_ids": [
+        8867111
+      ],
+      "weight": 2,
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/utah-2d/2/0256-01"
+      ]
+    },
+    {
+      "cite": "381 U. S. 479",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172057
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/381/0479-01"
+      ]
+    },
+    {
+      "cite": "48 Calif. L. Rev. 383",
+      "category": "journals:journal",
+      "reporter": "Calif. L. Rev.",
+      "weight": 2,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "398-401"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1962 Sup. Ct. Rev. 212",
+      "category": "journals:journal",
+      "reporter": "Sup. Ct. Rev.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "303 U. S. 444",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141565
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/303/0444-01"
+      ]
+    },
+    {
+      "cite": "297 U. S. 233",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3929943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/297/0233-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 727",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3380786
+      ],
+      "pin_cites": [
+        {
+          "page": "733"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/96/0727-01"
+      ]
+    },
+    {
+      "cite": "343 U. S. 495",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340482
+      ],
+      "pin_cites": [
+        {
+          "page": "501-502"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/343/0495-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167317
+      ],
+      "pin_cites": [
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0075-01"
+      ]
+    },
+    {
+      "cite": "315 U. S. 568",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        374637
+      ],
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/315/0568-01"
+      ]
+    },
+    {
+      "cite": "361 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166654
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "153-154"
+        },
+        {
+          "page": "150"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/361/0147-01"
+      ]
+    },
+    {
+      "cite": "357 U. S. 513",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164109
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "526"
+        },
+        {
+          "page": "526"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0513-01"
+      ]
+    },
+    {
+      "cite": "333 U. S. 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6158437
+      ],
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0507-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139418
+      ],
+      "pin_cites": [
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0252-01"
+      ]
+    },
+    {
+      "cite": "310 U. S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137179
+      ],
+      "pin_cites": [
+        {
+          "page": "102"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/310/0088-01"
+      ]
+    },
+    {
+      "cite": "250 N. Y. S. 2d 529",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "pin_cites": [
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Misc. 2d 219",
+      "category": "reporters:state",
+      "reporter": "Misc. 2d",
+      "case_ids": [
+        1140881
+      ],
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc2d/43/0219-01"
+      ]
+    },
+    {
+      "cite": "379 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728748
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "72-75"
+        },
+        {
+          "page": "75"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0064-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "265-266"
+        },
+        {
+          "page": "271-272"
+        },
+        {
+          "page": "279"
+        },
+        {
+          "page": "266"
+        },
+        {
+          "page": "284-285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "316 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        368211
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/316/0052-01"
+      ]
+    },
+    {
+      "cite": "4 Harv. L. Rev. 193",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 N. E. 442",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "443"
+        },
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 N. Y. 538",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2305225
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "544"
+        },
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/171/0538-01"
+      ]
+    },
+    {
+      "cite": "221 N. E. 2d 543",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 9,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "544"
+        },
+        {
+          "page": "544-545"
+        },
+        {
+          "page": "545"
+        },
+        {
+          "page": "545"
+        },
+        {
+          "page": "545"
+        },
+        {
+          "page": "546"
+        },
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 N. Y. 2d 324",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        6796826
+      ],
+      "weight": 6,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "327"
+        },
+        {
+          "page": "328"
+        },
+        {
+          "page": "328"
+        },
+        {
+          "page": "328"
+        },
+        {
+          "page": "329"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/18/0324-01"
+      ]
+    },
+    {
+      "cite": "384 U. S. 995",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12088492,
+        12088453
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0995-02",
+        "/us/384/0995-01"
+      ]
+    },
+    {
+      "cite": "382 U. S. 936",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6384357,
+        6384039,
+        6384723,
+        6384184,
+        6384542
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/382/0936-03",
+        "/us/382/0936-01",
+        "/us/382/0936-05",
+        "/us/382/0936-02",
+        "/us/382/0936-04"
+      ]
+    },
+    {
+      "cite": "207 N. E. 2d 604",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 N. Y. 2d 986",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        2271971
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/15/0986-01"
+      ]
+    },
+    {
+      "cite": "240 N. Y. S. 2d 286",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "pin_cites": [
+        {
+          "page": "290"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 App. Div. 2d 485",
+      "category": "reporters:state",
+      "reporter": "A.D.2d",
+      "case_ids": [
+        3102004
+      ],
+      "pin_cites": [
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad2d/18/0485-01"
+      ]
+    },
+    {
+      "cite": "393 S. W. 2d 671",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10168429
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/393/0671-01"
+      ]
+    },
+    {
+      "cite": "351 F. 2d 702",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        807862
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/351/0702-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8873
+      ],
+      "pin_cites": [
+        {
+          "page": "140-145"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/360/0109-01"
+      ]
+    },
+    {
+      "cite": "365 U. S. 431",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166650
+      ],
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/365/0431-01"
+      ]
+    },
+    {
+      "cite": "366 U. S. 82",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1285454
+      ],
+      "pin_cites": [
+        {
+          "page": "97"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/366/0082-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765333
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/372/0335-01"
+      ]
+    },
+    {
+      "cite": "316 U. S. 455",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        368158
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/316/0455-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167317
+      ],
+      "pin_cites": [
+        {
+          "page": "94"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/383/0075-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "293",
+          "parenthetical": "concurring opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "371 U. S. 415",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        450732
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/371/0415-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169382
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/377/0492-01"
+      ]
+    },
+    {
+      "cite": "325 U. S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6155867
+      ],
+      "pin_cites": [
+        {
+          "page": "113, 134"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/325/0091-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 479",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525344
+      ],
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/380/0479-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167317
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "88"
+        },
+        {
+          "page": "94"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/383/0075-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "163 Mass. 574",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        786187
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/mass/163/0574-01"
+      ]
+    },
+    {
+      "cite": "155 N. E. 662",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "244 N. Y. 331",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1977892
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/ny/244/0331-01"
+      ]
+    },
+    {
+      "cite": "277 N. W. 264",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "202 Minn. 1",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        1729730
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/minn/202/0001-01"
+      ]
+    },
+    {
+      "cite": "108 Fla. 177",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1225724
+      ],
+      "weight": 2,
+      "opinion_index": 3,
+      "case_paths": [
+        "/fla/108/0177-01"
+      ]
+    },
+    {
+      "cite": "22 A. 2d 877",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "127 N. J. L. 395",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        127493
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/njl/127/0395-01"
+      ]
+    },
+    {
+      "cite": "343 U. S. 250",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339036
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/343/0250-01"
+      ]
+    },
+    {
+      "cite": "54 A. 324",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "205 Pa. 1",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        930060
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/pa/205/0001-01"
+      ]
+    },
+    {
+      "cite": "66 A. 731",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "102 Me. 340",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        674837
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/me/102/0340-01"
+      ]
+    },
+    {
+      "cite": "244 N. Y. S. 2d 701",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "41 Misc. 2d 42",
+      "category": "reporters:state",
+      "reporter": "Misc. 2d",
+      "case_ids": [
+        1134299
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/misc2d/41/0042-01"
+      ]
+    },
+    {
+      "cite": "132 N. Y. Supp. 237",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3415918
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/nys/132/0237-01"
+      ]
+    },
+    {
+      "cite": "147 App. Div. 783",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2461713
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/ad/147/0783-01"
+      ]
+    },
+    {
+      "cite": "310 U. S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138344
+      ],
+      "pin_cites": [
+        {
+          "page": "310"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/310/0296-01"
+      ]
+    },
+    {
+      "cite": "181 N. Y. Supp. 481",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "191 App. Div. 501",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5808891
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/ad/191/0501-01"
+      ]
+    },
+    {
+      "cite": "367 U. S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785580
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/367/0643-01"
+      ]
+    },
+    {
+      "cite": "39 N. Y. U. L. Rev. 962",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. L. Rev.",
+      "year": 1964,
+      "opinion_index": 3
+    },
+    {
+      "cite": "244 N. Y. S. 2d 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1963,
+      "opinion_index": 3
+    },
+    {
+      "cite": "19 App. Div. 2d 865",
+      "category": "reporters:state",
+      "reporter": "A.D.2d",
+      "case_ids": [
+        5508597,
+        5508125,
+        5502998
+      ],
+      "year": 1963,
+      "opinion_index": 3,
+      "case_paths": [
+        "/ad2d/19/0865-03",
+        "/ad2d/19/0865-02",
+        "/ad2d/19/0865-01"
+      ]
+    },
+    {
+      "cite": "103 N. E. 1108",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "year": 1913,
+      "opinion_index": 3
+    },
+    {
+      "cite": "210 N. Y. 51",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        63116
+      ],
+      "year": 1913,
+      "opinion_index": 3,
+      "case_paths": [
+        "/ny/210/0051-01"
+      ]
+    },
+    {
+      "cite": "69 N. Y. S. 2d 432",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1947,
+      "opinion_index": 3
+    },
+    {
+      "cite": "272 App. Div. 759",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "year": 1947,
+      "opinion_index": 3
+    },
+    {
+      "cite": "68 N. Y. S. 2d 779",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1947,
+      "opinion_index": 3
+    },
+    {
+      "cite": "188 Misc. 479",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        931226
+      ],
+      "year": 1947,
+      "opinion_index": 3,
+      "case_paths": [
+        "/misc/188/0479-01"
+      ]
+    },
+    {
+      "cite": "113 F. 2d 806",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1023570
+      ],
+      "pin_cites": [
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/113/0806-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167317
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "86-87, n. 13"
+        },
+        {
+          "page": "86"
+        },
+        {
+          "page": "87, n. 13"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/383/0075-01"
+      ]
+    },
+    {
+      "cite": "333 U. S. 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6158437
+      ],
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/333/0507-01"
+      ]
+    },
+    {
+      "cite": "379 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728748
+      ],
+      "weight": 2,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/379/0064-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "316 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        368211
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/316/0052-01"
+      ]
+    },
+    {
+      "cite": "221 N. E. 2d 543",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1966,
+      "opinion_index": 3
+    },
+    {
+      "cite": "18 N. Y. 2d 324",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        6796826
+      ],
+      "year": 1966,
+      "opinion_index": 3,
+      "case_paths": [
+        "/ny-2d/18/0324-01"
+      ]
+    },
+    {
+      "cite": "69 Harv. L. Rev. 875",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "906"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "12 Vand. L. Rev. 755",
+      "category": "journals:journal",
+      "reporter": "Vand. L. Rev.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "12 Vand. L. Rev. 549",
+      "category": "journals:journal",
+      "reporter": "Vand. L. Rev.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "40 N. E. 1039",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "367 U. S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785580
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "656"
+        },
+        {
+          "page": "657"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/367/0643-01"
+      ]
+    },
+    {
+      "cite": "371 U. S. 415",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        450732
+      ],
+      "pin_cites": [
+        {
+          "page": "433"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/371/0415-01"
+      ]
+    },
+    {
+      "cite": "260 N. Y. S. 2d 451",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "weight": 2,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "454"
+        },
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 4
+    },
+    {
+      "cite": "23 App. Div. 2d 216",
+      "category": "reporters:state",
+      "reporter": "A.D.2d",
+      "case_ids": [
+        3153678
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/ad2d/23/0216-01"
+      ]
+    },
+    {
+      "cite": "381 U. S. 479",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172057
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "485"
+        },
+        {
+          "page": "494"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/381/0479-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167317
+      ],
+      "pin_cites": [
+        {
+          "page": "92"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/383/0075-01"
+      ]
+    },
+    {
+      "cite": "250 N. Y. S. 2d 529",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "pin_cites": [
+        {
+          "page": "541"
+        }
+      ],
+      "opinion_index": 4
+    },
+    {
+      "cite": "43 Misc. 2d 219",
+      "category": "reporters:state",
+      "reporter": "Misc. 2d",
+      "case_ids": [
+        1140881
+      ],
+      "pin_cites": [
+        {
+          "page": "230"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/misc2d/43/0219-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "4 Harv. L. Rev. 193",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "196"
+        }
+      ],
+      "opinion_index": 4
+    },
+    {
+      "cite": "221 N. E. 2d 543",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1966,
+      "opinion_index": 4
+    },
+    {
+      "cite": "18 N. Y. 2d 324",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        6796826
+      ],
+      "year": 1966,
+      "opinion_index": 4,
+      "case_paths": [
+        "/ny-2d/18/0324-01"
+      ]
+    },
+    {
+      "cite": "367 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785558
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/367/0497-01"
+      ]
+    },
+    {
+      "cite": "341 U. S. 622",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1148157
+      ],
+      "weight": 2,
+      "year": 1951,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/341/0622-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 77",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3936243
+      ],
+      "year": 1949,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/336/0077-01"
+      ]
+    },
+    {
+      "cite": "322 U. S. 487",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6144433
+      ],
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "489-490"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/322/0487-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 532",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141481
+      ],
+      "year": 1897,
+      "pin_cites": [
+        {
+          "page": "544"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/168/0532-01"
+      ]
+    },
+    {
+      "cite": "338 U. S. 25",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3949489
+      ],
+      "pin_cites": [
+        {
+          "page": "28-29"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/338/0025-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 616",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516335
+      ],
+      "pin_cites": [
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/116/0616-01"
+      ]
+    },
+    {
+      "cite": "277 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3903035
+      ],
+      "year": 1928,
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/277/0438-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 131",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168589
+      ],
+      "year": 1966,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/383/0131-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2999,
+    "char_count": 89844,
+    "ocr_confidence": 0.662,
+    "pagerank": {
+      "raw": 5.739789749029232e-06,
+      "percentile": 0.9990630727891858
+    },
+    "sha256": "7b56f2a28ac11085400ac0f7a6daa708c08d1e7035acab318936b81b4b964192",
+    "simhash": "1:2e55e46af3bd8ef4",
+    "word_count": 15132
+  },
+  "last_updated": "2024-02-27T17:31:54.813683+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Mr. Justice Douglas joins,",
+      "with whom The Chief Justice and Mr. Justice Clark join,"
+    ],
+    "parties": [
+      "TIME, INC. v. HILL."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brennan\ndelivered the opinion of the Court.\nThe question in this case is whether appellant, publisher of Life Magazine, was denied constitutional protections of speech and press by the application by the New York courts of \u00a7\u00a7 50-51 of the New York Civil Rights Law to award appellee damages on allegations that Life falsely, reported that a new play portrayed an experience suffered by appellee and his family.\nThe article appeared in Life in February 1955. It was entitled \u201cTrue Crime Inspires Tense Play,\u201d with the subtitle, \u201cThe ordeal of a family trapped by convicts gives Broadway a new thriller, \u2018The Desperate Hours.\u2019 \u201d The text of the article reads as follows:\n\u201cThree years ago Americans all over the country read about the desperate ordeal of the James Hill family, who were held prisoners in their home outside Philadelphia by three escaped convicts. Later they read about it in Joseph Hayes\u2019s novel, The Desperate Hours, inspired by the family\u2019s experience. Now they can see the story re-enacted in Hayes\u2019s Broadway play based on the book, and next year will see it in his movie, which has been filmed but is being held up until the play has a chance to pay off.\n\u201cThe play, directed by Robert Montgomery and expertly acted, is a heart-stopping account of how a family rose to heroism in a crisis. Life photographed the play during its Philadelphia tryout, transported some of the actors to the actual house where the Hills were besieged. On the next page scenes from the play are re-enacted on the site of the crime.\u201d\nThe pictures on the ensuing two pages included an enactment of the son being \u201croughed up\u201d by one of the convicts, entitled \u201cbrutish convict,\u201d a picture of the daughter biting the hand of a convict to make him drop a gun, entitled \u201cdaring daughter,\u201d and one of the father throwing his gun through the door after a \u201cbrave try\u201d to save his family is foiled.\nThe James Hill referred to in the article is the appel-lee. He and his wife and five children involuntarily became the subjects of a front-page news story after being held hostage by three escaped convicts in their suburban, Whitemarsh, Pennsylvania, home for 19 hours on September 11-12, 1952. The family was releas\u00e9d unharmed. In an interview with newsmen after the convicts departed, appellee stressed that the convicts had treated the family courteously, had not molested them, and had not been at all violent. The convicts were thereafter apprehended in a widely publicized encounter with the police which resulted in the killing of two of the convicts. Shortly thereafter the family moved to Connecticut. The appellee discouraged all efforts to. keep them in the public spotlight through magazine articles or appearances on television.\nIn the spring of 1953, Joseph Hayes\u2019 novel, The Desperate Hours, was published. The story depicted the experience of a family of four held hostage by three escaped convicts in the family\u2019s suburban home. But, unlike Hill\u2019s experience, the family of the story suffer violence at the hands of the convicts; the father and son are beaten and the daughter subjected to a verbal sexual insult.\nThe book was made into a play, also entitled The Desperate Hours, and it is Life\u2019s article about the play which is the subject of appellee\u2019s action. The complaint sought damages under \u00a7\u00a7 50-51 on allegations that the Life article was intended to, and did, give the impression that the play mirrored the Hill family\u2019s experience, which, to the knowledge of defendant \u201c. . . was false and untrue.\u201d Appellant\u2019s defense was that the article was \u201ca subject of legitimate news interest,\u201d \u201ca subject of general interest and of value and concern to the public\u201d at the time of publication, and that it was \u201cpublished in good faith without any malice whatsoever . . . .\u201d A motion to dismiss the complaint for substantially these reasons was made at the close of the case and was denied by the trial judge on the ground that the proofs presented a jury question as to the truth of the article.\nThe jury awarded appellee $50,000 compensatory and $25,000 punitive damages. On appeal the Appellate Division of the Supreme Court ordered a new trial as to damages but sustained the jury verdict of liability. The court said as to liability:\n\u201cAlthough the play was fictionalized, Life\u2019s article portrayed it as a re-enactment of the Hills\u2019 experience. It is an inescapable conclusion that this was done to advertise and attract further attention to the play, and to increase present and future magazine circulation as well. It is evident that the article cannot be characterized as a mere dissemination of news, nor even an effort to supply legitimate newsworthy information in which the public had, or might have a proper interest.\u201d 18 App. Div. 2d 485, 489, 240 N. Y. S. 2d 286, 290.\nAt the new trial on damages, a jury was waived and the court awarded $30,000 compensatory damages without punitive damages.\nThe New York Court of Appeals affirmed the Appellate Division \u201con the majority and concurring opinions at the Appellate Division,\u201d two judges dissenting. 15 N. Y. 2d 986, 207 N. E. 2d 604. We noted probable jurisdiction of the appeal to consider the important constitutional questions of freedom of speech and press involved. 382 U. S. 936. After argument last Term, the case was restored to the docket for reargument, 384 U. S. 995. We reverse and remand the case to the Court of Appeals for further proceedings not inconsistent with this opinion.\nI.\nSince the reargument, we have had the advantage of an opinion of the Court of Appeals of New York which has materially aided us in our understanding of that court\u2019s construction of the statute. It is the opinion of Judge Keating for the court in Spahn v. Julian Messner, Inc., 18 N. Y. 2d 324, 221 N. E. 2d 543 (1966). The statute was enacted in 1903 following the decision of the Court of Appeals in 1902 in Roberson v. Rochester Folding Box Co., 171 N. Y. 538, 64 N. E. 442. Roberson was an action against defendants for adorning their flour bags with plaintiff\u2019s picture without her consent. It was grounded upon an alleged invasion of a \u201cright of privacy,\u201d defined by the Court of Appeals to be \u201cthe claim that a man has the right to pass through this world, if he wills, without having his picture published ... or his eccentricities commented upon either in handbills, circulars, catalogues, periodicals or newspapers . . . .\u201d 171 N. Y., at 544, 64 N. E., at 443. The Court of Appeals traced the theory to the celebrated article of Warren and Brand\u00e9is, entitled The Right to Privacy, published in 1890. 4 Harv. L. Rev. 193. The Court of Appeals, however, denied the existence of such a right at common law but observed that \u201c[t]he legislative body could very well interfere and arbitrarily provide that no one should be permitted for his own selfish purpose to use the picture dr the name of another for advertising purposes without his consent.\u201d 171 N. Y., at 545, 64 N. E., at 443. The legislature enacted \u00a7\u00a7 50-51 in response to that observation.\nAlthough \u201cRight of Privacy\u201d is the caption of \u00a7\u00a7 50-51, the term nowhere appears in the text of the statute itself. The text of the statute appears to proscribe only conduct of the kind involved in Roberson, that is, the appropriation and use in advertising or to promote the sale of goods, of another\u2019s name, portrait or picture without his consent. An application of that limited scope would present different questions of violation of the constitutional protections for speech and press. Compare Valentine v. Chrestensen, 316 U. S. 52, with New York Times Co. v. Sullivan, 376 U. S. 254, 265-266.\nThe New York courts have, however, construed the statute to operate much more broadly. In Spahn the Court of Appeals stated that \u201cOver the years since the statute\u2019s enactment in 1903, its social desirability and remedial nature have led to its being given a liberal construction consonant with its over-all purpose . . . .\u201d 18 N. Y. 2d, at 327, 221 N. E. 2d, at 544. Specifically, it has been held in some circumstances to authorize a remedy against the press and other communications media which publish the names, pictures, or portraits of people without their consent. Reflecting the fact, however, that such applications may raise serious questions of conflict with the constitutional protections for speech and press, decisions under the statute have tended to limit the statute\u2019s application. \u201c[E]ver mindful that the written word or picture is involved, courts have engrafted exceptions and restrictions onto the statute to avoid any conflict with the free dissemination of thoughts, ideas, newsworthy events, and matters of public interest.\u201d Id., 18 N. Y. 2d, at 328, 221 N. E. 2d, at 544-545.\nIn the light of questions that counsel were asked to argue on reargument, it is particularly relevant that the Court of Appeals made crystal clear in the Spahn opinion that truth is a complete defense in actions under the statute based upon reports of newsworthy people or events. The opinion states: \u201cThe factual reporting of newsworthy persons and events is in the public interest and is protected.\u201d 18 N. Y. 2d, at 328, 221 N. E. 2d, at 545. Constitutional questions which might arise if truth were not a defense are therefore of no concern. Cf. Garrison v. Louisiana, 379 U. S. 64, 72-75.\nBut although the New York statute affords \u201clittle protection\u201d to the \u201cprivacy\u201d of a newsworthy person, \u201cwhether he be such by choice or involuntarily\u201d the statute gives him a right of action when his name, picture, or portrait is the subject of a \u201cfictitious\u201d report or article. Spahn points up the distinction. Spahn was an action under the statute brought by the well-known professional baseball pitcher, Warren Spahn. He sought an injunction and damages against the unauthorized publication of what purported to be a biography of his life. The trial judge had found that \u201cthe record unequivocally establishes that the book publicizes areas of Warren Spahn\u2019s personal and private life, albeit inaccurate and distorted, and consists of a host, a preponderant percentage, of factual errors, distortions and fanciful passages . . . 43 Misc. 2d 219, 232, 250 N. Y. S. 2d 529, 542. The Court of Appeals sustained the holding that in these circumstances the publication was proscribed by \u00a7 51 of the Civil Rights Law and was not within the exceptions and restrictions for newsworthy events engrafted onto the statute. The Court of Appeals said:\n\u201cBut it is erroneous to confuse privacy with \u2018personality\u2019 or to assume that privacy, though lost for a certain time or in a certain context, goes forever unprotected .... Thus it may be appropriate to say that the plaintiff here, Warren Spahn, is a public personality and that, insofar as his professional career is involved, he is substantially without a right to privacy. That is not to say, however, that his \u2018personality\u2019 may be fictionalized and that, .as fictionalized, it may be exploited for the defendants\u2019 commercial benefit through the medium of an unauthorized biography.\u201d Spahn, supra, at 328, 221 N. E. 2d, at 545.\nAs the instant case went to the jury, appellee, too, was regarded to be a newsworthy person \u201csubstantially without a right to privacy\u201d insofar as his hostage experience was involved, but \u00a1to be entitled to his action insofar as that experience w^s \u201cfictionalized\u201d and \u201cexploited for the defendants\u2019 commercial benefit.\u201d \u201cFictionalization,\u201d the Spahn opinion states, \u201cis the heart of the cases in point.\u201d 18 N. Y. 2d, at 328, 221 N. E. 2d, at 545.\nThe opinion goes on to say that the \u201cestablishment of minor errors in an otherwise accurate\u201d report does not prove \u201cfictionalization.\u201d Material and substantial falsification is the test. However, it is not clear whether proof of knowledge of the falsity or that the article was prepared with reckless.,disregard for the truth is also required. In New York Times Co. v. Sullivan, 376 U. S. 254, we held that the Constitution delimits a State\u2019s? j power to award damages for libel in actions brought by I public officials against critics of their official conduct. | Factual error, content defamatory of official reputation, or both, are insufficient for an award of damages for false statements unless actual malice \u2014 knowledge that the statements are false or in reckless disregard of the truth\u2014 is alleged and proved. The Spahn opinion reveals that the defendant in that case relied on New York Times as the basis of an argument that application of the statute to the publication of a substantially fictitious biography would run afoul of the constitutional guarantees. The Court of Appeals held that New York Times had no application. The court, after distinguishing the cases on the ground that Spahn did not deal with public officials or official conduct, then says, \u201cThe free speech which is encouraged and essential to the operation of a healthy government is something quite different from an individual\u2019s attempt to enjoin the publication of a fictitious biography of him. No public interest is served by protecting the dissemination of the latter. We perceive no constitutional infirmities in this respect.\u201d 18 N. Y. 2d, at 329, 221 N. E. 2d, at 546.\nIf this is meant to imply that proof of knowing or reckless falsity is not essential to a constitutional application of the statute in these cases, we disagree with the Court of Appeals. We hold that the constitutional protections for speech and press preclude the application of the New York statute to redress false reports of matters of public interest in the absence of proof that the defendant published the report with knowledge of its falsity or in reckless disregard of the truth.\nThe guarantees for speech and press are not the preserve of political expression or comment upon public affairs, essential as those are to healthy government. One need only pick up any newspaper or magazine to comprehend the vast range of published matter which exposes persons to public view, both private citizens and public officials. Exposure of the self to others in varying degrees is a concomitant of life in a civilized community. The risk of this exposure is an essential incident of life in a society which places a primary value on freedom of speech and of press. \u201cFreedom of discussion, if it would fulfill its historic function in this nation, must embrace all issues about which information is needed or appropriate to enable the members of society to cope with the exigencies of their period.\u201d Thornhill v. Alabama, 310 U. S. 88, 102. \u201cNo suggestion can be found in the Constitution that the freedom there guaranteed for speech and the press bears an inverse ratio to the timeliness and importance of the ideas seeking expression.\u201d Bridges v. California, 314 U. S. 252, 269. We have no doubt that the subject of the Life article, the opening of a rrew play linked to an actual incident, is a matter of public interest. \u201cThe line between the informing and the entertaining is too elusive for the protection of . . . [freedom of the press].\u201d Winters v. New York, 333 U. S. 507, 510. Erroneous statement is no less inevitable in such a case than in the case of comment upon public affairs, and in both, if innocent or merely negligent, \u201c. . . it must be protected if the freedoms of expression are to have the \u2018breathing space\u2019 that they \u2018need ... to survive\u2019. . . .\u201d New York Times Co. v. Sullivan, supra, at 271-272. As James Madison said, \u201cSome degree of abuse is inseparable from the proper use of every thing; and in no instance is this more true than in that of the press.\u201d 4 Elliot\u2019s Debates on the Federal Constitution 571 (1876 ed.). We create a grave risk of serious impairment of the indispensable service of a free press in a free society if we saddle the press with the impossible burden of verifying to a certainty the facts associated in news articles with a person\u2019s name, picture or portrait, particularly as related to non-defamatory matter. Even negligence would be a most elusive standard, especially when the content of the speech itself affords no warning of prospective harm to another through falsity. A negligence test would place on the press the intolerable burden of guessing how a jury might assess the reasonableness of steps taken by it to verify the accuracy of every reference to a name, picture or portrait.\nIn this context, sanctions against either innocent or negligent misstatement would present a grave hazard of discouraging the press from exercising the constitutional guarantees. Those guarantees are not for the benefit of the press so much as for the benefit of all of us. A broadly defined freedom of the press assures the maintenance of our political system and_ an open society. Fear of large verdicts in damage suits for innocent or merely negligent misstatement, even fear of the expense involved in their defense, must inevitably cause publishers to \u201csteer . . . wider of the unlawful zone,\u201d New York Times Co. v. Sullivan, 376 U. S., at 279; see also Speiser v. Randall, 357 U. S. 513, 526; Smith v. California, 361 U. S. 147, 153-154; and thus \u201ccreate the danger that the legitimate utterance will be penalized.\u201d Speiser v. Randall, supra, at 526.\nBut the constitutional guarantees can tolerate sanctions against calculated falsehood without significant impairment of their essential function. We held in New York Times that calculated falsehood enjoyed no immunity in the case of alleged defamation of a public official concerning his official conduct. Similarly, calculated falsehood should enjoy no immunity in the situation here presented us. What we said in Garrison v. Louisiana, supra, at 75, is equally applicable:\n\u201cThe use of calculated falsehood . . . would put a different cast on the constitutional question. Although honest utterance, even if inaccurate, may further the fruitful exercise of the right of free speech, it does not follow that the lie, knowingly and deliberately published . . . should enjoy a like immunity. . . . Eor the use of the known lie as a tool is at once at odds with the premises of democratic government and with the orderly manner in which economic, social, or political change is to be effected. Calculated falsehood falls into that class of utterances which \u2018are no essential part of any exposition of ideas, and are of such slight social value as a step to truth that any benefit that may be derived from them is clearly outweighed by the social interest in order and morality. . . .\u2019 Chaplinsky v. New Hampshire, 315 U. S. 568, 572. Hence the knowingly false statement and the false statement made with reckless disregard' of the truth, do not enjoy constitutional protection.\u201d\nWe find applicable here the standard of knowing or reckless falsehood, not through blind application of New York Times Co. v. Sullivan, relating solely to libel actions by public officials, but only upon consideration of the factors which arise in the particular context of the application of the New York statute in cases involving private individuals. This is neither a libel action by a private individual nor a statutory action by a public official; Therefore, although the First Amendment principles pronounced in New York Times guide our conclusion, we reach that conclusion only by applying these principles in this discrete context. It therefore serves no purpose to distinguish the facts here from those in New York Times. Were this a libel action, the distinction which has been suggested between the relative opportunities of the public official and the private individual to rebut defamatory charges might be germane. And the additional state interest in the protection of the individual against damage to his reputation would be involved. Cf. Rosenblatt v. Baer, 383 U. S. 75, 91 (Stewart, J., concurring). Moreover, a different test might be required in a statutory action by a public official, as opposed to a libel action by a public official or a statutory action by a private individual. Different considerations might arise concerning the degree of \u201cwaiver\u201d of the protection the State might afford. But the question whether the same standard should be applicable both to persons voluntarily and involuntarily thrust into the public limelight is not here before us.\nII.\nTurning to the facts of the present case, the proofs reasonably would support either a jury finding of innocent or merely negligent misstatement by Life, or a finding that Life portrayed the play as a re-enactment of the Hill family\u2019s experience reckless of the truth or with actual knowledge that the portrayal was false. The relevant testimony is as follows:\nJoseph Hayes, author of the book, also wrote the play. The story theme was inspired by the desire to write about \u201ctrue crime\u201d and for years before writing the book, he collected newspaper clippings of stories of hostage incidents. His story was not shaped by any single incident, but by several, including incidents which occurred in California, New York, and Detroit. He said that he did not consciously portray any member of the Hill family, or the Hill family\u2019s experience, although admitting that \u201cin a very direct way\u201d the Hill experience \u201ctriggered\u201d the writing of the book and the play.\nThe Life article was prepared at the direction and under the supervision of its entertainment editor, Prideaux. He learned of the production of the play from a news story. The play\u2019s director, Robert Montgomery, later suggested to him that its interesting stage setting would make the play a worthwhile subject for an article in Life. At about the same time, Prideaux ran into a friend of author Hayes, a free-lance photographer, who told Prideaux in casual conversation that the play had a \u201csubstantial connection with a true-life incident of a family being held by escaped convicts near Philadelphia.\u201d As the play was trying out in Philadelphia, Prideaux decided to contact the author. Hayes confirmed that an incident somewhat similar to the play had occurred in Philadelphia, and agreed with Prideaux to find out whether the former Hill residence would be available for the shooting of pictures for a Life article. Prideaux then met with Hayes in Philadelphia where he saw the play and drove with Hayes to the former Hill residence to test its suitability for a picture story. Neither then nor thereafter did Prideaux question Hayes about the extent to which the play was based on the Hill incident. \u201cA specific question of that nature was never asked, but a discussion of the play itself, what the play was about, in the light of my own knowledge of what the true incident was about, confirmed in my mind beyond any doubt that there was a relationship, and Mr. Hayes\u2019 presence at this whole negotiation was tacit proof of that.\u201d\nPrideaux sent photographers to the Hill residence for location photographs of scenes of the play enacted in the home, and proceeded to construct the text of the article. In his \u201cstory file\u201d were several news clippings about the Hill incident which revealed its nonviolent character, and a New York Times article by Hayes in which he stated that the play \u201cwas based on various news stories,\u201d mentioning incidents in New York, California, Detroit and Philadelphia.\nPrideaux\u2019s first draft made no mention of the Hill name except for the caption of one of the photographs. The text related that a true story of a suburban Philadelphia family had \u201csparked off\u201d Hayes to write the novel, that the play was a \u201csomewhat fictionalized\u201d account of the family\u2019s heroism in time of crisis. Pri-deaux\u2019s research assistant, whose task it was to cheek the draft for accuracy, put a question mark over the words \u201csomewhat fictionalized.\u201d Prideaux testified that the question mark \u201cmust have been\u201d brought to his attention, although he did not recollect having seen it. The draft was also brought before the copy editor, who, in the presence of Prideaux, made several changes in emphasis and substance. The first sentence was changed to focus on the Hill incident, using the family\u2019s name; the novel was said to have been \u201cinspired\u201d by that incident, and the play-was referred to as a \u201cre-enactment.\u201d The words \u201csomewhat fictionalized\u201d were deleted.\nPrideaux labeled as \u201cemphatically untrue\u201d defense counsel\u2019s suggestion during redirect examination that from the beginning he knew that the play had no relationship to the Hill incident apart from being a hostage incident. Prideaux admitted that he knew the play was \u201cbetween a little bit and moderately fictionalized,\u201d but stated that he thought beyond doubt that the important quality, the \u201cheart and soul\u201d of the play, was the Hill incident.\nThe jury might reasonably conclude from this evidence \u2014 particularly that the New York Times article was in the story file, that the copy editor deleted \u201csomewhat fictionalized\u201d after the research assistant questioned its accuracy, and that Prideaux admitted that he knew the play was \u201cbetween a little bit and moderately fictionalized\u201d \u2014 that Life knew the falsity of, or was reckless of the truth in, stating in the article that \u201cthe story re-enacted\u201d the Hill family\u2019s experience. On the other hand, the jury might reasonably predicate a finding of innocent or only negligent misstatement on the testimony that a statement was made to Prideaux by the free-lance photographer that linked the play to an incident in Philadelphia, that the author Hayes cooperated in arranging for the availability of the former Hill home, and that Prideaux thought beyond doubt that the \u201cheart and soul\u201d of the play was the Hill incident.\nIII.\nWe do not think, however, that the instructions confined the jury to a verdict of liability based on a finding that the statements in the article were made with knowledge of their falsity or in reckless disregard of the truth. The jury was instructed that liability could not be found under \u00a7\u00a7 50-51 \u201cmerely because of some incidental mistake of fact, or some incidental incorrect statement,\u201d and that a verdict of liability could rest only on findings that (1) Life published the article, \u201cnot to disseminate news, but was using plaintiffs\u2019 names, in connection with a fictionalized episode as to plaintiffs\u2019 relationship to The Desperate Hours\u201d; the Court variously restated this \u201cfictionalization\u201d requirement in terms such as whether appellant \u201caltered or changed the true facts concerning plaintiffs' relationship to The Desperate Hours, so that the article, as published, constituted substantially fiction or a fictionalized version . . . ,\u201d whether the article constituted \u201cfiction,\u201d or was \u201cfictionalized\u201d; and that (2) the article was published to advertise the play or \u201cfor trade purposes.\u201d This latter purpose was variously defined as one \u201cto amuse, thrill, astonish or move the reading public so as to increase the circulation of the magazine or for some other material benefit,\u201d \u201cto increase circulation or enhance the standing of the magazine with its readers,\u201d and \u201cfor the publisher\u2019s profits through increased circulation, induced by exploitation of the plaintiffs.\u201d\nThe court also instructed the jury that an award of punitive damages was justified if the jury found that the appellant falsely connected appellee to the play \u201cknowingly or through failure to make a reasonable investigation,\u201d adding \u201cYou do not need to find that there was any actual ill will or personal malice toward the plaintiffs if you find a reckless or wanton disregard of the plaintiffs\u2019 rights.\u201d\nAppellee argues that the instructions to determine whether Life \u201caltered or changed\u201d the true facts, and whether, apart from incidental errors, the article was a \u201csubstantial fiction\u201d or a \u201cfictionalized version\u201d were tantamount to instructions that the jury must find that Life knowingly falsified the facts. We do not think that the instructions bear that interpretation, particularly in light of the marked contrast in the instructions on compensatory and punitive damages. The element of \u201cknowingly\u201d is mentioned only in the instruction that punitive damages must be supported by a finding that Life falsely connected the Hill family with the play \u201cknowingly or through failure to make a reasonable investigation.\u201d Moreover, even as to punitive damages, the instruction that such damages were justified on the basis of \u201cfailure to make a reasonable investigation\u201d is an instruction that proof of negligent misstatement is enough, and we have rejected the test of negligent misstatement as inadequate. Next, the trial judge plainly did not regard his instructions as limiting the jury to a verdict of liability based on a finding of knowing or reckless falsity; he denied appellant\u2019s motion to dismiss after the close of the evidence because he perceived that it was for the jury to find \u201cwhether the Life article was true or whether an inference could be obtained from reading it that it was not true.\u201d This implies a view that \u201cfictionalization\u201d was synonymous with \u201cfalsity\u201d without regard to knowledge or even negligence, except for the purpose of an award of punitive damages. Finally, nothing in the New York cases decided at the time of trial limited liability to cases of knowing or reckless falsity and Spahn, decided since, has left the question in doubt.\nThe requirement that the jury also find that the article was published \u201cfor trade purposes,\u201d as defined in the charge, cannot save the charge from constitutional infirmity. \u201cThat books, \u2018newspapers, and magazines are published and sold for profit does not prevent them from being a form of expression whose liberty is safeguarded by the First Amendment.\u201d Joseph Burstyn, Inc. v. Wilson, 343 U. S. 495, 501-502; see New York Times Co. v. Sullivan, 376 U. S., at 266; Smith v. California, 361 U. S. 147, 150; cf. Ex parte Jackson, 96 U. S. 727, 733; Grosjean v. American Press Co., 297 U. S. 233; Lovell v. Griffin, 303 U. S. 444.\nIV.\nThe appellant argues that the statute should be declared unconstitutional on its face if construed by the New York courts to impose liability without proof of knowing or reckless falsity. Such a declaration would not be warranted even if it were entirely clear that this had previously been the view of the New York courts. The New York Court of Appeals, as the Spahn opinion demonstrates, has been assiduous in construing the statute to avoid invasion of the constitutional protections of speech and press. We, therefore, confidently expect that the New York courts will apply the statute consistently with the constitutional command. Any possible difference with us as to the thrust of the constitutional command is narrowly limited in this case to the failure of the trial judge to instruct the jury that a verdict of liability could be predicated only on a finding of knowing or reckless falsity in the publication of the Life article.\nThe judgment of the Court of Appeals is set aside and the case is remanded for further proceedings not inconsistent with this opinion.\nIt is so ordered.\nThe complete text of the New York Civil Rights Law \u00a7\u00a7 50-51 is as follows:\n\u201c\u00a7 50. Right of privacy\n\u201cA person, firm or corporation that uses for advertising purposes, or for the purposes of trade, the name, portrait or picture of any-living person without having first obtained the written consent of such person, or if a minor of his or her parent or guardian, is guilty of a misdemeanor.\u201d\n\u201c\u00a7 51. Action for injunction and for damages\n\u201cAny person whose name, portrait or picture is used within this state for advertising purposes or for the purposes of trade without the written consent first obtained as above provided may maintain an equitable action in the supreme court of this state against the person, firm or corporation so using his name, portrait or picture, to prevent and restrain the use thereof; and may also sue and recover damages for any injuries sustained by reason of such use and if the defendant shall have knowingly used such person\u2019s name, portrait or picture in such manner as is forbidden or declared to be unlawful by the last section, the jury, in its discretion, may award exemplary damages. But nothing contained in this act shall be so construed as to prevent any person, firm or corporation, practicing the profession of photography, from exhibiting in or about his or its establishment specimens of the work of such establishment, unless the same is continued by such person, firm or corporation after written notice objecting thereto has been-given by the person portrayed; and nothing contained in this act shall be so construed as to prevent any person, firm or corporation from using the name, portrait or picture of any manufacturer or dealer in connection with the goods, wares and merchandise manufactured, produced or dealt in by him which he has sold or disposed of with such name, portrait or picture used in connection therewith; or from using the name, portrait or picture of any author, composer or artist in connection with his literary, musical or artistic productions which he has sold or disposed of with such name, portrait or picture used in connection therewith.\u201d\nInitially, appellee's wife was joined in the action, and was awarded $75,000 compensatory and $25,000 punitive damages by the jury. However, her action was apparently dismissed by stipulation prior to remand, because the action has since proceeded solely upon appellee\u2019s judgment.\nThe various facets of this \u201cright\u201d have been the subject of much comment. See, e. g., Beaney, The Constitutional Right to Privacy in the Supreme Court, 1962 Sup. Ct. Rev. 212; Prosser, Privacy, 48 Calif. L. Rev. 383 (1960); Westin, Science, Privacy, and Freedom: Issues and Proposals for the 1970\u2019s (Part I), 66 Col. L. Rev. 1003 (1966); Feinberg, Recent Developments in the Law of Privacy, 48 Col. L. Rev. 713, 717-726 (1948). The latest collection of articles appears in 31 Law & Contemp. Prob. 251-435 (1966). The commentary relates not so much to the assertion of constitutional protections against intrusions by government, see Griswold v. Connecticut, 381 U. S. 479, as to rights of action for injunctive relief or damages to combat intrusive behavior in the private sector of society.\nUtah\u2019s statute was modeled on New York\u2019s and, following early New York decisions, the Utah Supreme Court has construed it to afford a cause of action only in such cases. Donahue v. Warner Bros. Pictures Dist. Corp., 2 Utah 2d 256, 272 P. 2d 177 (1954).\nSee, e. g., Sidis v. F-R Pub. Corp., 113 F. 2d 806 (C. A. 2d Cir.), cert. denied, 311 U. S. 711 (1940); Sweenek v. Pathe News, Inc., 16 F. Supp. 746 (D. C. E. D. N. Y. 1936); Gautier v. Pro-Football, Inc., 278 App. Div. 431, 106 N. Y. S. 2d 553 (1951), aff'd, 304 N. Y. 354, 107 N. E. 2d 485 (1952); Molony v. Boy Comics Pubs., Inc., 277 App. Div. 166, 98 N. Y. S. 2d 119 (1950); Humiston v. Universal Film Mfg. Co., 189 App. Div. 467, 178 N. Y. Supp. 752 (1919); Colyer v. Richard K. Fox Pub. Co., 162 App. Div. 297, 146 N. Y. Supp. 999 (1914); Koussevitzky v. Allen, Towne & Heath, Inc., 188 Misc. 479, 68 N. Y. S. 2d 779, aff\u2019d, 272 App. Div. 759, 69 N. Y. S. 2d 432 (1947); Lahiri v. Daily Mirror, Inc., 162 Misc. 776, 295 N. Y. Supp. 382 (1937).\n\u201cUpon reargument, counsel are requested to discuss in their further briefs and oral arguments, in addition to the other issues, the following questions:\n\u201c(1) Is the truthful presentation of a newsworthy item ever actionable under the New York statute as construed or on its face? If so, does appellant have standing to challenge that aspect of the statute?\n\u201c(2) Should the per curiam opinion of the New York Court of Appeals be read as adopting the following portion of the concurring opinion in the Appellate Division?\n\u201c \u2018However, if it can be clearly demonstrated that the newsworthy item is presented, not for the purpose of disseminating news, but rather for the sole purpose of increasing circulation, then the rationale for exemption from section 51 no longer exists and the exemption should not apply. In such circumstances the privilege to use one\u2019s name should not be granted even though a true account of the event be given \u2014 let alone when the account is sensationalized and fictionalized.\u2019 \u201d 384 U. S. 995.\nThis limitation to newsworthy persons and events does not of course foreclose an interpretation of the statute to allow damages where \u201cRevelations may be so intimate and so unwarranted in view of the victim\u2019s position as to outrage the community\u2019s notions of decency.\u201d Sidis v. F-R Pub. Corp., 113 F. 2d 806, 809 (C. A. 2d Cir.), cert. denied, 311 U. S. 711 (1940). Cf. Garner v. Triangle Pubs., Inc., 97 F. Supp. 546, 550 (D. C. S. D. N. Y. 1951); Restatement, Torts \u00a7867, comment d (1939). See id., illust. 6. This case presents no question whether truthful publication of such matter could be constitutionally proscribed.\nIt has been said that a \u201cright of privacy\u201d has been recognized at common law in 30 States plus the District of Columbia and by statute in four States. See Prosser, Law of Torts 831-832 (3d ed. 1964). Professor Kalven notes, however, that since Warren and Brand\u00e9is championed an action against the press for public disclosure of truthful but private details about the individual which caused emotional upset to him, \u201cit has been agreed that there is a generous privilege to serve the public interest in news. . . . What is at issue, it seems to me, is whether the claim of privilege is not so overpowering as virtually to swallow the tort. What can be left of the vaunted new right after the claims of privilege have been confronted?\u201d Kalven, \u201cPrivacy in Tort Law \u2014 Were Warren and Brand\u00e9is Wrong ?\u201d 31 Law & Contemp. Prob. 326, 335-336 (1966). Some representative cases in which the State \u201cright of privacy\u201d was held to give way to the right of the press to publish matters of public interest are Afro-American Pub. Co. v. Jaffe, 125 U. S. App. D. C. 70, 366 F. 2d 649 (1966); Wagner v. Fawcett Pubs., 307 F. 2d 409 (C. A. 7th Cir. 1962); Jenkins v. Dell Pub. Co., 251 F. 2d 447 (C. A. 3d Cir. 1958); Elmhurst v. Pearson, 80 U. S. App. D. C. 372, 153 F. 2d 467 (1946); Thompson v. Curtis Pub. Co., 193 F. 2d 953 (C. A. 3d Cir.1952); Samuel v. Curtis Pub. Co., 122 F. Supp. 327 (D. C. N. D. Cal. 1954); Miller v. N. B. C., 157 F. Supp. 240 (D. C. Del. 1957); Berg v. Minneapolis Star & Tribune Co., 79 F. Supp. 957 (D. C. Minn. 1948); Smith v. Doss, 251 Ala. 250, 37 So. 2d 118 (1948); Smith v. Suratt, 7 Alaska 416 (1926); Metter v. Los Angeles Examiner, 35 Cal. App. 2d 304, 95 P. 2d 491 (1939); Barbieri v. News-Journal Co., - Del. -, 189 A. 2d 773 (1963); Jacova v. Southern Radio & T. V. Co., 83 So. 2d 34 (Fla. 1955); Waters v. Fleetwood, 212 Ga. 161, 91 S. E. 2d 344 (1956); Buzinski v. Do-All Co., 31 Ill. App. 2d 191, 175 N. E. 2d 577 (1961); Jones v. Herald Post Co., 230 Ky. 227, 18 S. W. 2d 972 (1929); Kelley v. Post Pub. Co., 327 Mass. 275, 98 N. E. 2d 286 (1951); Martin v. Dorton, 210 Miss. 668, 50 So. 2d 391 (1951); Hubbard v. Journal Pub. Co., 69 N. M. 473, 368 P. 2d 147 (1962); Schnabel v. Meredith, 378 Pa. 609, 107 A. 2d 860 (1954); Meetze v. Associated Press, 230 S. C. 330, 95 S. E. 2d 606 (1956); Truxes v. Kenco Enterprises, 80 S. D. 104, 119 N. W. 2d 914 (1963). See Restatement, Torts \u00a7867, comment d (1939).\n\u201cOne of the clearest exceptions to the statutory prohibition is the rule that a public figure, whether he be such by choice or involuntarily, is subject to the often searching beam ,of publicity and that, in balance with the legitimate public interest, the law affords his privacy little protection,\u201d Spahn, supra, at 328, 221 N. E. 2d, at 545.\nBinns v. Vitagraph Co., 210 N. Y. 51, 103 N. E. 1108 (1913); Youssoupoff v. Columbia Broadcasting System, Inc., 19 App. Div. 2d 865, 244 N. Y. S. 2d 1 (1963); Sutton v. Hearst Corp., 277 App. Div. 155, 98 N. Y. S. 2d 233 (1950); Koussevitzky v. Allen, Towne & Heath, Inc., 188 Misc. 479, 68 N. Y. S. 2d 779, aff\u2019d, 272 App. Div. 759, 69 N. Y. S. 2d 432 (1947); Lahiri v. Daily Mirror, Inc., 162 Misc. 776, 295 N. Y. Supp. 382 (1937). The doctrine of \u201cfictionalization\u201d has been applied where there is no statute. See, e. g., Leverton v. Curtis Pub. Co., 192 F. 2d 974 (C. A. 3d Cir. 1951); Hazlitt v. Fawcett Pubs., 116 F. Supp. 538 (D. C. Conn. 1953); Garner v. Triangle Pubs., Inc., 97 F. Supp. 546 (D. C. S. D. N. Y. 1951). Commentators have likened the interest protected in those \u201cprivacy\u201d cases which focus upon th\u00a7 falsity of the matter to that protected in eases of libel and slander \u2014 injury to the reputation. See Prosser, Privacy, 48 Calif. L. Rev. 383, 398-401 (1960); Wade, Defamation and the Right of Privacy, 15 Vand. L. Rev. 1093 (1962). But see Bloustein, Privacy As An Aspect of Human Dignity: An Answer to Dean Prosser, 39 N. Y. U. L. Rev. 962, 991-993 (1964). Many \u201cright of privacy\u201d cases could in fact have been brought as \u201clibel per quod\u201d actions, and several have been brought on both grounds. See, e. g., Hazlitt v. Fawcett Pubs., supra; Freeman v. Busch Jewelry Co., 98 F. Supp. 963 (D. C. N. D. Ga. 1951); Peay v. Curtis Pub. Co., 78 F. Supp. 305 (D. C. D. C. 1948); Foster-Milburn Co. v. Chinn, 134 Ky. 424, 120 S. W. 364 (1909). Although not usually thought of in terms of \u201cright of privacy,\u201d all libel cases concern public exposure by false matter, but the primary harm being compensated is damage to reputation. In the \u201cright of privacy\u201d eases the primary damage is the mental distress from having been exposed to public view, although injury to reputation may be an element bearing upon such damage. See Wade, supra, at 1124. Moreover, as Spahn illustrates, the published matter need not be defamatory, on its face or otherwise, and might even be laudatory and still warrant recovery. Our decision today is not to be taken to decide any constitutional questions which may be raised in \u201clibel per quod\u201d actions involving publication of matters of public interest, or in libel actions where the plaintiff is not a public official. Nor do we intimate any view whether the Constitution limits state power to sanction publication of matter obtained by an intrusion into a protected area, for example, through the use of electronic listening devices.\nOf course Spahn is not before us and we in no wise imply any view of the merits of the judgment or remedy afforded the plaintiff in that case. Our reliance is solely on Judge Keating\u2019s opinion as an aid to understanding the construction placed on the statute by the New York courts.\nWhere either result finds reasonable support in the record it is for the jury, not for this Court, to determine whether there was knowing or reckless falsehood. Cf. New York Times Co. v. Sullivan, supra, 284-285.\nAlthough the court qualified this instruction by requiring a finding of \u201creckless or wanton disregard of the plaintiffs\u2019 rights\u201d in absence of a finding of \u201cactual ill will or personal malice,\u201d this reasonably could have been taken by the jury to relate, not to truth or falsity, but to appellant\u2019s attitude toward appellee\u2019s privacy. Therefore even this instruction would have been constitutionally infirm. Even had the Appellate Division not found prejudicial error affecting the jury\u2019s award of punitive damages, the judgment before us could not be sustained on the basis of the jury\u2019s finding on that issue.\nThe Appellate Division in Spahn v. Julian Messner, Inc., 23 App. Div. 2d 216, 220, 260 N. Y. S. 2d 451, 454 (1965), stated that the concept of fictionalization rested on a \u201cdistinction between an intentionally fictionalized treatment and a straight factual treatment (subject to inadvertent or superficial inaccuracies) . . . .\u201d (Emphasis supplied.) In light of the Court of Appeals opinion, we cannot accept this as an accurate statement of New York law.\nAppellant further contends that the threat of criminal penalty invalidates the statute. However, there have been only two eases of criminal proceedings under the statute and both resulted in dismissal. People v. Charles Scribner's Sons, 205 Misc. 818, 130 N. Y. S. 2d 514 (1954); People v. McBride & Co., 159 Misc. 5, 288 N. Y. Supp. 501 (1936). There is therefore little realistic threat of prosecution. Cf. United States v. Raines, 362 U. S. 17, 20-24 (1960).",
+        "type": "majority",
+        "author": "Mr. Justice Brennan"
+      },
+      {
+        "text": "Mr. Justice Black,\nwith whom Mr. Justice Douglas joins,\nconcurring.\nI concur in reversal of the judgment in this case based on the grounds and reasons stated in the Court\u2019s opinion. I do this, however, in order for the Court to be able at this time to agree on an opinion in this important case based on the prevailing constitutional doctrine expressed in New York Times Co. v. Sullivan, 376 U. S. 254. The Court\u2019s opinion decides the case in accordance with this doctrine, to which the majority adhere. In agreeing to the Court\u2019s opinion, I do not recede from any of the views I have previously expressed about the much wider press and speech freedoms I think the First and Fourteenth Amendments were designed to grant to the people of the Nation. See, e. g., New York Times Co. v. Sullivan, 376 U. S., at 293 (concurring opinion); Rosenblatt v. Baer, 383 U. S. 75, 94 (concurring and dissenting opinion).\nI.\nI acquiesce in the application here of the narrower constitutional view of New York Times with the belief that this doctrine too is bound to pass away as its application to new cases proves its inadequacy to protect freedom of the press from destruction in libel cases and other cases like this one. The words \u201cmalicious\u201d and particularly \u201creckless disregard of the truth\u201d can never serve as effective substitutes for the First Amendment words: \u201c. . . make no law . . . abridging the freedom of speech,, or of the press . . . .\u201d Experience, I think, is bound to prove that First Amendment freedoms can no more be permanently diluted or abridged by this Court\u2019s action than could the Sixth Amendment\u2019s guarantee of right to counsel. I think the fate that befell Betts v. Brady, 316 U. S. 455 (cf. Gideon v. Wainwright, 372 U. S. 335), is already foreseeable, even if only dimly, for the New York Times\u2019 dilution of First Amendment rights.\nII.\nI think it not inappropriate to add that it would be l difficult, if not impossible, for the Court ever to sustain a judgment against Time in this case without using the recently popularized weighing and balancing formula. Some of us have pointed out from time to time that the First Amendment freedoms could not possibly live with the adoption of that Constitution-ignoring- and-destroying technique, when there are, as here, palpable penalties imposed on speech or press specifically because of the views that are spoken or printed. The prohibitions of the Constitution were written to prohibit certain specific things, and one of the specific things prohibited is a law which abridges freedom of the press. That freedom was written into the Constitution and that Constitution is or should be binding on judges as well as other public officers.. The \"weighing\u201d doctrine plainly encourages and actually invites judges to choose for themselves between conflicting values, even where, as in the First Amendment, the Founders made a choice of values, one of which is a free press. Though the Constitution requires that judges swear to obey and enforce it, it is not altogether strange that all judges are not always dead set against constitutional interpretations that expand their powers, and that when power is once claimed by some, others are loath to give it up.\nFinally, if the judicial balancing choice of constitutional changes is to be adopted by this Court, I could wish it had not started on the First Amendment. The freedoms guaranteed by that Amendment are essential freedoms in a government like ours. That Amendment was deliberately written in language designed to put its freedoms beyond the reach of government to change while it remained unrepealed. If judges have, however, by their own fiat today created a right of privacy equal to or superior to the right of a free press that the Constitution created, then tomorrow and the next day and the next, judges can create more rights that balance away other cherished Bill of Rights freedoms. If there is any one thing that could strongly indicate that the Founders were wrong in reposing so much trust in a free press, I would suggest that it would be for the press itself not to wake up to the grave danger to its freedom, inherent and certain in this \u201cweighing process.\u201d Life\u2019s conduct here was at most a mere understandable and incidental error of fact in reporting a newsworthy event. One does not have to be a prophet to foresee that judgments like the one we here reverse can frighten and punish the press so much that publishers will cease trying to report news in a lively and readable fashion as long as there is \u2014 and there always will be \u2014 doubt as to the complete accuracy of the newsworthy facts. Such a consummation hardly seems consistent with the clearly expressed purpose of the Founders to guarantee the press a favored spot in our free society.\nSee, e. g., In re Anastaplo, 366 U. S. 82, 97 (dissenting opinion); Braden v. United States, 365 U. S. 431, 438 (dissenting opinion); Barenblatt v. United States, 360 U. S. 109, 140-145 (dissenting opinion).\nJefferson wrote that the purpose of the First Amendment is \u201c. . . guarding in the same sentence, and under the same words, the freedom of religion, of speech, and of the press: insomuch, that whatever violates either, throws down the sanctuary which covers the others, and that libels, falsehood, and defamation, equally with heresy and false religion, are withheld from the cognizance of federal tribunals.\u201d 8 Jefferson, Works 464-465 (Ford ed. 1904).\nSee, for example, Curtis Publishing Co. v. Butts, 351 F. 2d 702 ($3,000,000 libel judgment, cut to $460,000 on appeal), cert. granted, post, p. 811; Associated Press v. Walker, 393 S. W. 2d 671 (Tex. Civ. App.) ($500,000 libel judgment), cert. granted, post, p. 812; New York Times Co. v. Sullivan, 376 U. S. 254 ($500,000 libel judgment), reversed.",
+        "type": "concurrence",
+        "author": "Mr. Justice Black,"
+      },
+      {
+        "text": "Mr. Justice Douglas,\nconcurring.\nAs intimated in my separate opinion in Rosenblatt v. Baer, 383 U. S. 75, 88, and in the opinion of my Brother Black in the same case, id., at 94, state action to abridge freedom of the press is barred by the First and Fourteenth Amendments where the discussion concerns matters in the public domain. The episode around which this book was written had been news of the day for some time. The most that can be said is that the novel, the play, and the magazine article revived that interest. A fictionalized treatment of the event is, in my view, as much in the public domain as would be a watercolor of the assassination of a public official. It seems to me irrelevant to talk of any right of privacy in this context. Here a private person is catapulted into the news by events over which he had no control. He and his activities are then in the public domain as fully as the matters at issue in New York Times Co. v. Sullivan, 376 U. S. 254. Such privacy as a person normally has ceases when his life has ceased to be private.\nOnce we narrow the ambit of the First Amendment, creative writing is imperiled and the \u201cchilling effect\u201d on free expression which we feared in Dombrowski v. Pfister, 380 U. S. 479, 487, is almost sure to take place. That is, I fear, the result once we allow an exception for \u201cknowing or reckless falsity.\u201d Such an elusive exception gives the jury, the finder of the facts, broad scope and almost unfettered discretion. A trial is a chancy thing, no matter what safeguards are provided. To let a jury on this record return a verdict or not as it chooses is to let First Amendment rights ride on capricious or whimsical circumstances, for emotions and prejudices often do carry the day. The exception for \u201cknowing or reckless falsity\u201d is therefore, in my view, an abridgment of speech that is barred by the First and Fourteenth Amendments. But as indicated in my Brother Black\u2019s opinion I have joined the Court\u2019s opinion in order to make possible an adjudication that controls this litigation. Cf. Mr. Justice Rutledge, concurring, Screws v. United States, 325 U. S. 91, 113, 134.\nAnd see Baggett v. Bullitt, 377 U. S. 360; NAACP v. Button, 371 U. S. 415.",
+        "type": "concurrence",
+        "author": "Mr. Justice Douglas,"
+      },
+      {
+        "text": "Mr. Justice Harlan,\nconcurring in part and dissenting in part.\nWhile I find much with which I agree in the opinion of the Court, I am constrained to express my disagreement with its view of the proper standard of liability to be applied on remand. Were the jury on retrial to find negligent rather than, as the Court requires, reckless or knowing \u201cfictionalization,\u201d I think that federal constitutional requirements would be met.\nI.\nThe Court\u2019s opinion demonstrates that the fictionalization doctrine upon which New York premises liability is one which would strip newsworthy material, otherwise protected, of its constitutional shield upon a mere showing of substantial falsity. I agree that the compensatory damage instruction given by the trial court required only such a determination and a finding of \u201ccommercial purpose\u201d to sustain liability. And reading the opinion of the Appellate Division in the light of other New York decisions I believe that this was the , theory upon which the jury finding was sustained. True,, the trial court told the jury that it must find that! .the appellant \u201caltered or changed the true facts.\u201d But: \u00a1it did not specify whether this alteration or changed j would have to be reckless or negligent, or whether inno-j cent variation from the facts as found by the jury would suffice for the award of damages. Clearly knowing falsification was not required, for the court refused appellant\u2019s request to charge that the jury must find in its favor unless it found knowing falsification.\nThe instructions on punitive damages required the jury to find at least \u201cfailure to make a reasonable investigation,\u201d in my view a crucial determination. However, the entire damage award was set aside as excessive by the Appellate Division which found it unduly influenced by inflammatory evidence. On remand for reconsideration of damages, only a compensatory award was made. This was the award affirmed by the Court of Appeals in the decision we are reviewing. With the case in this posture, I do not think it can fairly be said that there has been a binding jury interpretation of the degree of fault involved in the fictionalization and I agree with the Court that the conduct involved would bear a variety of interpretations.\nLike the Court, I consider that only a narrow problem is presented by these facts. To me this is not \u201cprivacy\u201d litigation in its truest sense. See Prosser, Law of Torts \u00a7 112; Silver, Privacy and the First Amendment, 34 Ford. L. Rev. 553; but see Bloustein, Privacy as an Aspect of Human Dignity: An Answer to Dean Prosser, 39 N. Y. U. L. Rev. 962. No claim is made that there was any intrusion upon the Hills' solitude or private affairs in order to obtain information for publication. The power of a State to control and remedy such intrusion for newsgathering purposes cannot be denied, cf. Mapp v. Ohio, 367 U. S. 643, but is not here asserted. Similarly it may be strongly contended that certain facts are of such limited public interest and so intimate and potentially embarrassing to\" an individual that the State may exercise its power to deter publication. Feeney v. Young, 191 App. Div. 501, 181 N. Y. Supp. 481; see Sidis v. F-R Pub. Corp., 113 F. 2d 806, 808. But the instructions to the jury, the opinions in the New York appellate courts, and indeed the arguments advanced by both sides before this Court all recognize that the theme of the article in question was a perfectly proper one and that an article of this type could have been prepared without liability. Winters v. New York, 333 U. S. 507, 510. The record is replete with articles commenting on the genesis of The Desperate Hours, one of which was prepared by the author himself and used by appellee to demonstrate the supposed falsity of the Life piece. Finally no claim is made that appellant published the article to advance a commercial interest in the play. There is no evidence to show that Time, Inc., had any financial interest in the production or even that the article was published as an advertisement. Thus the question whether a State may apply more stringent limitations to the use of the personality in \u201cpurely commercial advertising\u201d is not before the Court. See Valentine v. Chrestensen, 316 U. S. 52.\n1 \u2014 1 I \u2014 1\nHaving come this far m step with the Court\u2019s opinion, I must part company with its sweeping extension of the principles of New York Times Co. v. Sullivan, 376 U. S. 254. It was established in New York Times that mere falsity will not suffice to remove constitutional protection from published matter relating to the conduct of a public official that is of public concern. But that decision and those in which the Court has developed its doctrine, Rosenblatt v. Baer, 383 U. S. 75, Garrison v. Louisiana, 379 U. S. 64, have never found independent value in false publications nor any reason for their protection except to add to the protection of truthful communication. And the Court has been quick to note that where private actions are involved the social interest in individual protection from falsity may be substantial. Rosenblatt v. Baer, supra, at 86-87, n. 13. Thus I believe that rigorous scrutiny of the principles underlying the rejection of the mere falsity criterion and the imposition of ancillary safeguards, as well as the interest which the State seeks to protect, is necessary to reach a proper resolution of this case.\nTwo essential principles seem to underlie the Court\u2019s rejection of the mere falsity criterion in New York Times. The first is the inevitability of some error in the situation presented in free debate especially when abstract matters are under consideration. Certainly that is illustrated here in the difficulty to be encountered in making a precise description of the relationship between the Hill incident and The Desperate Hours. The second is the Court\u2019s recognition that in many areas which are at the center of public debate \u201ctruth\u201d is not a readily identifiable concept, and putting to the pre-existing prejudices of a jury the determination of what is \u201ctrue\u201d may effectively institute a system of censorship. Any nation which counts the Scopes trial as part of its heritage cannot so readily expose ideas to sanctions on a jury finding of falsity. See Cantwell v. Connecticut, 310 U. S. 296, 310. \u201cThe marketplace of ideas\u201d where it functions still remains the best testing ground for truth.\nBut these arguments against suppressing what is found to be \u201cfalse\u201d on that ground alone do not negative a State\u2019s interest in encouraging the publication of well researched materials more likely to be true. Certainly it is within the power of the State to use positive means\u2014 the provision of facilities and training of students\u2014 to further this end. The issue presented in this case is the constitutionality of a State\u2019s employment of sanctions to accomplish that same goal. The Court acknowledges that sanctions may be employed against knowing or reckless falsehoods but would seem to grant a \u201ctalismanic immunity\u201d to all unintentional errors. However, the distinction between the facts presented to us here and the situation at issue in the New York Times case and its progeny casts serious doubt on that grant of immunity and calls for a more limited \u201cbreathing space\u201d than that granted in criticism of public officials.\nFirst, we cannot avoid recognizing that we have entered an area where the \u201cmarketplace of ideas\u201d does not function and where conclusions premised on the existence of that exchange are apt to be suspect. In Rosenblatt v. Baer, supra, the Court made the New York Times rationale operative where \u201cthe public has an independent interest in the qualifications and performance of the person who holds it [government position], beyond the general public interest in the qualifications and performance of all government employees . . . .\u201d Id., at 86. In elaboration the Court'said: \u201cThe employee\u2019s position must be one which would invite public scrutiny and discussion of the person holding it, entirely apart from the scrutiny and discussion occasioned by the particular charges in controversy.\u201d Id., at 87, n. 13. To me this seems'a clear recognition of the fact that falsehood is more easily tolerated where public attention creates the strong likelihood of a competition among ideas. Here such competition is extremely unlikely for the scrutiny and discussion of the relationship of the Hill incident and the play is \u201coccasioned by the particular charges in controversy\u201d and the matter is not one in which the public has an \u201cindependent interest.\u201d It would be unreasonable to assume that Mr. Hill could find a forum for making a successful refutation of the Life material or that the public\u2019s interest in it would be sufficient for the truth to win out by comparison as it might in that area of discussion central to a free society. Thus the state interest in encouraging careful checking and preparation of published material is far stronger than in New York Times. The dangers of unchallengeable untruth are far too well documented to be summarily dismissed.\nSecond, there is a vast difference in the state interest in protecting individuals like Mr. Hill from irresponsibly prepared publicity and the state interest in similar protection for a public official. In New York Times we acknowledged public officials to be a breed from whom hardiness to exposure to charges, innuendoes, and criticisms might be demanded and who voluntarily assumed the risk of such things by entry into the public arena. 376 U. S., at 273. But Mr. Hill came to public attention through an unfortunate circumstance not of his making rather than his voluntary actions and he can in no sense be considered to have \u201cwaived\u201d any protection the State might justifiably afford him from irresponsible publicity. Not being inured to the vicissitudes of journalistic scrutiny such an individual is more easily injured and his means of self-defense are more limited. The public is less likely to view with normal skepticism what is written about him because it is not accustomed to seeing his name in the press and expects only a disinterested report.\nThe coincidence of these factors in this situation leads me to the view that a State should be free to hold the press to a duty of making a reasonable investigation of the underlying facts and limiting itself to \u201cfair comment\u201d on the materials so gathered. Theoretically, of course, such a rule might slightly limit press discussion of matters touching individuals like Mr. Hill. But, from a pragmatic standpoint, until now the press, at least in New York, labored under the more exacting handicap of the existing New York privacy law and has certainly remained robust. Other professional activity of great social value is carried on under a duty of reasonable care and there is no reason to suspect the press would be less hardy than medical practitioners or attorneys for example. The \u201cfreedom of the press\u201d guaranteed by the First Amendment, and as reflected in the Fourteenth, cannot be thought to insulate all press conduct from review and responsibility for harm inflicted. The majority would allow sanctions against such conduct only when it is morally culpable. I insist that it can also be reached when it creates a severe risk of irremediable harm to individuals involuntarily exposed to it and powerless to protect themselves against it. I would remand the case to the New York courts for possible retrial under that principle.\nA constitutional doctrine which relieves the press of even this minimal responsibility in cases of this sort seems to me unnecessary and ultimately harmful to the permanent good health of the press itself. If the New York Times case has ushered in such a trend it will prove in its long-range impact to have done a disservice to the true values encompassed in the freedoms of speech and press.\nThe majority in the New York Appellate Division denied that the article could \u201cbe characterized as a mere dissemination of news, nor even an effort to supply legitimate newsworthy information ....\u2019\u2019 They added that \u201cpoints of similarity in the book and the occurrence . . . justified neither the identification nor the commercial exploitation of plaintiffs' name and family with the play.\u201d Justice Rabin, concurring, agreed that the subject could have been presented without liability \u201calbeit the presentation of such newsworthy material increases the publisher\u2019s circulation.\u201d The New York Court of Appeals affirmed \u201con the majority and concurring opinions at the Appellate Division.\u201d The decision below seems to have ample support in New York law. See, e. g., Spahn v. Julian Messner, Inc., 18 N. Y. 2d 324, 221 N. E. 2d 543; Binns v. Vitagraph Co., 147 App. Div. 783, 132 N. Y. Supp. 237, aff\u2019d, 210 N. Y. 51, 103 N. E. 1108; Youssoupoff v. CBS, Inc., 41 Misc. 2d 42, 244 N. Y. S. 2d 701, aff\u2019d, 19 App. Div. 2d 865, 244 N. Y. S. 2d 1; Koussevitzky v. Allen, Towne & Heath, Inc., 188 Misc. 479, 68 N. Y. S. 2d 779, aff\u2019d, 272 App. Div. 759, 69 N. Y. S. 2d 432.\nThe passage from Garrison v. Louisiana, supra, quoted in the opinion of the Court makes clear that the only interest in protecting falsehood is to give added \u201cbreathing space\u201d to truth. It is undeniable that falsity may be published, especially in the political arena, with what may be considered \u201cgood\u201d motives \u2014 for example a good-faith belief in the absolute necessitj' of defeating an \u201cevil\u201d candidate. But the Court does not remove state power to control such conduct, thus underlining the strong social interest in discouraging false publication.\nThus the State may take land for the construction of library facilities. E. g., Hayford v. Bangor, 102 Me. 340, 66 A. 731; Laird v. Pittsburg, 205 Pa. 1, 54 A. 324.\nThus many state universities have professional schools of journalism. See 3 Department of Health, Educ. & Welfare, Education Directory \u2014 Higher Education.\nSee Riesman, Democracy and Defamation: Fair Game and Fair Comment I, 42 Col. L. Rev. 1085; Beauharnais v. Illinois, 343 U. S. 250; State v. Klapprott, 127 N. J. L. 395, 22 A. 2d 877. And despite the Court\u2019s denial that the opportunity for rebuttal is germane, it must be the circulation of falsity and the harm stemming from it which lead the Court to allow the imposition of liability at all. For the Court finds the subject of the Life article \u201ca matter of public interest.\u201d And it states that \u201c[ejxposure of the self to others in varying degrees is a concomitant of life in a civilized community.\u201d Thus it could not permit New York to allow compensation for mere exposure unless it is holding, as I am sure it is not, that the presence of some reckless falsehood in written material strips it of all constitutional protection. The Court\u2019s suggestion that Mr. Hill might not be anxious to rebut the falsehood because it might increase his harm from exposure is equally applicable to libel actions where the opportunity to rebut may be limited by fear of reiterating the libel. And this factor emphasizes, rather than lessens, the state interest in discouraging falsehood for it increases the likelihood that falsity will continue to circulate to the detriment of some when truth should be encouraged \u201cfor the benefit of all of us.\u201d\nA negligence standard has been applied in libel actions both where the underlying facts are alleged to be libelous, Layne v. Tribune Co., 108 Fla. 177, 146 So. 234, and where comment is the subject of the action, Clancy v. Daily News Corp., 202 Minn. 1, 277 N. W. 264. Similarly the press should not be constitutionally insulated from privacy actions brought by parties in the position of Mr. Hill when reasonable care has not been taken in ascertaining or communicating the underlying facts or where the publisher has not kept within the traditional boundaries of \u201cfair comment\u201d with relation to underlying facts and honest opinion. See Prosser, Law of Torts \u00a7 110, at 815-816. Similar standards of reasonable investigation and presentation have long been applied in misrepresentation cases. See, e. g., International Products Co. v. Erie R. Co., 244 N. Y. 331, 155 N. E. 662; Nash v. Minnesota Title Ins. & Trust Co., 163 Mass. 574, 40 N. E. 1039. Under such a standard the fact that the publication involved in this case was not defamatory would enter into a determination of the amount of care which would have been reasonable in the preparation of the article.\nSee, e. g., McCoid, The Care Required of Medical Practitioners, 12 Vand. L. Rev. 549; Wade, The Attorney\u2019s Liability for Negligence, 12 Vand. L. Rev. 755. It may be argued that other professions are distinguishable because practitioners may insure against liability. But this course is also open to the press. Developments in the Law, Defamation, 69 Harv. L. Rev. 875, 906.\nThis Court has never held that the press has an absolute privilege to publish falsity. There is nothing in the history of the First Amendment, or the Fourteenth, to indicate that the authors contemplated restrictions on the ability of private persons to seek legal redress for press-inflicted injury. See generally Levy, Legacy of Suppression; Duniway, The Development of Freedom of the Press in Massachusetts. The Founders rejected an attempt by Madison to add to Art. I, \u00a7 10, a guarantee of freedom of the press against state action. The main argument advanced against it was that it would unduly interfere with the proper powers of the States. See 5 Madison\u2019s Writings 378 (Hunt ed.); 1 Annals of Cong. 756.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "Mr. Justice Harlan,"
+      },
+      {
+        "text": "Mr. Justice Fortas,\nwith whom The Chief Justice and Mr. Justice Clark join,\ndissenting.\nThe Court\u2019s holding here is exceedingly narrow. It declines to hold that the New York \u201cRight of Privacy\u201d statute is unconstitutional. I agree. The Court concludes, however, that the instructions to the jury in this case were fatally defective because they failed to advise the jury that a verdict for the plaintiffs could be predicated only on a finding of knowing or reckless falsity in the publication of the Life article. Presumably, the appellee is entitled to a new trial. If he can stand the emotional and financial burden, there is reason to hope that he will recover damages for the reckless and irresponsible assault upon himself and his family which this article represents. But he has litigated this case for 11 years. He should not be subjected to the burden of a new trial without significant cause. This does not exist. Perhaps the purpose of the decision here is to indicate that this Court will place insuperable obstacles in the way of recovery by persons who are injured by reckless and heedless assaults provided they are in print, and even though they are totally divorced from fact. If so, I should think that the Court would cast its decision in constitutional terms. Short of that purpose, with which I would strongly disagree, there is no reason here to order a new trial. The instructions in this case are acceptable even within the principles today announced by the Court.\nI fully agree with the views of my Brethren who have stressed the need for a generous construction of the First Amendment. I, too, believe that freedom of the press, of speech, assembly, and religion, and the freedom to petition are of the essence of our liberty and fundamental to our values. See, e. g., Brown v. Louisiana, 383 U. S. 131 (1966). I agree with the statement of my Brother Brennan, speaking for the Court in N. A. A. C. P. v. Button, 371 U. S. 415, 433 (1963), that \u201cThese freedoms are delicate and vulnerable, as well as supremely precious in our society.\u201d But I do not believe that whatever is in words,, however much of an aggression it may be upon individual rights, is beyond the reach of the law, no matter how heedless of others\u2019 rights \u2014 how remote from public purpose, how reckless, irresponsible, and untrue it may be. I do not believe that the First Amendment precludes effective protection of the right of privacy\u2014 or, for that matter, an effective law of libel. I do not believe that we must or should, in deference to those whose views are absolute as to the scope of the First Amendment, be ingenious to strike down all state action, however circumspect, which penalizes the use of words as instruments of aggression and personal assault. There are great and important values in our society, none of which is greater than those reflected in the First Amendment, but which are also fundamental and entitled to this Court\u2019s careful respect and protection. Among these is the right to privacy, which has been eloquently extolled by scholars and members of this Court. Judge Cooley long ago referred to this right as the right \u201cto be let alone.\u201d In 1890, Warren and Brand\u00e9is published their famous article \u201cThe Right to Privacy,\u201d in which they eloquently argued that the \u201cexcesses\u201d of the press in \u201coverstepping in every direction the obvious bounds of propriety and of decency\u201d made it essential that the law recognize a right to privacy, distinct from traditional remedies for defamation, to protect private individuals against the unjustifiable infliction of mental pain and distress. A distinct right of privacy is now recognized, either as a \u201ccommon-law\u201d right or by statute, in at least 35 States. Its exact scope varies in the respective jurisdictions. It is, simply stated, the right to be let alone; to live one\u2019s life as one chooses, free from assault, intrusion or invasion except as they can be justified by the clear needs of community living under a government of law. As Mr. Justice Brand\u00e9is said in his famous dissent in Olmstead v. United States, 277 U. S. 438, 478 (1928), the right of privacy is \u201cthe most comprehensive of rights and the right most valued by civilized men.\u201d\nThis Court has repeatedly recognized this principle. As early as 1886, in Boyd v. United States, 116 U. S. 616, 630, this Court held that the doctrines of the Fourth and Fifth Amendments \u201capply to all invasions on the part of the government and its employes of the sanctity of a man\u2019s home and the privacies of life. It is not the breaking of his doors, and the rummaging of his drawers, that constitutes the essence of the offence; but it is the invasion of his indefeasible right of personal security, personal liberty and private property . . . .\u201d\nIn 1949, the Court, in Wolf v. Colorado, 338 U. S. 25, 28-29, described the immunity from unreasonable search and seizure in terms of \u201cthe right of privacy.\u201d\nThen, in the landmark case of Mapp v. Ohio, 367 U. S. 643 (1961), this Court referred to \u201cthe right to privacy,\u201d \u201cno less important than any other right carefully and particularly reserved to the people,\u201d as \u201cbasic to a free society.\u201d Id., at 656. Mr. Justice Clark, speaking for the Court, referred to \u201cthe freedom from unconscionable invasions of privacy\u201d as intimately related to the freedom from convictions based upon coerced confessions. He said that both served the cause of perpetuating \u201cprinciples of humanity and civil liberty [secured] . . . only after years of struggle.\u201d Id., at 657, quoting from Bram v. United States, 168 U. S. 532, 544 (1897). He said that they express \u201csupplementing phases of the same constitutional purpose \u2014 to maintain inviolate large areas of personal privacy.\u201d Ibid., quoting from Feldman v. United States, 322 U. S. 487, 489-490 (1944).\nIn Griswold v. Connecticut, 381 U. S. 479 (1965), the Court held unconstitutional a state law under which petitioners were prosecuted for giving married persons information and medical advice on the use of contraceptives. The holding was squarely based upon the right of privacy which the Court derived by implication from the specific guarantees of the Bill of Rights. Citing a number of prior cases, the Court (per Douglas, J.) held that \u201cThese cases bear witness that the right of privacy which presses for recognition here is a legitimate one.\u201d Id., at 485. As stated in the concurring opinion of Mr. Justice Goldberg, with whom The Chief Justice and Mr. Justice Brennan joined: \u201cthe right of privacy is a fundamental personal right, emanating \u2018from the totality of the constitutional scheme under which we live.\u2019 \u201d Id., at 494.\nPrivacy, then, is a basic right. The States may, by appropriate legislation and within proper bounds, enact laws to vindicate that right. Cf. Kovacs v. Cooper, 336 U. S. 77 (1949), sustaining a local ordinance regulating the use of sound trucks; and Breard v. Alexandria, 341 U. S. 622 (1951), sustaining a state law restricting solicitation in private homes of magazine subscriptions. Difficulty presents itself because the application of such state legislation may impinge upon conflicting rights of those accused of invading the privacy of others. But this is not automatically a fatal objection. Particularly where the right of privacy is invaded by words \u2014 by the press or in a book or pamphlet \u2014 the most careful and sensitive appraisal of the total impact of the claimed tort upon the congeries of rights is required. I have no hesitancy to say, for example, that where political personalities or issues are involved or where the event as to which the alleged invasion of privacy occurred is in itself a matter of current public interest, First Amendment values are supreme and are entitled to at least the types of protection that this Court extended in New York Times Co. v. Sullivan, 376 U. S. 254 (1964). But I certainly concur with the Court that the greatest solicitude for the First Amendment does not compel us to deny to a State the right to provide a remedy for reckless falsity in writing and publishing an article which irresponsibly and injuriously invades the privacy of a quiet family for no purpose except dramatic interest and commercial appeal. My difficulty is that while the Court gives lip service to this principle, its decision, which it claims to be based on erroneous instructions, discloses hesitancy to go beyond the verbal acknowledgment.\nThe Court today does not repeat the ringing words of so many of its members on so many occasions in exaltation of the right of privacy. Instead, it reverses a decision under the New York \u201cRight of Privacy\u201d statute because of the \u201cfailure of the trial judge to instruct the jury that a verdict of liability could be predicated only on a finding of knowing or reckless falsity in the publication of the Life article.\u201d In my opinion, the jury instructions, although they were not a textbook model, satisfied this standard.\nIn the first place, the Court does not adequately deal with the fact that the jury returned a verdict for exemplary or punitive damages, under special instructions dealing with them, as well as for compensatory damages. As to exemplary damages, the jury was specifically instructed that these might be awarded \u201conly\u201d if the jury found from the evidence that the defendant \u201cfalsely connected plaintiffs with The Desperate Hours, and that this was done knowingly or through failure to make a reasonable investigation.\u201d The jury was then informed that \u201cYou do not need to find that there was any actual ill will or personal malice toward the plaintiffs if you find a reckless or wanton disregard of the plaintiffs\u2019 rights.\u201d (Emphasis supplied.) The jury awarded appellee $50,000 compensatory and $25,000 punitive damages. The judgment was reversed solely on the quantum of damages, the Appellate Division sustaining the finding of liability for both compensatory and exemplary damages. The Appellate Division's conclusion was that the award of damages was excessive, and it criticized the admission of certain evidence as improperly tending to cause the jury to return inflated damages. In subsequent proceedings before the trial court on assessment of damages, a jury was waived by stipulation of the parties, the case proceeded to reassessment of damages and the judge fixed the amount of damages at $30,000, compensatory only. Judgment thereupon was affirmed by the Court of Appeals. It is this judgment that is before us \u2014 namely, jury findings of liability based on instructions covering both exemplary and compensatory damages, and an award stated to be for compensatory damages alone.\nThe Court refers only to that part of the instructions as to exemplary damages which speaks in terms of the \u201cfailure to make a reasonable investigation,\u201d and condemns it as permitting a verdict based solely on \u201cnegligent misstatement.\u201d I respectfully submit that the instruction cannot fairly be so read. The instruction requires the jury to find both that (1) defendant \u201cfalsely connected\u201d plaintiffs with the play, and (2) did so knowingly or through failure to make a reasonable investigation. This is certainly a charge satisfying the Court's requirement that \u201ca verdict of liability could be predicated only on a finding of knowing or reckless falsity in the publication of the Life article.\u201d An error in the course of investigation might be mere negligent misstatement. Failure to make a reasonable investigation is something else. The standard of a \u201creasonable investigation\u201d is certainly a minimum yardstick by which to measure the liability of publishers. It is certainly not incompatible with the full flavor of the First Amendment and disregard of this standard in the circumstances is recklessness. It might well be that what constitutes an adequate basis for a jury finding of failure to make a reasonable investigation would differ, for example, in the case of a daily newspaper as compared with a feature magazine. But here no such problem arises. The truth was in a folder on the desk of the author of the story. It was deliberately disregarded by his editor. Lead time on the story was three months.\nIn addition, however, even if appellee had to rely only upon the instructions to the jury on compensatory damages, I do not agree that we should set aside the jury verdict and reverse the New York Court of Appeals. Such drastic action \u2014 the reversal of a jury verdict by this remote Court \u2014 -is justified by the Court on the ground that the standard of liability on which the jury was instructed contravenes the First Amendment. But a jury instruction is not abracadabra. It is not a magical incantation, the slightest deviation from which will break the spell. Only its poorer examples are formalistic codes recited by a trial judge to please appellate masters. At its best, it is simple, rugged communication from a trial judge to a jury of ordinary people, entitled to be appraised in terms of its net effect. Instructions are to be viewed in this commonsense perspective, and not through the remote and distorting knothole of a distant appellate fence. Read in this perspective, the core of the instructions here on compensatory damages \u2014 even if we disregard the fact that the jury found liability under the more exacting instructions relating to exemplary damages- \u2014 was sufficient to meet the majority\u2019s test. The gravamen of the court\u2019s charge, repeated three times in virtually the same words, was the following:\n\u201cIt is for you to determine whether, in publishing the article, the defendant Time, Incorporated al tered or changed the true facts concerning plaintiffs\u2019 relationship to The Desperate Hours, so that the article, as published, constituted substantially fiction or a fictionalised version for trade purposes . . . .\u201d (Emphasis supplied.)\nThe jury was also instructed that \u201cBefore the plaintiffs can be entitled to a verdict . . . you must find that the statements concerning the plaintiffs in the article constituted fiction, as compared with news, or matters which were newsworthy.\u201d (Emphasis supplied.) With all respect. I submit that this is close enough to' this Court\u2019s insistence upon \u201cknowing or reckless falsity\u201d as to render a reversal arbitrary and unjustified. If the defendant altered or changed the true facts so that the article as published was a fictionalized version, this, in my judgment, was a knowing or reckless falsity. \u201cAlteration\u201d or \u201cchange\u201d denotes a positive act \u2014 not a negligent or inadvertent happening. \u201cFictionalization\u201d and \u201cfiction\u201d to the ordinary mind mean so departing from fact and reality as to be deliberately divorced from the fact \u2014 not merely in detail but in general and pervasive impact. The English language is not so esoteric as to permit serious consequences to turn upon a supposed difference between the instructions to the jury and this Court\u2019s formulation. Nor is the First Amendment in such delicate health that it requires or permits this kind of surgery, the net effect of which is not only an individual injustice, but an encouragement to recklessness and careless readiness to ride roughshod over the interests of others.\nThe courts may not and must not permit either public or private action that censors or inhibits the press. But part of this responsibility is to preserve values and procedures which assure the ordinary citizen that the press is not above the reach of the law \u2014 that its special prerogatives, granted because of its special and vital functions, are reasonably equated with its needs in the performance of these functions. For this Court totally to immunize the press \u2014 whether forthrightly or by subtle indirection \u2014 in areas far beyond the needs of news, comr ment on public persons and events, discussion of public issues and the like would be no service to freedom of the press, but an invitation to public hostility to that freedom. This Court cannot and should not refuse to permit under state law the private citizen who is aggrieved by the type of assault which we have here and which is not within the specially protected core of the First Amendment to recover compensatory damages for recklessly inflicted invasion of his rights.\nAccordingly, I would affirm.\nCooley, Law of Torts 29 (2d ed. 1888).\n4 Harv. L. Rev. 193, 196 (1890). See Prosser, Law of Torts 829 et seq. (3d ed. 1964).\nProsser, op. cit. supra, 831, 832.\nWolf held that the basic values of the Fourth Amendment apply to the States via the Fourteenth, but declined to require the States to exclude illegally\" seized evidence in criminal trials. In this latter respect, it was overruled by Mapp v. Ohio, infra.\nLast Term, in Rosenblatt v. Baer, 383 U. S. 75, 92 (1966), Mr. Justice Stewart, concurring, referred to the \u201cright of a man to the protection of his own reputation from unjustified invasion and wrongful hurt\u201d as reflecting \u201cour basic concept of the essential dignity and worth of every human being \u2014 a concept at the root of any decent system of ordered liberty.\u201d tie referred to the \u201cprotection of private personality, like the protection of life itself,\u201d as entitled to \u201crecognition by this Court as a basic of our constitutional system.\u201d See also Mr. Justice Douglas, dissenting, in Poe v. Ullman, 367 U. S. 497, 521 (1961).\nCf. Breard, supra, at 625-626:\n\"... There is equal unanimity that opportunists, for private gain, cannot be permitted to arm themselves with an acceptable principle, such as that of a right to work, a privilege to engage in interstate commerce, or a free press, and proceed to use it as an iron standard to smooth their path by crushing the living rights of others to privacy and repose.\u201d\nThere is no indication in the record that the court\u2019s award was intended to set aside or otherwise nullify the jury\u2019s finding under the punitive damage restrictions.\nThe majority seek to avoid the impact of the instruction\u2019s reference to the necessity of finding \u201ca reckless or wanton disregard of the plaintiffs\u2019 rights\u201d by speculating that this referred only to failure to obtain consent and not to falsity. Not only is there no basis for this speculation, but the placing of this part of the instruction \u2014 immediately after the discussion of falsity \u2014 suggests that the contrary is true.\nThe court\u2019s charge and the New York cases emphasize this definition. The most important recent case is Spahn v. Messner, Inc., 18 N. Y. 2d 324, 221 N. E. 2d 543 (1966). In Spahn, the Supreme Court of New York observed: \u201cWhile untrue statements do not necessarily transform a book into the category of fiction, the all-pervasive distortions, inaccuracies, invented dialogue, and the narration of happenings out of context, clearly indicate, at the very best, a careless disregard for the responsibility of the press and within the context of this action, an abuse of the public\u2019s limited privilege to. inquire into an individual\u2019s life,\u201d 43 Misc. 2d 219, 230, 250 N. Y. S. 2d 529, 541 (1964). Affirming, the Appellate Division (per Breitel, J.) observed that the book in question had been \u201cfictionalized, concededly, in order to make it suitable for a juvenile readership\u201d and the publishers \u201cmade no effort and had no intention to follow the facts concerning plaintiff\u2019s life, except in broad outline.\u201d 23 App. Div. 2d 216, 219, 260 N. Y. S. 2d 451, 454 (1st Dept. 1965). The Appellate Division surveyed the earlier New York cases, including the present Hill case, and concluded they were all based on the \u201cdistinction between an intentionally fictionalized treatment and a straight factual treatment (subject to inadvertent or superficial inaccuracies) Id., at 220, 260 N. Y. S. 2d, at 454. (Emphasis supplied.)",
+        "type": "dissent",
+        "author": "Mr. Justice Fortas,"
+      }
+    ],
+    "attorneys": [
+      "Harold R. Medina, Jr., reargued the cause for appellant. With him on the briefs was Victor M. Earle III.",
+      "_Richard M. Nixon reargued the cause and filed a brief for appellee.",
+      "Louis J. Lejkowitz, Attorney General, pro se, Samuel A. Hirshowitz, First Assistant Attorney General, and Barry Mahoney and Brenda Soloff, Assistant Attorneys General, filed a brief for the Attorney General of the State of New York, as amicus curiae, urging affirmance."
+    ],
+    "corrections": "",
+    "head_matter": "TIME, INC. v. HILL.\nNo. 22.\nArgued April 27, 1966.\nReargued October 18-19, 1966.\nDecided January 9, 1967.\nHarold R. Medina, Jr., reargued the cause for appellant. With him on the briefs was Victor M. Earle III.\n_Richard M. Nixon reargued the cause and filed a brief for appellee.\nLouis J. Lejkowitz, Attorney General, pro se, Samuel A. Hirshowitz, First Assistant Attorney General, and Barry Mahoney and Brenda Soloff, Assistant Attorneys General, filed a brief for the Attorney General of the State of New York, as amicus curiae, urging affirmance."
+  },
+  "file_name": "0374-01",
+  "first_page_order": 478,
+  "last_page_order": 524
+}

@@ -1,0 +1,940 @@
+{
+  "id": 10299,
+  "name": "FRONTIERO et vir v. RICHARDSON, SECRETARY OF DEFENSE, et al.",
+  "name_abbreviation": "Frontiero v. Richardson",
+  "decision_date": "1973-05-14",
+  "docket_number": "No. 71-1694",
+  "first_page": "677",
+  "last_page": "692",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "411 U.S. 677"
+    },
+    {
+      "type": "parallel",
+      "cite": "36 L. Ed. 2d 583"
+    },
+    {
+      "type": "parallel",
+      "cite": "93 S. Ct. 1764"
+    },
+    {
+      "type": "vendor",
+      "cite": "1973 U.S. LEXIS 153"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1972-113"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "404 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170912
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/404/0071-01"
+      ]
+    },
+    {
+      "cite": "10 U. S. C. \u00a7\u00a7 1072",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "37 U. S. C. \u00a7\u00a7 401",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 U. S. C. \u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "469 F. 2d 466",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        257512
+      ],
+      "year": 1972,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/469/0466-01"
+      ]
+    },
+    {
+      "cite": "391 U. S. 68",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767626
+      ],
+      "year": 1968,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0068-01"
+      ]
+    },
+    {
+      "cite": "395 U. S. 285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771731
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "296-297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0285-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 301",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170365
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0301-01"
+      ]
+    },
+    {
+      "cite": "392 U. S. 409",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171870
+      ],
+      "year": 1968,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0409-01"
+      ]
+    },
+    {
+      "cite": "393 U. S. 982",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11396001,
+        11396105,
+        11395918,
+        11395961,
+        11396029,
+        11396158
+      ],
+      "year": 1968,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/393/0982-03",
+        "/us/393/0982-05",
+        "/us/393/0982-01",
+        "/us/393/0982-02",
+        "/us/393/0982-04",
+        "/us/393/0982-06"
+      ]
+    },
+    {
+      "cite": "390 F. 2d 591",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2100226
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/390/0591-01"
+      ]
+    },
+    {
+      "cite": "86 Stat. 1092",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 U. S. C. \u00a7 102",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "b"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Stat. 1961",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U. S. C. \u00a7 8341",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U. S. C. \u00a7 7152",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Stat. 644",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U. S. C. \u00a72108",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 U. Cin. L. Rev. 615",
+      "category": "journals:journal",
+      "reporter": "U. Cin. L. Rev.",
+      "year": 1970,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 206",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "d"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Harv. L. Rev. 1109",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1971,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Geo. Wash. L. Rev. 824",
+      "category": "journals:journal",
+      "reporter": "Geo. Wash. L. Rev.",
+      "year": 1972,
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Harv. L. Rev. 1065",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "1173-1174"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Harv. L. Rev. 1499",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "1507"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519298
+      ],
+      "year": 1886,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "395 U. S. 621",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1772190
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "626"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0621-01"
+      ]
+    },
+    {
+      "cite": "405 U. S. 330",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11722480
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/405/0330-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171208
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0665-01"
+      ]
+    },
+    {
+      "cite": "93 Idaho 511",
+      "category": "reporters:state",
+      "reporter": "Idaho",
+      "case_ids": [
+        4442063
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "514"
+        },
+        {
+          "page": "638"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/idaho/93/0511-01"
+      ]
+    },
+    {
+      "cite": "320 U. S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136719
+      ],
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/320/0081-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1230203
+      ],
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0214-01"
+      ]
+    },
+    {
+      "cite": "332 U. S. 633",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365137
+      ],
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "644-646"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0633-01"
+      ]
+    },
+    {
+      "cite": "403 U. S. 365",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "379 U. S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11729594
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "191-192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0184-01"
+      ]
+    },
+    {
+      "cite": "388 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167184
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0001-01"
+      ]
+    },
+    {
+      "cite": "58 Stat. 730",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Stat. 361",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "347 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11301453
+      ],
+      "weight": 2,
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "499"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/347/0497-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166479
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0295-01"
+      ]
+    },
+    {
+      "cite": "37 U. S. C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "380 U. S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525283
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0089-01"
+      ]
+    },
+    {
+      "cite": "394 U. S. 618",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177874
+      ],
+      "weight": 2,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "641-642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/394/0618-01"
+      ]
+    },
+    {
+      "cite": "405 U. S. 645",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11723248
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "656"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/405/0645-01"
+      ]
+    },
+    {
+      "cite": "384 U. S. 641",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046794
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "648-649"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0641-01"
+      ]
+    },
+    {
+      "cite": "400 U. S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046871
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "240, 248-249",
+          "parenthetical": "opinion of Brennan, White, and Marshall, JJ."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/400/0112-01"
+      ]
+    },
+    {
+      "cite": "406 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169812
+      ],
+      "weight": 2,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/406/0164-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 130",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411278
+      ],
+      "year": 1873,
+      "pin_cites": [
+        {
+          "page": "141",
+          "parenthetical": "Bradley, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/83/0130-01"
+      ]
+    },
+    {
+      "cite": "397 U. S. 471",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12055070
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0471-01"
+      ]
+    },
+    {
+      "cite": "366 U. S. 420",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1285808
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "426"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/366/0420-01"
+      ]
+    },
+    {
+      "cite": "363 U. S. 603",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166718
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "611"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/363/0603-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171025
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0078-01"
+      ]
+    },
+    {
+      "cite": "406 U. S. 535",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172329
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "546"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/406/0535-01"
+      ]
+    },
+    {
+      "cite": "10 U. S. C. \u00a7 1076",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 U. S. C. \u00a7403",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 U. S. C. \u00a7 1071",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "409 U. S. 840",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6201888,
+        6202086,
+        6202664,
+        6202477,
+        6201395,
+        6201141,
+        6202298,
+        6201659
+      ],
+      "year": 1972,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/409/0840-04",
+        "/us/409/0840-05",
+        "/us/409/0840-08",
+        "/us/409/0840-07",
+        "/us/409/0840-02",
+        "/us/409/0840-01",
+        "/us/409/0840-06",
+        "/us/409/0840-03"
+      ]
+    },
+    {
+      "cite": "341 F. Supp. 201",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3608740
+      ],
+      "weight": 4,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "207"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/341/0201-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170912
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "75"
+        },
+        {
+          "page": "77"
+        },
+        {
+          "page": "77, 76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0071-01"
+      ]
+    },
+    {
+      "cite": "10 U. S. C. \u00a7\u00a7 1072",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "parenthetical": "A"
+        },
+        {
+          "parenthetical": "C"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 U. S. C. \u00a7\u00a7 401",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "404 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170912
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/404/0071-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1437,
+    "char_count": 30078,
+    "ocr_confidence": 0.62,
+    "pagerank": {
+      "raw": 8.649071197949161e-06,
+      "percentile": 0.9994878079764495
+    },
+    "sha256": "2bed66996091d14459d5a6cf6e322780c5b9b298ddefbb17a3659c9d15b8025f",
+    "simhash": "1:abcf8470c0bfc29e",
+    "word_count": 4875
+  },
+  "last_updated": "2024-02-27T19:45:41.623100+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Brennan, joined by Mr. Justice Douglas, Mr. Justice White, and Mr. Justice Marshall, concluded that 37 U. S. C. \u00a7\u00a7 401, 403 and 10 U. S. C. \u00a7\u00a7 1072, 1076, as inherently suspect statutory classifications based on sex, are so unjustifiably discriminatory as to violate the Due Process Clause of the Fifth Amendment. Pp. 682-691.",
+      "Mr. Justice Stewart concluded that the challenged statutes work an invidious discrimination in violation of the Constitution. Reed v. Reed, 404 U. S. 71. P. 691.",
+      "Mr. Justice Powell, joined by The Chief Justice and Mr. Justice Blackmun, while agreeing that the statutes deprive servicewomen of due process, concluded that in the light of Reed v. Reed, 404 U. S. 71, and the fact that the Equal Rights Amendment has been submitted to the States for ratification, it is inappropriate to decide at this time whether sex is a suspect classification. Pp. 691-692.",
+      "Brennan, J., announced the Court\u2019s judgment and delivered an opinion, in which Douglas, White, and Marshall, JJ., joined. Stewart, J., filed a statement concurring in the judgment, post, p. 691. Powell, J., filed an opinion concurring in the judgment, in which Burger, C. J., and Blackmun, J., joined, post, p. 691. Rehnquist, J., filed a dissenting statement, post, p. 691.",
+      "with whom The Chief Justice and Mr. Justice Blackmun join,"
+    ],
+    "parties": [
+      "FRONTIERO et vir v. RICHARDSON, SECRETARY OF DEFENSE, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brennan\nannounced the judgment of the Court and an opinion in which Mr. Justice Douglas, Mr. Justice White, and Mr. Justice Marshall join.\nThe question before us concerns the right of a female member of the uniformed services to claim her spouse as a \u201cdependent\u201d for the purposes of obtaining increased quarters allowances and medical and dental benefits under 37 U. S. C. \u00a7\u00a7 401, 403, and 10 U. S. C. \u00a7\u00a7 1072, 1076, on an equal footing with male members. Under these statutes, a serviceman may claim his wife as a \u201cdependent\u201d without regard to whether she is in fact dependent upon him for any part of her support. 37 U. S. C. \u00a7 401 (1); 10 U. S. C. \u00a7 1072 (2) (A). A servicewoman, on the other hand, may not claim her husband as a \u201cdependent\u201d under these programs unless he is in fact dependent upon her for over one-half of his support. 37 TJ. S. C. \u00a7401; 10 U. S. C. \u00a7 1072 (2) (C). Thus, the question for decision is whether this difference in treatment constitutes an unconstitutional discrimination against servicewomen in violation of the Due Process Clause of the Fifth Amendment. A three-judge District Court for the Middle District of Alabama, one judge dissenting, rejected this contention and sustained the constitutionality of the provisions of the statutes making this distinction. 341 F. Supp. 201 (1972). We noted probable jurisdiction. 409 U. S. 840 (1972). We reverse.\nI\nIn an effort to attract career personnel through reenlistment, Congress established, in 37 U. S. C. \u00a7 401 et seq., and 10 U. S. C. \u00a7 1071 et seq., a scheme for the provision of fringe benefits to members of the uniformed services on a competitive basis with business and industry. Thus, under 37 U. S. C. \u00a7403, a member of the uniformed services with dependents is entitled to an increased \u201cbasic allowance for quarters\u201d and, under 10 U. S. C. \u00a7 1076, a member\u2019s dependents are provided comprehensive medical and dental care.\nAppellant Sharron Frontiero, a lieutenant in the United States Air Force, sought increased quarters allowances, and housing and medical benefits for her husband, appellant Joseph Frontiero, on the ground that he was her \u201cdependent.\u201d Although such benefits would automatically have been granted with respect to the wife of a male member of the uniformed services, appellant\u2019s application was denied because she failed to demonstrate that her husband was dependent on her for more than one-half of his support. Appellants then commenced this suit, contending that, by making this distinction, the statutes unreasonably discriminate on the basis of sex in violation of the Due Process Clause of the Fifth Amendment. In essence, appellants asserted that the discriminatory impact of the statutes is twofold: first, as a procedural matter, a female member is required to demonstrate her spouse\u2019s dependency, while no such burden is imposed upon male members; and, second, as a substantive matter, a male member who does not provide more than one-half of his wife\u2019s support receives benefits, while a similarly situated female member is denied such benefits. Appellants therefore sought a permanent injunction against the continued enforcement of these statutes and an order directing the appellees to provide Lieutenant Frontiero with the same housing and medical benefits that a similarly situated male member would receive.\nAlthough the legislative history of these statutes sheds virtually no light on the purposes underlying the differential treatment accorded male and female members, a majority of the three-judge District Court surmised that Congress might reasonably have concluded that, since the husband in our society is generally the \u201cbreadwinner\u201d in the family \u2014 and the wife typically the \u201cdependent\u201d partner \u2014 \u201cit would be more economical to require married female members claiming husbands to prove actual dependency than to extend the presumption of dependency to such members.\u201d 341 F. Supp., at 207. Indeed, given the fact that_ approximately 99% of all members of the uniformed services are male, the District Court speculated that such differential treatment might conceivably lead to a \u201cconsiderable saving of administrative expense and manpower.\u201d Ibid.\nII\nAt the outset, appellants contend that classifications based upon sex, like classifications based upon race, alienage, and national origin, are inherently suspect and must therefore be subjected to close judicial scrutiny. We agree and, indeed, find at least implicit support for such an approach in our unanimous decision only last Term in Reed v. Reed, 404 U. S. 71 (1971).\nIn Reed, the Court considered the constitutionality of an Idaho statute providing that, when two individuals are otherwise equally entitled to appointment as administrator of an estate, the male applicant must be preferred to the female. Appellant, the mother of the deceased, and appellee, the father, filed competing petitions for appointment as administrator of their son\u2019s estate. Since the parties, as parents of the deceased, were members of the same entitlement class, the statutory preference was invoked and the father\u2019s petition was therefore granted. Appellant claimed that this statute, by giving a mandatory preference to males over females without regard to their individual qualifications, violated the Equal Protection Clause of the Fourteenth Amendment.\nThe Court noted that the Idaho statute \u201cprovides that different treatment be accorded to the applicants on the basis of their sex; it thus establishes a classification subject to scrutiny under the Equal Protection Clause.\u201d 404 U. S., at 75. Under \u201ctraditional\u201d equal protection analysis, a legislative classification must be sustained unless it is \u201cpatently arbitrary\u201d and bears no rational relationship to a legitimate governmental interest. See Jefferson v. Hackney, 406 U. S. 535, 546 (1972); Richardson v. Belcher, 404 U. S. 78, 81 (1971); Flemming v. Nestor, 363 U. S. 603, 611 (1960); McGowan v. Maryland, 366 U. S. 420, 426 (1961); Dandridge v. Williams, 397 U. S. 471, 485 (1970).\nIn an effort to meet this standard, appellee contended that the statutory scheme was a reasonable measure designed to reduce the workload on probate courts by eliminating one class of contests. Moreover, appellee argued that the mandatory preference for male applicants was in itself reasonable since \u201cmen [are] as a rule more conversant with business affairs than . . . women.\u201d Indeed, appellee maintained that \u201cit is a matter of common knowledge, that women still are not engaged in politics, the professions, business or industry to the extent that men are.\u201d And the Idaho Supreme Court, in upholding the constitutionality of this statute, suggested that the Idaho Legislature might reasonably have \u201cconcluded that in general men are better qualified to act as an administrator than are women.\u201d\nDespite these contentions, however, the Court held the statutory preference for male applicants unconstitutional. In reaching this result, the Court implicitly rejected appellee\u2019s apparently rational explanation of the statutory scheme, and concluded that, by ignoring the individual qualifications of particular applicants, the challenged statute provided \u201cdissimilar treatment for men and women who are . . . similarly situated.\u201d 404 U. S., at 77. The Court therefore held that, even though the State\u2019s interest in achieving administrative efficiency \u201cis not without some legitimacy,\u201d \u201c[t]o give a mandatory preference to members of either sex over members of the other, merely to accomplish the elimination of hearings on the merits, is to make the very kind of arbitrary legislative choice forbidden by the [Constitution] . . . .\u201d Id., at 76. This departure from \u201ctraditional\u201d rational-basis analysis with respect to sex-based classifications is clearly justified.\nThere can be no doubt that our Nation has had a long and unfortunate history of sex discrimination. Traditionally, such discrimination was rationalized by an attitude of \u201cromantic paternalism\u201d which, in practical effect, put women, not on a pedestal, but in a cage. Indeed, this paternalistic attitude became so firmly rooted in our national consciousness that, 100 years ago, a distinguished Member of this Court was able to proclaim:\n\u201cMan is, or should be, woman\u2019s protector and defender. The natural and proper timidity and delicacy which belongs to the female sex evidently unfits it for many of the occupations of civil life. The constitution of the family organization, which is founded in the divine ordinance, as well as in the nature of things, indicates the domestic sphere as that which properly belongs to the domain and functions of womanhood. The harmony, not to say identity, of interests and views which belong, or should belong, to the family institution is repugnant to the idea of a woman adopting a distinct and independent career from that of her husband. . . .\n\u201c. . . The paramount destiny and mission of woman are to fulfil the noble and benign offices of wife and mother. This is the law of the Creator.\u201d Bradwell v. State, 16 Wall. 130, 141 (1873) (Bradley, J., concurring).\nAs a result of notions such as these, our statute books gradually became laden with gross, stereotyped distinctions between the sexes and, indeed, throughout much of the 19th century the position of women in our society was, in many respects, comparable to that of blacks under the pre-Civil War slave codes. Neither slaves nor women could hold office, serve on juries, or bring suit in their own names, and married women traditionally were denied the legal capacity to hold or convey property or to serve as legal guardians of their own children. See generally L. Kanowitz, Women and the Law: The Unfinished Revolution 5-6 (1969); G. Myrdal, An American Dilemma 1073 (20th anniversary ed. 1962). And although blacks were guaranteed the right to vote in 1870, women were denied even that right \u2014 which is itself \u201cpreservative of other basic civil and political rights\u201d \u2014 until adoption of the Nineteenth Amendment half a century later.\nIt is true, of course, that the position of women in America has improved markedly in recent decades. Nevertheless, it can hardly be doubted that, in part because of the high visibility of the sex characteristic, women still face pervasive, although at times more subtle, discrimination in our educational institutions, in the job market and, perhaps most conspicuously, in the political arena. See generally K. Amundsen, The Silenced Majority: Women and American Democracy (1971); The President\u2019s Task Force on Women\u2019s Rights and Responsibilities, A Matter of Simple Justice (1970).\nMoreover, since sex, like race and national origin, is an immutable characteristic determined solely by the accident of birth, the imposition of special disabilities upon the members of a particular sex because of their sex would seem to violate \u201cthe basic concept of our system that legal burdens should bear some relationship to individual responsibility . . . .\u201d Weber v. Aetna Casualty & Surety Co., 406 U. S. 164, 175 (1972). And what differentiates sex from such nonsuspect statuses as intelligence or physical disability, and aligns it with the recognized suspect criteria, is that the sex characteristic frequently bears no relation to ability to perform or contribute to society. As a result, statutory distinctions between the sexes often have the effect of invidiously-relegating the entire class of females to inferior legal status without regard to the actual capabilities of its individual members.\nWe might also note that, over the past decade, Congress has itself manifested an increasing sensitivity to sex-based classifications. In Tit. VII of the Civil Rights Act of 1964, for example, Congress expressly declared that no employer, labor union, or other organization subject to the provisions of the Act shall discriminate against any individual on the basis of \u201crace, color, religion, sex, or national origin.\u201d Similarly, the Equal Pay Act of 1963 provides that no employer covered by the Act \u201cshall discriminate . . . between employees on the basis of sex.\u201d And \u00a7 1 of the Equal Rights Amendment, passed by Congress on March 22, 1972, and submitted to the legislatures of the States for ratification, declares that \u201c[e] quality of rights under the law shall not be denied or abridged by the United States or by any State on account of sex.\u201d Thus, Congress itself has concluded that classifications based upon sex are inherently invidious, and this conclusion of a coequal branch of Government is not without significance to the question presently under consideration.' Cf. Oregon v. Mitchell, 400 U. S. 112, 240, 248-249 (1970) (opinion of Brennan, White, and Marshall, JJ.); Katzenbach v. Morgan, 384 U. S. 641, 648-649 (1966).\nWith these considerations in mind, we can only conclude that classifications based upon sex, like classifications based upon race, alienage, or national origin, are inherently suspect, and must therefore be subjected to strict judicial scrutiny. Applying the analysis mandated by that stricter standard of review, it is clear that the statutory scheme now before us is constitutionally invalid.\nIII\nThe sole basis of the classification established in the challenged statutes is the sex of the individuals involved. Thus, under 37 U. S. C. \u00a7\u00a7 401, 403, and 10 U. S. C. \u00a7\u00a7 1072, 1076, a female member of the uniformed services seeking to obtain housing and medical benefits for her spouse must prove his dependency in fact, whereas no such burden is imposed upon male members. In addition, the statutes operate so as to deny benefits to a female member, such as appellant Sharron Frontiero, who provides less than one-half of her spouse\u2019s support, while at the same time granting such benefits to a male member who likewise provides less than one-half of his spouse\u2019s support. Thus, to this extent at least, it may fairly be said that these statutes command \u201cdissimilar treatment for men and women who are . . . similarly situated.\u201d Reed v. Reed, 404 U. S., at 77.\nMoreover, the Government concedes that the differential treatment accorded men and women under these statutes serves no purpose other than mere \u201cadministrative convenience.\u201d In essence, the Government maintains that, as an empirical matter, wives in our society frequently are dependent upon their husbands, while husbands rarely are dependent upon their wives. Thus, the Government argues that Congress might reasonably have concluded that it would be both cheaper and easier simply conclusively to presume that wives of male members are financially dependent upon their husbands, while burdening female members with the task of establishing dependency in fact.\nThe Government offers no concrete evidence, however, tending to support its view that such differential treatment in fact saves the Government any money. In order to satisfy the demands of strict judicial scrutiny, the Government must demonstrate, for example, that it is actually cheaper to grant increased benefits with respect to all male members, than it is to determine which male members are in fact entitled to such benefits and to grant increased benefits only to those members whose wives actually meet the dependency requirement. Here, however, there is substantial evidence that, if put to the test, many of the wives of male members would fail to qualify for benefits. And in light of the fact that the dependency determination with respect to the husbands of female members is presently made solely on the basis of affidavits, rather than through the more costly hearing process, the Government\u2019s explanation of the statutory scheme is, to say the least, questionable.\nIn any case, our prior decisions make clear that, although efficacious administration of governmental programs is not without some importance, \u201cthe Constitution recognizes higher values than speed and efficiency.\u201d Stanley v. Illinois, 405 U. S. 645, 656 (1972). And when we enter the realm of \u201cstrict judicial scrutiny,\u201d there can be no doubt that \u201cadministrative convenience\u201d is not a shibboleth, the mere recitation of which dictates constitutionality. See Shapiro v. Thompson, 394 U. S. 618 (1969); Carrington v. Bash, 380 U. S. 89 (1965). On the contrary, any statutory scheme which draws a sharp line between the sexes, solely for the purpose of achieving administrative convenience, necessarily commands \u201cdissimilar treatment for men and women who are . . . similarly situated,\u201d and therefore involves the \u201cvery kind of arbitrary legislative choice forbidden by the [Constitution] . . . .\u201d Reed v. Reed, 404 U. S., at 77, 76. We therefore conclude that, by according differential treatment to male and female members of the uniformed services for the sole purpose of achieving administrative convenience, the challenged statutes violate the Due Process Clause of the Fifth Amendment insofar as they require a female member to prove the dependency of her husband.\nReversed.\nMr. Justice Stewart concurs in the judgment, agreeing that the statutes before us work an invidious discrimination in violation of the Constitution. Reed v. Reed, 404 U. S. 71.\nMr. Justice Rehnquist dissents for the reasons stated by Judge Rives in his opinion for the District Court, Frontiero v. Laird, 341 F. Supp. 201 (1972).\nThe \u201cuniformed services\u201d include the Army, Navy, Air Force, Marine Corps, Coast Guard, Environmental Science Services Administration, and Public Health Service. 37 U. S. C. \u00a7 101 (3) ; 10 U. S. C. \u00a71072 (1).\nTitle 37 U. S. C. \u00a7 401 provides in pertinent part:\n\u201cIn this chapter, 'dependent/ with respect to a member of a uniformed service, means\u2014\n\u201c(1) his spouse;\n\u201cHowever, a person is not a dependent of a female member unless he is in fact dependent on her for over one-half of his support. . . .\u201d\nTitle 10 U. S. C. \u00a7 1072 (2) provides in pertinent part:\n\u201c 'Dependent/ with respect to a member ... of a uniformed service, means\u2014\n\u201c(A) the wife;\n\u201c(C) the husband, if he is in fact dependent on the member . . . for over one-half of his support. . .\u2019\u2019\nSee 102 Cong. Rec. 3849-3850 (Cong. Kilday), 8043 (Sen. Saltonstall); 95 Cong. Rec. 7662 (Cong. Kilday), 7664 (Cong. Short), 7666 (Cong. Havenner), 7667 (Cong. Bates), 7671 (Cong. Price). See also 10 U. S. C. \u00a7 1071.\nAppellant Joseph Frontiero is a full-time student at Huntingdon College in Montgomery, Alabama. According to the agreed stipulation of facts, his living expenses, including his share of the household expenses, total approximately $354 per month. Since he receives $205 per month in veterans\u2019 benefits, it is clear that he is not dependent upon appellant Sharron Frontiero for more than one-half of his support.\n\u201c[W]hile the Fifth Amendment contains no equal protection clause, it does forbid discrimination that is \u2018so unjustifiable as to be violative of due process.\u2019 \u201d Schneider v. Rusk, 377 U. S. 163, 168 (1964); see Shapiro v. Thompson, 394 U. S. 618, 641-642 (1969); Bolling v. Sharpe, 347 U. S. 497 (1954).\nThe housing provisions, set forth in 37 U. S. C. \u00a7 401 et seq., were enacted as part of the Career Compensation Act of 1949, which established a uniform pattern of military pay and allowances, consolidating and revising the piecemeal legislation that had been developed over the previous 40 years. See H. R. Rep. No. 779, 81st Cong., 1st Sess.; S. Rep. No. 733, 81st Cong., 1st Sess. The Act apparently retained in substance the dependency definitions of \u00a74 of the Pay Readjustment Act of 1942 (56 Stat. 361), as amended by \u00a7 6 of the Act of September 7, 1944 (58 Stat. 730), which required a female member of the service to demonstrate her spouse\u2019s dependency. It appears that this provision was itself derived from unspecified earlier enactments. See S. Rep. No. 917, 78th Cong., 2d Sess., 4.\nThe medical benefits legislation, 10 U. S. C. \u00a7 1071 et seq., was enacted as the Dependents\u2019 Medical Care Act of 1956. As such, it was designed to revise and make uniform the existing law relating to medical services for military personnel. It, too, appears to have carried forward, without explanation, the dependency provisions found in other military pay and allowance legislation. See H. R. Rep. No. 1805, 84th Cong., 2d Sess.; S. Rep. No. 1878, 84th Cong., 2d Sess.\nSee Loving v. Virginia, 388 U. S. 1, 11 (1967); McLaughlin v. Florida, 379 U. S. 184, 191-192 (1964); Bolling v. Sharpe, supra, at 499.\nSee Graham v. Richardson, 403 U. S. 365, 372 (1971).\nSee Oyama v. California, 332 U. S. 633, 644-646 (1948); Korematsu v. United States, 323 U. S. 214, 216 (1944); Hirabayashi v. United States, 320 U. S. 81, 100 (1943).\nBrief for Appellee in No. 70-4, O. T. 1971, Reed v. Reed, p. 12.\nId., at 12-13.\nReed v. Reed, 93 Idaho 511, 514, 465 P. 2d 635, 638 (1970).\nIndeed, the position of women in this country at its inception is reflected in the view expressed by Thomas Jefferson that women should be neither seen nor heard in society\u2019s decisionmaking councils. See M. Gruberg, Women in American Politics 4 (1968). See also 2 A. de Toequeville, Democracy in America (Reeves trans. 1948).\nReynolds v. Sims, 377 U. S. 533, 562 (1964); see Dunn v. Blumstein, 405 U. S. 330, 336 (1972); Kramer v. Union Free School District, 395 U. S. 621, 626 (1969); Yick Wo v. Hopkins, 118 U. S. 356, 370 (1886).\nSee generally The President\u2019s Task Force on Women\u2019s Rights and Responsibilities, A Matter of Simple Justice (1970); L. Kanowitz, Women and the Law: The Unfinished Revolution (1969) ; A. Montagu, Man\u2019s Most Dangerous Myth (4th ed. 1964); The President\u2019s Commission on the Status of Women, American Women (1963).\nSee, e. g., Note, Sex Discrimination and Equal Protection: Do We Need a Constitutional Amendment?, 84 Harv. L. Rev. 1499, 1507 (1971).\nIt is true, of course, that when viewed in the abstract, women do not constitute a small and powerless minority. Nevertheless, in part because of past discrimination, women are vastly underrepresented in this Nation\u2019s decisionmaking councils. There has never been a female President, nor a female member of this Court. Not a single woman presently sits in the United States Senate, and only 14 women hold seats in the House of Representatives. And, as appellants point out, this underrepresentation is present throughout all levels of our State and Federal Government. See Joint Reply Brief of Appellants and American Civil Liberties Union (Amicus Curiae) 9.\nSee, e. g., Developments in the Law \u2014 Equal Protection, 82 Harv. L. Rev. 1065, 1173-1174 (1969).\n42 U. S. C. \u00a7\u00a72000e-2 (a), (b), (c) (emphasis added). See generally, Sape & Hart, Title VII Reconsidered: The Equal Employment Opportunity Act of 1972, 40 Geo. Wash. L. Rev. 824 (1972); Developments in the Law \u2014 Employment Discrimination and Title VII of the Civil Rights Act of 1964, 84 Harv. L. Rev. 1109 (1971).\n29 U. S. C. \u00a7 206 (d) (emphasis added). See generally Murphy, Female Wage Discrimination: A Study of the Equal Pay Act 1963\u2014 1970, 39 U. Cin. L. Rev. 615 (1970).\nH. R. J. Res. No. 208, 92d Cong., 2d Sess. (1972). In conformity with these principles, Congress in recent years has amended various statutory schemes similar to those presently under consideration so as to eliminate the differential treatment of men and women. See 5 U. S. C. \u00a72108, as amended, 85 Stat. 644; 5 U. S. C. \u00a7 7152, as amended, 85 Stat. 644; 5 U. S. C. \u00a7 8341, as amended, 84 Stat. 1961; 38 U. S. C. \u00a7 102 (b), as amended, 86 Stat. 1092.\nIt should be noted that these statutes are not in any sense designed to rectify the effects of past discrimination against women. See Gruenwald v. Gardner, 390 F. 2d 591 (CA2), cert, denied, 393 U. S. 982 (1968); cf. Jones v. Alfred H. Mayer Co., 392 U. S. 409 (1968); South Carolina v. Katzenbach, 383 U. S. 301 (1966). On the contrary, these statutes seize upon a group \u2014 women\u2014who have historically suffered discrimination in employment, and rely on the effects of this past discrimination as a justification for heaping on additional economic disadvantages. Cf. Gaston County v. United States, 395 U. S. 285, 296-297 (1969).\nIn 1971, 43% of all women over the age of 16 were in the labor force, and 18% of all women worked full time 12 months per year. See U. S. Women\u2019s Bureau, Dept, of Labor, Highlights of Women\u2019s Employment & Education 1 (W. B. Pub. No. 72-191, Mar. 1972). Moreover, 41.5% of all married women are employed. See U. S. Bureau of Labor Statistics, Dept, of Labor, Work Experience of the Population in 1971, p. 4 (Summary Special Labor Force Report, Aug. 1972). It is also noteworthy that, while the median income of a male member of the armed forces is approximately $3,686, see The Report of the President\u2019s Commission on an All-Volunteer Armed Force 51, 181 (1970), the median income for all women over the age of 14, including those who are not employed, is approximately $2,237. See Statistical Abstract of the United States Table No. 535 (1972), Source: U. S. Bureau of the Census, Current Population Reports, Series P-60, No. 80. Applying the statutory definition of \u201cdependency\u201d to these statistics, it appears that, in the \u201cmedian\u201d family, the wife of a male member must have personal expenses of approximately $4,474, or about 75% of the total family income, in order to qualify as a \u201cdependent.\u201d\nTr. of Oral Arg. 27-28.\nAs noted earlier, the basic purpose of these statutes was to provide fringe benefits to members of the uniformed services in order to establish a compensation pattern which would attract career personnel through re-enlistment. See n. 3, supra, and accompanying text. Our conclusion in no wise invalidates the statutory schemes except insofar as they require a female member to prove the dependency of her spouse. See Weber v. Aetna Casualty & Surety Co., 406 U. S. 164 (1972); Levy v. Louisiana, 391 U. S. 68 (1968); Moritz v. Commissioner of Internal Revenue, 469 F. 2d 466 (CA10 1972). See also 1 U. S. C. \u00a7 1.",
+        "type": "majority",
+        "author": "Mr. Justice Brennan"
+      },
+      {
+        "text": "Mr. Justice Powell,\nwith whom The Chief Justice and Mr. Justice Blackmun join,\nconcurring in the judgment.\nI agree that the challenged statutes constitute an unconstitutional discrimination against servicewomen in violation of the Due Process Clause of the Fifth Amendment, but I cannot join the opinion of Mr. Justice Brennan, which would hold that all classifications based upon sex, \u201clike classifications based upon race, alienage, and national origin,\u201d are \u201cinherently suspect and must therefore be subjected to close judicial scrutiny.\u201d Ante, at 682. It is unnecessary for the Court in this case to characterize sex as a suspect classification, with all of the far-reaching implications of such a holding. Reed v. Read, 404 U. S. 71 (1971), which abundantly supports our decision today, did not add sex to the narrowly limited group of classifications which are inherently suspect. In my view, we can and should decide this case on the authority of Reed and reserve for the future any expansion of its rationale.\nThere is another, and I find compelling, reason for deferring a general categorizing of sex classifications as invoking the strictest test of judicial scrutiny. The Equal Rights Amendment, which if adopted will resolve the substance of this precise question, has been approved by the Congress and submitted for ratification by the States. If this Amendment is duly adopted, it will represent the will of the people accomplished in the manner prescribed by the Constitution. By acting prematurely and unnecessarily, as I view it, the Court has assumed a decisional responsibility at the very time when state legislatures, functioning within the traditional democratic process, are debating the proposed Amendment. It seems to me that this reaching out to pre-empt by judicial action a major political decision which is currently in process of resolution does not reflect appropriate respect for duly prescribed legislative processes.\nThere are times when this Court, under our system, cannot avoid a constitutional decision on issues which normally should be resolved by the elected representatives of the people. But democratic institutions are weakened, and confidence in the restraint of the Court is impaired, when we appear unnecessarily to decide sensitive issues of broad social and political importance at the very time they are under'consideration within the prescribed constitutional processes.",
+        "type": "concurrence",
+        "author": "Mr. Justice Powell,"
+      }
+    ],
+    "attorneys": [
+      "Joseph J. Levin, Jr., argued the cause for appellants. With him on the brief was Morris S. Dees, Jr.",
+      "Samuel Huntington argued the cause for appellees. On the brief were Solicitor General Griswold, Assistant Attorney General Wood, and Mark L. Evans.",
+      "Ruth Bader Ginsburg argued the cause for the American Civil Liberties Union as amicus curiae urging reversal. With her on the brief was Melvin L. Wulf."
+    ],
+    "corrections": "",
+    "head_matter": "FRONTIERO et vir v. RICHARDSON, SECRETARY OF DEFENSE, et al.\nNo. 71-1694.\nArgued January 17, 1973\nDecided May 14, 1973\nMr. Justice Brennan, joined by Mr. Justice Douglas, Mr. Justice White, and Mr. Justice Marshall, concluded that 37 U. S. C. \u00a7\u00a7 401, 403 and 10 U. S. C. \u00a7\u00a7 1072, 1076, as inherently suspect statutory classifications based on sex, are so unjustifiably discriminatory as to violate the Due Process Clause of the Fifth Amendment. Pp. 682-691.\nMr. Justice Stewart concluded that the challenged statutes work an invidious discrimination in violation of the Constitution. Reed v. Reed, 404 U. S. 71. P. 691.\nMr. Justice Powell, joined by The Chief Justice and Mr. Justice Blackmun, while agreeing that the statutes deprive servicewomen of due process, concluded that in the light of Reed v. Reed, 404 U. S. 71, and the fact that the Equal Rights Amendment has been submitted to the States for ratification, it is inappropriate to decide at this time whether sex is a suspect classification. Pp. 691-692.\nBrennan, J., announced the Court\u2019s judgment and delivered an opinion, in which Douglas, White, and Marshall, JJ., joined. Stewart, J., filed a statement concurring in the judgment, post, p. 691. Powell, J., filed an opinion concurring in the judgment, in which Burger, C. J., and Blackmun, J., joined, post, p. 691. Rehnquist, J., filed a dissenting statement, post, p. 691.\nJoseph J. Levin, Jr., argued the cause for appellants. With him on the brief was Morris S. Dees, Jr.\nSamuel Huntington argued the cause for appellees. On the brief were Solicitor General Griswold, Assistant Attorney General Wood, and Mark L. Evans.\nRuth Bader Ginsburg argued the cause for the American Civil Liberties Union as amicus curiae urging reversal. With her on the brief was Melvin L. Wulf."
+  },
+  "file_name": "0677-01",
+  "first_page_order": 745,
+  "last_page_order": 760
+}

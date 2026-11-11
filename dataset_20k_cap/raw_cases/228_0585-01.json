@@ -1,0 +1,620 @@
+{
+  "id": 3668006,
+  "name": "BUGAJEWITZ v. ADAMS, UNITED STATES IMMIGRATION INSPECTOR",
+  "name_abbreviation": "Bugajewitz v. Adams",
+  "decision_date": "1913-05-12",
+  "docket_number": "No. 239",
+  "first_page": "585",
+  "last_page": "591",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "228 U.S. 585"
+    },
+    {
+      "type": "parallel",
+      "cite": "57 L. Ed. 978"
+    },
+    {
+      "type": "parallel",
+      "cite": "33 S. Ct. 607"
+    },
+    {
+      "type": "vendor",
+      "cite": "1913 U.S. LEXIS 2400"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1912-191"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "225 U. S. 227",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339271
+      ],
+      "pin_cites": [
+        {
+          "page": "242"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/225/0227-01"
+      ]
+    },
+    {
+      "cite": "149 U. S. 730",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "225 U. S. 460",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11341316
+      ],
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/225/0460-01"
+      ]
+    },
+    {
+      "cite": "223 U. S. 673",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3661340
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/223/0673-01"
+      ]
+    },
+    {
+      "cite": "223 U. S. 67",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3662766
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/223/0067-01"
+      ]
+    },
+    {
+      "cite": "208 U. S. 8",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3642126
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/208/0008-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 253",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499424
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/198/0253-01"
+      ]
+    },
+    {
+      "cite": "194 U. S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630888
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/194/0279-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 86",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443455
+      ],
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0086-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 228",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468219
+      ],
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/163/0228-01"
+      ]
+    },
+    {
+      "cite": "195 Fed. Rep. 701",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        48479
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/195/0701-01"
+      ]
+    },
+    {
+      "cite": "192 Fed. Rep. 117",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6743612
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/192/0117-01"
+      ]
+    },
+    {
+      "cite": "185 Fed. Rep. 967",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1921887
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/185/0967-01"
+      ]
+    },
+    {
+      "cite": "185 Fed. Rep. 158",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1921895
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/185/0158-01"
+      ]
+    },
+    {
+      "cite": "183 Fed. Rep. 904",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1925128
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/183/0904-01"
+      ]
+    },
+    {
+      "cite": "182 Fed. Rep. 894",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6750160
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/182/0894-01"
+      ]
+    },
+    {
+      "cite": "181 Fed. Rep. 860",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        17425
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/181/0860-01"
+      ]
+    },
+    {
+      "cite": "16 Tex. App. 593",
+      "category": "reporters:state",
+      "reporter": "White & W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "56 Iowa, 431",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2314035
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/56/0431-01"
+      ]
+    },
+    {
+      "cite": "53 N. Y. Supp. 220",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3418610
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/53/0220-01"
+      ]
+    },
+    {
+      "cite": "32 Atl. Rep. 246",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 Oh. St. 497",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        509794
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/5/0497-01"
+      ]
+    },
+    {
+      "cite": "149 U. S. 698",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3569969,
+        3569340
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "707, 713"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/149/0698-01",
+        "/us/149/0698-02"
+      ]
+    },
+    {
+      "cite": "47 Atl. Rep. 165",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Fed. Rep. 481",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3718841
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/1/0481-01"
+      ]
+    },
+    {
+      "cite": "6 Sawy. 232",
+      "category": "reporters:federal",
+      "reporter": "Sawy.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "18 Fed. Rep. 253",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6726482
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/18/0253-01"
+      ]
+    },
+    {
+      "cite": "25 Fed. Rep. 77",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        5714010
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/25/0077-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 147",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411293
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/83/0147-01"
+      ]
+    },
+    {
+      "cite": "5 Sawy. 552",
+      "category": "reporters:federal",
+      "reporter": "Sawy.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "3 Sawy. 157",
+      "category": "reporters:federal",
+      "reporter": "Sawy.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "163 U. S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "163 U. S. 238",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "118 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519298
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "2 Brock, 477",
+      "category": "reporters:federal",
+      "reporter": "Brock.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 Pa. St. 86",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        954604
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/6/0086-01"
+      ]
+    },
+    {
+      "cite": "4 Dev. 15",
+      "category": "reporters:state",
+      "reporter": "Dev.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "33 Pa. St. 495",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        988407
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/33/0495-01"
+      ]
+    },
+    {
+      "cite": "4 Pet. 443",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 Cranch, 138",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 Hill, 146",
+      "category": "reporters:state",
+      "reporter": "Hill,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "226 U. S. 272",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286572
+      ],
+      "pin_cites": [
+        {
+          "page": "275"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/226/0272-01"
+      ]
+    },
+    {
+      "cite": "34 Stat. 898",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Stat. 263",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 U. S. 227",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339271
+      ],
+      "pin_cites": [
+        {
+          "page": "242"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/225/0227-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 228",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468219
+      ],
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/163/0228-01"
+      ]
+    },
+    {
+      "cite": "192 Fed. Rep. 117",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6743612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/192/0117-01"
+      ]
+    },
+    {
+      "cite": "149 U. S. 698",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3569969,
+        3569340
+      ],
+      "pin_cites": [
+        {
+          "page": "707, 728, 730"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/149/0698-01",
+        "/us/149/0698-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 725,
+    "char_count": 11996,
+    "ocr_confidence": 0.607,
+    "pagerank": {
+      "raw": 1.3259701471135817e-06,
+      "percentile": 0.9897422591046814
+    },
+    "sha256": "3b57b176f893f364f9ccd9b1d4222e6b44405d747d430ab1dce4e2fa828af315",
+    "simhash": "1:a7a8a6262e079277",
+    "word_count": 2146
+  },
+  "last_updated": "2024-02-27T17:34:29.308720+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BUGAJEWITZ v. ADAMS, UNITED STATES IMMIGRATION INSPECTOR."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Holmes\ndelivered the opinion of the court.\nThis is an appeal from an order discharging a writ of habeas corpus and remanding the petitioner to custody. The ground of the appeal is that the act of March 26, 1910, c. 128, \u00a7 2, 36 Stat. 263, 265, relied on as authority for the arrest, impairs the petitioner\u2019s constitutional rights. It appears from the petition and the return to the writ that the petitioner is an alien; that she entered the United, States not later than January 4, 1905, and that she was arrested on August 3, 1910, on an order of the Acting Secretary of Commerce and Labor directing the Immigrant Inspector to take, her into custody and to grant her a hearing to show cause why she should not be deported. The order recited that she was then a prostitute and inmate of a house of prostitution, and that she was a prostitute at the time of entry and entered the United States for the purpose of prostitution or for an immoral purpose. The answer to the. return demurs to its sufficiency and denies that she was a prostitute at the time of entry or that she entered the United States for any of the purposes alleged; but we must take it, at least, that she is a \u00bfprostitute now.\nBy the act of February 20, 1907, c. 1134, \u00a7 3, 34 Stat. 898, 899, any alien woman found practicing prostitution within three years after she should have entered the United States was to be deported \u201cas provided by sections twenty and twenty-one of this act.\u201d This section was amended by the act of March 26, 1910, c. 128, \u00a7 2, and the limitation of three years, was stricken out, but the amendment still refers to \u00a7\u00a7 20, 21, and orders deportation \u201cin the manner provided by\u201d \u00a7\u00a7 20, 21. The beginning of these two sections provides for the taking into custody of aliens subject to removal, within three years from entry, and so it has been argued in other cases that the three-year limitation still holds good. The construction of the amendment was not relied on here, but before w\u00e9 can deal with the constitutional question it becomes necessary to dispose of that point. We are of opinion that the effect of striking out the three-year clause from \u00a7 3 is not changed by the reference to \u00a7\u00a7 20 and 21. The change in the phraseology of the reference, indicates the narrowed purpose. The prostitute is to be deported, not \u2018as provided\u2019 but \u2018in the manner provided\u2019 in \u00a7\u00a7 20, 21. Those sections provide the means for securing deportation, and it still- was proper to point to them for that. United States v. Weis, 181 Fed. Rep; 860; Chomel v. United States, 192 Fed. Rep. 117.\nThe attempt to reopen the constitutional question must fail. It is thoroughly established that Congress has power, to order the deportation of aliens whose presence in the country it deems hurtful. The determination by facts that might constitute a crime under local law is not a conviction.of crime, nor is the deportation a punishment; it is simply a refusal by the Government to harbor persons whom it does ijot want. Tp.e coincidence of the local penal law with the policy of Congress is an accident. Fong Yue Ting v. United States, 149 U. S. 698, 707, 728, 730. Wong Wing v. United States, 163 U. S. 228, 231. Zakonaite v. Wolf, 226 U. S. 272, 275. Tiaco v. Forbes, ante, p. 549. The prohibition of ex post facto laws in Article I, \u00a7 9, has no application, Johannessen v. United States, 225 U. S. 227, 242, and with regard to the petitioner it is not necessary to construe the statute as having any retrospective effect.\nJudgment affirmed.",
+        "type": "majority",
+        "author": "Mr. Justice Holmes"
+      }
+    ],
+    "attorneys": [
+      "Mr. Joshua Freeman Grozier and Mr. John A. Deweese for appellant:",
+      "Mr. Assistant Attorney General Harr for appellee:"
+    ],
+    "corrections": "",
+    "head_matter": "BUGAJEWITZ v. ADAMS, UNITED STATES IMMIGRATION INSPECTOR.\nAPPEAL FROM THE DISTRICT COURT OF THE UNITED. STATES FOR THE DISTRICT OF COLORADO.\nNo. 239.\nSubmitted April 21, 1913.\nDecided May 12, 1913.\nCongress has power to order the deportation of aliens whose presence in the country it deems hurtful; and this applies to prostitutes regardless of the time they have been here.\nThe determination of whether an alien falls within the class that Con-' gress had declared to be undesirable, by facts which might constitute a crime under local law, is not a conviction of crime, nor is deportation a punishment.\nThe prohibition of ex post facto laws in Art. I, \u00a7 9 of the Federal Constitution has no application to the deportation of aliens.\nThere is a distinction between the words \u2018 \u2018 as provided \u201d and \u2018 \u2018 in the man-. ner provided \u2019 \u2019; the former may be controlled by an express limitation in the statute while the latter must not be so controlled; and so held that the limitation in \u00a7 3 of the act of February 20,1907, was stricken out by the act of February 26,1910, notwithstanding a reference in the latter act to a section in the former act in which the limitation was referred to.\nThe facts, .which involve the power of Congress to deport aliens and the construction of the acts of Congress relating to deportation of alien prostitutes, are stated in the opinion.\nMr. Joshua Freeman Grozier and Mr. John A. Deweese for appellant:\nThis act deprives the \u201cprisoner\u201d of her liberty \u201cwithout\u201d due process of law and is contrary to the Fifth Amendment.\nThis provision of the Federal Constitution means \u201cby process of law\u201d as understood at the time of adopting this provision of the Constitution. \u201cDue process of law\u201d in our judicial system takes the place of the \u201claw of the land\u201d under the Magna Charta. 2 Kent Com. (5th ed.), 13; Story on Const., \u00a7 1783; Taylor v. Porter, 4 Hill, 146; Fletcher v. Peck, 6 Cranch, 138; Vandant v. Waddell, 2 Verger, 260; Bank of California v. Oakley, 4 Pet. 443.\n\u201cBy due process of law\u201d is not simply meant an act of Congress, but law in its regular course of administration through the courts of justice. . See Kent Com., p. 620; Green v. Briggs, 1 Curtis, 325; Menges v. Dentler, 33 Pa. St. 495; Hoke v. Henderson, 4 Dev. 15; Jones v. Perry, 10 Yerger, 59; Brown v. Hummel, 6 Pa. St. 86; 1 Kent Com., \u00a7 24 (and note \u201cC\u201d).\nBy \u201cJudicial Power in the Constitution\" is meant that source of power which was recognized and understood to be such at the time of the adoption of the Constitution. See Federalist, 80; 2 Brock, 477. \u201cPersons \u201d in the Constitution of the United States applies to aliens. See Yick Wo v. Hopkins, 118 U. S. 356; Wong Wing v. United States, 163 U. S. 238.\nThe term \u201cperson\u201d in the Fifth Amendment is broad enough to include any and every human being within the jurisdiction of the Republic; a resident alien is entitled to the same protection under the law of the country as a citizen is entitled to. Wong Wing v. United States, 163 U. S. 242; Yick Wo v. Hopkins, 118 U. S. 356, 368; In re Oh Long, 3 Sawy. 157; Ho Ah Kow v. Nunan, 5 Sawy. 552; Carlisle v. United States, 16 Wall. 147; In re Chow Goo Pooi, 25 Fed. Rep. 77; In re Lee Tom, 18 Fed. Rep. 253; In re Wong Tong, 6 Sawy. 232.\nAn alien is a \u201cperson\u201d within the meaning of the Fourteenth Amendment. In re Parrott, 1 Fed. Rep. 481-511; State v. Montgomery, 47 Atl. Rep. 165; 94 Maine, 192; 80 Am. State Rep. 386.\nAn alien is entitled to the protection, of the Fourteenth Amendment. Carlisle v. United States, 16 Wall. 147.\nThe act of Congress does not only attempt to exclude aliens and to deport aliens, but delegates to the executive branch of the Government the right to try aliens for crimes and to. pass judgment in the premises and to deport them as convicted criminals in the judgment of executive branch of the Government. While the Government has the right to exclude aliens and to prevent them from entering the territory of the Government, and also has th\u00e9 right to deport them after they have entered the territory of the United States, (see 149 U. S. 698), the act involved here is not only. attacked because it attempts to exclude aliens, but because it attempts to delegate to the executive branch of the. Government the right to try aliens, and brand them as criminals, and because they are criminals,\" to deport them. The act in question must stand together, or fall together. It is incapable of separation. In other words it is so constructed that the court cannot declare one part constitutional and the other part unconstitutional. It must stand as an entirety, or fall as an entirety. See People v. Cooper, 83 Illinois, 585; Ex parte Towels, 48 Texas, 413; Santo v. State, 2 Clark (Iowa), 165; Reed v. Railroad, 33 California, 212; Campau v. Detroit, 14 Michigan, 276; State v. Commissioners, 5 Oh. St. 497; West. Un. Tel. Co. v. State, 62 Texas, 630.\nThe court cannot construe a constitutional provision as merely directory but as mandatory. People v. Lawrence, 36 Barber (N. Y.), 117; Cooley on Const. Lim. 74-83.\nAnarchy is one of the severest crimes known to the law: even worse than that of treason. An anarchist not only seeks to repudiate his allegiance to his sovereign, not only attempts to destrojr the government of his sovereign, but he seeks to destroy all governments. Therefore, anarchy is the blackest crime known to the law. See Lewis v. Daily News, 32 Atl. Rep. 246; Spies v. People, 122 Illinois, 1; People v. Most, 53 N. Y. Supp. 220.\nThis act authorizes the executive branch of the Government to try, pass judgment upon and convict the most respectable and honorable person within the territory of the United States, who is not a citizen of this Government, of the blackest crime as a reason for deporting said person. The act provides that all prostitutes shall be deported. Prostitution is a crime under the law. See State v. Stoyell, 54 Maine, 27; State v. Rice, 56 Iowa, 431; Springer v. State, 16 Tex. App. 593; Carpenter v. People, 8 Barber, 610; 108 Missouri, 575; 98 Alabama, 16. Consult also Bouvier\u2019s Law Dict.; Anderson\u2019s Dict, of Law; Black\u2019s Law Dict.\nThe judicial branch of the Government under our Constitution is the only branch of the Government that has authority to try, convict -and to pass judgment as to a crime. Under the Constitution every \u201cperson\u201d within .the territory of the United.States is entitled to a fair and impartial trial by \u201cdue process of law\u201d before being, branded as a criminal, and this includes every person, aliens as. well as citizens. 3 Am. and Eng. Ency. of Law (1st ed.), p. 681; Cooley on Const. Lim. 87; Story on Const. Lim. 518-585; Federalist, 47; 1 Blackstone Com. 146.\nThe law being unconstitutional, the prisoner should be discharged, for an unconstitutional law is no,law at all. See Ex parte Seibold, ICO U. S. 371.\nMr. Assistant Attorney General Harr for appellee:\nNo point is made, in this case, that Congress did not intend, by omitting the three-year limitation, to remove that limitation upon the authority to deport contained in the act of 1907. Such purpose is clear, and the amendatory act of 1910 has been uniformly so construed. Mango v. Weis, 181 Fed. Rep. 860; Brion v. Prentis, 182 Fed. Rep. 894; Dickman v. Williams, 183 Fed. Rep. 904; United States v. North German Lloyd S. S. Co., 185 Fed. Rep. 158; Sire v. Berkshire, 185 Fed. Rep. 967; Chomel v. United States, 192 Fed. Rep. 117; Siniscalchi v. Thomas, 195 Fed. Rep. 701.\nCongress can delegate to the Executive branch of the Government the authority to execute the provisions of law with reference to the deportation of aliens. Fong Yue Ting v. United States, 149 U. S. 698, 707, 713; Wong Wing v. United States, 163 U. S. 228, 237; The Japanese Immigrant Case, 189 U. S. 86, 100; Turner v. Williams, 194 U. S. 279; United States v. Ju Toy, 198 U. S. 253; Chin Yow v. United States, 208 U. S. 8; United States v. Wong You, 223 U. S. 67; Tang Tun v. Edsell, 223 U. S. 673; Low Wah Suey v. Backus, 225 U. S. 460, 468.\nThe Immigration Act, as amended March 26, 1910, is not ex post facto legislation as applied to appellant. De portation proceedings are not criminal, Fong Yue Ting v. United States, 149 U. S. 730, and the constitutional provision against ex post facto laws applies only to criminal statutes. Johannessen v. United States, 225 U. S. 227, 242.\nAppellant was not arrested for practicing prostitution prior to the statute, but because she was found so engaged after its enactment."
+  },
+  "file_name": "0585-01",
+  "first_page_order": 619,
+  "last_page_order": 625
+}

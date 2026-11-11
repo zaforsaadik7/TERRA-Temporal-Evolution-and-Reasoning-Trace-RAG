@@ -1,0 +1,103 @@
+{
+  "id": 8441,
+  "name": "BONE v. UNITED STATES",
+  "name_abbreviation": "Bone v. United States",
+  "decision_date": "1963-06-17",
+  "docket_number": "No. 716, Misc.",
+  "first_page": "503",
+  "last_page": "503",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "374 U.S. 503"
+    },
+    {
+      "type": "parallel",
+      "cite": "10 L. Ed. 2d 1045"
+    },
+    {
+      "type": "parallel",
+      "cite": "83 S. Ct. 1879"
+    },
+    {
+      "type": "vendor",
+      "cite": "1963 U.S. LEXIS 1003"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1962-158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "373 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716366
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 68,
+    "char_count": 584,
+    "ocr_confidence": 0.654,
+    "pagerank": {
+      "raw": 5.325488591109832e-07,
+      "percentile": 0.9428254311351743
+    },
+    "sha256": "3349e9292382d65eed9113728dbd6992e657808b33ebd92be09c40c0e6163dca",
+    "simhash": "1:e62b720725a18099",
+    "word_count": 100
+  },
+  "last_updated": "2024-02-27T21:35:40.251890+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Clark and Mr. Justice Harlan would deny certiorari on the basis of their dissent in Sanders v. United States, 373 U. S., at 23."
+    ],
+    "parties": [
+      "BONE v. UNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThe motion for leave to proceed in forma pauperis and the petition for writ of certiorari are granted. The judgment is vacated and the case is remanded for further consideration in light of Sanders v. United States, 373 U. S. 1.\nMr. Justice Clark and Mr. Justice Harlan would deny certiorari on the basis of their dissent in Sanders v. United States, 373 U. S., at 23.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Petitioner pro se.",
+      "Solicitor General Cox, Assistant Attorney General Miller, Beatrice Rosenberg and Richard W. Schmude for the United States."
+    ],
+    "corrections": "",
+    "head_matter": "BONE v. UNITED STATES.\nNo. 716, Misc.\nDecided June 17, 1963.\nPetitioner pro se.\nSolicitor General Cox, Assistant Attorney General Miller, Beatrice Rosenberg and Richard W. Schmude for the United States."
+  },
+  "file_name": "0503-01",
+  "first_page_order": 553,
+  "last_page_order": 553
+}

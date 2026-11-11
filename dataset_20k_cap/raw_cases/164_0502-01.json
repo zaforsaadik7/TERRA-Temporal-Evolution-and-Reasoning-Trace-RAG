@@ -1,0 +1,684 @@
+{
+  "id": 3591423,
+  "name": "WILLARD v. WOOD",
+  "name_abbreviation": "Willard v. Wood",
+  "decision_date": "1896-11-30",
+  "docket_number": "No. 61",
+  "first_page": "502",
+  "last_page": "526",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "164 U.S. 502"
+    },
+    {
+      "type": "parallel",
+      "cite": "41 L. Ed. 531"
+    },
+    {
+      "type": "parallel",
+      "cite": "17 S. Ct. 176"
+    },
+    {
+      "type": "vendor",
+      "cite": "1896 U.S. LEXIS 1887"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1896-053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "4 Wheat. 122",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4696
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/17/0122-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 620",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3514741
+      ],
+      "pin_cites": [
+        {
+          "page": "625"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/115/0620-01"
+      ]
+    },
+    {
+      "cite": "130 U. S. 693",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3537841
+      ],
+      "pin_cites": [
+        {
+          "page": "696"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/130/0693-01"
+      ]
+    },
+    {
+      "cite": "4 H. & J. 275",
+      "category": "reporters:state",
+      "reporter": "H. & J.",
+      "case_ids": [
+        8736685
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/h-j/4/0275-01"
+      ]
+    },
+    {
+      "cite": "7 Mackey, 392",
+      "category": "reporters:state",
+      "reporter": "Mackey",
+      "case_ids": [
+        2606767
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/dc/18/0392-01"
+      ]
+    },
+    {
+      "cite": "1 Hopk. Ch. 372",
+      "category": "reporters:state",
+      "reporter": "Hopk. Ch.",
+      "case_ids": [
+        1892478
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/hopk-ch/1/0372-01"
+      ]
+    },
+    {
+      "cite": "5 Barb. 410",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "133 U. S. 610",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1129232
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "625"
+        },
+        {
+          "page": "623"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/133/0610-01"
+      ]
+    },
+    {
+      "cite": "8 Pet. 361",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1438389
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/33/0361-01"
+      ]
+    },
+    {
+      "cite": "135 U. S. 309",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3543706
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/135/0309-01"
+      ]
+    },
+    {
+      "cite": "24 Penn, St. 200",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        9503873
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/24/0200-01"
+      ]
+    },
+    {
+      "cite": "94 N. Y. 86",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2192024
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/94/0086-01"
+      ]
+    },
+    {
+      "cite": "69 N. Y. 280",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        530687
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/69/0280-01"
+      ]
+    },
+    {
+      "cite": "54 N. Y. 35",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        514691
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/54/0035-01"
+      ]
+    },
+    {
+      "cite": "83 N. Y. 149",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2179275
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/83/0149-01"
+      ]
+    },
+    {
+      "cite": "48 N. Y. 253",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2055515
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/48/0253-01"
+      ]
+    },
+    {
+      "cite": "24 N. Y. 178",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2029514
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/24/0178-01"
+      ]
+    },
+    {
+      "cite": "12 N. Y. 74",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2016200
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/12/0074-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. 11",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1522227
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/103/0011-01"
+      ]
+    },
+    {
+      "cite": "109 U. S. 527",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8242
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/109/0527-01"
+      ]
+    },
+    {
+      "cite": "106 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3497742
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/106/0124-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 627",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3380301
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0627-01"
+      ]
+    },
+    {
+      "cite": "98 U. S. 176",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11321
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/98/0176-01"
+      ]
+    },
+    {
+      "cite": "9 Wall. 23",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3440481
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/76/0023-01"
+      ]
+    },
+    {
+      "cite": "27 Stat. 434",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 Mackey, 538",
+      "category": "reporters:state",
+      "reporter": "Mackey",
+      "case_ids": [
+        2618226
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/dc/15/0538-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 187",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137805
+      ],
+      "pin_cites": [
+        {
+          "page": "190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/143/0187-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3567189
+      ],
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/148/0360-01"
+      ]
+    },
+    {
+      "cite": "2 Wall. 87",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8299905
+      ],
+      "pin_cites": [
+        {
+          "page": "95"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/69/0087-01"
+      ]
+    },
+    {
+      "cite": "106 U. S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3498981
+      ],
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/106/0391-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646919
+      ],
+      "pin_cites": [
+        {
+          "page": "811"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0806-01"
+      ]
+    },
+    {
+      "cite": "8 Cranch, 462",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        531005
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/12/0292-01"
+      ]
+    },
+    {
+      "cite": "3 G. & J. 158",
+      "category": "reporters:state",
+      "reporter": "G. & J.",
+      "case_ids": [
+        1733371
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/g-j/3/0158-01"
+      ]
+    },
+    {
+      "cite": "3 Mackey, 170",
+      "category": "reporters:state",
+      "reporter": "Mackey",
+      "case_ids": [
+        2621835
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/dc/14/0170-01"
+      ]
+    },
+    {
+      "cite": "4 Cranch C. C. 619",
+      "category": "reporters:state",
+      "reporter": "Cranch",
+      "case_ids": [
+        6128737
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-cas/7/0691-01"
+      ]
+    },
+    {
+      "cite": "3 G. & J. 491",
+      "category": "reporters:state",
+      "reporter": "G. & J.",
+      "case_ids": [
+        1733408
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/g-j/3/0491-01"
+      ]
+    },
+    {
+      "cite": "10 G. & J. 50",
+      "category": "reporters:state",
+      "reporter": "G. & J.",
+      "case_ids": [
+        1700368
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/g-j/10/0050-01"
+      ]
+    },
+    {
+      "cite": "158 U. S. 222",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1220475
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/158/0222-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3515171
+      ],
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/115/0505-01"
+      ]
+    },
+    {
+      "cite": "111 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3506642
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/111/0223-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3502794
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/108/0132-01"
+      ]
+    },
+    {
+      "cite": "138 U. S. 623",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3549719
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/138/0623-01"
+      ]
+    },
+    {
+      "cite": "98 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/98/0123-01"
+      ]
+    },
+    {
+      "cite": "133 U. S. 610",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1129232
+      ],
+      "pin_cites": [
+        {
+          "page": "620, 622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/133/0610-01"
+      ]
+    },
+    {
+      "cite": "135 U. S. 309",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3543706
+      ],
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/135/0309-01"
+      ]
+    },
+    {
+      "cite": "4 Mackey, 538",
+      "category": "reporters:state",
+      "reporter": "Mackey",
+      "case_ids": [
+        2618226
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/dc/15/0538-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1665,
+    "char_count": 52932,
+    "ocr_confidence": 0.524,
+    "pagerank": {
+      "raw": 1.7711625986022401e-06,
+      "percentile": 0.9938386369243921
+    },
+    "sha256": "e94ef5fa9e9ce28d2c3b16a0143e9c57b8e170dec7e0379ff40f12dce266c3d8",
+    "simhash": "1:1da5fcb68e72ce7b",
+    "word_count": 9310
+  },
+  "last_updated": "2024-02-27T22:46:40.667622+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "WILLARD v. WOOD."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Fuller,\nafter stating the case, delivered the opinion of the court. \u25a0\n. The-action of covenant brought by Willard against Wood, December 30, 1884, was heard by the Supreme Court of 'the-District of Columbia in general term in the first instance, and it was held that the acceptance by Wood of the deed of .Dixon to him created no specialty obligation, on the part of Wood, though he might be held liable on it in assumpsit, as on a simple contract, and that the act of limitations of the District barred such action because brought more than three-years after the cause of action accrued. 4 Mackey, 538.\nThe case being brought on writ of error to this court, it was ruled that whether an agreement by the grantee of a mortgagor to assume the mortgage debt could be enforced at law or in equity was governed by the law of the place where the action was brought, and that by the law of the .District of Columbia, whether such an agreement was or was not considered as under seal, it was an agreement made with the grantor only, and created no direct obligation to the mortgagee upon which the latter could sue at law. If the agreement of the grantee was considered under seal, by reason of the deed being sealed by the grantor, it fell within the settled rule in force in the District of Columbia, that no one could maintain an action at law on a contract under seal, to which he was not a party; and if the agreement of the grantee was considered as in the nature of assumpsit, implied from his acceptance of the deed, \u201c still, being made with the .grantor only and for his benefit, upon a consideration moving from him alone, there being no privity of contract between the grantee and the mortgagee, and the latter not having known of or assented to the agreement at the time it was made, nor having since done or omitted any act on the faith of it, it follows that, by the law as declared by this court, and prevailing in the District of Columbia, the mortgagee cannot maintain an action at law against the grantee. Keller v. Ashford, 133 U. S. 610, 620, 622; and National Bank v. Grand Lodge, 98 U. S. 123, there cited. . . . Moreover, if the grantee\u2019s liability was in assumpsit only, it was, in any view of the case, barred by the statute of limitations in three years.\u201d And the judgment of the Supreme Court of the District was accordingly affirmed. Willard v. Wood, 135 U. S. 309, 314.\nIn Keller v. Ashford, above referred to, it was held that although the contract of the purchaser to pay the mortgage, being made to the mortgagor and for his benefit onhr, created no direct obligation of the purchaser to the mortgagee, yet that in a court of equity the mortgagee may avail himself of the right of the mortgagor against the purchaser upon the familiar principle in equity that a creditor shall have the benefit of any obligation or security given by the principal to the surety for the payment of the debt. And it was said: \u201c The doctrine of the right of a creditor to the benefit of all securities given by the principal to the surety fdr the payment of the debt does not rest upon any liability of the principal to the creditor, or upon any peculiar relation of the surety towards the creditor; but upon the ground that the surety, being the creditor\u2019s debtor, and in fact occupying the relation of surety to another person, has received from that person an obligation, or security for the payment of the debt, which a court of equity will therefore compel to be applied to that purpose at the suit of the creditor. Where the person ultimately held liable is himself a debtor to the creditor, the relief awarded has no reference to that fact, but is grounded wholly on the right of the creditor to avail himself of the right of the surety against the principal. If the person, who is admitted to be the creditor\u2019s debtor stands, at the time of receiving the security, in the relation of surety to the pers.on from whom he receives it, it is quite immaterial whether that, person is or ever has been a debtor of the principal creditor, or whether the relation of suretyship or the indemnity to the surety existed, or was known to- the creditor, when the debt was contracted. In short, if one person agrees with another to be -primarily iiable for a debt due from that other to a third person, so that as between the parties to the agreement the first is the principal and the second the surety, the creditor of such surety is entitled, in equity, to be substituted in his place for the purpose of compelling such principal to pay the debt.\u201d 138 U. S. 623.\nAfter citing many cases and quoting from Crowell v. St. Barnabas Hospital, 12 C. E. Green, 650, 655, the opinion continued (p. 625): \u201c The decisions of this court, cited' for the defendant, are not only quite consistent with this conclusion, but strongly tend to define the true position of a mortgagee, Avho has in no way acted on the faith of, or otherwise made himself a party to, the agreement of the mortgagor\u2019s grantee to pay the mortgage; holding, on the one hand, that such a mortgagee has no greater right than the mortgagor has against the grantee, and therefore cannot object to the striking out by a court of equity, or to the release by the mortgagor, of such an agreement when inserted in the deed by mistake; Elliott v. Sackett, 108 U. S. 132; Drury v. Hayden, 111 U. S. 223; and, on the other hand, that such an agreement does not, without the mortgagee\u2019s assent, put the grantee and the mortgagor in the relation of principal and surety towards the mortgagee, so that the latter, by giving time to the grantee, will discharge the mortgagor. Shepherd v. May, 115 U. S. 505, 511.\u201d\nThe Court of Appeals rightly held that remedies are determined by the law of the forum; that Wood\u2019s liability by reason of his acceptance of Dixon\u2019s deed was subject to the limitation prescribed as to simple contracts; and' was barred by the application in equity, by analogy, of the bar of the statute at laAV.\nWe also concur with the Court of Appeals that the bill was effectually dismissed as against the estate of Wood on the 5th of January, 1885. That court held that there could be no doubt that it Avas the intention of plaintiff by the order of that date to dismiss the bill as to the representatives of Wood\u2019s estate, and that it was supposed at the time to have been effectually done; that this dismissal was a concession to the demand of Wood that plaintiff should elect as between his action at law then pending against the representatives and the bill in equity; that it could not be urged that the defendant or his representative might object to the dismissal; and that after a voluntary dismissal of the bill by plaintiff he \u25a0would not be allowed to reinstate it unless it was shown that there was surprise or mistake. It was further held that though the order of dismissal referred alone to Mrs. Wood, she was the only active representative of the estate, and that the fair construction of the order of dismissal would not permit of the contention that the bill was still intentionally retained as against the co-executor, the son; and that indeed, being dismissed voluntarily as against the active representative, it was left fatally defective, even though technically still pending against the son.\nThe proceedings show that Mrs. Wood was regarded as the sole representative, she only having administered; and the attempts by.filing a replication July 1,1890, without leave of court, to the answer filed by Wopd, who had then been . dead nearly eight years, and by filing a paper signifying the withdrawal of the direction to dismiss the bill, July 31, 1890, also without leave of. court, were unavailing in the premises.\nBut it is insisted that, conceding the remedy as to Wood Avas barred, it does not folloAV that Bryan Avas entitled to avail .himself of that bar, since the right was not extinguished ; that Bryan joined in the execution of the deed of Wood, and thereby expressly agreed to pay the balance due on the mortgage ; that this was an absolute promise to pay and not merely a contract of indemnity; and that it could be proceeded on as a specialty irrespective of whether the remedy on Wood\u2019s contract with Dixon was barred in the District or not.\nIt is not denied that the enforcement of the contract Avas open to all defences existing between Wood and Bryan. Episcopal City Mission v. Brown, 158 U. S. 222: Christmas had not been deprived by either of them of any security he ever had ; there was no mutual agreement between him and them ; and he had in no way acted on the faith of the agreement betAveen them in such a way as to bind either of them by estoppel.\nThe sixth section of chapter 23 of the act of 1715 of the State of Maryland, and which is in force in this District, is as follows :\n\u201cNo bill, bond, judgment, recognizance, statute merchant, or of the staple, or other specialty whatsoever, except such as shall be taken in the name or for the use of our sovereign lord the king, his heirs and successors, shall.be good and pleadable, or admitted in evidence against any person or persons of this province, after the principal debtor and creditor have been both dead twelve years, or the debt or thing in action above twelve years\u2019 standing; saving to all persons that shall be under the aforementioned impediments of'infancy, coverture, insanity of mind, imprisonment, or being beyond the sea, the full benefit of all such bills, bonds, judgments, recognizances, statutes merchant, or of the staple, or other specialties, for the space of five years after such impediment removed, anything in this act before mentioned to the contrary notwithstanding.\u201d 1 Kilty\u2019s Laws of Maryland.\nThis section was peculiar to the State of Maryland, and in effect went to the cause of action. In some aspects it has often received the consideration of the courts of that State. Some of the decisions are referred to by Chief Justice Alvey in Mann v. McDonald, 22 Wash. Law Rep. 98, and it is there said: \u201c Unlike the construction that has been placed upon the terms of the statute employed in the second section, in regard to simple contract debts, the construction uniformly placed on the terms employed in the sixth section in regard to judgments, recognizances and specialties of various kinds, owing to the peculiar force and prohibitory nature of the language employed in this latter section, has been different, and unyielding to circumstances that would remove the bar of the statute as applied to simple contract debts; hence it has been uniformly held that a' mere acknowledgment of the debt due on judgment, or even'an express promise to pay the same, will not arrest the running of the statute, or remove the bar, as against the judgment or specialty mentioned in the act; though such judgment or specialty may form the basis or inducement to a new express promise to pay, upon which an action may be maintained. Lamar v. Munro, 10 G. & J. 50 ; Young v. Mackall, 4 Maryland, 367. And so the payment of interest, or even part of the principal of the judgment debt will not have the effect of avoiding.the operation of the statute as applied to proceedings on the judgment to revive, or to recover on the judgment by action of debt. In the case of Carroll v. Waring, 3 G. & J. 491, it was held that the pa.yment of interest upon a bond was no avoidance of the bar of the act' of limitations of 1715, c. 23; nor would even an express acknowledgment of the debt revive the remedy upon a bond barred by that act.\u201d And see Digges v. Eliason, 4 Cranch C. C. 619; Thompson v. Beveridge, 3 Mackey, 170; Galt v. Todd, 23 Wash. Law Rep. 98.\nThe saving clause of the section relates to creditors only, and by section 466 of the Kevised Statutes of the District all exceptions in favor of parties beyond the District were repealed. However, as this sixth section of the act of 1715 was not pleaded we need not consider whether its benefits are denied to non-resident debtors by the fourth and fifth sections relating to \u201cpersons absenting the province, or wandering from county to county,\u201d or by the act of November, 1765, c. 12, as to persons who \u201cmay be absent out of this province, at the time when the cause of action hath arisen or accrued,\u201d Kilty\u2019s Laws; Hysinger v. Baltzell, 3 G. & J. 158; Maurice v. Worden, 52 Maryland, 283 ; or other statutory provision.\nBut it is well to observe that this covenant was entered into in the District between residents thereof, and, although its performance was required elsewhere, the liability for non-performance was governed by the law of the obligee\u2019s domicil, operating to bar the obligation, unless suspended by the absence of the obligor.\nThe general rule in respect of limitations must also be borne in mind, that if a plaintiff mistakes his remedy, in the absence of any statutory provision saving his rights, or where from any cause a plaintiff becomes nonsuit or the action abat\u00e9s or is dismissed, and, during the pendency of the action, the limitation runs, the remedy is barred. Alexander v. Pendleton, 8 Cranch, 462, 470 ; Young v. Mackall, 4 Maryland, 367; Wood on Limitations, \u00a7 293, and cases cited.\nIn his answer Bryan relied on Wood\u2019s answer, which set np laches and the statute of limitations. But the recognized doctrine of courts of equity to withhold relief from those who have delayed the assertion of their claims for an unreasonable length of time may be applied in the discretion of the court, even though the laches are not pleaded or the bill demurred to. Sullivan v. Portland & Kennebec Railroad, 94 U. S. 806, 811; Lansdale v. Smith, 106 U. S. 391, 394; Badger v. Badger, 2 Wall. 87, 95; Syester v. Brewer, 27 Maryland, 288, 319; Williams v. Rhodes, 81 Illinois, 571.\nThe deed of Wood to Bryan was executed March 14, 1874, and at that time the mortgage bond was overdue, having matured, according to its terms, July 7, 1873, but interest up to February 1, 1874, had been paid on it by Wood. Bryan\u2019s obligation to Wood was to pay forthwith, or within a reasonable time, a distinction of no importance here, and lapse of time and changes in condition began immediately to affect it.\nFrederick L. Christmas, the owner of the bond, was then living. He accepted interest for two years thereafter, but this was not paid by either Wood or Bryan, and if such payment operated as an extension of time, it does not appear to have been with the assent of either of them.\nBrjmn sold within a few days of his purchase, and conveyed to Palmer, the deed being recorded in Kings County, April 9, 1874, and Palmer covenanted to pay the outstanding balance. To the foreclosure proceedings Christmas did not make Wood and Bryan parties, or either of them, but made Palmer a defendant, though asking a deficiency decree against Dixon only.\nWood gave. seventeen thousand dollars for the property, but its value had been gradually declining, and it was bid in December 10, 1877, at the foreclosure sale by the heirs of Christmas for $5000, the testimony showing that eight, thousand dollars was then a fair price.\nPalmer died in 1878 or 1879, being reputed to have parted with \u201c most of his estate.\u201d\nThe various law suits which had been previously commenced, except the action of covenant of December 30, 18S4, against' Wood\u2019s executrix, were abandoned and dismissed January 5, 1885, on which day this bill was also dismissed, as we have seen.\nThe bill was filed July 15, 1881, against Wood and Bryan, as alike liable to Christmas as principal debtors, and service of process was had on Wood only, August 18, 1881. The mere fact that the bill was left on the files would not, in itself, relieve from the effects of laches, for failure in diligent prosecution may have the same consequences as if no suit has been instituted. Johnston v. Standard Mining Co., 148 U. S. 360, 370.\nNearly sixteen years had elapsed since Bryan entered into the covenant with Wood, when, on March 10, 1890, over eight years after the issue of the first subpoena, alias process was issued against Bryan and service had. For seven years of this period he had resided in the District. For seven years he had been a citizen of Illinois as he still remained. By the law of Illinois the mortgagee may sue at law a grantee, who, by the terms of an absolute conveyance from the mortgagor,K assumes the payment of the mortgage debt. Dean v. Walker, 107 Illinois, 540, 545, 550; Thompson v. Dearborn, 107 Illinois, 87, 92; Day v. Williams, 112 Illinois, 91; Union Life Insurance Co. v. Hanford, 143 U. S. 187, 190. But Christmas did not see fit to bring a suit against Bryan in Illinois, nor was this bill filed during Bryan\u2019s residence in the District, and when filed it was allowed to sleep for years without issue of process to Bryan, and for five years after it had been dismissed as to Wood\u2019s representatives, Wood having been made defendant, by Christmas\u2019 ancillary administrator, as a necessary party.\nIn the meantime Dixon had been discharged in bankruptcy and had died ; Palmer had also departed this life, leaving but little if any estate; Wood had deceased, his estate been distributed, and any claim against him had been barred; and the mortgaged property had diminished in value one half and had passed into the ownership of Christmas\u2019 heirs. In view of the laches disclosed by this record, we do not think the equitable jurisdiction of the court ought to be extended to enforce .a covenant plainly not made for the benefit of Christmas, and in respect of which he possessed no superior equities. The changes which the lapse of time had wrought in the value of the property and in the situation of the parties were such as to render it inequitable to decree the relief sought as against Bryan. So that, whether the barring in this jurisdiction of the remedy merely as against Wood would or would not in itself defeat a decree against Bryan, without more, we hold that relief was properly refused, and the decree is\nAffirmed.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Fuller,"
+      }
+    ],
+    "attorneys": [
+      "Mr. William Henry Dennis and Mr. Enoch Totten for appellant. Mr. Stephen Gondit was on their brief.",
+      "Mr. John Sidney Webb for Wood. Mr. H. Randall Webb \u2022 and Mr. Harris Lindsley were on his brief.",
+      "Mr. John Selden for Bryan."
+    ],
+    "corrections": "",
+    "head_matter": "WILLARD v. WOOD.\nAPPEAL FROM THE COURT OF APPEALS OF THE DISTRICT OF COLUMBIA.\nNo. 61.\nArgued October 26, 27, 1896.\nDecided November 30, 1896.\nRemedies are determined by the law of the forum; and, in the District of Columbia the liability of a person-by reason of his accepting a conveyance of real estate, subject to a mortgage which he is to assume and pay, is subject to.the limitation prescribed as to simple contracts, and is barred by the application in.equity, by analogy, of the bar of the statute at law.\nThe covenant attempted to be enforced in this suit was entered into in the District of Columbia, between residents thereof, and, although its performance was required elsewhere, the liability for non-performance was governed by the law of-the obligee\u2019s domicil, operating to bar the obligation, unless suspended by the absence of the obligor.\nIf a plaintiff mistakes his remedy, in the absence of any statutory provision saving his rights, or where from any cause a plaintiff becomes nonsuit, or the action abates or is' dismissed, and during the pendency of the action the limitation runs, the remedy is barred.\nCourts of equity withhold relief from those who have delayed the assertion of their claims for an unreasonable time; and this doctrine may be .applied in the discretion of the court, even though the laches are not pleaded or the bill demurred to.\nLaches may arise from failure in diligent prosecution of a suit, which may have the same consequences as if no suit had been instituted.\nIn view of the.laehes disclosed by the record, that pearly sixteen years had elapsed since Bryan entered into the covenant with Wood, when, on March 10, 1890, over eight years after the issue of the first subpoena, alias process was issued against Bryan and service had; that for seven years of this period he had resided in the District; that for seven years he had been a citizen of Illinois as he still remained; that by the law of Illinois the mortgagee may sue at law a grantee, who, by the terms of an absolute conveyance from the mortgagor, assumes the payment of the mortgage debt; that Christmas did not bring a suit against Bryan in lilinois, nor was this bill filed during Bryan\u2019s residence in the District, and when filed it was allowed to sleep for years without issue of process to Bryan, and for five years after it had been dismissed as to Wood\u2019s representatives, Wood having been made defendant, by Christmas\u2019 ancillary administrator, as a necessary party; that in the meantime Dixon had been discharged in bankruptcy and liad died; falmer had also departed this life, leaving but little if any estate; Wood had deceased, his estate been distributed, and any claim against him had been barred; and the mortgaged property had diminished in value one half and liad passed into-the ownership of Christmas\u2019 heirs: Held, ~\n(1) That the equitable jurisdiction of the court ought not to lie extended to enforce a covenant plainly not made for the benefit of Christmas, and in respect of which he possessed no superior equities;\n(2) That the changes which the lapse\" of time had wrought in the value of the property and in the situation of the parties were such as to render it inequitable to decree the relief sought as against Bryan;\n(3) That, without regard to whether the barring in this jurisdiction of the remedy merely as against Wood would or would not in itself defeat a decree against Bryan, the relief asked for was properly refused.\nCharles Christmas, a citizen of Brooklyn, New York, sold and conveyed certain real estate there situated, for the consideration of $17,000, to one Dixon, who, to secure $14,000 of the purchase money, executed July 7, 1868, a bond to Christmas for twice that amount, payable July 7, 1873, with semiannual interest at the rate of 7 per cent per annum, and also . a mortgage in fee of the property with power of sale in case of default. Charles Christmas died, and January'20, 1869, Charles H. Christmas, his executor, and Elizabeth G-ignoux, his executrix (two of his children), on dividing the.estate of the deceased, assigned the bond and mortgage to their brother; Frederick L. Christmas, who died at Brooklyn, November 13, 1876, and of whose estate Charles H. Christmas was appointed administrator June 28, 1877. April 19, 1869, for the consideration of $17,000, Dixon conveyed the real estate to W. W. W. Wood, in fee, by a deed which declared that the conveyance was subject to the mortgage above mentioned, \u201c which said mortgage with the interest due and to grow due thereon, the party of the second part hereby assumes and covenants to pay, satisfy and discharge, the amount thereof forming a part ' of the consideration herein expressed and having been deducted therefrom.\u201d This conveyance from Dixon to \"Wood was not executed by Wood, but he entered into possession of the mortgaged premises, paid interest on the mortgage debt up to February 1, 1874, and diminished the principal of the debt through two payments of two thousand dollars each, the last being made February 16, 1874.\nBy. deed dated March 14, 1874, acknowledged March 17, 1874, and recorded in April, 1874, Wood, for the. recited consideration of $17,583, conveyed the mortgaged premises, in fee, to Thomas B. Bryan, \u201csubject however to a certain indenture of mortgage made by the former owner of said property Martin Dixon to Charles Christmas to secure fourteen thousand dolls. (14,000,) dated July 7, 1868, recorded in the office of the register of King\u2019s County, New York, in Liber 784)of Mortgages, page 542, upon which principal sum there has been paid the sum of four thousand dolls. (4000,) the said Thos. B. Bryan hereby assuming and expressly agreeing to pay the balance with the interest at 7 per ct., he signing this deed in evidence of his said covenant.\u201d The deed was signed by Bryan, as well as Wood and his wife, and at this date the \u25a0mortgage debt had- been overdue for .about eight and one half months.\nBy deed dated the same day, March 14,1874, acknowledged March 14, and recorded March 21, 1874, and for a like consideration of $17,583, Bryan conveyed certain lots in Washington to Wood, in fee, subject to three certain incumbrances to secure an aggregate indebtedness of $7500, \u201c which said indebtedness with the interest thereon at ten (10) p\u2019r c\u2019t p\u2019r annum, the said party of the second part hereby expressly assumes, and he executes this deed, as one of tbe parties thereto in evidence of his covenant to pay the same,\u201d but \"the conveyance was not executed by Wood. The transaction between Wood and Bryan was an exchange of property, the property of Wood being incumbered with the debt of $10,000 with interest at seven per cent and, that of Bryan with an indebtedness of $7500 with interest at ten per cent per annum, the consideration of the two being identical, and Wood paid to Bryan $2000 in money to equalize the exchange. This transaction occurred in the District of Columbia where Wood and Bryan resided and where the conveyances were executed and delivered. It appeared in evidence that Bryan resided in the District in and after 1874; in the State of Colorado from 1881 to 1883; and from 1883 in the State of Illinois.\nOn March 20, 1874, the Brooklyn property with other real estate was conveyed by Bryan to Waterman Palmer, in fee,' by a deed bearing that date, acknowledged March 28, and. recorded April 9, 1874, and executed by both Bryan and Palmer, subject' to the mortgage and reciting that the. principal of the. mortgage debt had been reduced to $10,000, and declaring that the balance and interest was \u201c hereby expressly assumed by said Palmer.\u201d The copy of the Dixon bond shows payment of interest thereon for two years later than the period up to which interest was paid by Wood. Bryan paid neither principal nor interest upon the mortgage debt, nor was he shown to have taken possession of the property.\nCharles H. Christmas, as administrator of Frederick L. Christmas, filed a complaint August 28, 1877, in the county court of King\u2019s County, for the foreclosure and sale of the mortgaged premises against Dixon, Palmer and wife, and some others, averring that the co-defendants of Dixon had or claimed to have some interest acquired subsequent to the mortgage, and praying against Dixon only a) personal judgment in case of deficiency of 'proceeds of sale. To this suit neither Wood nor Bryan was made a party, and none of the defendants appeared, but some -were brought in by personal service of summons and some by publication. November 13, 1877, the cause was sent to a referee, who reported the next day that the debt, with interest, amounted to $11,307.92,.and on November 15, 1877, the report was confirmed and a sale of the mortgaged premises by or under the direction of the sheriff was ordered. The sheriff\u2019s report of sale was dated January 5, 1878, and represented that he had on December 10, 1877, sold the mortgaged property for $5000 to Charles H. Christmas, Elizabeth A. Gignoux and Harriet Gignoux, to whom he had executed a deed (who were the heirs at law of Frederick L. Christmas); that the proceeds of sale applied to the payment of the mortgage debt were $4556.61, and that the debt itself with interest amounted to $11,422.14 ; that the deficiency was $6865.63, and that this sum \u201cshould be docketed as judgment against Martin Dixon, one of the defendants herein.\u201d\nSome evidence was given' of notices of a proposed sale in May, 1877, being mailed in April, 1877, to Wood and Bryan at Washington, and of an intention to hold them for any deficiency, but Wood was dead many years before proofs were taken in this cause, and Bryan could not recall having received any such notice or having been otherwise notified in any way. '\nThe property had diminished in value from seventeen thousand dollars when Wood purchased to eight thousand dollars when the sale took place.\nDixon died intestate March 13, 187S, domiciled at Brooklyn, and on March 25, 1878, letters of administration were issued there to his widow. The sheriff\u2019s report of the sale was filed March 9, 1879, and confirmed April 17, 1879, and on November 11, 1880, the report of the sheriff was docketed as a judgment against Dixon.\nDixon had been discharged in bankruptcy, March 1, 1878, from all claims provable against his estate on December 7, 1877. In the schedule of his obligations appeared a debt of $12,000 as due by the bankrupt to Charles II. Christmas as administrator of Frederick L. Christmas, on the bond and mortgage, and it was therein represented that the mortgaged premises were equal in value to the debt.\nPalmer died in 1878 or 1879, having exhausted his estate.\nCharles II. Christmas, as administrator of Frederick L. Christmas, obtained leave from the Supreme Court of Brooklyn in April, 1879, to bring a suit against Wood and Bryan, or either of them, to recover the deficiency reported by the sheriff in the foreclosure proceeding, and July 24, 1879, an action of covenant was commenced in this District against Bryan in respect of the unpaid balance of the mortgage debt, in the name of Wood for the use of Charles II. Christmas, administrator of Frederick L. Christmas, to which Bryan pleaded but which was subsequently dismissed.\nFebruary 27, 1880, letters of administration on the estate of Dixon were issued in this District to Henry K. Willard in order to enable Willard as ancillary administrator of Dixon to proceed against Wood for the sum of about $7000, which Willard claimed in his application to be due to the- estate of Dixon in law, but equitably to Charles H. Christmas, administrator. The petition averred the death of Dixon intestate, that he \u201cdid not die insolvent,\u201d that his estate had been settled up in New York, and that his widow renounced her right of administration in this District.\nMarch 9, 1880, Willard, as administrator of Dixon for the use of Charles H. Christmas, as administrator, commenced an action of assumpsit against Wood.\nOctober 25, 1880, Willard was appointed in this District the administrator also of Frederick L. Christmas, and on November 11, 1880, commenced an action of assumpsit as such administrator against Wood. Issues were joined in the last two actions on pleas of the statute of limitations and the general issue. The plaintiff .filed to the pleas of limitation an additional replication, to the effect that the defendant by accepting the conveyance from Dixon and entering into possession had become bound by the deed.\nOn July 15, 1881, Willard as administrator of Frederick L. Christmas filed the present bill against Wood and Bryan, seeking to charge them under their several assumptions of the mortgage debt with a deficiency arising upon the sale and foreclosure, averring that such deficiency had been docketed as a personal judgment against Dixon; that Wood as grantee of Dixon had paid $4000 of the principal of the mortgage debt; that Bryan as grantee of Wood had entered into possession and enjoyed the rents and profits; and that Wood when he conveyed to Bryan had paid to the latter the sum of $2000 to be applied to the reduction of the mortgage debt, but that Bryan although agreeing to do so had failed to so apply that sum. The subpoena was returned August 18,1881, served on Wood only.\nWood answered the bill October 10,1881, setting up, among other things, laches and the statute of limitations, and insisting that the plaintiff as.against Wood should be required to elect between his remedy under the bill and his remedy in the action at law, the causes of action in each of these proceedings being claimed to be identical against Wood. On June 26, 1882, Wood filed a motion to compel the election upon which his answer had insisted. He died August 31, 1882, and the motion was renewed in effect October 25, 1883, by his executor and executrix. At their instance the equity cause was placed on the calendar for final hearing, September 16, 1884, but it was taken off the calendar on the suggestion by complainant\u2019s solicitor, as shown by a docket entry of November 12, 1884, that another suit was to be brought by complainant, and it appears that it was because the solicitor of the personal representatives of Wood learned that the bill against Wood was to be dismissed, that- he refrained from insisting upon a hearing.\nDecember 30, 1884, an action of covenant -was brought in the Supreme Court of the District b.y Willard, as administrator of Frederick L. Christmas, against Mrs. Wood, as executrix of her husband.\nOn January 5, 1885, counsel for Willard, administrator, filed in the present cause the following: \u201cAnd now comes the said complainant and dismisses his said bill, so far as the same relates to the defendant Mary L. C. Wood, executrix; but without prejudice.' The clerk will please make the entry on the docket accordingly.\u201d And on the same day the clerk made this entry on the docket: \u201cDismissal of bill as to Mary L. C. Wood, ex\u2019x, ordered by\u2019com pi\u2019t, precipe filed.\u201d On the same day, Willard, administrator, also dismissed, without prejudice, the three actions at law pending in the Supreme Court of the District'at the time of the filing of the bill, the counsel for Wood\u2019s representatives being informed in advance by the counsel of Willard, administrator, that this would be done.\nIn the action of covenant brought against the executrix of Wood, the Supreme Court of the District in general term gave judgment for the defendant, January IT, 1887, holding that the action should have been in assumpsit and was barred. 4 Mackey, 538: To review this judgment, a writ of error from this court was sued out, and, pending its decision, the estate of Wood was completely distributed. The judgment of the District Supreme Court was affirmed by this court May 5, 1890. 135 1J. S. 309. Meanwhile and on March 10, 1890, a subpoena against Bryan was issued in the present suit and was served on him\u2019on that day. April 30, 1890, Bryan answered the bill, not admitting the right or authority of plaintiff as administrator to maintain the suit against him ;\u2022 he denied the right of plaintiff to compel him to pay any balance due upon the mortgage; he set up, among other things, his continuous residence beyond the District; the service of process on him during his appearance in the District on business; that the transaction between him and Wood was an exchange of equities of redemption, which the $2000 was paid to equalize, any claim in respect of which was, moreover, barred; the defence of the bar of the statute of limitations, existing and pleaded in fayor of Wood; the dismissal of the bill as to the executrix of Wood; the judgment rendered in her favor by the court in general term; the distribution made of the estate of Wood; the non-liability of Wood and his estate and the consequent non-liability of Bryan, July 1, 1890, a replication wTas filed, without leave, to the answer filed by Wood on October 10, 1881. Wood had died August 31, 1882, and Mrs.-Wood, his executrix, had deceased as early as the middle of March, 1887. July 31, 1890, counsel for complainant, without leave of court, filed in the cause the following: \u201c And now comes the said complainant and withdraws his direction to the clerk to dismiss the bill, so far as it relates to Mary L. C.\u2019Wood, executrix, filed January 5, 1885, the same having been filed through mistake and misapprehension.\u201d\nBy Wood\u2019s will, Mrs. Wood was appointed executrix and Thomas N. Wood, his son, executor, and letters testamentary were granted to them October 27, 1882. The son, after qualifying as executor,, performed no duties as such during the lifetime of his mother, who administered upon the estate. In March, 1887, after his mother\u2019s decease, the son\u2019filed as executor a new appraisement and inventory and wound up the estate.\nIn the action of assumpsit brought by Willard, as administrator of Frederick L. Christmas, against Wood, the clerk was directed by plaintiff\u2019s attorney, on the suggestion of the death of defendant, to issue summons to. Mrs. Wood as executrix to appear and defend, so in this cause a subpoena was directed to bring in Mrs. Wood as executrix, and so in the action brought by Willard in Wood\u2019s name for the use of Charles H. Christmas, administrator, the death of Wood was suggested, and on application of plaintiff\u2019s attorney the suit was revived in the name of Mrs. Wood as executrix. The action of covenant brought by Willard, as. administrator of Christmas, against Mrs. Wood, as executrix, was conducted and tried throughout on the theory of her exclusive representative character; and, similarly, the dismissal of this bill, January 5, 1885, was as to Mrs. Wood as executrix.\nWillard\u2019s counsel had notice of the executorship of the son, whose appearance as executor was entered in the present suit, with that of his mother as executrix, October 25, 1883, but both sides went on with- the proceedings as if Mrs. Wood were sole' executrix.'\nThis suit was on January 12, 1892, ordered to be heard by the Supreme Court of the District at the general term in the first instance, but, before such hearing, became transferred under the act of Congress of February 9, 1893, c. 74, 27 Stat. 434, to the Court of Appeals of the District of Columbia, where the bill was dismissed with costs in accordance with an opinion delivered by Mr. Chief Justice Alvey, made part of the record and' reported in 1 D. O. App. 44.\nThe Court' of Appeals held that the bill was effectually dismissed as to the estate of Wood by the order of January 5, 1885 ; that the right, if any, attempted to be enforced against the estate of Wood by reason of the assumption in favor of Dixon was fully barred by the statute of limitations or the lapse of time before the bringing of this suit; that plaintiff as the representative of the mortgagee could not be substituted to the position-of Wood with the right to enforce the covenant Bryan made with and for the benefit of Wood, under the circumstances ; and that the covenant Of Bryan in the deed from Wood, if it could be availed of at all, could not be deemed a lawful asset of .the estate of the deceased in this District, which vested in the administrator here and entitled him to sue Bryan therefor!\nMr. William Henry Dennis and Mr. Enoch Totten for appellant. Mr. Stephen Gondit was on their brief.\nApart from technical objections urged by the defendants, the Court of Appeals denied relief on the grounds: (a) That the right sought to be enforced against the estate of Wood was barred by time, by analogy to the statute of limitations, before this suit was brought; (h) That this suit was dismissed as to the estate of Wood by the praecipe as to Mrs. Wood; (c) That the remedy against Bryan was lost when the remedy against Wood\u2019s estate was lost.\nAll these propositions are respectfully controverted by complainant.\nSuch a theory of subrogation might be carried even further, and the right to recover against Wood be denied, because Dixon was. discharged in bankruptcy from his debt to the mortgagee. The answer to that, of course, is that a discharge in bankruptcy results merely by operation of law, is an act in invitum as regards the creditor, avails only the bankrupt and does not discharge any other person liable for the same debt. Bankrupt Law, Rev. Stat. \u00a7 5118. See Story on Notes, \u00a7 428.\n(a) The estate of William W. W. Wood is liable notwithstanding the lapse of time. His bargain with Dixon to buy the house and assume the mortgage was a New York contract and governed by the laws of New York.\n\u201c It is a principle too firmly established to admit of dispute at this day, that to the law of the State in which land is situated'must we look for the rules which govern its descent, alienation and transfer, and for the effect and construction of conveyances.\u201d McGoon v. Scales, 9 Wall. 23; Orris v. Powell, 98 U. S. 176 ; Brine v. Ins. Co., 96 U. S. 627; Pritchard v. Norton, 106 U. S. 124; Canada Southern Railway v. Gebhard, 109 U. S. 527; Dennick v. Railroad Co., 103 U. S. 11.\nBy the law of the State of New York, a purchaser of mortgaged real estate' who accepts a deed thereto, by the terms of which he assumes, covenants and agrees .to pay the mortgage as a part of the purchase money, is liable for the amount of the incumbrance, and his liability is precisely the same, whether he actually signs and seals the deed or not. He is bound by the covenants in the instrument in either case, and an action may be maintained on the contract by the mortgagee. Trotter v. Hughes, 12 N. Y. 74; Burr v. Beers, 24 N. Y. 178; Thorp v. Keokuk Coal Co., 48 N. Y. 253; Hand v. Kennedy, 83 N. Y. 149 ; Atlantic Dock Co. v. Leavitt, 54 N. Y. 35; Vrooman v. Turner, 69 N. Y. 280; Bowen v. Beck, 94 N. Y. 86.\nThe precise question involved here was decided by the Court of Appeals of New York in Bowen v. Beck, 94 N. Y. 86. The purchaser who assumed the mortgage debt in that case did not sign the deed, but accepted it and its benefits; the deed purported, as here, to be a deed of \u201c indenture,\u201d and the statute of limitations was pleaded ; that statute as applicable to simple contracts barred the action, but as applicable to a specialty it did not. That case was in all respects undistinguishable from this, and the court held that the statute was not a defence. If this action were pending in New York, it would clearly be controlled by that- case. See also Hoff\u2019s Appeal, 24 Penn, St. 200.\nThis court, in Willard v. Wood, 135 U. S. 309, declined to decide this question, although it was argued at length at the bar.\nThe Court of Appeals concedes that such is the law of New York, and that international jurisprudence requires it to be respected in this case, but undertakes to say that the liability of Wood was not what the law of New York declares.it to be, that of \u00e1 party to the deed, but only a \u201c simple contract \u201d on Wood\u2019s part. It is submitted that this fails to give due effect to the lex loci contractus. It changes the nature of the contract, and makes a different one. In United States Bank v. Donnally, 8 Pet. 361, cited by the Court of Appeals, the paper sued upon was, on its face, a promissory note, not under seal, and it was held that it could not be sued upon in Yirginia as if it were a sealed instrument. The case at bar is not an action of covenant at law, but in equity upon the obligation imposed by the law of New York. If Wood was liable (and it is conceded he was), he was liable as'the law of New York said he was, as if he had joined in executing the deed he accepted, \u2014 and there was no mere \u201c simple contract.\u201d\n' It is quite, supposable that Wood did not sign the deed because the law of New York made that form superfluous.\nThere is-nothing in the statute of limitation of the District of Columbia which excludes or conflicts with the New York doctrine. Section 6 of the. Maryland act of 1715 expressly includes a recognizance, which, like the. assumption of a mort-. gage in New York, does not need to be sealed or even signed by the obligor. \u25a0, -\nSection 2 of the same act, on which defendants rely, provides- as follows: \u201c All actions of trespass quare clausum fregit, all actions of trespass, detinue, surtrover or replevin for taking away goods or chattels, all actions of account, contract, debt, book or upon the case, other than such accounts as .concern the trade or merchandise, between merchant and merchant, their factors and servants which are not residents within this province, all actions of debt for lending, or contract without specialty, all actions of debt for arrearages of rent, all actions.of assault, menaces, battery, wounding and imprisonment, or any of them, shall- be sued or brought by any person or persons within this province, at any time after the end of this present session of assembly, shall be commenced or sued within the tim\u00e9 and limitation hereafter expressed, and not after; that is to say, the said action of account, and -the said actions upon the case, upon simple contract, book debt or account, and the said actions for debt, detinue and replevin for goods and chattels, and the said actions for trespass quare clausum fregit, within '.three years ensuing the cause of such action, and not after.\u201d . . .\nMoreover, this suit does not assert a claim of Willard directly against Wood, but, by subrogation, the claim of Dixon, surety, against Wood, principal, for the obligation under the mortgage. Keller v. Ashford, 133 U. S. 610, 625.\nThe statute does not begin to run on the surety\u2019s claim against his principal until the surety is compelled or compellable to pay the debt \u2014 i.e., in this case not until the sheriff\u2019s report of sale was confirmed (April 17, 1879), or when the deficiency was ascertained; This suit was filed in 1881. Wood, Limitation of Actions, \u00a7 145. Elwood v. Diefendorf, 5 Barb. 410.\nThe court below appears to have cited no authority for declaring that, \u201c according to the principles of the common law, no mere agreement or assumption to pay, by a grantee in a deed, neither signed nor sealed by him, can be deemed or treated as a specialty or covenant, in this District.\u201d There appears to be no decision in Maryland prior to the cession of this District in 1801, and no District decision prior to the case at bar, that declares such to-be the common law in this' District. The States which have adopted the same doctrine as that declared in New York, have adopted it. as being part of the common-law of England, and no reason is perceived why it is not the common law in this-jurisdiction. The learned court below took an erroneous view as to the common- law of England on this subject. Finch, Book of the Law, 109; Staines v. Morris, 1 Ves. & Beam. 8; Com. Dig. Title Covenant, A 1, pl. 5, 6; Finley v. Simpson, 2 Zabriskie (22 N. J. Law), 311.\nCertainly in equity there should be no technical difficulty, arising from the \u201cform of the action,\u201d in treating Wood' as if he had signed-and sealed the indenture.\n(b) The praecipe was wholly ineffectual to dismiss the suit as- against the estate of Wood, and was certainly subject to the withdrawal filed by the complainant. It' referred only to \u201cMary L. C. Wood, executrix,\u201d who is since deceased, and not to Thomas N. Wood, the executor, against whom this suit is now pending.\nThe dismissal of a bill in equity as to one of two executors is inoperative. Executors are joint tenants and not tenants-in common. An equity suit against one of two executors would support a judgment or decree binding on the estate, if no objection were made or want of parties suggested by the defendant.\nThe plaintiff in an equity suit cannot effectually dismiss his suit, especially after answer, except by means of an order of the court. 1 Daniell, Ch. Pr. 795; Fisher v. Quick, 1 Stockton (9 N. J. Eq.), 312.\nIn Orphan Asylum v. McCartee, 1 Hopk. Ch. 372, cited by the court below, the dismissal was by order of court, after argument, and the court was asked to vacate its own order.\nThomas N. Wood having duly qualified as co-executor, the question how much actual service he performed during the life of the co-executrix was one merely between themselves. lie did not cease at any time to be co-executor. Estate of Patten, 7 Mackey, 392; Richardson v. Stansbury, 4 H. & J. 275.\n(c) Whatever may be the case as to Dixon and Wood, the defendant Bryan should be held liable in equity upon his signed and sealed covenant.\nHe intentionally bought the property cum onere. If it had risen in value above the price at which he bought it, including the mortgage he assumed, he would have reaped what some have, called \u201c the unearned increment.\u201d As it has fallen below the amount of debt secured upon it, he should bear the loss. His liability is not merely technical, but founded in equity and good conscience,-and it should not be cancelled, \u00e9ven if it be held that Dixon\u2019s estate or even Wood\u2019s estate-for any reason is no longer liable.\nIt is established and conceded that as between themselves Bryan was principal and Wood was surety. The fact that the right to sue the surety has been barred by the statute of limitations, if it be a fact, should not and does not destroy in equity the right to be subrogated to any security held by the surety.\nAn apt illustration of this is afforded by Eastman v. Foster, 8 Met. (Mass.) 19, per Shaw, C. J., where the maker of a note had given a mortgage to his surety to secure him, and it was decided, after argument and full consideration, that the holder of the note was entitled, by subrogation, to the' benefit of the mortgage, even though his right to sue the surety was barred by limitation. The court said (p. 24):\n\u201c The effect of the mortgage was, in equity, to pledge the property in the form of a hypothecation to the surety, for the payment of the mortgagor\u2019s debt; and the pledge is not redeemed, nor the equitable lien upon it discharged, until the debt is paid.\u201d\nIn the case at bar, Bryan in the view of equity is the principal debtor, Wood is the surety, and the covenant in the deed between Wood and Bryan is the security held by the surety, and which is not discharged until the debt is paid.\nThe only effect of limitations, if any, in this qase, is to take away the remedy against Wood\u2019s estate. It does not affect the right, and should not have any collateral effect on claims against another. Michigan Ins. Bank v. Eldred, 130 U. S. 693, 696; Campbell v. Holt, 115 U. S. 620, 625; Sturges v. Crowninshield, 4 Wheat. 122.\nPomeroy\u2019s Equity Jurisp., \u00a7 1206, says that the \u201cmortgagee may release the mortgagor without releasing the purchaser.\u201d\nIn Keller v. Ashford, 133 U. S. 610, 623, this court said: \u201cIf the person who is admitted to be the creditor\u2019s [mortgagee\u2019s] debtor stands, at the time\u25a0 of receiving the security, in .the relation of surety to the person from whom he receives it, it is quite immaterial whether that person is or ever has been a debtor of the principal creditor, or whether, the relation of suretyship or the indemnity to the surety existed, 'or was known to the' creditor, when the debt was contracted. In short, if one person agrees with another to be primarily liable for. a debt due from that other to a third person, so that as between the parties to the agreement the first is the principal and the s\u00e9cond the surety, the creditor of such surety is entitled, in equity, to be substituted in his place for the purpose of compelling such principal to pay the debt.\u201d\nAnd the court quotes and adopts this language : \u201c But the right of the mortgagee to this remedy does not result from any fixed or vested right in him, arising either from the acceptance by the subsequent purchaser of the conveyance of the mortgaged premises, or from the obligation of the grantee to pay the mortgage debt as between himself and his grantor. . . . And it will not in any case be available to the mortgagee, unless the mortgagor was himself personally liable for the payment of the mortgage debt.\u201d\nIn Keller v. Ashford, the mortgagor was not made a party to the suit against the mortgagor\u2019s grantee, and this court said that this omission could not prejudice any interest of his, or any right of either party to that suit.\nThe plain deduction from the language and action of this court in that case is that the subrogation in question takes place, in the contemplation of\" equity, when the grantee takes the property, and assumes the mortgage debt, if the claim of the mortgagee is then valid against the mortgagor. The mortgagee, having notice on the public records of the assumption of the debt by the new owner of the property, may very well .rely upon the right which he is advised equity gives him against such owner and elect to take him as the debtor in equity. Why should the mortgagee then be obliged to keep his claim alive indefinitely against the original mortgagor, and against a chain of intermediate owners, who may be dead or bankrupt, or in foreign parts, under penalty of being told; if he fails to' do so in regard to any one of them, \u201c Oh, the vinculum of obligation is broken; there is a missing link; and you are not entitled to the benefit of subrogation.\u201d Why should he not rather have an equitable right similar to that of the holder of a promissory note, who ca.n strike off intermediate endorsers and sue any particular one ?\nIn the rapid transfer of real estate from owner to owner in modern times, any other construction of the equitable doctrine so carefully buiit up by the courts would, in many cases, reduce it to a nullity. That it is 'a salutary doctrine. in aiding to make real estate a subject of commerce, none will deny, who consider how it tends to shift the burden of a mortgage debt from the mortgagor to the purchaser who assumes the mortgage, thereby accomplishing the very object which those parties have in mind, without the necessity of - asking the consent of the mortgagee to the change of debtor.\nMr. John Sidney Webb for Wood. Mr. H. Randall Webb \u2022 and Mr. Harris Lindsley were on his brief.\nMr. John Selden for Bryan."
+  },
+  "file_name": "0502-01",
+  "first_page_order": 528,
+  "last_page_order": 552
+}

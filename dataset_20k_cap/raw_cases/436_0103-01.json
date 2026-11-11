@@ -1,0 +1,578 @@
+{
+  "id": 1490209,
+  "name": "SECURITIES AND EXCHANGE COMMISSION v. SLOAN",
+  "name_abbreviation": "Securities & Exchange Commission v. Sloan",
+  "decision_date": "1978-05-15",
+  "docket_number": "No. 76-1607",
+  "first_page": "103",
+  "last_page": "127",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "436 U.S. 103"
+    },
+    {
+      "type": "parallel",
+      "cite": "56 L. Ed. 2d 148"
+    },
+    {
+      "type": "parallel",
+      "cite": "98 S. Ct. 1702"
+    },
+    {
+      "type": "vendor",
+      "cite": "1978 U.S. LEXIS 88"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1977-081"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "392 U. S. 40",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167951
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "57"
+        },
+        {
+          "page": "61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0040-01"
+      ]
+    },
+    {
+      "cite": "89 Stat. 118",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U. S. C. \u00a7 781",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "j"
+        },
+        {
+          "parenthetical": "k"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "383 U. S. 272",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170167
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "283"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0272-01"
+      ]
+    },
+    {
+      "cite": "389 U. S. 299",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338012
+      ],
+      "weight": 2,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "305-306"
+        },
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0299-01"
+      ]
+    },
+    {
+      "cite": "396 U. S. 168",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11330937
+      ],
+      "weight": 2,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "192"
+        },
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/396/0168-01"
+      ]
+    },
+    {
+      "cite": "390 U. S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169982
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/390/0261-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 278",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525133
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0278-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 374",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525062
+      ],
+      "pin_cites": [
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0374-01"
+      ]
+    },
+    {
+      "cite": "329 U. S. 143",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156832
+      ],
+      "pin_cites": [
+        {
+          "page": "153-154"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/329/0143-01"
+      ]
+    },
+    {
+      "cite": "322 U. S. 111",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142352
+      ],
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/322/0111-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 134",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1229682
+      ],
+      "weight": 2,
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0134-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182437
+      ],
+      "year": 1978,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/434/0275-01"
+      ]
+    },
+    {
+      "cite": "419 U. S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173289
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/419/0065-01"
+      ]
+    },
+    {
+      "cite": "422 U. S. 694",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9503
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "719"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0694-01"
+      ]
+    },
+    {
+      "cite": "411 U. S. 726",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10185
+      ],
+      "weight": 2,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "744-745"
+        },
+        {
+          "page": "745"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0726-01"
+      ]
+    },
+    {
+      "cite": "423 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175396
+      ],
+      "weight": 4,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "149"
+        },
+        {
+          "page": "147",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/423/0147-01"
+      ]
+    },
+    {
+      "cite": "219 U. S. 498",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3652743
+      ],
+      "weight": 2,
+      "year": 1911,
+      "pin_cites": [
+        {
+          "page": "515"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0498-01"
+      ]
+    },
+    {
+      "cite": "426 U. S. 935",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6283805,
+        6240548,
+        6240869,
+        6239401,
+        6240271,
+        6241106,
+        6241398,
+        6239709,
+        6239998
+      ],
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/426/0951-01",
+        "/us/426/0935-05",
+        "/us/426/0935-06",
+        "/us/426/0935-01",
+        "/us/426/0935-04",
+        "/us/426/0935-07",
+        "/us/426/0935-08",
+        "/us/426/0935-02",
+        "/us/426/0935-03"
+      ]
+    },
+    {
+      "cite": "527 F. 2d 11",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1084073
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/527/0011-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 901",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6410567,
+        6410220,
+        6410028,
+        6410447,
+        6410323,
+        6410131
+      ],
+      "weight": 2,
+      "year": 1977,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/434/0901-06",
+        "/us/434/0901-03",
+        "/us/434/0901-01",
+        "/us/434/0901-05",
+        "/us/434/0901-04",
+        "/us/434/0901-02"
+      ]
+    },
+    {
+      "cite": "547 F. 2d 152",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        999128
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "157-158"
+        },
+        {
+          "page": "158"
+        },
+        {
+          "page": "157-158"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/547/0152-01"
+      ]
+    },
+    {
+      "cite": "48 Stat. 881",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "410 U. S. 73",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11956994
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "89"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/410/0073-01"
+      ]
+    },
+    {
+      "cite": "288 U. S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        79689
+      ],
+      "weight": 2,
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "315"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/288/0294-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182437
+      ],
+      "weight": 2,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "302"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/434/0275-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1648,
+    "char_count": 48266,
+    "ocr_confidence": 0.594,
+    "pagerank": {
+      "raw": 2.573786422816387e-06,
+      "percentile": 0.996704634131179
+    },
+    "sha256": "5b3cfcea6b19b2cd4d7156e2380bff4e53c76861d761f65f28247b5760dd26de",
+    "simhash": "1:2e898286320430f6",
+    "word_count": 7890
+  },
+  "last_updated": "2024-02-27T19:37:39.581639+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Rehnqtjist, J., delivered the opinion of the Court, in which Burger, C. J., and Stewart, White, Powell, and Stevens, JJ., joined. BrennaN, J., filed an opinion concurring in the judgment, in which Marshall, J., joined, post, p. 123. Blackmiun, J., filed an opinion concurring in the judgment, post, p. 126.",
+      "with whom Mr. Justice Marshall joins,"
+    ],
+    "parties": [
+      "SECURITIES AND EXCHANGE COMMISSION v. SLOAN"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Rehnquist\ndelivered the opinion of the Court.\nUnder the Securities Exchange Act of 1934, ch. 404, 48 Stat. 881, the Securities and Exchange Commission has the authority \u201csummarily to suspend trading in any security ... for a period not exceeding ten days\u201d if \u201cin its opinion the public interest and the protection of investors so require.\u201d Acting pursuant to this authority the Commission issued a series of consecutive orders suspending trading in the common stock of Canadian Javelin, Ltd. (CJL), for over a year. The Court of Appeals for the Second Circuit held that such a series of suspensions was beyond the scope of the Commission's statutory authority. 547 F. 2d 152, 157-158 (1976). We granted certiorari to consider this important question, 434 U. S. 901 (1977), and, finding ourselves in basic agreement with the Court of Appeals, we affirm. We hold that even though there be a periodic redetermination of whether such action is required by \u201cthe public interest\u201d and for \u201cthe protection of investors,\u201d the Commission is not empowered to issue, based upon a single set of circumstances, a series of summary orders which would suspend trading beyond the initial 10-day period.\nI\nOn November 29, 1973, apparently because CJL had disseminated allegedly false and misleading press releases concerning certain of its business activities, the Commission issued the first of what was to become a series of summary 10-day suspension orders continuously suspending trading in CJL common stock from that date until January 26, 1975. App. 109. During this series of suspensions respondent Sloan, who owned 13 shares of CJL stock and had engaged in substantial purchases and short sales of shares of that stock, filed a petition in the United States Court of Appeals for the Second Circuit challenging the orders on a variety of grounds. On October 15, 1975, the court dismissed as frivolous all respondent\u2019s claims, except his allegation that the \u201ctacking\u201d of 10-day summary suspension orders for an indefinite period was an abuse of the agency\u2019s authority and a deprivation of due process. It further concluded, however, that in light of two events which had occurred prior to argument, it could not address this question at that time. The first event of significance was the resumption of trading on January 26, 1975. The second was the commencement of a second series of summary 10-day suspension orders, which was still in effect on October 15. This series had begun on April 29, 1975, when the Commission issued a 10-day order based on the fact that the Royal Canadian Mounted Police had launched an extensive investigation into alleged manipulation of CJL common stock on the American Stock Exchange and several Canadian stock exchanges. App. 11-12. This time 37 separate orders were issued, suspending trading continuously from April 29, 1975, to May 2, 1976. The court thought the record before it on October 15 inadequate in light of these events and dismissed respondent\u2019s appeal \u201cwithout prejudice to his repleading after an administrative hearing before the SEC . . . ,\u201d which hearing, though apparently not required by statute or regulation, had been offered by the Commission at oral argument. 527 F. 2d 11, 12 (1975), cert. denied, 426 U. S. 935 (1976).\nThereafter respondent immediately petitioned the Commission for the promised hearing. The hearing was not forthcoming, however, so on April 23, 1976, during the period when the second series of orders was still in effect, respondent brought the present action pursuant to \u00a7 25 (a) (1) of the Act, 15 U. S. C. \u00a7 78y (a)(1) (1976 ed.), challenging the second series of suspension orders. He argued, among other things, that there was no rational basis for the suspension orders, that they were not supported by substantial evidence in any event, and that the \u201ctacking\u201d of 10-day summary suspension orders was beyond the Commission\u2019s authority because the statute specifically authorized suspension \u201cfor a period not exceeding ten days.\u201d The court held in respondent\u2019s favor on this latter point. It first concluded that despite the fact that there had been no 10-day suspension order in effect since May 2, 1976, and the Commission had asserted that it had no plans to consider or issue an order against CJL in the foreseeable future, the case was not moot because it was \u201c 'capable of repetition, yet evading review.\u2019 \u201d 547 F. 2d, at 158, quoting from Southern Pacific Terminal Co. v. ICC, 219 U. S. 498, 515 (1911).\nThe court then decided that the statutes which authorized summary suspensions \u2014 \u00a7 12 (k) and its predecessors \u2014 did not empower the Commission to issue successive orders to curtail trading in a security for a period beyond the initial 10-day period. 547 F. 2d, at 157-158. We granted certiorari, specifically directing the attention of the parties to the question of mootness, 434 U. S. 901 (1977), to which we now turn.\nII\nRespondent argues that this case is not moot because, as the Court of Appeals observed, it is \u201ccapable of repetition, yet evading review.\u201d The Commission, on the other hand, does not urge that the case is demonstrably moot, but rather that there simply are not enough facts on the record to allow a proper determination of mootness. It argues that there is no \u201creasonable expectation\u201d that respondent will be harmed by further suspensions because, \u201c \u2018the investing public now ha[ving] been apprised of the relevant facts, the concealment of which had threatened to disrupt the market in CJL stock, there is no reason to believe that it will be necessary to suspend trading again.\u2019 \u201d Brief for Petitioner 15, quoting from Pet. for Cert. 12 n. 7. Cf. Weinstein v. Bradford, 423 U. S. 147, 149 (1975). The Commission concedes, however, that respondent, in his capacity as a diversified investor, might be harmed in the future by the suspension of some other security which he owns. But it further contends that respondent has not provided enough data about the number or type of securities in his portfolio to enable the Court to determine whether there is a \u201creasonable\u201d likelihood that any of those securities will be subjected to consecutive summary suspension orders.\nContrary to the Commission\u2019s contention, we think even on the record presently before us this case falls squarely within the general principle first enunciated in Southern Pacific Terminal Co. v. ICC, supra, and further clarified in Weinstein v. Bradford, supra, that even in the absence of a class action a case is not moot when \u201c(1) the challenged action was in its duration too short to be fully litigated prior to its cessation or expiration, and (2) there was a reasonable expectation that the same complaining party would be subjected to the same action again.\u201d Weinstein v. Bradford, supra, at 147 (emphasis added). That the first prong of this test is satisfied is not in dispute. A series of consecutive suspension orders may last no more than 20 days, making effective judicial review impossible during the life of the orders. We likewise have no doubt that the second part of the test also has been met here. CJL has, to put it mildly, a history of sailing close to the wind. Thus, the Commission\u2019s protestations to the contrary notwithstanding, there is a reasonable expectation, within the meaning of Weinstein v. Bradford, supra, that CJL stock will again be subjected to consecutive summary suspension orders and that respondent, who apparently still owns CJL stock, will suffer the same type of injury he suffered before. This is.sufficient in and of itself to satisfy this part of the test. But in addition, respondent owns other securities, the trading of which may also be summarily suspended. As even the Commission admits, this fact can only increase the probability that respondent will again suffer the type of harm of which he is presently complaining. It thus can only buttress our conclusion that there is a reasonable expectation of recurring injury to the same complaining party.\nIll\nA\nTurning to the merits, we note that this is not a case where the Commission, discovering the existence of a manipulative scheme affecting CJL stock, suspended trading for 10 days and then, upon the discovery of a second manipulative scheme or other improper activity unrelated to the first scheme, ordered a second 10-day suspension. Instead it is a case in which the Commission issued a series of summary suspension orders lasting over a year on the basis of evidence revealing a single, though likely sizable, manipulative scheme. Thus, the only question confronting us is whether, even upon a periodic redetermination of \u201cnecessity,\u201d the Commission is statutorily authorized to issue a series of summary suspension orders based upon a single set of events or circumstances which threaten an orderly market. This question must, in our opinion, be answered in the negative.\nThe first and most salient point leading us to this conclusion is the language of the statute. Section 12 (k) authorizes the Commission \u201csummarily to suspend trading in any security . . . for a period not exceeding ten days . . . 15 U. S. C. \u00a7 78l(k) (1976 ed.) (emphasis added). The Commission would have us read the underscored phrase as a limitation only upon the duration of a single suspension order. So read, the Commission could indefinitely suspend trading in a security without any hearing or other procedural safeguards as long as it redetermined every 10 days that suspension was required by the public interest and for the protection of investors. While perhaps not an impossible reading of the statute, we are persuaded it is not the most natural or logical one. The duration limitation rather appears on its face to be just that \u2014 a maximum time period for which trading can be suspended for any single set of circumstances.\nApart from the language of the statute, which we find persuasive in and of itself, there are other reasons to adopt this construction of the statute. In the first place, the power to summarily suspend trading in a security even for 10 days, without any notice, opportunity to be heard, or findings based upon a record, is an awesome power with a potentially devastating impact on the issuer, its shareholders, and other investors. A clear mandate from Congress, such as that found in \u00a7 12 (k), is necessary to confer this power. No less clear a mandate can be expected from Congress to authorize the Commission to extend, virtually without limit, these periods of suspension. But we find no such unmistakable mandate in \u00a7 12 (k). Indeed, if anything, that section points in the opposite direction.\nOther sections of the statute reinforce the conclusion that in this area Congress considered summary restrictions to be somewhat drastic and properly used only for very brief periods of time. When explicitly longer term, though perhaps temporary, measures are to be taken against some person, company, or security, Congress invariably requires the Commission to give some sort of notice and opportunity to be heard. For example, \u00a7 12 (j) of the Act authorizes the Commission, as it deems necessary for the protection of investors, to suspend the registration of a security for a period not exceeding 12 months if it makes certain findings \u201con the record after notice and opportunity for hearing . . . 15 U. S. C. \u00a7 78l (j) (1976 ed.) (emphasis added). Another section of the Act empowers the Commission to suspend broker-dealer registration for a period not exceeding 12 months upon certain findings made only \u201con the record after notice and opportunity for hearing.\u201d \u00a7 78o (b)(4) (1976 ed.) (emphasis added). Still another section allows the Commission, pending final determination whether a broker-dealer\u2019s registration should be revoked, to temporarily suspend that registration, but only \u201cafter notice and opportunity for hearing.\u201d \u00a7 78o (b)(5) (1976 ed.) (emphasis added). Former \u00a715 (b)(6), which dealt with the registration of broker-dealers, also lends support to the notion that as a general matter Congress meant to allow the Commission to take summary action only for the period specified in the statute when that action is based upon any single set of circumstances. That section allowed the Commission to summarily postpone the effective date of registration for 15 days, and then, after appropriate notice and opportunity for hearing, to continue that postponement pending final resolution of the matter. The section which replaced \u00a7 15 (b)(6) even further underscores this general pattern. It requires the Commission to take some action \u2014 either granting the registration or instituting proceedings to determine whether registration should be denied \u2014 within 45 days. 15 U. S. C. \u00a7 78o (b) (1) (1976 ed.). In light of the explicit congressional recognition in other sections of the Act, both past and present, that any long-term sanctions or any continuation of summary restrictions must be accompanied by notice and an opportunity for a hearing, it is difficult to read the silence in \u00a7 12 (k) as an authorization for an extension of summary restrictions without such a hearing, as the Commission contends. The more plausible interpretation is that Congress did not intend the Commission to have the power to extend the length of suspensions under \u00a7 12 (k) at all, much less to repeatedly extend such suspensions without any hearing.\nB\nThe Commission advances four arguments in support of its position, none of which we find persuasive. It first argues that only its interpretation makes sense out of the statute. That is, if the Commission discovers a manipulative scheme and suspends trading for 10 days, surely it can suspend trading 30 days later upon the discovery of a second manipulative scheme. But if trading may be suspended a second time 30 days later upon the discovery of another manipulative scheme, it surely could be suspended only 10 days later if the discovery of the second scheme were made on the eve of the expiration of the first order. And, continues the Commission, since nothing on the face of the statute requires it to consider only evidence of new manipulative schemes when evaluating the public interest and the needs of investors, it must have the power to issue consecutive suspension orders even in the absence of a new or different manipulative scheme, as long as the public interest requires it.\nThis argument is unpersuasive, however, because the conclusion simply does not follow from the various premises. Even assuming the Commission can again suspend trading upon learning of another event which threatens the stability of the market, it simply does not follow that the Commission therefore must necessarily have the power to do so even in the absence of such a discovery. On its face and in the context of this statutory pattern, \u00a7 12 (k) is more properly viewed as a device to allow the Commission to take emergency action for 10 days while it prepares to deploy its other remedies, such as a temporary restraining order, a preliminary or permanent injunction, or a suspension or revocation of the registration of a security. The Commission's argument would render unnecessary to a greater or lesser extent all of these other admittedly more cumbersome remedies which Congress has given to it.\nClosely related to the Commission's first argument is its second \u2014 its construction furthers the statute's remedial purposes. Here the Commission merely asserts that it \u201chas found that the remedial purposes of the statute require successive suspension of trading in particular securities, in order to maintain orderly and fair capital markets.\u201d Brief for Petitioner 37. Other powers granted the Commission are, in its opinion, simply insufficient to accomplish its purposes.\nWe likewise reject this argument. In the first place, the Commission has not made a very persuasive showing that other remedies are ineffective. It argues that injunctions and temporary restraining orders are insufficient because they take time and evidence to obtain and because they can be obtained only against wrongdoers and not necessarily as a stopgap measure in order to suspend trading simply until more information can be disseminated into the marketplace. The first of these alleged insufficiencies is no more than a reiteration of the familiar claim of many Government agencies that any semblance of an adversary proceeding will delay the imposition of the result which they believe desirable. It seems to us that Congress, in weighing the public interest against the burden imposed upon private parties, has concluded that 10 days is sufficient for gathering necessary evidence.\nThis very case belies the Commission's argument that injunctions cannot be sought in appropriate cases. At exactly the same time the Commission commenced the first series of suspension orders it also sought a civil injunction against CJL and certain of its principals, alleging violations of the registration and antifraud provisions of the Securities Act of 1933, violations of the antifraud and reporting provisions of the Securities Exchange Act of 1934, and various other improper practices, including the filing of false reports with the Commission and the dissemination of a series of press releases containing false and misleading information. App. 109. And during the second series of suspension orders, the Commission approved the filing of an action seeking an injunction against those in the management of CJL to prohibit them from engaging in further violations of the Acts. Id., at 101.\nThe second of these alleged insufficiencies is likewise less than overwhelming. Even assuming that it is proper to suspend trading simply in order to enhance the information in the marketplace, there is nothing to indicate that the Commission cannot simply reveal to the investing public at the end of 10 days the reasons which it thought justified the initial summary suspension and then let the investors make their own judgments.\nEven assuming, however, that a totally satisfactory remedy-\u2014 at least from the Commission\u2019s viewpoint \u2014 is not available in every instance in which the Commission would like such a remedy, we would not be inclined to read \u00a7 12 (k) more broadly than its language and the statutory scheme reasonably permit. Indeed, the Commission\u2019s argument amounts to little more than the notion that \u00a7 12 (k) ought to be a panacea for every type of problem which may beset the marketplace. This does not appear to be the first time the Commission has adopted this construction of the statute. As early as 1961 a recognized authority in this area of the law called attention to the fact that the Commission was gradually carrying over the summary suspension power granted in the predecessors of \u00a7 12 (k) into other areas of its statutory authority and using it as a pendente lite power to keep in effect a suspension of trading pending final disposition of delisting proceedings. 2 L. Loss, Securities Regulation 854-855 (2d ed. 1961).\nThe author then questioned the propriety of extending the summary suspension power in that manner, id., at 854, and we think those same questions arise when the Commission argues that the summary suspension power should be available not only for the purposes clearly contemplated by \u00a7 12 (k), but also as a solution to virtually any other problem which might occur in the marketplace. We do not think \u00a7 12 (k) was meant to be such a cure-all. It provides the Commission with a powerful weapon for dealing with certain problems. But its time limit is clearly and precisely defined. It cannot be judicially or administratively extended simply by doubtful arguments as to the need for a greater duration of suspension orders than it allows. If extension of the summary suspension power is desirable, the proper source of that power is Congress. Cf. FMC v. Seatrain Lines, Inc., 411 U. S. 726, 744-745 (1973).\nThe Commission next argues that its interpretation of the statute \u2014 that the statute authorizes successive suspension orders \u2014 has been both consistent and longstanding, dating from 1944. It is thus entitled to great deference. See United States v. National Assn. of Securities Dealers, 422 U. S. 694, 719 (1975); Saxbe v. Bustos, 419 U. S. 65, 74 (1974).\nWhile this undoubtedly is true as a general principle of law, it is not an argument of sufficient force in this case to overcome the clear contrary indications of the statute itself. In the first place it is not apparent from the record that on any of the occasions when a series of consecutive summary suspension orders was issued the Commission actually addressed in any detail the statutory authorization under which it took that action. As we said just this Term in Adamo Wrecking Co. v. United States, 434 U. S. 275, 287 n. 5 (1978):\n\u201cThis lack of specific attention to the statutory authorization is especially important in light of this Court\u2019s pronouncement in Skidmore v. Swift & Co., 323 U. S. 134, 140 (1944), that one factor to be considered in giving weight to an administrative ruling is 'the thoroughness evident in its consideration, the validity of its reasoning, its consistency with earlier and later pronouncements, and all those factors which give it power to persuade, if lacking power to control.\u2019 \u201d\nTo further paraphrase that opinion, since this Court can only speculate as to the Commission\u2019s reasons for reaching the conclusion that it did, the mere issuance of consecutive summary suspension orders, without a concomitant exegesis of the statutory authority for doing so, obviously lacks \u201cpower to persuade\u201d as to the existence of such authority. Ibid. Nor does the existence of a prior administrative practice, even a well-explained one, relieve us of our responsibility to determine whether that practice is consistent with the agency\u2019s statutory authority.\n\u201cThe construction put on a statute by the agency charged with administering it is entitled to deference by the courts, and ordinarily that construction will be affirmed if it has a 'reasonable basis in law.\u2019 NLRB v. Hearst Publications, 322 U. S. 111, 131; Unemployment Commission v. Aragon, 329 U. S. 143, 153-154. But the courts are the final authorities on issues of statutory construction, FTC v. Colgate-Palmolive Co., 380 U. S. 374, 385, and 'are not obliged to stand aside and rubber-stamp their affirmance of administrative decisions that they deem inconsistent with a statutory mandate or that frustrate the congressional policy underlying a statute.\u2019 NLRB v. Brown, 380 U. S. 278, 291.\u201d Volkswagenwerk v. FMC, 390 U. S. 261, 272 (1968).\nAnd this is just such a case \u2014 the construction placed on the statute by the Commission, though of long standing, is, for the reasons given in Part III-A of this opinion, inconsistent with the statutory mandate. We explicitly contemplated just this situation in FMC v. Seatrain Lines, Inc., supra, at 745, where we said:\n\u201cBut the Commission contends that since it is charged with administration of the statutory scheme, its construction of the statute over an extended period should be given great weight. . . . This proposition may, as a general matter, be conceded, although it must be tempered with the caveat that an agency may not bootstrap itself into an area in which it has no jurisdiction by repeatedly violating its statutory mandate.\u201d\nAnd our clear duty in such a situation is to reject the administrative interpretation of the statute.\nFinally, the Commission argues that for a variety of reasons Congress should be considered to have approved the Commission\u2019s construction of the statute as correct. Not only has Congress re-enacted the summary suspension power without disapproving the Commission\u2019s construction, but the Commission participated in the drafting of much of this legislation and on at least one occasion made its views known to Congress in Committee hearings. Furthermore, at least one Committee indicated on one occasion that it understood and approved of the Commission's practice. See Zuber v. Allen, 396 U. S. 168, 192 (1969); United States v. Correll, 389 U. S. 299, 305-306 (1967); Fribourg Navigation Co. v. Commissioner, 383 U. S. 272, 283 (1966).\nWhile we of course recognize the validity of the general principle illustrated by the cases upon which the Commission relies, we do not believe it to be applicable here. In Zuber v. Allen, supra, at 192, the Court stated that a contemporaneous administrative construction of an agency\u2019s own enabling legislation \u201cis only one input in the interpretational equation. Its impact carries most weight when the administrators participated in drafting and directly made known their views to Congress in committee hearings.\u201d Here the administrators, so far as we are advised, made no reference at all to their present construction of \u00a7 12 (k) to the Congress which drafted the \u201cenabling legislation\u201d here in question \u2014 the Securities Exchange Act of 1934. They made known to at least one Committee their subsequent construction of that section 29 years later, at a time when the attention of the Committee and of the Congress was focused on issues not directly related to the one presently before the Court. Although the section in question was re-enacted in 1964, and while it appears that the Committee Report did recognize and approve of the Commission\u2019s practice, this is scarcely the sort of congressional approval referred to in Zuber, supra.\nWe are extremely hesitant to presume general congressional awareness of the Commission\u2019s construction based only upon a few isolated statements in the thousands of pages of legislative documents. That language in a Committee Report, without additional indication of more widespread congressional awareness, is simply not sufficient to invoke the presumption in a case such as this. For here its invocation would result in a construction of the statute which not only is at odds with the language of the section in question and the pattern of the statute taken as a whole, but also is extremely far reaching in terms of the virtually untrammeled and unreviewable power it would vest in a regulatory agency.\nEven if we were willing to presume such general awareness on the part of Congress, we are not at all sure that such awareness at the time of re-enactment would be tantamount to amendment of what we conceive to be the rather plain meaning of the language of \u00a7 12 (k). On this point the present case differs significantly from United States v. Correll, supra, at 304, where the Court took pains to point out in relying on a construction of a tax statute by the Commissioner of Internal Revenue that \u201cto the extent that the words chosen by Congress cut in either direction, they tend to support rather than defeat the Commissioner\u2019s position . . . .\u201d\nSubsequent congressional pronouncements also cast doubt on whether the prior statements called to our attention can be taken at face value. When consolidating the former \u00a7\u00a715 (c) (5) and 19 (a) (4) in 1975, see n. 1, supra, Congress also enacted \u00a7 12 (j), which allows the Commission \u201cto suspend for a period not exceeding twelve months, or to revoke the registration of a security, if the Commission finds, on the record after notice and opportunity for hearing, that the issuer of such security has failed to comply with any provision of this chapter or the rules and regulations thereunder.\u201d 15 U. S. C. \u00a7 781 (j) (1976 ed.). While this particular power is not new, see 15 U. S. C. \u00a7 78s (a)(2), the effect of its exercise was expanded to include a suspension of trading. \u201cWith this change,\u201d stated the Senate Committee on Banking, Housing and Urban Affairs, \u201cthe Commission is expected to use this section rather than its ten-day suspension power, in cases of extended duration.\u201d S. Rep. No. 94-75, p. 106 (1975) (emphasis added). Thus, even assuming, arguendo, that the 1963 statements have more force than we are willing to attribute to them, and that, as ,the Commission argues, \u00a7 12 (j) does not cover quite as broad a range of situations as \u00a7 12 (k), the 1975 congressional statements would still have to be read as seriously undermining the continued validity of the 1963 statements as a basis upon which to adopt the Commission\u2019s construction of the statute.\nIn sum, had Congress intended the Commission to have the power to summarily suspend trading virtually indefinitely we expect that it could and would have authorized it more clearly than it did in \u00a7 12 (k). The sweeping nature of that power supports this expectation. The absence of any truly persuasive legislative history to support the Commission\u2019s view, and the entire statutory scheme suggesting that in fact the Commission is not so empowered, reinforce our conclusion that the Court of Appeals was correct in concluding no such power exists. Accordingly, its judgment is\nAffirmed.\nThis authority is presently found in \u00a7 12 (k) of the Act, which was added by amendment in 1975 by Pub. L. 94-29 \u00a7 9, 89 Stat. 118. It provides in pertinent part:\n\u201cIf in its opinion the public interest and the protection of investors so require, the Commission is authorized summarily to suspend trading in any security (other than an exempted security) for a period not exceeding ten days .... No member of a national securities exchange, broker, or dealer shall make use of the mails or any means or instrumentality of interstate commerce to effect any transaction in, or to induce the purchase or sale of, any security in which trading is so suspended.\u201d 15 U. S. C. \u00a7 781 (k) (1976 ed.).\nThis power was previously found in \u00a7\u00a7 15 (c) (5) and 19 (a) (4) of the Act, which for all purposes relevant to this case were substantially identical to the current statute, \u00a7 12 (k), except that \u00a7 15 (c)(5) authorized summary suspension of trading in securities which were traded in the over-the-counter market, while \u00a7 19 (a) (4) permitted summary suspension of trading in securities which were traded on the national exchanges. 15 U. S. C. \u00a7\u00a7 78o (c) (5) and 78s (a) (4). Congress consolidated those powers in \u00a7 12 (k).\nRespondent also argued that the orders violated his due process rights because he was never given notice and an opportunity for a hearing and that \u00a7 12 (k) was an unconstitutional delegation of legislative power. The court found it unnecessary to address these issues.\nRespondent also contends that he has suffered collateral legal consequences from the series of suspension orders, and thus the case is not moot. Cf. Sibron v. New York, 392 U. S. 40, 57 (1968). We find it unnecessary to address this further contention.\nThe Commission contends that to determine the mathematical probability that at least one of the securities held by respondent will be subjected to consecutive suspension orders it is necessary to know, in addition to other information admittedly available in the Commission\u2019s own records, the number of publicly traded corporations of which respondent is a shareholder. This datum cannot be ascertained with any accuracy on this record, however, claims the Commission, because respondent has made various representations regarding that number at various stages of the litigation. Compare App. 153 with Brief in Response 18. The Commission adds that the probability could be determined with even greater accuracy if respondent revealed the nature of his portfolio because certain securities\u2014 those listed on the New York Stock Exchange, for example \u2014 are seldom summarily suspended.\nWithin the last five years the Commission has twice issued a series of orders, each of which suspended trading in CJL stock for over a year. In the various staff reports given to the Commission in connection with and attached to the second series of orders, the Division of Enforcement indicates in no less than six separate reports that either the Commission or the various stock exchanges view CJL as a \u201cchronic violator.\u201d App. 20, 22, 24, 26, 28, 31. And reference is made to \u201cthe continuous [CJL] problems.\u201d Id., at 61. Furthermore, counsel for the Commission represented at oral argument that there were in fact three separate bases for the second series of suspensions \u2014 alleged market manipulation, a change in management of the company, and a failure to file current reports. Tr. of Oral Arg. 17-18.\nNeither does the first series of orders appear to be of this type. Rather, like the second series, it appears to be predicated mainly on one major impropriety on the part of CJL and its personnel, which impropriety required the Commission, in its opinion, to issue a year-long series of summary suspension orders to protect investors and for the public interest.\nAs previously indicated, see n. 5, swpra, the Commission advances three separate reasons for the suspensions, thus implicitly suggesting that perhaps this is a case where the Commission discovered independent reasons to suspend trading after the initial suspension. We note first that there are doubts whether these \u201creasons\u201d independently would have justified suspension. For example, we doubt the Commission regularly suspends trading because of a \u201cchange in management.\u201d A suspension might be justified if management steps down under suspicious circumstances, but the suspicious circumstance here is the initial reason advanced for suspension \u2014 the manipulative scheme \u2014 and thus the change in management can hardly be considered an independent justification for suspension. More importantly, however, even assuming the existence of three independent reasons for suspension, that leaves 34 suspension orders that were not based on independent reasons and thus the question still remains-. Does the statute empower the Commission to continue to \u201croll over\u201d suspension orders for the same allegedly improper activity simply upon a redetermination that the continued suspension is \u201crequired\u201d by the public interest and for the protection of investors?\nThe former \u00a7 15 (b) (6) provided in pertinent part:\n\u201cPending final determination whether any registration under this subsection shall be denied, the Commission may by order postpone the effective date of such registration for a period not to exceed fifteen days, but if, after appropriate notice and opportunity for hearing (which may consist solely of affidavits and oral arguments), it shall appear to the Commission to be necessary or appropriate in the public interest or for the protection of investors to postpone the effective date of such registration until final determination, the Commission shall so order. Pending final determination whether any such registration shall be revoked, the Commission shall by order suspend such registration if, after appropriate notice and opportunity for hearing, such suspension shall appear to the Commission to be necessary or appropriate in the public interest or for the protection of investors. . . .\u201d 15 U. S. C. \u00a7 78o (b) (6).\nIn 1963, when Congress was considering the former \u00a7 15 (c) (5), which extended the Commission\u2019s summary suspension power to securities traded in the over-the-counter market, the Commission informed a Subcommittee of the House Committee on Interstate and Foreign Commerce of its current administrative practice. One paragraph in the Commission\u2019s 30-page report to the Subcommittee reads as follows:\n\u201cUnder section 19 (a)(4), the Commission has issued more than one suspension when, upon reexamination at the end of the 10-day period, it has determined that another suspension is necessary. At the same time the Commission has recognized that suspension of trading in a security is a serious step, and therefore has exercised the power with restraint and has proceeded with diligence to develop the necessary facts in order that any suspension can be terminated as soon as possible. The Commission would follow that policy in administering the proposed new section 15 (c) (5).\u201d Hearings on H. It. 6789, H. E. 6793, S. 1642 before a Subcommmittee of the House Committee on Interstate and Foreign Commerce, 88th Cong., 1st Sess., 219 (1963).\nThe Senate Committee on Banking and Currency, when it reported on the proposed 1964 amendments to the Act, indicated that it understood and did not disapprove of the Commission\u2019s practice. It stated:\n\u201cThe Commission has consistently construed section 19 (a) (4) as permitting it to issue more than one suspension if, upon reexamination at the end of the 10-day period, it determines that another suspension is necessary. The committee accepts this interpretation. At the same time the committee recognizes that suspension of trading in a security is a drastic step and that prolonged suspension of trading may impose considerable hardship on stockholders. The committee therefore expects that the Commission will exercise this power with restraint and will proceed with all diligence to develop the necessary facts in order that any suspension can be terminated as soon as possible.\u201d S. Rep. No. 379, 88th Cong., 1st Sess., 66-67 (1963).\nThe purpose of the 1964 amendments was merely to grant the Commission the same power to summarily deal with securities traded in the over-the-counter market as it already had to deal with securities traded on national exchanges. The purpose of the 1975 amendments was simply to consolidate into one section the power formerly contained in two.\nUnder the new provision, when the Commission suspends or revokes the registration of a security, \u201c[n]o . . . broker, or dealer shall make use of the mails or any means or instrumentality of interstate commerce to effect any transaction in, or to induce the purchase or sale of, any security the registration of which has been and is suspended or revoked pursuant to the preceding sentence.\u201d 15 U. S. C. \u00a7 78l (j) (1976 ed.).",
+        "type": "majority",
+        "author": "Mr. Justice Rehnquist"
+      },
+      {
+        "text": "Mr. Justice Brennan,\nwith whom Mr. Justice Marshall joins,\nconcurring in the judgment.\nAlthough I concur in much of the Court\u2019s reasoning and in its holding that \u201cthe Commission is not empowered to issue, based upon a single set of circumstances, a series of summary orders which would suspend trading beyond the initial 10-day period,\u201d ante, at 106,1 cannot join the Court\u2019s opinion because of its omissions and unfortunate dicta.\nI\nThe Court\u2019s opinion does not reveal how flagrantly abusive the Security and Exchange Commission\u2019s use of its \u00a7 12 (k) authority has been. That section authorizes the Commission \u201csummarily to suspend trading in any security ... for a period not exceeding ten days . . . .\u201d 15 U. S. C. \u00a7 78l (k) (1976 ed.). As the Court says, this language \u201cis persuasive in and of itself\u201d that 10 days is the \u201cmaximum time period for which trading can be suspended for any single set of circumstances.\u201d Ante, at 112. But the Commission has used \u00a7 12 (k), or its predecessor statutes, see ante, at 105 n. 1, to suspend trading in a security for up to 13 years. See App. to Brief for Canadian Javelin, Ltd., as Amicus Curiae la. And, although the 13-year suspension is an extreme example, the record is replete with suspensions lasting the better part of a year. See App. 184-211. I agree that \u00a7 12 (k) is clear on its face and that it prohibits this administrative practice. But even if \u00a7 12 (k) were unclear, a 13-year suspension, or even a 1-year suspension as here, without notice or hearing so obviously violates fundamentals of due process and fair play that no reasonable individual could suppose that Congress intended to authorize such a thing. See also 15 U. S. C. \u00a7 78l (j) (1976 ed.) (requiring notice and a hearing before a registration statement can be suspended), discussed ante, at 121-122.\nMoreover, the SEC\u2019s procedural implementation of its \u00a7 12 (k) power mocks any conclusion other than that the SEC simply could not care whether its \u00a7 12 (k) orders are justified. So far as this record shows, the SEC never reveals the reasons for its suspension orders. To be sure, here respondent was able long after the fact to obtain some explanation through a Freedom of Information Act request, but even the information tendered was heavily excised and none of it even purports to state the reasoning of the Commissioners under whose authority \u00a7 12 (k) orders issue. Nonetheless, when the SEC finally agreed to give respondent a hearing on the suspension of Canadian Javelin stock, it required respondent to state, in a verified petition (that is, under oath) why he thought the unrevealed conclusions of the SEC to be wrong. This is obscurantism run riot.\nAccordingly, while we today leave open the question whether the SEC could tack successive 10-day suspensions if this were necessary to meet first one and then a different emergent situation, I for one would look with great disfavor on any effort to tack suspension periods unless the SEC concurrently adopted a policy of stating its reasons for each suspension. Without such a statement of reasons, I fear our holding today will have no force since the SEC\u2019s administration of its suspension power will be reviewable, if at all, only by the circuitous and time-consuming path followed by respondent here.\nII\nIn addition, I cannot join the Court\u2019s reaffirmance of Adamo Wrecking\u2019s increasingly scholastic approach to the use of administrative practice in interpreting federal statutes. See ante, at 117-118. This reaffirmance is totally unnecessary in this case for, as the Court notes, whatever that administrative construction might be in this case, it is \u201cinconsistent with the statutory mandate,\u201d ante, at 118, which is clear on the face of the statute. Ante, at 112.\nWorse, however, is the Court\u2019s insistence that, to be credited, an administrative practice must pay \u201c 'specific attention to the statutory authorization\u2019 \u201d under which an agency purports to operate. Ante, at 117, quoting Adamo Wrecking Co. v. United States, 434 U. S. 275, 287 n. 5 (1978). As my Brother Stevens noted in dissent in Adamo, see id., at 302, Norwegian Nitrogen Co. v. United States, 288 U. S. 294 (1933)\u2014 perhaps our leading case on the use of administrative practice as a guide to statutory interpretation \u2014 says not a word about attention to statutory authority. Nor does it reduce the value of administrative practice to its \u201cpersuasive effect\u201d as the Court would apparently do here. Instead, as I understand the case, Norwegian Nitrogen focuses on the \u201ccontemporaneous construction of a statute by the men charged with the responsibility of setting its machinery in motion,\u201d id., at 315, precisely because their action is itself evidence of assumptions \u2014 perhaps unspoken by either the administrators or Congress \u2014 brought to a regulatory problem by all involved in its solution. Indeed, common experience tells us that it is assumptions which everyone shares which often go unspoken because their very obviousness negates the need to set them out.\nTherefore, while I do not dispute that well-reasoned administrative opinions which pay scrupulous attention to every jot and tittle of statutory language are more persuasive than unexplained actions \u2014 and certainly more in keeping with a norm of administrative action that ought to be encouraged\u2014 I cannot dismiss, as the Court apparently does, less well-reasoned, or even unexplained, administrative actions as irrelevant to the meaning of a statute.\nThe only document made public by the SEC at the time it suspends trading in a security is a \u201cNotice of Suspension of Trading.\u201d Numerous copies of this notice are included in the Appendix and each contains only the boilerplate explanation:\n\u201cIt appearing to the Securities and Exchange Commission that the summary suspension of trading in such securities on such exchange and otherwise than on a national securities exchange is required in the public interest and for the protection of investors; [therefore, trading is suspended].\u201d\nSee App. 11, 13, 16, 19, 21, 23, 25, 27, 30, 33, 36, 39, 41, 44, 47, 50, 53, 56, 59, 62, 65, 67, 69, 71, 73, 76, 79, 82, 85, 88, 91, 94, 97, 100, 103, 106. The sole exception to this monotonous pattern is the notice which issued after respondent lodged his verified petition with the SEC. That notice recounted the allegations of the petition and stated in some detail why it was necessary to continue the suspension of Canadian Javelin stock. See id., at 109-110.\nIn each instance, the explanation consists only of memoranda from the SEC\u2019s Division of Enforcement to the Commission. See, e. g., id., at 12, 14, 15. In at least one instance, the memorandum postdates the public notice of suspension. Compare id., at 11 with id., at 12. In no case is there a memorandum from, the Commission explaining its action. The Court apparently assumes that the memoranda of the Division of Enforcement adequately explain the Commission\u2019s action, although the basis for any such assumption is not apparent. Moreover, since the recommendations portion of each memoranda is excised, presumably as permitted (but not required) by Exemption 5 of the Freedom of Information Act, see EPA v. Mink, 410 U. S. 73, 89 (1973), there is no statement of reasons in any traditional sense in any of the memoranda.\nSee Brief for Respondent 19; App. to Brief for Respondent 20a-21a.",
+        "type": "concurrence",
+        "author": "Mr. Justice Brennan,"
+      },
+      {
+        "text": "Me. Justice Blackmun,\nconcurring in the judgment.\nI join the Court in its judgment, but I am less sure than the Court is that the Congress has not granted the Securities and Exchange Commission at least some power to suspend trading in a nonexempt security for successive 10-day periods despite the absence of a new set of circumstances. The Congress\u2019 awareness, recognition, and acceptance of the Commission\u2019s practice, see ante, at 119-120, nn. 9 and 10, at the time of the 1964 amendments, blunts, it seems to me, the original literal language of the statute. The 1975 Report of the Senate Banking Committee, stating that the Commission was \u201cexpected to use\u201d \u00a7 12 (j)\u2019s amended suspension-of-registration provision \u201cin cases of extended duration,\u201d ante, at 122, certainly demands new circumspection of the Commission, but I do not believe it wholly extinguished Congress' acceptance of restrained use of successive 10-day suspensions when an emergency situation is presented, as for instance, where the Commission is unable adequately to inform the public of the existence of a suspected market manipulation within a single 10-day period. Section 12 (j)\u2019s suspension remedy provides no aid when a nonissuer has violated the securities law, or where the security involved is not registered, or in the interim period before notice and an opportunity for a hearing can be provided and a formal finding of misconduct made on the record.\nHere, the Commission indulged in 37 suspension orders, all but the last issued \u201cquite bare of any emergency findings,\u201d to borrow Professor Loss' phrase. Beyond the opaque suggestion in an April 1975 Release, No. 11,383, that the Commission was awaiting the \u201cdissemination of information concerning regulatory action by Canadian authorities,\u201d shareholders of CJL were given no hint why their securities were to be made nonnegotiable for over a year. Until April 22, 1976, see Release No. 12,361, the SEC provided no opportunity to shareholders to dispute the factual premises of a suspension, and, in the absence of any explanation by the Commission of the basis for its suspension orders, such a right to comment would be useless. As such, I conclude that the use of suspension orders in this case exceeded the limits of the Commission's discretion. Given the 1975 amendments, a year-long blockade of trading without reasoned explanation of the supposed emergency or opportunity for an interim hearing clearly exceeds Congress\u2019 intention.",
+        "type": "concurrence",
+        "author": "Me. Justice Blackmun,"
+      }
+    ],
+    "attorneys": [
+      "Harvey L. Pitt argued the cause for petitioner. With him on the brief were Solicitor General McCree, Deputy Solicitor General Jones, Howard E. Shapiro, and Frederick B. Wade.",
+      "Samuel H. Sloan, respondent, argued the cause and filed a brief pro se."
+    ],
+    "corrections": "",
+    "head_matter": "SECURITIES AND EXCHANGE COMMISSION v. SLOAN\nNo. 76-1607.\nArgued March 27-28, 1978\nDecided May 15, 1978\nRehnqtjist, J., delivered the opinion of the Court, in which Burger, C. J., and Stewart, White, Powell, and Stevens, JJ., joined. BrennaN, J., filed an opinion concurring in the judgment, in which Marshall, J., joined, post, p. 123. Blackmiun, J., filed an opinion concurring in the judgment, post, p. 126.\nHarvey L. Pitt argued the cause for petitioner. With him on the brief were Solicitor General McCree, Deputy Solicitor General Jones, Howard E. Shapiro, and Frederick B. Wade.\nSamuel H. Sloan, respondent, argued the cause and filed a brief pro se.\nReginald Leo Duff filed a brief for Canadian Javelin, Ltd., as amicus curiae urging affirmance."
+  },
+  "file_name": "0103-01",
+  "first_page_order": 155,
+  "last_page_order": 179
+}

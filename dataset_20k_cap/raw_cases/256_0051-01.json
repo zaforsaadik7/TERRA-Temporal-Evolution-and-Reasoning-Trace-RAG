@@ -1,0 +1,793 @@
+{
+  "id": 3679138,
+  "name": "UNITED STATES v. NORTHERN PACIFIC RAILWAY COMPANY",
+  "name_abbreviation": "United States v. Northern Pacific Railway Co.",
+  "decision_date": "1921-04-11",
+  "docket_number": "No. 325",
+  "first_page": "51",
+  "last_page": "70",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "256 U.S. 51"
+    },
+    {
+      "type": "parallel",
+      "cite": "65 L. Ed. 825"
+    },
+    {
+      "type": "parallel",
+      "cite": "41 S. Ct. 439"
+    },
+    {
+      "type": "vendor",
+      "cite": "1921 U.S. LEXIS 1694"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1920-129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "99 U. S. 700",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373942
+      ],
+      "pin_cites": [
+        {
+          "page": "718"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0700-01"
+      ]
+    },
+    {
+      "cite": "237 U. S. 547",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        631875
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/237/0547-01"
+      ]
+    },
+    {
+      "cite": "205 Fed. Rep. 235",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        7851844
+      ],
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/205/0235-01"
+      ]
+    },
+    {
+      "cite": "219 U. S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653037
+      ],
+      "pin_cites": [
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/219/0380-01"
+      ]
+    },
+    {
+      "cite": "87 Fed. Rep. 970",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3840119
+      ],
+      "pin_cites": [
+        {
+          "page": "973"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/87/0970-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 615",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564626
+      ],
+      "pin_cites": [
+        {
+          "page": "616"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0615-01"
+      ]
+    },
+    {
+      "cite": "139 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3552137
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/139/0001-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5700198
+      ],
+      "pin_cites": [
+        {
+          "page": "60"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/159/0046-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 669",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675110
+      ],
+      "pin_cites": [
+        {
+          "page": "679"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/234/0669-01"
+      ]
+    },
+    {
+      "cite": "141 U. S. 358",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556078
+      ],
+      "pin_cites": [
+        {
+          "page": "374"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/141/0358-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 116",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443647
+      ],
+      "pin_cites": [
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0116-01"
+      ]
+    },
+    {
+      "cite": "195 U. S. 480",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3633905
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "508"
+        },
+        {
+          "page": "508"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/195/0480-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 675",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297941
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "689"
+        },
+        {
+          "page": "689"
+        },
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/183/0675-01"
+      ]
+    },
+    {
+      "cite": "133 U. S. 496",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1129162
+      ],
+      "pin_cites": [
+        {
+          "page": "512"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/133/0496-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 139",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3618141
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "157, 158"
+        },
+        {
+          "page": "157, 160"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/180/0139-01"
+      ]
+    },
+    {
+      "cite": "244 U. S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343093
+      ],
+      "pin_cites": [
+        {
+          "page": "356"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/244/0351-01"
+      ]
+    },
+    {
+      "cite": "26 Stat. 1095",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "236 U. S. 459",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288025
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/236/0459-01"
+      ]
+    },
+    {
+      "cite": "223 U. S. 565",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3662091
+      ],
+      "pin_cites": [
+        {
+          "page": "570, 571"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/223/0565-01"
+      ]
+    },
+    {
+      "cite": "216 U. S. 571",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8290806
+      ],
+      "pin_cites": [
+        {
+          "page": "577, 578"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/216/0571-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443614
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "112, 113"
+        },
+        {
+          "page": "115"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0103-01"
+      ]
+    },
+    {
+      "cite": "112 U. S. 720",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3508133
+      ],
+      "pin_cites": [
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/112/0720-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 382",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373968
+      ],
+      "pin_cites": [
+        {
+          "page": "386"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0382-01"
+      ]
+    },
+    {
+      "cite": "264 Fed. Rep. 898",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6736461
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/264/0898-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297547
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/183/0519-01"
+      ]
+    },
+    {
+      "cite": "16 Stat. 378",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 Stat. 365",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "159 U. S. 349",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5699986
+      ],
+      "pin_cites": [
+        {
+          "page": "364-365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/159/0349-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136182
+      ],
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/168/0001-01"
+      ]
+    },
+    {
+      "cite": "255 U. S. 228",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        341526
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/255/0228-01"
+      ]
+    },
+    {
+      "cite": "24 Stat. 556",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630020
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/193/0001-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 435",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705753
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/177/0435-01"
+      ]
+    },
+    {
+      "cite": "95 Fed. Rep. 864",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        8295017
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/95/0864-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705223
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/177/0421-01"
+      ]
+    },
+    {
+      "cite": "188 U. S. 108",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11725850
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/188/0108-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 700",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3373942
+      ],
+      "pin_cites": [
+        {
+          "page": "718"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/99/0700-01"
+      ]
+    },
+    {
+      "cite": "219 U. S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653037
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "387-388"
+        },
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0380-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 615",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564626
+      ],
+      "pin_cites": [
+        {
+          "page": "616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/146/0615-01"
+      ]
+    },
+    {
+      "cite": "139 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3552137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/139/0001-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 669",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675110
+      ],
+      "pin_cites": [
+        {
+          "page": "679-680"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/234/0669-01"
+      ]
+    },
+    {
+      "cite": "141 U. S. 358",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556078
+      ],
+      "pin_cites": [
+        {
+          "page": "376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/141/0358-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 675",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297941
+      ],
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/183/0675-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 139",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3618141
+      ],
+      "pin_cites": [
+        {
+          "page": "147-149, 155-156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/180/0139-01"
+      ]
+    },
+    {
+      "cite": "264 Fed. Rep. 898",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6736461
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/264/0898-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297547
+      ],
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/183/0519-01"
+      ]
+    },
+    {
+      "cite": "16 Stat. 378",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Stat. 365",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1224,
+    "char_count": 38138,
+    "ocr_confidence": 0.601,
+    "pagerank": {
+      "raw": 4.811617323536436e-07,
+      "percentile": 0.9315786364378773
+    },
+    "sha256": "afff5fe8c68b0ecb350ce5bf1e25f8b41340a18292b44885b92ab24f5592797c",
+    "simhash": "1:78f6365687b11bb0",
+    "word_count": 6612
+  },
+  "last_updated": "2024-02-27T22:46:59.212032+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES v. NORTHERN PACIFIC RAILWAY COMPANY."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Van Devanter\ndelivered the opinion of the court.\nThis is a suit by the United States to cancel a patent issued to the railway company for 5,681.76 acres of land in Montana, the asserted ground for such relief being that the land officers issued th\u00e9 patent* through inadvertence and mistake. The company prevailed in the District Court and in the Circuit Court of Appeals, 264 Fed. Rep. 898, and the United States brought the case here.\nThe lands in question \u00bfre within the indemnity limits of the land grant made to the Northern Pacific Railroad Company by the Act of July 2, 1864, c. 217, 13 Stat. 365, as modified and supplemented by the joint resolution of May 31, 1870, 16 Stat. 378, and were selected and patented as indemnity for lands lost within the place limits. The rights and obligations of the original railroad company arising out of the grant have long since passed to the present railway company and there is no need hem for distinguishing one company from the other.\nThe grant was made for the declared purpose of \u201caiding in the construction\u201d of a proposed line of railroad from Lake Superior to Puget Sound and Portland, Oregon, and \u201cto secure the safe and speedy transportation of the mails, troops, munitions of war, and public stores\u201d over such line. It was expressed in present terms \u2014 \u201c there be, and hereby is, granted\u201d \u2014 and was of \u201cevery alternate section of public land, not mineral, designated by odd. numbers\u201d within prescribed place limits on each side of the line, excepting such sections or parts of sections as should be found to have been otherwise disposed of, appropriated or claimed, or occupied by homestead settlers, or preempted, prior to the definite location of the line. Nelson v. Northern Pacific Ry. Co., 188 U. S. 108. As indemnity for any lands so excepted, as also for any excluded as mineral, other lands were to be \u201cselected by said company,\u201d under the direction of the Secretary of the Interior, from unoccupied, unappropriated, non-mineral lands in odd-numbered sections within prescribed indemnity limits. The line of the road was to be definitely located by filing a map or maps thereof in the General Land Office; and the road when constructed was to be \u201csubject to the use of the United States, for postal, military, naval, and all other government service, and also subject to such regulations as congress may impose restricting the charges for such government transportation.\u201d As each consecutive twenty-five miles of road was constructed and made ready for the service contemplated, the same was to be examined, by commissioners selected by the President, and, if they reported that the same was completed in all respects as required, patents were to be issued to the company for the lands opposite to and coterminous with the completed section. The President was to cause the lands along \u201cthe entire line\u201d to be surveyed for forty miles in width on both sides \u201cafter the general route shall be fixed, and as fast as may be required by the construction of said rail road\u201d; the granted sections within the place limits were to be withheld from sale, entry and preemption, except as against preemption and homestead occupants whose settlement preceded the definite location of the line; all lands within the indemnity limits were to be and remain subject to the operation of the preemption and homestead laws, save as the odd-numbered sections should be taken out of the operation of those laws by indemnity selections made to supply losses within the place limits (Hewitt v. Schultz, 180 U. S. 139, 147-149, 155-156; Weyerhaeuser v. Hoyt, 219 U. S. 380, 387-388); and the price of the even-numbered sections retained by the United States in the place limits was to be increased to double the usual minimum. If the company accepted the terms on which the grant was made, it was required to signify its acceptance in writing under its corporate seal within two years.\nThe company duly accepted the terms of the grant, filed appropriate maps of the general route, afterwards definitely located the line in the mode prescribed, and constructed and completed the road from Ashland, Wisconsin, on Lake Superior, -to Tacoma, Washington, on Puget Sound,, and thence to Portland, Oregon, its full length being more than 2,000 miles. The definite location was completed in 1884 and the construction in 1887. The road as completed was examined arid favorably reported by the commissioners and accepted by the President. Reports of Commissioner of Railroads \u2014 for 1885, p. 22; 1886, p. 36; 1887, p. 24; 1888, p. 24; Doherty v. Northern Pacific Ry. Co., 177 U. S. 421; United States v. Northern Pacific R. R. Co., 95 Fed. Rep. 864; s. c. 177 U. S. 435; United States v. Northern Pacific R. R. Co., 193 U. S. 1.\nThe losses forthe grant in the place limits through other disposals, homestead settlements and the like prior to the 4efinite location of .the line, and through the exclusion of lands found to be mineral, amounted.to several million acres. To supply these losses it was necessary to resort to the indemnity limits, as was contemplated and provided in the grdnting act and resolution. In the asserted exercise of this right the company selected the lands in question. The particular losses on account of which the selection was made were such as to support it, the selection was made in conformity with the directions given by the Secretary of the Interior, and the lands selected were subject to selection unless rendered otherwise by a temporary executive withdrawal made about a year before. The local land officers accepted and approved the selection list and in transmitting it to the General Land Office called attention to the withdrawal. But when the Commissioner and the Secretary approved the selection and caused the patent to issue they overlooked the withdrawal and so did not consider or pass on its bearing on the company\u2019s right to select the lands. Five years later the matter was called to their attention and they caused this suit to be brought.\nThe lands in question were not surveyed in the field until near 1905 and the plat of survey was not filed in the local land office until April 5, 1905. This indemnity selection was made later in the same day. On several occasions prior to 1904 the company had endeavored to select lands in the indemnity limits while they were as yet unsurveyed, or before the plat of the survey was filed in the local land office; but the Secretary of the Interior had refused to consider such selections and had directed that none be received until after the land was surveyed and the plat filed.. Thus this selection was made as soon as was admissible under the Secretary\u2019s directions. The temporary executive withdrawal of the lands was made January 29, 1904, before they were surveyed, and was intended to prevent the acquisition of any claim to them pending an inquiry into the desirability of adding them, along with other lands, to an existing forest reserve. On March 7, 1906, they were added to the reserve by an executive proclamation;\nIn its defense to the suit the company takes the position that the temporary withdrawal did not affect' its right to select the lands and therefore that the United States was not prejudiced by the fact that the Commissioner and the Secretary overlooked the withdrawal when the selection was approved and the patent issued. In support of this position the company points to the stipulation on which the case was heard in the District Court wherein, \u2014 following a reference to the Act of March 3, 1887, c. 376, 24 Stat. 556, directing the Secretary \u201cto immediately adjust\u201d this and other railroad land grants, and to a special report of the Commissioner, made in 1906, purporting to show that the adjustment of this grant pursuant to that act had progressed to a point where it was disclosed there was a net deficiency in the grant of 4,092,472.99 acres, \u2014 it is said:\n\u201cThe plaintiff admits that when the withdrawal order of January 29; 1904, was issued, the lands patented to the defendant or its predecessor in interest within the primary and all indemnity limits, plus all other lands within the primary or place limits, not patented, but which passed under the grant, and also all odd-numbered sections in all indemnity limits which the defendant was entitled to select under the regulations of the land department did not equal the sum total of all the odd-numbered sections lying within the primary or place limits of the grant, and this condition still obtains; but the plaintiff does not admit that the correct measure of the grant is the aggregate area of all odd-numbered sections within the primary or place limits,- or that any definite quantity of land was granted and guaranteed to the defendant by any of the acts of Congress making grants of land to the defendant or its predecessor or predecessors in interest.\u201d\nAnd in further support of its position the company contends that where, through preemption and homestead entries or other disposals, the available lands in the indemnity limits have been so far diminished that those remaining are all needed to supply losses in the place limits the. Government is not at liberty to reserve the remaining lands, or any of them, for its own uses and thereby to cut off the company\u2019s right to claim them as indemnity, because, as against the Government, they thenceforth are appropriated to the fulfilment of its obligation und\u00e9r the grant, and because the company-has a vested right in the fulfilment of that obligation which all departments of the Government are bound to respect. On the other hand, counsel for the Government insist (a) that no right to lands in the indemnity limits attaches, either generally or specifically, until they are selected by the company, (b) that up to that time the Government is free to reserve them for its own purposes and thereby to cut off the right of selection, and (c) that this is so even where the losses in the place limits exceed the available lands in the indemnity limits, and although the company\u2019s purpose to claim the latter be asserted at the earliest opportunity. The question thus presented has an important bearing on the further administration and adjustment of this grant, and perhaps of others, and counsel on both sides have dealt with it accordingly. In its present form the question is new, but the principles, which must control its solution are well settled.\nThe purpose of the granting act and resolutions was to bring about the construction and operation of a lin\u00e9 of railroad extending from Lake Superior to Puget Sound and Portland through what then consisted of .great stretches of homeless prairies, trackless forests and unexplored mountains, and thus to facilitate the develop? ment of that region, promote commerce, and establish a convenient highway for the transportation of mails, troops, munitions and public stores to and from the Pacific coast with all the resultant advantages to the Government and.the public. To that .end the act and resolution embodied a proposal to the company to the effect that if it would undertake and perform that vast work it should receive in return the lands comprehended in the grant. The' company accepted the proposal and at enormous cost constructed the road and put the same in operation; and the road was accepted by the President. Thus the proposal was converted into a contract, as to which the company by performing its part became entitled to performance by the Government. Burke v. Southern Pacific R. R. Co., 234 U. S. 669, 679-680. The provision relating to indemnity lands was as much a part of the grant and contract as the one relating to land in place, Payne v. Central Pacific By. Co., 255 U. S. 228; and it is apparent from the granting act and resolution that \u201cit was the purpose of Congress in making the grant to confer a substantial right to land within the indemnity limits in lieu of lands lost within the place limits.\u201d Weyerhaeuser v. Hoyt, 219 U. S. 380, 387. Such rights are within the protection of the due process of law clause of the Constitution. Sinking-Fund Cases, 99 U. S. 700, 718.\nWhen the grant was made by the act and resolution it was thought that the indemnity limits as therein defined contained lands largely in excess of what would be required to supply losses within the place limits, and hence the provision in \u00a7 6 under which, as construed by the land officers and this court, all lands in the indemnity limits were to be and remain subject to the operation of the preemption and homestead laws, save as the odd-numbered sections should be taken out of their operation by indemnity selections. Under that provision, however, the lands available for indemnity were diminished much more rapidly than was expected; but as the provision was one of the terms of the grant the company must submit to whatever of disadvantage results from it. This the company frankly recognizes, for in its brief it says: \u201cIt was a part of our contract that, until selected, lands within the indemnity belt should be open to settlement under the homestead and preemption laws\u201d; and also, \u201cThe question here is not whether in the face of the deficiency the settler [before selection] may acquire rights superior to ours, for we concede that he may.\u201d But that provision gives no warrant for thinking that, after the company has earned the right to receive the lands comprehended in the grant, the Government is free to reserve or appropriate to its own uses lands in the indemnity limits which are required to supply losses in the place limits. We say \u201crequired\u201d because we perceive no reason to doubt that lands in the indemnity limits may be so reserved or appropriated where what remains is sufficient to satisfy all the losses.\nWhile it often has been said that under such a grant no right attaches to any specific land within the indemnity limits until it is selected, an examination of the cases will show that this general rule never has been applied as between the Government and the grantee where the lands available for indemnity were not sufficient for the purpose. Its only application has been where either the rights of settlers were involved, or the lands available for indemnity exceeded the losses, thereby making it essential that there be a selection and identification of the particular lands sought to be taken. This distinction is illustrated in St. Paul & Pacific R. R. Co. v. Northern Pacific R. R. Co., 139 U. S. 1. The question there presented was whether there was any need for a selection where no right of a settler was involved and the lands available for indemnity were not sufficient to supply the losses. By reason of this insufficiency it was ruleo\u2019 that the lands in the indemnity limits necessarily were appropriated to satisfy the losses and that no selection was required. The court said, p. 19: \u201cAs to the objection that no evidence was produced of any selection by the Secretary of the Interior from the indemnity lands to make up for the deficiencies found in the lands within the place limits, it is sufficient to observe that all the lands within the indemnity limits only made up in part for these deficiencies. There was, therefore, no occasion for the exercise of the judgment of the Secretary in selecting from them, for they were all appropriated.\u201d That ruling related to the right to indemnity lands under this grant, and so is particularly in point; but it is well to observe that what was said about an existing deficiency related, as appears on pages 8 and 9 of the opinion, to the portion of the grant in Minnesota and not to other portions. This exception to the general rule that a selection is essential has been recognized by this court in other cases. United States v. Missouri, Kansas & Texas Ry. Co., 141 U. S. 358, 376; United States v. Colton Marble & Lime Co., 146 U. S. 615, 616; Southern Pacific R. R. Co. v. Bell, 183 U. S. 675, 682.\nOne of the regulations of the Land Department requires that indemnity selections be accompanied by a specification \u2014 tract for tract \u2014 of the losses on., account of which they are made. But that department holds that this regulation does not apply where the losses exceed the lands Which may be taken as indemnity. Thus in Hastings and Dakota Ry. Co., 19 L. D. 30, it was said by Secretary Smith: \u201cThe object in establishing.the rule was to prevent the possibility of one basis of loss being used for more than one selection. As this grant is known to be deficient over eight hundred thousand acres . . . the danger of \u00e1 duplication of the losses does not exist; and. the reason of the rule ceasing, the rule itself does not operate.\u201d And a similar ruling is found in Chicago, Rock Island & Pacific R. R. Co. v. Wagner, 25 L. D. 458, 460, and other cases.\nGiving effect to all that bears on the subject, we are of opinion that after the company earned the right to receive what was intended by the grant it was not admissible for the Government to j-eserve or appropriate to its own uses lands in the indemnity limits required to supply losses in the place limits. Of course, if it could take part of the lands required for that purpose, it could take all and thereby wholly defeat the provision for indemnity. But it cannot do either. The \u201csubstantial right\u201d conferred by that provision (Weyerhaeuser v. Hoyt, supra), cannot be thus cut down or extinguished. Sinking-Fund Cases, supra.\nA more difficult question \u2014 to which only slight attention is given in the briefs \u2014 is whether it sufficiently appears from this record that the grant was deficient at the time of the temporary withdrawal, that is, that the lands available as indemnity were not then sufficient to supply the losses. The question is one the determination of which rests primarily with the Land Department. The stipulation on which the case was heard does not show that the Department has determined the question, nor that it has refused to do so, but only that the question was not considered when this patent was issued, the withdrawal being then inadvertently overlooked. In these circumstances, to entitle either party to have the question determined in this suit the facts shown should make its right solution quite plain, for the decision might conclude both parties for all time, \u2014 as respects other lands as well as, those in suit. Southern Pacific R. R. Co. v. United States, 168 U. S. 1, 48. Of course, the company is entitled to have the question considered and decided somewhere, and, if the deficiency be established, is entitled to have the selection of these lands sustained. A third of a century already has elapsed since the company earned the right to receive what was intended by the grant.\nTwo matters stated in the stipulation are relied upon as showing a deficiency. One is that in 1906 the Commissioner reported to the Secretary that the adjustment of the grant had progressed to a point where it was disclosed that there was a net deficiency of 4,092,472.99 acres. By the Act of March 3, 1887, supra, the supervision of the adjustment was specially devolved on the Secretary, and yet the stipulation does not show that he approved the Commissioner\u2019s report or in any way recognized it as correct. We think the report, in the absence of any confirmatory action by the Secretary, cannot be taken as sufficiently establishing that a deficiency existed. The other statement is that at the time of the temporary withdrawal all the lands theretofore received by the company plus all that it was possible for it to receive thereafter, whether as place lands or indemnity lands, did not equal \u201cthe sum total of all the odd-numbered sections lying within the primary or place limits,\u201d and that condition still obtains. But the statement also says that the Government \u201cdoes not admit that the correct measure of the grant is the aggregate area of all odd-numbered sections within the primary or place limits.\u201d What was meant by this qualification is not otherwise disclosed; nor is it explained in the briefs. The aggregate of the odd-numbered sections within the place limits is the correct measure of the grant, unless (a) part of the grant included only a moiety of those sections, or (b) the route of this road and that of another with a prior land grant were found to be upon the same general line, in which event a stated deduction was to be made from the amount of land granted to this company. There would be no right to indemnity as respects the moiety not included, nor as respects the lands required to be deducted. Either of those conditions, if existing, would affect the measure of the grant and would have to be considered in determining whether there was a deficiency. The stipulation does not show the presence or the absence of either condition, and the matter is not one of which courts take judicial notice. Therefore the actual situation, whatever it may have been, should have been shown. As this was not done, neither party is entitled to have the question whether there was a deficiency determined upon the present record.\nTurning to the published decisions of the Land Department, we find that in Hessey v. Northern Pacific Ry. Co., 43 L. D. 302, the Secretary distinctly declared that the grant was so far deficient that many losses within the place limits must remain unsatisfied, and therefore that compliance with a provision that indemnity selections be made frpm lands nearest the line of the road was no longer required. But as that finding apparently related to the situation existing December 9, 1909, it cannot be taken as showing that there was a deficiency almost six years before, when the temporary withdrawal now in question was made. The situation may have changed materially in the meantime, for doubtless large numbers of homestead entries were being made within the indemnity limits every year.\nWe conclude that the decrees below must be reversed and the suit remanded to the District Court with directions (a) to accord the parties a reasonable opportunity, on a further hearing, to supplement and perfect the showing made in the present record, if either or both are so disposed, (b) if the parties avail themselves of that opportunity, to proceed to an adjudication of the suit upon the r\u00e9cord as thus supplemented, and (c) if the parties do not avail themselves of that opportunity, to enter a decree canceling the patent without prejudice to the right of the company to have the question of the asserted deficiency in the grant determined by the Land Department and to have the present selection sustained and given full effect, if the grant was deficient when the temporary withdrawal was made.\nDecree reversed.\nSouthern Pacific R. R. Co. v. United States, 183 U. S. 519, 525; Sioux City & St. Paul R. R. Co. v. United States, 159 U. S. 349, 364-365. And see United States v. Northern Pacific R. R. Co., 193 U. S. 1.\nSection 3 of the granting act contains the following: \u201cProvided, That if said route shall be found upon the line of any other railroad route to aid in the construction of which lands have been heretofore granted by the United States, as far as the routes are upon the same general line, the amount of land heretofore granted shall be deducted from the amount granted by this act.\u201d",
+        "type": "majority",
+        "author": "Mr. Justice Van Devanter"
+      }
+    ],
+    "attorneys": [
+      "Mr. Assistant Attorney General Nebeker, with whom Mr. H. L. Underwood, Special Assistant to, the Attorney General, was on the brief, for the United States':'-",
+      "Mr. Charles Donnelly, with whom Mr. Charles W. Bunn was on the brief, for appellee:"
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES v. NORTHERN PACIFIC RAILWAY COMPANY.\nAPPEAL PROM THE CIRCUIT COURT OP APPEALS POR THE NINTH CIRCUIT.\nNo. 325.\nArgued October 7, 1920.\nDecided April 11, 1921.\n1. The Northern Pacific Railroad Act of July .2, 1864, c. 217, 13 Stat. 365, and the Joint Resolution of May 31, 1870, 16 Stat. 378, embodied a proposal that, if the company would bring about the construction and operation of the railroad, desired for the advantage of the Government and the public, it should receive in return the land comprehended by the granting provisions of the legislation. P, 63.\n2. By the company\u2019s acceptance of this proposal, followed by construction and operation of the railroad and acceptance of the railroad by the President, the proposal was converted into a contract, entitling the company to performance by the Government.. P. 64!\n3. The provision relating to indemnity land was as much a part of the grant and contract as the one relating to land' in place; and the right of the grantee to land within the indemnity limits in lieu of land lost within the place limits was intended to be a substantial right such as is protected by the due process clause of the Constitution. P. 64.\n4. Assuming that the land applicable as indemnity remaining within the indemnity limits was not enough to make up for unsatisfied losses in the place limits, the Government could not deprive the company\u2019s successor of its right to such land by setting it aside for forest purposes. Pp. 64r-66.\n5. The rule ;that, under such a grant, no right of the railroad company to land -within the indemnity limits attaches to any specific tract until the company has selected it, applies as between the company and settlers under the homestead and preemption laws (the continued operation of which within the indemnity limits the granting act itself provides for), and applies also as between the company and the United States when the lands available for indemnity exceed the losses, but it has no application as between the company and the United States if the lands available for indemnity are insufficient for that purpose. P. 65.\n' 6. The question whether lands remaining within the indemnity limits were sufficient to satisfy losses in the place limits was primarily for the Land Department to decide. P. 67.\n7. But, where the Department, without deciding this question, reserved part of the indemnity lands for forest purposes, and after-wards inadvertently issued a patent therefor to the railroad company upon its selection, held, that the question could be determined in a suit brought later by the Government against the company to set the patent aside, but only upon a clear showing of the facts, since the decision might conclude both parties \u00e1s to other lands as well as those immediately involved. P. 67. \"\u2014\n8. A report of the Commissioner of the General Land Office on the adjustment of a railroad land grant showing a deficiency Js not enough to establish the existence of such deficiency, unless shown to have been approved or consented to by the Secretary of the Interior, since, under the adjustment Act of March 3, 1887, the .supervision of the adjustment was specially devolved upon the Secretary. P. 67.\n9. A stipulation that all the lands received by the NorthernSPacific Company under its grant and all that it was possible for it to receive thereafter, whether as place or indemnity lands, did not equal the sum-total of all the odd-numbered sections within the primary or place limits, held, not enough to establish a deficiency, since the measure of the grant might be less than the aggregate of the odd-numbered sections within the place limits, due to partial overlapping with another like grant (Southern Pacific R. R. Co. v. United States, 183 U. S. 519), or to deductions under \u00a7 6 of the granting act if the route followed the general line of another railroad with a prior grant; and of the presence or absence of such conditions the courts could not take judicial notice. P. 68.\n10. The existence of such a deficiency when the Government withdrew the lands in controversy is not established by a finding by the Secretary of the Interior that a deficiency existed six years later. P. 69.\n264 Fed. Rep. 898, reversed.\nThe case is stated in the opinion, post, 58.\nMr. Assistant Attorney General Nebeker, with whom Mr. H. L. Underwood, Special Assistant to, the Attorney General, was on the brief, for the United States':'-\nNo rights to lands within the indemnity limits attach until an application to select is filed. Ryan v. Railroad Co., 99 U. S. 382, 386; St. Paul & Sioux City R. R. Co. v. Winona & St. Peter R. R. Co., 112 U. S. 720, 731; Oregon & California R. R. Co. v. United States, No. 1, 189 U. S. 103, 112, 113; Osborn v. Froyseth, 216 U. S. 571, 577, 578; United States v. Southern Pacific R. R. Co., 223 U. S. 565, 570, 571.\nAs the lands involved were at the date of filing of the selection list already withdrawn for forestry purposes, they were not subject to selection. United States v. Midwest Oil Co., 236 U. S. 459; Act of March 3, 1891, c. 561, \u00a7 24, 26 Stat. 1095, 1103; Chicago, Milwaukee & St. Paul Ry. Co. v. United States, 244 U. S. 351, 356. Hence there were no rights taken away by or in conflict with the withdrawal.\nThere is no obligation upon the part of the United States to preserve lands within indemnity limits for the benefit of the company. Hewitt v. Schultz, 180 U. S. 139; Northern Pacific R. R. Co. v. Miller, 7 L. D. 100, 120; Northern Pacific R. R. Co. v. Davis, 19 L. D. 87, 90. The entire contention of appellee in this regard ignores the vital point that the company secures no rights to lands within the indemnity limits until a filing is made. Until such a filing is made, there is less reason for saying that the Government cannot Appropriate these lands for its own purposes than there is for saying that settlers cannot do so, and yet the right of settlers to acquire such lands at any time prior to the filing of the list is unquestionable. It would be unreasonable to assert that although the Government could reserve lands within the place limits prior to the time when the company\u2019s rights attached, yet it could not reserve lands within the indemnity limits prior to the time when the company\u2019s rights thereto were initiated. Rights in the place limits attached by the definite location of the road; in the indemnity limits by the filing of an application to select. Congress clearly recognized that there would be losses in the place limits, and therefore provided for indemnity, but there was no promise that the indemnity would be sufficient or that all losses in the place limits would be compensated by the lands in the indemnity limits. Wisconsin Central R. R. Co. v. Price County, 133 U. S. 496, 512. The lands in the indemnity belt might, before the company\u2019s rights attached, be otherwise disposed of. They might all prove to be mineral. The company took the grant subject to these possibilities, and the same thing is true as to other appropriation. If the company feels that there is a moral obligation on the part of the Government to give it indemnity for all losses in the place limits, when the lands in the indemnity belt are not available because of previous appropriation, its appeal should be made to Congress. Southern Pacific R. R. Co. v. Bell, 183 U. S. 675, 689; Humbird v. Avery, 195 U. S. 480, 508.\nGrants of this character are construed strictly against the grantee, and in the absence of a clearly expressed purpose to preserve the lands within indemnity limits for the company no such purpose should be presumed.\nWe do not consider the action of the company in filing blanket selections without assigning definite losses, or in applying for all the lands within the indemnity limits, to have strengthened its position. The requirement for approval of the selection lists by the Secretary of the Interior would be a vain thing if it were to be given to a list not supported by a definite showing of specific losses. The Land Department has required assignment of a definite base. Circular of August 4, 1885, 4 L. D. 90; St. Paul, M. & M. Ry. Co. v. Munz, 17 L. D. 288. As to applications for unsurveyed lands, those were clearly unacceptable and could not properly be made until the lands were identified by survey. This has been the rule of the Land Department. 27 L. D. 122.\nThe compilation of losses made by the Commissioner of the General Land Office and here adduced as proving that lands unappropriated were in the indemnity limits and insufficient to satisfy losses in the place limits, Has no material bearing on the issues here. Furthermore, it was not approved by the Secretary of the Interior* See Hewitt v. Schultz, 180 U. S. 139, 157, 158.\nThe failure of the Government to have the lands sooner surveyed, the inference being that thereby the company was prejudiced, is not material. Oregon & California R. R. Co. v. United States, No. 2, 189 U. S. 116, 118; United States v. Missouri, Kansas & Texas Ry. Co., 141 U. S. 358, 374.\nMr. Charles Donnelly, with whom Mr. Charles W. Bunn was on the brief, for appellee:\nThe Act of 1864 and the Resolution of 1870 constituted a contract between the Government and the railroad company. Burke v. Southern Pacific R. R. Co., 234 U. S. 669, 679.\nThe Northern Pacific Railroad Company performed its part of this contract by building its railroad. It has borne, and its successor, the Northern Pacific Railway Company, is now bearing, and must for all time continue to bear the burdens, in the way of restricted charges for government transportation, which, under \u00a7 11 of the Act of 1864, Congress has imposed. The question here is as to performance not of the railroad company\u2019s but of the Government\u2019s part of the contract.\nIt is equally clear, that it was the intention of' Congress that the grantee should get the full quantity of lands granted, at least so far as it was possible to get it within the limits of the grant'. Wisconsin Central R. R. Co. v. Forsythe, 159 U. S. 46, 60; Hewitt v. Schultz, 180 U. S. 139, 157, 160; Southern Pacific R. R. Co. v. Bell, 183 U. S. 675, 689; Oregon & California R. R. Co. v. United States, No. 1, 189 U. S. 103, 115; Humbird v. Avery, 195 U. S. 480, 508. All these cases recognize the congressional intent to have been as stated in the Forsythe Case, supra. Indeed, we do not understand counsel for the Government to question this; for while they argue that Congress did not \u201cintend to guarantee any specific amount of land to the company,\u201d (and this of course is true) they speak of the \u201cmoral obligation\u201d to indemnify the company for losses within the place limits as one to be discharged by Congress and not by the courts.\nWithout pausing to dwell on the reason why there is a deficiency in the grant to the Northern Pacific, the fact that there is one has long been known; and the question is whether this fact in any way affects the general rule governing the initiation of title, to indemnity lands. Undoubtedly the general rule as to such lands is that until they are selected by the grantee the Government has complete control over them; but this rule rests upon an assumption that where one indemnity section is disposed of, another is available. The rule does not obtain where this assumption is shown to be unwarranted. St. Paul & Pacific R. R. Co. v. Northern Pacific R. R. Co., 139 U. S. 1; United States v. Southern Pacific R. R. Co., 146 U. S. 615, 616; Southern Pacific R. R. Co. v. Bell, 183 U. S. 675, 682; Southern Pacific R. R. Co. v. Groeck, 87 Fed. Rep. 970, 973.\nThat the fact of a recognized deficiency in the entire grant makes inapplicable the general rule that selection is necessary to the initiation of any rights in indemnity lands, is made strikingly plain by the decisions in Hewitt v. Schultz, supra, and Oregon & California R. R. Co. v. United States, No. 1, supra.\nThe question here is not whether in the face of the deficiency the-settler may acquire rights superior to ours, for we concede that he may. It was a part of our contract that, until selected, lands within the indemnity belt should be open to settlement under the homestead and preemption laws. The question is whether the Government may lawfully' appropriate to its own- uses lands which are indispensable even to a partial fulfillment of its contract.\nThe answer of counsel for the Government to all this is direct and simple. They take their stand upon the broad general rule that until selection a railroad grantee acquires no title to indemnity lands. Undoubtedly this court has said this, or something like this, many times. But on examining the cases it will be found that wherever this is said, it is said sub modo and with reference to the special facts in hand. It has never been said or suggested that as to such lands th\u00e9 grant meant nothing, or that even though they were confessedly needed to supply losses within place limits, the Government, in advance of selection, was as free to deal with them as if the grant had not been made. Weyerhaeuser v. Hoyt, 219 U. S. 380, 387; Daniels v. Wagner, 205 Fed. Rep. 235, 237, reversed upon other grounds, 237 U. S. 547.\nWe are not contending for a principle which would deprive settlers of the right they now enjoy of acquiring title to odd-numbered sections within the indemnity belts; nor do we rest our case in any sense upon the fact that the Government has flagrantly failed to perform its obligation to survey the lands. We say that if it will not survey the lands as it agreed to do, if it will not allow us to select, them while unsurveyed, if as a consequence we must suffer the losses occasioned by settlers\u2019 entries, we are entitled at least to protection against additional losses occasioned by its own acts. Its appropriation, of these lands to its own purposes in the face of its admission that they are necessary to satisfy even partially the grant which it made for a consideration which we have rendered would be a plain violation of its contract. It would be a moral as well as a legal wrong; and surely it is not true that those who contract with the Government must expect to have their contracts dealt with so.\nBearing in mind that the withdrawal order was made und\u00e9r the authority of \u00a7 24 of the Act of March 3, 1891, 26 Stat. 1095, authorizing the President to set apart \u201cpublic lands\u201d as forest reserves, we submit that one of two things must be true: Either the lands in question, in view of the admitted facts in this case, were not \u201cpublic lands \u201d within the meaning of that act, and therefore the withdrawal order was unauthorized and inoperative; or, they are \u201cpublic lands,\u201d and then the act authorizing their withdrawal was a direct invasion of the constitutional rights which the railway company had in them; and such legislation cannot stand. Sinking-Fund Cases, 99 U. S. 700, 718."
+  },
+  "file_name": "0051-01",
+  "first_page_order": 99,
+  "last_page_order": 118
+}

@@ -1,0 +1,6005 @@
+[
+  {
+    "id": 3436263,
+    "name": "The Blackwall",
+    "name_abbreviation": "The Blackwall",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "1",
+    "last_page": "15",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 1"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 1"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 870"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-175"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1037"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "2 Robinson, 43",
+        "category": "reporters:state",
+        "reporter": "Rob.",
+        "opinion_index": -1
+      },
+      {
+        "cite": "5 Robinson, 287",
+        "category": "reporters:state",
+        "reporter": "Rob.",
+        "opinion_index": -1
+      },
+      {
+        "cite": "2 Paine, 131",
+        "category": "reporters:federal",
+        "reporter": "Paine",
+        "case_ids": [
+          6133716
+        ],
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "255"
+          }
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/f-cas/29/0464-01"
+        ]
+      },
+      {
+        "cite": "1 Black, 121",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          1410125
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/66/0121-01"
+        ]
+      },
+      {
+        "cite": "21 Howard, 343",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Black, 574",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          1410122
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/66/0574-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1226,
+      "char_count": 30846,
+      "ocr_confidence": 0.46,
+      "pagerank": {
+        "raw": 5.316968516288454e-06,
+        "percentile": 0.9989412510150205
+      },
+      "sha256": "28502345ed415d0532e0246f59a49d6ddb0021d0b25bdbd9bf1d4c66d0d73eaf",
+      "simhash": "1:4974dd9154bc97cf",
+      "word_count": 5445
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0001-01",
+    "first_page_order": 13,
+    "last_page_order": 27
+  },
+  {
+    "id": 3436730,
+    "name": "The Davis",
+    "name_abbreviation": "The Davis",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "15",
+    "last_page": "22",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 15"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 15"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 875"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1038"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-176"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "11 Allen, 158",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "opinion_index": -1
+      },
+      {
+        "cite": "11 Allen, 157",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "case_ids": [
+          313792
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/93/0157-01"
+        ]
+      },
+      {
+        "cite": "7 Allen, 287",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "case_ids": [
+          2123139
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/89/0287-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 610,
+      "char_count": 13530,
+      "ocr_confidence": 0.467,
+      "pagerank": {
+        "raw": 1.131826664130916e-06,
+        "percentile": 0.9862903204009191
+      },
+      "sha256": "0332933594ee3544ccd77033179343c3a3b0114d937a157b5095e88d59e98be4",
+      "simhash": "1:f2a7ee467d8813da",
+      "word_count": 2358
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0015-01",
+    "first_page_order": 27,
+    "last_page_order": 34
+  },
+  {
+    "id": 3436871,
+    "name": "McKee v. Rains",
+    "name_abbreviation": "McKee v. Rains",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "22",
+    "last_page": "26",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 22"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 22"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 860"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1039"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-171"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 438,
+      "char_count": 8514,
+      "ocr_confidence": 0.457,
+      "pagerank": {
+        "raw": 1.4589835970763714e-07,
+        "percentile": 0.6569259443311174
+      },
+      "sha256": "a8098bd9b89a0dabef688a5b485a9c5fefe86d4ef4067749e262b2ad6ad599c0",
+      "simhash": "1:aaa766a5f682c1cf",
+      "word_count": 1507
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0022-01",
+    "first_page_order": 34,
+    "last_page_order": 38
+  },
+  {
+    "id": 3436911,
+    "name": "Little v. Herndon",
+    "name_abbreviation": "Little v. Herndon",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "26",
+    "last_page": "33",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 26"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 26"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 878"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1040"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-177"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 637,
+      "char_count": 14519,
+      "ocr_confidence": 0.467,
+      "pagerank": {
+        "raw": 8.637881309866546e-07,
+        "percentile": 0.9771044566690954
+      },
+      "sha256": "ae320fb7a8b4c51dd4f8d0d97c58ce45fdc414aeca79dd9d0af5752a48471add",
+      "simhash": "1:88380536eef8f453",
+      "word_count": 2585
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0026-01",
+    "first_page_order": 38,
+    "last_page_order": 45
+  },
+  {
+    "id": 3437190,
+    "name": "Bates v. Equitable Insurance Company",
+    "name_abbreviation": "Bates v. Equitable Insurance",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "33",
+    "last_page": "38",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 33"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 33"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 882"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1041"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-178"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "6 Gray, 169",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "case_ids": [
+          1994700
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/72/0169-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 454,
+      "char_count": 9187,
+      "ocr_confidence": 0.464,
+      "pagerank": {
+        "raw": 8.938725908265172e-07,
+        "percentile": 0.9785665110205267
+      },
+      "sha256": "b34005357078d0d5da54595286e9c172380ed4a8805cdfe4f47c462a501d3f40",
+      "simhash": "1:003de0ffef9ea856",
+      "word_count": 1610
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0033-01",
+    "first_page_order": 45,
+    "last_page_order": 50
+  },
+  {
+    "id": 3436137,
+    "name": "People's Railroad v. Memphis Railroad",
+    "name_abbreviation": "People's Railroad v. Memphis Railroad",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "38",
+    "last_page": "56",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 38"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 38"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 844"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-155"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1042"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "4 Paige Ch., 251",
+        "category": "reporters:state",
+        "reporter": "Paige Ch.",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Vroom, 225",
+        "category": "reporters:state",
+        "reporter": "Vroom",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Head, 24",
+        "category": "reporters:state",
+        "reporter": "Head",
+        "case_ids": [
+          8541189
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/tenn/38/0024-01"
+        ]
+      },
+      {
+        "cite": "3 Sneed, 634",
+        "category": "reporters:state",
+        "reporter": "Sneed,",
+        "case_ids": [
+          8542497
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/tenn/35/0634-01"
+        ]
+      },
+      {
+        "cite": "3 Paige Ch. 45",
+        "category": "reporters:state",
+        "reporter": "Paige Ch.",
+        "case_ids": [
+          2048379
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/paige-ch/3/0045-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1276,
+      "char_count": 38484,
+      "ocr_confidence": 0.46,
+      "pagerank": {
+        "raw": 4.587316681381683e-07,
+        "percentile": 0.9255356200303569
+      },
+      "sha256": "a6de31914724274d985893e36c5ac52dfb855af98123353a601a2940b82bd7f4",
+      "simhash": "1:96cf93f00d6aeaef",
+      "word_count": 6406
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0038-01",
+    "first_page_order": 50,
+    "last_page_order": 68
+  },
+  {
+    "id": 3436106,
+    "name": "Reilly v. Golding",
+    "name_abbreviation": "Reilly v. Golding",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "56",
+    "last_page": "58",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 56"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 56"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 858"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-170"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1043"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 215,
+      "char_count": 3698,
+      "ocr_confidence": 0.442,
+      "pagerank": {
+        "raw": 6.319592169602869e-08,
+        "percentile": 0.38856415953208084
+      },
+      "sha256": "5c0885acb6d642be4e594840ea4e6a56b793699e43ebbc04b4dbea232571967b",
+      "simhash": "1:ddc4dd77b84e6abf",
+      "word_count": 621
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0056-01",
+    "first_page_order": 68,
+    "last_page_order": 70
+  },
+  {
+    "id": 3436480,
+    "name": "Boylan v. United States",
+    "name_abbreviation": "Boylan v. United States",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "58",
+    "last_page": "62",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 58"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 58"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 859"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-169"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1044"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 363,
+      "char_count": 8560,
+      "ocr_confidence": 0.468,
+      "pagerank": {
+        "raw": 5.676830387708631e-08,
+        "percentile": 0.355890633006017
+      },
+      "sha256": "4f1b01bb5ec8244780c184974b7ac96b03f9f275c842c613650a4cba1d419568",
+      "simhash": "1:00bf421e6f873a98",
+      "word_count": 1520
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0058-01",
+    "first_page_order": 70,
+    "last_page_order": 74
+  },
+  {
+    "id": 3437407,
+    "name": "Mahoney v. United States",
+    "name_abbreviation": "Mahoney v. United States",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "62",
+    "last_page": "68",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 62"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 62"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 864"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1045"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-173"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 567,
+      "char_count": 11951,
+      "ocr_confidence": 0.456,
+      "pagerank": {
+        "raw": 6.087085966315723e-08,
+        "percentile": 0.37700055099737473
+      },
+      "sha256": "fbb28bb81952a84b253833987dc7d5b1b23c309c1cfa8a31bef28feebeeb54cf",
+      "simhash": "1:16e04aa41ade2477",
+      "word_count": 2037
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0062-01",
+    "first_page_order": 74,
+    "last_page_order": 80
+  },
+  {
+    "id": 3437454,
+    "name": "Texas v. Hardenberg",
+    "name_abbreviation": "Texas v. Hardenberg",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "68",
+    "last_page": "91",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 68"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 68"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 839"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1046"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-036"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 1440,
+      "char_count": 47842,
+      "ocr_confidence": 0.461,
+      "pagerank": {
+        "raw": 6.440252042010177e-07,
+        "percentile": 0.9599028746463597
+      },
+      "sha256": "b02406372cd591bb602b67da09f972554991f04f747543d0c2120220267d3bde",
+      "simhash": "1:a097c0044147acc7",
+      "word_count": 8333
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0068-01",
+    "first_page_order": 80,
+    "last_page_order": 103
+  },
+  {
+    "id": 3436539,
+    "name": "The Schools v. Risley",
+    "name_abbreviation": "The Schools v. Risley",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "91",
+    "last_page": "116",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 91"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 91"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 850"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-167"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1047"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "18 Howard, 25",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "8 Howard, 313",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "1 Black, 179",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          1410128
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/us/66/0179-01"
+        ]
+      },
+      {
+        "cite": "16 Howard, 403",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "18 Howard, 21",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "4 Howard, 430",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "1 Wharton, 469",
+        "category": "reporters:state",
+        "reporter": "Whart.",
+        "case_ids": [
+          1829068
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/whart/1/0469-01"
+        ]
+      },
+      {
+        "cite": "18 Howard, 136",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "24 Howard, 41",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Black, 536",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "opinion_index": 0
+      },
+      {
+        "cite": "18 Howard, 21",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 1510,
+      "char_count": 49727,
+      "ocr_confidence": 0.462,
+      "pagerank": {
+        "raw": 3.732433539472707e-07,
+        "percentile": 0.8943600572851931
+      },
+      "sha256": "356cfdc9a37ab6c73a2a7f4dfc98213bce38d889cac776199402b9bb745e6b65",
+      "simhash": "1:d5e296d67d5afea0",
+      "word_count": 8720
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0091-01",
+    "first_page_order": 103,
+    "last_page_order": 128
+  },
+  {
+    "id": 3436299,
+    "name": "Stimpson v. Woodman",
+    "name_abbreviation": "Stimpson v. Woodman",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "117",
+    "last_page": "126",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 117"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 117"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 866"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-174"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1048"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "2 Story, 194",
+        "category": "reporters:federal",
+        "reporter": "Story",
+        "opinion_index": 1
+      },
+      {
+        "cite": "10 Howard, 346",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 1
+      },
+      {
+        "cite": "22 Howard, 132",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "132"
+          }
+        ],
+        "opinion_index": 1
+      }
+    ],
+    "analysis": {
+      "cardinality": 770,
+      "char_count": 20869,
+      "ocr_confidence": 0.437,
+      "pagerank": {
+        "raw": 7.131456974902821e-07,
+        "percentile": 0.9669781906203798
+      },
+      "sha256": "28b84cd9dfc8896802cee88c8750de78d2532b0d737c6e03fab98c079c6ef407",
+      "simhash": "1:942ae5e499047ec3",
+      "word_count": 3525
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0117-01",
+    "first_page_order": 129,
+    "last_page_order": 138
+  },
+  {
+    "id": 3435507,
+    "name": "Texas v. Chiles",
+    "name_abbreviation": "Texas v. Chiles",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "127",
+    "last_page": "128",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 127"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 127"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 971"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1049"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-030"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 231,
+      "char_count": 3690,
+      "ocr_confidence": 0.465,
+      "pagerank": {
+        "raw": 8.138363859351185e-08,
+        "percentile": 0.4717105128522937
+      },
+      "sha256": "87ea287106d6eefe5c1703a1471decbcdf68f9c840a3251473d3562cac7ccd35",
+      "simhash": "1:aa9a21e5fe74fd18",
+      "word_count": 646
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0127-01",
+    "first_page_order": 139,
+    "last_page_order": 140
+  },
+  {
+    "id": 3436323,
+    "name": "Wiggins et al v. Burkham",
+    "name_abbreviation": "Wiggins v. Burkham",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "129",
+    "last_page": "133",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 129"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 129"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 884"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-179"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1050"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 436,
+      "char_count": 9466,
+      "ocr_confidence": 0.463,
+      "pagerank": {
+        "raw": 2.229640697242698e-06,
+        "percentile": 0.9958291004610693
+      },
+      "sha256": "8c099c3b023b0f550974c9c3c23a46017d778c1f1ac4944dfa3a832c0274f36a",
+      "simhash": "1:dc56d7603b889889",
+      "word_count": 1652
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0129-01",
+    "first_page_order": 141,
+    "last_page_order": 145
+  },
+  {
+    "id": 3435683,
+    "name": "Clark v. Bousfield",
+    "name_abbreviation": "Clark v. Bousfield",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "133",
+    "last_page": "141",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 133"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 133"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 862"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1869-172"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1051"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "15 Howard, 268",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      }
+    ],
+    "analysis": {
+      "cardinality": 617,
+      "char_count": 14982,
+      "ocr_confidence": 0.447,
+      "pagerank": {
+        "raw": 1.961009691829688e-07,
+        "percentile": 0.7379951495241615
+      },
+      "sha256": "516b61dd6da8f3ac3f6976b99859ce57e4c51c98669770f190ca73c4689102e6",
+      "simhash": "1:d7afcda99e96bfd3",
+      "word_count": 2646
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0133-01",
+    "first_page_order": 145,
+    "last_page_order": 153
+  },
+  {
+    "id": 3435568,
+    "name": "Feild v. Farrington",
+    "name_abbreviation": "Feild v. Farrington",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "141",
+    "last_page": "152",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 141"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 141"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 923"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-013"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1052"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "6 McLean, 106",
+        "category": "reporters:federal",
+        "reporter": "McLean",
+        "case_ids": [
+          6104346,
+          6095838
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/f-cas/6/0169-01",
+          "/f-cas/1/0007-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 835,
+      "char_count": 24664,
+      "ocr_confidence": 0.453,
+      "pagerank": {
+        "raw": 9.467603341266554e-07,
+        "percentile": 0.9808261022167701
+      },
+      "sha256": "1a81b0b365171f4ee303f999d0136a55eaddb41c0390688e9fd6f867f33a6136",
+      "simhash": "1:feb077b95f48e58d",
+      "word_count": 4351
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0141-01",
+    "first_page_order": 153,
+    "last_page_order": 164
+  },
+  {
+    "id": 3436819,
+    "name": "Bank of the Republic v. Millard",
+    "name_abbreviation": "Bank of the Republic v. Millard",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "152",
+    "last_page": "158",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 152"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 152"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 897"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1053"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-005"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "2 Story, 237",
+        "category": "reporters:federal",
+        "reporter": "Story",
+        "opinion_index": -1
+      },
+      {
+        "cite": "1 Gray, 605",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "case_ids": [
+          1973960
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/67/0605-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 715,
+      "char_count": 12851,
+      "ocr_confidence": 0.458,
+      "pagerank": {
+        "raw": 3.4898990167988394e-06,
+        "percentile": 0.9979828939833943
+      },
+      "sha256": "545631fe385f3a40f8e3d886b0d4167a9f9bec899f01cd3379f9f7891c0b7ce6",
+      "simhash": "1:4bf6ee5018eebeda",
+      "word_count": 2313
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0152-01",
+    "first_page_order": 164,
+    "last_page_order": 170
+  },
+  {
+    "id": 3435541,
+    "name": "Dean v. Nelson",
+    "name_abbreviation": "Dean v. Nelson",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "158",
+    "last_page": "172",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 158"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 158"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 926"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1054"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-014"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "15 Howard, 60",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "18 Howard, 116",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 3,
+        "pin_cites": [
+          {
+            "page": "164"
+          },
+          {
+            "page": "176"
+          }
+        ],
+        "opinion_index": -1
+      },
+      {
+        "cite": "12 Howard, 126",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "opinion_index": -1
+      }
+    ],
+    "analysis": {
+      "cardinality": 1186,
+      "char_count": 29915,
+      "ocr_confidence": 0.478,
+      "pagerank": {
+        "raw": 3.089613669684096e-07,
+        "percentile": 0.8585471585409034
+      },
+      "sha256": "b34872c06c2d7348b749b2a83b60b0140c95f261116fb6f7973b67398ec854f9",
+      "simhash": "1:3c816674bf303519",
+      "word_count": 5174
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0158-01",
+    "first_page_order": 170,
+    "last_page_order": 184
+  },
+  {
+    "id": 3436353,
+    "name": "Downham et al. v. Alexandria Council",
+    "name_abbreviation": "Downham v. Alexandria Council",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "173",
+    "last_page": "176",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 173"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 173"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 929"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-015"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1055"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 330,
+      "char_count": 7258,
+      "ocr_confidence": 0.468,
+      "pagerank": {
+        "raw": 9.505934266120265e-08,
+        "percentile": 0.5239790041813248
+      },
+      "sha256": "2cad8f58c3ffe4c81ecc1884baeb504846fbdbb075b2e1dfc0e24332a9ec4251",
+      "simhash": "1:39292475f117c55d",
+      "word_count": 1241
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0173-01",
+    "first_page_order": 185,
+    "last_page_order": 188
+  },
+  {
+    "id": 3436658,
+    "name": "Railroad Company v. Reeves",
+    "name_abbreviation": "Railroad Co. v. Reeves",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "176",
+    "last_page": "192",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 176"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 176"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 909"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1056"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-006"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "2 Watts, 114",
+        "category": "reporters:state",
+        "reporter": "Watts",
+        "case_ids": [
+          1840050
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/watts/2/0114-01"
+        ]
+      },
+      {
+        "cite": "12 Howard, 280",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "328"
+          }
+        ],
+        "opinion_index": -1
+      },
+      {
+        "cite": "13 Gray, 487",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "opinion_index": -1
+      },
+      {
+        "cite": "13 Gray, 481",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "case_ids": [
+          2087831
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/79/0481-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1260,
+      "char_count": 33492,
+      "ocr_confidence": 0.462,
+      "pagerank": {
+        "raw": 3.830311155104459e-06,
+        "percentile": 0.9982510563357169
+      },
+      "sha256": "41ce8d882b570e08c6dddb734c02dad8c0286acad763293e8308c62dd9c4fc96",
+      "simhash": "1:82e44b6b25d6c462",
+      "word_count": 5933
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0176-01",
+    "first_page_order": 188,
+    "last_page_order": 204
+  },
+  {
+    "id": 3436556,
+    "name": "The Lulu",
+    "name_abbreviation": "The Lulu",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "192",
+    "last_page": "204",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 192"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 192"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 906"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-007"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1057"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "19 Howard, 28",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "1 Sprague, 571",
+        "category": "reporters:specialty",
+        "reporter": "Sprague",
+        "opinion_index": 0
+      },
+      {
+        "cite": "19 Howard, 22",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "20 Howard, 343",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Sprague, 455",
+        "category": "reporters:specialty",
+        "reporter": "Sprague",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Sprague, 139",
+        "category": "reporters:specialty",
+        "reporter": "Sprague",
+        "opinion_index": 0
+      },
+      {
+        "cite": "2 Story, 463",
+        "category": "reporters:federal",
+        "reporter": "Story",
+        "weight": 2,
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 996,
+      "char_count": 25337,
+      "ocr_confidence": 0.452,
+      "pagerank": {
+        "raw": 1.2129879090189002e-06,
+        "percentile": 0.9879294121008599
+      },
+      "sha256": "925a346ee5d7af2b586a3618807086febb47c2064f3bf3e6c547f3ae93200d38",
+      "simhash": "1:b70699e9aaf0b413",
+      "word_count": 4476
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0192-01",
+    "first_page_order": 204,
+    "last_page_order": 216
+  },
+  {
+    "id": 3435758,
+    "name": "The Kalorama, The Custer",
+    "name_abbreviation": "The Kalorama",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "204",
+    "last_page": "218",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 204"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 204"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 941"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-020"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1058"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "17 Howard, 477",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "1 Sprague, 369",
+        "category": "reporters:specialty",
+        "reporter": "Sprague",
+        "opinion_index": -1
+      },
+      {
+        "cite": "14 Law Rep 452",
+        "category": "reporters:state",
+        "reporter": "Law Rep.",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Story, 6",
+        "category": "reporters:federal",
+        "reporter": "Story",
+        "opinion_index": 0
+      },
+      {
+        "cite": "10 C. B. 223",
+        "category": "reporters:specialty",
+        "reporter": "C.B.",
+        "opinion_index": 0
+      },
+      {
+        "cite": "19 Howard, 22",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Sprague, 369",
+        "category": "reporters:specialty",
+        "reporter": "Sprague",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "510"
+          }
+        ],
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 1140,
+      "char_count": 32056,
+      "ocr_confidence": 0.432,
+      "pagerank": {
+        "raw": 8.598493683716618e-07,
+        "percentile": 0.9769100437901979
+      },
+      "sha256": "0bc13d25aad7afc02bdab9f555b62f4bfbdcae2140024070825f3984a07c8bdd",
+      "simhash": "1:5b03d969ab3c74df",
+      "word_count": 5666
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0204-01",
+    "first_page_order": 216,
+    "last_page_order": 230
+  },
+  {
+    "id": 3436190,
+    "name": "Braun v. Sauerwein",
+    "name_abbreviation": "Braun v. Sauerwein",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "218",
+    "last_page": "224",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 218"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 218"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 895"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-008"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1059"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "3 Grant, 412",
+        "category": "reporters:state",
+        "reporter": "Grant",
+        "case_ids": [
+          229139
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/grant/3/0412-01"
+        ]
+      },
+      {
+        "cite": "3 Cranch, 454",
+        "category": "reporters:scotus_early",
+        "reporter": "Cranch,",
+        "case_ids": [
+          1427677
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/7/0272-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 534,
+      "char_count": 13014,
+      "ocr_confidence": 0.452,
+      "pagerank": {
+        "raw": 1.1094339069248987e-06,
+        "percentile": 0.9857733018411499
+      },
+      "sha256": "040cb5f2ed5e1fe95dc5af7bfe089ca5bae4dd070dcf91add64e9f36ef38be09",
+      "simhash": "1:b8d6c38c5e304dfd",
+      "word_count": 2272
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0218-01",
+    "first_page_order": 230,
+    "last_page_order": 236
+  },
+  {
+    "id": 3436170,
+    "name": "Hornsby et al. v. United States",
+    "name_abbreviation": "Hornsby v. United States",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "224",
+    "last_page": "245",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 224"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 224"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 900"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-009"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1060"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "20 Howard, 59",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "24 Howard, 349",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Black, 228",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Howard, 561",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "18 Howard, 4",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "17 Howard, 561",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "17 Howard, 565",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "17 Howard, 559",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "17 Howard, 642",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "pin_cites": [
+          {
+            "page": "558"
+          }
+        ],
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 1296,
+      "char_count": 47323,
+      "ocr_confidence": 0.45,
+      "pagerank": {
+        "raw": 2.3569867199560506e-07,
+        "percentile": 0.7938345054093887
+      },
+      "sha256": "56357d12bb217d23f425402606d779d5190a553647a26293cbce20145cfbe9a2",
+      "simhash": "1:f06d47a76180b145",
+      "word_count": 8063
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0224-01",
+    "first_page_order": 236,
+    "last_page_order": 257
+  },
+  {
+    "id": 3435874,
+    "name": "The Columbia",
+    "name_abbreviation": "The Columbia",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "246",
+    "last_page": "251",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 246"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 246"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 890"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-001"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1061"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 485,
+      "char_count": 10157,
+      "ocr_confidence": 0.461,
+      "pagerank": {
+        "raw": 8.138363859351185e-08,
+        "percentile": 0.47251963338403125
+      },
+      "sha256": "afd6712b53269731851f5b62e0e4d3192f26f8b38d383bbe8baf9e2c3d6683c2",
+      "simhash": "1:923400716e1db386",
+      "word_count": 1790
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0246-01",
+    "first_page_order": 258,
+    "last_page_order": 263
+  },
+  {
+    "id": 3437272,
+    "name": "Deming's Appeal",
+    "name_abbreviation": "Deming's Appeal",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "251",
+    "last_page": "256",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 251"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 251"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 893"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1062"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-002"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 481,
+      "char_count": 9530,
+      "ocr_confidence": 0.474,
+      "sha256": "035293e2bf152eaa508e069c805401e8b889dc43618d33c10995de328b47cd5f",
+      "simhash": "1:816bc582cd76fd56",
+      "word_count": 1646
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0251-01",
+    "first_page_order": 263,
+    "last_page_order": 268
+  },
+  {
+    "id": 3437145,
+    "name": "New Orleans Railroad v. Morgan",
+    "name_abbreviation": "New Orleans Railroad v. Morgan",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "256",
+    "last_page": "263",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 256"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 256"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 892"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1063"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-003"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "20 Howard, 433",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "4 Howard, 131",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "6 Cranch, 221",
+        "category": "reporters:scotus_early",
+        "reporter": "Cranch,",
+        "case_ids": [
+          530411
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/10/0221-01"
+        ]
+      },
+      {
+        "cite": "2 Black, 483",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Howard, 287",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "2 Black, 484",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 617,
+      "char_count": 14641,
+      "ocr_confidence": 0.451,
+      "pagerank": {
+        "raw": 8.928223737703921e-08,
+        "percentile": 0.5007799682529753
+      },
+      "sha256": "bf602e8eb7147419b26eb31c6533d24c9cfa7e5d3de0ecd56ff60b5538c3303f",
+      "simhash": "1:94b3b6c71daa7fd8",
+      "word_count": 2579
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0256-01",
+    "first_page_order": 268,
+    "last_page_order": 275
+  },
+  {
+    "id": 3436698,
+    "name": "Deery v. Cray",
+    "name_abbreviation": "Deery v. Cray",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "263",
+    "last_page": "272",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 263"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 263"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 887"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1064"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-004"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "2 Black, 499",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          3465740
+        ],
+        "weight": 2,
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/67/0499-01"
+        ]
+      },
+      {
+        "cite": "8 Howard, 289",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "4 Rawle, 139",
+        "category": "reporters:state",
+        "reporter": "Rawle",
+        "opinion_index": 0
+      },
+      {
+        "cite": "3 Gray, 72",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "case_ids": [
+          2077149
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/69/0072-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 794,
+      "char_count": 18487,
+      "ocr_confidence": 0.473,
+      "pagerank": {
+        "raw": 2.415539968596656e-07,
+        "percentile": 0.8004229204096455
+      },
+      "sha256": "995223b49b8f7e872714228f3b865d02fba815c2c1ffeedb0579d3e18b27844b",
+      "simhash": "1:9266dd39944b26c5",
+      "word_count": 3318
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0263-01",
+    "first_page_order": 275,
+    "last_page_order": 284
+  },
+  {
+    "id": 3436424,
+    "name": "Slaughter-house Cases. The Butchers' Benevolent Association of New Orleans v. The Crescent City Live-stock Landing and Slaughter-house Company; Same Defendants v. Same Plaintiffs; Hotair Imbau et al. v. The Crescent City Live-stock Landing and Slaughter-houses Company; The Live-stock D\u00e9alers' and Butchers' Association of New Orleans v. The Crescent City Live-stock Landing and Slaughter-house Company; Paul Esteben et al. v. The State of Louisiana, ex relatione",
+    "name_abbreviation": "Butchers' Benevolent Ass'n v. Crescent City Live-Stock Landing & Slaughter-house Co.",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "273",
+    "last_page": "299",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 273"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 273"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 915"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-012"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1065"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "18 Howard, 86",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "12 Allen, 213",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "weight": 2,
+        "opinion_index": -1
+      },
+      {
+        "cite": "3 Paige, Ch. 381",
+        "category": "reporters:state",
+        "reporter": "Paige Ch.",
+        "case_ids": [
+          2048425
+        ],
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "410"
+          }
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/paige-ch/3/0381-01"
+        ]
+      },
+      {
+        "cite": "2 Howard, 74",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "2 Howard, 75",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 3,
+        "pin_cites": [
+          {
+            "page": "209"
+          },
+          {
+            "page": "216"
+          }
+        ],
+        "opinion_index": 0
+      },
+      {
+        "cite": "12 Howard, 389",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "7 Cranch, 279",
+        "category": "reporters:scotus_early",
+        "reporter": "Cranch,",
+        "case_ids": [
+          572747
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/11/0279-01"
+        ]
+      },
+      {
+        "cite": "11 Howard, 296",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "opinion_index": 0
+      },
+      {
+        "cite": "20 Howard, 437",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "2 Howard, 238",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "2 Howard, 74",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 1538,
+      "char_count": 56069,
+      "ocr_confidence": 0.458,
+      "pagerank": {
+        "raw": 2.007923754919632e-06,
+        "percentile": 0.9950126435942791
+      },
+      "sha256": "e7e7dd77364eb6f8c05d4f25fe058d095ea0d6137cf9cd6d818e26431fb8aff4",
+      "simhash": "1:f86f9028d83ee4ff",
+      "word_count": 9667
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0273-01",
+    "first_page_order": 285,
+    "last_page_order": 311
+  },
+  {
+    "id": 3435794,
+    "name": "Washington Railroad v. Bradleys",
+    "name_abbreviation": "Washington Railroad v. Bradleys",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "299",
+    "last_page": "303",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 299"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 299"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 894"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-010"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1066"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "15 Howard, 56",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Dana, 589",
+        "category": "reporters:state",
+        "reporter": "Dana",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 468,
+      "char_count": 8712,
+      "ocr_confidence": 0.471,
+      "pagerank": {
+        "raw": 1.0028796218462395e-06,
+        "percentile": 0.9828154073847548
+      },
+      "sha256": "1d04ad0ce89c70e0f6d4beb6d23341bdbb31ebb221ce8527dde9242623772342",
+      "simhash": "1:90cfa37e2c78a8e5",
+      "word_count": 1513
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0299-01",
+    "first_page_order": 311,
+    "last_page_order": 315
+  },
+  {
+    "id": 3436041,
+    "name": "Gunnell v. Bird",
+    "name_abbreviation": "Gunnell v. Bird",
+    "decision_date": "1869-12",
+    "docket_number": "",
+    "first_page": "304",
+    "last_page": "308",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 304"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 304"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 913"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-011"
+      },
+      {
+        "type": "vendor",
+        "cite": "1869 U.S. LEXIS 1067"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 474,
+      "char_count": 8767,
+      "ocr_confidence": 0.429,
+      "pagerank": {
+        "raw": 5.014580809216367e-07,
+        "percentile": 0.9363704215960081
+      },
+      "sha256": "eb70c8a285141453045e4226509dee62c410c6d1e8fee360b5b496500d710222",
+      "simhash": "1:d2e6e539f532a92b",
+      "word_count": 1494
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0304-01",
+    "first_page_order": 316,
+    "last_page_order": 320
+  },
+  {
+    "id": 3436983,
+    "name": "Cooper v. Reynolds",
+    "name_abbreviation": "Cooper v. Reynolds",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "308",
+    "last_page": "321",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 308"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 308"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 931"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1123"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-016"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "2 Head. 598",
+        "category": "reporters:state",
+        "reporter": "Head",
+        "case_ids": [
+          8542885
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/tenn/39/0598-01"
+        ]
+      },
+      {
+        "cite": "4 Sneed, 453",
+        "category": "reporters:state",
+        "reporter": "Sneed,",
+        "opinion_index": -1
+      },
+      {
+        "cite": "2 Sneed, 6371",
+        "category": "reporters:state",
+        "reporter": "Sneed,",
+        "opinion_index": -1
+      },
+      {
+        "cite": "2 Head, 253",
+        "category": "reporters:state",
+        "reporter": "Head",
+        "case_ids": [
+          8541687
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/tenn/39/0253-01"
+        ]
+      },
+      {
+        "cite": "2 Howard, 319",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 951,
+      "char_count": 26690,
+      "ocr_confidence": 0.461,
+      "pagerank": {
+        "raw": 7.1848468860725656e-06,
+        "percentile": 0.9993314282029571
+      },
+      "sha256": "aa04789a706fd95bc93ce304210352fa137ee9ca432653425fe4effedec81d9d",
+      "simhash": "1:8a87eca0c04ad6f5",
+      "word_count": 4658
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0308-01",
+    "first_page_order": 320,
+    "last_page_order": 333
+  },
+  {
+    "id": 3436210,
+    "name": "Smith v. Stevens",
+    "name_abbreviation": "Smith v. Stevens",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "321",
+    "last_page": "327",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 321"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 321"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 933"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-017"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1124"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "10 Howard, 442",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "457, 463"
+          }
+        ],
+        "opinion_index": -1
+      }
+    ],
+    "analysis": {
+      "cardinality": 611,
+      "char_count": 12276,
+      "ocr_confidence": 0.484,
+      "pagerank": {
+        "raw": 8.887445462184857e-07,
+        "percentile": 0.9783251842095814
+      },
+      "sha256": "f4d8ecc8ade15e009043d768bd9da6a0ae8a28d8cf1af1a300d6846a1dcbae99",
+      "simhash": "1:98a4c6d4c98d20cc",
+      "word_count": 2136
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0321-01",
+    "first_page_order": 333,
+    "last_page_order": 339
+  },
+  {
+    "id": 3437243,
+    "name": "Jones v. Andrews",
+    "name_abbreviation": "Jones v. Andrews",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "327",
+    "last_page": "334",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 327"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 327"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 935"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1125"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-018"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 610,
+      "char_count": 13676,
+      "ocr_confidence": 0.475,
+      "pagerank": {
+        "raw": 1.0416913898083044e-06,
+        "percentile": 0.983994047529412
+      },
+      "sha256": "2846aa66b5829d1e2ae9e489e0b3c756d0546dd7d0269a94c8e8917618605d8d",
+      "simhash": "1:83ebc6842a8e93f7",
+      "word_count": 2350
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0327-01",
+    "first_page_order": 339,
+    "last_page_order": 346
+  },
+  {
+    "id": 3436574,
+    "name": "The Farragut",
+    "name_abbreviation": "The Farragut",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "334",
+    "last_page": "339",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 334"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 334"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 946"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1126"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-021"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "7 Hill, 533",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": -1
+      },
+      {
+        "cite": "1 Black, 62",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          1410069
+        ],
+        "pin_cites": [
+          {
+            "page": "74"
+          }
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/us/66/0062-01"
+        ]
+      },
+      {
+        "cite": "24 Howard, 118",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "pin_cites": [
+          {
+            "page": "120"
+          }
+        ],
+        "opinion_index": -1
+      },
+      {
+        "cite": "18 Howard, 225",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      }
+    ],
+    "analysis": {
+      "cardinality": 649,
+      "char_count": 11229,
+      "ocr_confidence": 0.481,
+      "pagerank": {
+        "raw": 1.3125736439613984e-06,
+        "percentile": 0.989559622974158
+      },
+      "sha256": "29ade2facbefd9125ca1e564cbd86b57f5e53268fdd0c8f280949d4499575511",
+      "simhash": "1:9768343d8593f7c5",
+      "word_count": 1969
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0334-01",
+    "first_page_order": 346,
+    "last_page_order": 351
+  },
+  {
+    "id": 3437097,
+    "name": "Marble Company v. Ripley",
+    "name_abbreviation": "Marble Co. v. Ripley",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "339",
+    "last_page": "363",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 339"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 339"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 955"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1127"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-026"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "13 Ohio, 544",
+        "category": "reporters:state",
+        "reporter": "Ohio",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 1576,
+      "char_count": 52583,
+      "ocr_confidence": 0.461,
+      "pagerank": {
+        "raw": 5.4327858152052215e-06,
+        "percentile": 0.9989790910589768
+      },
+      "sha256": "4ebba0c248376e18d101af48776fb8663ca6d1451d59ba011e9b056d554cf7be",
+      "simhash": "1:8ff2a5fa0e1ede74",
+      "word_count": 9066
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0339-01",
+    "first_page_order": 351,
+    "last_page_order": 375
+  },
+  {
+    "id": 3437013,
+    "name": "Hanrick v. Neely",
+    "name_abbreviation": "Hanrick v. Neely",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "364",
+    "last_page": "366",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 364"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 364"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 947"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1128"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-022"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 335,
+      "char_count": 6257,
+      "ocr_confidence": 0.493,
+      "pagerank": {
+        "raw": 6.53001809447939e-08,
+        "percentile": 0.4007918994505085
+      },
+      "sha256": "9d2dacae8cc9f030053ea7e53c031907e7d4c0aa880532bc49f0aa576b5d2569",
+      "simhash": "1:c80d76376f458ae7",
+      "word_count": 1118
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0364-01",
+    "first_page_order": 376,
+    "last_page_order": 378
+  },
+  {
+    "id": 3436392,
+    "name": "Railroad Company v. Trimble",
+    "name_abbreviation": "Railroad Co. v. Trimble",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "367",
+    "last_page": "383",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 367"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 367"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 948"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-023"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1129"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "19 Howard, 220",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "4 Howard, 682",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "22 Howard, 41",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "19 Howard, 223",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "6 Hill, 48",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": 0
+      },
+      {
+        "cite": "10 Howard, 477",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "4 Howard, 682",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 1132,
+      "char_count": 35582,
+      "ocr_confidence": 0.457,
+      "pagerank": {
+        "raw": 1.8082138198779246e-06,
+        "percentile": 0.9940593061603206
+      },
+      "sha256": "205a6f578b54c92f800503a1bce1c4f37bb54844e8d830bc992d5fcf2100def1",
+      "simhash": "1:d40fd4a5ba1aa4c5",
+      "word_count": 6149
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0367-01",
+    "first_page_order": 379,
+    "last_page_order": 395
+  },
+  {
+    "id": 3436634,
+    "name": "Barnard v. Kellogg",
+    "name_abbreviation": "Barnard v. Kellogg",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "383",
+    "last_page": "395",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 383"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 383"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 987"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1130"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-040"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "3 Rawle, 101",
+        "category": "reporters:state",
+        "reporter": "Rawle",
+        "case_ids": [
+          1822488
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/rawle/3/0101-01"
+        ]
+      },
+      {
+        "cite": "11 Allen, 426",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "case_ids": [
+          313815
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/93/0426-01"
+        ]
+      },
+      {
+        "cite": "7 Allen, 29",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "case_ids": [
+          2123074
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/89/0029-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1035,
+      "char_count": 24290,
+      "ocr_confidence": 0.49,
+      "pagerank": {
+        "raw": 4.674058183459975e-06,
+        "percentile": 0.9987259874996574
+      },
+      "sha256": "e08619f546cd71db9f757b55b7ecffa8ea58037be62ea167a6a0ab62f543068c",
+      "simhash": "1:830e8fd8c8ea94ab",
+      "word_count": 4294
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0383-01",
+    "first_page_order": 395,
+    "last_page_order": 407
+  },
+  {
+    "id": 3436516,
+    "name": "United States v. Hodson",
+    "name_abbreviation": "United States v. Hodson",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "395",
+    "last_page": "409",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 395"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 395"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 937"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-019"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1131"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "2 Gray, 49",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "case_ids": [
+          1998171
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/mass/68/0049-01"
+        ]
+      },
+      {
+        "cite": "5 Allen, 415",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "opinion_index": -1
+      },
+      {
+        "cite": "10 Ohio, 51",
+        "category": "reporters:state",
+        "reporter": "Ohio",
+        "case_ids": [
+          588149
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/ohio/10/0051-01"
+        ]
+      },
+      {
+        "cite": "2 Hawks, 167",
+        "category": "reporters:state",
+        "reporter": "Hawks",
+        "case_ids": [
+          11276060
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/nc/9/0167-01"
+        ]
+      },
+      {
+        "cite": "1 Ohio, 170",
+        "category": "reporters:state",
+        "reporter": "Ohio",
+        "case_ids": [
+          1427773
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/ohio/1/0170-01"
+        ]
+      },
+      {
+        "cite": "1 Black, 55",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          1410094
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/66/0055-01"
+        ]
+      },
+      {
+        "cite": "10 Ohio, 51",
+        "category": "reporters:state",
+        "reporter": "Ohio",
+        "case_ids": [
+          588149
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/ohio/10/0051-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1048,
+      "char_count": 31119,
+      "ocr_confidence": 0.467,
+      "pagerank": {
+        "raw": 3.4168018693789604e-06,
+        "percentile": 0.9979101098172133
+      },
+      "sha256": "8701bbb930e98a1c8df6088fd19fc7957e538804c966de2c324f34758e2900c5",
+      "simhash": "1:92975c5bc4cc179d",
+      "word_count": 5483
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0395-01",
+    "first_page_order": 407,
+    "last_page_order": 421
+  },
+  {
+    "id": 3436954,
+    "name": "Ducat v. Chicago",
+    "name_abbreviation": "Ducat v. Chicago",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "410",
+    "last_page": "415",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 410"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 410"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 972"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1132"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-031"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 532,
+      "char_count": 12211,
+      "ocr_confidence": 0.474,
+      "pagerank": {
+        "raw": 1.2018011878406277e-06,
+        "percentile": 0.9877265045182171
+      },
+      "sha256": "12e6442d1964f4ad1b44d46c9292cfd7e1d1de0a16cdd3ff071d615942944a71",
+      "simhash": "1:1429ecd08cafc7a0",
+      "word_count": 2103
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0410-01",
+    "first_page_order": 422,
+    "last_page_order": 427
+  },
+  {
+    "id": 3437360,
+    "name": "Masterson v. Herndon",
+    "name_abbreviation": "Masterson v. Herndon",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "416",
+    "last_page": "418",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 416"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 416"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 953"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1133"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-024"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 376,
+      "char_count": 6179,
+      "ocr_confidence": 0.456,
+      "pagerank": {
+        "raw": 2.0422028220271406e-06,
+        "percentile": 0.9951597564182313
+      },
+      "sha256": "c93ad4759195a7796c6a99f08f1ffd3da1d97b25384d7b5b718e0a70557f05c5",
+      "simhash": "1:bc7794d8acee6cc7",
+      "word_count": 1118
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0416-01",
+    "first_page_order": 428,
+    "last_page_order": 430
+  },
+  {
+    "id": 3437072,
+    "name": "The Mabey",
+    "name_abbreviation": "The Mabey",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "419",
+    "last_page": "420",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 419"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 419"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 963"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1134"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-027"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "7 Cranch, 496",
+        "category": "reporters:scotus_early",
+        "reporter": "Cranch,",
+        "case_ids": [
+          572732
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/11/0496-01"
+        ]
+      },
+      {
+        "cite": "3 Story, 108",
+        "category": "reporters:federal",
+        "reporter": "Story",
+        "case_ids": [
+          6132910
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/f-cas/5/1188-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 286,
+      "char_count": 4241,
+      "ocr_confidence": 0.467,
+      "pagerank": {
+        "raw": 3.730149013981905e-07,
+        "percentile": 0.8942565763486597
+      },
+      "sha256": "6cb2ad72d1f57c7a785ed2b977e4e0aeed682968a1c334b64e6a7a00224299af",
+      "simhash": "1:1b82eba48ff2f440",
+      "word_count": 744
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0419-01",
+    "first_page_order": 431,
+    "last_page_order": 432
+  },
+  {
+    "id": 3437384,
+    "name": "Campbell v. Wilcox",
+    "name_abbreviation": "Campbell v. Wilcox",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "421",
+    "last_page": "423",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 421"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 421"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 973"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1135"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-032"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 347,
+      "char_count": 5498,
+      "ocr_confidence": 0.476,
+      "pagerank": {
+        "raw": 5.929768693612634e-07,
+        "percentile": 0.953230477915894
+      },
+      "sha256": "911edcfe2d6a8ff6ce9d117e222a6b6d1163455e40b57332ab20dba32615c615",
+      "simhash": "1:dec7a405c01f97fc",
+      "word_count": 948
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0421-01",
+    "first_page_order": 433,
+    "last_page_order": 435
+  },
+  {
+    "id": 3436755,
+    "name": "United States v. Vigil",
+    "name_abbreviation": "United States v. Vigil",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "423",
+    "last_page": "427",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 423"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 423"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 954"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1136"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-025"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "21 Howard, 612",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 395,
+      "char_count": 8229,
+      "ocr_confidence": 0.5,
+      "pagerank": {
+        "raw": 3.220925043536441e-07,
+        "percentile": 0.8671069239944105
+      },
+      "sha256": "0fafa6d01b87f98e0293268452a18c7e8d274443478e5c8532bb87378c9a3e79",
+      "simhash": "1:5a8bec8132161658",
+      "word_count": 1483
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0423-01",
+    "first_page_order": 435,
+    "last_page_order": 439
+  },
+  {
+    "id": 3436934,
+    "name": "Tappan v. Beardsley",
+    "name_abbreviation": "Tappan v. Beardsley",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "427",
+    "last_page": "436",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 427"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 427"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 974"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1137"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-033"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "6 Cranch, 206",
+        "category": "reporters:scotus_early",
+        "reporter": "Cranch,",
+        "case_ids": [
+          530408
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/10/0206-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 688,
+      "char_count": 17790,
+      "ocr_confidence": 0.461,
+      "pagerank": {
+        "raw": 6.065424775496963e-07,
+        "percentile": 0.9551475781020438
+      },
+      "sha256": "66b4ada8e5aec23855ef80c650a34a6d1216f3e930f215ef31ea373936baec78",
+      "simhash": "1:046686f29f1691de",
+      "word_count": 3151
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0427-01",
+    "first_page_order": 439,
+    "last_page_order": 448
+  },
+  {
+    "id": 3435900,
+    "name": "Kimball v. The Collector",
+    "name_abbreviation": "Kimball v. The Collector",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "436",
+    "last_page": "454",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 436"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 436"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 964"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-028"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1138"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "20 Howard, 571",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "4 Howard, 327",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "24 Howard, 521",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 1107,
+      "char_count": 36785,
+      "ocr_confidence": 0.48,
+      "pagerank": {
+        "raw": 3.2687711720954335e-07,
+        "percentile": 0.8699619166986183
+      },
+      "sha256": "e468abbf93310d38c36356a5459c7cd797500eb0f07c28ac2e26955442c296bc",
+      "simhash": "1:bfa50c0e2a22683d",
+      "word_count": 6474
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0436-01",
+    "first_page_order": 448,
+    "last_page_order": 466
+  },
+  {
+    "id": 3436892,
+    "name": "The Clinton Bridge",
+    "name_abbreviation": "The Clinton Bridge",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "454",
+    "last_page": "463",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 454"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 454"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 969"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1139"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-029"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "7 Hill, 80",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": -1
+      },
+      {
+        "cite": "13 Howard, 569",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "pin_cites": [
+          {
+            "page": "573"
+          }
+        ],
+        "opinion_index": -1
+      },
+      {
+        "cite": "18 Howard, 429",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 846,
+      "char_count": 19205,
+      "ocr_confidence": 0.516,
+      "pagerank": {
+        "raw": 6.008140698227639e-07,
+        "percentile": 0.9543685751563122
+      },
+      "sha256": "9b923476c6f1ddf3ea2d2b66848e4303c675698ff8c2868c679ecb6570c74e65",
+      "simhash": "1:c2a5d4e41c0836ff",
+      "word_count": 3401
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0454-01",
+    "first_page_order": 466,
+    "last_page_order": 475
+  },
+  {
+    "id": 3437327,
+    "name": "Corbett v. Nutt",
+    "name_abbreviation": "Corbett v. Nutt",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "464",
+    "last_page": "481",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 464"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 464"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 976"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1140"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-039"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "7 Cranch, 603",
+        "category": "reporters:scotus_early",
+        "reporter": "Cranch,",
+        "case_ids": [
+          572735
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/us/11/0603-01"
+        ]
+      },
+      {
+        "cite": "9 Watts, 100",
+        "category": "reporters:state",
+        "reporter": "Watts",
+        "opinion_index": -1
+      },
+      {
+        "cite": "6 Cranch, 286",
+        "category": "reporters:scotus_early",
+        "reporter": "Cranch,",
+        "case_ids": [
+          530418
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/us/10/0286-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1095,
+      "char_count": 38444,
+      "ocr_confidence": 0.463,
+      "pagerank": {
+        "raw": 9.484324895403884e-07,
+        "percentile": 0.9808921292322448
+      },
+      "sha256": "8b3bdf50051e3de6c5f74cb589f8f9295fb33ce89ccd2a7f86580fd7d415693f",
+      "simhash": "1:b2862e046e8eefeb",
+      "word_count": 6575
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0464-01",
+    "first_page_order": 476,
+    "last_page_order": 493
+  },
+  {
+    "id": 3436447,
+    "name": "Hannauer v. Woodruff",
+    "name_abbreviation": "Hannauer v. Woodruff",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "482",
+    "last_page": "483",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 482"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 482"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 991"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-041"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1141"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "1 Black, 582",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          1410081
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/66/0582-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 170,
+      "char_count": 2211,
+      "ocr_confidence": 0.475,
+      "pagerank": {
+        "raw": 5.298132930532853e-08,
+        "percentile": 0.3331116987901611
+      },
+      "sha256": "19e46fef7b4612696f6484633cb9aa71a526fbac2727566ef61ca851baabd1e3",
+      "simhash": "1:2ef9d95dca858ef3",
+      "word_count": 389
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0482-01",
+    "first_page_order": 494,
+    "last_page_order": 495
+  },
+  {
+    "id": 3435720,
+    "name": "In re Paschal",
+    "name_abbreviation": "In re Paschal",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "483",
+    "last_page": "497",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 483"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 483"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 992"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-042"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1142"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "6 Allen, 152",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "case_ids": [
+          2124581
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/mass/88/0152-01"
+        ]
+      },
+      {
+        "cite": "15 Howard, 415",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "opinion_index": -1
+      },
+      {
+        "cite": "4 Watts, 334",
+        "category": "reporters:state",
+        "reporter": "Watts",
+        "case_ids": [
+          1842747
+        ],
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "451"
+          }
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/watts/4/0334-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1237,
+      "char_count": 30263,
+      "ocr_confidence": 0.462,
+      "pagerank": {
+        "raw": 3.5408890688273725e-06,
+        "percentile": 0.9980278773009547
+      },
+      "sha256": "8adec5eaa4a2ed47ef8765f6a86881c3f7d5cbc7f5d82dbb6be0beb03d37f158",
+      "simhash": "1:303fa9e08b818cd9",
+      "word_count": 5364
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0483-01",
+    "first_page_order": 495,
+    "last_page_order": 509
+  },
+  {
+    "id": 3437121,
+    "name": "Yates v. Milwaukee",
+    "name_abbreviation": "Yates v. Milwaukee",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "497",
+    "last_page": "507",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 497"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 497"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 984"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1143"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-038"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "1 Black, 25",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 815,
+      "char_count": 18891,
+      "ocr_confidence": 0.446,
+      "pagerank": {
+        "raw": 5.075407465405757e-06,
+        "percentile": 0.9988702044018782
+      },
+      "sha256": "9aa3ff9dcb7fa45523cd680b146715d00b6deca9823c6910b246ce0aa5d84f78",
+      "simhash": "1:bf86abfb1ba2a4e3",
+      "word_count": 3386
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0497-01",
+    "first_page_order": 509,
+    "last_page_order": 519
+  },
+  {
+    "id": 3437052,
+    "name": "Messenger v. Mason",
+    "name_abbreviation": "Messenger v. Mason",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "507",
+    "last_page": "511",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 507"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 507"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1028"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1144"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-048"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "5 Howard, 375",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "5 Howard, 317",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "413"
+          }
+        ],
+        "opinion_index": 0
+      },
+      {
+        "cite": "1 Black, 518",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          1410082
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/66/0518-01"
+        ]
+      },
+      {
+        "cite": "14 Howard, 149",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "18 Howard, 511",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 356,
+      "char_count": 7390,
+      "ocr_confidence": 0.451,
+      "pagerank": {
+        "raw": 8.296018517691577e-08,
+        "percentile": 0.47951907620869016
+      },
+      "sha256": "a143564bef5b911bc3efdaab246fcbb621c5cc6542c74103ffcc5d937d23a9c8",
+      "simhash": "1:602e8d876aafcf89",
+      "word_count": 1286
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0507-01",
+    "first_page_order": 519,
+    "last_page_order": 523
+  },
+  {
+    "id": 3437427,
+    "name": "Railroad Company v. McClure",
+    "name_abbreviation": "Railroad Co. v. McClure",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "511",
+    "last_page": "515",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 511"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 511"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 997"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1145"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-043"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 461,
+      "char_count": 9403,
+      "ocr_confidence": 0.478,
+      "pagerank": {
+        "raw": 6.178602139804692e-07,
+        "percentile": 0.9566725704857696
+      },
+      "sha256": "f0fbda7dc7888ffa1eec780c4fccb0422eca265323e8acabd18739199c6184a3",
+      "simhash": "1:a86f97025e9f96bf",
+      "word_count": 1600
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0511-01",
+    "first_page_order": 523,
+    "last_page_order": 527
+  },
+  {
+    "id": 3435600,
+    "name": "Coddington v. Richardson",
+    "name_abbreviation": "Coddington v. Richardson",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "516",
+    "last_page": "518",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 516"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 516"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 981"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-034"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1146"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 323,
+      "char_count": 5588,
+      "ocr_confidence": 0.484,
+      "pagerank": {
+        "raw": 1.8364872204719138e-07,
+        "percentile": 0.7214708270636628
+      },
+      "sha256": "d190d1dd47790c9c24ca25e7b85375f87ae431ed48bc4ecf35e7a9fd78c59255",
+      "simhash": "1:5caaac253a8e7611",
+      "word_count": 990
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0516-01",
+    "first_page_order": 528,
+    "last_page_order": 530
+  },
+  {
+    "id": 3437218,
+    "name": "Brobst v. Brock",
+    "name_abbreviation": "Brobst v. Brock",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "519",
+    "last_page": "537",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 519"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 519"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1002"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1147"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-049"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "16 Howard, 571",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "4 Watts, 277",
+        "category": "reporters:state",
+        "reporter": "Watts",
+        "opinion_index": -1
+      },
+      {
+        "cite": "6 Watts, 297",
+        "category": "reporters:state",
+        "reporter": "Watts",
+        "case_ids": [
+          1846047
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/watts/6/0297-01"
+        ]
+      },
+      {
+        "cite": "2 Bibb, 387",
+        "category": "reporters:state",
+        "reporter": "Bibb",
+        "case_ids": [
+          6412079
+        ],
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "419"
+          }
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/ky/5/0387-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 1413,
+      "char_count": 39572,
+      "ocr_confidence": 0.458,
+      "pagerank": {
+        "raw": 1.5310380643813288e-06,
+        "percentile": 0.9920566797523717
+      },
+      "sha256": "af815fad65abd5308dfb8bb4b0ad26ac4a56eedfb62f929fcc7c65532f2eaf54",
+      "simhash": "1:ae45816b5311d4d5",
+      "word_count": 6853
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0519-01",
+    "first_page_order": 531,
+    "last_page_order": 549
+  },
+  {
+    "id": 3435634,
+    "name": "Bethell v. Demaret",
+    "name_abbreviation": "Bethell v. Demaret",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "537",
+    "last_page": "540",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 537"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 537"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1007"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-050"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1148"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 322,
+      "char_count": 6366,
+      "ocr_confidence": 0.455,
+      "pagerank": {
+        "raw": 9.623027387794495e-07,
+        "percentile": 0.9814205384174908
+      },
+      "sha256": "fb54398ebdfca0f461d3e706508aba5d9fa287d2dbdf5afbeb60dd3cd09f86a3",
+      "simhash": "1:da24f940dabdb29f",
+      "word_count": 1106
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0537-01",
+    "first_page_order": 549,
+    "last_page_order": 552
+  },
+  {
+    "id": 3436783,
+    "name": "Ex parte Graham",
+    "name_abbreviation": "Ex parte Graham",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "541",
+    "last_page": "543",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 541"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 541"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 981"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1149"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-035"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "3 Howard, 292",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 314,
+      "char_count": 5134,
+      "ocr_confidence": 0.499,
+      "pagerank": {
+        "raw": 2.463394691595769e-07,
+        "percentile": 0.8057531539483576
+      },
+      "sha256": "5810ce8bd80f8d150788401e1561809b184886a9da8b9ffd1a548ca7fa1118f1",
+      "simhash": "1:9fdf1e73e9064b77",
+      "word_count": 886
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0541-01",
+    "first_page_order": 553,
+    "last_page_order": 555
+  },
+  {
+    "id": 3435832,
+    "name": "Baltimore v. Baltimore Railroad",
+    "name_abbreviation": "Baltimore v. Baltimore Railroad",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "543",
+    "last_page": "553",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 543"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 543"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1043"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-064"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1150"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 833,
+      "char_count": 21053,
+      "ocr_confidence": 0.46,
+      "pagerank": {
+        "raw": 2.286691406429403e-07,
+        "percentile": 0.7857697495104927
+      },
+      "sha256": "be1e7e9e6564637c28bd30366f86d62dad254ad55e4ba649747860152e5ec454",
+      "simhash": "1:8f0fe92f443abd67",
+      "word_count": 3738
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0543-01",
+    "first_page_order": 555,
+    "last_page_order": 565
+  },
+  {
+    "id": 3436610,
+    "name": "Pennsylvania v. Quicksilver Company",
+    "name_abbreviation": "Pennsylvania v. Quicksilver Co.",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "553",
+    "last_page": "556",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 553"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 553"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 998"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1151"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-044"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "5 McLean, 455",
+        "category": "reporters:federal",
+        "reporter": "McLean",
+        "case_ids": [
+          6588718
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/f-cas/18/0141-01"
+        ]
+      },
+      {
+        "cite": "16 Howard, 314",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 324,
+      "char_count": 6715,
+      "ocr_confidence": 0.475,
+      "pagerank": {
+        "raw": 1.6384584241296004e-07,
+        "percentile": 0.6906726994508174
+      },
+      "sha256": "21f696597b6984c55439caa34480873994a31912bb72a118e4f5756924fb1432",
+      "simhash": "1:dca62eae6d0dd2fc",
+      "word_count": 1119
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0553-01",
+    "first_page_order": 565,
+    "last_page_order": 568
+  },
+  {
+    "id": 3436246,
+    "name": "The Daniel Ball",
+    "name_abbreviation": "The Daniel Ball",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "557",
+    "last_page": "566",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 557"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 557"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 999"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-045"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1152"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "14 Howard, 569",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "12 Howard, 457",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      }
+    ],
+    "analysis": {
+      "cardinality": 690,
+      "char_count": 20269,
+      "ocr_confidence": 0.454,
+      "pagerank": {
+        "raw": 6.264923805414639e-06,
+        "percentile": 0.9991702218932456
+      },
+      "sha256": "ddb5e848b00c980dac134fd104a094d166e3a732b5e4e2240e965d478b5678c0",
+      "simhash": "1:b3b95a806d888973",
+      "word_count": 3467
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0557-01",
+    "first_page_order": 569,
+    "last_page_order": 578
+  },
+  {
+    "id": 3436006,
+    "name": "Liverpool Insurance Company v. Massachusetts",
+    "name_abbreviation": "Liverpool Insurance v. Massachusetts",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "566",
+    "last_page": "577",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 566"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 566"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1029"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-053"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1153"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 872,
+      "char_count": 22467,
+      "ocr_confidence": 0.433,
+      "pagerank": {
+        "raw": 1.5199200604638661e-06,
+        "percentile": 0.991953391877287
+      },
+      "sha256": "64a3e62af7bf0c029bc421afc502ef2363d2ee4d03053117c86b49843b67412e",
+      "simhash": "1:887d3fb4939890a9",
+      "word_count": 3801
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0566-01",
+    "first_page_order": 578,
+    "last_page_order": 589
+  },
+  {
+    "id": 3435656,
+    "name": "The Cotton Plant",
+    "name_abbreviation": "The Cotton Plant",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "577",
+    "last_page": "582",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 577"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 577"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 983"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-036"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1154"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 562,
+      "char_count": 10875,
+      "ocr_confidence": 0.438,
+      "pagerank": {
+        "raw": 2.5066820860472654e-07,
+        "percentile": 0.8100754136631132
+      },
+      "sha256": "1f146d0c59ad0e568aa8debb4f08a836704af4658db6a5327a433034246aa3a9",
+      "simhash": "1:f1ae406ddb0e6703",
+      "word_count": 1917
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0577-01",
+    "first_page_order": 589,
+    "last_page_order": 594
+  },
+  {
+    "id": 3435934,
+    "name": "Miller v. McKenzie",
+    "name_abbreviation": "Miller v. McKenzie",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "582",
+    "last_page": "583",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 582"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 582"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1043"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-061"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1155"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 107,
+      "char_count": 1236,
+      "ocr_confidence": 0.451,
+      "pagerank": {
+        "raw": 1.2256961385042443e-07,
+        "percentile": 0.6044970189381698
+      },
+      "sha256": "6eb29487237161bd2fee365131e26199f4075b26dd0c56af10e2a240a2dc39ff",
+      "simhash": "1:58464f8190933e85",
+      "word_count": 210
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0582-01",
+    "first_page_order": 594,
+    "last_page_order": 595
+  },
+  {
+    "id": 3436077,
+    "name": "Stovall v. Banks",
+    "name_abbreviation": "Stovall v. Banks",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "583",
+    "last_page": "589",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 583"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 583"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1036"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-057"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1156"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 548,
+      "char_count": 11992,
+      "ocr_confidence": 0.425,
+      "pagerank": {
+        "raw": 1.4699020190008357e-06,
+        "percentile": 0.9914552933394959
+      },
+      "sha256": "4ef577fc260e56feda3e66905d25fe86c12d777b03efab1f040b2267958a2d3a",
+      "simhash": "1:0f9477618a9bf25a",
+      "word_count": 2091
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0583-01",
+    "first_page_order": 595,
+    "last_page_order": 601
+  },
+  {
+    "id": 3437300,
+    "name": "Stagg v. Insurance Company",
+    "name_abbreviation": "Stagg v. Insurance Co.",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "589",
+    "last_page": "593",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 589"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 589"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1038"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1157"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-058"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 464,
+      "char_count": 8453,
+      "ocr_confidence": 0.423,
+      "pagerank": {
+        "raw": 7.837989744831495e-07,
+        "percentile": 0.9725026439765407
+      },
+      "sha256": "7d82ffdd58c82f5853d49b06f787722c5e7c971e1f2fd951031c39c1e64faf77",
+      "simhash": "1:7992d3fa8a149397",
+      "word_count": 1515
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0589-01",
+    "first_page_order": 601,
+    "last_page_order": 605
+  },
+  {
+    "id": 3437489,
+    "name": "Ward v. United States",
+    "name_abbreviation": "Ward v. United States",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "593",
+    "last_page": "604",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 593"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 593"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1033"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1158"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-054"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 937,
+      "char_count": 22738,
+      "ocr_confidence": 0.445,
+      "pagerank": {
+        "raw": 4.1178591890016785e-08,
+        "percentile": 0.2668037789075734
+      },
+      "sha256": "e960adf7a4493d1fb11ed70f0bd835e82c0707113bc275ee7b82689bf4a5d724",
+      "simhash": "1:be127000a7eac1d9",
+      "word_count": 3850
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0593-01",
+    "first_page_order": 605,
+    "last_page_order": 616
+  },
+  {
+    "id": 3435974,
+    "name": "Merchants' Bank v. State Bank",
+    "name_abbreviation": "Merchants' Bank v. State Bank",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "604",
+    "last_page": "676",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 604"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 604"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1008"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-051"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1159"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [
+      {
+        "cite": "4 McLean, 208",
+        "category": "reporters:federal",
+        "reporter": "McLean",
+        "case_ids": [
+          6682785,
+          6646191
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/f-cas/10/1192-02",
+          "/f-cas/14/0939-02"
+        ]
+      },
+      {
+        "cite": "1 Gray, 605",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "case_ids": [
+          1973960
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/mass/67/0605-01"
+        ]
+      },
+      {
+        "cite": "10 Gray, 532",
+        "category": "reporters:state",
+        "reporter": "Gray",
+        "case_ids": [
+          2082473
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/mass/76/0532-01"
+        ]
+      },
+      {
+        "cite": "18 Howard, 182",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "23 Howard, 398",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "443"
+          }
+        ],
+        "opinion_index": -1
+      },
+      {
+        "cite": "8 Allen, 109",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "case_ids": [
+          2120518
+        ],
+        "weight": 2,
+        "opinion_index": -1,
+        "case_paths": [
+          "/mass/90/0109-01"
+        ]
+      },
+      {
+        "cite": "21 Howard, 356",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "opinion_index": -1
+      },
+      {
+        "cite": "21 Howard, 856",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "2 Duer, 121",
+        "category": "reporters:state",
+        "reporter": "Duer",
+        "case_ids": [
+          1328091
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/ny-super-ct/9/0121-01"
+        ]
+      },
+      {
+        "cite": "4 Duer, 219",
+        "category": "reporters:state",
+        "reporter": "Duer",
+        "case_ids": [
+          6762164
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/ny-super-ct/11/0219-01"
+        ]
+      },
+      {
+        "cite": "9 Met. 306",
+        "category": "reporters:state",
+        "reporter": "Met.",
+        "case_ids": [
+          1966102
+        ],
+        "opinion_index": -1,
+        "case_paths": [
+          "/mass/50/0306-01"
+        ]
+      },
+      {
+        "cite": "1 Hill, 502",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": -1
+      },
+      {
+        "cite": "19 Howard, 318",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": -1
+      },
+      {
+        "cite": "8 C. B., 608",
+        "category": "reporters:specialty",
+        "reporter": "C.B.",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "page": "p. 607"
+          }
+        ],
+        "opinion_index": -1
+      },
+      {
+        "cite": "6 C. B. 766",
+        "category": "reporters:specialty",
+        "reporter": "C.B.",
+        "opinion_index": 0
+      },
+      {
+        "cite": "10 C. B. 665",
+        "category": "reporters:specialty",
+        "reporter": "C.B.",
+        "weight": 2,
+        "pin_cites": [
+          {
+            "parenthetical": "N. S."
+          }
+        ],
+        "opinion_index": 0
+      },
+      {
+        "cite": "18 Howard, 187",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "10 C. B. 686",
+        "category": "reporters:specialty",
+        "reporter": "C.B.",
+        "opinion_index": 0
+      },
+      {
+        "cite": "3 Hill, 266",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": 0
+      },
+      {
+        "cite": "21 Howard, 364",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "opinion_index": 0
+      },
+      {
+        "cite": "23 Howard, 187",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "20 Howard, 365",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "20 Howard, 367",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "10 C. B. 222",
+        "category": "reporters:specialty",
+        "reporter": "C.B.",
+        "opinion_index": 0
+      },
+      {
+        "cite": "7 Allen, 37",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "opinion_index": 0
+      },
+      {
+        "cite": "23 Howard, 431",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "23 Howard, 63",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "23 Howard, 433",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "weight": 2,
+        "opinion_index": 0
+      },
+      {
+        "cite": "11 Howard, 362",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "3 Hill, 262",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "case_ids": [
+          2511916
+        ],
+        "pin_cites": [
+          {
+            "page": "268"
+          }
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/scl/21/0262-01"
+        ]
+      },
+      {
+        "cite": "1 Hill, 501",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": 0
+      },
+      {
+        "cite": "7 Hill, 91",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": 0
+      },
+      {
+        "cite": "2 Hill, 465",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": 0
+      },
+      {
+        "cite": "3 Hill, 216",
+        "category": "reporters:state",
+        "reporter": "Hill,",
+        "opinion_index": 0
+      },
+      {
+        "cite": "21 Howard, 209",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "2 Black, 722",
+        "category": "reporters:scotus_early",
+        "reporter": "Black",
+        "case_ids": [
+          3465639
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/us/67/0722-01"
+        ]
+      },
+      {
+        "cite": "21 Howard, 539",
+        "category": "reporters:state",
+        "reporter": "Howard",
+        "opinion_index": 0
+      },
+      {
+        "cite": "4 Watts, 415",
+        "category": "reporters:state",
+        "reporter": "Watts",
+        "opinion_index": 0
+      },
+      {
+        "cite": "4 McLean, 208",
+        "category": "reporters:federal",
+        "reporter": "McLean",
+        "case_ids": [
+          6682785,
+          6646191
+        ],
+        "pin_cites": [
+          {
+            "page": "268"
+          }
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/f-cas/10/1192-02",
+          "/f-cas/14/0939-02"
+        ]
+      },
+      {
+        "cite": "8 Allen, 109",
+        "category": "reporters:state",
+        "reporter": "Allen",
+        "case_ids": [
+          2120518
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/mass/90/0109-01"
+        ]
+      },
+      {
+        "cite": "4 Duer, 219",
+        "category": "reporters:state",
+        "reporter": "Duer",
+        "case_ids": [
+          6762164
+        ],
+        "opinion_index": 0,
+        "case_paths": [
+          "/ny-super-ct/11/0219-01"
+        ]
+      }
+    ],
+    "analysis": {
+      "cardinality": 3129,
+      "char_count": 153465,
+      "ocr_confidence": 0.468,
+      "pagerank": {
+        "raw": 6.11977992216504e-06,
+        "percentile": 0.9991422279831759
+      },
+      "sha256": "0127a5cfc1806507b25854c13cb903ce92663f2fe4d4fcfe3579b670f5bfe693",
+      "simhash": "1:3d17cf83ba04f75f",
+      "word_count": 27085
+    },
+    "last_updated": "2024-02-27T20:39:48.557998+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0604-01",
+    "first_page_order": 616,
+    "last_page_order": 688
+  },
+  {
+    "id": 3436848,
+    "name": "Marsh v. Fulton County",
+    "name_abbreviation": "Marsh v. Fulton County",
+    "decision_date": "1870-12",
+    "docket_number": "",
+    "first_page": "676",
+    "last_page": "684",
+    "citations": [
+      {
+        "type": "nominative",
+        "cite": "10 Wall. 676"
+      },
+      {
+        "type": "official",
+        "cite": "77 U.S. 676"
+      },
+      {
+        "type": "parallel",
+        "cite": "19 L. Ed. 1040"
+      },
+      {
+        "type": "vendor",
+        "cite": "1870 U.S. LEXIS 1160"
+      },
+      {
+        "type": "vendor",
+        "cite": "SCDB 1870-059"
+      }
+    ],
+    "court": {
+      "name_abbreviation": "U.S.",
+      "id": 9009,
+      "name": "Supreme Court of the United States"
+    },
+    "jurisdiction": {
+      "id": 39,
+      "name_long": "United States",
+      "name": "U.S."
+    },
+    "cites_to": [],
+    "analysis": {
+      "cardinality": 671,
+      "char_count": 16157,
+      "ocr_confidence": 0.448,
+      "pagerank": {
+        "raw": 3.4327670102515823e-06,
+        "percentile": 0.9979276784090501
+      },
+      "sha256": "ab938f41f1a70faecfb5c567c578db93bf5af8fa3f8b661e0988009ac535ac02",
+      "simhash": "1:2a04bc61ca66863b",
+      "word_count": 2748
+    },
+    "last_updated": "2023-07-14T16:56:31.092268+00:00",
+    "provenance": {
+      "date_added": "2019-08-29",
+      "source": "Harvard",
+      "batch": "2018"
+    },
+    "file_name": "0676-01",
+    "first_page_order": 688,
+    "last_page_order": 696
+  }
+]

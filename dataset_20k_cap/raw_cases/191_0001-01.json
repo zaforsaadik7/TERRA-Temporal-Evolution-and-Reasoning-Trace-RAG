@@ -1,0 +1,714 @@
+{
+  "id": 3621101,
+  "name": "THE SOUTHWARK",
+  "name_abbreviation": "The Southwark",
+  "decision_date": "1903-10-19",
+  "docket_number": "No. 12",
+  "first_page": "1",
+  "last_page": "17",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "191 U.S. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "48 L. Ed. 65"
+    },
+    {
+      "type": "parallel",
+      "cite": "24 S. Ct. 1"
+    },
+    {
+      "type": "vendor",
+      "cite": "1903 U.S. LEXIS 1506"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1903-050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "49 N. Y. 249",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2057524
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/49/0249-01"
+      ]
+    },
+    {
+      "cite": "55 Pa. St. 53",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1470740
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/55/0053-01"
+      ]
+    },
+    {
+      "cite": "25 Ind. App. 314",
+      "category": "reporters:state",
+      "reporter": "Ind. App.",
+      "case_ids": [
+        4862478
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ind-app/25/0314-01"
+      ]
+    },
+    {
+      "cite": "54 L. R. A. 774",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 How. 344",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3348527
+      ],
+      "pin_cites": [
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/47/0344-01"
+      ]
+    },
+    {
+      "cite": "3 Wall. 107",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3476296
+      ],
+      "pin_cites": [
+        {
+          "page": "112"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/70/0107-01"
+      ]
+    },
+    {
+      "cite": "51 N. Y. 61",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2061448
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/51/0061-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 187",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600985
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0187-01"
+      ]
+    },
+    {
+      "cite": "157 U. S. 60",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3583821
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/157/0060-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 410",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140330
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0410-01"
+      ]
+    },
+    {
+      "cite": "11 Wall. 129",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3412605
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/78/0129-01"
+      ]
+    },
+    {
+      "cite": "12 How. 272",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3365177
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/53/0272-01"
+      ]
+    },
+    {
+      "cite": "170 U. S.. 660",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "17 N. Y. 561",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2019290
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/17/0561-01"
+      ]
+    },
+    {
+      "cite": "128 U. S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3534310
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/128/0474-01"
+      ]
+    },
+    {
+      "cite": "135 U. S. 599",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3543238
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/135/0599-01"
+      ]
+    },
+    {
+      "cite": "140 U. S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3555033
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/140/0360-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 513",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140675,
+        1250789
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/143/0513-01",
+        "/alaska-fed/1/0276-01"
+      ]
+    },
+    {
+      "cite": "147 U. S. 72",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3565807
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/147/0072-01"
+      ]
+    },
+    {
+      "cite": "104 U. S. 543",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Black, 417",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 How. 495",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3463634
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/64/0495-01"
+      ]
+    },
+    {
+      "cite": "32 N. Y. 427",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        16286
+      ],
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/32/0427-01"
+      ]
+    },
+    {
+      "cite": "2 Wash. C. C. 375",
+      "category": "reporters:federal",
+      "reporter": "Wash. C. C.",
+      "case_ids": [
+        6128378
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/6/0604-01"
+      ]
+    },
+    {
+      "cite": "2 Woods, 490",
+      "category": "reporters:federal",
+      "reporter": "Woods",
+      "case_ids": [
+        6571235
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f-cas/19/0807-01"
+      ]
+    },
+    {
+      "cite": "97 U. S. 379",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3375730
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/97/0379-01"
+      ]
+    },
+    {
+      "cite": "42 Fed. Rep. 861",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6737753
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/42/0861-01"
+      ]
+    },
+    {
+      "cite": "14 Fed. Rep. 143",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6725463
+      ],
+      "pin_cites": [
+        {
+          "page": "147"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/14/0143-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 679",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "74 Fed. Rep. 413",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6724582
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/74/0413-01"
+      ]
+    },
+    {
+      "cite": "69 Fed. Rep. 470",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3785879
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/69/0470-01"
+      ]
+    },
+    {
+      "cite": "90 Fed Rep. 116",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6752126
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/90/0116-01"
+      ]
+    },
+    {
+      "cite": "93 Fed. Rep. 484",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3836633
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/93/0484-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 215",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "179 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "171 U. S. 450",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600846
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0450-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 659",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "157 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3584320
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/157/0124-01"
+      ]
+    },
+    {
+      "cite": "171 U. 'S. 462",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3601471
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0462-01"
+      ]
+    },
+    {
+      "cite": "93 Fed. Rep. 837",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3836242
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/93/0837-01"
+      ]
+    },
+    {
+      "cite": "48 C. C. A. 123",
+      "category": "reporters:federal",
+      "reporter": "C.C.A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "104 Fed Rep. 103",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6719880
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/104/0103-01"
+      ]
+    },
+    {
+      "cite": "27 Stat. 445",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "183 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297270
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/183/0263-01"
+      ]
+    },
+    {
+      "cite": "181 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297594
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/181/0218-01"
+      ]
+    },
+    {
+      "cite": "10 C. C. A. 232",
+      "category": "reporters:federal",
+      "reporter": "C.C.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Fed. Rep. 1014",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3793734
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/61/1014-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 655",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599412
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/170/0655-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 459",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701810
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/161/0459-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3577239
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "215"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0199-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 187",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600985
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/171/0187-01"
+      ]
+    },
+    {
+      "cite": "97 U. S. 379",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3375730
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/97/0379-01"
+      ]
+    },
+    {
+      "cite": "90 Fed Rep. 116",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6752126
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/90/0116-01"
+      ]
+    },
+    {
+      "cite": "157 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3584320
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/157/0124-01"
+      ]
+    },
+    {
+      "cite": "171 U. 'S. 462",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3601471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/171/0462-01"
+      ]
+    },
+    {
+      "cite": "27 Stat. 445",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1464,
+    "char_count": 34080,
+    "ocr_confidence": 0.534,
+    "pagerank": {
+      "raw": 3.0883757621565977e-06,
+      "percentile": 0.9975500502152829
+    },
+    "sha256": "ecd0801ec23c0811b02a98924b0641b4128cfef14eee7556db0ad90abb70b1d6",
+    "simhash": "1:0b6e1f31ae169633",
+    "word_count": 5949
+  },
+  "last_updated": "2024-02-27T21:50:19.484340+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE SOUTHWARK"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Day,\nafter making the foregoing statement, delivered the opinion of the court.\nBefore the passage of the act of Congress of February 13, 189\u00a7, 27 Stat. 445, c. 105; 3- Comp. Stat. U. S. 2946, known as the Harter Act, it was the settled law of this court that, in the absence of special contract, there was a warranty upon, the part of the ship owner, that the ship was seaworthy at the beginning of her voyag\u00e9. The warranty was absolute and did not depend upon the knowledge of the owner or the diligence of his efforts to provide a seaworthy vessel. The Caledonia, 157 U. S. 124; The Edwin I. Morrison, 153 U. S. 199; The Irrawaddy, 171 U. S. 187.\nAfter its passage, this act became the rule of law for cases coming within its terms. In section two it is expressly provided that it shall be unlawful for any vessel' transporting property or merchandise from or between ports of the United States and foreign ports to ins\u00e9rt in any bills of lading or shipping documents any covenant or agreement whereby the obligation of the owner to use due diligence to properly equip, man, provision and outfit said vessel, and to make the vessel seaworthy and capable of performing her intended voyage, shall in anywise be lessened, weakened or avoided. In this connection, Mr. Justice Brown, in speaking of the nature and origin of. this law, in the case of The Delaware, 161 U. S. 459, used this language, p. 471:. \"The act was an outgrowth of attempts made in recent years, to limit, as far as possible, the liability of the vessel and her owners, by inserting in bills of lading stipulations against- losses arising from unseaworthiness, bad stowage and negligence in navigation, and other forms of liability which have been held by the courts of England, if not of this country, to be valid as contracts and to be respected even when they exempted the ship from the consequences of her own negligence. As decisions were made by the courts from time to tim\u00e9, holding the vessel for non-excepted liabilities, new clauses\u2019 were inserted in the .bills of lading to meet these decisions until the common law responsibility of carriers by sea had been frittered away to such an extent that several of the leading commercial associations, \"both in this country and in England, had taken the subject in hand and suggested amendments to the maritime law in line with those embodied in the Harter Act.\u201d This language no doubt had reference to the prohibitive provisions of section two of the act.\nSection three must be read with section two to effectuate the purpose of 'the act, and shows an intention upon the part of Congress to relax in certain respects the harshness of the previous rules of obligation upon ship owners, provided the owner shall exercise due diligence to make the vessel seaworthy in all respects, in which event neither the vessel nor the owner shall be liable, among other things, for faults of management or for loss from inherent defect, quality or vice of the thing carried. Of this feature of the law it was said by Mr. Justice Shiras, delivering the opinion of the court in the ease of The Irrawaddy, 171 U. S. 187, at pp. 192-193: \u201cPlainly the main purposes of the act were to relieve the ship owner from liability for latent defects, not discoverable by the utmost care and diligence, and, in event that he has exercised due diligence to make his vessel seaworthy, to exempt him and the ship from responsibility for damage or loss resulting from faults or errors in navigation or management of the vessel. . . . Although the foundation of the \u2019rule that forbade ship owners to contract for exemption from liability for negligence in their agents or employ\u00e9s, was in the decisions of the courts that such contracts were against public policy, it was, nevertheless, competent for Congress to make a change in the standard of duty, and it is plainly the duty of courts to conform in their decisions to the policy so declared.\u201d\nThe effect of this law is not to relieve the owner from the general duty of furnishing a seaworthy ship, but to limit his liability in certain particulars and upon the condition named in the statute. The Carib Prince, 170 U. S. 655. Before the passage of the act, the initial obligation could be limited in certain particulars by special contractnot involving negli-' gence of the owner. Since the passage of the act, as to cases coming within its terms, before the owner can have the benefit of the relief provided by section three he must have exercised due diligence to provide a seaworthy vessel capable of performing her intended voyage. Obviously, a cargo of dressed beef to be shipped a long distance is one which, from' the inherent quality of the thing carried, is liable, to loss, unless properly stowed in rooms artificially chilled for the purpose pf preserving it.\nWe proceed to inquire whether the furnishing, of a refrigerating apparatus in good' order and repair, competent for the purpose required, was within the obligation imposed by the Harter Act as a condition precedent to the enjoyment of the'benefits of the' act in limiting the owner\u2019s liability as provided therein.\nBou.vier\u2019s Law Dictionary defines \u201cseaworthiness\u201d to be: \u2022\u201cIn maritime law, the sufficiency of the vessel in materials, construction, equipment, officers, men and outfit for the trade or service in which it is employed.\u201d \u2022 And the same author further says: \u201cIt can never be settled by positive rules of law how far this obligation of seaworthiness extends in any particular case,. for the reason that improvements \u00bfnd changes, in the means \"and modes of navigation frequently require new implements, or new forms of old ones; and.these, though not\nnecessary at first, become so when there is an established usage that all ships of a certain quality, or those to be sent on certain voyages or used for certain purposes, shall have them.\u201d In the case of The Sylvia, 171 U. S. 462, Mr. Justice Gray said: \"The test of seaworthiness is whether the vessel is reasonably fit to carry the cargo which she has undertaken to transport.\u201d This is the commonly accepted definition of seaworthiness. As seaworthiness depends not only upon the vessel being staunch and fit to meet the perils of the sea, but upon its character in reference- to the particular cargo to be transported, it follows that a vessel must be able to transport the cargo which it is held out as fit to -carry or it is not seaworthy in that respect. But for the special appliances furnished by the vessel, perishable cargoes, such as dressed beef, could not be shipped on long voyages in hot weather.\nThe trade of shipping dressed beef abroad has grown constantly in volume, until it has become a most important part of our foreign commerce.' For the purpose of properly discharging the duties involved in such transportation, vessels provided with refrigerating apparatus have been put into service and compete with others for this branch of the carry- - ing trade. The owners of such vessels hold them out to shippers and invite their trade upon the representation, actual or implied, that the apparatus provided is fit to receive and carry the meat in proper condition to its destination. For this-service freight charges are doubtless made commensurate with the advantage furnished. The shipper has no control over the apparatus. It iis under the supervision and care of the vessel owner, inspected and operated by those in his employ. This view is sustained by the English as'well as by the American authorities; Maclachlan on the .Law \u25a0 of Merchant Shipping, 4th ed. 430, quotes from Stanton v. Richardson, L. R. 7 C. P. 421, Brett, J.: \u201cIt seems to me that the obligation of the ship owner is to supply a ship that is seaworthy in relation to the cargo which he has undertaken to carry. I -do not think, however, that this proposition completely expresses his1 liability, though the proposition I am about to state with regard to such liability in many cases may amount to the same thing only in effect. I think the obligation of the ship owner is to supply a ship reasonably fit to carry the cargo stipulated in the charter party.\u201d\nIn Lyon v. Mells, 5 East, 428, Lord Elle\u00f1borough said: \u201cIn every contract for the carriage of goods between a person .holding himself forth as the owner of a lighter or vessel ready \u25a0 to carry goods for hire, and the person putting goods on board- or employing his vessel or lighter for that purpose, it is a term of the contract upon the part of the carrier or lighterman, implied by law, that his vesseljs tight and fit for the purpose or employment for which he offers and holds it forth to the public; it is -the very foundation and \u2019 immediate substratum of the contract-that' it is so; the law presumes a promise to ' that effect on the part of the carrier without any actual proof; and every reason of sound policy and public convenience requires that it should b\u00e9 so.\u201d\nIn Rowson v. Atlantic Transport Company, L. R. 1903, 1 K. B. 114, butter was shipped on defendant\u2019s ship, New York to London. The bill of lading provided that it- should be subject to all the terms and provisions of and all the exemptions from liability contained in the Harter Act. The butter, which was sound when shipped in New York, was delivered in London in a damaged condition. It was carried in certain insulated chambers, connected with the refrigerating apparatus with which the ship was supplied for the purpose of enabling her to carry perishable goods during the summer months.' At the time of the shipment these chambers were cooled down to a proper temperature for the reception of the butter, and the -refrigerating machinery was in good working order. The damage to the butter was caused by the negligence of the crew in the management of the refrigerating apparatus during the voyage,' whereby the chambers were not kept at a sufficiently low temperature. It wag contended by defendants that the negligence in the management of the refrigerating apparatus was not a fault or error of management within the Harter Act. Kennedy, J., says: \u201cThat act gives protection only upon condition of the ship being seaworthy. Now a vessel, which has to carry a cargo which can only be safely carried if its refrigerating machinery is in proper order,' is one, which at the present day, according to a series of decisions both in this country and America, cannot properly be regarded as seaworthy unless it has that machinery in proper order. The term seaworthiness is one which was originally, no doubt, used in days when refrigerating apparatus and other modem appliances for the safe carriage of cargo were unknown. In a sense it is obviously not a happy term to use except with regard to that condition of the vessel which enables the owner to avoid exposure of the cargo to the perils of the sea. But the more extended use of the term has come to be well recognized. In the American case of The Thames, 61 Fed. Rep. 1014, in the course of the judgment of the court, it is said: 'A ship may be seaworthy as to one sort of cargo and unsea-worthy as to another.\u2019 When a customary and well-known article of commerce is received on board ship and carried on a voyage, the master guarantees the seaworthiness of his ship for taking charge of that article. As to her cargo, seaworthiness is that quality of a ship which fits it for carrying safely the merchandise which it takes on board. A ship is impliedly warranted to be seaworthy quoad that article, and if damage occurs in consequence of the unfitness of the ship for carrying that article, the ship is liable, and cannot exonerate itself by proving the non sequitur that it is capable of carrying safely and without damage some other article of a different character.\u201d\nIn The Maori King, Law Reports, 1895, 2 Q. B. 550, it was held that a vessel offering to carry frozen meat impliedly warranted that the refrigerating machinery was at the time of shipment fit to carry such cargo in safety.\nThe case of The Thames, from which Judge Kennedy quotes, is reported in 10 C. C. A. 232; S. C., 61 Fed. Rep. 1014, and was decided by the Circuit Court of Appeals for the Fourth Circuit. In that case it was held that the vessel in question was not seaworthy in respect to a cargo of flour which it had undertaken to transport.\n\u2022 The further question arises in case of loss, upon whom rests the burden of proof as to the discharge of this initial duty by the ship owner? This question was before the court in the case of The International Navigation Company v. Farr & Bailey Manufacturing Company, 181 U. S. 218, in which the provisions of the .Harter Act were under consideration. In the course of the- opinion Mr. Chief Justice Fuller said: \u201cWe repeat, that even if the loss occurred through the fault or error in manage-' ment, the exemption cannot be availed of unless the vessel was seaworthy when she sailed or due diligence to make her so had been exercised, and it is for the owner to establish the existence of one or the' other of these conditions.\u201d\nIn the District Court, whose judgment was affirmed by the Circuit Court of Appeals, it was held that the burden of proof, .in view of the stipulation of the bill of lading in this case, w\u00e1s not upon the carrier but upon the shipper, and that there could'only be a recovery in the event that the shipper had shown by satisfactory evidence, negligence upon the part of the carrier. This case was decided before the opinion was delivered in the case of The International Navigation Company v. Farr & Bailey Manufacturing Company, supra, and upon this, point is in direct opposition thereto, and fails to give proper weight to the provisions of the act making it incumbent upon the carrier to use due diligence to provide a seaworthy-'vessel:\nIt is urged that the findings in both the District Court and the Circuit Court of Appeals, that the loss did not arise from want of proper refrigerating apparatus, but was due to a breakdown in the machinery after the voyage was begun, are findings of fact in the courts below which should be held conclusive here. There are observations in the opinions of the. learned judges consistent with the view that it was found that the loss was due to a breakdown in the machinery after the voyage had begun, and ordinarily such findings as to matters of fact are followed in this court; but the case below was tried upon a theory which ignored the initial duty of the carrier to use due diligence to provide a seaworthy vessel, properly equipped for the purpose intended. The bill of l\u00e1ding was treated as a special contract throwing upon the shipper, if he would recover,'the burden of establishing negligence'upon the part of the carrier. As we have before stated, the right of the carrier to be exonerated in the respects named in the Harter Act depends upon the exercise of due diligence upon his part in discharging the primary duty of providing a seaworthy vessel. The burden of proof being upon the carrier to show that he has exercised due diligence to provide a seaworthy vessel at the time he received the meat and started upon the voyage, the question-arises, was this duty-discharged? This due diligence required, said the Chief Justice in delivering the opinion in The International Navigation Company v. Farr & Bailey Manufacturing Company, supra, \u201cdiligence to make the ship, in all respects seaworthy, and that, in o\u00far judgment, means, due diligence upon .the part of all the owner\u2019s servants in the use of the equipment before the commencement of the voyage and until it has actually commenced.\u201d An examination of the record convinces us that the respondent did no* show by the weight of the testimony that this initial duty had been discharged. The testimony discloses an inspection upon the. part of the carrier shortly before the sailing of the vessel, in which by superficial observation no defpct in the refrigerating apparatus was discovered, but the testimony also shows that but a short time after the sailing, of the ship, within one to three hours, the apparatus , broke down, and was repaired, and then broke down again, ;and during the voyage to Liverpool did not reduce the temperature' ofNhe storage room sufficiently to preserve the rheat, which was found to be in a very bad condition-upon the opening of the refrigerating box at Liverpool. ,This sudden breakdown when the vessel was scarcely out of port would raise the presumption of unseaworthiness at the time of the sailing, making it incumbent upon the vessel owner to prove seaworthiness, and this independently of the provisions of the Harter Act. Work v. Leathers, 97 U. S. 379.\nThe practice existed upon the part of vessel owners of taking the temperature of the brine, which was the carrying medium for cooling the storage room, and also of the room itself, and keeping a record thereof.. This record, so far as kept, is produced at the instance of the libellant, and it does not disclose that at any time the temperature was sufficiently low to pre- ' serve the meat. The machinery for reducing the temperature had been in operation forty-eight hours or more in advance of receiving the meat. The record of the temperature does not seem to have been kept after the machinery for reducing tem..perature was put into operation up to the time of the sailing of the ship, and that part of the log in evidence tends strongly to show that both before and after the inspection was made the temperature of the commercial box in which the meat was stored was never properly reduced. The refrigerating apparatus in use upon the Southwark was of the compression type, which uses ammonia gas as a refrigerating agent and brine as the circulating medium. The apparatus provides for the compression of the ammonia gas, in which form it is carried-to a high degree of heat. 'It is then carried into pipes and condensed by means of cooling water passed over the pipes, reducing the gas to a liquid form. The liquid is then carried through a series of coils or pipes, where, being suddenly relieved of pressure, it expands into a gaseous form, absorbing heat from the surrounding objects, and cooling the pipes or coils and brine with which the pipes are brought into' contact. This brine being circulated in the pipes, about the commercial room, provided for the reception of the meat, reduces the compartment to a proper degree of temperature for the reception and preservation' of the cargo. Whether the room is fit to receive the meat may be tested by the simple process of placing a thermometer therein, taking its temperature: Before the meat is taken on board this temperature should be brought down to from twenty-five to thirty degrees, and should be maintained at a low degree in order to preserve the meat.\nIn the present case, while the inspector did not take the temperature of this room, the depositions of the engineer and the assistant, or refrigerating engineer, were taken aboard, and it appears that the temperature of the room was taken frequently during the seventy-two hours in which these witnesses say the apparatus was being worked before the meat was received. There is no sufficient reason given why a record of these temperatures was not made. The refrigerating engineer says that it was not customary, that there were no orders to that effect, and there was no room in the log for such a record, although it appears a record was kept-after the vessel sailed, and from that time throughout the voyage, of the averages of the temperature of the room. In a vague way these men say the room was cooling down all right. It would have been a very easy matter to have established this fact by keeping a record of such observations which would have shown conclusively the temperature of the commercial room. A careful perusal of the \u25a0 testimony tends strongly to the inference that the commercial room was not of a proper temperature, and that the machinery broke down almost before leaving port in an attempt to reduce it to a proper degree. There.is some testimony tending to show that the water in the port at Philadelphia, used to-cool the pipes,' at the time.was so warm as to render it difficult to bring down the temperature of the room, but the weight of the testimony is that these refrigerating machines are intended to work and to.do work.in-warmer latitudes and in a higher degree of temperature than-was shown to have existed at the time in question. \u2022\nBut whether fault can be affirmatively established in this respect it is not necessary to determine. The burden was upon the owner to show by making proper and reasonable' tests that the vessel was seaworthy and in a fit condition to receive and transport the cargo undertaken to be carried, and if by the failure to adopt such t\u00e9sts and to furnish such proofs thquestion of the ship\u2019s efficiency is.left in doubt, that doub' must be resolved against the ship owner and in favor of the shipper. In other words, the vessel owner has not sustained the burden cast upon him to establish the fact that he has used du\u00e9 diligence to furnish a seaworthy vessel, and, between him and the shipper, must -bear the loss. The Edwin I. Morrison, 153 U. S. 199, 215; The Ph\u0153nicia, 90 Fed. Rep. 116.\nIt is true the inspector said that he discovered no leak of ammonia gas such as was afterward discovered, but he seems to \u2018have relied upon external appearances and the lack of evidences of the leaking of the gas rather than upon proper tests of the apparatus and its actual workings. We perceive no reason why such tests should not have been made. We think it was the duty of the carrier to cause them to be applied and determine the working condition of the' apparatus before receiving the cargo, which in hot-weather and upon a long voy-, age would surely spoil unless a proper condition of refrigeration was established. ' The Harter Act, as we understand it, relieves carriers from some of the harsher rules of obligation in force before its passage, but this relief is conditioned upon the discharge of the carrier\u2019s duty to use due diligence to provide that which it holds out to the shipper it is competent to furnish, a seaworthy vessel, duly equipped and provided for the purposes of the voyage. This rule, in our judgment, should not be relaxed by judicial interpretation or construction, and in this case we think the burden imposed by the law upon the carrier of making due proof, of the discharge of its duty in this respect was not sustained, .and there was error in the courts below in holding otherwise.\nIt is argued that appellees are not claiming the benefit of the Harter Act, but rely upon the-contract in the' bill of'lading to exempt them from liability in the absence of affirmative, proof of negligence.\nTo permit the stipulations of this bill of lading to cut down the statutory requirements of section two of the Harter Act would be to allow the parties to enforce a contract in violation of .the -.positive. terms of the statute. As was said by Mr. Justice White, of somewhat similar provisions in the contract before the court in The Kensington, 183 U. S. 263, 269: '\u201cIt is apparent that they are void, since they unequivocally sought to relieve the carrier from the initial duty of furnishing a seaworthy vessel for \u25a0 all neglect in loading or stowing, and indeed for' any and every fault of commission or omission on the part of ];he carrier or his servants.\u201d\nWe think, for the.reasons'stated, there was error in rendering a decree dismissing the libel, and\nThe decree of .the District Court, as well as the judgment of affirmance of the Court of Appeals, ~ will he reversed, and the cause remanded to the District Court with instructions to -enter a decree in favor of the libellants.",
+        "type": "majority",
+        "author": "Mr. Justice Day,"
+      }
+    ],
+    "attorneys": [
+      "Mr.. John, F. lewis, with whom Mr. H. Z._ Cheney was on the brief, for the petitioners:",
+      "Mr. W. Dubois Miller, with whom Mr. Howa/rd H. Yocum, Mr. J. Rodman Paul and Messrs. Biddle dc Ward were on the brief, for appellee:"
+    ],
+    "corrections": "",
+    "head_matter": "THE SOUTHWARK\nCERTIORARI TO THE CIRCUIT COURT OF APPEALS FOR THE THIRD CIRCUIT.\nNo. 12.\nArgued March 3, 1903.\nDecided October 19, 1903.\nBefore the passage of the Harter Act, 27 Stat. 445, there was, in the absence of special contract, an absolute warranty, on the part-of the shipowner, which did not depend upon his knowledge or diligence, that the vessel was seaworthy at the beginning of the voyage.-\nSeaworthiness of a vessel engaged in the dressed meat trade relates and extends to the refrigerating apparatus necessary for the preservation of the meat during transportation.\nThe-Harter Act expressly prohibits the insertion in bills of lading of any covenant or agreement lessening, weakening or avoiding the obligation of the owner to use due diligence to make tlie vessel seaworthy and capable of performing her intended voyage. The \u201cdressed beef clause \u201d inserted in bills of lading of a vessel engaged in that trade releasing the'vessel from damages even though caused by defects in the \u25a0 refrigerating apparatus, whether existing at or prior to the commencement of the voyage is in violation of this provision Of the Harter Act and will not relieve the vessel from such liability in the absence of proof that the owner has used due diligence at the commencement of the voyage- to make the vessel including the refrigerating apparatus reasonably fit for the purposes and uses for which it is intended and thus-seaworthy. \u2022 \u2022\nThe burden of proof as to the seaworthiness of the vessel at the time of sailing is on the owner. The -sudden breakdown of the refrigerating apparatus within three hoixrs of sailing raises a presumption of unseaworthiness at the time of sailing, independently of the Harter Act.\n\u2018 This case originated in a libel in rem filed in the District Court of the United- States for the Eastern. District of- Pennsylvania, to recover for the loss of a quantity, of dressed beef, shipped by the libellants on the steamer Southwark, a Vessel belonging to the respondent, the International Navigation Company. The meat was required to be kept chilled during the passage, and the -ship was engaged in the business of carrying such freight and was fitted with a refrigerating apparatus for the purpose. The meat was received under a bill of lading acknowledging the receipt thereof in apparent good order and condition, and undertaking to deliver the same at Liverpool in like good order and cdndition.' Across the bill of lading there\u2018was this printed stipulation: \"It is expressly provided that the goods shipped' hereunder are absolutely at the risk of the owners in every respect, and that the carrier is responsible, for no loss, delay or damage thereto, however arising, including stowage, and all risks of breakdown or injury, however caused, whether to its refrigerator or its machinery, even though arising from defect existing at or previous to the commencement of the voyage; also that in case of the meat becoming, from any cause, in the opinion of the master of the vessel, putrid, dangerous or offensive to the passengers or the crew, it may be thrown overboard or otherwise disposed of without liability to the carrier for the consequent loss.\u201d\n. Upon the arrival of the ship at Liverpool the meat was found to be in bad condition, mouldy and slimy, resulting in a considerable loss to the shipper. The libel seeks a re- . covery because the refrigerating apparatus was out of repair at the time of sailing and was not repaired-during the voyage, so that the temperature of the compartment in which the meat was carried could not be reduced to the proper degree for its safe transportation.\nThe answer avers that the Southwark left Philadelphia with the refrigerating apparatus in perfect order after due inspection, and all necessary repairs were duly and promptly made while on the voyage.\nUpon hearing in the District Court, a decree was entered exonerating the vessel from fault,' which decree was affirmed in the Circuit Court of Appeals.- 104 Fed Rep. 103; 48 C. C. A. 123.\nMr.. John, F. lewis, with whom Mr. H. Z._ Cheney was on the brief, for the petitioners:\nI. Respondent was guilty of negligence in receiving a cargo of fresh . meat and starting upon a transatlantic voyage in midsummer, with the refrigerating machinery in so manifestly unfit a condition, that working for a sufficient time and under such conditions that an efficient machine would have reduced the temperature of the .brine to at least 20\u00b0, it was only able to reduce the brine temperature to 40\u00b0, a figure so high,' that it was impossible to obtain even.an approximation towards the proper degree in the compartment absolutely necessary for the safe carriage of the meat.\nII. The \u201c dressed meat clause \u201d of the bill of lading did not wipe out all warranty of the initial fitness of the ship to receive the cargo, and of the refrigerating machinery to preserve it. The Maori King, 8 Asp. Mar. C. 65 L. R. 1895; 2 Q. B. D. 550, approved in The Prussia, 93 Fed. Rep. 837. See also The Silvia, 171 U. 'S. 462 ; The Caledonia, 157 U. S. 124; The Carib Prince, 170 U. S. 659; Steele v. State Line, L. R. 3 App. Cas. 72.\nIII. The Harter Act applies to bills of lading issued for fresh meat. The law has been understood to be that there is a warranty of the initial fitness of the vessel in all respects to carry the cargo received. ' Queensland Nat. Bh. v. P. & O. Stm. Wav. Co., L. R. 1898, 1 Q. B. 567; Tattersall\u25a0 v. Wat. ,S. S. Co., L. R. 12 C. B. Div. 297.\nThe test of seaworthiness is whether the vessel is reasonably fit to carry the cargo which she has undertaken to transport. This is the commonly accepted definition of seaworthiness. The G. R. Booth, 171 U. S. 450; The Kensington, 183 TJ. S. 263 ; Knott v. Botany Mills, 179 U. S. 71; Rowson v. Atlan- . tio Tr. Co., L. R. 1903, IL B. Div. 114. '\n' IY. The burden of proof rests on the respondents. Inter. Wav. Co. v. Fcmr dc Bailey, etc., 181U. S. 218 ; The Prussia, 93 Fed. Rep. 837; The Manitou, 116 Fed. Rep; 61; The C. W. Elphieke, 117'Fed. Rep. 279.\n' Y. The simple inspection was not due diligence. The Edwin I. Morrison, 153 U. S. 215; The Aggi, 93 Fed. Rep. 484 ; The Phoenicia, 90 Fed Rep. 116; Switzerland Tns. Co. v. Flamborough, 69 Fed. Rep. 470.\nWhere a vessel soon after leaving port becomes leaky without stress of weather or adequate cause of injury, the presumption is that she was unseaworthy before sailing. Ceb\u00e1llos v. Warren Adams, 74 Fed. Rep. 413 ; S. G., certiorari denied, 163 U. S. 679; jBiggie v. American Lloyds, 14 Fed. Rep. 143, 147; The QuI/nare, 42 Fed. Rep. 861; Work v. Leathers, 97 U. S. 379; The Planter, 2 Woods, 490, Fed. Cas. No. 11,207a; Cort v. Lnsurcm.ee Co., .2 Wash. C. C. 375, Fed. Cas. No. .3257; Walks v. Insurance Co., 32 N. Y. 427, 436; Pacific Coast S. 8: Company v. Bancroft- Whitney Compouny, 4 E\u00e9dv Rep. 196.\nMr. W. Dubois Miller, with whom Mr. Howa/rd H. Yocum, Mr. J. Rodman Paul and Messrs. Biddle dc Ward were on the brief, for appellee:\nThe concurrent findings of the lower courts that -the vessel \u25a0 was fitted with proper refrigerating machinery, duly inspected (i. e., there had been due diligence);. that, the rotting of the meat was due to the breakdowns of the refrigerating machinery after sailing and not to any condition \u00f3f temperature or of the machinery at the time of sailing; and that there was no sufficient evidence of negligence on the part of the vessel, will not, under the settled rule of this court,.bedisturbed. Morewood v. Enequist, '23 How. 495 ; The McmcelVas,. 1 Black, 417; The Hypodame, 6 Wall. .223; The Richmond, 104 \u00da. S. 543 ; Alexander v. Machcm, 147 U. S. 72 ; Handy v. United States, 143 U. S. 513; Packers. Lighterage' Co:, 140 U. S. 360;' Rae v. The Eclipse, 135 U. S. 599 ; The Gazelle, 128 U. S. 474; \u25a0 The Maggie J. Smith v. Walker, 123 TJ. S. 349; Act of April 16,1875, < c. 77; The Carib Primee, 170 U> S. 658.\nThe dressed meat clause protected the -owner of the vessel, and the exemptions for liability as to the refrigerating apparatus are valid under the Harter Act. The Prussia, 93 Fed. Eep. 837; Samage v. Burnham, 17 N. Y. 561. This is especially so as to damages from putrefaction. Hutchinson-on Oarriers, \u00a7 768a; Carver on Carriers, \u00a712 ; Cargo ex Leerles, L. E. 12 Pro. Div. 187;: The Carib Prime\u00e9, 170 U. S.. 660; The Caledonia, \u00cd57 U, S. 13'4. ,\nThe burden-of proof is on the shipper. Dlark v. Barnwell, 12 How. 272; Carver .on Carriers, \u00a7 78; Hutchinson on Carriers, \u00a7 767; Transportation Co. v. Downer, 11 Wall. 129; The Victory arid the Plymoathiam, .168 U. S. 410; City of Hartford and the Unit, 97 IT. S. 323 ;. The Ludwig. Hoeberg, 157 U. S. 60 ; The Powhatam, 12 Fed. Eep. 876 ; The Timor, 67 Fed.- Eep. -356 ; The Hindoostan, 67 Fed. Eep. 794; The Len-nox, 90 Fed, Eep. 308; Oil Go. v. Torpedo Co., 190 Pennsylvania, 350.\nThe Harter Act has been strictly construed by this court. It has been held that the settled principles of law and evidence are not changed or restricted by the operation of the act further than its express terms require. The Irrawaddy,. 171 U. S. 187; The Carib Primee, supra; Carver oh Carriers by Sea, 3d \u00e9d. \u00a7 103c.\nThe .preservation of meat during a voyage, by the creatioii of an artificial atmosphere, is an undertaking apart from the duty of a common carrier by sea, and the shipowner\u2019sduty therein is that of a cold storage warehouseman. Wheeler on Modern Law Carriers, 98; Hutchinson on Carriers, \u00a7 768a; Carver on Carriers, 12;. Wharton on Negligence, \u00a7 563; Myrich v. Miehigam Central, 107 -U. S. 102; Michigan Southern &c- v. McDonough, 21 Michigan, 165 ; Cragim v. Mew York Cent. P. B. Co., 51 N. Y. 61; S. P. Carr v. Lamcashire <& Yorkshire R. Co.. 7 Exch. 708; York County v. Central B. B., 3 Wall. 107, 112; M. J. Steam Mav. Co. v. Merchants' Bank, 6 How. 344, 382.\nA cold storage warehouseman, i. e., a bailee for hire, may by contract stipulate for exemption from liability, as in this case from a breakdown of his plant; at least where \u00f1o negligence is shown. And he may thereby place upon the bailor the burden of proving negligence. Tausig v. Bode & Haslett, 54 L. R. A. 774 (Cal.); Holt Co. v. Jordan Company, 25 Ind. App. 314; Farnham v. Camden & Amboy B. Co., 55 Pa. St. 53; Gray v. Bates, 99 Massachusetts, 263 ; Ma/rsh v. Horne, 5 E. & C. 462; Coohrcm v. Binsmore, 49 N. Y. 249 ; Story on Bail-ments, sec. 278. ,"
+  },
+  "file_name": "0001-01",
+  "first_page_order": 27,
+  "last_page_order": 43
+}

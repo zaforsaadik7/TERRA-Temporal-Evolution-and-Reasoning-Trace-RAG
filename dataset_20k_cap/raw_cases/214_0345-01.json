@@ -1,0 +1,686 @@
+{
+  "id": 3650639,
+  "name": "WEEMS STEAMBOAT COMPANY OF BALTIMORE v. PEOPLE'S STEAMBOAT COMPANY",
+  "name_abbreviation": "Weems Steamboat Co. of Baltimore v. People's Steamboat Co.",
+  "decision_date": "1909-06-01",
+  "docket_number": "No. 181",
+  "first_page": "345",
+  "last_page": "359",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "214 U.S. 345"
+    },
+    {
+      "type": "parallel",
+      "cite": "53 L. Ed. 1024"
+    },
+    {
+      "type": "parallel",
+      "cite": "29 S. Ct. 661"
+    },
+    {
+      "type": "vendor",
+      "cite": "1909 U.S. LEXIS 1923"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1908-178"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "94 U. S. 5",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "18 Wall. 61",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "58 S. E. Rep. 493",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 L. R. A. 352",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "18 How. 71",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3487868
+      ],
+      "pin_cites": [
+        {
+          "page": "74"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/59/0071-01"
+      ]
+    },
+    {
+      "cite": "44 S. E. Rep. 39",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "16 Pet. 410",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "184 U. S. 77",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3625878
+      ],
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/184/0077-01"
+      ]
+    },
+    {
+      "cite": "27 N. J. L. 290",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        372072
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/njl/27/0290-01"
+      ]
+    },
+    {
+      "cite": "59 N. Y. 28",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        521387
+      ],
+      "pin_cites": [
+        {
+          "page": "31, 32"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/59/0028-01"
+      ]
+    },
+    {
+      "cite": "2 Denio, 625",
+      "category": "reporters:state",
+      "reporter": "Denio",
+      "case_ids": [
+        2186097
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/denio/2/0625-01"
+      ]
+    },
+    {
+      "cite": "57 Fed. Rep. 673",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3803323
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/57/0673-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 649",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3425469
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/82/0649-01"
+      ]
+    },
+    {
+      "cite": "65 Fed. Rep. 39",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3786819
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/65/0039-01"
+      ]
+    },
+    {
+      "cite": "117 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299605
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/117/0001-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 667",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3504421
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0667-01"
+      ]
+    },
+    {
+      "cite": "20 Barb. 251",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "case_ids": [
+        4970325
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/barb/20/0251-01"
+      ]
+    },
+    {
+      "cite": "100 Iowa, 712",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2099862
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/iowa/100/0712-01"
+      ]
+    },
+    {
+      "cite": "42 S. E. Rep. 498",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "9 How. 33",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "168 U. S. 349",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139839
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/168/0349-01"
+      ]
+    },
+    {
+      "cite": "152 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3575173
+      ],
+      "pin_cites": [
+        {
+          "page": "24-26"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/152/0001-01"
+      ]
+    },
+    {
+      "cite": "23 Gratt. 251",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6726162
+      ],
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/64/0459-01"
+      ]
+    },
+    {
+      "cite": "27 Gratt. 985",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6741642
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/68/0760-02"
+      ]
+    },
+    {
+      "cite": "31 Gratt. 761",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6717520
+      ],
+      "pin_cites": [
+        {
+          "page": "764, 765"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/72/0558-01"
+      ]
+    },
+    {
+      "cite": "27 Gratt. 430",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6740083
+      ],
+      "pin_cites": [
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/68/0522-01"
+      ]
+    },
+    {
+      "cite": "1 Black, 23",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410110
+      ],
+      "weight": 5,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/66/0023-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 387",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564406
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "445, 446"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0387-01"
+      ]
+    },
+    {
+      "cite": "18 Wall. 57",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3425949
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/85/0057-01"
+      ]
+    },
+    {
+      "cite": "10 Wall. 497",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3437121
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/77/0497-01"
+      ]
+    },
+    {
+      "cite": "29 Ohio St. 364",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        332091
+      ],
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ohio-st/29/0364-01"
+      ]
+    },
+    {
+      "cite": "199 U. S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3643599
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/199/0279-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 691",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499520
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/107/0691-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499545
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/198/0483-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647121
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/94/0113-01"
+      ]
+    },
+    {
+      "cite": "197 U. S. 691",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "699"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 How. 10",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3354315
+      ],
+      "pin_cites": [
+        {
+          "page": "32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/50/0010-01"
+      ]
+    },
+    {
+      "cite": "20 Gratt. 833",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6734517
+      ],
+      "year": 1898,
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/61/0648-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 349",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139839
+      ],
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/168/0349-01"
+      ]
+    },
+    {
+      "cite": "31 Gratt. 761",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6717520
+      ],
+      "pin_cites": [
+        {
+          "page": "765"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/72/0558-01"
+      ]
+    },
+    {
+      "cite": "27 Gratt. 430",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6740083
+      ],
+      "pin_cites": [
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/68/0522-01"
+      ]
+    },
+    {
+      "cite": "1 Black, 23",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410110
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/66/0023-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 387",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564406
+      ],
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/146/0387-01"
+      ]
+    },
+    {
+      "cite": "10 Wall. 497",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3437121
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/77/0497-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 691",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499520
+      ],
+      "pin_cites": [
+        {
+          "page": "699"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/107/0691-01"
+      ]
+    },
+    {
+      "cite": "198 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499545
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/198/0483-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647121
+      ],
+      "pin_cites": [
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0113-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1101,
+    "char_count": 29734,
+    "ocr_confidence": 0.619,
+    "pagerank": {
+      "raw": 7.581089058442528e-07,
+      "percentile": 0.970637670381555
+    },
+    "sha256": "ecd9430789c9da52ef959598f20a7e440a38bd9feee288abd40b5350f393b8a9",
+    "simhash": "1:55ea81b4538c425b",
+    "word_count": 5313
+  },
+  "last_updated": "2024-02-27T17:21:05.440891+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "WEEMS STEAMBOAT COMPANY OF BALTIMORE v. PEOPLE\u2019S STEAMBOAT COMPANY."
+    ],
+    "opinions": [
+      {
+        "text": "Mr., Justice Pecicham,\nafter making the foregoing statement, deliveted the opinion of the court.\nIt appears that the complainant herein is 'a corporation of the State of Maryland and the defendant is a corporation of the State of Virginia, the individual defendants being officers \u2022or agents of such corporation and citizens of the same State.. The complainant has been for a long time engaged in the business of transportation of passengers and freight between Baltimore and various landings or places on the Rappahannock River, in the State of Virginia, and for many years has been the owner or lessee of the wharves on that river mentioned in the bill of complaint. Some time before the commencement of \" this suit the defendant began the transportation of passengers and freight between Fredericksburg and Urbanna, in Virginia, and along the. Rappahannock River in that State, stopping at the same wharves on that river as complainant and engaged in the same business.' In. order to transact its business it' made use of the wharves owned or leased by the complainant, in spite of the opposition of complainant and against its protests, although defendant offered to make compensation for the reasonable value of the use which it made of such wharves in the prosecution of its business, which offers were refused by the complainant, and it notified the defendant to desist from the use of the wharves owned or leased by it. The action of the defendant in making use of the wharves of complainant was based upon the contention that the defendant had the legal right to do so, inasmuch as in many cases there were no other wharves at such places where the defendant desired to land, and that it was necessary to use such wharves in order that defendant might prosecute its business of transporting passengers and freight to and from the various landings on the river, and because the wharves had for. many years been used by the public.\nIt was proved before the master (and we take the facts in the case, as found by him), that the complainant was the owner in fee of five different, wharves along the banks of the.river and of the land under the water where the wharves were built; also that the complainant was the lessee of eight wharves owned by different persons who had, prior to the commencement of this suit, leased their exclusive use to the complainant, and that it was during the time of the existence of the leases that the defendant entered' upon and used the wharves for its own purposes. The master reported that there was no evidence of any prior dedication of any of such wharves to the public, either those owned by or leased to complainant, and, of course, none of any acceptance thereof by the public authorities, nor was there any evidence of any condemnation of any of such wharves on the part or in behalf of any public authority; that the wharves were private wharves, either owned by the complainant in fee or leased by it, for its exclusive use, from the owners in fee of\u2018such wharves. The most that can be said is that in some cases-the former owners of the wharves now owned by the complainant, as well as the lessors of the wharves before they leased the sam\u00e9, and -while owners thereof, had built them and had permitted the public to use them, and had frequently received compensation for such use, and in many cases the use had been without compensation. After the sales of the wharves and after the execution of the leases neither the former owners nor the lessors made any claim to the use of the wharves or to any right to permit others to use them, either with or without compensation, and the complainant formally notified .the defendant that the complainant refused to permit such use any longer. It appeared that public roads had been made from the surrounding country to the places where these private wharves had been built sometimes before the building of the wharves and sometimes the roads had been laid out after such wharves had been built. The use that had been made of the wharves after they had been built and prior to the purchase or,leasing by the complainant was nothing more-than such as was founded upon a mere license on the part' of the owners and without any dedication of the wharves to the public or any acceptance on the part of the public further than by indiscriminate user, and' with no taking or Condemnation of the right to use the wharves as public wharves. The title to the wharves as private property remained unaffected in any way, and there was nothing to prevent the withdrawal of license to use at any time. In some cases the wharves were the only ones that had been built at the places wfiere such wharves existed and the use of such wharves was convenient for the transaction of the defendant\u2019s business.\nThe complainant is in the actual possession of all the wharves, those which it has purchased and those which it has leased, and its title and right to the exclusive possession of all of them is recognized and assented to by both grantors and lessors, arid not one of them makes any claim of any interest in the wharves as against complainant.\nThe Circuit Court, in speaking\u2019 of the facts as found by the master, said, p. 455:\n\u201cWhile the said thirteen wharves involved in this proceeding by no means include all the wharves or stopping places for vessels on the river, it may be said that they embrace the important wharves from which passenger and freight business is chiefly procured in passing,up and down the river, and that, the business from said wharves is large. With possibly a single exception these wharves are at the termini of public highways in the counties in which they are respectively built; the character of the business consists of passenger travel, and merchandise received over said wharves, consisting of the general products of the country; and they are the usual stopping places of persons living in the immediate neighborhood of the wharves, and of the inhabitants of the country for some distance in the interior. That at said wharves .United States post offices, are established, at which the mail of the. people for the surrounding country is procured; and that, as to the wharves leased as aforesaid, the same were leased \u00fapon a rental of a commission of ten. per cent of all freight charges and passenger fares collected, by the complainant on said wharves, the owner of said wharves maintaining an agent .there to assist in mooring the vessels of the complainant inaking landings there, and in receiving and forwarding freight.therefrom, and at' some of the wharves sail vessels from time to time moor and lade, and unlade, making proper compensation to the owners of the wharves for their use.\u201d \u25a0\nWith reference to these facts the Circuit Court said that \u201cWhile the special master is doubtless correct in his findings as to the actual ownership 6f the, property rights in said wharves, namely, that they are the individual property of the several owners thereof, and as such pass regularly by the laws of descent and purchase, it by no means follows that said wharves are private quoad the public; that is, either the citizens desiring to use the wharves to reach the means of transportation upon and over said river, or owners of such methods of transportation plying the waters of said river; the obligation upon each being to render and pay to such wharf owner reasonable wharfage and charges for the use of his property, Under such proper and reasonable regulations as might be imposed either by law or by the owner of the property.\u201d\nThe rights of a riparian owner upon-a navigable stream in this country are governed by the law of the State in which the stream is situated. These rights are subject to the paramount public right of navigation! .The riparian proprietors have the right, -among others, to build private wharves , out so as to reach the navigable waters of the stream. Dutton v. Strong, 1 Black, 23; Yates v. Milwaukee, 10 Wall. 497; Transportation Co. v. Parkersburg, 107 U. S, 691, 699; Illinois Central R. R. v. Illinois, 146 U. S. 387, 445; St. Anthony Falls Water Power Company v. St. Paul Water Commissioners, 168 U. S. 349, 368. The courts of the S.tat\u00e9 of Virginia affirm the same rights of the riparian proprietor. Norfolk City v. Cooke, 27 Gratt. 430, 435; Alex. &c. Railway v. Faunce, 31 Gratt. 761, 765. If the wharf \"obstructs navigation or the private rights of others, or if it encroach upon any public landing, the wharf may be abated. Code of Virginia (1887), \u00a7 998. A private wharf on a navigable, stream is th\u00fas held t\u00f3 be property which cannot be destroyed or its value impaired, and it is property the exclusive use . of which the owner can. only be deprived in accordance with established law, and if necessary that it or any part of it be taken for the public use due compensation must be made. The owner of a private wharf on a navigable stream does not, on that account only, hold it by a different title from the \u2022owner of any other property which he may use himself or permit others whom he may select to use, while at the sameTime denying its use by any one else.\nThe case of Munn v. Illinois, 94 U. S. 113, 127, has, in our judgment, no \u2018bearing upon the question before us. In that case and-in those cited therein the discussion was in regard to the. right of owners of property of the nature described to charge what they pleased for \"the doing of the business in which-they were engaged. Their-.property was being used with their consent by and its use devoted to the public to any extent desired, and the only question was in regard to the -compensation which they were entitled to ask for the business thus done... The complaint was that the charges were too great and were a violation of a law of the State and were not reasonable, and the answer made by the owners of the property was that it was their private property, and' they had the right, to charge what they pleased. The court said, as you have devoted your property to a use in which the .public has an interest, yoii have .granted to the public an interest in that use and the right,, on the part of the State, to regulate charges which you shall make, to the end that they shall be just and reasonable. If- the owner of one of these wharves had devoted it to the public use and permitted the public ,to use it as it desired, and demanded compensation for such use, the question as to the amount of such compensation might be- raised as in the Mimn class of cases, to be determined with, reference to the reasonableness, of the charge. - But this is no such case. The' legislature has passed no law regarding' rates, if that were material, and the reasonableness of the charge is not under consideration. The right to use, the property has been withdrawn by. the owner as to the public in general, including defendant. The only question is whether a third person has the right to use a private wharf on tendering reasonable compen\u00e1ation therefor, because there is no other wharf at the place, or because it would be more convenient to such third person to so use it or because the former owner of the wharf had permitted the public to use it, although the present owner refused t'o consent to such use. There is no more reason why such property should be held subject to the right of others to use it against the will of its owner than there is for any other kind of property to be so held.\nThe question as to the right of the owner to exclude others from the use of a private wharf on a navigable stream has been very recently decided by this court in Louisville &c. Railway Co. v. West Coast Naval Stores Co., 198 U. S. 483, and the right of such owner to exclude any or all other persons from the use of such wharves was affirmed. The owner was-not, it was also said, compelled to \u00fase the wharf exclusively for his own business or else to throw it open for the. use of every one; that he could not only .use it himself and permit some others to use-it, but might at the same time exclude still others to whom he did not .choose to grant such right. Th\u00e9' case was not decided with reference to th\u00e9 existence of another wharf in the harbor. No such matter was adverted to.\nAnd- so in regard to the use of a private wharf by the public, with or without compensation to the owner. The public .can -obtain no adverse right as against such owner by mere user. To obtain it there, must be an intention on the part of the owner to dedicate the property to the use of th\u00e9 public, and there must be an acceptance of such dedication on the part of 'some public-authority, which may sometimes be implied (but not in such a- case as this), and in the absence of such dedication and acceptance the use will be regarded as under a simple license, subject to withdrawal at th\u00e9 pleasure of the owner. Harris v. The Commonwealth, 20 Gratt. 833; Gaines v. Merriman (1898), 95 Virginia, 660; Irwin v. Dixion, 9 How. 10, 32. The rights of the public must have been obtained by an adverse user so as to take away from the owner the ordinary rights of ownership. In this case there was never anything but a mere license. The mere fact that there may be no wharf in the particular place other than that owned by 'the complainant, and also the fact that the use of such wharf is very convenient or even necessary for the defendant.in order to prosecute its b\u00fasiness as a competitor of complainant, together with the fact that the former owners had permitted the public upon occasions to use the wharf, furnish not the slightest reason for holding that the wharf of complainant is held on the condition that it must continue to permit others to use it upon compensation, when they desire to prosecute their own busi-. ness of transporting passengers 6r freight on the river. It was found jay the master that there had never been any abandonment of the right of exclusive enjoyment of any of the wharves, and they were assessed for taxation to the owners and taxes paid .on them by the owners.\nMr. Justice Bradley in Transportation Co. v. Parkersburg, 197 U. S. 691, 699, remarked (obiter) that whether a private wharf might be maintained as such where it is the only facility of the kind, in a particular port or harbor, might be questioned. He recognized the law to be that there might be a private wharf in a navigable stream, and1 that the owner in permitting its temporary use by anoth\u00e9r would be at liberty to make his own bargain for such use. The remark was made with reference to the amount of the charges for wharfage, and the Justice doubted .the right, under the circumstances stated, of the owner of a' wharf to make such charges as he chose, without reference to their being reasonable. It is another matter, however, to say that the owner of a private wharf must permit its use by the public simply because the wharf he has built or purchased is the only wharf in the port, or because the public had \u2022.theretofore been permitted to use the wharf, with only the rights of a licensee.\nWe see no sufficient reason for subjecting \u00e1 private wharf to the public use,-which may frequently include that of.a competitor with the owner, simply because there is no other wharf at the place. . A public wharf, it is presumed, may be built, or if there be no place for one, the private wharf might be taken by public authority for the public u,se, upon compensation being made for the taking of the property. /\nWe are of opinion that the de'cree of7the .court below is. erroneous, and it is therefore\nReversed, with directions to enter a decree for an injunction as prayed for in the bill of complaint. So ordered..",
+        "type": "majority",
+        "author": "Mr., Justice Pecicham,"
+      }
+    ],
+    "attorneys": [
+      "Mr. St. George R. Fitzhugh and Mr. George Weems Williams, with whom Mr. Nicholas P. Bond was on the brief, for petitioner:",
+      "Mr. William D. Carter, with whom Mr.< Ellerbe W. Carter was on the brief, for respondents:"
+    ],
+    "corrections": "",
+    "head_matter": "WEEMS STEAMBOAT COMPANY OF BALTIMORE v. PEOPLE\u2019S STEAMBOAT COMPANY.\nCERTIORARI TQ THE CIRCUIT COURT OF APPEALS FOR THE FOURTH CIRCUIT.\nNo. 181.\nArgued April 26, 1909.\nDecided June 1, 1909.\nA wharf on a navigable stream is private property and subject to the absolute control of the owner as other property is.\nThe rights of a riparian owner on a navigable stream are governed by the law of the State in which the stream is situated, but subject to the paramount public right of navigation.\nOne of the rights of a riparian proprietor is to build private wharves out so as to reach the navigable waters of the stream, and this right has been affirmed by the courts of Virginia; but a wharf obstructing navigation or private rights of others or encroaching upon any public landing may be abated.\nA private wharf on a navigable stream is the exclusive property of the owner of which he can only be deprived in accordance with established law, and, if taken for public use, on compensation being made.\nA private wharf on a navigable stream is not held by the owner, as a railroad is, subject to the public use, and a third person has no right to demand its use even on tendering compensation therefor and even though there may be no other wharf at the place. Munn v. Illinois, 94 U. S. 113, distinguished. Louisville & Nashville Railway Co. v. West Coast Naval Stores Co., 198 U. S. 483, followed.\nThe public obtains no adverse right against the owner of a private wharf by mere user; in the absence of an intent on the owner\u2019s part to dedicate, and an acceptance by the public authority, the use is mere license subject to withdrawal.\nThe remarks of Mr. Justice Bradley in Transportation Co. v. Parkersburg, 107 U. S. 691, as to the right of the owner of a private wharf to make arbitrary charges are obiter and are not applicable to the present case.\n141 Fed. Bep. 454, and judgment of Circuit Court of Appeals, affirming it, reversed.\nThe complainant (the above-named petitioner) commenced this suit in the Circuit Court of the United States for the Eastern District of Virginia against the defendant, the Peopie\u2019s Steamboat Company and its officers and agents, for the purpose of obtaining an injunction restraining the corporation defendant from using certain .wharves on the Rappahannock River, in the State of Virginia, of some of which the complainant was the owner in fee, and of others the lessee of the exclusive use from the owners. The complainant contended that it had the exclusive right to the use of such wharves, either as owner or lessee, and that the defendant illegally and against the will of the complainant insisted upon using them to carry on its business, although offering to pay the complainant what was the reasonable value of the defendant\u2019s use of such wharves.\nThe corporation and the individual defendants filed joint and separate answers, setting up a claim of right to the use of such wharves upon compensation being made therefor, and the' case came before the court on motion of complainant for a temporary injunction, as prayed for in the bill of complaint. The court, without then passing upon any other question, ordered that the matter be referred to a special master for the purpose of taking such evidence as might be submitted to him by either party, or which he might find necessary to take, bearing upon the title to the several wharves mentioned in complainant\u2019s bill and claimed by complainant, and to ascertain what rights passed to complainant with the acquisition of such wharves and whether or not the wharves were public or private wharves. Pursuant to this order of reference, hearings were had before the master, who returned the evidence taken before' him with his opinion in favor of granting the injunction as prayed for by the complainant,, on the ground that the wharves in question were, private wharves owned or leased by the complainant, who. had the exclusive right to their use. The facts found by the master were not overruled, but his conclusions of law were not concurred in by the court, and the preliminary injunction was refused. The case was then submitted to the court for trial upon all the evidence taken, and the bill was dismissed with costs. 141 Fed.; Rep. 454.\nThe complainant appealed from the decree of dismissal to the Circuit Court of Appeals for the Fourth Circuit, where it was affirmed upon'the opinion of the Circuit Court.\nThe complainant then applied to this court for a writ of certiorari to bring the case here, which petition was granted, and the case has been submitted to this court upon the briefs of respective counsel.\nMr. St. George R. Fitzhugh and Mr. George Weems Williams, with whom Mr. Nicholas P. Bond was on the brief, for petitioner:\nThe mere fact that property is owned by a common carrier does not make suctuproperty subject to any and every public use. Neither does the fact \"that property may be used by a common carrier in its business as such 'subject it to any use that may be of supposed or actual benefit or advantage to the public, but the carrier fulfills its obligation if it permits the public, without discrimination, to use such property in' transacting business with it as such carrier. Donovan v. Pennsylvania Co., 199 U. S. 279; Pittsburg &c. Ry. Co. v. Bingham, 29 Ohio St. 364, 370; 1 Farnham on Waters and Water Nights, \u00a7 66, p. 297; Same, \u00a7 110, pp. 509, 510; Same, \u00a7 112, p. 523; Same, \u00a7 113b, pp. 533, 534; King v. Russell, 6 Barn. & C. 566; Yates v. Milwaukee, 10 Wall. 497; Weber v. Board of Harbor Commissioners, 18 Wall. 57.\nThe right to maintain private wharves in a navigable river was. recognized again in Transportation Co. v. Parkersburg, 107 U. S. 691, and in Ill. Cent. R. Co. v. Illinois, 146 U. S. 387, 445, 446, and in Dutton v. Strong, 1 Black, 23.\nThe right of a riparian owner as to the erection of wharves in Virginia under statute, and the decisions of Virginia courts, is as follows:\nCode of Virginia of 1887, \u00a7 998:\n\u201cAny person owning land upon a water course may erect a wharf on the same, or pier or bulkhead in such water1 course opposite his land, provided the navigation be not obstructed, nor the private rights of any person be otherwise injured thereby. But the court of the county in which said wharf, pier or bulkhead is, after causing ten days\u2019 notice to be given to the owner thereof of its intention to consider the subject, if it be satisfied that such wharf, pier or bulkhead, obstructs the navigation of the water course, or so encroaches on any public landing as to prevent the free use thereof, may abate the same.\u201d See Norfolk City v. Cooke, 27 Gratt. 430, 435; Railway Co. v. Faunce, 31 Gratt. 761, 764, 765; McCready v. Commonwealth of Virginia, 27 Gratt. 985; Hardy v. McCullough, 23 Gratt. 251, 262.\nThe statutes of Virginia and the decisions of its courts govern in the determination of the rights of a riparian owner in the navigable waters of that State. Shively v. Bowlby, 152 U. S. 1, 24-26; Illinois Central Ry. Co. v. Illinois, 146 U. S. 387; St. Anthony Falls v. St. Paul, 168 U. S. 349.\nThe plaintiff is not, because it is a common carrier, bound to permit, upon any terms, vessels competing with its own for the same business to make use of its wharves for the purpose of such competition, and can exclude not only competitors, but all persons, from the use of its wharves, except those who have business to transact thereat with it as a common carrier.\nThe fact that public roads have been built to the shore ends of certain of these wharves has no effect on their, character as private wharves or the plaintiff\u2019s rights to limit their use to its own patrons or other persons having business with it as a common carrier.\nThe fact that nearly all these wharves are built in the open country, along the banks of the river, and not in cities or towns or harbors or places where there may be more than\u2019 one landing place, makes no difference in the real character of these wharves, whether public or private.\nThe law does not declare that a wharf, which is public in the .sense' that the owner thereof has permitted the public to use it for any purpose upon payment of compensation, shall for all time remain public, but allows the owner thereof to change the public character of such a wharf by a proper and reasonable notice. See Louisville & Nashville R. R. Co. v. West Coast Naval Stores Co., 198 U. S. 483; Exterkamp v. Covington Harbor Co., 104 Kentucky, 796; Brisbine v. St. Paul Railway Co., 23 Minnesota, 114, 129, 130; California Nav. Co. v. Union Co., 126 California, 433; Irwin v. Dixion, 9 How. 33; Coney v. Brunswick St. Co., 42 S. E. Rep. 498; S. C., 116 Georgia, 222; Mills v. Evans, 100 Iowa, 712. See also Bogert v. Haight, 20 Barb. 251.\n, The. opinion of the Circuit Court complained of herein disregards the principles of the cases which hold that a common carrier has the right to select its agencies for conducting its business and to decline to allow other carriers th\u00e9 use of its terminal facilities. Atchison &c. R. R. v. Denver & N. O. R. R., 110 U. S. 667; Express Cases, 117 U. S. 1; St. Louis Drayage Co. v. Louisville & N. R. R., 65 Fed. Rep. 39.\nThat a wharf owner may revoke a license to use his property is settled .in the following cases: Railroad Company v. Hanning, 15 Wall. 649; Ilwaco &c. Co. v. Oregon Short Line, 57 Fed. Rep. 673; Coney v. Brunswick &c. Co., 116 Georgia, 222; Bogert v. Haight, 20 Barb. 251; Heaney v. Heaney, 2 Denio, 625; Swords v. Edgar, 59 N. Y. 28, 31, 32. Compare O\u2019Neill v. Aunett, 27 N. J. L. 290; see also 29 Am. & Eng. Ency., 1st ed., 64.\nMr. William D. Carter, with whom Mr.< Ellerbe W. Carter was on the brief, for respondents:\nThe right to \u201cwharf out,\u201d neither finder the common law nor by statute, is conferred upon any common carrier as such. No common carrier takes such right by Magna Charta, nor has it such \u201cjus naturalis.\u2019:\u2019 ' The privilege of constructing pier wharves, and duties which arise when the privilege is exer-' cised, pertain only to riparian proprietors. If the \u201cplaintiff\u201d owns a wharf, it is as a riparian proprietor, and not because it is a common carrier, that it is permitted to hold, maintain, and enjoy the same. Hunt v. Ill. Central R. R., 184 U. S. 77, 86; S. C., 146 U. S. 387; Yates. v. Milwaukee, 10 Wall. 497; Dutton v. Strong, 1 Black, 23; Virginia Code, \u00a7\u00a7 998, 999.\nEquity and justice require that the appropriate rules of law be made to apply to every riparian proprietor alike. One riparian proprietor who has exercised his privilege of constructing a wharf may enjoy his structure in his own way, and' put the wharf to his own use alone, or to his own use collectively with others, provided the. uses are restricted and the location and surrounding circumstances permit such use without injury to the public. Dutton v. Strong, 1 Black, 23; L. & N. R. R. Co. v. West Coast Naval Stores Co., 198 U. S. 483.\nThe title to navigable waters and to the soil under water in navigable rivers, is and must be held in perpetual trust for the public as beneficiary. Martin v. Waddell, 16 Pet. 410; Shepherd\u2019s Point Land Co. v. Atlantic Hotel, 44 S. E. Rep. 39; Smith v. Maryland, 18 How. 71, 74.\nThough his domain stops at low-water mark, the riparian proprietor (and he alone) may build out a wharf structure in aid of navigation. Mobile Transp. Co. v. Mobile, 13 L. R. A. 352; 1 Farnham on Waters, p. 227, \u00a7 1136; Dutton v. Strong, 1 Black, 23; Yates v. Milwaukee, 10 Wall. 497.\nThe legislature of Virginia has; by statutory enactment, declared this rule of law also. Code of 1887, \u00a7\u00a7 998, 999.\nIn building a wharf under \u00a7 998, the riparian proprietor exercises an inherent privilege which he enjoys under the law. Whether he makes of his wharf a private \u201cstaith\u201d or a public facility depends mainly .on the use to \u2019which it is subsequently put. He may charge for the use of his wharf, but the charge must be \u201c reasonable \u201d if he serves the general public. Code of Virginia, \u00a7 999; Transportation Co. v. Parkersburg, 107 U. S. 691; Riddick v. Dunn, 58 S. E. Rep. 493; Mobile Transp. Co. v. Mobile, 13 L. R. A. 352; and see Gibler v. St. Louis Terminal Assn., 203 Missouri, 208, for an exposition of the duties owed the public by a toll bridge owner, and what differentiates between such a public servant and a common carrier. Both' serve the public, but a .common carrier furnishes transportation. The duties of a wharf owner serving the public are the same as those of a bridge owner, with added responsibilities on the wharf owner to serve both the public or individual patrons coming to his wharf to. secure the services of a carrier, and the carrier public coming to the wharf in the line of securing business or. discharging traffic.-\nIf the circuit court of a Virginia county permit any individual to build out a wharf from a \u201cpublic landing\u201d under Code, \u00a7 999, supra, it needs no argument to show that the public is the riparian proprietor, and the licensee builds under the power or privilege of the licensor \u2014 the county, or, in other words, the public.\nEvery such wharf is irrevocably affected with a public interest \u201c ah condide,\u201d no matter how often it may be conveyed and pass from vendor to vendee. Weber v. Board of Harbor Comrs., 18 Wall. 61.\nUnder the decision in Dutton v. Strong, 1 Black, 23, a private wharf, when maintainable at all, must be devoted habitually to private business. Even though built by a private proprietor opposite his own shore (a condition the record shows does net exist as to at least some of the wharves in controversy here), if devoted to purposes of public commercefor compensation, it is a public wharf. Lord Hale,. \u201cDe Portibus Maris; and cases, supra.\nThe riparian owner who has built a wharf from his shore out into the navigable waters of the Rappahannock and invited the public to use his wharf, and who for:hire has habitually so served the public, cannot burden that service with any such ^condition\u201d as that the shipping public must take passage over his wharf, either upon sailing vessels or else patronize exclusively the steamers of a single carrier. Munn v. Illinois, 94 U. S. 5."
+  },
+  "file_name": "0345-01",
+  "first_page_order": 375,
+  "last_page_order": 389
+}

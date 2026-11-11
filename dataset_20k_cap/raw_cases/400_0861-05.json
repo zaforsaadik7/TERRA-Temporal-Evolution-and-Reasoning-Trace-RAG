@@ -1,0 +1,80 @@
+{
+  "id": 12085201,
+  "name": "Griggs et al. v. Duke Power Co.",
+  "name_abbreviation": "Griggs v. Duke Power Co.",
+  "decision_date": "1970-10-19",
+  "docket_number": "No. 124",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "400 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "399 U. S. 926",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197473,
+        6197701,
+        6197249,
+        6197041
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/399/0926-03",
+        "/us/399/0926-04",
+        "/us/399/0926-02",
+        "/us/399/0926-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 299,
+    "ocr_confidence": 0.703,
+    "sha256": "5e070fe5d309fc25172264b365fe0c167eb84a519021afd4694cacd4ae68ef0b",
+    "simhash": "1:8b8cb221f723ef41",
+    "word_count": 53
+  },
+  "last_updated": "2024-02-27T22:30:46.068243+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Brennan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Griggs et al. v. Duke Power Co."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. [Certiorari granted, 399 U. S. 926.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae on behalf of petitioners denied.\nMr. Justice Brennan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 124.\nGriggs et al. v. Duke Power Co."
+  },
+  "file_name": "0861-05",
+  "first_page_order": 739,
+  "last_page_order": 739
+}

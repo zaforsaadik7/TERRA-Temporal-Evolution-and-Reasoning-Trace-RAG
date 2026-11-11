@@ -1,0 +1,865 @@
+{
+  "id": 3662185,
+  "name": "WASKEY v. HAMMER",
+  "name_abbreviation": "Waskey v. Hammer",
+  "decision_date": "1912-01-22",
+  "docket_number": "No. 84",
+  "first_page": "85",
+  "last_page": "95",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "223 U.S. 85"
+    },
+    {
+      "type": "parallel",
+      "cite": "56 L. Ed. 359"
+    },
+    {
+      "type": "parallel",
+      "cite": "32 S. Ct. 187"
+    },
+    {
+      "type": "vendor",
+      "cite": "1912 U.S. LEXIS 2217"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1911-132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "175 U. S. 4217",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 N. Y. 68",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "73 N. Y. 416",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2169709
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/73/0416-01"
+      ]
+    },
+    {
+      "cite": "11 N. Y. 432",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2014735
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/11/0424-01"
+      ]
+    },
+    {
+      "cite": "25 Fed. Rep. 128",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        5713838
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/25/0128-01"
+      ]
+    },
+    {
+      "cite": "8 N. Y. 222",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2010547
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/8/0222-01"
+      ]
+    },
+    {
+      "cite": "124 U. S. 311",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "137 U. S. 310",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3547117
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/137/0310-01"
+      ]
+    },
+    {
+      "cite": "138 U. S. 501",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3550260
+      ],
+      "pin_cites": [
+        {
+          "page": "505"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/138/0501-01"
+      ]
+    },
+    {
+      "cite": "72 Fed. Rep. 898",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6732575
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/72/0898-01"
+      ]
+    },
+    {
+      "cite": "110 N. Y. Supp, 306",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        7664946
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/110/0306-01"
+      ]
+    },
+    {
+      "cite": "60 Fed. Rep. 689",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "pin_cites": [
+        {
+          "page": "690"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "32 Fed. Rep. 681",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6731138
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/32/0681-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 748",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3383314
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/95/0748-01"
+      ]
+    },
+    {
+      "cite": "11 N. Y. 593",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2014754
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/11/0585-01"
+      ]
+    },
+    {
+      "cite": "75 N. Y. 38",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        536777
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/75/0038-01"
+      ]
+    },
+    {
+      "cite": "73 N. Y. 437",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2169721
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "442"
+        },
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/73/0437-01"
+      ]
+    },
+    {
+      "cite": "124 U. S. 525",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3525210
+      ],
+      "pin_cites": [
+        {
+          "page": "532"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/124/0525-01"
+      ]
+    },
+    {
+      "cite": "124 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3524478
+      ],
+      "pin_cites": [
+        {
+          "page": "307"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/124/0303-01"
+      ]
+    },
+    {
+      "cite": "99 U. S. 508",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3374955
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/99/0508-01"
+      ]
+    },
+    {
+      "cite": "6 Wall. 385",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3455321
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/73/0385-01"
+      ]
+    },
+    {
+      "cite": "17 Stat. 91",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "132 U. S. 357",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5699182
+      ],
+      "pin_cites": [
+        {
+          "page": "366"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/132/0357-01"
+      ]
+    },
+    {
+      "cite": "104 U. S. 420",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3493554
+      ],
+      "pin_cites": [
+        {
+          "page": "426"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/104/0420-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 760",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3382396
+      ],
+      "pin_cites": [
+        {
+          "page": "763"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/95/0760-01"
+      ]
+    },
+    {
+      "cite": "15 Pet. 161",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "88 N. W. Rep. 607",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "pin_cites": [
+        {
+          "page": "609"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "49 N. E. Rep. 1043",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "156 Fed. Rep. 545",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6750223
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/156/0545-01"
+      ]
+    },
+    {
+      "cite": "146 Fed. Rep. 737",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6726503
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/146/0737-01"
+      ]
+    },
+    {
+      "cite": "120 Fed. Rep. 893",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3822103
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/120/0893-01"
+      ]
+    },
+    {
+      "cite": "118 Fed. Rep. 987",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "97 Fed. Rep. 863",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3831616
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/97/0863-01"
+      ]
+    },
+    {
+      "cite": "193 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630085
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/193/0192-01"
+      ]
+    },
+    {
+      "cite": "197 U. S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3636346
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/197/0304-01"
+      ]
+    },
+    {
+      "cite": "201 U. S. 450",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "107 U. S. 174",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500221
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/107/0174-01"
+      ]
+    },
+    {
+      "cite": "100 U. S. 55",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4680
+      ],
+      "pin_cites": [
+        {
+          "page": "60"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0055-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 523",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3577154
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/153/0523-01"
+      ]
+    },
+    {
+      "cite": "132 U. S. 282",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5699316
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/132/0282-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 451",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3620117
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/191/0451-01"
+      ]
+    },
+    {
+      "cite": "112 U. S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3508888
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/112/0405-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. 102",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "103"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "100 U. S. 239",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4615
+      ],
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0239-01"
+      ]
+    },
+    {
+      "cite": "98 U. S. 621",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11269
+      ],
+      "pin_cites": [
+        {
+          "page": "627"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/98/0621-01"
+      ]
+    },
+    {
+      "cite": "102 Pac. Rep. 540",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "82 Fed. Rep. 89",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6731034
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/82/0089-01"
+      ]
+    },
+    {
+      "cite": "109 Fed. Rep. 711",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "133 Fed. Rep. 209",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        5775477,
+        3860341
+      ],
+      "pin_cites": [
+        {
+          "page": "215"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/alaska-fed/2/0307-01",
+        "/f/133/0209-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 563",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8297675,
+        1250723
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/183/0563-01",
+        "/alaska-fed/1/0713-02"
+      ]
+    },
+    {
+      "cite": "152 U. S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3574277
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/152/0505-01"
+      ]
+    },
+    {
+      "cite": "170 Fed. Rep. 31",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6717675,
+        4847974
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/170/0031-01",
+        "/alaska-fed/3/0340-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 540",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3626047
+      ],
+      "pin_cites": [
+        {
+          "page": "548"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/184/0540-01"
+      ]
+    },
+    {
+      "cite": "152 U. S. 634",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3574934
+      ],
+      "pin_cites": [
+        {
+          "page": "649"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/152/0634-01"
+      ]
+    },
+    {
+      "cite": "145 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3562348
+      ],
+      "pin_cites": [
+        {
+          "page": "426"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/145/0421-01"
+      ]
+    },
+    {
+      "cite": "208 U. S. 67",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3642642
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/208/0067-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 45",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3513837
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/115/0045-01"
+      ]
+    },
+    {
+      "cite": "161 Fed. Rep. 859",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        4848091,
+        1915013
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/alaska-fed/3/0082-01",
+        "/f/161/0859-01"
+      ]
+    },
+    {
+      "cite": "121 Fed. Rep. 716",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1901192,
+        5777657
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/121/0716-01",
+        "/alaska-fed/2/0038-01"
+      ]
+    },
+    {
+      "cite": "114 U. S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11295295
+      ],
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/114/0576-01"
+      ]
+    },
+    {
+      "cite": "216 U. S. 622",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292485,
+        8292455,
+        8292589,
+        8292529,
+        8292402
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/216/0622-03",
+        "/us/216/0622-02",
+        "/us/216/0622-05",
+        "/us/216/0622-04",
+        "/us/216/0622-01"
+      ]
+    },
+    {
+      "cite": "170 Fed. Rep. 31",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6717675,
+        4847974
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/170/0031-01",
+        "/alaska-fed/3/0340-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1074,
+    "char_count": 20071,
+    "ocr_confidence": 0.626,
+    "pagerank": {
+      "raw": 3.663793934018788e-07,
+      "percentile": 0.8906467133798148
+    },
+    "sha256": "cd6c1c168fdd9b14597394ab4bd78ac3a1f5f21046c91dda6ae8baaa24549dfa",
+    "simhash": "1:f86404dbcc41e73b",
+    "word_count": 3489
+  },
+  "last_updated": "2024-02-27T21:45:52.012819+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "WASKEY v. HAMMER."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Van Devanter\ndelivered the opinion of the court.\nThis was an action of ejectment, the subject-matter of which was the overlapping portions of two placer mining claims in Alaska, one known as. the Golden Bull and the other as the Bon Voyage. The plaintiffs claimed the area in conflict as. part of the Golden Bull, and .the defendants claimed it as part of the Bon Voyage. The facts, as they must be accepted for present purposes, are these:\nIn 1902 the Bon Voyage was located by J. Potter Whittren, he having previously made a discovery of placer gold within the ground which he included in the claim. Although not intended to be excessive, the claim embraced a trifle more than twenty acres, the maximum- area permitted in a location by one person. In 1903 Whittren, upon ascertaining that fact, drew ip two of the boundary lines sufficiently to exclude the excess, and in doing so left the point or place of his only prior min\u00e9ral discovery outside the readjusted lines. \" Later in 1903, he made a discovery of placer gold within the lines as readjusted. At the time of drawing in the hnes and making the subsequent discovery he was an United States mineral surveyor, but was not such at the time of the original location. In 1904 the Golden Bull was located by B. Schwartz, and included a part of the ground eipbraceddh the Bon Voyage. Neither claihi Was carried to patent or entry, and when the action -was begun the defendants were in possession. The plaintiffs other than Schwartz claimed Under him, and the defendants other than Whittren claimed under conveyances from him m,ade after 1904.\nUpon the \"trial the court, at the instance of the plaintiffs, directed a verdict in their favor, substantially upon the following grounds, taken collectively: 1. A discovery of mineral within the limits of U mining claim is essential to its validity ; 2. The original location of the Bon Voyage was invalidated by the readjustment of its lines whereby the point or place of the only prior discovery of mineral was left without those lines; 3. The readjusted location was invalid because at the time of the discovery of mineral. th\u00e9rein Whittren, being an United States mineral surveyor, \u2022was disqualified tq(make a location under the,mining laws. The jury returned a verdict as directed, judgment was entered thereon, the judgment was affirmed by the Cir-. cuit\" Court of Appeals for the Ninth Circuit, 170 Fed. Rep. 31, and the case is here upon certiorari. 216 U. S. 622)\n\u2022 Conceding that, the unintentional inclusion of a trifle' \u00bfmore .than twenty acres in the Bon Voyage as originally located was an irregularity which did not vitiate the location, but merely made it necessary that thev excess be excluded when it became known (Richmond Mining Co. v. Rose, 114 U. S. 576, 580; McIntosh v. Price, 121 Fed. Rep. 716; Zimmerman v. Funchion, 161 Fed. Rep. 859), we come tef consider whether the location, was invalidated \u201cwhen, by th\u00e9 readjustment of its lines, it wasleft without a \u25a0.mineral , discovery therein. The mining laws, Rev. Stat.,. \u00a7\u00a7 2320, .2329, make the discovery of mineral \u201cwithin the limits of the claim\u201d a prerequisite to the location of a.claim, whether, lode or placer, the purpose being to r\u00e9ward the \u25a0 discoverer and to prevent the location of land not found to be mineral. A discovery without the limits of the ciaim, no matter what its proximity, does not suffice. .In giving effect to this restriction, this court said, in Gwillim v. Donnellan, 115 U. S. 45, that the loss of that part of a . .location which embraces the place of the only discovery therein is \u201ca loss of the location.\u201d Possibly what was said' went beyond the necessities of that case, critically consid-. ered, but it illustrates what naturally would be taken to be the effect of the statute; and as that view of it has been accepted and acted upon for twenty-five years by the Land Department and by the courts in the mining regions, it should not be disturbed now; It follows that when, in 1903, )Yhittren excluded from the Bon Voyage the only. place at which mineral had. been discovered therein, he lost the'location. That his purpose was not to giv\u00e9 up the location, but only to eliminate the excess in area, is immaterial, because, although free to exclude any other par-t of the claim and to retain that embracing the discovery, he excluded .the latter and thereby caused the location to be without a discovery within its limits. Possibly, as was suggested in argument, the discovery was excluded because it was not deemed sufficiently promising to make its retention advisable, but, however that may have been, its exclusion defeated the location and left the \u25a0lands therein \u201copen to exploration and subject to claim for new discoveries.\u201d Gwillim v. Donnellan, supra.\nAs no adverse right had intervened at the time of Whittren\u2019s-subsequent discovery of mineral within the limits of the readjusted location, it must.be conceded that that location became effective as of that time, just as if he had then marked those limits anew (2 Lindley on Mines, \u00a7\u00a7 .328, 330), unless he was then.disqualified to make a location by reason of his having become an United States mineral surveyor ; and so it is necessary to consider whether such a surveyor is within the prohibition of Rev. Stat., \u00a7 452, and, if so, whether that prohibition made the readjusted location void, or only voidable at the'instance of the Government. That section reads:.\n\u201cThe officers, clerks, and employ\u00e9s in the General Land Office are prohibited from directly or indirectly purchasing or becoming interested in the pinchase of any of the public land; and any person-who violates this section shall forthwith.be removed from his office.\u201d\nMineral surveyors are appointed by the surveyor general under Rev. Stat., \u00a7 2334, and their field of action is confined to the surveying of mining claims and to matters incident thereto. They act only at the solicitation of owners of such claims, and are paid by the owners, not by the Government; -but their charges must be within the maximum, fixed by the Commissioner of the General Land Office, and their work must be done in conformity to regulations, prescribed by that officer. They are required to take an oath, and to execute a bond to the United States, as are many public officers. Within the limits of their authority they act in the stead of the surveyor general and under his direction, and in that sense are his deputies. The work which they do is the work of the Government, and the surveys which they make are its surveys. The right performance of their duties is of real concern, not merely to those at whose solicitation they act, but also to the owners of adjacent and conflicting claims and to the Government. \u25a0 Of the representatives; of the Government who have to do with the proceedings incident to applications for patents to mining claims, they alone come in contact with the land itself, and have an opportunity to observe its situation and character, and. the extent and nature , of the work done and improvements made thereon; and it is upon their reports that the surveyor general makes the certificate required by Rev. Stat., \u00a72325, which is a prerequisite to the issuance of a patent.. See Mining Regulations, of July 26, 1901, paragraphs 90, 115-169, 31 Land Dec. 474, 489, 493; Gowdy v. Kismet Gold Mining Co., 24 Land Dec. 191, 193. This r\u00e9sum\u00e9 of their authority and duties, and of their relation to the surveyor general and the General Land Office, satisfies us that they are within the prohibition of \u00a7 452. That prohibition is addressed not merely to the officers of the General Land Office, or to its officers and clerks, but to its \u201cofficers, clerks and employ\u00e9s.\u201d These words, taken collectively, are very comprehensive and easily embrace all persons holding positions under that office and participating in the work \u00e1ssigned to it, as is the case with mineral surveyors. The purpose of the prohibition is to guard' against the temptations and partiality likely to attend efforts to acquire public lands,- or interests therein, by persons so situated, and thereby to prevent abuse and inspire confidence in the administration of the p\u00fcblic-l\u00e1nd laws. So understanding the letter and purpose of the prohibition, we think it embraces the location of a mining claim by a mineral surveyor. True, it is addressed to officers,-clerks and employ\u00e9s \u201cin the General Land Office\u201d. and is .directed against \u201cthe purchase of any of the public land\u201d by them, but in. view of the terminology common to public-land legislation, we' think the reference to the General Land Office is inclusive of the subordinate offices or branches maintained under, its- supervision, such as the offices of the surveyors-general and the local land offices, and that the term \u201cpurchase\u201d is inclusive of the various modes of securing title to or rights in public lands under the general laws regulating their disposal.\nThat the construction which we here place upon \u00a7 452 is the one prevailing in the Land Department is shown in its circular of September 15, 1890, 11 Land Dec. 348, wherein it is said: \u201cAll officers, clerks and employ\u00e9s in the offices of the surveyors general, the local land offices, and the General Land Office, or any persons, wherever located, employed under the supervision of the Commissioner of the General Land Office, are, during such employment, prohibited \u2022 from entering or becoming interested, directly or indirectly, in any of the public lands of the United States.\u201d The published decisions of the Secretary of the Interior, although disclosing instances in which that, construction has been departed from or doubted, Dennison and Willits, 11 Copp\u2019s Land-Owner, 261; Lock Lode, 6 Land Dec. 105; W. H. Leffingwell, 30 Land Dec. 139, show that in the main it has. been closely followed. Herbert McMicken, 10 Land Dec. 97, and 11 Land Dec. 96; Muller v. Coleman, 18 Land Dec. 394; John S. M. Neill, 24 Land Dec. 393; Floyd v. Montgomery, 26 Land Dec. 122, 136; Frank A. Maxwell, 29 Land Dec. 76; Alfred Baltzell, 29 Land Dec. 333; Seymour K. Bradford, 36 Land Dec. 61.\nIn principle, the recent case of Prosser v. Finn, 208 U. S. 67, goes .far to sustain the view here expressed. There, a special agent of- the General Land Office, whose field of duty was in the State of Washington, 'made an entry of public land finder the timber-culture law, and thereafter in all respects complied with that law. But it was held by this court that he was, in every-substantial sense, an employe in the General Land Office, and therefore was within the prohibition of \u00a7 452.\nThe general rule of law is that an act done in violation of a statutory prohibition is void and confers no right upon the wrongdoer, but this rule is subject to the qualification that when, upon a survey of the statute,1 its subject-matter and the mischief sought -to be prevented, it appears that the legislature intended otherwise, effect- must be given to that intention. Miller v. Ammon, 145 U. S. 421, 426; Burck v. Taylor, 152 U. S. 634, 649; Connolly v. Union Sewer Pipe Co., 184 U. S. 540, 548. Here we think the general rule applies. The acts described in \u00a7 452 are expressly prohibited under penalty of dismissal. There is in its language nothing indicating that its. scope is to be confined to the exaction of that penalty, Prosser v. Finn, supra, or that acts done in violation of it are to be valid against all but the Government. Nor is there anything in its subject-matter or in the mischief sought to be.prevented which militates against the application of the general rule.. On the contrary, it is reasonably inferable, from the. language of the section and the situation with which it deals, that it is intended that violations of it shall be attended by the ordinary consequences of unlawful acts. We therefore are of opinion that the readjusted location was void.\nAffirmed.",
+        "type": "majority",
+        "author": "Mr. Justice Van Devanter"
+      }
+    ],
+    "attorneys": [
+      "Mr.. Albert Fink, with whom Mr. W. H. Metson, Mr. Ira D. Orton and hfir. E. H. Ryan. were, on the brief, for petitioners :",
+      "Mr. Albert H. Elliot, with whom Mr. George W. Rea was on the brief, for. respondents."
+    ],
+    "corrections": "",
+    "head_matter": "WASKEY v. HAMMER.\nCERTIORARI TO THE CIRCUIT COURT OF APPEALS FOR THE NINTH CIRCUIT.\nNo. 84.\nArgued December 7, 1911.\nDecided January 22, 1912.\nA discovery of mineral within the limits of a mining claim is essential to its validity; proximity will not .suffice.\nAn original location is invalidated by readjusting the lines so as to exclude the -point or place of the only prior discovery.\nA readjusted location becomes effective as of. the date of the readjustment as though it were a new one, and if the locator is disqualified at the time of the readjustment, the location is invalid.\nA prohibition against purchase of public lands by officers of the Land Department and employ\u00e9s is to prevent abus\u00e9 and inspire confidence . in administration of the land laws,-and should be construed broadly to include officials and employ\u00e9s of subordinate offices and all methods of securing title to public lands under the general laws.\nA United States mineral surveyor is disqualified under \u00a7 452, Rev. Stat., from making a mining location.\nAlthough the opinion may possibly go beyond the necessities of the case concerning the statute,.if it states the natural effect to be given to a statute, and that view is accepted and acted upon ,for niany years by the Department enforcing it, the construction should not be disturbed.'\nThe general rul\u00e9 of law that an act done in violation of statutory prohibition is void and confers no right upon .the wrongdoer, held applicable in this case and not. subject to the qualification that it was the legislative intent that , under the circumstances of the case' the statute should not apply.\nThe fact that a statute prescribes \"a penalty for the doing of a prohibited act does not confine the scope of the statute to the prohibition, of make the prohibited act valid as against parties other than the Government, and so held as to \u00a7 452, Rev. Stat.\n170 Fed. Rep. 31, affirmed.\nThe facts, which involve the construction of the mining laws of .theUnited.States and conflicting claims thereunder, are stated in the opinion.\nMr.. Albert Fink, with whom Mr. W. H. Metson, Mr. Ira D. Orton and hfir. E. H. Ryan. were, on the brief, for petitioners :\nThis case is a purely possessory action between two individuals and not a patent proceeding.\n'Notwithstanding \u00a72319, Rev. Stat., Manuel v. Wulff, 152 U. S. 505; McKinley Mining Co. v. Alaska Mining Co., 183 U. S. 563, hold that no one other than the Government can question the validity of the location on ground of non-citizenship.\nLocation by an alien.is voidable and not void and free from attack by any \u00f3ne exc\u00e9pt the Government. Shea v. Nilima, 133 Fed. Rep. 209, 215; Tornanses v. Melsing, 109 Fed. Rep. 711; Lone Jack M. Co. v. Megginson, 82 Fed. Rep. 89; Billings v. Aspen M. & S. Co., 52. Fed. Rep. 250; Holdt v. Hazard, 102 Pac. Rep. 540. See also Shamel on Mining Law, 108; Morrison\u2019s Mining Rights, 13th ed. 308; Lindley on Mines, \u00a7 233; Martin\u2019s Mining Law, \u00a7 98; Costigan on Mines, \u00a7 263; Ricketts oh Mines, \u00a7 163.\n. The cases arising under the National Banking Acts are analogous, arid this court has uniformly held that securities taken in violation of law are enforceable by the banks, when their validity has been questioned by private persons, the same being voidable only at the instance of the Gov-, ernment on office found. National Bank v. Matthews, 98 U. S. 621, 627; Oates v. National Bank, 100 U. S. 239, 249; National Bank v. Whitney, 103 U. S. 102, 103; Reynolds v. Bank, 112 U. S. 405; Schuyler National Bank v. Gadzen, 191 U. S. 451.\nIn the case of contracts of foreign corporations made in violation of state statutes, no one can question their validity except the sovereign on direct proceedings instituted for that purpose. Fritts v. Palmer, 132 U. S. 282; Seymour v. Slide, 153 U. S. 523.\nSo as to cases arising under ultra vires nets of corporations. Cowell v. Springs Co., 100 U. S. 55, 60; Jones v. Habersham, 107 U. S. 174; Blair v. City of Chicago, 201 U. S. 450.\nIn cases arising -under Indian Reservation Acts, where entry of one disqualified is valid on its face, no one but \u25a0the Government through its land department can question the entry. McMichael v. Murphy, 197 U. S. 304; Hodges v. Colcord, 193 U. S. 192.\nFor analogous cases, see also Webber v. Spokane &c., 64. Fed. Rep. 208; Sanders v. Thornton, 97 Fed. Rep. 863; Brown v. Schlerer, 118 Fed. Rep. 987; Blodgett v. Lanyon Zinc Co., 120 Fed. Rep. 893; Waterbury v. McKinnon, 146 Fed. Rep. 737-739; Dunlap v. Mercer, 156 Fed. Rep. 545; Newchatel v. New York, 49 N. E. Rep. 1043; Ledebuhr v. Wisconsin Trust Co., 88 N. W. Rep. 607, 609; Meyers v. Campbell, 44 Atl. (N. J.) 863; Camp v. Land, 122 California, 167.\nThere are only two decisions reported on the question whether a deputy surveyor'can make a mineral location, one adverse to such right, Lavignino v. Uhlig, 71 Pac. Rep. (Utah) 1047, and one favorable in Nevada, Hand v. Cook, 92 Pac. Rep. (Nevada), 3. There have, however, been other cases decided by the Land Department on this subject; as to these see 2 Lindley on Mines, 2d ed., \u00a7 661; Seymour v. Bradford, 37 Land Dec. 61; Leffingwell Case, 30 Land Dec. 139; In re Lock Lode, 6 Land Dec. 105; Dennison v. Willits, 11 Land Dec. 261; 26 Land Dec. 122, 136.\n\"While the construction so given by a Department of the Government to any law affecting\u2019its arrangements is certainly entitled to great respect, still, however, if it .is not in conformity to the true intendment, and provisions of the law, it cannot be permitted to conclude the judgment of a. court of justice. United States v. Dickson, 15 Pet. 161, and see\u2019also United States v. Moore, 95 U. S. 760, 763; Quinby v. Colon, 104 U. S. 420, 426; Hastings & Dak. R. R. Co. v. Whitney, 132 U. S. 357, 366.\nA deputy minera,1 surveyor Js not either an \u201cofficer, clerk or employ\u00e9\u201d in the- General Land Office. See \u00a7 10, act of April 25, 1812,'. establishing a General Land Office, 2.Stats. 716; act of July 4, 1836, reorganizing the General Land Office, 5 Stats. 107; \u00a7\u00a7 2207, 2319, 2334, Rev. Stat.; act of May 16, 1872, c. 152, \u00a7 1, 17 Stat. 91; act of May 17, 1884; General Mining Circular of December 18, 1903, 31 Land Dec. 453, 489; 32 Land Dec. 367. .\nA deputy 'mineral surveyor has no duties whatever to perform'outside of the surveying of the mining claims owned-by private parties by whom he is employed. \u25a0.\nA deputy mineral surveyor is not an officer within the provisions of \u00a7 452. United States v. Hartwell, 6 Wall. 385; United States v. Germaine, 99 U. S. 508; United States v. Mouat, 124 U. S. 303, 307; United States v. Smith, 124 U. S. 525, 532.\nA. deputy mineral surveyor is not a clerk in the General Land pffice. As to definition of 'clerk, see Bouvier\u2019s Law Dictionary; People v. Fire Commissioners, 73 N. Y. 437, 442; Satterlea v. Police Board, 75 N. Y. 38; People v. Fire Commissioners, 73 N. Y. 437, 442.\n\u2022 A deputy mineral surveyor is not \u00e1n employ\u00e9 in'the General Land Office. As to definition of employ\u00e9 see Century Dictionary;.Standard- Dictionary; McCluskey v. Cromwell, 11 N. Y. 593.\nA United, States- mineral surveyor receives no compensation from the United Sthtes of any kind or character. He is therefore not an employ\u00e9 of the Government. United States v. Meiggs, 95 U. S. 748; Ex parte Burdell, 32 Fed. Rep. 681; Powell v. United States, 60 Fed. Rep. 689, 690; People v. Ahearn, 110 N. Y. Supp, 306; United States v. McDonald, 72 Fed. Rep. 898; Louisville, E. & St. L. R. Co. v. Wilson, 138 U. S. 501, 505; Auffmordt v. Hodden, 137 U. S. 310; see also Vance v. Newcomb, 124 U. S. 311; Pack v. The Mayor &c. of New York, 8 N. Y. 222; Campfield v. Lane, 25 Fed. Rep. 128; Kelly v. The Mayor of New York, 11 N. Y. 432; Peter Morris v. Randall, 73 N. Y. 416; Blake v. Ferris, 5 N. Y. 68.\nBy any fair interpretation of its terms, \u00a7 432 does not include United States deputy mineral surveyors. Where a statute plainly points out the persons subject to its provisions no others can by construction be brought within the purview thereof. 26 Am. & Eng. Ency. Law (2d ed.), 597; Hamilton v. Rathbone, 175 U. S. 4217.\nMr. Albert H. Elliot, with whom Mr. George W. Rea was on the brief, for. respondents."
+  },
+  "file_name": "0085-01",
+  "first_page_order": 127,
+  "last_page_order": 137
+}

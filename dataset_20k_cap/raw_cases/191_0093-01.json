@@ -1,0 +1,808 @@
+{
+  "id": 3621473,
+  "name": "Ex parte JOINS",
+  "name_abbreviation": "Ex parte Joins",
+  "decision_date": "1903-11-09",
+  "docket_number": "No. 12",
+  "first_page": "93",
+  "last_page": "102",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "191 U.S. 93"
+    },
+    {
+      "type": "parallel",
+      "cite": "48 L. Ed. 110"
+    },
+    {
+      "type": "parallel",
+      "cite": "24 S. Ct. 27"
+    },
+    {
+      "type": "vendor",
+      "cite": "1903 U.S. LEXIS 1485"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1903-045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "179 U. S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5708352
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/179/0126-01"
+      ]
+    },
+    {
+      "cite": "118 U. S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Pet. 321",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "118 U. S. 610",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519410
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/118/0610-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 68",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3384265
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/95/0068-01"
+      ]
+    },
+    {
+      "cite": "3 How. 293",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Black, 503",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410116
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "506"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/66/0503-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 472",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140584,
+        1250753
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/143/0472-01",
+        "/alaska-fed/1/0244-01"
+      ]
+    },
+    {
+      "cite": "187 U. S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139863
+      ],
+      "pin_cites": [
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/187/0294-01"
+      ]
+    },
+    {
+      "cite": "27 Stat. 645",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "104 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3491887
+      ],
+      "pin_cites": [
+        {
+          "page": "520"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/104/0519-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 297",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3626604
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/184/0297-01"
+      ]
+    },
+    {
+      "cite": "187 U. S. 558",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "567"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "188 U. S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11727351
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/188/0432-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3607177
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "483"
+        },
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/174/0445-01"
+      ]
+    },
+    {
+      "cite": "89 U. S. 641",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3408940
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/89/0641-01"
+      ]
+    },
+    {
+      "cite": "11 Fed. Rep. 389",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3779387
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/11/0389-01"
+      ]
+    },
+    {
+      "cite": "155 U, S, 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581227
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/155/0109-01"
+      ]
+    },
+    {
+      "cite": "147 U. S. 114",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "24 Am. Dec. 517",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "29 C. C. A. 303",
+      "category": "reporters:federal",
+      "reporter": "C.C.A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "103 U. S. 182",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "65 Pa. St., 399",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        430579
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/65/0399-01"
+      ]
+    },
+    {
+      "cite": "96 U. S. 97",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3380671
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/96/0097-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597480
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/169/0366-01"
+      ]
+    },
+    {
+      "cite": "13 N. W. 49",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 Cranch, 87",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        530387
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/10/0087-01"
+      ]
+    },
+    {
+      "cite": "10 N. .Y. 374",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2013385
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/10/0374-01"
+      ]
+    },
+    {
+      "cite": "26 S. E. 591",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "112 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3508658
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/112/0123-01"
+      ]
+    },
+    {
+      "cite": "11 S. E. 539",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "2 Wall. 450",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8300249
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/69/0450-01"
+      ]
+    },
+    {
+      "cite": "23 Gratt. 691",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6727635
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/64/0635-01"
+      ]
+    },
+    {
+      "cite": "20 Gratt. 31",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        6733247
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/va/61/0352-01"
+      ]
+    },
+    {
+      "cite": "11 Am. Rep. 528",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "25 Fed. Rep. 641",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        5713949,
+        5713965
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/25/0641-02",
+        "/f/25/0641-01"
+      ]
+    },
+    {
+      "cite": "19 Am. Dec. 184",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "2 Pa. St. 22",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        951101
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/2/0022-01"
+      ]
+    },
+    {
+      "cite": "18 How. 421",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3489104
+      ],
+      "pin_cites": [
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/59/0421-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 333",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6139904
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/71/0333-01"
+      ]
+    },
+    {
+      "cite": "131 U. S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5698248,
+        5698537
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/131/0405-02",
+        "/us/131/0405-01"
+      ]
+    },
+    {
+      "cite": "21 Wall. 196",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3410132
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/88/0196-01"
+      ]
+    },
+    {
+      "cite": "2 Wall. 160",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8299972
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/69/0160-01"
+      ]
+    },
+    {
+      "cite": "115 U. S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "8 Wall. 368",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "60 U. S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138146
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/60/0113-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 Utah, 89",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        8874726
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/utah/5/0089-01"
+      ]
+    },
+    {
+      "cite": "14 So. Car. 417",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        4375642
+      ],
+      "pin_cites": [
+        {
+          "page": "427, 428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/14/0417-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 158",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6136850
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/71/0158-01"
+      ]
+    },
+    {
+      "cite": "117 U. S. 697",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8300294
+      ],
+      "pin_cites": [
+        {
+          "page": "702"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/117/0697-01"
+      ]
+    },
+    {
+      "cite": "2 Wall. 561",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8300364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/69/0561-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298683
+      ],
+      "pin_cites": [
+        {
+          "page": "462"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/165/0443-01"
+      ]
+    },
+    {
+      "cite": "155 U. S. 396",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3580367
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/155/0396-01"
+      ]
+    },
+    {
+      "cite": "10 Wall. 541",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3436783
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/77/0541-01"
+      ]
+    },
+    {
+      "cite": "3 How. 292",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3317372
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/44/0292-01"
+      ]
+    },
+    {
+      "cite": "30 Stat. 591",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239454
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/175/0001-01"
+      ]
+    },
+    {
+      "cite": "29 Stat. 321",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Stat. 641",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 U. S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5708352
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/179/0126-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 68",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3384265
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/95/0068-01"
+      ]
+    },
+    {
+      "cite": "1 Black, 503",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        1410116
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/66/0503-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 297",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3626604
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/184/0297-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3607177
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/174/0445-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1045,
+    "char_count": 20050,
+    "ocr_confidence": 0.445,
+    "pagerank": {
+      "raw": 8.361218598830935e-08,
+      "percentile": 0.48143289435021114
+    },
+    "sha256": "616fe89af7ee6a943ad74334cd52e93ca83d2d2892f778de98fc27e4178900d6",
+    "simhash": "1:e1c2e7d62d9fded2",
+    "word_count": 3531
+  },
+  "last_updated": "2024-02-27T21:50:19.484340+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex parte JOINS."
+    ],
+    "opinions": [
+      {
+        "text": "Me. Justice Holmes\ndelivered the opinion of the court.\nThis is a petition for a writ of prohibition, and for a writ, of certiorari in aid of the same, to the members of the Choctaw and Chickasaw Citizenship Court established by an agreement between the United States and the Choctaw and Chickasaw Nations made on March 21, 1902, and ratified by an act of Congress .of July 1,1902, 32 Stat. 641, c. 1362. By \u00a731 of the act the two nations were authorized to file a bill in equity in the said court to annul, on certain grounds of law, decrees of United States courts in the Indian Territory, whereby certain persons were admitted to citizenship in those nations. The bill was filed and a decree was made purporting to annul the former decrees. The prohibition sought is against giving further effect to this decree or certifying and delivering a copy of the same to the Dawes Commission, established under an earlier act, it being alleged that the provisions of \u00a7 31 are contrary to the Constitution of the United States.\nThe facts alleged and' not denied may be subamed up as follows: By the act of June 10, 1896, c. 398, 29 Stat. 321, 339, Congress authorized a commission to the Five Civilized Tribes of Indians commonly called the Dawes Commission, to hear and determine the rights of persons claiming citizenship in any of those nations, with an appeal to the United States courts in the Territory. The petitioner applied to the commission, and, his application being rejected, appealed to the United States court, and there, on March 8, 1858, got a decree in his favor declaring him to be a member of the Chickasaw Nation. A bill of review brought'by the Chickasaw Nation is pending in the United States Court of AppeaJfofor the Indian Territory. After the decree, and before the \u00e1c.t of 1902, and, for anything to the contrary in the petition, before the decision of this court next to be mentioned, the petitioner entered a tract of Chickasaw land and made improvements costing fifteen thousand dollars. For this he invokes the act of June 28, 1898, c.' 517, \u00a7 161, 30 Stat, 496,506, 507, and he contends that that act, as well as the act of 1902, \u00a7 11, gave him a right of property in common with the other members of the tribe. Jones v. Meehan, 175 U. S. 1.\nOn July 1, 1898, an act of Congress granted an. appeal from such decrees to this court, c. 545, 30 Stat. 591, and an appeal was taken by the Chickasaw Nation. In May, 1899, it was held by this court that the act was intended to open only the question of the constitutionality of the previous legislation, which was sustained, and that the act of July 1, 1898, was not made invalid by the provision in the earlier statute of 1896 that the judgment of the United States courts on appeal to them should be final. Stephens v. Cherokee Nation, 174 U. S. 445.\nThe Indian nations, still being dissatisfied, there followed the agreement and the act of 1902 first mentioned in this statement. By \u00a7 33 the Choctaw and Chickasaw Citizenship Court was created. By \u00a7 32 it was given appellate jurisdiction over all judgments of the courts in the Indian Territory rendered under the above-mentioned act of 1896, admitting persons to citizenship or to enrollment as citizens in any of the said nations. It is admitted that these sections are valid, but it is contended that \u00a7 31, upon which the decree rests, is void. By that section it is provided that the Choctaw and Chickasaw Nations may file a bill in the new court to annul all the said judgments or decrees of the United States courts, on the ground that notice should have been given to both nations, whereas it was given only to one, or on the ground that the proceedings should have been confined to a review of the action of the Dawes Commission on the evidence submitted to that commission, and should not have extended to a trial de novo of the question of citizenship. The suit was to be confined to.a determination of these questions of law. In case the judgment or decrees should be annulled, parties deprived of citizenship were empowered to transfer the proceedings in their cases to the Citizenship Court for such proceedings as ought to have been had in the United States courts. Several thousand persons .being concerned, ten persons admitted to citizenship were to be made defendants and served with process, and there was to be a general notice, also, by publication, with liberty to any person so situated to become a party. A bill was filed, and after proceedings in conformity to the statute a decree was rendered annulling all the said judgments or decrees on both the above grounds.\nThe answer set up that the test case provided fpr had been decided and judgment entered and certified to the Dawes Commission, on January 15, 1903, before the present petition was filed, and that nothing remained to be done by the Citizenship Court. It also alleged as an estoppel that, since filing this petition, this petitioner has instituted a'suit by. way of appeal, as provided in the act of 1902, to have his rights tried by the court on their merits, and further, that if the petitioner is an Indian he is bound by the vote of his tribe ratifying the agreement sanctioned by said act of 1902. To this answer the petitioner demurred, so that, whether a demurrer was necessary or not, the allegations of the answer are not denied.\nOn these facts the petitioner contends that \u00a7 31 is void because it provides for a personal judgment, the annulling of the decree obtained by him, without personal service, because Congress has no power to annul or to provide for the annulling of a judgment of a court of competent jurisdiction not alleged to have been obtained by fraud, and because the annulling of the judgment deprives the p\u00e9titioner of property rights without due process of law.\nIt is unnecessary to state the objections to. the law\u00b0 more in detail, because we are of opinion that the writ must be denied irrespective of these questions. We need not consider whether the jurisdiction of this court to grant a writ of prohibition to the District Courts is confined to cases where those courts are \u201c proceeding as courts of admiralty and maritime jurisdiction.\u201d Rev. Stat. \u00a7 688. Ex parte The City Bank of New Orleans, 3 How. 292, 322 ; Ex parte Gordon, 1 Black, 503; Ex parte Graham, 10 Wall. 541; Ex parte Easton, 95 U. S. 68. As to thie jurisdiction in other cases, whether inherent or under Rev. Stat. \u00a7 716, see In re Rice, 155 U. S. 396; In re Huguley Manufacturing Co., 184 U. S. 297; In re Chetwood, 165 U. S. 443, 462. Again we need not consider whether the Citizenship Court is a court in such a sense as to be subject to prohibition. See In re Vidal, 179 U. S. 126; Gordon v. United States, 2 Wall. 561; S. C. 117 U. S. 697, 702. However these things may be, it is clear that the writ will not issue after the .cause is ended, and that the cause in the Citizenship Court was ended before the present application was heard.\nIt is stated correctly by the answer that the act does not empower the Citizenship Court to do anything in the test case beyond rendering its judgment and certifying the same, as it has done. This being so, there is nothing which this court could prohibit, even if it were of opinion that the petitioner made out a good case on the merits, which we do not intimate. Therefore the writ must be denied. United States v. Hoffman, 4 Wall. 158 ; In re Denton v. Marshall, 1 H. & C. 654, 660 ; State v. Stackhouse, 14 So. Car. 417, 427, 428; Brooks v. Warren, 5 Utah, 89.\n.... Petition dismissed.\nNo. , Original.\nEX PARTE L. L. BLAKE, ET AL.\nThis is a petition , like that in Ex parte Joins, and is governed by the decision in that case.\nMotion for lea/oe to file petition denied.",
+        "type": "majority",
+        "author": "Me. Justice Holmes"
+      }
+    ],
+    "attorneys": [
+      "Mr. Calvin L. Herbert, with whom- Mr. William J. Cruce was on the brief, for petitioner ;",
+      "Mr. George A. Mansfield, with whom Mr. John F. Mc-Mwrray and Mr. Mel/oen Cornish were on the brief, for the respondents, Choctaw and Chickasaw Nations :",
+      "\u25a0 Mr. Solicitor General Hoyt for the United States:"
+    ],
+    "corrections": "",
+    "head_matter": "Ex parte JOINS.\nPETITION FOR \u00c1 WRIT OF PROHIBITION AND FOR CERTIORARI AGAINST THE CHOCTAW AND CHICKASAW CITIZENSHIP COURT.\nNo. 12.\nOriginal.\nArgued October 19.\nDecided November 9, 1903.\nA writ of prohibition will not be issued to an inferior court in respect of a cause which is finished.\nThe case is stated in the opinion of the court.\nMr. Calvin L. Herbert, with whom- Mr. William J. Cruce was on the brief, for petitioner ;\nThe judgment was obtained without personal service and should not be enforced. JPennoyer v. Neff, 95 U. S. 126; . Coirore v. Millandon, 60 U. S. 113; Ga\u00edpin v. Page, 1-8 Wall. 368; Furgeson v. Jones, -3 Law Rep. (Oregon) 620; Cooley\u2019s Const. Lim. 5th ed. 500. The effect of \u00a7 31 of the treaty cited is unconstitutional in that it-is an attempt of the legislative branch of the government to cancel, annul and set aside decrees of a court of competent jurisdiction, under which petitioner had been adjudicated a citizen. That adjudication, although granted under a new . remedy, was good. Stevens v. CheroTcee Nation, 115 U. S. 445, and see cases cited ; Calder v. Bull, 3 Dallas, 356; Sampeyrao v. \"United States, 7 Peters, 223 ; Freeborn v. Smith, 2 Wall. 160; Garrisons. New York, 21 Wall. 196-; Freeland v. Williams, 131 U. S. 405 ; Essex PubUo Board v. ShimJce, 140 IT. S. \u25a0334; Hayborn\u2019s Case, 2 Dallas, 409; Ex parte Garland, 4 Wall. 333; Sedgwick on Construction of Stat. and Const. Law, 2d ed.- 159; Ordronaux on Const. Legislation, 426 ; Cooley\u2019s Const. Lim. 5th ed. 114 Pennsylvania v. Wheeling dkc. Bridge Go., 18 How. 421, 431; Calhoun v. McLendon, 42 Georgia, 405; Milam County v. Bateman, 54 Texas, 154; Wade on Retroactive Laws, \u00a7 31, p. 36 ;' Lambston- v. Iloga/n, 2 Pa. St. 22 ; MoNiohol v. United States, 14 Missouri, 451; Denrvy v. Mattoon, 84 Massachusetts, 361; S. G, 19 Am. Dec. 184; Gorman v. Commissioners, 25 Fed. Rep. 641; Dorsey v. Dorsey, S7 Maryland, 64; S. C., 11 Am. Rep. 528 ; Griffin\u2019s Executors v. Cunningham,, 20 Gratt. 31 ; Teel v.' Yancy, 23 Gratt. 691; Hooker v. Hooker, 18 Mississippi, 5, 99; Oliver v. McClure, 28 Arkansas, 555.\n' The legislative branch of the government cannot be permitted to override the judicial, and at will to disturb the solemnity of a final judgment of a court, and thus the stability and confidence in the final action of the judicial department for what is a vested right. See Steamship Company v. Joliffe, 2 Wall. 450 ; Wade on Retroactive Laws, \u00a7 151; Black on Constitutional Law, \u00a7 154 ; Lowe v. Harris, 11 S. E. 539 ; 3 Amer. & Eng. Ency. Law, 2d ed. 158 ; McCullough v. Virginia, 112 \u00dc. S. 123. A statute authorizing the opening of judgments rendered since a certain anterior date impairs vested rights and infringes on the judicial department of the government. Black on Const. Prohibitions, \u00a7 199 ; 6 Amer. & Eng. Ency. Law, 2d ed. p. 1038; Freeman on Judgments, vol. 1, \u00a7 90; Smith\u2019s Stat. &-Const. Law, \u00a7 340 ; In re Handley, 49 Pacific, 829 ; Bush v. Williams, 24 Arkansas, 96 ; Martin v. So. Salem Land, 26 S. E. 591; Story v. Ruvikle, 32 Texas, 398; Merrill v. Sherburne, 8' Amer. Dec. 52; Stanford v. Barry Amer. Dec; 691; Ratcliffe V. Anderson, 31 Amer. Dec. 716; Burch v\u201e Newberry, 10 N. .Y. 374;. Hewitt v. Colorado Springs, 5 Colorado, 184. Sutherland on Stat.- Construction, \u00a7 480, says:\n\u201c Since the adoption of the Fifth Amendment to the Constitution, which declares that no pei%on should be deprived, of his property without due process of law, Congress has no greater power to make laws which impair vest\u00e9d rights than is enjoyed by state legislature.\u201d See Wade on KetroactiveLaws, secs.'156, 157,- 264;..Black on Const. Prohib., sec. 176, 183, 197, 207; 3 Amer. & Eng. Ency. Law, 2d ed. pp. 756-760; Lawson\u2019s Eights, Kemedies & Practice, vol. 7, sec. 3850; Sutherland on Stat. Construction, sec. 480; Steamship Co. v. Joliffe, 2 Wall. 450; Fletcher v. Peek,, 6 Cranch, 87;. Wilkinson v. Lelcmd, 2 Peters, 657; Ferguson v. Williams, 13 N. W. 49. Watson v. Mereer, 8 Peters, 88, distinguished.\nCongress cannot deprive a citizen of his property without first giving him potice and an opportunity to be heard.before a competent tribunal. Holden v. Hardy, 169 U. S. 366 ; Davidson v. New Orleans, 96 U. S. 97; Craig v. Kli/ne, 65 Pa. St., 399 ; Kilburn v. Thompson, 103 U. S. 182 ; Hurtado v. California, 110 IT. S. 535 ; Orchard v. Alexander, 157 IT. S. 383 ; Lowe v. Kansas, 163 IT. S. 85.\nA judgment should not he set aside by other courts except for fraud in its procurement. United States v. Throckmorton, 98 IT. S. 61 ; Hendersons.'Bradley, 29 C. C. A. 303. \u00a731 of the treaty is class legislation. Bank v. Cooper, 24 Am. Dec. 517. The law failing tp bear upon all alike does not constitute due process of laud Pennoyer v. Neff, 95 IT. S. 714; Caldwell v. Texas, 137 IT. S. 697 ; Leper v. Texas, .139 IT. S. 468 ; Qiozza v, Tiernan, 148 IT, S, 662.\nThis court has jurisdiction to grant a writ of prohibition. . . \u00a7 688, Rev. Stat.; Smith v. Whitney,-116 U. jS. 173, and cases cited; In re Bice, 155 IT. S. 402 ; M. T. <& Porto Biob S. S. Co., Petitioner, 155 XT. S. 523, 531; In re Cooper, 143 IT. S. 472, 495 ; Ex parte Morrison, 147 U. S. 114, 126; United States v. Jahn, 155 U, S, 109.\n' The Choctaws and Chickasaws agreed, to the original treaty, and the petitioner haying become a member of the tribe by judgment, these nations are now estopped from denying his tribal, membership. A state like a private citizen may be estopped. \u2018 People v. Stephens, 71N. Y. 527; Lindsay v. Haws, 2 Black (IT. S.), 554; State v. Mi\u00edlc, 11 Fed. Rep. 389; State v. Flint, 89 Michigan,' 481; Sanders v. Hart, 57 Texas, 8; State v. Dint, 18 Missouri, 313; Alexander v. State, 56 Georgia, 478 ; Opinion to Governor, 49 Missouri, 216.\nThe original treaty,- though a conveyance to the tribe, amounted to the conveyance to the petitioner of his individual share. Jones v. Meehan, 175 IT. S. li This question having been decided on\u00f3e, Congress cannot establish another court to pass upon the same question. Stephens case, 174 TJ. S. 445, 492. The Constitution never intended that there should be but one Supreme Court. United States v. O\u2019Grady, 89 U. S. 641.\nMr. George A. Mansfield, with whom Mr. John F. Mc-Mwrray and Mr. Mel/oen Cornish were on the brief, for the respondents, Choctaw and Chickasaw Nations :\nThe legislation creating the Dawes Commission and the Citizenship Court is not unconstitutional. Stephens v. Cherokee JSfation, 174 U. S. 445, 483.\nIn dealing with these Indian questions, the action of the Government is regarded as political and executive in its nature, and any questions that may arise are beyond the sphere of judicial cognizance. Thomas v. Gay, 169 IT. S. 264; United States v. Biekert, 188 U. S. 432, and cases there cited; Lone Wolf v. HiteKcoek, 187 U. S. 558.\nIf the petitioner is a member of the Chickasaw Nation, he is bound by the act of the nation a,nd cannot be heard to question the authority of the court. Delaware Indians V; Cherokee Nation, U. S. Court of Claims, 1903.\nHe has an adequate remedy at law under the act, and so the writ cannot be issued. In re Huguley Mfg. Co., 184 U. S. 297. . \"\n\u25a0 Mr. Solicitor General Hoyt for the United States:\nI. No case justifying a writ of prohibition is presented. The decree in th,e test case authorized by the statute was self-executing, has had its full effect by operation of law, and is now entirely beyond the control of the Citizenship Court. Prior to the filing \u00f3f this petition a certified copy was delivered to the Dawes Commission.\nSince filing his petition, the petitioner has transferred his case, as provided by the act, from the United States court having control of the same to the Citizenship Court, thus instituting the very proceedings which apparently he seeks by prohibition to restrain. His real object, however, is to have this court review and set aside the decree of the Citizenship Court in the test case. A writ of prohibition cannot be used to undo that which has been fully and finally completed. United States v. Hoffman, 4 \u201cWall. 158, citing Hall v. Norwood, Siderfin, 166. A writ of prohibition cannot be made to serve the office of a writ of error. .Ex parte Ferry Co., 104 U. S. 519, 520.\u2019\n\u25a0 II. The writ would obstruct the action of the political department of the Government. The Citizenship Court, like the Dawes Commission, is a political agency established by Congress in furtherance of its declared purpose of extinguishing the. tribal title to lands in the Indian Territory,, with a view to the erection of a State or States of the Union embracing such lands. Act of March 3, 1893, 27 Stat. 645 ; Stephens v. Cherokee Nation, 174 U. S. 445. The power of Congress'to administer upon and guard the tribal property has been declared by this court to \u00a1be political and administrative in its nature, and not subject to be controlled by the courts. Cherokee Nation v. Hitchcock, 187 U. S. 294, 308; Done Wolf v. Hitchcock, 187 U. S. 558, 567; In re Cooper, 143 U. S. 472.\nIII. A prohibition cannot issue from this court \u201cin cases where there is no appellate power given by law, nor any special authority to issue the writ.\u201d Ex parte Gordon, 1 Black, 503, 506; Foster\u2019s Fed. Prac. vol. 2, sec. 362. The \u201c special authority \u201d of this court to 'issue writs of prohibition, Bev. Stat. sec. 688, is limited to the District Courts of the United States when sitting as courts of admiralty. Me parte Christy, 3 How. 293 ; Ex pa/rte Gordon, 1 Black, 503; Ex parte Easton, \u2022 95 U. S. 68; Expcurte Ins. Co., 118 U. S. 610. No appellate power has been given \u201c by law \u201d to this court over the Citizenship Court whose judgments and decrees are final.\nThe Citizenship Court is not a \u201cconstitutional \u201d huta \u201clegislative\u201d court, created by Congress in virtue of the general, sovereignty of the United States over all territory within its limits, whether occupied by Indian tribes or not. American Ins. Go. v. Canter, 1 P\u00e9t. 321; United States v. Kagama, 118 U. S. 380. It is a special tribunal, created for a particular purpose, and will expire by limitation at a certain time. Not being a \u201c constitutional \u201d court, in which the judicial power of the United States under the third article of the Constitution may be vested, and, unlike the regular territorial courts, possessing no general law and equity jurisdiction, the question whether this court can issue a writ of prohibition thereto in the exercise of its \u201c inherent general power \u201d cannot arise. In re Vidal, 179 U. S. 126.\nSection 716, Bev. Stat., confers no authority to issue the writ prayed. In re Vidal, supra.\nIV. The act in question is constitutional. The history of this legislation shows that it was passed bj^ Congress, at the solicitation and with the consent of 'the Indians concerned, for the purpose of protecting them against fraud and wrong. The argument that it is. an attempt on the part of the legislative branch of the Government to disturb vested rights by setting aside the final decrees of a court of competent jurisdiction; is fully answered by the opinion of the court in Stephens v.-Cherolcee Nation, 174 U. S. 445, 478. See also Cherolcee Nation v. Hitchcock, and lone Wolf v. Ilitchcoolc, above cited.\nThe decision in the Stephens case was confined entirely to a determination of the constitutionality of the legislation of Congress in respect to citizenship and the allotment of lands in the Indian Territory. Assuming, without determining, that the act of June 10, 1896, authorized the United States courts to review de novo the cases appealed from. the Dawes Commission, the authority of Congress to authorize such a review was affirmed, and the legislation under consideration declared to be, in general, valid and constitutional. \"The question of notice was not even mentioned in the opinion in that case. The act of July 1, 1902, therefore, which provides for a specific inquiry by the Citizenship Court into the validity of the methods of procedure adopted by the United States courts in the citizenship cases appealed thereto from the Dawes Commission, and for a review of such cases upon their merits, in no way disturbs the judgment in the Stephens case. It but supplements the action of this court in that case, and merely serves to complete the declared purpose to have \u201c the very right \u201d of this controversy determined."
+  },
+  "file_name": "0093-01",
+  "first_page_order": 119,
+  "last_page_order": 128
+}

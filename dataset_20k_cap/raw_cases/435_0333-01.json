@@ -1,0 +1,992 @@
+{
+  "id": 2744,
+  "name": "LAKESIDE v. OREGON",
+  "name_abbreviation": "Lakeside v. Oregon",
+  "decision_date": "1978-03-22",
+  "docket_number": "No, 76-6942",
+  "first_page": "333",
+  "last_page": "348",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "435 U.S. 333"
+    },
+    {
+      "type": "parallel",
+      "cite": "55 L. Ed. 2d 319"
+    },
+    {
+      "type": "parallel",
+      "cite": "98 S. Ct. 1091"
+    },
+    {
+      "type": "vendor",
+      "cite": "1978 U.S. LEXIS 73"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1977-055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "434 U. S. 918",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6421284,
+        6421093,
+        6421513,
+        6421164,
+        6421620,
+        6421405
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/434/0918-03",
+        "/us/434/0918-01",
+        "/us/434/0918-05",
+        "/us/434/0918-02",
+        "/us/434/0918-06",
+        "/us/434/0918-04"
+      ]
+    },
+    {
+      "cite": "5 F. 2d 45",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1678567
+      ],
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/5/0045-01"
+      ]
+    },
+    {
+      "cite": "406 U. S. 605",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172691
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "610-611"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/406/0605-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525290
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0063-01"
+      ]
+    },
+    {
+      "cite": "308 U. S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139556
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/308/0287-01"
+      ]
+    },
+    {
+      "cite": "382 U. S. 406",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182781
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/382/0406-01"
+      ]
+    },
+    {
+      "cite": "31 Mich. L. Rev. 226",
+      "category": "journals:journal",
+      "reporter": "Mich. L. Rev.",
+      "year": 1932,
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Yale L. J. 145",
+      "category": "journals:journal",
+      "reporter": "Yale L.J.",
+      "year": 1947,
+      "opinion_index": 0
+    },
+    {
+      "cite": "366 U. S. 117",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1285830
+      ],
+      "pin_cites": [
+        {
+          "page": "127-129"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/366/0117-01"
+      ]
+    },
+    {
+      "cite": "291 U. S. 97",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1498121
+      ],
+      "pin_cites": [
+        {
+          "page": "105"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/291/0097-01"
+      ]
+    },
+    {
+      "cite": "332 U. S. 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365087
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0046-01"
+      ]
+    },
+    {
+      "cite": "211 U. S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926611
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/211/0078-01"
+      ]
+    },
+    {
+      "cite": "176 N. W. 2d 864",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10785276
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/176/0864-01"
+      ]
+    },
+    {
+      "cite": "306 N. E. 2d 371",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "261 Ind. 489",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1797468
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/261/0489-01"
+      ]
+    },
+    {
+      "cite": "61 Cal. Rptr. 821",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 Cal. App. 2d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2177439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/253/0841-01"
+      ]
+    },
+    {
+      "cite": "240 Ark. 97",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1727672
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/240/0097-01"
+      ]
+    },
+    {
+      "cite": "392 F. 2d 302",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2106289
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/392/0302-01"
+      ]
+    },
+    {
+      "cite": "476 F. 2d 617",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2261966
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/476/0617-01"
+      ]
+    },
+    {
+      "cite": "422 F. 2d 817",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2254693
+      ],
+      "pin_cites": [
+        {
+          "page": "818"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/422/0817-01"
+      ]
+    },
+    {
+      "cite": "431 F. 2d 1104",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2227905
+      ],
+      "pin_cites": [
+        {
+          "page": "1109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/431/1104-01"
+      ]
+    },
+    {
+      "cite": "521 F. 2d 950",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3695050,
+        616110
+      ],
+      "pin_cites": [
+        {
+          "page": "955"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/172/0290-01",
+        "/f2d/521/0950-01"
+      ]
+    },
+    {
+      "cite": "172 U. S. App. D. C. 290",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3695050
+      ],
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/172/0290-01"
+      ]
+    },
+    {
+      "cite": "425 U. S. 80",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173878
+      ],
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/425/0080-01"
+      ]
+    },
+    {
+      "cite": "289 U. S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3918018
+      ],
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/289/0466-01"
+      ]
+    },
+    {
+      "cite": "407 U. S. 25",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9136521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/407/0025-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765333
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/372/0335-01"
+      ]
+    },
+    {
+      "cite": "385 U. S. 293",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337025
+      ],
+      "pin_cites": [
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/385/0293-01"
+      ]
+    },
+    {
+      "cite": "208 Ore. 610",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        4992299
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/208/0610-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 609",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1524757
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "610"
+        },
+        {
+          "page": "615"
+        },
+        {
+          "page": "614"
+        },
+        {
+          "page": "615"
+        },
+        {
+          "page": "614"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0609-01"
+      ]
+    },
+    {
+      "cite": "378 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164855
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/378/0001-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 889",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6399009,
+        6398629,
+        6399559,
+        6398507,
+        6399212,
+        6399437,
+        6398861,
+        6399311,
+        6398737,
+        6399123
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/434/0889-05",
+        "/us/434/0889-02",
+        "/us/434/0889-10",
+        "/us/434/0889-01",
+        "/us/434/0889-07",
+        "/us/434/0889-09",
+        "/us/434/0889-04",
+        "/us/434/0889-08",
+        "/us/434/0889-03",
+        "/us/434/0889-06"
+      ]
+    },
+    {
+      "cite": "277 Ore. 569",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        2148084
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/277/0569-01"
+      ]
+    },
+    {
+      "cite": "25 Ore. App. 539",
+      "category": "reporters:state",
+      "reporter": "Or. App.",
+      "case_ids": [
+        2095119
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "542"
+        },
+        {
+          "page": "1288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or-app/25/0539-01"
+      ]
+    },
+    {
+      "cite": "61 Cal. Rptr. 403",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 1
+    },
+    {
+      "cite": "253 Cal. App. 2d 519",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2177338
+      ],
+      "year": 1967,
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-2d/253/0519-01"
+      ]
+    },
+    {
+      "cite": "492 P. 2d 343",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10556885
+      ],
+      "year": 1971,
+      "opinion_index": 1,
+      "case_paths": [
+        "/p2d/492/0343-01"
+      ]
+    },
+    {
+      "cite": "285 A. 2d 832",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        8080733
+      ],
+      "year": 1972,
+      "opinion_index": 1,
+      "case_paths": [
+        "/a2d/285/0832-01"
+      ]
+    },
+    {
+      "cite": "231 N. W. 2d 654",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1975,
+      "opinion_index": 1
+    },
+    {
+      "cite": "394 Mich. 437",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1938425
+      ],
+      "year": 1975,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/394/0437-01"
+      ]
+    },
+    {
+      "cite": "105 F. 2d 921",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1056233
+      ],
+      "year": 1939,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/105/0921-01"
+      ]
+    },
+    {
+      "cite": "425 U. S. 971",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6318017,
+        6318246,
+        6319079,
+        6317757,
+        6319241,
+        6319402,
+        6317339,
+        6318554,
+        6318811,
+        6317565,
+        6319583
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/425/0971-04",
+        "/us/425/0971-05",
+        "/us/425/0971-08",
+        "/us/425/0971-03",
+        "/us/425/0971-09",
+        "/us/425/0971-10",
+        "/us/425/0971-01",
+        "/us/425/0971-06",
+        "/us/425/0971-07",
+        "/us/425/0971-02",
+        "/us/425/0971-11"
+      ]
+    },
+    {
+      "cite": "219 S. E. 2d 68",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "288 N. C. 467",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8569717
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "471-472"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nc/288/0467-01"
+      ]
+    },
+    {
+      "cite": "33 U. Chi. L. Rev. 657",
+      "category": "journals:journal",
+      "reporter": "U. Chi. L. Rev.",
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "677"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "37 U. Cin. L. Rev. 671",
+      "category": "journals:journal",
+      "reporter": "U. Cin. L. Rev.",
+      "year": 1968,
+      "opinion_index": 1
+    },
+    {
+      "cite": "29 Mich. L. Rev. 191",
+      "category": "journals:journal",
+      "reporter": "Mich. L. Rev.",
+      "year": 1930,
+      "pin_cites": [
+        {
+          "page": "207"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "5 Harv. L. Rev. 71",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1891,
+      "pin_cites": [
+        {
+          "page": "75-88"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "437 F. 2d 928",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2209857
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "933"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/437/0928-01"
+      ]
+    },
+    {
+      "cite": "149 U. S. 60",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3569815
+      ],
+      "pin_cites": [
+        {
+          "page": "66"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/149/0060-01"
+      ]
+    },
+    {
+      "cite": "59 Me. 298",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        8846445
+      ],
+      "year": 1871,
+      "pin_cites": [
+        {
+          "page": "301"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/me/59/0298-01"
+      ]
+    },
+    {
+      "cite": "5 F. 2d 45",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1678567
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "49"
+        },
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/5/0045-01"
+      ]
+    },
+    {
+      "cite": "406 U. S. 605",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172691
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "611"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/406/0605-01"
+      ]
+    },
+    {
+      "cite": "308 U. S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139556
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/308/0287-01"
+      ]
+    },
+    {
+      "cite": "176 N. W. 2d 864",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10785276
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nw2d/176/0864-01"
+      ]
+    },
+    {
+      "cite": "306 N. E. 2d 371",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "261 Ind. 489",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1797468
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ind/261/0489-01"
+      ]
+    },
+    {
+      "cite": "61 Cal. Rptr. 821",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "253 Cal. App. 2d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2177439
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-2d/253/0841-01"
+      ]
+    },
+    {
+      "cite": "240 Ark. 97",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1727672
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/240/0097-01"
+      ]
+    },
+    {
+      "cite": "392 F. 2d 302",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2106289
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/392/0302-01"
+      ]
+    },
+    {
+      "cite": "380 U. S. 609",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1524757
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "614"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/380/0609-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1335,
+    "char_count": 31425,
+    "ocr_confidence": 0.525,
+    "pagerank": {
+      "raw": 2.5937452110663545e-06,
+      "percentile": 0.9967453700968667
+    },
+    "sha256": "042ca73d64d3db4fefcd7ddd6067ad7ae683f6e4d3cdaae94e36491b99794283",
+    "simhash": "1:be2a85a8a80579be",
+    "word_count": 5349
+  },
+  "last_updated": "2024-02-27T16:18:21.147676+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Stewart, J., delivered the opinion of the Court, in which Burger, C. J., and White, Blackmun, Powell, and Rehnquist, JJ., joined. Stevens, J., filed a dissenting opinion, in which Marshall, J., joined in part, post, p. 342. Brennan, J., took no part in the consideration or decision of the case.",
+      "Mr. Justice Brennan took no part in the consideration or decision of this case.",
+      "Mr. Justice Marshall joins this opinion, with the exception of the first paragraph and footnote 5."
+    ],
+    "parties": [
+      "LAKESIDE v. OREGON"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Stewart\ndelivered the opinion of the Court.\nThe petitioner did not take the witness stand at his trial on a criminal charge in a state court. Over his objection the trial judge instructed the jury not to draw any adverse inference from the petitioner\u2019s decision not to testify. The question before us is whether the giving of such an instruction over the defendant\u2019s objection violated the Constitution.\nI\nThe petitioner was brought to trial in an Oregon court on a charge of escape in the second degree. The evidence showed that he had been an inmate of the Multnomah County Correctional Institution, a minimum-security facility in Multnomah County, Ore. On June 16, 1975, he received a special overnight pass requiring him to return by 10 o\u2019clock the following evening. He did not return. The theory of the defense, supported by the testimony of a psychiatrist and three lay witnesses, was that the petitioner was not criminally responsible for his failure to return to the institution.\nAt the conclusion of the evidence, the trial judge informed counsel in chambers that he intended to include the following instruction in his charge to the jury:\n\u201cUnder the laws of this State a defendant has the option to take the witness stand to testify in his or her own behalf. If a defendant chooses not to testify, such a circumstance gives rise to no inference or presumption against the defendant, and this must not be considered by you in determining the question of guilt or innocence.\u201d\nDefense counsel objected to the giving of that instruction, and, after it was given, the following colloquy took place in chambers:\n\u201c [Defense Counsel]: . . . I have one exception.\n\u201cI made this in Chambers prior to the closing statement. I told the Court that I did not want an instruction to the effect that the defendant doesn\u2019t have to take the stand, because I felt that that\u2019s like waving a red flag in front of the jury....\n\u201cTHE COURT: The defendant did orally request the Court just prior to instructing that the Court not give the usual instruction to the effect that there are no inferences to be drawn against the defendant for failing to take the stand in his own behalf.\n\u201cThe Court felt that it was necessary to give that instruction in order to properly protect the defendant, and therefore, the defendant may have his exception.\u201d\nThe Oregon Court of Appeals reversed the petitioner\u2019s conviction and ordered a new trial on the ground that \u201cthe better rule is to not give instructions ostensibly designed for defendant\u2019s benefit over the knowledgeable objection of competent defense counsel.\u201d 25 Ore. App. 539, 542, 549 P. 2d 1287, 1288. The Oregon Supreme Court reinstated the conviction, holding that the giving of the instruction over the objection of counsel did not violate the constitutional rights of the defendant. 277 Ore. 569, 561 P. 2d 612.\nThe petitioner then sought review in this Court, claiming that the instruction infringed upon both his constitutional privilege not to be compelled to incriminate himself, and his constitutional right to the assistance of counsel. Because of conflicting decisions in several other courts, we granted certiorari, 434 U. S. 889.\nII\nA\nThe Fifth Amendment commands that no person \u201cshall be compelled in any criminal case to be a witness against himself.\u201d This guarantee was held to be applicable against the States through the Fourteenth Amendment in Malloy v. Hogan, 378 U. S. 1. That case, decided in 1964, established that \u201cthe same standards\u201d must attach to the privilege \u201cin either a federal or state proceeding.\u201d Id., at 11. Less than a year later the Court held in Griffin v. California, 380 U. S. 609, that it is a violation of this constitutional guarantee to tell a jury in a state criminal trial that a defendant\u2019s failure to testify supports an unfavorable inference against him.\nIn Griffin, the prosecutor had encouraged the jury to draw adverse inferences from the defendant\u2019s failure to respond to the testimony against him. And the trial judge had instructed the jury that as to evidence which the defendant might be expected to explain, his failure to testify could be taken \u201c 'into consideration as tending to indicate the truth of such evidence and as indicating that among the inferences that may' be reasonably drawn therefrom those unfavorable to the defendant are the more probable.\u2019 \u201d Id., at 610. In setting aside the judgment of conviction, the Court held that the Constitution \u201cforbids either comment by the prosecution on the accused\u2019s silence or instructions by the court that such silence is evidence of guilt.\u201d Id., at 615.\nThe Griffin opinion expressly reserved decision \u201con whether an accused can require . . . that the jury be instructed that his silence must be disregarded.\u201d Id., at 615 n. 6. It is settled in Oregon, however, that a defendant has an absolute right to require such an instruction. State v. Patton, 208 Ore. 610, 303 P. 2d 513. The petitioner in the present case does not question this rule, nor does he assert that the instruction actually given was in any respect an erroneous statement of the law. His argument is, quite simply, that this protective instruction becomes constitutionally impermissible when given over the defendant\u2019s objection.\nIn the Griffin case, the petitioner argues, the Court said that \u201ccomment on the refusal to testify\u201d violates the constitutional privilege against compulsory self-incrimination, 380 U. S., at 614, and thus the \u201ccomment\u201d made by the trial judge over the defendant\u2019s objection in the present case was a literal violation of the language of the Griffin opinion. Quite apart from this semantic argument, the petitioner contends that it is an invasion of the privilege against compulsory self-incrimination, as that privilege was perceived in the Griffin case, for a trial judge to draw the jury\u2019s attention in any way to a defendant\u2019s failure to testify unless the defendant acquiesces. We cannot accept this argument, either in terms of the language of the Griffin opinion or in terms of the basic postulates of the Fifth and Fourteenth Amendments.\nIt is clear from even a cursory review of the facts and the square holding of the Griffin case that the Court was there concerned only with adverse comment, whether by the prosecutor or the trial judge \u2014 \u201ccomment by the prosecution on the accused\u2019s silence or instructions by the court that such silence is evidence of guilt.\u201d Id., at 615. The Court reasoned that such adverse comment amounted to \u201ca penalty imposed by courts for exercising a constitutional privilege. It cuts down on the privilege by making its assertion costly.\u201d Id., at 614.\nBy definition, \u201ca necessary element of compulsory self-incrimination is some kind of compulsion.\u201d Hoffa v. United States, 385 U. S. 293, 304. The Court concluded in Griffin that unconstitutional compulsion was inherent in a trial where prosecutor and judge were free to ask the jury to draw adverse inferences from a defendant\u2019s failure to take the witness stand. But a judge\u2019s instruction that the jury must draw no adverse inferences of any kind from the defendant\u2019s exercise of his privilege not to testify is \u201ccomment\u201d of an entirely different order. Such an instruction cannot provide the pressure on a defendant found impermissible in Griffin. On the contrary, its very purpose is to remove from the jury\u2019s deliberations any influence of unspoken adverse inferences. It would be strange indeed to conclude that this cautionary instruction violates the very constitutional provision it is intended to protect.\nThe petitioner maintains, however, that whatever beneficent effect such an instruction may have in most cases, it may in some cases encourage the jury to draw adverse inferences from a defendant\u2019s silence, and, therefore, it cannot constitutionally be given in any case when a defendant objects to it. Specifically, the petitioner contends that in a trial such as this one, where the defense was presented through several witnesses, the defendant can reasonably hope that the jury will not notice that he himself did not testify. In such circumstances, the giving of the cautionary instruction, he says, is like \u201cwaving a red flag in front of the jury.\u201d\nThe petitioner\u2019s argument would require indulgence in two very doubtful assumptions: First, that the jurors have not noticed that the defendant did not testify and will not, therefore, draw adverse inferences on their own; second, that the jurors will totally disregard the instruction, and affirmatively give weight to what they have been told not to consider at all. Federal constitutional law cannot rest on speculative assumptions so dubious as these.\nMoreover, even if the petitioner\u2019s simile be accepted, it does not follow that the cautionary instruction in these circumstances violates the privilege against compulsory self-incrimination. The very purpose of a jury charge is to flag the jurors\u2019 attention to concepts that must not be misunderstood, such as reasonable doubt and burden of proof. To instruct them in the meaning of the privilege against compulsory self-incrimination is no different.\nIt may be wise for a trial judge not to give such a cautionary instruction over a defendant\u2019s objection. And each State is, of course, free to forbid its trial judges from doing so as a matter of state law. We hold only that the giving of such an instruction over the defendant\u2019s objection does not violate the privilege against compulsory self-incrimination guaranteed by the Fifth and Fourteenth Amendments.\nB\nThe petitioner\u2019s second argument is based upon his constitutional right to counsel. Gideon v. Wainwright, 372 U. S. 335; Argersinger v. Hamlin, 407 U. S. 25. That right was violated, he says, when the trial judge refused his lawyer\u2019s request not to give the instruction in question, thus interfering with counsel\u2019s trial strategy. That strategy assertedly was based upon studious avoidance of any mention of the fact that the defendant had not testified.\nThe argument is an ingenious one, but, as a matter of federal constitutional law, it falls of its own weight once the petitioner\u2019s primary argument has been rejected. In sum, if the instruction was itself constitutionally accurate, and if the giving of it over counsel\u2019s objection did not violate the Fifth and Fourteenth Amendments, then the petitioner\u2019s right to the assistance of counsel was not denied when the judge gave the instruction. To hold otherwise would mean that the constitutional right to counsel would be implicated in almost every wholly permissible ruling of a trial judge, if it is made over the objection of the defendant\u2019s lawyer.\nIn an adversary system of criminal justice, there is no right more essential than the right to the assistance of counsel. But that right has never been understood to confer upon defense counsel the power to veto the wholly permissible actions of the trial judge. It is the judge, not counsel, who has the ultimate responsibility for the conduct of a fair and lawful trial. \u201c \u2018[T]he judge is not a mere moderator, but is the governor of the trial for the purpose of assuring its proper conduct and of determining questions of law.\u2019 Quercia v. United States, 289 U. S. 466, 469 (1933).\u201d Geders v. United States, 425 U. S. 80, 86.\nThe trial judge in this case determined in the exercise of his duty to give the protective instruction in the defendant\u2019s interest. We have held that it was no violation of the defendant\u2019s constitutional privilege for him to do so, even over the objection of defense counsel. Yet the petitioner argues that his constitutional right to counsel means that this instruction could constitutionally be given only if his lawyer did not object to it. We cannot accept the proposition that the right to counsel, precious though it be, can operate to prevent a court from instructing a jury in the basic constitutional principles that govern the administration of criminal justice.\nFor the reasons discussed in this opinion, the judgment of the Supreme Court of Oregon is affirmed.\nIt is so ordered.\nMr. Justice Brennan took no part in the consideration or decision of this case.\nSection 162.155 of Ore. Rev. Stat. (1977) provides, in pertinent part:\n\u201c(1) A person commits the crime of escape in the second degree if:\n\"(c) He \u00a1escapes from a correctional facility.\"\nSection 161.295 of Ore. Rev. Stat. (1977) provides:\n\"(1) A person is not responsible for criminal conduct if at the time of such conduct as a result of mental disease or defect he lacks substantial capacity either to appreciate the criminality of his conduct or to conform his conduct to the requirements of law.\n\u201c(2) . . . [T]he terms 'mental disease or defect\u2019 do not include an abnormality manifested only by repeated criminal or otherwise antisocial conduct.\u201d\nThe federal courts have generally held that giving the protective instruction over the defendant\u2019s objection is not a constitutional violation. See, e. g., United States v. Williams, 172 U. S. App. D. C. 290, 295, 521 F. 2d 950, 955; United States v. McGann, 431 F. 2d 1104, 1109 (CA5); United States v. Rimanich, 422 F. 2d 817, 818 (CA7); but cf. Mengarelli v. United States Marshal ex rel. Dist. of Nevada, 476 F. 2d 617 (CA9); United States v. Smith, 392 F. 2d 302 (CA4). By contrast, several state courts have held, although not always in constitutional terms, that the giving of such an instruction in these circumstances is prejudicial error. See, e. g., Russell v. State, 240 Ark. 97, 398 S. W. 2d 213 (reversible error); People v. Molano, 253 Cal. App. 2d 841, 61 Cal. Rptr. 821 (proscribed by Griffin v. California, 380 U. S. 609); Gross v. State, 261 Ind. 489, 306 N. E. 2d 371 (violates Fifth Amendment); State v. Kimball, 176 N. W. 2d 864 (Iowa) (may violate spirit of Griffin).\nThe Malloy decision overruled the long-settled doctrine of Twining v. New Jersey, 211 U. S. 78, and Adamson v. California, 332 U. S. 46. See Snyder v. Massachusetts, 291 U. S. 97, 105; Cohen v. Hurley, 366 U. S. 117, 127-129.\nThe practice held unconstitutional in Griffin had previously been the subject of considerable academic and professional controversy. See, e. g., Note, Comment on Defendant\u2019s Failure to Take the Stand, 57 Yale L. J. 145 (1947); Bruce, The Right to Comment on the Failure of the Defendant to Testify, 31 Mich. L. Rev. 226 (1932). Indeed, at one time the practice had enjoyed the approval of the American Law Institute and the American Bar Association. 9 ALI Proceedings 202, 203 (1931); 56 A. B. A. Rep. 137-159 (1931); 59 A. B. A. Rep. 130-141 (1934). And instructions similar to those at issue in Griffin had been sanctioned by the Model Code of Evidence and the Uniform Rules of Evidence. ALI Model Code of Evidence, Rule 201 (1942); Uniform Rules of Evidence, Rule 23 (4) (1953).\nIn Tehan v. United States ex rel. Shott, 382 U. S. 406, it was held that the rule of Griffin v. California was not to be given retrospective application.\nIt has long been established that a defendant in a federal criminal trial has that right as a matter of statutory law. Bruno v. United States, 308 U. S. 287.\nThe petitioner also relies upon a remark in the dissenting opinion in United States v. Gainey, 380 U. S. 63, 73: or, if the defendant sees fit, he may choose to have no mention made of his silence by anyone.\u201d This reliance is misplaced. The Gainey case did not involve the Fifth Amendment; the statement in the dissenting opinion expressed the author\u2019s understanding of a federal statute, not the Constitution; and, perhaps most important, the statement was subscribed to by no other Member of the Court.\nCompulsion was also found to be present in Brooks v. Tennessee, 406 U. S. 605, where the State required a defendant who chose to testify to take the witness stand ahead of any other defense witnesses. Thus a defendant was compelled to make his decision \u2014 whether or not to testify \u2014 at a point in the trial when he could not know if his testimony would be necessary or even helpful to his case. Id., at 610-611.\nIt has often been noted that such inferences may be inevitable. Jeremy Bentham wrote more than 150 years ago: \u201c[Bjetween delinquency on the one hand, and silence under inquiry on the other, there is a manifest connexion; a connexion too natural not to be constant and inseparable.\u201d 5 J. Bentham, Rationale of Judicial Evidence 209 (1827). And Wigmore, among many others, made the same point: \"What inference does a plea of privilege support? The layman\u2019s natural first suggestion would probably be that the resort to privilege in each instance is a clear confession of crime.\u201d 8 J. Wigmore, Evidence \u00a72272, p. 426 (McNaughton rev. 1961).\nAs this Court has remarked before: \u201c[W]e have not yet attained that certitude about the human mind which would justify us in ... a dogmatic assumption that jurors, if properly admonished, neither could nor would heed the instructions of the trial court . . . .\u201d Bruno v. United States, supra, at 294.\nMore than 50 years ago, Judge Learned Hand dealt with this question in a single sentence: \u201cIt is no. doubt better if a defendant requests no charge upon the subject, for the trial judge to say nothing about it; but to say that when he does, it is error, carries the doctrine of self-incrimination to an absurdity.\u201d Becher v. United States, 5 F. 2d 45, 49 (CA2).",
+        "type": "majority",
+        "author": "Mr. Justice Stewart"
+      },
+      {
+        "text": "Mr. Justice Stevens,\ndissenting.\nExperience teaches us that most people formally charged with crime are guilty; yet we presume innocence until the trial is over. Experience also justifies the inference that most people who remain silent in, the face of serious accusation have something to hide and are therefore probably guilty; yet we forbid trial judges or juries to draw that inference. The presumption of innocence and the protections afforded by the Due Process Clause impose a significant cost on the prosecutor who must prove the defendant\u2019s guilt beyond a reasonable doubt without the aid of his testimony. That cost is justified by the paramount importance of protecting a small minority of accused persons \u2014 those who are actually innocent \u2014 from wrongful conviction.\nThe Fifth Amendment itself is predicated on the assumption that there are innocent persons who might be found guilty if they could be compelled to testify at their own trials. Every trial lawyer knows that some truthful denials of guilt may be considered incredible by a jury \u2014 either because of their inherent improbability or because their explanation, under cross-examination, will reveal unfavorable facts about the witness or his associates. The Constitution therefore gives the defendant and his lawyer the absolute right to decide that the accused shall not become a witness against himself. Even if the judge is convinced that the defendant's testimony would exonerate him, and even if he is motivated only by a desire to protect the defendant from the risk of an erroneous conviction, the judge has no power to override counsel\u2019s judgment about what is in his client\u2019s best interest.\nThe Constitution wisely commits the critical decision of whether the defendant shall take the stand to the defendant and his lawyer, rather than the judge, for at least two reasons. First, they have greater access to information bearing on the decision than the judge can normally have. Second, they are motivated solely by concern for the defendant\u2019s interests; the judge inevitably is concerned with society\u2019s interest in convicting the guilty as well as protecting the innocent. The choice, therefore, to testify or not to testify is for the defendant and his lawyer, not the judge, to make. The Constitution commands that the decision be made free of any compulsion by the State.\nIn Griffin v. California, 380 U. S. 609, the Court held that fair and accurate comment by the trial judge on the defendant\u2019s failure to take the witness stand was a form of compulsion forbidden by the Constitution. By making silence \u201ccostly,\u201d the Court ruled, the trial judge\u2019s comments had an effect similar in kind, though not in degree, to a contempt ruling or a thumbscrew. Id., at 614. Of course, a defendant\u2019s silence at his own trial is \u201calmost certain to prejudice the defense no matter what else happens in the courtroom\u201d; for the jury will probably draw an unfavorable inference despite instructions to the contrary. Although this \u201ccost\u201d can never be eliminated, Griffin stands for the proposition that the government may not add unnecessarily to the risk taken by a defendant who stands mute. Reasonable men may differ about the wisdom of that holding. But if it is still the law, this conviction should be overturned.\nIn some trials, the defendant\u2019s silence will be like \u201cthe sun . . . shining with full blaze on the open eye.\u201d State v. Cleaves, 59 Me. 298, 301 (1871). But in other trials \u2014 perhaps when the whole story has been told by other witnesses or when the prosecutor\u2019s case is especially weak \u2014 the jury may not focus on the defendant\u2019s failure to testify. For the judge or prosecutor to call it to' the jury\u2019s attention has an undeniably adverse effect on the defendant. Even if jurors try faithfully to obey their instructions, the connection between silence and guilt is often too direct and too natural to be resisted. When the jurors have in fact overlooked it, telling them to ignore the defendant\u2019s silence is like telling them not to think of a white bear.\nThe Court thinks it \u201cwould be strange indeed to conclude that this cautionary instruction violates the very constitutional provision it is intended to protect.\u201d Ante, at 339. Unless the same words mean different things in different mouths, this holding also applies to statements made by the prosecutor in his closing argument. Yet I wonder if the Court would find petitioner\u2019s argument as strange if the prosecutor, or even the judge, had given the instruction three or four times, in slightly different form, just to make sure the jury knew that silence, like killing Caesar, is consistent with honor.\u00ae\nIt is unrealistic to assume that instructions on the right to silence always have a benign effect. At times the instruction will make the defendant\u2019s silence costly indeed. So long as Griffin is good law, the State must have a strong reason for ignoring the defendant\u2019s request that the instruction not be given. Remarkably, the Court fails to identify any reason for overriding the defendant\u2019s choice. Eliminating the instruction on request costs the State nothing, other than the advantage of calling attention to the defendant\u2019s silence. A defendant may waive his Fifth Amendment right to silence, and a judge who thinks his decision unwise may not overrule it. The defendant should also be able to waive, without leave of court, his lesser right to an instruction about his Fifth Amendment right to silence. Many state courts have accepted this conclusion by ruling that no self-incrimination instruction should be given over the defendant\u2019s objection. An ungrudging application of Griffin requires that we do the same.\nI respectfully dissent.\nMr. Justice Marshall joins this opinion, with the exception of the first paragraph and footnote 5.\n\u201cBut the act was framed with a due regard also to those who might prefer to-rely upon the presumption of innocence which the law gives to every one, and not wish to be witnesses. It is not every one who can safely venture on the witness stand though entirely innocent of the charge against him. Excessive timidity, nervousness when facing others and attempting to explain transactions of a suspicious character, and offences charged against him,, will often confuse and embarrass him to such a degree as to increase rather than remove prejudices against him. It is not every one, however honest, who would, therefore, willingly be placed on the witness stand. The statute, in tenderness to the weakness of those who from the causes mentioned might refuse to ask to be a witness, particularly when they may have been in some degree compromised by their association with others, declares that the failure of the defendant in a criminal action to request to be a witness shall not create any presumption against him.\u201d Wilson v. United States, 149 U. S. 60, 66.\nThe Court was there referring to the statutory prohibition against comment on the failure of the accused to testify. But, as we stated in Griffin v. California, 380 U. S. 609, 613-614: \u201cIf the words \u2018Fifth Amendment\u2019 are substituted for \u2018act\u2019 and for \u2018statute,\u2019 the spirit of the Self-Incrimination Clause is reflected.\u201d\nMoreover, there are defendants who prefer to risk a finding of guilt rather than being required to incriminate others whom they either love or fear.\nGriffin was decided over the dissent of Mr. Justice Stewart and Mr. Justice White. I cannot believe that any Member of the Griffin majority would join today\u2019s opinion.\nUnited States v. Davis, 437 F. 2d 928, 933 (CA7 1971).\nThe Court today cites the same scholarly materials, prepared in the 1930\u2019s and 1940\u2019s, that Mr. Justice Stewart cited in his dissent in Griffin. Compare ante, at 337 n. 5 with 380 U. S., at 622 nn. 6-8. The list could have been much longer. In fact, the roster of scholars and judges with reservations about expanding the Fifth Amendment privilege reads like an honor roll of the legal profession. See, e. g., Wigmore, Nemo Tenetur Seipsum Prodere, 5 Harv. L. Rev. 71, 75-88 (1891); Corwin, The Supreme Court\u2019s Construction of the Self-Incrimination Clause, 29 Mich. L. Rev. 191, 207 (1930); Pound, Legal Interrogation of Persons Accused or Suspected of Crime, 24 J. Crim. L. C. & P. S. 1014 (1934); Friendly, The Fifth Amendment Tomorrow: The Case For Constitutional Change, 37 U. Cin. L. Rev. 671 (1968); W. Schaefer, The Suspect and Society 59-76 (1967); Traynor, The Devils of Due Process in Criminal Detection, Detention, and Trial, 33 U. Chi. L. Rev. 657, 677 (1966).\nCf. W. Shakespeare, Julius Caesar, Act III, Sc. II :\n\u201cHere, under leave of Brutus and the rest (For Brutus is an honourable man;\nSo are they all, all honourable men)\nCome I to speak in Caesar\u2019s funeral.\nHe was my friend, faithful and just to me:\nBut Brutus says he was ambitious;\nAnd Brutus is an honourable man.\nHe hath brought many captives home to Rome,\nWhose ransoms did the general coffers fill:\nDid this in Caesar seem ambitious?\nWhen that the poor have cried, Caesar hath wept:\nAmbition should be made of sterner stuff:\nYet Brutus says he was ambitious;\nAnd Brutus is an honourable man.\nYou all did see that on the Lupercal I thrice presented him a kingly crown,\nWhich he did thrice refuse: was this ambition?\nYet Brutus says he was ambitious;\nAnd, sure, he is an honourable man.\u201d\nFor the sake of comparison, here is a charge actually given in one reported case:\n\u201c 'I recall that the defendant, even though he offered evidence, he did not take the stand and testify in his own behalf. Now, I make mention of that fact for this purpose. I have told you that he had no responsibility to offer any evidence, had a right to but no responsibility to; that he owed you no duty to offer any evidence; that the State had the whole burden and has the whole burden of proof throughout this ease. Now that being so, he had an absolute right under the law to try his lawsuit in the fashion that he decided that it ought to be tried. He had a right to offer no evidence. If he offered any, he had a right to remain off the stand. You can\u2019t punish any man for exercising a lawful right. So I give emphasis to this fact: The fact that the defendant did not testify does not permit you to speculate about why he did not. I have told you why he did not. He has exercised a lawful right. You may not taire the position during your deliberations did he have something he didn\u2019t want us to know. He has exercised the lawful right and you may not hold it against him to any extent the fact that he did not testify. You must deal with what you have before you in this evidence and you may not hold against the defendant a\u2019taE the fact that he did not testify.\u2019 \u201d State v. Caron, 288 N. C. 467, 471-472, 219 S. E. 2d 68, 71 (1975), cert. denied, 425 U. S. 971.\nDeciding when the instruction will do more harm than good is not an easy task. But the same may be said of deciding whether to take the stand at all.\nHow far the Court deviates from the course charted in Griffin may be seen by comparing its reasoning to the analysis in an earlier case that followed Griffin more faithfully. In Brooks v. Tennessee, 406 U. S. 605, state law required the defendant to be the first defense witness if he wanted to testify at all. Since defendants may not be sequestered like other witnesses, this rule was the only way to prevent opportunistic defendants from shading their testimony to match that of other defense witnesses. Despite the substantial state interest in avoiding perjury, this Court struck down the rule, relying on Griffin. 406 U. S., at 611. The Brooks court thought that a defendant who planned to take the stand only if his case was weak, but who could not judge its weakness in advance, might be imnecessarEy compelled to testify under the Tennessee law. In Brooks, the State had a good reason for it's action; here the State has none. In Brooks, the compulsive force of the rule was speculative at best; here it is direct and plain. If today we are true to Griffin, as the Court asserts, then Brooks was surely wrong.\nIt is true that Learned Hand thought it absurd to find a violation of the Fifth Amendment when an instruction of this sort was given over the defendant\u2019s objection. Ante, at 341 n. 12. See Becher v. United States, 5 F. 2d 45, 49 (CA2 1924). But Judge Hand did not foresee Griffin, just as he did not foresee developments that were nearer at hand. In United States v. Bruno, 105 F. 2d 921 (CA2 1939), for example, he joined an opinion affirming a conviction even though the trial judge had refused to instruct the jury not to penalize the defendants for remaining silent. This Court granted certiorari and reversed. 308 U. S. 287. Now that Griffin has been decided, the more significant portion of Judge Hand\u2019s statement is his belief that \"[i]t is no doubt better if a defendant requests no charge upon the subject, for the trial judge to say nothing about it.\u201d 5 F. 2d, at 49.\nSee People v. Hampton, 394 Mich. 437, 231 N. W. 2d 654 (1975); Gross v. State, 261 Ind. 489, 306 N. E. 2d 371 (1974); State v. White, 285 A. 2d 832 (Me. 1972); Villines v. State, 492 P. 2d 343 (Okla. Crim. App. 1971); State v. Kimball, 176 N. W. 2d 864 (Iowa 1970); Russell v. State, 240 Ark. 97, 398 S. W. 2d 213 (1966); People v. Horrigan, 253 Cal. App. 2d 519, 61 Cal. Rptr. 403 (1967); People v. Molano, 253 Cal. App. 2d 841, 61 Cal. Rptr. 821 (1967). See also United States v. Smith, 392 F. 2d 302 (CA4 1968).",
+        "type": "dissent",
+        "author": "Mr. Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Phillip M. Margolin, by appointment of the Court, 434 U. S. 918, argued the cause and filed a brief for petitioner.",
+      "Thomas H. Denney, Assistant Attorney General of Oregon, argued the cause for respondent. With him on the brief were James A. Redden, Attorney General, and Al J. Laue, Solicitor General."
+    ],
+    "corrections": "",
+    "head_matter": "LAKESIDE v. OREGON\nNo, 76-6942.\nArgued January 18, 1978\nDecided March 22, 1978\nStewart, J., delivered the opinion of the Court, in which Burger, C. J., and White, Blackmun, Powell, and Rehnquist, JJ., joined. Stevens, J., filed a dissenting opinion, in which Marshall, J., joined in part, post, p. 342. Brennan, J., took no part in the consideration or decision of the case.\nPhillip M. Margolin, by appointment of the Court, 434 U. S. 918, argued the cause and filed a brief for petitioner.\nThomas H. Denney, Assistant Attorney General of Oregon, argued the cause for respondent. With him on the brief were James A. Redden, Attorney General, and Al J. Laue, Solicitor General."
+  },
+  "file_name": "0333-01",
+  "first_page_order": 405,
+  "last_page_order": 420
+}
