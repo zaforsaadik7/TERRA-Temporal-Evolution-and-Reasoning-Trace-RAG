@@ -1,0 +1,925 @@
+{
+  "id": 407846,
+  "name": "HOLMGREN v. UNITED STATES",
+  "name_abbreviation": "Holmgren v. United States",
+  "decision_date": "1910-05-16",
+  "docket_number": "No. 132",
+  "first_page": "509",
+  "last_page": "524",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "217 U.S. 509"
+    },
+    {
+      "type": "parallel",
+      "cite": "54 L. Ed. 861"
+    },
+    {
+      "type": "parallel",
+      "cite": "30 S. Ct. 588"
+    },
+    {
+      "type": "vendor",
+      "cite": "1910 U.S. LEXIS 1979"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1909-152"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "2 How.- 375",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "20 Wall. 159",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3394500
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/87/0159-01"
+      ]
+    },
+    {
+      "cite": "15 Wall. 409",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "105 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3495440
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/105/0347-01"
+      ]
+    },
+    {
+      "cite": "35 Tex. Crim. Rep. 545",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        158525
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex-crim/35/0545-01"
+      ]
+    },
+    {
+      "cite": "58 N, H. 203",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        1805483
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nh/58/0203-01"
+      ]
+    },
+    {
+      "cite": "43 N. H. 255",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        4552842
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nh/43/0255-01"
+      ]
+    },
+    {
+      "cite": "31 W. Va. 491",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8640160
+      ],
+      "pin_cites": [
+        {
+          "page": "499"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/w-va/31/0491-01"
+      ]
+    },
+    {
+      "cite": "6 Tex. 'App. 525",
+      "category": "reporters:state",
+      "reporter": "White & W.",
+      "pin_cites": [
+        {
+          "page": "536"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "160 U, S'. 30",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "146 U. S. 140",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564613
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0140-01"
+      ]
+    },
+    {
+      "cite": "93 U, S. 291",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646655
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/93/0291-01"
+      ]
+    },
+    {
+      "cite": "5 Cranch, 11",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        1446284
+      ],
+      "pin_cites": [
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/9/0011-01"
+      ]
+    },
+    {
+      "cite": "7 Cranch, 420",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        572692
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/11/0420-01"
+      ]
+    },
+    {
+      "cite": "134 U, S. 626",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "100 U. S.. 508",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4653
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/100/0508-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 50",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5644543
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/94/0050-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299297
+      ],
+      "pin_cites": [
+        {
+          "page": "374"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/134/0372-01"
+      ]
+    },
+    {
+      "cite": "97 N. C. 484",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8650938
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nc/97/0484-01"
+      ]
+    },
+    {
+      "cite": "19 N. C. 390",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        11276144
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nc/19/0390-01"
+      ]
+    },
+    {
+      "cite": "39 N. J. Law, 598",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        351420
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/njl/39/0598-01"
+      ]
+    },
+    {
+      "cite": "1 Mackey, 341",
+      "category": "reporters:state",
+      "reporter": "Mackey",
+      "case_ids": [
+        8480993
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/dc/12/0341-01"
+      ]
+    },
+    {
+      "cite": "1 Mackey, 152",
+      "category": "reporters:state",
+      "reporter": "Mackey",
+      "case_ids": [
+        8479978
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/dc/12/0152-01"
+      ]
+    },
+    {
+      "cite": "36 Pac. Rep. 3",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        2333628
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/cal-unrep/4/0505-01"
+      ]
+    },
+    {
+      "cite": "2 Fed. Rep. 708",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "58 Fed. Rep. 1004",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "65 Fed. Rep. 78",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3790214
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/65/0078-01"
+      ]
+    },
+    {
+      "cite": "38 Fed. Rep. 404",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6718494
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/38/0404-01"
+      ]
+    },
+    {
+      "cite": "18 Fed. Rep. 907",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6733360
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/18/0907-01"
+      ]
+    },
+    {
+      "cite": "53 Fed. Rep. 536",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3806227
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/53/0536-01"
+      ]
+    },
+    {
+      "cite": "98 U. S. 145",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11293
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/98/0145-01"
+      ]
+    },
+    {
+      "cite": "12 How. 246",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3365276
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/53/0246-01"
+      ]
+    },
+    {
+      "cite": "152 U. S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3574839
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/152/0087-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239491
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/175/0500-01"
+      ]
+    },
+    {
+      "cite": "7 Wheat. 530",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1503015
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/20/0530-01"
+      ]
+    },
+    {
+      "cite": "63 Fed. Rep. 93",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3791815
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/63/0093-01"
+      ]
+    },
+    {
+      "cite": "4 How. 131",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        1503931
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/45/0131-01"
+      ]
+    },
+    {
+      "cite": "11 How. 669",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        583705
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/52/0669-01"
+      ]
+    },
+    {
+      "cite": "49 Fed. Rep. 32",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3819385
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/49/0032-01"
+      ]
+    },
+    {
+      "cite": "107 Pa, St. 267",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        8857287
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/107/0267-01"
+      ]
+    },
+    {
+      "cite": "197 Pa. St. 243",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        918691
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/197/0243-01"
+      ]
+    },
+    {
+      "cite": "4 Bin. 150",
+      "category": "reporters:state",
+      "reporter": "Binn.",
+      "case_ids": [
+        1792444
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/binn/4/0137-01"
+      ]
+    },
+    {
+      "cite": "4 Johns. 487",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "case_ids": [
+        2001828
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/johns/4/0487-01"
+      ]
+    },
+    {
+      "cite": "112 Fed. Rep. 523",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6720944
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/112/0523-01"
+      ]
+    },
+    {
+      "cite": "1 Wheat.' 304",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        532366
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/14/0304-01"
+      ]
+    },
+    {
+      "cite": "125 Fed. Rep. 949",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        65625
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/125/0949-01"
+      ]
+    },
+    {
+      "cite": "50 N. H.. 245",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        477415
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nh/50/0245-01"
+      ]
+    },
+    {
+      "cite": "30 Pa. St. 475",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        415623
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/pa/30/0475-01"
+      ]
+    },
+    {
+      "cite": "2 Woods, 428",
+      "category": "reporters:federal",
+      "reporter": "Woods",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 N. H. 83",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "15 N. H. 33",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 Wheat. 76",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1442088
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/18/0076-01"
+      ]
+    },
+    {
+      "cite": "133 Fed. Rep. 257",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3859652
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "264"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/133/0257-01"
+      ]
+    },
+    {
+      "cite": "156 Fed. Rep. 439",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6749890
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/156/0439-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 729",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3504233
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0729-01"
+      ]
+    },
+    {
+      "cite": "14 Stat. 75",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "209 U. S. 56",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288240
+      ],
+      "pin_cites": [
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/209/0056-01"
+      ]
+    },
+    {
+      "cite": "158 U. S. 408",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1220446
+      ],
+      "pin_cites": [
+        {
+          "page": "411"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/158/0408-01"
+      ]
+    },
+    {
+      "cite": "97 U. S. 581",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3377230
+      ],
+      "pin_cites": [
+        {
+          "page": "583"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/97/0581-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3383339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/95/0188-01"
+      ]
+    },
+    {
+      "cite": "16 Stat. 254",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Gray, 559",
+      "category": "reporters:state",
+      "reporter": "Gray",
+      "case_ids": [
+        2075547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/70/0559-01"
+      ]
+    },
+    {
+      "cite": "34 Stat. 596",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cranch, 176",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        530399
+      ],
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/10/0176-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 140",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564613
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/146/0140-01"
+      ]
+    },
+    {
+      "cite": "93 U, S. 291",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5646655
+      ],
+      "pin_cites": [
+        {
+          "page": "301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/93/0291-01"
+      ]
+    },
+    {
+      "cite": "7 Cranch, 420",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        572692
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/11/0420-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299297
+      ],
+      "pin_cites": [
+        {
+          "page": "374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/134/0372-01"
+      ]
+    },
+    {
+      "cite": "112 Fed. Rep. 523",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6720944
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/112/0523-01"
+      ]
+    },
+    {
+      "cite": "156 Fed. Rep. 439",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6749890
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/156/0439-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 729",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3504233
+      ],
+      "pin_cites": [
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/110/0729-01"
+      ]
+    },
+    {
+      "cite": "14 Stat. 75",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1377,
+    "char_count": 31873,
+    "ocr_confidence": 0.555,
+    "pagerank": {
+      "raw": 2.581676380472478e-06,
+      "percentile": 0.9967218166001184
+    },
+    "sha256": "76b46999758173632557c4f1143a9dc538bf5fd29e6f7752d573a1417c3e2165",
+    "simhash": "1:b0f95727beadd439",
+    "word_count": 5467
+  },
+  "last_updated": "2024-02-27T17:13:50.827816+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "HOLMGREN v. UNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "\"Me. Justice Day\ndelivered the opinion of the'court.\nThe petitioner,- Gustav Holmgr\u00e9h, was convicted and sen--tenced in the'District Court of the United Stat\u00e9s for the Northern District of California of the crime Of false swearing \u2022 in naturalization proceedings, in. violation of' \u00a7 5395' of the Revised Statutes of the LJnited States. The judgment was affirmed by the Circuit Court of Appeals. 156 Fed. Rep. 439. The conviction .was upon the third count of tne indictment, which charged that- in a naturalization proceeding, upon the \u2022 application of; one Frank Werta for admission -to citizenship in the United States, pending September 21, 1903, in the Superior Court of the city and county of San Francisco, California, a court of record of the State- of California, with common law jurisdiction, a seal, and a clerk, the petitioner swore falsely in making the material statement, under oath, that, he, the said Gustav.Holmgren, had been acquainted with the \u25a0 Said Frank Werta in the United States during the five years immediately preceding the application for naturalization, whereas in truth and in fact,, as. he then well--knew, the said Werta had not resided continuously in the United States for \u00e1 period of five-years, and the said Holmgren had not known the said Werta .for more than four -years prior to said application.\n\u25a0. The principal question' in the case is whether, under \u00a7 5395, United States Revised Statutes, -a conviction can b'\u00e9\u2019had in a .Federal court for-.a false oath in naturalization- proceedings had in a state court.\n. Preliminarily to a \"consideration of the proper construction of this section we may notice the.contention of the petitioner -that there is no constitutional power in Congress to confer jurisdiction upon the courts of a State in naturalization proceedings, involving-admission to citizenship .in'the United States.\nArticle I, \u00a7 8, clause 4, of the Constitution of the United States vests in Congress the power to establish an uniform rule of naturalization. Acting under this constitutional' authority from the earliest history 'of- the Government, Congress has-' passed acts regulating the naturalization of aliens, admitting them to citizenship in the United States, and has authorized such' proceedings in the state, as well as Federal, courts. The validity of such proceedings by virtue' of the power conferred by acts of Congress has been recognized from an early day. Campbell v. Gordon, 6 Cranch, 176, 182; Stark v. Chesapeake Ins. Co., 7 Cranch, 420,- The naturalization acts of the. United States- from the first one in 1790 have conferred authority upon state courts to admit aliens to citizenship. Van Dyne on Naturalization, p. 11, and the following.- ' \u25a0\nIt is undoubtedly true that the right to create courts for the States does not exist in Congress. The Constitution provides (Art. Ill, \u00a7 1) that the judicial power of the United States shall be vested in one Supreme Court and in such inferior courts -as the Congress may from time to time ordain and es- \u25a0 tablish. But it does not follow -that Congress may not constitutionally authorize the magistrates or courts of a State to enforce a statute, providing for a uniform system of naturalization, and defining certain proceedings- which, when complied with, shall make the applicant a citizen of- the United States.. This Congress had undertaken-to .do in making provision for the naturalization of aliens to become citizens of the United' States in a certain -class of state courts \u2014 those of record having common law jurisdiction, a clerk and a seal. Rev. Stat.. U: S., \u00a7 2165 (since superseded by the act of (Jun\u00e9 \u00a129, 1906, c. 3592, 34 Stat. 596).\nThe question is not here presented -whether the States can be required to' enforce \u2022 such naturalization laws against their consent;' for it appears that the constitution of the State of California, in \u00a7 .5, article 6, and the statutes in \u00a7 76 of the Code of Civil Procedure of that State, grant to the courts the power of naturalization and the .right to issue papers therefor. Unless prohibited by state legislation, state courts and magistrates may exercise the powers conferred by- Congress under such laws. . Stephens, Petitioner, 4 Gray, 559. The indictment charges that' Werta made' application as an alien to be admitted to citizenship in the United States; the proceeding was had and'false bath charged was taken under authority of the statutes of the United States, The present proceeding \u25a0 was to prosecute the petitioner for alleged false swearing under an oath administered under authority of a law of the United States. Where such is the case we think the Congress of the United States may constitutionally provide for the punishment of such offenses, whether the path is taken before a Federal court or officer, or before a state court or officer acting under authority derived from the act of Congress. See In re Loney, 134 U. S. 372, 374.\nWe come, then, to the question whether the section under which the proceeding was had authorizes a prosecution for perjury when committed in naturalization proceedings in other than Federal courts. \"As we have seen,, the statutes of the United States confer jurisdiction to admit aliens to citizenship in the United States, not only on Federal courts, but \u25a0 also upon certain state courts, and \u00a7 5395. of the Revised Statutes provides: \u2022\n\u201cIn all cases where any oath or affidavit is made or taken under or by virtue of any law relating to the naturalization of aliens, or in any proceedings under such laws, any perspn taking or making such oath or affidavit, who knowingly swears . falsely, shall be punished by imprisonment for not more than five years nor less than one year, and by' a fine of not more than one thousand dollars.\u201d\nThe terms of this section are certainly broad enough to include an oath or affidavit, .whether taken in a Federal court or a state court, for the requirement of the statute is that s.uch oath or affidavit be made or vtaken under or by virtue of any law relating to naturalization of aliens or in any proceedings under any such laws, The false oath in question was taken under and by virtue of the Federal statutes regulating naturalization, and in \u00e1 proceeding authorized under such laws, although in a state court.\nIt is contended, however, that the history of this section (5395) and the effect of the revision of the laws . embodied in the Revised Statutes, of 1873 makes it applicable only to false swearing in the courts of the United States in such' naturalization proceedings as may be'therein instituted. As carried into the Revised Statutes, this section was taken from ' \u00a7 1 of the act of July 14, 1870, being an act to amend the naturalization laws and to punish crimes against the same, etc. July 14, 1870, c. 254, 16 Stat. 254. Section 4 of thatoact was as follows:\n\u25a0 \u201cAnd be it further enacted, That the provisions of this act shall apply to all proceedings had or taken or attempted to be had or taken before any court in which any proceeding for naturalization shall be commenced, had, or taken, or attempted to be commenced; and the courts of the United States shall have jurisdiction of all offenses under the provisions of this act, in or before whatsoever court or tribunal the same shall have been committed.\u201d\nIn codifying the statutes,, the first section of the act of July 14, 1870, was made \u00a7 5395 of the Revised Statutes, and is part of Title LXX, chapter 4, \u201cCrimes against Justice.\u201d Sections 2 and 3 of the act were made \u00a7.\u00a7 5424 to 5428 of the Revised Statutes, and part of chapter 5, entitled \u201cCrimes against the Operations of the Government.\u201d Section 4 of the act of July 14,1870, was made \u00a7 5429 of the Revised Statutes, and reads as follows:\n\u201cThe provisions of the five preceding sections shall apply to all proceedings had or taken, or attempted to be had or taken,, before any court in which any proceeding for naturalization may be commenced or attempted to be commenced-.\u201d\nThe argument is that, inasmuch as \u00a7 5395 is not one of the \u201cfive preceding sections,\u201d it is to be inferred that Congress intended to give jurisdiction to the Federal courts for violation of that section only in naturalization proceedings in the Federal courts, and not to include false swearing in naturalization proceedings before any court, which would include a state court. But we cannot agree to this contention. The Revised Statutes are the result of the revision and codification of the laws under authority of an act of Congress, whose purpose it was, not to create a new system of laws, but to codify and arrange former laws, omitting redundant or obsolete enactments, and making such amendments and changes as were necessary to correct contradictions, supply omissions and amend imperfections in the original text. June 27, 1866, c. 141; 14 Stat. 75.\nThe courts will not infer that Congress in revising and consolidating the laws intended to change their policy in the absence of a clear expression of such purpose. United States v. Ryder, 110 U. S. 729, 740. No reason is suggested for a change of the purposes of the law in the separation of the sections according to the codification in the manner we have stated. The purpose of the laws was still the same, and when we interpret this section of the statutes, in'view of its origin, we think there can be no doubt of its meaning. The act of July 14, 1870, made its provision applicable to all proceedings had before any court in which naturalization proceeding\u00ae might be commenced, and gave to the courts of the United States jurisdiction of all such offenses committed before any tribunal, state or Federal. The language of \u00a7 5395 is broad enough to include proceedings in any court, and, considered in the light of its adoption from laws of the same purport, we have'no doubt of the intention of Congress to continue to include all such proceedings.\nIt is next contended that the' court erred in permitting the indictment to go to the jury, and be taken with them into the jury-room, which, indictment contained an indorsement thereon showing the conviction of the accused on the third count thereof at a former trial. The proceedings in this respect are thus set out in the record:\n\u2022 \u201cThereupon and before the jury retired to deliberate upon their verdict the clerk- of the court handed to the jury the forms of ballot with the indictment in the case. That said indictment was taken by them to the jury room and retained by them during their entire deliberations in the cause. That the jury retired at 12.30 o\u2019clock and later returned to the court with a verdict of guilty on the third count of said indictment. That- at the time said indictment was handed to the jury by the.officials of the court and was taken by said jury to the jury room, there were the following endorsements upon said indictment: \u2018Form No. 168. Back of cover of indictment with, plea and judgment. Arraigned Nov. 2, 1905, Mch. 14, 1906. Pleads not guilty. Tried April 5, 6, 7, 1906. Verdict not guilty on the lst.and 2nd Counts of the Indictment and Guilty on the 3rd Count of the Indictment. April 13,1906. New Trial is granted.\u2019 \u201d\nIt would be sufficient to say of this objection that it was not taken until a motion was made for a new trial, which motion, with the accompanying affidavits to the effect that the jury had read and considered the indorsements upon the indictment, was considered and the motion overruled by the trial-court. It has been frequently, decided that the allowance or refusal of a new trial rests in the sound discretion of the trial court and its action in that respect cannot be made the basis of review by writ of error to this court. Indianapolis &c. R. R. Co. v. Horst, 93 U. S. 291, 301; Kerr v, Clampitt, 95 U. S. 188; Newcomb v. Wood, 97 U. S. 581, 583.\nIt is contended by the petitioner that a contrary view to that taken by the Circuit Court of Appeals in this case was taken .in Ogden v. United States, 112 Fed. Rep. 523, Circuit Court of Appeals of . the Third Circuit. In that case, however, it appeared that the court below refused to consider the motion and affidavit-showing that the indictment, with an indorsement of a former conviction thereon, had been taken to and kept in the jury-room during their deliberations. The court recognized the rule that the overruling of a motion for a new trial is not a subject of review in an appellate court, but found that the court below had refused to consider the motion and affidavits, and declined to exercise its discretion, as it was its duty to do. It is true the court, after finding that reversible error had been committed by the failure to entertain the motion for a new trial, deemed it was its duty not merely to remand so that the motion might be considered by the court below, but itself passed upon the motion for a new trial. The primary basis, however, upon which the. court acted was the failure of the court below to consider the motion for a new trial, a circumstance which does not exist here. To the like effect is Mattox v. United States, 146 U. S. 140, where' the court below- refused to entertain affidavits showing the reading of a newspaper, containing an unfavorable article, during the deliberations of the jury, and also damaging' remarks of an officer in charge of the jury during the progress of the trial. In both cases the basis of the action of the reviewing court was the refusal of the courts below to exercise the discretion vested in them by. law.\nBut, it is urged, that notwithstanding the objection was first taken in this case upon the motion for a new trial, this court may notice a plain error not properly reserved in the record. Undoubtedly the court has this authority and does sometimes exercise it. \u25a0 . \u2022\nBut an examination of the record in this case does not \u2022 satisfy us that we should exercise this right to review an error not properly reserved, and require the granting of a new trial, because of the indorsements upon the indictment sent to the jury, together with the forms of verdict. The record contains all the testimony, and is ample to sustain the conviction of the defendant without giving weight to the effect of' this indorsement. The indorsement itself shows that a new trial was granted upon the former conviction on the third count. This action of the court in setting aside what the jury had formerly done is quite as likely to influence the jury favorably to the accused, as was the fact of former conviction by the jury to work to his prejudice.\nWe do not mean to indicate that such indorsements should be permitted to go to a jury, or that the fact of former conviction should be urged or referred to in the progress of the trial. It is undoubtedly the correct rule that the jury should be kept free from all such extraneous and improper influences. But, in this case we do not'find in the record any reason for the exercise of the authority granted to us under the thirty-fifth, rule to notice a plain error not properly reserved.\nIt is further urged that the indictment in the third count thereof does not properly charge an offense against Holmgren. It is true that in the third count it appears that the name of Frank Werta, the alien, was written by mistake for that of Gustav Holmgren, in averring that the witness was duly and properly sworn, but this count also., contains the averment that \u201cthe said Gustav Holmgren having taken such oath to testify, as aforesaid, did. then and there willfully,\u201d etc., and \u201ccontrary to the said oath testify in substance and to the effect,\u201d etc. This objection does not appear to have been specifically pointed out in the demurrer or otherwise taken advantage of upon the trial. In this proceeding it is too late to urge such objections to a matter .of form unless it is apparent that it affected the substantial rights of the accused. Revised Stat., \u00a7 1025; Conners v. United, States, 158 U. S. 408, 411; Armour Packing Co. v. United States, 209 U. S. 56, 84.\nIt is further alleged that the court erred in refusing to give the following request to charge conc\u00e9rning the testimony of Frank Werta, the alien seeking to-be naturalized in the proceeding:\n\u201cI charge you that if you believe the testimony of the witness Frank Werta, then that said'witness was an accomplice in crime with the defendant; and I instruct you that before you can convict said defendant the testimony of the witness, Frank Werta should be corroborated by the testimony of at least one witness or strong corroborative circumstances.\u201d\nIt may be doubtful whether Werta can- be regarded as an accomplice, as the record tends to show that he had no part in procuring the testimony of Holmgren, and in nowise induced him to make the oath which was the basis for the proceedings. Be that as it may, the request did not properly state the law, as it assumed that Werta was an accomplice, a conclusion which was controverted, and' against which the jury might have found in the light of the testimony. It is undoubtedly the better practice for courts to caution juries against too much .reliance upon the testimony of accomplices, and to require corroborating testimony before giving credence to them. But no such charge was asked to be presented to the jury by any proper request in the case, and the refusal to grant the one asked for was not error.\nOther questions are raised in the case as to the admissibility of certain testimony; wfe have examined them and find nothing prejudicial to the rights of the petitioner.\nThe judgment of the Circuit Court of' Appeals is, therefore, affirmed.\nAffirmed.",
+        "type": "majority",
+        "author": "\"Me. Justice Day"
+      }
+    ],
+    "attorneys": [
+      "Mr. Marshall B. Woodworth for petitioner,-. submitted: \u25a0",
+      "Mr. Assistant Attorney General Fowler for the United States:"
+    ],
+    "corrections": "",
+    "head_matter": "HOLMGREN v. UNITED STATES.\nCERTIORARI TO THE' COURT OF APPEALS FOR THE NINTH CIRCUIT.\nNo. 132.\nArgued March 9, 1910.\nDecided May 16, 1910.\nThe validity, under Art. I. \u00a78^ cl. 4, of the Constitution, of the acts of Congress regulating naturalization of aliens and.authorizing naturalization proceedings in state as well as Federal courts, has never been questioned. .\nAlthough Congress may not create courts for the States, it may authorize a state court to enforce in a prescribed manner' a Federal-statute relating to a matter within Federal control; and may punish th\u00e9 offense of perjury if committed in such a proceeding in a state \u2022 court, as well as in a Federal court.\nOne falsely swearing in a n\u00e1turalization proceeding, whether in a state or in a Federal court,' is punishable under \u00a7 5395, Rev. Stat.\nThe Revised Statutes were compiled' under authority.of the act of Congress of June 27,1.866, c. 140,14 Stat. 75, the purpose.'of which was revision and codification- arid not the creation- of a new system of laws.: and the courts will not infer, iri the absence of clearly expressed .intent, that Congress in adopting the Revised Statutes intended to change the- policy of the- laws, United States v. Rider, 110 U. S. 729; and so held that \u00a7\u00a7 5395 and 5429,- adopted from .the act- of July 14, 1870, c. 254,16 Stat.\"-254, in regard t\u00f3 naturalization, should -be construed -so as to continue to include the penalties for perjury in all naturalization proceedings' notwithstanding that, -.owing to rearrangement, \u00a7 5395 -was not .one of the -five preceding sections to \u00a7\u20225429, as was, its corresponding sectiori in the act- of. 1870 to the corresponding section in that act from'which \u00a7 5429 was-taken. ;\nAn objection to the jury taking an indictment with indorsement of\n' prior conviction thereon' into .the jury-room should be taken at the trial. If not taken until- the motion for new trial, it cannot be reviewed on error. \u2022\nAlthough this court may, under Rule 35, -notice a plain error not assigned, it will' not exercise the authority,- if; the error did not prejudice plaintiff in error; and'so held in this case in regard to the objection that the jury had taken into the .jury-room an .indictment with indorsement thereon of former cohvictipn, it also having-the indorsement thereon of the granting of a new trial.\nAn objection that a count itt the indictment, does not charge a crime because the wrong name was written in at one point by. mistake must \u2022 \u25a0be taken in the demurrer of on the trial; unless it substantially affected the rights of the' accused it comes too late.in this' eoiirt for the first time. , ' - \u25a0 \u25a0 \u2022 \"\u2022\nWhile the court should, caution th\u00e9 jury against relying on uncorroborated testimony of an. accomplice, it cannot assume as a fact, when controverted, that a .witness was an accomplice and that his testimony required corroboration. \u25a0\n156 Fed. R\u00e9p. 439, affirmed.',\n\u2022The facts, which involve the validity'of a conviction for perjury under \u00a7 5395, .'Rev. Stat:,' for false swearing in a naturalization proceeding in a state, court; are. stated in the opinion.\nMr. Marshall B. Woodworth for petitioner,-. submitted: \u25a0\nThe offense, if any, was committed in a- state court. Federal courts have no jurisdiction of -the crime, of perjury com-r mitted in state court's. ' United States v. Babcock, 4 McLean, \u2022 113; and see cases and statutes cited in dissenting opinion of Ross, J., in Schmidt v; United States,' 133 Fed. Rep. 257.\nCriminal statutes should not be extended by implication. T\u00f3dd V: United States, \u00bf58 U. S. 292; Bolles v.' Outing Co.,: \u25a0 175 U. S. ,262; United States v..' Harris, 177 U. Si 305; Ex parte McNulty, 77 California, -164; United; States v. Wiltberger, 5 Wheat. 76; In re.Loney, 134 TJ. S. 272.\n\u2022 Upon the enactment of the Revised'.Statutes, \u00a7T of,the-act of July 14, 1870, became \u00a7 5395, but it was severed from the other three sections of the act of July'14,1870. '\n\u2022Section 5429, Rev. .Stat., which\u2019 makes the'five .preceding sections apply to all proceedings had or taken,, or attempted. . to be had or tak\u00e9n, before any court in which any proceeding for naturalization may be commenced \u2022 or attempted to be. commenced does not refer to \u00a7 5395, Rev.. Stat: \u25a0\nThe reenactment of a statute, leaving but a part of the former act, amounts to a .repeal of all not' so. reenacted. Sutherland on Stat. Const., \u00a7\u25a0 154..\nCongress evidently, ex industria, evolved a different scheme and. plan of denouncing offenses' against, the .naturalization laws from that first contained in the act of July 14, 1870, in' view of the rule that perjury is properly punishable only by the court of jurisdiction where committed. State v., Pike, 15 N. H. 33 (4 N. H. 83); Ex parie Bridges, 2 Woods, 428; State v. Shelley, 11 Lea (Tenn.), 594; Rossy. State, 55 Georgia,. 192; State v. Adams, 4 Black; .146; People v. Kelly,. 38 California,-. \u25a0145; State v. Kirkpatrick, 32-Kansas, 117; Rump v. Commonwealth, 30 Pa. St. 475; Stake v. Whiitemore, 50 N. H.. 245; Spratt v. Spratt,A Pet'. 393, 408. See subject discussed in United States v. Severing, 125 Fed. Rep. 949. \u25a0\n.There was no Federal statute when-.the petitioner was charged and convicted in the Federal court, ydnch, in plain terms, conferred jurisdiction upen the Federal courts to punish perjuries and false oaths committed in naturalization pro- \u2022 .eeedings in state courts. If there' was such a Federal statute,. it would be unconstitutional aod void.\nCongress cannot endow state courts with any jurisdiction. The California courts get jurisdiction to naturalize aliens from the constitution and laws of the State. Ex port\u00e9 Knowles, 5 : California, 300; see Martin v. Hunter, 1 Wheat.' 304; Maryland v. Butler, reported in 12 Niles\u2019 Register, 115;. United States v. Lathrop, 17 Johnson\u2019o Gh. Rep-. 4; State v: McBride, Rice\u2019s Ch. Rep. 400.\nWhile Congress cannot comer on state court's jurisdiction to naturalize, it' can, in naturalization proceedings, limit' the state court in its mode of- proceeding, and can prohibit, the. . state courts from acting; and it actually has done so as to any , state court, which .is not a \u201cCourt of-Record\u201d and does not have, \u201ccommon law jurisdiction, and a.Seal and Clerk.\u201d Ex parte Knowles, supra; State v. Whitterhgr\u00e9, supra; Rurrip v. Commonwealth, supra; In re Loney, supra. ,\nState tribunals cannot punish breaches of the United States laws, even though an act of Congress undertakes to give them the authority. Neither can perjury against the United States be punished in the States as an offense against the States. 2 Bishop\u2019s Comm. Crim. Law, \u00a7 866.\nFederal tribunals cannot punish breaches of the state laws in Federal courts, such as perjury committed in the state courts. This is well-settled law, and the converse is equally true. See People v. Kelly,\u25a0 38 California, 145.\nIt was misconduct on the part of the court to give to the jury indictments, containing information of the adverse result of a previous trial, and it would be presumed that prejudice had been generated by such misconduct. Ogden v. United States, 112 Fed. Rep. 523, citing Dana v. Tucker, 4 Johns. 487; Cluggage\u2019s Lessee v. Swan, 4 Bin. 150; Stull v. Stull; 197 Pa. St. 243; La Bonty v. Lundgren, 41 Nebraska, 312; State v. Snyder, 20 Kansas, 306; People v. Knapp, 42 Michigan, 267; Moss v. Commonwealth, 107 Pa, St. 267; Meyer v. Cadwalder, 49 Fed. Rep. 32. \u2022'\n. Although an appellate court will not consider objections first raised on appeal, errors apparent on the face of the record may be considered by th\u00e9 com\u00ed,, though not objected to below. 2 Cyc. 678, 717, and cases there cited; 2 Cent. Dig., title \u201cAppeal and Error,\u201d \u00a7\u00a7 1145 et seq.; Fuller, v. Ferguson, 26 California, 546; Bennett v. Butterworth, 11 How. 669; Garland v. Davis, 4 How. 131; Kentucky L. Ins. Co. v. Hamilton, 63 Fed. Rep. 93; Marker v. Thomas, 7 Wheat. 530; Ringgold v. - Haven, 1 California, 108; Suydam v.'Williamson, 20 How.-427; United States v. Pena, 175 U. S. 500; Stevenson v. Barbour, 140 U. S: 48; Rowe v. Phelps, 152 U. S. 87. No presumption can be made in favor of the judgment of a lower court where error is apparent in the record.' United States v. Wilkinson, 12 How. 246; Reynolds v. United States, 98 U. S. 145. The error was substantial. Ogden v. United States, supra.\n' The trial court erred in failing to warn the jury of the danger in convicting a defendant on the testimony of an accomplice. Greenleaf on Evidence, 6th ed., 493, \u00a7 380; 12 Cyc. 453; United States v. Ybanez, 53 Fed. Rep. 536; United States v. Flemming, 18 Fed. Rep. 907; United States v. Harries, 26 Fed. Cas. No. 15,309; S. C., 2 Bond Rep. 311; United Statesv. Lancaster, 26 Fed. Cas. No. 15,556; United States v. Reeves, 38 Fed. Rep. 404; United States v. Van Leuven, 65 Fed. Rep. 78; United States v. Sykes, 58 Fed. Rep. 1004; United States v. Kessler, Bald. Rep. 22; United States v. Soria, 2 Fed. Rep. 708; People v. Bonney, 98 California, 278.\nThe trial court not only declined to instruct as requested by counsel for petitioner, but failed to give the jury any instructions as to being cautious in convicting upon such testimony, and the weight to be accorded it.\nAlthough an accomplice is a competent witness for the prosecution, his testimony should be received with great care and caution and a refusal to so instruct is grouqd for reversal. United States v. Smith, Fed. Cas. No. 16,322; United States v. Babcock, Fed. Cas. No. 14,487; United States v. Goldberg, Fed. Cas. No. 15,223; United States v. McKee, Fed. Cas. No. 15,686; Solander v. People, 2 Colorado, 48; Cheatham v. State, 67 Mississippi, 335; People v. Sternberg, 111 California, 11; People v. Sirybe, 36 Pac. Rep. 3; People v. Bonney, 98 California, 278; United States v. Neverson, 1 Mackey, 152; United States v. Bicksler, 1 Mackey, 341; State v. Hyer, 39 N. J. Law, 598; State v. Honey, 19 N. C. 390; Staley. Miller, 97 N. C. 484; Hanley et al. v. United States, 123 Fed. Rep..849.\nMr. Assistant Attorney General Fowler for the United States:\nFederal courts have jurisdiction'to inflict punishment for the offense of perjury committed in naturalization proceedings had in. state courts. Section 5392, Rev'. Stat.; Art. I, \u00a71, cl. 4, Constitution; Title 30, \u00a7\u00a7-2165-2174 of the Rev. Stat.; In rt Loney, 134 U. S. 372, 374; \u00a75395, Rev. Stat. And see Sthmidt v. United States, 133 Fed. Rep. 257, 264, holding that \u00a7 5395, Rev Stat., is as broad in its application as the first \u00a1Lection of the act of 1870. \u00c1 change of phraseology in revision pi statutes will not be regarded as altering, the law where it. has been settled by'plain language, in the statutes, unless it is clear that such was the intent. McDonald v. Eovey, 110'U. S. 619, 629; United State's y. Ryder, 1\u00cd0 INS. 729,'740; Logan v. .United States, 144. XJ. S. 263, 302;. Doyle v. Wisconsin, 94 U. S. 50. n._. \u2018 \u25a0 \u25a0 . \u25a0_\nIn finding .the meaning of an ambiguous statute in the .re- , vision, the courts may refer to the original statute from which -.the section was taken to ascertain from its.language and'con- . text to what class of. cases the provisi\u00f3n'was intended to'apply. The Conqueror, \u00cd6.6 U. S: 122; United States, v-. Bowen, 100 \u00dc. S.. 508; Myer v. C'ar C\u00f3wpany, 102 U. S.11;.United States v. Racher, 134 U, S. 626.\n\u25a0 The validity'of such proceedings in state courts, when had under acts of Congress,. has been recognized from the early history of the Government.' Campbell v. Cordon, 6 Cranch, .176, 182; Stixrk v. Chesapeake Ins: Co.., 7 Cranch, 420; 2 Cyc. Law & Proc. Ill, 112; Constitution of California, \u00a7 5, Aft. V\u00cd; \u00a7 76, Code of. Civil Procedure.of that State.,\n\u2022 .A new trial should n\u00f3t be awarded on the ground that, the \u2019.jury had in their possession, while considering their verdict, the indictment upon which, had been'written the finding- of a former jury that .. petitioner w.as' guilty on' the third count of .the indictment..\nThe.allowance or refusal of a new trial rests in the sound . discretion of the court to which the .application is addressed, ' and the. result cannot' be made the subject of review by writ of error. Henderson v. Moore,-5 Cranch, 11, 12, Marine In--.suranee Co. -V. Young, 5. Cranch, 187, 191; McLanahan v. In--s\u00farance Company,, ! Pet.. 170/ 183; United,States v. Buford, 3 - Pet. 12, 32; Indianapolis &c. R. R: Co: v.'Horst, 93 U, S. 291, '301; Ren y. Clampitt, 95 'U. S.. 188'; Newcomb- v. Wood, 97 . U S. 581;; Mattox y. United States, 146 U. S. 140,. 147; Haws v. - Victoria Mining Company, 160 U, S'. 30.3, 313; Ogden v. United States,. 112.,Fed. Rep.- 523.\nThe trial court\u2019s attention was not called to the fact that the indictment with the indorsement complained of thereon \u2022 was handed to the jury when, the same was done, b.\u00fat it was .first mentioned in the motion for a new trial. Cook v. The State, A T\u00e9x. App. 265, 268; \u00c1rischicks v.- The State, 6 Tex. 'App. 525, 536; State v. Tucker, 75 Connecticut, 201, Forbes v. Commonwealth, 90 Virginia, 550; 'Cargill' v. Commonwealth, ' \u2022'93 Kentucky, 578,' 581; Railway v. Higgins, 53 Arkansas, 458, 467; cited and .followed in Railway Company v. Sweet,' 60 Arkansas, 550, 556; -State v. Shores, 31 W. Va. 491, 499; Smalls v. The State, 105 Georgia, 669, 675; Maynard v: Fell . lows, 43 N. H. 255, 259-\u00a1'Gardner V'. King, 58 N, H. 203; Clapp v. Clapp, 137-Massachusetts, 183.' \u2022 ' ' \u2022\u2022\nPlaintiff in error was not prejudiced' by the fact that the indictment with the indorsement, complained of'thereon was .in possession of the jury. 12 Enc.' of PI. & Prac.599; Hardy v. State, 35 Tex. Crim. Rep. 545, '561; State v. .Shores, supra/ Green v; The Stale, 38 Arkansas, 304, 314; Harold v.- Common- \u25a0 wealth, 8 S. \u2022 W. Rep. 194, 196. It had.no bearing on the facts presented in-this .case. Ogden v, 'United'States, supra, and La B\u00f3nty v. Luridgren, 41, Nebraska; 312, can be'dis-. tinguished..' \u2022 ' \u2022 \u25a0\nIt was not error for the' trial court to refuse tp charge that \u2022 the witness Werta was an accomplice and that his testimony should be corroborated. There is no evidence showing that. Werta was an' accomplice either as the principal or as an accessory before the fact. Insurance Co. v. -Foley, 105 U. S. 347, . 353; Bank v.' Hunt, 11-Wall;-391, 394; Railroad v. Gladnmi. 15 Wall. 409;' Insurance Ca. v. Baring., 20 Wall. 159; 161; Katz v. P-halen, 2 How.- 375,\u2019 381. \u2022"
+  },
+  "file_name": "0509-01",
+  "first_page_order": 539,
+  "last_page_order": 554
+}

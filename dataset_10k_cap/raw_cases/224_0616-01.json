@@ -1,0 +1,773 @@
+{
+  "id": 3668643,
+  "name": "GRAHAM v. STATE OF WEST VIRGINIA",
+  "name_abbreviation": "Graham v. West Virginia",
+  "decision_date": "1912-05-13",
+  "docket_number": "No. 721",
+  "first_page": "616",
+  "last_page": "631",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "224 U.S. 616"
+    },
+    {
+      "type": "parallel",
+      "cite": "56 L. Ed. 917"
+    },
+    {
+      "type": "parallel",
+      "cite": "32 S. Ct. 583"
+    },
+    {
+      "type": "vendor",
+      "cite": "1912 U.S. LEXIS 2330"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1911-236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "142 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3557776
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/142/0155-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3622203
+      ],
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/191/0126-01"
+      ]
+    },
+    {
+      "cite": "217 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "159 U. S. 673",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5700382
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/159/0673-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 311",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3618267
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/180/0311-01"
+      ]
+    },
+    {
+      "cite": "195 N. Y. 190",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        6041064,
+        1194932
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/195/0190-01",
+        "/ny-crim/23/0381-01"
+      ]
+    },
+    {
+      "cite": "156 N. Y. 541",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        41666
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/156/0541-01"
+      ]
+    },
+    {
+      "cite": "11 Pick. 28",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "case_ids": [
+        2016142
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/28/0028-01"
+      ]
+    },
+    {
+      "cite": "18 Wall. 163",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3426585
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/85/0163-01"
+      ]
+    },
+    {
+      "cite": "169 U. S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3597480
+      ],
+      "pin_cites": [
+        {
+          "page": "383"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/169/0366-01"
+      ]
+    },
+    {
+      "cite": "136 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1217862
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/136/0436-01"
+      ]
+    },
+    {
+      "cite": "220 U. S. 61",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3657997
+      ],
+      "pin_cites": [
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/220/0061-01"
+      ]
+    },
+    {
+      "cite": "219 U. S. 35",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653372
+      ],
+      "pin_cites": [
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/219/0035-01"
+      ]
+    },
+    {
+      "cite": "22 App. D. C. 68",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "case_ids": [
+        1344687
+      ],
+      "pin_cites": [
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/app-dc/22/0068-01"
+      ]
+    },
+    {
+      "cite": "14 App. D. C. 423",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "case_ids": [
+        1315811
+      ],
+      "pin_cites": [
+        {
+          "page": "439"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/app-dc/14/0423-01"
+      ]
+    },
+    {
+      "cite": "16 App. D. C. 229",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "case_ids": [
+        1312355
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "235, 236"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/app-dc/16/0229-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 516",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3503887
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/110/0516-01"
+      ]
+    },
+    {
+      "cite": "69 S. E. Rep. 639",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "57 Fed. Rep. 570",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3803228
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/57/0570-01"
+      ]
+    },
+    {
+      "cite": "183 U. S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8296885
+      ],
+      "pin_cites": [
+        {
+          "page": "100, 112"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/183/0079-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599116
+      ],
+      "pin_cites": [
+        {
+          "page": "293"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/170/0283-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298187
+      ],
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/165/0150-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299194
+      ],
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/134/0232-01"
+      ]
+    },
+    {
+      "cite": "192 U. S. 226",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        360335
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/192/0226-01"
+      ]
+    },
+    {
+      "cite": "137 U. S. 692",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3547002
+      ],
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/137/0692-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 540",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3626047
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/184/0540-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 22",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5631139
+      ],
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/101/0022-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 272",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "217 U. S. 413",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        407831
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/217/0413-01"
+      ]
+    },
+    {
+      "cite": "212 U. S. 86",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5710607
+      ],
+      "pin_cites": [
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/212/0086-01"
+      ]
+    },
+    {
+      "cite": "204 U. S. 659",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8294098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/204/0659-01"
+      ]
+    },
+    {
+      "cite": "209 U. S. 467",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8290348
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/209/0467-01"
+      ]
+    },
+    {
+      "cite": "120 U. S. 68",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3467854
+      ],
+      "pin_cites": [
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/120/0068-01"
+      ]
+    },
+    {
+      "cite": "68 W. Va. 142",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8630630
+      ],
+      "pin_cites": [
+        {
+          "page": "150, 151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/w-va/68/0142-01"
+      ]
+    },
+    {
+      "cite": "176 U. S. 581",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5704466
+      ],
+      "pin_cites": [
+        {
+          "page": "584"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/176/0581-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 172",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239474
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "175"
+        },
+        {
+          "page": "177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/175/0172-01"
+      ]
+    },
+    {
+      "cite": "9 Gratt. 738",
+      "category": "reporters:state",
+      "reporter": "Gratt.",
+      "case_ids": [
+        4450348
+      ],
+      "pin_cites": [
+        {
+          "page": "740, 741"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/50/0365-01"
+      ]
+    },
+    {
+      "cite": "2 Met. 413",
+      "category": "reporters:state",
+      "reporter": "Met.",
+      "case_ids": [
+        2041046
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "415"
+        },
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/43/0413-01"
+      ]
+    },
+    {
+      "cite": "2 Pick. 165",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "case_ids": [
+        2049667
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "170"
+        },
+        {
+          "page": "169-171"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/19/0176-01"
+      ]
+    },
+    {
+      "cite": "68 W. Va. 248",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8630987
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/w-va/68/0248-01"
+      ]
+    },
+    {
+      "cite": "191 U. S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3622203
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/191/0126-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 673",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5700382
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/159/0673-01"
+      ]
+    },
+    {
+      "cite": "180 U. S. 311",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3618267
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/180/0311-01"
+      ]
+    },
+    {
+      "cite": "136 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1217862
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/136/0436-01"
+      ]
+    },
+    {
+      "cite": "110 U. S. 516",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3503887
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/110/0516-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 22",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5631139
+      ],
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/101/0022-01"
+      ]
+    },
+    {
+      "cite": "217 U. S. 413",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        407831
+      ],
+      "pin_cites": [
+        {
+          "page": "420"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/217/0413-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1107,
+    "char_count": 29963,
+    "ocr_confidence": 0.575,
+    "pagerank": {
+      "raw": 5.3228388956749026e-06,
+      "percentile": 0.9989437608138544
+    },
+    "sha256": "7a4992831567ad699ae3db3f94f0a80f6e30353a48f27403d96dec47a105562e",
+    "simhash": "1:78f5de6ac47ee4d0",
+    "word_count": 5175
+  },
+  "last_updated": "2024-02-27T21:37:44.739996+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "GRAHAM v. STATE OF WEST VIRGINIA."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Hughes\ndelivered the opinion of the court.\nIn April, 1898, the plaintiff in error, James H. Graham, then known as John. H. Ratliff, was indicted for grand larceny in Pocahontas County, West Virginia, pleaded guilty, and was sentenced to the penitentiary for two years. In April, 1901, under the name of Ratliff, he was indicted for burglary in Pocahontas County, West Virginia, pleaded guilty and was sentenced to the penitentiary for ten years. In October, 1906, he was granted a parole by the Governor of West Virginia upon condition that he should pursue the course of a law abiding citizen. In September, 1907, under the name of John H. Graham, alias J: H. Gray, he.was indicted in Wood County, West Virginia, for grand larceny, pleaded guilty and was sentenced to the penitentiary for five years.\nIn February, 1908,. the prosecuting attorney for Marshall County, in which the penitentiary was located, presented an information to the circuit court of that county alleging that the convict Graham was the same man who had twice before been convicted as above stated. Graham was brought before the court, and pleaded that he was not the same person. Later he withdrew his plea, moved to quash the information, and on denial of the motion renewed the plea. A jury was called, and after hearing evidence for the prosecutor, the defendant offering none, returned a verdict identifying him as the person previously convicted. Thereupon the defendant moved for arrest of judgment upon the ground that the proceeding was in violation of the constitution of the State, and also contrary to the Fifth and Fourteenth Amendments of the Constitution of the United States. The motion was overruled and the court sentenced the prisoner to confinement in the penitentiary for life. The judgment was affirmed by the Supreme Court of Appeals of West Virginia. State v. Graham, 68 W. Va. 248. And the case comes here on error.\nThe proceeding was taken Under \u00a7\u00a7 1 to 5 of chapter 165 of the Code of West Virginia, which are as follows:\n\u201c1. All criminal proceedings against convicts in the penitentiary shall be in the circuit court of the county of Marshall.\n\u201c2. When a prisoner convicted of an offense, .and sentenced to .confinement. therefor in the penitentiary, is received therein, if he was before s\u00e9ntenced to a like punishment, and the record- of his conviction does not show that he has been sentenced under the twenty-third or twenty-fourth .section of chapter one hundred and fifty-two, the superintendent of the penitentiary shall give information thereof, without delay, to the said circuit court of the county of Marshall, whether it be alleged or not in the indictment on which he was so convicted, that he had been before sentenced to a like punishment.\n\u201c 3. The said court shall cause the convict to be brought before it, and upon an information filed, setting forth the several records of conviction, and alleging the identity of the prisoner with the person named in each, shall require the convict named to say whether he is the same person or not.\n\u201c4. If he say he is not, or remain silent, his plea, or the fact of his silence, shall be entered of record, and a jury shall be empaneled to inquire whether the convict is the same person mentioned in the several records.\n\u201c5; If the jury find that he is not the same person, he shall be remanded to the penitentiary; but if they find that he is the same person, or if he acknowledge in open court, after being duly cautioned, that he is the same person, the court shall sentence him to such further confinement as is prescribed by chapter one hundred arid fifty-two, on a second dr third conviction, as the case may be.\u201d\nThe provisions of \u00a7 23 and 24 of chapter 152, to which the above statute refers, are:\n\u201c23. When any person is convicted of an offence and sentenced to confinement therefor in the penitentiary, and it is alleged in the indictment on which he is convicted, and admitted, or by the jury found, that he had been before sentenced in the United States to a like punishment, he shall be ^sentenced to be confined five years in addition to the time to which he is or would be otherwise sentenced. .\n\u201c24. When any such convict shall have been twice before sentenced in the United States to confinement in a penitentiary, he shall be sentenced to be confined in the penitentiary for life.\u201d\n\u2022These statutes were derived from the laws which were in force in Virginia before West Virginia was created and formed part of the Code of Virginia of 1860, c. 199, which in turn had been taken from the Code of 1849, c. 199.\nThe plaintiff in error challenges the validity of the legislation and the proceedings which it authorized, upon the grounds (1) that he has been deprived of his liberty without due process of law; (2) that he has been denied the equal protection of the laws; (3) .that his privileges and immunities as a citizen of, the United States have been abridged, and that he has been denied his immunity from double jeopardy; and (4) that cruel and unusual punishment has been inflicted.\n1. The propriety of inflicting severer punishment upon old offenders has long been recognized in this country and in England. They are not punished the second time for the earlier offense, but the repetition of criminal conduct aggravates their guilt and justifies heavier penalties when they are again convicted. Statutes providing for such increased punishment were enacted in Virginia and New York as early as 1796, and in Massachusetts in 1804; and there have been numerous acts of similar import in many States. This legislation has uniformly been sustained in the state courts (Ross\u2019s Case, 2 Pick. 165, 170; Plumbly v. Commonwealth, 2 Met. 413, 415; Commonwealth v. Richardson, 175 Massachusetts, 202, 205; Rand v. Commonwealth, 9 Gratt. 738, 740, 741; King v. Lynn, 90 Virginia, 345, 347; People v. Stanley, 47 California, 113; People v. Coleman, 145 California, 609; Ingalls v. State, 48 Wisconsin, 647; McGuire v. State, 47 Maryland, 485; State v. Austin, 113 Missouri, 538), and it has been held by this court not to be repugnant to the Federal Constitution. Moore v. Missouri, 159 U. S. 673; McDonald v. Massachusetts, 180 U. S. 311.\nIn the McDonald Case, the statute (Mass. St. 1887, c. 435, \u00a7 1) provided that whenever one had been twice. convicted of crime and committed to prison in Massachusetts, or in any other State, he should, upon conviction of a subsequent felony-, be deemed to be an \u201chabitual criminal\u201d and should.be punished by imprisonment for twenty-five years. In delivering the opinion of the court, Mr. Justice Gray said (p. 312):\n\u201cThe fundamental mistake of the plaintiff in error is his assumption that the judgment below imposes an additional punishment on crimes for which he had already been convicted and punished in Massachusetts and in .New Hampshire.\n\u201cBut it does no such thing.....The punishment is for the new crime only, but is the heavier if he is an habitual criminal. . . . The allegation of previous convictions is not a distinct charge of crimes, but is necessary to bring the. case within the statute, and goes to - the punishment only.\u201d\nIn the present case, it was not charged in the indictment on which the prisoner was last tried that he had previously been, convicted of other offenses, but after judgment he was brought before the court of another county, in a separate proceeding instituted'by information, and on the finding of the jury that he was the former convict he was sentenced to the additional punishment which the statute in such case prescribed.\nBy this proceeding he was not held to answer for an offense; the information did not allege crime. As was said by the Supreme Court'of Appeals of West Virginia: \u201cIt (the information) alleges that he has been held to answer for crime and that he stands convicted of it through the indictment of the grand jury. It points him out as a convict already held, upon whom rests the general sentence of the law of life imprisonment. . .\u2022 . The proceedings under the statute are for identification only. They are clearly not for the establishment of guilt. The question of guilt is not reopened,\u201d State v. Graham, 68 W. Va. 248, 251. Full opportunity was accorded to the prisoner to meet the allegation of former conviction. Plainly, the statute contemplated a valid conviction which, had not been set aside or the consequences of which had not been removed by absolute pardon. No question as to this can be raised here, for the prisoner, in no way sought to contest the validity or unimpaired character of the former judgments, but pleaded that he was not the person who had thus been convicted. On this issue he had due hearing before a jury.\nIt cannot be said that the prisoner was deprived of due process of law because the question as to former conviction was passed upon separately. While it is familiar practice-to set forth in the indictment the fact of prior conviction of another offense, and to submit to the jury the evidence upon that issue together with that relating to the commission of the crime which the indictment charges, still in its nature it is a distinct issue, and it may appropriately be the subject of separate determination. Provision for a separate, and subsequent, determination of his identity with the former convict has not been regarded as a deprivation of any fundamental right. It was established by statute in England that, although the fact was alleged in the indictment, the evidence of the former conviction should not be given to the jury until they had found their verdict on the charge of crime. The act of 6 and 7 Will. IV, c. Ill, provided that it should \u201cnot be lawful on the trial of any person for any such subsequent felony to charge the jury to inquire concerning such previous conviction until after they shall have inquired concerning such subsequent felony, and shall have found such person guilty of the same; and whenever in any indictment such previous conviction shall be stated, the reading of such statement to the jury as part of the indictment shall be deferred until after such finding as aforesaid.\u201d Exception was made in cases where th\u00e9 accused gave evidence of good character to meet the charge of crime, whereupon the prosecutor might show the former conviction before the verdict of guilty had been returned. And in Regina v. Shuttleworth, 3 C. & K. 375, 376, Lord Campbell thus stated the practice under the statute: \u201cIt is the opinion of all the judges \u2014 The prisoner is to be arraigned on the whole indictment, and the jury are to have the new charge only stated to them; and if no evidence is given as to character, nothing is to be read to the jury of the previous conviction till the jury have given a verdict as to the new charge. The jury, without being resworn, are then to have the previous convictions stated to them; and the certificate of it is to be put in, and the prisoner\u2019s identity proved.\u201d See 24 & 25 Viet., c. 96, \u00a7 116.\nIf a State adopts the policy of imposing heavier punishment for repeated offending, there is manifest propriety in guarding against the escape from this penalty of those whose previous conviction was not suitably made known to the court at the time of theh trial Otherwise, criminals who change their place of operation and successfully conceal their identity would be punished simply as first offenders, although on entering prison they would immediately be recognized as former convicts. It is to prevent such a frustration of its policy that provision is made for alternative methods; either by alleging the fact of prior conviction in the indictment and showing it upon the trial, or by a subsequent proceeding in which the identity of the prisoner may be ascertained and he may be sentenced to the full punishment fixed by law. Plumbly v. Commonwealth, 2 Met. 413, 415, per Shaw, C. J. In the latter proceeding, as well as in the former, the fundamental rights of the defendant with respect to the ascertainment of his liability to the increased penalty may be fully protected.\nNor is there any reason why such a proceeding should not be prosecuted upon an information presented by a competent public officer on his oath of office. There is no occasion for an indictment. To repeat, the inquiry is not into the commission of an offense; as to this, indictment has already been found and the accused convicted. There remains simply the question as to the fact of previous conviction. And it cannot be contended, that in proceeding by information instead of by indictment there is any violation of the requirement of due process of law. Hurtado v. California, 110 U. S. 516; Brown v. New Jersey, 175 U. S. 172, 175; Maxwell v. Dow, 176 U. S. 581, 584.\nThe principles governing a proceeding of this sort, to inquire into the fact of prior conviction, were stated in Ross\u2019s Case (1824), 2 Pick. 165, 169-171. The legislature of Massachusetts (St. 1817, c. 176, approved February 23, 1818) had provided for increased punishment upon second and third convictions. Reciting that the previous conviction might not be known to the grand jury or to the attorney for the commonwealth at the time of the indictment and trial, the statute contained the following provision closely resembling the one now under consideration:\n\u201cThat whenever it shall appear to the Warden of the State Prison, . . . that any convict, received into the same, pursuant to the sentence of any Court, shall have before been sentenced, by competent authority of this or any other state, to confinement to hard labor for term of life or years, it shall be the duty of the said Warden, ... to make representation thereof, as soon as may be, to the Attorney or Solicitor General; and they or either of them shall, by information, or other legal process, cause the same to be made known to the Justices of the Supreme Judicial Court, . . . and the said Justices shall cause the person or persons, so informed against, to be brought before them, in order, that if he deny the fact of a former conviction, it may be tried according to law, whether the charge contained in such information be true. And if it appear by the confession of the party, by verdict of the jury, or otherwise, according to Taw, that said information is true, the Court shall forthwith proceed to award against such, convict, the residue of the punishment provided in the foregoing section; otherwise the said convict shall be remanded to prison, there to be held on his former sentence.\u201d (Laws of Mass., 1815-1818, pp. 602, 603.) Ross, then undergoing sentence for five years was brought before the court pursuant to such an information, and his term of imprisonment was increased. In sustaining this sentence, the court, by Parker, C. J., said (p. 171):\n\u201cIn regard to the objection made to the process, this is not an information of an offence for which a trial is to be had, but of a fact, namely, that the. prisoner has already been convicted of an offence; and this fact must appear, either by his own confession, or by verdict of a jury, or otherwise according to law, before he can be sentenced to the additional punishment. Is he to be sentenced for an offence distinct from the one for which he has been tried upon an indictment? We apprehend not; but the only question is, whether he is such a person as ought to have been sentenced, on his last conviction, to additional punishment, if the fact of a former conviction had been known to the court. There was no need of a presentment by a grand jury, for no offence was to be inquired into. That had been already done. An indictment is confined to the question whether an offence has been committed. Here the question was simply whether the party had been convicted of an offence.\n\u201cIt is said, that at common law both offences should be stated in the same count. The question upon this is, whether the legislature had not a right to prescribe a different mode; and we think they had.\u201d\nIn the case at bar, the record is silent upon the question whether the fact of the former convictions was known \u25a0 at the time of the last indictment and trial. This, however, cannot be regarded as important from the constitutional. standpoint. The indictment did not allege the prior convictions; the issue was not involved in the trial \" of the indictment'and the court could not have considered these convictions in imposing sentence. State v. Davis, 68 W. Va. 142, 150, 151. They were not considered until the subsequent proceeding was had. Doubtless, as has been said, the object in providing the alternative proceeding is to make sure that old offenders should not be immune from the increased punishment because their former conviction was not known when they were last tried. But this does not define the limit of state power. Although the State may properly provide for the allegation of the former conviction in the indictment, for a finding by the jury on this point in connection with its verdict as to guilt and thereupon for the imposition of the full sentence, prescribed, there is no constitutional mandate which requires the State to adopt this course even where the former conviction is known. It may be convenient practice, but it is not obligatory. This conclusion necessarily follows from the distinct nature of the issue and from the fact, so frequently stated, that it does not relate to the commission of the offense, but goes to the punishment only, and therefore it may be subsequently decided.\n2. It is insisted that the plaintiff in error was denied the equal protection of the laws, in that the. statute arbitrarily discriminates against the former convict \u2014 in a case like the present one \u2014 by requiring an information, instead of indictment, for the sole reason that he has been received into the penitentiary; so that, as the plaintiff in error puts it, \u201cif he be out of the penitentiary, the defendant must be prosecuted by indictment in order to inflict the increased penalty, but if he be in the penitentiary, he is denied the right to indictment and must be prosecuted by information.\u201d.\nThe argument is without merit. The statute in question applies to all those \u201cconvicted of an offense, and sentenced to confinement therefor in the penitentiary,\u201d who previously have been sentenced to a like punishment. The lact of such sentence, indicating the gravity of the offense, affords a reasonable basis for classification. Those who have been so sentenced once before, and those who have been so sentenced twice before, are subjected, respectively, to the same measure of increased punishment. In all cases, before the increased punishment can be inflicted, there must be conviction on- the new charge; the former conviction must be shown, and there must be. a finding by a jury, if the fact is contest\u00e9d, of the identity of the defendant with the former convict. The distinction, upon which the contention is based, has regard simply to the difference in procedure between the case where the fact of former conviction is alleged in the indictment, and determined by the jury on the trial of the charge of crime, and the case where it is charged in the information and determined by a jury in a proceeding thereby instituted. This,. in view- of the nature of the issue to be determined, cannot be said to give rise to a substantial difference in right or to any inequality within the meaning of the constitutional provision.\nThe Fourteenth Amendment is not to be construed \u201cas introducing a factitious equality without regard to practical differences that are best met by corresponding differences of treatment.\u201d Standard Oil Company v. Tennessee, 217 U. S. 413, 420. A State may make different arrangements for trials under different circumstances of even the same class of offenses (Brown v. New Jersey, 175 U. S. 172, 177; Missouri v. Lewis, 101 U. S. 22, 31; Hayes v. Missouri, 120 U. S. 68, 71; Lang v. New Jersey, 209 U. S. 467); and certainly it may suitably adapt to the exigency the method of determining whether a- person found guilty of crime has previously been convicted of other offenses. All who were in like case with the plaintiff in error were subject to the same procedure. He belonged to a class of persons convicted and sentenced to the penitentiary whose identity as former convicts had not been determined at the time of their trial. As to these, it was competent for the State to provide appropriate means for determining such identity.\n3. What has been said, and the authorities which have been cited, sufficiently show that there is.no basis for the contention that the plaintiff in error has been put in double jeopardy or that any of his privileges or immunities as a citizen of the United States have been abridged. Nor can it be maintained that cruel and unusual punishment has been inflicted. In re Kemmler, 136 U. S. 436; Moore v. Missouri, supra; McDonald v. Massachusetts, supra; Howard v. North Carolina, 191 U. S. 126; Coffey v. Harlan County, 204 U. S. 659; Waters-Pierce Oil Co. v. Texas, 212 U. S. 86, 111.\nThe questions raised under the constitutipn of the State are not open here, and in no aspect of- th\u00e9 case does it appear that any right of the plaintiff in error under the Constitution of the United States has been infringed.\nJudgment affirmed.",
+        "type": "majority",
+        "author": "Mr. Justice Hughes"
+      }
+    ],
+    "attorneys": [
+      "Mr. D. W. Baker, with whom Mr. Frank J. Hogan, Mr. Everett F. Moore and Mr. D. B. Evans were on the brief, for plaintiff in error:",
+      "Mr. William G. Conley, Attorney General of the State of West Virginia, for defendant in error."
+    ],
+    "corrections": "",
+    "head_matter": "GRAHAM v. STATE OF WEST VIRGINIA.\nERROR TO THE SUPREME COURT OF APPEALS OF THE STATE OF WEST VIRGINIA.\nNo. 721.\nArgued April 17, 1912.\nDecided May 13, 1912.\nThe statute of West Virginia, providing that where a prisoner has been convicted and sentenced to the penitentiary, the question of Ms identity with one previously convicted one or more times can be tried on information, and if proved, imposing additional imprisonment in case of one prior conviction for five years, and in case of two convictions, for life, is not unconstitutional, as to one twice pre- \u25a0 viously convicted and on whom lif\u00e9 imprisonment has been imposed, either as depriving him of his liberty- without due process of law, denying him the equffi protection of the law, placing him in second jeopardy for the same off ens\u00e9, abridging his privileges and immunities as a citizen of the United States, or inflicting cruel and unusual punishment.\nThe propriety of inflicting severer punishment upon old offenders has long been recognized in this country and in England \u2014 such increased punishment is not a second punishment for the earlier crime but is justified by the repetition of criminal conduct.\nOne who has been convicted before is not denied due process of law by having the question of identity passed upon separately from the question of guilt of the second offense.\nA State which adopts the policy of heavier punishment for repeated offending may provide for guarding against second offenders escaping \u25a0 by reason of their identity not being known at the time of sentence.\nProceeding by information instead of indictment to ascertain the identity of a convicted criminal with one previously convicted does not deny due process of law or equal protection of the. law; and this even if other persons accused of crime are proceeded against by indictment.\nThe Fourteenth Amendment did not introduce a factitious equality without regard to practical differences that are best met by corresponding differences of treatment, Standard Oil Co. v. Tennessee, 217 U. S. 413; and a State may make different arrangements for trials under different circumstances of even the same class of offenses, if all in the same class are subject to the same procedure.\nWhere one has been, charged with having been previously convicted of another offense, he is not put in double jeopardy by having the question of his identity determined by a trial, nor are any of his immunities and privileges as a citizen of the United States abridged.\nThe imposition of a heavier penalty for repeated offenses does not amount to inflicting a cruel and unusual punishment.\nQuestions of validity of a state penal statute under the state constitution \u00e1re not open in this court.\n68. Va. 248, affirmed.\nThe facts, \u2022 which 'involve the constitutionality of a statute of West Virginia providing for heavier penalties on persons convicted of crime if previously convicted, and for determining the identity of persons formerly convicted, are stated in the opinion.\nMr. D. W. Baker, with whom Mr. Frank J. Hogan, Mr. Everett F. Moore and Mr. D. B. Evans were on the brief, for plaintiff in error:\nDefendant .is a person within the jurisdiction of the State of West Virginia, and is denied by the said State the equal protection of the laws, because the statute arbitrarily discriminates among persons in the same class and condition. Art. Ill, \u00a7 4, Code, c. 152, \u00a7 1. It permits persons.of his class to be proceeded against by information while all others have the right to be proceeded against only by indictment; so that the said statute denies even one and the same person the equal protection of the laws, in that if he be out of the penitentiary he is entitled as of right to the protection of the grand jury and its indictment returned and pending against him, but if he be in the prison this fight is ipso facto taken arbitrarily from him and is replaced by the right to an information only, presenting and permitting the single issue of identity of person.\nThe statute requires the said prosecution against him to be by information, and the sentence to be to the penitentiary for life, whereas the constitution and laws of said State (except only this statute) require all acts or omissions punishable by imprisonment in the penitentiary to be prosecuted and punished \u201con a presentment or indictment of a grand jury,\u201d and not otherwise. Hodgson v. Vermont, 168 U. S. 272; Bowman v. Lewis, 101 U. S. 22, 33; In re Lowrie, 8 Colorado, 499; Connolly v. Union Sewer Pipe Co., 184 U. S. 540.\nApplying the principles of the last-cited case, the West Virginia statute now in question denies the defendant the equal protection of the laws in the respects and for the reasons which we have already mentioned; and in that each section of the statute is so connected and interwoven with the other sections, the invalidity of any one section destroys the entire act. Caldwell v. Texas, 137 U. S. 692, 697; State v. Lewin, 53 Kansas, 697; Budd v. State, 22 Tennessee, 483; Rogers v. Alabama, 192 U. S. 226; Bell\u2019s Gap Railroad v. Pennsylvania, 134 U. S. 232, 237; Gulf, Colorado & Sante Fe Railway v. Ellis, 165 U. S. 150, 165; Magoun v. Illinois Trust & Savings Bank, 170 U. S. 283, 293; Cotting v. Kansas City Stock Yards Company, 183 U. S. 79, 100, 112.\nSo, in the case at bar, the statute is a positive and direct discrimination between persons in exactly the same class \u2014 those who have suffered former convictions \u2014 based simply upon the fact that the prisoner is in the penitentiary. In re Landford, 57 Fed. Rep. 570.\nThat the statute violates the equality clause of the Federal Constitution, see West Virginia v. Davis, 69 S. E. Rep. 639, decided by the same court one week prior to this case.\nThus the laws of West Virginia discriminate, so as to\" put plaintiff in error into the penitentiary for life on an unsworn information, simply because he was in the prison, and in favor of Davis, so as to keep him out of the county jail, unless on indictment alleging, and proof showing, a former conviction.\nDefendant is deprived of his liberty and property by the State of West Virginia without due process of the law in that the statute which requires the imprisonment of the defendant in the penitentiary for life under the sentence imposed on him under an unsworn information operates a deprivation of his liberty without due process of law. This aspect of the case is not controlled by Hurtado v. California, 110 U. S. 516, but see Stoutenburg v. Frazier, 16 App. D. C. 229, 235, 236; Curry v. Dist. of Col., 14 App. D. C. 423, 439; Lappin v. Dist. of Col., 22 App. D. C. 68, 77.\nThe statute conclusively presumes the fact and validity of the alleged prior convictions and concludes every defense against the defendant except only that of non-identity of person; he is precluded from the right to present any defense to the alleged 'prior convictions \u2014 the main fact presumed against him; he cannot show a pardon; nor want of jurisdiction; nor acquittal of the prior charges of former conviction; nor any other defense whatever. Mobile, J. & K. C. R. R. v. Turnipseed, 219 U. S. 35, 43; Lindsley v. Carbonic Gas Co., 220 U. S. 61, 81.\n1 As to what is and is not due process of law, see In re Kemmler, 136 U. S. 436, 448\"; Holden v. Hardy, 169 U. S. 366, 383.\nDefendant\u2019s privileges and immunities as a. citizen of the United States are abridged in making and enforcing the said statute, as he is thereby denied his immunity from double jeopardy. Ex parte Lange, 18 Wall. 163; In re Butler, 138 Michigan, 453; Herndon v. Commonwealth, .105 Kentucky, 197; Oliver v. Commonwealth, 113 Kentucky, 228; Commonwealth v. Phillips, 11 Pick. 28; Satter field v. Commonwealth, 105 Virginia, 867; Scott v. Chichester, 107 Virginia, 933.\nThe c\u00e1se of Davis v. West Virginia, supra, shows that the statute makes a former conviction an element of the guilt of the defendant on a second offense being committed. Unless this be so, where is the warrant for the infliction of the increased punishment? Peoples v. Sickles, 156 N. Y. 541. See also Paetz v. State, 129 Wisconsin, 174, 9 A. & E. Ann: Cas. 767; Davis v. State, 134 Wisconsin, 632; People v. Craig, 195 N. Y. 190, and State v. Gordon, 35 Montana, 458.\nThe .statute and sentence inflict cruel and unusual punishment on the defendant. See The McDonald Case, 180 U. S. 311; The Moore Case, 159 U. S. 673; Weems v. United States, 217 U. S. 347, 362; Stoutenburg v. Frazier, 16 App. D. C. 229; Howard v. North Carolina, 191 U. S. 126, 136; In re Kemmler, 136 U. S. 436; McElvaine v. Brush, 142 U. S. 155.\nMr. William G. Conley, Attorney General of the State of West Virginia, for defendant in error."
+  },
+  "file_name": "0616-01",
+  "first_page_order": 642,
+  "last_page_order": 657
+}

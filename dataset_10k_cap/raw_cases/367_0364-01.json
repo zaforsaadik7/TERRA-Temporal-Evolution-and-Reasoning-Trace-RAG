@@ -1,0 +1,831 @@
+{
+  "id": 1785585,
+  "name": "GORI v. UNITED STATES",
+  "name_abbreviation": "Gori v. United States",
+  "decision_date": "1961-06-12",
+  "docket_number": "No. 486",
+  "first_page": "364",
+  "last_page": "373",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "367 U.S. 364"
+    },
+    {
+      "type": "parallel",
+      "cite": "6 L. Ed. 2d 901"
+    },
+    {
+      "type": "parallel",
+      "cite": "81 S. Ct. 1523"
+    },
+    {
+      "type": "vendor",
+      "cite": "1961 U.S. LEXIS 969"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1960-122"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "364 U. S. 917",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6351809,
+        6351048,
+        6351597,
+        6351439,
+        6351228
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/364/0917-05",
+        "/us/364/0917-01",
+        "/us/364/0917-04",
+        "/us/364/0917-03",
+        "/us/364/0917-02"
+      ]
+    },
+    {
+      "cite": "242 U. S. 199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3935100
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0199-01"
+      ]
+    },
+    {
+      "cite": "344 U. S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300509
+      ],
+      "pin_cites": [
+        {
+          "page": "427"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/344/0424-01"
+      ]
+    },
+    {
+      "cite": "187 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137156
+      ],
+      "pin_cites": [
+        {
+          "page": "85-86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/187/0071-01"
+      ]
+    },
+    {
+      "cite": "144 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3560080
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/144/0263-01"
+      ]
+    },
+    {
+      "cite": "142 U. S. 148",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3557567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/142/0148-01"
+      ]
+    },
+    {
+      "cite": "355 U. S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164126
+      ],
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0184-01"
+      ]
+    },
+    {
+      "cite": "18 Wall. 163",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3426585
+      ],
+      "pin_cites": [
+        {
+          "page": "173-174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/85/0163-01"
+      ]
+    },
+    {
+      "cite": "213 U. S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288093
+      ],
+      "pin_cites": [
+        {
+          "page": "137-138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/213/0135-01"
+      ]
+    },
+    {
+      "cite": "155 U. S. 271",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3580303
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/155/0271-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 579",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421261
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/22/0579-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939222
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "688"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0684-01"
+      ]
+    },
+    {
+      "cite": "282 F. 2d 43",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2012090
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "46"
+        },
+        {
+          "page": "48"
+        },
+        {
+          "page": "46"
+        },
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/282/0043-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 659",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Ind. 541",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1402760
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ind/42/0541-01"
+      ]
+    },
+    {
+      "cite": "15 N. E. 2d 363",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "214 Ind. 273",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1699578
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ind/214/0273-01"
+      ]
+    },
+    {
+      "cite": "83 Ind. 331",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1319052
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ind/83/0331-01"
+      ]
+    },
+    {
+      "cite": "165 A. 498",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "310 Pa. 380",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1144317
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/pa/310/0380-01"
+      ]
+    },
+    {
+      "cite": "56 Am. Rep. 235",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "2 A. 70",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "111 Pa. St. 1",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        545401
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/pa/111/0001-01"
+      ]
+    },
+    {
+      "cite": "79 S. W. 802",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "112 Tenn. 596",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8536436
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tenn/112/0596-01"
+      ]
+    },
+    {
+      "cite": "21 Am. Dec. 499",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "19 R. I. 467",
+      "category": "reporters:state",
+      "reporter": "R.I.",
+      "case_ids": [
+        718333
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ri/19/0467-01"
+      ]
+    },
+    {
+      "cite": "108 N. W. 999",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "145 Mich. 488",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1498447
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/145/0488-01"
+      ]
+    },
+    {
+      "cite": "72 Ky. 333",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4386664
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ky/72/0333-01"
+      ]
+    },
+    {
+      "cite": "80 N. E. 829",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "168 Ind. 298",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1619372
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ind/168/0298-01"
+      ]
+    },
+    {
+      "cite": "43 Ark. 271",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1894449
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/43/0271-01"
+      ]
+    },
+    {
+      "cite": "6 Okla. Cr. 76",
+      "category": "reporters:state",
+      "reporter": "Okla. Crim.",
+      "case_ids": [
+        4302184
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/okla-crim/6/0076-01"
+      ]
+    },
+    {
+      "cite": "90 Okla. Cr. 74",
+      "category": "reporters:state",
+      "reporter": "Okla. Crim.",
+      "case_ids": [
+        1516872
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/okla-crim/90/0074-01"
+      ]
+    },
+    {
+      "cite": "78 Ky. 93",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4394459
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ky/78/0093-01"
+      ]
+    },
+    {
+      "cite": "11 S. W. 210",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "88 Ky. 386",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        2346851
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ky/88/0386-01"
+      ]
+    },
+    {
+      "cite": "80 S. W. 2d 606",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "258 Ky. 529",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5787186
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ky/258/0529-01"
+      ]
+    },
+    {
+      "cite": "267 S. W. 2d 712",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198311
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/267/0712-01"
+      ]
+    },
+    {
+      "cite": "8 Iowa 288",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2275174
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/iowa/8/0288-01"
+      ]
+    },
+    {
+      "cite": "80 N. W. 1058",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "110 Iowa 726",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2108852
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/iowa/110/0726-01"
+      ]
+    },
+    {
+      "cite": "113 A. L. R. 1422",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "74 P. 2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "10 Cal. 2d 350",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "42 F. 587",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6735688
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f/42/0587-01"
+      ]
+    },
+    {
+      "cite": "110 F. Supp. 871",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        306659
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp/110/0871-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468196
+      ],
+      "pin_cites": [
+        {
+          "page": "669"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/163/0662-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443513,
+        443660,
+        443685
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/189/0506-02",
+        "/us/189/0506-03",
+        "/us/189/0506-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 515",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421256
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/22/0515-01"
+      ]
+    },
+    {
+      "cite": "242 U. S. 199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3935100
+      ],
+      "pin_cites": [
+        {
+          "page": "201"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/242/0199-01"
+      ]
+    },
+    {
+      "cite": "187 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137156
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/187/0071-01"
+      ]
+    },
+    {
+      "cite": "144 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3560080
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/144/0263-01"
+      ]
+    },
+    {
+      "cite": "142 U. S. 148",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3557567
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/142/0148-01"
+      ]
+    },
+    {
+      "cite": "355 U. S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164126
+      ],
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/355/0184-01"
+      ]
+    },
+    {
+      "cite": "213 U. S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288093
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/213/0135-01"
+      ]
+    },
+    {
+      "cite": "155 U. S. 271",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3580303
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/155/0271-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939222
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "689"
+        },
+        {
+          "page": "689"
+        },
+        {
+          "page": "690"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/336/0684-01"
+      ]
+    },
+    {
+      "cite": "282 F. 2d 43",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2012090
+      ],
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/282/0043-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 994,
+    "char_count": 17466,
+    "ocr_confidence": 0.672,
+    "pagerank": {
+      "raw": 5.622697377282605e-06,
+      "percentile": 0.9990329552031798
+    },
+    "sha256": "8fde90636e83d3d99745bb31cc5607fc6bbf1ebd828770ca7d13b2bfbaaa064e",
+    "simhash": "1:23baeaea2e26c63b",
+    "word_count": 2973
+  },
+  "last_updated": "2024-02-27T18:57:49.712046+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom The Chief Justice, Mr. Justice Black and Mr. Justice Brennan concur, dissenting."
+    ],
+    "parties": [
+      "GORI v. UNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion of the Court, by\nMr. Justice Frankfurter,\nannounced by Mr. Justice Clark.\nIn view of this Court\u2019s prior decisions, our limited grant of certiorari in this case brings a narrow question here. We are to determine whether, in the particular circumstances of this record, petitioner\u2019s conviction at his see-ond trial for violation of 18 U. S. C. \u00a7 659, after his first trial had been terminated by the trial judge\u2019s declaration of a mistrial sua sponte and without petitioner\u2019s \u201cactive and express consent,\u201d violates the Fifth Amendment\u2019s prohibition of double jeopardy. The Court of Appeals for the Second Circuit in baric affirmed petitioner\u2019s conviction (one judge dissenting), holding his constitutional objection without merit. 282 F. 2d 43. We agree that the Fifth Amendment does not require a contrary result.\nPetitioner was brought to trial before a jury in the District Court for the Eastern District of New York on February 4, 1959, on an information charging that he had knowingly received and possessed goods stolen in interstate commerce. That same afternoon, during the direct examination of the fourth witness for the Government, the presiding judge, on his own motion and with neither approval nor objection by petitioner\u2019s counsel, withdrew a juror and declared a mistrial. It is unclear what reasons caused the court to take this action, which the Court of Appeals characterized as \u201coverassiduous\u201d and criticized as premature. Apparently the trial judge inferred that the prosecuting attorney\u2019s line of questioning presaged inquiry calculated to inform the jury of other crimes by the accused, and took action to forestall it. In any event, it is obvious, as the Court of Appeals concluded, that the judge \u201cwas acting according to his convictions in protecting the rights of the accused.\u201d 282 F. 2d, at 46. The court below did not hold the mistrial ruling erroneous or an abuse of discretion. It did find the prosecutor\u2019s conduct unexceptionable and the reason for the mistrial, therefore, not \u201centirely clear.\u201d It did say that \u201cthe judge should have awaited a definite question which would have permitted a clear-cut ruling,\u201d and that, in failing to do so, he displayed an \u201coverzealousness\u201d and acted \u201ctoo hastily.\u201d Id,., at 46, 48. But after discussing the wide range of discretion which the \u201cfundamental concepts of the federal administration of criminal justice\u201d allow to the trial judge in determining whether or not a mistrial is appropriate \u2014 a responsibility which \u201cis particularly acute in the avoidance of prejudice arising from nuances in 'the heated atmosphere of trial, which cannot be fully depicted in the cold record on appeal,\u201d id., at 47 \u2014 and the corresponding affirmative responsibility for the conduct of a criminal trial which the federal precedents impose, it concluded:\n\u201cOn this basis we do not believe decision should be difficult, for the responsibility and discretion exercised by the judges below seem to us sound. . . .\u201d Id., at 48.\nCertainly, on the skimpy record before us it would exceed the appropriate scope of review were we ourselves to attempt to pass an independent judgment upon the propriety of the mistrial, even should we be prone to do so \u2014 as we are not, with due regard for the guiding familiarity with district judges and with district court conditions possessed by the Courts of Appeals.\nOn March 9, 1959, petitioner moved to dismiss the information on the ground that to try him again would constitute double jeopardy. The motion was denied and he was retried in April. He now attacks the conviction in which the second trial resulted.\nIn this state of the record, we are not required to pass upon the broad contentions pressed, respectively, by counsel for petitioner and for the Government. The case is one in which, viewing it most favorably to petitioner, the mistrial order upon which his claim of jeopardy is based was found neither apparently justified nor clearly erroneous by the Court of Appeals in its review of a cold record. What that court did find and what is unquestionable is that the order was the product of the trial judge\u2019s extreme solicitude \u2014 an overeager solicitude, it may be \u2014 in favor of the accused.\nSince 1824 it has been settled law in this Court that \u201cThe double-jeopardy provision of the Fifth Amendment . . . does not mean that every time a defendant is put to trial before a competent tribunal he is entitled to go free if the trial fails to end in a final judgment.\u201d Wade v. Hunter, 336 U. S. 684, 688. United States v. Perez, 9 Wheat. 579; Thompson v. United States, 155 U. S. 271; Keerl v. Montana, 213 U. S. 135, 137-138; see Ex parte Lange, 18 Wall. 163, 173-174; Green v. United States, 355 U. S. 184, 188. Where, for reasons deemed compelling by the trial judge, who is best situated intelligently to make such a decision, the ends of substantial justice cannot be attained without discontinuing the trial, a mistrial may be declared without the defendant\u2019s consent and even over his objection, and he may be retried consistently with the Fifth Amendment. Simmons v. United States, 142 U. S. 148; Logan v. United States, 144 U. S. 263; Dreyer v. Illinois, 187 U. S. 71, 85-86. It is also clear that \u201cThis Court has long favored the rule of discretion in the trial judge to declare a mistrial and to require another panel to try the defendant if the ends of justice will be best served . . . ,\u201d Brock v. North Carolina, 344 U. S. 424, 427, and that we have consistently declined to scrutinize with sharp surveillance the exercise of that discretion. See Lovato v. New Mexico, 242 U. S. 199; cf. Wade v. Hunter, supra. In the Perez case, the authoritative starting point of our law in this field, Mr. Justice Story, for a unanimous Court, thus stated the principles which have since guided the federal courts in their application of the concept of double jeopardy to situations giving rise to mistrials:\n\u201c. . . We think, that in all cases of this nature, the law has invested Courts of justice with the authority to discharge a jury from giving any verdict, whenever, in their opinion, taking all the circumstances into consideration, there is a manifest necessity for the act, or the ends of public justice would otherwise be defeated. They are to exercise a sound discretion on the subject; and it is impossible to define all the circumstances, which would render it proper to interfere. To be sure, the power ought to be used with the greatest caution, under urgent circumstances, and for very plain and obvious causes; and, in capital cases especially, courts should be extremely careful how they interfere with any of the chances of life, in favor of the prisoner. But, after all, they have the right to order the discharge; and the security which the public have for the faithful, sound, and conscientious exercise of this discretion, rests, in this, as in other cases, upon the responsibility of the judges, under their oaths of office. ...\u201d 9 Wheat., at 580.\nThe present case falls within these broad considerations. Judicial wisdom counsels against-anticipating hypothetical situations in which the discretion of the trial judge may be abused and so call for the safeguard of the Fifth Amendment \u2014 cases in which the defendant would be harassed by successive, oppressive prosecutions, or in which a judge exercises his authority to help the prosecution, at a trial in which its case is going badly, by affording it another, more favorable opportunity to convict the accused. Suffice that we are unwilling, where it clearly appears that a mistrial has been granted in the sole interest of the defendant, to hold that its necessary consequence is to bar all retrial. It would hark back to the formalistic artificialities of seventeenth century criminal procedure so to confine our federal trial courts by compelling them to navigate a narrow compass between Scylla and Charybdis. We would not thus make them unduly hesitant conscientiously to exercise their most sensitive judgment \u2014 according to their own lights in the immediate exigencies of trial \u2014 for the more effective protection of the criminal accused.\nAffirmed.\n364 U. S. 917.\nPrior to the proceedings in the two trials which are relevant for present purposes, denominated the \u201cfirst\u201d and \u201csecond\u201d trials herein, there had been a mistrial granted upon motion of petitioner.\nThe statute makes unlawful, inter alia, the receipt or possession of any goods stolen from a vehicle and moving as, or constituting, an interstate shipment of freight, knowing the goods to be stolen.\n282 F. 2d 43,46.\nWe cannot, of course, determine what result would obtain had the Court of Appeals, in light of its close acquaintance with the local situation, decided that petitioner\u2019s mistrial operated to bar his further prosecution, and were such a decision before us.\nIn light of our disposition, we need not reach the Government\u2019s suggestion that petitioner\u2019s failure to object to the mistrial adversely affects his claim. We note petitioner\u2019s argument that, because of the precipitous course of events, there was no opportunity for such objection.\n\u201cThe colloquy [immediately preceding the mistrial] . . . demonstrates that the prosecutor did nothing to instigate the declaration of a mistrial and that he was only performing his assigned duty under trying conditions. This is borne out by the entire transcript, including also that covering the morning session. Nor does it make entirely clear the reasons which led the judge to act, though the parties appear agreed that he intended to prevent the prosecutor from bringing out evidence of other crimes by the accused. Even so, the judge should have awaited a definite question which would have permitted a clear-cut ruling. . . .\u201d 282 F. 2d, at 46.\nThe record here contains, with respect to the February 4 trial, two paragraphs from the Government\u2019s opening, four paragraphs from the petitioner\u2019s opening, a six-line colloquy between the court and prosecuting counsel, a portion of the examination of the third of the Government\u2019s first three witnesses, and the entire transcript of the testimony of the fourth witness. The last two items are set out in the affidavit of the Assistant United States Attorney in opposition to petitioner\u2019s motion to dismiss the information following the mistrial.\nBrock v. North Carolina was a state prosecution and therefore arose, of course, under the Due Process Clause of the Fourteenth Amendment. The passage quoted from Brock, however, related to the application in federal prosecutions of the double jeopardy provision of the Fifth.",
+        "type": "majority",
+        "author": "Mr. Justice Frankfurter,"
+      },
+      {
+        "text": "Mr. Justice Douglas,\nwith whom The Chief Justice, Mr. Justice Black and Mr. Justice Brennan concur, dissenting.\nThe place one comes out, when faced with the problem of this case, depends largely on where one starts.\nToday the Court phrases the problem in terms of whether a mistrial has been granted \u201cto help the prosecution\u201d on the one hand or \u201cin the sole interest of the defendant\u201d on the other. The former is plainly in violation of the provision of the Fifth Amendment that no person shall \u201c. . . be subject for the same offence to be twice put in jeopardy of life or limb . . . .\u201d That was what we said in Green v. United States, 355 U. S. 184, 188. But not until today, I believe, have we ever intimated that a mistrial ordered \u201cin the sole interest of the defendant\u201d was no bar to a second trial where the mistrial was not ordered at the request of the defendant or with his consent. Yet that is the situation presented here, for the Court of Appeals found that the trial judge \u201cwas acting according to his convictions in protecting the rights of the accused.\u201d\nThere are occasions where a second trial may be had, although the jury which was impanelled for the first trial was discharged without reaching a verdict and without the defendant\u2019s consent. Mistrial because the jury was unable to agree is the classic example; and that was the critical circumstance in United States v. Perez, 9 Wheat. 515; Logan v. United States, 144 U. S. 263; Dreyer v. Illinois, 187 U. S. 71; Moss v. Glenn, 189 U. S. 506; Keerl v. Montana, 213 U. S. 135. Tactical situations of an army in the field have been held to justify the withdrawal of a court-martial proceeding and the institution of another one in calmer days. Wade v. Hunter, 336 U. S. 684. Discovery by the judge during the trial that \u201cone or more members of a jury might be biased against the Government or the defendant\u201d has been held to warrant discharge of the jury and direction of a new trial. Id., 689. And see Simmons v. United States, 142 U. S. 148; Thompson v. United States, 155 U. S. 271. That is to say, \u201ca defendant\u2019s valued right to have his trial completed by a particular tribunal must in some instances be subordinated to the public\u2019s interest in fair trials designed to end in just judgments.\u201d Wade v. Hunter, supra, 689. While the matter is said to be in the sound discretion of the trial court, that discretion has some guidelines \u2014 \u201ca trial can be discontinued when particular circumstances manifest a necessity for so doing, and when failure to discontinue would defeat the ends of justice.\u201d Id., 690.\nTo date these exceptions have been narrowly confined. Once a jury has been impanelled and sworn, jeopardy attaches and a subsequent prosecution is barred, if a mistrial is ordered \u2014 absent a showing of imperious necessity. As stated by Mr. Justice Story in United States v. Coolidge, 25 Fed. Cas. 622, the discretion is to be exercised \u201conly in very extraordinary and striking circumstances.\u201d\nThat is my starting point. I read the Double Jeopardy Clause as applying a strict standard. \u201cThe prohibition is not against being twice punished; but against being twice put in jeopardy.\u201d United States v. Ball, 163 U. S. 662, 669. It is designed to help equalize the position of government and the individual, to discourage abusive use of the awesome power of society. Once a trial starts jeopardy attaches. The prosecution must stand or fall on its performance at the trial. I do not see how a mistrial directed because the prosecutor has no witnesses is different from a mistrial directed because the prosecutor abuses his office and is guilty of misconduct. In neither is there a breakdown in judicial machinery such as happens when the judge is stricken, or a juror has been discovered to be disqualified to sit, or when it is impossible or impractical to hold a trial at the time and place set. The question is not, as the Court of Appeals thought, whether a defendant is \u201cto receive absolution for his crime.\u201d 282 F. 2d 43, 48. The policy of the Bill of Rights is to make rare indeed the occasions when the citizen can for the same offense be required to run the gantlet twice. The risk of judicial arbitrariness rests where, in my view, the Constitution puts it \u2014 on the Government.\nIn this case the trial judge said:\n\u201cI declare a mistrial and I don\u2019t care whether the action is dismissed or not. I declare a mistrial because of the conduct of the district attorney.\u201d\nIn Lovato v. New Mexico, 242 U. S. 199, 201, the jury was dismissed so that the defendant could be arraigned and could plead; and it was then impanelled again. The case stands for no more than the settled proposition that \u201ca mere irregularity of procedure\u201d does not always amount to double jeopardy.\nSee United States v. Watson, 28 Fed. Cas. 499; United States v. Whitlow, 110 F. Supp. 871; Ex parte Ulrich, 42 F. 587.\nIn state cases, a second prosecution has been barred where the jury was discharged through the trial judge\u2019s misconstruction of the law. Jackson v. Superior Court, 10 Cal. 2d 350, 74 P. 2d 243, 113 A. L. R. 1422; State v. Spayde, 110 Iowa 726, 80 N. W. 1058; State v. Callendine, 8 Iowa 288; Lillard v. Commonwealth, 267 S. W. 2d 712 (Ky.); Mullins v. Commonwealth, 258 Ky. 529, 80 S. W. 2d 606; Robinson v. Commonwealth, 88 Ky. 386, 11 S. W. 210; Williams v. Commonwealth, 78 Ky. 93; Yarbrough v. State, 90 Okla. Cr. 74, 210 P. 2d 375; Loyd v. State, 6 Okla. Cr. 76, 116 P. 959.\nWhere the trial judge has made a mistake in concluding that the jury was illegally impanelled, or biased, a second prosecution has been barred. Whitmore v. State, 43 Ark. 271; Gillespie v. State, 168 Ind. 298, 80 N. E. 829; O\u2019Brian v. Commonwealth, 72 Ky. 333; People v. Parker, 145 Mich. 488, 108 N. W. 999; State v. Nelson, 19 R. I. 467; State v. M\u2019Kee, 17 S. C. L. (1 Bail.) 651, 21 Am. Dec. 499; Tomasson v. State, 112 Tenn. 596, 79 S. W. 802. See also Hilands v. Commonwealth, 111 Pa. St. 1, 2 A. 70, 56 Am. Rep. 235, as limited by Commonwealth v. Simpson, 310 Pa. 380, 165 A. 498. Cf. Maden v. Emmons, 83 Ind. 331.\nThe accused has also been discharged where the trial judge erred in his estimate of the prejudicial quality of the remarks made by counsel for the accused, Armentrout v. State, 214 Ind. 273, 15 N. E. 2d 363, or of the jurors\u2019 drinking beer which had been brought in by the bailiff. State v. Leunig, 42 Ind. 541.",
+        "type": "dissent",
+        "author": "Mr. Justice Douglas,"
+      }
+    ],
+    "attorneys": [
+      "Harry I. Rand argued the cause for petitioner. With him on the brief were Milton C. Weisman and Jerome Lewis.",
+      "Beatrice Rosenberg argued the cause for the United States. With her on the briefs were former Solicitor General Rankin, Solicitor General Cox, Assistant Attorney General Miller and Assistant Attorney General Wilkey.",
+      "Emanuel Redfield filed a brief for the New York Civil Liberties Union, as amicus curiae, urging reversal."
+    ],
+    "corrections": "",
+    "head_matter": "GORI v. UNITED STATES.\nNo. 486.\nArgued May 3, 1961.\u2014\nDecided June 12, 1961.\nHarry I. Rand argued the cause for petitioner. With him on the brief were Milton C. Weisman and Jerome Lewis.\nBeatrice Rosenberg argued the cause for the United States. With her on the briefs were former Solicitor General Rankin, Solicitor General Cox, Assistant Attorney General Miller and Assistant Attorney General Wilkey.\nEmanuel Redfield filed a brief for the New York Civil Liberties Union, as amicus curiae, urging reversal."
+  },
+  "file_name": "0364-01",
+  "first_page_order": 400,
+  "last_page_order": 409
+}

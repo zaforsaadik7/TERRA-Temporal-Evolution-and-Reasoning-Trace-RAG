@@ -81,18 +81,20 @@ frozen/
 baselines/cache/
 
 # ------------------------------------------------------------------------------
-# 6. Multi-Gigabyte Raw Corpora & Massive LLM Generation Dumps (>50MB/100MB)
-# (GitHub strictly rejects any file >100MB; core benchmarks in data/ are retained)
+# 6. Uncompressed JSON Files Exceeding GitHub Limits & Raw Pilot Dumps
+# (Full dataset preserved in tracked .json.gz companion files)
 # ------------------------------------------------------------------------------
-dataset_10k_cap/
-dataset_20k_cap/
-legacy_dataset_backup*/
+dataset_20k_cap/terra_eeg_index_20k.json
+dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1980.json
+dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1970.json
+dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1950.json
+dataset_20k_cap/temporal_subgraphs/eeg_subgraph_T1930.json
+data/issue26_hyperparameter_sensitivity.json
 terra_*raw*.json
 terra_*generations*.json
 terra_expanded_*.json
 terra_true_ablation_*.json
 terra_baselines_eval_raw*.json
-data/issue26_hyperparameter_sensitivity.json
 reports/**/events.jsonl
 
 # ------------------------------------------------------------------------------

@@ -1,0 +1,822 @@
+{
+  "id": 407810,
+  "name": "STATE OF MARYLAND v. STATE OF WEST VIRGINIA",
+  "name_abbreviation": "Maryland v. West Virginia",
+  "decision_date": "1910-02-21",
+  "docket_number": "No. 1",
+  "first_page": "1",
+  "last_page": "47",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "217 U.S. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "54 L. Ed. 645"
+    },
+    {
+      "type": "parallel",
+      "cite": "30 S. Ct. 268"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1909-115"
+    },
+    {
+      "type": "vendor",
+      "cite": "1910 U.S. LEXIS 1942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "123 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3524163
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/123/0001-01"
+      ]
+    },
+    {
+      "cite": "18 Wend. 157",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "16 Wend. 285",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2149126
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wend/16/0285-01"
+      ]
+    },
+    {
+      "cite": "13 Wend. 536",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2015689
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wend/13/0536-01"
+      ]
+    },
+    {
+      "cite": "10 Wend. 104",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2013026
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wend/10/0104-01"
+      ]
+    },
+    {
+      "cite": "17 Johns. 29",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "case_ids": [
+        6064629
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/johns/17/0034-01"
+      ]
+    },
+    {
+      "cite": "7 Johns. 338",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "12 Wend. 127",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        11268375
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wend/12/0127-01"
+      ]
+    },
+    {
+      "cite": "56 W. Va. 336",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8637940
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/w-va/56/0336-01"
+      ]
+    },
+    {
+      "cite": "32 W. Va. 48",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "35 W. Va. 578",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8640265
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/w-va/35/0578-01"
+      ]
+    },
+    {
+      "cite": "129 U. S. 683",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299625
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/129/0683-01"
+      ]
+    },
+    {
+      "cite": "6 Wall. 773",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3454935
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/73/0773-01"
+      ]
+    },
+    {
+      "cite": "7 Wheat. 7",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1503010
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/20/0007-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat.- 444",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4713
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/17/0444-01"
+      ]
+    },
+    {
+      "cite": "9 Cranch, 173",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        533623
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/13/0173-01"
+      ]
+    },
+    {
+      "cite": "103 U. S. 316",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1522269
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/103/0316-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 524",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "8 Cush. 327",
+      "category": "reporters:state",
+      "reporter": "Cush.",
+      "case_ids": [
+        3893965
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/62/0327-01"
+      ]
+    },
+    {
+      "cite": "7 Cush. 375",
+      "category": "reporters:state",
+      "reporter": "Cush.",
+      "case_ids": [
+        1967588
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/61/0375-01"
+      ]
+    },
+    {
+      "cite": "2 Wall. 525",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8300309
+      ],
+      "pin_cites": [
+        {
+          "page": "537"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/69/0525-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat, 513",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4716
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/17/0513-01"
+      ]
+    },
+    {
+      "cite": "136 U. S. 479",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1217878
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/136/0479-01"
+      ]
+    },
+    {
+      "cite": "202 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3646900
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/202/0001-01"
+      ]
+    },
+    {
+      "cite": "4 How. 590",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "pin_cites": [
+        {
+          "page": "591"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "14 Pet. 260",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "pin_cites": [
+        {
+          "page": "261"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "11 Wall. 39",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3412861
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/78/0039-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 503",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3567361
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/148/0503-01"
+      ]
+    },
+    {
+      "cite": "4 How. 628",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "12 Pet. 658",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "pin_cites": [
+        {
+          "page": "734, 738"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "102 U. S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5628899
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/102/0333-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 Wheat. 223",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "5 Pet. 151",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        534524
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/30/0097-01"
+      ]
+    },
+    {
+      "cite": "2 McCrary, 311",
+      "category": "reporters:federal",
+      "reporter": "McCrary's Cir. Ct. Rpts",
+      "opinion_index": -1
+    },
+    {
+      "cite": "2 H. & J. 84",
+      "category": "reporters:state",
+      "reporter": "H. & J.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "12 Wheat. 530",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1429794
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/25/0530-01"
+      ]
+    },
+    {
+      "cite": "10 How. 643",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "9 Wheat. 476",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "12 Pet. 657",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5619811
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/37/0657-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "9 Wheat. 573",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421257
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/22/0573-01"
+      ]
+    },
+    {
+      "cite": "5 Wheat. 377",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "2 Pet. 417",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        11338159
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/27/0417-01"
+      ]
+    },
+    {
+      "cite": "159 U. S. 40",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5700301
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/159/0040-01"
+      ]
+    },
+    {
+      "cite": "12 Wend. 330",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        11270070
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wend/12/0330-01"
+      ]
+    },
+    {
+      "cite": "105 N. Y. 503",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2208776
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/105/0503-01"
+      ]
+    },
+    {
+      "cite": "7 T. B. Mon. (Ky.) 325",
+      "category": "reporters:state",
+      "reporter": "T.B. Mon.",
+      "case_ids": [
+        5543012
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ky/23/0325-01"
+      ]
+    },
+    {
+      "cite": "23 Ky. Law Rep. 759",
+      "category": "reporters:state",
+      "reporter": "Ky. L. Rptr.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "162 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136181
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/162/0001-01"
+      ]
+    },
+    {
+      "cite": "13 How. 416",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "pin_cites": [
+        {
+          "page": "424, 425"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "9 Wheat. 469",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421266
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/22/0469-01"
+      ]
+    },
+    {
+      "cite": "10 G. & J. 443",
+      "category": "reporters:state",
+      "reporter": "G. & J.",
+      "case_ids": [
+        1700361
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/g-j/10/0443-01"
+      ]
+    },
+    {
+      "cite": "2 H. & J. 249",
+      "category": "reporters:state",
+      "reporter": "H. & J.",
+      "case_ids": [
+        1752612
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/h-j/2/0249-01"
+      ]
+    },
+    {
+      "cite": "1 H. & J. 299",
+      "category": "reporters:state",
+      "reporter": "H. & J.",
+      "case_ids": [
+        11300435
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/h-j/1/0299-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3606777
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/174/0196-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 198",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cush. 375",
+      "category": "reporters:state",
+      "reporter": "Cush.",
+      "case_ids": [
+        1967588
+      ],
+      "pin_cites": [
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/61/0375-01"
+      ]
+    },
+    {
+      "cite": "2 Wall. 525",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        8300309
+      ],
+      "pin_cites": [
+        {
+          "page": "537"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/69/0525-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat, 513",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4716
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/17/0513-01"
+      ]
+    },
+    {
+      "cite": "136 U. S. 479",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1217878
+      ],
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/136/0479-01"
+      ]
+    },
+    {
+      "cite": "202 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3646900
+      ],
+      "pin_cites": [
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/202/0001-01"
+      ]
+    },
+    {
+      "cite": "148 U. S. 503",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3567361
+      ],
+      "pin_cites": [
+        {
+          "page": "522, 523"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/148/0503-01"
+      ]
+    },
+    {
+      "cite": "12 Pet. 657",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        5619811
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "734"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/37/0657-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3606777
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/174/0196-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2509,
+    "char_count": 91148,
+    "ocr_confidence": 0.575,
+    "pagerank": {
+      "raw": 4.7275923723888096e-07,
+      "percentile": 0.9294061159550229
+    },
+    "sha256": "07ca55b9d1637479ddd44b4cc1b42e7516618c7398246915f00b96e869bec47d",
+    "simhash": "1:9c84860292af7603",
+    "word_count": 15750
+  },
+  "last_updated": "2024-02-27T17:13:50.827816+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE OF MARYLAND v. STATE OF WEST VIRGINIA."
+    ],
+    "opinions": [
+      {
+        "text": "Me. Justice Day\ndelivered the opinion of the court.\nThis case originates in a bill filed by the State of Maryland October 12, 1891, against the State of West Virginia, invoking the original jurisdiction of this court conferred by the Constitution for the settlement of controversies between States. At its January session of 1890 the General Assembly of the State of Maryland passed an act authorizing and directing its Attorney General to take such steps as might be necessary to obtain a decision of the Supreme Court of the United States which would settle the controversy between the States of Maryland and West Virginia concerning the true location of that portion of the boundary line between the two States lying between Garrett County, Maryland, and Preston County, West Virginia.\nPreston County, West Virginia, was erected out of Monon-galia County, Virginia, in the year 1818. Garrett County, Maryland, was erected out of the western portion of Alle-ghany County under chapter 212 of the Acts of the General Assembly of the State of Maryland of 1872.\nThe boundary in controversy runs between the two States from the headwaters of the Potomac to the Pennsylvania line.\nThe bill of complaint states the. foundation of the Maryland title to be the charter granted on June 20, 1632, by King Charles I of England to Cecilius Calvert, Baron of Baltimore, ail rights under which, it is averred, have vested in the complainant, the State of Maryland. Virginia, it is alleged, by her'first constitution of June 29, 1776, disclaimed all rights to property, jurisdiction and government over the territory described in the charter of Maryland and the other colonies, iu the following terms:\n\u201cThe territories contained within the charters erecting the colonies of Maryland, Pennsylvania, North and South Carolina, are hereby ceded, released and forever confirmed to the people of those colonies respectively, with all the rights of property, \"Jurisdiction and government, and all other rights whatsoever which might, at any time heretofore, have been claimed by Virginia, except the free navigation and use of the rivers Potomac and Pokomoke, with the property of the Virginia shores or strands bordering on either of the said rivers, and all improvements which have been or shall be made thereon.\u201d\n. The bill also recites complainant\u2019s title to the South Branch of the Potomac River. It avers-the failure to settle th\u00e9 true location of the boundary line in dispute with West Virginia, which State succeeded to the rights and title of Virginia. The bill charges that the State of West Virginia is wrongly in possession of and exercising jurisdiction over a large part of the territory rightfully belonging to Maryland; that the true line of the western boundary of Maryland is a meridian running south to the first or most distant fountain of the Potomac River, and that such true line is several miles south and west of the line which the State of West Virginia claims, and over which she has attempted to exercise territorial jurisdiction.\nThe State of West Virginia filed an answer and cross bill, in which she sets up her claim concerning the boundary in dispute between the States, and says that the true boundary line, long recognized and established, is the one known as the \u201cDeakins\u201d line, and in the answer and cross bill she prays to have that line established as the true line between the States. She also alleges in her cross bill that the north bank of the Potomac River from above Harpers Ferry to what is known as the Fairfax Stone is the true boundary between the States; that West Virginia should be awarded jurisdiction over that portion of the river to the north bank thereof.\nThere is much documentary and other evidence in the record bearing upon the contention that the South Branch of the Potomac River is the true southern boundary of Maryland, but in the briefs and arguments made on behalf of Maryland in this case the claim for the South Branch of the Potomac as the true boundary is not pressed and the controversy is narrowed to the differences in the location of the boundary, taking the North Branch of the Potomac River as the true southern boundary line of Maryland.\nAs we have already said, the contention of the State of Maryland is rested upon the construction of the charter granted by. King Charles I, June 20, 1632, to Lord Baltimore.\nThe part of the charter necessary to consider is here given in the original Latin, and the translation thereof, as the same is contended for in the brief filed for the State of Maryland:\nWestern and Southern Boundaries, which calls are as follows, to wit:\nTransuendo a dicto aestuario vocato Delaware Bay recta linea per gradum preedictum usque ad verum-Meridianum primi Fontis Fluminis de Pottomack deinde vergendo versus Meridiem ad ulterio-rem dicti Fluminis Ripam et earn sequendo qua Plaga oc-cidentalis ad MeridianaJis [qu. plagam occidentalem et meri-dianalem] spectat usque ad Locum quendam appelatum Cinquack prope ejusdem Flu-, minis Ostium scituatum ubi in praefatum Sinum de Ches-sopeake evolvitur ac inde per Lineam brevissimam usque ad praedictum Promontorium sive Locum vocatum Wat-kin\u2019s Point.\nGoing from the said estuary called Delaware Bay in a right line in the degree aforesaid to the true meridian of the first fountain of the river Potomac, then tending downward towards the south to the farther bank of the said river and following it to where it faces the western' and southern coasts as far as to a certain place called Cinquack situate near the mouth of the same river where it discharges itself in the aforenamed bay of Chesapeake and thence by the shortest line, as far as the aforesaid promontory or place called Watkin\u2019s Point.\nThere is some difference in the record as to the true Latin text and the translation thereof. For- our purpose it is sufficient to consider that presented by the State of Maryland in the language above set forth. It is to be observed that the purpose of this part of the grant was to locate the northern line of the State of Maryland from Delaware Bay \u201cto the true meridian of the first fountain of the river Potomac, then tending downward towards the south to the farther bank of said river, and following it to where it faces the western and southern coasts as far as tc a certain place sailed Cinquack,\u201d etc.\nIt is the contention of the State of Maryland that the controversy between her and the State of West Virginia is narrowed to a proper location of the true meridian from the first fountain head of the Potomac River, which, being located, will effectually settle the boundary line in dispute. The claim of the State of Maryland may be further illustrated by a consideration of the plate exhibited in the brief filed in behalf of that State, which is herewith given.\nIt is to be noted in considering this plate that the north and south line at the left is called the Potomac meridian, running from a certain point designated as the Potomac Stone. It is insisted for the State of Maryland that the spring at this point most nearly fulfills the terms of the Lord Baltimore charter, in that it properly locates the true meridian of the first fountain head of the Potomac River, and following it \u00e1ccording to the description in the grant, embraces said river to its farther bank as the true boundary of Maryland.\nOn the other hand, West Virginia contends that the true head of the river Potomac is at the Fairfax Stone, and that the boundary should be located by a line from the spring at that point; and that such has long been the recognized boundary line betwe\u00e9n Virginia, West Virginia and Maryland. The distance from the Fairfax meridian to the Potomac meridian is about one and one-fourth miles, and the distance to the Pennsylvania line about thirty-seven miles.\nIt may be true that the meridian line from the Potomac Stone, in the light of what is now known of that region of country, more fully answers the calls in the original charter than does a meridian line starting from the Fairfax Stone. But it is to be remembered that the grant to Lord Baltimore was made when the region of the country intended to be conveyed was little known, was wild and uninhabited, had never been surveyed or charted, and the location of the upper part of the Potomac River was only a matter of conjecture.\nIt i'i said, and the record tends to show, that the only map of the country then 'known to be in existence was one prepared and published by Captain John Smith, upon which only a very small part of the Potrtmac River is shown, and from which we get no light as to the true source and course of the upper reaches of the Potomac River. The so-called Potomac Stone was neither set nor located until 1897, six years after the beginning of this suit, when it was put in place by the surveyor in this case on the part of the State of Maryland. He then set a monument designated as the \u201cPotomac Stone,\u201d and gave the name Potomac to the spring at the ori- . gin of that fork of the Potomac River. The so-called Potomac meridian was run by the same engineer, located and named by him in the year 1897.\nThe Fairfax Stone, which is shown at the beginning of the north and south line in plate No. 1, has a history and importance in this case which renders it necessary to note something of its origin and location. Without going into a history of the prior grants in Virginia, we come directly to the one bearing upon this case. It was made in September, 1688, by King James II of England, for the Northern Neck of Virginia to Thomas (Lord) Culpeper, which subsequently became the property of Lord Fairfax, and is usually spoken of as the Fairfax grant. That grant was under consideration in this court in the case of Morris v. The United States, 174 U. S. 198, a case to which we shall have occasion to refer later, and from page 223 of that report we take a description of so much of the grant as is necessary to a consideration of this cause. The Northern Neck of Virginia is described in that grant as follows:\n\u201cAll that entire tract, territory or parcel of land situate, lying and being in Virginia in America, and bounded by and within the first heads or springs of the rivers of Tappahannock als. Rappahannock and Q.uiriough ais. Patawomerck Rivers, the courses of said rivers from their said first heads or springs, as they are commonly called and known by the inhabitants and description of those parts and the bay of Chesapeake, together with the said rivers themselves and all the islands within the outermost banks thereof, and the soil of all and singular the premises, and all lands, woods, underwoods, timber and trees, wayes, mountains, swamps, marshes, waters, rivers, ponds, pools, lakes, watercourses, fishings, streams, havens, ports, harbours, bays, creeks, ferries, with all sorts of fish, as well whales, sturgeons and other royal fish\u00bb \u25a0. . . To have, hold and enjoy all the said entire tract, territory or portion of land, and every part and parcel thereof, ... to the said Thomas, Lord Culpeper, his heirs and assigns forever.\u201d\nThe territdry embraced in this Northern Neck- became subject to the jurisdiction and dominion of Virginia and the boundary lines fixed for it become important in determining the true boundary between Virginia and adjoining States. In the grant to Lord Culpeper the tract is described as lying in Virginia in America, and bounded by and within the first heads or springs of the rivers Rappahannock and Patow-mack. Disputes having arisen between the Governor and Council of Virginia and Lord Fairfax, touching the true boundary of the grant, an order was made on November 29, 1733, by the King in Council, reciting that Lord Fairfax had petitioned for an order to settle the boundaries of his tract, and for a commission to issue, run out and ascertain the boundaries of the same. The King granted an order, and thereafter the Governor of Virginia.on September 7, 1736, appointed certain commissioners to act for the colony of Virginia-in the matter; Lord Fairfax appointed certain commissioners to act on his behalf.\nThe instructions to the commissioners required them to make a clearer description of the boundaries in controversy, to make exact maps of the rivers Rappahannock and Potomac, and the branches thereof to the head or spring, so-called or known, and the surveys made by them with correct, maps thereof to be laid before His Majesty. The commission adopted the North Branch of the Potomac River, then known as the Cohaungoruton, and after further proceedings, which are not necessary to recite in detail, and after a reference to the Lords of Trade and Plantations, a report was made which, among other things, stat\u00e9d that a, line run from the first head or spring of the south or main branch of the Rappahannock River to the first head or spring of the Potomac River is, and ought to be, the boundary fine determining the tract or territory of land 'commonly called the Northern Neck. Ijlti-mateiy the matter was laid before the King in Council, and commissioners were appointed to mark and run the line between the head spring of the rivers Rappahannock and Potomac, and the stone called the Fairfax Stone was planted in September, 1746, at the head spring of thfe Potomac River. In 1748 the location of the stone was approved by the' Virginia assembly and the King in Council; This Fairfax Stone has been an important monument in settling and establishing boundaries since that time.\nIt was found still in phoe in 1859 by Lieutenant Miehkr, who made a survey on beb Jf of the boundary commissioners of Maryland and Virginia, to which we shall have occasion to refer later on. In his report Lieutenant MicHler describes the stone as follows:\n\u201cThe initial point o\u00ed tbe work, the oft-mentioned, oft-spoken of 'Fairfax Stone/ s\u00fcands on a spot encircled by several small strearns_ fiowing from the springs about it. It consists of a rough piece of sandstone indifferent and' friable, planted to a depth of a. few feet in the ground and rising a, foot or more above the surface. Shapeless in form, it would scarcely attract the attention of the passerby. The finding of it was without difficulty and its recognition and identification, by the inscription 'Fix/ now almost obliterated by-the corroding action of water and air.-\u201d '\nWithout stopping to mention the cases in which Virginia has recognized this monument in creating counties and otherwise, it is to be noted that it was recognized as a boundary point by the State of Maryland in erecting Garrett County, the boundary between which and. Preston .County, West Virginia, it was the purpose of the act o\u00ed the legislature of Maryland to have -settled by the filing of the-bill gnd proceeding?? in the present case.\nBy the constitution of Maryland of 1851 it is provided (article 8, \u00a7 2):\n\u201cWhen that part of Alleghany County lying south and west of a line beginning at.the summit of Big Back Bone or Savage Mountain where that mountain is crossed by Mason and Dixon\u2019s line, and running thence by a straight line to the middle of Savage River where it empties into the Potomac Paver, thence by a straight line in the nearest point'or boundary of the Stabs of Virginia, thence with said boundary to the Fairfax Stone, shall contain a population of ten thousand, and if the majority of the electors thereof shall desire to separate and form a new county and make known their desire by petition to the legislature, the legislature shall direct, at the uex't succeeding election, that die judges shall open a book at each election district in said part of Alleghany County and have recorded therein the vote of each elector \u2018for or against\u2019 a new county. In case the majority are in favor then said part of Alleghany County to \u2022 be declared an independent county, and the inhabitants whereof shall have and enjoy all such rights and privileges so are held and enjoyed by the inhabitants, of the other countyin this State.\u201d\nIn the act of 1872, creating \"Garrett County, it is provided:\n\u201cThat all that part of Alleghany County lying south and west of a line beginning at the summit of Big Back Bone or Savage Mountain where that mountain is crossed by Mason and Dixon\u2019s line, and running thence by a straight line to the middle of Savage River where it empties into the Potomac .River: thence by a straight line to the'nearest point or boundary of the State of West Virginia; then with the said boundary to the Fairfax Stone, shall be a'new county, to be called the county of Garrett, provided,\u201d etc.\nIt appears-that not infrequent attempts have been made to settle* the controversy between the States now at the bar of this court. In the years 1795, 1801 and 1810 certain commissioners were provided for by the State of Maryland to meet commissioners to be appointed by the State of Virginia, with power to adjust the boundary between the southern and western limits of the State of Maryland aiid the dividing line between it and Virginia. Nothing seems to have come of these attempts. \u2022\nIn 1818 the State of Maryland passed an act proposing to Virginia the appointment of a commission, to run a line from the most western source of the North Branch of the Potomac.\nIn February, 1822, the legislature of Virginia expressed its willingness to appoint commissioners, who were to locate the western boundary by a stone located by Lord Fairfax at the headwaters pf the Potomac River. The commissioners met, but the diverg\u00e9ncy in their instructions prevented any action.\nIn 1825 Maryland passed an act for the settlement of The boundary, providing that the Governor of Delaware should act as umpire. In 1833 Virginia passed an act providing for commissioners to run the lines from the Fairfax Stone, or, at the: first fountain of the Cohangoruton\u201d or North Branch of the Potomac River. In default of Maryland appointing commissioners, Virginia commissioners were to run and mark the line.\nIn October, 1834, the State of Maryland filed a bill in this court against the State of Virginia, which bill was subsequently dismissed without any action being taken thereon. In 1859 a line was run by Lieutenant Michler, of the United States Topographical Engineers, to which we shall have occasion to refer more in detail, later on.\nBy an act of 1781 the State of Maiyland appropriated land within the State in Washington County west of. Fort Cumberland, with certain exceptions, to discharge the engagements of the State to the officers and soldiers thereof, and, by a resolution passed in April, 1787, the Governor and Council were requested \u201cto appoint and employ some skilful person to lay out the manors, and such parts of the reserve and vacant lands, belonging to this State, lying to the west of Fort Cumberland, as he may think fit and capable of being settled and improved,, in lots of fifty acres each, bounded by a fixed beginning and four lines only, unless on the sides adjoining elder surveys; that the beginning of each lot be marked with marking irons, or otherwise, with the number thereof, and that a fair book of such surveys, describing the beginning of each lot by its situation, as well as number, be returned and laid before the next general assembly.\u201d\nUnder this resolution Francis Deakins was appointed to make the survey, and, in 1788, an act of the general assembly of Maryland was passed. It reads, in part, as follows:\n\u201cAnd whereas, in pursuance of a resolve of the general assembly, at April session, seventeen hundred and eighty-seven, authorizing the governor and council to appoint and employ some skilful person to lay out the manors, and such parts of the reserves and vacant land belonging to this State, lying to the westward of Fort Cumberland, as be might think fit and capable of being settled and improved, in lots of fifty acres each, Francis Deakins was appointed and employed by the gov\u00e9mor and council for that purpose, and has finished the said survey, and has returned a general plot of the county westward of Fort \u25a0 Cumberland, on which four thousand one hundred and sixty-five lots of fifty acres each are laid off, besides sundry tracts which have been patented, distinguishing on the plot those lots which have been settled and improved from those which remain uncultivated; and the said Francis Deakins has also returned two books, entitled A and \u25a0 B, in which are entered certificates of all of the lots before mentioned.\u201d\nAnd further enacted that'2,575 of the aforesaid lots were contained in the following limits: \u201cBeginning- at the mouth of Savage River and running with the North Branch of the Potomac River to the head thereof, then with the present supposed boundary line of Maryland until the intersection of an east, line to be drawn from said boundary line with a north course from the mouth of Savage River, will include the number of lots aforesaid to be distributed by lot among the said soldiers and recruiting officers, and their legal representatives,\u201d etc.\nAnd it further provides that lots granted to officers should be adjacent to those distributed to the soldiers, within the following limits: \u201cBy extending the aforesaid north course from the mouth of Savage River, until its intersection with an east line to be drawn from the aforesaid supposed boundary line of Maryland will include the necessary number allowing to each officer or his representatives four lots aforesaid.\u201d\nThe act also contains the following language: \u25a0'\n\u201cAnd be it enacted, that the line to which the said Francis Deakins has laid out the said lots, is in the opinion of the general assembly, far within that which this State may rightfully claim as its western boundary: and that at a time of more leisure the considerations of the legislature ought to be drawn to the western' boundaries of the State, as objects of very great importance.\u201d\nDeakins filed a map, which is in evidence ill this case and which shows a large number of lots laid out and also certain outlines of deeds and grants. This line in the briefs and records is sometimes mentioned as having been run in 1787, sometimes 1788, and sometimes 1789. In view of the act of 1788 the line was probably run in that year. As in our view of the case, the action of Deakins in the location of this line arid, his evident adoption of the Fairfax Stone as a starting\" point, is an important feature .of this controversy, we insert herein a tracing from, the original Deakins map put in evidence on the part of the State of West Virginia. An inspection of this map shows a north' and. south lirie Upon the west side thereof, and also some of the military lots laid out by Deakins in that part of the tract. It is to be noted that this north and south line is marked: \u201cThe meridian line and the head of the North Branch of the Potowmack River as fixed by Lord Fairfax.\u201d ' This could mean but one thing, and that is, an attempted meridian line north from the Fairfax Stone, located to the' Pennsylvania line.\nWe shall have occasion to recur to this line.\nIn 1852 the legislature of the State of Maryland passed an act concerning the disputed boundary, which act provides:\n\u201cWhereas it is of great importance that the western territorial limit of the State of Maryland be clearly defined and her boundary be permanently established; and whereas, the wue location of the western line of Maryland between the States of Maryland and Virginia beginning at or near the Fairfax Stone on the North Branch of the Potomac River, at or near its source, and running in a due north line to the State of Pennsylvania, is now lost and unknown and all the' marks have been destroyed by time or otherwise; and whereas, the States of Virginia and Maryland have both granted patents to the same tracts of land at or near the supposed line, and as suits of ejectment are now pending in the Circuit Court of Alleghany County, in the State of Maryland, by persons holding under Maryland patents against persons now in possession, and holding land under \u25a0 patents granted by the State of Virginia, which cannot be justly settled without establishing said boundary line:\n\u201cTherefore, Section 1. Be it enacted by the General Assembly of Maryland, that the. governor be and he is requested to open a correspondence with the governor of Virginia in' relation to tracing, establishing and marking the . said line, and in ease the legislature of Virginia shall pass an act providing for the appointment of a commissioner to act in conjunction with a commissioner on the part, of Maryland in the premises, then and in such case, the governor be and he is hereby authorized and requested to appoint a commissioner who, together with the commissioner who shall be apppimed on the part of Virginia, shall cause the said line to be accurately surveyed, traced and marked with' suitable monuments beginning therefor at. the said Fairfax Stone and running thence due north to the line of the State of Pennsylvania.\n\u201cSec. 2. And be it enacted, that it shall be the joint duty of the commissioners after running, locating, .establishing and marking the said line, to make a report setting forth all the facts touching, locating and marking said line; and it shall be the duty of the commissioner of each respective State to forward copies of the joint report to each of their respective legislatures; and upon the ratification of said report by the State of Virginia and the State of Maryland, through their respective legislatures, the said boundary lines shall be fixed and established so to remain forever, unless changed by mutual consent of the two States.\u201d\nIn 1854 the general assembly of Virginia met this action upon the part of the State of Maryland- by the passage of an act, which provides:\n\u201cWhereas the general assembly of Maryland has passed an act for running and marking the boundary line between that State and the State of Virginia, beginning therefor at the Fairfax Stone on the Potomac River, sometimes called the North Branch of the Potomac River at or near the source and running thence due north to the line of the State of Pennsylvania; and whereas the legislature of Maryland has requested the appointment of a commissioner on the part of this State to act in conjunction with the commissioner of Maryland to run and mark said line: therefore, be it enacted,\n\u201c1. That the governor appoint a commissioner who, together with the Maryland commissioner, shall cause the said line to be accurately surveyed, traced and marked with suitable monuments, beginning therefor at the Fairfax Stone, situated as aforeaid, and running thence due north to the line of the State of Pennsylvania.\u201d\nAnd the act concludes:\n\u201cUpon the ratification of such report by the legislatures of tl\u00ede States of Virginia and Maryland the said boundary line shall be fixed and established to remain forever, unless changed by mutual consent of the said States.\u201d\nUnder these acts of the legislatures of the respective States commissioners were appointed, who made application to the Secretary of War for the services of an officer of the United States Engineers to aid them in carrying out the purposes of the acts. Upon this application the Secretary of War detailed Lieutenant N. Michler, of the United States Topographical Engineers. As directed in both the acts, Lieutenant Michler commenced his work at the- Fairfax Stone, and ran a line northwardly, marking it at certain places. This line intersected the Pennsylvania line at a point about three-fourths of a mile west from the northern extremity of the Deakins line, which had been run in 1788, as we have already stated. There was a triangle between the Deakins and Mich-ler lines, having its apex at the Fairfax Stone, and lines diverging thence, until there was a difference of three-fourths of a mile at che base of the triangle at the Pennsylvania line.\nIt appears that the commissioners of the \u2022 two States dif-. fered, the commissioner of Virginia contending that by .the act of the legislature, above referred to, that State had not adopted the meridian line from the Fairfax Stone as the boundary. 'The commissioner of Maryland contended for that meridian line. On March 5, 1860, the legislature of Maryland passed an act adopting the Michler line, commencing at the \u25a0Fairfax Stone at the head of the North Branch of the Potomac River, and running thence due north to the southern line of Pennsylvania, as surveyed in the year 1859 by commissioners appointed by the States of Maryland and Virginia, and thereafter the State of Maryland provided for the marking of the Michler line.\nVirginia did not approve of the Michler line, but in 1887 West Virginia passed an act confirming the line as run by Lieutenant Michler in 1859 as the true boundary line between West Virginia and Maryland, but the act was not to take effect until and unless Maryland should pass an act or acts confirming and rendering valid all the entries, grants, patents and titles from the Commonwealth of Virginia to any person, or persons, to lands situate and'lying between the new Maryland line and the old'Maryland line heretofore claimed by Virginia and West Virginia, to the same extent and with like legal effect as though the said old Maryland line was confirmed and, established.\nThe divergence between Michler's line and the line shown on Deakins\u2019 map probably arises from the fact that Lieutenant Michler ran a true astronomical line, and that his lin\u00e9 is a true north and south line, whereas the Deakins line was probably run with a surveyor\u2019s compass, and with less accuracy than the Michler line.\nIt is the contention of the State of Maryland that Deakins never-attempted to run a true north and south line; that he never had any authority from the State of Maryland so to do; and, that in the act confirming the laying out of the lots by Deakins it was especially declared by-the State of Maryland that it did not show the .true western boundary of the State; furthermore, that the attempts which have been, made to trace the Deakins- line show that it is not a true north and south line, but a broken, line, having offsets in various places.\nThe State of Maryland insists that the evidence shows that a number of old grants made prior to the Deakins survey would extend west of the boundary line, as shown either by Deakins or Michler. It is the contention of the State of Maryland. that when these grants were made she indicated a line further to the west than either of these lines, and that the ancient grants of large tracts of land show that fact. But the evidence contained in this record leaves-no room to doubt that after the.running of the Deakins line the people of that region knew and referred to it as the line between the State of Virginia and the State of Maryland. Lieutenant Michler in the-frahk and able report filed with his survey, recognizes, this situation, for he says:\n\u201cThe meridian as traced by me last summer differs from all previous lines run; some varying too far to the east, others too far to the wfest. The oldest one, and that generally adopted by the inhabitants as the boundary line, passes.to the east; and from measurements made to it I found that it was not very correctly run. The' surveyor\u2019s compass was used for' the purpose, and some incorrect variation of the needle allowed. Owing to .the thick and heavy growth of tiinber, it-is utterly impossible to run a straight line through it without first opening a line of sight. It could only be approximately done.\n\u201cWhen north of. the railroad, and the nearer the Pennsylvania-line is approached the settlements and farms become more numerous; and if the meridian line is adopted as the boundary; it will cause great litigation, as the patents of most of the lands call for the boundary as their limits. On the Pennsylvania boundary the new line is about three-quarters of a\u2019milewest of the old; on the railroad \u2014feet; at Weill\u2019s field, 85 feet; on the northwestern turnpike, about. 40 feet, and on the backbone, about 20 feet.\u201d\nThese recitals from Lieutenant Michler\u2019s report, 'if the record were lacking in other evidence, would leave little doubt that there was an old boundary line, generally adopted, and that the adoption of the true meridian line, which Li\u00e9u-tenant' Michler ran,\u2019 would cause great litigation because of the \u00bfcquiescence of the people in the old boundary line, the Deakins line.\nThe report of the committee of the Maryland Historical Society, an exhibit in this case, contains a history of the boundary dispute, and it is therein said:\n\u201cThe provisional line of 1787, or \u2018Deakins line,\u2019 as it was called,: had long done duty as a boundary; and as the State granted no lands beyond it, it came to be looked upon \u2014despite the emphatic protest of the assembly of 1788, as the true boundary line of the State. In process of time the marks became obliterated, and conflicts of title and litigation arose between the holders of Maryland and the holders of Virginia patents for lands in the debatable territory. So in May, 1852, the-Maryland legislature passed an act reciting these facts and requesting the governor to open \u00e1 correspondence with the governor of Virginia \u00e1bout the matter; and authorizing him to appoint a commissioner, if .the legislature of Virginia would also appoint one, which joint commission should run and mark a line due north from the Fairfax Stone, which line, when ratified by both legislatures, should be the boundary between the States.\u201d\nThe State of Maryland has herself, in sundry grants,, recognized this old line. In a grant by the State of Maryland for a tract called \u201cMaryland,\u201d dated January 23, 1823, among other calls is this one: \u201cRunning thence south thirty-six degrees west, \u00e9ightv-six perches to the Virginia and Maryland line, as run under the directions of Francis Deakins at the time of laying out the lots to the westward of Fort Cumberland, and thence running,\u201d etc.\nIn.the. Deakins. description of the first lot north of the Fair-fax Stone the following language is used in describing military lot. No. 1101:\n\u201cBeginning at a bounded maple marked 1100, standing one mile north from a stone fixed by Lord Fairfax for the head of the North Branch of the Powtomack River, and running north 89J p\u00e9rches; east, 89| perches; south, 89J perches; then to the beginning, containing 50 acres.\u201d\nThis record leaves no doubt as to the truth of the statement contained in the report of the committee of.the Maryland Historical Society, that the Deakins-Hne, before the passage of the act under which the Michler line' was run, had long been recognized as a boundary and served as such. Even after the Michler line was run and marked the testimony shows that the people generally adhered to the old line as the true boundary line. There are numerous Virginia grants and private deeds of land given in the record, which call for this old Maryland line- as the boundary.\nThe \u2022 testimony- shows that the people jiving along the Deakins line worked and improved the roads on the Virginia side, as a-general rule, up to this line. Correspondingly, Maryland worked the roads on the other side of this line. On the west of the line the people paid taxes on their lands in Preston County, West Virginia. They voted in that county., and with rare exceptions regarded themselves as citizens of West Virginia. As a general rule, the schools established there were West Virginia schools. The allegiance of nearly all these people has been given to West Virginia. .\nIt is true there has been more or less contention as to the true boundary line between these States. Attempts have been made to settle and adjust the same, some of which we have referred to, and the details of which may be found in the very interesting document to which we have already made reference, the report of the committee of the Maryland Historical Society. In the proposed settlements, for many years, Virginia and West Virginia have consistently adhered to the Fairfax Stone as a starting point for the disputed boundary. When West Virginia passed.the act of 1887, ratifying the \u2022Michler line, it was upon condition that Virginia titles granted between the Michler line and the old Maryland line should be validated. Maryland, in the act of 1852, recognized the same starting point.\nAnd the fact remains that after the Deakins survey in 1788 the people living along the line generally regarded that line as the boundary line between the States at bar.' In the acts of the legislatures of the two States, to which we have already referred, resulting in the survey and running of the Michler line, it is evident from the language used that the purpose was not to establish a new line, but to retrace the old one,, and we are strongly inclined to believe that had this been done at that time the controversy would have been set7 tied.\nA perusal of the record satisfies us that for many years occupation and conveyance of the lands on the Virginia side has been with reference to the Deakins line as the boundary line. The people have generally accepted it and haye adopted it, and the facts in this connection cannot be ignored. In the case of Virginia v. Tennessee, 148 U. S. 503, 522, 523, Mr. Justice Field, sp\u00e9aking for the court, had occasion to make certain comments which are pertinent in this connection, wherein he said:\n\u201cIndependently of any' effect due to the- compact as such,, a boundary line, between States or provinces, as between private persons, which has been run out, located and marked upon the earth, and afterwards recognized and acquiesced in by the parties for a long course of years, is conclusive, even if it be ascertained that it varies somewhat from the courses given in the original grant; and the line so established takes effect, not as an alienation of territory, but' as a definition of the true and ancient, boundary. \u2022 Lord Hardwicke in Penn v. Lord Baltimore, 1 Vesey Sen. 444, 448; Boyd v. Graves, 4 Wheat. 513; Rhode Island v. Massachusetts, 12 Pet. 657, 734; United States y. Stone, 2 Wall. 525, 537; Kellogg v. Smith, 7 Cush. 375, 382;Chenery v. Waltham, 8.Cush. 327; Hunt on. Boundaries (3d ed.), 396.\n\u25a0 \u201cAs said by this court' in the recent case of the State of Indiana v. Kentucky, 136 U. S. 479, 510, \u2018:it is a principle of \u2022public law, universally recognized, that long acquiescence in the possession of territory, and in the exercise of dominion and sovereignty over it, is \u201cconclusive of the nation\u2019s'title and rightful authority.\u2019 In the case of Rhode Island v. Masses chusetts, 4. How. 591, 639, this court, speaking of the long possession of Massachusetts, and the delays in alleging any mistake in the action of the commissioners of the colonies, said: \u2018Surely this, connected with the lapse of time, must remove all doubts as to the right of the respondent under the agreements of 17\u00cd1 and 17T8. No human transactions are unaffected by time. Its influence is seen on all things subject to change.' And this is peculiarly the case in regard to matters which rest in memory, and which consequently fade with the lapse of time and fall with the lives of individuals. For the security of rights, whether of States or individuals, long possession under a claim of title is. protected. And there is no controversy in which this great principle may be in-. voked with greater justice and propriety than a case of disputed boundary.\u2019 \u201d\nAnd quoting from Vattel on the Law of Nations to the same effect (\u00a7 149, p. 190):\n\u201cThe tranquillity of the p\u00e9ople, the safety of States, the happiness of the human race do not allow that the possessions, empire, and other rights of nations should remain uncertain, subject to dispute and ever ready to occasion bloody wars. Between nations, therefore, it becomes necessary to admit prescription founded on length of time as a valid and incontestable title.\u201d\nAnd adds from Wheaton on International Law ($ 164, p. 260):\n\u201cThe writers on natural law have questioned how far that peculiar species of presumption, arising from the lapse of time, which is called prescription, is justly applicable as between nation and nation; but the constant and approved practice of nations shows that by whatever name it be called,\n\u25a0 the uninterrupted possession of territory or other property for a certain length of time by one State excludes the claim of every other in the same manner, as, by the law of nature and the municipal code of every civilized nation, a similar possession by an individual excludes the claim of every other person to the articles or property in question.\u201d\nAnd it was said:\n\u201cThere are also moral considerations which should prevent any disturbance of long recognized boundary lines; considerations springing from regard to the natural sentiments and affections which grow up for places on Which persons have long resided; the attachments to the'country, to home and to family, on which is based all that is dearest and most' valuable in life.\u201d\nIn Louisiana v. Mississippi, 202 U. S, 1, 63, this court said:\n\u201cThe question is one of boundary, and this court has many times held that, as between the States of the Union, long acquiescence in the. assertion- of a particular boundary and the exercise of dominion and sovereignty over the territory within it, should be accepted as conclusive, whatever the international rule might be in respect of the acquisition by prescription of large tracts of country claimed by both.\u201d\nAn application of these principles cannot permit us to ignore the conduct of the States and the belief of the people concerning the purpose of the boundary line known as the old state, or Deakins, line, and to which their deeds called as the boundary of their farms, in recognition of which they have established their allegiance as citizens of the State of West Virginia, and in accordance to.which they have fixed their homes and habitations..\nTr.ue it is, that, after the running of the Deakins line, certain steps were taken/ intended to provide a more effectual legal settlement and delimitation of. the boundary. But none of \"these steps were effectual, or such as to disturb the continued possession of the people claiming rights up to the boundary line.\nThe effect to be given to such facts as long continued possession \u201cgradually ripening into that condition which is in conformity with international order,\u201d depends upon the merit of individual cases as they arise. 1 Oppenheim International Law, \u00a7 243. In this case we think a right, in its nature prescriptive, has'arisen, practically undisturbed for many years, not to be overthrown without doing violence to principles of established right and justice equally binding upon States and individuals. Rhode Island v. Massachusetts, 12 Pet. 657.\n.. It may be true that an attempt to relocate the Deakins line will show that it is somewhat irregular, and not a. uniform, astronomical north and south line; but both surveyors appointed .by the States represented in this controversy were able to locate a number of points along the line, and the northern. limit thereof is fixed by a mound, and was located by the commissioners who fixed the boundary between West Virginia and Pennsylvania by a monument which was erected at that point, \u00e1nd we think from the evidence in this record that it can be located with little difficulty by competent commissioners.\nWe think, for the. reasons which we have undertaken to state, that the decree in this case should provide for the appointment \"of commissioners whose duty it shall be to run and permanently mark the old Deakins line, beginning at a point where the north and south line from the' Fairfax Stone crosses the Potomac River and running thence northerly, along said line to the Pennsylvania border.\nAs to the contention made by West Virginia in her cross bill, that she is entitled to the Potomac River to the north bank thereof, we think that claim is disposed of by the case of Morris v. United States, 174 U. S. 196, already referred to. In that case, among other things, there was a controversy between the heirs of James H. Marshall and the heirs of John Marshall as to the ownership of the bed of the Potomac River from shore to shore, including therein certain reclaimed lands. Claims of the one set of heirs, were based upon the charter of Lord Baltimore of June, 1632, and that of the others upon the grant of King James II to Lord Culpeper, afterwards owned by Fairfax, to which we have already referred.\nAfter making reference to the award of the commission to fix the Virginia and Maryland boundary, appointed in 1877, \u2022fixing the line and boundary at low-water-mark on the Virginia shore, to which arbitration the State of West Virginia was not a party, this court disposed of the controversy, irrespective of that award, in the following language, used by Mr. Justice Shiras in delivering the opinion of the court:\n\u201cWhether the result of this arbitration and award is to be regarded as establishing what the true boundary always was, and that therefore the grant to Thomas, Lord Culpeper, never of right included the Potomac River, or as establishing a compromise line, effective only from the date of the award, we need not determine. For, even if the latter be the correct view, we agree with the conclusion of the court below, that, upon all the evidence, the charter granted to Lord Baltimore, by Charles I, in 1632, of the territory known as the province of Maryland, embraced the Potomac River and soil under it', and the islands therein, to high-water mark on the southern or Virginia shore; that the territory and title thus granted to Lord Baltimore, his heirs and' assigns, were never divested by any valid proceedings prior to the Revolution; nor was such grant affected by the subsequent grant, to Lord Culpeper. . .\n\u201cThe record discloses no evidence that, at any time, any substantial claim was ever made by Lord Fairfax, heir- at law of Lord Culpeper, or by his grantees, to property rights in the Potomac River, or in the soil thereunder, nor does it-appear that Virginia ever exercised the power to grant ownership in the islands or soil under the river to private persons. Her claim seems to have been that of political jurisdiction.\u201d\nWe think this decision disposes of and denies this claim of the State of West Virginia in her cross bill.\nUpon the whole case, the conclusions at which we have arrived, we believe, best meet the facts disclosed in this record, are warranted by the applicable principles of law and equity, and will least disturb rights and titles long regarded as settled and fixed by the people most to be affected. If this decision can possibly have a tendency to disturb titles derived from one State or the other, by grants long acquiesced in, giving the force and right of prescription to the ownership in which they are held, it will no doubt be the pleasure as it will be the-manifest-duty of the lawmaking bodies of the two States to confirm such private rights upon principles of justice and right applicable to the situation. \u25a0\nA decree should be entered settling the rights of the States to the western boundary, and fixing the same, as we have hereinbefore indicated, to be run and established along the old line known as the Deakins or old state line; and commissioners should be appointed to locate and establish said line as near as may be. The cross bill of the State of West Virginia should be dismissed in so far as it asks for a decree, fixing the north bank of the Potomac River as her boundary. Counsel for the respective States are given forty days from' . the entry hereof to agree upon three commissioners and to present to the court for its Approval a decree drawn according to the directions herein given, in default of which agreement and decree this court will appoint commissioners, and itself draw the decree in conformity herewith. Costs to be equally divided between the States.\nS\u00ab p. Syr-\nDecree accordingly..",
+        "type": "majority",
+        "author": "Me. Justice Day"
+      }
+    ],
+    "attorneys": [
+      "Mr. Isaac Lobe Straus, Attorney General of the State of Maryland, and Mr. Edward H. Sincell, with whom Mr.William L. Rawls was on the brief, for the plaintiff:",
+      "Mr. George E. Price, with whom Mr. Wm. G'. Conley, Attorney General of the State of West Virginia, was on-the brief, for the defendant:"
+    ],
+    "corrections": "",
+    "head_matter": "STATE OF MARYLAND v. STATE OF WEST VIRGINIA.\nIN EQUITY.\nNo. 1, Original.\nArgued November 2, 3, 4, 1909.\nDecided February 21, 1910.\nThe record in this case sustains the proposition that for many ye\u00e1fs the people of Maryland, Virginia and West Virginia, have accepted as the boundary between Maryland and West Virginia the line known as the Deakins line, and have consistently adhered to the Fairfax Stone as the starting point of such line, and that none of the steps taken to delimitate the boundary since such line was run in 1788 have been effectual, or such as to disturb the continued possession of people claiming rights up to such Deakins line on the Virginia and West Virginia side.\nWhether long continued possession by a State of territory has ripened into sovereignty thereover which should be recognized by other States depends upon the facts in individual cases as they arise.\nWhere possession of territory has been undisturbed for many years a prescriptive right arises which is equally binding under the principles of justice on States and individuals.'\nEven if a meridian boundary' line is not. astronomically correct, it should not be overthrown after it has been recognized for many years and become the basis for public arid private'rights of property.\nThe decree in this case should provide for the appointment of commissioners to run and permanently mark, as the boundary line between Maryland and West Virginia, the old Deakins line, beginning at a point where the north and south line from the Fairfax Stone crosses the Potomac River and running thence northerly along said line to the Pennsylvania border. -\nWest Virginia is not entitled to the Potomac River to the north bank \u25a0 thereof. Morris v. United States, 174 U. S. 196.\nBoundary disputes between States should be adjusted according to the facts in the case by the applicable principles of law and equity, and in such manner as will least disturb private rights and titles regarded as settled by the people most affected; and it should be the manifest duty of the lawmaking bodies of adjoining States to confirm such private rights in accordance with such principles.\nThe facts, which involve that portion of the boundary line between the two States lying between Garrett County, Maryland, and Preston County, West Virginia, are stated in the opinion.\nMr. Isaac Lobe Straus, Attorney General of the State of Maryland, and Mr. Edward H. Sincell, with whom Mr.William L. Rawls was on the brief, for the plaintiff:\nThe charter of Maryland gave to the Lord Proprietary an absolute right of soil in and to all the territory comprehended within its specified boundaries. Cunningham v. Browning, 1 Bland Ch. Rep. 305; Cassell v. Carroll, 2 Bland Ch. Rep. 127; Baltimore v. McKim, 3 Bland Ch. Rep. 455; Briscoe v. State, 68 Maryland, 294; Wharton v. Wise, 153 U. S.; 155; Morris v. United States, 174 U. S. 196;\nThe State of Maryland at and by the Revolution acquired all the territorial rights vested in the Proprietary before the Revolution. Cases supra; Ringgold v. Mdlott, 1 H. & J. 299; Howard v. Moale, 2 H. & J. 249; Matthews v. Ward, 10 G. & J. 443; Smith v. Deveemon, 30 Maryland, 374; United States v. Morris, 23 Wash. Law Rep. 759.\nThe State of Maryland stands upon the calls in the charter to Lord Baltimore as paramount, controlling and final in delimiting and fixing her western and southern boundaries. '\nThe construction of this grant of territory in the charter of Maryland has been judicially settled. The courts and all other authorities have again and again declared that the charter defines the western and southern boundaries of the former province and present State of Maryland as having a common terminus at the first fountain of the Potomac River \u2014 that is to say, that the western boundary is the meridian running from the Pennsylvania line due south to the first fountain of the Potomac River, and that the southwestern -and southern boundary begins at the said first fountain on the farther or southern bank or shore, and from that point runs along said farther or southern shore or bank \u2022 of the river to its mouth \u2014 the southern shore or bank of the river, from its source to its mouth, being the boundary of Maryland on its southern and southwestern sides, and the whole of the river and its bed, from its source to its mouth, being within the boundaries of the State.\nEvery court, every jurist and every author who has \u00e9ver mentioned the subject at all, unite, concur and agree in this construction and view of the boundaries called for by the charter, and not a single dissent from this construction can be found anywhere except the claim put forth for the first time in this case that the western boundary of Maryland does not run to the western source or first fountain of the Potomac, but is located on the main body of the stream, two miles (10,321.1 feet), eastward from its most western spring or source, and almost a mil\u00e9 (4,020 feet) distant from the spring which the defendant contends is the first spring called for by the charter.\nThe State of Maryland submits that it has always been understood and declared, never denied or doubted and repeatedly and uniformly adjudicated that the southern and southwestern boundaries of Maryland extend along the southern shore of the Potomac River fi:om its mouth through- . out its whole extent to its first fountain or source. In other words, the meridian which the charter calls for as its western boundary, which is located at the first fountain of the river, runs from the Pennsylvania line to the first fountain of the river and that, accordingly, the southwestern and the southern boundaries of the State extend from the point of the meridian at its first fountain upon the southern bank of the stream at its first fountain all the way to the mouth of the stream at the Chesapeake Bay. Every court and every other authority which has had occasion to consider this subject has so construed this charter. And this is the only construction which is consonant with the manifest intention of the grant and with the rule of interpreting such grants as laid down by the foremost publicists and jurists. Cases supra and Chapman v. Hoskins, 2 Md. Chanc. 485; Alexandria Canal Co. v. District of Columbia, 9 Wash. Law Rep. 456; 1 Story\u2019s Comm., \u00a7 103; O\u2019N\u00e9al v. Virginia Bridge Co., 18 Maryland, 1, 16, and see Mr. Alvey\u2019s argument in Doddridge v. Thompson, 9 Wheat. 469; Howard v. Ingersoll, 13 How. 416, 424, 425;-. Vattel\u2019s \u2022 Law of Nations, bk. 1, ch. 22, par. 5; 1 Bancroft\u2019s Hist, of U. S., ch. 7, p. 241; McMahon\u2019s Hist, of Maryland, 49, 51, 69; McSherry\u2019s Hist, of Maryland; Prof. Wm. H. Browne\u2019s \u201cMaryland:' The History of a Palatinate,\u201d 18; 1 Scharf\u2019s Hist, of Maryland, 409; United States v. Texas, 162 U. S. 1; Uhl v. Reynolds, 23 Ky. Law Rep. 759 ; 30 Am. and Eng. Ency. of Law, title- \u201cWaters ,and Watercourses,\u201d sub-title \u201cSource,\u201d 351; Gould on Waters, \u00a741; Wright v. Brown, 1 Simon and St. 203; 2 Farnham on Waters and Watercourses, \u00a7 501, p. 1656.\nIn Professor Steiner\u2019s \u201c Institutions and Civil Government of Maryland\u201d (Ginn & Co., 1899), p. 2, the southern and western boundaries of Maryland are described as from the mouth of the Potomac, \u201calong the south bank of that river to the source of its north branch; on the west the meridian of the source.\u201d\nWhere a watercourse has its source in a spring, such source is itself a part of the watercourse. 30 Am. and Eng. Ency. of Law, title \u201cWaters and Watercourses,\u201d sub-title \u201cSource,\u201d pp. 351, 352; Dudden v. Guardians of the Poor, 1 H. & N. 627; Tate v. Parrish, 7 T. B. Mon. (Ky.) 325; Colrick v. Siriribume, 105 N. Y. 503; Fleming v. Davis, 37 Texas, 173; Arnold v. Foot, 12 Wend. 330; Evans v. Merriweather, 3 Scamdlion (Ill.), 495.\nWhere a natural monument is called for on a description of the boundaries of land, the identification of the object intended by the description is to be determined by a fair and reasonable construction of the whole instrument, regard being had in all cases to the true intent of the parties as expressed therein. 5 Cyc., \u201cBoundaries,\u201d 869; Horne v. Smith, 159 U. S. 40; Reynolds v. McArthur, 2 Pet. 417; Handley\u2019s Lessee v. Anthony, 5 Wheat. 377; Meredith v. Pielert, 9 Wheat. 573 ; 8 Century Digest, title \u201cBoundaries,\u201d 43.\nThe court must place itself as nearly as possible in the situation of the contracting parties at the time the deed was made in order to ascertain their intent. 4 Am. and Eng. Eiicy. of Law, title \u201cBoundaries,\u201d 796.\n\u25a0 The State of Maryland stands upon the calls in her charter to Lord Baltimore as paramount, controlling and final in delimiting and fixing her western and southern boundaries.\n\u201cFairfax Stone\u201d does not stand at the first fountain of the Potomac River.\nThis was unequivocally approved in Morris v. United States, 174 U. S. 225.\nThe location of the Fairfax Stone as th*e first fountain of the Potomac River is against the plain provisions of the charter to Lord Baltimore, and defeats its calls for the western and southern boundaries of Maryland.\nPotomac Spring is the first fountain of the Potomac River. The first fountain of a stream is the point or source in which the water first comes to the surface. Cases supra and Colrick v. Swinburne-, 105 N Y. 503.\nIt is absolutely undisputed in this case, that Potomac Spring is the point at which the water first comes to the surface and begins to flow in a regular channel, and that Potomac Spring rises farthest to the northwest of all the waters of Potomac River.\nEvery physical, geographical and topographical feature of the region surrounding the head-waters of the Potomac River unmistakably and unquestionably stamp Potomac Spring as the first fountain of the Potomac River, and a meridian line run through that spring fully and precisely satisfies and strictly conforms to every call for the initial point in the western and southern boundaries of Maryland contained in its charter.\nPotomac River heading at Potomac Spring at once assumes a definite southeast course \u2014 the prevailing course of the river \u2014 with regular banks, while Fairfax Run runs directly opposite the course of the river, first flows nearly due'west, thence northwest and thence northeast and east to the point of its confluence with the main body of the river shown at Station 31 on the plat.\nPotomac Spring is perennial in its flow, while the springs in the vicinity of Fairfax Stone are only wet- weather springs, and have often been found entirely dry.\nThe waters from Potomac Spring emanate and flow from the Atlantic Watershed and from a point within only 300 feet of the summit; of Backbone Mountain, which is the acknowl-\u00e9dged watershed of the Appalachian Range, separating the waters which flow into the. Atlantic from those that flow into the Mississippi' and the Gulf of Mexico. Fairfax Stone stands upon a foothill of the Backbone Mountain and at a much lower elevation .than Potomac Spring. Potomac Spring issues put of the east side of Backbone Mountain at a point 277.3 feet from the top of the mountain at an elevation ot 3,365 feet, one of the very highest points on the Atlantic Watershed in Maryland and Yfest Virginia.\nPotomac Spring, by the undisputed testimony as ascertained by actual survey, is the westernmost source of the Potomac River, and a meridian drawn through it immediately across the crest of Backbone Mountain on the Atlantic Watershed, at a point only 301.1 feet north of said spring, and thus leaves to the east of it all the waters of the Potomac River.\nPotomac Spring as the initial point of the first fountain of the Potomac River at once gratifies the call in the charter of Maryland for both its \u00abwestern and southern boundaries.\nMaryland is still entitled to the calls in her charter for the first fountain of the Potomac River and the meridian therefrom to the north, and no reason is shown by this record why this court should declare that she has forfeited this right.\nThe decree in this case wiU determine where the western boundary of Maryland is and will settle its location as by original right in the place decreed. Rhode Island v. Massachusetts, 12 Pet. 657..\nThe only \u201cline\u201d the defendant has attempted to set up as a boundary between the two States, and the one which, in her answer she maintains is the true boundary between the States, is the so-called Deakins \u201cline,\u201d but these contentions are absolutely without foundation in fact, and her whole and entire position upon this question is predicated upon an absolutely baseless assumption of what Francis Deakins did, and an erroneous conception of the authority under which he acted at the time of laying out the military lots for the State of Maryland. The State of Maryland denies that the Deakins line is a true north line, and that the same was ever located as a true north line, and that the same was ever located from the Fairfax Stone, and that the same is even a continuous line hetween any termini, and that there is any evidence in this cause to show these alleged facts or any of them. The Deakins line, as a boundary line, is a mere myth, and in point of fact never did exist even as a continuous line between its' north and south ends, and far less as a boundary line marking tl/e western Boundary of the State of Maryland.\nThe Deakins line never was authorized or recognized by the State of Maryland as a boundary, and there is absolutely no proof in this case tending to show that Francis Deakins laid. out said line. The State has always expressly denied that it was a boundary.\nSee resolutions passed by the First .Constitutional Convention of Maryland in 1776, immediately after the recognition of the territorial rights of Maryland by the State of Virginia, thrbugh its representatives in its convention, and also see Act of Maryland, 1788, ch. 44, \u00a7' 15.\nDeakins neither mentioned nor suggested any such thing as a boundary of the State from one end of his report to the other.\nNone of the military lots in the-western tier thereof depend upon hr hang from the said Deakins line or any other line having any relation to the said Deakins line for their locar ' tion.\nUpon no hypothesis whatever can the Monroe line be re-, garded as making out or retracing or constituting in itself as an original location any boundary between Maryland and West Virginia; and it is nothing but a line of reference without any significance in this case.\nThe Potomac Meridian, located by the State of Maryland, with its initial point at Potomac Spring, the most western source of the Potomac River, and running thence north to Mason and Dixon\u2019s line as shown upon the plats of the plaintiff, stands as the only line located in this case by either party as a boundary between Maryland and West Virginia which is before the court and upon which as the case stands a decree can be rendered.\nThis case presents .for final determination by this court a dispute which admittedly has been open and pending for mbre than a century and which during that period has been the subject of continuous discussion and controversy between, the sovereign parties to this suit.\nMaryland has presented her claim plainly and definitely upon her plats, shown by the result of actual survey upon the ground; and precisely indicating the boundary for which she contends as lawfully hers.\nOn the other hand, West Virginia fails to set up any counter location illustrative of her contention.\nIn view of the very great importance of this matter to both parties, we submit the inquiry to this tribunal, whether the strongest presumption ought not to obtain in favor of the clear and definite location which Maryland has made':\nThere has been no acquiescence upon the part of Maryland in the occupation or possession by West Virginia of any part of the territory embraced in the charter of Lord Baltimore in dispute in this case.\nA St\u00e1te cannot be deprived of its territory by mere lapse of time or by mere occupancy, when all the while such State has challenged and denied the right of the invading party and repeatedly and persistently declared her own rights and when the right of such invasion and occupancy is universally regarded and again and again asserted to be an open, unsettled and pending question. Certainly down to 1859 Virginia recognized that the dispute was still pending and that the rights of both parties were the subject of negotiation and settlement. The Michler line was then run for the-purpose of bringing the matter, to a final determination. The failure of Virginia to ratify the work of Lieutenant Michler and establish the line run by him as the boundary between the two States left the controversy as it before stood and remitted Maryland to her charter rights.\nThere was no legal I\u2019atification by the act of 1860 or acquiescence by Maryland in any settlement or boundary. Doddridge v. Thompson, 9 Wheat. 476, 479; and see act of Congress of March, 1804; Reynolds v. M\u2019Arthur, 2 Pet. 417; Acts of West Virginia of 1868, ch. 175, and of May 3,1887.\nIt was only three years after that act was passed that this suit was instituted in this court by the Honorable William Pinkney Whyte, then Attorney-General of Maryland. In no instance has this court held that the doctrine of acquiescence can be invoked or applied where the boundary between the two States has all the time before the filing of suit in this court been recognized by both of the States concerned as unsettled and subject to future determination, and pending between two States, and is so mutually regarded and acknowledged by them, and neither can be held to have abandoned her rights to the other, nor to have acquiesced in the claims of the other, nor to have either lost or acquired title by acquiescence or prescription, which, according to every writer on public and international law, is founded upon a presumed abandonment of right, and cannot arise where presumption of abandonment is rebutted and negatived by open and express declarations to the contrary. Vattel, Chitty\u2019s ed., bk. II, ch. 11, par. 139; Marten\u2019s Law of Nations, bk. II, ch. iii, \u00a7 1, title \u201c Law of Nature and Nations,\u201d in law bk. IV, ch. 12, \u00a74; 22 Cyc. sub-title \u201cPrescription,\u201d 1728; Oppenheim, Int. Law, V. I, \u00a7243; Heimburger, p. 151; 1 Moore\u2019s Int. Law Dig., \u00a7 107, p. 466.\nThe claim of adverse possession cannot prevail, as upon the face of the record itself, as made up by defendant, there is a clear recognition of the right of the plaintiff to grant title, and through its grantees and those claiming under them, to hold possession of land west of such a line or lines. Adverse possession, in order to be effectual, must be- exclusive. Beatty v. Mason, 30 Maryland, 409; Armstrong v. Risteau, 5 Maryland, 256; Baker v. Swan, 32 Maryland, 355, and cases .cited, on p. 359; Robinson v. Minor, 10 How. 643; Pool v. Fleeger, 11 Pet. .210; Henderson v. JPoindexter, 12 Wheat. 530; 5 Cyc. title-\u201cBoundaries,\u201d p. 930.\nThe land between Fairfax and .Potomac meridians is one entire and indivisible. If the patentee of a tract and those claiming <under him can refer their holding and possession to the title derived from the State of Maryland, an unassailable case of mixed possession will be made out, and when two are' in mixed possession of the same tract of land, the law considers him having the title as in possession to the extent of his rights. Cheney v. Ringgold, 2 H. & J. 84; Lowell v. Stephens, 2 McCrary, 311; so where there is joint possession by the legal owner and claimant by possession at any time within the statutory period, the running of the statute will be arrested. Hender\u00e9on v. Griffin, 5 Pet. 151; Hall v. Powell, 4 S. & R. 456; Barr v. Gratz\u2019s Heirs, 4 Wheat. 223; Deputron v. Young, 134 U. S. 225; Hunnicutt v. Peyter, 102 U. S. 333.\nThe State of Maryland claims that it has been established:'\nI. That the true construction of the grant of territory of the Maryland charter, as declared by all the authorities who have discussed it, calls for a meridian line running from the southern boundary of Pennsylvania to the first fountain or source of the Potomac River as the western boundary of Maryland; and for a line extending from said first fountain or source along the southern shore or bank of the Potomac River to the mouth thereof as the southwestern and southern boundary of the State.\nII. That to adopt the Fairfax Stone as marking the source or first fountain of the Potomac River would defeat the calls of the charter for the. boundaries above mentioned.\nIII. That the North Fork of the Potomac River is clearly marked by irresistible evidence as the main, stream of the Potomac River, and that the Potomac Spring, being the source of the said North Fork, is the first fountain of Potomac River.\nIV. That, therefore, the western, southwestern and southern boundaries are properly ascertained by a meridian running from the Pennsylvania line to the Potomac Spring, and thence by a line along the southern bank of the stream or river flowing from said spring, to the mouth of said river.\nV. \u2022 That the controversy between Maryland and West Virginia as to the western and southwestern boundaries of the former having always been and being still an open, unsettled and pending question, the rights of Maryland to the boundaries called for by her charter, as above set forth, have not been forfeited or surrendered by her, and that this Honorable Court ought not to deprive her of them.\nVI. That with respect to the tract in dispute between the two States growing put of the unsettled boundary line, Mary-\nland has made such grants and patents of extensive lands within said tract, and has so been in possession of parts of said tract as to bar and defeat-all possible pretensions upon the part of West Virginia to an adverse possession of said tract so in dispute.\nVII. That the equity and justice of this case, reinforcing the law of it, sustain the claims of the State of Maryland.\nMr. George E. Price, with whom Mr. Wm. G'. Conley, Attorney General of the State of West Virginia, was on-the brief, for the defendant:\nThe record in this ease shows:\nFirst: That the boundaries of Maryland are to be ascertained from the language of the Baltimore charter as applied to the conditions then existing and to the topography of the country afterwards ascertained, and by the interpretation given to it by the King in Council, and subsequent acts of both parties.\nSecond: That the charter calls for running from the Delaware Bay in a right line in the fortieth degree of north latitude to the true meridian or the first source or fountain of the Potomac River, thence \u201ctending downward toward the South to the farther bank of said river and following it to where it faces the. Western and Southern coast as far as to a certain place called Sinquak, situate near the mouth of. the same River, where it discharges itself in the forenamed Bay of Chessopeak.\u201d\nThird: That as an original, proposition, judging from the course of the river, the topography of the country and the size of the branches, the North Branch is the main Potomac River, and at the head of that branch is to be found the first source or fountain of the Potomac.\nFourth: That judging from the topography, the size of the branches and all the circumstances, the spring heads at which the Fairfax Stone- was planted, are the first source and fountain of the river, and that if the first source or fountain were to be located and established according to present conditions, these springs could be selected with, more reason than any other point. \u2022\nFifth: That the question as to the first source or fountain of the Potomac River was fully investigated and judicially determined by the only competent tribunal authorized to determine it, as early as 1746, in the controversy between Lord Fairfax and the Colony of Virginia, and the Fairfax Stone was planted in accordance with that determination, at the first fountain or source of the Potomac.\nSixth': That Lord Baltimore had notice of and was bound by and fully acquiesced in that decision, and the matter, therefore, is res adjvdicata as to him and the State of Maryland.\nSeventh: That the Colony of Virginia asserted and held jurisdiction of all the territory south and west of the head spring of the North Branch of the Potomac at the Fairfax Stone from the date of the decision in 1746 until after the Revolution, and that the States of Virginia and West Virginia have held said territory and exercised governmental jurisdiction over it continuously and exclusively to the present time.\nEighth: That Lord Baltimore declined to take any steps to reopen the question after the decision in 1746, and that after the Revolution, although the State of Maryland has from time to time asserted a claim to go to the head spring of the South Branch of the Potomac, up. to 1852, yet in that year and after that time she kbandoned this claim, and has acquiesced in the claim of Virginia and West Virginia that .the Fairfax Stone is at the first source or fountain of the Potomac, and that her western boundary line should begin at that point.\nNinth: That the belated attempt in this suit to fix thv, head spring of the North Branch at a point west of the Fairfax Stone is a creation of Mr. W. McCulloh Brown, the surveyor appointed in this cause, and is not maintainable upon any principle of law or equity; that whilst the spring head at which Mr. Brown located the point for running the Brown-Potomac meridian is farther west than the spring head where the Fairfax Stone is located and is on somewhat higher ground, yet the branch of the stream running from that spring is not as long nor as large \u2014 certainly no larger, than the one running from the Fairfax Stone, and that at the point where these prongs branch off, the stream running to the Fairfax Stone is the straighter stream and has all the appearance of being the main river.\nTenth: That no claim has ever heretofore been made that this Brown-Potomac spring is the first fountain of the Potomac. No line has ever been run from it, and the territory-one and a quarter miles wide and thirty-six miles in length, lying between the meridian run from this spring and that rim from the Fairfax Stone is completely covered by Virginia patents settled by Virginia citizens, occupied by hundreds of farms and some villages, all of whom have, from the earliest times, adhered to the States of Virginia and West Virginia, and that Maryland has never exercised or attempted to exercise any governmental jurisdiction of any kind over it.\nEleventh: That prior to 1789, whilst at first there was some confusion in the issuing of patents for lands in that locality by the States of Virginia and Maryland, Virginia, in some instances, granting lands east of the due north line run from the Fairfax Stone, and Maryland granting some lands west of that line, yet, even before that date, a line had been run north from the Fairfax Stone and quite a number of Virginia patents had been granted as bordering upon that line, showing the claim of Virginia to go to that line as her boundary. And that Maryland had also granted several patents calling for that line as the boundary line.\nTwelfth: In 1789, under the authority of the State of Maryland to lay out all of her western lands as bounty lands, Francis Deakins ran what he intended, and evidently believed, to be a due north line from the Fairfax Stone, and laid out the military lots up to and east of it, so far as the lands had not previously been granted by the State of Maryland;, that this line, so established was recognized and acquiesced in by both States from that time in 1789 until 1859, Maryland- never having m\u00e1de a survey for any land west of the Deakins line between 1789 and 1859, but having made several \u2022 grants that called for that line and Virginia having covered all the territory up to that line by her grants; having worked the roads, collected the taxes, assessed the lands, provided free schools for the children and in every other way, known to law, exercised governmental jurisdiction over the territory.\nThirteenth: That all of the territory west of this old line, which had been embraced within the old Maryland grants, based on surveys made prior to 1789, was afterwards taken up and covered by Virginia patents and has been so held under, said patents ever since, with the single exception of about one-half of the Elder Spring tract of 411 acres, \u2014 one-half of which is now assessed and held as being in West Virginia and the other half \u2022 assessed and taxes paid upon it in Maryland; two persons living upon it claiming Maryland as their residence and voting in Garrett County, but it is covered by a Virginia patent; that with the exception of these two persons and of Ethbell Falkenstein, who has recently attempted to change his allegiance to the State of Maryland, all the other citizens and residents of this territory, up to this old line, have always held their allegiance to and recognized the government of Virginia and West Virginia. That between 1789- and 1859 Maryland in various ways by patents, etc., recognized the Deakins line.\nFourteenth: That for some reason, not fully explained, this old boundary line is not a continuous straight line,- but is broken by offsets therein, but that it is well defined on the ground and recognized by the inhabitants, and many points in it have been located and established both by Mr. Brown, the surveyor on behalf of Maryland, and Mr. Monroe, surveyor on behalf of West Virginia, and by the evidence in the cause, so that there is no difficulty in locating and establishing it as it has always been held and claimed, and is still held and claimed by the citizens on both sides.\nFifteenth: That this old line does not run in a due north course from the Fairfax Stone, but verges to the right of the true meridian, and by reason of this divergence and of the offsets above mentioned, it reaches the Pennsylvania line about three-quarters of a mile east of the true meridian; that the Michler line, run under the direction of the commissioners of Virginia and Maryland in 1859, by careful astronomical and scientific observations, is practically a due north line from the Fairfax Stone to the Pennsylvania line, although Dr. Bauer's report in this case attempts to- show that there is some variations in it from the due north line; that the commissioners, under whose-direction'the Michler line was run, were not authorized to establish a new boundary line, but only to trace out, locate and establish the old line already existing, and that because this was not done, a considerable part of the territory occupied by Virginia and held under her titles, was left out and thrown .on the Maryland side; and because Maryland refused to recognize and protect these titles, Virginia and West Virginia did not ratify or adopt this Michler line, but continued to hold to the old line and have so held ever since.\nThe court does not act differently in deciding on boundary between States than on lines between separate tracts of land. If there is uncertainty where the line is, if there is a confusion of the boundaries by the nature of interlocking grants, the obliteration of marks, the intermixing of possession under different proprietors, the effects of accident, fraud or time, or other kindred causes, it is a case appropriate to equity. An issue at law is directed, a commission of boundary awarded, or, if the court is satisfied without either, it decrees what and where the boundary of a farm, a manor, a province or a State is and shall be. Rhode Island v. Massachusetts, 12 Pet. 658, 734, 738; S. C., 4 How. 628; and see 1 Ves. Sen, 448-450.\nA boundary established and fixed by compact between nations becomes conclusive upon all the subjects and citizens thereof and bind's their rights and is to. be treated, to all intents and purposes, as the true real boundary. The construction of such a compact is a judicial question, and this doctrine applies to the settlement of the'boundary between two States of the Union by compact between such States.' Rhode Island v. Massachusetts, 12 Pet. 657; Virginia v. Tennessee, 148 U. S. 503; Virginia v. West Virginia, 11 Wall. 39.\nThat-possession, or as it.is called in hooks on international law, usv, caption, for a long period of time is the best evidence of a national right. Vattel, 187,191, etc.\nPossession for a great many (more than one hundred) years becomes a rightful one by prescription, even if it had begun in wrong and injustice. The acquiescence of the adjoining State for such a lapse of time would be conclusive evidence that she assented to the possession-thus held and had determined to relinquish her claim. Rhode Island v. Massachusetts, 14 Pet. 260, 261; Rhode Island v. Massachusetts, 4 How. 590, 591; Louisiana v. Mississippi, 202 U. S. 1.\nLong acquiescence in the possession of territory and in the exercise of dominion and sovereignty over it, is conclusive of the nation\u2019s title and rightful authority. Indiana v. Kentucky, 136 U. S. 479. .\nIndependently of any effect due to the compact as such, a boundary line between States or provinces, as between private persons, which has been run out, located, marked upon the earth and afterwards recognized and acquiesced in by the parties for a long course of years, is conclusive, even if it be ascertained that' it varies somewhat from the courses given in the original grant, and the line so established, takes effect not as an alienation of territory, but as a definition of the true and ancient boundary. Virginia v. Tennessee, opinion of Mr. Justice Field, p. 522; citing Penn v. Ld. Baltimorg, 1 Ves. Sen. 444-448; Boyd v. Graves, 4 Wheat, 513; Rhode Island v. Massachusetts, 12 Pet. 657; United States v. Stone, 2 Wall. 525, 537; Kellogg v. Smith, 7 Cush. 375, 382; Chenery v. Waltham, 8 Cush. 327; Hunt, Boundaries, 3d ed., 306; Indiana v. Kentucky,. J33 U. S. 479, 516; Rhode Island v. Massachusetts, 4 Plow. 591, 639; Yattel, Law of Nations, bk. 2, ch. 11, \u00a7 149; Wheaton on Int. Law, pt. 2, ch. 4,. \u00a7 164.\nIn Virginia v. Tennessee, 148 U. S. 524, it was held that an agreement, for the appointment of commissioners to run and mark the boundary line between the States, did ndt require the approval of Congress, under the Constitution; that such approval was not necessary until the States had passed uporu the report of the commissioners, ratified their action and mutually declared the boundary established by them to be the true and real boundary between the States, and that the consent of Congress to this final compact may be either express or implied. And the assent of Congress is implied from the fact that in the laying out of Federal judicial and revenue districts, and in the holding of Federal elections the line so. agreed upon has been adopted and conformed to by Congress and the Federal Government. These are held to be sufficient facts from which the consent of Congress may be implied.\nThis court, in a case of db.\u00a1..'oV.ed boundary between two States of the Union, has jurisdiction and power not to make a boundary, not to create a no-' line, but only to ascertain from the evidence before it, wh&f the t\\,h\\ and true boundary between such States, and, wh >\u2022 ascertained, to establish it by a final decree. If there h\"> \u00bb oo a \u00aboivtpii/\u00bb\u2019. or agreement between the States, setting and fix.'.:,, f r. boundary bi tween them, this court will nnugtim ano \u2022uun'vd. such <xm\u00ab \u2022pact and establish the boundary a .cording to Ilf. Construction of tin language of the cone pact. Vviyb -i v Tennessee, 148 U. S. 503; Pooh v. Flsegc, ?}. Pet/Ioii.\nThe existence of a compact co \u2022\u2022 between t\u00ed?/? Otates m&y be establish d by my ovid \u25a0. \u00bb\u2022 A;-/, satisfies fcha mind of the court. A compact may be proven by the doctrine of estoppel.\nIndependently of' any' such compact,. a- boundary line between States, which has been run out, located and marked upon the earth, and Mterwauds recognized and acquiesced in by the parties for a long course of years, is conclusive, even if it bo ascertained that' it varies somewhat from the courses given imthe original grant.\nWhere a line has been once run and has afterwards been acquiesced in for a long number of years by two States, the court will establish it, although it varies from the original course in the charter, and although it may not be a straight or uniform line. All that the court requires is to be satisfied as to the location of the old line. Then it establishes it- as final. This is not only the rule between States, hut it has always been the rule between individuals when establishing, a boundary line. Bartlett cfee. Co. v. Saunders, 103 U. S. 316; Me-Ivers, Less\u00e9e, v. Walker, 9 Cranch, 173; S. C., 4 Wheat.- 444; Newsome v. Pryor, 7 Wheat. 7; Cavazos v. Trevino, 6 Wall. 773.\nOwners of adjacent tracts of land are not bound by consent to a boundary which has been defined under a mistaken apprehension that it is the true line, wherever it may. be found; nor in such case is the party precluded or estopped /rom claiming his owp. rights under the true one when discovered. Schraeder -Mining &c. Co. v. Packer, 129 U. S. 683: Hatfield v. Workman, 35 W. Va. 578. But it is alsu Md in the samo ojjCos that \u2018\u00abhere a boundary line has been iked as a \u201e\u00a1oit!e.tie \u2022- o\u00ed a disputed boundary and possession taken and vrrid m accordance with such settlement, the parties are bound by it, although the agreement of settlement is merely oral. Such parol agreement is not regarded au passing any land from one proprietor to the other, but as simply ascertaining the line to which their respes vr -leeos extend. See also Gwynn v. Schwartz, 32 W. Va. 48 <, 4\" A, loo, Le Compe y. Freshwater, 56 W. Va. 336.\nLong acquiescence by one adjoining proprietor fa a i-ounu-ary, as established by the other, is evidence of an agreement that .such is the boundary-. Snead v. Osborne, 25 California, 626; Kip v. Norton, 12 Wend. 127; Jackson v. Ogden, 7 Johns. 338; Jackson v. Freer, 17 Johns. 29; McCormick v. Barnam, 10 Wend. 104; Dibble v.- Rogers, 13 Wend. 536; Adams v. Rockwell, 16 Wend. 285; Van Wick v. Wright, 18 Wend. 157; Boyd\u2019s Lessee v. Graves, 4 Wheat. 513; Kellogg v. Smith, 7 Cush. 375; Jackson v. B\u00f3wen, 1 Caines, 358-362; Jackson v. Dysling, 2 Caines, 198-200.\nThe action of a few isolated individuals cannot., have the effect to prevent the State of West Virginia from getting the benefit of the doctrine of long continued possession and exercise of jurisdiction and governmental authority. Virginia v. Tennessee, 148 TJ. S. 527.\nIn a great controversy like this, where thousands of acres of land are involved and the rights of hundreds of people, the adverse attitude of two people claiming about 200 acres of land out of 8,000 or more cannot prevent the application of legal and equitable principles usual in such cases for the settlement of a controversy. De minimis lex non curat.\nGreat injury and loss would be inflicted upon the inhabitants living between the Deakins and the Michler lines if the Michler line should be established.\nSee Coffee v. Groover, 123 U. S. 1, under which case if the Michler line should be established as the true boundary line between the States, all the titles granted by Virginia east of that line will be void; that is to say, none of the several hundred inhabitants that live in that territory now, except two or three, will have any valid title to the lands whicji they occupy and, which, in many instances, have been occupied by them and their predecessors in title for very many years; whilst the holders and claimants under the Maryland patents, which have been taken out simply to cover these lands and under which no possession or exercise of right has been had, will have the rightful legal, title to these lands and will be able to turn the inhabitants now living there out of house and home as the result of the decision of this question. This result would be so disastrous, would rend so many home ties, break up tender associations and violate so many of the most tender sentiments of the human heart and cause such great suffering and loss that we feel sure this court will not render such a decision unless there is no escape from it under the principles of law and equity.\nThe north bank of the Potomac is the boundary line, and not the south bank.\nWest Virginia claims and insists that the boundary line between her and the State of Maryland is the line of low-water-mark on the north bank of the Potomac River, from the division line between Virginia and West Virginia to the head spring of the North Branch of the Potomac, the Fairfax Stone, and thence running from said Fairfax Stone' by the old Deakins line to the Pennsylvania line.\nWhen the charter of Maryland was granted it is manifest that it was believed that the head spring of the Potomac River was north of the fortieth degree parallel.\nAn instrument will be construed according to the facts and circumstances and the knowledge and information of the parties to it at the time, so as to get at their intention and understanding. If the Maryland charter is construed in this way in the light of the knowledge of the parties to it at the time, then the boundary line was to run on the north, and not on the south bank of the Potomac River to the Chesapeake Bay.\nThe early and almost contemporary, construction which was given to the Maryland charter by the King of England shows that it was understood by the King and his Council that the Potomac River had not been granted to Lord Baltimore by charter granted by Charles I. King Charles II, in 1649, in his grant of the northern, neck of Virginia to the Earl of St. Albans and others, which was confirmed in 1663, granted the Potomac River and all the islands within its banks.\nThe .treaty of peace between Groat Britain and France, concluded in Paris February 10, 1763, fixed the boundaries of the several provinces of the respective sovereignties, in America. The English maps made under that treaty show that the boundary line between Maryland and Virginia was distinctly laid down on the left, or the northern bank of the Potomac River.\nMitchell\u2019s map, which was made with the approbation and at the request of the Lords Commissioners for Trade and Plantation, 1750, published in 1755, shows the boundary line to be on the north'bank of the Potomac.\nThe Virginia charters were cancelled under quo nmnanto proceedings, and the colonies became crown colonies, but her boundaries and jurisdiction were unaffected thereby and fully preserved. Lord Baltimore ne\" er-regained the territory taken by Penn off the northern boundary. He never regained the territory included within the province of Delaware, and there is nothing to indicate that he ever regained the Potomac River after its grant to Lord Hopton and after the settlement with the parliamentary commissioners.\nThe King of Great .Britain and his Council had absolute .authority- and control over the American colonies before tbe American Revolution and could change their limits and jurisdiction at his royal pleasure. It was, therefore, entirely within the power of Charles II to grant the Potomac River to Lord Hopton, as he did, although it may have been embraced within the limits of the charter previously granted to Lord Baltimore.\nFor proceedings on settlement of decree and final decree, see p. .obo, post.."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 29,
+  "last_page_order": 77
+}

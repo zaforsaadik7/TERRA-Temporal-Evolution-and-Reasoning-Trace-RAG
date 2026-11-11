@@ -1,0 +1,738 @@
+{
+  "id": 6140037,
+  "name": "MONTGOMERY WARD & CO. v. DUNCAN",
+  "name_abbreviation": "Montgomery Ward & Co. v. Duncan",
+  "decision_date": "1940-12-09",
+  "docket_number": "No. 30",
+  "first_page": "243",
+  "last_page": "255",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "311 U.S. 243"
+    },
+    {
+      "type": "parallel",
+      "cite": "85 L. Ed. 147"
+    },
+    {
+      "type": "parallel",
+      "cite": "61 S. Ct. 189"
+    },
+    {
+      "type": "vendor",
+      "cite": "1940 U.S. LEXIS 44"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1940-039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "148 U. S. 245",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3567743
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/148/0245-01"
+      ]
+    },
+    {
+      "cite": "117 U. S. 665",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8300247
+      ],
+      "pin_cites": [
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/117/0665-01"
+      ]
+    },
+    {
+      "cite": "95 U. S. 641",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3384546
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/95/0641-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 258",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5643866
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0258-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8751
+      ],
+      "pin_cites": [
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/92/0728-01"
+      ]
+    },
+    {
+      "cite": "287 U. S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        370087
+      ],
+      "pin_cites": [
+        {
+          "page": "481-485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0474-01"
+      ]
+    },
+    {
+      "cite": "140 N. Y. S. 72",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3377874
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/140/0072-01"
+      ]
+    },
+    {
+      "cite": "155 App. Div. (N. Y.) 162",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3377874,
+        2673060
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/140/0072-01",
+        "/ad/155/0162-01"
+      ]
+    },
+    {
+      "cite": "19 N. E. 630",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "299 Ill. App. 152",
+      "category": "reporters:state",
+      "reporter": "Ill. App.",
+      "case_ids": [
+        5595696
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app/299/0152-01"
+      ]
+    },
+    {
+      "cite": "276 N. W. 504",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "282 Mich. 426",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1778715
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/282/0426-01"
+      ]
+    },
+    {
+      "cite": "264 P. 714",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "262 P. 975",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Wash. 377",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        798747
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/146/0377-01"
+      ]
+    },
+    {
+      "cite": "132 P. 865",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Wash. 155",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        620550
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/74/0155-01"
+      ]
+    },
+    {
+      "cite": "188 A. 828",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "325 Pa. 235",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1172247
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/325/0235-01"
+      ]
+    },
+    {
+      "cite": "324 Pa. 1",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1171333
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/324/0001-01"
+      ]
+    },
+    {
+      "cite": "13 P. 760",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Ore. 89",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        8660653
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/15/0089-01"
+      ]
+    },
+    {
+      "cite": "213 N. W. 536",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Minn. 130",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        276163
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/171/0130-01"
+      ]
+    },
+    {
+      "cite": "205 N. W. 433",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Minn. 41",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        146288
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/165/0041-01"
+      ]
+    },
+    {
+      "cite": "198 N. W. 137",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Minn. 28",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        158171
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/159/0028-01"
+      ]
+    },
+    {
+      "cite": "178 N. W. 811",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Minn. 359",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        8889863
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/146/0359-01"
+      ]
+    },
+    {
+      "cite": "259 N. W. 894",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "271 Mich. 215",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1877750
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/271/0215-01"
+      ]
+    },
+    {
+      "cite": "123 P. 745",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Kan. 186",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1231430
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/87/0186-01"
+      ]
+    },
+    {
+      "cite": "155 N. W. 1013",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Iowa 439",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2225174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/175/0439-01"
+      ]
+    },
+    {
+      "cite": "96 Ill. 42",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        2716964
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/96/0042-01"
+      ]
+    },
+    {
+      "cite": "59 Ga. 105",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 P. 2d 139",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal. 694",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2215008
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/216/0694-01"
+      ]
+    },
+    {
+      "cite": "24 Ariz. 47",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        4959407
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/24/0047-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 391",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 N. W. 121",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 N. W. 571",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Wis. 144",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8687205
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "148"
+        },
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/211/0144-01"
+      ]
+    },
+    {
+      "cite": "68 Iowa 737",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2048568
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/68/0737-01"
+      ]
+    },
+    {
+      "cite": "42 Ind. 92",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1402863
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/42/0092-01"
+      ]
+    },
+    {
+      "cite": "295 U. S. 654",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        333745
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "659"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/295/0654-01"
+      ]
+    },
+    {
+      "cite": "228 U. S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3667185
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/228/0364-01"
+      ]
+    },
+    {
+      "cite": "114 F. 2d 341",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10698469
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/114/0341-01"
+      ]
+    },
+    {
+      "cite": "113 F. 2d 649",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1023098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/113/0649-01"
+      ]
+    },
+    {
+      "cite": "112 F. 2d 488",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1026811
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/112/0488-01"
+      ]
+    },
+    {
+      "cite": "112 F. 2d 234",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1026928
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/112/0234-01"
+      ]
+    },
+    {
+      "cite": "110 F. 2d 274",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1034466
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/110/0274-01"
+      ]
+    },
+    {
+      "cite": "110 F. 2d 203",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1034524
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/110/0203-01"
+      ]
+    },
+    {
+      "cite": "310 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139879
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/310/0469-01"
+      ]
+    },
+    {
+      "cite": "108 F. 2d 71",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1041691
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/108/0071-01"
+      ]
+    },
+    {
+      "cite": "112 F. 2d 577",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1027216
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/112/0577-01"
+      ]
+    },
+    {
+      "cite": "112 F. 2d 140",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1026891
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/112/0140-01"
+      ]
+    },
+    {
+      "cite": "108 F. 2d 848",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1042059
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/108/0848-01"
+      ]
+    },
+    {
+      "cite": "27 F. Supp. 4",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4159780
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/27/0004-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 982,
+    "char_count": 22328,
+    "ocr_confidence": 0.622,
+    "pagerank": {
+      "raw": 6.473083780626973e-06,
+      "percentile": 0.999209413367343
+    },
+    "sha256": "856e583317871ae90239028782c08abedb835716d7926cf289f8aa0faae4ffcc",
+    "simhash": "1:cc0a807f7a841df8",
+    "word_count": 3929
+  },
+  "last_updated": "2024-02-27T17:09:52.803054+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MONTGOMERY WARD & CO. v. DUNCAN."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Roberts\ndelivered the opinion of the Court.\nIn this case we are called upon to determine the appropriate procedure under Rule 50 (b) of the Federal Rules of Civil Procedure.\nT\u00f3 recover, damages for personal injuries, respondent (hereinafter spoken of as plaintiff) brought action against petitioner (hereinafter spoken of as defendant), pursuant to an Arkansas statute declaring that corporations should be liable for. injuries to an employe attributable to the negligence of a fellow employe. The com-, plaint alleged that the plaintiff, while in the defendant\u2019s service, had been so injured. The answer denied the plaintiff was an employe of the defendant; denied he was injured in the manner described or by the negligence of his co-employe, and set up assumption of risk. -At the close of the evidence upon the trial, the defendant moved for a directed verdict. The motion was denied and the. \u2018jury returned a verdict for plaintiff on which judgment was entered. Within ten days the defendant filed its Written motion in the following form:\n\u201cComes the defendant, Montgomery Ward & Company, and files-its motion praying that the jury\u2019s verdict herein and the judgment rendered and entered thereon. be. set aside and j\u00fcdgment entered herein for the defendant notwithstanding the verdict, and- its motion for a new trial in the alternative, and as grounds therefor states . .\nThereunder, in heading A, it set out nine reasons in support\" of the motion for judgment, four of which were general, to the effect that the verdict was contrary to law, to the evidence, to the law. and the evidence, and that the court erred in refusing to direct a verdict. Four challenged the sufficiency , of the evidence as to negligence, as to the existence, of the employment relation, and as to assumption of risk, to support the verdict. One dealt with the preponderance of the evidence and was therefore inappropriate in support of the motion.\nUnder heading B, in support of the motion for a new trial, the same reasons as were assigned for the other motion were, with an immaterial exception, repeated; and additional reasons were added to the effect that the damages were excessive; that the court erred in ruling upon evidence, and in refusing to give .requested instructions.\nThe motion concluded thus:\n\"Wherefore, the defendant prays that the verdict of the jury herein, and the judgment rendered and entered thereon, be set aside/ and a judgment rendered and entered herein in favor of the defendant; and defendant further. prays in the alternative that in the event the Court refuses to set aside the verdict rendered for the plaintiff and the judgment in favor of the plaintiff ren-. dered and entered on said verdict, and refuses to render 'and' enter judgment herein in favor of the defendant notwithstanding said verdict and judgment, that the court set aside said verdict- and- judgment on behalf of the plaintiff and grant the defendant a new trial herein.\u201d\nThe District Court rendered an opinion holding that there was no evidence of negligence on the part of the co-employe and that, therefore, judgment should be entered for the defendant.\nThe plaintiff filed a motion praying that, to limit the issues on appeal, the court\u2019s order and judgment specifically show the grounds on which relief was granted, and \u201cin order that the judgment of the appellate court may be final,\u201d the motion for a new trial be overruled. The court, however,-.- merely . entered a judgment for the defendant notwithstanding the verdict.\nThe plaintiff filed a second motion reciting that, at a hearing upon .his earlier motion, the defendant had resisted the contention that the court should rule on the motion for a new trial as.that motion \u201cpassed out of existence and consideration on the granting of its motion for a judgment notwithstanding the verdict.\u201d The plaintiff further recited that the court did not pass upon the plaintiff\u2019s contentions but simply entered a judgment in favor of the defendant, and renewed his prayer that the court consider the motion, modify the judgment to specify the grounds upon which relief was granted, and dispose of all issues raised by both motions. This was denied.\nThe plaintiff appealed to the Circuit Court of Appeals, which decided that the District Court erred in holding the evidence insufficient to make a case for a jury. It reversed the judgment' and remanded the cause with instructions to the District Court to enter judgment on the. verdict in favor of the plaintiff. It overruled, the defendant\u2019s contention that the case should be remanded with leave to the trial court to dispose of the motion for a new trial.\nThe importance of a decision by this court, respecting the proper practice under Rule 50 (b), and a conflict of decisions, moved us to grant certiorari.\nThe Circuit Court of Appeals said:\n\u201cStrictly speaking the motion did not pray for relief in the \u2018alternative,\u2019 giving the court a choice between two propositions either of which he might grant in the first instance. The court was asked to rule on the motion for a new trial only \u2018in the event\u2019 he \u2018refuses to set aside the verdict . . . and judgment . . . and refuses to enter judgment herein in favor of the defendant. . . .\u2019 The court having granted the prayer of the motion as made did. not err in not ruling on the motion for a new trial. The condition on which the court was asked to grant a .hew.trial did not come into existence.. The new rules are not intended to prolong litigation by permitting litigants to try cases piecemeal. Their purpose would not be accomplished if when relief is asked on condition or in the alternative the successful party could on reversal go back to the trial court and demand a ruling on his conditional or alternative proposition. The order sustaining the motion for judgment notwithstanding the verdict was equivalent to \u00e1 denial of the motion for a new trial; and the latter motion passed out of the. case upon the entry of the order.\u201d ' . ..\n', The defendant contends that the rule continues the existing practice respecting granting of new trials, and also regulates the procedure for rendering judgment notwithstanding a verdict; that the provision for an alternative motion for a- new trial would be -meaningless and nugatory if the granting of the motion for judgment operated automatically to dismiss it, since the bases of the two motions are, or may be, different, and orderly procedure requires that the court first rule on the motion for judgment, the granting of which renders unnecessary a ruling upon the motion for a new trial, which should be reserved until final disposition of the former.\nThe plaintiff insists that the trial court is limited to a \u00a1choice of .action on one motion or the other, but\u2018cannot rule upon the motion for. judgment and leave that for a new trial to be disposed of only if judgment notwithstanding the verdict is denied. He further asserts, in support of the judgment below, that the uncontradicted allegations of his motion in the District Court disclose that defendant elected to stand upon its motion for judgment alone and that it cannot trow repudiate the position thus taken.\nWe shall consider the plaintiff\u2019s contentions in inverse order.\n1. While we took the case to review the Circuit Court\u2019s-construction of the rule, it is true that if the defendant elected to stand on its motion for judgment and, in effect, withdrew its motion for a new trial, we do not reach the question involved in our grant of certiorari. We are, however, unable to spell out any such election- or with-, drawal. The motion for -a new trial assigned grounds not appropriate to be considered in connection with the motion for judgment. It put forward claims that the verdict was against the- weight of the evidence and was excessive; that the court erred in rulings on evidence and in refusing requested instructions. An affirmative finding with respect to any of these claims would have required a new trial whereas none of them could be considered in connection with the mdtion for judgment.\nW\u00e9 think that when the defendant urged upon the District Court that it should not decide the-motion for a new trial because it passed out of existence and consideration on the granting of the motion for judgment, all that defendant meant whs that, having' granted the motion for judgment, the court had no occasion to pass upon the reasons assigned in support of the motion for a new trial. That would obviously have been true if no appeal had been taken from the District Court\u2019s action or if that action had been affirmed upon appeal.\n2. We come then to the substantial question, which moved us to iss\u00fae the writ, namely, whether under Rule 50 (b) ,the District Court's grant of the motion for judgment effected an automatic denial of the alternative motion for a new trial. We hold that it did not.\nThe rule was adopted for the purpose of speeding litigation and preventing unnecessary retrials. It does not alter the right of eith\u00e9i, party to have a question of law reserved upon the decision of which the court might enter judgment for one party in spite of a verdict' in fayor of the other. Prior to the adoption of the rule, in order to accomplish this it was necessary for the court to reserve-, the question of law raised by a motion to direct a verdict. The practice was an incident of jury trial at common law at the time of the adoption of the Seventh Amendment to the Constitution.\nRule 50 (b) merely renders unnecessary a request for reservation of the question of law or a formal reservation; and, in addition, regulates the time and manner of moving for direction and of moving for judgment on the basis of the refusal to direct. It adds nothing of sub-, stance to rights of litigants heretofore existing and available through a more cumbersome, procedure.\nA. motion for judgment notwithstanding the verdict did not, at common\u2019 law, preclude a motion for a new-trial. And the latter motion might be, and often was, presented after the former had been denied. The rule was not intended to alter the existing right to move for a new- trial theretofore recognized and confirmed by statute. It permits the filing of a motion for judgment in the absence of a motion for a new trial or the filing of both motions jointly or a motion for \u00e1 new trial in the alternative.\nEach motion, as the rule recognizes, has its own office. The motion for. judgment cannot be granted unless, as matter of law, the opponent of the movant failed to. make a case and, therefore, a verdict in 'movant\u2019s favor should have been directed. The motion for a new trial m\u00e1y invoke the discretion .of the court in so far as it is bottomed on the claim that the verdict is against the weight of the evidence, that the damages ,-are excessive, or that, for other reasons, the trial was not fair to the party moving; and may raise- questions 'of law arising out of alleged substantial errors in admission or rejection of evidence or instructions to the jury.\nWe are of opinion that the provision of the rule,\u2014 \u201cA motion for a new trial may be joined with this motion, or a new trial may be prayed for in the alternative\u201d \u2014 does not confine the trial judge to an initial choice of disposing of either motion, the exercise of which choice precludes consideration of the.-.remaining motion.^ We hold that the phrase \u201cin the alternative\u201d means that the-things to which it refers are to be taken not tpgether but one in the .place of the other.\nThe rule contemplates that- either party to the action is entitled to the trial judge\u2019s decision on both motions, if both are presented. \u00c1 decision in favor of the moving party upon the motion for judgment.ends the litigation and' often makes it -possible for an appellate court .to dispose of the ,case without remanding. it for a new trial. If, however, as in the present instance,, the .trial court, erred in granting the motion- the party \u00e1gainst whom the verdict went is entitled to have his motion for a new trial -considered in respect-of asserted substantial trial errors- and matters appealing to the discretion of the judge, m this case the reasons assigned in support of the motion for a new trial were in both categories. The grounds assigned for a new trial have not been c\u00f3nsidered by the court. In the circumstances here disclosed the uniform practice in state appellate courts has been to remand the case to the trial court with leave to pass upon the motion for new trial.\n\u2022 The plaintiff urges that, whereas the rule was intended to expedite litigation, to prevent\u2018unnecessary trials, and to save the time of courts and litigants, the course urged by the defendant tends to extend the duration of litigation, to create unnecessary hardship, and to defeat the purpose of the rule. .\nWe are of opinion that the position is untenable. This case well illustrates' the efficacy of the procedure sanctioned by the rule. In view of the trial judge\u2019s conclusion that the plaintiff failed to make out a case for the jury he would, under the earlier practice, simply have granted a new trial. Upon the new trial, the judge, if his view as to the law remained unchanged, would have directed a verdict for the defendant. The only recourse of the plaintiff would have, been - an appeal from this second judgment. If the appellate court had been of the view it here expressed, it would have reversed that judgment \u25a0 an'd remanded the cause for a third trial. Upon such third trial, if the trial coiirt had ruled upon the evidence and given the instructions to which the defendant objects a judgment for the plaintiff would have been the subject of a third appeal and, if \u25a0 the defendant\u2019s position, were sustained by the appellate court, the cause would be remanded for a fourth trial, at which proper rulings would be rendered and proper instructions given.\nMuch of the delay formerly encountered may be avoided by pursuing the course for which the defendant contends. But the courts should so administ\u00e9r the rule as 'to accomplish all -that is permissible under its terms. Is it necessary; if the trial judge\u2019s order for judgment be\u2019 reversed on appeal, that only thereafter he deal with the alternative motion? If so, and he then refuses to set aside the original judgment, a second appeal will lie,\u2014 not from his. order d\u00e9nying a new trial, for that order, save in most exceptional circumstances,- is not appeal-able, but from the judgment entered on the verdict, for errors of law committed on the trial. Can such a second appeal be avoided in the interest of speeding litigation? We think so.\nIf alternative prayers or motions are presented, as here, we hold that the trial judge should rule on the motion for judgment. Whatever his ruling thereon he should also rule on the motion for a new trial', indicating the grounds of his decision. \"If he denies a judgment n. o. v. and also, denies a new trial the judgment on the verdict stands, arid the losing party may appeal from the judgment entered upon it, assigning as error both the refusal of judgment n. o. v. and errors of law in the trial, as heretofore. The appellate court may reverse the former action and' itself enter judgment n. o. v. or it may reverse and remand for a new trial .for errors pf law. If the trial judge, as he did here, grants judgment n. o. v. and denies the motion for a new trial, the party who obtained the verdict may, as he did here, appeal from that judgment. \u25a0 Essentially j since his action is subject- to review, the trial judge\u2019s order is an order nisi. The judgment on the verdict may still stand, because the appellate court may reverse the trial judge\u2019s action. This being so, we see no reason why the appellee may not, and should not, cross-assign error, in the appellant\u2019s appeal, to rulings of law at the trial, so that if .the appellate court reverses the order for- judgment n.- o. v., it may pass on the errors of law which the appellee asserts nullify the judgment on the verdict.\nShould the trial judge enter judgment n. o.. v. and, in the alternative, grant a new trial on any of the' grounds assigned therefor, his disposition of the'mdtion for a new trial would not ordinarily be reviewable, and only his action in entering judgment would be ground of appeal. If. the judgment were reversed, the case, on remind, would be governed by the trial judge\u2019s award of a new trial.\nr We might reverse and direct that, the cause be remanded to the District Court to pass on both motions. But that course would, in the circumstances, be neither fair nor practical. As respects federal courts, the procedure permitted by the rule. is novel; The provision which is involved in this case substantially follows the first state statute to authorize- such procedure. The Supreme Court of that State has construed the statute to permit the trial judge to pass on the motion for judgment, leaving the motion for a new trjal for later disposition. In the event that his decision is reversed, the practice is to remand the cause with leave to the trial judge to pass upon the motion for a new trial. It was therefore not unnatural for the defendant to advocate that course, or for the trial judge to follow it.\nIn the circumstances, we think the failure of the District Court to rule in the alternative oil both matters can be cured without depriving the defendant of opportunity to have its motion for a new trial heard and decided by the trial court, by modifying the judgment below to provide that the cause be remanded to the District Court to hear and rule upon that motion. -\nModified.\n308 U. S. Appendix, p. 63.; XL S. C., Tit. 28, \u00a7 723c addendum., \u201cWhenever a motion for a directed verdict made at the close'of all the evidence is denied or for any reason is not granted, the court is deemed to have submitted the action to the jury subject to a later determination of the legal questions raised by the motion. Within 10 days after the reception of a verdict, a party who has moved for a directed verdict may move to have the v\u00e9rdict and any judgment entered thereon set aside and to have judgment entered in accordance with his motion for a directed verdict; or if a verdict was not returned such party, within 10 days after the jury-has been discharged, may move for judgment in accordance with his motion for. a directed verdict.. A motion! for a new trial may be joined with this motion, or a new trial may be \u25a0 prayed for in. the alternative. If a verdict was returned the court may allow the judgment to stand or may reopen the judgment and either order a\" new trial or direct the entry of judgment as if the requested verdict' had. been -directed. If no verdict was returned the court may direct the entry of judgment as if the requested verdict had been directed or may order .a new trial.\u201d\n27 F. Supp. 4.\n108 F. 2d 848.\nPruitt v. Hardware Dealers Mutual Fire Ins. Co., 112 F. 2d 140; Pessagno v. Euclid Investment Co., 112 F. 2d 577. Other cases cited seem not to have raised the precise question here presented. Leader v. Apex Hosiery Co., 108 F. 2d 71; affirmed 310 U. S. 469; Massachusetts Protective Assn. v. Mouber, 110 F. 2d 203; Lowden v. Denton, 110 F. 2d 274; Reliance Life Ins. Co. v. Burgess, 112 F. 2d 234; Ferro Concrete Construction Co. v. United States, 112 F. 2d 488; Williams v. New Jersey-New York Transit Co., 113 F. 2d 649; Southern Ry. Co. v Bell, 114 F. 2d 341.\nCompare Slocum v. New York Life Ins. Co., 228 U. S. 364 With Baltimore & Carolina Line v. Redman, 295 U. S. 654.\nBaltimore & Carolina Line v. Redman, supra, 659.\nIbid., 660.\nThompson, Trials, (2d Ed.) \u00a7 2726; Brannon v. May, 42 Ind. 92; Stone v. Hawkeye Ins. Co., 68 Iowa 737; Tomberlin v. Chicago, St. P., M. & O. Ry. Co., 211 Wis. 144, 148; 246 N. W. 571; 248 N. W. 121.\nSee Rule 59 (a), 28 U. 8. C. 723c addendum, cf. Judicial Code \u00a7 269, as amended, 28 U. S. C. \u00a7 391.\nThe word \u201calternative\u201d may be used properly in this sense. See Webster\u2019s International Dictionary. Second Edition.\nBryan v. Inspiration Consol. Copper Co., 24 Ariz. 47; 206 P. 402; Estate of Caldwell, 216 Cal. 694; 16 P. 2d 139; Hayden v. Johnson, 59 Ga. 105; Chicago & N. W. Ry. Co. v. Dimick, 96 Ill. 42; Daniels v. Butler, 175 Iowa 439; 155 N. W. 1013; Linker v. Union Pac. R. Co., 87 Kan. 186; 123 P. 745; Cummins\u2019 Estate, 271 Mich. 215; 259 N. W. 894; Kies v. Searles, 146 Minn. 359; 178 N. W. 811; Central Metropolitan Bank v. Fidelity & Casualty Co., 159 Minn. 28; 198 N. W. 137; Wegmann v. Minneapolis Street Ry. Co., 165 Minn. 41; 205 N. W. 433; Trovatten v. Hanson, 171 Minn. 130; 213 N. W. 536; Fisk v. Henarie, 15 Ore. 89; 13 P. 760; Osche v. New York Life Ins. Co., 324 Pa. 1; 187, A. 396; Altomari v. Kruger, 325 Pa. 235; 188 A. 828; Raske v. Northern Pacific Ry. Co., 74 Wash. 155; 132 P. 865; McLain v. Easley, 146 Wash. 377; 262 P. 975; 264 P. 714: Statutory provisions- or rules render it possible in'j some states to bring the grounds for new trial or the action of the trial court on the motion for .new; trial before the appellate court.. See Peters v. Aetna Life Ins. Co., 282 Mich. 426; 276 N. W. 504; Kauders v. Equitable Life Assurance, Society, 299 Ill. App. 152; 19 N. E. 630; Dochtermann Van & Express Co. v. Fiss, Doerr & Carroll Horse Co., 155 App. Div. (N. Y.) 162; 140 N. Y. S. 72.\nSee Fairmount Glass Works v. Cub Fork Coal Co., 287 U. S. 474, 481-485.\nHall v. Weare, 92 U. S. 728, 732.\nThis procedure is prescribed under a statute and a supplementary court rule in Michigan; Peters v. Aetna Life Ins. Co., 282 Mich. 426; 276 N. W. 504, and perhaps is indicated in Wisconsin in the absence of statute or formal rule: Tomberlin v. Chicago, St. P., M. & O. Ry. Co., 211 Wis. 144, 149; 246 N. W. 571; 248 N. W. 121.\nUnited States v. Young, 94 U. S. 258; Young v. United States, 95 U. S. 641; Phillips v. Negley, 117 U. S. 665, 671; Hume v. Bowie, 148 U. S. 245; Fairmount Glass Works v. Cub Fork Coal Co., supra.\n2 Mason\u2019s Minnesota Statutes (.1927) \u00a7 9495.\nSee the Minnesota cases cited in note 11'.",
+        "type": "majority",
+        "author": "Mr. Justice Roberts"
+      }
+    ],
+    "attorneys": [
+      "' -Mr. John A. Barr argued the cause, and Messrs. L. E. Oliphant and J. Merrick Moore were on the brief,' for petitioner.",
+      "Mr. Edward H. Coulter, with whom Messrs. Kenneth W. Coulter and Boone T. Coulter were on the brief, for respondent. \u2022 ' i"
+    ],
+    "corrections": "",
+    "head_matter": "MONTGOMERY WARD & CO. v. DUNCAN.\nNo. 30.\nArgued November 12, 1940.\nDecided December 9, 1940.\n' -Mr. John A. Barr argued the cause, and Messrs. L. E. Oliphant and J. Merrick Moore were on the brief,' for petitioner.\nMr. Edward H. Coulter, with whom Messrs. Kenneth W. Coulter and Boone T. Coulter were on the brief, for respondent. \u2022 ' i"
+  },
+  "file_name": "0243-01",
+  "first_page_order": 307,
+  "last_page_order": 319
+}

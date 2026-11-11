@@ -1,0 +1,994 @@
+{
+  "id": 6160476,
+  "name": "KONIGSBERG v. STATE BAR OF CALIFORNIA et al.",
+  "name_abbreviation": "Konigsberg v. State Bar",
+  "decision_date": "1957-05-06",
+  "docket_number": "No. 5",
+  "first_page": "252",
+  "last_page": "312",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "353 U.S. 252"
+    },
+    {
+      "type": "parallel",
+      "cite": "1 L. Ed. 2d 810"
+    },
+    {
+      "type": "parallel",
+      "cite": "77 S. Ct. 722"
+    },
+    {
+      "type": "vendor",
+      "cite": "1957 U.S. LEXIS 981"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1956-078"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "350 U. S. 399",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033058
+      ],
+      "pin_cites": [
+        {
+          "page": "406-407"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0399-01"
+      ]
+    },
+    {
+      "cite": "26 N. E. 2d 963",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "282 N. Y. 428",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2039957
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/282/0428-01"
+      ]
+    },
+    {
+      "cite": "36 N. E. 2d 543",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "377 Ill. 346",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        2546656
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/377/0346-01"
+      ]
+    },
+    {
+      "cite": "126 N. E. 2d 100",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "pin_cites": [
+        {
+          "page": "102-103"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "332 Mass. 763",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        938260
+      ],
+      "pin_cites": [
+        {
+          "page": "767-768"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/332/0763-01"
+      ]
+    },
+    {
+      "cite": "350 U. S. 422",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033334
+      ],
+      "pin_cites": [
+        {
+          "page": "426-428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0422-01"
+      ]
+    },
+    {
+      "cite": "165 Miss. 523",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        1854251
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/165/0523-01"
+      ]
+    },
+    {
+      "cite": "82 So. 2d 657",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9902626
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/82/0657-01"
+      ]
+    },
+    {
+      "cite": "350 U. S. 551",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12034225
+      ],
+      "pin_cites": [
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0551-01"
+      ]
+    },
+    {
+      "cite": "319 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366720
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0103-01"
+      ]
+    },
+    {
+      "cite": "316 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        368295
+      ],
+      "pin_cites": [
+        {
+          "page": "611, 618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/316/0584-01"
+      ]
+    },
+    {
+      "cite": "299 U. S. 353",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5722687
+      ],
+      "pin_cites": [
+        {
+          "page": "365-366"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/299/0353-01"
+      ]
+    },
+    {
+      "cite": "310 U. S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138344
+      ],
+      "pin_cites": [
+        {
+          "page": "303-304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/310/0296-01"
+      ]
+    },
+    {
+      "cite": "319 U. S. 624",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366560
+      ],
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0624-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 516",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1229915
+      ],
+      "pin_cites": [
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0516-01"
+      ]
+    },
+    {
+      "cite": "345 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        372756
+      ],
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/345/0041-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139418
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0252-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 277",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6139656
+      ],
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/71/0277-01"
+      ]
+    },
+    {
+      "cite": "4 Wall. 333",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        6139904
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/71/0333-01"
+      ]
+    },
+    {
+      "cite": "320 U. S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137190
+      ],
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/320/0118-01"
+      ]
+    },
+    {
+      "cite": "294 P. 697",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Cal. 183",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2147113
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/211/0183-01"
+      ]
+    },
+    {
+      "cite": "163 P. 657",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal. 467",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2098414
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/174/0467-01"
+      ]
+    },
+    {
+      "cite": "28 P. 2d 354",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal. 661",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2218535
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/219/0661-01"
+      ]
+    },
+    {
+      "cite": "34 F. 2d 920",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1763014
+      ],
+      "pin_cites": [
+        {
+          "page": "921"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/34/0920-01"
+      ]
+    },
+    {
+      "cite": "341 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1148002
+      ],
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/341/0223-01"
+      ]
+    },
+    {
+      "cite": "345 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        372683
+      ],
+      "pin_cites": [
+        {
+          "page": "197"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/345/0192-01"
+      ]
+    },
+    {
+      "cite": "333 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157706
+      ],
+      "pin_cites": [
+        {
+          "page": "201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0196-01"
+      ]
+    },
+    {
+      "cite": "1 Wall. 116",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3470741
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/68/0116-01"
+      ]
+    },
+    {
+      "cite": "192 U. S. 226",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        360335
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/192/0226-01"
+      ]
+    },
+    {
+      "cite": "278 U. S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3905523
+      ],
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/278/0063-01"
+      ]
+    },
+    {
+      "cite": "237 P. 63",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal. App. 322",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2222361
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/72/0322-01"
+      ]
+    },
+    {
+      "cite": "293 P. 815",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "pin_cites": [
+        {
+          "page": "816"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal. App. 175",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2168613
+      ],
+      "pin_cites": [
+        {
+          "page": "176"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/110/0175-01"
+      ]
+    },
+    {
+      "cite": "165 P. 442",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "pin_cites": [
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal. 118",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2070989
+      ],
+      "pin_cites": [
+        {
+          "page": "119"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/175/0118-01"
+      ]
+    },
+    {
+      "cite": "30 P. 2d 515",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal. 362",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2195490
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/220/0362-01"
+      ]
+    },
+    {
+      "cite": "67 P. 770",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal. 306",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2026068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/135/0306-01"
+      ]
+    },
+    {
+      "cite": "33 P. 2d 829",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal. 2d 61",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        1204610
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/1/0061-01"
+      ]
+    },
+    {
+      "cite": "271 U. S. 583",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1276185
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/271/0583-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 697",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434240
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0697-01"
+      ]
+    },
+    {
+      "cite": "36 Cal. 2d 43",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 P. 1018",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal. 439",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2175823
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/208/0439-01"
+      ]
+    },
+    {
+      "cite": "171 P. 2d 435",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal. 2d 643",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2209240
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/28/0643-01"
+      ]
+    },
+    {
+      "cite": "52 P. 2d 928",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal. 2d 744",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2200203
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/4/0744-01"
+      ]
+    },
+    {
+      "cite": "341 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1148059
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/341/0123-01"
+      ]
+    },
+    {
+      "cite": "344 U. S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299389
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/344/0183-01"
+      ]
+    },
+    {
+      "cite": "81 P. 2d 935",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal. 2d 699",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2224881
+      ],
+      "pin_cites": [
+        {
+          "page": "701"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/11/0699-01"
+      ]
+    },
+    {
+      "cite": "309 U. S. 551",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142667
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/309/0551-01"
+      ]
+    },
+    {
+      "cite": "300 U. S. 14",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        336748
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/300/0014-01"
+      ]
+    },
+    {
+      "cite": "274 U. S. 357",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81088
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/274/0357-01"
+      ]
+    },
+    {
+      "cite": "269 U. S. 530",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        186370,
+        186269
+      ],
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/269/0530-01",
+        "/us/269/0530-02"
+      ]
+    },
+    {
+      "cite": "313 U. S. 69",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137096
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/313/0069-01"
+      ]
+    },
+    {
+      "cite": "193 U. S. 504",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3629445
+      ],
+      "pin_cites": [
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/193/0504-01"
+      ]
+    },
+    {
+      "cite": "292 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        429835
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/292/0263-01"
+      ]
+    },
+    {
+      "cite": "341 U. S. 716",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1148030
+      ],
+      "pin_cites": [
+        {
+          "page": "720"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/341/0716-01"
+      ]
+    },
+    {
+      "cite": "212 U. S. 322",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5710521
+      ],
+      "pin_cites": [
+        {
+          "page": "349-351"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/212/0322-01"
+      ]
+    },
+    {
+      "cite": "294 P. 697",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "211 Cal. 183",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2147113
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal/211/0183-01"
+      ]
+    },
+    {
+      "cite": "163 P. 657",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "174 Cal. 467",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2098414
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal/174/0467-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2490,
+    "char_count": 106677,
+    "ocr_confidence": 0.669,
+    "pagerank": {
+      "raw": 2.798985849116239e-06,
+      "percentile": 0.9971189440002101
+    },
+    "sha256": "0ad5d6ed9a71f687a3d3ad28ef4b63bd8061f9d94a0d5cf3a50f9d16ec29c74a",
+    "simhash": "1:379307427fe5166f",
+    "word_count": 18298
+  },
+  "last_updated": "2024-02-27T23:59:01.909219+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Mr. Justice Whittaker took no part in the consideration or decision of this case.",
+      "whom Mr. Justice Clark joins,"
+    ],
+    "parties": [
+      "KONIGSBERG v. STATE BAR OF CALIFORNIA et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Black\ndelivered the opinion of the Court.\nThe petitioner, Raphael Konigsberg, graduated from the Law School of the University of Southern California in 1953 and four months later satisfactorily passed the California bar examination. Nevertheless, the State Committee of Bar Examiners, after several hearings, refused to certify him to practice law on the grounds he had failed to prove (1) that he was of good moral character and (2) that he did not advocate overthrow of the Government of the United States or California by unconstitutional means. As permitted by state law, Konigs-berg asked the California Supreme Court to review the Committee\u2019s refusal to give him its certification. He contended that he had satisfactorily proved that he met all the requirements for admission to the bar, and that the Committee\u2019s action deprived him of rights secured by the Fourteenth Amendment to the United States Constitution. The State Supreme Court, without opinion, and with three of its seven justices dissenting, denied his petition for review. We granted certiorari because the constitutional questions presented were substantial. 351\nBefore reaching the merits, we must first consider the State\u2019s contention that this Court does not have jurisdiction to review the case. The State argues (1) that petitioner did not present his constitutional claims to the California Supreme Court in the manner prescribed by that court\u2019s rules, and (2) that the state court\u2019s decision not to grant him relief can be attributed to his failure to conform to its procedural rules rather than to a rejection of his constitutional claims.\nIn considering actions of the Committee of Bar Examiners the California Supreme Court exercises original jurisdiction and is not restricted to the limited review made by an appellate court. For example, that court declared in In re Lacey, 11 Cal. 2d 699, at 701, 81 P. 2d 935, at 936:\n\u201cThat, this court has the inherent power and authority to admit an applicant to practice law in this state or to reinstate an applicant previously disbarred despite an unfavorable report upon' such application by the Board of Bar Governors of the State Bar, we think is now well settled in this state. . . . The recommendation of the Board of Bar Governors is advisory only .... [T]he final determination in all these matters rests with this court, and its powers in that regard are plenary and its judgment conclusive.\u201d\nThe California Supreme Court has a special rule, Rule 59 (b), which governs review of actions of the Bar Examiners. Rule 59 (b) requires that a petition for review \u201cshall specify the grounds relied on and shall be accompanied by petitioner\u2019s brief.\u201d Konigsberg complied with this rule. In his petition for review he specifically charged that the findings of the Committee were not supported by any lawful evidence. The petition then went on to assert that the Committee\u2019s action, which was based on findings that the petition had previously alleged were not supported by evidence, was an attempt by the State of California in violation of the Fourteenth Amendment to deprive him \u201cof liberty or property without due process of law\u201d and to deny him \u201cthe equal protection of the laws.\u201d\nThroughout the hearings before the Bar Examiners Konigsberg repeatedly objected to questions about his beliefs and associations asserting that such inquiries infringed rights guaranteed him by the First and Fourteenth Amendments. He urged that the Committee would abridge freedom of speech, press and assembly, violate due process, and deny equal protection of the laws if it denied his application because of his political opinions, writings, and affiliations. He asserted that he had affirmatively proved his good moral character and that there was no legal basis for finding that he was morally unfit to practice law. He insisted that in determining whether he was qualified the Committee had to comply with due process of law and cited as supporting his position Wieman v. Updegraff, 344 U. S. 183, and Joint Anti-Fascist Committee v. McGrath, 341 U. S. 123, where this Court condemned arbitrary findings as offensive to due process. Since Konigsberg challenged the sufficiency of the evidence in his petition for review, it seems clear that the State Supreme Court examined the entire record of the hearings before the Bar Examiners and must have been aware of the constitutional arguments made by Konigsberg during the hearings and the authorities relied on to support these arguments.\nThe State contends, however, that it was not enough for Konigsberg to raise his constitutional objections in his petition, in the manner prescribed by Rule 59 (b), and at the hearings. It claims that under California practice the State Supreme Court will not consider a contention unless it is supported by an argument and citation of authorities in a brief submitted by the person seeking review. Because Konigsberg\u2019s brief did not repeat, precisely and in detail, the constitutional objections set forth in his petition, the argument continues, this Court is compelled to hold that the State Supreme Court could have refused relief to petitioner on a narrow procedural ground. But the California cases cited by the State do not require such a conclusion. It is true that the State Supreme Court has insisted that on appeal in ordinary civil cases alleged errors should be pointed out clearly and concisely, with reasons why they are erroneous, and with reference to supporting authorities. However this case was not reviewed under the rules of appeal which apply to the ordinary civil case but rather under a special rule applying to original proceedings. We are pointed to nothing which indicates that the State Supreme Court has adopted any rule in this type of case which requires that contentions raised in the petition for review must also be set out in the brief. The one case cited, Johnson v. State Bar of California, 4 Cal. 2d 744, 52 P. 2d 928, indicates the contrary. In challenging the recommendation of the Board of Governors of the State Bar that he be suspended from the practice of law, Johnson alleged, apparently in an offhand way, that the entire State Bar Act was \u201cunconstitutional.\u201d He made no argument and cited no authority to support this bare, sweeping assertion. While the court said that this was an insufficient presentation of the issue it nevertheless went ahead to consider and reject Johnson's argument and to hold the Act constitutional.\nCounsel for California concedes that the state courts in criminal cases often pass on issues ineptly argued in a defendant\u2019s brief or sometimes not raised there at all. As counsel states, the reasons for relaxing this standard in criminal cases are obvious \u2014 such cases may involve forfeiture of the accused\u2019s property, liberty, or life. While this is not a criminal case, its consequences for Konigsberg take it out of the ordinary run of civil cases. The Committee\u2019s action prevents him from earning a living by practicing law. This deprivation has grave consequences for a man who has spent years of study and a great deal of money in preparing to be a lawyer.\nIn view of the grounds relied on in Konigsberg\u2019s petition for review, his repeated assertions throughout the hearings of various federal constitutional rights, and the practices of the California Supreme Court, we cannot conclude that that court, with three of its seven justices dissenting, intended to uphold petitioner\u2019s exclusion from the practice of law because his lawyer failed to elaborate in his brief the constitutional claims set forth in his petition for review and in the record of the hearings. Our conclusion is that the constitutional issues are before us and we must consider them.\nII.\nWe now turn to the merits. In passing on Konigsberg\u2019s application, the Committee of Bar Examiners conducted a series of hearings. At these hearings Konigsberg was questioned at great length about his political affiliations and beliefs. Practically all of these questions were directed at finding out whether he was or ever had been a member of the Communist Party. Konigsberg declined to respond to this line of questioning, insisting that it was an intrusion into areas protected by the Federal Constitution. He also objected on the ground that California law did not require him to divulge his political associations or opinions in order to qualify for the Bar and that questions about these matters were not relevant.\nThe Committee of Bar Examiners rejected Konigs-berg\u2019s application on the ground that the evidence in the record raised substantial doubts about his character and his loyalty which he had failed to dispel. At the conclusion of the hearings, the Committee sent a formal written notice \u2014 which later served as the basis for his petition to the California Supreme Court \u2014 stating that his application was denied because:\n1. He failed to demonstrate that he was a person of good moral character and\n2. He failed to show that he did not advocate the overthrow of the Government of the United States or of the State by force, violence or other unconstitutional means.\nHe was not denied admission to the California Bar simply because he refused to answer questions.\nIn Konigsberg\u2019s petition for review to the State Supreme Court there is no suggestion that the Committee had excluded him merely for failing to respond to its inquiries. Nor did the Committee in its answer indicate that this was the basis for its action. After responding to Konigs-berg\u2019s allegations, the Bar Committee set forth a defense of its action which in substance repeated the reasons it had given Konigsberg in the formal notice of denial for rejecting his application.\nThere is nothing in the California statutes, the California decisions, or even in the Rules of the Bar Committee, which has been called to our attention, that suggests that failure to answer a Bar Examiner\u2019s inquiry is, ipso jacto, a basis for excluding an applicant from the Bar, irrespective of how overwhelming is his showing of good character or loyalty or how flimsy are the suspicions of the Bar Examiners. Serious questions of elemental fairness would be raised if the Committee had excluded Konigsberg simply because he failed to answer questions without first explicitly warning him that he could be barred for this reason alone, even though his moral character and loyalty were unimpeachable, and then giving him a chance to comply. In our opinion, there is nothing in the record which indicates that the Committee, in a matter of such grave importance to Konigsberg, applied a brand new exclusionary rule to his application\u2014 all without telling him that it was doing so.\nIf it were possible for us to say that the Board had barred Konigsberg solely because of his refusal to respond to its inquiries into his political associations and his opinions about matters of public interest, then we would be compelled to decide far-reaching and complex questions relating to freedom of speech, press and assembly. There is no justification for our straining to reach these difficult problems when the Board itself has not seen fit, at any time, to base its exclusion of Konigsberg on his failure to answer. If and when a State makes failure to answer a question an independent ground for exclusion from the Bar, then this Court, as the cases arise, will have to determine whether the exclusion is constitutionally permissible. We do not mean to intimate any view on that problem here nor do we mean to approve or disapprove Konigsberg\u2019s refusal to answer the particular questions asked him.\nWe now pass to the issue which we believe is presented in this case: Does the evidence in the record support any reasonable doubts about Konigsberg\u2019s good character or his loyalty to the Governments of State and Nation? In considering this issue, we must, of course, take into account the Committee\u2019s contention that Konigsberg\u2019s failure to respond to questions was evidence from which some inference of doubtful character and loyalty can be drawn.\nKonigsberg claims that he established his good moral character by overwhelming evidence and carried the burden of proving that he does not advocate overthrow of the Government. He contends here, as he did in the California court, that there is no evidence in the record which rationally supports a finding of doubt about his character or loyalty. If this contention is correct, he has been denied the right to practice law although there was no basis for the finding that he failed to meet the qualifications which the State demands of a person seeking to become a lawyer. If this is true, California\u2019s refusal to admit him is a denial of due process and of equal protection of the laws because both arbitrary and discriminatory. After examination of the record, we are compelled to agree with Konigsberg that the evidence does not rationally support the only two grounds upon which the Committee relied in rejecting his application for admission to the California Bar.\nA. Good Moral Character. \u2014 The term \u201cgood moral character\u201d has long been used as a qualification for membership in the Bar and has served a useful purpose in this respect. However the term, by itself, is unusually ambiguous. It can be defined in an almost unlimited number of ways for any definition will necessarily reflect the attitudes, experiences, and prejudices of the definer. Such a vague qualification, which is easily adapted to fit personal views and predilections, can be a dangerous instrument for arbitrary and discriminatory denial of the right to practice law.\nWhile we do not have the benefit of a definition of \u201cgood moral character\u201d by the California Supreme Court in this case, counsel for the State tells us that the definition of that term adopted in California \u201cstresses elements of honesty, fairness and respect for the rights of others and for the laws of the state and nation.\u201d The decisions of California courts cited here do not support so broad a definition as claimed by counsel. These cases instead appear to define \u201cgood moral character\u201d in terms of an absence of proven conduct or acts which have been historically considered as manifestations of \u201cmoral turpitude.\u201d To illustrate, California has held that an applicant did not have good character who had been convicted of forgery and had practiced law without a license, or who had obtained money by false representations and had committed fraud upon a court, or who had submitted false affidavits to the Committee along with his application for admission. It should be emphasized that neither the definition proposed by counsel nor those appearing in the California cases equates unorthodox political beliefs or membership in lawful political parties with bad moral character. Assuming for purposes of this case that counsel\u2019s broad definition of \u201cgood moral character\u201d is the one adopted in California, the question is whether on the whole record a reasonable man could fairly find that there were substantial doubts about Konigsberg\u2019s \u201chonesty, fairness and respect for the rights of others and for the laws of the state and nation.\u201d\nA person called on to prove his character is compelled to turn to the people who know him. Here, forty-two individuals who had known Konigsberg at different times during the past twenty years attested to his excellent character. These testimonials came from persons in every walk of life. Included among them were a Catholic priest, a Jewish rabbi, lawyers, doctors, professors, businessmen and social workers. The following are typical of the statements made about Konigsberg:\nAn instructor at the University of Southern California Law School:\n\u201cHe seems to hold the Constitution in high esteem and is a vigorous supporter of civil rights. . . . He indicated to me an open-mindedness seemingly inconsistent with any calculated disregard of his duty as a loyal and conscientious citizen.\u201d\nA rabbi:\n\u201cI unreservedly recommend Mr. Konigsberg as a person who is morally and ethically qualified to serve as a member of [the bar].\u201d\nA lawyer:\n\u201cI recommend Mr. Konigsberg unreservedly as a person of high moral principle and character. . . . He is a much more profound person than the average bar applicant and exhibits a social consciousness which, in my opinion, is unfortunately too rare among applicants.\u201d\nA Catholic Monsignor:\n\u201cI do not hesitate to recommend him to you. I am satisfied that he will measure up to the high requirements established for members of the legal profession.\u201d\nOther witnesses testified to Konigsberg\u2019s belief in democracy and devotion to democratic ideas, his principled convictions, his honesty and integrity, his conscientiousness and competence in his work, his concern and affection for his wife and children and his loyalty to the country. These, of course, have traditionally been the kind of qualities that make up good moral character. The significance of the statements made by these witnesses about Konigsberg is enhanced by the fact that they had known him as an adult while he was employed in responsible professional positions. Even more significant, not a single person has testified that Konigsberg\u2019s moral character was bad or questionable in any way.\nKonigsberg\u2019s background, which was also before the Committee, furnished strong proof that his life had always been honest and upright. Born in Austria in 1911, he was brought to this country when eight years old. After graduating from Ohio State University in 1931, he taught American history and literature for a time in a Cleveland high school. In 1934 he was given a scholarship to Ohio State University and there received his Master of Arts degree in Social Administration. He was then employed by the District of Columbia as a supervisor in its Department of Health. In 1936 he went to California where he worked as an executive for several social agencies and at one time served as District Supervisor for the California State Relief Administration. With our entry into the Second World War, he volunteered for the Army and was commissioned a second lieutenant. He was selected for training as an orientation officer in the Army\u2019s information and education program and in that capacity served in North Africa, Italy, France, and Germany. He was promoted to captain and while in Germany was made orientation officer for the entire Seventh Army. As an orientation officer one of his principal functions was to explain to soldiers the advantages of democracy as compared with totalitarianism. After his honorable discharge in 1946 he resumed his career in social work. In 1950, at the age of thirty-nine, Konigsberg entered the Law School of the University of Southern California and was graduated in 1953. There is no criticism in the record of his professional work, his military service, or his performance at the law school.\nDespite Konigsberg\u2019s forceful showing of good moral character and the fact that there is no evidence that he has ever been convicted of any crime or has ever done anything base or depraved, the State nevertheless argues that substantial doubts were raised about his character by: (1) the testimony of an ex-Communist that Konigsberg had attended meetings of a Communist Party unit in 1941; (2) his criticism of certain public officials and their policies; and (3) his refusal to answer certain questions about his political associations and beliefs. When these items are analyzed, we believe that it cannot rationally be said that they support substantial doubts about Konigsberg\u2019s moral fitness to practice law.\n(1) Testimony of the Ex-Communist. \u2014 The suspicion that Konigsberg was or had been a Communist was based chiefly on the testimony of a single ex-Communist that Konigsberg had attended meetings of a Communist Party unit in 1941. From the witness\u2019 testimony it appears that this unit was some kind of discussion group. On cross-examination she conceded that her sole basis for believing that Konigsberg was a member of that party was his attendance at these meetings. Her testimony concerned events that occurred many years before and her identification of Konigsberg was not very convincing. She admitted that she had not known him personally and never had any contact with him except at these meetings in 1941. Konigsberg denied that he had ever seen her or known her. And in response to a Bar Examiner\u2019s question as to whether he was a communist, in the philosophical sense, as distinguished from a member of the Communist Party, Konigsberg replied: \u201cIf you want a categorical answer to 'Are you a communist?\u2019 the answer is no.\u201d\nEven if it be assumed that Konigsberg was a member of the Communist Party in 1941, the mere fact of membership would not support an inference that he did not have good moral character. There was no evidence that he ever engaged in or abetted any unlawful or immoral activities \u2014 or even that he knew of or supported any actions of this nature. It may be, although there is no evidence in the record before us to that effect, that some members of that party were involved in illegal or disloyal activities, but petitioner cannot be swept into this group solely on the basis of his alleged membership in that party. In 1941 the Communist Party was a recognized political party in the State of California. Citizens of that State were free to belong to that party if they wanted to do so. The State had not attempted to attach penalties of any kind to membership in the Communist Party. Its candidates' names were on the ballots California submitted to its voters. Those who accepted the State at its word and joined that party had a right to expect that the State would not penalize them, directly or indirectly, for doing so thereafter.\n(2) Criticism of Certain Public Officials and Their Policies. \u2014 In 1950 Konigsberg wrote a series of editorials for a local newspaper. In these editorials he severely criticized, among other things, this country's participation in the Korean War, the actions and policies of the leaders of the major political parties, the influence of \u201cbig business\u201d in American life, racial discrimination, and this Court\u2019s decisions in Dennis and other cases. When read in the light of the ordinary give-and-take of political controversy the editorials Konigsberg wrote are not unusually extreme and fairly interpreted only say that certain officials were performing their duties in a manner that, in the opinion of the writer, was injurious to the public. We do not believe that an inference of bad moral character can rationally be drawn from these editorials. Because of the very nature of our democracy such expressions of political views must be permitted. Citizens have a\u00b0 right under our constitutional system to criticize government officials and agencies. Courts are not, and should not be, immune to such criticism. Government censorship can no more be reconciled with our national constitutional standard of freedom of speech and press when done in the guise of determining \u201cmoral character,\u201d than if it should be attempted directly.\n(3) Refusal to Answer Questions. \u2014 During the prolonged hearings before the Committee of Bar Examiners, Konigsberg was not asked directly about his honesty, trustworthiness, or other traits which are generally thought of as related to good character. Almost all of the Bar Examiners\u2019 questions concerned his political affiliations, editorials and beliefs. Konigsberg repeatedly declined to answer such questions, explaining that his refusal was based on his understanding that under the First and Fourteenth Amendments to the United States Constitution a State could not inquire into a person\u2019s political opinions or associations and that he had a duty not to answer. Essentially, this is the same stand he had taken several years before when called upon to answer similar questions before the Tenney Committee.\nThe State argues that Konigsberg\u2019s refusal to tell the Examiners whether he was a member of the Communist Party or whether he had associated with persons who were members of that party or groups which were allegedly Communist dominated tends to support an inference that he is a member of the Communist Party and therefore a person of bad moral character. We find it unnecessary to decide if Konigsberg\u2019s constitutional objections to the Committee\u2019s questions were well founded. Prior decisions by this Court indicate that his claim that the questions were improper was not frivolous and we find nothing in the record which indicates that his position was not taken in good faith. Obviously the State could not draw unfavorable inferences as to his truthfulness, candor or his moral character in general if his refusal to answer was based on a belief that the United States Constitution prohibited the type of inquiries which the Committee was making. On the record before us, it is our judgment that the inferences of bad moral character which the Committee attempted to draw from Konigsberg\u2019s refusal to answer questions about his political affiliations and opinions are unwarranted.\nB. Advocating the Overthrow of Government by Force. \u2014 The Committee also found that Konigsberg had failed to prove that he did not advocate the overthrow of the Government of the United States or California by force and violence. Konigsberg repeatedly testified under oath before the Committee that he did not believe in nor advocate the overthrow of any government in this country by any unconstitutional means. For example, in response to one question as to whether he advocated overthrowing the Government, he emphatically declared: \u201cI answer specifically I do not, I never did or never will.\u201d No witness testified to the contrary. As a matter of fact, many of the witnesses gave testimony which was utterly inconsistent with the premise that he was \u2022disloyal. And Konigsberg told the Committee that he was ready at any time to take an oath to uphold the Constitution of the United States and the Constitution of California.\nEven if it be assumed that Konigsberg belonged to the Communist Party in 1941, this does not provide a reasonable basis for a belief that he presently advocates overthrowing the Government by force. The ex-Communist, who testified that Konigsberg attended meetings of a Communist unit in 1941, could not remember any statements by him or anyone else at those meetings advocating the violent overthrow of the Government. And certainly there is nothing in the newspaper editorials that Konigsberg wrote that tends to support a finding that he champions violent overthrow. Instead, the editorials expressed hostility to such a doctrine. For example, Konigsberg wrote:\n\u201cIt is vehemently asserted that advocacy of force and violence is a danger to the American government and that its proponents should be punished. With this I agree. Such advocacy is un-Ameri-can and does undermine our democratic processes. Those who preach it must be punished.\u201d\nCounsel for California offers the following editorial as evidence that Konigsberg advocates overthrow of the Government by force and violence:\n\u201cLoyalty to America, in my opinion, has always meant adherence to the basic principles of our Constitution and Declaration of Independence \u2014 not loyalty to any man or group of men. Loyalty to America means belief in and militant support of her noble ideals and the faith of her people. Loyalty to America today, therefore, must mean opposition to those who are betraying our country\u2019s traditions, who are squandering her manpower, her honor and her riches.\u201d\nOn its surface this editorial does not appear to be a call for armed revolution. To the contrary, it manifests a strongly held conviction for our constitutional system of government. However, the State attempts to draw an inference adverse to Konigsberg from his use of the word \u201cmilitant\u201d which it points out in one sense means \u201cwarlike.\u201d To us it seems far-fetched to say that exhortation to \u201cmilitant\u201d support of America\u2019s \u201cnoble ideals\u201d demonstrates a willingness to overthrow our democratic institutions.\nWe recognize the importance of leaving States free to select their own bars, but it is equally important that the State not exercise this power in an arbitrary or discriminatory manner nor in such way as to impinge on the freedom of political expression or association. A bar composed of lawyers of good character is a worthy objective but it is unnecessary to sacrifice vital freedoms in order to obtain that goal. It is also important both to society and the bar itself that lawyers be unintim-idated \u2014 free to think, speak, and act as members of an Independent Bar. In this case we are compelled to conclude that there is no evidence in the record which rationally justifies a finding that Konigsberg failed to establish his good moral character or failed to show that he did not advocate forceful overthrow of the Government. Without some authentic reliable evidence of unlawful or immoral actions reflecting adversely upon him, it is difficult to comprehend why the State Bar Committee rejected a man of Konigsberg\u2019s background and character as morally unfit to practice law. As we said before, the mere fact of Konigsberg\u2019s past membership in the Communist Party, if true, without anything more, is not an adequate basis for concluding that he is disloyal or a person of bad character. A lifetime of good citizenship is worth very little if it is so frail that it cannot withstand the suspicions which apparently were the basis for the Committee\u2019s action.\nThe judgment of the court below is reversed and the case remanded for further proceedings not inconsistent with this opinion.\nReversed and remanded.\nMr. Justice Whittaker took no part in the consideration or decision of this case.\nUnder California procedure the State Supreme Court may admit a person to the bar upon certification by the Committee of Bar Examiners that he meets the necessary requirements. California Business and Professions Code, 1937, \u00a7 6064. Section 6060 (c) requires that an applicant must have \u201cgood moral character\u201d before he can be certified. Section 6064.1 provides that no person \u201cwho advocates the overthrow of the Government of the United States or of this State by force, violence, or other unconstitutional means, shall be certified to the Supreme Court for admission and a license to practice law.\u201d\nSee also Preston v. State Bar of California, 28 Cal. 2d 643, 171 P. 2d 435; Brydonjack v. State Bar of California, 208 Cal. 439, 281 P. 1018.\nRule 59 (b) is set out at 36 Cal. 2d 43. Generally, the California Supreme Court divides its rules into two main parts: (1) \u201cRules on Appeal,\u201d which govern appeals in civil and criminal cases; and (2) \u201cRules on Original Proceedings in Reviewing Courts.\u201d\nThe petition asserted:\n\u201c1. That the petitioner sustained his burden of proof of establishing his good moral character and all other requirements established by law in the State of California for applicants for admission to the bar.\n\u201c2. That the committee erred in asserting that the petitioner had failed to meet his burden of proof of establishing his good moral character.\n\u201c3. That no lawful evidence was received or exists supporting the denial of the application of the petitioner.\u201d\nHe also referred to Near v. Minnesota, 283 U. S. 697, and Frost & Frost Trucking Co. v. Railroad Commission of California, 271 U. S. 583.\nCf. In re Admission to Practice Law, 1 Cal. 2d 61, 33 P. 2d 829.\nThe brief did refer to pages of the record where constitutional arguments were made and cases cited to support them.\nPeople v. McLean, 135 Cal. 306, 67 P. 770; Title G. & T. Co. v. Fraternal Finance Co., 220 Cal. 362, 30 P. 2d 515.\nSee, e. g., People v. Hadley, 175 Cal. 118, 119, 165 P. 442, 443; People v. Yaroslawsky, 110 Cal. App. 175, 176, 293 P. 815, 816; People v. Buck, 72 Cal. App. 322, 237 P. 63.\nCf. Bryant v. Zimmerman, 278 U. S. 63, 67; Rogers v. Alabama, 192 U. S. 226; Bridge Proprietors v. Hoboken Co., 1 Wall. 116.\nThe record, when read as a whole, shows that Konigsberg took the position that he would answer all questions about his character or loyalty except those directed to his political views and beliefs and to questions about membership in the Communist Party. The record also shows that the Committee made no effort to pursue any other course of interrogation.\nNeither the Committee as a whole nor any of its members ever intimated that Konigsberg would be barred just because he refused to answer relevant inquiries or because he was obstructing the Committee. Some members informed him that they did not necessarily accept his position that they were not entitled to inquire into his political associations and opinions and said that his failure to answer would have some bearing on their determination of whether he was qualified. But they never suggested that his failure to answer their questions was, by itself, a sufficient independent ground for denial of his application.\nThe answer, in pertinent part, read as follows :\n\u201c [P] etitioner was invited to appear at a hearing before the Southern Subcommittee of the Committee of Bar Examiners on the 25th day of September, 1953, at which time he was informed of evidence raising doubts as to his fitness to practice law, and was questioned concerning such evidence and other matters relevant to his qualifications to become a member of the State Bar of California.\n\u201cOn or before the 8th day of February, 1954 the Southern Subcommittee of the Committee of Bar Examiners considered all oj the evidence which had been presented, and determined that petitioner had jailed to show his good moral character so that his application must be denied. On or about the 8th day of February, 1954 said Subcommittee informed the petitioner in writing of the denial of his application and the reasons therefor.\n\u201cOn or prior to the 17th day of May, 1954 [the Full Committee] considered all oj the evidence which had been introduced and determined that petitioner had not sustained the burden oj proof that he was possessor of the good moral character required by California Business and Professions Code, Section 6060 (c) and that he had not complied with Section 6064.1 of said Code, so that his application must be denied. Petitioner was notified of this decision and the reasons therefor by letter dated May 17, 1954.\n\u201cPetitioner has not complied with the requirements of California Business and Professions Code, Sections 6060 (c) and 6064.1 and so is not entitled to be and should not be admitted to practice law in the State of California.\u201d (Emphasis supplied.)\nAs pointed out in note 1, supra, \u00a7 6064.1 excludes applicants who advocate the overthrow of the Government of California or the United States by \u201cunconstitutional means,\u201d while \u00a7 6060 (c) requires that an applicant must have good moral character.\nCf. Cole v. Arkansas, 333 U. S. 196, 201.\nIn presenting its version of the questions before this Court, the Bar Committee did not suggest that the denial of Konigsberg\u2019s application could be upheld merely because he had failed to answer questions. Nor was such a position taken on oral argument. Counsel, instead, reiterated what the Bar Committee had contended throughout, namely, that Konigsberg was rejected because he failed to dispel substantial doubts raised by the evidence in the record about his character and loyalty.\nSchware v. Board of Bar Examiners, ante, p. 232; cf. Wieman v. Updegraff, 344 U. S. 183.\nCf. Local Union No. 10 v. Graham, 345 U. S. 192, 197.\nSee Jordan v. De George, 341 U. S. 223, 232 (dissenting opinion); United States ex rel. Iorio v. Day, 34 F. 2d 920, 921; Cahn, Authority and Responsibility, 51 Col. L. Rev. 838.\nIn re Garland, 219 Cal. 661, 28 P. 2d 354.\nIn re Wells, 174 Cal. 467, 163 P. 657.\nSpears v. State Bar of California, 211 Cal. 183, 294 P. 697.\nThis testimony was in the form of written statements. Konigs-berg offered to produce witnesses to testify in person but the Board preferred to have their statements in writing.\nCounsel for the Bar Committee acknowledged this in oral argument. He stated: \u201cNow Mrs. Bennett\u2019s testimony left much to be desired, that I concede. Her identification of this man is not all that you might wish.\u201d\nKonigsberg gave this answer during the first hearing held by the Committee. He was not represented by counsel at the time. At a subsequent hearing he stated that his earlier willingness to answer this question was inconsistent with his general position that the Committee had no right to inquire into his political associations and beliefs. He said he would not answer if the same question were then presented to him.\nSchware v. Board of Bar Examiners, ante, p. 232; Wieman v. Updegraff, 344 U. S. 183. See Schneiderman v. United States, 320 U. S. 118, 136.\nCf. Ex parte Garland, 4 Wall. 333, where this Court struck down an attempt to exclude from the practice of law individuals who had taken up arms against the United States in the War Between the States. See also Cummings v. Missouri, 4 Wall. 277; Brown and Fassett, Loyalty Tests for Admission to the Bar, 20 U. of Chi. L. Rev. 480 (1953).\nFor example, petitioner wrote:\n\"When the Supreme Court of these benighted states can refuse to review the case of the Hollywood Ten thus making that high tribunal an integral part of the cold war machine directed against the American people \u2014 then the enemies of democracy have indeed won a major victory. When the commanders of the last legal bulwark of our liberties sell out to the enemy, then the fascists have gone far, much farther than most people think. He who cannot see the dangerous damnable parallel to what happened in Germany is willfully blind.\u201d\nIn 1948 Konigsberg appeared before the Un-American Activities Committee of the California Senate, commonly known as the Tenney Committee. At that time he sharply criticized this committee, accusing it of subverting the liberties of Americans, and declared:\n\u201cI pledge my word to use every democratic means to defeat you.\u201d\nThe State points to petitioner\u2019s criticism of this committee as casting doubt on his moral character. What is said in the text disposes of this contention.\nCf. Bridges v. California, 314 U. S. 252.\nSee, e. g., United States v. Rumely, 345 U. S. 41, 48 (concurring opinion); Thomas v. Collins, 323 U. S. 516, 531; West Virginia Board of Education v. Barnette, 319 U. S. 624, 642; Cantwell v. Connecticut, 310 U. S. 296, 303-304; De Jonge v. Oregon, 299 U. S. 353, 365-366. A dissenting opinion in Jones v. Opelika, 316 U. S. 584, 611, 618, which was adopted on rehearing, 319 U. S. 103, declared: \u201cFreedom to think is absolute of its own nature; the most tyrannical government is powerless to control the inward workings of the mind.\u201d\nCf. Slochower v. Board of Education, 350 U. S. 551, 557; Sheiner v. Florida, 82 So. 2d 657; Ex parte Marshall, 165 Miss. 523, 147 So. 791. And see Ullmann v. United States, 350 U. S. 422, 426-428; Opinion of the Justices, 332 Mass. 763, 767-768, 126 N. E. 2d 100, 102-103; In re Holland, 377 Ill. 346, 36 N. E. 2d 543; Matter of Grae, 282 N. Y. 428, 26 N. E. 2d 963.\nSee, for example, text at pp. 264-265.\nCalifornia Business and Professions Code, 1937, \u00a7 6067, requires:\n\u201cEvery person on his admission shall take an oath to support the Constitution of the United States and the Constitution of the State of California, and faithfully to discharge the duties of any attorney at law to the best of his knowledge and ability.\u201d\nCompare the discussion in the text at footnote 25, supra, and see cases cited in that footnote.\nPetitioner also contends that it violates due process to make advocacy of overthrow of the Government of the United States or of a State by force, violence, or other unconstitutional means an automatic ground for denying the right to practice law regardless of the reasons for or the nature of such advocacy. Because of our disposition of the case, it is unnecessary to consider this argument.\nSee Cammer v. United States, 350 U. S. 399, 406-407. Compare Chafee, the Harvard Law School Record, Nov. 1, 1950, and Nov. 8, 1950.",
+        "type": "majority",
+        "author": "Mr. Justice Black"
+      },
+      {
+        "text": "Mr. Justice Frankfurter,\ndissenting.\nInsistence on establishment of the Court\u2019s jurisdiction is too often treated, with slighting intent, as a \u201ctechnicality.\u201d In truth, due regard for the requirements of the conditions that alone give this Court power to review the judgment of the highest court of a State is a matter of deep importance to the working of our federalism. The admonition uttered a hundred years ago by Benjamin R. Curtis, one of the ablest Justices who ever sat on this Court, cannot be too often repeated: \u201cLet it be remembered, also, \u2014 for just now we may be in some danger of forgetting it, \u2014 that questions of jurisdiction were questions of power as between the United States and the several States.\u201d 2 Memoir of Curtis 340-341. The importance of keeping within the limits of federal jurisdiction was emphasized in the opinion of Mr. Justice Stone, for a unanimous Court, in Healy v. Ratta, 292 U. S. 263, 270: \u201cDue regard for the rightful independence of state governments, which should actuate federal courts, requires that they scrupulously confine their own jurisdiction to the precise limits which the statute ['the action of Congress in conformity to the judiciary sections of the Constitution\u2019] has defined.\u201d\nPrerequisites to the power of this Court to review a judgment of a state court are that a federal claim was properly before the state court and that the state court based its decision on that claim. If a state court judgment is rested on a non-federal ground, i. e., on relevant state law, this Court is constitutionally barred from reviewing it. While a State may not, under the guise of regulating its local procedure, strangle a federal claim so as to prevent it from coming before a state court, it has the undoubted power to prescribe appropriate procedure for bringing all questions for determination before its courts. Squeezing out of the record in this case all that can be squeezed, the most that the five pages of the Court\u2019s opinion dealing with this threshold question can be said to demonstrate is that there is doubt whether or not the claim under the United States Constitution was properly presented to the California Supreme Court, according to its requirements.\nBefore this Court can find that a State \u2014 and the judgment of the Supreme Court of California expresses \u201cthe power of the State as a whole,\u201d Rippey v. Texas, 193 U. S. 504, 509; Skiriotes v. Florida, 313 U. S. 69, 79\u2014has violated the Constitution, it must be clear from the record that the state court has in fact passed on a federal question. As a safeguard against intrusion upon state power, it has been our practice when a fair doubt is raised whether a state court has in fact adjudicated a properly presented federal claim not to assume or presume that it has done so. The Court has not based its power to review on guess-work. It has remanded the case to the state court to enable it to make clear by appropriate certification that it has in fact rested its decision on rejection of a federal claim and has not reached its decision on an adequate state ground. Strict adherence to the jurisdictional requirement was insisted upon in Whitney v. California, the well-known civil liberties case, by a Court that included Justices Holmes and Brand\u00e9is, as mindful as any in protecting the liberties guaranteed by the Due Process Clause. Whitney v. California, 269 U. S. 530, 538; 274 U. S. 357. See also Honeyman v. Hanan, 300 U. S. 14; cf. Minnesota v. National Tea Co., 309 U. S. 551.\nThe procedure of making sure, through appropriate certification by a state court, that the federal question was in fact adjudicated, is a safeguard against infringement of powers that belong to the States and at the same time duly protects this Court\u2019s jurisdiction to review denial of a federal claim by a state court, if in fact it becomes clear that there was such a denial. This may involve some delay in the final determination of a federal question. The price of such delay is small enough cost in the proper functioning of our federal system in one of its important aspects. This Court has a special responsibility to be particularly mindful of the respective boundaries between state and federal authority.\nI would remand the case to the Supreme Court of California for its certification whether or not it did in fact pass on a claim properly before it under the Due Process Clause of the Fourteenth Amendment.",
+        "type": "dissent",
+        "author": "Mr. Justice Frankfurter,"
+      },
+      {
+        "text": "Mr. Justice Harlan,\nwhom Mr. Justice Clark joins,\ndissenting.\nI share the jurisdictional views of my brother Frankfurter. Even so, since the Court decides the case on the merits, I feel it appropriate to deal with it on that basis, since the case is important and my views about it differ widely from those of the Court. I feel impelled to do so, more particularly, for two reasons: (1) The record, in my opinion, reveals something quite different from that which the Court draws from it; (2) this case involves an area of federal-state relations \u2014 the right of States to establish and administer standards for admission to their bars \u2014 into which this Court should be especially reluctant and slow to enter. Granting that this area of state action is not exempt from federal constitutional limitations, see Schware v. Board of Examiners, ante, p. 232, decided today, I think that in doing what it does here the Court steps outside its proper role as the final arbiter of such limitations, and acts instead as if it were a super state court of appeals.\nThe following is what I believe to be an accurate statement of the issue to be decided. California makes it one of its requirements concerning admission to its Bar that no one be certified to the Supreme Court who advocates the overthrow of the Government of the United States or of California by force or violence. It also requires that an applicant be of good moral character. The applicant has the burden of proof in showing that these requirements have been met. Petitioner, under examination by the designated state agency, made unequivocal disavowal of advocacy of the overthrow of the Government by force or violence. With a view to testing the reliability of this disavowal, and the moral character of petitioner, the Bar Examiners questioned him about organizations to which he belonged, especially current or past membership in the Communist Party. Petitioner persisted in refusing to answer these questions despite the entirely reasoned and repeated efforts of members of the Committee to secure answers. His refusals were not based on a claim that the questions were irrelevant to an examination of his fitness under California \u201e law. The refusals were based solely on the ground that constitutionally the Committee was limited to asking him whether he advocated the overthrow of the Government by force and violence, and having asked that question, it could ask him no related question.\nOn the basis of the foregoing circumstances, the Supreme Court of California refused to overrule the finding of the Bar Committee that he had not qualified for admission to the Bar.\nThe question for this Court is whether in so refusing petitioner admission to the Bar, California through its Supreme Court deprived petitioner of liberty and property without due process.\nAt the outset there should be laid aside certain things which are not involved in this case. The Court does not find wanting in any respect California\u2019s requirements for admission to the Bar \u2014 that an applicant (a) must be \u201ca person of good moral character,\u201d and (b) must not be an advocate of the overthrow of the Federal or State Government \u201cby force, violence, or other unconstitutional means.\u201d Nor does the Court question the state rule of practice placing the burden of proof on the applicant in both respects. The Court does not hold that the First or Fourteenth Amendment entitled Konigsberg to refuse to answer any of the questions put to him by the Bar Committee, or that any of such questions were irrelevant or improper. The fairness of the four hearings accorded Konigsberg is not attacked in any respect. The Court\u2019s decision rests wholly on the alleged insufficiency of the record to support the Committee\u2019s conclusion that Konigsberg had failed to meet the burden of establishing that he was a person of good moral character and not an advocate of violent overthrow of the Government. The Court says:\n. . we are compelled to conclude that there is no evidence in the record which rationally justifies a finding that Konigsberg failed to establish his good moral character or failed to show that he did not advocate forceful overthrow of the Government. Without some authentic reliable evidence of unlawful or immoral actions reflecting adversely upon him, it is difficult to comprehend why the State Bar Committee rejected a man of Konigsberg\u2019s background and character as morally unfit to practice law.\u201d\nThis makes the record important. Before turning to it, however, it will be well to revert to the true character of the issue before us. The Court decides the case as if the issue were whether the record contains evidence demonstrating as a factual matter that Konigsberg had a bad moral character. I do not think that is the issue. The question before us, it seems to me, is whether it violates the Fourteenth Amendment for a state bar committee to decline to certify for admission to the bar an applicant who obstructs a proper investigation into his qualifications by deliberately, and without constitutional justification, refusing to answer questions relevant to his fitness under valid standards, and who is therefore deemed by the State, under its law, to have failed to carry his burden of proof to establish that he is qualified.\nI do not understand the process of reasoning by which the Court attempts to make a separate issue out of petitioner\u2019s refusal to answer questions, and then, in effect, reads it out of the case because California has not constituted such refusal an \u201cindependent\u201d ground for denying admission. What the State has done, and what the Bar Committee repeatedly warned the petitioner it would do, is to say that the petitioner\u2019s refusal to answer questions made it impossible to proceed to an affirmative certification that he was qualified \u2014 i. e., that his refusal placed him in a position where he must be deemed to have failed to sustain his burden of proof. Whether the State was justified in doing this under the Fourteenth Amendment is the sole issue before us, and that issue is not susceptible of the fragmentation to which the Court seeks to subject it. I am unable to follow the Court when it says, on the one hand, that on the issue of petitioner\u2019s qualifications \u201cwe must, of course, take into account the Committee\u2019s contention that Konigsberg\u2019s failure to respond to questions was evidence from which some inference of doubtful character and loyalty can be drawn,\u201d and, on the other hand, that the Committee was not entitled to treat petitioner\u2019s refusal to answer as a failure on his part to meet the burden of proof as to his qualifications.\nOf course California has not laid down an abstract rule that refusal to answer any question under any circumstances ipso facto calls for denial of admission to the Bar. But just because the State has no such abstract statutory rule does not mean that a Bar Committee cannot in a particular case conclude that failure to answer particular questions so blocks the inquiry that it is unable to certify the applicant as qualified. In other words, what California has done here is to say that the Committee was justified in concluding that refusal to answer these questions under these circumstances means that the applicant has failed to meet the requirement that he set forth his qualifications affirmatively. Thus I think the Court is quite mistaken in stating that \u201cthe Board itself has not seen fit, at any time, to base its exclusion of Konigsberg on his failure to answer.\u201d I turn now to the State\u2019s brief and the record, which show, it seems to me, that failure to answer was the reason for exclusion.\nI.\nI had not supposed that it could be seriously contended that California\u2019s requirements for admission to the bar do not authorize the rejection of a candidate for constitutionally unprotected obstruction of a valid investigation into his qualifications under such requirements. Cf. Schware v. Board of Examiners, supra (concurring opinion). And it is unmistakable from the State\u2019s brief in this Court that California does claim the right, in the circumstances of this case, to reject the petitioner for his refusal to answer the questions that were relevant to his qualifications under the State\u2019s requirements for admission to the Bar. The following appears on pp. 56-59 of that brief:\n\u201cEven where no serious doubt arises with respect to an applicant\u2019s qualifications, it is standard practice to inquire into many personal matters which a person is normally privileged to keep to himself. Thus, the standard application form required of all applicants asks the applicant for details of his past employment, education, whether he was ever suspended, reprimanded or censured as a member of any profession or organization, whether he has ever been arrested, whether he has ever been a party to a lawsuit and for the details of any incidents of a derogatory nature bearing on his fitness to practice law. If the answers to such questions embarrass an applicant, he is privileged to refuse to answer just as he is privileged to refuse to answer any question on the Bar examination. However, in either case he runs the risk that failure to answer such questions will prevent his admission to the Bar.\n\u201cRespondents submit that it is in no sense unreasonable or improper to require an applicant to cooperate in supplying all requested information that is relevant to his statutory qualifications. . . .\n\u201c(a) Good Moral Character: \u2014 Reasonable doubts that petitioner was a person of good moral character arose from many sources:\n\u201c(5) Petitioner\u2019s refusal to answer questions in such broad areas of inquiry as to effectively prevent inquiry into broad areas of doubt.\n\u201cPetitioner stated that he did not advocate the violent overthrow of the government. He thereafter took the position that any further inquiry by the Committee with respect to this requirement was foreclosed. This is equivalent to his appearing before the Committee and stating that he is a person of good moral character and the Committee must accept his statement and not inquire further. Even were there no adverse evidence in the record, respondents could properly refuse to certify an applicant as not having established his compliance with . . . Section 6064.1, where, as here, he took the position that his bare answer that he complied with the requirement foreclosed further inquiry. . . .\u201d (Italics, except as to subheading \u201c(a),\u201d added.)\nI now turn to the record which also shows in unmistakable terms that the Committee\u2019s primary concern related to the petitioner\u2019s persistent blocking of its efforts to test the veracity of his statement that he did not advocate forcible overthrow of government.\nII.\nThe story is best told in the language of the record itself. I shall interpolate only to the extent necessary to put what is quoted in context.\nThe first hearing before the Subcommittee took place on September 25, 1953. At that time Konigsberg appeared without counsel. After some preliminary inquiries as to Konigsberg\u2019s history, and questioning as t\u00f3 his connections with allegedly \u201csubversive\u201d organizations, the following ensued:\n\u201cQ. I assume that you are acquainted with the State statute that we now have on our books where among other things we are obliged to inquire into this type of a thing, and where we find that any people appear to have the views of endeavoring to change our government and so forth by force or violence, or in other words the popular conception of communism that we are expressly prohibited from certifying that person. You are familiar with the statute?\n\u201cA. Yes, I am.\n\u201cQ. Mr. Konigsberg, are you a Communist?\n\u201cA. Mr. Chairman, I would be very glad to answer that question.\n\u201cQ. If you will answer the question, I would be very happy to have it.\n\u201cA. I would be very glad to answer it if the circumstances were different. That is when I am faced with a question of this kind or when anyone else is faced with a question of this kind today what he is faced with is the fact that various nameless accusers or informers, or call them what you will, whom he has never had a chance to confront and cross-examine, he is put in a position of answering these statements or accusations or suspicions, and without any of the protections that ordinarily exist in such a situation, and I don\u2019t think that I can place myself in that position of having to answer something out in the void, some statement. I know these statements have been made obviously. I am not pretending to be shocked or naive about this. I can say very definitely I did not, I don\u2019t, I never would advocate the overthrow of the government by force or violence clearly and unequivocably, but to answer a specific question of that kind, whether I am a member of this party, that party or the Communist party, that puts me in the position, whatever the truth is, whether I was or wasn\u2019t you would get a dozen informers who would say the opposite, and as indicated by an editorial just two or three days ago in the Daily News questioning seriously why the word of these informers, these turn-coats is accepted unquestionably as against the word of other responsible citizens. Therefore, Mr. Preston, I do not think that under these circumstances, first, yes, I understand that under the law as it is today you may ask me specifically do I advocate the overthrow of the government by force or violence. I answer specifically I do not, I never did or never will. When you get into the other question of specific views in a political party, it seems to me only the fact, the right of political opinion is protected under the First Amendment and is binding on the states. Certainly attorneys ought to be in the leadership of those who defend the right of diverse political views. I think the First Amendment is important. ... I answer again on the specific question of force and violence, I did not, I don\u2019t and never would advocate the overthrow of the government by force or violence.\n\u201cQ. When answering it you don\u2019t intend to give us a specific, categorical responsive answer?\n\u201cA. As I said I would be very happy to if we met out in the hall. I would be glad to answer you, but you see under these circumstances, that is I am speaking now under oath and I am speaking for the record, I am speaking against in a sense whatever evidence that may be in the files \u2014 I shouldn\u2019t dignify it by calling it evidence; I should say whatever statements may be there from various informers. I have told you about my record both in the Army and in the community. I have been active politically, I admit it. I am proud of it. I would be happy to discuss it. This is the record that I think should be the basis for judgment, not the record of some hysterical characters that appeared before the Tenney Committee or any such group.\n\u201cQ. I am not asking anyone else. I am trying to ask you because you are the one who is seeking admission, the privilege of practicing law in this state. That is the reason I am asking you the question. I made the question very broad, and what I would like you to tell us, if you will answer the question; now of course as you well know and you have told me in your answer up to this point, you don\u2019t have to answer the question, of course you don\u2019t have to answer the question, but we feel that on a matter of this kind, this kind of information, we have a job to inquire about your character. The statute says character, it doesn\u2019t say reputation. The only way I can find out and aid this Committee in finding out about your character is to ask you these questions, not what someone else thinks about you, your reputation. That is the reason I have asked the question. Could you give us a categorical answer?\n\u201cA. I can only give you the answer I have given you, and I would be very happy to answer that under other circumstances.\u201d\nAt this point Konigsberg stated that his refusals to answer rested on rights of \u201cfree opinion, free speech,\u201d and that the legal profession should be the champion of \u201cthe right to diverse political opinion.\u201d He was then asked whether he had \u201cever knowingly participated in an organization which [he] then believed was sympathetic to the communistic cause,\u201d to which he replied that \u201cI can\u2019t say I knowingly did that, because I don\u2019t think it would have made a great deal of difference to me if I had known one way or the other\u201d if the organization\u2019s objectives were what he believed in, \u201csay a better School Board or whatever the issue might have been.\u201d Then followed this:\n\u201cQ. Mr. Konigsberg, I assume that you know that your name has been listed in the public press by witnesses before the Congressional Un-American Activities Committee.\n\u201cA. Yes.\n\u201cQ. And have been identified by persons who said that you were a member of the Communist Party at the same time they were.\n\u201cA. I saw that report. That is the sort of thing I was referring to a moment ago when I referred to the various accusations.\u201d\nNext there was discussion as to the attitude of the Association of American Universities with reference to teachers claiming the Fifth Amendment privilege against self-incrimination:\n\u201cMr. Sterling: Let me try to clarify it as I understand it. This Association of Universities takes the position that complete candor on the part of the teacher with respect to his political beliefs, and in particular whether or not he subscribes to the beliefs of the Communist Party is a prerequisite to continuing in the teaching job. He doesn\u2019t have to disclose whether or not he is a Communist or is sympathetic to the Communist beliefs, but that if he doesn\u2019t answer those questions with complete candor he has lost his right to a position in the teaching community. Translating that into terms of an Association of lawyers such as our State Bar or any Bar Association, you are seeking admission to the profession and that we as your prospective colleagues have a right to expect complete candor from you on this particular question, and that if you don\u2019t wish to be completely candid with us then we are justified in saying you don\u2019t belong in our profession. That I think is the stand that the American Universities took.\n\u201cA. I understand that. I can only say what I said several times already. Under those circumstances the constitutional guarantee of free speech means nothing, if it doesn\u2019t mean you can keep your views to yourself, and certainly lawyers recognize that and should be among the first to defend that right. I think the legal profession, particularly the leaders of the legal profession, should be the first to insist on it. Put another way, of what meaning is any constitutional guarantee if it becomes a crime to invoke that guarantee?\u201d\nThis answer was then elaborated by the petitioner at some length, after which the record continues as follows:\n\u201cMr. Sterling: If you accept as true the premise that the Communist Party, as it is embodied in the present Soviet Union government, has for its objective the overthrow of not only the government of the United States but any other non-communist government, and that that overthrow may be accomplished either from within by a bloodless revolution or if necessary by force, if you accept that premise then I think that your argument about constitutional rights of free speech and right to have your own political views and so on go by the board because then it seems to me that we are asking you no more than whether or not you belong to or believe in the principles of such an organization as Mafia, which is pretty generally, I think, regarded as one which has objectives that can be accomplished according to their tenets by what we regard as criminal acts. Now if I asked you whether or not you believed in the right to murder you would answer me no, I think, but as I say this whole business seems to be a turn on whether you accept the premise that the Communist Party \u2014 I am paraphrasing for the purpose of illustration \u2014 if you accept the premise that the Communist Party believes in murder and has that as its objective then I don\u2019t think you have a right or justification to refuse to answer the question of whether you belong to the Communist Party or whether you believe in its principles, you see.\n\u201cA. Well I can\u2019t argue with you.\n\u201cMr. Sterling: Well, you can say that you think my premise is wrong. You can say the Communist Party as constituted does not believe in the overthrow, is not trying to and does not have as its objective the overthrow of the United States by one means or the other. Then I simply have to disagree with you because it seems to me that is their objective.\n\u201cA. Well, are you suggesting, Mr. Chairman, that since of course this is a critical period in our country\u2019s history that in the face of such threats as you are basing your premise on that we have to forego then the use of the constitutional privileges or the protection of the Constitution, is that what your proposal is? I would like to understand your argument.\n\u201cMr. Sterling: No, as I say you don\u2019t feel there is any question of constitutional privilege when in a proceeding such as this where we are charged with determining the moral qualifications of an applicant in the profession, you don\u2019t feel that the constitutional privilege is hurt if I ask you if you believed in murder?\n\u201cA. No.\n\u201cMr. Sterling: You will answer that unhesitatingly, 'No, I don\u2019t believe in murder.\u2019 So I say that most of us now accept as true the premise that the Communist Party as we know it and as embodied in the Russian Government, the present Soviet Union Government, does have as its objective world domination by the Communist Party. So we accept that premise. Therefore it seems to us that we have the right to ask the question of applicants for admission to the Bar, because our statute as we pointed out says that you are not qualified if you do believe in overthrowing or advocate the overthrow of the United States by force or violence.\n\u201cA. I am answering specifically in terms of that statute too that I do not. That is the question you are asking me specifically. I am answering I never did, I do not and I never would advocate the overthrow of the government by force or violence. I do believe like leaders like Jefferson people should have the right through discussion, ballot, the minority view becomes the majority view, that changes like that are sought through the ballot box but never through force and violence. That I do not believe. I think my whole experience has shown that. I don\u2019t know how more direct that can be, and the only reason as I said before that I don\u2019t specifically answer the question, 'Are you a member of this political party?\u2019 is because of the situation anyone is in who is faced with accusations as indicated by the newspaper report, accusations by people who I think are gradually being discredited by many sources, when you don\u2019t know who it is who is accusing you, you don\u2019t know on what evidence, anonymous faces, you never have a chance to cross examine them, how can anyone be put in that position? What can you fight except wind-mills and air in such actuation. The direct question, \u2018Do you believe in force and violence?\u2019 I answered that.\n\u201cMr. Black: It still puzzles me a little to see why it is that you think you are prejudicing your own position by taking a position on that irrespective of whether there is any other evidence in the file or not.\n\u201cA. Because very practically this as you know has happened before. In the theory of today it is the words of these informers that is accepted above the words of anyone else.\n\u201cMr. Black: How do you know?\n\u201cA. The newspaper report says so. Isn\u2019t that the report you were referring to where I was named before the Un-American Activities Committee?\n\u201cMr. Preston: Yes, but that doesn\u2019t answer the question.\n\u201cMr. Black: How do you assume this Committee accepts the hearsay report against your direct testimony?\n\u201cA. I am not assuming that. I didn\u2019t mean to give that implication. What I am saying is that where on one side we have these hearsay reports and nameless informers, and I don\u2019t need to go into a discussion of how willing they are to sell their evidence, if it is evidence, when there is the possibility of their word being placed against my word or anyone in my position, and because in view of the hysteria today their word is accepted. All it has to do is appear in the paper and you are discredited. Wasn\u2019t it two or three weeks ago in San Francisco a woman won an amount in a suit for being called a 'Red,\u2019 a teacher, when it is prima facie \u2014 libel, whatever the case was. Then it becomes not only a basic matter of principle on the First Amendment but a matter of protecting yourself in a legal situation, because this is an official body. I am not talking to a group of people like I would be talking to on the street.\n\u201cMr. Sterling: You are afraid if you answer the question as to membership in the Communist Party in the negative and say, \u2018No, I am not a member and I never have been,\u2019 assuming you made that answer, you are afraid that we could find half a dozen people who would say that you were and had been, and therefore if you were on a perjury trial and the jury believed them and not you, you committed perjury.\n\u201cA. I am saying no matter what answer I gave whether I was or wasn\u2019t, undoubtedly there would be several whom you could get to say the opposite, and as I said before\u2014\n\u201cMr. Sterling: Subjecting you to a perjury charge?\n\u201cA. Yes. As I said before if you want to ask me outside in the hall I will tell you, but in view of these circumstances where you just have no right, you have no opportunity rather, to defend yourself against these people, I don\u2019t think that is fair play. I don\u2019t think that is justice. I don\u2019t think it is what the American democratic system teaches.\u201d\nAt this point Konigsberg testified that he did not recall knowing a Mrs. Bennett (formerly Mrs. Judson), the Subcommittee\u2019s next witness, the following occurring just before she testified:\n\u201cMr. Preston: Is there any further statement you wish to make, Mr. Konigsberg?\n\u201cA. By the Witness: I can\u2019t think of anything I could add to what I said unless there is some specific point you want me to enlarge on.\n\u201cMr. Preston: I assume, of course, if I ask you the question as to if you were ever a member of the Communist Party you would give me substantially the same answer.\n\u201cA. Yes, I think I would.\n\u201cMr. Preston: You observed, I assumed, Mr. Kon-igsberg, I didn\u2019t ask you in the first instance if you were a member of the Communist Party. I asked you if you were a Communist. I recognize there is a philosophical Communist. I made my first question very broad to include that.\n\u201cA. I understood you to say a member of the Communist Party.\n\u201cMr. Preston: Would your answer be any different?\n\u201cA. I thought you said a member of the Communist Party.\n\u201cMr. Preston: I deliberately did not. The first question we discussed at length is, \u2018Are you a Communist?\u2019\n\u201cA. I will say no, definitely no. The only thing I would describe myself very simply as one who has read a lot, studied a lot, because as a teacher of history and political education in the Army I believe strongly in the fundamental concepts of our democratic system.\n\u201cMr. Preston: Your answer that you gave was directed to the question, \u2018Are you a member of the Communist Party?\u2019\n\u201cA. Yes, and solely to that. If you want a categorical answer to \u2018Are you a communist?\u2019 the answer is no.\n\u201cMr. Preston: You gave us that.\n\u201cMr. Sterling: That is your answer.\n\u201cA. By the Witness: No.\n\u201cMr. Black: Would you care to state whether you have ever been a Communist?\n\u201cA. Do you mean by that as he is making the distinction philosophically or a member of the Communist Party?\n\u201cMr. Black: I mean in the same sense you have just answered that you are not now a Communist.\n\u201cA. I would say my thinking has only been what I described a moment ago as being based on the elementary concepts of the American democracy, assuming that you mean do I think like a Communist; that is assuming we have some common understanding what you mean by that term.\n\u201cMr. Sterling: We are not talking now about a membership in any party.\n\u201cA. Yes, philosophical views.\u201d\nMrs. Bennett, an ex-Communist Party member, then testified, in the presence of Konigsberg, that Konigsberg had attended in 1941 meetings of the party unit of which she had been a member.\nThe next hearing was on December 9, 1953, which was attended by Konigsberg\u2019s counsel, a Mr. Mosk. This hearing was devoted in part to the cross-examination of Mrs. Bennett by Mr. Mosk, the net of which was that Mrs. Bennett admitted that she recognized Konigsberg when she first came to the earlier hearing only after not seeing anyone else in the room with whom she was familiar. After general colloquy as to some of the peti7 tioner\u2019s writings, the questioning returned to Konigsberg\u2019s refusal to answer questions concerning his alleged membership in the Communist Party, this time with particular reference as to how petitioner reconciled his Pirst Amendment claim with his willingness to answer ideological questions, but not questions as to whether he had ever been a member of the Communist Party. The record continues:\n\u201cMr. Freston: May I ask a question of counsel?\n\u201cMr. Sterling: Yes.\n\u201cMr. Freston: One of the things that was bothering me, Mr. Mosk, is the general answer we have received to the question concerning present and past Communist affiliation, and I recognize the objection that counsel raises under the First Amendment.\n\u201cMr. Mosk: The witness.\n\u201cMr. Freston: The witness has raised. The thing that troubles me is we have an affirmative duty under the statute to certify as to this applicant\u2019s good moral character. We have endeavored to point out to him that the burden of showing that character is upon him. It appeared to me that he wasn\u2019t being quite forthright with us in not giving us an answer to those questions. He stated in effect his reason, at least as I understood it, that he did not want to answer the questions because he might sometime be accused of or prosecuted for perjury. Now, that is the rationale as I remember it, and frankly I am left in a rather confused state. As a member of this Committee I have to take an affirmative act of certification as to a good moral character. I wonder if you could perhaps enlighten me or help clarify the situation so perhaps maybe I might understand it better.\n\u201cMr. Black: May I interpose another question directed to the same point, and you can answer them at one and the same time. Just to make sure that I understand the witness\u2019 position, at the last hearing \u2014 Mr. Konigsberg\u2019s position \u2014 as I understood he was perfectly willing to deny categorically he is a Communist and took that position, am I right on that?\n\u201cThe Witness: I said philosophical Communist.\n\u201cMr. Black: It seems to me that question we wouldn\u2019t have a right to ask you under your argument, but that we would very definitely have a right to ask you whether you are now a member of the Communist party as it is commonly understood. Now, am I right on that that you still take the position that there is no objection to your answering us categorically that you are not now a Communist, namely that you don\u2019t believe in the philosophical doctrines of communism, generally speaking, that is a matter of belief?\n\u201cThe Witness: I think I understand your question.\n\u201cMr. Black: But you do take the position that we do not have the right or you have no obligation to answer the question, \u2018Are you now a member of the Communist party?\u2019 and that you refuse to answer. I am not trying to argue. I just want to be sure I understand your position. Am I correct in that?\n\u201cMr. Mosk: Either way. The first question was addressed to me. . . . [W]e are endeavoring to address ourselves to that issue which we feel most pertinent that is \u2018What has Mr. Konigsberg done as an individual with relation to the people with whom he has dealt, the occupations and professions that he has followed, what has he done to show affirmatively that he is of good moral character and would be a good member of the Bar?\u2019\n\u201cNow, as I understood Mr. Konigsberg\u2019s position it is his feeling that one of the matters of principle on which he has always stood is the principle that one may not inquire as to a person\u2019s belief, religious, political or otherwise, and that by answering such questions as they are being asked throughout the country in these days, and in all sorts of places and under all sorts of circumstances, as I understand Mr. Konigsberg\u2019s position that by answering such a question he is in effect giving way to and giving ground on the principle that one may not be asked these things, and that by his failure to answer he is neither affirming nor denying.\n\u201cNow as to the second question, which I think is most pertinent and certainly struck me at the moment when I read through the transcript for the first time, I was struck by exactly that same question, and I asked Mr. Konigsberg about it, and I think that perhaps he should answer this himself, but we did discuss this very matter, and I know that his position is now that if you were to ask the same question today he feels that it is a question he should not have answered, and that by way of principle in coming unprepared he did not think through the principle to that extent. I think I am answering correctly.\n\u201cThe Witness: That is exactly what I told counsel. As you are aware I came in without counsel, without any preparation, without knowing exactly what I might be asked. I did have an indication since I had informed the Committee, I appeared before the Tenney Committee, that I might be asked about that. I came prepared with nothing. ' In the heat or in the tension of a meeting of this kind, as you are aware, very often one will say things that one regrets later or would have said later. If I were asked that today I think my answer would be the same as to the other question as to whether I am or am not a member of the Communist party, or whether I ever was.\n\u201cMr. Black: I might say without expressing my own view on the thing that I think it must be obvious to you at least under popular conception there is a distinction between what a man believes in a doctrinaire\u2019s sense, which I think everybody agrees who at least tries to follow American principles is sacred ground as to his individual concepts. The belief of the doctrines on the one side, and at least in popular view, affiliation with a party that has its policies dominated by the Soviet Union is quite a different conception, and that the argument at least is that inquiry goes to the very essence of a man\u2019s loyalty to the country and has nothing to do with his individual beliefs in the matter of religion or political philosophy or a code of ethics, and that is the distinction that we are trying to get at here.\n\u201cThe Witness: I think you are quite right, and the position you take is quite correct, and I confess that I was in error at the time again due to the tension of the moment, and as I was going to say I don\u2019t think Mr. Freston\u2019s recollection is correct. I did not say that I was giving the kind of answer, was giving or refusing to answer because I was afraid of a perjury charge, as I recall. That is not the basis of refusal or the type of answer I have given. The reason that perjury discussion came up, as I recall now \u2014 I haven\u2019t been thinking about it \u2014 was in connection with the nature of the hearing where a person does not have the opportunity to cross examine and confront witnesses or see documents or things of that nature, and it so happens in the case of Owen Lattimore, who faced a perjury charge, even though he denied a half dozen ways any association with subversive elements \u2014 I am recalling from memory\u2014 it had to do with whether he expressed a certain opinion. How is a man to remember what opinions he expressed. His appeal is pending at the moment for his conviction of perjury. It is only with reference to that situation that I mentioned or commented upon the element of perjury, because that has nothing to do with the basis for my giving the kind of answer I am giving to the question as to my political affiliation, none whatsoever. You correct me on the record if I am wrong. That is my recollection of that discussion. At least I would like to say for the record that has nothing to do with the type of answer I have given.\n\u201cMr. Wright: I would like to ask a question that perhaps in some stage of this proceeding you might enlighten at least this member of the Committee on, whether you consider inquiry into present membership in the Communist party as at all relevant in the inquiries of this Committee as to moral character? In other words, is it a relevant factor? Does it have any bearing? Is it a proper scope of inquiry?\n\u201cMr. Mosk: I think you have to draw this distinction. It may be under some circumstances the Committee would feel that it would be a type of information that it would like to have to reach its conclusion, and to that extent perhaps it may be considered relevant, but many relevant matters are not inquired into in legal proceedings because for other reasons those matters are not competent testimony. And it is the position of Mr. Konigsberg here that inquiries into the realm of his political, religious or other beliefs are matters that are protected under the First Amendment to the Constitution, and therefore while it may be information which the Committee would feel it would like to have it is a field in which the Committee may not inquire by Mr. Konigsberg\u2019s position, and I think therefore perhaps I am answering your question yes and no, but I think I make my point clear as to what position Mr. Konigsberg takes.\n\u201cMr. Wright: Having felt that we would like the information and being denied, now I won\u2019t argue with you that being denied that we have no way of compelling it, but are we therefore faced with going forward?\n\u201cMr. Mosk: I think that also is a fair question, and that is why we are approaching the hearing in the manner in which we do. . . .\n\u201c. . . I could, I know, bring responsible social workers, other lawyers, persons at the universities with whom he has dealt, all of whom are prepared to come and say that they have known him in these various capacities, and that on the basis of the things that he has done himself, not what someone else has done, but what he, Raphael Konigsberg, has done that he is of good moral character to become a member of the legal profession, and these are things that as I say we will submit affirmatively, and it seems to me that this is the affirmative answer to what I can well understand the Committee feels is a void which Mr. Konigsberg, for reasons of principles he does not feel he wants to fill, but I think that even there one must always have respect for people who at recognizing the danger to him in standing on his principle is still prepared to do that in order to carry out things that he believes in so firmly.\n\u201cMr. Wright: I commend his moral principle, let me say, but perhaps have a little doubt for his judgment.\n\u201cMr. Mosk: If I may comment on that also I think that certainly\u2014\n\u201cMr. Wright: He is making it extremely hard for the Committee.\u201d\nThe third, and last, hearing before the Subcommittee occurred on January 27, 1954. At this time the letters from character witnesses were presented, and there ensued general colloquy as to the scope of a memorandum to be filed by Mr. Mosk. The record shows the following as to the Subcommittee\u2019s concern over Konigsberg\u2019s refusal to answer:\n\u201cMr. Wright: Thank you, Mr. Mosk. I was wondering whether or not you in the course of your memorandum you had addressed yourself at all to the problem of the disinclination of the applicant to respond to questions proposed by the Committee.\n\u201cMr. Mosk: I have addressed myself to that. The memorandum, however, is not lengthy and if you wish I would like to say just a brief word in addition then on that point.\n\u201cMr. Wright: That is one thing that frankly bothers me that we discussed in our previous hearing.\n\u201cMr. Mosk: I can understand why that is a matter that does bother you. I think that I indicated at the previous hearing by analogy one of the answers that I feel is pertinent to this. I indicated, and I feel that in every judicial proceeding and every legal proceeding there are many matters that the tribunal would like well to know to assist it in reaching its conclusion.\n\u201cNow, it is implicit in what I have said up until now that matters of the political, economic and social nature, matters of the mind, cannot become the standards upon which the decision as to whether an applicant is of good moral character can be predicated. There are basic principles as to whether the Committee or any other tribunal may inquire into matters of the mind and thinking.\n\u201cNow, Mr. Konigsberg is obviously, as indicated by many of these letters, and has always been a man of great principle, and I feel that the Committee, since it is our position that it may not inquire into these fields must not make its decision based on Mr. Konigsberg\u2019s principal refusal to answer questions in a field in which the Committee may not inquire. And this fundamentally is our answer that these are matters which can have no bearing on his moral fitness to practice law, and since they cannot I think it then becomes even a greater indication of the extreme principles upon which this man stands, and an even greater indication that as a lawyer he will be a credit to the legal profession.\u201d\nThe Subcommittee having reported unfavorably, a hearing to review its recommendation was held before the full State Bar Committee on March 13, 1954, at which Konigsberg read a prepared statement, following which the record shows the following:\n\u201cMr. Fuller: What organizations do you presently belong to?\n\u201cMr. Mosk: To which I object on the grounds that this is a violation of the witness\u2019s rights under the First Amendment of the Constitution.\n\u201cMr. Fuller: You mean to say that he shouldn\u2019t tell us whether he belongs to the Elks or the Masons or things of that sort?\n\u201cMr. Mosk: That would be my position.\n\u201cMr. Fuller: We can\u2019t determine any organization he belongs to? He doesn\u2019t have to answer at all?\n\u201cMr. Mosk: That would be my position that his beliefs and associations are not within the scope of this hearing.\n\u201cMr. Fuller: It does not necessarily relate to beliefs. We all know many organizations are not based on beliefs. I think we are entitled to know who he associates with.\n\u201cMr. Konigsberg: I respectfully say that you are not entitled to know my associations and any person may refuse to answer on the basis of the rights of a citizen under the First Amendment which I have previously referred to in my testimony.\n\u201cMr. Konigsberg: May I ask this question, Mr. Chairman: Is it the Committee\u2019s position (and I would sincerely like to know) that it has the power to ask such a question and that questions relating to opinions do have a bearing on the applicant\u2019s moral character?\n\u201cMr. Fuller: I don\u2019t want to put it on that basis. It is my position, not necessarily the entire Committee\u2019s position, that we have a rather general scope of inquiry to determine whether an applicant tells the truth, for one thing. I think that is a factor in determining whether or not he is morally qualified. He may state that he is not now a Communist, if he has been a Communist in the past, and if we believe he is telling the truth, that will have a bearing on our determination. I think we have the right to test the veracity of the applicant to the extent that if he denies that, I am influenced in the final conclusion I will come to, that I haven\u2019t determined yet. I do think that the applicant who wishes to afford us the facilities for determining his moral character to the utmost, should permit us to test his veracity.\n\u201cMr. Konigsberg: Mr. Chairman, in all sincerity I have attempted to show in my initial analysis that under Section 6064.1, that I think sets the limit to any inquiry that any body of Examiners has. Once you ask 'Do you now?,\u2019 does that person advocate the overthrow by force, violence, or other unconstitutional means, and he answers, as I have answered, that he does not, you cannot ask any questions about his opinions. You are not empowered to ask any questions. There is some question as I pointed out in my statement whether this is constitutional even to allow it to this extent.\n\u201cMr. Fuller: Do I understand that it is your position, and I think I understand your position, that we should not go ahead and find out whatever information we can obtain in order to make the best decision?\n\u201cMr. Konigsberg: I make this point which I did not make before that I don\u2019t think constitutional such action, to draw inferences of the truth or falsity of any statements based on the position (whether of the First or any other Amendment) which the applicant takes. For the Bar to maintain the position, as the Chairman is doing, that it does have the right to ask about my opinions (at least as he is doing this afternoon), as I pointed out these opinions and beliefs which have been expressed coincide with those of prominent leaders of the Bar, which they are expressing today .... I am wondering if that is the position the Committee wishes to take.\n\u201cMr. Fuller: There is no position of the Committee. I am only one member. We are conducting an impartial examination.\n\u201cA lady by the name of Bennett testified here. You heard her testimony. Is there any part of that testimony you wish to deny?\n\u201cMr. Konigsberg: Well, again, Mr. Chairman, that is the same question. That is a question relating to opinions, beliefs, political affiliations.\n\u201cMr. Fuller: It has nothing to do with beliefs.\n\u201cMr. Konigsberg: It certainly is related to political organizations, political activity, however you choose to describe it.\n\u201cMr. Fuller: Do you want to read it again?\n\u201cMr. Konigsberg: I recall it.\n\u201cMr. Fuller: Do you wish to deny any part?\n\u201cMr. Konigsberg: I wish to say that any questions relating to such political affiliation, which the testimony dealt with . . .\n\u201cMr. Fuller: You refuse to affirm or deny her testimony?\n\u201cMr. Konigsberg: The Committee is not empowered to ask with regard to political affiliations or that type . . .\n\u201cMr. Fuller: I am calling your attention to the fact part of it is not connected with political beliefs or associations.\n\u201cMr. Konigsberg: Which part?\n\u201cMr. Fuller: You are free to read it.\n\u201cMr. Konigsberg: If you wish, I shall be glad to.\n\u201cMr. Fuller: If you want you may either affirm or deny anything if you need to do that. We want to afford you the privilege. (Witness read the testimony referred to)\n\u201cMr. Konigsberg: Mr. Chairman, I think I would recall all the questions relating to me. She answered a number of questions not relating to me. All relating to me are based on a matter of political affiliation or opinion and political association and I think that is amply covered under the protection of the First Amendment as I referred to a moment ago. The Committee\u2019s rights to inquire about this matter are limited to one, the present personal advocacy of the overthrow by force or violence or other means as set forth in 6064.1.\n\u201cMr. O\u2019Donnell: Are you a member of the Communist party now?\n\u201cMr. Konigsberg: How does that differ from the questions asked before?\n\u201cMr. O\u2019Donnell: I would just like you to answer it.\n\u201cMr. Konigsberg: The answer is the same I would give. The Committee is not empowered to inquire any more than they may inquire whether I am an Elk, a Freemason, a Democrat or a Republican. It might become incriminating to be a member of the Democratic party today, like saying all Democrats are traitors.\n\u201cMr. O\u2019Donnell: Have you ever been a member?\n\u201cMr. Konigsberg: I would give the same answer.\n\u201cMr. O\u2019Donnell: You refuse to say whether you now are?\n\u201cMr. Konigsberg: I refuse on the ground that the Committee is not empowered to question anyone about political opinions or affiliations, whether past affiliations or present ones. I say this can have no bearing on moral qualifications to practice law, unless the Committee is prepared, as I said in my statement, to take the position that it is now a crime in California to have opinions different than general popular opinions or conforming opinions.\n\u201cMr. Fuller: Of course, the Committee takes the position it is doing so affirmatively, when it goes before the Supreme Court and states you have the proper moral character and we feel we have the right to inquire very deeply into that because it is an affirmative obligation on our part.\n\u201cMr. Konigsberg: I think, Mr. Chairman, on that point the court has said\u2014\n\u201cMr. Fuller: We may be wrong. The Supreme Court may tell us otherwise but that is the way it appears at the moment.\u201d\nFinally, the Committee put to Konigsberg these questions :\n\u201cMr. Whitmore: It is not your contention, is it, Mr. Konigsberg, that the only basis which the Committee may rely on in determining whether or not it can certify you under the provisions of 6064-1 is by asking you the questions and getting a yes or no answer. It is not your position that that is the extent of the right of this body in making its determination under 6064-1 ?\n\u201cMr. Konigsberg: In essence, that is it. My interpretation of that code section is simply that it sets the limit as to whatever questions relating to opinion \u2014 because that is obviously a political issue\u2014 there may be asked by the Bar Examiners. It sets the limit as I interpret it. I may be wrong, as I think the Subcommittee is wrong; because of the history of this act as I have related it the Committee can only ask \u2018Do you now personally advocate the overthrow of the government of the United States or of this State by force or violence or other unconstitutional means\u2019 and if I say \u2018No/ \u2018Yes\u2019 or whatever it may be, that is as far as you can go; that is without raising the question on this point (which I don\u2019t think is pertinent) as to whether that is even constitutional under the First Amendment.\n\u201cMr. Whitmore: You are saying that the Committee is precluded under Section 6064.1 from considering acts or omissions of yours in the past with respect to that problem?\n\u201cMr. Konigsberg: Yes, I think so. I am saying they can only ask do I advocate the overthrow by force or violence or other means.\n\u201cMr. Whitmore: You are contending that we are bound by your answer of yes or no which you give.\n\u201cMr. Konigsberg: You can decide' for yourselves whether I am telling the truth. You can use any means of determining the truth. You don\u2019t have to accept any individual\u2019s yes or no answer as the truth. I think that is understood.\n\u201cMr. Maxfield: Doesn\u2019t your answer right there defeat the only purpose if we can cross examine as to the truth or falseness of that statement? Why can\u2019t\u2014\n\u201cMr. Konigsberg: I didn\u2019t say you could cross examine me as to the truthfulness. The question as I understand it was whether the Committee couldn\u2019t consider other things, records, past acts.\n\u201cMr. Whitmore: Acts or omissions.\n\u201cMr. Konigsberg: Anything in my record to evaluate whether I am telling the truth, certainly.\n\u201cMr. Maxfield: The general principles of cross examination testing the veracity of a statement, those you know under the rules of evidence are pretty broad. Do you deny us the right to ask these questions for that purpose?\n\u201cMr. Konigsberg: Again under the rules of evidence there might be many items of hearsay, fact or whatever it might be, which the court would like to know but the court prevents the prosecution or the other side from introducing because of a deep-seated public policy or other evidentiary rule or the First Amendment. The rule of search and seizure is something else of that nature. The information might be pertinent but the court says that the results of such act, as established over the years, may not be asked or introduced.\n\u201cIt is my contention as I tried to make clear- \u2014 -(it might be unconstitutional, I am not questioning that now) \u2014 it may only go as far as this law permits you to go. The history of that act shows that the Legislature tried to do other things but failed to because it failed of passage. And a person can be asked (such people as myself) \u2018Do you?\u2019 than [szc] the Committee must determine and evaluate as to the truth by what is in the individual\u2019s record.\n\u201cMr. Maxfield: We are not entitled to an evaluation of that truth or in an effort to evaluate it to cross examine you with respect to present or past associations?\n\u201cMr. Konigsberg: That is right. That is my interpretation.\u201d\nOn February 8, 1954, the State Bar Committee refused to certify Konigsberg for admission, and the California Supreme Court denied review on April 20, 1955.\nIII.\nSo ends the story. Whatever might be the conclusions to be drawn were we sitting as state judges, I am unable to understand how on this record it can be said that California violated the Federal Constitution by refusing to admit petitioner to the bar.\nThe members of the Committee before whom the petitioner appeared were under a statutory duty to inquire into his qualifications for admission. Among the matters into which they were obligated to inquire were moral character and the applicant\u2019s advocacy of forcible overthrow of the Government. Petitioner stated readily enough that he did not advocate overthrow of government by force, violence, or other unconstitutional means. But once that basic question was answered he took the position that the Committee\u2019s authority was exhausted; that it had no power to ask him about the facts underlying his conclusory denial or to test his response by cross-examination. The Court holds that the State\u2019s conclusion \u2014 that an applicant who so obstructs the Committee has not met his burden of proof in establishing his qualifications of good moral character and non-advocacy of forcible overthrow \u2014 violates the Fourteenth Amendment.\nI think this position is untenable. There is no conceivable reason why the Committee should not attempt by cross-examination to ascertain whether the facts squared with petitioner\u2019s bare assertion that he was qualified for admission. It can scarcely be contended that the questions were irrelevant to the matter under inquiry, namely, whether petitioner advocated forcible overthrow of the Government. At least it seems apparent to me that Communist Party membership is relevant to the question of forcible overthrow. In fact petitioner himself admitted that the questions were relevant, relying entirely on his First Amendment privilege. Yet the Court assumes, for the purposes of this case, that the questions did not invade an area privileged under the First Amendment. In other words, we have here a refusal to answer relevant and unprivileged questions.\nWe are not dealing with a case where the State excludes an applicant from the bar because of bare membership, past or present, in the Communist Party. The Schware case attests that that is a wholly different question. Nor are we dealing with a case where an applicant is denied admission because of his political views. We have here a case where a state bar committee was prevented by an applicant from discharging its statutory responsibilities in further investigating the applicant\u2019s qualifications. The petitioner\u2019s refusal to answer questions in order to dispel doubts conscientiously entertained by the Committee as to his qualifications under a valid statutory test can, it seems to me, derive no support from the Fourteenth Amendment.\nThe principle here involved is so self-evident that I should have thought it would be accepted without discussion. Can it really be said that a bar-admissions committee could not reject an applicant because he refused to reveal his past addresses, or the names of his former employers, or his criminal record? An applicant might state with the utmost sincerity that he believed that such information was none of the committee's business; yet it must be clear that his application could be rejected. And in such a case the committee would not have to point to \u201cevidence\u201d establishing either that the applicant had bad moral character or that he was asserting the constitutional privilege in bad faith. For the applicant is the moving party, and his failure to go forward is itself sufficient to support denial of admission.\nFor me it would at least be more understandable if the Court were to hold that the Committee\u2019s questions called for matter privileged under the First and Fourteenth Amendments. But- the Court carefully avoids doing so. It seems to hold that the question of privilege is irrelevant as long as the applicant is \u201cin good faith\u201d and as long as there is other material in the record which the Court interprets as affirmatively attesting to his good moral character. I cannot agree. It is not only that we, on the basis of a bare printed record and with no opportunity to hear and observe the applicant, are in no such position as the State Bar Committee was to determine whether in fact the applicant was sincere and has a good moral character. Even were we not so disadvantaged, to make such a determination is not our function in reviewing state judgments under the Constitution. Moreover, resolution of this factual question is wholly irrelevant to the case before us, since it seems to me altogether beyond question that a State may refuse admission to its Bar to an applicant, no matter how sincere, who refuses to answer questions which are reasonably relevant to his qualifications and which do not invade a constitutionally privileged area. The opinion of the Court does not really question this; it solves the problem by denying that it exists. But what the Court has really done, I think, is simply to impose on California its own notions of public policy and judgment. For me, today\u2019s decision represents an unacceptable intrusion into a matter of state concern.\nFor these reasons I dissent.\nSection 6060, Cal. Bus. and Prof. Code (1937). The Court does suggest that this standard is \u201cunusually ambiguous\u201d and that it \u201ccan be defined in an almost unlimited number of ways for any definition will necessarily reflect the attitudes, experiences, and prejudices of the definer.\u201d I respectfully suggest that maintenance of high professional standards requires that a State be allowed to give that term its broadest scope.\nId., \u00a76064.1.\nSpears v. State Bar, 211 Cal. 183, 294 P. 697; In re Wells, 174 Cal. 467, 163 P. 657. All but 2 of the 48 States have this practice requirement. See Farley, Admission of Attorneys from Other Jurisdictions, in Survey of the Legal Profession, Bar Examinations and Requirements for Admission to the Bar, 151, 159.\nThe Court does say: \u201cPrior decisions by this Court indicate that his [Konigsberg\u2019s] claim that the questions were improper was not frivolous and we find nothing in the record which indicates that his position was not taken in good faith.\u201d The record at least gives one pause as to the correctness of the latter conclusion. See pp. 292, 298-299, infra.\nThe record contains the following exchange between Mr. O\u2019Donnell, a member of the full State Bar Committee, and Mr. Mosk, the petitioner\u2019s counsel: \u201cMr. O\u2019Donnell: There was some suggestion that the Subcommittee was not fair at the previous hearings. Mr. Mosk: May I interrupt immediately. There was no inference in any comments made by Mr. Konigsberg or myself. They were solely directed to the decision of the Subcommittee and our disagreement with the ultimate results. The Committee was absolutely fair and treated Mr. Konigsberg and myself with the utmost degree of fairness and impartiality. We have no complaints about the Subcommittee.\u201d\nPerhaps the most precise possible formulation of the question before us is whether a State may adopt a rule of administration to the effect that, in circumstances such as are disclosed here, an applicant who refuses to supply information relevant to his fitness may be deemed to have failed to sustain the burden of establishing his qualifications. I have no doubt that such a rule is constitutional. Cf. Hammond Packing Co. v. Arkansas, 212 U. S. 322, 349-351; Fed. Rules Civ. Proc., 37 (b).\nSee the italicized portions of pp. 286, 287, 288, 289, 290, 295, 299, 300, 301, 303, 306, 307, 308, 309, infra.\nEven on this basis I consider today\u2019s action of the Court unjustified upon this record. Whether considered as the adoption and application of a reasonable rule of administration, or as the drawing of an adverse inference of fact, the Committee\u2019s action in this case was proper. As the Hammond case shows, a State may treat a refusal to supply relevant information as establishing facts against the refusing party even though he does not have the burden of proof. A fortiori, a State need not give affirmative relief to one who refuses to supply evidence needed to support his own claim. Cf. Moore\u2019s Federal Rules and Official Forms (1956) 163-165, taking the position that judgment should be entered against a party to civil litigation who refuses to answer relevant questions, even where the refusal is justified by a valid privilege. In this case the Court takes the position, apparently, that refusal to supply relevant information cannot justify state action in a civil proceeding even where the refusal is unprivileged, and where the refusing party is a claimant upon whom rests the burden of proof.\nThere is no question here of drawing an unfavorable inference from a claim of the Fifth Amendment privilege. Petitioner repeatedly disclaimed any assertion of that privilege.\nIn quoting from the record I have italicized some parts to give emphasis to this point.\nCf. Garner v. Board of Public Works, 341 U. S. 716, 720; and see pp. 299-300, 301, supra.",
+        "type": "dissent",
+        "author": "Mr. Justice Harlan,"
+      }
+    ],
+    "attorneys": [
+      "Edward Mosk argued the cause for petitioner. With him on the brief was Samuel Rosenwein.",
+      "Frank B. Belcher argued the cause for respondents. With him on the brief was Ralph E. Lewis.",
+      "Briefs of amici curiae in support of petitioner were filed by A. L. Wirin for the American Civil Liberties Union, Southern California Branch, and Osmond K. Fraenkel for the National Lawyers Guild."
+    ],
+    "corrections": "",
+    "head_matter": "KONIGSBERG v. STATE BAR OF CALIFORNIA et al.\nNo. 5.\nArgued January 14, 1957.\nDecided May 6, 1957.\nEdward Mosk argued the cause for petitioner. With him on the brief was Samuel Rosenwein.\nFrank B. Belcher argued the cause for respondents. With him on the brief was Ralph E. Lewis.\nBriefs of amici curiae in support of petitioner were filed by A. L. Wirin for the American Civil Liberties Union, Southern California Branch, and Osmond K. Fraenkel for the National Lawyers Guild."
+  },
+  "file_name": "0252-01",
+  "first_page_order": 316,
+  "last_page_order": 376
+}

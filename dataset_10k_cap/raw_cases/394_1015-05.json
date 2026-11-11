@@ -1,0 +1,154 @@
+{
+  "id": 6348014,
+  "name": "Hanna v. United States",
+  "name_abbreviation": "Hanna v. United States",
+  "decision_date": "1969-05-05",
+  "docket_number": "No. 983",
+  "first_page": "1015",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "394 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U. S. C. \u00a7 2510",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq.",
+          "parenthetical": "1964 ed., Supp. IV"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "82 Stat. 212",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "389 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339173
+      ],
+      "weight": 2,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "352"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/389/0347-01"
+      ]
+    },
+    {
+      "cite": "384 F. 2d 643",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2082185
+      ],
+      "weight": 2,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "648"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/384/0643-01"
+      ]
+    },
+    {
+      "cite": "47 U. S. C. \u00a7 605",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "48 Stat. 1103",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U. S. C. \u00a7\u00a7 1084",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1343",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 372,
+    "char_count": 4790,
+    "ocr_confidence": 0.692,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17554324595758286
+    },
+    "sha256": "2a006b05a915861cac97c1b7858e801b914040e2c6e921861e0ad4607208cd39",
+    "simhash": "1:033fb26b5bd02e59",
+    "word_count": 793
+  },
+  "last_updated": "2024-02-27T18:45:41.137400+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Mr. Justice Douglas joins,"
+    ],
+    "parties": [
+      "Hanna v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      },
+      {
+        "text": "Mr. Justice Fortas,\nwith whom Mr. Justice Douglas joins,\ndissenting.\nPetitioner asks that we review the decision of the Court of Appeals for the Fifth Circuit affirming his convictions for defrauding the telephone company in violation of 18 U. S. C. \u00a7 1343 and for use of interstate commerce facilities for illegal gambling in violation of 18 U. S. C. \u00a7\u00a7 1084 and 1952. The only evidence against petitioner was obtained by the telephone company\u2019s action in tapping his telephone line or was the product of information gained from that tap. The company became suspicious that petitioner was using a \u201cblue box\u201d to avoid payment for long-distance telephone calls. A \u201cblue box\u201d is an electronic signaling device which can be used to bypass the equipment which automatically records tolls on direct-dialed long-distance calls. An electronic device\u2014 which did not record the content of any conversations\u2014 confirmed the presence on the line of the 2,600-cycle tone characteristic of the operation of a \u201cblue box.\u201d Company security officers then connected to petitioner\u2019s line a tape recorder which began recording the conversations on the line whenever the 2,600-cycle tone appeared and which automatically cut off after 35 to 45 seconds.\nThe recording instrument was used for about three weeks. The FBI was then informed of the recordings, and the recordings were turned over to a grand jury in response to a subpoena. Using the recorded information, the FBI obtained a warrant and conducted a search of petitioner\u2019s home.\nSection 605 of the Federal Communications Act of 1934, 48 Stat. 1103, 47 U. S. C. \u00a7 605, prohibits the interception and divulgence of telephone messages. It is argued\u2014 and the Fifth Circuit held \u2014 that the information was not unlawfully obtained because \u00a7 605 excludes from its prohibitions certain divulging of telephone messages by \u201c[a] person . . . transmitting, or assisting in transmitting\u201d conversations.\nIn a similar case, Bubis v. United States, 384 F. 2d 643 (C. A. 9th Cir. 1967), the Ninth Circuit held that under \u00a7 605 the telephone company was not allowed to continue tapping its subscribers\u2019 lines to detect fraud \u201cafter ample evidence had been secured of the illegal use ... of the company\u2019s facilities.\u201d 384 F. 2d, at 648. The tap in Bubis recorded the whole conversation and not merely the first part, but an essential fact \u2014 that the interception was more extensive than necessary to detect fraud \u2014 is the same in both cases.\nI would grant certiorari in this case to resolve the area of conflict between circuits and to determine whether \u00a7 605 permits the telephone company to intercept and divulge personal communications which are used in the expectation of freedom from \u201cthe uninvited ear.\u201d Katz v. United States, 389 U. S. 347, 352 (1967).\nThis tap was installed without a trespass, but if placed by law enforcement officers, it would clearly have violated the protections of the Fourth Amendment, as defined by this Court in Katz v. United States, 389 U. S. 347 (1967). The tap was, however, installed before the decision in Katz was announced. This Court has determined that it will not consider the constitutionality of non-trespassory invasions which took place prior to Katz. Desist v. United States, ante, p. 244; Kaiser v. New York, ante, p. 280. Accordingly, I consider only statutory questions here.\nThe Government argues that the applicability of \u00a7 605 to events such as this is now of only academic interest because of the recent enactment of \u00a7 802 of the Omnibus Crime Control and Safe Streets Act of 1968, 82 Stat. 212, 18 U. S. C. \u00a7 2510 et seq. (1964 ed., Supp. IV). That argument is untenable. Section 2511 (2) (a) of 18 U. S. C. declares:\n\u201cIt shall not be unlawful under this chapter for an operator of a switchboard, or an officer, employee, or agent of any communication common carrier, whose facilities are used in the transmission of a wire communication, to intercept, disclose, or use that communication in the normal course of his employment while engaged in any activity which is a necessary incident to the rendition of his service or to the protection of the rights or property of the carrier of such communication: Provided, That said communication common carriers shall not utilize service observing or random monitoring except for mechanical or service quality control checks.\u201d\nIt is by no means clear that the new statute would authorize this kind of conduct if a similar case occurred today. Unless it did, \u00a7 605 would still apply and the same problems that exist in this case would arise again.",
+        "type": "dissent",
+        "author": "Mr. Justice Fortas,"
+      }
+    ],
+    "attorneys": [
+      "Guy Johnson for petitioner.",
+      "Solicitor General Gristoold, Assistant Attorney General Wilson, Beatrice Rosenberg, and Sidney M. Glazer for the United States."
+    ],
+    "corrections": "",
+    "head_matter": "No. 983.\nHanna v. United States.\nGuy Johnson for petitioner.\nSolicitor General Gristoold, Assistant Attorney General Wilson, Beatrice Rosenberg, and Sidney M. Glazer for the United States."
+  },
+  "file_name": "1015-05",
+  "first_page_order": 1041,
+  "last_page_order": 1043
+}

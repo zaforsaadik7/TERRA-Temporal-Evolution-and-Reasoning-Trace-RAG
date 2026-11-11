@@ -1,0 +1,135 @@
+{
+  "id": 11642535,
+  "name": "TEST v. UNITED STATES",
+  "name_abbreviation": "Test v. United States",
+  "decision_date": "1975-01-27",
+  "docket_number": "No. 73-5993",
+  "first_page": "28",
+  "last_page": "30",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "420 U.S. 28"
+    },
+    {
+      "type": "parallel",
+      "cite": "42 L. Ed. 2d 786"
+    },
+    {
+      "type": "parallel",
+      "cite": "95 S. Ct. 749"
+    },
+    {
+      "type": "vendor",
+      "cite": "1975 U.S. LEXIS 26"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1974-031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U. S. C. \u00a7 1867",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "d"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "417 U. S. 967",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519794,
+        1519705,
+        1519746,
+        1519332
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/417/0967-01",
+        "/us/417/0967-03",
+        "/us/417/0967-02",
+        "/us/417/0967-04"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1861",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U. S. C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "a"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 301,
+    "char_count": 4416,
+    "ocr_confidence": 0.591,
+    "pagerank": {
+      "raw": 1.0797499251605726e-06,
+      "percentile": 0.9850267332188093
+    },
+    "sha256": "8e25c12ca1a89293c7c31dd0caf33fc340a95b13f29eefe7db7625199a7c34bf",
+    "simhash": "1:ac25df34af0d514f",
+    "word_count": 715
+  },
+  "last_updated": "2024-02-27T19:52:32.112746+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "TEST v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nPetitioner was convicted under 21 U. S. C. \u00a7 841 (a) (1) for distribution of a hallucinogenic drug commonly known as LSD. Prior to trial he filed a motion to dismiss his indictment claiming that the master lists from which his grand jury had been, and petit jury would be, selected systematically excluded disproportionate numbers of people with Spanish surnames, students, and blacks. These exclusions, petitioner alleged, violated both his Sixth Amendment right to an impartial jury and the provisions of the Jury Selection and Service Act of 1968, 28 U. S. C. \u00a7 1861 et seq. Attached to this motion was an affidavit by petitioner's counsel stating facts that had been disclosed by testimony at a jury challenge in another case, and which petitioner claimed supported his challenge. Also accompanying the motion was another motion requesting permission to inspect and copy the jury lists \u201cpertaining to the grand and petit juries in the instant indictment.\u201d Petitioner asserted that inspection was necessary for discovering evidence to buttress his claims.\nThe District Court rejected the jury challenge and denied the motion to inspect the lists. Petitioner renewed his claims before the Court of Appeals for the Tenth Circuit, but that court affirmed his conviction without discussing these issues. We granted certiorari to decide whether the Jury Selection and Service Act required that petitioner be permitted to inspect the jury lists. 417 U. S. 967.\nIn its brief and oral argument before this Court, the United States has agreed that petitioner was erroneously denied access to the lists and urges us to remand the case. We also agree with petitioner. Section 1867 (f) of the Act, in relevant part, provides:\n\u201cThe contents of records or papers used by the jury commission or clerk in connection with the jury selection process shall not be disclosed, except . . . as may be necessary in the preparation or presentation of a motion [challenging compliance with selection procedures] under . . . this section . . . . The parties in a case shall be allowed to inspect, reproduce, and copy such records or papers at all reasonable times during the preparation and pend-ency of such a motion. . . .\u201d (Emphasis supplied.)\nThis provision makes clear that a litigant has essentially an unqualified right to inspect jury lists. It grants access in order to aid parties in the \u201cpreparation\u201d of motions challenging jury-selection procedures. Indeed, without inspection, a party almost invariably would be unable to determine whether he has a potentially meritorious jury challenge. Thus, an unqualified right to inspection is required not only by the plain text of the statute, but also by the statute\u2019s overall purpose of insuring \u201cgrand and petit juries selected at random from a fair cross section of the community.\u201d 28 U. S. C. \u00a7 1861.\nSince petitioner was denied an opportunity to inspect the jury lists, we vacate the judgment of the Court of Appeals and remand the case to that court with instructions to remand to the District Court so that petitioner may attempt to support his challenge to the jury-selection procedures. We express no views on the merits of that challenge.\nIt is so ordered.\nThese lists were based on Colorado voter-registration records.\nPetitioner further argues that the affidavit accompanying his motion to inspect established a prima facie ease of jury exclusion thereby entitling him to inspection under 28 U. S. C. \u00a7 1867 (d). Since we conclude that petitioner had an unqualified right to inspection under \u00a7 1867 (f) we do not decide whether his counsel\u2019s affidavit was sufficient to establish a prima facie case.\nThe statute grants the rights to challenge selection procedures and inspect lists to the United States and the defendant in a criminal case, and to any party in a civil case.\nThe statute does limit inspection to \u201creasonable times.\u201d No issue of timeliness has been raised in this Court.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Walter L. Gerash argued the cause for petitioner. With him on the brief was Louis M. Fischer.",
+      "William L. Patton argued the cause for the United States. With him on the brief were Solicitor General Bork, Assistant Attorney General Pottinger, and Deputy Solicitor General Wallace."
+    ],
+    "corrections": "",
+    "head_matter": "TEST v. UNITED STATES\nNo. 73-5993.\nArgued December 11, 1974\nDecided January 27, 1975\nWalter L. Gerash argued the cause for petitioner. With him on the brief was Louis M. Fischer.\nWilliam L. Patton argued the cause for the United States. With him on the brief were Solicitor General Bork, Assistant Attorney General Pottinger, and Deputy Solicitor General Wallace.\nSanford Jay Rosen filed a brief for the Mexican American Legal Defense and Educational Fund as amicus curiae."
+  },
+  "file_name": "0028-01",
+  "first_page_order": 114,
+  "last_page_order": 116
+}

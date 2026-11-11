@@ -1,0 +1,778 @@
+{
+  "id": 8286277,
+  "name": "UNITED STATES v. WINSLOW",
+  "name_abbreviation": "United States v. Winslow",
+  "decision_date": "1913-02-03",
+  "docket_number": "No. 620",
+  "first_page": "202",
+  "last_page": "218",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "227 U.S. 202"
+    },
+    {
+      "type": "parallel",
+      "cite": "57 L. Ed. 481"
+    },
+    {
+      "type": "parallel",
+      "cite": "33 S. Ct. 253"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1912-085"
+    },
+    {
+      "type": "vendor",
+      "cite": "1913 U.S. LEXIS 2291"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "11 Fed. Rep. 288",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "154 Fed. Rep. 358",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6749207
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/154/0358-01"
+      ]
+    },
+    {
+      "cite": "153 Fed. Rep. 24",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3921284
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/153/0024-01"
+      ]
+    },
+    {
+      "cite": "167 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3595150
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/167/0224-01"
+      ]
+    },
+    {
+      "cite": "186 U. S. 70",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3622388
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/186/0070-01"
+      ]
+    },
+    {
+      "cite": "194 U. S. 618",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3631829
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/194/0618-01"
+      ]
+    },
+    {
+      "cite": "208 U. S. 274",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641929
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/208/0274-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 604",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3600831
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0604-01"
+      ]
+    },
+    {
+      "cite": "173 Fed. Rep. 177",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        29129
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/173/0177-01"
+      ]
+    },
+    {
+      "cite": "173 Fed. Rep. 737",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        29091
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/173/0737-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3601017
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/171/0505-01"
+      ]
+    },
+    {
+      "cite": "167 Fed. Rep. 721",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3947076
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/167/0721-01"
+      ]
+    },
+    {
+      "cite": "191 Fed. Rep. 172",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        41734
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/191/0172-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 290",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592671
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/166/0290-01"
+      ]
+    },
+    {
+      "cite": "166 Fed. Rep. 555",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6721674
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/166/0555-01"
+      ]
+    },
+    {
+      "cite": "131 Fed. Rep. 182",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3854803
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/131/0182-01"
+      ]
+    },
+    {
+      "cite": "175 U. S. 211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1239466
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/175/0211-01"
+      ]
+    },
+    {
+      "cite": "212 U. S. 227",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5710978
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/212/0227-01"
+      ]
+    },
+    {
+      "cite": "209 U. S. 423",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8290062
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/209/0423-01"
+      ]
+    },
+    {
+      "cite": "220 U. S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3656614
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/220/0373-01"
+      ]
+    },
+    {
+      "cite": "193 U. S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3629336
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/193/0038-01"
+      ]
+    },
+    {
+      "cite": "189 U. S. 8",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        443676
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/189/0008-01"
+      ]
+    },
+    {
+      "cite": "215 U. S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287972
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/215/0190-01"
+      ]
+    },
+    {
+      "cite": "19 U. S. 72",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "218 U. S. 601",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8289042
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/218/0601-01"
+      ]
+    },
+    {
+      "cite": "215 U. S. 26",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286601
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/215/0026-01"
+      ]
+    },
+    {
+      "cite": "213 U. S. 115",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287994
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/213/0115-01"
+      ]
+    },
+    {
+      "cite": "208 U. S.- 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641801
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/208/0393-01"
+      ]
+    },
+    {
+      "cite": "224 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3668927
+      ],
+      "weight": 5,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/224/0001-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 61",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8285375
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/226/0061-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8285245
+      ],
+      "weight": 5,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/226/0020-01"
+      ]
+    },
+    {
+      "cite": "224 U-. S. 383",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3668599
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/224/0383-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 324",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286989
+      ],
+      "weight": 6,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/226/0324-01"
+      ]
+    },
+    {
+      "cite": "221 U. S. 106",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658750
+      ],
+      "weight": 4,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/221/0106-01"
+      ]
+    },
+    {
+      "cite": "196 U. S. 375",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292155
+      ],
+      "weight": 4,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/196/0375-01"
+      ]
+    },
+    {
+      "cite": "178 Fed. Rep. 165",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6746102
+      ],
+      "year": 1901,
+      "pin_cites": [
+        {
+          "page": "173, 176-178"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/178/0165-01"
+      ]
+    },
+    {
+      "cite": "129 Fed. Rep. 689",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3851113
+      ],
+      "year": 1901,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/129/0689-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 306",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701854
+      ],
+      "year": 1901,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/161/0306-01"
+      ]
+    },
+    {
+      "cite": "8 N. Y. Crim. Rep. 179",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        803128
+      ],
+      "pin_cites": [
+        {
+          "page": "194, 195, 212"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/8/0179-01"
+      ]
+    },
+    {
+      "cite": "188 Fed. Rep. 92",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6745527
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/188/0092-01"
+      ]
+    },
+    {
+      "cite": "221 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658404
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "69"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/221/0001-01"
+      ]
+    },
+    {
+      "cite": "193 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630311
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/193/0197-01"
+      ]
+    },
+    {
+      "cite": "195 Fed. Rep. 578",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        48521
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/195/0578-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 420",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287415
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/226/0420-01"
+      ]
+    },
+    {
+      "cite": "34 Stat. 1246",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "199 U. S. 487",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3643261
+      ],
+      "pin_cites": [
+        {
+          "page": "497"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/199/0487-01"
+      ]
+    },
+    {
+      "cite": "225 U. S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340554
+      ],
+      "pin_cites": [
+        {
+          "page": "419"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/225/0405-01"
+      ]
+    },
+    {
+      "cite": "36 Stat. 1087",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Fed. Rep. 591",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 U. S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3651220
+      ],
+      "pin_cites": [
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/210/0405-01"
+      ]
+    },
+    {
+      "cite": "226 U. S, 626",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Fed. Rep. 592",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "pin_cites": [
+        {
+          "page": "594"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Stat. 209",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 U. S. 375",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8292155
+      ],
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/196/0375-01"
+      ]
+    },
+    {
+      "cite": "195 Fed. Rep. 578",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        48521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/195/0578-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 420",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/226/0420-01"
+      ]
+    },
+    {
+      "cite": "34 Stat. 1246",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1147,
+    "char_count": 31398,
+    "ocr_confidence": 0.566,
+    "pagerank": {
+      "raw": 4.93105515199368e-07,
+      "percentile": 0.9344761026608115
+    },
+    "sha256": "388a8621c94f554d62535e2e678130a565f4f3488c53c3cf6368db881456ca46",
+    "simhash": "1:bc71c6602c87525a",
+    "word_count": 5356
+  },
+  "last_updated": "2024-02-27T18:57:28.744479+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES v. WINSLOW."
+    ],
+    "opinions": [
+      {
+        "text": "Mu. Justice \u00ed\u00edoi.mrs\ndelivered the opinion of the court..\nThis is a writ, of error to determine whether two counts in an- indictment as construed by the District Court charge offences under the Sherman Act of July 2, 1890, c. 647. 26 Stat. 209. They were held bad, on demurrer, by the District Court. 195 Fed. Rep. 578. The two counts allege substantially the same facts; the first laying them as a combination in restraint of the trade of the defendants themselves, the second as a conspiracy in restraint of the trade of others, shoe manufacturers.\nThe facts alleged are as follows: For the last twenty-five years practically all the shoes worn in the United States have been made by the help of machines, grouped as lasting machines, welt-sewing machines and outsole-stitching machines, heeling machines and metallic fastening machines, there being a large variety of machines in each group. (These machines of course are not alleged , to do all the work of making finished shoes.) There is a great number of. shoe factories, and because the machines are expensive and the best of them patented, the manufacturers have had to get them principally from the defendants. Before and up to February 7, 1899, the defendants Winslow, Hurd and Brown, through the Consolidated and McKay Lasting Machine Company, under letters patent, made sixty per cent, of all the lasting machines made in the United States; the defendants Barbour and Howe, through the Goodyear Shoe Machinery Company, in like manner made eighty per cent, of all the welt-sewing machines and outsole-stitching machines, and ten per cent, of all the lasting machines; and the defendant Stor-row, (against whom the indictment has been dismissed), through the McKay Shoe Manufacturing Company, made seventy per cent, of all the heeling machines and eighty per cent, of all the metallic fastening machines made in the -United States. The defendants all were carrying on commerce among the States with such of the shoe, manufacturers as are outside Massachusetts, the State where the- defendants made their machines.\nOn February 7, 1899, the three groups of defendants above named, up to that time separate, organized the United Shoe Machinery Company and turned over to that company the stocks and business, of the several corporations that' they respectively controlled. The new company now makes all the machines that had been made in different places, at a single new factory at Beverly, Massachusetts, and directly, or through subsidiary companies, carries on all the commerce among the States that had been carried on independently,by the constituent companies. before. The defendants have ceased to sell shoe machinery to the shoe manufacturers. Instead, they only let machines, and on the condition that unless the shoe manufacturers use only machines -of the kinds mentioned furnished by the defendants, or if they use any such machines furnished -by other machinery makers, then. all machines let by the\" defendants .shall be taken away. This \u25a0 condition they constantly have enforced.. The defendants are alleged to. have done the acts recited with intent unreasonably to extend their monopolies, rights and control over commerce among the States; to enhance the value of the sam\u00e9 at the expense of the public, and to discourage others from inventing and manufacturing machines for. the work done by those of the defendants. The organization of the new company and the turning' over of the stocks and business to it are alleged to constitute a breach of the Sherman Act.\nIt is to be observed that the conditions now inserted in the leases are not alleged to have been contemporaneous with the combination, or to have been contemplated when it was made. The District Court construed the indictment as confined to the combination of February 7, that is,- simply \u2018to the merger of the companies without regard to the leases subsequently made, 195 Fed. Rep. 592, 594; and we have no jurisdiction to review this interpretation of the indictment. United States v. Patten, 226 U. S, 626. Hence the only question before us- is whether that combination taken by itself was within the penalties of the Sherman Act. The validity of the leases Or of a combination contemplating- them cannot be passed upon in this case.\nThus limited the question does not require lengthy discussion, and a large part of the argument addressed to us concerned matters not open here. On the face of it the combination was simply an effort after greater efficiency. The business of the several groups that combined, as it existed before the combination, is assumed to have been legal. The machines are patented, making them is a monopoly in any case, the exclusion of competitors from the use of them is of the very essence of the right conferred by the patents, Paper Bag Patent Case, 210 U. S. 405, 429, and it may be assumed that the success of the several groups was due to their patents having been the best. As, by the interpretation of the indictment below, 195 Fed. Rep. 591, and by the admission in argument before us, they did not compete with one another, it is hard to see why the collective business should be any worse than its component parts. It is said that from seventy to eighty per cent, of all the shod machinery business was put into a single hand. This is inaccurate, since the machines in question are. not alleged to be types of all the machines used in making shoes, and since the defendants\u2019 share in-commerce among the States does not appear. But taking it as true we can see no greater objection to one corporation manufacturing seventy per cent, of three noncompeting groups of patented machines collectively used for making a single product than to three corporations making the same proportion of one group each. The disintegration aimed at by the statute does not extend to reducing all manufacture to isolated units of the lowest degree. It is as lawful for one corporation to make every part of a steam engine and to put the machine together as it would be for one to make the boilers and another to make the wheels. Until the one intent is nearer accomplishment than it is. by such a juxtaposition alone, no intent could raise the conduct to the dignity of an attempt. See Virtue v. Creamery Package Manufacturing Co., ante, p. 8. Swift & Co. v. United States, 196 U. S. 375, 396.\nIt was argued as an afterthought that the act of March 2, 1907, c. 2564, 34 Stat. 1246, under which the United States took this writ of error, was repealed by the Judicial Code of March 3, 1911, c. 231. 36 Stat. 1087, 1168. But it is not mentioned among the statutes expressly repealed by \u00a7 297 of the latter act, it is not superseded by any other regulations of the matter, it is a special provision, and on principles similar to those discussed in Ex parte United States, Petitioner, 226 U. S. 420, it must be held not to have been repealed. See further Johnson v. United States, 225 U. S. 405, 419; Petri v. Creelman Lumber Co., 199 U. S. 487, 497.\nJudgment affirmed.",
+        "type": "majority",
+        "author": "Mu. Justice \u00ed\u00edoi.mrs"
+      }
+    ],
+    "attorneys": [
+      "The Solicitor General for the United States:",
+      "Mr. Frederick P. Fish and Mr. Charles F. Choate, Jr., with whom Mr. Malcolm Donald and Mr. William A. Sargent were on the brief, for defendants in error:"
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES v. WINSLOW.\nERROR TO THE DISTRICT COURT OF THE UNITED STATES FOR THE DISTRICT OF MASSACHUSETTS.\nNo. 620.\nArgued January 10, 1913.\nDecided February 3, 1913.\nOn appeals under the Criminal'Appeals Act of 1907 this court has no jurisdiction to review the interpretation of the indictment by the lower court, United States v. Patten, 226 II. S. 525, and if that court has construed the count as alleging, a combination of a particular date to be in violation of the Sherman Law, without regard to subsequent acts, this co'urt cannot pass upon the validity of those acts.\nA combination for greater efficiency does not necessarily violate the Sherman Anti-trust Act.\nWhere each of several groups are carrying on a legal business of making ' patented machines which do not compete with each other, although \" the machines of all the groups are .used by manufacturers of the same article, such \u00e1s shoes, a combination of the several groups does not violate \u2019the Sherman Anti-trust Act.\nExclusion of competitors from making the patented article is of the very essence of the right conferred- by the patent.\nWhere the share in interstate commerce does not appear in the record, and the machines in question are not alleged to be types of all the machines used in manufacturing the article for which they arc made, the government cannot claim that a specified proportion of the business was put into a single hand.\nThe disintegration aimed at by the Sherman Anti-trust Act does not extend to reducing all manufacture, to isolated units of the lowest degree-.\nThe Criminal Appeals Act of March 2, 1907, c. 2564, 34 Stat. 1246, is a special provision and, as it is not mentioned in the repealing section of the Judicial Code of' 1911 and is not superseded by any other regulation of the matter, it was not repealed by the Judicial Code. United States, Petitioner, 226 U. S. 420.\nThe'District Court rightly held that the counts under review of the indictment against various persons for combining -their businesses of manufacturing patented machines for making different parts of shoes, and not competing with each other, did not constitute an offense un-' der the Sherman Anti-trust Act.\n195 Fed. Rep. 578, affirmed.\nThe facts, which involve the construction of the Sherman Anti-trust Act, and determining'whether the combination charged in an indictment thereunder of various manufacturers of -patented shoe machinery constituted a violation thereof, are Stated :m the opinion.\nThe Solicitor General for the United States:\nThis case presents the question whether it is legril to gather together into one corporation about 80 per cent, of all the interstate trade in some particular line of activity when it is done gradually by legitimate methods and without any unfair competition such as characterized the Tobacco and Standard Oil cases. If that is legal, the sooner the business world \u00fc\u00f1d'erstands it the better.\nThe indictment alleged that three separate groups of individuals (each controlling a different group of machines essential to the manufacture of shoes), combined together whereby their separate, businesses were combined into one under the joint management of-these individuals; that each of the separate groups controls about 70 or 80 per cent of the interstate trade in the particular kind of machines manufactured by it; and that by the combination, there were placed into one hand from 70 to 80 per cent of all the business in those kinds of shoe machinery manufactured by the defendants.\nThe constitutionality arid sufficiency of the criminal provisions of .the Sherman Anti-trust Act are settled. United States v. Kissel, 218 U.\"S. 001; Northern Securities Co. v. United States, 193 U. S. 197, 401; Standard Oil Co. v. United States, 221 U. S. 1, 69; United States v. Sioift, 188 Fed. Rep. 92.\nIndividuals are subject to indictment for acts done under the guise of \u00e1 corporation where the individuals personally so dominate and control the corporation as to immediately direct its action. United States v. Swift, 188 Fed. Rep. 92, 98'; United States y. McAndrews & Forbes Co., 149 \u00ed?ed. Rep. 823; Crall v. .Commonwealth, 103 Virginia, 855,859,860;People v. Clark, 8 N. Y. Crim. Rep. 179, 194, 195, 212; People v. Ifhite Lead Works, 82 Michigan, 471, A79;PeoplevSDuke, 44,N. Y. Supp. 336,337-339; State v. Great Works cfee. Co., 20 Maine, 41; United States v. Dur-land, 65' Fed. Rep. 408, 415; S. C., 161 U. S. 306; Balliet v. United States, 129 Fed. Rep. 689; Fitzsimmons v. United States, 156 Fed. Rep. -477,. 481; Foster v. United States, 178 Fed. Rep. 165, 173, 176-178; La Societe Anonyme &c. v. Panhard Motor Co. (1901)*, 2 Ch. 513/516-517.\nPrior to February 7, 1899, competition with reference to the different kinds of shoe machinery was so distributed between the different groups of defendant? and the Independents that a shoe manufacturer had 24 different choices for obtaining shoe machinery.\nBy the organization. of the United Shoe Machinery Company and the coalescence into one of the three groups of businesses formerly carried on separat\u00e9ly by the defendants, the variety of choice open to a shoe manufacturer. for obtaining the necessary shoe machinery was reduced from 24 ways to 16 ways.\nThe defendants then adopted what is known as the \u201ctying\u201d clause lease, which provided that any shoe manufacturer using any one class of machines furnished by the defendants should use for all his other machines only those furnished by the defendants; and that if he used any machine made by an Independent, the defendants would forfeit his lease and remove his machines. This form of lease immediately reduced from 16 to 2 the different ways by which a manufacturer could equip his factory, so that he had to get all his machinery from the defendants or get it all from the Independents.\nThe effect of the combination was to place from'70 to 80 per cent, of all the shoe machinery business (in so far as it related to those essential machines known as the lasting,- welt-sewing, heeling and metallic fastening machines) into one hand. This combination into one group of four non-competitive businesses (which, taken together, constitute one complete business) curtailed the customer\u2019s liberty of action by compelling him to deal with one and the same group as to all four classes of machinery, whereas formerly he could deal with four separate groups. The question presented, then, is whether the combination into one group of 75 per cent, of the whole business of the Country in a particular line is in such restraint of trade as to violate the Sherman law, it being conceded that the combination was not attended by any methods of unfair competition or illegitimate trade practices. Without attempting to determine' exactly at what percentage of trade control a combination passes into, the region of illegal restraint, the Government insists that when a, combination acquires between 70 and 80 per cent, of the total trade in a particular business, the line between legal and illegal combinations has been passed; and .that this is so eyen though the combination is made without resorting to any wrongful methods to coerce anyone to come into the combination. Swift v. United Stales, 196 U. S. 375; Standard Sanitary Mfg. Co. v. United-States, 226 U. S.,20; Standard Oil Co. v. United States, 221 U. S. 1; United States v. American Tobacco Co., 221 U. S. 106; United Stales v. Union Pacific R. R. Co., 226 IT. Si 61; United States v. The Reading Co., 226 U. S. 324.\nThe adoption by the United Shoe Machinery Company of the \u201ctying\u201d clause lease whereby a customer was compelled to fake all his machines from the defendants or all from the Independents was-a direct restraint upon competition and trade (1) of the defendants'by .limiting their trade to those who would agree to use only the defendants\u2019 machines; (2) of the customers by depriving, them of the right to use some machines unless they would also use others, (3) of .the Independents by preventing them from selling their machines to their former customers. Montague v. Lowry, 193 IT. S. 38; United States v. St. Louis Terminal, 224 U-. S. 383; Standard Sanitary'Mfg. Co. v. United States, 226 U. S. 20; United States v. Union Pacific R. R. Co., 226 U. S. 61; United States v. The Reading Co., 226 U. S. 324.\nThe patent laws do not authorize the \u201ctying\u201d clause leases.\nThe precise point decided in Henry v. Dick Co., 224 U. S. 1, was that a pat\u00e9ntee might impose a restriction that his machine should be used only in connection with certain supplies which in point of fact bore so direct a relation to the invention that it could not be operated without their use in physical connection with the patented machine.\nThe doctrine of Henry v. Dick Co. should, not be extended to permit a license restriction beyond the actual use of supplies in connection with the necessary physical operation of the patented machine. Standard Sanitary Mfg. Co. v. United States, 226 U..S. 20.\nBut even if the doctrine of Henry v. Dick Co. is extended to the extreme limit of permitting any kind of restriction upon the use of a patented machine, yet when such restrictions are a part of one general scheme of combination the patent laws no longer authorize such restrictions. The rights given by the patent laws do not give universal license against the positive' prohibitions of the Sherman law, which is a limitation on alLrights that might otherwise be, pushed to evil consequences. Standard Sanitary Mfg. Co. v. United States, 226 U. S. 20; United States v. The Reading Co., 226 U. S. 324.\nThe Criminal Appeals Act, 34 Stat. 1246, was not repealed by the adoption of the Judicial Code.\nThe defendant\u2019s right of. appeal to the Supreme' Court was given in the fifth and sixth sections of the Circuit Court of Appeals Act which, in the proposed revision of the laws of the United States, was placed in Chapter Ten on the \u201cSupreme Court,\u201d in the titl\u00e9 called \u201cThe Judiciary.\u201d The right of the United States to appeal to the Supreme Court was contained in the Criminal Appeals Act, which, in the same proposed revision was placed in Chapter Eighteen on \u201cProcedure on Error and Appeal.\u201d\nCongress, in passing the Judicial Code, did not attempt to cover the whole body of the revision submitted to it, but only adopted the first 14 chapters of the. title \u201cThe'Judiciary\u201d; so that while it incorporated into the Judicial Code Chapter Ten on. the \u201cSupreme Court\u201d giving the defendant a right to appeal, it did not attempt to cover any of the field embraced in the later chapters of the revision. Therefore, those subjects, inter alia, which were dealt with in proposed Chapter 18 were never even considered by Congress and therefore remained controlled by the former laws governing them \u2014 one of which was the Criminal Appeals Act. (Cf. Committee Report of 1907 of \u201cCommission to Codify and Revise the Laws of the United States\u201d and the Joint Committee.of Congress\u2019 Revision of 1910. See Title XVI, \u201cThe Judiciary,\u201d Chapters 10 and 18.)\nMr. Frederick P. Fish and Mr. Charles F. Choate, Jr., with whom Mr. Malcolm Donald and Mr. William A. Sargent were on the brief, for defendants in error:\nOnly a single question is presented by the case.\nThe lease question is not before this court, as hereinafter shown.\nThe fact that the machines manufactured by the United Shoe Machinery Company are protected by letters-patent was not considered by the District Court in its construction of the Sherman Act, and is not open in this court.\nThe facts alleged in .the first and second counts are not brought out or are erroneously stated by the United States.\nThe second count is almost identical, word for word, with the first count, except as to the allegation in regard to interstate commerce, and changing the charge of combination of defendants\u2019 own trade into one of conspiracy to restrain the trade of shoe manufacturers in shoe machinery.\nOn this writ of error, the question is whether the D.is- _ trict Court erred in the construction of the Anti-trust Act in sustaining the demurrers to counts, one and two and so far as that'act is construed by the District Court in its opinion relating to those two counts.\nFor construction of the Criminal Appeals Act as applied \u2022 to the question before this court, see United States v. Bitty, 208 U. S.- 393; United States v. Keitel, 2IT U. S. 370; United States v. Mason, 213 U. S. 115; United States V. \u25a0 Mescall, 215 U. S. 26; United. States v. Stevenson, 215 U. t\u00ed. 190; United States v. Kissel, 218 U. S. 601; United Stales v. Barber, 2.19 U. S. 72; United States v. Miller, 223 U; S. 599. '\nThe District Court decided the two counts now before, this court were bad for duplicity in pleading, that is to say, .on.a question of general law not involving the construction of the Sherman Act, and that cannot be reviewed here. United States v. Keitel, 211 U. t\u00ed. 370; United Stales v. Mason, 213 U. S. 115; United States v. Mescall, 215 U. t\u00ed. 26; United States v. Stevenson, 215 U. S. 190.\nThe District Court also held the two counts bad on a second ground, namely, that the original organization of \u25a0 the company was neither a combination in restraint of trade nor a conspiracy in restraint of trade under the ' Sherman Act. By such decision the District Court construed the Sherman Act. .\nThe Criminal Appeals Act of 1907, under which the present writ of error was brought, was repealed by the Judicial Code which became effective January 1, 1912, and therefore this court has no jurisdiction as the writ of error was filed after that date. United States v. Stevenson, 215 U. S. 190.\nThe fact that the machines manufactured by the company are protected by letters-patent was not considered by the District Court in its construction of the Sherman Act, and is not open in this court.\nThe District Court was not in error in its construction of the Sherman Act in relation to counts one and two.\nThe organization of the company by said( defendants together, and the turning over by said groups of defendants to and the taking over by the company of the stocks and business of the three corporations, was not, and is not, a combination in restraint of defendants\u2019 own trade nor a conspiracy in' restraint of trade of the shoe manufacturers in \u25a0 shoe machinery. United States v. American Tobacco Co., 221 U. S. 106.\nBy the organization of the United Shoe Machinery Company there was no restriction of competition. The three groups of defendants, prior to the organization of the company, were not engaged in competition with each other. Their businesses were absolutely different, and each business related to a different commodity. Kokomo Fence Machine Co. v. Kitselman,. 189 U. S. 8; Addystoh Pipe Co. v. United States, 175 U. S. 21T; Northern Sec. Co.' v. United States, 193 U. S. 197; Montague v. Lowry, 193 U. S. 38; Miles Medical Co. v. Park Co., 220 U. S. 373; Shawnee Compress Co. v. Anderson, 209 U. S. 423; Continental Wall Paper Co. v. Voight, 212 U. S. 227; U. S. Machinery Co. v. La Chapelle, 212 Massachusetts, 467; Swift & Co. v. United States, 196 U. S. 375; United Slates v. John Reardon Co., 191-Fed. Rep. 454; Standard Sanitary Co. v. United States, 226 U. S. 20; United States v. Un. Pac. R. R. Co., 22(i. U. S. 61; United States v. Terminal R. R. Ass\u2019n, 224 U- S. 383; United Stales v. Reading Co., 226 U. S. 324.\nBy the organization of the company the defendants, taken individually, or in groups, or together, did not agree to restrain such trade as they had in different commodities, or in any manner to restrain their own traded Addystori Pipe Co. v. United States, 175 U. S. 211; Montague v.- Lowry, 193 XJ. S. 38; Shawnee Compress Co. v. Anderson, 209 U. S. 423; Continental Wall Paper Co. v. Voight, 212 U. S. 227; Ellis v. Inman, 131 Fed. Rep. 182; \u25a0Standard Oil Co. v. United States, 221IJ. S. 1; United States v. American Tobacco Co., 221 U. S. 106; Blount Mfg. Co. v. Yale Mfg. Co., 166 Fed. Rep. 555; United States v. Trans-Missouri Assbi, 166 U. S. 290; Swift &\u25a0 Co. v. United States, 196 U. S. 375; Miles Medical C\u00f3. v. Park Co., 220 U; S. 373; United States v.~Standard Sanitary Co., 191 Fed. Rep. 172; Bigelow y. Calumet & Hecla Co., 167 Fed. Rep. 721.\nThe combination created by the organization of the United Shoe Machinery Company was-purely an economic arrangement, not in violation of any rule in restraint of trade at common law, or which has been announced by the Supreme Court; Joint Traffic Case, 171 U. S. 505.\nThe. combination of '\u25a0 businesses, each dealing -with a different commodity, into one corporation, has never been held a restraint of trade either at common law or under the Sherman Act. United States v. American Tobacco Co., 221 U. S. .106; United States v. Reading Co., 226 U. S. 324; Union Pacific \u25a0 Coal C.o. v. United States, 173 Fed. Rep. 737; United States v. Standard Oil Co., 173 Fed. Rep. 177.\nThat the District Court was right in the only construction of the Sherman Act. now before this court; to wit, in holding that the organization of the United Shoe Machinery Company was not within the purview of the Sherman Act, is further apparent from the fact that such organization of the United Shoe Machinery Company had no direct o'r immediate effect upon interstate commerce. If it had any effect at all upon interstate commerce, such effect was accidental, secondary,' remot.e, and not even probable. Bigelow v. Calumet & Hecla Co., 167 Fed. Rep. 721; Anderson v. United States, 171 U. S. 604; Field v. Barber Asphalt Paving Co., 194-U. S. 618; Standard Oil Co. v. United-States, 221 U. S. 1.\nWhether these lease provisions are or are not in restraint of trade is not before this court for several reasons: these defendants are not indicted for making these lease provisions; the language of the indictment in regard to these leases shows it; the act of the defendants in relation to these lease provisions is only an overt act, and only one of three or four overt acts named in the same paragraph of indictment; the combination and conspiracy are each absolutely complete- without this overt act; the leases are not a part of the combination or conspiracy. No original intent to change leases is shown or any agreement to do so;, the leases are not part of the original combination or conspiracy because between different parties; the question is one of duplicity on the theory of the United States; the lease provisions in these two counts were not construed or passed upon by the District Court; if the lease provisions had been involved here,. the District Court would have considered the patent law.\nThe entire argument of the United States in regard to the business of these defendants and of the corporation is based on the erroneous view that the machines of the defendants were alb the machines used in shoe making, and as a corollary to the-above, the United States says that the defendants control between seventy and eighty per cent, of the entire shoe machinery business in the United States.\nOn this record the particular form of the organization of the company, and the taking over of the capital stocks and business of the three origiiial corporations is immaterial.\nIndictment 113 was dismissed by the District Court for duplicity and it should be explained why the second count of indictment 114 was not brought to this court by the 'United States.\nThe defendants \u00e1re not indicted for dominating the supply of shoe machinery. Reading R. R. Case, 226 U. S. 324.\nThe argument of the United States fails absolutely, because the defendants are not indicted for dominating the supply of shoe machinery; so also as to the alleged competition before the date of the organization of the company and 'the alleged competition thereafter.\nThe argument of the United States, as to the effect of the organization of the United Shoe Machinery Company, is absolutely fallacious. '\nThe particular patented machines, of these defendants are not indispensable to the manufacturer of shoes by the admission of The United States in its brief; in fact the dissatisfied shoe manufacturer mentioned by the United States is better off after the organization of this company-than before.\nThe organization. of the company did not compel the customer to deal with the same group as to the'-four classes of machinery. All of the cases cited by the United States in this section of its brief relate to combinations of competitors dealing in the same commodity.\nIt is to be remembered that .defendants are not indicted for,monopolizing; that defendants\u2019 machines \u00e1re patented and they are entitled to one hundred per cent, of the trade therein. l-\nThe merger of' the three companies was lawful and proper.\nThe leases form no part of-the merger and are not pertinent to this discussion.\nNo express agreement to restrain trade is alleged, and, therefore, the (tovernment is compelled to contend that (he natural, necessary and inevitable effect of the-merger was to restrain-trade.\nIn every prior case, except Loewe v. Lawlor, 208 U. S. 274, the combination complained of has been a combination of competitors or a combination formed to eliminate competition.\nAs to the character of conduct condemned by the Sherman Act-see-Standard Oil Co. v. United States, 221 U. S. 1; United-States v. American Tobacco Co., 221 U. S. 106; United States v. Joint Traffic Asso., 171 U. S. 505;'Ander-son v. United States, 171U. S. 604. \u2019\nThe merger did' not produce, was not designed to produce, and'its natural or necessary effect was not to produce any restraint of trade, for defendants were not personally \u2022 restrained; defendants\u2019 business was not restrained; shoe manufacturers were not restrained; other shoe machinery manufacturers were not restrained.\nThe Government\u2019s contention that the shoe manufacturer\u2019s liberty of action was restrained because the number of concerns with which he could disagree was reduced, is unsound.\nNo greater power to restrain trade resulted from the merger, and if it could be held that any spch power did result, it would not naturally or inevitably restrain trade.\nNo such power did result. If it did,, the probability that it wbuld produce a restraint of trade is too remote. Swift & Co. v. United States, 196 U.-S. 375; Commonwealth v. Peaslee,. 177 Massachusetts, 267.\nIf any restraint of trade could result from the merger it would be purely incidental to the accomplishment of a lawful purpose. \u25a0 Bigelow v. Calumet & \u25a0 Hecla Co., 167 Fed. Rep. 721; Anderson v. United States, 171 U. S. 604; Field v. Barber Asphalt Paving Co., 194 U. S. 618; Standard Oil Co. v. United States, 221 U. S. .1; United States v. Joint Traffic Asso., 171 U. S. 505.\nThe concentration of' manufacturing at Beverly produced no restraint of trade.\n\u25a0 The leases made by the defendants were clearly lawful whether considered separately or in connection with the merger.\nThe general rule is that all restrictions imposed by patentees not in their very, nature illegal are lawful. Bement v. National Harrow Co., 186 U. S. 70.\nConsiderations of public policy not recognized in the patent law .are irrelevant; the right to grant restricted licenses is given by the patent law. Henry v. Dick Co., 224 U. S. 1.\nThis right, like other rights under the patent law, should be construed liberally. Ames v. Howard, 1 Sumner, 482; Henry v. Dick Co., 224 U. S. 1.\nIf general considerations of public policy can be considered as relevant, the right to impose such restrictions should be favored.\nThe Sherman Act is not applicable to restrictions which are reasonable when considered with due regard for the patentee\u2019s lawful monopoly. Bement v. National Harrow Co., 186 U. S. It)-,'Henry v. Dick Co., 224 U. S. 1; Standard Sanitary Co. v. United States,- 226 U. S. 20.\nThe public have no right to have an unrestrained trade in or use of patented articles. United States v. American Bell Tel. Co., 167 U. S. 224; Park v. Hartmann, 153 Fed. Rep. 24; Rubber Tire Wheel Co. v. Milwaukee Rubber Works Co., 154 Fed. Rep. 358 -,Gilley v. U. S. Machinery Co., 152 Fed. Rep; 726.\nIf trade is affected by reason of such conditions or restrictions imposed by patentees, such effect is incidental to the exercise of lawful rights, and therefore is itself lawful. The patentee\u2019s compensation need not be direct but may come from the sale or use of some other article. Button-Fastener Case,11 Fed. Rep. 288; Henry v. Dick'Co., 224 U. S. 1."
+  },
+  "file_name": "0202-01",
+  "first_page_order": 236,
+  "last_page_order": 252
+}
