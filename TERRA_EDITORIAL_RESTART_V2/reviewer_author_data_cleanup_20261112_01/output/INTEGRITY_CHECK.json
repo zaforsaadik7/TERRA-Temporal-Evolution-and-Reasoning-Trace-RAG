@@ -1,19 +1,20 @@
 {
-  "baseline_file_count": 59,
-  "candidate_file_count": 59,
-  "changed_files": [
+  "baseline_source_files": 59,
+  "candidate_source_files": 59,
+  "changed_source_files": [
     "main.tex"
   ],
-  "active_working_main_matches_baseline": true,
-  "all_separate_table_sources_unchanged": true,
+  "active_working_main_matches_preserved_baseline": true,
+  "separate_table_sources_unchanged": true,
   "inline_main_table_blocks_unchanged": true,
   "main_pdf_pages": 24,
   "supplement_pdf_pages": 34,
-  "unresolved_question_mark_references_in_main_pdf": 0,
-  "github_repo_link_present_in_pdf_links": true,
-  "author_names_visible_in_pdf": true,
-  "baseline_main_sha256": "402665e3f4f7dbb680c23e31cb403b2217e90e6fca6806fe6f6b8a1ad6f769d5",
-  "candidate_main_sha256": "435ab5d293610674cc90015b561da0dfefada8e9630d9d84cd208244ad40bc6e",
-  "main_pdf_sha256": "d761cf703db0d11e084710334a1049ac714c087b721b73a17ff09e18ffe84912",
+  "unresolved_question_mark_references": 0,
+  "repository_hyperlink_present": true,
+  "author_names_present": true,
+  "corresponding_author_emails_present": true,
+  "preserved_main_tex_sha256": "402665e3f4f7dbb680c23e31cb403b2217e90e6fca6806fe6f6b8a1ad6f769d5",
+  "candidate_main_tex_sha256": "0e13ae7c6d801b8221bb0b21734315ceb35040e896893fd0cc79244b1c7bb52d",
+  "main_pdf_sha256": "8856bb1ac95d7a48d27c3f282469cc3b50a1dc5b46a62aac266deee23a1b4396",
   "supplement_pdf_sha256": "04b548bd9b3d767717fb9f803555e77028d82eec8457ed0697fb79086a2e38cc"
 }
