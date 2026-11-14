@@ -1,7 +1,0 @@
-fact_id,printed,result,source
-B12-F01,"one distinct trace text across 20,000 nodes after masking title, year, domain phrase (1)",VERIFIED,dataset_20k_cap/terra_eeg_index_20k.json
-B12-F02,"domain phrase differs from node category in 18247 of 20,000 nodes (printed 18,247)",VERIFIED,same
-B12-F03,"""Civil Rights Equal Protection"" in 19298 traces; 1153 nodes have that category (printed 19,298 and 1,153)",VERIFIED,same
-B12-F04,"no trace contains an issue/test/holding text: every trace has exactly five ""Step n:"" markers and ends with ""Pronounce holding, enter judgment, and transmit mandate.""",VERIFIED,same
-B12-F05,build_structured_trace source not found in the staged tree (found: ''),VERIFIED,grep over staged tree (absence of evidence only)
-B12-F06,docs/REASONING_TRACE_SPECIFICATION.md not in the staged tree,VERIFIED,staged tree (absence of evidence only)

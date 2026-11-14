@@ -1,9 +1,0 @@
-cases (Ncc) reflect pairs where both judges successfully evaluated both pipelines under the 5-tier consensus cascade. The reported full N = 50 sensitivity envelopes add extreme missing-pair contributions
-(∆b, ∆c) under assumed binary assignments, not observed outcomes (b = bcc + ∆b, c = ccc + ∆c). ∗Directional stability (cmax < bmin) shown by the reported extreme envelopes; these bounds do not
-identify the missing outcomes or certify legal correctness. ∗∗Difference in automated historical-correctness labels (not expert-validated legal correctness) (p = 2.1 × 10−5 via two-sided exact McNemar test;
-b = 20, c = 1). †Flat Vector RAG Condition A leakage is mechanically suppressed by its severe 46.0% refusal rate (23/50 safe refusals), which eliminates answering opportunities. §For H1, testing
-directional superiority (Ha : b > c) yields p = 1.0000 (complete-case two-sided p = 0.2500 at Ncc = 36; two-sided p = 0.0625 if missing records are zero-imputed at N = 50), confirming that Flat RAG
-produced zero leaks on queries where TERRA answered cleanly (bcc = 0) alongside a high refusal rate; this does not isolate refusal as the causal explanation. ‡NGLIR evaluated on denominator D = 9
-under Qwen (11.1%) and D = 5 under consensus (20.0%). Independent legal-expert validation of temporal false-negative detection was not performed. The exploratory AI-assisted author assessment is
-reported separately and does not estimate this rate.
-S10

@@ -1,8 +1,0 @@
-fact_id,location,printed,result,note
-B4-F01,caption Table XIII; l.647; l.655,fast route (110 queries) recorded retrieval and grading on all,VERIFIED,v2 timing
-B4-F02,"l.126, 216, 217, 249, 1027, 1037",no query terminated before retrieval (retrieval_ms>0 on all 350),VERIFIED,telemetry observation; mechanism provisional
-B4-F03,"l.647, 655, table_router_eval note",10 misrouted D: 8 flagged refusals with grader not passed + non-empty context; 2 unflagged with grader passed and generation,VERIFIED,v2
-B4-F04,"l.217, 1037","139 refusals: 81 empty (C74, D7), 58 non-empty (A2, B16, C1, D39)",VERIFIED,v2
-B4-F05,"l.225, 1037",74 of 75 Category C probes empty context; 75/75 refused,VERIFIED,v2
-B4-F06,l.225,macros: CatCTerraCleanRefusals=75/75; TerraCatDSafeHandlingRate=97.3%,VERIFIED,generated_stats.tex
-B4-F07,l.126/216,offline calibration figures are unchanged macros (not retyped),VERIFIED,edits reuse existing macros; no new numbers

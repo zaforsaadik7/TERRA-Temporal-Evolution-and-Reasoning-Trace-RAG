@@ -1,5 +1,0 @@
-fact_id,printed,result,source
-B10-F01,"Direct LLM Category B faithfulness > TERRA (Direct 0.335, TERRA 0.254)",VERIFIED,data/terra_canonical_v2_eval.json
-B10-F02,macro IssueNineteenOverallDeltaRecallMeanStd defined,VERIFIED,generated_*.tex
-B10-F03,ablation Category D set is 5 unique queries (macro IssueTwentyFourDevCatDCount) on the 35-query pilot,VERIFIED,generated_*.tex; main.tex
-B10-F04,"referenced labels exist (overall_summary, clerc_eval, ablation, temporal-update-stability)",VERIFIED,main.tex + tables/

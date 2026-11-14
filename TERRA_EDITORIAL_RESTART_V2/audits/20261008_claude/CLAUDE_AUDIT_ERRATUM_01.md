@@ -1,8 +1,0 @@
-# Erratum 01 to the Claude audit report (append-only)
-
-Author: Claude, 2026-10-08. Claude-authored, not independent of Phase 3 edits. The original `CLAUDE_AUDIT_REPORT.md` is unchanged; this erratum supersedes it where they differ.
-
-1. **Wrong table attributed (my error).** The report said the stale "42 explicit refusals and 31 substantive refutations" note is in `table_baseline_specifications.tex` line 34. It is in **`table_router_eval.tex`** line 34 (rendered Supplement VI). I re-ran `grep` on both files on 2026-10-08: the baseline-specifications source has no such text; the router table does. My earlier combined grep mixed the two outputs. Codex's correction is right; any repair must target the router table.
-2. **Protected inputs wording.** All 131 recorded inputs match their recorded hashes (I re-hashed 54 of them myself; Codex re-hashed all 131). 119 have preserved snapshot copies; the 12 `r30corr_v1` entries were hash-pinned only. This is what the original report said, now stated with Codex's full re-hash.
-3. **Unchanged findings.** F01, F03 (system-comparison "issue, test, and holding summaries" and the router-table note), F04/C16, C25 (exact McNemar 3 versus 1, p = 0.625), and the Table X net-route and gross-route defects stand as reported.
-4. **Status after Codex's addendum (CODEX_RESPONSE.md).** Codex accepted the four corrections and the three extra findings. The Table VIII tabular removal still needs the user's explicit ratification or a compact-table request. The bundle-release wording is still unchanged in the manuscript (Batch 28 text) until a user-approved batch narrows it.

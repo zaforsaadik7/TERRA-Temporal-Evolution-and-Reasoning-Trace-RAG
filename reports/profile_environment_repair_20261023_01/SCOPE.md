@@ -1,1 +1,0 @@
-Code-only explicit USERPROFILE binding and synthetic regressions, authorized23 October2026 after Codex-0257. No new attempt or operational changes. Existing executed packets/evidence/locks remain preserved; admissions remain closed. Future packets must use the new helper with an explicitly reviewed profile, never ambient environment inheritance.

@@ -1,3 +1,0 @@
-Counter({('rf==likert', True): 1750})
-Counter({('qmap', True, 'gmap', True): 1149, ('qmap', False, 'gmap', False): 335, ('qmap', False, 'gmap', True): 237, ('qmap', True, 'gmap', False): 29})
-[(('1_Direct_LLM', 'databricks-meta-llama-3-3-70b-instruct'), 350), (('2_Flat_Vector_RAG', 'databricks-meta-llama-3-3-70b-instruct'), 166), (('2_Flat_Vector_RAG', None), 184), (('3_GraphRAG_Adapted', 'databricks-meta-llama-3-3-70b-instruct'), 177), (('3_GraphRAG_Adapted', None), 173), (('4_HippoRAG_Adapted', 'databricks-meta-llama-3-3-70b-instruct'), 185), (('4_HippoRAG_Adapted', None), 165), (('5_Full_TERRA', 'databricks-meta-llama-3-3-70b-instruct'), 211), (('5_Full_TERRA', None), 139)]

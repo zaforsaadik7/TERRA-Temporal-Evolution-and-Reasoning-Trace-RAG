@@ -1,3 +1,0 @@
-# Held explicit-vector candidate
-
-User approved non-executable packet preparation and two-pass filesystem checking only. Source repair reviewed in Antigravity-0214. No admission or attempt authority is issued by this package. The new proposed paths, rule name, null authority and source/alias changes are recorded in the decision and packet_changes.json. Two-pass results will be saved separately. No database connection, application import, model operation, native API or network is involved. Existing caches are hashed and their headers inspected, not executed or regenerated. Full runtime success remains unverified.

@@ -1,6 +1,0 @@
-fact_id,check,result,note
-B7-C01,"bib key set unchanged (27 entries, same keys, same order)",VERIFIED,
-B7-C02,every cited key exists in the new ref.bib,VERIFIED,[]
-B7-C03,"only intended citation changes: roig -1, zheng2023judging net 0 (+1 -1), edge -1, sun -1",VERIFIED,"{'edge2024graphrag': -1, 'sun2024thinkongraph': -1, 'roig2026scalablereliableevaluationai': -1}"
-B7-C04,"bibtex on the new ref.bib reproduces the delivered main.bbl exactly, with 0 warnings",VERIFIED,
-B7-C05,uncited bib entries (kept in ref.bib; BibTeX omits them),VERIFIED,['roig2026scalablereliableevaluationai']
