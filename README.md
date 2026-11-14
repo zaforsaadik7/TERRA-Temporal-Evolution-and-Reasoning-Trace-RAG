@@ -89,9 +89,11 @@ TERRA/
 
 ---
 
-## 👨‍💻 Author & Attribution
+## 👨‍💻 Authors & Contributors
 
-Developed & Maintained by **Md. Emam Zafor Saadik** ([@zaforsaadik7](https://github.com/zaforsaadik7))
+Developed & Maintained by:
+- **Md. Emam Zafor Saadik** ([@zaforsaadik7](https://github.com/zaforsaadik7))
+- **Muhammad Raihan Molla** ([@raihan12121](https://github.com/raihan12121)) — [GitHub Repository](https://github.com/raihan12121/TERRA-Temporal-Evolution-and-Reasoning-Trace-RAG)
 
 ---
 
