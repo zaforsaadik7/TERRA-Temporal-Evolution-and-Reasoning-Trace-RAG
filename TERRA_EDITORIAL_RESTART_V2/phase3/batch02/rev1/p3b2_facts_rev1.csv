@@ -1,5 +1,0 @@
-fact_id,location,printed,check,result,source
-B2R-F01,main.tex links item,660/664 pass the validator; 4 fail,project extractor on canonical v2 (read-only import),VERIFIED,scripts/audit_citation_correctness.py; data/terra_canonical_v2_eval.json
-B2R-F02,main.tex links item; table note,644 of 664 have an identifier that exists as written (97.0%),"identifier in graph nodes, independent count",VERIFIED,active graph 7aa6db46; canonical v2
-B2R-F03,main.tex links item,the other 16 links with a non-existent identifier were accepted on caption match,664-644 = 20 non-existent; 4 fail validator; 20-4 = 16 pass via title/alias,VERIFIED,same
-B2R-F04,main.tex Doctrinal Support Precision item,"TERRA 9.30 > Hippo 9.06, Direct 7.08, GraphRAG 6.29; < Flat 14.15 (judge-weighted)",Phase 1 recomputation vs frozen macros,VERIFIED,r10_citation_recompute_out.txt; generated_stats.tex

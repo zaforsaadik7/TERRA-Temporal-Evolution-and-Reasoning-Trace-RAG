@@ -1,1 +1,0 @@
-User approved journal template change and complete I9 implementation in this chat on 25 October 2026. Existing 25-page advisor ceiling and object-specific disposition boundaries retained. No research/API/statistics/promotion authority inferred.

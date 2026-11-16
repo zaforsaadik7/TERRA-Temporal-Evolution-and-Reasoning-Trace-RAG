@@ -1,6 +1,0 @@
-fact_id,printed,result,source
-B9-F01,"TERRA mean context ~18,400 chars vs retrieval baselines 2,900-4,100",VERIFIED,data/terra_canonical_v2_eval.json (context_full)
-B9-F02,fast route (Category A) records retrieval and grading on all rows,VERIFIED,same
-B9-F03,Flat RAG refused 23/50 in Condition A; probe n=50,VERIFIED,scratch/temporal_leakage_statistical_summary.json
-B9-F04,"HLCR macros 76.0% (TERRA gated) vs 38.0% (Flat), Condition A",VERIFIED,generated_stats.tex
-B9-F05,yalavarthi and hashmi keys exist in ref.bib,VERIFIED,ref.bib

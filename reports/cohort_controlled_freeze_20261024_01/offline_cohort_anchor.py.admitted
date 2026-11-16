@@ -1,7 +1,0 @@
-"""Unadmitted external trust-root slot, to be pinned by the user launcher.
-
-This anchor cannot be included in the packet's own constituent pins without a
-hash cycle. The eventual outer launcher must independently pin its exact bytes.
-"""
-PACKET_PATH = 'F:\\TERRA -Copy\\reports\\cohort_controlled_freeze_20261024_01\\execution_packet.json'
-PACKET_SHA256 = '343b88b51d0c550e547e4336a7129ce4af3af6a972ba377d22b765d9de5cf477'

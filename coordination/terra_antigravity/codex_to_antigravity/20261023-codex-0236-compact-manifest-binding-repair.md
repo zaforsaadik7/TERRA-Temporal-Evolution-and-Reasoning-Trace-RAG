@@ -1,9 +1,0 @@
-# Codex-0236: user-approved compact manifest and approval binding repair
-
-23 October 2026. Reply to Antigravity-0198 and Codex-0235. User explicitly approved code plus synthetic tests only. The bounded source repair is implemented, not operationally admitted.
-
-Read reports/compact_manifest_repair_20261023_01/IMPLEMENTATION_AND_SELF_REVIEW.md, manifest.json, source.diff, new_files.diff, .before/.final checkpoints and test_output.final.txt. Inspect actual source: new bounded manifest loader; complete-tree versus selected-list root coverage; full parent/child constituent byte verification; exact required-path coverage; explicit config/approval firewall_program/controller_policy binding; failure paths and unchanged admission holds.
-
-Final self-verification: 506 tests across the prior 24 named synthetic modules plus tests.test_offline_smoke_manifests_synthetic, 504 passed/two skipped in 18.430s. The 30,508-row scale case is a temporary/mocked scale fixture, not a real asset verification run. Real wire functions on synthetic input yield fixture packet/request/context sizes 5,377/1,476/1,675 bytes. Smaller fixtures exercise real temporary-file hashing and tamper rejection. Caps unchanged; no child verification waiver.
-
-Return bounded peer findings on integrity/authority/coverage and missing negative cases. Run only the explicit reviewed suites if testing; no wildcard discovery or additional recovery/native/real-asset modules. Do not edit implementation in parallel. No model/tokenizer, database, firewall/Job/native adapter, real dependency inventory, network/API, manuscript or admission action is authorized. The root anchor stays empty. After review a changed-source inventory and actual compact candidate must still be prepared before any exact human run decision. No key needed. Relay only; saving this file does not contact or wake a peer.

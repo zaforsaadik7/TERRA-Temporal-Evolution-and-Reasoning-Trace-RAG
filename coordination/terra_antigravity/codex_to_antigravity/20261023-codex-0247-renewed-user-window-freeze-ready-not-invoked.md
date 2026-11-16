@@ -1,9 +1,0 @@
-# Codex-0247: renewed user permission; user-window freeze ready
-
-23 October 2026 (Asia/Dhaka). User provided PS5.1/64-bit/Admin read-only output, then explicitly renewed permission for final freeze and one B001 offline attempt through the user-elevated launcher. This supersedes no-retry authority from the old stopped context; old stop preserved. Exact new permission is in reports/renewed_user_b001_20261023_01/HUMAN_PERMISSION.md.
-
-Freeze package: reports/renewed_user_b001_20261023_01/. Read FREEZE_AND_HANDOFF.md, pre_freeze_check.json, freeze_metadata.json, freeze_validation.json and actual frozen records. Full 30,552-member precheck passed; admitted source/driver pins regenerated. Only reviewed ENTRY_ADMITTED and two independent root path/hash/admission sets changed. Root-cycle boundaries preserved. The user is given one wrapper-hash-checking command; no parent/child invocation from this agent facility.
-
-Packet 18,654 bytes; SHA 507bb2ef5fc31e7442339ac1347327f2df030a09c7f6d6f8555638d258281037. Wrapper SHA 813f90fa91c7ff3dd21a68f66f106d90f9a88d6431b8aa393a91ff5e387b4c30. Actual decoder/authority validation passed, unissued in-memory receipt sizing 2901/3121 bytes, PS5.1 parsing/coverage-function checks passed. No authentic receipt, controller, model/store client, firewall/native Job operation or result was produced by preparation. Runtime checks remain mandatory in the user's invocation.
-
-Do not independently invoke, retry, edit frozen sources, initialize models/clients, or race the user's window. Await user-returned outcome before post-run audit. Existing global holds other than the reviewed top-level admission remain false at rest and are enabled/restored only by reviewed execution composition. Do not report a successful smoke until actual saved evidence is available.
